@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0225",
+  "repo_full_name": "randlee/atm-core",
+  "skill_path": ".claude/skills/triaging-findings/SKILL.md",
+  "skill_directory": ".claude/skills/triaging-findings",
+  "old_revision": "e864d5729467fbffd65aff5226a9c9d7230a2e0a",
+  "new_revision": "d7b554befe734f98fd11bc577e60db0080889d7e",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-10T17:02:48Z",
+  "new_commit_message": "feat: Phase S — daemon observability, log-root override, integration gate hardening",
+  "commit_url": "https://github.com/randlee/atm-core/commit/d7b554befe734f98fd11bc577e60db0080889d7e",
+  "compare_url": "https://github.com/randlee/atm-core/compare/e864d5729467fbffd65aff5226a9c9d7230a2e0a...d7b554befe734f98fd11bc577e60db0080889d7e",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "randlee/atm-core",
+    "path": ".claude/skills/triaging-findings/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "014c572ffe62022076d38f80b90e357d9825f5b7",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-10T17:02:48Z",
+    "commit_count": 7,
+    "sibling_count": 1,
+    "sibling_bytes": 4301,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/randlee/atm-core/commits?path=.claude%2Fskills%2Ftriaging-findings%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0225",
+  "old": {
+    "revision": "e864d5729467fbffd65aff5226a9c9d7230a2e0a",
+    "tree_sha": "0762c0fb46d5eeb81399bb6ee3e9a1ebfa347e25",
+    "file_count": 2,
+    "bytes": 13188,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "efeb8ef0178a53d05d4425c48d2b0be5ad7ef538",
+      "sha256": "bb1a14bc9c49c7cc73e7d2771ef043b1c90c0430d8c8eb1512118a73534ea540",
+      "size": 8887
+    }
+  },
+  "new": {
+    "revision": "d7b554befe734f98fd11bc577e60db0080889d7e",
+    "tree_sha": "39bb95d857ab2b7142d9d6e8943d07da70c6d556",
+    "file_count": 2,
+    "bytes": 14277,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "014c572ffe62022076d38f80b90e357d9825f5b7",
+      "sha256": "0750774a2ea024b094215e631ccbb569fe2e83c0d40c7256978f46a49710c0c1",
+      "size": 9976
+    }
+  },
+  "diff_added_lines": 28,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "cdc8aa90c3ab1a00b906037adbce4ad20bdaeb40f073e8315c58b39fcb8b7515"
+}

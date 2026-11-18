@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0094",
+  "repo_full_name": "balamuru/antigravity-dev-skills",
+  "skill_path": ".agents/skills/prerequisites-checker/SKILL.md",
+  "skill_directory": ".agents/skills/prerequisites-checker",
+  "old_revision": "bdd284fd8224ce68cbf569690dfeaa4d60271ec2",
+  "new_revision": "fbc2f9803c22d7da7fc1177d16b1e08359484546",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-22T18:28:42Z",
+  "new_commit_message": "feat: add ideal-model metadata to all skills and update documentation with new agents",
+  "commit_url": "https://github.com/balamuru/antigravity-dev-skills/commit/fbc2f9803c22d7da7fc1177d16b1e08359484546",
+  "compare_url": "https://github.com/balamuru/antigravity-dev-skills/compare/bdd284fd8224ce68cbf569690dfeaa4d60271ec2...fbc2f9803c22d7da7fc1177d16b1e08359484546",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "balamuru/antigravity-dev-skills",
+    "path": ".agents/skills/prerequisites-checker/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00883e0c9599a718414285ee8e3f70ad2943d9df",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-04-22T18:28:42Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/balamuru/antigravity-dev-skills/commits?path=.agents%2Fskills%2Fprerequisites-checker%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0094",
+  "old": {
+    "revision": "bdd284fd8224ce68cbf569690dfeaa4d60271ec2",
+    "tree_sha": "791ba6b85c531f2894a86065502fa9a556f66df3",
+    "file_count": 1,
+    "bytes": 1113,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "ad4ee8c7913df12aaad825fb3ceea5fb10dbb1dd",
+      "sha256": "77dae86797d418ca5e8764f8b30d2bc59882c87442e47726963066e274341087",
+      "size": 1113
+    }
+  },
+  "new": {
+    "revision": "fbc2f9803c22d7da7fc1177d16b1e08359484546",
+    "tree_sha": "e1fc6a14fa95ad185b91a9d8994a992e5204a3c6",
+    "file_count": 1,
+    "bytes": 1145,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00883e0c9599a718414285ee8e3f70ad2943d9df",
+      "sha256": "b2ad338e4b828640cdd5c97b88b074bc58ed401b295dfc25fc8ce3bc6470761e",
+      "size": 1145
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9c60b4086293a3ae02990f741c6db33de0f5815ef3297684b071044817806dc2"
+}

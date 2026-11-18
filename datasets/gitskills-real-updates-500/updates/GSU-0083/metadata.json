@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0083",
+  "repo_full_name": "olafkfreund/TFactory",
+  "skill_path": ".claude/skills/tfactory-from-template/SKILL.md",
+  "skill_directory": ".claude/skills/tfactory-from-template",
+  "old_revision": "babe198836366a0cca43ae29d1bdb3a086dc2c02",
+  "new_revision": "b140c89d7744997387efad9871ab3fc48fe50f24",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-30T18:53:16Z",
+  "new_commit_message": "feat(triager): auto-harvest accepted tests into a reusable template library",
+  "commit_url": "https://github.com/olafkfreund/TFactory/commit/b140c89d7744997387efad9871ab3fc48fe50f24",
+  "compare_url": "https://github.com/olafkfreund/TFactory/compare/babe198836366a0cca43ae29d1bdb3a086dc2c02...b140c89d7744997387efad9871ab3fc48fe50f24",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "olafkfreund/TFactory",
+    "path": ".claude/skills/tfactory-from-template/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "019c7ae5d748fcff957f86289a881fc737f4e525",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-30T18:53:16Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/olafkfreund/TFactory/commits?path=.claude%2Fskills%2Ftfactory-from-template%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0083",
+  "old": {
+    "revision": "babe198836366a0cca43ae29d1bdb3a086dc2c02",
+    "tree_sha": "b9028a8ef27c6e2e270f8b441df805e3b8308ff7",
+    "file_count": 1,
+    "bytes": 7454,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "219a3f5b8387bb5ce3837aaa88575748d15d54c5",
+      "sha256": "62607bbec1ab580ba787d1cf67c791dc754c203cfd302239264a143c2ff6cb7a",
+      "size": 7454
+    }
+  },
+  "new": {
+    "revision": "b140c89d7744997387efad9871ab3fc48fe50f24",
+    "tree_sha": "78c500e6d246d550bde67a9ead89591971e3184b",
+    "file_count": 1,
+    "bytes": 8465,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "019c7ae5d748fcff957f86289a881fc737f4e525",
+      "sha256": "cfc96633c842b6fc0808a216772e933da9330088790c094173d724330fe2edad",
+      "size": 8465
+    }
+  },
+  "diff_added_lines": 18,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "28bff7502b935f60494d37e95b7ebf78dd826afc08bde3c0bfa03c4a7b30f430"
+}

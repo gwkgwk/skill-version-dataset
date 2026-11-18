@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0056",
+  "repo_full_name": "marcglasberg/async_redux",
+  "skill_path": ".claude/skills/asyncredux-persistence/SKILL.md",
+  "skill_directory": ".claude/skills/asyncredux-persistence",
+  "old_revision": "128a2086425f8d6801b287900b30f0497a981f9a",
+  "new_revision": "e51000ec0a8991fd36e44eb281fc48cf986049ac",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-29T20:56:37Z",
+  "new_commit_message": "Skills improvement.",
+  "commit_url": "https://github.com/marcglasberg/async_redux/commit/e51000ec0a8991fd36e44eb281fc48cf986049ac",
+  "compare_url": "https://github.com/marcglasberg/async_redux/compare/128a2086425f8d6801b287900b30f0497a981f9a...e51000ec0a8991fd36e44eb281fc48cf986049ac",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "marcglasberg/async_redux",
+    "path": ".claude/skills/asyncredux-persistence/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "011be48fd2f056e1beb68758407ea1a8a06074a9",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-01-29T20:56:37Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/marcglasberg/async_redux/commits?path=.claude%2Fskills%2Fasyncredux-persistence%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0056",
+  "old": {
+    "revision": "128a2086425f8d6801b287900b30f0497a981f9a",
+    "tree_sha": "39885a362e74a4327b5ea522934e4f970cc56f10",
+    "file_count": 1,
+    "bytes": 6596,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e917b2e07d4d0c8cc364ac837874ba2dddce3c88",
+      "sha256": "dedf291040440ee019abe63933f6b564d001a912c9446c3dda54fe91a04fbb14",
+      "size": 6596
+    }
+  },
+  "new": {
+    "revision": "e51000ec0a8991fd36e44eb281fc48cf986049ac",
+    "tree_sha": "91d08f5e7708c7a0937c120e2e32ca74747d7c07",
+    "file_count": 1,
+    "bytes": 6593,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "011be48fd2f056e1beb68758407ea1a8a06074a9",
+      "sha256": "ac2c47d0f707b4154d017975f237601f43ff2093e2d0b078bfa67ee84bf3cc89",
+      "size": 6593
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "77630df10765f7576c7bd0be2e035e8ea08fc501ab063dcfb52b4dd0040e1e38"
+}

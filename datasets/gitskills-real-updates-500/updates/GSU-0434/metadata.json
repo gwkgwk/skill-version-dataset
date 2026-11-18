@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0434",
+  "repo_full_name": "tenstorrent/tt-xla",
+  "skill_path": ".claude/skills/graph-break-analysis/SKILL.md",
+  "skill_directory": ".claude/skills/graph-break-analysis",
+  "old_revision": "61cf307657baa2aa0f936636946efb0a4f4a13f3",
+  "new_revision": "c06e64975d602758bc2b4c5781a42e6b2c07ff0a",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-21T15:17:48Z",
+  "new_commit_message": "Fix graph_break_analysis.md (#4345)",
+  "commit_url": "https://github.com/tenstorrent/tt-xla/commit/c06e64975d602758bc2b4c5781a42e6b2c07ff0a",
+  "compare_url": "https://github.com/tenstorrent/tt-xla/compare/61cf307657baa2aa0f936636946efb0a4f4a13f3...c06e64975d602758bc2b4c5781a42e6b2c07ff0a",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "tenstorrent/tt-xla",
+    "path": ".claude/skills/graph-break-analysis/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01a2514ebd68e5895664821b4b860e3475af9d4f",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-04-21T15:17:48Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/tenstorrent/tt-xla/commits?path=.claude%2Fskills%2Fgraph-break-analysis%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0434",
+  "old": {
+    "revision": "61cf307657baa2aa0f936636946efb0a4f4a13f3",
+    "tree_sha": "4c819f2d96abf86ad84b32e89af0ee6feed47c0a",
+    "file_count": 1,
+    "bytes": 5127,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "9ae91fcbfbec4e6112b93d27977a43db4ea809c4",
+      "sha256": "1e26aed7c6796c40b06f9d5191002b1dab8f341bca84649af41b8d34b5e447dc",
+      "size": 5127
+    }
+  },
+  "new": {
+    "revision": "c06e64975d602758bc2b4c5781a42e6b2c07ff0a",
+    "tree_sha": "6831e10843c69ab383e7b47f3c3fd5212b0780e6",
+    "file_count": 1,
+    "bytes": 5128,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01a2514ebd68e5895664821b4b860e3475af9d4f",
+      "sha256": "a4752bd4ac0811e65bdfe5ff9de21d290c8235d9b8b0dd5acafdd1f3db8f0b23",
+      "size": 5128
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "1e78310183344957ce67d83b912f5f27c5f61733ab0f7222de461a68f321aa62"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0197",
+  "repo_full_name": "wangzhefawang/LearnAnything",
+  "skill_path": ".claude/skills/learn-anything-topic/SKILL.md",
+  "skill_directory": ".claude/skills/learn-anything-topic",
+  "old_revision": "6e64b0434a50d5e1e3d92d9ca714bc7340a1563d",
+  "new_revision": "138b92766ed5b4796de2ba3dbde8ab66dff46093",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-18T14:33:26Z",
+  "new_commit_message": "学习视图新增可选 note 标注字段：校验、渲染（加粗+标注列）、测试与文档同步，并为易成感知岗位视图标注实习重合概念",
+  "commit_url": "https://github.com/wangzhefawang/LearnAnything/commit/138b92766ed5b4796de2ba3dbde8ab66dff46093",
+  "compare_url": "https://github.com/wangzhefawang/LearnAnything/compare/6e64b0434a50d5e1e3d92d9ca714bc7340a1563d...138b92766ed5b4796de2ba3dbde8ab66dff46093",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "wangzhefawang/LearnAnything",
+    "path": ".claude/skills/learn-anything-topic/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "004311be156c7989a6fa822b89f3d39521c6b548",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-18T14:33:26Z",
+    "commit_count": 4,
+    "sibling_count": 1,
+    "sibling_bytes": 11931,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/wangzhefawang/LearnAnything/commits?path=.claude%2Fskills%2Flearn-anything-topic%2FSKILL.md&per_page=10&until=2026-07-18T14%3A33%3A27%2B00%3A00",
+  "history_cutoff": "2026-07-18T14:33:27+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0197",
+  "old": {
+    "revision": "6e64b0434a50d5e1e3d92d9ca714bc7340a1563d",
+    "tree_sha": "220ab45b51dad18d318d64957a1b09f95d0c3d7d",
+    "file_count": 2,
+    "bytes": 21979,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "004311be156c7989a6fa822b89f3d39521c6b548",
+      "sha256": "9f100e0440c7cafcbf4e8545a8cc56af8d9fbdd64b3c7b6fd1b3c663d4d9eca8",
+      "size": 10378
+    }
+  },
+  "new": {
+    "revision": "138b92766ed5b4796de2ba3dbde8ab66dff46093",
+    "tree_sha": "f63e2730ed3b729701eaf446584f2e4fd27b176d",
+    "file_count": 2,
+    "bytes": 22336,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "baac5979a535bc52bab1454b2d6e98876a275fd3",
+      "sha256": "70d21f5e7614fc197218ed6f927769bcca198a3dd083fefbb8c1eb226329b3a2",
+      "size": 10405
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "scripts/utils.mjs"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "214df045841f339341ea19691953cf6f298a87c64e61ff6f040701e377b2bdd6"
+}

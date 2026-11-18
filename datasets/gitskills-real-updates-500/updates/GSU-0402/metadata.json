@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0402",
+  "repo_full_name": "minicoohei/ai-agent-camp",
+  "skill_path": "skills/video-editor/SKILL.md",
+  "skill_directory": "skills/video-editor",
+  "old_revision": "7e5f1f0c4d48f581620ce3532eb1ab5dcf4ea536",
+  "new_revision": "6b57bb5a700b1a923eb67dcef54a14cfd184e4a8",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-12T04:57:20Z",
+  "new_commit_message": "Fix SKILL.md descriptions: convert multiline to inline scalar",
+  "commit_url": "https://github.com/minicoohei/ai-agent-camp/commit/6b57bb5a700b1a923eb67dcef54a14cfd184e4a8",
+  "compare_url": "https://github.com/minicoohei/ai-agent-camp/compare/7e5f1f0c4d48f581620ce3532eb1ab5dcf4ea536...6b57bb5a700b1a923eb67dcef54a14cfd184e4a8",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "minicoohei/ai-agent-camp",
+    "path": "skills/video-editor/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "01a4b404dbd43c5cb0ce0d8e6480d0569ad14dc2",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-04-12T04:57:20Z",
+    "commit_count": 3,
+    "sibling_count": 5,
+    "sibling_bytes": 33731,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/minicoohei/ai-agent-camp/commits?path=skills%2Fvideo-editor%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0402",
+  "old": {
+    "revision": "7e5f1f0c4d48f581620ce3532eb1ab5dcf4ea536",
+    "tree_sha": "474b1eb46dbdb997ec132b54acc5e6ef0d2f5131",
+    "file_count": 4,
+    "bytes": 30272,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0601aa3526635547721504bb3df21561117520c6",
+      "sha256": "e403f62735ea8036964aad8b596e52b94cd549a43cda31acab4a0b0753c6354f",
+      "size": 4599
+    }
+  },
+  "new": {
+    "revision": "6b57bb5a700b1a923eb67dcef54a14cfd184e4a8",
+    "tree_sha": "1168306d1b25227d12fd2cfb96138926d0e2388c",
+    "file_count": 4,
+    "bytes": 30262,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01a4b404dbd43c5cb0ce0d8e6480d0569ad14dc2",
+      "sha256": "21edd1fe454df12e7e2c18c37ab7bacb80ebd34fda9dd26e2a7881ed7767164c",
+      "size": 4589
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 6,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "8055ca6dbdc74618a5f0fa12ed0f96c469f3b2f51cdda036f7cc48b659255830"
+}

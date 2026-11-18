@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0129",
+  "repo_full_name": "amd/gaia",
+  "skill_path": ".claude/skills/weekly-audit-patterns/SKILL.md",
+  "skill_directory": ".claude/skills/weekly-audit-patterns",
+  "old_revision": "b5e5ef46ef46700d503785ec8bc6b0b0cc8767a0",
+  "new_revision": "ef3d818eefc1abb6a5969c2df20dd29dc0920efb",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-14T12:40:46Z",
+  "new_commit_message": "feat(ci): weekly-audit quality + effectiveness — boundaries, severity, verification, lifecycle (#2012)",
+  "commit_url": "https://github.com/amd/gaia/commit/ef3d818eefc1abb6a5969c2df20dd29dc0920efb",
+  "compare_url": "https://github.com/amd/gaia/compare/b5e5ef46ef46700d503785ec8bc6b0b0cc8767a0...ef3d818eefc1abb6a5969c2df20dd29dc0920efb",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "amd/gaia",
+    "path": ".claude/skills/weekly-audit-patterns/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "002e11dc9cba709ff52292cde9439fcb3f1553a1",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-14T12:40:46Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/amd/gaia/commits?path=.claude%2Fskills%2Fweekly-audit-patterns%2FSKILL.md&per_page=10&until=2026-07-14T12%3A40%3A47%2B00%3A00",
+  "history_cutoff": "2026-07-14T12:40:47+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0129",
+  "old": {
+    "revision": "b5e5ef46ef46700d503785ec8bc6b0b0cc8767a0",
+    "tree_sha": "ffe10d847763027ddd6c9277e09405cb39976222",
+    "file_count": 1,
+    "bytes": 4820,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8e0d0e0f5327790456a5c4263586345d349215e4",
+      "sha256": "af8fa870f916d2be9c50006068802bba34e4c6113614fdf22db1fc0de70e802b",
+      "size": 4820
+    }
+  },
+  "new": {
+    "revision": "ef3d818eefc1abb6a5969c2df20dd29dc0920efb",
+    "tree_sha": "bfa31812fd5cf2e9a0c9605f876461d916277a11",
+    "file_count": 1,
+    "bytes": 8680,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "dfe0c494b3a0b20eb41e4428b8f8e5b46c84c917",
+      "sha256": "346da68cfc6c5985ba78c30af10e6de8df1b48616748a2db03656e8de0c82a8d",
+      "size": 8680
+    }
+  },
+  "diff_added_lines": 76,
+  "diff_deleted_lines": 16,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "06a5a07eed4809e2585abd61390a9c40267b13003e76c1c31e032287c64b99a7"
+}

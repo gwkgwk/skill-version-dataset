@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0061",
+  "repo_full_name": "monotio/spa-vue-template",
+  "skill_path": ".claude/skills/bump-deps/SKILL.md",
+  "skill_directory": ".claude/skills/bump-deps",
+  "old_revision": "a53a92fabb6f307969e528d00502568196d9163b",
+  "new_revision": "06d8bc6f0b9aa753f38101494b13308700e9696f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-11T14:30:30Z",
+  "new_commit_message": "feat(agents): cross-runtime agent enablement (#39)",
+  "commit_url": "https://github.com/monotio/spa-vue-template/commit/06d8bc6f0b9aa753f38101494b13308700e9696f",
+  "compare_url": "https://github.com/monotio/spa-vue-template/compare/a53a92fabb6f307969e528d00502568196d9163b...06d8bc6f0b9aa753f38101494b13308700e9696f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "monotio/spa-vue-template",
+    "path": ".claude/skills/bump-deps/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0035b10f2193bbff27c19e28c057a31bea081da7",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-11T14:30:30Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/monotio/spa-vue-template/commits?path=.claude%2Fskills%2Fbump-deps%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0061",
+  "old": {
+    "revision": "a53a92fabb6f307969e528d00502568196d9163b",
+    "tree_sha": "4fdec682aa78e73bbd89501704af9ba58a1ee20a",
+    "file_count": 1,
+    "bytes": 2379,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "dc66ffbbade7d9c4c4760729113ccaea1e755751",
+      "sha256": "c1c0238b13c9825786ff6efb6814e4dc03c65b5661497200b3ff0a3f43d18b7f",
+      "size": 2379
+    }
+  },
+  "new": {
+    "revision": "06d8bc6f0b9aa753f38101494b13308700e9696f",
+    "tree_sha": "c27d7aad5db82a36fd9281ae3481b2ef1aa3efff",
+    "file_count": 1,
+    "bytes": 2356,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0035b10f2193bbff27c19e28c057a31bea081da7",
+      "sha256": "c59cee0366b739689544a4e5f5e9d39c514e4bc3bcb8dea426495eb51c9f6976",
+      "size": 2356
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 10,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "ddf8c3a9b2a1192bb67558ee496ec11598cb1e474a8e1b8deeda2aaa405e7305"
+}

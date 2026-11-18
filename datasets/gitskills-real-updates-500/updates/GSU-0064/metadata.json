@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0064",
+  "repo_full_name": "allan-simon/freelance-simulator",
+  "skill_path": ".claude/skills/sasu/SKILL.md",
+  "skill_directory": ".claude/skills/sasu",
+  "old_revision": "3bcab3493ee1811b26a58b7a0479437e1ccabfcc",
+  "new_revision": "1a99214471af20b738014ead26e8843d611c269c",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-09T12:12:15Z",
+  "new_commit_message": "Renvoyer vers DEFAULTS dans model.js plutôt que lister les params URL",
+  "commit_url": "https://github.com/allan-simon/freelance-simulator/commit/1a99214471af20b738014ead26e8843d611c269c",
+  "compare_url": "https://github.com/allan-simon/freelance-simulator/compare/3bcab3493ee1811b26a58b7a0479437e1ccabfcc...1a99214471af20b738014ead26e8843d611c269c",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "allan-simon/freelance-simulator",
+    "path": ".claude/skills/sasu/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00746fb220b747f51a2851a50175cf0ee063cc0e",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-03-09T12:12:15Z",
+    "commit_count": 4,
+    "sibling_count": 2,
+    "sibling_bytes": 30625,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/allan-simon/freelance-simulator/commits?path=.claude%2Fskills%2Fsasu%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0064",
+  "old": {
+    "revision": "3bcab3493ee1811b26a58b7a0479437e1ccabfcc",
+    "tree_sha": "3768448ee069e074eb749fc0ff693bd740a51859",
+    "file_count": 3,
+    "bytes": 36844,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "cd79144b3fe0dd8dfec21772f3226439d15d6e52",
+      "sha256": "dc5ab3c2c20d06bf60457210ce5c12fb3bf31403439e110f843563ccabfc6317",
+      "size": 6219
+    }
+  },
+  "new": {
+    "revision": "1a99214471af20b738014ead26e8843d611c269c",
+    "tree_sha": "e488bf6986011202cf0580a027beb5a392188978",
+    "file_count": 3,
+    "bytes": 36695,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00746fb220b747f51a2851a50175cf0ee063cc0e",
+      "sha256": "7d2d58b8725bbb72165e6e12c0620552e43a995fa60b2831bdc67f82365668d5",
+      "size": 6070
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "b6ec02ed78febb62075af7f75a302eaa15fdb353fe20eb3056e3388f0a2e487e"
+}

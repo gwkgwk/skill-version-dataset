@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0461",
+  "repo_full_name": "eylulsenakumral/auto-company-clean",
+  "skill_path": ".claude/skills/github-explorer/SKILL.md",
+  "skill_directory": ".claude/skills/github-explorer",
+  "old_revision": "f149baf0ca70eebed3cde8984b8a13ac9887ec29",
+  "new_revision": "39c318f33e7768606c464a11252ec52b197828ff",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2025-12-10T18:42:00Z",
+  "new_commit_message": "Adjust documentation for SKILL",
+  "commit_url": "https://github.com/eylulsenakumral/auto-company-clean/commit/39c318f33e7768606c464a11252ec52b197828ff",
+  "compare_url": "https://github.com/eylulsenakumral/auto-company-clean/compare/f149baf0ca70eebed3cde8984b8a13ac9887ec29...39c318f33e7768606c464a11252ec52b197828ff",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "eylulsenakumral/auto-company-clean",
+    "path": ".claude/skills/github-explorer/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01997b035e5814ee9d60664bfe148dd23e20f2ec",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2025-12-10T18:42:00Z",
+    "commit_count": 2,
+    "sibling_count": 2,
+    "sibling_bytes": 1305,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/eylulsenakumral/auto-company-clean/commits?path=.claude%2Fskills%2Fgithub-explorer%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0461",
+  "old": {
+    "revision": "f149baf0ca70eebed3cde8984b8a13ac9887ec29",
+    "tree_sha": "c3c8e827f6b8a3333fa4e1c6cda469fe2485d2d4",
+    "file_count": 3,
+    "bytes": 7061,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "a802af44a9e9f2dd5d95d442f0e90ec1fc886294",
+      "sha256": "2e11d8a91d4b4997296860a2915286af5e5ede29bcefd5dfd09d8a38ebe93677",
+      "size": 5756
+    }
+  },
+  "new": {
+    "revision": "39c318f33e7768606c464a11252ec52b197828ff",
+    "tree_sha": "3be46a176011c16df72c14156017a516ae243f26",
+    "file_count": 3,
+    "bytes": 11081,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01997b035e5814ee9d60664bfe148dd23e20f2ec",
+      "sha256": "6c577e289235b48fe2b2cf6f3873383a2b24356aabe3ad7f1bf94e207308c1c0",
+      "size": 9776
+    }
+  },
+  "diff_added_lines": 105,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "37eba39d341fe7e58e5bab9a3f30f9c40e4021874af4c673a3c9d8f35f6ca496"
+}

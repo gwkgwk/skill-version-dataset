@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0366",
+  "repo_full_name": "MattAltermatt/freshet",
+  "skill_path": ".claude/skills/cws-listing-freeze-check/SKILL.md",
+  "skill_directory": ".claude/skills/cws-listing-freeze-check",
+  "old_revision": "817f2fff39b32e85bec86d5b7eb3a7907934a807",
+  "new_revision": "6cb5ec0164d58414f6aa8d40eb752450aabd94b2",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-21T13:27:21Z",
+  "new_commit_message": "docs: stamp v1.1.0 submission; retire pre-release punch list; generalize freeze-check skill",
+  "commit_url": "https://github.com/MattAltermatt/freshet/commit/6cb5ec0164d58414f6aa8d40eb752450aabd94b2",
+  "compare_url": "https://github.com/MattAltermatt/freshet/compare/817f2fff39b32e85bec86d5b7eb3a7907934a807...6cb5ec0164d58414f6aa8d40eb752450aabd94b2",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "MattAltermatt/freshet",
+    "path": ".claude/skills/cws-listing-freeze-check/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0131863325f35253291d73c4342c8d367fd9aadd",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-04-21T13:27:21Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/MattAltermatt/freshet/commits?path=.claude%2Fskills%2Fcws-listing-freeze-check%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0366",
+  "old": {
+    "revision": "817f2fff39b32e85bec86d5b7eb3a7907934a807",
+    "tree_sha": "cba1b0b5a5b1124636b21803ef354f4398d4e75e",
+    "file_count": 1,
+    "bytes": 2282,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "b718d3bbe850cdc08f292c83839f86f681e441bc",
+      "sha256": "4efac2cc473b4e6c4ec0dd0bd508969d7f2bc426d2b73470394157e7ab56bdae",
+      "size": 2282
+    }
+  },
+  "new": {
+    "revision": "6cb5ec0164d58414f6aa8d40eb752450aabd94b2",
+    "tree_sha": "b77ac28b8c63150f76e01d9c45e940f2235a7076",
+    "file_count": 1,
+    "bytes": 2378,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0131863325f35253291d73c4342c8d367fd9aadd",
+      "sha256": "ab83784122d37ecddb8a7e7923921608a35ed5a2993d00cef6bfbfec49021142",
+      "size": 2378
+    }
+  },
+  "diff_added_lines": 17,
+  "diff_deleted_lines": 13,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4b9fb36582b35b283e9117322a0f2e95a91d712c8faac2361028124a0e99ce62"
+}

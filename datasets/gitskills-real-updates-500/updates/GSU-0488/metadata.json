@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0488",
+  "repo_full_name": "resilai/neurx",
+  "skill_path": ".claude/skills/add-model/SKILL.md",
+  "skill_directory": ".claude/skills/add-model",
+  "old_revision": "a3fc91ba8ed8da84a74866e0e9bfa41996fcda21",
+  "new_revision": "f9340b887df62323216121382f2c5b782b16df49",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-05T10:02:46Z",
+  "new_commit_message": "Updated claude skills and readme",
+  "commit_url": "https://github.com/resilai/neurx/commit/f9340b887df62323216121382f2c5b782b16df49",
+  "compare_url": "https://github.com/resilai/neurx/compare/a3fc91ba8ed8da84a74866e0e9bfa41996fcda21...f9340b887df62323216121382f2c5b782b16df49",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "resilai/neurx",
+    "path": ".claude/skills/add-model/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00c89e2b17b07e6947cb4feaa00ea23a65dd20d5",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-03-05T10:02:46Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/resilai/neurx/commits?path=.claude%2Fskills%2Fadd-model%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0488",
+  "old": {
+    "revision": "a3fc91ba8ed8da84a74866e0e9bfa41996fcda21",
+    "tree_sha": "73601e5f002244ecd0e4956094f9b0eacd35ff1f",
+    "file_count": 1,
+    "bytes": 5405,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c81807284290ad625847f9422034c9170638e68e",
+      "sha256": "c5e22013c2b1f079239f4256bfe8420bfb4305409dd9ef30402366577f9564d0",
+      "size": 5405
+    }
+  },
+  "new": {
+    "revision": "f9340b887df62323216121382f2c5b782b16df49",
+    "tree_sha": "21c382cdc057bb7b999491680f16c45dae70df18",
+    "file_count": 1,
+    "bytes": 5126,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00c89e2b17b07e6947cb4feaa00ea23a65dd20d5",
+      "sha256": "aa539619bfbbab9fde53054323c5c8c87fecdbf0925152b3e7e8cf90b8caf5fc",
+      "size": 5126
+    }
+  },
+  "diff_added_lines": 0,
+  "diff_deleted_lines": 10,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "af5ba940a89252efac6cce9c36ef4046f83b414827add1c061e7573801f1b9d3"
+}

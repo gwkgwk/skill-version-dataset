@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0007",
+  "repo_full_name": "cwilliams5/Alt-Tabby",
+  "skill_path": ".claude/skills/review-blocking/SKILL.md",
+  "skill_directory": ".claude/skills/review-blocking",
+  "old_revision": "02dd8e0415fe5bb08fa8c0b60635e491dcef00f7",
+  "new_revision": "c78aaa9ca6cbd594c9b9473d1ea296535840c225",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-19T21:07:48Z",
+  "new_commit_message": "Add STA reentrancy guardrails and static analysis gates",
+  "commit_url": "https://github.com/cwilliams5/Alt-Tabby/commit/c78aaa9ca6cbd594c9b9473d1ea296535840c225",
+  "compare_url": "https://github.com/cwilliams5/Alt-Tabby/compare/02dd8e0415fe5bb08fa8c0b60635e491dcef00f7...c78aaa9ca6cbd594c9b9473d1ea296535840c225",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "cwilliams5/Alt-Tabby",
+    "path": ".claude/skills/review-blocking/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0023d1d4559ef9384c36dfcff8066f331eb7bbc6",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-19T21:07:48Z",
+    "commit_count": 8,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/cwilliams5/Alt-Tabby/commits?path=.claude%2Fskills%2Freview-blocking%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0007",
+  "old": {
+    "revision": "02dd8e0415fe5bb08fa8c0b60635e491dcef00f7",
+    "tree_sha": "a1997bc7981f143539884fd5ce607ad02c683d00",
+    "file_count": 1,
+    "bytes": 9402,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "ecbbc21fdd9cda550e40a421615df7b49587327d",
+      "sha256": "cb0c7ebe1e2365c3188b247dfe1c26781372cb3badba72fd08991e77e8fdbf50",
+      "size": 9402
+    }
+  },
+  "new": {
+    "revision": "c78aaa9ca6cbd594c9b9473d1ea296535840c225",
+    "tree_sha": "4dd5403aadb4b72a434ac8e301ec5ac28636850a",
+    "file_count": 1,
+    "bytes": 9747,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0023d1d4559ef9384c36dfcff8066f331eb7bbc6",
+      "sha256": "d6c232db7ba64cbeae49750f74821b7cdd2c053c68541881662bea97b4f4b177",
+      "size": 9747
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "bd588e8eede1800d63835eaa5d1e4e18bb87cbca03032ff98a3754ca9a49257d"
+}

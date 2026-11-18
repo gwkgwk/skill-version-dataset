@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0326",
+  "repo_full_name": "cristian-robert/autonomous-automation-tester",
+  "skill_path": ".claude/skills/mcp-client/SKILL.md",
+  "skill_directory": ".claude/skills/mcp-client",
+  "old_revision": "4fd313dd27f7e33377b8386e400f3aeb9e12a919",
+  "new_revision": "8d9c8faed5d38bb64b82b9013d71f3820192dfc0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-29T00:02:53Z",
+  "new_commit_message": "reinforced test creation",
+  "commit_url": "https://github.com/cristian-robert/autonomous-automation-tester/commit/8d9c8faed5d38bb64b82b9013d71f3820192dfc0",
+  "compare_url": "https://github.com/cristian-robert/autonomous-automation-tester/compare/4fd313dd27f7e33377b8386e400f3aeb9e12a919...8d9c8faed5d38bb64b82b9013d71f3820192dfc0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "cristian-robert/autonomous-automation-tester",
+    "path": ".claude/skills/mcp-client/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0165968070bdb84d7c207d870bfe0600ed4e40d7",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-01-29T00:02:53Z",
+    "commit_count": 2,
+    "sibling_count": 3,
+    "sibling_bytes": 19705,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/cristian-robert/autonomous-automation-tester/commits?path=.claude%2Fskills%2Fmcp-client%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0326",
+  "old": {
+    "revision": "4fd313dd27f7e33377b8386e400f3aeb9e12a919",
+    "tree_sha": "4287fb4a21a838c168feed5782edc52df869e4a6",
+    "file_count": 4,
+    "bytes": 20223,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "bc659ecc9b90728291068e1785e68374cd144310",
+      "sha256": "5c913f3619dff30d98ec87fbe3431a4dd9160278513b1060226288dd891bee70",
+      "size": 3270
+    }
+  },
+  "new": {
+    "revision": "8d9c8faed5d38bb64b82b9013d71f3820192dfc0",
+    "tree_sha": "5eb8018147b8944fcdd180b6efed88fee86ebbdd",
+    "file_count": 4,
+    "bytes": 31252,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0165968070bdb84d7c207d870bfe0600ed4e40d7",
+      "sha256": "962acb3c5b14f34ba636d7da21fff240a588fce1a5cd37444ca563bf024a04e4",
+      "size": 11547
+    }
+  },
+  "diff_added_lines": 317,
+  "diff_deleted_lines": 29,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/mcp-servers.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "92b2003d2e1a1db475e04031245521f27542cebedbedeed5a55098778fec6434"
+}

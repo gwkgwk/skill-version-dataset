@@ -1,0 +1,12 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 8ddabcf..00ec001 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -4,7 +4,6 @@ description: "Validate that a story file is implementation-ready. Checks for emb
+ argument-hint: "[story-file-path or 'all' or 'sprint']"
+ user-invocable: true
+ allowed-tools: Read, Glob, Grep, AskUserQuestion, Task
+-model: sonnet
+ ---
+ 
+ # Story Readiness

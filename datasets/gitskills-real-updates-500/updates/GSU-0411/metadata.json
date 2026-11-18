@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0411",
+  "repo_full_name": "Alamator/code-ultimate",
+  "skill_path": "examples/skills/audit-agents-skills/SKILL.md",
+  "skill_directory": "examples/skills/audit-agents-skills",
+  "old_revision": "c9db045db473b3b739dad297db4f7d4e9c68449f",
+  "new_revision": "f4ac22fdbca5e369b657afac2573382266ee51e2",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-20T12:37:24Z",
+  "new_commit_message": "feat: add effort frontmatter to all skill examples + doc section",
+  "commit_url": "https://github.com/Alamator/code-ultimate/commit/f4ac22fdbca5e369b657afac2573382266ee51e2",
+  "compare_url": "https://github.com/Alamator/code-ultimate/compare/c9db045db473b3b739dad297db4f7d4e9c68449f...f4ac22fdbca5e369b657afac2573382266ee51e2",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Alamator/code-ultimate",
+    "path": "examples/skills/audit-agents-skills/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "011272af4ea186d6aac29a705b2bb93e0a346b60",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-20T12:37:24Z",
+    "commit_count": 4,
+    "sibling_count": 1,
+    "sibling_bytes": 14144,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "CC-BY-SA-4.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/Alamator/code-ultimate/commits?path=examples%2Fskills%2Faudit-agents-skills%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0411",
+  "old": {
+    "revision": "c9db045db473b3b739dad297db4f7d4e9c68449f",
+    "tree_sha": "68d57a4033c28707a096bfdf8b2e43406d2a08bd",
+    "file_count": 2,
+    "bytes": 29629,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e3252f355bf86c030d1b5bd7b453ab975eb989eb",
+      "sha256": "badeedfb641cdb367a779b7e819f729f49a4dbe587d9da8d98641fd0f467937b",
+      "size": 15485
+    }
+  },
+  "new": {
+    "revision": "f4ac22fdbca5e369b657afac2573382266ee51e2",
+    "tree_sha": "f8bc2190070c1e8948b7a8672ccf983823f9e0c3",
+    "file_count": 2,
+    "bytes": 29642,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "011272af4ea186d6aac29a705b2bb93e0a346b60",
+      "sha256": "cac86bbff2fd53231a6920775a012192dce91d9a27dc4d6c71505c5b4dadbfce",
+      "size": 15498
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "a64b6aa9cbc7e6d06d071c8427166ce862cbcf14be9a36b0ee5a7d64f2630611"
+}

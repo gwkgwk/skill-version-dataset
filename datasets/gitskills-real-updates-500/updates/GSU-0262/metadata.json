@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0262",
+  "repo_full_name": "taiyousan15/sunagent15",
+  "skill_path": ".claude/skills/research-free/SKILL.md",
+  "skill_directory": ".claude/skills/research-free",
+  "old_revision": "cfa260e2b1c98feca737a4f972072d81e6df7171",
+  "new_revision": "00cbe217f7f250a325d0390f802ea063f4ee36b7",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-19T15:25:20Z",
+  "new_commit_message": "feat(f8.2): uniform skill requires: schema + full 67-skill audit (#325)",
+  "commit_url": "https://github.com/taiyousan15/sunagent15/commit/00cbe217f7f250a325d0390f802ea063f4ee36b7",
+  "compare_url": "https://github.com/taiyousan15/sunagent15/compare/cfa260e2b1c98feca737a4f972072d81e6df7171...00cbe217f7f250a325d0390f802ea063f4ee36b7",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "taiyousan15/sunagent15",
+    "path": ".claude/skills/research-free/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0168dbf6348df8613d83302cd6011489335b3e5a",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-04-19T15:25:20Z",
+    "commit_count": 7,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/taiyousan15/sunagent15/commits?path=.claude%2Fskills%2Fresearch-free%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0262",
+  "old": {
+    "revision": "cfa260e2b1c98feca737a4f972072d81e6df7171",
+    "tree_sha": "2e23d73ab30ae523747f47808b207ec85d0f52d4",
+    "file_count": 1,
+    "bytes": 6899,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8d374b03b6a119b874016d50f1b9a368ad2e3824",
+      "sha256": "40b67f2e1f9a39923f7f065db187ab725ce0a1b16a4e1debed39fb27d425586a",
+      "size": 6899
+    }
+  },
+  "new": {
+    "revision": "00cbe217f7f250a325d0390f802ea063f4ee36b7",
+    "tree_sha": "e1f2f908ba409a9973743063973668c5bace51a4",
+    "file_count": 1,
+    "bytes": 6912,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0168dbf6348df8613d83302cd6011489335b3e5a",
+      "sha256": "f3a0b1cde6c76f1e42057c86192349be5cf2fd762edca54a29249b601e0209ed",
+      "size": 6912
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9bdc94c1eb16d06e7aca24781185d1639765309316b3d13537772a2ae0c8cb1b"
+}

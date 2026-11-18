@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0403",
+  "repo_full_name": "majtom2grndctrl/postretro",
+  "skill_path": ".claude/skills/review-implementability/SKILL.md",
+  "skill_directory": ".claude/skills/review-implementability",
+  "old_revision": "44ef81e8846819002cfeb6384bbb8b6704d0896e",
+  "new_revision": "a5339c38bc8d27917dac54e156f84b9f342d9ad7",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-02T02:47:28Z",
+  "new_commit_message": "skills: pin the task-agent executor contract, remove dead Shared Context refs",
+  "commit_url": "https://github.com/majtom2grndctrl/postretro/commit/a5339c38bc8d27917dac54e156f84b9f342d9ad7",
+  "compare_url": "https://github.com/majtom2grndctrl/postretro/compare/44ef81e8846819002cfeb6384bbb8b6704d0896e...a5339c38bc8d27917dac54e156f84b9f342d9ad7",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "majtom2grndctrl/postretro",
+    "path": ".claude/skills/review-implementability/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00a6d91fbf72297de3165649442f2df4336463a6",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-02T02:47:28Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/majtom2grndctrl/postretro/commits?path=.claude%2Fskills%2Freview-implementability%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0403",
+  "old": {
+    "revision": "44ef81e8846819002cfeb6384bbb8b6704d0896e",
+    "tree_sha": "fe64c31decde7a5c4c94ced34be1bc34d8a59385",
+    "file_count": 1,
+    "bytes": 3692,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "ed637d4ddf0518e2544409f1337e800f867dd29e",
+      "sha256": "c21353e40b4bc2423b8cc9d479ea3ebb3957c7458c065399fbdacdf027635fa0",
+      "size": 3692
+    }
+  },
+  "new": {
+    "revision": "a5339c38bc8d27917dac54e156f84b9f342d9ad7",
+    "tree_sha": "1c3f5a2da5e3e99d1e76854524c732e87a1a8524",
+    "file_count": 1,
+    "bytes": 3854,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00a6d91fbf72297de3165649442f2df4336463a6",
+      "sha256": "87cb0385c755de1ebe03294dc54eba203b3ba7e73cb2d239b032aa672d4365cb",
+      "size": 3854
+    }
+  },
+  "diff_added_lines": 4,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "93064e71d07da7f0d3ee3122c340c2571189c0621b4edc5c6d5518d916837471"
+}

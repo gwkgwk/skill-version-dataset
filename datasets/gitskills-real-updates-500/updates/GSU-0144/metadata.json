@@ -1,0 +1,76 @@
+{
+  "id": "GSU-0144",
+  "repo_full_name": "sskarz/nanoclawbster",
+  "skill_path": ".claude/skills/x-integration/SKILL.md",
+  "skill_directory": ".claude/skills/x-integration",
+  "old_revision": "f30db20253249d354725f6c26ec5bbba94037b3f",
+  "new_revision": "fb692cea35f47735da197df67e1ff6674728746e",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-02-28T04:49:36Z",
+  "new_commit_message": "refactor: decouple admin privilege from folder name",
+  "commit_url": "https://github.com/sskarz/nanoclawbster/commit/fb692cea35f47735da197df67e1ff6674728746e",
+  "compare_url": "https://github.com/sskarz/nanoclawbster/compare/f30db20253249d354725f6c26ec5bbba94037b3f...fb692cea35f47735da197df67e1ff6674728746e",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "sskarz/nanoclawbster",
+    "path": ".claude/skills/x-integration/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "003d68314ee221e758595ec8491d0c3c1b8f1009",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-02-28T04:49:36Z",
+    "commit_count": 6,
+    "sibling_count": 10,
+    "sibling_bytes": 31726,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/sskarz/nanoclawbster/commits?path=.claude%2Fskills%2Fx-integration%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0144",
+  "old": {
+    "revision": "f30db20253249d354725f6c26ec5bbba94037b3f",
+    "tree_sha": "1954efce26e363b6e535614a63ef41e1f2ecf074",
+    "file_count": 11,
+    "bytes": 44049,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "9b2dd073a702f264e8243e6854ad3c73af5ce2c3",
+      "sha256": "c192c541522f411e0de4d4cef22b216222d8e6be5732b2a28c57e16ab703b5fd",
+      "size": 12332
+    }
+  },
+  "new": {
+    "revision": "fb692cea35f47735da197df67e1ff6674728746e",
+    "tree_sha": "a6f63aad021573bfe67e8c0f1bcce6b5f7438ea0",
+    "file_count": 11,
+    "bytes": 44060,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "003d68314ee221e758595ec8491d0c3c1b8f1009",
+      "sha256": "655b77268a439e729feb4c100a148ca07fdeec8bf6053bf53ecda04f5554c584",
+      "size": 12334
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "agent.ts",
+      "host.ts"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "8eb0719701acb56c851322494b7193460b356904181b26385399e3758f55b809"
+}

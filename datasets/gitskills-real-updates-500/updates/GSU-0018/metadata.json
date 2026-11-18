@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0018",
+  "repo_full_name": "s-hiraoku/grok-signal-agent",
+  "skill_path": ".agents/skills/hermes-posting-admin/SKILL.md",
+  "skill_directory": ".agents/skills/hermes-posting-admin",
+  "old_revision": "49008a28d9dbfdbe9897d8f5f613ce08ff86d080",
+  "new_revision": "1083e8d5e6e16e0dcc7c52fc82c5d5b60bec58e0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-17T14:40:41Z",
+  "new_commit_message": "Update packaged posting skill for consolidated schedule",
+  "commit_url": "https://github.com/s-hiraoku/grok-signal-agent/commit/1083e8d5e6e16e0dcc7c52fc82c5d5b60bec58e0",
+  "compare_url": "https://github.com/s-hiraoku/grok-signal-agent/compare/49008a28d9dbfdbe9897d8f5f613ce08ff86d080...1083e8d5e6e16e0dcc7c52fc82c5d5b60bec58e0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "s-hiraoku/grok-signal-agent",
+    "path": ".agents/skills/hermes-posting-admin/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00323e83fd7f9b35f9f44d1c26706af23788ea47",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-07-17T14:40:41Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/s-hiraoku/grok-signal-agent/commits?path=.agents%2Fskills%2Fhermes-posting-admin%2FSKILL.md&per_page=10&until=2026-07-17T14%3A40%3A42%2B00%3A00",
+  "history_cutoff": "2026-07-17T14:40:42+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0018",
+  "old": {
+    "revision": "49008a28d9dbfdbe9897d8f5f613ce08ff86d080",
+    "tree_sha": "a9a91bd21db2069bb5cef64ffccabe60d0a732a2",
+    "file_count": 1,
+    "bytes": 6163,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00323e83fd7f9b35f9f44d1c26706af23788ea47",
+      "sha256": "bcded77eaf5b58d98754d60d4f212c92ff766bb2ce7c48968a3ef61defb0774f",
+      "size": 6163
+    }
+  },
+  "new": {
+    "revision": "1083e8d5e6e16e0dcc7c52fc82c5d5b60bec58e0",
+    "tree_sha": "4662b9eb8efec6bb06b524d5dac3041fdba8229a",
+    "file_count": 1,
+    "bytes": 6162,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "93b8a61106f26b58a1468fd1bfc7e1ac4e669333",
+      "sha256": "057f43fa3868eee04ddef18e12f9fe9c856d4fd61038ca9489d9d563823a840e",
+      "size": 6162
+    }
+  },
+  "diff_added_lines": 5,
+  "diff_deleted_lines": 7,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4574c83e5827431e63ad4e9ced1ff97336271ba2789a7d12cbf8800d6a9476f6"
+}

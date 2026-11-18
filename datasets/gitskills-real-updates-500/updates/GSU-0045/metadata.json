@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0045",
+  "repo_full_name": "AlessioBrillo/dominus",
+  "skill_path": ".claude/skills/github-workflow/SKILL.md",
+  "skill_directory": ".claude/skills/github-workflow",
+  "old_revision": "66fa9b29379123e3af5c186062551ccaf58839ff",
+  "new_revision": "0c089ed85ae7a56ffaeaba2c9d7a26d66d741715",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-07T12:22:04Z",
+  "new_commit_message": "docs(workflow): align trunk reference to master across skill (#10)",
+  "commit_url": "https://github.com/AlessioBrillo/dominus/commit/0c089ed85ae7a56ffaeaba2c9d7a26d66d741715",
+  "compare_url": "https://github.com/AlessioBrillo/dominus/compare/66fa9b29379123e3af5c186062551ccaf58839ff...0c089ed85ae7a56ffaeaba2c9d7a26d66d741715",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "AlessioBrillo/dominus",
+    "path": ".claude/skills/github-workflow/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0014eb86511c49aab4d47a87fd9ce739766590f8",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-07T12:22:04Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "AGPL-3.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/AlessioBrillo/dominus/commits?path=.claude%2Fskills%2Fgithub-workflow%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0045",
+  "old": {
+    "revision": "66fa9b29379123e3af5c186062551ccaf58839ff",
+    "tree_sha": "20a56ee87b7504cc2b0453a7d44b7d0028f75748",
+    "file_count": 1,
+    "bytes": 6582,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0167111b9963a7b0dbf1b393a71610767f4280ef",
+      "sha256": "fa82a51088c06080078f189e1068159d22f36a02785ee7b33d98bc4703182873",
+      "size": 6582
+    }
+  },
+  "new": {
+    "revision": "0c089ed85ae7a56ffaeaba2c9d7a26d66d741715",
+    "tree_sha": "c805f7a7e73e5422487edb6dce4801a047de48e2",
+    "file_count": 1,
+    "bytes": 7085,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0014eb86511c49aab4d47a87fd9ce739766590f8",
+      "sha256": "2981b3419bfed8965cb8ca3f4bcbeb06464f985e683a62e60ea8912fa4a24317",
+      "size": 7085
+    }
+  },
+  "diff_added_lines": 17,
+  "diff_deleted_lines": 8,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9be58d53048e23308254469c90db68314e44a12268399decf1702bdc8e671c63"
+}

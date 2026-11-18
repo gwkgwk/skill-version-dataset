@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0047",
+  "repo_full_name": "PaddlePaddle/docs",
+  "skill_path": "docs/dev_guides/coding_agent/api_compatibility/.claude/skills/create-pr/SKILL.md",
+  "skill_directory": "docs/dev_guides/coding_agent/api_compatibility/.claude/skills/create-pr",
+  "old_revision": "9ae14c08498a5a5e4c2d0e0a2d23323cddf5e70a",
+  "new_revision": "d9e1a372511ba0c6fcdb1a7a3c3a8ea72b8274c3",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-26T08:08:27Z",
+  "new_commit_message": "[API Compatibility] nll_loss/bernoulli_/weight_norm/resize_/imag/Flatten/kl_div/GRU/Softmax/L1Loss/avg_pool2d/LogSoftmax/hann_window/det/pinverse/addcdiv_/real/inv/ParameterList/scatter_reduce_/xavier_uniform/ge_/sign_/pinv/take/resize_as_/huber_loss/float/set_default_tensor_type/fmod/pack_padded_sequence/pad_packed_sequence/ctc_loss/nan_to_num/fmod_/fill_diagonal_/assert_allclose/absolute/randint_like Edit By AI Agent (#7911)",
+  "commit_url": "https://github.com/PaddlePaddle/docs/commit/d9e1a372511ba0c6fcdb1a7a3c3a8ea72b8274c3",
+  "compare_url": "https://github.com/PaddlePaddle/docs/compare/9ae14c08498a5a5e4c2d0e0a2d23323cddf5e70a...d9e1a372511ba0c6fcdb1a7a3c3a8ea72b8274c3",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "PaddlePaddle/docs",
+    "path": "docs/dev_guides/coding_agent/api_compatibility/.claude/skills/create-pr/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00d7b70045c7f5dac187cd1dd1fd0e7eb063830d",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-26T08:08:27Z",
+    "commit_count": 5,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/PaddlePaddle/docs/commits?path=docs%2Fdev_guides%2Fcoding_agent%2Fapi_compatibility%2F.claude%2Fskills%2Fcreate-pr%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0047",
+  "old": {
+    "revision": "9ae14c08498a5a5e4c2d0e0a2d23323cddf5e70a",
+    "tree_sha": "daf2744417afc7902ec3a5f5d65ba5dc9f1d4071",
+    "file_count": 1,
+    "bytes": 9697,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "23f948cd3d3156b33a7b18b75d157c3d51e5290b",
+      "sha256": "8a98569350cbbbb68c5f2913196241c55de3bb6545dd2e34d29cfe573b5280fe",
+      "size": 9697
+    }
+  },
+  "new": {
+    "revision": "d9e1a372511ba0c6fcdb1a7a3c3a8ea72b8274c3",
+    "tree_sha": "52f39479d08defba0499004a12facb62d5988596",
+    "file_count": 1,
+    "bytes": 9590,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00d7b70045c7f5dac187cd1dd1fd0e7eb063830d",
+      "sha256": "f477ccae0e64e5ebfd7b3d469f977456f23c221dc11ba7282d1dfc181742b4d3",
+      "size": 9590
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 4,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "97dbfcf12b08357c1820e4fee3666b3354ab8834abdf36ca5505e4ae958cdde6"
+}

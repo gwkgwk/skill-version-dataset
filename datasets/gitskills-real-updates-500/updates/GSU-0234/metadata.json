@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0234",
+  "repo_full_name": "radix-ng/primitives",
+  "skill_path": ".claude/skills/project-knowledge/SKILL.md",
+  "skill_directory": ".claude/skills/project-knowledge",
+  "old_revision": "e08b35c46f560129dea5ceb8f83e441900ee90ae",
+  "new_revision": "5c9a5c79f65cf442d8b7013c1c0c32d987fdd898",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-13T10:29:23Z",
+  "new_commit_message": "feat(core): dev-mode diagnostics helpers + tag-aware misuse checks (ADR 0013)",
+  "commit_url": "https://github.com/radix-ng/primitives/commit/5c9a5c79f65cf442d8b7013c1c0c32d987fdd898",
+  "compare_url": "https://github.com/radix-ng/primitives/compare/e08b35c46f560129dea5ceb8f83e441900ee90ae...5c9a5c79f65cf442d8b7013c1c0c32d987fdd898",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "radix-ng/primitives",
+    "path": ".claude/skills/project-knowledge/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00193c4567b683dfa623ce61338660403f67e155",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-06-13T10:29:23Z",
+    "commit_count": 4,
+    "sibling_count": 6,
+    "sibling_bytes": 117714,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/radix-ng/primitives/commits?path=.claude%2Fskills%2Fproject-knowledge%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0234",
+  "old": {
+    "revision": "e08b35c46f560129dea5ceb8f83e441900ee90ae",
+    "tree_sha": "79653a6807257a867e2e0d1a2b0492b273a60422",
+    "file_count": 7,
+    "bytes": 93602,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "943712fe1268e43bb221c4a3432a9bc3482fc6f6",
+      "sha256": "f2262016281465608d59fd37af89b9aa9414f7bcb6ad927aac678f54cff28f36",
+      "size": 2933
+    }
+  },
+  "new": {
+    "revision": "5c9a5c79f65cf442d8b7013c1c0c32d987fdd898",
+    "tree_sha": "e903c4a1ccced2f42fa0419a44693fb83772f0f2",
+    "file_count": 7,
+    "bytes": 95696,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00193c4567b683dfa623ce61338660403f67e155",
+      "sha256": "8f8c5953be200f7efcb5ea334857fb98e4e3a7842a5215f68f8cc5e4c27d3b3c",
+      "size": 3334
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/patterns.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "dc752000f0813f7f40ab0c87a56cdf6e0f34b0ee7e0990f2f55f1a50fb7d8e19"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0119",
+  "repo_full_name": "bernardoforcillo/tendersbay-xyz",
+  "skill_path": ".claude/skills/capture-learnings/SKILL.md",
+  "skill_directory": ".claude/skills/capture-learnings",
+  "old_revision": "bd48bbb263814522d5c0fd4b737effd63936110c",
+  "new_revision": "610f73115c00ea2791f29d87fd7b4e272695635e",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-14T17:18:23Z",
+  "new_commit_message": "fix(memory): wire the librarian into the capture-learnings flow",
+  "commit_url": "https://github.com/bernardoforcillo/tendersbay-xyz/commit/610f73115c00ea2791f29d87fd7b4e272695635e",
+  "compare_url": "https://github.com/bernardoforcillo/tendersbay-xyz/compare/bd48bbb263814522d5c0fd4b737effd63936110c...610f73115c00ea2791f29d87fd7b4e272695635e",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "bernardoforcillo/tendersbay-xyz",
+    "path": ".claude/skills/capture-learnings/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01810f4c1e906767ac3dd0192fcf4b227a4dd44c",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-07-14T17:18:23Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/bernardoforcillo/tendersbay-xyz/commits?path=.claude%2Fskills%2Fcapture-learnings%2FSKILL.md&per_page=10&until=2026-07-14T17%3A18%3A24%2B00%3A00",
+  "history_cutoff": "2026-07-14T17:18:24+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0119",
+  "old": {
+    "revision": "bd48bbb263814522d5c0fd4b737effd63936110c",
+    "tree_sha": "851a5bf18113e78db8a844ada1f52666bc29c429",
+    "file_count": 1,
+    "bytes": 3100,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01810f4c1e906767ac3dd0192fcf4b227a4dd44c",
+      "sha256": "62d7f27f1b27571b8b0f31378a568befef710b6252ea5283664cab9c9041bcf6",
+      "size": 3100
+    }
+  },
+  "new": {
+    "revision": "610f73115c00ea2791f29d87fd7b4e272695635e",
+    "tree_sha": "841bf009ebdb1b5973a61e2f9e36c9c95344b1a1",
+    "file_count": 1,
+    "bytes": 3509,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "4e8a8b7d0842ab58f187121df4ed5e1a171859db",
+      "sha256": "c54d3380217a34141ef306a941150cfcd2d0f31fde40fff4eb797bb9bcea08e3",
+      "size": 3509
+    }
+  },
+  "diff_added_lines": 6,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "068f3dbb0b126543ad47eeb11668334ea983970ae03857d3481105ad3161cfac"
+}

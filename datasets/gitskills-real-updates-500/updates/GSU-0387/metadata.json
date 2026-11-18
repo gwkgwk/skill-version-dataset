@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0387",
+  "repo_full_name": "nick4man/victory",
+  "skill_path": ".claude/skills/figma-to-erb-handoff/SKILL.md",
+  "skill_directory": ".claude/skills/figma-to-erb-handoff",
+  "old_revision": "e974fd458e291b08d59632beee6bfd0dd22dfe21",
+  "new_revision": "e257509d1c7f436e334a2b4e19b47797813add44",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-14T01:06:45Z",
+  "new_commit_message": "feat(claude): Phase 4.3 — cross-references in skill descriptions",
+  "commit_url": "https://github.com/nick4man/victory/commit/e257509d1c7f436e334a2b4e19b47797813add44",
+  "compare_url": "https://github.com/nick4man/victory/compare/e974fd458e291b08d59632beee6bfd0dd22dfe21...e257509d1c7f436e334a2b4e19b47797813add44",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "nick4man/victory",
+    "path": ".claude/skills/figma-to-erb-handoff/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0088bd2ea85c19dfd9567479ff9ddd7893a4f6f2",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-14T01:06:45Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/nick4man/victory/commits?path=.claude%2Fskills%2Ffigma-to-erb-handoff%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0387",
+  "old": {
+    "revision": "e974fd458e291b08d59632beee6bfd0dd22dfe21",
+    "tree_sha": "d249b89e30e56ae6e553bd40809bdfd84c589e52",
+    "file_count": 1,
+    "bytes": 9062,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "61b5eb90a012aaf93c77c5683f60a5fbd2324b48",
+      "sha256": "d5cf81d495a99a317eaa2ece3ca5f888bc87e3210441745e3a12402a55182048",
+      "size": 9062
+    }
+  },
+  "new": {
+    "revision": "e257509d1c7f436e334a2b4e19b47797813add44",
+    "tree_sha": "8223e6f79fd798f12e134e308d38407da3c51d68",
+    "file_count": 1,
+    "bytes": 9403,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0088bd2ea85c19dfd9567479ff9ddd7893a4f6f2",
+      "sha256": "f39fe19f049f69f7aeac9ca7b8d07057d2cafca806b03733a8177fc679acd47f",
+      "size": 9403
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "879cc3d8323783c292062fa9d7ca6252f2545a256d6af8658f9c02ae175820a0"
+}

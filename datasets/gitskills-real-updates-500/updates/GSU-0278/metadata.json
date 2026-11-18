@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0278",
+  "repo_full_name": "merryiscat/runmagotchi",
+  "skill_path": ".claude/skills/screen-plan/SKILL.md",
+  "skill_directory": ".claude/skills/screen-plan",
+  "old_revision": "a8fcd16041e75182477a16fa232c7880024acab9",
+  "new_revision": "d11d8a5707715237727ef89a9b999e0daa5fa145",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-14T16:27:39Z",
+  "new_commit_message": "화면 기획 O1~U1 + 기획 변경사항 반영",
+  "commit_url": "https://github.com/merryiscat/runmagotchi/commit/d11d8a5707715237727ef89a9b999e0daa5fa145",
+  "compare_url": "https://github.com/merryiscat/runmagotchi/compare/a8fcd16041e75182477a16fa232c7880024acab9...d11d8a5707715237727ef89a9b999e0daa5fa145",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "merryiscat/runmagotchi",
+    "path": ".claude/skills/screen-plan/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "014a335d826822a44bdeeb0e8609705cc4f83de6",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-05-16T09:58:51Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/merryiscat/runmagotchi/commits?path=.claude%2Fskills%2Fscreen-plan%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0278",
+  "old": {
+    "revision": "a8fcd16041e75182477a16fa232c7880024acab9",
+    "tree_sha": "2dd0705d3c700d5bdea40ba8e4d3601be655d3d7",
+    "file_count": 1,
+    "bytes": 4751,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d8bdedf7140c65d943e39e088f57b58a36460b91",
+      "sha256": "1cb94a5798882b8a235e797ff3f379b81cc3d69c076cd23073887ea7bd4c6ecc",
+      "size": 4751
+    }
+  },
+  "new": {
+    "revision": "d11d8a5707715237727ef89a9b999e0daa5fa145",
+    "tree_sha": "4b40cce517f966c0ce3b335ccfb17147185b83ce",
+    "file_count": 1,
+    "bytes": 5144,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "a3e7654e2b45cc331450edd2ef957bd34b9ccb2a",
+      "sha256": "edd10b50042c197dce9f4c922a0c9480b3c59f8fafb4d5a39e7eb7fd7c67eeb9",
+      "size": 5144
+    }
+  },
+  "diff_added_lines": 7,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "8570bc40dea2ba86a17eed85e65241ef5541d1a97803e2965f85c25274a76830"
+}

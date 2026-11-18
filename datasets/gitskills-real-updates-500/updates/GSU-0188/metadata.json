@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0188",
+  "repo_full_name": "iromu/TradingAgents",
+  "skill_path": ".agents/skills/embabel-drivine4j/SKILL.md",
+  "skill_directory": ".agents/skills/embabel-drivine4j",
+  "old_revision": "6d5d846b498955f1532279884e033e631060f934",
+  "new_revision": "1b60aaa0b81251794d5e8868af485bbea2f2b0da",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-13T19:39:23Z",
+  "new_commit_message": "Add new OpenSpec skills for \"apply change,\" \"archive change,\" \"onboard,\" and \"bulk archive change.\" Update Embabel documentation by removing outdated examples and refining skill descriptions. Introduce execution mode reference for \"SIMPLE\" and \"CONCURRENT\" processes within Embabel agents.",
+  "commit_url": "https://github.com/iromu/TradingAgents/commit/1b60aaa0b81251794d5e8868af485bbea2f2b0da",
+  "compare_url": "https://github.com/iromu/TradingAgents/compare/6d5d846b498955f1532279884e033e631060f934...1b60aaa0b81251794d5e8868af485bbea2f2b0da",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "iromu/TradingAgents",
+    "path": ".agents/skills/embabel-drivine4j/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "01a46637a13ee67ed56e04c84acf45332f261b82",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-13T19:39:23Z",
+    "commit_count": 4,
+    "sibling_count": 3,
+    "sibling_bytes": 16412,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/iromu/TradingAgents/commits?path=.agents%2Fskills%2Fembabel-drivine4j%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0188",
+  "old": {
+    "revision": "6d5d846b498955f1532279884e033e631060f934",
+    "tree_sha": "fd55d5147ae1f0cd73fa1b5eab798394271cfcd3",
+    "file_count": 4,
+    "bytes": 24903,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "faf570dabcf085abba8100e3b126985c35f14d22",
+      "sha256": "b62b339f7167d9a8017e3a40dfb0acd06e432ca768c799c8f6749e97bcd10f97",
+      "size": 8491
+    }
+  },
+  "new": {
+    "revision": "1b60aaa0b81251794d5e8868af485bbea2f2b0da",
+    "tree_sha": "681fa96b660b11d378136ec844357891303aba85",
+    "file_count": 4,
+    "bytes": 24649,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01a46637a13ee67ed56e04c84acf45332f261b82",
+      "sha256": "c1812d16a2cd24023a97df67e1925c673e3196c231ea1ee5ee8f464bb6450e54",
+      "size": 8237
+    }
+  },
+  "diff_added_lines": 0,
+  "diff_deleted_lines": 12,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "3b7fc69495a3b538898d33a58a90865c808e901dbe457bcd9ec282ee64f34fb7"
+}

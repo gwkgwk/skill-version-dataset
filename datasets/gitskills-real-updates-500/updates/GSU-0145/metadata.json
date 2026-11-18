@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0145",
+  "repo_full_name": "nullvoidundefined/claude-global-rules",
+  "skill_path": "skills/resolve-user-feedback/SKILL.md",
+  "skill_directory": "skills/resolve-user-feedback",
+  "old_revision": "bdcca0d2a69b9442c708fcb835ec4a598e4f1ef9",
+  "new_revision": "8ac7746d34b6f1ea52ebbd96db01aa3131dd4609",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-03T03:20:15Z",
+  "new_commit_message": "refactor(rules): century-block renumber, one grammatical template per rule, full reference migration",
+  "commit_url": "https://github.com/nullvoidundefined/claude-global-rules/commit/8ac7746d34b6f1ea52ebbd96db01aa3131dd4609",
+  "compare_url": "https://github.com/nullvoidundefined/claude-global-rules/compare/bdcca0d2a69b9442c708fcb835ec4a598e4f1ef9...8ac7746d34b6f1ea52ebbd96db01aa3131dd4609",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "nullvoidundefined/claude-global-rules",
+    "path": "skills/resolve-user-feedback/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00a143caf75a53bc8cbda7d2747afaebb39a50b7",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-03T03:20:15Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/nullvoidundefined/claude-global-rules/commits?path=skills%2Fresolve-user-feedback%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0145",
+  "old": {
+    "revision": "bdcca0d2a69b9442c708fcb835ec4a598e4f1ef9",
+    "tree_sha": "b308e23a2c50c2d643a401f6ebc29b426cb6206f",
+    "file_count": 1,
+    "bytes": 4817,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "5979b89c2e8686000e1e27b2d5361ada44adc3a0",
+      "sha256": "df74d7554f98233bea8b620e07ac906f0e997d13a545bdb3c84c43ef73c9df6a",
+      "size": 4817
+    }
+  },
+  "new": {
+    "revision": "8ac7746d34b6f1ea52ebbd96db01aa3131dd4609",
+    "tree_sha": "fb807287977095536bdaa883b61759a12a035b4a",
+    "file_count": 1,
+    "bytes": 4817,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00a143caf75a53bc8cbda7d2747afaebb39a50b7",
+      "sha256": "b0569d5b412e6668a6640241233cfb7bb4c1ab93122281d7648346d91c7d9f92",
+      "size": 4817
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "2df8f367eed727561a3c5fabc6955065259c5189f7688a3fec093822ff6738e6"
+}

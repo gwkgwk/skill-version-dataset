@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0397",
+  "repo_full_name": "countergank/api-user",
+  "skill_path": ".agents/skills/git-environment-flow/SKILL.md",
+  "skill_directory": ".agents/skills/git-environment-flow",
+  "old_revision": "9a4ab1d265224f53496174573e139ace7875ab20",
+  "new_revision": "70c95d602671e86f502a2c44758bb2b3a1039550",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-21T23:07:14Z",
+  "new_commit_message": "chore: update git-environment-flow skill — branch protection rules (COU-172)",
+  "commit_url": "https://github.com/countergank/api-user/commit/70c95d602671e86f502a2c44758bb2b3a1039550",
+  "compare_url": "https://github.com/countergank/api-user/compare/9a4ab1d265224f53496174573e139ace7875ab20...70c95d602671e86f502a2c44758bb2b3a1039550",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "countergank/api-user",
+    "path": ".agents/skills/git-environment-flow/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "0070fcdb1a688119bb6d7fd09ac65ade5bf80811",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-07-21T23:07:14Z",
+    "commit_count": 2,
+    "sibling_count": 6,
+    "sibling_bytes": 10734,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/countergank/api-user/commits?path=.agents%2Fskills%2Fgit-environment-flow%2FSKILL.md&per_page=10&until=2026-07-21T23%3A07%3A15%2B00%3A00",
+  "history_cutoff": "2026-07-21T23:07:15+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0397",
+  "old": {
+    "revision": "9a4ab1d265224f53496174573e139ace7875ab20",
+    "tree_sha": "1bf646af8d4d16a05c9c9c9de6d15f393a413957",
+    "file_count": 7,
+    "bytes": 13320,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0070fcdb1a688119bb6d7fd09ac65ade5bf80811",
+      "sha256": "c8a6f08eb9f26781d99b1b37867b9d19648827a6fa1645510ffe3e1b55663061",
+      "size": 2586
+    }
+  },
+  "new": {
+    "revision": "70c95d602671e86f502a2c44758bb2b3a1039550",
+    "tree_sha": "ee2463547815ef3f57c3cbe07bb63be1c502cef2",
+    "file_count": 7,
+    "bytes": 13619,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "b922cbf27cb6330e29666b8c3789725ccb826eab",
+      "sha256": "308f600bb40cf67218d3fbed75c48e3964ccdbe12c5f74cfe521c5b67fb8d5c2",
+      "size": 2885
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f520f5bfeb0bb56faf480d09f24224949f32cce249443e408eefe7e428873975"
+}

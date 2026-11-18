@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0217",
+  "repo_full_name": "colinmollenhour/dotfiles",
+  "skill_path": ".claude/skills/drizzle-orm/SKILL.md",
+  "skill_directory": ".claude/skills/drizzle-orm",
+  "old_revision": "88c3f23a335606ef304fb683e8f5ecef78352679",
+  "new_revision": "3f27aaa2651ed64e44ab201db1b96a63bbce39d6",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-21T17:13:47Z",
+  "new_commit_message": "Large rename of commands and skill to be compatible with pi's requirement: lowercase a-z, 0-9 and hyphens only.",
+  "commit_url": "https://github.com/colinmollenhour/dotfiles/commit/3f27aaa2651ed64e44ab201db1b96a63bbce39d6",
+  "compare_url": "https://github.com/colinmollenhour/dotfiles/compare/88c3f23a335606ef304fb683e8f5ecef78352679...3f27aaa2651ed64e44ab201db1b96a63bbce39d6",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "colinmollenhour/dotfiles",
+    "path": ".claude/skills/drizzle-orm/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0005cb866c8675eb5cba9dd52159f0f61864b88f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-21T02:21:37Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/colinmollenhour/dotfiles/commits?path=.claude%2Fskills%2Fdrizzle-orm%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0217",
+  "old": {
+    "revision": "88c3f23a335606ef304fb683e8f5ecef78352679",
+    "tree_sha": "95f3b049678414a62508f57efa4a1286a19f0f99",
+    "file_count": 1,
+    "bytes": 21350,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "5b5266036fdc49067d5069235049dedc94830fee",
+      "sha256": "3fc7f4d30ec324887607868c99fbe2be0da030f5ea860970c4da07fbf2e1f227",
+      "size": 21350
+    }
+  },
+  "new": {
+    "revision": "3f27aaa2651ed64e44ab201db1b96a63bbce39d6",
+    "tree_sha": "4e2f3f7c55d2f9563561c953c9f962d5ba4de8f3",
+    "file_count": 1,
+    "bytes": 21348,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0005cb866c8675eb5cba9dd52159f0f61864b88f",
+      "sha256": "99c7c97620548f53067a4a1587311e7e01ab51e1dd54b517e4b800b08d41a45c",
+      "size": 21348
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "488025d91d192f451b46fb4c03b042ed84928c6016616ea567b9d855791cc564"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0295",
+  "repo_full_name": "LarsLaskowski/F1-Telemetry",
+  "skill_path": ".claude/skills/review-pr/SKILL.md",
+  "skill_directory": ".claude/skills/review-pr",
+  "old_revision": "2c2a8c7345d7f39f75d02bae23f0daf2333d3e6d",
+  "new_revision": "05ce5a822d6aa82aa83072ad0091f0c64690a4df",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-04T17:51:19Z",
+  "new_commit_message": "Harden skills against AI-attribution leaking into PR text (#401)",
+  "commit_url": "https://github.com/LarsLaskowski/F1-Telemetry/commit/05ce5a822d6aa82aa83072ad0091f0c64690a4df",
+  "compare_url": "https://github.com/LarsLaskowski/F1-Telemetry/compare/2c2a8c7345d7f39f75d02bae23f0daf2333d3e6d...05ce5a822d6aa82aa83072ad0091f0c64690a4df",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "LarsLaskowski/F1-Telemetry",
+    "path": ".claude/skills/review-pr/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00e64ef38052eb5e38a0c9b094114930eb9793ed",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-07-04T17:51:19Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/LarsLaskowski/F1-Telemetry/commits?path=.claude%2Fskills%2Freview-pr%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0295",
+  "old": {
+    "revision": "2c2a8c7345d7f39f75d02bae23f0daf2333d3e6d",
+    "tree_sha": "10baab726c3b54618b1350fabe45bce0fa5a70c8",
+    "file_count": 1,
+    "bytes": 5180,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "421ce99f55f7846da31f22381474cb943d8b048e",
+      "sha256": "1b3ec0d7ea480d352dbf2f21aa5be3785078bb3697328e4d1d77b8afca674913",
+      "size": 5180
+    }
+  },
+  "new": {
+    "revision": "05ce5a822d6aa82aa83072ad0091f0c64690a4df",
+    "tree_sha": "b8a941aea47085919ebb75053d5d8f9f0c8d371a",
+    "file_count": 1,
+    "bytes": 5491,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00e64ef38052eb5e38a0c9b094114930eb9793ed",
+      "sha256": "b123237ef10a1e6498de1e7617b05a730c3943cafe92733e17d540d0c2fc6e7b",
+      "size": 5491
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c1c5c306b9cd317d6df76144e5f29ec5de432a33b23a949523a1a7c41860be80"
+}

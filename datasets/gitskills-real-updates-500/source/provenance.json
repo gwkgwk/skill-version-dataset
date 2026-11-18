@@ -1,0 +1,25 @@
+{
+  "dataset": "GitSkills",
+  "paper": "https://arxiv.org/abs/2608.10906",
+  "sample_repository": "giuseppedestefanis/gitskills-sample",
+  "sample_revision": "fff3df93beeee51a5444450891751f143e38da3e",
+  "sample_zip_git_blob_sha1": "b2c5b19033285d2361a20df94d36e3eb922b6a1a",
+  "sample_zip_bytes": 86721947,
+  "dataset_metadata_license": "CC-BY-4.0",
+  "sample_artifact_rows": 29786,
+  "sampling_seed": "gitskills-real-updates-2026-11-18",
+  "eligibility": "dedup representative, valid frontmatter, exact SKILL.md, >=2 commits, history fetched, canonical or skills-dir location",
+  "selection": "deterministic repository-round-robin; one update per skill and at most two per seed repository",
+  "history_boundary": "latest recorded discovery/history time + 1 second",
+  "package_caps": {
+    "files_per_revision": 60,
+    "bytes_per_revision": 2000000
+  },
+  "unsupported": [
+    "symlinks",
+    "submodules",
+    "non-portable Windows filenames",
+    "whitespace-only changes",
+    "file creation/deletion/rename without same-path predecessor"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0312",
+  "repo_full_name": "NextSpark-js/nextspark",
+  "skill_path": ".claude/skills/design-system/SKILL.md",
+  "skill_directory": ".claude/skills/design-system",
+  "old_revision": "4ba3d4b4b63819b5d80759f46b78165da78d8560",
+  "new_revision": "46aeab436c96f63c29c3b45897abf40e0a8740a0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-15T23:55:29Z",
+  "new_commit_message": "feat(claude): restructure commands with do: system and cleanup legacy",
+  "commit_url": "https://github.com/NextSpark-js/nextspark/commit/46aeab436c96f63c29c3b45897abf40e0a8740a0",
+  "compare_url": "https://github.com/NextSpark-js/nextspark/compare/4ba3d4b4b63819b5d80759f46b78165da78d8560...46aeab436c96f63c29c3b45897abf40e0a8740a0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "NextSpark-js/nextspark",
+    "path": ".claude/skills/design-system/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00a64529c43fab586cac207507c93cf1fca0e046",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-01-15T23:55:29Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/NextSpark-js/nextspark/commits?path=.claude%2Fskills%2Fdesign-system%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0312",
+  "old": {
+    "revision": "4ba3d4b4b63819b5d80759f46b78165da78d8560",
+    "tree_sha": "42418beb4373def896beb694a8361dcd836bf68b",
+    "file_count": 1,
+    "bytes": 8735,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c44f316ab96d5c26726b29eab517f2ea1e3d3de5",
+      "sha256": "d47d4015b22a34679c827ca6615b2edcdca64af8c78083a7c446737f971ac8bb",
+      "size": 8735
+    }
+  },
+  "new": {
+    "revision": "46aeab436c96f63c29c3b45897abf40e0a8740a0",
+    "tree_sha": "b0129e227f71bf8271f815aac820c96b12983a72",
+    "file_count": 1,
+    "bytes": 19683,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00a64529c43fab586cac207507c93cf1fca0e046",
+      "sha256": "32919c8c25389cc0e5064854d786ae547bba36ca7addf97420b852eccec27763",
+      "size": 19683
+    }
+  },
+  "diff_added_lines": 335,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f278c24cf7b37427595b219fa234102c0daa970296732e3811f783c1ac08080d"
+}

@@ -1,0 +1,12 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 95c21ec..00d7fb8 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -307,3 +307,7 @@ For document consultation (specs, plans), see `/codex-consult` which uses `codex
+ ```
+ /codex-review --base develop --model gpt-5.2-codex
+ ```
++
++---
++
++**REMINDER**: NEVER use `run_in_background` for Codex invocations. NEVER use `2>&1` — it corrupts parseable output.

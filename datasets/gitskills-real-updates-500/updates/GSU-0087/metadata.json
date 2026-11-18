@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0087",
+  "repo_full_name": "suisya-systems/claude-org-ja",
+  "skill_path": ".claude/skills/org-attention-start/SKILL.md",
+  "skill_directory": ".claude/skills/org-attention-start",
+  "old_revision": "ed213c4f68243130813b48369fc569e4e59417ee",
+  "new_revision": "0975882d0183c2a5358e3e867fbcba6a6af942ba",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-16T20:53:21Z",
+  "new_commit_message": "feat(claude): Epic #586 G-next — 手保守 prose の transport 既定を二フレーム明示で一貫化 (Refs #604 #586) (#607)",
+  "commit_url": "https://github.com/suisya-systems/claude-org-ja/commit/0975882d0183c2a5358e3e867fbcba6a6af942ba",
+  "compare_url": "https://github.com/suisya-systems/claude-org-ja/compare/ed213c4f68243130813b48369fc569e4e59417ee...0975882d0183c2a5358e3e867fbcba6a6af942ba",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "suisya-systems/claude-org-ja",
+    "path": ".claude/skills/org-attention-start/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "012c12a473f8098bf086d171515c133cc339ced2",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-16T20:53:21Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/suisya-systems/claude-org-ja/commits?path=.claude%2Fskills%2Forg-attention-start%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0087",
+  "old": {
+    "revision": "ed213c4f68243130813b48369fc569e4e59417ee",
+    "tree_sha": "d166dec797d90126f934e9a8feeda906193a1fee",
+    "file_count": 1,
+    "bytes": 11999,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "961db356b05c92628dd4c7fc62e3662df035aac2",
+      "sha256": "3dc0ec100e73048732fed441f4f349c628547692cbf54307a2880ac6d15a2615",
+      "size": 11999
+    }
+  },
+  "new": {
+    "revision": "0975882d0183c2a5358e3e867fbcba6a6af942ba",
+    "tree_sha": "cd1ea3e3935a49065d9135163a8bc31204957182",
+    "file_count": 1,
+    "bytes": 12633,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "012c12a473f8098bf086d171515c133cc339ced2",
+      "sha256": "2dd9d5010609c343abf858ba3117c2025222f9be0be540cb85f6aa62b49df8d5",
+      "size": 12633
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c33d949f3901fca19b3688d221df81b26ad6eafc9f8b00a0860ad5b10e0f7206"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0335",
+  "repo_full_name": "nestauk/policy_atlas",
+  "skill_path": ".claude/skills/task-cycle-design/SKILL.md",
+  "skill_directory": ".claude/skills/task-cycle-design",
+  "old_revision": "33e38bb28a124a5255fb9038eec168e4e71afc70",
+  "new_revision": "a24971cbb2ec361738bce128379c8e69d9807fec",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-08T22:05:41Z",
+  "new_commit_message": "Task 014: LLM two-stage consensus screen + classify (live-demo path 1/4) (#21)",
+  "commit_url": "https://github.com/nestauk/policy_atlas/commit/a24971cbb2ec361738bce128379c8e69d9807fec",
+  "compare_url": "https://github.com/nestauk/policy_atlas/compare/33e38bb28a124a5255fb9038eec168e4e71afc70...a24971cbb2ec361738bce128379c8e69d9807fec",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "nestauk/policy_atlas",
+    "path": ".claude/skills/task-cycle-design/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00afe39492b507260b3251114f332790e484b84b",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-08T22:05:41Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "AGPL-3.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/nestauk/policy_atlas/commits?path=.claude%2Fskills%2Ftask-cycle-design%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0335",
+  "old": {
+    "revision": "33e38bb28a124a5255fb9038eec168e4e71afc70",
+    "tree_sha": "0569b7ba67499a58c5aa44227b61bd50438d97cc",
+    "file_count": 1,
+    "bytes": 8998,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "35cc1de1a6969b579bbc8d28d535b9ace920cedd",
+      "sha256": "939f4c5f31bc79341c95609b8269a1da26f1f798aab2e01f544227ee27d6de45",
+      "size": 8998
+    }
+  },
+  "new": {
+    "revision": "a24971cbb2ec361738bce128379c8e69d9807fec",
+    "tree_sha": "39e9c2db898357f7ad91a31a06d5bed965065798",
+    "file_count": 1,
+    "bytes": 10101,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00afe39492b507260b3251114f332790e484b84b",
+      "sha256": "cf80dbe9c5291d7016b59bfb64c52aed1e4e61ac146067a3036c07bb95f525ce",
+      "size": 10101
+    }
+  },
+  "diff_added_lines": 15,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "a24de69cb88eff70d0316a17cf777b2eba5aede81a94f6a7605a837d0e8fc9a5"
+}

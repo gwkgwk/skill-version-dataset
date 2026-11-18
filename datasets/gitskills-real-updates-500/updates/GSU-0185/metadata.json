@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0185",
+  "repo_full_name": "iltan987/jetadisyon",
+  "skill_path": ".claude/skills/speckit-specify/SKILL.md",
+  "skill_directory": ".claude/skills/speckit-specify",
+  "old_revision": "63ea2f792b43fba5d48aeb564348552a9216a1bd",
+  "new_revision": "74f606903712e05441cfdda84e5a14de01e035a1",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-16T18:15:09Z",
+  "new_commit_message": "upgrade spec-kit",
+  "commit_url": "https://github.com/iltan987/jetadisyon/commit/74f606903712e05441cfdda84e5a14de01e035a1",
+  "compare_url": "https://github.com/iltan987/jetadisyon/compare/63ea2f792b43fba5d48aeb564348552a9216a1bd...74f606903712e05441cfdda84e5a14de01e035a1",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "iltan987/jetadisyon",
+    "path": ".claude/skills/speckit-specify/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "015044f0c168c9a61683f7299bbc68b4099421b7",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-16T18:15:09Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/iltan987/jetadisyon/commits?path=.claude%2Fskills%2Fspeckit-specify%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0185",
+  "old": {
+    "revision": "63ea2f792b43fba5d48aeb564348552a9216a1bd",
+    "tree_sha": "9a9c837e97e6b9665df1161502c5c56cdb1ba902",
+    "file_count": 1,
+    "bytes": 16399,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "23620aa6a1b2e68a1ae6f2d28d826163b3f4241e",
+      "sha256": "2c5770de5de53c6b2a72064a6d59e51aab0e64b7cc5e8dd4dfbc7667afecefe5",
+      "size": 16399
+    }
+  },
+  "new": {
+    "revision": "74f606903712e05441cfdda84e5a14de01e035a1",
+    "tree_sha": "0741f8e4c94b55c0d165071f4f1f59bb772bf71c",
+    "file_count": 1,
+    "bytes": 16516,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "015044f0c168c9a61683f7299bbc68b4099421b7",
+      "sha256": "7e6f61293167535dd45cdb57030b09989934102230d9912d11334864aefd4558",
+      "size": 16516
+    }
+  },
+  "diff_added_lines": 114,
+  "diff_deleted_lines": 105,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0fb769ef8f30c9887cf531ab6f4b61bb9f7e28efb8c0a22f40a9bd357633ad7d"
+}

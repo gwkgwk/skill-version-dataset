@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0050",
+  "repo_full_name": "EmbedBuild/specbox-engine",
+  "skill_path": ".claude/skills/audit/SKILL.md",
+  "skill_directory": ".claude/skills/audit",
+  "old_revision": "18451f5976b03bafaa96004fe347320553b0daed",
+  "new_revision": "dcdfcc73552367b1b922471c5188bd4f6556606a",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-31T19:08:15Z",
+  "new_commit_message": "feat: connectivity UX — transporte único remoto + content-passing (US-CONN-TRANSPORT, 9 UC) (#85)",
+  "commit_url": "https://github.com/EmbedBuild/specbox-engine/commit/dcdfcc73552367b1b922471c5188bd4f6556606a",
+  "compare_url": "https://github.com/EmbedBuild/specbox-engine/compare/18451f5976b03bafaa96004fe347320553b0daed...dcdfcc73552367b1b922471c5188bd4f6556606a",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "EmbedBuild/specbox-engine",
+    "path": ".claude/skills/audit/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "003010588490fc9938be90bc9640b80d0f0b0684",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-31T19:08:15Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/EmbedBuild/specbox-engine/commits?path=.claude%2Fskills%2Faudit%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0050",
+  "old": {
+    "revision": "18451f5976b03bafaa96004fe347320553b0daed",
+    "tree_sha": "042045913d1b57cc27baaf1f1da87ccbf5886556",
+    "file_count": 1,
+    "bytes": 6521,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "5139e007f1e1c841a1ccded9f290a7ea1142073e",
+      "sha256": "308776d2ac0a828e91ab004268723da83fd9c16eb686e178716546668251ad1c",
+      "size": 6521
+    }
+  },
+  "new": {
+    "revision": "dcdfcc73552367b1b922471c5188bd4f6556606a",
+    "tree_sha": "dd1b62fc66aa21972d25b21950715bf5018bef9f",
+    "file_count": 1,
+    "bytes": 7660,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "003010588490fc9938be90bc9640b80d0f0b0684",
+      "sha256": "efca3e4b1fa43e24ee49e4af9aff24716ca8666e3041855ae81c6a3f8b19034b",
+      "size": 7660
+    }
+  },
+  "diff_added_lines": 16,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "d89b6a68efe5305625ca3a4465a33b5d804e99e4ea922c80d01c4bd882af3702"
+}

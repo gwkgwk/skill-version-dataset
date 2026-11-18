@@ -1,0 +1,215 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 7043e16..004cd2c 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -1,136 +1,100 @@
+ ---
+ name: matching-engine
+-description: Core matching algorithm using pgvector semantic similarity for bidirectional resource matching. This is the most critical business logic in YHIN.
++description: Core matching algorithm using pgvector semantic similarity. Finds "I have, they need" and "I need, they have" connections between users.
+ ---
+ 
+-## Matching philosophy
++## Matching goal
+ 
+-The hardest problem in a barter platform is the "double coincidence of wants":
+-A must have what B needs AND B must have what A needs.
++Connect users in two independent directions:
+ 
+-Our approach: **bidirectional semantic similarity**.
++1. **"I have, they need"** (forward): My HAVE resource is semantically similar to someone's WANT
++2. **"I need, they have"** (reverse): Someone's HAVE resource is semantically similar to my WANT
+ 
+-## How matching works
++Each direction is scored and displayed independently. There is no combined "bidirectional" score — the two directions are separate sections on the matches page.
+ 
+-### Step 1: Generate embeddings on resource creation
++## Threshold configuration
+ 
+-When a user creates a Resource (HAVE or WANT), generate a text embedding:
++All scoring thresholds live in **`src/lib/constants.ts`** under `MATCH_THRESHOLDS`. Never hardcode threshold values elsewhere — always import from constants.
+ 
+ ```typescript
+-// server/services/embedding.ts
+-import OpenAI from 'openai';
+-
+-const openai = new OpenAI();
+-
+-export async function generateEmbedding(text: string): Promise<number[]> {
+-  const response = await openai.embeddings.create({
+-    model: 'text-embedding-3-small',
+-    input: text,
+-    dimensions: 1536,
+-  });
+-  return response.data[0].embedding;
+-}
+-
+-export function buildEmbeddingText(resource: {
+-  title: string;
+-  description: string;
+-  tags: string[];
+-  category?: string;
+-}): string {
+-  // Combine all semantic signals into one string
+-  return [
+-    resource.title,
+-    resource.description,
+-    resource.tags.join(', '),
+-    resource.category ?? '',
+-  ].filter(Boolean).join(' | ');
+-}
++import { MATCH_THRESHOLDS } from '@/lib/constants';
++// MATCH_THRESHOLDS.MIN_SCORE     — minimum to store a match
++// MATCH_THRESHOLDS.STRONG        — "strong match" badge
++// MATCH_THRESHOLDS.GOOD          — "good match" badge
++// MATCH_THRESHOLDS.MAX_PER_USER  — max matches stored per user
++// MATCH_THRESHOLDS.CANDIDATE_POOL — nearest-neighbor candidates per query
+ ```
+ 
++These values depend on the embedding model's score distribution. When switching embedding models, recalibrate by:
++1. Running `scripts/recalculate-all-matches.ts`
++2. Checking the actual score distribution with SQL
++3. Adjusting thresholds in `constants.ts` so badge tiers produce meaningful separation
++
++## How matching works
++
++### Step 1: Generate embeddings on resource creation
++
++See `src/server/services/embedding.ts`. The embedding provider is configurable (Gemini, OpenAI, mock).
++
+ ### Step 2: Find matches with pgvector
+ 
+-```sql
+--- Find top matches for user A's HAVE resource
+--- by comparing against all other users' WANT resources
+-SELECT
+-  w.id AS want_id,
+-  w.user_id AS seeker_id,
+-  1 - (h.embedding <=> w.embedding) AS forward_score
+-FROM resources h
+-CROSS JOIN LATERAL (
+-  SELECT id, user_id, embedding
+-  FROM resources
+-  WHERE type = 'WANT'
+-    AND user_id != h.user_id
+-    AND status = 'ACTIVE'
+-  ORDER BY embedding <=> h.embedding
+-  LIMIT 50
+-) w
+-WHERE h.id = $1 AND h.type = 'HAVE';
+-```
++`src/server/services/matching.ts` uses cosine similarity (`1 - (a <=> b)`) to find nearest-neighbor resources across users.
+ 
+-### Step 3: Bidirectional scoring
++### Step 3: Per-direction scoring
+ 
+-```typescript
+-// server/services/matching.ts
+-export async function findMatches(userId: string): Promise<Match[]> {
+-  // 1. Get user's HAVE resources
+-  const haves = await getActiveResources(userId, 'HAVE');
+-  // 2. Get user's WANT resources
+-  const wants = await getActiveResources(userId, 'WANT');
+-
+-  const candidates = new Map<string, MatchCandidate>();
+-
+-  for (const have of haves) {
+-    // Forward: my HAVE vs their WANTs
+-    const forwardMatches = await findSimilarResources(have.embedding, 'WANT', userId);
+-
+-    for (const match of forwardMatches) {
+-      const key = match.userId;
+-      if (!candidates.has(key)) {
+-        candidates.set(key, { userId: key, forwardScore: 0, reverseScore: 0 });
+-      }
+-      const c = candidates.get(key)!;
+-      c.forwardScore = Math.max(c.forwardScore, match.score);
+-    }
+-  }
+-
+-  for (const want of wants) {
+-    // Reverse: my WANT vs their HAVEs
+-    const reverseMatches = await findSimilarResources(want.embedding, 'HAVE', userId);
+-
+-    for (const match of reverseMatches) {
+-      const key = match.userId;
+-      if (candidates.has(key)) {
+-        const c = candidates.get(key)!;
+-        c.reverseScore = Math.max(c.reverseScore, match.score);
+-      }
+-    }
+-  }
+-
+-  // 3. Bidirectional score = forward × reverse
+-  // Both must be high for a good match
+-  return Array.from(candidates.values())
+-    .map(c => ({
+-      ...c,
+-      score: c.forwardScore * c.reverseScore,
+-    }))
+-    .filter(c => c.score > 0.3)  // minimum threshold
+-    .sort((a, b) => b.score - a.score)
+-    .slice(0, 20);
+-}
+-```
++For each candidate user, we track the best forward score and best reverse score independently. A match is stored if either direction exceeds `MATCH_THRESHOLDS.MIN_SCORE`.
++
++### Step 4: Dual-row insert
++
++Each match inserts TWO rows in a single transaction:
++- **Primary row** (A → B): A's perspective
++- **Mirror row** (B → A): Scores and resource IDs swapped, so B immediately sees the match
++
++Mirror rows use `ON CONFLICT DO UPDATE` to handle the case where B already has a row for that pair.
++
++## Match table: four resource references
++
++The Prisma schema stores both directions per row:
++
++- `forwardHave` / `forwardWant` — my HAVE matched their WANT
++- `reverseHave` / `reverseWant` — their HAVE matched my WANT
++
++A row may have only forward, only reverse, or both populated.
++
++## API: querying matches by direction
++
++`src/server/routers/match.ts` — the `myMatches` endpoint accepts a `direction` param:
++
++- `direction: 'forward'` → filter by `forwardScore >= minScore`
++- `direction: 'reverse'` → filter by `reverseScore >= minScore`
++- `direction: undefined` → filter by `score >= minScore`
++
++## UI: two-section matches page
++
++`/matches` displays two stacked sections (not tabs):
++
++- **"I have, they need"** — forward matches. Card shows: who needs + resource title
++- **"I need, they have"** — reverse matches. Card shows: who has + resource title
++
++Score badge is displayed on its own row below the resource title.
++
++## When matching runs
++
++1. **On resource create/update** — recalculate for the triggering user
++2. **On resource close/pause** — recalculate (closed resources excluded)
++3. **Vercel Cron (every 4 hours)** — reconcile stale users + clean up matches referencing non-ACTIVE resources
++4. **Never on page load** — always serve from cached Match table
+ 
+ ## Performance notes
+ 
+ - pgvector with IVFFlat index: good enough for 100k resources
+ - Create index: `CREATE INDEX ON resources USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);`
+-- Matching is not real-time — run on resource creation/update and cache results
+-- Re-run matching as a background job every few hours for all active users
++- Cron processes at most 20 users per invocation (60s timeout)
+ 
+ ## What NOT to do
+ 
+-- Don't build a recommendation engine — simple similarity is enough for MVP
+-- Don't use tag-only matching — semantic similarity catches "resume design" ≈ "CV formatting"
+-- Don't run matching on every page load — cache match results in a Match table
++- Don't hardcode threshold values — always use `MATCH_THRESHOLDS` from constants
++- Don't treat forward and reverse as a single combined score
++- Don't require both directions for a match to be valid
++- Don't run matching on every page load — serve from cached Match table
+ - Don't try chain matching yet — that's v2

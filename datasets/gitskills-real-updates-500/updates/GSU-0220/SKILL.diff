@@ -1,0 +1,42 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 68ba59c..019ef72 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -16,7 +16,7 @@ This skill handles the complete workflow of converting a raw image into an Andro
+      ↓
+ HSL饱和度过滤 → 岛屿算法提取中心内容 → 去边距
+      ↓
+-正方形裁剪 → 居中缩放(60%) → 输出PNG
++正方形裁剪 → 居中缩放(40%) → 输出PNG
+      ↓
+ Android XML配置 → 移除inset属性
+ ```
+@@ -122,7 +122,7 @@ def keep_colorful_content(input_path, output_path, saturation_threshold=0.25):
+ After content extraction, center the content in a square canvas and scale it appropriately:
+ 
+ ```python
+-def center_and_scale_content(input_path, output_path, target_size=1024, scale=0.6):
++def center_and_scale_content(input_path, output_path, target_size=1024, scale=0.4):
+     """Center content and scale to fit in target canvas."""
+     img = Image.open(input_path).convert("RGBA")
+     pixels = np.array(img)
+@@ -213,16 +213,17 @@ For fully transparent icons, use white background (the icon foreground itself sh
+ | White edges remain | White background not removed | Run flood_fill_cli, select white |
+ | Dark edges remain | Anti-aliasing artifacts | Use island algorithm with saturation filter |
+ | Gray edges remain | JPEG compression artifacts | Use saturation threshold (s>=0.25) |
+-| Content too large | No scaling applied | Scale to 60% of canvas |
++| Content too large | No scaling applied | Scale to 40% of canvas |
+ | All pixels connected | Background + content merged | Use HSL saturation first, then island algorithm |
+ 
+ ## Key Parameters
+ 
+ - **HSL saturation threshold**: 0.25 (keeps colorful content, removes gray)
+-- **Icon scale**: 0.6 (60% of 1024px canvas = ~614px)
++- **Icon scale**: 0.4 (40% of 1024px canvas = ~373px)
+ - **Edge width for flood fill**: 3 pixels
+ - **Target canvas size**: 1024x1024
+ 
+ ## Bundled Scripts
+ 
+ - `scripts/flood_fill_cli.py` - Interactive edge color removal tool
++- `scripts/generate_android_icon.py` - Icon scaling and XML fixer

@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0191",
+  "repo_full_name": "coo-labs/coo-harness",
+  "skill_path": ".claude/skills/trace-timeline/SKILL.md",
+  "skill_directory": ".claude/skills/trace-timeline",
+  "old_revision": "0a10f423d484fd263b05b82238c3c51f65fbb816",
+  "new_revision": "9f01b3b1142bc9f4c7e590d17b574eaa0af20d26",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-08T12:43:26Z",
+  "new_commit_message": "trace: extract CLAUDE_SESSION_ID for per-event /logs link (L3b) (#582)",
+  "commit_url": "https://github.com/coo-labs/coo-harness/commit/9f01b3b1142bc9f4c7e590d17b574eaa0af20d26",
+  "compare_url": "https://github.com/coo-labs/coo-harness/compare/0a10f423d484fd263b05b82238c3c51f65fbb816...9f01b3b1142bc9f4c7e590d17b574eaa0af20d26",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "coo-labs/coo-harness",
+    "path": ".claude/skills/trace-timeline/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0189009e616d2389cbf0ec3a4d9360c119e3fd08",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-08T12:43:26Z",
+    "commit_count": 8,
+    "sibling_count": 1,
+    "sibling_bytes": 71188,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/coo-labs/coo-harness/commits?path=.claude%2Fskills%2Ftrace-timeline%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0191",
+  "old": {
+    "revision": "0a10f423d484fd263b05b82238c3c51f65fbb816",
+    "tree_sha": "164f0f0b568eeccf7caa7e2414ff910da4d1bfa0",
+    "file_count": 2,
+    "bytes": 76978,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "abf27fe4c72e8d14e78fc516c690e88c60f9f258",
+      "sha256": "b62d40e5c80fc96029b54a81dab0d8ade92b4cb42136ac6139f7223f8b63e6db",
+      "size": 10454
+    }
+  },
+  "new": {
+    "revision": "9f01b3b1142bc9f4c7e590d17b574eaa0af20d26",
+    "tree_sha": "63d6672a96fd410076eb66ec913b093b6e35e4b8",
+    "file_count": 2,
+    "bytes": 82296,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0189009e616d2389cbf0ec3a4d9360c119e3fd08",
+      "sha256": "f3da481b250e00cefebbb165c01a74352f434b6f9736b87d934339e021ecacee",
+      "size": 11108
+    }
+  },
+  "diff_added_lines": 10,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "scripts/render-trace-timeline.py"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0b2c681397648e35d79b37f41c6b601b4500c8370efaeb2bc179a7858b71ffff"
+}

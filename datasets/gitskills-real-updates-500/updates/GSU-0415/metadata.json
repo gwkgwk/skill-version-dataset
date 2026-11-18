@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0415",
+  "repo_full_name": "dzackgarza/ai",
+  "skill_path": "opencode/skills/excalidraw/SKILL.md",
+  "skill_directory": "opencode/skills/excalidraw",
+  "old_revision": "366af6feaa2bc9d592c108560c42670207ee92ba",
+  "new_revision": "988c1de47260468740a6fd98c73d194a7e7d4e53",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-04T09:27:26Z",
+  "new_commit_message": "feat: add tool-provisioning-and-environment-hygiene policy skill, normalize tool installation across skills subtree",
+  "commit_url": "https://github.com/dzackgarza/ai/commit/988c1de47260468740a6fd98c73d194a7e7d4e53",
+  "compare_url": "https://github.com/dzackgarza/ai/compare/366af6feaa2bc9d592c108560c42670207ee92ba...988c1de47260468740a6fd98c73d194a7e7d4e53",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "dzackgarza/ai",
+    "path": "opencode/skills/excalidraw/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "013063d3e65e145698a61e943939fe336db9fe85",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-04T09:27:26Z",
+    "commit_count": 3,
+    "sibling_count": 4,
+    "sibling_bytes": 22052,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/dzackgarza/ai/commits?path=opencode%2Fskills%2Fexcalidraw%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0415",
+  "old": {
+    "revision": "366af6feaa2bc9d592c108560c42670207ee92ba",
+    "tree_sha": "c64746dfd3327289c24f1475f1b2714cccdafa84",
+    "file_count": 5,
+    "bytes": 29454,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "69e5d6f2ba956815e77aac932104cdd0453e0430",
+      "sha256": "fe9a14ee24b559d2ed57d86347fbe6a8a083e904968569f71e1a18c3d9202155",
+      "size": 7315
+    }
+  },
+  "new": {
+    "revision": "988c1de47260468740a6fd98c73d194a7e7d4e53",
+    "tree_sha": "62fd2f6c5689800f3d9ce7871630f87bd5958271",
+    "file_count": 5,
+    "bytes": 29445,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "013063d3e65e145698a61e943939fe336db9fe85",
+      "sha256": "1b85c680f88947b04b049705b458e783d20f0011e5dbb327f2f56d815a426778",
+      "size": 7306
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "663e1c889e9b6fddfebabee1393c18217cf0d48fed066278faab6a74244dcc3c"
+}

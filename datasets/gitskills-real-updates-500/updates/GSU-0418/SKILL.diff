@@ -1,0 +1,132 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index daf6e4e..00cd7a1 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -52,23 +52,26 @@ description: Используй этот навык для автоматиза
+ Используй, когда изменились зависимости (`requirements.txt`, `package.json`), Docker-конфигурация или требуются масштабные изменения.
+ 
+ ```bash
+-# 1. Сборка и запуск всех контейнеров
+-docker compose --env-file .env.prod -f docker/docker-compose.prod.yml up -d --build
++# 1. Перейти в папку проекта и собрать/запустить все контейнеры
++cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml up -d --build
+ 
+ # 2. Миграции БД
+-docker compose --env-file .env.prod -f docker/docker-compose.prod.yml exec backend python manage.py migrate
++cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml exec backend python manage.py migrate
+ 
+ # 3. Сборка статики
+-docker compose --env-file .env.prod -f docker/docker-compose.prod.yml exec backend python manage.py collectstatic --no-input
++cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml exec backend python manage.py collectstatic --no-input
+ ```
+ 
++> [!IMPORTANT]
++> Всегда используйте `cd /home/freesport/freesport &&` перед `docker compose` — команда ищет `.env.prod` относительно текущей директории. Абсолютный путь `--env-file /home/freesport/freesport/.env.prod` обеспечивает надёжность.
++
+ ### 2. Быстрый фикс (Quick Fix)
+ 
+ Используй для обновления логики (Python/JS код), если не менялись зависимости и структура контейнеров.
+ 
+ ```bash
+ # Перезапуск основных сервисов
+-docker compose --env-file .env.prod -f docker/docker-compose.prod.yml restart backend frontend
++cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml restart backend frontend
+ ```
+ 
+ > [!NOTE]
+@@ -77,14 +80,14 @@ docker compose --env-file .env.prod -f docker/docker-compose.prod.yml restart ba
+ ### 3. Обновление только бекенда (Backend Only)
+ 
+ ```bash
+-docker compose --env-file .env.prod -f docker/docker-compose.prod.yml up -d --build backend
+-docker compose --env-file .env.prod -f docker/docker-compose.prod.yml exec backend python manage.py migrate
++cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml up -d --build backend
++cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml exec backend python manage.py migrate
+ ```
+ 
+ ### 4. Обновление только фронтенда (Frontend Only)
+ 
+ ```bash
+-docker compose --env-file .env.prod -f docker/docker-compose.prod.yml up -d --build frontend
++cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml up -d --build frontend
+ ```
+ 
+ ## Важные замечания
+@@ -93,7 +96,7 @@ docker compose --env-file .env.prod -f docker/docker-compose.prod.yml up -d --bu
+ > **НИКОГДА не пушь напрямую в `production` remote (FREESPORT-B2B)!** Публичный репозиторий обновляется только через workflow `sync-to-public.yml` (срабатывает автоматически при пуше в `origin/main`). Прямой пуш сливает конфиденциальные данные и полную историю коммитов в публичный доступ. Инцидент 2026-04-12: ручной `git push production main --force` утек данные, потребовался emergency sync.
+ 
+ > [!DANGER]
+-> **PowerShell vs Bash:** На Windows используй `;` для разделения команд вместо `&&`. Пример: `git add .; git commit -m "..."; git push`.
++> **PowerShell vs Bash:** На Windows используй `;` для разделения команд PowerShell вместо `&&`. Пример: `git add .; git commit -m "..."; git push`. Внутри SSH-строки (одинарные кавычки) используйте `&&` для bash.
+ 
+ > [!WARNING]
+ > На сервере часто появляются коммиты от `Freesport Sync Bot`. Поэтому **ВСЕГДА** используй `git reset --hard origin/main` вместо `git pull`, чтобы избежать ошибок слияния ("divergent branches").
+@@ -101,7 +104,66 @@ docker compose --env-file .env.prod -f docker/docker-compose.prod.yml up -d --bu
+ > [!IMPORTANT]
+ > После обновления фронтенда всегда проверяй доступность сайта. Из-за особенностей Docker иногда требуется `restart nginx`, если upstream перестал отвечать.
+ 
++## Экранирование и сложные команды через SSH
++
++При выполнении команд из PowerShell через SSH строка проходит 3 уровня интерпретации. Основное правило:
++
++- **Одинарные кавычки `'...'`** на уровне PowerShell — bash получает строку как есть.
++- **Двойные кавычки `"..."`** на уровне PowerShell — PowerShell интерпретирует переменные.
++
++### Правильный шаблон
++
++```powershell
++ssh root@5.35.124.149 'cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml ps'
++```
++
++### Команды с переменными bash
++
++Экранируйте `$` через `\$` внутри двойных кавычек:
++
++```powershell
++ssh root@5.35.124.149 'cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml exec -T backend sh -c "echo \$HOME"'
++```
++
++### Сложные скрипты: here-document (рекомендуется)
++
++Для Python-скриптов, curl с переменными или многострочных команд:
++
++```powershell
++ssh root@5.35.124.149 'cat > /tmp/deploy_check.py << "EOF"
++import urllib.request
++r = urllib.request.urlopen("http://localhost:8000/api/v1/health/")
++print(r.status, len(r.read()))
++EOF
++cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml exec -T backend python /tmp/deploy_check.py'
++```
++
++Удалите временный файл после выполнения:
++
++```powershell
++ssh root@5.35.124.149 'rm /tmp/deploy_check.py'
++```
++
++### Логи без обрезки
++
++Docker обрезает длинные строки. Для полных логов:
++
++```powershell
++ssh root@5.35.124.149 'cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml logs --tail=50 --no-trunc backend 2>&1 | cat'
++```
++
+ ## Команды для проверки (Post-deployment)
+ 
+-- `docker compose -f ... ps` — проверить статус контейнеров.
+-- `docker compose -f ... logs --tail=50 backend` — проверить логи.
++```powershell
++# Проверить статус контейнеров
++ssh root@5.35.124.149 'cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml ps'
++
++# Проверить логи бэкенда
++ssh root@5.35.124.149 'cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml logs --tail=50 backend'
++
++# Проверить логи nginx
++ssh root@5.35.124.149 'cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml logs --tail=50 nginx'
++
++# Проверить логи фронтенда
++ssh root@5.35.124.149 'cd /home/freesport/freesport && docker compose --env-file /home/freesport/freesport/.env.prod -f docker/docker-compose.prod.yml logs --tail=50 frontend'
++```

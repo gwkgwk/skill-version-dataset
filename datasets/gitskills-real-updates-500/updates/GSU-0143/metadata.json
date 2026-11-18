@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0143",
+  "repo_full_name": "yaxyobekuz/smartlab",
+  "skill_path": ".claude/skills/uz-translation-rules/SKILL.md",
+  "skill_directory": ".claude/skills/uz-translation-rules",
+  "old_revision": "2e5993266c2363524fa624c1d329e1b3b85c4317",
+  "new_revision": "5e485eb0858ebd7be0ad02ce7fe846b4a25c0c3e",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-05T07:11:10Z",
+  "new_commit_message": "chore: normalize em-dashes to hyphens across repo",
+  "commit_url": "https://github.com/yaxyobekuz/smartlab/commit/5e485eb0858ebd7be0ad02ce7fe846b4a25c0c3e",
+  "compare_url": "https://github.com/yaxyobekuz/smartlab/compare/2e5993266c2363524fa624c1d329e1b3b85c4317...5e485eb0858ebd7be0ad02ce7fe846b4a25c0c3e",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "yaxyobekuz/smartlab",
+    "path": ".claude/skills/uz-translation-rules/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00c7862b23a6ba428275abf28d4bec98d22bddf5",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-05T07:11:10Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/yaxyobekuz/smartlab/commits?path=.claude%2Fskills%2Fuz-translation-rules%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0143",
+  "old": {
+    "revision": "2e5993266c2363524fa624c1d329e1b3b85c4317",
+    "tree_sha": "1ef8a904b3a88325e36aa96b0d9890363733c972",
+    "file_count": 1,
+    "bytes": 1337,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "cf7572829d12b7361a7869b94d64c7f5f1952286",
+      "sha256": "098edb62edd8dd06d4fded7fc3e5daffbb8e876f58a9b40ee05b928ea0151626",
+      "size": 1337
+    }
+  },
+  "new": {
+    "revision": "5e485eb0858ebd7be0ad02ce7fe846b4a25c0c3e",
+    "tree_sha": "fae3a32da4e6e5d1d5b9d631909c53eb63c4376b",
+    "file_count": 1,
+    "bytes": 1331,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00c7862b23a6ba428275abf28d4bec98d22bddf5",
+      "sha256": "47e5aa67c6dad47bc7b478bfc9b4f7623ea39864fac3abc922dcd0489f09da18",
+      "size": 1331
+    }
+  },
+  "diff_added_lines": 3,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0275116e616726ac2910cfe11f319623589a4f3240e9a1d307baf857f93a84d5"
+}

@@ -1,0 +1,13 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 5137058..012e930 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -17,6 +17,8 @@ owner: jira
+ criticality: medium
+ status: active
+ runtime: claude-code
++requires_external_service: ["jira"]
++default_enabled: false
+ ---
+ 
+ # mk:jira-estimator

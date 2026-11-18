@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0014",
+  "repo_full_name": "agentculture/league-of-agents-platform",
+  "skill_path": ".claude/skills/remember/SKILL.md",
+  "skill_directory": ".claude/skills/remember",
+  "old_revision": "3006a174697cf7773dc78dfd7f05c73e078da3c3",
+  "new_revision": "1f50eaf1cafa7b3acf03914aa0d73bbb73831020",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-10T03:52:52Z",
+  "new_commit_message": "scaffold league-of-agents-platform from culture-agent-template",
+  "commit_url": "https://github.com/agentculture/league-of-agents-platform/commit/1f50eaf1cafa7b3acf03914aa0d73bbb73831020",
+  "compare_url": "https://github.com/agentculture/league-of-agents-platform/compare/3006a174697cf7773dc78dfd7f05c73e078da3c3...1f50eaf1cafa7b3acf03914aa0d73bbb73831020",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "agentculture/league-of-agents-platform",
+    "path": ".claude/skills/remember/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0063bb1946f1e1837b8f93f48f5398f6086fa3f2",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-07-10T03:52:52Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 5388,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/agentculture/league-of-agents-platform/commits?path=.claude%2Fskills%2Fremember%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0014",
+  "old": {
+    "revision": "3006a174697cf7773dc78dfd7f05c73e078da3c3",
+    "tree_sha": "9126276dfd2fd91af1871b28c731860760e90a68",
+    "file_count": 2,
+    "bytes": 11549,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "53aa1dd73810679880514be819620d99f6d78f19",
+      "sha256": "6e52495129b95f72e341453a02af7a1a86186974075671e911db1d2a99aef919",
+      "size": 6161
+    }
+  },
+  "new": {
+    "revision": "1f50eaf1cafa7b3acf03914aa0d73bbb73831020",
+    "tree_sha": "f4f5dda42cb4478b525503ec68584fbd1d68a02a",
+    "file_count": 2,
+    "bytes": 11558,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0063bb1946f1e1837b8f93f48f5398f6086fa3f2",
+      "sha256": "df99a484227d9f12523bddf4e966d1a9c8e578f353e4145d3b5fb682228ba820",
+      "size": 6170
+    }
+  },
+  "diff_added_lines": 3,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c1c0ec22b8c081a2cd412d4307a532372627a653e9c1e81aed5cab391ebb24a8"
+}

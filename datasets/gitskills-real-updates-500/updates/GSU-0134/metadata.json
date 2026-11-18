@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0134",
+  "repo_full_name": "Carloss616/seanime-extensions",
+  "skill_path": ".claude/skills/prune-comments/SKILL.md",
+  "skill_directory": ".claude/skills/prune-comments",
+  "old_revision": "94652ccbf0d0e49c9080219f765c63d24715902d",
+  "new_revision": "4c67236777b58e291c8e65ba9096a2276b0d1852",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-17T01:00:25Z",
+  "new_commit_message": "chore(comments): prune redundant comments repo-wide; tighten prune-comments skill",
+  "commit_url": "https://github.com/Carloss616/seanime-extensions/commit/4c67236777b58e291c8e65ba9096a2276b0d1852",
+  "compare_url": "https://github.com/Carloss616/seanime-extensions/compare/94652ccbf0d0e49c9080219f765c63d24715902d...4c67236777b58e291c8e65ba9096a2276b0d1852",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Carloss616/seanime-extensions",
+    "path": ".claude/skills/prune-comments/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0162f765bd1db6a5c9f631a03fbd40f5c1dee55f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-17T01:00:25Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/Carloss616/seanime-extensions/commits?path=.claude%2Fskills%2Fprune-comments%2FSKILL.md&per_page=10&until=2026-07-17T01%3A00%3A26%2B00%3A00",
+  "history_cutoff": "2026-07-17T01:00:26+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0134",
+  "old": {
+    "revision": "94652ccbf0d0e49c9080219f765c63d24715902d",
+    "tree_sha": "c1a9a5c1e9a1e90991887e4dc9be69af6a85134e",
+    "file_count": 1,
+    "bytes": 7361,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0162f765bd1db6a5c9f631a03fbd40f5c1dee55f",
+      "sha256": "db9dcc63220bb13c14a5e4fe8c72afa2256c67119d9c78bec6ea3957d5684f3a",
+      "size": 7361
+    }
+  },
+  "new": {
+    "revision": "4c67236777b58e291c8e65ba9096a2276b0d1852",
+    "tree_sha": "9e155fa84f2dc8f6c873fe7e159f47f16230113f",
+    "file_count": 1,
+    "bytes": 11106,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d165e85fa22e2e3d9a53291c7cf6c9b3ded203ed",
+      "sha256": "8820baf6c50fe9da15316e70e1d870d9fd88435715b14a56c66d571c76bf33f4",
+      "size": 11106
+    }
+  },
+  "diff_added_lines": 53,
+  "diff_deleted_lines": 18,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "846b26484cd1741692b73ceda7063c7dfc3c1d1c2dfffe12a7643a93f29139b3"
+}

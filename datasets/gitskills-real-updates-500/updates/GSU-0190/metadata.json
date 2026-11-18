@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0190",
+  "repo_full_name": "ak110/GLATasks",
+  "skill_path": ".claude/skills/add-trpc-procedure/SKILL.md",
+  "skill_directory": ".claude/skills/add-trpc-procedure",
+  "old_revision": "a6c1253f320664c9ba67d03e6434c9cd41055668",
+  "new_revision": "5880cb6da2f5dd2ef7aa6a6805f4025ba6eab077",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-08T10:22:18Z",
+  "new_commit_message": "docs(agent-toolkit): スキル節スコープと命名実態の確認義務を追記する",
+  "commit_url": "https://github.com/ak110/GLATasks/commit/5880cb6da2f5dd2ef7aa6a6805f4025ba6eab077",
+  "compare_url": "https://github.com/ak110/GLATasks/compare/a6c1253f320664c9ba67d03e6434c9cd41055668...5880cb6da2f5dd2ef7aa6a6805f4025ba6eab077",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ak110/GLATasks",
+    "path": ".claude/skills/add-trpc-procedure/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01306ea6628e0b4277be8654c425a6d82112f320",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-08T10:22:18Z",
+    "commit_count": 17,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/ak110/GLATasks/commits?path=.claude%2Fskills%2Fadd-trpc-procedure%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0190",
+  "old": {
+    "revision": "a6c1253f320664c9ba67d03e6434c9cd41055668",
+    "tree_sha": "e9227cb574751140c89d8e4a855de460fb053274",
+    "file_count": 1,
+    "bytes": 9099,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8f44a5c5042a7d65500695dc861b5cf959f5ef4d",
+      "sha256": "83f7506159bd7f5adb7230c17de3aed9e5924c6a11c7d815ed5a415f61ba5125",
+      "size": 9099
+    }
+  },
+  "new": {
+    "revision": "5880cb6da2f5dd2ef7aa6a6805f4025ba6eab077",
+    "tree_sha": "d3d6603964beb59cc7b282c87a39c0f8a93a340c",
+    "file_count": 1,
+    "bytes": 9180,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01306ea6628e0b4277be8654c425a6d82112f320",
+      "sha256": "dbd0da5b79453e604c2968c50747952085cd3c5dd2d363cec1120f7f9836fe22",
+      "size": 9180
+    }
+  },
+  "diff_added_lines": 11,
+  "diff_deleted_lines": 10,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "396fbb6ba51474ca2c816ff714e9fd72a2882a2fbd90f833df1e81b82ab2a3e5"
+}

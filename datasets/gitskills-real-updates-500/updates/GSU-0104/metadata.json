@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0104",
+  "repo_full_name": "ric03uec/clawrium",
+  "skill_path": ".claude/skills/itx-bug-new/SKILL.md",
+  "skill_directory": ".claude/skills/itx-bug-new",
+  "old_revision": "e671b1b84c9594ac0470fa158f8c0aed586042b8",
+  "new_revision": "d047d2fac9bd3318e1480f197cf31c395db9cc19",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-30T08:23:03Z",
+  "new_commit_message": "feat(itx): update workflow to config-driven portable skills",
+  "commit_url": "https://github.com/ric03uec/clawrium/commit/d047d2fac9bd3318e1480f197cf31c395db9cc19",
+  "compare_url": "https://github.com/ric03uec/clawrium/compare/e671b1b84c9594ac0470fa158f8c0aed586042b8...d047d2fac9bd3318e1480f197cf31c395db9cc19",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ric03uec/clawrium",
+    "path": ".claude/skills/itx-bug-new/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0101ef7c796d08585228b7f1c028f491cd98096c",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-04-30T08:23:03Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/ric03uec/clawrium/commits?path=.claude%2Fskills%2Fitx-bug-new%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0104",
+  "old": {
+    "revision": "e671b1b84c9594ac0470fa158f8c0aed586042b8",
+    "tree_sha": "eee0dd78cf4fdfb17b964aeddf69e0e67f8f11f7",
+    "file_count": 1,
+    "bytes": 2499,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "9896258fdab9d271b27ee7907f58b83ed89a298f",
+      "sha256": "5ee0ce9fd48e7e434eddc98b43915c989aa4aa917587ecac06a1b76ad4254870",
+      "size": 2499
+    }
+  },
+  "new": {
+    "revision": "d047d2fac9bd3318e1480f197cf31c395db9cc19",
+    "tree_sha": "69dfd8f78a75996ff71fefd3b655ec3d3fc46577",
+    "file_count": 1,
+    "bytes": 3457,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0101ef7c796d08585228b7f1c028f491cd98096c",
+      "sha256": "02d1a35e9e6a8c85931cf226af3df219e4fc8ed05e13dfe576323a846eacc928",
+      "size": 3457
+    }
+  },
+  "diff_added_lines": 37,
+  "diff_deleted_lines": 10,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "18cc3aa3404191ef5ffc77763afc43fc221fc032b99d88c7329330ebe5b91be8"
+}

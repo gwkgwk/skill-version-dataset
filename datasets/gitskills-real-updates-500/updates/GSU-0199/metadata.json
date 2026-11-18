@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0199",
+  "repo_full_name": "zeuikli/claude-code-workspace",
+  "skill_path": ".claude/skills/deep-review/SKILL.md",
+  "skill_directory": ".claude/skills/deep-review",
+  "old_revision": "7aa7b3445252c659a80d249abb0dd0296bf529c7",
+  "new_revision": "9cd17d1cfabbd6f7f01af9092192cb3bee7f4d3d",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-18T13:26:31Z",
+  "new_commit_message": "feat: add /ultraplan, /ultrareview, Unhobbling philosophy to workspace",
+  "commit_url": "https://github.com/zeuikli/claude-code-workspace/commit/9cd17d1cfabbd6f7f01af9092192cb3bee7f4d3d",
+  "compare_url": "https://github.com/zeuikli/claude-code-workspace/compare/7aa7b3445252c659a80d249abb0dd0296bf529c7...9cd17d1cfabbd6f7f01af9092192cb3bee7f4d3d",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "zeuikli/claude-code-workspace",
+    "path": ".claude/skills/deep-review/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0194972133126880a452ca20a94a78e122204673",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-04-18T13:26:31Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/zeuikli/claude-code-workspace/commits?path=.claude%2Fskills%2Fdeep-review%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0199",
+  "old": {
+    "revision": "7aa7b3445252c659a80d249abb0dd0296bf529c7",
+    "tree_sha": "fa4ed09d357203128ee7a220604d15248fd243c1",
+    "file_count": 1,
+    "bytes": 1650,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "380f0aac718586180c7aa0361cabf0a2376374e5",
+      "sha256": "b40fc2df1fbfb38e75d0a6a91bfe86289dd0095fa9f93e67500cd8b3849d9657",
+      "size": 1650
+    }
+  },
+  "new": {
+    "revision": "9cd17d1cfabbd6f7f01af9092192cb3bee7f4d3d",
+    "tree_sha": "b2b4464b2ff363f020ac5e208fc717f376747887",
+    "file_count": 1,
+    "bytes": 2447,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0194972133126880a452ca20a94a78e122204673",
+      "sha256": "ce528e423b4d02a11c8cf957812aeeade725df612c46a78a2d554c73940cada7",
+      "size": 2447
+    }
+  },
+  "diff_added_lines": 22,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "ac51ce0da29ec603a1a100b67c93e39bbd44cfcdacd4a61a201aedf4ccf1d5f5"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0157",
+  "repo_full_name": "Hemlock5712/2027-Template",
+  "skill_path": ".claude/skills/log-reading/SKILL.md",
+  "skill_directory": ".claude/skills/log-reading",
+  "old_revision": "d151481dc4d1c5c0e43064d1e5e549a2e12af676",
+  "new_revision": "6c2e90871945ab2d21b01344490ad4682c7e01b9",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-19T04:53:34Z",
+  "new_commit_message": "Adopt the \"holds never finish\" convention; chaining is the teaching ceiling",
+  "commit_url": "https://github.com/Hemlock5712/2027-Template/commit/6c2e90871945ab2d21b01344490ad4682c7e01b9",
+  "compare_url": "https://github.com/Hemlock5712/2027-Template/compare/d151481dc4d1c5c0e43064d1e5e549a2e12af676...6c2e90871945ab2d21b01344490ad4682c7e01b9",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Hemlock5712/2027-Template",
+    "path": ".claude/skills/log-reading/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "019e9ecd68ee14ec2d6c6f726a6588278516164a",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-19T04:53:34Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/Hemlock5712/2027-Template/commits?path=.claude%2Fskills%2Flog-reading%2FSKILL.md&per_page=10&until=2026-07-19T04%3A53%3A35%2B00%3A00",
+  "history_cutoff": "2026-07-19T04:53:35+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0157",
+  "old": {
+    "revision": "d151481dc4d1c5c0e43064d1e5e549a2e12af676",
+    "tree_sha": "e8241d9abbb7a1e76a3d737716764c2bed3a7e8d",
+    "file_count": 1,
+    "bytes": 8034,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "019e9ecd68ee14ec2d6c6f726a6588278516164a",
+      "sha256": "a64992926e675a2f3c37d75526744181a7421d463b18fcf583818f370b992bd7",
+      "size": 8034
+    }
+  },
+  "new": {
+    "revision": "6c2e90871945ab2d21b01344490ad4682c7e01b9",
+    "tree_sha": "75f764536f2f5bddc0f773b8ea33fded2c31dca7",
+    "file_count": 1,
+    "bytes": 8081,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "9d0d5704544b66f05d22ff1563eaaaeb800d488a",
+      "sha256": "a0c06c8800d2d14158d02e49ab088615a805ff02ae7b58c448046f1670b080a4",
+      "size": 8081
+    }
+  },
+  "diff_added_lines": 3,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "3dc7d00ee6ec10554a4ab346c193271fe22ea66d6a4f771e60adef2938d13298"
+}

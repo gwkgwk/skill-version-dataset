@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0404",
+  "repo_full_name": "curiositech/some_claude_skills",
+  "skill_path": ".claude/skills/team-builder/SKILL.md",
+  "skill_directory": ".claude/skills/team-builder",
+  "old_revision": "a9da639596fe47f1bdb7ea88c2b8cefe7b4a2563",
+  "new_revision": "d6f30eb6fff951cb470e2283800f5ba425892fec",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-05T00:26:07Z",
+  "new_commit_message": "Skill infrastructure overhaul, hero images, and build pipeline hardening",
+  "commit_url": "https://github.com/curiositech/some_claude_skills/commit/d6f30eb6fff951cb470e2283800f5ba425892fec",
+  "compare_url": "https://github.com/curiositech/some_claude_skills/compare/a9da639596fe47f1bdb7ea88c2b8cefe7b4a2563...d6f30eb6fff951cb470e2283800f5ba425892fec",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "curiositech/some_claude_skills",
+    "path": ".claude/skills/team-builder/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0056fc488227ba40518fe605bd53dfba3e963884",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-05T00:26:07Z",
+    "commit_count": 6,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/curiositech/some_claude_skills/commits?path=.claude%2Fskills%2Fteam-builder%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0404",
+  "old": {
+    "revision": "a9da639596fe47f1bdb7ea88c2b8cefe7b4a2563",
+    "tree_sha": "3e0b9a6ff0de317269f1b1de03a4a187cbadd6b3",
+    "file_count": 1,
+    "bytes": 11703,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "79e842046add8799a74d25630e97fb69f90f16c6",
+      "sha256": "911afcf10809a4f12acf5e22335edf33a320e5af651d97300a3d3e1343ec3dda",
+      "size": 11703
+    }
+  },
+  "new": {
+    "revision": "d6f30eb6fff951cb470e2283800f5ba425892fec",
+    "tree_sha": "e14bfc4f0884b6b29c6c8730cb211150ddd0b9a7",
+    "file_count": 1,
+    "bytes": 11711,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0056fc488227ba40518fe605bd53dfba3e963884",
+      "sha256": "83c23039861e24b6b0c2aae636192e2c3c0a640e2abfa835b89d597e0c7c166a",
+      "size": 11711
+    }
+  },
+  "diff_added_lines": 17,
+  "diff_deleted_lines": 14,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9e36a46d57f69185ff7b1de00d740453590d506bc4826a61ae60f3b48cf052f2"
+}

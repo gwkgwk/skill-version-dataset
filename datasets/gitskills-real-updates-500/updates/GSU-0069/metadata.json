@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0069",
+  "repo_full_name": "ivanmkc/kidsgame",
+  "skill_path": ".claude/skills/storybook-pipeline/SKILL.md",
+  "skill_directory": ".claude/skills/storybook-pipeline",
+  "old_revision": "302bbdc3d0e04bd4bfe50adb600342860b45856a",
+  "new_revision": "688d45fa4eb2c58d507c9fa436286ef16659cf95",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-08T00:25:34Z",
+  "new_commit_message": "feat(story): hotspot-nav everywhere (new books), fx spots, no back button, rules hardened",
+  "commit_url": "https://github.com/ivanmkc/kidsgame/commit/688d45fa4eb2c58d507c9fa436286ef16659cf95",
+  "compare_url": "https://github.com/ivanmkc/kidsgame/compare/302bbdc3d0e04bd4bfe50adb600342860b45856a...688d45fa4eb2c58d507c9fa436286ef16659cf95",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ivanmkc/kidsgame",
+    "path": ".claude/skills/storybook-pipeline/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0196fbd85b20de15400145a33685cb35988687ab",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-07-08T00:25:34Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/ivanmkc/kidsgame/commits?path=.claude%2Fskills%2Fstorybook-pipeline%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0069",
+  "old": {
+    "revision": "302bbdc3d0e04bd4bfe50adb600342860b45856a",
+    "tree_sha": "a1c32c2e46aa065852608327c1fee7260bf5384b",
+    "file_count": 1,
+    "bytes": 5170,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "df55b2cfd6428f8b586400dd8a4a3d1c6b29e4f1",
+      "sha256": "2788ee971106406639d691007a7980c6ea3659db17c57c11bf4d1f27fd90f47b",
+      "size": 5170
+    }
+  },
+  "new": {
+    "revision": "688d45fa4eb2c58d507c9fa436286ef16659cf95",
+    "tree_sha": "e979425b5430d47bd5aae9856959198da00c6009",
+    "file_count": 1,
+    "bytes": 5840,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0196fbd85b20de15400145a33685cb35988687ab",
+      "sha256": "dcbbbb4d4931b71601fad79d045ac178d9222e6e224a6d30282742a60f818180",
+      "size": 5840
+    }
+  },
+  "diff_added_lines": 12,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "cb7164f284e39aa086b40b3be7386d7f2128922fe2537c4d84e7f75ec697ef1b"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "GSU-0468",
+  "repo_full_name": "jankneumann/agentic-content-analyzer",
+  "skill_path": ".claude/skills/refresh-architecture/SKILL.md",
+  "skill_directory": ".claude/skills/refresh-architecture",
+  "old_revision": "6ce6fcedda76245797a27ef2fa88817fd535b3e2",
+  "new_revision": "e686d9ee6f62eaa476f87c5a4f83fbfc2d2e0b22",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-11T00:03:57Z",
+  "new_commit_message": "security: harden repo for public release",
+  "commit_url": "https://github.com/jankneumann/agentic-content-analyzer/commit/e686d9ee6f62eaa476f87c5a4f83fbfc2d2e0b22",
+  "compare_url": "https://github.com/jankneumann/agentic-content-analyzer/compare/6ce6fcedda76245797a27ef2fa88817fd535b3e2...e686d9ee6f62eaa476f87c5a4f83fbfc2d2e0b22",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "jankneumann/agentic-content-analyzer",
+    "path": ".claude/skills/refresh-architecture/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0168123c63defc4ebea310720e2371a230def2a5",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-04-11T00:03:57Z",
+    "commit_count": 3,
+    "sibling_count": 57,
+    "sibling_bytes": 575104,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/commits?path=.claude%2Fskills%2Frefresh-architecture%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0468",
+  "old": {
+    "revision": "6ce6fcedda76245797a27ef2fa88817fd535b3e2",
+    "tree_sha": "3e0317b83578c5bfbcfd1c673a38e3dd5aaa55e7",
+    "file_count": 52,
+    "bytes": 501826,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "1ca0f402dd67840bfd277baaaaa57c9f309449ca",
+      "sha256": "5b140eb6c1975d8469cd9ee0ea167875dd05506a9a2e2cdc928de9fdaa1e1b38",
+      "size": 6737
+    }
+  },
+  "new": {
+    "revision": "e686d9ee6f62eaa476f87c5a4f83fbfc2d2e0b22",
+    "tree_sha": "ef94e96bc3cd27f0e59a2afc3be0b7df164a6672",
+    "file_count": 58,
+    "bytes": 581841,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0168123c63defc4ebea310720e2371a230def2a5",
+      "sha256": "46849838857c04b5d6aa1d7b65bf7e6525d90cc47d312dd428777fedadd43807",
+      "size": 6737
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [
+      "scripts/affected_tests.py",
+      "scripts/insights/test_linker.py",
+      "scripts/rpc_server.py",
+      "scripts/tests/test_affected_tests.py",
+      "scripts/tests/test_rpc_server.py",
+      "scripts/tests/test_test_linker.py"
+    ],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "scripts/arch_utils/constants.py",
+      "scripts/compile_architecture_graph.py",
+      "scripts/refresh_architecture.sh",
+      "scripts/tests/test_pipeline_integration.py"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f69ed9c91275d53cdbea93bd70de7bc4ada5a000041814801b3bb825b471c327"
+}

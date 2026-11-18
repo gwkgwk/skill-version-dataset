@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0418",
+  "repo_full_name": "AlexMobiCraft/FREESPORT",
+  "skill_path": ".claude/skills/production-update/SKILL.md",
+  "skill_directory": ".claude/skills/production-update",
+  "old_revision": "93288dc24adfd5b707dd200a17889ddc4182d32e",
+  "new_revision": "5e16df4d6d4950ce0da7bfe369fda1ef3673d831",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-30T07:42:34Z",
+  "new_commit_message": "Обновление навыков для работы с продакшен сервером",
+  "commit_url": "https://github.com/AlexMobiCraft/FREESPORT/commit/5e16df4d6d4950ce0da7bfe369fda1ef3673d831",
+  "compare_url": "https://github.com/AlexMobiCraft/FREESPORT/compare/93288dc24adfd5b707dd200a17889ddc4182d32e...5e16df4d6d4950ce0da7bfe369fda1ef3673d831",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "AlexMobiCraft/FREESPORT",
+    "path": ".claude/skills/production-update/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00cd7a173ce12c170f7c030c8b70c01beb9a9900",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-30T07:42:34Z",
+    "commit_count": 5,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/AlexMobiCraft/FREESPORT/commits?path=.claude%2Fskills%2Fproduction-update%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0418",
+  "old": {
+    "revision": "93288dc24adfd5b707dd200a17889ddc4182d32e",
+    "tree_sha": "8103ae06905c50fecf65b3873c517120f98f7a95",
+    "file_count": 1,
+    "bytes": 6725,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "daf6e4ef62b8b975e5db548e7d50c9d34abed582",
+      "sha256": "cc8a4cabd28b3437d7d68777c12182caec31ec340364d4fb6ad86451225216e1",
+      "size": 6725
+    }
+  },
+  "new": {
+    "revision": "5e16df4d6d4950ce0da7bfe369fda1ef3673d831",
+    "tree_sha": "495819410018124e0bd88a0c00e5e78b4258227a",
+    "file_count": 1,
+    "bytes": 10495,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00cd7a173ce12c170f7c030c8b70c01beb9a9900",
+      "sha256": "18605aca16b03101c3a4906130d0b1faa13f56f637ffe07d74ae02bc984ea2b6",
+      "size": 10495
+    }
+  },
+  "diff_added_lines": 73,
+  "diff_deleted_lines": 11,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "d811aa26adeaeef5fd48d8d65b179e0467666e02bdb611fb2ca5c1b4b31d77b3"
+}

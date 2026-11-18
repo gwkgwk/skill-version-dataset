@@ -1,0 +1,76 @@
+{
+  "id": "GSU-0183",
+  "repo_full_name": "JailtonJunior94/devkit-go",
+  "skill_path": ".claude/skills/create-tasks/SKILL.md",
+  "skill_directory": ".claude/skills/create-tasks",
+  "old_revision": "b70df74ca597fcebddbf91f807d12c469a985b5c",
+  "new_revision": "6fcbaeb088f51b52e38e772519a7aa2ec75dede4",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-05T20:26:13Z",
+  "new_commit_message": "chore(governance): sincronize hooks, skills e specs do ai-spec",
+  "commit_url": "https://github.com/JailtonJunior94/devkit-go/commit/6fcbaeb088f51b52e38e772519a7aa2ec75dede4",
+  "compare_url": "https://github.com/JailtonJunior94/devkit-go/compare/b70df74ca597fcebddbf91f807d12c469a985b5c...6fcbaeb088f51b52e38e772519a7aa2ec75dede4",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "JailtonJunior94/devkit-go",
+    "path": ".claude/skills/create-tasks/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0036e1dd021ff49bee9d420141e5c4234a0cab47",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-05T20:26:13Z",
+    "commit_count": 2,
+    "sibling_count": 2,
+    "sibling_bytes": 3761,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/JailtonJunior94/devkit-go/commits?path=.claude%2Fskills%2Fcreate-tasks%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0183",
+  "old": {
+    "revision": "b70df74ca597fcebddbf91f807d12c469a985b5c",
+    "tree_sha": "bdb3631a77e1368d60190646eafc5625d3a913c1",
+    "file_count": 3,
+    "bytes": 5970,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "fb20d18551490ad3f50218c5894517e6d89b8de1",
+      "sha256": "fb1854fed45251f7e8150e4748a9ca4a337c720d85e9f36013b166854369035b",
+      "size": 3987
+    }
+  },
+  "new": {
+    "revision": "6fcbaeb088f51b52e38e772519a7aa2ec75dede4",
+    "tree_sha": "5039663982aa897397a284da225fd450981a9869",
+    "file_count": 3,
+    "bytes": 15559,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0036e1dd021ff49bee9d420141e5c4234a0cab47",
+      "sha256": "da2c54b6e7455f9bb075873d7bd563360737b7e33a423013bd39d9693901511b",
+      "size": 11798
+    }
+  },
+  "diff_added_lines": 73,
+  "diff_deleted_lines": 15,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "assets/task-template.md",
+      "assets/tasks-template.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "a763e7ff6ea987a256ebdf9f53fd98794748aa4f9a752a509641d9c07ec045eb"
+}

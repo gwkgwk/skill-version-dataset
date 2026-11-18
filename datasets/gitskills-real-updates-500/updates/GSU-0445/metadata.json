@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0445",
+  "repo_full_name": "d0nghyun/neuron",
+  "skill_path": ".claude/skills/ops-vault-recap/SKILL.md",
+  "skill_directory": ".claude/skills/ops-vault-recap",
+  "old_revision": "571b54df7b103efd1853c55d55572d86b9575b79",
+  "new_revision": "1151e69ff931ed465da24174547239515fd835cf",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-16T13:29:54Z",
+  "new_commit_message": "push",
+  "commit_url": "https://github.com/d0nghyun/neuron/commit/1151e69ff931ed465da24174547239515fd835cf",
+  "compare_url": "https://github.com/d0nghyun/neuron/compare/571b54df7b103efd1853c55d55572d86b9575b79...1151e69ff931ed465da24174547239515fd835cf",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "d0nghyun/neuron",
+    "path": ".claude/skills/ops-vault-recap/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0110e6922597e8dfe5801cf508764fef5e6e0269",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-16T13:29:54Z",
+    "commit_count": 9,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/d0nghyun/neuron/commits?path=.claude%2Fskills%2Fops-vault-recap%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0445",
+  "old": {
+    "revision": "571b54df7b103efd1853c55d55572d86b9575b79",
+    "tree_sha": "7dbbb92c6b66595e76aa2d224c3c4547c69a4083",
+    "file_count": 1,
+    "bytes": 2820,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "763f74c3c3d0c8115915f69d945e070f13d14725",
+      "sha256": "c8c87714cfe1e9496bf2db54522a29421e51a9982357fb48699522c12719e388",
+      "size": 2820
+    }
+  },
+  "new": {
+    "revision": "1151e69ff931ed465da24174547239515fd835cf",
+    "tree_sha": "9eca5e58db989077453b360ec66a28e38dc42451",
+    "file_count": 1,
+    "bytes": 2820,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0110e6922597e8dfe5801cf508764fef5e6e0269",
+      "sha256": "5a172385a713fa633db1d9ef055829cc6a0ebf0cbdfb7c16a6d755afee93cd57",
+      "size": 2820
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "1453bcd164da493449dceadb0669e3b30cfca550f9750df8e2c891efa798018f"
+}

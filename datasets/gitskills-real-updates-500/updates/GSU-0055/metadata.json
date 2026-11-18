@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0055",
+  "repo_full_name": "loft-lang/loft",
+  "skill_path": ".claude/skills/loft-debug/SKILL.md",
+  "skill_directory": ".claude/skills/loft-debug",
+  "old_revision": "e51be76421408cf40907b7bc6b5e8e9932d2145e",
+  "new_revision": "9bd2e31c2feb41f8847bde857321051fab71f082",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-12T22:04:58Z",
+  "new_commit_message": "stability: #354 native codegen fixes + the vector/ref ownership leak classes (#361)",
+  "commit_url": "https://github.com/loft-lang/loft/commit/9bd2e31c2feb41f8847bde857321051fab71f082",
+  "compare_url": "https://github.com/loft-lang/loft/compare/e51be76421408cf40907b7bc6b5e8e9932d2145e...9bd2e31c2feb41f8847bde857321051fab71f082",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "loft-lang/loft",
+    "path": ".claude/skills/loft-debug/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0009c7583fcea5bc4b0a9ab9d4e8f69883a95aa8",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-12T22:04:58Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "LGPL-3.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/loft-lang/loft/commits?path=.claude%2Fskills%2Floft-debug%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0055",
+  "old": {
+    "revision": "e51be76421408cf40907b7bc6b5e8e9932d2145e",
+    "tree_sha": "91bafec074616d4345952680caca0e280e12d820",
+    "file_count": 1,
+    "bytes": 10376,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e7db93d30dddab15718c7cf93c960fbd725e2481",
+      "sha256": "5a4044e2c78a58ca00ad066bbe326157a46146d499ad5187392a1e16c11339ff",
+      "size": 10376
+    }
+  },
+  "new": {
+    "revision": "9bd2e31c2feb41f8847bde857321051fab71f082",
+    "tree_sha": "8d600fed3ec8650b19c2806e5962240de1ca4481",
+    "file_count": 1,
+    "bytes": 10765,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0009c7583fcea5bc4b0a9ab9d4e8f69883a95aa8",
+      "sha256": "e77b717c4ae54de61901e0ab01977786dfd62b6e7f6d5c0c924e1d49d0ec038d",
+      "size": 10765
+    }
+  },
+  "diff_added_lines": 5,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9d8f627a2b8bc0ee4b2f78360082376afd0405ef709942eecd90a78c19b0d757"
+}

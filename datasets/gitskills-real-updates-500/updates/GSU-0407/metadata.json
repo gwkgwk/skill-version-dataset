@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0407",
+  "repo_full_name": "Wilder1222/superomni",
+  "skill_path": "skills/plan-review/SKILL.md",
+  "skill_directory": "skills/plan-review",
+  "old_revision": "e76e72e3ed88bfd1a098d60d9fe9302d25d9ceff",
+  "new_revision": "01be59fec037cded9aa9a75f72c6d759c18e0896",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-30T02:53:40Z",
+  "new_commit_message": "feat: restructure and enhance documentation for superomni framework",
+  "commit_url": "https://github.com/Wilder1222/superomni/commit/01be59fec037cded9aa9a75f72c6d759c18e0896",
+  "compare_url": "https://github.com/Wilder1222/superomni/compare/e76e72e3ed88bfd1a098d60d9fe9302d25d9ceff...01be59fec037cded9aa9a75f72c6d759c18e0896",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Wilder1222/superomni",
+    "path": "skills/plan-review/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00064f6675844eec646804fc3d2e7e098e7a4394",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-30T02:53:40Z",
+    "commit_count": 39,
+    "sibling_count": 1,
+    "sibling_bytes": 8888,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/Wilder1222/superomni/commits?path=skills%2Fplan-review%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0407",
+  "old": {
+    "revision": "e76e72e3ed88bfd1a098d60d9fe9302d25d9ceff",
+    "tree_sha": "bd3d889833fafdfeb319c15800ca93c1818ed756",
+    "file_count": 2,
+    "bytes": 18655,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "61d09293ae98012f312b50d3c26cce26ab0b17ab",
+      "sha256": "8d5c6ac1072fb58c8385fef782811d1f30ecae39f555246fd3b55a64f1175f4c",
+      "size": 9972
+    }
+  },
+  "new": {
+    "revision": "01be59fec037cded9aa9a75f72c6d759c18e0896",
+    "tree_sha": "353a985af9afb5d753c4d7fac5d5f76ff2ed0b57",
+    "file_count": 2,
+    "bytes": 19065,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00064f6675844eec646804fc3d2e7e098e7a4394",
+      "sha256": "faeba7bf764685adca12c91d453a5b70319435f1940542e3493941553fb8900f",
+      "size": 10177
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "SKILL.md.tmpl"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9dde48a82561ebd676d8076270fa15737a29201db7554344210e1fee6c8697c0"
+}

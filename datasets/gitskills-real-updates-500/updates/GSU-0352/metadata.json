@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0352",
+  "repo_full_name": "kjgarza/marketplace-claude",
+  "skill_path": "plugins/rapid-mvp/skills/wrap-up/SKILL.md",
+  "skill_directory": "plugins/rapid-mvp/skills/wrap-up",
+  "old_revision": "f6802edf414df03a09b64391163706d2185d1099",
+  "new_revision": "d354c6a2f8df077a805007f560cded7d464560ee",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-13T05:34:43Z",
+  "new_commit_message": "feat: inline plugin upgrades — taskwarrior, finanz-pilot, rapid-mvp",
+  "commit_url": "https://github.com/kjgarza/marketplace-claude/commit/d354c6a2f8df077a805007f560cded7d464560ee",
+  "compare_url": "https://github.com/kjgarza/marketplace-claude/compare/f6802edf414df03a09b64391163706d2185d1099...d354c6a2f8df077a805007f560cded7d464560ee",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "kjgarza/marketplace-claude",
+    "path": "plugins/rapid-mvp/skills/wrap-up/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "0135c39bc91f1d33af2e7d9115c8dc3ff8e68168",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-06-13T05:34:43Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/kjgarza/marketplace-claude/commits?path=plugins%2Frapid-mvp%2Fskills%2Fwrap-up%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0352",
+  "old": {
+    "revision": "f6802edf414df03a09b64391163706d2185d1099",
+    "tree_sha": "1a735cf53e9f49ca4a4503c3b2eac1386421859a",
+    "file_count": 1,
+    "bytes": 5829,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "4299e4dbb80d290886dac1bcd9f5f37d34e315ee",
+      "sha256": "a4d45693306b444308e73a4c48428dcdc9c0f5b90076eb3a2af851d8820e4320",
+      "size": 5829
+    }
+  },
+  "new": {
+    "revision": "d354c6a2f8df077a805007f560cded7d464560ee",
+    "tree_sha": "b075daca3de51aa8fa6200dce48db0ca11a61698",
+    "file_count": 1,
+    "bytes": 6395,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0135c39bc91f1d33af2e7d9115c8dc3ff8e68168",
+      "sha256": "2f771d444d6486344d0ab26e7329d4d9f04846b143082ed98f8d0c854f10e988",
+      "size": 6395
+    }
+  },
+  "diff_added_lines": 18,
+  "diff_deleted_lines": 13,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "fb3c12cf6a809e59831ed56d603d86378ac82aa2c0d18503821ea91c9dc15808"
+}

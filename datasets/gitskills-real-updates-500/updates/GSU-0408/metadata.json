@@ -1,0 +1,77 @@
+{
+  "id": "GSU-0408",
+  "repo_full_name": "ArtemFilin1990/b24-catalog",
+  "skill_path": ".claude/skills/kb-audit/SKILL.md",
+  "skill_directory": ".claude/skills/kb-audit",
+  "old_revision": "f39763e9ff4a0a395fd98dc1a2bd642de0b936b0",
+  "new_revision": "c5e6612f3dba9edcf9a6ed084e539b70652a8141",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-19T20:32:19Z",
+  "new_commit_message": "skills: architecture doc + upgrade all 5 thin skills",
+  "commit_url": "https://github.com/ArtemFilin1990/b24-catalog/commit/c5e6612f3dba9edcf9a6ed084e539b70652a8141",
+  "compare_url": "https://github.com/ArtemFilin1990/b24-catalog/compare/f39763e9ff4a0a395fd98dc1a2bd642de0b936b0...c5e6612f3dba9edcf9a6ed084e539b70652a8141",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ArtemFilin1990/b24-catalog",
+    "path": ".claude/skills/kb-audit/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01299fd43727ddc835c36e2ddd2882ccbf2740de",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-04-19T20:32:19Z",
+    "commit_count": 3,
+    "sibling_count": 3,
+    "sibling_bytes": 10961,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/ArtemFilin1990/b24-catalog/commits?path=.claude%2Fskills%2Fkb-audit%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0408",
+  "old": {
+    "revision": "f39763e9ff4a0a395fd98dc1a2bd642de0b936b0",
+    "tree_sha": "9573a5041d5bf46eb815ecd95a9cb14ab3bd389c",
+    "file_count": 4,
+    "bytes": 2839,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "62d55188b44459497ae9f029aad1fbeb74f1c3e6",
+      "sha256": "02f31b548d10d2393152304605edf5c9f6f3e62938259d4b4abe4d140ad14478",
+      "size": 1085
+    }
+  },
+  "new": {
+    "revision": "c5e6612f3dba9edcf9a6ed084e539b70652a8141",
+    "tree_sha": "25a28b41d89c01ca2474d31af6b49c9b8ddf8b64",
+    "file_count": 4,
+    "bytes": 14934,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01299fd43727ddc835c36e2ddd2882ccbf2740de",
+      "sha256": "83d6dadf98806ae4023b8237ded8e99abf7bf250453c5a1222e9f89aec6f0f51",
+      "size": 3973
+    }
+  },
+  "diff_added_lines": 77,
+  "diff_deleted_lines": 26,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/merge-decision-matrix.md",
+      "references/review-checklist.md",
+      "scripts/review_pr.sh"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "2e27ad17f94a4787cba45f3238de1202a7f3a3de8447b8fde3b6c01b3c4867e0"
+}

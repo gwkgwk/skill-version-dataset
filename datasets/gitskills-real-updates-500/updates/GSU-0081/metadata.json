@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0081",
+  "repo_full_name": "saitarrun/devforge-ai",
+  "skill_path": "skills/threat-modeling/SKILL.md",
+  "skill_directory": "skills/threat-modeling",
+  "old_revision": "df51168b391ad4eb8096b2f603a24b74495a376f",
+  "new_revision": "03543abb64f2d21a853b7a242c5d6c5df083e960",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-20T02:02:38Z",
+  "new_commit_message": "chore: remove dead scripts + fix skill frontmatter names",
+  "commit_url": "https://github.com/saitarrun/Devforge-ai/commit/03543abb64f2d21a853b7a242c5d6c5df083e960",
+  "compare_url": "https://github.com/saitarrun/devforge-ai/compare/df51168b391ad4eb8096b2f603a24b74495a376f...03543abb64f2d21a853b7a242c5d6c5df083e960",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "saitarrun/devforge-ai",
+    "path": "skills/threat-modeling/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00bed0ab3d314475c01c6d718c415cae01b28497",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-20T02:02:38Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/saitarrun/devforge-ai/commits?path=skills%2Fthreat-modeling%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0081",
+  "old": {
+    "revision": "df51168b391ad4eb8096b2f603a24b74495a376f",
+    "tree_sha": "a562672fbe495cff59f0d3a5006e9706112080dd",
+    "file_count": 1,
+    "bytes": 704,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "bb35cd0bcabfd52edf2ffe3b549c5a43ee1d8805",
+      "sha256": "9b725db7e51a8a7929837bd485a62f7f00c160a9b58b8facc18805af307a8790",
+      "size": 704
+    }
+  },
+  "new": {
+    "revision": "03543abb64f2d21a853b7a242c5d6c5df083e960",
+    "tree_sha": "b39a23f0e735a96564af2d57b7a62a2e5088c741",
+    "file_count": 1,
+    "bytes": 698,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00bed0ab3d314475c01c6d718c415cae01b28497",
+      "sha256": "1260543b108a24bab6b5edb576a9d574db78af3e72f70214eb846b3a5c8f543a",
+      "size": 698
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "d34936bba8fab1ec5a73c87ebe3dc74c29c4b94d91414fed09aa5c3cb2b9487f"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0025",
+  "repo_full_name": "ribon-org/ribon",
+  "skill_path": ".claude/skills/startproject/SKILL.md",
+  "skill_directory": ".claude/skills/startproject",
+  "old_revision": "63310a8217c4df7a623b3f8e50f7da391d63a712",
+  "new_revision": "cedeff694535d9c30979a346d1f46c15f0855807",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-09T02:42:37Z",
+  "new_commit_message": "🔥 リポジトリから Codex CLI 関連のエントリをすべて削除",
+  "commit_url": "https://github.com/ribon-org/ribon/commit/cedeff694535d9c30979a346d1f46c15f0855807",
+  "compare_url": "https://github.com/ribon-org/ribon/compare/63310a8217c4df7a623b3f8e50f7da391d63a712...cedeff694535d9c30979a346d1f46c15f0855807",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ribon-org/ribon",
+    "path": ".claude/skills/startproject/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00fcf2d40b84249f369934644c892ade85425e1e",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-09T02:42:37Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 3031,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/ribon-org/ribon/commits?path=.claude%2Fskills%2Fstartproject%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0025",
+  "old": {
+    "revision": "63310a8217c4df7a623b3f8e50f7da391d63a712",
+    "tree_sha": "e396e98debcc2920558dfe923802a9511b611453",
+    "file_count": 2,
+    "bytes": 14069,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0715e16aa6383f68fbef5ea6837d34a0cc9b8de9",
+      "sha256": "18e3079328453051d9a100666ea8249467e55fb0a9ee8e70b15b14fa28fd294f",
+      "size": 10994
+    }
+  },
+  "new": {
+    "revision": "cedeff694535d9c30979a346d1f46c15f0855807",
+    "tree_sha": "2c38989a431bf5a4b51b6ec4e71b763268178790",
+    "file_count": 2,
+    "bytes": 13727,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00fcf2d40b84249f369934644c892ade85425e1e",
+      "sha256": "b1ffaf409d497bf87407c31930586b351e983e478ad6f1fe453a5a32688929f8",
+      "size": 10696
+    }
+  },
+  "diff_added_lines": 7,
+  "diff_deleted_lines": 12,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/task-patterns.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0427939721e42410a9a8a0a1c66f83b34af52a94852acea547e9224c9a2104a5"
+}

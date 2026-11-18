@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0452",
+  "repo_full_name": "bottle-note/bottle-note-api-server",
+  "skill_path": ".claude/skills/debug/SKILL.md",
+  "skill_directory": ".claude/skills/debug",
+  "old_revision": "75ccd6a36c25bba55ac5e8a661e5e1ba8d1a7816",
+  "new_revision": "793ce4a917d286c06ab1402950dbe3efb1e4e997",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-17T10:39:19Z",
+  "new_commit_message": "chore: Add runtime boundary rules and GSL skill execution constraints",
+  "commit_url": "https://github.com/bottle-note/bottle-note-api-server/commit/793ce4a917d286c06ab1402950dbe3efb1e4e997",
+  "compare_url": "https://github.com/bottle-note/bottle-note-api-server/compare/75ccd6a36c25bba55ac5e8a661e5e1ba8d1a7816...793ce4a917d286c06ab1402950dbe3efb1e4e997",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "bottle-note/bottle-note-api-server",
+    "path": ".claude/skills/debug/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01782267f829d760efcaaa9a8f297031e2552599",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-15T06:58:44Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/bottle-note/bottle-note-api-server/commits?path=.claude%2Fskills%2Fdebug%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0452",
+  "old": {
+    "revision": "75ccd6a36c25bba55ac5e8a661e5e1ba8d1a7816",
+    "tree_sha": "3b1f6a8b6489b68853e6f99de2ca077d16f3f687",
+    "file_count": 1,
+    "bytes": 6904,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "5d0b8f4f993bc28abcd2de02842bf4e2e4193836",
+      "sha256": "da1d027b96c1dc45acba19cba08784002a7d62799ca50dbbacb9b326f8c2a75e",
+      "size": 6904
+    }
+  },
+  "new": {
+    "revision": "793ce4a917d286c06ab1402950dbe3efb1e4e997",
+    "tree_sha": "399b273d3ed85e97232511ca952a0b65a21d8117",
+    "file_count": 1,
+    "bytes": 7655,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01782267f829d760efcaaa9a8f297031e2552599",
+      "sha256": "fef6c0fb4549b406c8664673787756010798570920bae7f98ddadc50b37eafaa",
+      "size": 7655
+    }
+  },
+  "diff_added_lines": 14,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "855b07dc225ac1bb6413280aca46f9c728096786da08ff9495f11d013873c70b"
+}

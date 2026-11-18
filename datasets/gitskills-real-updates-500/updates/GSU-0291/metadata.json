@@ -1,0 +1,78 @@
+{
+  "id": "GSU-0291",
+  "repo_full_name": "lucasmiachon-blip/aula.cirrose",
+  "skill_path": ".claude/skills/nlm-skill/SKILL.md",
+  "skill_directory": ".claude/skills/nlm-skill",
+  "old_revision": "bd7f96fd3b7ad538dcf877cf0e9c364a37a9fa55",
+  "new_revision": "64ae2329c9c186540747989a83763851a4b01f21",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-25T19:29:53Z",
+  "new_commit_message": "refactor: delete 4 dead agents + 3 redundant nlm-skill references (-1509 lines)",
+  "commit_url": "https://github.com/lucasmiachon-blip/aula.cirrose/commit/64ae2329c9c186540747989a83763851a4b01f21",
+  "compare_url": "https://github.com/lucasmiachon-blip/aula.cirrose/compare/bd7f96fd3b7ad538dcf877cf0e9c364a37a9fa55...64ae2329c9c186540747989a83763851a4b01f21",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "lucasmiachon-blip/aula.cirrose",
+    "path": ".claude/skills/nlm-skill/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0060d5bb7cf60da7dc670173e1d092f0d28ce1a0",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-25T19:29:53Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 1706,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/lucasmiachon-blip/aula.cirrose/commits?path=.claude%2Fskills%2Fnlm-skill%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0291",
+  "old": {
+    "revision": "bd7f96fd3b7ad538dcf877cf0e9c364a37a9fa55",
+    "tree_sha": "ca9501198bb7cff25ea3099def0784b752b52209",
+    "file_count": 4,
+    "bytes": 66636,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "a32b7e991d54cac0fb01f3517d35d8b9747c1d14",
+      "sha256": "484fb2260e23e82a5fe8e3911db7de6eef6e5cb18494c309c3bd82ea676c5ccf",
+      "size": 27963
+    }
+  },
+  "new": {
+    "revision": "64ae2329c9c186540747989a83763851a4b01f21",
+    "tree_sha": "c6476679a3109ff72fea1f4736936d097d4f80fe",
+    "file_count": 1,
+    "bytes": 27629,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0060d5bb7cf60da7dc670173e1d092f0d28ce1a0",
+      "sha256": "c8b6cd1d383cd995412ba9c5800ea892f253898467dced7ccb9545db3039dea6",
+      "size": 27629
+    }
+  },
+  "diff_added_lines": 0,
+  "diff_deleted_lines": 6,
+  "changed_files": {
+    "added": [],
+    "deleted": [
+      "references/command_reference.md",
+      "references/troubleshooting.md",
+      "references/workflows.md"
+    ],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "479dcad831045ad7c6e35bcebcf74f51f413120cbce6c343794ca03d4cbd82a2"
+}

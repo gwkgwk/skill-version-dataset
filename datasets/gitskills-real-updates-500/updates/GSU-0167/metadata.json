@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0167",
+  "repo_full_name": "nexuslabs-ai/nexus",
+  "skill_path": ".claude/skills/implement-guide/SKILL.md",
+  "skill_directory": ".claude/skills/implement-guide",
+  "old_revision": "acef4915d2f93014717495bcf02471ca61b0c800",
+  "new_revision": "7690c4afd438083e6e2a540e631bcdaceefdfd1d",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-10T15:24:02Z",
+  "new_commit_message": "refactor(tokens): remove legacy static token pipeline (#648)",
+  "commit_url": "https://github.com/nexuslabs-ai/nxds/commit/7690c4afd438083e6e2a540e631bcdaceefdfd1d",
+  "compare_url": "https://github.com/nexuslabs-ai/nexus/compare/acef4915d2f93014717495bcf02471ca61b0c800...7690c4afd438083e6e2a540e631bcdaceefdfd1d",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "nexuslabs-ai/nexus",
+    "path": ".claude/skills/implement-guide/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "017947adbfca24d35af851ccff8091d0e564b58f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-10T15:24:02Z",
+    "commit_count": 9,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/nexuslabs-ai/nexus/commits?path=.claude%2Fskills%2Fimplement-guide%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0167",
+  "old": {
+    "revision": "acef4915d2f93014717495bcf02471ca61b0c800",
+    "tree_sha": "f35efc430718cf39b46684d6fe8f68bca30009d4",
+    "file_count": 1,
+    "bytes": 17450,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e7bf91d31182e550e815f227af822610d6d3abd5",
+      "sha256": "f8687af8a5529323c5c594dede7941ab01e0ef1b7c1934db29215ac1393e4ddf",
+      "size": 17450
+    }
+  },
+  "new": {
+    "revision": "7690c4afd438083e6e2a540e631bcdaceefdfd1d",
+    "tree_sha": "c871e154030044827e28e1e6a6d05104a7988b24",
+    "file_count": 1,
+    "bytes": 17426,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "017947adbfca24d35af851ccff8091d0e564b58f",
+      "sha256": "33a134d3312e0f9791b1d00c61afba99c559ad299cd58a899c1515047102e767",
+      "size": 17426
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4f5933b47b803a6545509c0400f9455cb186fe27324a905099caacb70f54368e"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0071",
+  "repo_full_name": "Negentropy-Laby/Constitution-Driven-Development",
+  "skill_path": ".claude/skills/reverse-document/SKILL.md",
+  "skill_directory": ".claude/skills/reverse-document",
+  "old_revision": "d693a1e1705ad79369cad4e863cbd0aa3ea5da06",
+  "new_revision": "20b79ac1cbbd377c5602dcb42b88aa79f4f849f4",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-05T04:02:37Z",
+  "new_commit_message": "docs: standardize skill user guidance",
+  "commit_url": "https://github.com/Negentropy-Laby/Constitution-Driven-Development/commit/20b79ac1cbbd377c5602dcb42b88aa79f4f849f4",
+  "compare_url": "https://github.com/Negentropy-Laby/Constitution-Driven-Development/compare/d693a1e1705ad79369cad4e863cbd0aa3ea5da06...20b79ac1cbbd377c5602dcb42b88aa79f4f849f4",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Negentropy-Laby/Constitution-Driven-Development",
+    "path": ".claude/skills/reverse-document/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01162a03ba6f2cd5f2c791e4f84dfcd8195dfd44",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-05T04:02:37Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/Negentropy-Laby/Constitution-Driven-Development/commits?path=.claude%2Fskills%2Freverse-document%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0071",
+  "old": {
+    "revision": "d693a1e1705ad79369cad4e863cbd0aa3ea5da06",
+    "tree_sha": "6392c3f0cb3a3af52311ea35cb93aecbb35561ac",
+    "file_count": 1,
+    "bytes": 12254,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "dacda68d46ef282b6fd1417fb93f20c8a05775d0",
+      "sha256": "26730d011c07564167b0d27757bb5923423eccc059c3fcc440a4eee3724ad93e",
+      "size": 12254
+    }
+  },
+  "new": {
+    "revision": "20b79ac1cbbd377c5602dcb42b88aa79f4f849f4",
+    "tree_sha": "c792400c6228f2c215a6f1d60e2ec2facf88ac7e",
+    "file_count": 1,
+    "bytes": 12930,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01162a03ba6f2cd5f2c791e4f84dfcd8195dfd44",
+      "sha256": "371747fb998d56366a7aa35ef7d5f09b846cb4c0821007b058741d2f1e111e09",
+      "size": 12930
+    }
+  },
+  "diff_added_lines": 8,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "84139fd4e33e2a3b356175bc65b4273221d3efcf60924fbe3455b17f13df52ab"
+}

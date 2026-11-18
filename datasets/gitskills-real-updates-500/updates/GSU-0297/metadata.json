@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0297",
+  "repo_full_name": "gabb-software/gabb-cli",
+  "skill_path": ".claude/skills/gabb/SKILL.md",
+  "skill_directory": ".claude/skills/gabb",
+  "old_revision": "ee78f7fcbe9acc884c6fa78c88b27f100a4fe436",
+  "new_revision": "a8499d9d67bf745252a8db7ae56ed6ee98f34d7a",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-02T08:06:39Z",
+  "new_commit_message": "feat(languages): add C# language support (#136)",
+  "commit_url": "https://github.com/gabb-software/gabb-cli/commit/a8499d9d67bf745252a8db7ae56ed6ee98f34d7a",
+  "compare_url": "https://github.com/gabb-software/gabb-cli/compare/ee78f7fcbe9acc884c6fa78c88b27f100a4fe436...a8499d9d67bf745252a8db7ae56ed6ee98f34d7a",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "gabb-software/gabb-cli",
+    "path": ".claude/skills/gabb/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0161591d01d895455a194a7cbd5569159db95440",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-04-02T08:06:39Z",
+    "commit_count": 31,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/gabb-software/gabb-cli/commits?path=.claude%2Fskills%2Fgabb%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0297",
+  "old": {
+    "revision": "ee78f7fcbe9acc884c6fa78c88b27f100a4fe436",
+    "tree_sha": "7f3ca7d0df3a35157a7d88e265394fc67e35e4f0",
+    "file_count": 1,
+    "bytes": 3448,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "ec20fde458851498cf5f9fce04f08b4dc7185d07",
+      "sha256": "9f8d6454b44fd9ba2fd239dfa93360c5de700423833a46894a7f5f171ba6ebe9",
+      "size": 3448
+    }
+  },
+  "new": {
+    "revision": "a8499d9d67bf745252a8db7ae56ed6ee98f34d7a",
+    "tree_sha": "de2a8d39cb43fd48c243cb9504fd7c9a68789c2e",
+    "file_count": 1,
+    "bytes": 3504,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0161591d01d895455a194a7cbd5569159db95440",
+      "sha256": "2b85dd945fd00f41196aa8ccb9c228cf61eff61ab765e0b90ad0d04351b24c26",
+      "size": 3504
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "e316f6d8234da85eca5d2f127d85efbaa4b1f26965c07fca0af57cf127432f23"
+}

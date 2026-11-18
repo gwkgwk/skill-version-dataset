@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0121",
+  "repo_full_name": "daryllundy/claude-skills-library",
+  "skill_path": ".claude/skills/instagram-specialist/SKILL.md",
+  "skill_directory": ".claude/skills/instagram-specialist",
+  "old_revision": "4dae9efc968c9b95db661a5ad314e4bb00b1f2c6",
+  "new_revision": "3c16b911fc804e65a0c1d8754cc4c4a7e3332546",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-20T23:09:48Z",
+  "new_commit_message": "cleanup: pass3 semantic cleanup",
+  "commit_url": "https://github.com/daryllundy/claude-skills-library/commit/3c16b911fc804e65a0c1d8754cc4c4a7e3332546",
+  "compare_url": "https://github.com/daryllundy/claude-skills-library/compare/4dae9efc968c9b95db661a5ad314e4bb00b1f2c6...3c16b911fc804e65a0c1d8754cc4c4a7e3332546",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "daryllundy/claude-skills-library",
+    "path": ".claude/skills/instagram-specialist/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00b6eb3515102a43b225361bc82501cb83eb83fe",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-20T23:09:48Z",
+    "commit_count": 7,
+    "sibling_count": 4,
+    "sibling_bytes": 11724,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/daryllundy/claude-skills-library/commits?path=.claude%2Fskills%2Finstagram-specialist%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0121",
+  "old": {
+    "revision": "4dae9efc968c9b95db661a5ad314e4bb00b1f2c6",
+    "tree_sha": "a34890cc0ed21643de3bdb00bece6a8a58a8dc56",
+    "file_count": 5,
+    "bytes": 14128,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "5fe064e8d339e14e56f43eafd1afca5950f01bc0",
+      "sha256": "cda5b33a50a3c3d8ab4b79f32818d2a1cfb02ac2e649b0b91d2e4a378f29bbbb",
+      "size": 2404
+    }
+  },
+  "new": {
+    "revision": "3c16b911fc804e65a0c1d8754cc4c4a7e3332546",
+    "tree_sha": "319497197e9bbd9a0a2c207b15de7fd16ff7f66d",
+    "file_count": 5,
+    "bytes": 14125,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00b6eb3515102a43b225361bc82501cb83eb83fe",
+      "sha256": "f100b702522572ffc9de13fa952d060c81cc5cb601c4eb7d13f23f893f387517",
+      "size": 2401
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "2ebe79567c1c5077ca462c88087e9233511a06215ceae8aab25500d5dff8c777"
+}

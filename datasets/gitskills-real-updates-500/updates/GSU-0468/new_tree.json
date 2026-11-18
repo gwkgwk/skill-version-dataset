@@ -1,0 +1,519 @@
+{
+  "sha": "ef94e96bc3cd27f0e59a2afc3be0b7df164a6672",
+  "tree": [
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0168123c63defc4ebea310720e2371a230def2a5",
+      "size": 6737,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/0168123c63defc4ebea310720e2371a230def2a5"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a888873656e1b3b9ceda2e08d802cd125167b242",
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/trees/a888873656e1b3b9ceda2e08d802cd125167b242"
+    },
+    {
+      "path": "scripts/affected_tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14d968883f061d9f48f7a6956434253904231567",
+      "size": 9682,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/14d968883f061d9f48f7a6956434253904231567"
+    },
+    {
+      "path": "scripts/analyze_postgres.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc806486d6eb2bf7df9304598a1f3656de7db590",
+      "size": 41411,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/fc806486d6eb2bf7df9304598a1f3656de7db590"
+    },
+    {
+      "path": "scripts/analyze_python.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d4d4e7cf159efceea2e5a765a4a3f05ea7e42c1",
+      "size": 37653,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/6d4d4e7cf159efceea2e5a765a4a3f05ea7e42c1"
+    },
+    {
+      "path": "scripts/analyze_sql_treesitter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59ac406474efae0e11b36f93825f9e3db64e23b7",
+      "size": 38673,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/59ac406474efae0e11b36f93825f9e3db64e23b7"
+    },
+    {
+      "path": "scripts/analyze_typescript.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c98acad5ef56fabe278a0120cef88a5ada811007",
+      "size": 31051,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/c98acad5ef56fabe278a0120cef88a5ada811007"
+    },
+    {
+      "path": "scripts/arch_utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05819efd72fb37564a2623a258b2e61e2169d4e7",
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/trees/05819efd72fb37564a2623a258b2e61e2169d4e7"
+    },
+    {
+      "path": "scripts/arch_utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84d115bfa693e401436241bc0a11fd0bb6b8a2bd",
+      "size": 990,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/84d115bfa693e401436241bc0a11fd0bb6b8a2bd"
+    },
+    {
+      "path": "scripts/arch_utils/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd1fbcffe9ce3a6726f0581720d987666fc2c487",
+      "size": 3462,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/fd1fbcffe9ce3a6726f0581720d987666fc2c487"
+    },
+    {
+      "path": "scripts/arch_utils/diagnostics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d956156a16b4eaa1995ae0a76fe4c8db63a7b28",
+      "size": 3216,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/0d956156a16b4eaa1995ae0a76fe4c8db63a7b28"
+    },
+    {
+      "path": "scripts/arch_utils/graph_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99da2e8c73ca25b22f2d2266380d3548f31b93c7",
+      "size": 1171,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/99da2e8c73ca25b22f2d2266380d3548f31b93c7"
+    },
+    {
+      "path": "scripts/arch_utils/node_id.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac6bb1de692c922054dff00bb122bd1bfaff5843",
+      "size": 1819,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/ac6bb1de692c922054dff00bb122bd1bfaff5843"
+    },
+    {
+      "path": "scripts/arch_utils/traversal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5e3fcf26722247806e819ffe7d152f6be505c78",
+      "size": 5146,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/d5e3fcf26722247806e819ffe7d152f6be505c78"
+    },
+    {
+      "path": "scripts/compile_architecture_graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdf28e1ab02003f985add02f0ed76da2abb16c9c",
+      "size": 14901,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/cdf28e1ab02003f985add02f0ed76da2abb16c9c"
+    },
+    {
+      "path": "scripts/diff_architecture.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547783cc6a838b69981468b6b0372f3604463470",
+      "size": 6837,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/547783cc6a838b69981468b6b0372f3604463470"
+    },
+    {
+      "path": "scripts/enrich_with_treesitter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5c5c27027ba743771cc64f21e2ebdf310bb9a01",
+      "size": 22213,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/c5c5c27027ba743771cc64f21e2ebdf310bb9a01"
+    },
+    {
+      "path": "scripts/generate_views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cff30184a7fa69ddafa8894cd4d86adbefed7c5",
+      "size": 22666,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/9cff30184a7fa69ddafa8894cd4d86adbefed7c5"
+    },
+    {
+      "path": "scripts/insights",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed04d890887af7d84707c1a489fc5fc1d4b5b26d",
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/trees/ed04d890887af7d84707c1a489fc5fc1d4b5b26d"
+    },
+    {
+      "path": "scripts/insights/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99717e266f81852926574044e788584e4ad25000",
+      "size": 176,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/99717e266f81852926574044e788584e4ad25000"
+    },
+    {
+      "path": "scripts/insights/comment_linker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aa9f78a1bb03886f042ccc6ef808cbb1bd8a5cc",
+      "size": 5778,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/1aa9f78a1bb03886f042ccc6ef808cbb1bd8a5cc"
+    },
+    {
+      "path": "scripts/insights/cross_layer_linker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c4ccdfc199a42fea4ed0ad97e8f27930100ad88",
+      "size": 15532,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/6c4ccdfc199a42fea4ed0ad97e8f27930100ad88"
+    },
+    {
+      "path": "scripts/insights/db_linker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fdd857a90277beda0fea06a10147e113399c8df",
+      "size": 8835,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/9fdd857a90277beda0fea06a10147e113399c8df"
+    },
+    {
+      "path": "scripts/insights/flow_tracer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06e7bd90450c59b820cb15c64aba7f80d255f545",
+      "size": 6722,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/06e7bd90450c59b820cb15c64aba7f80d255f545"
+    },
+    {
+      "path": "scripts/insights/flow_validator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb1842c71ef760bf635d033306ae4eb701e4fc37",
+      "size": 3455,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/eb1842c71ef760bf635d033306ae4eb701e4fc37"
+    },
+    {
+      "path": "scripts/insights/graph_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71a5e038ddbe3c93a5ccd43550970b0faf2b716c",
+      "size": 25522,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/71a5e038ddbe3c93a5ccd43550970b0faf2b716c"
+    },
+    {
+      "path": "scripts/insights/impact_ranker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "600a0680fc1b92470228fef6c07344d245814917",
+      "size": 5491,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/600a0680fc1b92470228fef6c07344d245814917"
+    },
+    {
+      "path": "scripts/insights/parallel_zones.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1da2f95dbc75b82bc704d42bd87739113f0ba136",
+      "size": 2081,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/1da2f95dbc75b82bc704d42bd87739113f0ba136"
+    },
+    {
+      "path": "scripts/insights/pattern_reporter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "813a8bac9f845c228c60aa04cb8f20b699f37cef",
+      "size": 5652,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/813a8bac9f845c228c60aa04cb8f20b699f37cef"
+    },
+    {
+      "path": "scripts/insights/summary_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7036f5a4f98c57c87c49b9765a6c022bc1ce4226",
+      "size": 11792,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/7036f5a4f98c57c87c49b9765a6c022bc1ce4226"
+    },
+    {
+      "path": "scripts/insights/test_linker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66d17cf8a6e98149cad5452710066802c71f849c",
+      "size": 17993,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/66d17cf8a6e98149cad5452710066802c71f849c"
+    },
+    {
+      "path": "scripts/parallel_zones.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "36973ebde59fc61d7e778b75e201acc904e4954e",
+      "size": 14390,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/36973ebde59fc61d7e778b75e201acc904e4954e"
+    },
+    {
+      "path": "scripts/refresh_architecture.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a106e83bc25b3e889c7ec1a92795c534ccb1099b",
+      "size": 23886,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/a106e83bc25b3e889c7ec1a92795c534ccb1099b"
+    },
+    {
+      "path": "scripts/reports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "970a586e7de87a050d4dd9d59e506430ec72c0b9",
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/trees/970a586e7de87a050d4dd9d59e506430ec72c0b9"
+    },
+    {
+      "path": "scripts/reports/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfc512bcb2d02c6d59e95fcb8ac6404c46199b5c",
+      "size": 131,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/bfc512bcb2d02c6d59e95fcb8ac6404c46199b5c"
+    },
+    {
+      "path": "scripts/reports/architecture_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db33bb768cdf36af24127860c0392186c627fc2",
+      "size": 40564,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/8db33bb768cdf36af24127860c0392186c627fc2"
+    },
+    {
+      "path": "scripts/reports/config_schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc396d6b66c8e0b0227695e42fc889b19f421aaf",
+      "size": 8562,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/dc396d6b66c8e0b0227695e42fc889b19f421aaf"
+    },
+    {
+      "path": "scripts/rpc_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e438fd11a0c8373e21d28109428fec6ff05a03b",
+      "size": 13346,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/7e438fd11a0c8373e21d28109428fec6ff05a03b"
+    },
+    {
+      "path": "scripts/run_architecture.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4845db56a4dc03f45013b7459100480215821c89",
+      "size": 2911,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/4845db56a4dc03f45013b7459100480215821c89"
+    },
+    {
+      "path": "scripts/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "970b1c774623dd81acb0bcf699b68bf9c9fb3572",
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/trees/970b1c774623dd81acb0bcf699b68bf9c9fb3572"
+    },
+    {
+      "path": "scripts/tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70d7ae05f53c3a50214ec2dc8956f11b9c3de0e",
+      "size": 2149,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/d70d7ae05f53c3a50214ec2dc8956f11b9c3de0e"
+    },
+    {
+      "path": "scripts/tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7711d5e42a49d134c0a95f26ebdaf93952e2659",
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/trees/f7711d5e42a49d134c0a95f26ebdaf93952e2659"
+    },
+    {
+      "path": "scripts/tests/fixtures/postgres_analysis.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ae51650175c796036f551303f0de3e6982d0e0b",
+      "size": 1502,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/1ae51650175c796036f551303f0de3e6982d0e0b"
+    },
+    {
+      "path": "scripts/tests/fixtures/python_analysis.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab1111296fcab83e8b45ded4f2ee7a14a0979b6",
+      "size": 1914,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/9ab1111296fcab83e8b45ded4f2ee7a14a0979b6"
+    },
+    {
+      "path": "scripts/tests/fixtures/sample-work-packages.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ee025429067c412bec819bd7f092ac1f9e3358",
+      "size": 4391,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/67ee025429067c412bec819bd7f092ac1f9e3358"
+    },
+    {
+      "path": "scripts/tests/fixtures/ts_analysis.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66dd06bd22d0218e992bf15dc193f80f9a0d2f8f",
+      "size": 1089,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/66dd06bd22d0218e992bf15dc193f80f9a0d2f8f"
+    },
+    {
+      "path": "scripts/tests/test_affected_tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5069bee0a66ef5e533c7da2e0bc751ae457fc2e9",
+      "size": 11729,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/5069bee0a66ef5e533c7da2e0bc751ae457fc2e9"
+    },
+    {
+      "path": "scripts/tests/test_analyze_sql_treesitter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f818dc12f5e2371e13b5feab8cbdaabb64dc5fce",
+      "size": 17125,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/f818dc12f5e2371e13b5feab8cbdaabb64dc5fce"
+    },
+    {
+      "path": "scripts/tests/test_comment_linker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "527bda574adbdd7f66e0bd53a4566fe764891a87",
+      "size": 4810,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/527bda574adbdd7f66e0bd53a4566fe764891a87"
+    },
+    {
+      "path": "scripts/tests/test_cross_layer_linker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a2d7bcf7ef80da649fd8a2041d169d46afeacbc",
+      "size": 2570,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/9a2d7bcf7ef80da649fd8a2041d169d46afeacbc"
+    },
+    {
+      "path": "scripts/tests/test_enrich_with_treesitter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f75bce77f933ec42646657e16633dbfd9c2f1727",
+      "size": 13705,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/f75bce77f933ec42646657e16633dbfd9c2f1727"
+    },
+    {
+      "path": "scripts/tests/test_flow_tracer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "764154703623ea73b7ddbfae65b474f5150ff4bb",
+      "size": 1759,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/764154703623ea73b7ddbfae65b474f5150ff4bb"
+    },
+    {
+      "path": "scripts/tests/test_graph_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef20db339d6957c1b2f49ed85a790795c069582f",
+      "size": 3923,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/ef20db339d6957c1b2f49ed85a790795c069582f"
+    },
+    {
+      "path": "scripts/tests/test_impact_ranker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc45d34c626fc6284bdefbaaec8fa67f51219a69",
+      "size": 1483,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/fc45d34c626fc6284bdefbaaec8fa67f51219a69"
+    },
+    {
+      "path": "scripts/tests/test_parallel_zones_packages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db4c0281d78b32ed27986f14c71df73d4b01b21",
+      "size": 4393,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/2db4c0281d78b32ed27986f14c71df73d4b01b21"
+    },
+    {
+      "path": "scripts/tests/test_pattern_reporter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f82633bcb628c8b592c38d98138149bba0502e58",
+      "size": 5666,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/f82633bcb628c8b592c38d98138149bba0502e58"
+    },
+    {
+      "path": "scripts/tests/test_pipeline_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "419086c6fe79421429e4cedd6a12ef4ecae1f7a5",
+      "size": 12386,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/419086c6fe79421429e4cedd6a12ef4ecae1f7a5"
+    },
+    {
+      "path": "scripts/tests/test_rpc_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05bb005cadb2a12435ee6ba0deda4f74685fb03e",
+      "size": 9113,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/05bb005cadb2a12435ee6ba0deda4f74685fb03e"
+    },
+    {
+      "path": "scripts/tests/test_run_architecture.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28e5c49b4b8f3dc36560ebb009dbfbf73d043aab",
+      "size": 3115,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/28e5c49b4b8f3dc36560ebb009dbfbf73d043aab"
+    },
+    {
+      "path": "scripts/tests/test_summary_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dda1df1f4c83ea03bb36a41bd458867aecac155",
+      "size": 3079,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/9dda1df1f4c83ea03bb36a41bd458867aecac155"
+    },
+    {
+      "path": "scripts/tests/test_test_linker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c38f512082534f18f22b102f34a63f1df40556d",
+      "size": 13454,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/6c38f512082534f18f22b102f34a63f1df40556d"
+    },
+    {
+      "path": "scripts/treesitter_queries",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "311a28fe0e221198aeb17fdb95793e6ba847add5",
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/trees/311a28fe0e221198aeb17fdb95793e6ba847add5"
+    },
+    {
+      "path": "scripts/treesitter_queries/python.scm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed49e17495536a413b500e6ccb1ec3e7f9c4c55a",
+      "size": 929,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/ed49e17495536a413b500e6ccb1ec3e7f9c4c55a"
+    },
+    {
+      "path": "scripts/treesitter_queries/security.scm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b173a7348c85a076938e39f80f4867496dd25b8",
+      "size": 670,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/6b173a7348c85a076938e39f80f4867496dd25b8"
+    },
+    {
+      "path": "scripts/treesitter_queries/typescript.scm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88b3ceda0bebb30a5c06f205cba2ec7998245b95",
+      "size": 440,
+      "url": "https://api.github.com/repos/jankneumann/agentic-content-analyzer/git/blobs/88b3ceda0bebb30a5c06f205cba2ec7998245b95"
+    }
+  ],
+  "truncated": false
+}

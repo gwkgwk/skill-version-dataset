@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0256",
+  "repo_full_name": "DevanB/lucidlog",
+  "skill_path": ".claude/skills/backend-queries/SKILL.md",
+  "skill_directory": ".claude/skills/backend-queries",
+  "old_revision": "f866bbaa7a4ca535e68cf3fb92c67b18f3133907",
+  "new_revision": "f043d11e3aff3fa4601388168d8c9476b1adc2ec",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2025-11-20T22:40:26Z",
+  "new_commit_message": "Improve skill descriptions with detailed use case guidance (#4)",
+  "commit_url": "https://github.com/DevanB/lucidlog/commit/f043d11e3aff3fa4601388168d8c9476b1adc2ec",
+  "compare_url": "https://github.com/DevanB/lucidlog/compare/f866bbaa7a4ca535e68cf3fb92c67b18f3133907...f043d11e3aff3fa4601388168d8c9476b1adc2ec",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "DevanB/lucidlog",
+    "path": ".claude/skills/backend-queries/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00ee225a59d45aa7fa542721a9614fe93a6e3825",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2025-11-20T22:40:26Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/DevanB/lucidlog/commits?path=.claude%2Fskills%2Fbackend-queries%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0256",
+  "old": {
+    "revision": "f866bbaa7a4ca535e68cf3fb92c67b18f3133907",
+    "tree_sha": "4c607d97346b12a6e1fbe30a75c4f21874dd6fab",
+    "file_count": 1,
+    "bytes": 475,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "2c793b49f8a4423e4d20958519036c545ea2f8f3",
+      "sha256": "c1af8e96deca5c84112413e3c610cc73e3a774400d5d2d79bc8f3d4acd6c0953",
+      "size": 475
+    }
+  },
+  "new": {
+    "revision": "f043d11e3aff3fa4601388168d8c9476b1adc2ec",
+    "tree_sha": "4f935e950f1aeb79b86f4566e7ad5d68049f1735",
+    "file_count": 1,
+    "bytes": 1779,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00ee225a59d45aa7fa542721a9614fe93a6e3825",
+      "sha256": "304c24e01538156ec7aaf23e9d744a6d987b2bc12ffb4d269a89a8865a47136e",
+      "size": 1779
+    }
+  },
+  "diff_added_lines": 16,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "67458f545a124bee3a96187ff8219afa2d8ea9602081eee2c5a4ff5ca362b1e5"
+}

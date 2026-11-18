@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0237",
+  "repo_full_name": "Sibyl-Research-Team/AutoResearch-SibylSystem",
+  "skill_path": ".claude/skills/sibyl-supervisor/SKILL.md",
+  "skill_directory": ".claude/skills/sibyl-supervisor",
+  "old_revision": "f800e93ab93df681b810be7cadbb523c2b300680",
+  "new_revision": "8e23f32e75578b3a43b1dc56f146e64eece80556",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-11T02:27:28Z",
+  "new_commit_message": "refactor: skills use render_skill_prompt and add Skill tool access",
+  "commit_url": "https://github.com/Sibyl-Research-Team/AutoResearch-SibylSystem/commit/8e23f32e75578b3a43b1dc56f146e64eece80556",
+  "compare_url": "https://github.com/Sibyl-Research-Team/AutoResearch-SibylSystem/compare/f800e93ab93df681b810be7cadbb523c2b300680...8e23f32e75578b3a43b1dc56f146e64eece80556",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Sibyl-Research-Team/AutoResearch-SibylSystem",
+    "path": ".claude/skills/sibyl-supervisor/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "013402720531e214e0b12663ebc0bc9b07dea212",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-11T02:27:28Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/Sibyl-Research-Team/AutoResearch-SibylSystem/commits?path=.claude%2Fskills%2Fsibyl-supervisor%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0237",
+  "old": {
+    "revision": "f800e93ab93df681b810be7cadbb523c2b300680",
+    "tree_sha": "8652543fe572dfffcb4abe45c1f8fe82e1a2c119",
+    "file_count": 1,
+    "bytes": 610,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "fb06730a9918890f2d1be96aa5d7026d4c8587db",
+      "sha256": "20ea7783ea24dc82049ed250575306c9501419098d763557b6af98ceb5f2f571",
+      "size": 610
+    }
+  },
+  "new": {
+    "revision": "8e23f32e75578b3a43b1dc56f146e64eece80556",
+    "tree_sha": "878192dcd2b945b7d0014b5886a29718315e84c4",
+    "file_count": 1,
+    "bytes": 568,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "013402720531e214e0b12663ebc0bc9b07dea212",
+      "sha256": "9746b853ba0962f11b2e3012a9be15ae21b40ecf4774106782b9d3fb6a61d3e0",
+      "size": 568
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c9aae39cc0d96fd640cafea0871ec0865a7d94f7d00b241f84c881dc8e7594ba"
+}

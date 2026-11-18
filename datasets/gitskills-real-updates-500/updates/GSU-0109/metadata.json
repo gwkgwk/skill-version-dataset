@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0109",
+  "repo_full_name": "finos/morphir",
+  "skill_path": ".claude/skills/release-manager/SKILL.md",
+  "skill_directory": ".claude/skills/release-manager",
+  "old_revision": "1a7e901a5faafb66d978c4637a437d5f1a9823a4",
+  "new_revision": "0f6ee301bcbe07bbc915fcb35c88dd811886a172",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-13T17:36:05Z",
+  "new_commit_message": "feat: migrate mise tasks to TypeScript/Python with pinned versions (#548)",
+  "commit_url": "https://github.com/finos/morphir/commit/0f6ee301bcbe07bbc915fcb35c88dd811886a172",
+  "compare_url": "https://github.com/finos/morphir/compare/1a7e901a5faafb66d978c4637a437d5f1a9823a4...0f6ee301bcbe07bbc915fcb35c88dd811886a172",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "finos/morphir",
+    "path": ".claude/skills/release-manager/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00a7a7443c6f864442963ea5139b1aec9be1cdd0",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-01-31T07:42:29Z",
+    "commit_count": 7,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/finos/morphir/commits?path=.claude%2Fskills%2Frelease-manager%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0109",
+  "old": {
+    "revision": "1a7e901a5faafb66d978c4637a437d5f1a9823a4",
+    "tree_sha": "b85177b6caa70fadbf40502e3d81739c405a0df3",
+    "file_count": 1,
+    "bytes": 28540,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "03eb4728809e11d26f83438b651f268740bfece9",
+      "sha256": "9c334eede0b3e61dcbcd4cf1b80084b52bd18d63f2e36d85bf353771c4c0b2a4",
+      "size": 28540
+    }
+  },
+  "new": {
+    "revision": "0f6ee301bcbe07bbc915fcb35c88dd811886a172",
+    "tree_sha": "5175cc6ef76e998c05ca0e76ba009b514a90154e",
+    "file_count": 1,
+    "bytes": 30074,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "139a0e7c7860e52489b2acd7df0e4682ab709c48",
+      "sha256": "af3084b890359b4753e8cc4ad06cba7dc27afc15534d3fd6f932a2e53585384e",
+      "size": 30074
+    }
+  },
+  "diff_added_lines": 44,
+  "diff_deleted_lines": 6,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9f0f9cfec72e7f5fe75197207b02d6aaec08c67973ffd5d06d1b20dad7998dd5"
+}

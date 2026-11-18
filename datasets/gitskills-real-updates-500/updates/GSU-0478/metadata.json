@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0478",
+  "repo_full_name": "AmbroseTriC/ECON53_DAC",
+  "skill_path": ".claude/skills/learn/SKILL.md",
+  "skill_directory": ".claude/skills/learn",
+  "old_revision": "1661bd81ed4f446442f966d7f318fa58721d64ad",
+  "new_revision": "7adc8d3dd22ce5d4ea8915f8caed4f6415cba8b6",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-02-28T05:19:34Z",
+  "new_commit_message": "fix: deep audit rounds 2-9 — hooks, consistency, new /deep-audit skill",
+  "commit_url": "https://github.com/AmbroseTriC/ECON53_DAC/commit/7adc8d3dd22ce5d4ea8915f8caed4f6415cba8b6",
+  "compare_url": "https://github.com/AmbroseTriC/ECON53_DAC/compare/1661bd81ed4f446442f966d7f318fa58721d64ad...7adc8d3dd22ce5d4ea8915f8caed4f6415cba8b6",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "AmbroseTriC/ECON53_DAC",
+    "path": ".claude/skills/learn/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "009ca7e25cc88a8bee5eb31ce2f71fb129743569",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-02-28T05:19:34Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/AmbroseTriC/ECON53_DAC/commits?path=.claude%2Fskills%2Flearn%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0478",
+  "old": {
+    "revision": "1661bd81ed4f446442f966d7f318fa58721d64ad",
+    "tree_sha": "a9298a457d423f871dd64e3ca1216d568e3700e3",
+    "file_count": 1,
+    "bytes": 4569,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "b6971b8ef8157ccfe75981c2210955a6a94a961f",
+      "sha256": "cda3cd8499fd919351bf6758ea225fdbcd1ca9261b461c252f2e2aa867450bec",
+      "size": 4569
+    }
+  },
+  "new": {
+    "revision": "7adc8d3dd22ce5d4ea8915f8caed4f6415cba8b6",
+    "tree_sha": "1993d69c2d6a8da49f6707bbc0979e9288f78b95",
+    "file_count": 1,
+    "bytes": 4626,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "009ca7e25cc88a8bee5eb31ce2f71fb129743569",
+      "sha256": "a69999259c3c5506c9d5ec43e24cd4e277b65b8cf79125affa85bcfd7d028b76",
+      "size": 4626
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "a5809c8efe5eb5ac17af3ac3ff22c46b3dd98fcd17cc09b124ab41fea50351a5"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0017",
+  "repo_full_name": "StChiotis/Library-First-Engineering",
+  "skill_path": ".agents/skills/lfe-plan-critique/SKILL.md",
+  "skill_directory": ".agents/skills/lfe-plan-critique",
+  "old_revision": "7bffd5d5f2244c3bcd0cd3d4578a996be0c3cf0b",
+  "new_revision": "94c4064d76b7ab9fad320e1df89da71d8a2bdf80",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-17T13:55:07Z",
+  "new_commit_message": "feat(framework): sync from Claude-LFE — visual-check gate, finalization-rework loop, discipline gates",
+  "commit_url": "https://github.com/StChiotis/Library-First-Engineering/commit/94c4064d76b7ab9fad320e1df89da71d8a2bdf80",
+  "compare_url": "https://github.com/StChiotis/Library-First-Engineering/compare/7bffd5d5f2244c3bcd0cd3d4578a996be0c3cf0b...94c4064d76b7ab9fad320e1df89da71d8a2bdf80",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "StChiotis/Library-First-Engineering",
+    "path": ".agents/skills/lfe-plan-critique/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "009a977c34c83c85830136095cbde14727b4b50f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-17T13:55:07Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/StChiotis/Library-First-Engineering/commits?path=.agents%2Fskills%2Flfe-plan-critique%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0017",
+  "old": {
+    "revision": "7bffd5d5f2244c3bcd0cd3d4578a996be0c3cf0b",
+    "tree_sha": "f2d29e5365550f677497efb79391287dcb995df0",
+    "file_count": 1,
+    "bytes": 10368,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "7af413166990f2c5c781b5fac78f2d7c29b281e6",
+      "sha256": "8de03a26e12e25c9d94496ea1d11b22317130cdeef323fd09bee1a0beebbd82d",
+      "size": 10368
+    }
+  },
+  "new": {
+    "revision": "94c4064d76b7ab9fad320e1df89da71d8a2bdf80",
+    "tree_sha": "af347248761388a381966758b4eeb7fb57746a64",
+    "file_count": 1,
+    "bytes": 13631,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "009a977c34c83c85830136095cbde14727b4b50f",
+      "sha256": "2a69552c2f2f660ea262fe198b0865b4bfbf4cf3485324dbb612bc49f4687524",
+      "size": 13631
+    }
+  },
+  "diff_added_lines": 22,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "184e6f28b015ac369865358e18ef2d90e9c67d2dc75ea91d17797eff4715203a"
+}

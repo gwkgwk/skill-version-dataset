@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0122",
+  "repo_full_name": "nikzlabs/shipit",
+  "skill_path": ".claude/skills/client-architecture/SKILL.md",
+  "skill_directory": ".claude/skills/client-architecture",
+  "old_revision": "c2c57434af2ced119071d3baa18808249f2ac369",
+  "new_revision": "cf2ef7394cf64800854f1a23deae3b8a004bb299",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-10T17:08:32Z",
+  "new_commit_message": "Remove redundant in-bubble typing dots",
+  "commit_url": "https://github.com/nikzlabs/shipit/commit/cf2ef7394cf64800854f1a23deae3b8a004bb299",
+  "compare_url": "https://github.com/nikzlabs/shipit/compare/c2c57434af2ced119071d3baa18808249f2ac369...cf2ef7394cf64800854f1a23deae3b8a004bb299",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "nikzlabs/shipit",
+    "path": ".claude/skills/client-architecture/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "002eb23bbcc75ab5e67db1b578abb0d79f2b199f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-10T17:08:32Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/nikzlabs/shipit/commits?path=.claude%2Fskills%2Fclient-architecture%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0122",
+  "old": {
+    "revision": "c2c57434af2ced119071d3baa18808249f2ac369",
+    "tree_sha": "5c3e56c48e30881bb31edf5fc3e2ae61fc0d2eba",
+    "file_count": 1,
+    "bytes": 9596,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e18e38324de634ab45c792ec91532099a5dc4f99",
+      "sha256": "f806280fa13b8d1c1bbafcd225909341032c8313706ebda2a0d4629560ff15b4",
+      "size": 9596
+    }
+  },
+  "new": {
+    "revision": "cf2ef7394cf64800854f1a23deae3b8a004bb299",
+    "tree_sha": "4b3fbe53f702e912a5d67d7879c48e96d6f12f25",
+    "file_count": 1,
+    "bytes": 9581,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "002eb23bbcc75ab5e67db1b578abb0d79f2b199f",
+      "sha256": "a070f05f5b0541a116be9d22605dfa3e0c610050cee4942513ce96a4582aff1e",
+      "size": 9581
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "038a699060af16402d1a10245e370203d7a6824814af3b14a39567ff496f39b6"
+}

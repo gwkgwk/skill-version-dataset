@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0400",
+  "repo_full_name": "bitovi/context-generation-mvp",
+  "skill_path": ".claude/skills/3-identifying-architecture/SKILL.md",
+  "skill_directory": ".claude/skills/3-identifying-architecture",
+  "old_revision": "9be0de2190b9126e95b7a88537ae573f1849e3b5",
+  "new_revision": "4dadb64b3e5a8702fc09e30475f456fe8bd0181e",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2025-11-24T21:44:47Z",
+  "new_commit_message": "FE-582 correct how skills reference one another, add verbose logging and limits to prompt to avoid infinite processing",
+  "commit_url": "https://github.com/bitovi/context-generation-mvp/commit/4dadb64b3e5a8702fc09e30475f456fe8bd0181e",
+  "compare_url": "https://github.com/bitovi/context-generation-mvp/compare/9be0de2190b9126e95b7a88537ae573f1849e3b5...4dadb64b3e5a8702fc09e30475f456fe8bd0181e",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "bitovi/context-generation-mvp",
+    "path": ".claude/skills/3-identifying-architecture/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "016f493e2a2e762612ee7b08e3eb3db0cd057995",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2025-11-24T21:35:45Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/bitovi/context-generation-mvp/commits?path=.claude%2Fskills%2F3-identifying-architecture%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0400",
+  "old": {
+    "revision": "9be0de2190b9126e95b7a88537ae573f1849e3b5",
+    "tree_sha": "195517b0aa4ad4aa0cadd44afa1f1bf11f618882",
+    "file_count": 1,
+    "bytes": 3312,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "91bf0175c3ac8a527fd8c1a03d6bfbd6da18cb7a",
+      "sha256": "92593ecbbd3ec25e70e80a41cae16f98f874434a535fb7ac53f75bffdf03ff20",
+      "size": 3312
+    }
+  },
+  "new": {
+    "revision": "4dadb64b3e5a8702fc09e30475f456fe8bd0181e",
+    "tree_sha": "7d9950c09773e6fb87c3c1a8ca4294ef7b4438b4",
+    "file_count": 1,
+    "bytes": 3277,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "016f493e2a2e762612ee7b08e3eb3db0cd057995",
+      "sha256": "28397b8eb89941c05c9f25e93b0558abb4530d3ac4d20ef914fbedd194d3c17c",
+      "size": 3277
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "6a9dc871b96cf4574161e2933bd0e1c5bc4c7f1067b7e775559355cf3689bdc0"
+}

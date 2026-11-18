@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0207",
+  "repo_full_name": "intersystems-community/iris-agentic-dev",
+  "skill_path": "light-skills/skills/objectscript-sql-patterns/SKILL.md",
+  "skill_directory": "light-skills/skills/objectscript-sql-patterns",
+  "old_revision": "5308e76996a8665af35153c43db3801a11928828",
+  "new_revision": "7f0ad72f1024f9902dad20339818ce5cc3911b81",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-25T16:01:36Z",
+  "new_commit_message": "skills: benchmark-driven updates from iris-dev/021 run",
+  "commit_url": "https://github.com/intersystems-community/iris-agentic-dev/commit/7f0ad72f1024f9902dad20339818ce5cc3911b81",
+  "compare_url": "https://github.com/intersystems-community/iris-agentic-dev/compare/5308e76996a8665af35153c43db3801a11928828...7f0ad72f1024f9902dad20339818ce5cc3911b81",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "intersystems-community/iris-agentic-dev",
+    "path": "light-skills/skills/objectscript-sql-patterns/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "015a8d5e63cea23716cafc16413cf08549cf6ca0",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-17T16:19:53Z",
+    "commit_count": 4,
+    "sibling_count": 1,
+    "sibling_bytes": 3564,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/intersystems-community/iris-agentic-dev/commits?path=light-skills%2Fskills%2Fobjectscript-sql-patterns%2FSKILL.md&per_page=10&until=2026-07-17T16%3A19%3A54%2B00%3A00",
+  "history_cutoff": "2026-07-17T16:19:54+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0207",
+  "old": {
+    "revision": "5308e76996a8665af35153c43db3801a11928828",
+    "tree_sha": "3a9e5fb14f82cc02b6dee860e3c647d60cdd4a10",
+    "file_count": 2,
+    "bytes": 8560,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "1a8ded4b591a15e02511169650f2f6ee7a0fcf7d",
+      "sha256": "ae68c8f4e627bb0142fb90aa04c526e04986badf08ed91ee1679e54b39f538fa",
+      "size": 4996
+    }
+  },
+  "new": {
+    "revision": "7f0ad72f1024f9902dad20339818ce5cc3911b81",
+    "tree_sha": "05bba186a8ab9dd5478e270485020fcc8bf9ef00",
+    "file_count": 2,
+    "bytes": 10737,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "015a8d5e63cea23716cafc16413cf08549cf6ca0",
+      "sha256": "cd6857a28b4de973a188330bec775fc91d87e9a5bf05b7d4442401fb84532d52",
+      "size": 7173
+    }
+  },
+  "diff_added_lines": 51,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4db2e63b2edc19d70866d0f97b2eaf1431f0275439b2089cd0acde2bf73a3621"
+}

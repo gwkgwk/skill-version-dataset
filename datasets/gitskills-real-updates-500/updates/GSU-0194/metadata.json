@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0194",
+  "repo_full_name": "ultimatile/dotfiles",
+  "skill_path": ".claude/skills/python-coding-rules/SKILL.md",
+  "skill_directory": ".claude/skills/python-coding-rules",
+  "old_revision": "75f5cd69364ba467cdaea2f1d64a3318a83344a3",
+  "new_revision": "32ba7450492ab76e7ff4312586eeaf6af213f191",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-30T04:53:56Z",
+  "new_commit_message": "claude: tighten python-coding-rules around real frictions",
+  "commit_url": "https://github.com/ultimatile/dotfiles/commit/32ba7450492ab76e7ff4312586eeaf6af213f191",
+  "compare_url": "https://github.com/ultimatile/dotfiles/compare/75f5cd69364ba467cdaea2f1d64a3318a83344a3...32ba7450492ab76e7ff4312586eeaf6af213f191",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ultimatile/dotfiles",
+    "path": ".claude/skills/python-coding-rules/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0195fbe2edf58ee6a7376caf528daaeec0d2c435",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-04-30T04:53:48Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/ultimatile/dotfiles/commits?path=.claude%2Fskills%2Fpython-coding-rules%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0194",
+  "old": {
+    "revision": "75f5cd69364ba467cdaea2f1d64a3318a83344a3",
+    "tree_sha": "f8ee181c2e3af9e85add7c22905f2551bec0e999",
+    "file_count": 1,
+    "bytes": 14685,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "2dffd5f2320e70988379be02a0998eb5a9864bac",
+      "sha256": "07f588e799a33e302802c240b9cab0795bee07cc8ee42df79380143847a59481",
+      "size": 14685
+    }
+  },
+  "new": {
+    "revision": "32ba7450492ab76e7ff4312586eeaf6af213f191",
+    "tree_sha": "3ba01d83717102ae7d04cf9f76cb8b37aba5f064",
+    "file_count": 1,
+    "bytes": 4327,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0195fbe2edf58ee6a7376caf528daaeec0d2c435",
+      "sha256": "c97ff2b18460129eecac6254f5ae5e9f408d7b66a56cf0100c696391dfbb5d5e",
+      "size": 4327
+    }
+  },
+  "diff_added_lines": 58,
+  "diff_deleted_lines": 543,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "73be98b575afaaee0e14e35f25e5a602aa0252409f493f538715ffeac439d209"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0322",
+  "repo_full_name": "upbit-official/upbit-strategy-toolkit",
+  "skill_path": ".claude/skills/create-strategy/SKILL.md",
+  "skill_directory": ".claude/skills/create-strategy",
+  "old_revision": "27835d998f085b00245d5b1708134e536557a80f",
+  "new_revision": "e0163ebf505e44a5d34b9816707049aae568ab1a",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-13T02:40:47Z",
+  "new_commit_message": "release: v0.8.1",
+  "commit_url": "https://github.com/upbit-official/upbit-strategy-toolkit/commit/e0163ebf505e44a5d34b9816707049aae568ab1a",
+  "compare_url": "https://github.com/upbit-official/upbit-strategy-toolkit/compare/27835d998f085b00245d5b1708134e536557a80f...e0163ebf505e44a5d34b9816707049aae568ab1a",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "upbit-official/upbit-strategy-toolkit",
+    "path": ".claude/skills/create-strategy/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00657e872b4fd328afb5c77a9f2907781a97108d",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-13T02:40:47Z",
+    "commit_count": 2,
+    "sibling_count": 5,
+    "sibling_bytes": 20413,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/upbit-official/upbit-strategy-toolkit/commits?path=.claude%2Fskills%2Fcreate-strategy%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0322",
+  "old": {
+    "revision": "27835d998f085b00245d5b1708134e536557a80f",
+    "tree_sha": "00e27f6f47c4717a277361943ce947efb9c6c37a",
+    "file_count": 6,
+    "bytes": 34544,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "72cca97fe0480a13ccdea464616fb409be30da8e",
+      "sha256": "a46d153e3f0fb7cb43a460df5b97e0e9d8c66eebb4c14f7e0ba9396cb244403a",
+      "size": 13989
+    }
+  },
+  "new": {
+    "revision": "e0163ebf505e44a5d34b9816707049aae568ab1a",
+    "tree_sha": "bfafab8d26370c6a1accf48571b65e47f62e0741",
+    "file_count": 6,
+    "bytes": 34866,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00657e872b4fd328afb5c77a9f2907781a97108d",
+      "sha256": "0796dacbb41fb519e18c5d1e2267f82a62649110be515b48a97b4549ea20b442",
+      "size": 14453
+    }
+  },
+  "diff_added_lines": 8,
+  "diff_deleted_lines": 4,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "scripts/upbit-strategy-toolkit.sh"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0f1aaed5602acf52881f1a053bbbea7d10a5ef4775766693f939beccad12147b"
+}

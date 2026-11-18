@@ -1,0 +1,82 @@
+{
+  "id": "GSU-0151",
+  "repo_full_name": "buddingengineers12345/python_project_template",
+  "skill_path": ".claude/skills/pytest/SKILL.md",
+  "skill_directory": ".claude/skills/pytest",
+  "old_revision": "05e5411cbcb744ec0b1413e1644b14a5522b4de6",
+  "new_revision": "6a15090321187e82eb49ecd110971e4d2bc5428c",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-15T15:14:08Z",
+  "new_commit_message": "chore: normalize em dashes to hyphens in markdown",
+  "commit_url": "https://github.com/buddingengineers12345/python_project_template/commit/6a15090321187e82eb49ecd110971e4d2bc5428c",
+  "compare_url": "https://github.com/buddingengineers12345/python_project_template/compare/05e5411cbcb744ec0b1413e1644b14a5522b4de6...6a15090321187e82eb49ecd110971e4d2bc5428c",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "buddingengineers12345/python_project_template",
+    "path": ".claude/skills/pytest/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "001944a1d1bc406917662b95bd65b46b4e6db710",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-15T15:14:08Z",
+    "commit_count": 4,
+    "sibling_count": 10,
+    "sibling_bytes": 68772,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/buddingengineers12345/python_project_template/commits?path=.claude%2Fskills%2Fpytest%2FSKILL.md&per_page=10&until=2026-07-15T15%3A14%3A09%2B00%3A00",
+  "history_cutoff": "2026-07-15T15:14:09+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0151",
+  "old": {
+    "revision": "05e5411cbcb744ec0b1413e1644b14a5522b4de6",
+    "tree_sha": "5985a0567777d1aedecee962bb49a4bbf99ecdc2",
+    "file_count": 11,
+    "bytes": 82485,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "07b8d089cc4f0e9e55bbe4e330034b402a4b7f94",
+      "sha256": "427aa7739a9335c0d43b10817bf3fb13369077d437371dff05d4a1bfcbce75bf",
+      "size": 13559
+    }
+  },
+  "new": {
+    "revision": "6a15090321187e82eb49ecd110971e4d2bc5428c",
+    "tree_sha": "b2448f3ba97e4bfe5f3351a6a009232402d75c6d",
+    "file_count": 11,
+    "bytes": 82295,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "001944a1d1bc406917662b95bd65b46b4e6db710",
+      "sha256": "be8628e797e2970745c0ef470b90c3b54dce8e5b554ac617df355c89fc655785",
+      "size": 13523
+    }
+  },
+  "diff_added_lines": 19,
+  "diff_deleted_lines": 19,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/anti-patterns.md",
+      "references/assertions.md",
+      "references/ci-and-plugins.md",
+      "references/fixtures.md",
+      "references/mocking.md",
+      "references/parametrize-and-markers.md",
+      "references/test-organization.md",
+      "references/test-types.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "5d7aa0b245dab51b02662595296fdf3fc566b548c667fc2e0fe61774bc8136ca"
+}

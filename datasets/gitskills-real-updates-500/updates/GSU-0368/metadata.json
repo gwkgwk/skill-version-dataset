@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0368",
+  "repo_full_name": "BuilderIO/agent-native",
+  "skill_path": "templates/forms/.agents/skills/form-publishing/SKILL.md",
+  "skill_directory": "templates/forms/.agents/skills/form-publishing",
+  "old_revision": "f3b0961807815d1be139e189c8e83aa98da2d7a7",
+  "new_revision": "f25194e83ff889868d82ff2d48dcaabfdb566911",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-14T15:26:16Z",
+  "new_commit_message": "Harden recap runtime compatibility and agent workflows (#2122)",
+  "commit_url": "https://github.com/BuilderIO/agent-native/commit/f25194e83ff889868d82ff2d48dcaabfdb566911",
+  "compare_url": "https://github.com/BuilderIO/agent-native/compare/f3b0961807815d1be139e189c8e83aa98da2d7a7...f25194e83ff889868d82ff2d48dcaabfdb566911",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "BuilderIO/agent-native",
+    "path": "templates/forms/.agents/skills/form-publishing/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "0066f06996be50d92cdbe0b02a42fe527ed05e2b",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-14T15:26:16Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/BuilderIO/agent-native/commits?path=templates%2Fforms%2F.agents%2Fskills%2Fform-publishing%2FSKILL.md&per_page=10&until=2026-07-14T15%3A26%3A17%2B00%3A00",
+  "history_cutoff": "2026-07-14T15:26:17+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0368",
+  "old": {
+    "revision": "f3b0961807815d1be139e189c8e83aa98da2d7a7",
+    "tree_sha": "673b0c15f876914d06acd766367276fa78cdfd7e",
+    "file_count": 1,
+    "bytes": 3274,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0066f06996be50d92cdbe0b02a42fe527ed05e2b",
+      "sha256": "3d9cdb85bd5e3637d9ae3b17f06db2c85bc64f8c1035b788f6cebac9915c94a1",
+      "size": 3274
+    }
+  },
+  "new": {
+    "revision": "f25194e83ff889868d82ff2d48dcaabfdb566911",
+    "tree_sha": "07e66c7d207f318c137f45ef5f7c70b60fc2ba63",
+    "file_count": 1,
+    "bytes": 3407,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "6339174587171beb02653b26fe368afe059fc8e3",
+      "sha256": "9b9c22764122a523de41d2942efd1d6846c0b1601a0682e3ef574a72b9c4f78b",
+      "size": 3407
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "60f7b70551edf88c1ec220d561a065416a191ad683b1d71277f4c74611c022e8"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0245",
+  "repo_full_name": "brianwestphal/glassbox",
+  "skill_path": ".claude/skills/analyze-code-quality/SKILL.md",
+  "skill_directory": ".claude/skills/analyze-code-quality",
+  "old_revision": "db5d34b4efb5d1e6929a3a9b79713bdb53d6fe0a",
+  "new_revision": "6100df1cdba64293ecb9704588ca73ac08fa56cb",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-01T00:56:46Z",
+  "new_commit_message": "Add behavioral/state-transition audit to analyze-code-quality skill",
+  "commit_url": "https://github.com/brianwestphal/glassbox/commit/6100df1cdba64293ecb9704588ca73ac08fa56cb",
+  "compare_url": "https://github.com/brianwestphal/glassbox/compare/db5d34b4efb5d1e6929a3a9b79713bdb53d6fe0a...6100df1cdba64293ecb9704588ca73ac08fa56cb",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "brianwestphal/glassbox",
+    "path": ".claude/skills/analyze-code-quality/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01400d5acbe395e88da787c6da11b9cb33e9773a",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-07-01T00:56:46Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/brianwestphal/glassbox/commits?path=.claude%2Fskills%2Fanalyze-code-quality%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0245",
+  "old": {
+    "revision": "db5d34b4efb5d1e6929a3a9b79713bdb53d6fe0a",
+    "tree_sha": "de14dd5264e4ea3047b13e0af70058ed84947276",
+    "file_count": 1,
+    "bytes": 2604,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "89d1aa76e971fa072f34debcf5ba74460b36158a",
+      "sha256": "8f5af1f43bd2f678d97031c75a2004fe63f24b6bb1981a27c1906181e77f8e7f",
+      "size": 2604
+    }
+  },
+  "new": {
+    "revision": "6100df1cdba64293ecb9704588ca73ac08fa56cb",
+    "tree_sha": "81ef15a3c17e35e5ba4144759ce2dd331270d0f9",
+    "file_count": 1,
+    "bytes": 6823,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01400d5acbe395e88da787c6da11b9cb33e9773a",
+      "sha256": "13e848b821451eaa3b6dfec0259de6c391be1caf97f554e483b3bb29758f9145",
+      "size": 6823
+    }
+  },
+  "diff_added_lines": 39,
+  "diff_deleted_lines": 5,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "d684f79691ffdb693cb232e19e526ec51d72741e28785bc9bb7313064068f5a4"
+}

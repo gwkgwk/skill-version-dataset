@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0160",
+  "repo_full_name": "samelie/claude-plugin-pnpm",
+  "skill_path": "skills/team-kit-clarify/SKILL.md",
+  "skill_directory": "skills/team-kit-clarify",
+  "old_revision": "983a1986741c31e50d638981f769eab7e4136d3d",
+  "new_revision": "7a2a597ba27270916edf42234f0cbd923ae41b5f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-20T05:30:43Z",
+  "new_commit_message": "chore: sync working tree — deps, configs, cleanup",
+  "commit_url": "https://github.com/samelie/claude-plugin-pnpm/commit/7a2a597ba27270916edf42234f0cbd923ae41b5f",
+  "compare_url": "https://github.com/samelie/claude-plugin-pnpm/compare/983a1986741c31e50d638981f769eab7e4136d3d...7a2a597ba27270916edf42234f0cbd923ae41b5f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "samelie/claude-plugin-pnpm",
+    "path": "skills/team-kit-clarify/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00125c0398d5902076c7ca66ee3c573560868f20",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-15T18:21:10Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/samelie/claude-plugin-pnpm/commits?path=skills%2Fteam-kit-clarify%2FSKILL.md&per_page=10&until=2026-07-15T18%3A21%3A11%2B00%3A00",
+  "history_cutoff": "2026-07-15T18:21:11+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0160",
+  "old": {
+    "revision": "983a1986741c31e50d638981f769eab7e4136d3d",
+    "tree_sha": "49609de438f1e40f3d65208dcb2a94d1b70f4ef0",
+    "file_count": 1,
+    "bytes": 3941,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "58c31f004c669525e6684cefd32423c34426650e",
+      "sha256": "5c123e2719a617a220561087549f7515bc5452d9f7625db4ed1f29ff4e45b544",
+      "size": 3941
+    }
+  },
+  "new": {
+    "revision": "7a2a597ba27270916edf42234f0cbd923ae41b5f",
+    "tree_sha": "9be8b7f810682d6cd34dfdbf802166bdf44258f4",
+    "file_count": 1,
+    "bytes": 4026,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00125c0398d5902076c7ca66ee3c573560868f20",
+      "sha256": "a97585d3ff13c714a11acdacd1312b841d269df58f63dd16ff400a955048e85e",
+      "size": 4026
+    }
+  },
+  "diff_added_lines": 36,
+  "diff_deleted_lines": 60,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "3a1352b6480e42df4a6da1c79dbb1c99d3c46023d3944bb643cc2a8ba0398f68"
+}

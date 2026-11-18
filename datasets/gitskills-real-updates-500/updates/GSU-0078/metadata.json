@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0078",
+  "repo_full_name": "aliengiraffe/vigilante",
+  "skill_path": "skills/vigilante-issue-implementation-on-ruby/SKILL.md",
+  "skill_directory": "skills/vigilante-issue-implementation-on-ruby",
+  "old_revision": "a81083d73ef1beb9a326b6786b4ed5032ac0e034",
+  "new_revision": "d3dec47384751ab40eebccf87bbb6ad5e9cda3be",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-09T20:05:30Z",
+  "new_commit_message": "Support stacked-PR base branches in implementation skills (#469)",
+  "commit_url": "https://github.com/aliengiraffe/vigilante/commit/d3dec47384751ab40eebccf87bbb6ad5e9cda3be",
+  "compare_url": "https://github.com/aliengiraffe/vigilante/compare/a81083d73ef1beb9a326b6786b4ed5032ac0e034...d3dec47384751ab40eebccf87bbb6ad5e9cda3be",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "aliengiraffe/vigilante",
+    "path": "skills/vigilante-issue-implementation-on-ruby/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "01930314adfe5fec94ca6ce65c62e28630deef25",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-06-09T20:05:30Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 410,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/aliengiraffe/vigilante/commits?path=skills%2Fvigilante-issue-implementation-on-ruby%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0078",
+  "old": {
+    "revision": "a81083d73ef1beb9a326b6786b4ed5032ac0e034",
+    "tree_sha": "2539efdc80bd280a5531112efcedcf27e6a49c37",
+    "file_count": 2,
+    "bytes": 4304,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "7545c201bc41324a6beb88dc21f5e24ff47f95ab",
+      "sha256": "88b46cd3a241fbbedcc9342047c9aba1413405557ea03ddf854eef3cedc7c323",
+      "size": 3894
+    }
+  },
+  "new": {
+    "revision": "d3dec47384751ab40eebccf87bbb6ad5e9cda3be",
+    "tree_sha": "d741ed11ef3e9eb6fa2727a3d41fcb2bf4756929",
+    "file_count": 2,
+    "bytes": 4390,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01930314adfe5fec94ca6ce65c62e28630deef25",
+      "sha256": "4d968a53d8e8a6ece74fd878cf38852acde2055aa704c09c1ecdff4f48f94270",
+      "size": 3980
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9f9b91b50b8fea27dc858aeff5a6f5baa0ea1acdbff4594bb527e03acc0dbb5c"
+}

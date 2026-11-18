@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0410",
+  "repo_full_name": "rlefko/rycraft",
+  "skill_path": ".claude/skills/render-review/SKILL.md",
+  "skill_directory": ".claude/skills/render-review",
+  "old_revision": "75048ebfb928b1ad24e6ea52011d6cf86f3f6588",
+  "new_revision": "14ddcad51d6eceab4904e9291c53e7e3639a18d5",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-19T01:29:52Z",
+  "new_commit_message": "🔧 Align review and playtest skills with the SSRT indirect lighting checks",
+  "commit_url": "https://github.com/rlefko/rycraft/commit/14ddcad51d6eceab4904e9291c53e7e3639a18d5",
+  "compare_url": "https://github.com/rlefko/rycraft/compare/75048ebfb928b1ad24e6ea52011d6cf86f3f6588...14ddcad51d6eceab4904e9291c53e7e3639a18d5",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "rlefko/rycraft",
+    "path": ".claude/skills/render-review/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00b0afa9c07053ede01f5bc957a15460972fb15f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-19T01:29:52Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "GPL-3.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/rlefko/rycraft/commits?path=.claude%2Fskills%2Frender-review%2FSKILL.md&per_page=10&until=2026-07-19T01%3A29%3A53%2B00%3A00",
+  "history_cutoff": "2026-07-19T01:29:53+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0410",
+  "old": {
+    "revision": "75048ebfb928b1ad24e6ea52011d6cf86f3f6588",
+    "tree_sha": "a658a3519f6cd2961ceea3093a19e788e36c447d",
+    "file_count": 1,
+    "bytes": 26621,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00b0afa9c07053ede01f5bc957a15460972fb15f",
+      "sha256": "becb7718391d7088ea23b8db53e496582036fdb667ba6a0da3358c025aca0948",
+      "size": 26621
+    }
+  },
+  "new": {
+    "revision": "14ddcad51d6eceab4904e9291c53e7e3639a18d5",
+    "tree_sha": "f31ec7aec221ca78e30e9f8f503b276eef62047b",
+    "file_count": 1,
+    "bytes": 34184,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c7b42d9514b87de59eda3e3d0820b085ff0b5627",
+      "sha256": "b07d14d75549dcb732e7b568211053cf9c43f44a558abc61727a14d318976e2d",
+      "size": 34184
+    }
+  },
+  "diff_added_lines": 31,
+  "diff_deleted_lines": 8,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "2831f7f2ed5b60f2510cd37e94b1be9b9cef85dba53439d9c914a277a9786246"
+}

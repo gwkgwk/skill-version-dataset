@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0459",
+  "repo_full_name": "benjaminshoemaker/ai_coding_project_base",
+  "skill_path": ".claude/skills/codex-review/SKILL.md",
+  "skill_directory": ".claude/skills/codex-review",
+  "old_revision": "b785bba53e4c65e7c3eb29ca58f220012cf31131",
+  "new_revision": "d32cae762f8cb72469a9e9b12ddc1130e805d4a0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-09T01:38:21Z",
+  "new_commit_message": "fix: resolve all 37 audit findings across 24 skills, commands, and prompts",
+  "commit_url": "https://github.com/benjaminshoemaker/ai_coding_project_base/commit/d32cae762f8cb72469a9e9b12ddc1130e805d4a0",
+  "compare_url": "https://github.com/benjaminshoemaker/ai_coding_project_base/compare/b785bba53e4c65e7c3eb29ca58f220012cf31131...d32cae762f8cb72469a9e9b12ddc1130e805d4a0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "benjaminshoemaker/ai_coding_project_base",
+    "path": ".claude/skills/codex-review/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00d7fb80a46bd42547e77f67538a3623beb92b96",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-09T01:38:21Z",
+    "commit_count": 14,
+    "sibling_count": 3,
+    "sibling_bytes": 10890,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/benjaminshoemaker/ai_coding_project_base/commits?path=.claude%2Fskills%2Fcodex-review%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0459",
+  "old": {
+    "revision": "b785bba53e4c65e7c3eb29ca58f220012cf31131",
+    "tree_sha": "088e19a46a4d362d0fea08f9e10729297283b8de",
+    "file_count": 4,
+    "bytes": 19839,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "95c21ecccceae90b2c32807fb391e2bac39ec185",
+      "sha256": "5908035488343a12865b30a78e0b16d3d926242ba8effdf5ef33f74e716f5864",
+      "size": 8949
+    }
+  },
+  "new": {
+    "revision": "d32cae762f8cb72469a9e9b12ddc1130e805d4a0",
+    "tree_sha": "afb486cf9f2dae681406c8df5ce149a0f2fbba21",
+    "file_count": 4,
+    "bytes": 19963,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00d7fb80a46bd42547e77f67538a3623beb92b96",
+      "sha256": "be41c4a8b607e7685aa4ccc7e835c82e659d375c78453b003c0385be020c5579",
+      "size": 9073
+    }
+  },
+  "diff_added_lines": 4,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4d327205d043ad3f20b75b65ee2d45ee2a3d4f41b665b3e942ed1be53d4581b0"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0253",
+  "repo_full_name": "ductai199x/agentic-data-curation",
+  "skill_path": ".claude/skills/curate/SKILL.md",
+  "skill_directory": ".claude/skills/curate",
+  "old_revision": "daac2b4f3517b68d3fac89988a1a7e80c9a6e236",
+  "new_revision": "040ec332ff1924b8645b51d7905effadca802f00",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-30T00:59:44Z",
+  "new_commit_message": "docs(skill): refresh /curate skill paths after Phase 2/4 refactor",
+  "commit_url": "https://github.com/ductai199x/agentic-data-curation/commit/040ec332ff1924b8645b51d7905effadca802f00",
+  "compare_url": "https://github.com/ductai199x/agentic-data-curation/compare/daac2b4f3517b68d3fac89988a1a7e80c9a6e236...040ec332ff1924b8645b51d7905effadca802f00",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ductai199x/agentic-data-curation",
+    "path": ".claude/skills/curate/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "002101fc0c72ac72a6a1af3ccf96a652d0a4c8f8",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-03-23T17:11:30Z",
+    "commit_count": 5,
+    "sibling_count": 1,
+    "sibling_bytes": 8167,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/ductai199x/agentic-data-curation/commits?path=.claude%2Fskills%2Fcurate%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0253",
+  "old": {
+    "revision": "daac2b4f3517b68d3fac89988a1a7e80c9a6e236",
+    "tree_sha": "902ada17bcda9efd5200a975684dd9a7e3f90d42",
+    "file_count": 2,
+    "bytes": 14196,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "9ba915edfb75baf3545a0fc0ed3d669f9943cc93",
+      "sha256": "0ae52390c1be781fb88237482b82839cb4cfbe9230784ec0ba1ba5e649591f24",
+      "size": 5747
+    }
+  },
+  "new": {
+    "revision": "040ec332ff1924b8645b51d7905effadca802f00",
+    "tree_sha": "0b48ad4aea9091a9bc7fe40f053d5d8ffb250882",
+    "file_count": 2,
+    "bytes": 14336,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "4a074098ccf68b3400acdd9f2d0a49c22fa75953",
+      "sha256": "a73df03983092e44399f02cfd2a5fbcaa250bc0b07ca13faaab0870753fdaa33",
+      "size": 5817
+    }
+  },
+  "diff_added_lines": 5,
+  "diff_deleted_lines": 5,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "reference.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4e59439e2afe3f5abe835fe79867137be4ccf69a2dda20469a47858ac2113e77"
+}

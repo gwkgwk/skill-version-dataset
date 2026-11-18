@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0420",
+  "repo_full_name": "thegoodparty/omni",
+  "skill_path": ".claude/skills/ship-pr/SKILL.md",
+  "skill_directory": ".claude/skills/ship-pr",
+  "old_revision": "709bdd50a600e08b3e2b15693b18d28fddc077b0",
+  "new_revision": "20e5d471fe072cd7eb6afa016d51dff988dff231",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-13T21:38:46Z",
+  "new_commit_message": "fix(ship-pr): don't treat an empty check list as done, fix stale wording",
+  "commit_url": "https://github.com/thegoodparty/omni/commit/20e5d471fe072cd7eb6afa016d51dff988dff231",
+  "compare_url": "https://github.com/thegoodparty/omni/compare/709bdd50a600e08b3e2b15693b18d28fddc077b0...20e5d471fe072cd7eb6afa016d51dff988dff231",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "thegoodparty/omni",
+    "path": ".claude/skills/ship-pr/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0190078fd6d7d2352d5e6629dfc1a5bac2f663dd",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-13T21:38:46Z",
+    "commit_count": 10,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/thegoodparty/omni/commits?path=.claude%2Fskills%2Fship-pr%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0420",
+  "old": {
+    "revision": "709bdd50a600e08b3e2b15693b18d28fddc077b0",
+    "tree_sha": "1d24f03894fc6253337f121d6fc8ae48d1169c76",
+    "file_count": 1,
+    "bytes": 11193,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "ed1bada297bd1746d3b54a5f6b115066933bd9fb",
+      "sha256": "ea2e6ae04c2886e447b3ead0bc869f4cde75800acd8ec53afe64bfdba92bdd69",
+      "size": 11193
+    }
+  },
+  "new": {
+    "revision": "20e5d471fe072cd7eb6afa016d51dff988dff231",
+    "tree_sha": "b2e0890efe708578f5a60d60410665121864f68c",
+    "file_count": 1,
+    "bytes": 11528,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0190078fd6d7d2352d5e6629dfc1a5bac2f663dd",
+      "sha256": "54fe9102c5a82f068f2d29159fc13073880f31f06902295c6b06db82ae258738",
+      "size": 11528
+    }
+  },
+  "diff_added_lines": 10,
+  "diff_deleted_lines": 6,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "6a7232e8c618f6b34f7fe7944220bc2e05d5bababd533b0e849882344b147b91"
+}

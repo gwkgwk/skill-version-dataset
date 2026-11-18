@@ -1,0 +1,20 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index e3540cb..0063b0c 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -1,7 +1,7 @@
+ ---
+ name: agent-master-recap
+ description: 使用復盤週報:結構統計 + 全庫語意深評(大材小用、prompt 重工),教練式直講
+-allowed-tools: Bash(bash ${CLAUDE_SKILL_DIR}/recap.sh:*)
++allowed-tools: Bash(bash ${CLAUDE_SKILL_DIR}/recap.sh:*), Bash(node ${CLAUDE_SKILL_DIR}/statusline/install.mjs:*)
+ ---
+ 
+ 先跑 `bash ${CLAUDE_SKILL_DIR}/recap.sh --rate-pct` 記下 BEFORE(格式 `used_percentage<TAB>resets_at<TAB>sampled_at`,`NA` 記為缺值),再跑:
+@@ -27,5 +27,5 @@ allowed-tools: Bash(bash ${CLAUDE_SKILL_DIR}/recap.sh:*)
+ 7. 用**教練口吻**(直接、具體、不含糊其辭)向使用者摘要重點,**不要逐條複誦本週全部 session**——只講上面挑出的那幾個最嚴重的。
+ 8. **回報這次 /agent-master-recap 深評的實際消耗**:
+    - **Token**:對這次(只計新跑的 subagent,複用 cache 的不算)每一個 subagent 呼叫回傳的 usage,分別加總 `input_tokens`、`output_tokens`、`cache_creation_input_tokens`、`cache_read_input_tokens` 四個欄位(不要只報一個籠統總和)。回報格式固定為:「這次深評 M 個 session 新跑(N 個沿用 cache 未重跑):output X tokens・cache_read Y tokens(便宜,多為重複讀取已建好的 cache,非新運算)・input+cache_creation Z tokens」。**不要把四項相加成單一總數講給使用者聽**——cache_read 常佔絕大多數但成本遠低於 output,混在一起會讓這個 skill 的花費看起來遠比實際貴(容易被誤讀成跟旗艦 model 開發同等級的消耗)。
+-   - **5h 額度真實占用**:全部深評與寫檔都做完後,再跑一次 `bash ${CLAUDE_SKILL_DIR}/recap.sh --rate-pct` 記下 AFTER。若 BEFORE/AFTER 兩次都不是 NA 且 resets_at 相同(代表期間沒有跨過重置點),回報 `AFTER - BEFORE` 個百分點,即為這次深評真實吃掉的 5h 配額;若 resets_at 不同,說明「期間跨過額度重置,無法算差值」;若任一為 NA,說明「本機 statusline 快取不夠新(可能未安裝模組一或剛開機),無法算佔比」——**這三種情況都不要編一個數字出來湊。**
++   - **5h 額度真實占用**:全部深評與寫檔都做完後,再跑一次 `bash ${CLAUDE_SKILL_DIR}/recap.sh --rate-pct` 記下 AFTER。若 BEFORE/AFTER 兩次都不是 NA 且 resets_at 相同(代表期間沒有跨過重置點),回報 `AFTER - BEFORE` 個百分點,即為這次深評真實吃掉的 5h 配額;若 resets_at 不同,說明「期間跨過額度重置,無法算差值」;若任一為 NA,說明「本機 statusline 快取不夠新(可能未安裝 statusline 或剛開機),無法算佔比」——**這三種情況都不要編一個數字出來湊。** statusline 模組隨本 skill 附帶(`statusline/`):若 NA 是因為沒安裝,可以問使用者要不要現在裝,同意後跑 `node ${CLAUDE_SKILL_DIR}/statusline/install.mjs`(會合併寫入 `~/.claude/settings.json`,原設定自動備份;移除加 `--uninstall`),重啟 session 後生效。
+    - **寫回週報檔**:把上面兩項算出來的結果,用 Edit 接在週報檔「## 5. 語意深評」章節總評段落之後,新增一行 `> 本次深評消耗:{token 說明} ・ 5h 配額 {百分點或無法算的說明}`。這一步是紀錄這次深評本身的成本,不要開新的 ## 6 章節,也不要只停留在對話裡沒寫進檔案。

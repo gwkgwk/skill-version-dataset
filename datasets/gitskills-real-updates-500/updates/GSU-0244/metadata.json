@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0244",
+  "repo_full_name": "Nevaberry/nevaberry-plugins",
+  "skill_path": "plugins/stripe-knowledge-patch/skills/stripe-knowledge-patch/SKILL.md",
+  "skill_directory": "plugins/stripe-knowledge-patch/skills/stripe-knowledge-patch",
+  "old_revision": "e917f0808fee6b61f20dfa7269c49ff5fd2d7ead",
+  "new_revision": "b59e8735a278de8fa12f034c6887292fff6ef354",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-06T13:57:45Z",
+  "new_commit_message": "fix: refresh marketplace descriptions",
+  "commit_url": "https://github.com/Nevaberry/nevaberry-plugins/commit/b59e8735a278de8fa12f034c6887292fff6ef354",
+  "compare_url": "https://github.com/Nevaberry/nevaberry-plugins/compare/e917f0808fee6b61f20dfa7269c49ff5fd2d7ead...b59e8735a278de8fa12f034c6887292fff6ef354",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Nevaberry/nevaberry-plugins",
+    "path": "plugins/stripe-knowledge-patch/skills/stripe-knowledge-patch/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "01989228593c3ca7304623c4abc171c120df157b",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-16T07:20:25Z",
+    "commit_count": 3,
+    "sibling_count": 5,
+    "sibling_bytes": 6495,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/Nevaberry/nevaberry-plugins/commits?path=plugins%2Fstripe-knowledge-patch%2Fskills%2Fstripe-knowledge-patch%2FSKILL.md&per_page=10&until=2026-07-16T07%3A20%3A26%2B00%3A00",
+  "history_cutoff": "2026-07-16T07:20:26+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0244",
+  "old": {
+    "revision": "e917f0808fee6b61f20dfa7269c49ff5fd2d7ead",
+    "tree_sha": "e4d045b67e0207f2c0373f357584ef538ac97077",
+    "file_count": 6,
+    "bytes": 13967,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "afb42d5334ebe5d08e1fe845b0c0564fe51aa801",
+      "sha256": "2d34a22f221aa08cb23270ec6d7542d5140f129c39373ca78d14e690c1a50f19",
+      "size": 7472
+    }
+  },
+  "new": {
+    "revision": "b59e8735a278de8fa12f034c6887292fff6ef354",
+    "tree_sha": "c787a695270f54e29a0f33b5476b478639bb278a",
+    "file_count": 6,
+    "bytes": 13965,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01989228593c3ca7304623c4abc171c120df157b",
+      "sha256": "1b10682f2958a58253aea38d63bdb8f09737b5a44d995bddb9d2d26c547eb451",
+      "size": 7470
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "ace12784a86a841b4bdbcb356388f467eb61678db8512a48645af81760e0fb38"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0240",
+  "repo_full_name": "testland/qa",
+  "skill_path": "plugins/qa-search-relevance/skills/hybrid-search-eval-author/SKILL.md",
+  "skill_directory": "plugins/qa-search-relevance/skills/hybrid-search-eval-author",
+  "old_revision": "dbf6bb1dfc79740f0fb35e292c347b8b8f004bda",
+  "new_revision": "22d020ca74a932eab80279ec49b86cddbfbecc42",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-20T10:15:33Z",
+  "new_commit_message": "refactor(skills): rename 19 skills for standalone findability, rewrite 5 overviews",
+  "commit_url": "https://github.com/testland/qa/commit/22d020ca74a932eab80279ec49b86cddbfbecc42",
+  "compare_url": "https://github.com/testland/qa/compare/dbf6bb1dfc79740f0fb35e292c347b8b8f004bda...22d020ca74a932eab80279ec49b86cddbfbecc42",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "testland/qa",
+    "path": "plugins/qa-search-relevance/skills/hybrid-search-eval-author/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00722560b089bb3ed9d89c8a563483f94ff62803",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-20T10:15:33Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/testland/qa/commits?path=plugins%2Fqa-search-relevance%2Fskills%2Fhybrid-search-eval-author%2FSKILL.md&per_page=10&until=2026-07-20T10%3A15%3A34%2B00%3A00",
+  "history_cutoff": "2026-07-20T10:15:34+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0240",
+  "old": {
+    "revision": "dbf6bb1dfc79740f0fb35e292c347b8b8f004bda",
+    "tree_sha": "299adfff71a78330dbea8284583a5aefbabe3a8e",
+    "file_count": 1,
+    "bytes": 15835,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8f6de0762091fd077055adbb40a6b6603dd8b8cd",
+      "sha256": "a96553338e8835f4a240ce6347c2ef8e846fed612204f1c5277590a02bf4868b",
+      "size": 15835
+    }
+  },
+  "new": {
+    "revision": "22d020ca74a932eab80279ec49b86cddbfbecc42",
+    "tree_sha": "fa8ce8444a9cfe9281791245c3bf4047ddf193bb",
+    "file_count": 1,
+    "bytes": 15826,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "b5e124c4e9f3acd7612fdb4c8ca2cf26dcd015c5",
+      "sha256": "f8b3c5a824d6e82a873ecf939fdd29a7081af323af655581ed742e1bc3ea1c56",
+      "size": 15826
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f8051f0c18d4244e4ce01932105b02f0eb077d88537957248690be9939512d04"
+}

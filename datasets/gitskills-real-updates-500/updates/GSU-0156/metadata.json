@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0156",
+  "repo_full_name": "dataelement/bisheng",
+  "skill_path": ".claude/skills/approval-module/SKILL.md",
+  "skill_directory": ".claude/skills/approval-module",
+  "old_revision": "76dd5469c6d2e6055a5f13c5a2647bc5cb96af48",
+  "new_revision": "87bfe5cff6e54b4e879861ddb6babf0a86876088",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-18T07:58:31Z",
+  "new_commit_message": "fix(knowledge): run approval gate before persisting space membership",
+  "commit_url": "https://github.com/dataelement/bisheng/commit/87bfe5cff6e54b4e879861ddb6babf0a86876088",
+  "compare_url": "https://github.com/dataelement/bisheng/compare/76dd5469c6d2e6055a5f13c5a2647bc5cb96af48...87bfe5cff6e54b4e879861ddb6babf0a86876088",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "dataelement/bisheng",
+    "path": ".claude/skills/approval-module/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00fc280ab9f87d46e6fa2e94856887e5d165219b",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-18T07:58:31Z",
+    "commit_count": 5,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/dataelement/bisheng/commits?path=.claude%2Fskills%2Fapproval-module%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0156",
+  "old": {
+    "revision": "76dd5469c6d2e6055a5f13c5a2647bc5cb96af48",
+    "tree_sha": "39e71c0fe59ab94807bea0f03543f0aa54d23a49",
+    "file_count": 1,
+    "bytes": 21618,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "f5dc0d43e80092e0e46c92147a01e286f09b6e74",
+      "sha256": "716c84daa2b67f7236d1ab6d6302a02b09ead9097cb25ba128feb36e58960893",
+      "size": 21618
+    }
+  },
+  "new": {
+    "revision": "87bfe5cff6e54b4e879861ddb6babf0a86876088",
+    "tree_sha": "eac3b0941895177d9dd5613cbaed81081acf02c1",
+    "file_count": 1,
+    "bytes": 22249,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00fc280ab9f87d46e6fa2e94856887e5d165219b",
+      "sha256": "53bc0aeb3c41f5e64291fbc69def51f986077674638a5758b3e61a1ff1f15bed",
+      "size": 22249
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "a6f5404c70c40016d9c30fa63e515d12fc5c238ed1c6a2912e1d1c7cdc83e9b7"
+}

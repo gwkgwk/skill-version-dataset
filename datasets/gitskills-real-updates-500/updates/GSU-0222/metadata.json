@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0222",
+  "repo_full_name": "Nkzono99/paperops",
+  "skill_path": "template/.agents/skills/note-writing-session/SKILL.md",
+  "skill_directory": "template/.agents/skills/note-writing-session",
+  "old_revision": "2b2e79a036fdfe8cbc3c4c6d51abb6486744d38f",
+  "new_revision": "f7802d0066d61ffdd0ada4cd19fef5b7f77baa43",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-26T14:12:36Z",
+  "new_commit_message": "AI内部状態を_paperopsへ集約するため",
+  "commit_url": "https://github.com/Nkzono99/paperops/commit/f7802d0066d61ffdd0ada4cd19fef5b7f77baa43",
+  "compare_url": "https://github.com/Nkzono99/paperops/compare/2b2e79a036fdfe8cbc3c4c6d51abb6486744d38f...f7802d0066d61ffdd0ada4cd19fef5b7f77baa43",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Nkzono99/paperops",
+    "path": "template/.agents/skills/note-writing-session/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00c38e57393674d37f805dcb70bc81816483a295",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-12T12:58:20Z",
+    "commit_count": 11,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/Nkzono99/paperops/commits?path=template%2F.agents%2Fskills%2Fnote-writing-session%2FSKILL.md&per_page=10&until=2026-07-12T12%3A58%3A21%2B00%3A00",
+  "history_cutoff": "2026-07-12T12:58:21+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0222",
+  "old": {
+    "revision": "2b2e79a036fdfe8cbc3c4c6d51abb6486744d38f",
+    "tree_sha": "811dfae8643c42c6332174a6b3f6326a5eee58ae",
+    "file_count": 1,
+    "bytes": 3556,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8d57d567ffffbfc265b194a1fea4f2e360607b95",
+      "sha256": "1d1dc43d1a0abadf48952883ff78726f99f08c30fb1289e618c8b4c1a5b9583d",
+      "size": 3556
+    }
+  },
+  "new": {
+    "revision": "f7802d0066d61ffdd0ada4cd19fef5b7f77baa43",
+    "tree_sha": "8c762e4fcbe638547f6eea80f3c41b3061f0101f",
+    "file_count": 1,
+    "bytes": 3886,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "836a4c37eb93ed34e02c39cbaaa1e58d91080696",
+      "sha256": "bd9754f885da46f73bbb4e78627603365f12385d01d64fee81bfba209f51c28c",
+      "size": 3886
+    }
+  },
+  "diff_added_lines": 17,
+  "diff_deleted_lines": 17,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f7d73e3212a3f1e8f78934daf948ee3fea78b2ccbc540084341a7fc2f2c6de86"
+}

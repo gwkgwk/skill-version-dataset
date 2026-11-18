@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0367",
+  "repo_full_name": "Koryto/dotagent",
+  "skill_path": ".agent/skills/code-review/SKILL.md",
+  "skill_directory": ".agent/skills/code-review",
+  "old_revision": "a753f47e62ce44868adcffe1a91af57d657bb566",
+  "new_revision": "381b0ec9b3a05066aa74a4d6b48ecbe61214ea58",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-24T23:25:23Z",
+  "new_commit_message": "skill refinement and bootstarp consolidation",
+  "commit_url": "https://github.com/Koryto/dotagent/commit/381b0ec9b3a05066aa74a4d6b48ecbe61214ea58",
+  "compare_url": "https://github.com/Koryto/dotagent/compare/a753f47e62ce44868adcffe1a91af57d657bb566...381b0ec9b3a05066aa74a4d6b48ecbe61214ea58",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Koryto/dotagent",
+    "path": ".agent/skills/code-review/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "006dcd99c6959fb0d199820e5b95df6bb0ecae72",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-03-24T23:25:23Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/Koryto/dotagent/commits?path=.agent%2Fskills%2Fcode-review%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0367",
+  "old": {
+    "revision": "a753f47e62ce44868adcffe1a91af57d657bb566",
+    "tree_sha": "2d94b2c6ed56bdc70cafb469479dbe1da8d940ba",
+    "file_count": 1,
+    "bytes": 5078,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "2c21453c1f01fb68367a92fcccb83e9a8ae54a44",
+      "sha256": "3f7d04f527f3b4a8a26f79318f730ece7fae59f70c743f4f693f6df752feab76",
+      "size": 5078
+    }
+  },
+  "new": {
+    "revision": "381b0ec9b3a05066aa74a4d6b48ecbe61214ea58",
+    "tree_sha": "731c0733909a25c7cd52db3c070ded80f3ab601d",
+    "file_count": 1,
+    "bytes": 5566,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "006dcd99c6959fb0d199820e5b95df6bb0ecae72",
+      "sha256": "237c51269bdb57606cdb9829f7651ac7736f189824d8e43a353b0fbb677bf69c",
+      "size": 5566
+    }
+  },
+  "diff_added_lines": 12,
+  "diff_deleted_lines": 6,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "232b2cb3e44523654b0fba9f3801c469bd5d1757c5f2661806077ce5e53c8a7d"
+}

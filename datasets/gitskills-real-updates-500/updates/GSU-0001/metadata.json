@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0001",
+  "repo_full_name": "zbruhnke/claude-code-starter",
+  "skill_path": ".claude/skills/refresh-claude/SKILL.md",
+  "skill_directory": ".claude/skills/refresh-claude",
+  "old_revision": "aa2ced28eb2b7e197fe99e5cca15533ee5d4cd9c",
+  "new_revision": "4748e76815a33330de96dab270b115c706b47f1f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-12T21:55:56Z",
+  "new_commit_message": "fix: remove unsupported model field from skills and fix settings syntax",
+  "commit_url": "https://github.com/zbruhnke/claude-code-starter/commit/4748e76815a33330de96dab270b115c706b47f1f",
+  "compare_url": "https://github.com/zbruhnke/claude-code-starter/compare/aa2ced28eb2b7e197fe99e5cca15533ee5d4cd9c...4748e76815a33330de96dab270b115c706b47f1f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "zbruhnke/claude-code-starter",
+    "path": ".claude/skills/refresh-claude/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01516fcdb6320577fd83d318d6c0a2f92f5e4490",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-01-12T21:55:56Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/zbruhnke/claude-code-starter/commits?path=.claude%2Fskills%2Frefresh-claude%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0001",
+  "old": {
+    "revision": "aa2ced28eb2b7e197fe99e5cca15533ee5d4cd9c",
+    "tree_sha": "4272c0e90fb25e1c47afc3f33ffb82eb03fc5669",
+    "file_count": 1,
+    "bytes": 3967,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e897a7bd50fc24eac7595663f7279009e587a2f0",
+      "sha256": "63615c9fa163eed0e77ebbb371548b6ae8137406b850a0e9f6c8a7e4167b1404",
+      "size": 3967
+    }
+  },
+  "new": {
+    "revision": "4748e76815a33330de96dab270b115c706b47f1f",
+    "tree_sha": "3f3a2633af4bf92388c39c6a434539c428749af5",
+    "file_count": 1,
+    "bytes": 3955,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01516fcdb6320577fd83d318d6c0a2f92f5e4490",
+      "sha256": "357a19d99d828cb14d5c26b06ece542c91c501b22eeb44b851879ca32ab868cf",
+      "size": 3955
+    }
+  },
+  "diff_added_lines": 0,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c47099bcccca6910d9d665c1893d554feba00d2813a793c74f1382db7273d818"
+}

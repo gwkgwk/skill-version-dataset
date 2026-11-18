@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0181",
+  "repo_full_name": "kabaka/spc-player",
+  "skill_path": ".github/skills/linting/SKILL.md",
+  "skill_directory": ".github/skills/linting",
+  "old_revision": "e7fc8ae44da7afbc91f461b55ffc79fdc8ac8d1b",
+  "new_revision": "584a460be6279444b597d2f63993212f0028bd3d",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-19T07:08:02Z",
+  "new_commit_message": "feat: implement Phase 1 project scaffolding, toolchain, and design system",
+  "commit_url": "https://github.com/kabaka/spc-player/commit/584a460be6279444b597d2f63993212f0028bd3d",
+  "compare_url": "https://github.com/kabaka/spc-player/compare/e7fc8ae44da7afbc91f461b55ffc79fdc8ac8d1b...584a460be6279444b597d2f63993212f0028bd3d",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "kabaka/spc-player",
+    "path": ".github/skills/linting/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "018da1691923f3f1c739432fe95b20d10c612eb1",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-19T07:08:02Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/kabaka/spc-player/commits?path=.github%2Fskills%2Flinting%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0181",
+  "old": {
+    "revision": "e7fc8ae44da7afbc91f461b55ffc79fdc8ac8d1b",
+    "tree_sha": "a2afe1806de879ae85c74450a5307e5851a54154",
+    "file_count": 1,
+    "bytes": 1869,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "7052eb06d16668c0b38c489aa2347159e5195861",
+      "sha256": "4dd0c8ef84ee6bbea455ec1846e010ee4ff084cd89297b301858f1e5c00c38bc",
+      "size": 1869
+    }
+  },
+  "new": {
+    "revision": "584a460be6279444b597d2f63993212f0028bd3d",
+    "tree_sha": "614274ccb3f707f8e0afb3ebb63939817f46fd0c",
+    "file_count": 1,
+    "bytes": 1870,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "018da1691923f3f1c739432fe95b20d10c612eb1",
+      "sha256": "89ad7c6179e3f46a2e2c6deb196b376bb55612e6f5c15bad3c93c932f6cb714b",
+      "size": 1870
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "8db527949424ad719f384fbad0c6f60361254735623cf67f127fddd7356ab9bb"
+}

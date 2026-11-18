@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0177",
+  "repo_full_name": "ConversionDev/HarnessTest",
+  "skill_path": ".claude/skills/ad-sim-qa/SKILL.md",
+  "skill_directory": ".claude/skills/ad-sim-qa",
+  "old_revision": "4ccd454b8ea1d4ece4d954c89c3a7404fb5fd608",
+  "new_revision": "33daf03387c925483c73f58d3039841bd5c24814",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-02T06:07:37Z",
+  "new_commit_message": "chore(harness): 하네스를 실제 구현 스택에 동기화 (Spring Boot 제거)",
+  "commit_url": "https://github.com/ConversionDev/HarnessTest/commit/33daf03387c925483c73f58d3039841bd5c24814",
+  "compare_url": "https://github.com/ConversionDev/HarnessTest/compare/4ccd454b8ea1d4ece4d954c89c3a7404fb5fd608...33daf03387c925483c73f58d3039841bd5c24814",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ConversionDev/HarnessTest",
+    "path": ".claude/skills/ad-sim-qa/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0189d4886033911465a12d1f55716c197db6dddd",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-06-02T06:07:37Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/ConversionDev/HarnessTest/commits?path=.claude%2Fskills%2Fad-sim-qa%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0177",
+  "old": {
+    "revision": "4ccd454b8ea1d4ece4d954c89c3a7404fb5fd608",
+    "tree_sha": "9cb59026fe9f7a79c12a93cc5b5889ed8173719b",
+    "file_count": 1,
+    "bytes": 4812,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "85d81eb3936f1f1afd45e52562a393690be1ae75",
+      "sha256": "c1950a0abeeefc7b08d3f86e85d677031110b54448c5791bf1082a62dfab4906",
+      "size": 4812
+    }
+  },
+  "new": {
+    "revision": "33daf03387c925483c73f58d3039841bd5c24814",
+    "tree_sha": "8b38d2c7779ade297f7bd7699fb65fa3df26218d",
+    "file_count": 1,
+    "bytes": 4811,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0189d4886033911465a12d1f55716c197db6dddd",
+      "sha256": "93a29d476bfcf6acfaa396d93bed44b07b595267e23e974029f65d3ec0e2afe0",
+      "size": 4811
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "07081f938e29839626436c5192a91fa66447d14909df20d757987843c66ec19e"
+}

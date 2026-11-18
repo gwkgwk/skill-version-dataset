@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0013",
+  "repo_full_name": "jankneumann/agentic-assistant",
+  "skill_path": ".claude/skills/parallel-review-implementation/SKILL.md",
+  "skill_directory": ".claude/skills/parallel-review-implementation",
+  "old_revision": "1072051a2f18457c910c1fea8fa5e8dff5e70696",
+  "new_revision": "713ab17b3d5092917ff2b9f39d728c2be66353ec",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-21T22:03:57Z",
+  "new_commit_message": "chore(skills): sync skill mirrors from agentic-coding-tools",
+  "commit_url": "https://github.com/jankneumann/agentic-assistant/commit/713ab17b3d5092917ff2b9f39d728c2be66353ec",
+  "compare_url": "https://github.com/jankneumann/agentic-assistant/compare/1072051a2f18457c910c1fea8fa5e8dff5e70696...713ab17b3d5092917ff2b9f39d728c2be66353ec",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "jankneumann/agentic-assistant",
+    "path": ".claude/skills/parallel-review-implementation/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0093926f645a02f4fa5341f091b8ed1b52d922d8",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-21T22:03:57Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/jankneumann/agentic-assistant/commits?path=.claude%2Fskills%2Fparallel-review-implementation%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0013",
+  "old": {
+    "revision": "1072051a2f18457c910c1fea8fa5e8dff5e70696",
+    "tree_sha": "b4c658a8950d20d327a78bbc89993cf29b479826",
+    "file_count": 1,
+    "bytes": 10131,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "04d73680c60524dfc09285947dc06ea87230574c",
+      "sha256": "581e652e645a0f3b311acec71c8248de38e62fd60820bfb4be96f09cbdeee153",
+      "size": 10131
+    }
+  },
+  "new": {
+    "revision": "713ab17b3d5092917ff2b9f39d728c2be66353ec",
+    "tree_sha": "5e9ea34264657518e17d52f80fd3b486727e36ff",
+    "file_count": 1,
+    "bytes": 16623,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0093926f645a02f4fa5341f091b8ed1b52d922d8",
+      "sha256": "db7d56d4714b6077a990bdc891c396103b2bfcceff9b559f7e2a5d3f7e5562b3",
+      "size": 16623
+    }
+  },
+  "diff_added_lines": 84,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "41af4fea4368da31b03e45057fdd0003d726cfe664db265dcf02a85acf492f76"
+}

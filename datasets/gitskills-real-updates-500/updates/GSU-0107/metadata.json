@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0107",
+  "repo_full_name": "lklimek/memcan",
+  "skill_path": ".claude/skills/smoke-test/SKILL.md",
+  "skill_directory": ".claude/skills/smoke-test",
+  "old_revision": "97aed130f3b5ce566f31c8d8c788ea653c7ae492",
+  "new_revision": "1a0ce88b1aef3eeae0e32fdea8cf7d38ccf0edd0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-11T14:19:25Z",
+  "new_commit_message": "chore: release v0.34.0",
+  "commit_url": "https://github.com/lklimek/memcan/commit/1a0ce88b1aef3eeae0e32fdea8cf7d38ccf0edd0",
+  "compare_url": "https://github.com/lklimek/memcan/compare/97aed130f3b5ce566f31c8d8c788ea653c7ae492...1a0ce88b1aef3eeae0e32fdea8cf7d38ccf0edd0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "lklimek/memcan",
+    "path": ".claude/skills/smoke-test/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0006f38b5e12ac4ebc135ad8f362237271856a3e",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-11T14:19:25Z",
+    "commit_count": 5,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/lklimek/memcan/commits?path=.claude%2Fskills%2Fsmoke-test%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0107",
+  "old": {
+    "revision": "97aed130f3b5ce566f31c8d8c788ea653c7ae492",
+    "tree_sha": "d98e62eabe72cc1c1c2f8bf0511c30a50a12fc16",
+    "file_count": 1,
+    "bytes": 12992,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d5c2a0b953d1790fb54840ee2fa01d973bfe989b",
+      "sha256": "6cb66092d2c2c1d704ea7636af1ca9965944c73f7d339e349686ebfa89bf822b",
+      "size": 12992
+    }
+  },
+  "new": {
+    "revision": "1a0ce88b1aef3eeae0e32fdea8cf7d38ccf0edd0",
+    "tree_sha": "de0ee09a7db3f84092a8652e2ef470f629e5b5a9",
+    "file_count": 1,
+    "bytes": 13848,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0006f38b5e12ac4ebc135ad8f362237271856a3e",
+      "sha256": "45172a551808952d9abed9d01694648c78c57f516c13de83890c9886bc736407",
+      "size": 13848
+    }
+  },
+  "diff_added_lines": 20,
+  "diff_deleted_lines": 7,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "5d1b261b9cad53c7e6f8405d69d7d05b1a88430e26900d25865747e6354435cb"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "GSU-0239",
+  "repo_full_name": "kbaseincubator/BERIL-research-observatory",
+  "skill_path": ".claude/skills/remote-compute/SKILL.md",
+  "skill_directory": ".claude/skills/remote-compute",
+  "old_revision": "73e2defad3853c72936e9a46e7e5d0ed48fe981f",
+  "new_revision": "e14c5a7a3bacec16831060c675be702c5f07bb0f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-08T16:43:16Z",
+  "new_commit_message": "Each built image contains own reference readme",
+  "commit_url": "https://github.com/beril-doe/BERIL-research-observatory/commit/e14c5a7a3bacec16831060c675be702c5f07bb0f",
+  "compare_url": "https://github.com/kbaseincubator/BERIL-research-observatory/compare/73e2defad3853c72936e9a46e7e5d0ed48fe981f...e14c5a7a3bacec16831060c675be702c5f07bb0f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "kbaseincubator/BERIL-research-observatory",
+    "path": ".claude/skills/remote-compute/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00748695f17767b1280e359d178100114f5ab694",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-08T16:43:16Z",
+    "commit_count": 5,
+    "sibling_count": 10,
+    "sibling_bytes": 25165,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "AGPL-3.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/kbaseincubator/BERIL-research-observatory/commits?path=.claude%2Fskills%2Fremote-compute%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0239",
+  "old": {
+    "revision": "73e2defad3853c72936e9a46e7e5d0ed48fe981f",
+    "tree_sha": "9e91448ea14fd8f170d4d341a33055d1fb48afca",
+    "file_count": 1,
+    "bytes": 31911,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "890b6e45bc5a9859a74bde1022ff97c80ed0cfa8",
+      "sha256": "86322da1ae501a889e4acbb4b28bba30b08bfbcdee97f9ebeeedd121cfaf508a",
+      "size": 31911
+    }
+  },
+  "new": {
+    "revision": "e14c5a7a3bacec16831060c675be702c5f07bb0f",
+    "tree_sha": "695ccb8d4f0e07acd4bef2e06ff6c8e439a611e3",
+    "file_count": 11,
+    "bytes": 57831,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00748695f17767b1280e359d178100114f5ab694",
+      "sha256": "cb510a1139d9284cc64374f88262f70b8bc020289e599d89d63daa839f8929b6",
+      "size": 32666
+    }
+  },
+  "diff_added_lines": 17,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [
+      "references/bakta.md",
+      "references/bakta_proteins.md",
+      "references/checkm2.md",
+      "references/gtdbtk.md",
+      "references/iqtree.md",
+      "references/kofamscan.md",
+      "references/mmseqs2.md",
+      "references/psortb.md",
+      "references/skani.md",
+      "references/skani_gtdb.md"
+    ],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "68a97bdec0ef066acc99fa0ea7d9150cbe6b12d43216017d8a2ad4699ee693c8"
+}

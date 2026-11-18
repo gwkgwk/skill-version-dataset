@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0381",
+  "repo_full_name": "webern/mx",
+  "skill_path": ".claude/skills/mx-api-add-feature/SKILL.md",
+  "skill_directory": ".claude/skills/mx-api-add-feature",
+  "old_revision": "5ee9908d47f77ab4fef0db068292386af9e97a9a",
+  "new_revision": "52c612dc9e12e6ea498e4a70735653fecb6cb7ea",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-15T17:06:01Z",
+  "new_commit_message": "build: clarify makefile target names and restructure ci (#356)",
+  "commit_url": "https://github.com/webern/mx/commit/52c612dc9e12e6ea498e4a70735653fecb6cb7ea",
+  "compare_url": "https://github.com/webern/mx/compare/5ee9908d47f77ab4fef0db068292386af9e97a9a...52c612dc9e12e6ea498e4a70735653fecb6cb7ea",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "webern/mx",
+    "path": ".claude/skills/mx-api-add-feature/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01909994f28c3f54e431dccc7b42d163397e6f24",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-15T17:06:01Z",
+    "commit_count": 4,
+    "sibling_count": 3,
+    "sibling_bytes": 30380,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/webern/mx/commits?path=.claude%2Fskills%2Fmx-api-add-feature%2FSKILL.md&per_page=10&until=2026-07-15T17%3A06%3A02%2B00%3A00",
+  "history_cutoff": "2026-07-15T17:06:02+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0381",
+  "old": {
+    "revision": "5ee9908d47f77ab4fef0db068292386af9e97a9a",
+    "tree_sha": "fbfa04915c75e0b344313460cb5ffbb89c2a3308",
+    "file_count": 4,
+    "bytes": 33794,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d641b0b268bedd87e9cfc9ea914cb79d38634a38",
+      "sha256": "206f2a9b913c0f10fd28982773a1e9f5251854464dd05386bbc2c485bd471ccf",
+      "size": 3398
+    }
+  },
+  "new": {
+    "revision": "52c612dc9e12e6ea498e4a70735653fecb6cb7ea",
+    "tree_sha": "795bf3a7c24120ac4248a55005ef5af5465b4afe",
+    "file_count": 4,
+    "bytes": 33781,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d47a3c99667fd90624930e6ce9568da675a8d780",
+      "sha256": "f0b970ee1499470b16c2cd3f563a10b4da2cb57a5e2c5f970c3a3aae35148642",
+      "size": 3401
+    }
+  },
+  "diff_added_lines": 3,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "steps/step-1-test-strategy.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "94d1ebedca4060a96d935b49fce4949414ee1ad3e9acfcb159e5cde1eb168b45"
+}

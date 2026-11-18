@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0484",
+  "repo_full_name": "Alexander-M-Dickerson/ai-asset-pricing",
+  "skill_path": ".claude/skills/publication-figures/SKILL.md",
+  "skill_directory": ".claude/skills/publication-figures",
+  "old_revision": "bd9766185b00627aab7c098fea11fa792443f7ae",
+  "new_revision": "89ab302bb5f642885f0a9dc4970b529c84860b7d",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-19T07:08:08Z",
+  "new_commit_message": "Align figure context for FINS and FT styles",
+  "commit_url": "https://github.com/Alexander-M-Dickerson/ai-asset-pricing/commit/89ab302bb5f642885f0a9dc4970b529c84860b7d",
+  "compare_url": "https://github.com/Alexander-M-Dickerson/ai-asset-pricing/compare/bd9766185b00627aab7c098fea11fa792443f7ae...89ab302bb5f642885f0a9dc4970b529c84860b7d",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Alexander-M-Dickerson/ai-asset-pricing",
+    "path": ".claude/skills/publication-figures/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "006b3029f01e265029ec326f457ee3a32ed11475",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-19T07:08:08Z",
+    "commit_count": 4,
+    "sibling_count": 2,
+    "sibling_bytes": 15824,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/Alexander-M-Dickerson/ai-asset-pricing/commits?path=.claude%2Fskills%2Fpublication-figures%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0484",
+  "old": {
+    "revision": "bd9766185b00627aab7c098fea11fa792443f7ae",
+    "tree_sha": "59d9864e8e0c56a765865494ae16369ec873dfff",
+    "file_count": 3,
+    "bytes": 23631,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e74aa333aa684350f2baced7c9cb4d9b28d4299f",
+      "sha256": "f1775cc614e7efb2e865506e57bc4b193b6dc732c963ca9ef1c00acdf17b46c3",
+      "size": 7807
+    }
+  },
+  "new": {
+    "revision": "89ab302bb5f642885f0a9dc4970b529c84860b7d",
+    "tree_sha": "2db72fbcb38a0530b113a5170d699d1d38727c90",
+    "file_count": 3,
+    "bytes": 24309,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "006b3029f01e265029ec326f457ee3a32ed11475",
+      "sha256": "eddfae7f39a14028a2b22e7ac2682e6d9fe0bc19b553c9c6fc311dbe7caf675d",
+      "size": 8485
+    }
+  },
+  "diff_added_lines": 20,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "b08c6c6fcec0edbbae50f5f72caaa760b28aac1df788c99f1b0cb0af76b942ac"
+}

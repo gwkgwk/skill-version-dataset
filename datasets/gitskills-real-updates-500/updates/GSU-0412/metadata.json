@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0412",
+  "repo_full_name": "Attamusc/dotfiles",
+  "skill_path": "dot_copilot/skills/jujutsu/SKILL.md",
+  "skill_directory": "dot_copilot/skills/jujutsu",
+  "old_revision": "636eb140b548b01b01a57600602846a54964386e",
+  "new_revision": "ce34128c2eabd853d69d8231d26e29acf224d109",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-03T22:11:55Z",
+  "new_commit_message": "docs(skills): document tempfile pattern for safe jj commit messages",
+  "commit_url": "https://github.com/Attamusc/dotfiles/commit/ce34128c2eabd853d69d8231d26e29acf224d109",
+  "compare_url": "https://github.com/Attamusc/dotfiles/compare/636eb140b548b01b01a57600602846a54964386e...ce34128c2eabd853d69d8231d26e29acf224d109",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Attamusc/dotfiles",
+    "path": "dot_copilot/skills/jujutsu/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00ec9521f1aa784c9e30db6b3db6a0b903c510d0",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-06-03T22:11:48Z",
+    "commit_count": 3,
+    "sibling_count": 3,
+    "sibling_bytes": 18936,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/Attamusc/dotfiles/commits?path=dot_copilot%2Fskills%2Fjujutsu%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0412",
+  "old": {
+    "revision": "636eb140b548b01b01a57600602846a54964386e",
+    "tree_sha": "8adf96e316ca1d4c5e84205c645f43e12b7aeaee",
+    "file_count": 4,
+    "bytes": 21281,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "43515fb0547af91d298b997f8638bd8fa8c4fe7b",
+      "sha256": "64e3d272162325b1e7cb9e8d3be4bc7e46774dec952e89e8c8bf6a96a4ff67d1",
+      "size": 2345
+    }
+  },
+  "new": {
+    "revision": "ce34128c2eabd853d69d8231d26e29acf224d109",
+    "tree_sha": "ef30bf377615c83d38f7afbeb2e92ec4779c1f7d",
+    "file_count": 4,
+    "bytes": 22807,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00ec9521f1aa784c9e30db6b3db6a0b903c510d0",
+      "sha256": "fb4508559e7cdc3d594904060ca4d4049bdf2ae95a2bc929c328b82681946ae3",
+      "size": 3871
+    }
+  },
+  "diff_added_lines": 30,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "d43c8d3db40e3987849c4bb42374457f646590841e9e53d81e35cd93768d25c3"
+}

@@ -1,0 +1,22 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index c818072..00c89e2 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -102,17 +102,6 @@ If creating the first model in a new provider directory, create a `README.md` us
+ 
+ ---
+ 
+-# Step 5 — Update `src/elements/README.md`
+-
+-Add a row to the **Models** table:
+-```markdown
+-| `<model_slug>_model_def` | `<provider>` | `<model_id>` | Brief description |
+-```
+-
+-**This step is mandatory. Every new element must be reflected in the elements package README.**
+-
+----
+-
+ # Examples
+ 
+ **OpenAI GPT-4o:**

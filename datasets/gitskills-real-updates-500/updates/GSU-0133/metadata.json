@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0133",
+  "repo_full_name": "JetBrains/youtrackdb",
+  "skill_path": ".claude/skills/profile-query-bottleneck/SKILL.md",
+  "skill_directory": ".claude/skills/profile-query-bottleneck",
+  "old_revision": "7e19d84b5110d0926398cd3a7a079e8974d0ba28",
+  "new_revision": "a55372058e69e235369c9246ece7eaaf9a14ff04",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-14T07:43:20Z",
+  "new_commit_message": "[no-test-number-check] Rewrite IC3 query and improve profile-query-bottleneck skill (#964)",
+  "commit_url": "https://github.com/JetBrains/youtrackdb/commit/a55372058e69e235369c9246ece7eaaf9a14ff04",
+  "compare_url": "https://github.com/JetBrains/youtrackdb/compare/7e19d84b5110d0926398cd3a7a079e8974d0ba28...a55372058e69e235369c9246ece7eaaf9a14ff04",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "JetBrains/youtrackdb",
+    "path": ".claude/skills/profile-query-bottleneck/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "011b947879c5d69456b90e4fe1ca9772863c40ee",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-14T07:43:20Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/JetBrains/youtrackdb/commits?path=.claude%2Fskills%2Fprofile-query-bottleneck%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0133",
+  "old": {
+    "revision": "7e19d84b5110d0926398cd3a7a079e8974d0ba28",
+    "tree_sha": "aac59f500b07e9dffaf7ece2f622c13ad2cb8021",
+    "file_count": 1,
+    "bytes": 16369,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "9aad51ec6954e98238278d047cb6cf9cd8bc410b",
+      "sha256": "9802df4d08700e1f7356a7a1740970b9db25b759230d7940d59972d42b4ab86e",
+      "size": 16369
+    }
+  },
+  "new": {
+    "revision": "a55372058e69e235369c9246ece7eaaf9a14ff04",
+    "tree_sha": "4b1c566bab937675168f3919f4fdac8a38e7cb3b",
+    "file_count": 1,
+    "bytes": 25603,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "011b947879c5d69456b90e4fe1ca9772863c40ee",
+      "sha256": "fa65dbc67559c265154ae15177b49b29461008cee2b861d84cdfacd57ca7e117",
+      "size": 25603
+    }
+  },
+  "diff_added_lines": 195,
+  "diff_deleted_lines": 33,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "03b53f91cd7702b9a43dc221a7abe38fecd96bbb14260c32542b68d18f01f237"
+}

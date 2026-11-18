@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0103",
+  "repo_full_name": "ecomhub200/Federal",
+  "skill_path": ".claude/skills/state-data-onboarding/SKILL.md",
+  "skill_directory": ".claude/skills/state-data-onboarding",
+  "old_revision": "396ced01f16dc6c76c9b11bfca445c638ed8e5ff",
+  "new_revision": "3caaa460223d5447f16ae0da143ab93db6b62b11",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-22T20:03:20Z",
+  "new_commit_message": "refactor: rename VDOT-branded column names/values to DOT-neutral equivalents",
+  "commit_url": "https://github.com/ecomhub200/Federal/commit/3caaa460223d5447f16ae0da143ab93db6b62b11",
+  "compare_url": "https://github.com/ecomhub200/Federal/compare/396ced01f16dc6c76c9b11bfca445c638ed8e5ff...3caaa460223d5447f16ae0da143ab93db6b62b11",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ecomhub200/Federal",
+    "path": ".claude/skills/state-data-onboarding/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0137edbc474e7a994a45257bee120e9b2014e009",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-22T20:03:20Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/ecomhub200/Federal/commits?path=.claude%2Fskills%2Fstate-data-onboarding%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0103",
+  "old": {
+    "revision": "396ced01f16dc6c76c9b11bfca445c638ed8e5ff",
+    "tree_sha": "b53cc6d7455ad9505e12324147f36c8fb601ffaf",
+    "file_count": 1,
+    "bytes": 11971,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "1c811438c66290a4627f290d93d10a84468e7f6e",
+      "sha256": "3d23cd7b8ccbaf27ddb554b8f8e861b1fa83fc6f90e4f1262859872c2edfdd77",
+      "size": 11971
+    }
+  },
+  "new": {
+    "revision": "3caaa460223d5447f16ae0da143ab93db6b62b11",
+    "tree_sha": "74235deb1e55f9e9a29dc9158cc00efd20b5430c",
+    "file_count": 1,
+    "bytes": 11966,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0137edbc474e7a994a45257bee120e9b2014e009",
+      "sha256": "46c1343ffdf548cf3b0527e09f675f906634080f9119c00c88ee3366b0bb30da",
+      "size": 11966
+    }
+  },
+  "diff_added_lines": 7,
+  "diff_deleted_lines": 7,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f5296add9133b8e45d4ff01f1950997dfdd679866c0bad54c58dcd61b4d9098d"
+}

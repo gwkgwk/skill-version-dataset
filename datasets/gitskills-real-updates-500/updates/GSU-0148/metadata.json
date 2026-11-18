@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0148",
+  "repo_full_name": "MetaMask/ocap-kernel",
+  "skill_path": ".claude/skills/commit/SKILL.md",
+  "skill_directory": ".claude/skills/commit",
+  "old_revision": "cdbb22675e4166b5eff64e307d5f58ab08f0c959",
+  "new_revision": "e5c939d23f833df63c6fe5c5a9a487ce3fff4e96",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-02-02T15:27:23Z",
+  "new_commit_message": "chore(claude): simplify commit skill to always use plain strings (#795)",
+  "commit_url": "https://github.com/Consensys-Incorporated/ocap-kernel/commit/e5c939d23f833df63c6fe5c5a9a487ce3fff4e96",
+  "compare_url": "https://github.com/MetaMask/ocap-kernel/compare/cdbb22675e4166b5eff64e307d5f58ab08f0c959...e5c939d23f833df63c6fe5c5a9a487ce3fff4e96",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "MetaMask/ocap-kernel",
+    "path": ".claude/skills/commit/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "002c090e3d5845973be0b86f2cf7aa529a97c5dd",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-02-02T15:27:23Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/MetaMask/ocap-kernel/commits?path=.claude%2Fskills%2Fcommit%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0148",
+  "old": {
+    "revision": "cdbb22675e4166b5eff64e307d5f58ab08f0c959",
+    "tree_sha": "3e66b78dfc821b8e57eac95589c84bf4f9055ed5",
+    "file_count": 1,
+    "bytes": 1505,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0134870056859cb608f2ee4b9e952bcad0a797e5",
+      "sha256": "89598d80569bda40e2b9a5ccca8749886e133e27daaa86eba554c6aba85a528c",
+      "size": 1505
+    }
+  },
+  "new": {
+    "revision": "e5c939d23f833df63c6fe5c5a9a487ce3fff4e96",
+    "tree_sha": "2f81c44445cd461a0754259480948c08e469e4e1",
+    "file_count": 1,
+    "bytes": 1279,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "002c090e3d5845973be0b86f2cf7aa529a97c5dd",
+      "sha256": "4442a2bbe46f0e75ed3a1ea4bb018138a7bb12631c18a9ae7a7f3c9619033116",
+      "size": 1279
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 6,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "41c7aee44063f81065cdfcf402f63cecd49eba0227969b0844d2397a358a7813"
+}

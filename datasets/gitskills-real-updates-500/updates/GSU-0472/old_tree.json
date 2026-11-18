@@ -1,0 +1,418 @@
+{
+  "sha": "9b5152b260a88688d0ea8bb8eb91f0a9478bb93f",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c4593898b1d436e8bae6bcf93d33dfdf968ea61",
+      "size": 30,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/3c4593898b1d436e8bae6bcf93d33dfdf968ea61"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde5eb30adddc0a468a6938abedea8481999d5a4",
+      "size": 6797,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/bde5eb30adddc0a468a6938abedea8481999d5a4"
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c92ec77699e206beab0969f8cf1875d8c530fc93",
+      "size": 28307,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/c92ec77699e206beab0969f8cf1875d8c530fc93"
+    },
+    {
+      "path": "cohort.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af7d952ac230b5c75a41b565bb5fd58b39971849",
+      "size": 5069,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/af7d952ac230b5c75a41b565bb5fd58b39971849"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51d07453b2d85f62d773ca82485fcf42fdab0816",
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/trees/51d07453b2d85f62d773ca82485fcf42fdab0816"
+    },
+    {
+      "path": "data/cohort-brand-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8c6239a59611535eccea453064ca5349edff50b",
+      "size": 1943,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/a8c6239a59611535eccea453064ca5349edff50b"
+    },
+    {
+      "path": "data/theme-curation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95e971f77b964744c1431dfc6d4513f969d6f94a",
+      "size": 236,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/95e971f77b964744c1431dfc6d4513f969d6f94a"
+    },
+    {
+      "path": "data/url-extract-prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c929dc842797fdc43ce669dd98738255fd3cf54",
+      "size": 29868,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/1c929dc842797fdc43ce669dd98738255fd3cf54"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9438e85884761dcf2bf4ede12ae6f999e099e0b",
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/trees/b9438e85884761dcf2bf4ede12ae6f999e099e0b"
+    },
+    {
+      "path": "lib/design-md.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1088e5ea6ec149de48c063c7fc2c674c42e2e56b",
+      "size": 22839,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/1088e5ea6ec149de48c063c7fc2c674c42e2e56b"
+    },
+    {
+      "path": "lib/design-md.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36abce47c1d9cf1aaa5fc0071b8b44c3acfc9943",
+      "size": 7891,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/36abce47c1d9cf1aaa5fc0071b8b44c3acfc9943"
+    },
+    {
+      "path": "lib/enrich.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a63fd8fce4190541736ef186353bc7d8455b5b73",
+      "size": 28796,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/a63fd8fce4190541736ef186353bc7d8455b5b73"
+    },
+    {
+      "path": "lib/extractors.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f5570ccedb25772fd2e7c24962f4fc3046f6785",
+      "size": 81843,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/3f5570ccedb25772fd2e7c24962f4fc3046f6785"
+    },
+    {
+      "path": "lib/extractors.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9812c9b07342145384ccb70c03491f4b98c42fe",
+      "size": 27997,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/b9812c9b07342145384ccb70c03491f4b98c42fe"
+    },
+    {
+      "path": "lib/fetch.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "759503b1ae2b67c52702c5f85ca4c8ee5e340755",
+      "size": 17646,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/759503b1ae2b67c52702c5f85ca4c8ee5e340755"
+    },
+    {
+      "path": "lib/fetch.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8142bc73f4ef4e8a6c01fa92a0d9026dd8b11669",
+      "size": 4377,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/8142bc73f4ef4e8a6c01fa92a0d9026dd8b11669"
+    },
+    {
+      "path": "lib/live-theme.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "223a4606e9dfebdb59a1a6515b2901a41da28efc",
+      "size": 2037,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/223a4606e9dfebdb59a1a6515b2901a41da28efc"
+    },
+    {
+      "path": "lib/llm.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f36eb6b083f74b9080d90029a1695823761cdfbe",
+      "size": 9584,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/f36eb6b083f74b9080d90029a1695823761cdfbe"
+    },
+    {
+      "path": "lib/llm.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def7ea1ec76b9404970e3d26921ae7b91ff61550",
+      "size": 5780,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/def7ea1ec76b9404970e3d26921ae7b91ff61550"
+    },
+    {
+      "path": "lib/preview.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171abd34a852014bbee0bdd3d01a8efe5ee9be16",
+      "size": 87495,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/171abd34a852014bbee0bdd3d01a8efe5ee9be16"
+    },
+    {
+      "path": "lib/preview.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "026dc952cef7561bfa3eab22be750ec9309db575",
+      "size": 3192,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/026dc952cef7561bfa3eab22be750ec9309db575"
+    },
+    {
+      "path": "lib/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db305674fbf0b8ad5cc2763f3254b291fcca482e",
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/trees/db305674fbf0b8ad5cc2763f3254b291fcca482e"
+    },
+    {
+      "path": "lib/providers/claude-cli.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dcebc055661336d6c7cecaae4af3de8871c84c8",
+      "size": 2688,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/0dcebc055661336d6c7cecaae4af3de8871c84c8"
+    },
+    {
+      "path": "lib/providers/claude-cli.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32247298ffb7642aa5b8148e35cb42a42051dc6a",
+      "size": 1201,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/32247298ffb7642aa5b8148e35cb42a42051dc6a"
+    },
+    {
+      "path": "lib/providers/openrouter.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44922df1cfc5da05fb2f2ad0ee5442797b464b36",
+      "size": 4315,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/44922df1cfc5da05fb2f2ad0ee5442797b464b36"
+    },
+    {
+      "path": "lib/providers/openrouter.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5708e217ac54a169728e619cc5f4b9fda6734107",
+      "size": 6581,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/5708e217ac54a169728e619cc5f4b9fda6734107"
+    },
+    {
+      "path": "lib/render-contract.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa5e0034ee86867236c04db8ea290614274abb3",
+      "size": 23411,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/9aa5e0034ee86867236c04db8ea290614274abb3"
+    },
+    {
+      "path": "lib/render-contract.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7b999d6fafc07f86bb80c8286a6e064b4445d7",
+      "size": 7898,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/ed7b999d6fafc07f86bb80c8286a6e064b4445d7"
+    },
+    {
+      "path": "lib/reuse.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8eba23c751ec6aca069dd4b908380d6920ded3b",
+      "size": 9263,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/c8eba23c751ec6aca069dd4b908380d6920ded3b"
+    },
+    {
+      "path": "lib/sanitize.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1de63871e7a029da6e343a3d6da6c717e2479b50",
+      "size": 8174,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/1de63871e7a029da6e343a3d6da6c717e2479b50"
+    },
+    {
+      "path": "lib/sanitize.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d073efcdc78f6e85f5e18c923f571911f3d2d1f",
+      "size": 4531,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/3d073efcdc78f6e85f5e18c923f571911f3d2d1f"
+    },
+    {
+      "path": "lib/scoring.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e928ec1e0ee63044802bb4a8f97bb4dfffe6970",
+      "size": 1992,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/8e928ec1e0ee63044802bb4a8f97bb4dfffe6970"
+    },
+    {
+      "path": "lib/telemetry.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d4bd5ab92129e1a9e443619d1b4de564d3f327d",
+      "size": 9312,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/1d4bd5ab92129e1a9e443619d1b4de564d3f327d"
+    },
+    {
+      "path": "lib/telemetry.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec8e955e5da7e6b56fd218daaa408615e91f2f03",
+      "size": 11785,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/ec8e955e5da7e6b56fd218daaa408615e91f2f03"
+    },
+    {
+      "path": "lib/theme-curation.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be338bfccdfb1153f260ae7110706017684a884",
+      "size": 1404,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/1be338bfccdfb1153f260ae7110706017684a884"
+    },
+    {
+      "path": "lib/theme-inference.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "510e941240e1aa6b7883548bf20c51d1dbb77aa9",
+      "size": 5632,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/510e941240e1aa6b7883548bf20c51d1dbb77aa9"
+    },
+    {
+      "path": "lib/theme-inference.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc054fe93f92b0740ad7e3f593fb040a49492e34",
+      "size": 1671,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/fc054fe93f92b0740ad7e3f593fb040a49492e34"
+    },
+    {
+      "path": "lib/tokens.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aa963e093b13fda23f0117ab422c0bb1dba01a8",
+      "size": 10449,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/8aa963e093b13fda23f0117ab422c0bb1dba01a8"
+    },
+    {
+      "path": "lib/tokens.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2da5a15105d7b668f698b4946329d02042f5b08",
+      "size": 4957,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/e2da5a15105d7b668f698b4946329d02042f5b08"
+    },
+    {
+      "path": "lib/utils.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a7aa1dbc9fec428ecd8ad008deda005e50c254a",
+      "size": 12574,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/3a7aa1dbc9fec428ecd8ad008deda005e50c254a"
+    },
+    {
+      "path": "lib/utils.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7b4d6e3e96162bf8b1599c2a3a4c53129148bce",
+      "size": 6833,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/f7b4d6e3e96162bf8b1599c2a3a4c53129148bce"
+    },
+    {
+      "path": "lib/var-resolver.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2340dca4057c2eb976e7a569aabc824da0c9009",
+      "size": 11669,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/d2340dca4057c2eb976e7a569aabc824da0c9009"
+    },
+    {
+      "path": "lib/var-resolver.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22bfe57c5ce5c1d31944a24552c40a96d3f2fc2c",
+      "size": 6547,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/22bfe57c5ce5c1d31944a24552c40a96d3f2fc2c"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d0b4062472cd4f2d34f3518cb93a70628118373",
+      "size": 23424,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/3d0b4062472cd4f2d34f3518cb93a70628118373"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d50b91dd8b49399e889570a302d5f9feaa34e5",
+      "size": 1119,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/f7d50b91dd8b49399e889570a302d5f9feaa34e5"
+    },
+    {
+      "path": "run.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73349a463adfaa9f60d701548b131738f06ad2d3",
+      "size": 52596,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/73349a463adfaa9f60d701548b131738f06ad2d3"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0269b06d928edb0fd8beb88cdb6c11520796ca0a",
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/trees/0269b06d928edb0fd8beb88cdb6c11520796ca0a"
+    },
+    {
+      "path": "scripts/backfill-render-contract.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c5c9e676e7d6cd035c782e413c2747d8de90d8",
+      "size": 3898,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/a5c5c9e676e7d6cd035c782e413c2747d8de90d8"
+    },
+    {
+      "path": "scripts/enrich-existing.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "767da92843dd898d09316047786e901caaa3f8a0",
+      "size": 7799,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/767da92843dd898d09316047786e901caaa3f8a0"
+    },
+    {
+      "path": "scripts/import-awesome-design-md.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c71b4772e091379de1e7e1ea1e66f7488c9595e",
+      "size": 23022,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/6c71b4772e091379de1e7e1ea1e66f7488c9595e"
+    },
+    {
+      "path": "scripts/organize.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c90bc238bc55b106b2c827d2550f07c2a39798f7",
+      "size": 7602,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/c90bc238bc55b106b2c827d2550f07c2a39798f7"
+    },
+    {
+      "path": "scripts/refresh-imported-theme.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36ae010e92c3511a82cb6e14409799dc9e6a1f09",
+      "size": 5535,
+      "url": "https://api.github.com/repos/marketingLendario/cohort-de-marketing/git/blobs/36ae010e92c3511a82cb6e14409799dc9e6a1f09"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0389",
+  "repo_full_name": "rblood79/composition",
+  "skill_path": ".claude/skills/composition-patterns/SKILL.md",
+  "skill_directory": ".claude/skills/composition-patterns",
+  "old_revision": "6feffe53ded46adde1ab79fe46ad5a92dedf398b",
+  "new_revision": "7a31507fbbe6a7f28800a7042338a923035ac18b",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-13T12:05:48Z",
+  "new_commit_message": "docs(adr): 완료 ADR 5건 completed/ 이관 + README 상태 표 재정합",
+  "commit_url": "https://github.com/rblood79/composition/commit/7a31507fbbe6a7f28800a7042338a923035ac18b",
+  "compare_url": "https://github.com/rblood79/composition/compare/6feffe53ded46adde1ab79fe46ad5a92dedf398b...7a31507fbbe6a7f28800a7042338a923035ac18b",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "rblood79/composition",
+    "path": ".claude/skills/composition-patterns/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0125c9a7c9f0be755370d3ae1452cd01f6e61af3",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-13T12:05:48Z",
+    "commit_count": 12,
+    "sibling_count": 55,
+    "sibling_bytes": 284870,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/rblood79/composition/commits?path=.claude%2Fskills%2Fcomposition-patterns%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0389",
+  "old": {
+    "revision": "6feffe53ded46adde1ab79fe46ad5a92dedf398b",
+    "tree_sha": "bbc4e5a1848f2f683cf8ab3eb041afc7cde92df4",
+    "file_count": 56,
+    "bytes": 298285,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "5a8c4460a8ce3b4e415f7de828c9e2ff1ed9dc31",
+      "sha256": "d237529f3d3f99112d81347b33a16a60b387f610b1aa47e3547914eb20c0818c",
+      "size": 16455
+    }
+  },
+  "new": {
+    "revision": "7a31507fbbe6a7f28800a7042338a923035ac18b",
+    "tree_sha": "2e2c22047b3abb9644937cd7b856aae14f36d2ca",
+    "file_count": 56,
+    "bytes": 298305,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0125c9a7c9f0be755370d3ae1452cd01f6e61af3",
+      "sha256": "2c7d0bf4dec867c9e666715c9b4d034ad02a68ebe4e857b105ee9766314b779c",
+      "size": 16475
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4f15987c5f20ab8ac27a56e4514b10296281b30a006fd3f2924aaaf548ffb096"
+}

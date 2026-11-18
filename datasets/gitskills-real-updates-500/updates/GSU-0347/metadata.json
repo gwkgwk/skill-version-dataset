@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0347",
+  "repo_full_name": "SEMOSS/Template",
+  "skill_path": ".claude/skills/semoss-ai-repo/SKILL.md",
+  "skill_directory": ".claude/skills/semoss-ai-repo",
+  "old_revision": "7766b01c377e378ce11231c32ee1f2efb80b3ce8",
+  "new_revision": "10f8ec4eec85ccedc5f54f7a2ac6fe4fb2ea75f1",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-19T13:52:37Z",
+  "new_commit_message": "docs: trim deploy/ai-repo skills, drop example-app skill, ignore tsbuildinfo",
+  "commit_url": "https://github.com/SEMOSS/Template/commit/10f8ec4eec85ccedc5f54f7a2ac6fe4fb2ea75f1",
+  "compare_url": "https://github.com/SEMOSS/Template/compare/7766b01c377e378ce11231c32ee1f2efb80b3ce8...10f8ec4eec85ccedc5f54f7a2ac6fe4fb2ea75f1",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "SEMOSS/Template",
+    "path": ".claude/skills/semoss-ai-repo/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "007807dd2fb3612a200a0c8cc03e8aaf89f4fb50",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-19T13:52:37Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/SEMOSS/Template/commits?path=.claude%2Fskills%2Fsemoss-ai-repo%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0347",
+  "old": {
+    "revision": "7766b01c377e378ce11231c32ee1f2efb80b3ce8",
+    "tree_sha": "dc5ff12dec5bfe9ed1f42b925958893106017e2a",
+    "file_count": 1,
+    "bytes": 3253,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "1144963837b57ce4090de8128787a317701f24ba",
+      "sha256": "9660f7b430162401776597496c8e211a3677af93f90700ea37e04f47071eedfa",
+      "size": 3253
+    }
+  },
+  "new": {
+    "revision": "10f8ec4eec85ccedc5f54f7a2ac6fe4fb2ea75f1",
+    "tree_sha": "b6fbfffe32b918aec1b5145f0ac54cf06ffbfe84",
+    "file_count": 1,
+    "bytes": 2570,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "007807dd2fb3612a200a0c8cc03e8aaf89f4fb50",
+      "sha256": "e15f816e74179bbd2d61cfbe44609f3ceba3da73ff10454fd79e1fec4f61dc20",
+      "size": 2570
+    }
+  },
+  "diff_added_lines": 27,
+  "diff_deleted_lines": 68,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "fc073c8da149b5c63d35e7fdc34a41e591dac51883d398ff8c9085bc0e92b59c"
+}

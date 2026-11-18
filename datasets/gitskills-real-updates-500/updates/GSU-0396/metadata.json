@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0396",
+  "repo_full_name": "JNTMTMTM/eIsland",
+  "skill_path": ".claude/skills/eisland-dev-add-svg-icon/SKILL.md",
+  "skill_directory": ".claude/skills/eisland-dev-add-svg-icon",
+  "old_revision": "07ae54e108f37abe3039721c1bf8e14c0330acea",
+  "new_revision": "45012fe756023e700387c558f5c285339c6ff971",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-09T10:31:03Z",
+  "new_commit_message": "feat: add service icons for CLOUDFLARE and ALIBABACLOUD with corresponding tests",
+  "commit_url": "https://github.com/JNTMTMTM/eIsland/commit/45012fe756023e700387c558f5c285339c6ff971",
+  "compare_url": "https://github.com/JNTMTMTM/eIsland/compare/07ae54e108f37abe3039721c1bf8e14c0330acea...45012fe756023e700387c558f5c285339c6ff971",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "JNTMTMTM/eIsland",
+    "path": ".claude/skills/eisland-dev-add-svg-icon/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01a1d339630d0b8b38762f5dfcd4e308b9edd225",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-07-09T10:31:03Z",
+    "commit_count": 3,
+    "sibling_count": 1,
+    "sibling_bytes": 839,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "GPL-3.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/JNTMTMTM/eIsland/commits?path=.claude%2Fskills%2Feisland-dev-add-svg-icon%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0396",
+  "old": {
+    "revision": "07ae54e108f37abe3039721c1bf8e14c0330acea",
+    "tree_sha": "71433dd6094352187dff895ed16f716c272c6112",
+    "file_count": 2,
+    "bytes": 5770,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "30019aaebedbdb4788b835bc11868fabc4700a5b",
+      "sha256": "1277bf6963a11fa86257dda416ec028d3625bcbfccc67d05364156de08795f56",
+      "size": 4931
+    }
+  },
+  "new": {
+    "revision": "45012fe756023e700387c558f5c285339c6ff971",
+    "tree_sha": "a86458d2fcc1f1d857562856e102965aa3911c33",
+    "file_count": 2,
+    "bytes": 6089,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01a1d339630d0b8b38762f5dfcd4e308b9edd225",
+      "sha256": "20c44d65e4c70a93e8e4d6782a39836effa119c139b592f91140fc2b9394d882",
+      "size": 5250
+    }
+  },
+  "diff_added_lines": 9,
+  "diff_deleted_lines": 4,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "92284bdeb8cf40aa8208d87a7ab5ee8791c0691787572dd7a84106e76d31ed29"
+}

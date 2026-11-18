@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0098",
+  "repo_full_name": "lucas-burlot/BloxAI",
+  "skill_path": ".claude/skills/rarity-tier-scaffold/SKILL.md",
+  "skill_directory": ".claude/skills/rarity-tier-scaffold",
+  "old_revision": "816d9e1cf5babdd481e67a882085a17e7b549d3e",
+  "new_revision": "3490c5b909d3e58581005e61f03736ae58b05417",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-12T15:19:48Z",
+  "new_commit_message": "feat: v2 — full lifecycle workflow (idea to LiveOps), enforced backups, verified MCP toolset",
+  "commit_url": "https://github.com/lucas-burlot/BloxAI/commit/3490c5b909d3e58581005e61f03736ae58b05417",
+  "compare_url": "https://github.com/lucas-burlot/BloxAI/compare/816d9e1cf5babdd481e67a882085a17e7b549d3e...3490c5b909d3e58581005e61f03736ae58b05417",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "lucas-burlot/BloxAI",
+    "path": ".claude/skills/rarity-tier-scaffold/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0048fba638d5cb00135c098f86922de5ff9e3a81",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-12T15:19:48Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/lucas-burlot/BloxAI/commits?path=.claude%2Fskills%2Frarity-tier-scaffold%2FSKILL.md&per_page=10&until=2026-07-12T15%3A19%3A49%2B00%3A00",
+  "history_cutoff": "2026-07-12T15:19:49+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0098",
+  "old": {
+    "revision": "816d9e1cf5babdd481e67a882085a17e7b549d3e",
+    "tree_sha": "2b5118485797fdd0abd3cb3d91ab8d143b020cb2",
+    "file_count": 1,
+    "bytes": 3397,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0048fba638d5cb00135c098f86922de5ff9e3a81",
+      "sha256": "7da8bb7d35edcf6cd97c1ed92a58d46d02eac59b56826503d03b509531229940",
+      "size": 3397
+    }
+  },
+  "new": {
+    "revision": "3490c5b909d3e58581005e61f03736ae58b05417",
+    "tree_sha": "dec431dda3a406929d3579df5a7aa563efe80662",
+    "file_count": 1,
+    "bytes": 3912,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "465aed48edba89de603f5da753b90cfab105de7e",
+      "sha256": "0fe5b9809c3c0fd3c6414a3b23c978db8d3c99ab288254414117eafbe9613eb3",
+      "size": 3912
+    }
+  },
+  "diff_added_lines": 7,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "b00fafb31fbc3c54e87a306c8ed407b856d82125ae1ab97b968d538fca2d6ed2"
+}

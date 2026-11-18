@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0267",
+  "repo_full_name": "deOliveira-R/ORPHEUS",
+  "skill_path": ".claude/skills/nexus-verification/SKILL.md",
+  "skill_directory": ".claude/skills/nexus-verification",
+  "old_revision": "0daf84ba60184c63397270e15d40b0d521268f29",
+  "new_revision": "05d0a5737c3d35d0df193c5857382a542c2e53cb",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-10T02:38:30Z",
+  "new_commit_message": "Remove all prohibition language — freedom framing at every layer",
+  "commit_url": "https://github.com/deOliveira-R/ORPHEUS/commit/05d0a5737c3d35d0df193c5857382a542c2e53cb",
+  "compare_url": "https://github.com/deOliveira-R/ORPHEUS/compare/0daf84ba60184c63397270e15d40b0d521268f29...05d0a5737c3d35d0df193c5857382a542c2e53cb",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "deOliveira-R/ORPHEUS",
+    "path": ".claude/skills/nexus-verification/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00eb63c196b8ac65be7174b5fcd762379e7f63b1",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-04-10T02:38:30Z",
+    "commit_count": 4,
+    "sibling_count": 1,
+    "sibling_bytes": 1084,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/deOliveira-R/ORPHEUS/commits?path=.claude%2Fskills%2Fnexus-verification%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0267",
+  "old": {
+    "revision": "0daf84ba60184c63397270e15d40b0d521268f29",
+    "tree_sha": "726595ef031ed5bd3e68b96070cf9ba574322197",
+    "file_count": 2,
+    "bytes": 3505,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e4d6084a8b50e9eccdc3cb7c805a8a274203182f",
+      "sha256": "3024693fbeeaab6f8d6bddd92eec95d7d1354889825e73a55730da2fa2b40d40",
+      "size": 2214
+    }
+  },
+  "new": {
+    "revision": "05d0a5737c3d35d0df193c5857382a542c2e53cb",
+    "tree_sha": "4fcc627431b1f833ffe5852eca76031c54d2f9cc",
+    "file_count": 2,
+    "bytes": 3320,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00eb63c196b8ac65be7174b5fcd762379e7f63b1",
+      "sha256": "0c59fa328b7a2c91369336df1dbab54cab694feaadc20b51a9b7a5bb89a6643f",
+      "size": 2236
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "scripts/tool-override-block.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4dae8eded086ebe9d4004109ef3dd1d3942b6fa255ec028b17483cee11ebcb3a"
+}

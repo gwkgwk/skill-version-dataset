@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0463",
+  "repo_full_name": "offlinecv/OfflineCV",
+  "skill_path": ".claude/skills/implement-batch/SKILL.md",
+  "skill_directory": ".claude/skills/implement-batch",
+  "old_revision": "c656c408e89f555ab9f7307ab9bde23bfcec2f9d",
+  "new_revision": "9154e41a67ef9abd13d07170879acfe7ea240e0f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-20T17:17:58Z",
+  "new_commit_message": "chore(rename): domain cutover to offlinecv.org — CNAME, docs, workflows, skill refs (#498) (#500)",
+  "commit_url": "https://github.com/116-Labs/OfflineCV/commit/9154e41a67ef9abd13d07170879acfe7ea240e0f",
+  "compare_url": "https://github.com/offlinecv/OfflineCV/compare/c656c408e89f555ab9f7307ab9bde23bfcec2f9d...9154e41a67ef9abd13d07170879acfe7ea240e0f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "offlinecv/OfflineCV",
+    "path": ".claude/skills/implement-batch/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0132482fb2f2ae8af15dcd30fc9cd3d406fe884f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-20T17:17:58Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/offlinecv/OfflineCV/commits?path=.claude%2Fskills%2Fimplement-batch%2FSKILL.md&per_page=10&until=2026-07-20T17%3A17%3A59%2B00%3A00",
+  "history_cutoff": "2026-07-20T17:17:59+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0463",
+  "old": {
+    "revision": "c656c408e89f555ab9f7307ab9bde23bfcec2f9d",
+    "tree_sha": "bc7d13cd7c827cdf0a45a5396b1c4d3e164cab25",
+    "file_count": 1,
+    "bytes": 26335,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0132482fb2f2ae8af15dcd30fc9cd3d406fe884f",
+      "sha256": "438eaff582de931cac003c4a6b2bab2e5145a0c2547f97de4ea7f905e1deb616",
+      "size": 26335
+    }
+  },
+  "new": {
+    "revision": "9154e41a67ef9abd13d07170879acfe7ea240e0f",
+    "tree_sha": "5e28cdcd4c3f5b7450c8c687a97e476c5db5a633",
+    "file_count": 1,
+    "bytes": 26316,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c25510ce17ae5a7b83d31b26cd549a8ffe7acc2c",
+      "sha256": "ea98f4842028ab41854047cf3118224cfa9dfa0a39384a452332a39c9da229a0",
+      "size": 26316
+    }
+  },
+  "diff_added_lines": 4,
+  "diff_deleted_lines": 4,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "7c2685f046652860cca58b79ed6c793f6fc89e38897aaa48eed48ed3a9e1ac43"
+}

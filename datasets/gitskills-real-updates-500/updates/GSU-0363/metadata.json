@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0363",
+  "repo_full_name": "motormetrics/motormetrics",
+  "skill_path": "apps/web/.claude/skills/ui-design-system/SKILL.md",
+  "skill_directory": "apps/web/.claude/skills/ui-design-system",
+  "old_revision": "2ff494d8f9dc243ab44e2cca7a6ffaca53b8b8c0",
+  "new_revision": "30e4c49ba71554d3baf278918f75287cd8906c9a",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-01T05:49:56Z",
+  "new_commit_message": "refactor(web): align HeroUI v3 tokens",
+  "commit_url": "https://github.com/motormetrics/motormetrics/commit/30e4c49ba71554d3baf278918f75287cd8906c9a",
+  "compare_url": "https://github.com/motormetrics/motormetrics/compare/2ff494d8f9dc243ab44e2cca7a6ffaca53b8b8c0...30e4c49ba71554d3baf278918f75287cd8906c9a",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "motormetrics/motormetrics",
+    "path": "apps/web/.claude/skills/ui-design-system/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0183f1acf8d2e8fe662f386d437b5cc54e452c77",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-05-01T05:49:56Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/motormetrics/motormetrics/commits?path=apps%2Fweb%2F.claude%2Fskills%2Fui-design-system%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0363",
+  "old": {
+    "revision": "2ff494d8f9dc243ab44e2cca7a6ffaca53b8b8c0",
+    "tree_sha": "421a93892cd6792ed952169a4dba3115df7a9da6",
+    "file_count": 1,
+    "bytes": 6640,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e8e93b0499a3c617557b8eb018e17ecff692fc78",
+      "sha256": "d798de409520b55ee8a3705873791da2dd736a629e606f8661cb94b012b673b7",
+      "size": 6640
+    }
+  },
+  "new": {
+    "revision": "30e4c49ba71554d3baf278918f75287cd8906c9a",
+    "tree_sha": "475fd528ee17a1236c4db276c65afc2e8bbb7302",
+    "file_count": 1,
+    "bytes": 6538,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0183f1acf8d2e8fe662f386d437b5cc54e452c77",
+      "sha256": "09f830593ef14def9517462d4675ef9a1f5f1d083514ae94b3dd6054b62ddca8",
+      "size": 6538
+    }
+  },
+  "diff_added_lines": 10,
+  "diff_deleted_lines": 10,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "388354de7de25f11df04859307750ac12544908c94d7014233d2c89999451156"
+}

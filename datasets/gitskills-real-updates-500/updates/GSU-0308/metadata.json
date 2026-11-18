@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0308",
+  "repo_full_name": "ahtavarasmus/lightfriend",
+  "skill_path": ".claude/skills/lightfriend-add-frontend-page/SKILL.md",
+  "skill_directory": ".claude/skills/lightfriend-add-frontend-page",
+  "old_revision": "be14b5ed6143e763ab03e2e2ea47dd36eafb7d12",
+  "new_revision": "bd4d18a3be20461c4dcba901014330730829d060",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-11T16:18:39Z",
+  "new_commit_message": "Address PR feedback on Claude Code setup",
+  "commit_url": "https://github.com/ahtavarasmus/lightfriend/commit/bd4d18a3be20461c4dcba901014330730829d060",
+  "compare_url": "https://github.com/ahtavarasmus/lightfriend/compare/be14b5ed6143e763ab03e2e2ea47dd36eafb7d12...bd4d18a3be20461c4dcba901014330730829d060",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ahtavarasmus/lightfriend",
+    "path": ".claude/skills/lightfriend-add-frontend-page/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "004a06454ff3111dd105c11e1a7a14a887e084da",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-01-11T16:18:39Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "AGPL-3.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/ahtavarasmus/lightfriend/commits?path=.claude%2Fskills%2Flightfriend-add-frontend-page%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0308",
+  "old": {
+    "revision": "be14b5ed6143e763ab03e2e2ea47dd36eafb7d12",
+    "tree_sha": "907182d430f4ce3392c36c9e04d0dd8a7e2084a6",
+    "file_count": 1,
+    "bytes": 10426,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "056afb9f3239b8c1eda6c03d279bb9d1f210352f",
+      "sha256": "394fdee21fd16894d368f04ba161996caae35f3e090dcbe9d97af592bcd068fc",
+      "size": 10426
+    }
+  },
+  "new": {
+    "revision": "bd4d18a3be20461c4dcba901014330730829d060",
+    "tree_sha": "2f714e8f3c16e6425acad8ac7f1c88d7a2539716",
+    "file_count": 1,
+    "bytes": 11365,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "004a06454ff3111dd105c11e1a7a14a887e084da",
+      "sha256": "10ff422199a4619a2e57bebe9df7c935ecd7a1d0cf63d669994ce6e62e3fed0f",
+      "size": 11365
+    }
+  },
+  "diff_added_lines": 43,
+  "diff_deleted_lines": 17,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "6ddda9f749389be427dd253daae585c48643e201ee48cf4aa7616af025d86cc3"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0072",
+  "repo_full_name": "jgjgill/blog",
+  "skill_path": ".claude/skills/write-content/SKILL.md",
+  "skill_directory": ".claude/skills/write-content",
+  "old_revision": "27fdd47a1bc3b6f231841bd11e35ef1292ccb726",
+  "new_revision": "d4449238653720303cf2dec59b1a4d43458604dd",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-26T14:42:48Z",
+  "new_commit_message": "docs: write-content, write-road 스킬에 이미지 가이드라인 추가",
+  "commit_url": "https://github.com/jgjgill/blog/commit/d4449238653720303cf2dec59b1a4d43458604dd",
+  "compare_url": "https://github.com/jgjgill/blog/compare/27fdd47a1bc3b6f231841bd11e35ef1292ccb726...d4449238653720303cf2dec59b1a4d43458604dd",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "jgjgill/blog",
+    "path": ".claude/skills/write-content/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01a0a863399f3dc64a93f1771dcda1327c09a52f",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-26T14:41:59Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/jgjgill/blog/commits?path=.claude%2Fskills%2Fwrite-content%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0072",
+  "old": {
+    "revision": "27fdd47a1bc3b6f231841bd11e35ef1292ccb726",
+    "tree_sha": "180ca5efa59bf2f6c9cbbfa0f23d9fb63bb2f211",
+    "file_count": 1,
+    "bytes": 2644,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "9aedaea47417c37f578e82f88d77a77aa48610b4",
+      "sha256": "9b31117c6546daeb6ab3efc4a5c1a9a001d60e0099dcc9cfd8a6c2668a82b02c",
+      "size": 2644
+    }
+  },
+  "new": {
+    "revision": "d4449238653720303cf2dec59b1a4d43458604dd",
+    "tree_sha": "91d3dd361e84c06b7ecbf6bc126a61301d5cb386",
+    "file_count": 1,
+    "bytes": 2777,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01a0a863399f3dc64a93f1771dcda1327c09a52f",
+      "sha256": "7fe62770115ae6197df878a82bb8fb051afcbf924fd47ef0bb9c1ef7f55bde98",
+      "size": 2777
+    }
+  },
+  "diff_added_lines": 9,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "ff8c73615a8f2dee0e88138d194859e34ff07f31f1b56ed4ced7a2be4eb62c70"
+}

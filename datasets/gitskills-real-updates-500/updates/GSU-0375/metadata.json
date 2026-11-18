@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0375",
+  "repo_full_name": "CleanExpo/Synthex",
+  "skill_path": ".claude/skills/synthex-standards/SKILL.md",
+  "skill_directory": ".claude/skills/synthex-standards",
+  "old_revision": "11ec42f086efbee11d0f22585880c5887b9e5d25",
+  "new_revision": "b3124854a1963599e8d4062f9314c34fc640807a",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-12T01:26:54Z",
+  "new_commit_message": "docs: instruction-layer refresh — Real Images Only enters every rule, skill, and command (#747)",
+  "commit_url": "https://github.com/CleanExpo/Synthex/commit/b3124854a1963599e8d4062f9314c34fc640807a",
+  "compare_url": "https://github.com/CleanExpo/Synthex/compare/11ec42f086efbee11d0f22585880c5887b9e5d25...b3124854a1963599e8d4062f9314c34fc640807a",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "CleanExpo/Synthex",
+    "path": ".claude/skills/synthex-standards/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "013a7bbfc3cbef3bf2cfd91e919d28114d01e1e7",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-07-12T01:26:54Z",
+    "commit_count": 3,
+    "sibling_count": 4,
+    "sibling_bytes": 11338,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/CleanExpo/Synthex/commits?path=.claude%2Fskills%2Fsynthex-standards%2FSKILL.md&per_page=10&until=2026-07-12T01%3A26%3A55%2B00%3A00",
+  "history_cutoff": "2026-07-12T01:26:55+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0375",
+  "old": {
+    "revision": "11ec42f086efbee11d0f22585880c5887b9e5d25",
+    "tree_sha": "ae11d6b0bed6e8e781681adc814439d6f7db84cf",
+    "file_count": 5,
+    "bytes": 13275,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "013a7bbfc3cbef3bf2cfd91e919d28114d01e1e7",
+      "sha256": "d526756a65e9089eb01c4a669a03e94f6a9cceb976215b4bacaa839b36da83fc",
+      "size": 1937
+    }
+  },
+  "new": {
+    "revision": "b3124854a1963599e8d4062f9314c34fc640807a",
+    "tree_sha": "6efc0c5f576212058492f90b08876be76d63ac71",
+    "file_count": 5,
+    "bytes": 14361,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "beaf6ef945c0e390331d0bd1df2e863474b83bb2",
+      "sha256": "fc587c343c2f13bc03bfc9fa4c7e31c1c3a16579718fbe55e72cda9b186aec8f",
+      "size": 3023
+    }
+  },
+  "diff_added_lines": 15,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "fe122801695c5e45880d3224e479d0e3f318ad7f75e6110953d94b1935329add"
+}

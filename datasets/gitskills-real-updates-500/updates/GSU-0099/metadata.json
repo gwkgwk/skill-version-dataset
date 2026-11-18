@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0099",
+  "repo_full_name": "dllatas/dotfiles",
+  "skill_path": "ai/claude/skills/deploy-netcup-app/SKILL.md",
+  "skill_directory": "ai/claude/skills/deploy-netcup-app",
+  "old_revision": "8215cd8ddff102756cb15730cf7a54f84a1590ec",
+  "new_revision": "bb6e17b5f4f70ce4baecdc44182660d5bf50e006",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-07T21:20:59Z",
+  "new_commit_message": "feat(ai-agents): add Netcup onboarding skills",
+  "commit_url": "https://github.com/dllatas/dotfiles/commit/bb6e17b5f4f70ce4baecdc44182660d5bf50e006",
+  "compare_url": "https://github.com/dllatas/dotfiles/compare/8215cd8ddff102756cb15730cf7a54f84a1590ec...bb6e17b5f4f70ce4baecdc44182660d5bf50e006",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "dllatas/dotfiles",
+    "path": "ai/claude/skills/deploy-netcup-app/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "0050bd26c7d887063441935b91af020e155ae10e",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-05-07T21:06:22Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/dllatas/dotfiles/commits?path=ai%2Fclaude%2Fskills%2Fdeploy-netcup-app%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0099",
+  "old": {
+    "revision": "8215cd8ddff102756cb15730cf7a54f84a1590ec",
+    "tree_sha": "0ea9338db2a905a6b11e5b7740b0e5819cde88ee",
+    "file_count": 1,
+    "bytes": 6520,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c46524abb0f3010728b249966e14c8777635aa5e",
+      "sha256": "e8fa001e8b0b3cff7033b54a5fcf1e69acfb666adec667bb85b720e6cf52d053",
+      "size": 6520
+    }
+  },
+  "new": {
+    "revision": "bb6e17b5f4f70ce4baecdc44182660d5bf50e006",
+    "tree_sha": "5f422646ae05cc9b284a777c521c7c7ca222ee19",
+    "file_count": 1,
+    "bytes": 6647,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0050bd26c7d887063441935b91af020e155ae10e",
+      "sha256": "65525df15689cee3b135bc9d33e989f5bef00eadafce312e27e7197c12e16a34",
+      "size": 6647
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "57d23191b9d8c80077f5f587a9727bf6551dbba2c08652b7c09c0d91847b88af"
+}

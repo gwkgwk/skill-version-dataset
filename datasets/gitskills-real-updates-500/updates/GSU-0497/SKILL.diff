@@ -1,0 +1,40 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 15cb767..00eb8a6 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -65,6 +65,7 @@ Write each page using the appropriate template structure. Follow these rules:
+ - Cross-link using Obsidian-style `[[wiki-links]]`: every technique referenced in a tool page links to `[[techniques/<Technique>]]`, and vice versa.
+ - In the Sources section of each page, use relative markdown links back to the raw files in `raw/tool-docs/`.
+ - If a technique page is referenced but does not exist yet, still add the `[[wiki-link]]` — it will show as a dead link in Obsidian until the page is created, which is intentional.
++- **Always set `last_updated` in frontmatter to today's date on every page you write or modify.** This applies to newly created pages and to existing pages that get any edit at all (including the reverse-link additions in Step 5). If a page is touched in an ingest session, its `last_updated` must reflect that session's date.
+ 
+ ---
+ 
+@@ -73,23 +74,23 @@ Write each page using the appropriate template structure. Follow these rules:
+ For every technique page that already exists and is referenced by a newly created or updated page:
+ - Open the technique page
+ - Add the new page to its "Used by recipes" or related section if not already present
++- Bump `last_updated` in its frontmatter to today's date (per the Step 4 rule)
+ 
+ For every tool page that already exists and is referenced:
+ - Add the new page to its "Used by recipes" section if not already present
++- Bump `last_updated` in its frontmatter to today's date (per the Step 4 rule)
+ 
+ ---
+ 
+ ## Step 6: Update tech/index.md
+ 
+-Add or update one row per new or changed page in the appropriate table (Tools, Techniques, Recipes, or Comparisons). Keep the summary to one line.
+-
+-Update the `last_updated` frontmatter date.
++Do this automatically — no human approval needed. Add or update one row per new or changed page in the appropriate table (Tools, Techniques, Recipes, or Comparisons). Keep the summary to one line. Update the `last_updated` frontmatter date.
+ 
+ ---
+ 
+ ## Step 7: Append to tech/log.md
+ 
+-Append one entry using the format:
++Do this automatically — no human approval needed. Append one entry using the format:
+ 
+ ```
+ ## [YYYY-MM-DD] ingest | <subject>

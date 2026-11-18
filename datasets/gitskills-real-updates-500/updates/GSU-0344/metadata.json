@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0344",
+  "repo_full_name": "abhattacherjee/claude-code-skills",
+  "skill_path": "plugins/obsidian-brain/skills/error-log/SKILL.md",
+  "skill_directory": "plugins/obsidian-brain/skills/error-log",
+  "old_revision": "7b32342b106bb2161ca3a13f8936457c3c90aabb",
+  "new_revision": "4cc16be93821ab77f28079ac22de58baf0f8ddfb",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-26T20:18:40Z",
+  "new_commit_message": "Sync obsidian-brain v2.4.2 + monorepo v3.7.0 (#9)",
+  "commit_url": "https://github.com/abhattacherjee/claude-code-skills/commit/4cc16be93821ab77f28079ac22de58baf0f8ddfb",
+  "compare_url": "https://github.com/abhattacherjee/claude-code-skills/compare/7b32342b106bb2161ca3a13f8936457c3c90aabb...4cc16be93821ab77f28079ac22de58baf0f8ddfb",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "abhattacherjee/claude-code-skills",
+    "path": "plugins/obsidian-brain/skills/error-log/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "01a3a8cd7eac71672e65dfe1de58acb1af55ee92",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-26T20:18:40Z",
+    "commit_count": 8,
+    "sibling_count": 1,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/abhattacherjee/claude-code-skills/commits?path=plugins%2Fobsidian-brain%2Fskills%2Ferror-log%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0344",
+  "old": {
+    "revision": "7b32342b106bb2161ca3a13f8936457c3c90aabb",
+    "tree_sha": "e9d897116deca5518ac0c62b3a8c7f0d32375286",
+    "file_count": 2,
+    "bytes": 7335,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "701bc42ee299b9388e66242349123ae6022bcfb4",
+      "sha256": "3098cfd45070c3416061e99b9fe9e85884033223a1eb36194e5a772749807571",
+      "size": 7335
+    }
+  },
+  "new": {
+    "revision": "4cc16be93821ab77f28079ac22de58baf0f8ddfb",
+    "tree_sha": "99bb835f774213f3ee0a23c0352b2a3046095c1a",
+    "file_count": 2,
+    "bytes": 7618,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01a3a8cd7eac71672e65dfe1de58acb1af55ee92",
+      "sha256": "805d823696ad8cf8f6ea7f78f3ac0de43e9436b1a615474bf2b59cde1984265b",
+      "size": 7618
+    }
+  },
+  "diff_added_lines": 6,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c3651debd3a474a70650b3142fe0537f2f4405f678541584e16acdfabd7773c9"
+}

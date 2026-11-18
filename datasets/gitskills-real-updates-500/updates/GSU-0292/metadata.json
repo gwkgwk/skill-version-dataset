@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0292",
+  "repo_full_name": "borb-sh/quillmark",
+  "skill_path": ".claude/skills/dense-prose/SKILL.md",
+  "skill_directory": ".claude/skills/dense-prose",
+  "old_revision": "567446a1615f049aed8656ff381d33a3a2b2d094",
+  "new_revision": "abe7add62938d2a8611e11d23ca505d729813ccd",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-29T20:46:53Z",
+  "new_commit_message": "docs: fold prune-evolutionary-info into dense-prose",
+  "commit_url": "https://github.com/borb-sh/quillmark/commit/abe7add62938d2a8611e11d23ca505d729813ccd",
+  "compare_url": "https://github.com/borb-sh/quillmark/compare/567446a1615f049aed8656ff381d33a3a2b2d094...abe7add62938d2a8611e11d23ca505d729813ccd",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "borb-sh/quillmark",
+    "path": ".claude/skills/dense-prose/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "011b6e1853adbf0b842dcfecc2a3f197be113b72",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-07-22T22:31:10Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/borb-sh/quillmark/commits?path=.claude%2Fskills%2Fdense-prose%2FSKILL.md&per_page=10&until=2026-07-22T22%3A31%3A11%2B00%3A00",
+  "history_cutoff": "2026-07-22T22:31:11+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0292",
+  "old": {
+    "revision": "567446a1615f049aed8656ff381d33a3a2b2d094",
+    "tree_sha": "47bcaf0ba2f81fbdf5e7755d60bf263635900b17",
+    "file_count": 1,
+    "bytes": 5194,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e4c6e373a5ec7e031c90728d486572ec9f6006ff",
+      "sha256": "7ab06bddf088f9b524eb03eac515f616c5b2d5fd68fc66a55bf0681e2d8372a1",
+      "size": 5194
+    }
+  },
+  "new": {
+    "revision": "abe7add62938d2a8611e11d23ca505d729813ccd",
+    "tree_sha": "f7d4d94341cebbd50ecfa158bf1ad98de7944a4b",
+    "file_count": 1,
+    "bytes": 6915,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "011b6e1853adbf0b842dcfecc2a3f197be113b72",
+      "sha256": "fe1d0bad6fca431cfa27b887bf984c0442abe5f2821af6b978c12933d6422c28",
+      "size": 6915
+    }
+  },
+  "diff_added_lines": 43,
+  "diff_deleted_lines": 16,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "ffefa1a29b0f41199c7593eef1d8935c18219bee81021e430f0f54d96aa3ad31"
+}

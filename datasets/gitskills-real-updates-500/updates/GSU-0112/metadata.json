@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0112",
+  "repo_full_name": "zm2231/personal-os-cowork",
+  "skill_path": ".claude/skills/documentation-generator/SKILL.md",
+  "skill_directory": ".claude/skills/documentation-generator",
+  "old_revision": "f1fbc3c4e74c4bf23444a0e2b81a94dbd6e0b833",
+  "new_revision": "1bd8b1d006bdc4d5c317f6712a9b904f6d08bc54",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-09T21:22:49Z",
+  "new_commit_message": "Strip session unlock language from 39 skills, fix skill count to 83",
+  "commit_url": "https://github.com/zm2231/personal-os-cowork/commit/1bd8b1d006bdc4d5c317f6712a9b904f6d08bc54",
+  "compare_url": "https://github.com/zm2231/personal-os-cowork/compare/f1fbc3c4e74c4bf23444a0e2b81a94dbd6e0b833...1bd8b1d006bdc4d5c317f6712a9b904f6d08bc54",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "zm2231/personal-os-cowork",
+    "path": ".claude/skills/documentation-generator/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "012fe33f045457f79c8d9c3c2c0ca4abdfd6847d",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-09T21:22:49Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/zm2231/personal-os-cowork/commits?path=.claude%2Fskills%2Fdocumentation-generator%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0112",
+  "old": {
+    "revision": "f1fbc3c4e74c4bf23444a0e2b81a94dbd6e0b833",
+    "tree_sha": "88a8a4ae9a34f66cefc9e09d3822b77c8c7bdf93",
+    "file_count": 1,
+    "bytes": 20158,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c9d345af490de07534ef219512e7659d3edd900c",
+      "sha256": "7fdd187f241ae4db6f7a7bb74be9696c00c7831c5b50aba38888b44e9fb9e3f3",
+      "size": 20158
+    }
+  },
+  "new": {
+    "revision": "1bd8b1d006bdc4d5c317f6712a9b904f6d08bc54",
+    "tree_sha": "94f3d1af74bf274d523bf77864e1f42b90949960",
+    "file_count": 1,
+    "bytes": 20116,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "012fe33f045457f79c8d9c3c2c0ca4abdfd6847d",
+      "sha256": "19ae7d502aac0d97956ea012b8f761ed7e2786a50e3e28b382154e82d4e22af8",
+      "size": 20116
+    }
+  },
+  "diff_added_lines": 3,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "bc484ece7e21526819d5d0759cad86eab6b03b899d24dcc2e9eecbcf737aa5f1"
+}

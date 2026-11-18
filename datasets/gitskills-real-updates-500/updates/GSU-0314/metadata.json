@@ -1,0 +1,76 @@
+{
+  "id": "GSU-0314",
+  "repo_full_name": "tobiwan88/weather-station",
+  "skill_path": ".claude/skills/adr/SKILL.md",
+  "skill_directory": ".claude/skills/adr",
+  "old_revision": "b6e745b2d21a4817d23baadc588e49fc5e168655",
+  "new_revision": "ee372f2afb7319ee46425141d6ab85fd838e86b2",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-25T19:30:41Z",
+  "new_commit_message": "docs(skills): improve all 13 local skills based on best-practices review",
+  "commit_url": "https://github.com/tobiwan88/weather-station/commit/ee372f2afb7319ee46425141d6ab85fd838e86b2",
+  "compare_url": "https://github.com/tobiwan88/weather-station/compare/b6e745b2d21a4817d23baadc588e49fc5e168655...ee372f2afb7319ee46425141d6ab85fd838e86b2",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "tobiwan88/weather-station",
+    "path": ".claude/skills/adr/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "019f0fd15e57ec898ce283cd88099027f7d6530d",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-25T19:22:14Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 2034,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/tobiwan88/weather-station/commits?path=.claude%2Fskills%2Fadr%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0314",
+  "old": {
+    "revision": "b6e745b2d21a4817d23baadc588e49fc5e168655",
+    "tree_sha": "2e0d372e4b94f22272d50549f293f8f2fbd82016",
+    "file_count": 1,
+    "bytes": 7288,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "79bbaeae52f4fda034f40453bc3c12a078ecab43",
+      "sha256": "589a2a95a2b200e2bd5f569fbdb679413c18deb89092d5ffd8956047faee6ad7",
+      "size": 7288
+    }
+  },
+  "new": {
+    "revision": "ee372f2afb7319ee46425141d6ab85fd838e86b2",
+    "tree_sha": "95e6acebcadf5c8baeda783806f6b2d0e2c781d4",
+    "file_count": 2,
+    "bytes": 9763,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "019f0fd15e57ec898ce283cd88099027f7d6530d",
+      "sha256": "927cea5e0b80421657540a15085dfb37a5274f08d606136d05872afdeda9d7bb",
+      "size": 7729
+    }
+  },
+  "diff_added_lines": 39,
+  "diff_deleted_lines": 60,
+  "changed_files": {
+    "added": [
+      "references/adr-template.md"
+    ],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "60d25dcb494a278495f0887f3d2496d7f46c9843c246a61900dd3b467431e605"
+}

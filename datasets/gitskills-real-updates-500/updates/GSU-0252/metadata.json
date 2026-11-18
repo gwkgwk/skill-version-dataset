@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0252",
+  "repo_full_name": "zhongerxin/Cowart",
+  "skill_path": "skills/cowart-open-canvas/SKILL.md",
+  "skill_directory": "skills/cowart-open-canvas",
+  "old_revision": "c3c00ecb656bd13100fffdf3933596a74b701f0e",
+  "new_revision": "86c2ac81853be70ea49f55bd7856a458a84706bd",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-03T08:31:10Z",
+  "new_commit_message": "feat(cowart): 重构为Codex原生MCP widget，移除本地服务依赖",
+  "commit_url": "https://github.com/zhongerxin/Cowart/commit/86c2ac81853be70ea49f55bd7856a458a84706bd",
+  "compare_url": "https://github.com/zhongerxin/Cowart/compare/c3c00ecb656bd13100fffdf3933596a74b701f0e...86c2ac81853be70ea49f55bd7856a458a84706bd",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "zhongerxin/Cowart",
+    "path": "skills/cowart-open-canvas/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "016b9734dd40d475389d0b3e4cc8b8dc8dd2aa30",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-07-03T08:31:10Z",
+    "commit_count": 4,
+    "sibling_count": 1,
+    "sibling_bytes": 204,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/zhongerxin/Cowart/commits?path=skills%2Fcowart-open-canvas%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0252",
+  "old": {
+    "revision": "c3c00ecb656bd13100fffdf3933596a74b701f0e",
+    "tree_sha": "ec6ea2154b2aac0f0aeae026354b307dd043c615",
+    "file_count": 2,
+    "bytes": 3682,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "23fc8d3e554b5b98d2cfe4a6a2c418795a629c31",
+      "sha256": "75f86094b10c99da80d22edc4e25b689fb58fb1ba764d8c85055644bb2eb59c6",
+      "size": 3492
+    }
+  },
+  "new": {
+    "revision": "86c2ac81853be70ea49f55bd7856a458a84706bd",
+    "tree_sha": "d9c20f6963a5509f3a8dc227ac45bbc15ac581e6",
+    "file_count": 2,
+    "bytes": 1713,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "016b9734dd40d475389d0b3e4cc8b8dc8dd2aa30",
+      "sha256": "0eb5f438acedc5655839d053911dd6ba8bca4abb0359ba96d5009608fb55e9be",
+      "size": 1509
+    }
+  },
+  "diff_added_lines": 13,
+  "diff_deleted_lines": 46,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "agents/openai.yaml"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c54e819490a31708ce94c4a003f2757528dc65d0748211e3382518264850c33c"
+}

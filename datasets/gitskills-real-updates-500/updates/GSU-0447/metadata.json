@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0447",
+  "repo_full_name": "fardavide/Aura",
+  "skill_path": ".claude/skills/architecture/SKILL.md",
+  "skill_directory": ".claude/skills/architecture",
+  "old_revision": "3fb2d3d073a3a104080668bc6e7dc073a196dff2",
+  "new_revision": "0cd1e9fa405dbcf63a90069bd6b15ef2c7fde80f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-06T13:21:47Z",
+  "new_commit_message": "Docs: repo-per-entity + observed-preferences rules; record camera-order decision",
+  "commit_url": "https://github.com/fardavide/Aura/commit/0cd1e9fa405dbcf63a90069bd6b15ef2c7fde80f",
+  "compare_url": "https://github.com/fardavide/Aura/compare/3fb2d3d073a3a104080668bc6e7dc073a196dff2...0cd1e9fa405dbcf63a90069bd6b15ef2c7fde80f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "fardavide/Aura",
+    "path": ".claude/skills/architecture/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01182873c87b9fd7244d690595282381c071f977",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-04T15:30:33Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/fardavide/Aura/commits?path=.claude%2Fskills%2Farchitecture%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0447",
+  "old": {
+    "revision": "3fb2d3d073a3a104080668bc6e7dc073a196dff2",
+    "tree_sha": "5faa8ea891708f2ee230c2a860cfd7727a80d7f6",
+    "file_count": 1,
+    "bytes": 6189,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "7d4bdb2fe1ae82780d4157ba4666ba8b118fea14",
+      "sha256": "89cf5649401a6e711d2cb64caca94f9fe55fbc333a99e09e9546050f39fb1552",
+      "size": 6189
+    }
+  },
+  "new": {
+    "revision": "0cd1e9fa405dbcf63a90069bd6b15ef2c7fde80f",
+    "tree_sha": "6043373a3fbd0c85779dfd29fdae775e65d857c5",
+    "file_count": 1,
+    "bytes": 7374,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01182873c87b9fd7244d690595282381c071f977",
+      "sha256": "89c40173304646b8ba311f8012c1e4a55706580f2e2377ca14144cde3a7eef1d",
+      "size": 7374
+    }
+  },
+  "diff_added_lines": 20,
+  "diff_deleted_lines": 6,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "12d9f771718d52c0ede1c2ba39a8de99bc24b822968fe559cc783f7defd4bd02"
+}

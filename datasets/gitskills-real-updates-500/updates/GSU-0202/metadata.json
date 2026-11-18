@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0202",
+  "repo_full_name": "RelevanceAI/relevance-builder-kit",
+  "skill_path": ".claude/skills/eval/SKILL.md",
+  "skill_directory": ".claude/skills/eval",
+  "old_revision": "52ee6648db2ffc86e7af3005a8d18cb6fedfa821",
+  "new_revision": "dcf4426ad89af5adc269d2684b1ee2882cfa2113",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-04T05:07:22Z",
+  "new_commit_message": "docs(improve): gate eval auto-fix on failed_runs being zero",
+  "commit_url": "https://github.com/RelevanceAI/relevance-builder-kit/commit/dcf4426ad89af5adc269d2684b1ee2882cfa2113",
+  "compare_url": "https://github.com/RelevanceAI/relevance-builder-kit/compare/52ee6648db2ffc86e7af3005a8d18cb6fedfa821...dcf4426ad89af5adc269d2684b1ee2882cfa2113",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "RelevanceAI/relevance-builder-kit",
+    "path": ".claude/skills/eval/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "003d8229f7a6ecf4b7ea72fdf7378b3f09d781bc",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-04T05:07:22Z",
+    "commit_count": 5,
+    "sibling_count": 3,
+    "sibling_bytes": 12219,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/RelevanceAI/relevance-builder-kit/commits?path=.claude%2Fskills%2Feval%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0202",
+  "old": {
+    "revision": "52ee6648db2ffc86e7af3005a8d18cb6fedfa821",
+    "tree_sha": "d4454843a883499e7a59df0367ea87964519cdda",
+    "file_count": 4,
+    "bytes": 37346,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "ab22b98d55fee2f6066f1f964cb9f47e6610b00b",
+      "sha256": "2d01db7333be771ff2fcc960cf1cd429998b402a3f48aa5594beeeb90b8d6214",
+      "size": 25127
+    }
+  },
+  "new": {
+    "revision": "dcf4426ad89af5adc269d2684b1ee2882cfa2113",
+    "tree_sha": "cab7e047e0c3719fbc8412152284b7abcad2fc12",
+    "file_count": 4,
+    "bytes": 38183,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "003d8229f7a6ecf4b7ea72fdf7378b3f09d781bc",
+      "sha256": "7fc54a0c49847845be1470ad2235d9a56406c3ba1f5d96f793fc0aff9aa20a4b",
+      "size": 25964
+    }
+  },
+  "diff_added_lines": 7,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "bee8de7e27b26af390b5d4d954c6ec12a2c39d91517adf75140d492c7d23a1fb"
+}

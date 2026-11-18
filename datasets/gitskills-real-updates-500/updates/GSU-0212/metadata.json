@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0212",
+  "repo_full_name": "omaclaren/agent-skills-public",
+  "skill_path": "skills/annotated-reply-skill/SKILL.md",
+  "skill_directory": "skills/annotated-reply-skill",
+  "old_revision": "56987463ebcbfcee213b5ad66b07159afa73d2e4",
+  "new_revision": "5a7f4410414e742bdd9b5b21fba693d33e818c3f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-05T10:44:21Z",
+  "new_commit_message": "Sync public skills from private repo",
+  "commit_url": "https://github.com/omaclaren/agent-skills-public/commit/5a7f4410414e742bdd9b5b21fba693d33e818c3f",
+  "compare_url": "https://github.com/omaclaren/agent-skills-public/compare/56987463ebcbfcee213b5ad66b07159afa73d2e4...5a7f4410414e742bdd9b5b21fba693d33e818c3f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "omaclaren/agent-skills-public",
+    "path": "skills/annotated-reply-skill/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "0023206723c72d1d440727429f46cdc0e55c7c92",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-05T10:44:21Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/omaclaren/agent-skills-public/commits?path=skills%2Fannotated-reply-skill%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0212",
+  "old": {
+    "revision": "56987463ebcbfcee213b5ad66b07159afa73d2e4",
+    "tree_sha": "7b9675ba0f3ebb35d1f3d738244d70e017b6e24b",
+    "file_count": 1,
+    "bytes": 1671,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "fe961498ffc47855505c8eb40662d1bf30051b02",
+      "sha256": "1cfcb2ce4f529ad88ce047d3451618dacffbec6d8333526c205638c878be96bf",
+      "size": 1671
+    }
+  },
+  "new": {
+    "revision": "5a7f4410414e742bdd9b5b21fba693d33e818c3f",
+    "tree_sha": "ca5960aa964ff1c4a2f97cf2ee161cff260b005b",
+    "file_count": 1,
+    "bytes": 1800,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0023206723c72d1d440727429f46cdc0e55c7c92",
+      "sha256": "a43733b9b315a1b634f1868b1336472b6719875a5f00279fcacadf8d8cac9df8",
+      "size": 1800
+    }
+  },
+  "diff_added_lines": 3,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "b7e882b756170b0b9b15c57992164d0eb80389400d6f9c6be6dde8563334ed26"
+}

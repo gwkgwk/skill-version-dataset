@@ -1,0 +1,68 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index f117947..0107214 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -66,7 +66,24 @@ Step 0 단계에서 **같은 workspace / projectId / 제품 맥락** 을 공유
+ 
+ ## 절차
+ 
+-### Step 0: Vault 경로 확인 + 과거 이슈 맥락 수집 (MUST)
++### Step 0: 스킬 진입 즉시 실행 — cmux 워크스페이스 갱신 + Vault 경로 + 과거 이슈 (MUST)
++
++#### 0.0 cmux 워크스페이스 이름·설명 갱신 (MUST — 스킬 진입 즉시, 다른 어떤 단계보다 먼저)
++
++> **이 스킬을 호출받자마자 가장 먼저 실행한다.** Vault 경로 확인·과거 이슈 grep·S3 수집보다 앞선다. cmux 세션 외부면 오류 없이 skip 하므로 항상 무조건 시도한다.
++
++```bash
++# cmux 세션 여부 확인 후 즉시 갱신
++if [ -n "$CMUX_WORKSPACE_ID" ]; then
++  cmux workspace-action --action rename --title "AOP-XXX"
++  cmux workspace-action --action set-description --description "지라 티켓 summary"
++fi
++```
++
++- 워크스페이스 **이름**: 티켓 ID (`AOP-XXX`) — 대문자 고정
++- 워크스페이스 **설명**: 지라 티켓의 `summary` 필드 (제목 그대로)
++- cmux 세션이 아니면 (`CMUX_WORKSPACE_ID` 미설정) skip — 오류 아님
++- 티켓 ID·제목을 아직 모르면 `atlassian_getJiraIssue` 호출을 **이 단계 직전에 1회 수행** 해서 확보한 뒤 갱신 (이후 Step 2.1 의 전체 JSON 덤프와 별개로 진행해도 무방)
+ 
+ #### 0.1 Vault 경로
+ `obsidian-fs_list_allowed_directories`를 호출하여 Vault 루트 경로를 확인한다.
+@@ -98,24 +115,6 @@ done
+ 
+ **이 단계 없이 Step 2 진입 금지.**
+ 
+-### Step 0.3: cmux 워크스페이스 업데이트 (CMUX 세션일 때)
+-
+-`$CMUX_WORKSPACE_ID` 환경변수가 설정되어 있으면(= cmux 내부 세션) 분석 대상 티켓 정보로 워크스페이스를 업데이트한다.
+-
+-```bash
+-# cmux 세션 여부 확인
+-if [ -n "$CMUX_WORKSPACE_ID" ]; then
+-  # 워크스페이스 이름 → 티켓 ID (예: AOP-247)
+-  cmux workspace-action --action rename --title "AOP-XXX"
+-  # 워크스페이스 설명 → 티켓 제목 (Jira summary)
+-  cmux workspace-action --action set-description --description "티켓 제목"
+-fi
+-```
+-
+-- 워크스페이스 **이름**: 티켓 ID (`AOP-XXX`)
+-- 워크스페이스 **설명**: 지라 티켓의 `summary` 필드 (제목)
+-- cmux 세션이 아니면 이 단계를 건너뛴다 (오류 없이 skip)
+-
+ ### Step 1: 폴더 생성
+ 
+ 첫 분석 시 아래 구조를 **반드시 모두** 생성한다.
+@@ -431,6 +430,12 @@ bash ~/.claude/skills/jira-issue-documentation/scripts/verify-step2-completion.s
+ 
+ ## 체크리스트 (분석 문서 완성 전 최종 확인)
+ 
++### Step 0 진입 게이트 (MANDATORY — 다른 단계보다 먼저)
++
++- [ ] (cmux 세션) 워크스페이스 이름이 `AOP-XXX` 로 갱신됨 (`cmux workspace-action --action rename`)
++- [ ] (cmux 세션) 워크스페이스 설명이 지라 티켓 `summary` 로 갱신됨 (`cmux workspace-action --action set-description`)
++- [ ] (cmux 세션 아님) `$CMUX_WORKSPACE_ID` 미설정 확인 후 skip 처리
++
+ ### Step 2 수집 게이트 (MANDATORY — 모든 항목 ✅ 되어야 Step 3 진입 가능)
+ 
+ - [ ] `raw/jira-ticket.json` 존재 (> 1KB)

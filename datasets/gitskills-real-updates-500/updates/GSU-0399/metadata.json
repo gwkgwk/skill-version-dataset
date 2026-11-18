@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0399",
+  "repo_full_name": "marketcalls/vectorbt-backtesting-skills",
+  "skill_path": ".claude/skills/backtest/SKILL.md",
+  "skill_directory": ".claude/skills/backtest",
+  "old_revision": "ee0618612107a3e5418c19f39efce262d948dbfc",
+  "new_revision": "9317ef82e9169a8efe6614cd95d3301000a20107",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-12T14:42:34Z",
+  "new_commit_message": "Fix OpenStatz tearsheet not showing the strategy name",
+  "commit_url": "https://github.com/marketcalls/vectorbt-backtesting-skills/commit/9317ef82e9169a8efe6614cd95d3301000a20107",
+  "compare_url": "https://github.com/marketcalls/vectorbt-backtesting-skills/compare/ee0618612107a3e5418c19f39efce262d948dbfc...9317ef82e9169a8efe6614cd95d3301000a20107",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "marketcalls/vectorbt-backtesting-skills",
+    "path": ".claude/skills/backtest/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00da80fbb97b9679cba1aabaf7cbe617f0ccc239",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-12T14:42:34Z",
+    "commit_count": 8,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/marketcalls/vectorbt-backtesting-skills/commits?path=.claude%2Fskills%2Fbacktest%2FSKILL.md&per_page=10&until=2026-07-12T14%3A42%3A35%2B00%3A00",
+  "history_cutoff": "2026-07-12T14:42:35+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0399",
+  "old": {
+    "revision": "ee0618612107a3e5418c19f39efce262d948dbfc",
+    "tree_sha": "324f114ca16511aa6cde8066b0965a5f6319921c",
+    "file_count": 1,
+    "bytes": 4339,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "351d4719d10bf46eeb8ae8be3b5fdc1e5276a227",
+      "sha256": "696392d57aa1ce57a1b6def87b7448e488859e54b8b52f3cbc1cc69db29bbce9",
+      "size": 4339
+    }
+  },
+  "new": {
+    "revision": "9317ef82e9169a8efe6614cd95d3301000a20107",
+    "tree_sha": "c8a526ba5327b74063f7b9034091865718d031dd",
+    "file_count": 1,
+    "bytes": 4600,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00da80fbb97b9679cba1aabaf7cbe617f0ccc239",
+      "sha256": "76332a25da9872fd2f7f4bd67443c46d0bd8474e79f3fee19f63945d6d140763",
+      "size": 4600
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "3ca9a2a50508b707bb6113929b8806b277f05d3b9ccc4446db13dd517750ed40"
+}

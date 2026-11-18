@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0379",
+  "repo_full_name": "ishkamiel/ishlib",
+  "skill_path": ".claude/skills/add-python-command/SKILL.md",
+  "skill_directory": ".claude/skills/add-python-command",
+  "old_revision": "0288d1190178f7bd83cb97f4744185cf106e55b3",
+  "new_revision": "bbcccd7a8d2af225e52f350ca0770c3de4f3a379",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-19T11:28:18Z",
+  "new_commit_message": "Add tool registry and fix git tests (#81)",
+  "commit_url": "https://github.com/ishkamiel/ishlib/commit/bbcccd7a8d2af225e52f350ca0770c3de4f3a379",
+  "compare_url": "https://github.com/ishkamiel/ishlib/compare/0288d1190178f7bd83cb97f4744185cf106e55b3...bbcccd7a8d2af225e52f350ca0770c3de4f3a379",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ishkamiel/ishlib",
+    "path": ".claude/skills/add-python-command/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "002049b99d5320b8ebb11ec1af8009835bc5a796",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-04-19T11:28:18Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/ishkamiel/ishlib/commits?path=.claude%2Fskills%2Fadd-python-command%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0379",
+  "old": {
+    "revision": "0288d1190178f7bd83cb97f4744185cf106e55b3",
+    "tree_sha": "073dff62cf25e4c3013f976001a4e71e0cc3e0a4",
+    "file_count": 1,
+    "bytes": 4949,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "b55bec2c4bab9bb274c806ede518d18a9bb1a439",
+      "sha256": "d7c5c5616b199e83cf73f0059e824991449a6c00381b157e669104feec4f854c",
+      "size": 4949
+    }
+  },
+  "new": {
+    "revision": "bbcccd7a8d2af225e52f350ca0770c3de4f3a379",
+    "tree_sha": "dcff92bb29cd3f1bf63d22940bb8f1c5f2dc1239",
+    "file_count": 1,
+    "bytes": 5429,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "002049b99d5320b8ebb11ec1af8009835bc5a796",
+      "sha256": "e08615ebc300a19ba2dc936a26d7118e1ab3ac1c0b766c5cedaf1c63c489a9d4",
+      "size": 5429
+    }
+  },
+  "diff_added_lines": 8,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "6278cefc90c4773120c1616c914471fbe72f0813ea77bfe8b412c593510323bb"
+}

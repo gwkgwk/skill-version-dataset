@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0051",
+  "repo_full_name": "stanislavjiricek/neuroflow",
+  "skill_path": "skills/phase-tool-validate/SKILL.md",
+  "skill_directory": "skills/phase-tool-validate",
+  "old_revision": "c29f683c46278c5ae80adfac75fc16654e468b23",
+  "new_revision": "fd7d9e2110e4e8471bdf3a326ee75cb5aefa1145",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-11T20:51:38Z",
+  "new_commit_message": "feat: add slash command availability to all skills for workflow consistency",
+  "commit_url": "https://github.com/stanislavjiricek/neuroflow/commit/fd7d9e2110e4e8471bdf3a326ee75cb5aefa1145",
+  "compare_url": "https://github.com/stanislavjiricek/neuroflow/compare/c29f683c46278c5ae80adfac75fc16654e468b23...fd7d9e2110e4e8471bdf3a326ee75cb5aefa1145",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "stanislavjiricek/neuroflow",
+    "path": "skills/phase-tool-validate/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00d068e47ebcd7d511d19ee079f65efc8665a1f2",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-11T20:51:38Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/stanislavjiricek/neuroflow/commits?path=skills%2Fphase-tool-validate%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0051",
+  "old": {
+    "revision": "c29f683c46278c5ae80adfac75fc16654e468b23",
+    "tree_sha": "10a30fd71a77cef8344ac9d69a0f523999b9e126",
+    "file_count": 1,
+    "bytes": 1207,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "82fc89c5bcdf79041889288b972399d1716dbabb",
+      "sha256": "416496314dd5e47f420128dfbc8e43f95348b4ccd1a9c7ff9d9befc871f2aa3e",
+      "size": 1207
+    }
+  },
+  "new": {
+    "revision": "fd7d9e2110e4e8471bdf3a326ee75cb5aefa1145",
+    "tree_sha": "41dd0c045d61980455441374e6a0aeb833eb8be9",
+    "file_count": 1,
+    "bytes": 1296,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00d068e47ebcd7d511d19ee079f65efc8665a1f2",
+      "sha256": "522a241909982956078e9478ffb7a954025edca90b6aeb67cba3dd3c7d4f3cf9",
+      "size": 1296
+    }
+  },
+  "diff_added_lines": 4,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "503ea33b49ab66e349c6991012f08cf34be3aab6940d071ad9ea759888ee7dce"
+}

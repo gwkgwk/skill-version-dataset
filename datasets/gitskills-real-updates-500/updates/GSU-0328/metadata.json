@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0328",
+  "repo_full_name": "bniceley50/GravenSpire",
+  "skill_path": ".claude/skills/skill-improve/SKILL.md",
+  "skill_directory": ".claude/skills/skill-improve",
+  "old_revision": "ce634c360b70b5d2e7ba620a6710940285a1a694",
+  "new_revision": "32e13a65e20ae767dcde4c4f117538ff2c733ec1",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-24T02:42:09Z",
+  "new_commit_message": "Rewrite Claude Code skill workflows",
+  "commit_url": "https://github.com/bniceley50/GravenSpire/commit/32e13a65e20ae767dcde4c4f117538ff2c733ec1",
+  "compare_url": "https://github.com/bniceley50/GravenSpire/compare/ce634c360b70b5d2e7ba620a6710940285a1a694...32e13a65e20ae767dcde4c4f117538ff2c733ec1",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "bniceley50/GravenSpire",
+    "path": ".claude/skills/skill-improve/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "019b272374484824de18dae6dd9d26e66ae516a1",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-04-24T02:42:09Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/bniceley50/GravenSpire/commits?path=.claude%2Fskills%2Fskill-improve%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0328",
+  "old": {
+    "revision": "ce634c360b70b5d2e7ba620a6710940285a1a694",
+    "tree_sha": "7b1b99104392d9adede0fd688a9d83ba986632ee",
+    "file_count": 1,
+    "bytes": 4704,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "340aee41ed3777c13b65b716436b42e8fbf27845",
+      "sha256": "2f869c139b169332cb9c678a09130758ee85086b5fe16256b98daf18e274cc46",
+      "size": 4704
+    }
+  },
+  "new": {
+    "revision": "32e13a65e20ae767dcde4c4f117538ff2c733ec1",
+    "tree_sha": "b0a3be9800a23c4ce91b948bbe17dd8a636d27c2",
+    "file_count": 1,
+    "bytes": 6200,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "019b272374484824de18dae6dd9d26e66ae516a1",
+      "sha256": "0bc78ab1d58ce006e35aeb2fcf9ce40a23e15b9a454aa81ddbb7cf5a1b5736d8",
+      "size": 6200
+    }
+  },
+  "diff_added_lines": 85,
+  "diff_deleted_lines": 87,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0bdb254738c1d3842fd6794808548d1643cce1ea87557f953579e0b6ac450cc1"
+}

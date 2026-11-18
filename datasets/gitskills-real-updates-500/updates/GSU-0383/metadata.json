@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0383",
+  "repo_full_name": "masharratt/claude-flow-novice",
+  "skill_path": ".claude/skills/cfn-vote-implement/SKILL.md",
+  "skill_directory": ".claude/skills/cfn-vote-implement",
+  "old_revision": "2465b1ad38070a80daf6a55fb9e063f0b9b12d07",
+  "new_revision": "1391f0db6f931570b7b073744e547295067236e0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-29T05:11:32Z",
+  "new_commit_message": "feat(gates): add perf + a11y merge gates, runtime monitor, tech-debt loop",
+  "commit_url": "https://github.com/masharratt/claude-flow-novice/commit/1391f0db6f931570b7b073744e547295067236e0",
+  "compare_url": "https://github.com/masharratt/claude-flow-novice/compare/2465b1ad38070a80daf6a55fb9e063f0b9b12d07...1391f0db6f931570b7b073744e547295067236e0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "masharratt/claude-flow-novice",
+    "path": ".claude/skills/cfn-vote-implement/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01660f2b378c0ad9306373ea718452c2cc67df71",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-06-29T05:11:32Z",
+    "commit_count": 8,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/masharratt/claude-flow-novice/commits?path=.claude%2Fskills%2Fcfn-vote-implement%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0383",
+  "old": {
+    "revision": "2465b1ad38070a80daf6a55fb9e063f0b9b12d07",
+    "tree_sha": "0753b05bb2182eff5c6c45903a984655af289011",
+    "file_count": 1,
+    "bytes": 6327,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "29128547ecd4119e28d61f56fc7991e90ecfe2d9",
+      "sha256": "903f482093c9125a7647919afc309268d3e569ad3c437af9dcea784b780c0d18",
+      "size": 6327
+    }
+  },
+  "new": {
+    "revision": "1391f0db6f931570b7b073744e547295067236e0",
+    "tree_sha": "e93ea528731d0288ab643be9f05ae6a4545987e3",
+    "file_count": 1,
+    "bytes": 6467,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01660f2b378c0ad9306373ea718452c2cc67df71",
+      "sha256": "f2c45a85ef4a13c5ed608c25397ea08a45696bf27c5e7d50d222944d64798b32",
+      "size": 6467
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "fce5f84d7904f5e3eaddf232758fed4c5cd92c4119c7027e4e880dd9d8e2249a"
+}

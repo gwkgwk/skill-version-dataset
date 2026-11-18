@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0132",
+  "repo_full_name": "Sheep1433/Noesis",
+  "skill_path": "extensions/skills/deep-research-v2/SKILL.md",
+  "skill_directory": "extensions/skills/deep-research-v2",
+  "old_revision": "f9f056265f8610c295c372cacb25ab4e8848f9f7",
+  "new_revision": "197a7e6eb66312a46cb012ec7133e32d468a5306",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-26T06:11:04Z",
+  "new_commit_message": "refactor(agent): 双 route Skills 与 PrefixBackend，整理评测与 skills 维护",
+  "commit_url": "https://github.com/Sheep1433/Noesis/commit/197a7e6eb66312a46cb012ec7133e32d468a5306",
+  "compare_url": "https://github.com/Sheep1433/Noesis/compare/f9f056265f8610c295c372cacb25ab4e8848f9f7...197a7e6eb66312a46cb012ec7133e32d468a5306",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Sheep1433/Noesis",
+    "path": "extensions/skills/deep-research-v2/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "010297afc04664040590af931fba6074f05d7d93",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-06-26T06:11:04Z",
+    "commit_count": 3,
+    "sibling_count": 7,
+    "sibling_bytes": 15910,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/Sheep1433/Noesis/commits?path=extensions%2Fskills%2Fdeep-research-v2%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0132",
+  "old": {
+    "revision": "f9f056265f8610c295c372cacb25ab4e8848f9f7",
+    "tree_sha": "f6b7e68ff0c75cbf5c3787b7ab7a12947a65648d",
+    "file_count": 8,
+    "bytes": 23491,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8b5be2f2b1d1db544dea04e707c7da323a7ad336",
+      "sha256": "7fa787ffc601f934bac9f25d698b6eae7f5e79dc8debf95b11935f4677d4a4d1",
+      "size": 7581
+    }
+  },
+  "new": {
+    "revision": "197a7e6eb66312a46cb012ec7133e32d468a5306",
+    "tree_sha": "af5a4344d9fc51fe3bb5cf548d0b35d7fb5e7ab2",
+    "file_count": 8,
+    "bytes": 21911,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "010297afc04664040590af931fba6074f05d7d93",
+      "sha256": "e9681d9faf75ff90658aa7add2a25aef434d60c7485d1be76d9e9773218e204a",
+      "size": 6001
+    }
+  },
+  "diff_added_lines": 105,
+  "diff_deleted_lines": 120,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "49dec1e291bb356ad81908c0e50902665a5f539227455f62fb67d4539a24b795"
+}

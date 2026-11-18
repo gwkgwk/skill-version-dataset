@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0176",
+  "repo_full_name": "SensorsIot/Universal-Embedded-Workbench",
+  "skill_path": ".claude/skills/workbench-integration/SKILL.md",
+  "skill_directory": ".claude/skills/workbench-integration",
+  "old_revision": "aca51fb757afe23dc63899898bf3e81705c0bf19",
+  "new_revision": "f341c2f60fbffeedf904d0d4332de07ef717ccc4",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-11T08:11:55Z",
+  "new_commit_message": "fsd-writer: open-ended layers + advise code structure; realign workbench-integration",
+  "commit_url": "https://github.com/SensorsIot/Embedded-AI-Harness/commit/f341c2f60fbffeedf904d0d4332de07ef717ccc4",
+  "compare_url": "https://github.com/SensorsIot/Universal-Embedded-Workbench/compare/aca51fb757afe23dc63899898bf3e81705c0bf19...f341c2f60fbffeedf904d0d4332de07ef717ccc4",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "SensorsIot/Universal-Embedded-Workbench",
+    "path": ".claude/skills/workbench-integration/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01b03be5afded6e31588311b0486cbf22d6fc0d4",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-11T08:11:55Z",
+    "commit_count": 8,
+    "sibling_count": 2,
+    "sibling_bytes": 13377,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/SensorsIot/Universal-Embedded-Workbench/commits?path=.claude%2Fskills%2Fworkbench-integration%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0176",
+  "old": {
+    "revision": "aca51fb757afe23dc63899898bf3e81705c0bf19",
+    "tree_sha": "4380a47a1150394e6051b1fe0736d7d205820f71",
+    "file_count": 3,
+    "bytes": 27274,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "cb493a3d209d57e3816ac97074dec91297d918ef",
+      "sha256": "5c67db0fa4ce4579833a53f4f754f99273e63096ffddd06b61646e694f5df73d",
+      "size": 14189
+    }
+  },
+  "new": {
+    "revision": "f341c2f60fbffeedf904d0d4332de07ef717ccc4",
+    "tree_sha": "f4a02a0fc703bb793d1a6a259d951330439fbc4f",
+    "file_count": 3,
+    "bytes": 27873,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01b03be5afded6e31588311b0486cbf22d6fc0d4",
+      "sha256": "a023bc8f76a29aa2202c443b615f48ff98cf735a789d0f37fe5b5006acf95ee3",
+      "size": 14496
+    }
+  },
+  "diff_added_lines": 36,
+  "diff_deleted_lines": 30,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/fsd-writing-guide.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "8d9a46c06090c373a50a2ecf45b46c168ecc162460a0771b72deab7ed6a3c7c9"
+}

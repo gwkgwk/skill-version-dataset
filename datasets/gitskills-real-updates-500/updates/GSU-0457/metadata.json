@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0457",
+  "repo_full_name": "tanujsutaria/VitalArc",
+  "skill_path": ".claude/skills/vitalarc-start-workstation/SKILL.md",
+  "skill_directory": ".claude/skills/vitalarc-start-workstation",
+  "old_revision": "21641b894928ddbba755abe499fda1d2b14b57f1",
+  "new_revision": "c635e130fbb0b0a020a58632332e0addd7b845c2",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-08T16:19:40Z",
+  "new_commit_message": "chore(infra): harness path-rot + broken-tool fixes + post-nutrition-removal cleanup",
+  "commit_url": "https://github.com/tanujsutaria/VitalArc/commit/c635e130fbb0b0a020a58632332e0addd7b845c2",
+  "compare_url": "https://github.com/tanujsutaria/VitalArc/compare/21641b894928ddbba755abe499fda1d2b14b57f1...c635e130fbb0b0a020a58632332e0addd7b845c2",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "tanujsutaria/VitalArc",
+    "path": ".claude/skills/vitalarc-start-workstation/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0022e5546190847af8c8d9d5d663c80fe2af69d7",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-08T16:19:40Z",
+    "commit_count": 14,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/tanujsutaria/VitalArc/commits?path=.claude%2Fskills%2Fvitalarc-start-workstation%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0457",
+  "old": {
+    "revision": "21641b894928ddbba755abe499fda1d2b14b57f1",
+    "tree_sha": "7f3e97506750137fe1b7f9fa18f8aa6e768228af",
+    "file_count": 1,
+    "bytes": 12558,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d5418f2a35a6397c8f74cf33545babf291bcdd2a",
+      "sha256": "20af79c393375a4d6cec3dc2dc8f56380a3f128215c425ef5a334cdd31768ac6",
+      "size": 12558
+    }
+  },
+  "new": {
+    "revision": "c635e130fbb0b0a020a58632332e0addd7b845c2",
+    "tree_sha": "70873eb5ac0495c38b500c20f18254390ab2bbfe",
+    "file_count": 1,
+    "bytes": 12287,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0022e5546190847af8c8d9d5d663c80fe2af69d7",
+      "sha256": "6bc27592bd0b1f6d181ce810d3cba8d75ad0fefb93a7b48d1d130a60fa5397ee",
+      "size": 12287
+    }
+  },
+  "diff_added_lines": 10,
+  "diff_deleted_lines": 37,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4b724348dc1db4e5cc00b11d8b487588468c4a703f8372dd2bf4f4cd361f7dea"
+}

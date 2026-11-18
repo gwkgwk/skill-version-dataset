@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0227",
+  "repo_full_name": "shawnla90/shawn-gtme-os",
+  "skill_path": ".claude/skills/update-github/SKILL.md",
+  "skill_directory": ".claude/skills/update-github",
+  "old_revision": "9de893c7798be461fdd7ee8efe223b774ccb113c",
+  "new_revision": "2d1d02c07f71faa7527f2f277050ad9de5972d71",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-09T00:57:34Z",
+  "new_commit_message": "chore: sanitize repo for public GitHub + accumulated changes",
+  "commit_url": "https://github.com/shawnla90/shawn-gtme-os/commit/2d1d02c07f71faa7527f2f277050ad9de5972d71",
+  "compare_url": "https://github.com/shawnla90/shawn-gtme-os/compare/9de893c7798be461fdd7ee8efe223b774ccb113c...2d1d02c07f71faa7527f2f277050ad9de5972d71",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "shawnla90/shawn-gtme-os",
+    "path": ".claude/skills/update-github/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0146013a4ddf61f705d4afbcc81b2ad386473da1",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-09T00:57:34Z",
+    "commit_count": 6,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/shawnla90/shawn-gtme-os/commits?path=.claude%2Fskills%2Fupdate-github%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0227",
+  "old": {
+    "revision": "9de893c7798be461fdd7ee8efe223b774ccb113c",
+    "tree_sha": "333a35264dc2426fd06ff835e9de5b9e4fae7598",
+    "file_count": 1,
+    "bytes": 7616,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "19fd209dcc3192562e86c5f9200fba295a8e38ba",
+      "sha256": "9b10721ab45ada7026eb2c011174722aa9613b7c8c7a7a3610dcac49af5809ee",
+      "size": 7616
+    }
+  },
+  "new": {
+    "revision": "2d1d02c07f71faa7527f2f277050ad9de5972d71",
+    "tree_sha": "f93162100fe28a888e96cb19b1701c55eac526a4",
+    "file_count": 1,
+    "bytes": 8233,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0146013a4ddf61f705d4afbcc81b2ad386473da1",
+      "sha256": "5aa3e58313b1701766c61486f14be27ebae0b742da6600acea8c28060f1f6ae7",
+      "size": 8233
+    }
+  },
+  "diff_added_lines": 14,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "1c288af75f666b61debc968cff21c17f897136302887295925022e7c23c4d10b"
+}

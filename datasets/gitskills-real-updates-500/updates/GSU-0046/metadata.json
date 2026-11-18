@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0046",
+  "repo_full_name": "ClickHouse/ClickHouse",
+  "skill_path": ".claude/skills/update-contrib/SKILL.md",
+  "skill_directory": ".claude/skills/update-contrib",
+  "old_revision": "fd73d88b51752f057d671052b5c143f00b554140",
+  "new_revision": "abc4d592a6a19f2637436d300fd553c5b7e14328",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-16T08:49:48Z",
+  "new_commit_message": "Update SKILL.md",
+  "commit_url": "https://github.com/ClickHouse/ClickHouse/commit/abc4d592a6a19f2637436d300fd553c5b7e14328",
+  "compare_url": "https://github.com/ClickHouse/ClickHouse/compare/fd73d88b51752f057d671052b5c143f00b554140...abc4d592a6a19f2637436d300fd553c5b7e14328",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ClickHouse/ClickHouse",
+    "path": ".claude/skills/update-contrib/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00fea6b3389ac3cc76433543e1f6a8c58b0ee9fd",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-16T08:49:48Z",
+    "commit_count": 5,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/ClickHouse/ClickHouse/commits?path=.claude%2Fskills%2Fupdate-contrib%2FSKILL.md&per_page=10&until=2026-07-16T08%3A49%3A49%2B00%3A00",
+  "history_cutoff": "2026-07-16T08:49:49+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0046",
+  "old": {
+    "revision": "fd73d88b51752f057d671052b5c143f00b554140",
+    "tree_sha": "eff4a49a4bf7b5fe90fef4f16b464eb69b22bfc5",
+    "file_count": 1,
+    "bytes": 17135,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c023d6d2fb36f4ca57c70be83560bc4aca091aa3",
+      "sha256": "125743ceb3d1b3627b9879f4c8db1c60b0a10c76cf019e26e768f8391b5858b8",
+      "size": 17135
+    }
+  },
+  "new": {
+    "revision": "abc4d592a6a19f2637436d300fd553c5b7e14328",
+    "tree_sha": "6c94d37215a1345dd812ab6cb95af09af55827a1",
+    "file_count": 1,
+    "bytes": 17106,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00fea6b3389ac3cc76433543e1f6a8c58b0ee9fd",
+      "sha256": "9618bb9c0d0f96457530261579a892b484fb5afa220307f213f68f1b13ca6dc2",
+      "size": 17106
+    }
+  },
+  "diff_added_lines": 0,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "df21dc455947c555231f8ecb4a3ec640ebecdbd447596fc6897f3aa123adfe69"
+}

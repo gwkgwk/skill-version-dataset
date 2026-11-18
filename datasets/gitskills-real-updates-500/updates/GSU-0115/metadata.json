@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0115",
+  "repo_full_name": "ncarsner/agents-and-skills",
+  "skill_path": ".claude/skills/grill-me/SKILL.md",
+  "skill_directory": ".claude/skills/grill-me",
+  "old_revision": "19e16ea3202db4b01d3e7c86410c55fa9ab8391b",
+  "new_revision": "af2f77e1cfa1d6281c051385e72865e4edf2e805",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-10T15:33:36Z",
+  "new_commit_message": "feat(pipeline): add hard gate language to enforce ideate-to-ralph order",
+  "commit_url": "https://github.com/ncarsner/agents-and-skills/commit/af2f77e1cfa1d6281c051385e72865e4edf2e805",
+  "compare_url": "https://github.com/ncarsner/agents-and-skills/compare/19e16ea3202db4b01d3e7c86410c55fa9ab8391b...af2f77e1cfa1d6281c051385e72865e4edf2e805",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ncarsner/agents-and-skills",
+    "path": ".claude/skills/grill-me/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0001e94e098c7b0181ac7c9975a90798be6ec2f9",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-10T15:33:36Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/ncarsner/agents-and-skills/commits?path=.claude%2Fskills%2Fgrill-me%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0115",
+  "old": {
+    "revision": "19e16ea3202db4b01d3e7c86410c55fa9ab8391b",
+    "tree_sha": "69ff6712c5a7c9dbb3ba7de273dcc03d9cbf7373",
+    "file_count": 1,
+    "bytes": 1005,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "3e1153f36c20b642369e2d8bb689c8683747c736",
+      "sha256": "950aa1eebbb4f2309f600e5ffcd6718ab3360556bd14f86211bdd332ed432236",
+      "size": 1005
+    }
+  },
+  "new": {
+    "revision": "af2f77e1cfa1d6281c051385e72865e4edf2e805",
+    "tree_sha": "1225e4a0073f20a324947ff84577e1cdd33b6e3c",
+    "file_count": 1,
+    "bytes": 1140,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0001e94e098c7b0181ac7c9975a90798be6ec2f9",
+      "sha256": "35cc9c0b9c9e793e677666ce13b54c3558f890a75760ccd2914366b97c333b88",
+      "size": 1140
+    }
+  },
+  "diff_added_lines": 4,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "5051d8eb9ab5dd958115d90c09d71629137eae5b1f75b7172833babe47f213a0"
+}

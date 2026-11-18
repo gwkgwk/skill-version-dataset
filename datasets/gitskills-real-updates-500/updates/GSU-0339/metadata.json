@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0339",
+  "repo_full_name": "TheDecipherist/claude-code-mastery-project-starter-kit",
+  "skill_path": ".claude/skills/test-writer/SKILL.md",
+  "skill_directory": ".claude/skills/test-writer",
+  "old_revision": "140bd94ec79f776af21d8a605cdf2d44fcd6bc3b",
+  "new_revision": "4a28bd08182b185df9e15dcd6e83b44e6902f59c",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-27T00:20:16Z",
+  "new_commit_message": "feat(skills): add 14 new skills and document all 25 in README and docs",
+  "commit_url": "https://github.com/TheDecipherist/claude-code-mastery-project-starter-kit/commit/4a28bd08182b185df9e15dcd6e83b44e6902f59c",
+  "compare_url": "https://github.com/TheDecipherist/claude-code-mastery-project-starter-kit/compare/140bd94ec79f776af21d8a605cdf2d44fcd6bc3b...4a28bd08182b185df9e15dcd6e83b44e6902f59c",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "TheDecipherist/claude-code-mastery-project-starter-kit",
+    "path": ".claude/skills/test-writer/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "010c1123e64cfb6aedc6cd149c89e7a4ae4fac52",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-27T00:20:16Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/TheDecipherist/claude-code-mastery-project-starter-kit/commits?path=.claude%2Fskills%2Ftest-writer%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0339",
+  "old": {
+    "revision": "140bd94ec79f776af21d8a605cdf2d44fcd6bc3b",
+    "tree_sha": "dfba56a77dec908e9b0ebaa4ec57e6561837bdf2",
+    "file_count": 1,
+    "bytes": 3059,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "963b0485199932688530935ae44d24de35e9abb6",
+      "sha256": "b6ec19e1ff5be1f6fb5fc98ac57bc3094c5f51d7eef0e563ea67dcab312c55c3",
+      "size": 3059
+    }
+  },
+  "new": {
+    "revision": "4a28bd08182b185df9e15dcd6e83b44e6902f59c",
+    "tree_sha": "888758fed646203f1d20df67af4bdb01ac98dec7",
+    "file_count": 1,
+    "bytes": 3076,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "010c1123e64cfb6aedc6cd149c89e7a4ae4fac52",
+      "sha256": "0a7c9aae4ab0d701ea3f22b67d661e7f9c38b2337751ebbef779d922277958fd",
+      "size": 3076
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9f1b749b406fba4b53c3137ca78112a3c9e071c41f19e9b0af96aa087d62374a"
+}

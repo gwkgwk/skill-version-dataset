@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0009",
+  "repo_full_name": "leptonai/leptonai",
+  "skill_path": "plugins/lepton-cli/skills/lepton-cli/SKILL.md",
+  "skill_directory": "plugins/lepton-cli/skills/lepton-cli",
+  "old_revision": "415365711847c61a49daab90d1e4a0b152f57044",
+  "new_revision": "b22382a36c9bfe6f7c8160755dc57924c9aeb0d6",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-11T02:50:54Z",
+  "new_commit_message": "refactor!: remove KV, Queue, and object storage from CLI, API client, and SDK (#768)",
+  "commit_url": "https://github.com/leptonai/leptonai/commit/b22382a36c9bfe6f7c8160755dc57924c9aeb0d6",
+  "compare_url": "https://github.com/leptonai/leptonai/compare/415365711847c61a49daab90d1e4a0b152f57044...b22382a36c9bfe6f7c8160755dc57924c9aeb0d6",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "leptonai/leptonai",
+    "path": "plugins/lepton-cli/skills/lepton-cli/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "0161f31990e2bb789f65703102d3f94af3853b52",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-06-11T02:50:54Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 4639,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/leptonai/leptonai/commits?path=plugins%2Flepton-cli%2Fskills%2Flepton-cli%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0009",
+  "old": {
+    "revision": "415365711847c61a49daab90d1e4a0b152f57044",
+    "tree_sha": "01091cdc5a2c74dc721d2fdf7aef316533c358bf",
+    "file_count": 2,
+    "bytes": 10753,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c03f1608f42beacf9a636e5c7d97f124e37429fa",
+      "sha256": "d50f549a088089507094e6c4e2922e5cae40ae1763be95f1c6bd3a6287487787",
+      "size": 6114
+    }
+  },
+  "new": {
+    "revision": "b22382a36c9bfe6f7c8160755dc57924c9aeb0d6",
+    "tree_sha": "c6700d572ffb004fa34a352ce8b82a7e77b979df",
+    "file_count": 2,
+    "bytes": 10745,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0161f31990e2bb789f65703102d3f94af3853b52",
+      "sha256": "dd0ec6fb7a9cfbf5568c3b59f5e417941214e8797b730d592e76350ba0f07cc3",
+      "size": 6106
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "610105c7ae6b0cb3686800ebfe6ebcbbe4961eb4e1b7385882f4e9394228bcca"
+}

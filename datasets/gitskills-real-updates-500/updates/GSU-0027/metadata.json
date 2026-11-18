@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0027",
+  "repo_full_name": "javiarmesto/CIRCE-Agent-Squad-for-Microsoft-Copilot-Studio",
+  "skill_path": ".github/skills/chat-with-agent/SKILL.md",
+  "skill_directory": ".github/skills/chat-with-agent",
+  "old_revision": "8a9ca2bcd64f041a48b59ef001f2454cbdd0afd2",
+  "new_revision": "3ced76abfa08d2b9f1167c2ca38db2eac4fb3dfb",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-28T12:15:09Z",
+  "new_commit_message": "fix: Phase 0 corrections + KB quickstart (Phase 2.1)",
+  "commit_url": "https://github.com/javiarmesto/CIRCE-Agent-Squad-for-Microsoft-Copilot-Studio/commit/3ced76abfa08d2b9f1167c2ca38db2eac4fb3dfb",
+  "compare_url": "https://github.com/javiarmesto/CIRCE-Agent-Squad-for-Microsoft-Copilot-Studio/compare/8a9ca2bcd64f041a48b59ef001f2454cbdd0afd2...3ced76abfa08d2b9f1167c2ca38db2eac4fb3dfb",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "javiarmesto/CIRCE-Agent-Squad-for-Microsoft-Copilot-Studio",
+    "path": ".github/skills/chat-with-agent/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00263be0f9132fffc5758b4460c9a7e829b7bfac",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-03-28T12:15:09Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/javiarmesto/CIRCE-Agent-Squad-for-Microsoft-Copilot-Studio/commits?path=.github%2Fskills%2Fchat-with-agent%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0027",
+  "old": {
+    "revision": "8a9ca2bcd64f041a48b59ef001f2454cbdd0afd2",
+    "tree_sha": "811a84812b199ece76b11aa43328f2570ef92b12",
+    "file_count": 1,
+    "bytes": 5950,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "61f86b92a9c4bdc01227ceec620d02e080820a8f",
+      "sha256": "d8ff36dac5c07e11435a4cba7db2e358afd04d2f196ecbba7d9d3c1967f2359c",
+      "size": 5950
+    }
+  },
+  "new": {
+    "revision": "3ced76abfa08d2b9f1167c2ca38db2eac4fb3dfb",
+    "tree_sha": "f7be8c40c13e9b83de886fae374efb74628e8964",
+    "file_count": 1,
+    "bytes": 5896,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00263be0f9132fffc5758b4460c9a7e829b7bfac",
+      "sha256": "d604c466bb4ce615e242edfd53f2084d91839a037c16f887102d298f075c3b13",
+      "size": 5896
+    }
+  },
+  "diff_added_lines": 3,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "08ccc64fdcb4d975bc84fbab5e5575fb100933947c9c9828938d7af7092a5649"
+}

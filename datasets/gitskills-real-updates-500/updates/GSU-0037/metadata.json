@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0037",
+  "repo_full_name": "Hyperxq/modular-frontend-architecture",
+  "skill_path": ".claude/skills/preact/SKILL.md",
+  "skill_directory": ".claude/skills/preact",
+  "old_revision": "954fe2cff816da4460a586b932fefcfafcbd4494",
+  "new_revision": "46a26a7ff54665e287b620b29a500a7e30632062",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-05T10:49:56Z",
+  "new_commit_message": "docs(preact): add critical timing gotcha for refs inside Suspense boundaries",
+  "commit_url": "https://github.com/Hyperxq/modular-frontend-architecture/commit/46a26a7ff54665e287b620b29a500a7e30632062",
+  "compare_url": "https://github.com/Hyperxq/modular-frontend-architecture/compare/954fe2cff816da4460a586b932fefcfafcbd4494...46a26a7ff54665e287b620b29a500a7e30632062",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Hyperxq/modular-frontend-architecture",
+    "path": ".claude/skills/preact/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0036e42946bbd68598ef69da6482b0d0d8fc1af8",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-05T10:49:56Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/Hyperxq/modular-frontend-architecture/commits?path=.claude%2Fskills%2Fpreact%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0037",
+  "old": {
+    "revision": "954fe2cff816da4460a586b932fefcfafcbd4494",
+    "tree_sha": "3105215e0136089f3aa5590a12b432d22e08330c",
+    "file_count": 1,
+    "bytes": 8631,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0129dc2730a1ebe50e3483f11394a03b8a0fa831",
+      "sha256": "d75ed948667990699864730de42d747634e04a4947ddbfe5e4ee55f85f106438",
+      "size": 8631
+    }
+  },
+  "new": {
+    "revision": "46a26a7ff54665e287b620b29a500a7e30632062",
+    "tree_sha": "9260678add1c95f086dbc2c2fdb293d8f34d8f4f",
+    "file_count": 1,
+    "bytes": 10712,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0036e42946bbd68598ef69da6482b0d0d8fc1af8",
+      "sha256": "5173f30dd35d747011194ec53599f8e9e33dd9ca028494bc5d43e70382fc5d42",
+      "size": 10712
+    }
+  },
+  "diff_added_lines": 45,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "41c2f9c020c83b95e082875e2ce947f289a42164774302a279c8a606aafdd18f"
+}

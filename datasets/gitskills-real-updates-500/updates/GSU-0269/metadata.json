@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0269",
+  "repo_full_name": "fusebase-dev/fusebase-cli",
+  "skill_path": "project-template/.claude/skills/api-exploration/SKILL.md",
+  "skill_directory": "project-template/.claude/skills/api-exploration",
+  "old_revision": "305e6717e8af536b08c0567e48e6ec25356a2aec",
+  "new_revision": "49970c5110bebc4d0bfc75bd5016dd0f9a7a7e14",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-20T11:12:50Z",
+  "new_commit_message": "fix: rename x-app-token -> x-app-feature-token back",
+  "commit_url": "https://github.com/fusebase-dev/fusebase-cli/commit/49970c5110bebc4d0bfc75bd5016dd0f9a7a7e14",
+  "compare_url": "https://github.com/fusebase-dev/fusebase-cli/compare/305e6717e8af536b08c0567e48e6ec25356a2aec...49970c5110bebc4d0bfc75bd5016dd0f9a7a7e14",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "fusebase-dev/fusebase-cli",
+    "path": "project-template/.claude/skills/api-exploration/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0125f32ef67957b6e60aa2919149366882ed275d",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-05-20T11:12:50Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/fusebase-dev/fusebase-cli/commits?path=project-template%2F.claude%2Fskills%2Fapi-exploration%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0269",
+  "old": {
+    "revision": "305e6717e8af536b08c0567e48e6ec25356a2aec",
+    "tree_sha": "a2fd1679830663f0d44a7b9e12222903e6db2e2a",
+    "file_count": 1,
+    "bytes": 3105,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "573626778ea8d2165e4b4faaa5596518d3e5a455",
+      "sha256": "a09a398ae0a1e66e07c81183b7eac5b513d3e60b6ebf5044aafc94d7a40e4837",
+      "size": 3105
+    }
+  },
+  "new": {
+    "revision": "49970c5110bebc4d0bfc75bd5016dd0f9a7a7e14",
+    "tree_sha": "5e5c554d2f876316fca03afb1b53f5425269edec",
+    "file_count": 1,
+    "bytes": 3121,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0125f32ef67957b6e60aa2919149366882ed275d",
+      "sha256": "ddcfdd7eb7c04bcfac6025bffbcb25f87e4783e343ef9f1a0400b780544a7629",
+      "size": 3121
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c67b7e38d3ca16a4a16b519992dbe9f63b3b25bb681e9fefa210a09ca9fb1f4d"
+}

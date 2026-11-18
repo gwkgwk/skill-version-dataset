@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0362",
+  "repo_full_name": "rafaelcmm/my-brain",
+  "skill_path": ".claude/skills/my-brain-feedback/SKILL.md",
+  "skill_directory": ".claude/skills/my-brain-feedback",
+  "old_revision": "fe16d2b02371087059f99aee617145107df88dbd",
+  "new_revision": "c24e789e46740373e32756f5b10f0248c8180d92",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-25T02:02:21Z",
+  "new_commit_message": "chore(qa): finalize envelope guidance and postman format",
+  "commit_url": "https://github.com/rafaelcmm/my-brain/commit/c24e789e46740373e32756f5b10f0248c8180d92",
+  "compare_url": "https://github.com/rafaelcmm/my-brain/compare/fe16d2b02371087059f99aee617145107df88dbd...c24e789e46740373e32756f5b10f0248c8180d92",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "rafaelcmm/my-brain",
+    "path": ".claude/skills/my-brain-feedback/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00d7c986adf74e12b46688faed6f33b4473b4dae",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-04-25T02:02:21Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/rafaelcmm/my-brain/commits?path=.claude%2Fskills%2Fmy-brain-feedback%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0362",
+  "old": {
+    "revision": "fe16d2b02371087059f99aee617145107df88dbd",
+    "tree_sha": "49ad64b14de851810bafa3ace5ee927465d33498",
+    "file_count": 1,
+    "bytes": 965,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8b0bd972344e260fbe9107574da75780dfa1d607",
+      "sha256": "90d9372e432b366f7def03e610425875bd50cbb3a66ffd51b85c5d29fcfd0d11",
+      "size": 965
+    }
+  },
+  "new": {
+    "revision": "c24e789e46740373e32756f5b10f0248c8180d92",
+    "tree_sha": "578c70a1e25b55961c72dd17e57ac4a751832be8",
+    "file_count": 1,
+    "bytes": 1025,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00d7c986adf74e12b46688faed6f33b4473b4dae",
+      "sha256": "5c15ad99b19ce20b67413d68c72ef821185076ea2a4cb3f1a8be33fdc13fc6a7",
+      "size": 1025
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c1b15cf0d62d829d7105a916c534d96ca3842ab375dfc946b520f2b55287bd6a"
+}

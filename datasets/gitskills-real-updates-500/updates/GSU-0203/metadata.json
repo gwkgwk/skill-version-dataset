@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0203",
+  "repo_full_name": "aexol-studio/axolotl",
+  "skill_path": "examples/new/.opencode/skills/frontend-navigation/SKILL.md",
+  "skill_directory": "examples/new/.opencode/skills/frontend-navigation",
+  "old_revision": "163e2cf20855a6e6125b12c27f3ac2aeefdfaa5b",
+  "new_revision": "1988dea19ccb9164a4e064a10a6ca7a8c702fc3d",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-03T10:08:00Z",
+  "new_commit_message": "✨ reworked auth system, added e2e tests ( WIP ), added mailgun and togglable mail verify, query keys dict",
+  "commit_url": "https://github.com/aexol-studio/axolotl/commit/1988dea19ccb9164a4e064a10a6ca7a8c702fc3d",
+  "compare_url": "https://github.com/aexol-studio/axolotl/compare/163e2cf20855a6e6125b12c27f3ac2aeefdfaa5b...1988dea19ccb9164a4e064a10a6ca7a8c702fc3d",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "aexol-studio/axolotl",
+    "path": "examples/new/.opencode/skills/frontend-navigation/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00e0e602bf840a04c4edde607491f85adb063710",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-03-03T10:08:00Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/aexol-studio/axolotl/commits?path=examples%2Fnew%2F.opencode%2Fskills%2Ffrontend-navigation%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0203",
+  "old": {
+    "revision": "163e2cf20855a6e6125b12c27f3ac2aeefdfaa5b",
+    "tree_sha": "9f38d0d5b643b52f534e2c3ea1ab6edf26fea32a",
+    "file_count": 1,
+    "bytes": 4835,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "ef287e83b5c2346e09fe9dce5b81ee26462270b0",
+      "sha256": "71103cd4dce6056b0bef47fa283541101b3a1e1190da9a44b1501f64f2f81471",
+      "size": 4835
+    }
+  },
+  "new": {
+    "revision": "1988dea19ccb9164a4e064a10a6ca7a8c702fc3d",
+    "tree_sha": "b48fed4a8efe0b008e08fd523ab92a2f95ffb147",
+    "file_count": 1,
+    "bytes": 6045,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00e0e602bf840a04c4edde607491f85adb063710",
+      "sha256": "1c26d9bb3c699bad461bce656645456937c06c46d6da2d45ea4f2ad70e8ccaab",
+      "size": 6045
+    }
+  },
+  "diff_added_lines": 39,
+  "diff_deleted_lines": 29,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "127e7be31e8889472003ac66f4ecc959365052e1a1137b0a9505faa8775f399d"
+}

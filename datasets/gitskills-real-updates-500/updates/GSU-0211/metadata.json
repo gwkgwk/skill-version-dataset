@@ -1,0 +1,78 @@
+{
+  "id": "GSU-0211",
+  "repo_full_name": "DauQuangThanh/hanoi-rainbow",
+  "skill_path": "skills/database-migration/SKILL.md",
+  "skill_directory": "skills/database-migration",
+  "old_revision": "b9796f0a98020ca19177271ab6a400a44c7bc075",
+  "new_revision": "f7d0b11eddb1cbef43e6752622d3c52e4422862e",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-19T06:58:25Z",
+  "new_commit_message": "fix lint errors",
+  "commit_url": "https://github.com/DauQuangThanh/hanoi-rainbow/commit/f7d0b11eddb1cbef43e6752622d3c52e4422862e",
+  "compare_url": "https://github.com/DauQuangThanh/hanoi-rainbow/compare/b9796f0a98020ca19177271ab6a400a44c7bc075...f7d0b11eddb1cbef43e6752622d3c52e4422862e",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "DauQuangThanh/hanoi-rainbow",
+    "path": "skills/database-migration/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00db94664eb109dfbfeef302a8044c8204d6a6bf",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-01-19T06:58:25Z",
+    "commit_count": 3,
+    "sibling_count": 8,
+    "sibling_bytes": 15598,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/DauQuangThanh/hanoi-rainbow/commits?path=skills%2Fdatabase-migration%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0211",
+  "old": {
+    "revision": "b9796f0a98020ca19177271ab6a400a44c7bc075",
+    "tree_sha": "512ca3b0d43c9a723194a43fa5659fa7a53f06c0",
+    "file_count": 9,
+    "bytes": 23779,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "bdb81d616a13605ed8cd2e5fe4f2cd7c0cf2ed3d",
+      "sha256": "4e10f7e21ba9ca4ace77b29a495835fb2eb991da269410e3a9b70c3ae84b3a3c",
+      "size": 8177
+    }
+  },
+  "new": {
+    "revision": "f7d0b11eddb1cbef43e6752622d3c52e4422862e",
+    "tree_sha": "07c94f264a3109a847dc6c0afc9e56e5ad26bcd1",
+    "file_count": 9,
+    "bytes": 23774,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00db94664eb109dfbfeef302a8044c8204d6a6bf",
+      "sha256": "15172ad7b822b977a586e3d12fd3c190988286ea2830b35115b6001e0e0b8e20",
+      "size": 8176
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/cloud-specific-migrations.md",
+      "references/migration-phases.md",
+      "references/migration-types.md",
+      "references/zero-downtime-migration-strategies.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "b5b43e602bf0b70b2faf16955900e1789a6fed4ab17baaf710eaa916db347b76"
+}

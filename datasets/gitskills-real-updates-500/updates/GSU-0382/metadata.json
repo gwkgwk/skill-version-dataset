@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0382",
+  "repo_full_name": "flight505/code-coach",
+  "skill_path": "skills/suggesting-workflows/SKILL.md",
+  "skill_directory": "skills/suggesting-workflows",
+  "old_revision": "729a7ed2b342f6b47c3824c26017fd9981924245",
+  "new_revision": "59d15f63e8746860afb7f7bcb6a16dff47c3fb12",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-17T21:24:09Z",
+  "new_commit_message": "fix: resolve duplicate commands, argument passthrough, and hardcoded username",
+  "commit_url": "https://github.com/flight505/code-coach/commit/59d15f63e8746860afb7f7bcb6a16dff47c3fb12",
+  "compare_url": "https://github.com/flight505/code-coach/compare/729a7ed2b342f6b47c3824c26017fd9981924245...59d15f63e8746860afb7f7bcb6a16dff47c3fb12",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "flight505/code-coach",
+    "path": "skills/suggesting-workflows/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00fbae53cf441aaf69acec1af56495e0b8d6f21b",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-03-17T21:24:09Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 5043,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/flight505/code-coach/commits?path=skills%2Fsuggesting-workflows%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0382",
+  "old": {
+    "revision": "729a7ed2b342f6b47c3824c26017fd9981924245",
+    "tree_sha": "91f981ccaa44c61333266a797b4596b74cd58656",
+    "file_count": 2,
+    "bytes": 9262,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "a8968889238aae370aaa89aa9cebfe6bb1284de7",
+      "sha256": "d5962f6d08cdc78bb785308c8469733414d2e7625715686b9370437f70b84056",
+      "size": 4219
+    }
+  },
+  "new": {
+    "revision": "59d15f63e8746860afb7f7bcb6a16dff47c3fb12",
+    "tree_sha": "644694366f6b68a6653a7b6a3ea3117c853c69bc",
+    "file_count": 2,
+    "bytes": 9284,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00fbae53cf441aaf69acec1af56495e0b8d6f21b",
+      "sha256": "b20b7f34bc615532f5eea2ac2151161c25c4a682f538cdd538691d7f06264e95",
+      "size": 4241
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "432fdbb75e228c48e00f20f466976cb874f80af3f0ddef48ef767ad659a89316"
+}

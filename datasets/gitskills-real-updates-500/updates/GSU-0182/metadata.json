@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0182",
+  "repo_full_name": "SnowBankSDK/foundationdb-dotnet-client",
+  "skill_path": ".claude/skills/foundationdb-aspire/SKILL.md",
+  "skill_directory": ".claude/skills/foundationdb-aspire",
+  "old_revision": "64a5da9ba708540625a048f8adecab1449b0ccc0",
+  "new_revision": "a9a91bcd2be63f4aef0c710445b2d55c39db8f7b",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-22T11:23:32Z",
+  "new_commit_message": "Doc: aspire version guidance, plugin navigation, and two thinly-described skills",
+  "commit_url": "https://github.com/SnowBankSDK/foundationdb-dotnet-client/commit/a9a91bcd2be63f4aef0c710445b2d55c39db8f7b",
+  "compare_url": "https://github.com/SnowBankSDK/foundationdb-dotnet-client/compare/64a5da9ba708540625a048f8adecab1449b0ccc0...a9a91bcd2be63f4aef0c710445b2d55c39db8f7b",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "SnowBankSDK/foundationdb-dotnet-client",
+    "path": ".claude/skills/foundationdb-aspire/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0152b7d2e8ad96e560362b337c5c73b291d58305",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-22T11:23:32Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "BSD-3-Clause"
+  },
+  "history_endpoint": "https://api.github.com/repos/SnowBankSDK/foundationdb-dotnet-client/commits?path=.claude%2Fskills%2Ffoundationdb-aspire%2FSKILL.md&per_page=10&until=2026-07-22T11%3A23%3A33%2B00%3A00",
+  "history_cutoff": "2026-07-22T11:23:33+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0182",
+  "old": {
+    "revision": "64a5da9ba708540625a048f8adecab1449b0ccc0",
+    "tree_sha": "b473d413481d90ebd03462349738f36d6697f7c6",
+    "file_count": 1,
+    "bytes": 10321,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0152b7d2e8ad96e560362b337c5c73b291d58305",
+      "sha256": "1e8d3668ccf4bd2ac20a07e0c92b8aab0fee1030a7d5c75402720ce78abcd65a",
+      "size": 10321
+    }
+  },
+  "new": {
+    "revision": "a9a91bcd2be63f4aef0c710445b2d55c39db8f7b",
+    "tree_sha": "b0768f5de3a39e5df922e1989b68dc4252a7283b",
+    "file_count": 1,
+    "bytes": 11511,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "3b1d435b668d32564e2a2c95293c2ed501f60642",
+      "sha256": "83cef3304c1bdaafb774d77a49359bc1635ddf969a246eabad37d33ca47aa63d",
+      "size": 11511
+    }
+  },
+  "diff_added_lines": 8,
+  "diff_deleted_lines": 9,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0b70d4a483acab04648ae4a27964804936863172f3607fb527dab6920ec9c93f"
+}

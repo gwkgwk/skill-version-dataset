@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0313",
+  "repo_full_name": "ronjunevaldoz/graphyn-editor",
+  "skill_path": ".claude/skills/kotlin-multiplatform-feature-scaffold/SKILL.md",
+  "skill_directory": ".claude/skills/kotlin-multiplatform-feature-scaffold",
+  "old_revision": "bcccab9f6eae27f2f289d70be726402a7fa66e7e",
+  "new_revision": "1999ea9bf655c1822fbd096121c76c61e0deb89e",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-13T15:07:19Z",
+  "new_commit_message": "chore(skills): sync skills from kmm-agent-skills v1.68.0 -> v1.76.0",
+  "commit_url": "https://github.com/ronjunevaldoz/graphyn-editor/commit/1999ea9bf655c1822fbd096121c76c61e0deb89e",
+  "compare_url": "https://github.com/ronjunevaldoz/graphyn-editor/compare/bcccab9f6eae27f2f289d70be726402a7fa66e7e...1999ea9bf655c1822fbd096121c76c61e0deb89e",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ronjunevaldoz/graphyn-editor",
+    "path": ".claude/skills/kotlin-multiplatform-feature-scaffold/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0049d6ed7621a6696e8bb5c0beb6ce412427bc04",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-13T15:07:19Z",
+    "commit_count": 3,
+    "sibling_count": 21,
+    "sibling_bytes": 38730,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/ronjunevaldoz/graphyn-editor/commits?path=.claude%2Fskills%2Fkotlin-multiplatform-feature-scaffold%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0313",
+  "old": {
+    "revision": "bcccab9f6eae27f2f289d70be726402a7fa66e7e",
+    "tree_sha": "001c9f85b5125c063fb9409d43d11d1b20b6b5d1",
+    "file_count": 22,
+    "bytes": 79741,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "072e669291df1fa7b8b3764c548fa4b34e050171",
+      "sha256": "2b0a09a6a2222e67a2ff69082b14d62684a690110d769e80d9a593517924f990",
+      "size": 41011
+    }
+  },
+  "new": {
+    "revision": "1999ea9bf655c1822fbd096121c76c61e0deb89e",
+    "tree_sha": "e0dd2adf66f99812a4428762565a26e60e265f88",
+    "file_count": 22,
+    "bytes": 82617,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0049d6ed7621a6696e8bb5c0beb6ce412427bc04",
+      "sha256": "2478a61620133ecea22a658222db84080009e3ac0b6a537986073744556edfca",
+      "size": 43887
+    }
+  },
+  "diff_added_lines": 25,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4b2f253db036dbcd7e17df2a1cdceb86e7a7fecd5b424e8dc5c269d0fb4a030c"
+}

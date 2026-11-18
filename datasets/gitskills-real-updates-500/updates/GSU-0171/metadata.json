@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0171",
+  "repo_full_name": "RavBogard/DAN",
+  "skill_path": ".claude/skills/dan-unify/SKILL.md",
+  "skill_directory": ".claude/skills/dan-unify",
+  "old_revision": "d6f7a76d5807671e9cc434915a149fa659802877",
+  "new_revision": "9aaa40a86baf8f332b89bb95e2d367a428c9d4b6",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-29T15:15:56Z",
+  "new_commit_message": "feat(02-02): implement dan:unify execution_flow for loop closure",
+  "commit_url": "https://github.com/RavBogard/DAN/commit/9aaa40a86baf8f332b89bb95e2d367a428c9d4b6",
+  "compare_url": "https://github.com/RavBogard/DAN/compare/d6f7a76d5807671e9cc434915a149fa659802877...9aaa40a86baf8f332b89bb95e2d367a428c9d4b6",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "RavBogard/DAN",
+    "path": ".claude/skills/dan-unify/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0046b5f53186cebba9f031e8d932f3257d2c8169",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-29T15:15:56Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/RavBogard/DAN/commits?path=.claude%2Fskills%2Fdan-unify%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0171",
+  "old": {
+    "revision": "d6f7a76d5807671e9cc434915a149fa659802877",
+    "tree_sha": "c73d9353c2527aa853c73e1d46c9b0d27f0fbf09",
+    "file_count": 1,
+    "bytes": 1320,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "fd32f09da6fa47282bef693a6bc5a50bae954094",
+      "sha256": "faf8d77150ba05bbe2f1b8e86b543ccd50801be09f9270128527d5abfe704b63",
+      "size": 1320
+    }
+  },
+  "new": {
+    "revision": "9aaa40a86baf8f332b89bb95e2d367a428c9d4b6",
+    "tree_sha": "efe4faf4edd8b768fcd25f2e1ff86f14defb9d49",
+    "file_count": 1,
+    "bytes": 8888,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0046b5f53186cebba9f031e8d932f3257d2c8169",
+      "sha256": "cc5397147e9582418e49dda502ac55ee82b9e0498c82b6f630e431aeec657600",
+      "size": 8888
+    }
+  },
+  "diff_added_lines": 197,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "cd30d02bb6feabff566d54b36da564f00310b7bdfa1141003ccdc66af20e8c11"
+}

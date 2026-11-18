@@ -1,0 +1,314 @@
+{
+  "old": [
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "072e669291df1fa7b8b3764c548fa4b34e050171",
+      "sha256": "2b0a09a6a2222e67a2ff69082b14d62684a690110d769e80d9a593517924f990",
+      "size": 41011
+    },
+    {
+      "path": "scripts/__pycache__/validate_module_graph.cpython-312.pyc",
+      "mode": "100644",
+      "git_blob_sha1": "448fe38c031ef342f5156f0ac398ef783bbc7c61",
+      "sha256": "88a6e61668220bee7f6bf2e39ac8caf0340716d8fd4d86d2397eaf7bc6269965",
+      "size": 4317
+    },
+    {
+      "path": "scripts/validate_module_graph.py",
+      "mode": "100755",
+      "git_blob_sha1": "8a0134d5c02d549f24e5d636fb4b20e756b465f3",
+      "sha256": "22ab8175a87402a5936fb5ef3479768e817bc00c813e59caa17d787153869d62",
+      "size": 3016
+    },
+    {
+      "path": "templates/androidApp/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "3c3bcd6c91eeacafbbb227d676435661899a80c5",
+      "sha256": "0b6f8cb268b1065d35bed91ace67a2e402a607a5aa285cf321cad091f939c141",
+      "size": 1382
+    },
+    {
+      "path": "templates/build-logic/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "8a7746c388a3e89ebc4fc9fd22c10beedeab57fe",
+      "sha256": "3b9608b81f6759e9ed71074364824a3c9a0006ac8ab6805001b046b66b223ac5",
+      "size": 126
+    },
+    {
+      "path": "templates/build-logic/convention/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "9fb57ee5c25b479c0a44f0707cc0b50487b62594",
+      "sha256": "a510d7fd8a92b83337e6955fe8b5ad53e3d6c84a1b28b32c6764208250ecfd46",
+      "size": 453
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.android.app.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "9950ce8e7fc42b42650a95d263fb4d4056c018e0",
+      "sha256": "34cb35fc817d25305b17eda4b0efbe88b9a875198e4ca59d504389ec880a0d6f",
+      "size": 1732
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.core.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "e60383cbaa8098f0d7315fc16dcbb0b115ff31b9",
+      "sha256": "a5261d1d1aef079751ec8c6a4ff2766618fa1dcea75cc069af75a1bf73899122",
+      "size": 1535
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.api.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "893dfc4f5a2655615694da2fff2b5d927faf0655",
+      "sha256": "aa6edbc8052f9b54db5f2c49a71d074c2d8e86e369a581a92b36ee81593b4048",
+      "size": 1428
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.data.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "d3c1fd6e065b9e3e028cd85b1e94d1fea74c731e",
+      "sha256": "f7d1c4bc40b4190f8a8275bfad5e1b3db3de57b32524f68c912d10018549e142",
+      "size": 2752
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.domain.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "836e003f28763b68b3398cbe4567f2771bf76149",
+      "sha256": "4a55d225947e2a65029c3d514fc2093e3d6dc7dd9fbc8b8af93eb2e17fdf97b1",
+      "size": 1441
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.test.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "8529974d493c87b8ebfcbb2a687310b9fc83cc7d",
+      "sha256": "145794fdc4b4d16d4994f358af8f1f1e5c3753b4a7e34228d636347cc28ae327",
+      "size": 1402
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.ui.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "6294161e17a209446f568aa179e03902220ac0f6",
+      "sha256": "8b69f287eb74ccfae5d82f443ce62c0184f9fac4cc53007c1347510a613d31d0",
+      "size": 2397
+    },
+    {
+      "path": "templates/build-logic/settings.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "dcbdaa99e6b4f6708f1a55030f11dec4a4fb04ca",
+      "sha256": "5b7d02b267b7b292b881acfdeb08f8ebf31f7460140bc5bfa9734ce4bbfe8d4a",
+      "size": 520
+    },
+    {
+      "path": "templates/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "388c87077fcb6d65b79981b6bc514910626dc1fe",
+      "sha256": "b8f2b51851e4b82de62f4be690a64e8f82d74fd8028da206ffa5e5f710359495",
+      "size": 823
+    },
+    {
+      "path": "templates/core/testing/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "518198103688ec03941c140ca28bec499526a38c",
+      "sha256": "e49921888da2012abe6c4325fb837a113f0f9656ae1dfa42929977dae084c6ce",
+      "size": 624
+    },
+    {
+      "path": "templates/feature/api/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "3f9d0c308de2f55b70ccf69bacdc7d2ea50a9d9e",
+      "sha256": "2f145881990dca54c9b3f2b18ca0f9e3c0e63bbc7db679cd4327dddb3d609c56",
+      "size": 323
+    },
+    {
+      "path": "templates/feature/data/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "e8008a76f59d9368e0a400072b992386da53b6ba",
+      "sha256": "bd9dcf98d058f8de2a2404127a919e58103bab051ebe685be3e034f96d5a359c",
+      "size": 816
+    },
+    {
+      "path": "templates/feature/domain/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "d5cf53b9aad4792a28fab197019af839496604da",
+      "sha256": "ff0160c3da8530b634b05bc0ef3a7b7816fa4170aaead02404374d70fa771595",
+      "size": 410
+    },
+    {
+      "path": "templates/feature/ui/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "02315ba05396d56c8cd1f9163f595caa0cc240c2",
+      "sha256": "a1860991611f1a3753dac4bcaeba378455c0790e9a5b7e90fd4f8754c6c7d908",
+      "size": 553
+    },
+    {
+      "path": "templates/gradle/libs.versions.toml",
+      "mode": "100644",
+      "git_blob_sha1": "ec19f133f0190cb9e79f543f532336b6bfef8398",
+      "sha256": "d02d64ac4149f4a760f4d3c7772abf0caaa194b41412a3069e1b69228889b761",
+      "size": 11260
+    },
+    {
+      "path": "templates/settings.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "68bc4a05beee11e3cd5753cbea246fc5a104dbd5",
+      "sha256": "85788eb266d21b6b94831c4b7ed40bed7a8f17f68571dfc58c02bf4c816cab9c",
+      "size": 1420
+    }
+  ],
+  "new": [
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0049d6ed7621a6696e8bb5c0beb6ce412427bc04",
+      "sha256": "2478a61620133ecea22a658222db84080009e3ac0b6a537986073744556edfca",
+      "size": 43887
+    },
+    {
+      "path": "scripts/__pycache__/validate_module_graph.cpython-312.pyc",
+      "mode": "100644",
+      "git_blob_sha1": "448fe38c031ef342f5156f0ac398ef783bbc7c61",
+      "sha256": "88a6e61668220bee7f6bf2e39ac8caf0340716d8fd4d86d2397eaf7bc6269965",
+      "size": 4317
+    },
+    {
+      "path": "scripts/validate_module_graph.py",
+      "mode": "100755",
+      "git_blob_sha1": "8a0134d5c02d549f24e5d636fb4b20e756b465f3",
+      "sha256": "22ab8175a87402a5936fb5ef3479768e817bc00c813e59caa17d787153869d62",
+      "size": 3016
+    },
+    {
+      "path": "templates/androidApp/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "3c3bcd6c91eeacafbbb227d676435661899a80c5",
+      "sha256": "0b6f8cb268b1065d35bed91ace67a2e402a607a5aa285cf321cad091f939c141",
+      "size": 1382
+    },
+    {
+      "path": "templates/build-logic/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "8a7746c388a3e89ebc4fc9fd22c10beedeab57fe",
+      "sha256": "3b9608b81f6759e9ed71074364824a3c9a0006ac8ab6805001b046b66b223ac5",
+      "size": 126
+    },
+    {
+      "path": "templates/build-logic/convention/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "9fb57ee5c25b479c0a44f0707cc0b50487b62594",
+      "sha256": "a510d7fd8a92b83337e6955fe8b5ad53e3d6c84a1b28b32c6764208250ecfd46",
+      "size": 453
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.android.app.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "9950ce8e7fc42b42650a95d263fb4d4056c018e0",
+      "sha256": "34cb35fc817d25305b17eda4b0efbe88b9a875198e4ca59d504389ec880a0d6f",
+      "size": 1732
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.core.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "e60383cbaa8098f0d7315fc16dcbb0b115ff31b9",
+      "sha256": "a5261d1d1aef079751ec8c6a4ff2766618fa1dcea75cc069af75a1bf73899122",
+      "size": 1535
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.api.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "893dfc4f5a2655615694da2fff2b5d927faf0655",
+      "sha256": "aa6edbc8052f9b54db5f2c49a71d074c2d8e86e369a581a92b36ee81593b4048",
+      "size": 1428
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.data.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "d3c1fd6e065b9e3e028cd85b1e94d1fea74c731e",
+      "sha256": "f7d1c4bc40b4190f8a8275bfad5e1b3db3de57b32524f68c912d10018549e142",
+      "size": 2752
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.domain.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "836e003f28763b68b3398cbe4567f2771bf76149",
+      "sha256": "4a55d225947e2a65029c3d514fc2093e3d6dc7dd9fbc8b8af93eb2e17fdf97b1",
+      "size": 1441
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.test.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "8529974d493c87b8ebfcbb2a687310b9fc83cc7d",
+      "sha256": "145794fdc4b4d16d4994f358af8f1f1e5c3753b4a7e34228d636347cc28ae327",
+      "size": 1402
+    },
+    {
+      "path": "templates/build-logic/convention/src/main/kotlin/GROUP_ID.feature.ui.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "6294161e17a209446f568aa179e03902220ac0f6",
+      "sha256": "8b69f287eb74ccfae5d82f443ce62c0184f9fac4cc53007c1347510a613d31d0",
+      "size": 2397
+    },
+    {
+      "path": "templates/build-logic/settings.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "dcbdaa99e6b4f6708f1a55030f11dec4a4fb04ca",
+      "sha256": "5b7d02b267b7b292b881acfdeb08f8ebf31f7460140bc5bfa9734ce4bbfe8d4a",
+      "size": 520
+    },
+    {
+      "path": "templates/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "388c87077fcb6d65b79981b6bc514910626dc1fe",
+      "sha256": "b8f2b51851e4b82de62f4be690a64e8f82d74fd8028da206ffa5e5f710359495",
+      "size": 823
+    },
+    {
+      "path": "templates/core/testing/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "518198103688ec03941c140ca28bec499526a38c",
+      "sha256": "e49921888da2012abe6c4325fb837a113f0f9656ae1dfa42929977dae084c6ce",
+      "size": 624
+    },
+    {
+      "path": "templates/feature/api/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "3f9d0c308de2f55b70ccf69bacdc7d2ea50a9d9e",
+      "sha256": "2f145881990dca54c9b3f2b18ca0f9e3c0e63bbc7db679cd4327dddb3d609c56",
+      "size": 323
+    },
+    {
+      "path": "templates/feature/data/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "e8008a76f59d9368e0a400072b992386da53b6ba",
+      "sha256": "bd9dcf98d058f8de2a2404127a919e58103bab051ebe685be3e034f96d5a359c",
+      "size": 816
+    },
+    {
+      "path": "templates/feature/domain/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "d5cf53b9aad4792a28fab197019af839496604da",
+      "sha256": "ff0160c3da8530b634b05bc0ef3a7b7816fa4170aaead02404374d70fa771595",
+      "size": 410
+    },
+    {
+      "path": "templates/feature/ui/build.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "02315ba05396d56c8cd1f9163f595caa0cc240c2",
+      "sha256": "a1860991611f1a3753dac4bcaeba378455c0790e9a5b7e90fd4f8754c6c7d908",
+      "size": 553
+    },
+    {
+      "path": "templates/gradle/libs.versions.toml",
+      "mode": "100644",
+      "git_blob_sha1": "ec19f133f0190cb9e79f543f532336b6bfef8398",
+      "sha256": "d02d64ac4149f4a760f4d3c7772abf0caaa194b41412a3069e1b69228889b761",
+      "size": 11260
+    },
+    {
+      "path": "templates/settings.gradle.kts",
+      "mode": "100644",
+      "git_blob_sha1": "68bc4a05beee11e3cd5753cbea246fc5a104dbd5",
+      "sha256": "85788eb266d21b6b94831c4b7ed40bed7a8f17f68571dfc58c02bf4c816cab9c",
+      "size": 1420
+    }
+  ]
+}

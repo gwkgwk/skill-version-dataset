@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0327",
+  "repo_full_name": "ajmartin94/CookingAssistant",
+  "skill_path": ".claude/skills/plan/SKILL.md",
+  "skill_directory": ".claude/skills/plan",
+  "old_revision": "b21fd3dd640d7d077b7655769accc5ec85a92caf",
+  "new_revision": "d8250d8ef35db09381ff7440ed3a66b8f7bb6582",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-02-01T18:25:39Z",
+  "new_commit_message": "refactor: overhaul skill workflow for user-story alignment and consistency",
+  "commit_url": "https://github.com/ajmartin94/CookingAssistant/commit/d8250d8ef35db09381ff7440ed3a66b8f7bb6582",
+  "compare_url": "https://github.com/ajmartin94/CookingAssistant/compare/b21fd3dd640d7d077b7655769accc5ec85a92caf...d8250d8ef35db09381ff7440ed3a66b8f7bb6582",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ajmartin94/CookingAssistant",
+    "path": ".claude/skills/plan/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01aef7bc8415e122a60f8c72a23e82f3175f9f14",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-02-01T18:25:39Z",
+    "commit_count": 4,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/ajmartin94/CookingAssistant/commits?path=.claude%2Fskills%2Fplan%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0327",
+  "old": {
+    "revision": "b21fd3dd640d7d077b7655769accc5ec85a92caf",
+    "tree_sha": "055415d2ed17c091c46493e5f4f22227b66fa4c1",
+    "file_count": 1,
+    "bytes": 5292,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "3708e4d438fafe23a5ab12b5ddb4ba8ef011dad2",
+      "sha256": "ddca8f4086d437640aa6422236f70ece0eea2737f9eeff55e98b3f92b2ef2f90",
+      "size": 5292
+    }
+  },
+  "new": {
+    "revision": "d8250d8ef35db09381ff7440ed3a66b8f7bb6582",
+    "tree_sha": "445c0968e0deafeba5ada3d4f1a0666aa6b1b4b1",
+    "file_count": 1,
+    "bytes": 7870,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01aef7bc8415e122a60f8c72a23e82f3175f9f14",
+      "sha256": "de2fe30ecd33c24d83f497fd7de1c149dd3d6947dc4621d646a9231e3de3cf3c",
+      "size": 7870
+    }
+  },
+  "diff_added_lines": 82,
+  "diff_deleted_lines": 21,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c477316e59fa1382f4864d02d6c472665b4e3f851e9a3ffa393831c335375d6f"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0178",
+  "repo_full_name": "tickets-forge-dev/loop-lang",
+  "skill_path": ".claude/skills/loopflow/SKILL.md",
+  "skill_directory": ".claude/skills/loopflow",
+  "old_revision": "f9257dc407ffbc1a782b556d0b8cbdd6f8f142a1",
+  "new_revision": "e3db043450b5849e30da0f97f0072b2bc3470944",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-06T14:38:42Z",
+  "new_commit_message": "Chore/remove ctx (#13)",
+  "commit_url": "https://github.com/tickets-forge-dev/loop-lang/commit/e3db043450b5849e30da0f97f0072b2bc3470944",
+  "compare_url": "https://github.com/tickets-forge-dev/loop-lang/compare/f9257dc407ffbc1a782b556d0b8cbdd6f8f142a1...e3db043450b5849e30da0f97f0072b2bc3470944",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "tickets-forge-dev/loop-lang",
+    "path": ".claude/skills/loopflow/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01646d308dc8f8ea608a77460883c46ea499b318",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-06T14:38:42Z",
+    "commit_count": 13,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/tickets-forge-dev/loop-lang/commits?path=.claude%2Fskills%2Floopflow%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0178",
+  "old": {
+    "revision": "f9257dc407ffbc1a782b556d0b8cbdd6f8f142a1",
+    "tree_sha": "39c62cd8abee05083ff4963bcff4bd0f0088a910",
+    "file_count": 1,
+    "bytes": 28163,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "09a0588b2ef4fb3f81aecfc3ea3b57bfc53665c2",
+      "sha256": "e771688543d62e957c4ec1d55ea7e0219b4a45d2f848f29430631549779b12dc",
+      "size": 28163
+    }
+  },
+  "new": {
+    "revision": "e3db043450b5849e30da0f97f0072b2bc3470944",
+    "tree_sha": "e1b0fe9ee5bce271794c2d7faa98732b3f11719e",
+    "file_count": 1,
+    "bytes": 25000,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01646d308dc8f8ea608a77460883c46ea499b318",
+      "sha256": "c35a18e1bec2deece8e2e58a3c477fae0b32189d169adf214aa3a6a8127a6f11",
+      "size": 25000
+    }
+  },
+  "diff_added_lines": 0,
+  "diff_deleted_lines": 40,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "a5133452e11047e96d2300705ae0906621d2166bd1859f22075b3746fb5c3f5b"
+}

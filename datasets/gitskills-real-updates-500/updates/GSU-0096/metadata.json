@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0096",
+  "repo_full_name": "goldeneggg/dotfiles",
+  "skill_path": "ai-linux/.claude/skills/commiter/SKILL.md",
+  "skill_directory": "ai-linux/.claude/skills/commiter",
+  "old_revision": "79e75b810530e3f326be0cc7ecaf15562b44d426",
+  "new_revision": "4c20f077df0451b58a05f1641c90f007df0e71a1",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-18T11:25:47Z",
+  "new_commit_message": "feat(commiter): skip staging confirmation in auto mode",
+  "commit_url": "https://github.com/goldeneggg/dotfiles/commit/4c20f077df0451b58a05f1641c90f007df0e71a1",
+  "compare_url": "https://github.com/goldeneggg/dotfiles/compare/79e75b810530e3f326be0cc7ecaf15562b44d426...4c20f077df0451b58a05f1641c90f007df0e71a1",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "goldeneggg/dotfiles",
+    "path": "ai-linux/.claude/skills/commiter/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01979d103eb3a31f24294ce5b5c3d1ec96b35efd",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-18T11:25:47Z",
+    "commit_count": 5,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/goldeneggg/dotfiles/commits?path=ai-linux%2F.claude%2Fskills%2Fcommiter%2FSKILL.md&per_page=10&until=2026-07-18T11%3A25%3A48%2B00%3A00",
+  "history_cutoff": "2026-07-18T11:25:48+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0096",
+  "old": {
+    "revision": "79e75b810530e3f326be0cc7ecaf15562b44d426",
+    "tree_sha": "1406ba96032307e02c690a3f13262a1e493fc0f9",
+    "file_count": 1,
+    "bytes": 17460,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e3f222087f8e90621c1aa3dfdacfc2a4bbd4acb4",
+      "sha256": "284f283c4af8f471b401b449f3b7fe3208e2d1249b9e3fc16e14d5baff3007cf",
+      "size": 17460
+    }
+  },
+  "new": {
+    "revision": "4c20f077df0451b58a05f1641c90f007df0e71a1",
+    "tree_sha": "53806f985ede8715faf6682d585a1002d7c423be",
+    "file_count": 1,
+    "bytes": 17946,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01979d103eb3a31f24294ce5b5c3d1ec96b35efd",
+      "sha256": "a5da15b247ee4cb953416a12ece1539be13a1bb9cb5183d550bd83b42a5c95f2",
+      "size": 17946
+    }
+  },
+  "diff_added_lines": 20,
+  "diff_deleted_lines": 12,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "3e0a728b9c1352ed4568780fe0ae875d6704c00259c3853464f2a57f688b5cf1"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0161",
+  "repo_full_name": "aifinlab/FinClaw",
+  "skill_path": "skills/periodic-outreach-content/SKILL.md",
+  "skill_directory": "skills/periodic-outreach-content",
+  "old_revision": "a267db1413de724ab923e7b655f9539bb0681aa0",
+  "new_revision": "e7cee33c7406c845fbdb2282d4781c591c881237",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-26T08:13:21Z",
+  "new_commit_message": "bug fix",
+  "commit_url": "https://github.com/aifinlab/FinClaw/commit/e7cee33c7406c845fbdb2282d4781c591c881237",
+  "compare_url": "https://github.com/aifinlab/FinClaw/compare/a267db1413de724ab923e7b655f9539bb0681aa0...e7cee33c7406c845fbdb2282d4781c591c881237",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "aifinlab/FinClaw",
+    "path": "skills/periodic-outreach-content/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00d3ed0b3893ad2f6a0f259ae0a754f0d1330634",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-26T08:13:21Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 2732,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/aifinlab/FinClaw/commits?path=skills%2Fperiodic-outreach-content%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0161",
+  "old": {
+    "revision": "a267db1413de724ab923e7b655f9539bb0681aa0",
+    "tree_sha": "4342222d8cef410ebab15cdabe89b4dd1e9a440c",
+    "file_count": 2,
+    "bytes": 3805,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "5ffddc87640ab7726a52f25e22acacfeec7096d1",
+      "sha256": "112d8a47e15088b8b796b072e6c9721b4dffb9322ad5ca5c8c66bd0b8d87685d",
+      "size": 1073
+    }
+  },
+  "new": {
+    "revision": "e7cee33c7406c845fbdb2282d4781c591c881237",
+    "tree_sha": "e3eb4676b66aa8514d0633dc23ab58932de84040",
+    "file_count": 2,
+    "bytes": 4041,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00d3ed0b3893ad2f6a0f259ae0a754f0d1330634",
+      "sha256": "a6b18e81ad635098cf4dcda397957a68d8f3c2b931926445c293b5bc4cb56c14",
+      "size": 1309
+    }
+  },
+  "diff_added_lines": 18,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "scripts/analyze.py"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "503cb70f7940e39f36229f1f806466bfcf1cea8222936d8364dfec305935f949"
+}

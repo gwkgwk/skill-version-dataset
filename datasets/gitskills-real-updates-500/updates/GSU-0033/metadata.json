@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0033",
+  "repo_full_name": "vimeejs/vimee",
+  "skill_path": ".claude/skills/changeset/SKILL.md",
+  "skill_directory": ".claude/skills/changeset",
+  "old_revision": "ca07d91e9a1e24e9f17ccb767a770bb3249ff954",
+  "new_revision": "009b41f4ccb6d5d8d6e4d8a96250ce111ada8bc4",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-24T09:21:39Z",
+  "new_commit_message": "chore: add changeset for core/react minor and improve changeset skill (#41)",
+  "commit_url": "https://github.com/vimeejs/vimee/commit/009b41f4ccb6d5d8d6e4d8a96250ce111ada8bc4",
+  "compare_url": "https://github.com/vimeejs/vimee/compare/ca07d91e9a1e24e9f17ccb767a770bb3249ff954...009b41f4ccb6d5d8d6e4d8a96250ce111ada8bc4",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "vimeejs/vimee",
+    "path": ".claude/skills/changeset/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0096d01fff2e999a2e043e8077d6ed8cf71d648d",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-24T09:21:39Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/vimeejs/vimee/commits?path=.claude%2Fskills%2Fchangeset%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0033",
+  "old": {
+    "revision": "ca07d91e9a1e24e9f17ccb767a770bb3249ff954",
+    "tree_sha": "b8504bd9ff226d819e3f3239c2110f728a7c3072",
+    "file_count": 1,
+    "bytes": 2573,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "22b99524fe12c48af751da00a72f3fbc19558319",
+      "sha256": "fd07bd7bca4ba2f94158448e6b79f242693e7faa23c04c3da1491ceefc33d198",
+      "size": 2573
+    }
+  },
+  "new": {
+    "revision": "009b41f4ccb6d5d8d6e4d8a96250ce111ada8bc4",
+    "tree_sha": "d1b16d1ccc08b777e221d98ce1b650eaf71e3e84",
+    "file_count": 1,
+    "bytes": 3030,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0096d01fff2e999a2e043e8077d6ed8cf71d648d",
+      "sha256": "790f7ed47d34459496db85b4c145d08b659fb6df1b68d05928d503d559721e67",
+      "size": 3030
+    }
+  },
+  "diff_added_lines": 18,
+  "diff_deleted_lines": 19,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f9241c68120c05c42ae2e9a1bdbe70df87474274b10b154e0f2594e1b3463309"
+}

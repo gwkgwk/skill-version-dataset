@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0448",
+  "repo_full_name": "muhammadcaeed/aegis",
+  "skill_path": ".claude/skills/tenancy-enforcer.md/SKILL.md",
+  "skill_directory": ".claude/skills/tenancy-enforcer.md",
+  "old_revision": "cc17fe3b9049b2f4ba197fe33e5f6e8247beae55",
+  "new_revision": "3db3d77613b35398f5f98b212bcabfb79da54ecf",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-09T22:46:49Z",
+  "new_commit_message": "refactor: update project structure and enhance documentation",
+  "commit_url": "https://github.com/muhammadcaeed/aegis/commit/3db3d77613b35398f5f98b212bcabfb79da54ecf",
+  "compare_url": "https://github.com/muhammadcaeed/aegis/compare/cc17fe3b9049b2f4ba197fe33e5f6e8247beae55...3db3d77613b35398f5f98b212bcabfb79da54ecf",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "muhammadcaeed/aegis",
+    "path": ".claude/skills/tenancy-enforcer.md/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0061cef155915b1b7b3482dba2820b19908d2242",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-01-09T22:46:49Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/muhammadcaeed/aegis/commits?path=.claude%2Fskills%2Ftenancy-enforcer.md%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0448",
+  "old": {
+    "revision": "cc17fe3b9049b2f4ba197fe33e5f6e8247beae55",
+    "tree_sha": "e6d7e95f18dad222bd1d5e951fc963214540176a",
+    "file_count": 1,
+    "bytes": 714,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "32a347374522d38e9cd8962045f8f914a5ed5347",
+      "sha256": "8aac57f6e13f2b5ae825e043394107955fddc4f21bf3aa429ab3f9ac0700903d",
+      "size": 714
+    }
+  },
+  "new": {
+    "revision": "3db3d77613b35398f5f98b212bcabfb79da54ecf",
+    "tree_sha": "83f3f1768860d3689ca3288bd2ca1c8878199bd8",
+    "file_count": 1,
+    "bytes": 6680,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0061cef155915b1b7b3482dba2820b19908d2242",
+      "sha256": "63d102c3ac1fb2667fa44903c2ce7d3e9c7fa3a73cc003513950218fa31a6b92",
+      "size": 6680
+    }
+  },
+  "diff_added_lines": 250,
+  "diff_deleted_lines": 8,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "8571bf44822b19528524e1c58fbc43e144ae931d5313a07367e4a4e7a4d10c09"
+}

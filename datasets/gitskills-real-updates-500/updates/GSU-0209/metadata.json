@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0209",
+  "repo_full_name": "hekmon8/vernclaw-connect-cli",
+  "skill_path": "skills/vernclaw-threads-social-data/SKILL.md",
+  "skill_directory": "skills/vernclaw-threads-social-data",
+  "old_revision": "a5216e27cd4774e8e990fb6f8820854c81a5f0e0",
+  "new_revision": "fda8e5f4e147fad272c316478e8653d2034562b5",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-10T07:59:48Z",
+  "new_commit_message": "fix: remove commented stale connector examples from SKILL.md files",
+  "commit_url": "https://github.com/hekmon8/vernclaw-connect-cli/commit/fda8e5f4e147fad272c316478e8653d2034562b5",
+  "compare_url": "https://github.com/hekmon8/vernclaw-connect-cli/compare/a5216e27cd4774e8e990fb6f8820854c81a5f0e0...fda8e5f4e147fad272c316478e8653d2034562b5",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "hekmon8/vernclaw-connect-cli",
+    "path": "skills/vernclaw-threads-social-data/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00f80cfc5f12823b4ec8b83e2c28c5fe627e79f7",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-10T07:59:48Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/hekmon8/vernclaw-connect-cli/commits?path=skills%2Fvernclaw-threads-social-data%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0209",
+  "old": {
+    "revision": "a5216e27cd4774e8e990fb6f8820854c81a5f0e0",
+    "tree_sha": "7b3c706a3e387022ef4c1bee540a4c6d9470a45b",
+    "file_count": 1,
+    "bytes": 4546,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "40ed36b6d285f268b1498b9c4056a6e9b686483b",
+      "sha256": "64fae6080b7ec78dfaa197ac213989e85c696cec8b740da9430879d800aa0682",
+      "size": 4546
+    }
+  },
+  "new": {
+    "revision": "fda8e5f4e147fad272c316478e8653d2034562b5",
+    "tree_sha": "6e3f9ff20e682f81bd70422794557f121aa9b89a",
+    "file_count": 1,
+    "bytes": 3879,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00f80cfc5f12823b4ec8b83e2c28c5fe627e79f7",
+      "sha256": "c7a5d32022c956b3a2a94b74ef6958d210023159ddd05bfa10b896b32f5028d3",
+      "size": 3879
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 17,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f6524e7eccca98a2ff0e0ae1d4d06cddaa342284269420d2b73e9cff902cab98"
+}

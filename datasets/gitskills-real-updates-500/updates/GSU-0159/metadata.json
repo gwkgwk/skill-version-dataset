@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0159",
+  "repo_full_name": "ksleungac/pids-jre-simulator",
+  "skill_path": ".claude/skills/sta-make/SKILL.md",
+  "skill_directory": ".claude/skills/sta-make",
+  "old_revision": "3d93bdca8b37f1c03003a0eb692b2ad8a936b8a5",
+  "new_revision": "de5cbf2aa90c9f567a0c551b2d7d1e99c9592348",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-12T09:05:16Z",
+  "new_commit_message": "docs(audio): per-line README catalog + write-gate wiring across 4 skills",
+  "commit_url": "https://github.com/ksleungac/pids-jre-simulator/commit/de5cbf2aa90c9f567a0c551b2d7d1e99c9592348",
+  "compare_url": "https://github.com/ksleungac/pids-jre-simulator/compare/3d93bdca8b37f1c03003a0eb692b2ad8a936b8a5...de5cbf2aa90c9f567a0c551b2d7d1e99c9592348",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ksleungac/pids-jre-simulator",
+    "path": ".claude/skills/sta-make/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00e985f78babb16f31e4a3ba32306a408f0fb22b",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-12T09:05:16Z",
+    "commit_count": 5,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/ksleungac/pids-jre-simulator/commits?path=.claude%2Fskills%2Fsta-make%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0159",
+  "old": {
+    "revision": "3d93bdca8b37f1c03003a0eb692b2ad8a936b8a5",
+    "tree_sha": "ac1f31096313829eacd9358977d68a4151b02f36",
+    "file_count": 1,
+    "bytes": 41158,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "797a7f6283b01bcf8df92c1ac34fcec3266dc885",
+      "sha256": "b4c9acdc12926c1dd8ca01a70468bfe370d43cc5d279c960a80cdc25389f92d9",
+      "size": 41158
+    }
+  },
+  "new": {
+    "revision": "de5cbf2aa90c9f567a0c551b2d7d1e99c9592348",
+    "tree_sha": "303a551ea05b1083ceba5100b59f3e831a92fff3",
+    "file_count": 1,
+    "bytes": 41996,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00e985f78babb16f31e4a3ba32306a408f0fb22b",
+      "sha256": "4221bd4436900242e4a41b9607b13d12da30146dd2e05b1a8f13a117bf5e002c",
+      "size": 41996
+    }
+  },
+  "diff_added_lines": 12,
+  "diff_deleted_lines": 5,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "c72b7dc99f5ab1a64e916a723d58c8a46d625b980f6e8d5841bf9be4f64ae07d"
+}

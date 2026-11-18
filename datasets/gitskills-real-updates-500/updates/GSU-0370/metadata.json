@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0370",
+  "repo_full_name": "freeqaz/rb3",
+  "skill_path": ".claude/skills/vtable/SKILL.md",
+  "skill_directory": ".claude/skills/vtable",
+  "old_revision": "ae1edef6e801d779eaf79163e5f9235e0a7a1273",
+  "new_revision": "37c371b9f4ad09e836cfbd7637c19a1693ed853b",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-26T22:04:36Z",
+  "new_commit_message": "fix: vtable slot offset formula in dump_vtable.py and skill docs",
+  "commit_url": "https://github.com/freeqaz/rb3/commit/37c371b9f4ad09e836cfbd7637c19a1693ed853b",
+  "compare_url": "https://github.com/freeqaz/rb3/compare/ae1edef6e801d779eaf79163e5f9235e0a7a1273...37c371b9f4ad09e836cfbd7637c19a1693ed853b",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "freeqaz/rb3",
+    "path": ".claude/skills/vtable/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00bb61d1e9c9e8845ab58aab106108fe0a0cadc0",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-05-26T22:04:36Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/freeqaz/rb3/commits?path=.claude%2Fskills%2Fvtable%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0370",
+  "old": {
+    "revision": "ae1edef6e801d779eaf79163e5f9235e0a7a1273",
+    "tree_sha": "13adc2fbd87a4ed6bbe718d263ffc6a90713fa84",
+    "file_count": 1,
+    "bytes": 4427,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "2a404b9bf562dc01b4b2958a68e7a0b1bb4b6cbf",
+      "sha256": "9c0d8aa99d83e283640476adf9478d999077694e4cf57b609dceb26bcd345392",
+      "size": 4427
+    }
+  },
+  "new": {
+    "revision": "37c371b9f4ad09e836cfbd7637c19a1693ed853b",
+    "tree_sha": "af74a528320027cc5964e07025321ae17de16df2",
+    "file_count": 1,
+    "bytes": 5214,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00bb61d1e9c9e8845ab58aab106108fe0a0cadc0",
+      "sha256": "c94b4e77a85871df8fdd83f39cdc6755a07c60d0769a21db6526b2181d069fc8",
+      "size": 5214
+    }
+  },
+  "diff_added_lines": 19,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "fd6cf378efc732784f513d7c0af92797d963a7c12f4c6802254a9feea636094e"
+}

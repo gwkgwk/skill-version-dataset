@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0281",
+  "repo_full_name": "ziyunli/quartz",
+  "skill_path": ".claude/skills/reading-papers/SKILL.md",
+  "skill_directory": ".claude/skills/reading-papers",
+  "old_revision": "a83d58dd2ae438c8ee03051f509205e88948f062",
+  "new_revision": "737d33bc5903ef8bcdd7cc520bdf9ced42f20efc",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-07T17:20:00Z",
+  "new_commit_message": "fmt md",
+  "commit_url": "https://github.com/ziyunli/quartz/commit/737d33bc5903ef8bcdd7cc520bdf9ced42f20efc",
+  "compare_url": "https://github.com/ziyunli/quartz/compare/a83d58dd2ae438c8ee03051f509205e88948f062...737d33bc5903ef8bcdd7cc520bdf9ced42f20efc",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ziyunli/quartz",
+    "path": ".claude/skills/reading-papers/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00be937cccc1d1485296adfb6944790213b94672",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-07T17:20:00Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/ziyunli/quartz/commits?path=.claude%2Fskills%2Freading-papers%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0281",
+  "old": {
+    "revision": "a83d58dd2ae438c8ee03051f509205e88948f062",
+    "tree_sha": "f44133d2440c07378b7f5af2c723c9bd4d2e6e67",
+    "file_count": 1,
+    "bytes": 9229,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "36d8025da8462ce50da65c1136d374a66f0906bf",
+      "sha256": "d8abec951a02312f167410a47ee87adab84759f22a4a88afc1be235bbdc676cc",
+      "size": 9229
+    }
+  },
+  "new": {
+    "revision": "737d33bc5903ef8bcdd7cc520bdf9ced42f20efc",
+    "tree_sha": "f32dacef375fdb1ae0228f519e88c6c299a7ff05",
+    "file_count": 1,
+    "bytes": 9857,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00be937cccc1d1485296adfb6944790213b94672",
+      "sha256": "1d13676c8c4b174dcbb88ebf8eb542d30cf5dccca45a0bcacc86f421c665ddb6",
+      "size": 9857
+    }
+  },
+  "diff_added_lines": 21,
+  "diff_deleted_lines": 15,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "36d1eb0d6ef1d56cf927efa0a45f37c3a0a08d7d499e292665f9b52e228645c0"
+}

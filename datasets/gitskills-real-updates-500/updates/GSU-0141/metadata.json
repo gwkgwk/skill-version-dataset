@@ -1,0 +1,76 @@
+{
+  "id": "GSU-0141",
+  "repo_full_name": "electricsheephq/WorldOS",
+  "skill_path": ".claude/skills/asset-gen/SKILL.md",
+  "skill_directory": ".claude/skills/asset-gen",
+  "old_revision": "17baa9d2f6cab8b1512460ea1f5033d322b220d5",
+  "new_revision": "f5809c9dbbdfefc513adbb1e8eecf2b3b0d4aaea",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-28T15:59:01Z",
+  "new_commit_message": "Combat moveset in one command (meshy --moveset) + headless mixamo_gen.py + skills-review verdict (#1178)",
+  "commit_url": "https://github.com/electricsheephq/WorldOS/commit/f5809c9dbbdfefc513adbb1e8eecf2b3b0d4aaea",
+  "compare_url": "https://github.com/electricsheephq/WorldOS/compare/17baa9d2f6cab8b1512460ea1f5033d322b220d5...f5809c9dbbdfefc513adbb1e8eecf2b3b0d4aaea",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "electricsheephq/WorldOS",
+    "path": ".claude/skills/asset-gen/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00f89ce1bcd5d334e6ff3781d63d6313468ff331",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-28T15:59:01Z",
+    "commit_count": 6,
+    "sibling_count": 3,
+    "sibling_bytes": 15507,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/electricsheephq/WorldOS/commits?path=.claude%2Fskills%2Fasset-gen%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0141",
+  "old": {
+    "revision": "17baa9d2f6cab8b1512460ea1f5033d322b220d5",
+    "tree_sha": "4b5bfea3d6e54308087a4d1a4ba26bcb123376f1",
+    "file_count": 3,
+    "bytes": 21174,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e6258f89f0aae83b436fa610749ce159976e98d8",
+      "sha256": "d704c972987b786fad781169377f32d58b9749ccdfa49a7becc52391317be131",
+      "size": 11638
+    }
+  },
+  "new": {
+    "revision": "f5809c9dbbdfefc513adbb1e8eecf2b3b0d4aaea",
+    "tree_sha": "2ef71ab093afb99814bb4afa9d4e652dea5a5bfa",
+    "file_count": 4,
+    "bytes": 27821,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00f89ce1bcd5d334e6ff3781d63d6313468ff331",
+      "sha256": "f59e807d0b5e195bbfa8575dc303aff204293b70bbcebb749e50fa3e4234c989",
+      "size": 12314
+    }
+  },
+  "diff_added_lines": 5,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [
+      "COMBAT_MOVESET.md"
+    ],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "e722e91a2b4376a98ee489bfa5c270f7b52cbc2cd1391e150d68d6c2428ff5e6"
+}

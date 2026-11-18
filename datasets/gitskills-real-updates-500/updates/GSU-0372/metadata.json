@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0372",
+  "repo_full_name": "Tristan578/project-forge",
+  "skill_path": ".claude/skills/multiplayer-readiness/SKILL.md",
+  "skill_directory": ".claude/skills/multiplayer-readiness",
+  "old_revision": "ba01079ccc8c025f90c24a5cd10e97962dc76554",
+  "new_revision": "c8e1bb094a685163758c60c7724b85de518e2a36",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-31T19:20:39Z",
+  "new_commit_message": "feat: Claude Code platform overhaul — agents, hooks, skills, MCP (#8107)",
+  "commit_url": "https://github.com/Tristan578/project-forge/commit/c8e1bb094a685163758c60c7724b85de518e2a36",
+  "compare_url": "https://github.com/Tristan578/project-forge/compare/ba01079ccc8c025f90c24a5cd10e97962dc76554...c8e1bb094a685163758c60c7724b85de518e2a36",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Tristan578/project-forge",
+    "path": ".claude/skills/multiplayer-readiness/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "002d657d8a313932fefd0eb17c4ce096bcd73ccf",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-03-31T19:20:39Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/Tristan578/project-forge/commits?path=.claude%2Fskills%2Fmultiplayer-readiness%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0372",
+  "old": {
+    "revision": "ba01079ccc8c025f90c24a5cd10e97962dc76554",
+    "tree_sha": "18e540b829e9736001cd99ec2074995f4810325b",
+    "file_count": 1,
+    "bytes": 5196,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0d8f0e7c2d4a5f3ad7b77dde74e69b4aa0d52cba",
+      "sha256": "f46b6cb3c526416ebac0cf39a2c1758be51728f1694f099d94f04b8cf9b3949c",
+      "size": 5196
+    }
+  },
+  "new": {
+    "revision": "c8e1bb094a685163758c60c7724b85de518e2a36",
+    "tree_sha": "e586f30c17d8b1a63e92f7330fe0da19fa1f8c18",
+    "file_count": 1,
+    "bytes": 5251,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "002d657d8a313932fefd0eb17c4ce096bcd73ccf",
+      "sha256": "4aba7f4594ce306b769128ad1d240b7b727a9a3a68f5d1503c5667c8e6923bcd",
+      "size": 5251
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "b093e958896b3209f2b71f1e35d1af4fd2b95ed879a536eb735225019f04ea75"
+}

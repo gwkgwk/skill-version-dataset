@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0272",
+  "repo_full_name": "eriklee1895/writing-agent-harness",
+  "skill_path": ".agents/skills/wechat-article-renderer/SKILL.md",
+  "skill_directory": ".agents/skills/wechat-article-renderer",
+  "old_revision": "21fa1600e8d2e726085bc7ccc9b5e4a0213df72e",
+  "new_revision": "3384eecec53f90199dd69ee169d933c6592b6bfd",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-02T08:48:00Z",
+  "new_commit_message": "volcengine-tts: default education/math narration to LaTeX v2 parser trio (#6)",
+  "commit_url": "https://github.com/eriklee1895/writing-agent-harness/commit/3384eecec53f90199dd69ee169d933c6592b6bfd",
+  "compare_url": "https://github.com/eriklee1895/writing-agent-harness/compare/21fa1600e8d2e726085bc7ccc9b5e4a0213df72e...3384eecec53f90199dd69ee169d933c6592b6bfd",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "eriklee1895/writing-agent-harness",
+    "path": ".agents/skills/wechat-article-renderer/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "018862e6b4c1916b3c784b351e8387755697cfca",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-07-02T08:48:00Z",
+    "commit_count": 8,
+    "sibling_count": 7,
+    "sibling_bytes": 84969,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/eriklee1895/writing-agent-harness/commits?path=.agents%2Fskills%2Fwechat-article-renderer%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0272",
+  "old": {
+    "revision": "21fa1600e8d2e726085bc7ccc9b5e4a0213df72e",
+    "tree_sha": "11a46afdfb28d05d4893afcfb5bab250d21dcf8a",
+    "file_count": 8,
+    "bytes": 86721,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "bfefc2a6ce509cb99b5d6592427e0384c8f213a3",
+      "sha256": "3f66594974d044d8842e69a8b4c8676e212d5d5b27fe96d0e7e30c64b68a52f6",
+      "size": 6204
+    }
+  },
+  "new": {
+    "revision": "3384eecec53f90199dd69ee169d933c6592b6bfd",
+    "tree_sha": "27b2868a5b13d0ef685f66d4ab122d324d169376",
+    "file_count": 8,
+    "bytes": 86815,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "018862e6b4c1916b3c784b351e8387755697cfca",
+      "sha256": "17a63800040e86199175a8075ea6f31dc433ac02c68a2066059da66642d79202",
+      "size": 6298
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "31aa85d6b1960e2bc258af74567048487bde5b1509818aa76936eb4da37956f8"
+}

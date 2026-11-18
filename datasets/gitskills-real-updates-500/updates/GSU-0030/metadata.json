@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0030",
+  "repo_full_name": "ngareleo/xstream",
+  "skill_path": ".claude/skills/seq/SKILL.md",
+  "skill_directory": ".claude/skills/seq",
+  "old_revision": "b1ecda2e14bc6a25f97336d74c2ec4e1b16678fd",
+  "new_revision": "82d1f0321a15aaac8a9f016000bee09482ae5feb",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-04T17:06:19Z",
+  "new_commit_message": "Dev wipes, sized poster cache, layout polish (#62)",
+  "commit_url": "https://github.com/ngareleo/xstream/commit/82d1f0321a15aaac8a9f016000bee09482ae5feb",
+  "compare_url": "https://github.com/ngareleo/xstream/compare/b1ecda2e14bc6a25f97336d74c2ec4e1b16678fd...82d1f0321a15aaac8a9f016000bee09482ae5feb",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "ngareleo/xstream",
+    "path": ".claude/skills/seq/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "004613800dfebb2c9d21c139ba9bc2f5af2b9ae3",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-04T17:06:19Z",
+    "commit_count": 7,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/ngareleo/xstream/commits?path=.claude%2Fskills%2Fseq%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0030",
+  "old": {
+    "revision": "b1ecda2e14bc6a25f97336d74c2ec4e1b16678fd",
+    "tree_sha": "7a5fd4ba98ddf480d789a0feb9fc3c0dfb2c6097",
+    "file_count": 1,
+    "bytes": 15067,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "96fdc51936cb4d23231c49f92fef1995e00f1d87",
+      "sha256": "ffbec5e4b4709da1286d061cc1ad023cc787ac44047e871fcb25388173ff4915",
+      "size": 15067
+    }
+  },
+  "new": {
+    "revision": "82d1f0321a15aaac8a9f016000bee09482ae5feb",
+    "tree_sha": "03eecaf468364e574042d738ccce967d285dbe8a",
+    "file_count": 1,
+    "bytes": 16244,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "004613800dfebb2c9d21c139ba9bc2f5af2b9ae3",
+      "sha256": "d53df7af1b90b97aa19981852178f7dd10ec08f5b3b75088924831ffae18969b",
+      "size": 16244
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "6ffb98a0e6fc98e99421ef299a9c1dcf9aa330ce8b1e74d2d8cab2ce6752e2ad"
+}

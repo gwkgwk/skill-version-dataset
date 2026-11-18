@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0378",
+  "repo_full_name": "AgentLayer1/agent-kevin",
+  "skill_path": "skills/self-review/SKILL.md",
+  "skill_directory": "skills/self-review",
+  "old_revision": "3f4cfa12c5f11803152cfd4d12c02a7ee61d3f1f",
+  "new_revision": "3e885a3d662d4e59308d22c75fb3fea8e3e4bd7f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-06T19:27:06Z",
+  "new_commit_message": "Surface absolute report path in skill output",
+  "commit_url": "https://github.com/AgentLayer1/agent-kevin/commit/3e885a3d662d4e59308d22c75fb3fea8e3e4bd7f",
+  "compare_url": "https://github.com/AgentLayer1/agent-kevin/compare/3f4cfa12c5f11803152cfd4d12c02a7ee61d3f1f...3e885a3d662d4e59308d22c75fb3fea8e3e4bd7f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "AgentLayer1/agent-kevin",
+    "path": "skills/self-review/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "007aea67ec03f3c0ea55676dfb84041230bbc43f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-06T19:27:06Z",
+    "commit_count": 7,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/AgentLayer1/agent-kevin/commits?path=skills%2Fself-review%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0378",
+  "old": {
+    "revision": "3f4cfa12c5f11803152cfd4d12c02a7ee61d3f1f",
+    "tree_sha": "c248fce067d50dd10710af23a8f1a829dc4494e5",
+    "file_count": 1,
+    "bytes": 13842,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "de5faf030e6cee0331e5b01a29b1da5ecb440618",
+      "sha256": "0a32a6eccbcb1063a5f9be488b4c3d99b33bbcf378a4258dd70388c4120d0236",
+      "size": 13842
+    }
+  },
+  "new": {
+    "revision": "3e885a3d662d4e59308d22c75fb3fea8e3e4bd7f",
+    "tree_sha": "94c43e84afbc4cbbc5bdd5cbe64e1826444f3c15",
+    "file_count": 1,
+    "bytes": 13939,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "007aea67ec03f3c0ea55676dfb84041230bbc43f",
+      "sha256": "9a377817346611d2279b8c63e1dd2df3266012b58a5d5ff5155ac2fd69935ee1",
+      "size": 13939
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "53c3d7f3542f41ed2b93736080902743e65500dac373dd1dda620b68e2d573dc"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0311",
+  "repo_full_name": "dariushoule/roorecon",
+  "skill_path": ".claude/skills/teardown/SKILL.md",
+  "skill_directory": ".claude/skills/teardown",
+  "old_revision": "26132a5264f4ec407962a38e8911288015db5ad0",
+  "new_revision": "8c8f0d58d1866f12a76bb1e4e0e0252f66dfdfab",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-16T17:15:45Z",
+  "new_commit_message": "retro skill",
+  "commit_url": "https://github.com/dariushoule/roorecon/commit/8c8f0d58d1866f12a76bb1e4e0e0252f66dfdfab",
+  "compare_url": "https://github.com/dariushoule/roorecon/compare/26132a5264f4ec407962a38e8911288015db5ad0...8c8f0d58d1866f12a76bb1e4e0e0252f66dfdfab",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "dariushoule/roorecon",
+    "path": ".claude/skills/teardown/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00ad5cd95a41b7010a02b82820670b56b194c107",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-06-16T17:15:45Z",
+    "commit_count": 5,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/dariushoule/roorecon/commits?path=.claude%2Fskills%2Fteardown%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0311",
+  "old": {
+    "revision": "26132a5264f4ec407962a38e8911288015db5ad0",
+    "tree_sha": "896e75964522c53e4e0bee335bceccacd4ee5d17",
+    "file_count": 1,
+    "bytes": 4626,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0135a9f03c65a9a26395ac38af3e194f43d99247",
+      "sha256": "45137ebe0fd1cadcbc3d8168c494e67009fc9b67c5ee28c0b92337ab42229240",
+      "size": 4626
+    }
+  },
+  "new": {
+    "revision": "8c8f0d58d1866f12a76bb1e4e0e0252f66dfdfab",
+    "tree_sha": "82f47313ab6bc2b38461e1da3855a660eae59876",
+    "file_count": 1,
+    "bytes": 4917,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00ad5cd95a41b7010a02b82820670b56b194c107",
+      "sha256": "3ea3f302a2a021d4a259b70e75e6bbd77102a7d25fb6c5fe09f914946c374583",
+      "size": 4917
+    }
+  },
+  "diff_added_lines": 5,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "4a0db66aeafa5ccfe054ed73bc37ff1a165a39a1b9e6cdb0783e7dfc7c395620"
+}

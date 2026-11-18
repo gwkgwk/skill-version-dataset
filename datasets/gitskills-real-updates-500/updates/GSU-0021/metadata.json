@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0021",
+  "repo_full_name": "onose004/dotfiles",
+  "skill_path": ".claude/skills/create-pr-default/SKILL.md",
+  "skill_directory": ".claude/skills/create-pr-default",
+  "old_revision": "b4e137969f7120ca0ffe530837b52c8f55f32dcd",
+  "new_revision": "de108dc59f0c86bea18fde43705d5ba98e96058b",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-04T09:22:51Z",
+  "new_commit_message": "feat: Electron アプリのアップデータ停止を直すスクリプトと Claude スキルを追加 (#19)",
+  "commit_url": "https://github.com/onose004/dotfiles/commit/de108dc59f0c86bea18fde43705d5ba98e96058b",
+  "compare_url": "https://github.com/onose004/dotfiles/compare/b4e137969f7120ca0ffe530837b52c8f55f32dcd...de108dc59f0c86bea18fde43705d5ba98e96058b",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "onose004/dotfiles",
+    "path": ".claude/skills/create-pr-default/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00b0d77d05c0a6f62112679aaa21bb98b352ad08",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-04T09:22:51Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/onose004/dotfiles/commits?path=.claude%2Fskills%2Fcreate-pr-default%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0021",
+  "old": {
+    "revision": "b4e137969f7120ca0ffe530837b52c8f55f32dcd",
+    "tree_sha": "82ae2dbe071a6241a54ce5528fb93b36846a5781",
+    "file_count": 1,
+    "bytes": 2040,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8f66aab21d3b344c65782ef186da4fcc4adcb665",
+      "sha256": "9b6fb0b5da90df1f3fc07e41c925e234ec81dd0787f7d42e498d1f80fd291e56",
+      "size": 2040
+    }
+  },
+  "new": {
+    "revision": "de108dc59f0c86bea18fde43705d5ba98e96058b",
+    "tree_sha": "9dfd865df08d40de7f79f259761a4017309545cf",
+    "file_count": 1,
+    "bytes": 3141,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00b0d77d05c0a6f62112679aaa21bb98b352ad08",
+      "sha256": "bfa9f4ff31a3f2f40d48e15e8c8dd5eb466f874e2412f55b4ff39898abdc607a",
+      "size": 3141
+    }
+  },
+  "diff_added_lines": 24,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "d05e04c2b92ad68065e99a662aeb9c26167a629efc1cf88becb28eb661a2c811"
+}

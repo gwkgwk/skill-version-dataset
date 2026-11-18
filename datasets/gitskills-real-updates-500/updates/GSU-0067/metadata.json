@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0067",
+  "repo_full_name": "Jpk0512/ryu-next",
+  "skill_path": ".claude/skills/worktree-merge-discipline/SKILL.md",
+  "skill_directory": ".claude/skills/worktree-merge-discipline",
+  "old_revision": "b2744b5e4dc508a9d17d0c2848594107c186fa05",
+  "new_revision": "3a99aaa20fc8c74c7824ea86cc85b2caef0fd7c6",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-29T20:40:39Z",
+  "new_commit_message": "worktree-merge-discipline: also audit npm-global symlinks + IDE workspace refs",
+  "commit_url": "https://github.com/Jpk0512/ryu-next/commit/3a99aaa20fc8c74c7824ea86cc85b2caef0fd7c6",
+  "compare_url": "https://github.com/Jpk0512/ryu-next/compare/b2744b5e4dc508a9d17d0c2848594107c186fa05...3a99aaa20fc8c74c7824ea86cc85b2caef0fd7c6",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Jpk0512/ryu-next",
+    "path": ".claude/skills/worktree-merge-discipline/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "003ede3b33520d098d63f66b17241726b0e9d7ea",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-29T20:40:39Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/Jpk0512/ryu-next/commits?path=.claude%2Fskills%2Fworktree-merge-discipline%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0067",
+  "old": {
+    "revision": "b2744b5e4dc508a9d17d0c2848594107c186fa05",
+    "tree_sha": "e516ad9ff60a16264d4cbee26995b71af81f26bf",
+    "file_count": 1,
+    "bytes": 6101,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "4f4c2298b6cc9c92fde10edee01d70a493ad118f",
+      "sha256": "358a07abbd64cab28b8b61047217634c1009bd43a5fce3af01326490f1e8bd11",
+      "size": 6101
+    }
+  },
+  "new": {
+    "revision": "3a99aaa20fc8c74c7824ea86cc85b2caef0fd7c6",
+    "tree_sha": "9b91f1103fb89ce33f04ae1c002a4eadaa99e2e7",
+    "file_count": 1,
+    "bytes": 7573,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "003ede3b33520d098d63f66b17241726b0e9d7ea",
+      "sha256": "851206028dbe32d5ff700d4f6159e871f3ca7091a75a86e415413e075617da22",
+      "size": 7573
+    }
+  },
+  "diff_added_lines": 29,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "9d6022e28c74cea12dc119e1eae9262193c89dedf8aaf8e1f3214765a45b1bcb"
+}

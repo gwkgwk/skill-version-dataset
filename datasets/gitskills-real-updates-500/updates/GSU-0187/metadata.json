@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0187",
+  "repo_full_name": "KxSystems/NYSETAQBenchmarks",
+  "skill_path": ".claude/skills/run-nyse-taq-benchmarks/SKILL.md",
+  "skill_directory": ".claude/skills/run-nyse-taq-benchmarks",
+  "old_revision": "8db1720888dcafcef5aaca270d6cd12ca5f28d56",
+  "new_revision": "49077526bf2989c71c643d5c85e5a3f7f84caaa0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-13T14:22:19Z",
+  "new_commit_message": "KDBX-673Fix7 result restructure",
+  "commit_url": "https://github.com/KxSystems/NYSETAQBenchmarks/commit/49077526bf2989c71c643d5c85e5a3f7f84caaa0",
+  "compare_url": "https://github.com/KxSystems/NYSETAQBenchmarks/compare/8db1720888dcafcef5aaca270d6cd12ca5f28d56...49077526bf2989c71c643d5c85e5a3f7f84caaa0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "KxSystems/NYSETAQBenchmarks",
+    "path": ".claude/skills/run-nyse-taq-benchmarks/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01395c0aed5cfdd9fdae3fdeca5c0236be135c41",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-13T14:22:19Z",
+    "commit_count": 6,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/KxSystems/NYSETAQBenchmarks/commits?path=.claude%2Fskills%2Frun-nyse-taq-benchmarks%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0187",
+  "old": {
+    "revision": "8db1720888dcafcef5aaca270d6cd12ca5f28d56",
+    "tree_sha": "31bb879666dd61694f5c1f0edbd356950b342818",
+    "file_count": 1,
+    "bytes": 13076,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "af34798018fffad1207e8d42c58ed8da9a4c3dff",
+      "sha256": "292ef02dc8fbf41307f74cb8d5a79905a6b8572488c127ef2f2dfa4ec3ea6026",
+      "size": 13076
+    }
+  },
+  "new": {
+    "revision": "49077526bf2989c71c643d5c85e5a3f7f84caaa0",
+    "tree_sha": "c6c12ee548c686219e9781cb0ecbb2db9ed869cb",
+    "file_count": 1,
+    "bytes": 13067,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01395c0aed5cfdd9fdae3fdeca5c0236be135c41",
+      "sha256": "01c1b674a9fa76903c812b2a8bfd7f21e221ae7e66a0a9c3a0295ae6ba5dcfc6",
+      "size": 13067
+    }
+  },
+  "diff_added_lines": 14,
+  "diff_deleted_lines": 15,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "370be4e91c3a301ac8fc311142544774a91fb0df0a93da939050fd422086f2c3"
+}

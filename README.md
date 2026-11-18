@@ -1,4 +1,19 @@
-# Skill Version Dataset — MalSkills 历史版本追溯
+# Skill Version Dataset
+
+本仓库将不同来源的数据分开存放，安全标签按各数据集的证据保留。
+
+| 数据集 | 位置 | 范围与安全标签 |
+| --- | --- | --- |
+| GitSkills 真实更新 | [datasets/gitskills-real-updates-500/](datasets/gitskills-real-updates-500/) | 500 个 skill、500 个仓库、500 条真实更新、1,000 份完整目录快照；安全标签全部未标注，不作为良性真值 |
+| MalSkills 历史追溯 | 本仓库根目录的原有数据，说明见下文 | 包含原始 benign / malicious 快照标签和历史候选对；历史版本及更新对没有独立安全真值 |
+
+GitSkills 与 MalSkills 原始文件分开存放，未将 GitSkills 数据混入恶意样本集。
+
+[GitSkills 安全初审报告](audits/gitskills-real-updates-500/README.md)：500 条全量规则初筛，44 条助手上下文复核；安全标签仍全部未知，不能直接作为良性真值。
+
+GitSkills 入口：[采集说明](datasets/gitskills-real-updates-500/README.md)、[500 条索引](datasets/gitskills-real-updates-500/updates_index.csv)、[下载 ZIP](datasets/gitskills-real-updates-500/gitskills-real-updates-500.zip)、[校验报告](datasets/gitskills-real-updates-500/verification_report.json)。
+
+## MalSkills 历史版本追溯
 
 2026-11-18 整理。来源固定为 [security-pride/MalSkills](https://github.com/security-pride/MalSkills/tree/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth)，
 历史文件通过保留原提交的 [friuns2/openclaw-removed-skills](https://github.com/friuns2/openclaw-removed-skills) 恢复。

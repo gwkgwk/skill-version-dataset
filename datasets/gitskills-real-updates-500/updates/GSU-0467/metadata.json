@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0467",
+  "repo_full_name": "algolia/instantsearch",
+  "skill_path": ".claude/skills/port-widget/SKILL.md",
+  "skill_directory": ".claude/skills/port-widget",
+  "old_revision": "795d8b8574df5e643e769c928d1002b4e9e6d1c0",
+  "new_revision": "379084cd459a0d8b0f4f2a55b0dae336cf331008",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-26T15:32:38Z",
+  "new_commit_message": "feat(chat): split chat trigger widget (#6966)",
+  "commit_url": "https://github.com/algolia/instantsearch/commit/379084cd459a0d8b0f4f2a55b0dae336cf331008",
+  "compare_url": "https://github.com/algolia/instantsearch/compare/795d8b8574df5e643e769c928d1002b4e9e6d1c0...379084cd459a0d8b0f4f2a55b0dae336cf331008",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "algolia/instantsearch",
+    "path": ".claude/skills/port-widget/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "005f11da55c9ee4704e1b1f3cd801f95ac451ee6",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-05-26T15:32:38Z",
+    "commit_count": 3,
+    "sibling_count": 6,
+    "sibling_bytes": 22875,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/algolia/instantsearch/commits?path=.claude%2Fskills%2Fport-widget%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0467",
+  "old": {
+    "revision": "795d8b8574df5e643e769c928d1002b4e9e6d1c0",
+    "tree_sha": "ace2b96adca00073aba3ef0f5bc0a1cac83d1a7e",
+    "file_count": 7,
+    "bytes": 28722,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "2be2d4ff3a0f3169970b895438a765f19a49bd89",
+      "sha256": "735dbcf3472ef40915f2b9ac852bf64df70b625653223bd127a1dd6121fde14b",
+      "size": 5847
+    }
+  },
+  "new": {
+    "revision": "379084cd459a0d8b0f4f2a55b0dae336cf331008",
+    "tree_sha": "e8ee6ee0c944b7a915c740fc481dc7d8fd833c28",
+    "file_count": 7,
+    "bytes": 29743,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "005f11da55c9ee4704e1b1f3cd801f95ac451ee6",
+      "sha256": "b1ca69d0c411b5e06b76c38d46af5229d32efd442fc380924434e754d71b059e",
+      "size": 6868
+    }
+  },
+  "diff_added_lines": 9,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "85e71805e2ccf41d4970a07eecef8fe39828435c24b6b367e5c6324334096846"
+}

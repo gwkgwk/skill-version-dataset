@@ -1,0 +1,75 @@
+{
+  "id": "GSU-0029",
+  "repo_full_name": "theodo-group/debug-that",
+  "skill_path": ".claude/skills/debug-that/SKILL.md",
+  "skill_directory": ".claude/skills/debug-that",
+  "old_revision": "95ade650dc19309bf5aae7221d1eb9e48eb3011b",
+  "new_revision": "086f67365ea31ce5c5a19847a0475aca1a1695a0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-01T07:48:15Z",
+  "new_commit_message": "Document Python (debugpy) debugging in the dbg skill (#13)",
+  "commit_url": "https://github.com/theodo-group/debug-that/commit/086f67365ea31ce5c5a19847a0475aca1a1695a0",
+  "compare_url": "https://github.com/theodo-group/debug-that/compare/95ade650dc19309bf5aae7221d1eb9e48eb3011b...086f67365ea31ce5c5a19847a0475aca1a1695a0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "theodo-group/debug-that",
+    "path": ".claude/skills/debug-that/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01a7c73d032505d739c75c8debc932a21722b42f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-01T07:48:15Z",
+    "commit_count": 3,
+    "sibling_count": 1,
+    "sibling_bytes": 7220,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/theodo-group/debug-that/commits?path=.claude%2Fskills%2Fdebug-that%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0029",
+  "old": {
+    "revision": "95ade650dc19309bf5aae7221d1eb9e48eb3011b",
+    "tree_sha": "d499c92605bea61623a359a87b882fba01bb5a7a",
+    "file_count": 2,
+    "bytes": 12693,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "95e0385efa261c1d07bd68e2fc851b3301af6f8b",
+      "sha256": "d04395aabd2afefa1e40c1cd6a705181d3a9ae16521716eca0ec9364f214509f",
+      "size": 5638
+    }
+  },
+  "new": {
+    "revision": "086f67365ea31ce5c5a19847a0475aca1a1695a0",
+    "tree_sha": "2ba6d5285e45431e5b59b4e9f1a8162c09771443",
+    "file_count": 2,
+    "bytes": 14908,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01a7c73d032505d739c75c8debc932a21722b42f",
+      "sha256": "876145c210d8509547492c5be64eb5e827ae44aa5d37699933bdb79be945ffb1",
+      "size": 7688
+    }
+  },
+  "diff_added_lines": 48,
+  "diff_deleted_lines": 7,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/commands.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "73af62b0fdf3976c08d4b4cc1981c7278bd3cee8807ea92bf101d2b6f775f031"
+}

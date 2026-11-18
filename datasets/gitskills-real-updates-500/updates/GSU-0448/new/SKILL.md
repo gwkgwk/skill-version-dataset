@@ -1,0 +1,257 @@
+---
+name: tenancy-enforcer
+description: Use this skill when writing MongoDB queries, repository methods, or service logic in Aegis. It enforces strict multi-tenancy by ensuring communityId is always included.
+---
+
+# Aegis Multi-Tenancy Enforcer
+
+## When This Skill Applies
+
+- Writing ANY MongoDB query (find, update, delete)
+- Creating repository methods
+- Implementing service layer logic
+- Adding new indexes to schemas
+- Creating aggregate pipelines
+
+## The Absolute Rule
+
+**Every database query MUST include `communityId` in the filter.**
+
+No exceptions. Cross-community access is a security breach.
+
+## Source of communityId
+
+### Correct: From JWT Token
+
+```typescript
+// Controller extracts from token
+@Get()
+async findAll(@CurrentUser() user: JwtPayload) {
+  return this.service.findAll(user.communityId);
+}
+
+// Service passes to repository
+async findAll(communityId: string) {
+  return this.repository.findAll(communityId);
+}
+
+// Repository includes in query
+async findAll(communityId: string) {
+  return this.model.find({
+    communityId: new Types.ObjectId(communityId),
+  });
+}
+```
+
+### Wrong: From Request Body
+
+```typescript
+// NEVER DO THIS
+@Post()
+async create(@Body() dto: CreateDto) {
+  // dto.communityId could be forged by attacker
+  return this.service.create(dto.communityId, dto);
+}
+```
+
+## Repository Method Patterns
+
+### Find Methods
+
+```typescript
+// Always require communityId as parameter
+async findById(id: string, communityId: string): Promise<Document | null> {
+  return this.model.findOne({
+    _id: new Types.ObjectId(id),
+    communityId: new Types.ObjectId(communityId), // REQUIRED
+  });
+}
+
+async findByHousehold(householdId: string, communityId: string): Promise<Document[]> {
+  return this.model.find({
+    householdId: new Types.ObjectId(householdId),
+    communityId: new Types.ObjectId(communityId), // REQUIRED
+  });
+}
+```
+
+### Update Methods
+
+```typescript
+async updateById(
+  id: string,
+  communityId: string,
+  data: UpdateDto,
+): Promise<Document | null> {
+  return this.model.findOneAndUpdate(
+    {
+      _id: new Types.ObjectId(id),
+      communityId: new Types.ObjectId(communityId), // REQUIRED in filter
+    },
+    { $set: data },
+    { new: true },
+  );
+}
+```
+
+### Delete Methods
+
+```typescript
+async deleteById(id: string, communityId: string): Promise<boolean> {
+  const result = await this.model.deleteOne({
+    _id: new Types.ObjectId(id),
+    communityId: new Types.ObjectId(communityId), // REQUIRED
+  });
+  return result.deletedCount > 0;
+}
+```
+
+## Common Anti-Patterns (FORBIDDEN)
+
+### Global Queries
+
+```typescript
+// WRONG - No communityId filter
+async findAll(): Promise<Document[]> {
+  return this.model.find({}); // SECURITY BREACH
+}
+
+// WRONG - ID-only lookup
+async findById(id: string): Promise<Document | null> {
+  return this.model.findById(id); // Can access ANY community's data
+}
+```
+
+### Optional communityId
+
+```typescript
+// WRONG - communityId should never be optional
+async findById(id: string, communityId?: string): Promise<Document | null> {
+  const filter: any = { _id: new Types.ObjectId(id) };
+  if (communityId) {
+    filter.communityId = new Types.ObjectId(communityId);
+  }
+  return this.model.findOne(filter); // Dangerous when omitted
+}
+```
+
+### Trusting Request Body
+
+```typescript
+// WRONG - Request body can be forged
+@Post()
+async create(@Body() dto: CreatePaymentDto) {
+  return this.paymentService.create({
+    ...dto,
+    communityId: dto.communityId, // Attacker can set any communityId
+  });
+}
+
+// CORRECT - Use JWT context
+@Post()
+async create(
+  @Body() dto: CreatePaymentDto,
+  @CurrentUser() user: JwtPayload,
+) {
+  return this.paymentService.create({
+    ...dto,
+    communityId: user.communityId, // From authenticated token
+  });
+}
+```
+
+## Index Patterns
+
+All compound indexes MUST have `communityId` as the first field for query efficiency and logical isolation.
+
+```typescript
+// CORRECT - communityId first
+@Schema()
+export class Payment {
+  // ...
+}
+
+PaymentSchema.index({ communityId: 1, householdId: 1 });
+PaymentSchema.index({ communityId: 1, state: 1 });
+PaymentSchema.index({ communityId: 1, householdId: 1, billingPeriodStart: 1 }, { unique: true });
+
+// WRONG - communityId not first
+PaymentSchema.index({ householdId: 1, communityId: 1 }); // Query won't use index efficiently
+PaymentSchema.index({ state: 1 }); // Global index, no tenant isolation
+```
+
+## Aggregate Pipeline Rules
+
+```typescript
+// CORRECT - $match with communityId as first stage
+async aggregateByHousehold(communityId: string) {
+  return this.model.aggregate([
+    {
+      $match: {
+        communityId: new Types.ObjectId(communityId), // FIRST stage
+      },
+    },
+    {
+      $group: {
+        _id: '$householdId',
+        total: { $sum: '$amount' },
+      },
+    },
+  ]);
+}
+
+// WRONG - Missing communityId or not first
+async aggregateAll() {
+  return this.model.aggregate([
+    { $group: { _id: '$householdId', total: { $sum: '$amount' } } }, // No tenant filter
+  ]);
+}
+```
+
+## Service Layer Enforcement
+
+Services should always require communityId from controllers, never have default values or lookups.
+
+```typescript
+// CORRECT - Explicit communityId parameter
+@Injectable()
+export class PaymentService {
+  async findByHousehold(householdId: string, communityId: string) {
+    return this.repository.findByHousehold(householdId, communityId);
+  }
+}
+
+// WRONG - Fetching communityId from related entity
+@Injectable()
+export class PaymentService {
+  async findByHousehold(householdId: string) {
+    const household = await this.householdService.findById(householdId);
+    // What if household doesn't exist? What if wrong community?
+    return this.repository.findByHousehold(householdId, household.communityId);
+  }
+}
+```
+
+## Exception: Community Collection
+
+The `Community` collection itself does not have a `communityId` field - it IS the tenant root. When querying communities:
+
+```typescript
+// Community queries use _id directly (admin operations only)
+async findCommunityById(id: string): Promise<Community | null> {
+  return this.communityModel.findById(id);
+}
+```
+
+## Verification Checklist
+
+Before committing any repository/service code:
+
+- [ ] Every `find()` call includes `communityId` in filter
+- [ ] Every `findOne()` call includes `communityId` in filter
+- [ ] Every `updateOne()`/`updateMany()` includes `communityId` in filter
+- [ ] Every `deleteOne()`/`deleteMany()` includes `communityId` in filter
+- [ ] All aggregate pipelines have `$match` with `communityId` as first stage
+- [ ] `communityId` comes from JWT/controller, not request body
+- [ ] No methods have optional `communityId` parameter
+- [ ] New indexes have `communityId` as first field in compound indexes

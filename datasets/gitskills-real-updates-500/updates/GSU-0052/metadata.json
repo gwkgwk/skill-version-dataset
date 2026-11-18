@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0052",
+  "repo_full_name": "sakamotchi/sql-query-build",
+  "skill_path": ".claude/skills/check-nuxt-ui-v4/SKILL.md",
+  "skill_directory": ".claude/skills/check-nuxt-ui-v4",
+  "old_revision": "4be6313575a24bf986b0ad2f1951f07041ac5944",
+  "new_revision": "4de4fb41ed397e8014a122e594820dcebf44039a",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-01T02:14:48Z",
+  "new_commit_message": "[add]8.1 共通基盤実装",
+  "commit_url": "https://github.com/sakamotchi/sql-query-build/commit/4de4fb41ed397e8014a122e594820dcebf44039a",
+  "compare_url": "https://github.com/sakamotchi/sql-query-build/compare/4be6313575a24bf986b0ad2f1951f07041ac5944...4de4fb41ed397e8014a122e594820dcebf44039a",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "sakamotchi/sql-query-build",
+    "path": ".claude/skills/check-nuxt-ui-v4/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "01194f8ab9420a651efa81b6c6a86eaf4131ad58",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-01-01T02:14:48Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 6174,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/sakamotchi/sql-query-build/commits?path=.claude%2Fskills%2Fcheck-nuxt-ui-v4%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0052",
+  "old": {
+    "revision": "4be6313575a24bf986b0ad2f1951f07041ac5944",
+    "tree_sha": "e6c9e93a3ebe8409956b1bdfaf69c0bf9555db90",
+    "file_count": 2,
+    "bytes": 11838,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "6dc3e9e260b20c7d9f04a5659fa90cac9a10ce3f",
+      "sha256": "aedd9ff314bee47034bc8826fb21d38e28a7a61f0947a7e32a7c0cd7b523ef67",
+      "size": 5664
+    }
+  },
+  "new": {
+    "revision": "4de4fb41ed397e8014a122e594820dcebf44039a",
+    "tree_sha": "1d87077fd3011be735a92be2ac57ce06f7429f4f",
+    "file_count": 2,
+    "bytes": 12705,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01194f8ab9420a651efa81b6c6a86eaf4131ad58",
+      "sha256": "8d22e34b33cf23a0b5e170c3e86950f566dcef3dd996b6db1a4b617d2c31fdab",
+      "size": 6531
+    }
+  },
+  "diff_added_lines": 23,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "5fed9cae367a1d02f1de70607fe717111d0a70741c8c05723f0ebc7d1c1e2522"
+}

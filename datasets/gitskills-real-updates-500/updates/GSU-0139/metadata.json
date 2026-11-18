@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0139",
+  "repo_full_name": "yigitkonur/plugin-swiftui",
+  "skill_path": "skills/audit-swiftui-concurrency-safety/SKILL.md",
+  "skill_directory": "skills/audit-swiftui-concurrency-safety",
+  "old_revision": "9b375a350843f0f906ace5aed1f3f200067e428e",
+  "new_revision": "b80c7da0be531e307c7b4a39279ab992b8a4c45d",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-09T14:29:12Z",
+  "new_commit_message": "docs(skills): close shared-reference coverage gaps in five audits",
+  "commit_url": "https://github.com/yigitkonur/plugin-swiftui/commit/b80c7da0be531e307c7b4a39279ab992b8a4c45d",
+  "compare_url": "https://github.com/yigitkonur/plugin-swiftui/compare/9b375a350843f0f906ace5aed1f3f200067e428e...b80c7da0be531e307c7b4a39279ab992b8a4c45d",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "yigitkonur/plugin-swiftui",
+    "path": "skills/audit-swiftui-concurrency-safety/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "001c5a293cf5cbb848ea28112e38e6a3f531f080",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-09T14:29:12Z",
+    "commit_count": 4,
+    "sibling_count": 8,
+    "sibling_bytes": 28264,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": "NOASSERTION"
+  },
+  "history_endpoint": "https://api.github.com/repos/yigitkonur/plugin-swiftui/commits?path=skills%2Faudit-swiftui-concurrency-safety%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0139",
+  "old": {
+    "revision": "9b375a350843f0f906ace5aed1f3f200067e428e",
+    "tree_sha": "5ef509685d99a5a3be5c8e5df730065423210d1c",
+    "file_count": 9,
+    "bytes": 48562,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d8c3a67ea4c6ee196d270c29b9a3e29526e56158",
+      "sha256": "a64a3638cd92b5ba6977819040f31770e04f0f76ce61e1ff3689464ae4affceb",
+      "size": 20298
+    }
+  },
+  "new": {
+    "revision": "b80c7da0be531e307c7b4a39279ab992b8a4c45d",
+    "tree_sha": "172d8ab80c4e0bf47711661c25bcd53f8be17e28",
+    "file_count": 9,
+    "bytes": 48671,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "001c5a293cf5cbb848ea28112e38e6a3f531f080",
+      "sha256": "2db6b0bfa571881f6e8d149893a109a7f8e48cdc791c8cb83e1c2caa9091e819",
+      "size": 20407
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "059cc43c600adeb0a5554413702009f20ec6aa20aad27ba1bc581baa46718864"
+}

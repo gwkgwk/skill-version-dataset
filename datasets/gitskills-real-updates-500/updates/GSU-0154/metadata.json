@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0154",
+  "repo_full_name": "FriendsOfREDAXO/claude-marketplace",
+  "skill_path": "plugins/redaxo-core/skills/rex-create-addon/SKILL.md",
+  "skill_directory": "plugins/redaxo-core/skills/rex-create-addon",
+  "old_revision": "a98317f2475d42d482046cf9069a8a1e29be0954",
+  "new_revision": "b36f56a9a055644b74837d4e1b4cf1a97b2adeef",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-12T21:28:53Z",
+  "new_commit_message": "rex-create-addon: tighten description with German triggers and module-skill boundary (#18)",
+  "commit_url": "https://github.com/FriendsOfREDAXO/claude-marketplace/commit/b36f56a9a055644b74837d4e1b4cf1a97b2adeef",
+  "compare_url": "https://github.com/FriendsOfREDAXO/claude-marketplace/compare/a98317f2475d42d482046cf9069a8a1e29be0954...b36f56a9a055644b74837d4e1b4cf1a97b2adeef",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "FriendsOfREDAXO/claude-marketplace",
+    "path": "plugins/redaxo-core/skills/rex-create-addon/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00e670ef9a3d70be659e5be49a7092002e5aad3f",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-12T21:28:53Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/FriendsOfREDAXO/claude-marketplace/commits?path=plugins%2Fredaxo-core%2Fskills%2Frex-create-addon%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0154",
+  "old": {
+    "revision": "a98317f2475d42d482046cf9069a8a1e29be0954",
+    "tree_sha": "8591c92df60981e61f561fcd635b98b24f507a63",
+    "file_count": 1,
+    "bytes": 2892,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "fe00bf024ad088ee5ef6caa4931fc9b251abe1cd",
+      "sha256": "42194d81237edd55edc388a35d0d0fc6962982a45d4d86e9c98f2ffdf68abf3a",
+      "size": 2892
+    }
+  },
+  "new": {
+    "revision": "b36f56a9a055644b74837d4e1b4cf1a97b2adeef",
+    "tree_sha": "9abeeb9418651b1983ffa7ad74d4815782c9257a",
+    "file_count": 1,
+    "bytes": 3069,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00e670ef9a3d70be659e5be49a7092002e5aad3f",
+      "sha256": "e5016f51c843946f138c7a71b401007be02f548e4d67a296706960b18b91ecdc",
+      "size": 3069
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "11f32db235af786d49e5a2d9966b5e006b7dbc7c986fa941e3fd19bb1041e984"
+}

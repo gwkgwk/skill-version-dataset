@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0299",
+  "repo_full_name": "stomx/cmux-skills",
+  "skill_path": "plugins/jira-issue-documentation/skills/jira-issue-documentation/SKILL.md",
+  "skill_directory": "plugins/jira-issue-documentation/skills/jira-issue-documentation",
+  "old_revision": "1109b1c36aa2cb636b8d6f324f35ab9a125b7d0f",
+  "new_revision": "d279ad9bf527cb530b773144d324ddae6ad3f1f1",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-20T12:25:12Z",
+  "new_commit_message": "feat(jira-issue-documentation): v1.0.1 — cmux 워크스페이스 갱신을 Step 0.0 으로 이동",
+  "commit_url": "https://github.com/stomx/cmux-skills/commit/d279ad9bf527cb530b773144d324ddae6ad3f1f1",
+  "compare_url": "https://github.com/stomx/cmux-skills/compare/1109b1c36aa2cb636b8d6f324f35ab9a125b7d0f...d279ad9bf527cb530b773144d324ddae6ad3f1f1",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "stomx/cmux-skills",
+    "path": "plugins/jira-issue-documentation/skills/jira-issue-documentation/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "01072143cf0ea82ed17021b177eba3d6e3efed4f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-20T12:25:12Z",
+    "commit_count": 2,
+    "sibling_count": 4,
+    "sibling_bytes": 31326,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/stomx/cmux-skills/commits?path=plugins%2Fjira-issue-documentation%2Fskills%2Fjira-issue-documentation%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0299",
+  "old": {
+    "revision": "1109b1c36aa2cb636b8d6f324f35ab9a125b7d0f",
+    "tree_sha": "7189e8d1c52f272a79d6592827c9d743c2533631",
+    "file_count": 5,
+    "bytes": 57731,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "f1179479d0deaf5eff82de8b3d3695806a1d61e5",
+      "sha256": "7e5126de4f08c60457ded353e36c4dbe04fc8dd6f35a1990ae9fcfc6f103ab11",
+      "size": 26405
+    }
+  },
+  "new": {
+    "revision": "d279ad9bf527cb530b773144d324ddae6ad3f1f1",
+    "tree_sha": "08da3d4ec1b1caed6cfeeeefbd64e24ca284052c",
+    "file_count": 5,
+    "bytes": 58450,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01072143cf0ea82ed17021b177eba3d6e3efed4f",
+      "sha256": "935258035ab9b27d811215024d95c95589c7c75e79b648f7ae4c613201aa7a78",
+      "size": 27124
+    }
+  },
+  "diff_added_lines": 24,
+  "diff_deleted_lines": 19,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0e4c9a329fe5c936723e59f1adec1fd52d29ff6ddde25e20b72f1e0a8a950829"
+}

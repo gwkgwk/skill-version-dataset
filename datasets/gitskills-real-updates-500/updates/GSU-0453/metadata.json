@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0453",
+  "repo_full_name": "shakefu/contextium",
+  "skill_path": ".claude/skills/skill-improver/SKILL.md",
+  "skill_directory": ".claude/skills/skill-improver",
+  "old_revision": "28ef0c44296ced938989e1de2ebbe1d5d286ce03",
+  "new_revision": "6a8ba46d37e605427cd0b4a5924e0b224a851baa",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-01-27T09:00:33Z",
+  "new_commit_message": "feat(skills): add subagent support and claude.md sync to skills",
+  "commit_url": "https://github.com/shakefu/contextium/commit/6a8ba46d37e605427cd0b4a5924e0b224a851baa",
+  "compare_url": "https://github.com/shakefu/contextium/compare/28ef0c44296ced938989e1de2ebbe1d5d286ce03...6a8ba46d37e605427cd0b4a5924e0b224a851baa",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "shakefu/contextium",
+    "path": ".claude/skills/skill-improver/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "006ed0449ff6392be0db5388e3e5bb2faf427cb7",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-01-27T08:51:37Z",
+    "commit_count": 2,
+    "sibling_count": 4,
+    "sibling_bytes": 1592,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "AGPL-3.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/shakefu/contextium/commits?path=.claude%2Fskills%2Fskill-improver%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0453",
+  "old": {
+    "revision": "28ef0c44296ced938989e1de2ebbe1d5d286ce03",
+    "tree_sha": "a6380e6abe57def77d3a21e0ea2e34a8ee1546b9",
+    "file_count": 5,
+    "bytes": 4458,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "a468da8ca45ba0c83eeaf0997bf54b2e7971f2d5",
+      "sha256": "0299e02aca2c779c8e89e00c4683757f6be78c3564189f7421695a50b66f00f7",
+      "size": 2866
+    }
+  },
+  "new": {
+    "revision": "6a8ba46d37e605427cd0b4a5924e0b224a851baa",
+    "tree_sha": "ce9007d054e2cb400e0b58f86690814e5212843d",
+    "file_count": 5,
+    "bytes": 4548,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "006ed0449ff6392be0db5388e3e5bb2faf427cb7",
+      "sha256": "806ad7df61e9910ad3e2e1807d39cb98b1ebdb9c86c01fa63c47652f3fd38ab7",
+      "size": 2956
+    }
+  },
+  "diff_added_lines": 11,
+  "diff_deleted_lines": 8,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "18566390bee25b6a07a40250bf5ae3e79d2d231134099e2998dd13c089535f39"
+}

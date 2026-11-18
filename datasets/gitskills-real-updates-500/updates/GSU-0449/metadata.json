@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0449",
+  "repo_full_name": "cuioss/nifi-extensions",
+  "skill_path": ".claude/skills/update-guide-screenshots/SKILL.md",
+  "skill_directory": ".claude/skills/update-guide-screenshots",
+  "old_revision": "ed9472a485313854e3ed0867e230c1f0ee0d3e36",
+  "new_revision": "d118531c3b0bbe29d3982a080203b298be22eee3",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-09T09:11:51Z",
+  "new_commit_message": "docs: update screenshot skill to remove deleted specification references",
+  "commit_url": "https://github.com/cuioss/nifi-extensions/commit/d118531c3b0bbe29d3982a080203b298be22eee3",
+  "compare_url": "https://github.com/cuioss/nifi-extensions/compare/ed9472a485313854e3ed0867e230c1f0ee0d3e36...d118531c3b0bbe29d3982a080203b298be22eee3",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "cuioss/nifi-extensions",
+    "path": ".claude/skills/update-guide-screenshots/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "004b0fc997cf3a58489b1921fe73ec6e777825f4",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-03-09T09:11:51Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/cuioss/nifi-extensions/commits?path=.claude%2Fskills%2Fupdate-guide-screenshots%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0449",
+  "old": {
+    "revision": "ed9472a485313854e3ed0867e230c1f0ee0d3e36",
+    "tree_sha": "6883d8c1ddb1e30f0eee93dec57df6c82aeb1f0f",
+    "file_count": 1,
+    "bytes": 10378,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "fe1e55b48b3bb2a74a079a414681d67adc3909b4",
+      "sha256": "33fde7180059b3d4d20a0984f0a75d01989628dd99c69662362d8f8e74afe563",
+      "size": 10378
+    }
+  },
+  "new": {
+    "revision": "d118531c3b0bbe29d3982a080203b298be22eee3",
+    "tree_sha": "835f775ac86b097bfb02dd9b18890fda6bee465f",
+    "file_count": 1,
+    "bytes": 8765,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "004b0fc997cf3a58489b1921fe73ec6e777825f4",
+      "sha256": "d5c7c14ce5cc4b2e555463788ebc83f392bb1296e1d93d66c0a282858476f7e8",
+      "size": 8765
+    }
+  },
+  "diff_added_lines": 3,
+  "diff_deleted_lines": 29,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "40c6a53c9a07e0e3b1a40e2c49c333820be986995359e6e2a99ba003cd0a8e93"
+}

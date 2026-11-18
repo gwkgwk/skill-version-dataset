@@ -1,0 +1,82 @@
+{
+  "id": "GSU-0309",
+  "repo_full_name": "yoshihiko555/ai-orchestra",
+  "skill_path": ".claude/skills/design/SKILL.md",
+  "skill_directory": ".claude/skills/design",
+  "old_revision": "9f5ccf770848a29489e0644543bdefede6569e74",
+  "new_revision": "02e2e9d5b13283cf2bd5877edc071055a426b6b4",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-04T14:30:29Z",
+  "new_commit_message": "feat(design): 設計フェーズスキルに二段品質ゲートと下流連携を導入 (#144)",
+  "commit_url": "https://github.com/yoshihiko555/ai-orchestra/commit/02e2e9d5b13283cf2bd5877edc071055a426b6b4",
+  "compare_url": "https://github.com/yoshihiko555/ai-orchestra/compare/9f5ccf770848a29489e0644543bdefede6569e74...02e2e9d5b13283cf2bd5877edc071055a426b6b4",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "yoshihiko555/ai-orchestra",
+    "path": ".claude/skills/design/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00c03a929b91c77574e432bdb87e5f12e970317f",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-04T14:30:29Z",
+    "commit_count": 7,
+    "sibling_count": 7,
+    "sibling_bytes": 86349,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/yoshihiko555/ai-orchestra/commits?path=.claude%2Fskills%2Fdesign%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0309",
+  "old": {
+    "revision": "9f5ccf770848a29489e0644543bdefede6569e74",
+    "tree_sha": "8bfe21bdf9f0cfdbbc6d722c80827ae51109dcb6",
+    "file_count": 7,
+    "bytes": 77437,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "8d5932c68ee6e3b4a3d6756b97ae05eecca9afe3",
+      "sha256": "ecd9b99488f81bcba6b77e47951806b462c8a591df6f604eec11e7b0d54e0c5c",
+      "size": 23190
+    }
+  },
+  "new": {
+    "revision": "02e2e9d5b13283cf2bd5877edc071055a426b6b4",
+    "tree_sha": "97e88becda7adbdaa509f7efe1648c80274513ae",
+    "file_count": 8,
+    "bytes": 114949,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00c03a929b91c77574e432bdb87e5f12e970317f",
+      "sha256": "704905fd9326d79bf10f32c93a949aa3f26dd21bd696ba23faf578673bb4bc3f",
+      "size": 28600
+    }
+  },
+  "diff_added_lines": 62,
+  "diff_deleted_lines": 16,
+  "changed_files": {
+    "added": [
+      "references/design-review.md"
+    ],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "references/basic-design.md",
+      "references/design-system.md",
+      "references/detailed-design.md",
+      "references/requirements.md",
+      "references/security-design.md",
+      "references/test-design.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "16b318bbd62a4a18c48d9ad6442577182de3229976f48c75260bdbe63583d5d7"
+}

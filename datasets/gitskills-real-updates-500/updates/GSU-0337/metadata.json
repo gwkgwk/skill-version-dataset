@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0337",
+  "repo_full_name": "penserai/gopher-cli",
+  "skill_path": ".claude/skills/research/SKILL.md",
+  "skill_directory": ".claude/skills/research",
+  "old_revision": "184cf5c2d2755c3e12aa82075d2df0547f1d9805",
+  "new_revision": "62c47e82a37369c03896d64571cb9a1bee581182",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-03-01T15:27:50Z",
+  "new_commit_message": "Rename project from gopher-mcp to gopher-cli",
+  "commit_url": "https://github.com/penserai/gopher-cli/commit/62c47e82a37369c03896d64571cb9a1bee581182",
+  "compare_url": "https://github.com/penserai/gopher-cli/compare/184cf5c2d2755c3e12aa82075d2df0547f1d9805...62c47e82a37369c03896d64571cb9a1bee581182",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "penserai/gopher-cli",
+    "path": ".claude/skills/research/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00871308840ca79d5f75bf30d0ea4e7de6f59012",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-03-01T15:27:50Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/penserai/gopher-cli/commits?path=.claude%2Fskills%2Fresearch%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0337",
+  "old": {
+    "revision": "184cf5c2d2755c3e12aa82075d2df0547f1d9805",
+    "tree_sha": "678b61a3728a885e30147b211084a5b3f513e132",
+    "file_count": 1,
+    "bytes": 1601,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "cfd2681f0d755c1da381acbe68b34d43118fb92e",
+      "sha256": "ece44428e5f2ea6d3018740659655ddae32d4afd183697fb7c0973481fb11d7e",
+      "size": 1601
+    }
+  },
+  "new": {
+    "revision": "62c47e82a37369c03896d64571cb9a1bee581182",
+    "tree_sha": "f606204f54f8f09f22514a7ef5ed056cfc4a887c",
+    "file_count": 1,
+    "bytes": 1565,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00871308840ca79d5f75bf30d0ea4e7de6f59012",
+      "sha256": "cbf3c1ef9904272d7a9bc1cd9ffc72698b0228ffeb7d472ad5f2b2f4da35e067",
+      "size": 1565
+    }
+  },
+  "diff_added_lines": 11,
+  "diff_deleted_lines": 11,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "652a317c0de42bc87e0274fcea53c0605c606e950e48b6a2990e29eeea59674a"
+}

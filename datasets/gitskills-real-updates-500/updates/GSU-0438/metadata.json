@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0438",
+  "repo_full_name": "USS-Parks/Lamprey-Harness",
+  "skill_path": ".claude/skills/lamprey-ship-and-release/SKILL.md",
+  "skill_directory": ".claude/skills/lamprey-ship-and-release",
+  "old_revision": "b1a3cba94adab9b7e890e6124a578109ab9c1fe4",
+  "new_revision": "17df19f120d2becd836f24dbe56e4ddd0aaa71ac",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-18T16:59:30Z",
+  "new_commit_message": "Release Steering and Queue as v0.20.0",
+  "commit_url": "https://github.com/USS-Parks/Lamprey-Harness/commit/17df19f120d2becd836f24dbe56e4ddd0aaa71ac",
+  "compare_url": "https://github.com/USS-Parks/Lamprey-Harness/compare/b1a3cba94adab9b7e890e6124a578109ab9c1fe4...17df19f120d2becd836f24dbe56e4ddd0aaa71ac",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "USS-Parks/Lamprey-Harness",
+    "path": ".claude/skills/lamprey-ship-and-release/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "010546760a750b0275e91cf3d23b1a6bc6301261",
+    "discovered_at": "2026-07-20T07:38:28.581854+00:00",
+    "last_commit_at": "2026-07-18T16:59:30Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/USS-Parks/Lamprey-Harness/commits?path=.claude%2Fskills%2Flamprey-ship-and-release%2FSKILL.md&per_page=10&until=2026-07-20T07%3A38%3A29.581854%2B00%3A00",
+  "history_cutoff": "2026-07-20T07:38:29.581854+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0438",
+  "old": {
+    "revision": "b1a3cba94adab9b7e890e6124a578109ab9c1fe4",
+    "tree_sha": "d492d42af03a6a812b973e6d78cf3c15f8219597",
+    "file_count": 1,
+    "bytes": 6534,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c7a1fc03232d5f9f69c21ffcbb225f78bae467ce",
+      "sha256": "7c7e5a925ba3961b5ffaf3bea202ba77728193aea7ab526232b5c74b3930aea8",
+      "size": 6534
+    }
+  },
+  "new": {
+    "revision": "17df19f120d2becd836f24dbe56e4ddd0aaa71ac",
+    "tree_sha": "a06a64922a6e266d0964f68221c9806b0b5fecdf",
+    "file_count": 1,
+    "bytes": 7003,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "010546760a750b0275e91cf3d23b1a6bc6301261",
+      "sha256": "5270e05df27c4c24ff5047b1f5acb8974f5a09bcbac208b46452843c52d7c1e6",
+      "size": 7003
+    }
+  },
+  "diff_added_lines": 22,
+  "diff_deleted_lines": 8,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "f13ef325b949a44b4d1884d733f286eeb11681a214901cdce14873b91af29d65"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0053",
+  "repo_full_name": "LinusConradM/feeding_america",
+  "skill_path": ".claude/skills/team-assembler/SKILL.md",
+  "skill_directory": ".claude/skills/team-assembler",
+  "old_revision": "f557c5f9bbf12f28eb8d03adcb6307e301677f24",
+  "new_revision": "4d256e36de5f66c02ea5dd58f29ff49cbce607db",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-19T03:35:45Z",
+  "new_commit_message": "chore(skills): introduce _shared/PROJECT_CONTEXT.md + expand role roster",
+  "commit_url": "https://github.com/LinusConradM/feeding_america/commit/4d256e36de5f66c02ea5dd58f29ff49cbce607db",
+  "compare_url": "https://github.com/LinusConradM/feeding_america/compare/f557c5f9bbf12f28eb8d03adcb6307e301677f24...4d256e36de5f66c02ea5dd58f29ff49cbce607db",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "LinusConradM/feeding_america",
+    "path": ".claude/skills/team-assembler/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00dab6942bbdf0ee9d57a0a436ff52cf5027469d",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-05-19T03:35:45Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/LinusConradM/feeding_america/commits?path=.claude%2Fskills%2Fteam-assembler%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0053",
+  "old": {
+    "revision": "f557c5f9bbf12f28eb8d03adcb6307e301677f24",
+    "tree_sha": "048b3520503d4751ea7ec52702b7a615022f757f",
+    "file_count": 1,
+    "bytes": 6716,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e1812a87cbe62d79dc3d17f877988961dca5e32d",
+      "sha256": "00b90a7ee5c31b7cc15634ccc30dc55d8aa8ef9340b762e9d31407a786b9beff",
+      "size": 6716
+    }
+  },
+  "new": {
+    "revision": "4d256e36de5f66c02ea5dd58f29ff49cbce607db",
+    "tree_sha": "f16116ddd06014bb4805acc4d6877bee9378914c",
+    "file_count": 1,
+    "bytes": 7800,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00dab6942bbdf0ee9d57a0a436ff52cf5027469d",
+      "sha256": "2458535e085eafd3e27d40d2fbcd7c4b052409b3ca888eb610f3617600c84a02",
+      "size": 7800
+    }
+  },
+  "diff_added_lines": 15,
+  "diff_deleted_lines": 4,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0b1cab389b76cd26d9ab9ed4ce1c71c261d6f3cc2a0519aef40f7d2db2e6ef17"
+}

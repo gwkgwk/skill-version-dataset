@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0196",
+  "repo_full_name": "adigunners/stock_picker_bot",
+  "skill_path": ".claude/skills/global-error-handling/SKILL.md",
+  "skill_directory": ".claude/skills/global-error-handling",
+  "old_revision": "c9f353b091823415f95d2d659560b4969c6ab5a2",
+  "new_revision": "78c7f95e3ffd1dbbea1e71be21bbcc937582eef2",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2025-12-27T18:41:49Z",
+  "new_commit_message": "feat: improve Claude Code Skills for stock_picker_bot Python backend",
+  "commit_url": "https://github.com/adigunners/stock_picker_bot/commit/78c7f95e3ffd1dbbea1e71be21bbcc937582eef2",
+  "compare_url": "https://github.com/adigunners/stock_picker_bot/compare/c9f353b091823415f95d2d659560b4969c6ab5a2...78c7f95e3ffd1dbbea1e71be21bbcc937582eef2",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "adigunners/stock_picker_bot",
+    "path": ".claude/skills/global-error-handling/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0164908250692b067ec3c66467aa6fa3e4acf20c",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2025-12-27T18:41:49Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/adigunners/stock_picker_bot/commits?path=.claude%2Fskills%2Fglobal-error-handling%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0196",
+  "old": {
+    "revision": "c9f353b091823415f95d2d659560b4969c6ab5a2",
+    "tree_sha": "e0c1ff1d136b4c67f5d0bb938e326db1cd2c1523",
+    "file_count": 1,
+    "bytes": 517,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c372279b002277cd76cbe12e1f65b12f05e1b4cc",
+      "sha256": "1b8894f971c58d57829fe3adce4cf6035757385c86eb497412e5f96d4538d9c1",
+      "size": 517
+    }
+  },
+  "new": {
+    "revision": "78c7f95e3ffd1dbbea1e71be21bbcc937582eef2",
+    "tree_sha": "714a66a8d3deb856cd6264631a5f228f3f60e6ee",
+    "file_count": 1,
+    "bytes": 1212,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0164908250692b067ec3c66467aa6fa3e4acf20c",
+      "sha256": "ed11ef9b7dd6841fb887a545257b7fd4e1834a2f53c4972cb3ca1c955ed2018e",
+      "size": 1212
+    }
+  },
+  "diff_added_lines": 15,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "5e7e53954d3e7d20431e89ee7418ad41747ed6c1bb2b5a4a597d14e3bd104b85"
+}

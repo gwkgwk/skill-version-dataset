@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0290",
+  "repo_full_name": "FranciscoJRSantos/personal-agents",
+  "skill_path": "skills/plan/SKILL.md",
+  "skill_directory": "skills/plan",
+  "old_revision": "f3baf07ccef498436d86e07b3c848247f162b177",
+  "new_revision": "840c25adcd700ed5ea8022983c521ba8ca2ee4b0",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-07T18:47:43Z",
+  "new_commit_message": "Streamline skill surface: 22 → 10 skills",
+  "commit_url": "https://github.com/FranciscoJRSantos/dotagents/commit/840c25adcd700ed5ea8022983c521ba8ca2ee4b0",
+  "compare_url": "https://github.com/FranciscoJRSantos/personal-agents/compare/f3baf07ccef498436d86e07b3c848247f162b177...840c25adcd700ed5ea8022983c521ba8ca2ee4b0",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "FranciscoJRSantos/personal-agents",
+    "path": "skills/plan/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "012b25fb45d42e8476127f2c1ea9c551a764053c",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-07T18:47:43Z",
+    "commit_count": 2,
+    "sibling_count": 1,
+    "sibling_bytes": 5049,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/FranciscoJRSantos/personal-agents/commits?path=skills%2Fplan%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0290",
+  "old": {
+    "revision": "f3baf07ccef498436d86e07b3c848247f162b177",
+    "tree_sha": "b15c813a740e3bc560f647d8b43019f64476e7a4",
+    "file_count": 2,
+    "bytes": 20812,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "2ef7f98d592ac606e13139fb41ad9eac27e329cf",
+      "sha256": "7d24603b6733b4d6886e28aa32c1266af47b4263bfc421588aa48814ee657a64",
+      "size": 15763
+    }
+  },
+  "new": {
+    "revision": "840c25adcd700ed5ea8022983c521ba8ca2ee4b0",
+    "tree_sha": "91402c0081008c000b120c087089858110f1052a",
+    "file_count": 2,
+    "bytes": 20244,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "012b25fb45d42e8476127f2c1ea9c551a764053c",
+      "sha256": "24cae709ac12ae7887d5ad98dc9405aae6c88d3a5da7fa6104a818fcf18e5c31",
+      "size": 15195
+    }
+  },
+  "diff_added_lines": 4,
+  "diff_deleted_lines": 24,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "237283c636282a3cf5d06366676ca1cf0bf0bcde67858693a9784492b9157679"
+}

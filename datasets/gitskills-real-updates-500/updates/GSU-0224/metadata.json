@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0224",
+  "repo_full_name": "guardiatechnology/ahrena",
+  "skill_path": ".claude/skills/kata-checkpoint-save/SKILL.md",
+  "skill_directory": ".claude/skills/kata-checkpoint-save",
+  "old_revision": "f7f022b748a52f69ec21eaac617b1fc934923021",
+  "new_revision": "2f4f7ea801b4cf279887635427cccd3c09fdfdc8",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-14T14:06:08Z",
+  "new_commit_message": "fix(framework): address Argos cycle 1 tangential findings — purge remaining legacy plan-NNN refs",
+  "commit_url": "https://github.com/ahrenatechnology/ahrena/commit/2f4f7ea801b4cf279887635427cccd3c09fdfdc8",
+  "compare_url": "https://github.com/guardiatechnology/ahrena/compare/f7f022b748a52f69ec21eaac617b1fc934923021...2f4f7ea801b4cf279887635427cccd3c09fdfdc8",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "guardiatechnology/ahrena",
+    "path": ".claude/skills/kata-checkpoint-save/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00e9325697b019ac81b947b62a50066ae16eec6a",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-05-14T14:06:08Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/guardiatechnology/ahrena/commits?path=.claude%2Fskills%2Fkata-checkpoint-save%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0224",
+  "old": {
+    "revision": "f7f022b748a52f69ec21eaac617b1fc934923021",
+    "tree_sha": "94c3d82d6e931da9b9750f3efdd024c1924e3310",
+    "file_count": 1,
+    "bytes": 5653,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e6d5ff0119fabefae68b69cce076a8903888843f",
+      "sha256": "3c07961bec8547964c9d68e82b87dca8fcbb6060f5a604e1b91d98e745a6f45d",
+      "size": 5653
+    }
+  },
+  "new": {
+    "revision": "2f4f7ea801b4cf279887635427cccd3c09fdfdc8",
+    "tree_sha": "508fbdda36254235134998478986b7a559007361",
+    "file_count": 1,
+    "bytes": 5567,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00e9325697b019ac81b947b62a50066ae16eec6a",
+      "sha256": "dd630369e6536d8d53dd7917751531f1dc91114253b78674dc93e8ced7f57fd5",
+      "size": 5567
+    }
+  },
+  "diff_added_lines": 2,
+  "diff_deleted_lines": 2,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0276870944e755a3ab2e33448ebe45e44e6e3701ef13a57a64f2775720520302"
+}

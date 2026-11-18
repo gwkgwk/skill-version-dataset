@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0079",
+  "repo_full_name": "post-bridge-hq/agent-mode",
+  "skill_path": "skills/post-bridge/SKILL.md",
+  "skill_directory": "skills/post-bridge",
+  "old_revision": "b8e4178c805f313d2565b27de27b2a46b949a958",
+  "new_revision": "4ee31f757aca702a31db64010253094d125fed1c",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-16T19:13:58Z",
+  "new_commit_message": "docs: complete platform config reference for all 10 platforms",
+  "commit_url": "https://github.com/post-bridge-hq/agent-mode/commit/4ee31f757aca702a31db64010253094d125fed1c",
+  "compare_url": "https://github.com/post-bridge-hq/agent-mode/compare/b8e4178c805f313d2565b27de27b2a46b949a958...4ee31f757aca702a31db64010253094d125fed1c",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "post-bridge-hq/agent-mode",
+    "path": "skills/post-bridge/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00ec710f045cc67ca9d42b44e28de3511890a140",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-16T19:13:58Z",
+    "commit_count": 12,
+    "sibling_count": 1,
+    "sibling_bytes": 11370,
+    "has_scripts": 1,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/post-bridge-hq/agent-mode/commits?path=skills%2Fpost-bridge%2FSKILL.md&per_page=10&until=2026-07-16T19%3A13%3A59%2B00%3A00",
+  "history_cutoff": "2026-07-16T19:13:59+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0079",
+  "old": {
+    "revision": "b8e4178c805f313d2565b27de27b2a46b949a958",
+    "tree_sha": "c1995f2fde8b4ce1afb1c3ba24043c920d6e7936",
+    "file_count": 2,
+    "bytes": 28015,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "2e5a29b0c9ab3c3a144dc9238c47ce1a26c7fa13",
+      "sha256": "de473ddd3f2757a6af4ede6de14b5f2f78f330226907d041c1553770c444c14c",
+      "size": 16645
+    }
+  },
+  "new": {
+    "revision": "4ee31f757aca702a31db64010253094d125fed1c",
+    "tree_sha": "4aa854b384f1fe3bde5686afbef3f8654f8c291a",
+    "file_count": 2,
+    "bytes": 32574,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00ec710f045cc67ca9d42b44e28de3511890a140",
+      "sha256": "483f375417e050639b1c181eeb64d8ffaf51cc3d57bddd9c5e44ba41ad64a9ec",
+      "size": 21204
+    }
+  },
+  "diff_added_lines": 58,
+  "diff_deleted_lines": 27,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "1327c991871ccc43730d9d361bf9e8c729e1e609202afe48ab0756953d6385bf"
+}

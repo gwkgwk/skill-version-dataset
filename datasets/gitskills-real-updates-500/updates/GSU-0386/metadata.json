@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0386",
+  "repo_full_name": "Klotzkette/claude-fuer-deutsches-recht",
+  "skill_path": "notariat-alltag/skills/beteiligter-betreuung-landwirtschaftsverkehr/SKILL.md",
+  "skill_directory": "notariat-alltag/skills/beteiligter-betreuung-landwirtschaftsverkehr",
+  "old_revision": "7875da065db68a1bbba6b0dcf6caf26bba31ed4b",
+  "new_revision": "59071ed44d19f771aeb0adb9543217c391333ac9",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-01T09:32:54Z",
+  "new_commit_message": "v406.0.0: Skill-Auswahl und Einstiegssignale geschaerft",
+  "commit_url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht/commit/59071ed44d19f771aeb0adb9543217c391333ac9",
+  "compare_url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht/compare/7875da065db68a1bbba6b0dcf6caf26bba31ed4b...59071ed44d19f771aeb0adb9543217c391333ac9",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Klotzkette/claude-fuer-deutsches-recht",
+    "path": "notariat-alltag/skills/beteiligter-betreuung-landwirtschaftsverkehr/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00289e71fff1b010a48bef2ff967845ff0f8e025",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-07-01T09:32:54Z",
+    "commit_count": 19,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/Klotzkette/claude-fuer-deutsches-recht/commits?path=notariat-alltag%2Fskills%2Fbeteiligter-betreuung-landwirtschaftsverkehr%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0386",
+  "old": {
+    "revision": "7875da065db68a1bbba6b0dcf6caf26bba31ed4b",
+    "tree_sha": "72287ae6111e527f8ca5f907a5a98ee3340cf884",
+    "file_count": 1,
+    "bytes": 6389,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "3be9c7d1419989a0b3d4f82c933d3c4dbe195191",
+      "sha256": "1aaff3a94f0da5c3bdc4e654b5416db6bffc8f5a486a9d5d076abdcc2298d2dc",
+      "size": 6389
+    }
+  },
+  "new": {
+    "revision": "59071ed44d19f771aeb0adb9543217c391333ac9",
+    "tree_sha": "96ef45cba9a5e5d874e627ecb5ca81460571b9e8",
+    "file_count": 1,
+    "bytes": 6401,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00289e71fff1b010a48bef2ff967845ff0f8e025",
+      "sha256": "74adf636b2fee7e7ca4a55ddda14d98d748eb44368e3f95e54f4960873ccc162",
+      "size": 6401
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "8e7d5621d074c55fecfa8d2eb9f6d28b7eb6c0127a7add115b65e804629f2440"
+}

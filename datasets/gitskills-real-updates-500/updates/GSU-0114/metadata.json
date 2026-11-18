@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0114",
+  "repo_full_name": "einja-inc/einja-management-template",
+  "skill_path": ".claude/skills/cli-package-specs/SKILL.md",
+  "skill_directory": ".claude/skills/cli-package-specs",
+  "old_revision": "600bf58aaa4b4080ef9996bcda572312c2fdeb96",
+  "new_revision": "8d4c05dcddb04e578ecc60304bf0c7da68cad84f",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-17T05:32:00Z",
+  "new_commit_message": "docs: Volta→mise移行のドキュメント更新",
+  "commit_url": "https://github.com/einja-inc/einja-management-template/commit/8d4c05dcddb04e578ecc60304bf0c7da68cad84f",
+  "compare_url": "https://github.com/einja-inc/einja-management-template/compare/600bf58aaa4b4080ef9996bcda572312c2fdeb96...8d4c05dcddb04e578ecc60304bf0c7da68cad84f",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "einja-inc/einja-management-template",
+    "path": ".claude/skills/cli-package-specs/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00c9e207422ea6713ed715d76d816c2850eb3f59",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-17T05:32:00Z",
+    "commit_count": 6,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/einja-inc/einja-management-template/commits?path=.claude%2Fskills%2Fcli-package-specs%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0114",
+  "old": {
+    "revision": "600bf58aaa4b4080ef9996bcda572312c2fdeb96",
+    "tree_sha": "38ac5be9f19f21c935e8202796f6d25cfe84574a",
+    "file_count": 1,
+    "bytes": 15964,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "c61e5b50e3d166eec110b4ad94d9855190812e79",
+      "sha256": "9e4234ff4d4fdb9d440d491de9e13addeca4372cc2da2ecda9139b2ffb778db2",
+      "size": 15964
+    }
+  },
+  "new": {
+    "revision": "8d4c05dcddb04e578ecc60304bf0c7da68cad84f",
+    "tree_sha": "49c09592a148ad7bdd4173990baffceaf87c1f13",
+    "file_count": 1,
+    "bytes": 15972,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00c9e207422ea6713ed715d76d816c2850eb3f59",
+      "sha256": "e3a1648462c73b6c14e05948f9e56e38fc142d97ccb56a70a947d8b3c44b653a",
+      "size": 15972
+    }
+  },
+  "diff_added_lines": 5,
+  "diff_deleted_lines": 5,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "e5aa1636fd6c56740b9ab9fb73329e2e6ea75f1fe511c7881e4b87f16a5c315e"
+}

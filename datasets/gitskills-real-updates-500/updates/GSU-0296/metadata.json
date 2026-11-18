@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0296",
+  "repo_full_name": "BasharAmso/Bashi",
+  "skill_path": ".claude/skills/bug-investigation/SKILL.md",
+  "skill_directory": ".claude/skills/bug-investigation",
+  "old_revision": "0d251451ebc211573e89bc984e9d1720290ce6db",
+  "new_revision": "dd1f5fbafcfae339a8b755bbcb7f2117ce557c80",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-01T22:45:10Z",
+  "new_commit_message": "feat: v3.2.0 — Output Contracts, /test-skill, Knowledge Enhancement, companion files",
+  "commit_url": "https://github.com/BasharAmso/Bashi/commit/dd1f5fbafcfae339a8b755bbcb7f2117ce557c80",
+  "compare_url": "https://github.com/BasharAmso/Bashi/compare/0d251451ebc211573e89bc984e9d1720290ce6db...dd1f5fbafcfae339a8b755bbcb7f2117ce557c80",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "BasharAmso/Bashi",
+    "path": ".claude/skills/bug-investigation/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00885a502b8747bd71f96458d5da661235127ec2",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-04-01T22:45:10Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/BasharAmso/Bashi/commits?path=.claude%2Fskills%2Fbug-investigation%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0296",
+  "old": {
+    "revision": "0d251451ebc211573e89bc984e9d1720290ce6db",
+    "tree_sha": "b9e175972ce4db35fa11be16c98caafc2d002689",
+    "file_count": 1,
+    "bytes": 2596,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "1e9e7fd6c647df9068eb1a6934ca12bee63e1e59",
+      "sha256": "1e9927a9a98291b45afc92f9d4c3ee5a93feda47104d31f012229ee625bd96d6",
+      "size": 2596
+    }
+  },
+  "new": {
+    "revision": "dd1f5fbafcfae339a8b755bbcb7f2117ce557c80",
+    "tree_sha": "8726d5e1ff194b0c98c33b611d0238bdd318014d",
+    "file_count": 1,
+    "bytes": 2855,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00885a502b8747bd71f96458d5da661235127ec2",
+      "sha256": "43348bbca24978918fe3d6899bcc3ab68872b63263c41c08a3b327aef14234c5",
+      "size": 2855
+    }
+  },
+  "diff_added_lines": 8,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "7095d773ba58e45d1891a93f617d8f27a3b4f8814e213f3e4b7b1505a3c38a06"
+}

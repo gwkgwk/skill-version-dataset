@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0439",
+  "repo_full_name": "khushil/dayone",
+  "skill_path": ".claude/skills/mle-trace/SKILL.md",
+  "skill_directory": ".claude/skills/mle-trace",
+  "old_revision": "157e2ba5963d198243ca29831c8314cf06a14425",
+  "new_revision": "115b9f0fffef462e8067f3de8b578b66bb6d1fed",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-25T17:11:08Z",
+  "new_commit_message": "chore(tooling): realign MLE scaffold to TypeScript + GitHub (#31)",
+  "commit_url": "https://github.com/khushil/dayone/commit/115b9f0fffef462e8067f3de8b578b66bb6d1fed",
+  "compare_url": "https://github.com/khushil/dayone/compare/157e2ba5963d198243ca29831c8314cf06a14425...115b9f0fffef462e8067f3de8b578b66bb6d1fed",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "khushil/dayone",
+    "path": ".claude/skills/mle-trace/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "004f39f37b39571ac612ba34fa2ca306a7e4f0e0",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-06-25T17:11:08Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "Apache-2.0"
+  },
+  "history_endpoint": "https://api.github.com/repos/khushil/dayone/commits?path=.claude%2Fskills%2Fmle-trace%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0439",
+  "old": {
+    "revision": "157e2ba5963d198243ca29831c8314cf06a14425",
+    "tree_sha": "a2d9e00230e314835bcfd94ff09df7f231bd887e",
+    "file_count": 1,
+    "bytes": 1722,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d9f78f3f9ba53df2febc6f2c954e25d2b3e33a77",
+      "sha256": "447b59f3f645b783f06da8d4847f8ab54ce1e0d03a653a81ee1131e1d2458d1d",
+      "size": 1722
+    }
+  },
+  "new": {
+    "revision": "115b9f0fffef462e8067f3de8b578b66bb6d1fed",
+    "tree_sha": "c9ccaa887d5caae55ba174231db9f335102c82fd",
+    "file_count": 1,
+    "bytes": 3209,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "004f39f37b39571ac612ba34fa2ca306a7e4f0e0",
+      "sha256": "11ed5e9acbb9f4dcda23efcd0343db588f40096cc82b47b85e57cc3ddcc3340b",
+      "size": 3209
+    }
+  },
+  "diff_added_lines": 47,
+  "diff_deleted_lines": 21,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0308f25555f7a77b9666a96a2046c937e9fbf069151c259ed22233e390edc239"
+}

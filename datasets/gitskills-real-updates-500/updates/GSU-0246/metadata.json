@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0246",
+  "repo_full_name": "kazukin123/anet-lab",
+  "skill_path": ".claude/skills/grill-me/SKILL.md",
+  "skill_directory": ".claude/skills/grill-me",
+  "old_revision": "28abd0e5353b3949fe518573167cf8603bedca6d",
+  "new_revision": "78062058ae570589e341630449791d454124f4da",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-01T11:44:12Z",
+  "new_commit_message": "grill-meで最後にプランもしくは実装の実行確認質問を行うよう修正。 #7",
+  "commit_url": "https://github.com/kazukin123/anet-lab/commit/78062058ae570589e341630449791d454124f4da",
+  "compare_url": "https://github.com/kazukin123/anet-lab/compare/28abd0e5353b3949fe518573167cf8603bedca6d...78062058ae570589e341630449791d454124f4da",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "kazukin123/anet-lab",
+    "path": ".claude/skills/grill-me/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "008d2f209986db596754efc805169e863ce524c7",
+    "discovered_at": "2026-07-09T18:07:39.150068+00:00",
+    "last_commit_at": "2026-07-01T11:44:12Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/kazukin123/anet-lab/commits?path=.claude%2Fskills%2Fgrill-me%2FSKILL.md&per_page=10&until=2026-07-09T18%3A07%3A40.150068%2B00%3A00",
+  "history_cutoff": "2026-07-09T18:07:40.150068+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0246",
+  "old": {
+    "revision": "28abd0e5353b3949fe518573167cf8603bedca6d",
+    "tree_sha": "2a1ad17028306ebe45f0e49703fa28b9b2e7f499",
+    "file_count": 1,
+    "bytes": 635,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "bd04394c675ee54173a093c50eb74da01a2940fa",
+      "sha256": "74147eb6010a65957efef2b9e0f0b3ff935c1def7fc117697151b1d0f3610556",
+      "size": 635
+    }
+  },
+  "new": {
+    "revision": "78062058ae570589e341630449791d454124f4da",
+    "tree_sha": "139c1e8a4aecc4ae3eb4e94060f1308a781f8a94",
+    "file_count": 1,
+    "bytes": 1409,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "008d2f209986db596754efc805169e863ce524c7",
+      "sha256": "59c131103917fe9461f22cea081e2b399732d69733ad702df8b49f87301fe2c1",
+      "size": 1409
+    }
+  },
+  "diff_added_lines": 6,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "e0693fa8b8d8fd4ada7962854df8a8bbaee4486ddadc0a7dc27953e9621dbe8a"
+}

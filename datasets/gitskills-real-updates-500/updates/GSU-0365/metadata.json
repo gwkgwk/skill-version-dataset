@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0365",
+  "repo_full_name": "on-keyday/agent-harness",
+  "skill_path": ".claude/skills/harness-cli/SKILL.md",
+  "skill_directory": ".claude/skills/harness-cli",
+  "old_revision": "84640292f3f0c74ed9f0b56a4474d9d2578f1593",
+  "new_revision": "892a44d06e2804665b243f1775be6c6b68909379",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-22T15:18:08Z",
+  "new_commit_message": "feat(cli): ls --json + align session ls JSON vocabulary",
+  "commit_url": "https://github.com/on-keyday/agent-harness/commit/892a44d06e2804665b243f1775be6c6b68909379",
+  "compare_url": "https://github.com/on-keyday/agent-harness/compare/84640292f3f0c74ed9f0b56a4474d9d2578f1593...892a44d06e2804665b243f1775be6c6b68909379",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "on-keyday/agent-harness",
+    "path": ".claude/skills/harness-cli/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "008ab89e010d0c4302a0b96c86f70a18dbbb5ed6",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-22T15:18:08Z",
+    "commit_count": 19,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/on-keyday/agent-harness/commits?path=.claude%2Fskills%2Fharness-cli%2FSKILL.md&per_page=10&until=2026-07-22T15%3A18%3A09%2B00%3A00",
+  "history_cutoff": "2026-07-22T15:18:09+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0365",
+  "old": {
+    "revision": "84640292f3f0c74ed9f0b56a4474d9d2578f1593",
+    "tree_sha": "21e04b1b52673d3efbc2544b541e043005c93ba0",
+    "file_count": 1,
+    "bytes": 36244,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "008ab89e010d0c4302a0b96c86f70a18dbbb5ed6",
+      "sha256": "e7643e7eb8791bbeff28ab60be5cf51f5ecb918346d5b80dc8aea5f80e9b60fc",
+      "size": 36244
+    }
+  },
+  "new": {
+    "revision": "892a44d06e2804665b243f1775be6c6b68909379",
+    "tree_sha": "07a40600aca2082ab6fa805a44bd5f3a3b60c8df",
+    "file_count": 1,
+    "bytes": 36908,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0531f38a95797d54c8d6e1262cf8c8c0000c051a",
+      "sha256": "cca97eb999740c8ed3c8aed49cb1400a8679e4918e1612b5fb8f80a330e07170",
+      "size": 36908
+    }
+  },
+  "diff_added_lines": 8,
+  "diff_deleted_lines": 3,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "ce0a8e0f4769af79956258b6ccaeebf06e66a1a72db04bf9de403779bc6825e9"
+}

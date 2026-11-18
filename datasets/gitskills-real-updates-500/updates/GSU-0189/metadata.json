@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0189",
+  "repo_full_name": "Lbstrydom/claude-engineering-skills",
+  "skill_path": ".claude/skills/plan/SKILL.md",
+  "skill_directory": ".claude/skills/plan",
+  "old_revision": "dd4ed7796604fe74d6f7339c9d6defb53a226752",
+  "new_revision": "0f0e2b2aee5ea71e1988d8f0e588cb6e754f5f35",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-20T19:18:05Z",
+  "new_commit_message": "feat(gate-honesty): close the ship-gate contradiction; add a hermetic harness",
+  "commit_url": "https://github.com/Lbstrydom/claude-engineering-skills/commit/0f0e2b2aee5ea71e1988d8f0e588cb6e754f5f35",
+  "compare_url": "https://github.com/Lbstrydom/claude-engineering-skills/compare/dd4ed7796604fe74d6f7339c9d6defb53a226752...0f0e2b2aee5ea71e1988d8f0e588cb6e754f5f35",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Lbstrydom/claude-engineering-skills",
+    "path": ".claude/skills/plan/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "00ae27c451222dcd506c481449f8f8387a34a86c",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-21T19:16:34Z",
+    "commit_count": 21,
+    "sibling_count": 6,
+    "sibling_bytes": 18208,
+    "has_scripts": 0,
+    "has_references": 1,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/Lbstrydom/claude-engineering-skills/commits?path=.claude%2Fskills%2Fplan%2FSKILL.md&per_page=10&until=2026-07-21T19%3A16%3A35%2B00%3A00",
+  "history_cutoff": "2026-07-21T19:16:35+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0189",
+  "old": {
+    "revision": "dd4ed7796604fe74d6f7339c9d6defb53a226752",
+    "tree_sha": "9be82d1c8a1a66ff2ec31f7360a1080333e82947",
+    "file_count": 7,
+    "bytes": 50803,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e96d7ff087a6a048c74af21276b824bf1bba70e1",
+      "sha256": "21fe01f32e149669d3eeb867e37bde6cabf05681960f28af18e041f226bde8eb",
+      "size": 32595
+    }
+  },
+  "new": {
+    "revision": "0f0e2b2aee5ea71e1988d8f0e588cb6e754f5f35",
+    "tree_sha": "21fda9815aafebbe3c2a227c3078571082aa5e05",
+    "file_count": 7,
+    "bytes": 50965,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "bb0aea1c099226d14c6cd6d3cf5eacf13b532fc3",
+      "sha256": "c202fb0ad4babe994dd456868b7bfbf5501133faaac9f48fc7eecbd8a5ff7a63",
+      "size": 32757
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "0d56334a3c5dea2deae0081cf4224d6a5a6d2a491b24eb296130abebb4a5a441"
+}

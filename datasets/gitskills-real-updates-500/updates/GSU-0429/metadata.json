@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0429",
+  "repo_full_name": "elg0nz/clawdibrate",
+  "skill_path": "src/skills/tokens/SKILL.md",
+  "skill_directory": "src/skills/tokens",
+  "old_revision": "79666b61dec06a3efeeb2671f68f1e850370f8c5",
+  "new_revision": "c31c2142d1940160a4ede9b61893100656e017f4",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-14T00:39:40Z",
+  "new_commit_message": "fix(skills): rename clawdbrt: skill prefix to clawdbrt- for validator",
+  "commit_url": "https://github.com/elg0nz/clawdibrate/commit/c31c2142d1940160a4ede9b61893100656e017f4",
+  "compare_url": "https://github.com/elg0nz/clawdibrate/compare/79666b61dec06a3efeeb2671f68f1e850370f8c5...c31c2142d1940160a4ede9b61893100656e017f4",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "elg0nz/clawdibrate",
+    "path": "src/skills/tokens/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "00e40fb548cd5439d90c9923fc2d8385868e55f1",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-07-14T00:39:40Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/elg0nz/clawdibrate/commits?path=src%2Fskills%2Ftokens%2FSKILL.md&per_page=10&until=2026-07-14T00%3A39%3A41%2B00%3A00",
+  "history_cutoff": "2026-07-14T00:39:41+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0429",
+  "old": {
+    "revision": "79666b61dec06a3efeeb2671f68f1e850370f8c5",
+    "tree_sha": "bc65e652ec62a4a56e9283a3d9bd3c19ae164aba",
+    "file_count": 1,
+    "bytes": 4773,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "00e40fb548cd5439d90c9923fc2d8385868e55f1",
+      "sha256": "2418ae0de9019f0924fc877201072ce15f1d9ad6e27b93eb1220322d522cd602",
+      "size": 4773
+    }
+  },
+  "new": {
+    "revision": "c31c2142d1940160a4ede9b61893100656e017f4",
+    "tree_sha": "1c9c669419490cf069428b4cd8237c843f3b89af",
+    "file_count": 1,
+    "bytes": 4773,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "0dfdc52177f39bfae45338dfe6ae3956b708f638",
+      "sha256": "8fa57f3c502da09fb3498a51b2d8039ee08c17b6fddd6e645ed6932b31dfd4c8",
+      "size": 4773
+    }
+  },
+  "diff_added_lines": 4,
+  "diff_deleted_lines": 4,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "583df91c7921c2947b0d347f94f01ad45a011ff22a0c92e1a2746c7d1c197a6d"
+}

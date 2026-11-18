@@ -1,0 +1,76 @@
+{
+  "id": "GSU-0044",
+  "repo_full_name": "sangmokang/Valuehire_v5",
+  "skill_path": ".claude/skills/aisearch/SKILL.md",
+  "skill_directory": ".claude/skills/aisearch",
+  "old_revision": "a996362f8d528363409998f1ad47bdaba6c34fca",
+  "new_revision": "45a3d49464cb6ca49cea576d7aa58851d484540d",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-07-23T02:09:47Z",
+  "new_commit_message": "feat(#185): capture browser evidence without extension",
+  "commit_url": "https://github.com/sangmokang/Valuehire_v5/commit/45a3d49464cb6ca49cea576d7aa58851d484540d",
+  "compare_url": "https://github.com/sangmokang/Valuehire_v5/compare/a996362f8d528363409998f1ad47bdaba6c34fca...45a3d49464cb6ca49cea576d7aa58851d484540d",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "sangmokang/Valuehire_v5",
+    "path": ".claude/skills/aisearch/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "0145d5e227c6fddb901d626be760e03f14e4fa64",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-07-23T02:09:47Z",
+    "commit_count": 6,
+    "sibling_count": 5,
+    "sibling_bytes": 76392,
+    "has_scripts": 1,
+    "has_references": 1,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/sangmokang/Valuehire_v5/commits?path=.claude%2Fskills%2Faisearch%2FSKILL.md&per_page=10&until=2026-07-23T02%3A09%3A48%2B00%3A00",
+  "history_cutoff": "2026-07-23T02:09:48+00:00",
+  "gitskills_snapshot_matches_new_primary": false,
+  "local_directory": "updates/GSU-0044",
+  "old": {
+    "revision": "a996362f8d528363409998f1ad47bdaba6c34fca",
+    "tree_sha": "6ad7ff571148f46145475a6265e83eaed817a49d",
+    "file_count": 6,
+    "bytes": 88757,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "d9ea11a9df34b476a6db951a26f83fd0d1861058",
+      "sha256": "cee60110fa22e675753af04e2c92f2873f4d149ff79e31acb21935c4f9bd3cb1",
+      "size": 12365
+    }
+  },
+  "new": {
+    "revision": "45a3d49464cb6ca49cea576d7aa58851d484540d",
+    "tree_sha": "6f640e3c52042e56bc1523c6fb81bbce13e7e8d5",
+    "file_count": 6,
+    "bytes": 90890,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "bf94de325decdc9e091aea34484800fb82ee1481",
+      "sha256": "0f40629b7ed8be0fa7a1721e9c8100837da0b3d67b938e9b9ad9b836e44d0ad1",
+      "size": 13780
+    }
+  },
+  "diff_added_lines": 17,
+  "diff_deleted_lines": 0,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md",
+      "candidate-output-contract.json",
+      "vendor/ai_search_sot_check.py"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "681c7695678e40b0f4d648411b9b9217732caf12a3fc2a11aec9c5a924196e31"
+}

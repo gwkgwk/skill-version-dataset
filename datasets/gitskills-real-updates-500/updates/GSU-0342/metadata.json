@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0342",
+  "repo_full_name": "Innei/Kagura",
+  "skill_path": ".claude/skills/writing-live-e2e-tests/SKILL.md",
+  "skill_directory": ".claude/skills/writing-live-e2e-tests",
+  "old_revision": "aca8bcac843f95794a7a22326b11fa4c0f38c755",
+  "new_revision": "05105df64b453d6d993b4879f9d107e44b04d04a",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-25T07:48:18Z",
+  "new_commit_message": "✅ test: add Codex memory activity live e2e",
+  "commit_url": "https://github.com/Innei/Kagura/commit/05105df64b453d6d993b4879f9d107e44b04d04a",
+  "compare_url": "https://github.com/Innei/Kagura/compare/aca8bcac843f95794a7a22326b11fa4c0f38c755...05105df64b453d6d993b4879f9d107e44b04d04a",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Innei/Kagura",
+    "path": ".claude/skills/writing-live-e2e-tests/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "000dba3b0acd25b57b3c51aa694f66258127bc75",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-04-25T07:48:18Z",
+    "commit_count": 3,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/Innei/Kagura/commits?path=.claude%2Fskills%2Fwriting-live-e2e-tests%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0342",
+  "old": {
+    "revision": "aca8bcac843f95794a7a22326b11fa4c0f38c755",
+    "tree_sha": "4640c37d22fec8cef8c86f741cfd2bb44c71f7f0",
+    "file_count": 1,
+    "bytes": 6881,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "ae20a13a3debd04a9eed6545c4527e2846e55e4a",
+      "sha256": "a5eb7aa86096d275b31e8c16f35b2392620f7d072a994b5f0d7b3c4b681c9a19",
+      "size": 6881
+    }
+  },
+  "new": {
+    "revision": "05105df64b453d6d993b4879f9d107e44b04d04a",
+    "tree_sha": "faa4a1ec6e73b58c1cf09ada2f1df62d3adb0708",
+    "file_count": 1,
+    "bytes": 10302,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "000dba3b0acd25b57b3c51aa694f66258127bc75",
+      "sha256": "d74fa6d2cf7458cb626c72d7240874b4e09b4eda90e413bc6cce6a58382227bd",
+      "size": 10302
+    }
+  },
+  "diff_added_lines": 79,
+  "diff_deleted_lines": 18,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "aa53e97b0fd6e7c0847ed21b4e3f64a43346a7d5fb0ee4861280bb97b3665137"
+}

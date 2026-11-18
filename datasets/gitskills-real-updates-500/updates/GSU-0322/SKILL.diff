@@ -1,0 +1,31 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 72cca97..00657e8 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -3,7 +3,8 @@ name: create-strategy
+ description: Turn a natural-language strategy idea into a testable market hypothesis and strategy JSON, then create a saved strategy file that can be handed to backtest. Use for creating a new strategy or revising a hypothesis after reviewing backtest results. Strategy creation, hypothesis design, strategy JSON, strategy create, strategy revision, -v2 generation. Use when the user describes a trading idea or hypothesis in natural language, or asks to revise a strategy or create a new version (-v2) after reviewing backtest results.
+ compatibility: Requires uv, write access to {data_root}/strategies/, network access for Upbit market validation
+ metadata:
+-  version: "0.1"
++  version: "v0.8.1"
++  author: "Upbit"
+ ---
+ 
+ # create-strategy
+@@ -29,10 +30,13 @@ Load `skills/references/glossary.md` when explaining metric names, indicator nam
+ 
+ At the start of work, identify the mode and resolve `{data_root}` as an absolute path.
+ 
+-| Mode | Detection | `{data_root}` |
++| Mode | Detection | `{data_root}` (used unless `config set data-dir` was run) |
+ |---|---|---|
+-| clone mode | Running in the upbit-strategy-toolkit repo workspace/cwd | The repo root (absolute). The wrapper pins it to the repo root regardless of your cwd, so cache/strategies/reports always land under the repo even when invoked from a subdirectory. |
+-| agent skills mode | Only the skill was installed with `npx skills`, and the repo is not in the current workspace | `$HOME/.upbit-strategy-toolkit` |
++| clone mode | Running in the upbit-strategy-toolkit repo workspace/cwd | The current working directory at run time |
++| agent skills mode (global) | Skill was installed with `npx skills add ... -g`, and the repo is not in the current workspace | The current working directory at run time |
++| agent skills mode (project-scoped) | Skill was installed with `npx skills add ...` (no `-g`), and the repo is not in the current workspace | The current working directory at run time |
++
++If `config get data-dir` returns unset, the CLI uses the current working directory at run time, regardless of mode. If the user has run `config set data-dir`, that stored value is used instead. When in doubt, confirm with `bash scripts/upbit-strategy-toolkit.sh config get data-dir` rather than assuming it from the table above.
+ 
+ After user approval, save the strategy JSON to `{data_root}/strategies/{slug}.json`. If the same slug already exists, use a new filename such as `-v2`/`-v3`; do not overwrite.
+ 

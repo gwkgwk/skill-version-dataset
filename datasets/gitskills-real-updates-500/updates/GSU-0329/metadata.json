@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0329",
+  "repo_full_name": "GemachDAO/gdex-skill",
+  "skill_path": "skills/gdex-onboarding/SKILL.md",
+  "skill_directory": "skills/gdex-onboarding",
+  "old_revision": "d04ad1176ed31576d0411a6946247f0acabd96d7",
+  "new_revision": "fc8e1ca38699ec119bb9ff673e5c96c0e1bbef84",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-06-07T13:43:05Z",
+  "new_commit_message": "feat: one-command MCP auto-config from GitHub + security notes (v4.3.0) (#19)",
+  "commit_url": "https://github.com/GemachDAO/gdex-skill/commit/fc8e1ca38699ec119bb9ff673e5c96c0e1bbef84",
+  "compare_url": "https://github.com/GemachDAO/gdex-skill/compare/d04ad1176ed31576d0411a6946247f0acabd96d7...fc8e1ca38699ec119bb9ff673e5c96c0e1bbef84",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "GemachDAO/gdex-skill",
+    "path": "skills/gdex-onboarding/SKILL.md",
+    "location_class": "skills-dir",
+    "file_sha": "01a495a1ed94b84f75995ac56fd06fbf3cf6e094",
+    "discovered_at": "2026-07-14T18:04:23.050325+00:00",
+    "last_commit_at": "2026-06-07T13:43:05Z",
+    "commit_count": 7,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/GemachDAO/gdex-skill/commits?path=skills%2Fgdex-onboarding%2FSKILL.md&per_page=10&until=2026-07-14T18%3A04%3A24.050325%2B00%3A00",
+  "history_cutoff": "2026-07-14T18:04:24.050325+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0329",
+  "old": {
+    "revision": "d04ad1176ed31576d0411a6946247f0acabd96d7",
+    "tree_sha": "cd69f9f766fe2c5a48a8dce8cf2c28f775fc99bd",
+    "file_count": 1,
+    "bytes": 21475,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "2c8ba5a2225661810be06d9bc58d5abebea24079",
+      "sha256": "d5b8783f057dd8ea291fa7ce08bd71628ebf02c871b64003c4ac1d1fe766e583",
+      "size": 21475
+    }
+  },
+  "new": {
+    "revision": "fc8e1ca38699ec119bb9ff673e5c96c0e1bbef84",
+    "tree_sha": "1d50184cdea39108236eece32df1dc22558bc491",
+    "file_count": 1,
+    "bytes": 21421,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "01a495a1ed94b84f75995ac56fd06fbf3cf6e094",
+      "sha256": "e0df6e8e4fba139eee5cdf9be44f9230f28cd9f34a55d696bc1db4f7f896d383",
+      "size": 21421
+    }
+  },
+  "diff_added_lines": 11,
+  "diff_deleted_lines": 13,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "ab90e3b3d355f5d5a3235f3d7b0e1af8b67767f65dec481b2d6110d10f58122d"
+}

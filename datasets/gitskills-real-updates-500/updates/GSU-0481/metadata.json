@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0481",
+  "repo_full_name": "Nimblesite/SharpLsp",
+  "skill_path": ".claude/skills/code-dedup/SKILL.md",
+  "skill_directory": ".claude/skills/code-dedup",
+  "old_revision": "6d068ed242e9691ee91233b44f50f8ef6876bc4b",
+  "new_revision": "31cfa0760331f1b2dc98ab9dec999e7470588b96",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-04-29T06:44:21Z",
+  "new_commit_message": "Deployment, profiler, rename, tests, coverage, CI stability (#37)",
+  "commit_url": "https://github.com/Nimblesite/SharpLsp/commit/31cfa0760331f1b2dc98ab9dec999e7470588b96",
+  "compare_url": "https://github.com/Nimblesite/SharpLsp/compare/6d068ed242e9691ee91233b44f50f8ef6876bc4b...31cfa0760331f1b2dc98ab9dec999e7470588b96",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "Nimblesite/SharpLsp",
+    "path": ".claude/skills/code-dedup/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "006d811652e839d3714afdd11914a4d1e675c332",
+    "discovered_at": "2026-07-13T12:52:52.309967+00:00",
+    "last_commit_at": "2026-04-29T06:36:09Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": "MIT"
+  },
+  "history_endpoint": "https://api.github.com/repos/Nimblesite/SharpLsp/commits?path=.claude%2Fskills%2Fcode-dedup%2FSKILL.md&per_page=10&until=2026-07-13T12%3A52%3A53.309967%2B00%3A00",
+  "history_cutoff": "2026-07-13T12:52:53.309967+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0481",
+  "old": {
+    "revision": "6d068ed242e9691ee91233b44f50f8ef6876bc4b",
+    "tree_sha": "d80b6eb3ad92907090e402123ef4d1ccc1e5c138",
+    "file_count": 1,
+    "bytes": 6401,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "e686fd4aa3dfc2ccc7908779a742847420cc6133",
+      "sha256": "06f071a5ab13abc1d0fd9aea02919d4b02a728058e8245e67130eefbf1f729d9",
+      "size": 6401
+    }
+  },
+  "new": {
+    "revision": "31cfa0760331f1b2dc98ab9dec999e7470588b96",
+    "tree_sha": "732c8863e4994889ee5f9ad831f128313d6661de",
+    "file_count": 1,
+    "bytes": 6404,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "006d811652e839d3714afdd11914a4d1e675c332",
+      "sha256": "3a6251f001fc63b8aa4c3785e9b7560d05d91401b61a3a599b7c9957ab659022",
+      "size": 6404
+    }
+  },
+  "diff_added_lines": 1,
+  "diff_deleted_lines": 1,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "d9ccfad7d7f2d1de6f915c7310a04b793370c79b64c29b12eaa49e9a2c6f7d74"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "GSU-0247",
+  "repo_full_name": "corinB/live-class",
+  "skill_path": ".claude/skills/business-card-production/SKILL.md",
+  "skill_directory": ".claude/skills/business-card-production",
+  "old_revision": "11fa93a2426e2c874828d343e7dc46aeed90cb82",
+  "new_revision": "78719c70e1850155b1b633f0d35a1022d2dee320",
+  "old_is_first_parent_of_new": true,
+  "new_commit_at": "2026-05-16T11:45:12Z",
+  "new_commit_message": "chore(skills): integrate codex into 3 meta skills (#111)",
+  "commit_url": "https://github.com/corinB/live-class/commit/78719c70e1850155b1b633f0d35a1022d2dee320",
+  "compare_url": "https://github.com/corinB/live-class/compare/11fa93a2426e2c874828d343e7dc46aeed90cb82...78719c70e1850155b1b633f0d35a1022d2dee320",
+  "old_security_label": null,
+  "new_security_label": null,
+  "update_security_label": null,
+  "release_version": null,
+  "unit": "git_commit_first_parent_update",
+  "coverage": "complete_skill_directory_at_both_revisions",
+  "seed": {
+    "repo_full_name": "corinB/live-class",
+    "path": ".claude/skills/business-card-production/SKILL.md",
+    "location_class": "canonical",
+    "file_sha": "000c9eb4c84fd49c69be0b95853b9e263ced3b03",
+    "discovered_at": "2026-07-12T06:59:13.601456+00:00",
+    "last_commit_at": "2026-05-16T11:45:12Z",
+    "commit_count": 2,
+    "sibling_count": 0,
+    "sibling_bytes": 0,
+    "has_scripts": 0,
+    "has_references": 0,
+    "origin_license": ""
+  },
+  "history_endpoint": "https://api.github.com/repos/corinB/live-class/commits?path=.claude%2Fskills%2Fbusiness-card-production%2FSKILL.md&per_page=10&until=2026-07-12T06%3A59%3A14.601456%2B00%3A00",
+  "history_cutoff": "2026-07-12T06:59:14.601456+00:00",
+  "gitskills_snapshot_matches_new_primary": true,
+  "local_directory": "updates/GSU-0247",
+  "old": {
+    "revision": "11fa93a2426e2c874828d343e7dc46aeed90cb82",
+    "tree_sha": "2ea6027c0c36c7b11c4cb4a058028657f09ad6df",
+    "file_count": 1,
+    "bytes": 2447,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "1b128658471bbbdc1fa8150f0e496a2f635cc4bc",
+      "sha256": "c33d50dac0ba039527c2030befd1269a283fb7621ce0740a92a3e20e6dc1eef5",
+      "size": 2447
+    }
+  },
+  "new": {
+    "revision": "78719c70e1850155b1b633f0d35a1022d2dee320",
+    "tree_sha": "2982f9f571ddbff6f464dc11bd1259217ada3f07",
+    "file_count": 1,
+    "bytes": 3844,
+    "primary": {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha1": "000c9eb4c84fd49c69be0b95853b9e263ced3b03",
+      "sha256": "eb2196af5b21be0d6206cbb063f39f6631a8dd3b27843a7826f05c0916ac8d6d",
+      "size": 3844
+    }
+  },
+  "diff_added_lines": 19,
+  "diff_deleted_lines": 8,
+  "changed_files": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "SKILL.md"
+    ]
+  },
+  "diff_format": "git_no_index_unified",
+  "diff_sha256": "b5485848475df5f544a7519f9742428c7f1a4790ffe2f4debc95ebb5ff781283"
+}
