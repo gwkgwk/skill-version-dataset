@@ -1,0 +1,64 @@
+{
+  "commit_sha": "f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+  "committer_date": "2026-01-31T22:34:34Z",
+  "message": "skill: ethereum v1.0.0",
+  "parents": [
+    "46b3194c485a79b1aa9a8b0cdd67103c9b42ed3b"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+  "directory": "artifacts/sakaen736jih_ethereum/f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "80e3882b70336a6d4637556fb60918bbcb26241f",
+      "mode": "100644",
+      "bytes": 3494,
+      "status": "verified",
+      "sha256": "9b3ce075f6b236b6e5b818d4de005aa4e9d98f4a0e389f744c77ee3bfad03072"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "8bf5404a6978974e80b0fefef5d1389c2b6ec277",
+      "mode": "100644",
+      "bytes": 194,
+      "status": "verified",
+      "sha256": "c4dfdb5eec264ab8aef74c663f6cda3b3d1a7d47606e4b0a15514d944c857896"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "remote_script_execution",
+      "line": 4,
+      "source_id": "BEHAVIOR-ONLY",
+      "line_sha256": "f3734865e03ac07ff56aebc4a80db1d4ca3f201b39bd6681d98763f982559479",
+      "excerpt": "metadata: {\"openclaw\":{\"requires\":{\"bins\":[\"cast\"]},\"install\":[{\"id\":\"foundry\",\"kind\":\"shell\",\"command\":\"curl -L https://foundry.paradigm.xyz | bash && foundryup\",\"bins\":[\"cast\"],\"label\":\"Install Foundry (cast)\"}]}}"
+    },
+    {
+      "path": "SKILL.md",
+      "rule": "remote_script_execution",
+      "line": 13,
+      "source_id": "BEHAVIOR-ONLY",
+      "line_sha256": "1aa5e459384a77acc42d987ed7ea3cec91c90ca39542d790bcdaf4d08365b2fb",
+      "excerpt": "curl -L https://foundry.paradigm.xyz | bash"
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "2c42a41f6f6d6cfd2481c0a18053976baf27b49f",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "80e3882b70336a6d4637556fb60918bbcb26241f",
+    "mode": "100644",
+    "bytes": 3494,
+    "status": "verified",
+    "sha256": "9b3ce075f6b236b6e5b818d4de005aa4e9d98f4a0e389f744c77ee3bfad03072"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769880020803,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

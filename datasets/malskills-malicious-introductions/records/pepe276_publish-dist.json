@@ -1,0 +1,171 @@
+{
+  "skill_id": "pepe276/publish-dist",
+  "benchmark_seed": {
+    "skill_id": "pepe276/publish-dist",
+    "owner": "pepe276",
+    "slug": "publish-dist",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/pepe276_publish-dist",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/pepe276_publish-dist/SKILL.md",
+    "benchmark_skill_md_sha256": "0dd1e5d5860406880d3aa1f0d4f8d2ac44397ba60b0ea7b339f1c9801502e0f1",
+    "metadata_path": "data/ground_truth/malicious/clawhub/pepe276_publish-dist/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/pepe276_publish-dist/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.2",
+        "published_at_ms": 1770059012040,
+        "published_at_china": "2026-02-03T03:03:32.040000+08:00",
+        "commit_sha": "c150a406398857e5fc1f263e84e86e964112b60f",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/c150a406398857e5fc1f263e84e86e964112b60f",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/c150a406398857e5fc1f263e84e86e964112b60f/skills/pepe276/publish-dist",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/c150a406398857e5fc1f263e84e86e964112b60f/skills/pepe276/publish-dist/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/c150a406398857e5fc1f263e84e86e964112b60f/skills/pepe276/publish-dist/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "c150a406398857e5fc1f263e84e86e964112b60f",
+  "snapshots": [
+    {
+      "commit_sha": "c150a406398857e5fc1f263e84e86e964112b60f",
+      "committer_date": "2026-02-03T08:11:12Z",
+      "message": "skill: publish-dist v1.0.2",
+      "parents": [
+        "dc7d684cc4aace294f30601804b348b2e800827d"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/c150a406398857e5fc1f263e84e86e964112b60f",
+      "directory": "artifacts/pepe276_publish-dist/c150a406398857e5fc1f263e84e86e964112b60f",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "7f71e4fedd557cca9c07f95930fdcae944319b4e",
+          "mode": "100644",
+          "bytes": 1306,
+          "status": "verified",
+          "sha256": "0dd1e5d5860406880d3aa1f0d4f8d2ac44397ba60b0ea7b339f1c9801502e0f1"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "792b7a34a13257824e08f87cfc74b231c6761936",
+          "mode": "100644",
+          "bytes": 197,
+          "status": "verified",
+          "sha256": "31a7a046916666294c4fe06757e17aa38923d0e7fae2f91972c26d78d7813b77"
+        },
+        {
+          "path": "agent_dispatcher.js",
+          "git_blob_sha1": "77bc2c4d1cbde087b638856d3f2616791bfd677a",
+          "mode": "100644",
+          "bytes": 9279,
+          "status": "verified",
+          "sha256": "4359bfec434ddefd248e5c01eaef7ddacebe5d0db6125b4435ddebe5bdb149a7"
+        },
+        {
+          "path": "clawhub.json",
+          "git_blob_sha1": "4e7edcf69cb7d6a3b72b82fd6b3f30cd92ec0056",
+          "mode": "100644",
+          "bytes": 381,
+          "status": "verified",
+          "sha256": "9279e441df3dae65735ac6e95d3aadb8c5265fa10f6aa6926c2e12a4100a9ed8"
+        },
+        {
+          "path": "clawhub_scanner.js",
+          "git_blob_sha1": "8fe09845665e801221025d573f744d783c39f1db",
+          "mode": "100644",
+          "bytes": 6341,
+          "status": "verified",
+          "sha256": "e63681a716cc9aa43e2a0ae46535516d24c9e6c541cf494ddc849a3dad9995aa"
+        },
+        {
+          "path": "entropy_injector.js",
+          "git_blob_sha1": "c5f75f445492797d40f784827f9375eb99badfd9",
+          "mode": "100644",
+          "bytes": 7933,
+          "status": "verified",
+          "sha256": "86a2b669a4b4fb59b86f401be069859b3351ff6e018b820744d1c4d02c5f85b8"
+        },
+        {
+          "path": "feedback_loop.js",
+          "git_blob_sha1": "2e829300085e679c69695609d09df006da8b89b4",
+          "mode": "100644",
+          "bytes": 4388,
+          "status": "verified",
+          "sha256": "d6f4281cd8973dc4bf31f535204ca131f9ea2a00543c275d66586f3db3b528ad"
+        },
+        {
+          "path": "heartbeat.js",
+          "git_blob_sha1": "89532aa67c09025d9a7f1bbdde7c6c9e1970128f",
+          "mode": "100644",
+          "bytes": 12354,
+          "status": "verified",
+          "sha256": "be95721f6014de8ad21fe638bb0eff855ff7862fe5eb851e77e647ea70a9a463"
+        },
+        {
+          "path": "mista_soul.js",
+          "git_blob_sha1": "f6efe25b541c0001aad1d4c3d54105bcedc416d1",
+          "mode": "100644",
+          "bytes": 20139,
+          "status": "verified",
+          "sha256": "af1bcf12ffd657c62e38ff0208992aaa99f8569cfad5432ed892654301682311"
+        },
+        {
+          "path": "moltbook-auth.js",
+          "git_blob_sha1": "fa26bd504d68479e23ca0722bee5648713124172",
+          "mode": "100644",
+          "bytes": 3027,
+          "status": "verified",
+          "sha256": "8f4515521064de92bf50aa863940041be4264d04e4e7477e2747650d36c65365"
+        },
+        {
+          "path": "neural_resonance.js",
+          "git_blob_sha1": "7f898c8b45eacc1a61777c3ecebb78b9a18b3f58",
+          "mode": "100644",
+          "bytes": 7419,
+          "status": "verified",
+          "sha256": "8f495c085b735017ebc3e2b6b67de229d442fcc23a12eff9c6c06cc7206a8213"
+        },
+        {
+          "path": "package.json",
+          "git_blob_sha1": "09b7aed263f5c6aa59764407c9e2b55b6a1147ee",
+          "mode": "100644",
+          "bytes": 651,
+          "status": "verified",
+          "sha256": "5d3b46a25a07fc24e66645414838f0ff5cc286488cca79a78cbfcadd44450a96"
+        }
+      ],
+      "indicators": [],
+      "security_label": null,
+      "tree_sha": "632aceed757b58a54f305d9458735a01c871fbda",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7f71e4fedd557cca9c07f95930fdcae944319b4e",
+        "mode": "100644",
+        "bytes": 1306,
+        "status": "verified",
+        "sha256": "0dd1e5d5860406880d3aa1f0d4f8d2ac44397ba60b0ea7b339f1c9801502e0f1"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.2",
+        "publishedAt": 1770059012040,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.2",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=c150a406398857e5fc1f263e84e86e964112b60f&path=skills%2Fpepe276%2Fpublish-dist&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

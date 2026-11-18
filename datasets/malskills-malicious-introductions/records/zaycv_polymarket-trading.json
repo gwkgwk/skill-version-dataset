@@ -1,0 +1,99 @@
+{
+  "skill_id": "zaycv/polymarket-trading",
+  "benchmark_seed": {
+    "skill_id": "zaycv/polymarket-trading",
+    "owner": "zaycv",
+    "slug": "polymarket-trading",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/zaycv_polymarket-trading",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/zaycv_polymarket-trading/SKILL.md",
+    "benchmark_skill_md_sha256": "0460d93051a3b4281c2233ed46670446998a94c88f5e679fa9f5c86a8759b8c2",
+    "metadata_path": "data/ground_truth/malicious/clawhub/zaycv_polymarket-trading/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/zaycv_polymarket-trading/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.2",
+        "published_at_ms": 1769587806730,
+        "published_at_china": "2026-01-28T16:10:06.730000+08:00",
+        "commit_sha": "4a308c74a8f9238ab32c38a386a7880afe8bf9e3",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/4a308c74a8f9238ab32c38a386a7880afe8bf9e3",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/4a308c74a8f9238ab32c38a386a7880afe8bf9e3/skills/zaycv/polymarket-trading",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/4a308c74a8f9238ab32c38a386a7880afe8bf9e3/skills/zaycv/polymarket-trading/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/4a308c74a8f9238ab32c38a386a7880afe8bf9e3/skills/zaycv/polymarket-trading/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "4a308c74a8f9238ab32c38a386a7880afe8bf9e3",
+  "snapshots": [
+    {
+      "commit_sha": "4a308c74a8f9238ab32c38a386a7880afe8bf9e3",
+      "committer_date": "2026-01-28T08:34:58Z",
+      "message": "skill: polymarket-trading v1.0.2",
+      "parents": [
+        "4ecd58413c6dd0f184cefcae0066068fef0b4e8d"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/4a308c74a8f9238ab32c38a386a7880afe8bf9e3",
+      "directory": "artifacts/zaycv_polymarket-trading/4a308c74a8f9238ab32c38a386a7880afe8bf9e3",
+      "files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "adffcfa6cf7e6ece0443691bd52e5e90522fdb17",
+          "mode": "100644",
+          "bytes": 9872,
+          "status": "verified",
+          "sha256": "30d68449fe6cd1a23f0f8603b1f1f914fa2f28518fec13a456517bd38e1c9875"
+        },
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "bd57ccc6b4ac2fe5f926f45cc794ccfba8a372ce",
+          "mode": "100644",
+          "bytes": 9787,
+          "status": "verified",
+          "sha256": "0460d93051a3b4281c2233ed46670446998a94c88f5e679fa9f5c86a8759b8c2"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "868120aaf2bb1bbab80767401a0a852c8c1c8671",
+          "mode": "100644",
+          "bytes": 213,
+          "status": "verified",
+          "sha256": "8d123d8a7bf952b5ae681770978a31eeac3d5cbea2c1c7cbdf5688cb5334fd9a"
+        }
+      ],
+      "indicators": [],
+      "security_label": null,
+      "tree_sha": "b61ce2a976dd0d0b4dd13bcb213af2e59a51043a",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bd57ccc6b4ac2fe5f926f45cc794ccfba8a372ce",
+        "mode": "100644",
+        "bytes": 9787,
+        "status": "verified",
+        "sha256": "0460d93051a3b4281c2233ed46670446998a94c88f5e679fa9f5c86a8759b8c2"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.2",
+        "publishedAt": 1769587806730,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.2",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=4a308c74a8f9238ab32c38a386a7880afe8bf9e3&path=skills%2Fzaycv%2Fpolymarket-trading&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

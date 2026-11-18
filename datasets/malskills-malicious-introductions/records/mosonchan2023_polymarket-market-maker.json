@@ -1,0 +1,107 @@
+{
+  "skill_id": "mosonchan2023/polymarket-market-maker",
+  "benchmark_seed": {
+    "skill_id": "mosonchan2023/polymarket-market-maker",
+    "owner": "mosonchan2023",
+    "slug": "polymarket-market-maker",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/mosonchan2023_polymarket-market-maker",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/mosonchan2023_polymarket-market-maker/SKILL.md",
+    "benchmark_skill_md_sha256": "cb5848ac6459bd5f3ad614b1aa9717eeb16080aa097c844a9c3d6a49a23e7c69",
+    "metadata_path": "data/ground_truth/malicious/clawhub/mosonchan2023_polymarket-market-maker/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/mosonchan2023_polymarket-market-maker/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.1",
+        "published_at_ms": 1772752841063,
+        "published_at_china": "2026-03-06T07:20:41.063000+08:00",
+        "commit_sha": "4ac54b2f33996228f5d82e1f255ade310a892c03",
+        "original_commit_url": "https://github.com/openclaw/skills/commit/4ac54b2f33996228f5d82e1f255ade310a892c03",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/4ac54b2f33996228f5d82e1f255ade310a892c03/skills/mosonchan2023/polymarket-market-maker",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/4ac54b2f33996228f5d82e1f255ade310a892c03/skills/mosonchan2023/polymarket-market-maker/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/4ac54b2f33996228f5d82e1f255ade310a892c03/skills/mosonchan2023/polymarket-market-maker/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "4ac54b2f33996228f5d82e1f255ade310a892c03",
+  "snapshots": [
+    {
+      "commit_sha": "4ac54b2f33996228f5d82e1f255ade310a892c03",
+      "committer_date": "2026-03-06T23:09:59Z",
+      "message": "skill: polymarket-market-maker v1.0.1",
+      "parents": [
+        "f3081d4fe55d4af6f82d862bd1814e82dcdd7308"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/4ac54b2f33996228f5d82e1f255ade310a892c03",
+      "directory": "artifacts/mosonchan2023_polymarket-market-maker/4ac54b2f33996228f5d82e1f255ade310a892c03",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "30ee86f42f13d5bd7cf8624583540037eae5f01d",
+          "mode": "100644",
+          "bytes": 1412,
+          "status": "verified",
+          "sha256": "cb5848ac6459bd5f3ad614b1aa9717eeb16080aa097c844a9c3d6a49a23e7c69"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "753a2f67d122fd17ff1f42ab19d55c55bc342461",
+          "mode": "100644",
+          "bytes": 225,
+          "status": "verified",
+          "sha256": "0f0d475303eeabc9cc428216338c9f0df7d5d2c6389b65fafde4f03f81b10119"
+        },
+        {
+          "path": "index.js",
+          "git_blob_sha1": "c459acdaa996ac7c433bfa962d28e21327433d79",
+          "mode": "100644",
+          "bytes": 2551,
+          "status": "verified",
+          "sha256": "e0edd9a86577450d59e75486d877aa9cdafd9a7e04a2678f6febd3b92dbea8f3"
+        },
+        {
+          "path": "skill.yaml",
+          "git_blob_sha1": "e40dc4aaadf52156a628ddabc673d29fced14c1a",
+          "mode": "100644",
+          "bytes": 728,
+          "status": "verified",
+          "sha256": "6683074f53c839dc8e6824a9e6e1f47ad69c3fcdc89cb6f807a1a65dcd9a6291"
+        }
+      ],
+      "indicators": [],
+      "security_label": null,
+      "tree_sha": "dd260259a0b97c801e28f263bdcf6585333eddb2",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "30ee86f42f13d5bd7cf8624583540037eae5f01d",
+        "mode": "100644",
+        "bytes": 1412,
+        "status": "verified",
+        "sha256": "cb5848ac6459bd5f3ad614b1aa9717eeb16080aa097c844a9c3d6a49a23e7c69"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.1",
+        "publishedAt": 1772752841063,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.1",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=4ac54b2f33996228f5d82e1f255ade310a892c03&path=skills%2Fmosonchan2023%2Fpolymarket-market-maker&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

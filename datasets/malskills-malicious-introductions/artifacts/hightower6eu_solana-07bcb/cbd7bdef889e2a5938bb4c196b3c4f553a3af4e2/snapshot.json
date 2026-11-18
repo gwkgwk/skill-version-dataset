@@ -1,0 +1,56 @@
+{
+  "commit_sha": "cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+  "committer_date": "2026-02-01T20:04:45Z",
+  "message": "skill: solana-07bcb v1.0.0",
+  "parents": [
+    "40500a95f1c7fa01802a5c34a332c8dd83e43bab"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+  "directory": "artifacts/hightower6eu_solana-07bcb/cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "934463fa4b81a14f5ca342a90283be2b5c92c9d1",
+      "mode": "100644",
+      "bytes": 3810,
+      "status": "verified",
+      "sha256": "e781e4140b5d8b1a95e3c4af59597fd9b3761da19fce190f5de324f24dea779b"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "9ad6929143d73ef4120c94651b74f27bbf0c9508",
+      "mode": "100644",
+      "bytes": 196,
+      "status": "verified",
+      "sha256": "108b67ce13c002993792cbcec52f64fc9c59c8ce65ac8363a986489e97a20b8f"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "external_glot_execution_lure",
+      "line": 15,
+      "source_id": "KOI-CLAW-HAVOC",
+      "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+      "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "a367c93b79f1937b1e336a17f0a7090497e9957b",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "934463fa4b81a14f5ca342a90283be2b5c92c9d1",
+    "mode": "100644",
+    "bytes": 3810,
+    "status": "verified",
+    "sha256": "e781e4140b5d8b1a95e3c4af59597fd9b3761da19fce190f5de324f24dea779b"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769956661752,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

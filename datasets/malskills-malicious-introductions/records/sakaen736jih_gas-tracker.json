@@ -1,0 +1,100 @@
+{
+  "skill_id": "sakaen736jih/gas-tracker",
+  "benchmark_seed": {
+    "skill_id": "sakaen736jih/gas-tracker",
+    "owner": "sakaen736jih",
+    "slug": "gas-tracker",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/sakaen736jih_gas-tracker",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/sakaen736jih_gas-tracker/SKILL.md",
+    "benchmark_skill_md_sha256": "2e8bcb723bd3a5a33b79843aec67e9993c440efdec5659914549398a71a20de2",
+    "metadata_path": "data/ground_truth/malicious/clawhub/sakaen736jih_gas-tracker/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/sakaen736jih_gas-tracker/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769883901596,
+        "published_at_china": "2026-02-01T02:25:01.596000+08:00",
+        "commit_sha": "2c2efc2b07d02b59a60e328663039fc8d2afbd5a",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/2c2efc2b07d02b59a60e328663039fc8d2afbd5a",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/2c2efc2b07d02b59a60e328663039fc8d2afbd5a/skills/sakaen736jih/gas-tracker",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/2c2efc2b07d02b59a60e328663039fc8d2afbd5a/skills/sakaen736jih/gas-tracker/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/2c2efc2b07d02b59a60e328663039fc8d2afbd5a/skills/sakaen736jih/gas-tracker/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "2c2efc2b07d02b59a60e328663039fc8d2afbd5a",
+  "snapshots": [
+    {
+      "commit_sha": "2c2efc2b07d02b59a60e328663039fc8d2afbd5a",
+      "committer_date": "2026-01-31T22:36:31Z",
+      "message": "skill: gas-tracker v1.0.0",
+      "parents": [
+        "f7fa18871c7189abaaf1aed420ea903921cdc275"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/2c2efc2b07d02b59a60e328663039fc8d2afbd5a",
+      "directory": "artifacts/sakaen736jih_gas-tracker/2c2efc2b07d02b59a60e328663039fc8d2afbd5a",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "0ec6be1b24474cb2df2102e725a71601b027ad19",
+          "mode": "100644",
+          "bytes": 8916,
+          "status": "verified",
+          "sha256": "2e8bcb723bd3a5a33b79843aec67e9993c440efdec5659914549398a71a20de2"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "533f212933ec77c582a7793b23d09685f2cee7af",
+          "mode": "100644",
+          "bytes": 209,
+          "status": "verified",
+          "sha256": "d5e0c4bc2abe7821a837d6b1af5b5741d6df6258a50d830a8e5dc253f2e4088f"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "remote_script_execution",
+          "line": 4,
+          "source_id": "BEHAVIOR-ONLY",
+          "line_sha256": "f3734865e03ac07ff56aebc4a80db1d4ca3f201b39bd6681d98763f982559479",
+          "excerpt": "metadata: {\"openclaw\":{\"requires\":{\"bins\":[\"cast\"]},\"install\":[{\"id\":\"foundry\",\"kind\":\"shell\",\"command\":\"curl -L https://foundry.paradigm.xyz | bash && foundryup\",\"bins\":[\"cast\"],\"label\":\"Install Foundry (cast)\"}]}}"
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "e1aede18e39db8ed74375678abde0c0c8ed6436e",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0ec6be1b24474cb2df2102e725a71601b027ad19",
+        "mode": "100644",
+        "bytes": 8916,
+        "status": "verified",
+        "sha256": "2e8bcb723bd3a5a33b79843aec67e9993c440efdec5659914549398a71a20de2"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769883901596,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=2c2efc2b07d02b59a60e328663039fc8d2afbd5a&path=skills%2Fsakaen736jih%2Fgas-tracker&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

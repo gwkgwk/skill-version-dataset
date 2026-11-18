@@ -1,0 +1,100 @@
+{
+  "skill_id": "sakaen736jih/metamask",
+  "benchmark_seed": {
+    "skill_id": "sakaen736jih/metamask",
+    "owner": "sakaen736jih",
+    "slug": "metamask",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/sakaen736jih_metamask",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/sakaen736jih_metamask/SKILL.md",
+    "benchmark_skill_md_sha256": "df59d39537af0423f212fb586952daa979f4948c836499c8c53bcdb0a0290f02",
+    "metadata_path": "data/ground_truth/malicious/clawhub/sakaen736jih_metamask/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/sakaen736jih_metamask/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769880387731,
+        "published_at_china": "2026-02-01T01:26:27.731000+08:00",
+        "commit_sha": "178373e901b79e7fb04696c1ed7e3e0678233ed3",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/178373e901b79e7fb04696c1ed7e3e0678233ed3",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/178373e901b79e7fb04696c1ed7e3e0678233ed3/skills/sakaen736jih/metamask",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/178373e901b79e7fb04696c1ed7e3e0678233ed3/skills/sakaen736jih/metamask/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/178373e901b79e7fb04696c1ed7e3e0678233ed3/skills/sakaen736jih/metamask/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "178373e901b79e7fb04696c1ed7e3e0678233ed3",
+  "snapshots": [
+    {
+      "commit_sha": "178373e901b79e7fb04696c1ed7e3e0678233ed3",
+      "committer_date": "2026-01-31T22:34:57Z",
+      "message": "skill: metamask v1.0.0",
+      "parents": [
+        "2428061b692db1ba339090fe2ddc67baeac9dbae"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/178373e901b79e7fb04696c1ed7e3e0678233ed3",
+      "directory": "artifacts/sakaen736jih_metamask/178373e901b79e7fb04696c1ed7e3e0678233ed3",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "0c7d9522f2e69e1908722e81b6e71a458a26153b",
+          "mode": "100644",
+          "bytes": 4921,
+          "status": "verified",
+          "sha256": "df59d39537af0423f212fb586952daa979f4948c836499c8c53bcdb0a0290f02"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "8cd164645bff3a6a9ba772f917edf7c358dc8523",
+          "mode": "100644",
+          "bytes": 194,
+          "status": "verified",
+          "sha256": "8bd68ba36cd0749cca29073b579a3ac74c40d04c95d9368c64f231ff16eabe85"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "remote_script_execution",
+          "line": 4,
+          "source_id": "BEHAVIOR-ONLY",
+          "line_sha256": "f3734865e03ac07ff56aebc4a80db1d4ca3f201b39bd6681d98763f982559479",
+          "excerpt": "metadata: {\"openclaw\":{\"requires\":{\"bins\":[\"cast\"]},\"install\":[{\"id\":\"foundry\",\"kind\":\"shell\",\"command\":\"curl -L https://foundry.paradigm.xyz | bash && foundryup\",\"bins\":[\"cast\"],\"label\":\"Install Foundry (cast)\"}]}}"
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "12ae8cb2e226fe1e421cc8d50cc44ad6e27e413c",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0c7d9522f2e69e1908722e81b6e71a458a26153b",
+        "mode": "100644",
+        "bytes": 4921,
+        "status": "verified",
+        "sha256": "df59d39537af0423f212fb586952daa979f4948c836499c8c53bcdb0a0290f02"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769880387731,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=178373e901b79e7fb04696c1ed7e3e0678233ed3&path=skills%2Fsakaen736jih%2Fmetamask&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

@@ -1,0 +1,56 @@
+{
+  "commit_sha": "fb5573cf324cacbfd6e60f6604483ca523bacd24",
+  "committer_date": "2026-02-01T14:10:26Z",
+  "message": "skill: auto-updater-96ys3 v1.0.0",
+  "parents": [
+    "883c3a5845d5bf5024357ffbb19bd87343636fdb"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/fb5573cf324cacbfd6e60f6604483ca523bacd24",
+  "directory": "artifacts/hightower6eu_auto-updater-96ys3/fb5573cf324cacbfd6e60f6604483ca523bacd24",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "2a4b711180cf6920520edb61cde27f2be9bc6b1e",
+      "mode": "100644",
+      "bytes": 4798,
+      "status": "verified",
+      "sha256": "a5c63ecd959282c52a37c0444bb0fc37f8630a85c62f8a0a1e5525105275f68e"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "55bfc2179dea0bcddd2ef98f6b23debe28d11946",
+      "mode": "100644",
+      "bytes": 214,
+      "status": "verified",
+      "sha256": "7b8c31110a9b04b70ca877204c473a979258a668d6cb72049bf1d03b81b27ab5"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "external_glot_execution_lure",
+      "line": 17,
+      "source_id": "KOI-CLAW-HAVOC",
+      "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+      "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "4018985db0db22385ad3bc8ee03aaf8b82d70c7d",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "2a4b711180cf6920520edb61cde27f2be9bc6b1e",
+    "mode": "100644",
+    "bytes": 4798,
+    "status": "verified",
+    "sha256": "a5c63ecd959282c52a37c0444bb0fc37f8630a85c62f8a0a1e5525105275f68e"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769951694235,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

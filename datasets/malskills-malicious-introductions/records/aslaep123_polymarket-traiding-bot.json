@@ -1,0 +1,91 @@
+{
+  "skill_id": "aslaep123/polymarket-traiding-bot",
+  "benchmark_seed": {
+    "skill_id": "aslaep123/polymarket-traiding-bot",
+    "owner": "aslaep123",
+    "slug": "polymarket-traiding-bot",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/aslaep123_polymarket-traiding-bot",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/aslaep123_polymarket-traiding-bot/SKILL.md",
+    "benchmark_skill_md_sha256": "e8f4db78da8dc4cb1fba28c20b986a9eff61c34c799af11be7048dcce16b00bf",
+    "metadata_path": "data/ground_truth/malicious/clawhub/aslaep123_polymarket-traiding-bot/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/aslaep123_polymarket-traiding-bot/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.1",
+        "published_at_ms": 1769545834035,
+        "published_at_china": "2026-01-28T04:30:34.035000+08:00",
+        "commit_sha": "d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91/skills/aslaep123/polymarket-traiding-bot",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91/skills/aslaep123/polymarket-traiding-bot/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91/skills/aslaep123/polymarket-traiding-bot/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91",
+  "snapshots": [
+    {
+      "commit_sha": "d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91",
+      "committer_date": "2026-01-27T21:36:56Z",
+      "message": "skill: polymarket-traiding-bot v1.0.1",
+      "parents": [
+        "31439e4caf4f6347de0531619efd55974b97c375"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91",
+      "directory": "artifacts/aslaep123_polymarket-traiding-bot/d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "3270a6c743227b11bb22043b65a4d818090c1ca1",
+          "mode": "100644",
+          "bytes": 5274,
+          "status": "verified",
+          "sha256": "e8f4db78da8dc4cb1fba28c20b986a9eff61c34c799af11be7048dcce16b00bf"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "a57003d021c98f5fee02d83065930cc6b406b162",
+          "mode": "100644",
+          "bytes": 231,
+          "status": "verified",
+          "sha256": "ff40013e39df1fa2330d66bec3f08519e4edd7a258284d13a3310660274a9cd4"
+        }
+      ],
+      "indicators": [],
+      "security_label": null,
+      "tree_sha": "113ab5604be0207a706f8ecfc1bb8c708f84c165",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3270a6c743227b11bb22043b65a4d818090c1ca1",
+        "mode": "100644",
+        "bytes": 5274,
+        "status": "verified",
+        "sha256": "e8f4db78da8dc4cb1fba28c20b986a9eff61c34c799af11be7048dcce16b00bf"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.1",
+        "publishedAt": 1769545834035,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.1",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=d0e3e74f7e9c09cfbf80c564a75f0ef21871ab91&path=skills%2Faslaep123%2Fpolymarket-traiding-bot&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

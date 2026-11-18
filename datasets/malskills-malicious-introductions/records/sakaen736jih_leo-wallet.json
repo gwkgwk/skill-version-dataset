@@ -1,0 +1,116 @@
+{
+  "skill_id": "sakaen736jih/leo-wallet",
+  "benchmark_seed": {
+    "skill_id": "sakaen736jih/leo-wallet",
+    "owner": "sakaen736jih",
+    "slug": "leo-wallet",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/sakaen736jih_leo-wallet",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/sakaen736jih_leo-wallet/SKILL.md",
+    "benchmark_skill_md_sha256": "c4cff48d5a48b860cf42e5fd5e20e3d3b1e96645c03f95cd22ffb85a3380f4ce",
+    "metadata_path": "data/ground_truth/malicious/clawhub/sakaen736jih_leo-wallet/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/sakaen736jih_leo-wallet/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769879861324,
+        "published_at_china": "2026-02-01T01:17:41.324000+08:00",
+        "commit_sha": "e932ca7743aff97f5e9053daaaee3975dac13a07",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/e932ca7743aff97f5e9053daaaee3975dac13a07",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/e932ca7743aff97f5e9053daaaee3975dac13a07/skills/sakaen736jih/leo-wallet",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/e932ca7743aff97f5e9053daaaee3975dac13a07/skills/sakaen736jih/leo-wallet/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/e932ca7743aff97f5e9053daaaee3975dac13a07/skills/sakaen736jih/leo-wallet/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "e932ca7743aff97f5e9053daaaee3975dac13a07",
+  "snapshots": [
+    {
+      "commit_sha": "e932ca7743aff97f5e9053daaaee3975dac13a07",
+      "committer_date": "2026-01-31T22:34:30Z",
+      "message": "skill: leo-wallet v1.0.0",
+      "parents": [
+        "5b1a0e3d0148445477b8f8d980f28df9de40867e"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/e932ca7743aff97f5e9053daaaee3975dac13a07",
+      "directory": "artifacts/sakaen736jih_leo-wallet/e932ca7743aff97f5e9053daaaee3975dac13a07",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "a1d538f8feb107c96674a4f0afe5b4f4bacf0fc6",
+          "mode": "100644",
+          "bytes": 3288,
+          "status": "verified",
+          "sha256": "c4cff48d5a48b860cf42e5fd5e20e3d3b1e96645c03f95cd22ffb85a3380f4ce"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "a82432f1acfb6a655c4d170ae34ee540b1ab573a",
+          "mode": "100644",
+          "bytes": 198,
+          "status": "verified",
+          "sha256": "37c9755e611005ba4f880bcdd088f7c468ad02f065528ccf33623d0c9d3c1dd3"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "remote_script_execution",
+          "line": 4,
+          "source_id": "BEHAVIOR-ONLY",
+          "line_sha256": "d6ddba595eb82988a48203f3e8d2b063da059e33726da4ceddf7ea4f316a7208",
+          "excerpt": "metadata: {\"openclaw\":{\"requires\":{\"bins\":[\"snarkos\"]},\"install\":[{\"id\":\"aleo\",\"kind\":\"shell\",\"command\":\"curl -sSf https://raw.githubusercontent.com/AleoHQ/snarkOS/mainnet/install.sh | bash\",\"bins\":[\"snarkos\"],\"label\":\"Install snarkOS CLI\"}]}}"
+        },
+        {
+          "path": "SKILL.md",
+          "rule": "remote_script_execution",
+          "line": 13,
+          "source_id": "BEHAVIOR-ONLY",
+          "line_sha256": "bb440f44bc833710d6f3dc6a3a86b2eb39d1ca6c2fcb768670ce879dab4a77a6",
+          "excerpt": "curl -sSf https://raw.githubusercontent.com/AleoHQ/snarkOS/mainnet/install.sh | bash"
+        },
+        {
+          "path": "SKILL.md",
+          "rule": "remote_script_execution",
+          "line": 18,
+          "source_id": "BEHAVIOR-ONLY",
+          "line_sha256": "c36f9beb3c7fbf5fc4103ce8b70e8c799f1ea96395ce3deea2fa775dd13db7da",
+          "excerpt": "curl -sSf https://raw.githubusercontent.com/AleoHQ/leo/mainnet/install.sh | bash"
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "049b311a70815729143883ef75b62d5448cfe4d0",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a1d538f8feb107c96674a4f0afe5b4f4bacf0fc6",
+        "mode": "100644",
+        "bytes": 3288,
+        "status": "verified",
+        "sha256": "c4cff48d5a48b860cf42e5fd5e20e3d3b1e96645c03f95cd22ffb85a3380f4ce"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769879861324,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=e932ca7743aff97f5e9053daaaee3975dac13a07&path=skills%2Fsakaen736jih%2Fleo-wallet&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

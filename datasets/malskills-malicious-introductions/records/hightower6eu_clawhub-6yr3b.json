@@ -1,0 +1,100 @@
+{
+  "skill_id": "hightower6eu/clawhub-6yr3b",
+  "benchmark_seed": {
+    "skill_id": "hightower6eu/clawhub-6yr3b",
+    "owner": "hightower6eu",
+    "slug": "clawhub-6yr3b",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/hightower6eu_clawhub-6yr3b",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/hightower6eu_clawhub-6yr3b/SKILL.md",
+    "benchmark_skill_md_sha256": "8ef1030dc2829343f64c1441431e4ffe92ba55b66afb357846d480ea231d40b9",
+    "metadata_path": "data/ground_truth/malicious/clawhub/hightower6eu_clawhub-6yr3b/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/hightower6eu_clawhub-6yr3b/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769953369230,
+        "published_at_china": "2026-02-01T21:42:49.230000+08:00",
+        "commit_sha": "3a0b7243c29c694ba14af9bb050a5d598dba6e7d",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/3a0b7243c29c694ba14af9bb050a5d598dba6e7d",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/3a0b7243c29c694ba14af9bb050a5d598dba6e7d/skills/hightower6eu/clawhub-6yr3b",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/3a0b7243c29c694ba14af9bb050a5d598dba6e7d/skills/hightower6eu/clawhub-6yr3b/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/3a0b7243c29c694ba14af9bb050a5d598dba6e7d/skills/hightower6eu/clawhub-6yr3b/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "3a0b7243c29c694ba14af9bb050a5d598dba6e7d",
+  "snapshots": [
+    {
+      "commit_sha": "3a0b7243c29c694ba14af9bb050a5d598dba6e7d",
+      "committer_date": "2026-02-01T14:32:47Z",
+      "message": "skill: clawhub-6yr3b v1.0.0",
+      "parents": [
+        "e8dae164fda1e0d90171307c59572d0b2c6a5d47"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/3a0b7243c29c694ba14af9bb050a5d598dba6e7d",
+      "directory": "artifacts/hightower6eu_clawhub-6yr3b/3a0b7243c29c694ba14af9bb050a5d598dba6e7d",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "4fba74485ef06e7781529e628802aeceb983b7fb",
+          "mode": "100644",
+          "bytes": 2217,
+          "status": "verified",
+          "sha256": "8ef1030dc2829343f64c1441431e4ffe92ba55b66afb357846d480ea231d40b9"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "33473ebd6d7987a8fe4b8f5e3713c7593fab8c12",
+          "mode": "100644",
+          "bytes": 198,
+          "status": "verified",
+          "sha256": "afe4438ccbb8365096cb8b1f864528cdfff0909f8ef0d0c22a158f73e75b7430"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "external_glot_execution_lure",
+          "line": 15,
+          "source_id": "KOI-CLAW-HAVOC",
+          "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+          "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "6897492b60e759d06f115fdb13ba598a650c7a8d",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4fba74485ef06e7781529e628802aeceb983b7fb",
+        "mode": "100644",
+        "bytes": 2217,
+        "status": "verified",
+        "sha256": "8ef1030dc2829343f64c1441431e4ffe92ba55b66afb357846d480ea231d40b9"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769953369230,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=3a0b7243c29c694ba14af9bb050a5d598dba6e7d&path=skills%2Fhightower6eu%2Fclawhub-6yr3b&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

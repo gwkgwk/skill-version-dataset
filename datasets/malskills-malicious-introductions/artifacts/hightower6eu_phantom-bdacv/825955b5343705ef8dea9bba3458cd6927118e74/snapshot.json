@@ -1,0 +1,56 @@
+{
+  "commit_sha": "825955b5343705ef8dea9bba3458cd6927118e74",
+  "committer_date": "2026-02-01T14:07:25Z",
+  "message": "skill: phantom-bdacv v1.0.0",
+  "parents": [
+    "21804f303130310ecaae82de000da3b99e5b754e"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/825955b5343705ef8dea9bba3458cd6927118e74",
+  "directory": "artifacts/hightower6eu_phantom-bdacv/825955b5343705ef8dea9bba3458cd6927118e74",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "6f7009f0dc5f1e2e23919c8436802625ea607b08",
+      "mode": "100644",
+      "bytes": 4509,
+      "status": "verified",
+      "sha256": "9349cb55d2a795b7939a409cbe06ba0fd59754ed13cc8e102409541179deee38"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "364a95582a31b9f7c837945d4afae55048238259",
+      "mode": "100644",
+      "bytes": 205,
+      "status": "verified",
+      "sha256": "7a9c675f0fa097ea5556b2e592ee55116f6004ebb090a1c1bc72bd395c3e61ac"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "external_glot_execution_lure",
+      "line": 15,
+      "source_id": "KOI-CLAW-HAVOC",
+      "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+      "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "db0867d1c9e3ff261bcc54394e0f09f3cf06667b",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "6f7009f0dc5f1e2e23919c8436802625ea607b08",
+    "mode": "100644",
+    "bytes": 4509,
+    "status": "verified",
+    "sha256": "9349cb55d2a795b7939a409cbe06ba0fd59754ed13cc8e102409541179deee38"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769947645002,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

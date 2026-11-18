@@ -1,0 +1,107 @@
+{
+  "skill_id": "rjnpage/rankaj",
+  "benchmark_seed": {
+    "skill_id": "rjnpage/rankaj",
+    "owner": "rjnpage",
+    "slug": "rankaj",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/rjnpage_rankaj",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/rjnpage_rankaj/SKILL.md",
+    "benchmark_skill_md_sha256": "b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70",
+    "metadata_path": "data/ground_truth/malicious/clawhub/rjnpage_rankaj/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/rjnpage_rankaj/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769710753879,
+        "published_at_china": "2026-01-30T02:19:13.879000+08:00",
+        "commit_sha": "72030e838d08b25ae280162ae0e064cf7825915b",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/72030e838d08b25ae280162ae0e064cf7825915b",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/72030e838d08b25ae280162ae0e064cf7825915b/skills/rjnpage/rankaj",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/72030e838d08b25ae280162ae0e064cf7825915b/skills/rjnpage/rankaj/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/72030e838d08b25ae280162ae0e064cf7825915b/skills/rjnpage/rankaj/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "72030e838d08b25ae280162ae0e064cf7825915b",
+  "snapshots": [
+    {
+      "commit_sha": "72030e838d08b25ae280162ae0e064cf7825915b",
+      "committer_date": "2026-01-29T21:32:23Z",
+      "message": "skill: rankaj v1.0.0",
+      "parents": [
+        "833f108342ec8b0e1a03dda95b6b8ba6a1548c8e"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/72030e838d08b25ae280162ae0e064cf7825915b",
+      "directory": "artifacts/rjnpage_rankaj/72030e838d08b25ae280162ae0e064cf7825915b",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "fbd80f8372b47659999f6ef510e54a892ffd0745",
+          "mode": "100644",
+          "bytes": 1066,
+          "status": "verified",
+          "sha256": "b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "654b1628c34b294877fe22b7e8f5cec0fe5888d1",
+          "mode": "100644",
+          "bytes": 189,
+          "status": "verified",
+          "sha256": "918d1d21f52fe4efd027cedd7f83a5273f1667a3fd0a10570ebd558edcb5032b"
+        },
+        {
+          "path": "index.js",
+          "git_blob_sha1": "b3db70c19caf303d006aaea6fe222edec4629666",
+          "mode": "100644",
+          "bytes": 7734,
+          "status": "verified",
+          "sha256": "cd3b481528542c8bac595a6c2c26fe4fd78b1495e4edcc3bd4512d7e7455ec7a"
+        },
+        {
+          "path": "package.json",
+          "git_blob_sha1": "778c8e1c13a8c5f55d7621a36ea1b02871796e4b",
+          "mode": "100644",
+          "bytes": 99,
+          "status": "verified",
+          "sha256": "a091ebbad4bf2d4b6df3289cf73eafd65f1343d3a9bdc74bd3a819974abcd716"
+        }
+      ],
+      "indicators": [],
+      "security_label": null,
+      "tree_sha": "e3953bf5cc2c1291da87be65868764b24c06356b",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fbd80f8372b47659999f6ef510e54a892ffd0745",
+        "mode": "100644",
+        "bytes": 1066,
+        "status": "verified",
+        "sha256": "b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769710753879,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=72030e838d08b25ae280162ae0e064cf7825915b&path=skills%2Frjnpage%2Frankaj&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

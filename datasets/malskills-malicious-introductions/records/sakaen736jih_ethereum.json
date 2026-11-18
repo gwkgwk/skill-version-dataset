@@ -1,0 +1,108 @@
+{
+  "skill_id": "sakaen736jih/ethereum",
+  "benchmark_seed": {
+    "skill_id": "sakaen736jih/ethereum",
+    "owner": "sakaen736jih",
+    "slug": "ethereum",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/sakaen736jih_ethereum",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/sakaen736jih_ethereum/SKILL.md",
+    "benchmark_skill_md_sha256": "9b3ce075f6b236b6e5b818d4de005aa4e9d98f4a0e389f744c77ee3bfad03072",
+    "metadata_path": "data/ground_truth/malicious/clawhub/sakaen736jih_ethereum/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/sakaen736jih_ethereum/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769880020803,
+        "published_at_china": "2026-02-01T01:20:20.803000+08:00",
+        "commit_sha": "f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/f1f6de2caa62ece53fbc1eda42d680d98ff362eb/skills/sakaen736jih/ethereum",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/f1f6de2caa62ece53fbc1eda42d680d98ff362eb/skills/sakaen736jih/ethereum/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/f1f6de2caa62ece53fbc1eda42d680d98ff362eb/skills/sakaen736jih/ethereum/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+  "snapshots": [
+    {
+      "commit_sha": "f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+      "committer_date": "2026-01-31T22:34:34Z",
+      "message": "skill: ethereum v1.0.0",
+      "parents": [
+        "46b3194c485a79b1aa9a8b0cdd67103c9b42ed3b"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+      "directory": "artifacts/sakaen736jih_ethereum/f1f6de2caa62ece53fbc1eda42d680d98ff362eb",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "80e3882b70336a6d4637556fb60918bbcb26241f",
+          "mode": "100644",
+          "bytes": 3494,
+          "status": "verified",
+          "sha256": "9b3ce075f6b236b6e5b818d4de005aa4e9d98f4a0e389f744c77ee3bfad03072"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "8bf5404a6978974e80b0fefef5d1389c2b6ec277",
+          "mode": "100644",
+          "bytes": 194,
+          "status": "verified",
+          "sha256": "c4dfdb5eec264ab8aef74c663f6cda3b3d1a7d47606e4b0a15514d944c857896"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "remote_script_execution",
+          "line": 4,
+          "source_id": "BEHAVIOR-ONLY",
+          "line_sha256": "f3734865e03ac07ff56aebc4a80db1d4ca3f201b39bd6681d98763f982559479",
+          "excerpt": "metadata: {\"openclaw\":{\"requires\":{\"bins\":[\"cast\"]},\"install\":[{\"id\":\"foundry\",\"kind\":\"shell\",\"command\":\"curl -L https://foundry.paradigm.xyz | bash && foundryup\",\"bins\":[\"cast\"],\"label\":\"Install Foundry (cast)\"}]}}"
+        },
+        {
+          "path": "SKILL.md",
+          "rule": "remote_script_execution",
+          "line": 13,
+          "source_id": "BEHAVIOR-ONLY",
+          "line_sha256": "1aa5e459384a77acc42d987ed7ea3cec91c90ca39542d790bcdaf4d08365b2fb",
+          "excerpt": "curl -L https://foundry.paradigm.xyz | bash"
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "2c42a41f6f6d6cfd2481c0a18053976baf27b49f",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "80e3882b70336a6d4637556fb60918bbcb26241f",
+        "mode": "100644",
+        "bytes": 3494,
+        "status": "verified",
+        "sha256": "9b3ce075f6b236b6e5b818d4de005aa4e9d98f4a0e389f744c77ee3bfad03072"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769880020803,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=f1f6de2caa62ece53fbc1eda42d680d98ff362eb&path=skills%2Fsakaen736jih%2Fethereum&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

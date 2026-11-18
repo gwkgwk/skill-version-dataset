@@ -1,0 +1,56 @@
+{
+  "commit_sha": "178373e901b79e7fb04696c1ed7e3e0678233ed3",
+  "committer_date": "2026-01-31T22:34:57Z",
+  "message": "skill: metamask v1.0.0",
+  "parents": [
+    "2428061b692db1ba339090fe2ddc67baeac9dbae"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/178373e901b79e7fb04696c1ed7e3e0678233ed3",
+  "directory": "artifacts/sakaen736jih_metamask/178373e901b79e7fb04696c1ed7e3e0678233ed3",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "0c7d9522f2e69e1908722e81b6e71a458a26153b",
+      "mode": "100644",
+      "bytes": 4921,
+      "status": "verified",
+      "sha256": "df59d39537af0423f212fb586952daa979f4948c836499c8c53bcdb0a0290f02"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "8cd164645bff3a6a9ba772f917edf7c358dc8523",
+      "mode": "100644",
+      "bytes": 194,
+      "status": "verified",
+      "sha256": "8bd68ba36cd0749cca29073b579a3ac74c40d04c95d9368c64f231ff16eabe85"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "remote_script_execution",
+      "line": 4,
+      "source_id": "BEHAVIOR-ONLY",
+      "line_sha256": "f3734865e03ac07ff56aebc4a80db1d4ca3f201b39bd6681d98763f982559479",
+      "excerpt": "metadata: {\"openclaw\":{\"requires\":{\"bins\":[\"cast\"]},\"install\":[{\"id\":\"foundry\",\"kind\":\"shell\",\"command\":\"curl -L https://foundry.paradigm.xyz | bash && foundryup\",\"bins\":[\"cast\"],\"label\":\"Install Foundry (cast)\"}]}}"
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "12ae8cb2e226fe1e421cc8d50cc44ad6e27e413c",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "0c7d9522f2e69e1908722e81b6e71a458a26153b",
+    "mode": "100644",
+    "bytes": 4921,
+    "status": "verified",
+    "sha256": "df59d39537af0423f212fb586952daa979f4948c836499c8c53bcdb0a0290f02"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769880387731,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

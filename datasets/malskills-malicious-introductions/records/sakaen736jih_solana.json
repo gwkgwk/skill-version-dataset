@@ -1,0 +1,91 @@
+{
+  "skill_id": "sakaen736jih/solana",
+  "benchmark_seed": {
+    "skill_id": "sakaen736jih/solana",
+    "owner": "sakaen736jih",
+    "slug": "solana",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/sakaen736jih_solana",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/sakaen736jih_solana/SKILL.md",
+    "benchmark_skill_md_sha256": "b4e7fcd2bff74d2eff3ffe9fcd8a429ad798ee2c4113490770e2fad4eeabf4e5",
+    "metadata_path": "data/ground_truth/malicious/clawhub/sakaen736jih_solana/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/sakaen736jih_solana/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769880074644,
+        "published_at_china": "2026-02-01T01:21:14.644000+08:00",
+        "commit_sha": "f6eeea88779fc834f709f213328d931db43d2878",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/f6eeea88779fc834f709f213328d931db43d2878",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/f6eeea88779fc834f709f213328d931db43d2878/skills/sakaen736jih/solana",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/f6eeea88779fc834f709f213328d931db43d2878/skills/sakaen736jih/solana/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/f6eeea88779fc834f709f213328d931db43d2878/skills/sakaen736jih/solana/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "f6eeea88779fc834f709f213328d931db43d2878",
+  "snapshots": [
+    {
+      "commit_sha": "f6eeea88779fc834f709f213328d931db43d2878",
+      "committer_date": "2026-01-31T22:34:39Z",
+      "message": "skill: solana v1.0.0",
+      "parents": [
+        "34ce60f154fe576a519acf5330b354758876d06a"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/f6eeea88779fc834f709f213328d931db43d2878",
+      "directory": "artifacts/sakaen736jih_solana/f6eeea88779fc834f709f213328d931db43d2878",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "7bbdca50a0c51cf44cce09ca078e9ce0413f2a27",
+          "mode": "100644",
+          "bytes": 2920,
+          "status": "verified",
+          "sha256": "b4e7fcd2bff74d2eff3ffe9fcd8a429ad798ee2c4113490770e2fad4eeabf4e5"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "612dd6484cce7eaaf5b7a4c72bc8b77350ea0a5a",
+          "mode": "100644",
+          "bytes": 190,
+          "status": "verified",
+          "sha256": "c177550a34b02ad7c88131bd5012bc8af17a4327da5f75ebd33324ab691cb9f0"
+        }
+      ],
+      "indicators": [],
+      "security_label": null,
+      "tree_sha": "307975139de1ebb6a28bd355389d1278278d20cd",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7bbdca50a0c51cf44cce09ca078e9ce0413f2a27",
+        "mode": "100644",
+        "bytes": 2920,
+        "status": "verified",
+        "sha256": "b4e7fcd2bff74d2eff3ffe9fcd8a429ad798ee2c4113490770e2fad4eeabf4e5"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769880074644,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=f6eeea88779fc834f709f213328d931db43d2878&path=skills%2Fsakaen736jih%2Fsolana&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

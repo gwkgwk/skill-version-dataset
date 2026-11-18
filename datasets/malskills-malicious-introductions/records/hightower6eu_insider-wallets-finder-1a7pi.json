@@ -1,0 +1,100 @@
+{
+  "skill_id": "hightower6eu/insider-wallets-finder-1a7pi",
+  "benchmark_seed": {
+    "skill_id": "hightower6eu/insider-wallets-finder-1a7pi",
+    "owner": "hightower6eu",
+    "slug": "insider-wallets-finder-1a7pi",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/hightower6eu_insider-wallets-finder-1a7pi",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/hightower6eu_insider-wallets-finder-1a7pi/SKILL.md",
+    "benchmark_skill_md_sha256": "692a61381316798751b83ee68db4111b9da8d2bb5f40b375343dbd28feb6dbd5",
+    "metadata_path": "data/ground_truth/malicious/clawhub/hightower6eu_insider-wallets-finder-1a7pi/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/hightower6eu_insider-wallets-finder-1a7pi/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769965110836,
+        "published_at_china": "2026-02-02T00:58:30.836000+08:00",
+        "commit_sha": "38244dc80a51513f24092f54b0b88a275b8a5cca",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/38244dc80a51513f24092f54b0b88a275b8a5cca",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/38244dc80a51513f24092f54b0b88a275b8a5cca/skills/hightower6eu/insider-wallets-finder-1a7pi",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/38244dc80a51513f24092f54b0b88a275b8a5cca/skills/hightower6eu/insider-wallets-finder-1a7pi/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/38244dc80a51513f24092f54b0b88a275b8a5cca/skills/hightower6eu/insider-wallets-finder-1a7pi/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "38244dc80a51513f24092f54b0b88a275b8a5cca",
+  "snapshots": [
+    {
+      "commit_sha": "38244dc80a51513f24092f54b0b88a275b8a5cca",
+      "committer_date": "2026-02-01T16:58:35Z",
+      "message": "skill: insider-wallets-finder-1a7pi v1.0.0",
+      "parents": [
+        "a0ec46e00749d1331e4461fe58fd7d8078699085"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/38244dc80a51513f24092f54b0b88a275b8a5cca",
+      "directory": "artifacts/hightower6eu_insider-wallets-finder-1a7pi/38244dc80a51513f24092f54b0b88a275b8a5cca",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "2c6ef86338106725b5e5dbab3149f3fabe1bb257",
+          "mode": "100644",
+          "bytes": 8198,
+          "status": "verified",
+          "sha256": "692a61381316798751b83ee68db4111b9da8d2bb5f40b375343dbd28feb6dbd5"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "33d20928b04cf1c945b0c0934926794c928f7424",
+          "mode": "100644",
+          "bytes": 228,
+          "status": "verified",
+          "sha256": "93648675194ceac07867f441482d5248700679b9fd39a39c753765f8af629d20"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "external_glot_execution_lure",
+          "line": 15,
+          "source_id": "KOI-CLAW-HAVOC",
+          "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+          "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "c79787f06f279fea06144b804a0c218a9b824f6c",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2c6ef86338106725b5e5dbab3149f3fabe1bb257",
+        "mode": "100644",
+        "bytes": 8198,
+        "status": "verified",
+        "sha256": "692a61381316798751b83ee68db4111b9da8d2bb5f40b375343dbd28feb6dbd5"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769965110836,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=38244dc80a51513f24092f54b0b88a275b8a5cca&path=skills%2Fhightower6eu%2Finsider-wallets-finder-1a7pi&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

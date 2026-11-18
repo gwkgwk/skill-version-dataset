@@ -1,0 +1,56 @@
+{
+  "commit_sha": "6f61e8a31dff927b69b03c598e392a7ccc0155e4",
+  "committer_date": "2026-02-01T20:34:03Z",
+  "message": "skill: lost-bitcoin-10li1 v1.0.0",
+  "parents": [
+    "02db7e8483163a0d969e5ecfb0572024d265e2f7"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/6f61e8a31dff927b69b03c598e392a7ccc0155e4",
+  "directory": "artifacts/hightower6eu_lost-bitcoin-10li1/6f61e8a31dff927b69b03c598e392a7ccc0155e4",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "1397495b02c207e157cff003d393a1136a7af58e",
+      "mode": "100644",
+      "bytes": 16984,
+      "status": "verified",
+      "sha256": "3b46b421b31c5a87f66107e202d4db86ac8c2aba2cc0a70bd9fe2bcfd2def3a8"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "515b417e436878d67aa36118e0b1af0079cde8c6",
+      "mode": "100644",
+      "bytes": 215,
+      "status": "verified",
+      "sha256": "607fbfe91d4608d547b35c83ef5eb49e75f8e04ecc6f6f35ec2796d2f14e29e7"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "external_glot_execution_lure",
+      "line": 15,
+      "source_id": "KOI-CLAW-HAVOC",
+      "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+      "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "939dde40a3ea7da1b861a67742684ddcb8420613",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "1397495b02c207e157cff003d393a1136a7af58e",
+    "mode": "100644",
+    "bytes": 16984,
+    "status": "verified",
+    "sha256": "3b46b421b31c5a87f66107e202d4db86ac8c2aba2cc0a70bd9fe2bcfd2def3a8"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769959326080,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

@@ -1,0 +1,100 @@
+{
+  "skill_id": "hightower6eu/yahoo-finance-1h2ji",
+  "benchmark_seed": {
+    "skill_id": "hightower6eu/yahoo-finance-1h2ji",
+    "owner": "hightower6eu",
+    "slug": "yahoo-finance-1h2ji",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/hightower6eu_yahoo-finance-1h2ji",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/hightower6eu_yahoo-finance-1h2ji/SKILL.md",
+    "benchmark_skill_md_sha256": "8e4e78f8b940f6c4a50fe397cce8b6a3ec786e5fbd9b622a30edfe7ad63a62f1",
+    "metadata_path": "data/ground_truth/malicious/clawhub/hightower6eu_yahoo-finance-1h2ji/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/hightower6eu_yahoo-finance-1h2ji/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769971027395,
+        "published_at_china": "2026-02-02T02:37:07.395000+08:00",
+        "commit_sha": "b33c12bd1b833883380c080166f07ba3bb0ef3ed",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/b33c12bd1b833883380c080166f07ba3bb0ef3ed",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/b33c12bd1b833883380c080166f07ba3bb0ef3ed/skills/hightower6eu/yahoo-finance-1h2ji",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/b33c12bd1b833883380c080166f07ba3bb0ef3ed/skills/hightower6eu/yahoo-finance-1h2ji/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/b33c12bd1b833883380c080166f07ba3bb0ef3ed/skills/hightower6eu/yahoo-finance-1h2ji/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "b33c12bd1b833883380c080166f07ba3bb0ef3ed",
+  "snapshots": [
+    {
+      "commit_sha": "b33c12bd1b833883380c080166f07ba3bb0ef3ed",
+      "committer_date": "2026-02-02T03:07:41Z",
+      "message": "skill: yahoo-finance-1h2ji v1.0.0",
+      "parents": [
+        "0fe27ac54b274af3f78990d7faf826850fd223e6"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/b33c12bd1b833883380c080166f07ba3bb0ef3ed",
+      "directory": "artifacts/hightower6eu_yahoo-finance-1h2ji/b33c12bd1b833883380c080166f07ba3bb0ef3ed",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "7cf0d5c878f48e2b87c9628a279a850cf23ce8a5",
+          "mode": "100644",
+          "bytes": 5192,
+          "status": "verified",
+          "sha256": "8e4e78f8b940f6c4a50fe397cce8b6a3ec786e5fbd9b622a30edfe7ad63a62f1"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "2c43a0573726f74adb21d9139a544c9044da1947",
+          "mode": "100644",
+          "bytes": 210,
+          "status": "verified",
+          "sha256": "ff9c3f661eddc070f9f98e0c83f969a7f4d8d82e9f08c658abbd0cc76f12e145"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "external_glot_execution_lure",
+          "line": 15,
+          "source_id": "KOI-CLAW-HAVOC",
+          "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+          "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "4d05643275787580e128228887c7b749551eba87",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7cf0d5c878f48e2b87c9628a279a850cf23ce8a5",
+        "mode": "100644",
+        "bytes": 5192,
+        "status": "verified",
+        "sha256": "8e4e78f8b940f6c4a50fe397cce8b6a3ec786e5fbd9b622a30edfe7ad63a62f1"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769971027395,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=b33c12bd1b833883380c080166f07ba3bb0ef3ed&path=skills%2Fhightower6eu%2Fyahoo-finance-1h2ji&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

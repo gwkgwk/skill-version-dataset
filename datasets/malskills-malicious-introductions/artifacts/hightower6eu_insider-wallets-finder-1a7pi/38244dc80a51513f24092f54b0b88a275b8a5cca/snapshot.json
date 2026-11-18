@@ -1,0 +1,56 @@
+{
+  "commit_sha": "38244dc80a51513f24092f54b0b88a275b8a5cca",
+  "committer_date": "2026-02-01T16:58:35Z",
+  "message": "skill: insider-wallets-finder-1a7pi v1.0.0",
+  "parents": [
+    "a0ec46e00749d1331e4461fe58fd7d8078699085"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/38244dc80a51513f24092f54b0b88a275b8a5cca",
+  "directory": "artifacts/hightower6eu_insider-wallets-finder-1a7pi/38244dc80a51513f24092f54b0b88a275b8a5cca",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "2c6ef86338106725b5e5dbab3149f3fabe1bb257",
+      "mode": "100644",
+      "bytes": 8198,
+      "status": "verified",
+      "sha256": "692a61381316798751b83ee68db4111b9da8d2bb5f40b375343dbd28feb6dbd5"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "33d20928b04cf1c945b0c0934926794c928f7424",
+      "mode": "100644",
+      "bytes": 228,
+      "status": "verified",
+      "sha256": "93648675194ceac07867f441482d5248700679b9fd39a39c753765f8af629d20"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "external_glot_execution_lure",
+      "line": 15,
+      "source_id": "KOI-CLAW-HAVOC",
+      "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+      "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "c79787f06f279fea06144b804a0c218a9b824f6c",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "2c6ef86338106725b5e5dbab3149f3fabe1bb257",
+    "mode": "100644",
+    "bytes": 8198,
+    "status": "verified",
+    "sha256": "692a61381316798751b83ee68db4111b9da8d2bb5f40b375343dbd28feb6dbd5"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769965110836,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

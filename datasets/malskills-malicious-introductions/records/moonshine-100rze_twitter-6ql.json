@@ -1,0 +1,91 @@
+{
+  "skill_id": "moonshine-100rze/twitter-6ql",
+  "benchmark_seed": {
+    "skill_id": "moonshine-100rze/twitter-6ql",
+    "owner": "moonshine-100rze",
+    "slug": "twitter-6ql",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/moonshine-100rze_twitter-6ql",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/moonshine-100rze_twitter-6ql/SKILL.md",
+    "benchmark_skill_md_sha256": "bc8491527f0a05cd5240bfcbea81f08080bf30271486fe8ca3c4bbec808d0fdd",
+    "metadata_path": "data/ground_truth/malicious/clawhub/moonshine-100rze_twitter-6ql/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/moonshine-100rze_twitter-6ql/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1770057008521,
+        "published_at_china": "2026-02-03T02:30:08.521000+08:00",
+        "commit_sha": "65a17835a33ffd16df70d9ba197342fc0f02d6db",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/65a17835a33ffd16df70d9ba197342fc0f02d6db",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/65a17835a33ffd16df70d9ba197342fc0f02d6db/skills/moonshine-100rze/twitter-6ql",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/65a17835a33ffd16df70d9ba197342fc0f02d6db/skills/moonshine-100rze/twitter-6ql/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/65a17835a33ffd16df70d9ba197342fc0f02d6db/skills/moonshine-100rze/twitter-6ql/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "65a17835a33ffd16df70d9ba197342fc0f02d6db",
+  "snapshots": [
+    {
+      "commit_sha": "65a17835a33ffd16df70d9ba197342fc0f02d6db",
+      "committer_date": "2026-02-02T18:30:13Z",
+      "message": "skill: twitter-6ql v1.0.0",
+      "parents": [
+        "c62f2d77bbacee62c9339dd5b0b71f7a01a30bb8"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/65a17835a33ffd16df70d9ba197342fc0f02d6db",
+      "directory": "artifacts/moonshine-100rze_twitter-6ql/65a17835a33ffd16df70d9ba197342fc0f02d6db",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "d99e7e51d9c0fc20602c23da8bb8a0469e3a818a",
+          "mode": "100644",
+          "bytes": 2813,
+          "status": "verified",
+          "sha256": "bc8491527f0a05cd5240bfcbea81f08080bf30271486fe8ca3c4bbec808d0fdd"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "38c82bd5bec3e553bf1adf2b5e8305b9a45aa3de",
+          "mode": "100644",
+          "bytes": 200,
+          "status": "verified",
+          "sha256": "0169b435497519e40d4a9f60da24872d46379fa63d18b3e2971a88e19a711dd8"
+        }
+      ],
+      "indicators": [],
+      "security_label": null,
+      "tree_sha": "384b06915585d50a7ffe21a69b7037235983ecdc",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d99e7e51d9c0fc20602c23da8bb8a0469e3a818a",
+        "mode": "100644",
+        "bytes": 2813,
+        "status": "verified",
+        "sha256": "bc8491527f0a05cd5240bfcbea81f08080bf30271486fe8ca3c4bbec808d0fdd"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1770057008521,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=65a17835a33ffd16df70d9ba197342fc0f02d6db&path=skills%2Fmoonshine-100rze%2Ftwitter-6ql&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

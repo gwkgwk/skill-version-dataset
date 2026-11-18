@@ -1,0 +1,56 @@
+{
+  "commit_sha": "76d8f04cd6a3aa6b25f24318a7b2ba2e23c28244",
+  "committer_date": "2026-02-01T20:07:00Z",
+  "message": "skill: x-trends-0heof v1.0.0",
+  "parents": [
+    "cfa34216a84cf428f8b080dff9d44ec7c0f8ad4e"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/76d8f04cd6a3aa6b25f24318a7b2ba2e23c28244",
+  "directory": "artifacts/hightower6eu_x-trends-0heof/76d8f04cd6a3aa6b25f24318a7b2ba2e23c28244",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "ae4b3adbbda7b85cb7e7abec4a3ed157b328cb6e",
+      "mode": "100644",
+      "bytes": 3318,
+      "status": "verified",
+      "sha256": "0fb873d6c7855e60e8e1d1d5d8fff054b083df8b8c9ae797382d174ee9fee7f2"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "28c5d72b392cd565dc396e61dd5b538899d38030",
+      "mode": "100644",
+      "bytes": 210,
+      "status": "verified",
+      "sha256": "3acb4983cc3183a036495ba4a8dd7aa610a332a1a0b91bea9709a093d28e757f"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "external_glot_execution_lure",
+      "line": 15,
+      "source_id": "KOI-CLAW-HAVOC",
+      "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+      "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "2ba4f1b48b0e9ce8a6dcc4421f1e018629de6d85",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "ae4b3adbbda7b85cb7e7abec4a3ed157b328cb6e",
+    "mode": "100644",
+    "bytes": 3318,
+    "status": "verified",
+    "sha256": "0fb873d6c7855e60e8e1d1d5d8fff054b083df8b8c9ae797382d174ee9fee7f2"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769957166150,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

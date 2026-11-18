@@ -1,0 +1,100 @@
+{
+  "skill_id": "hightower6eu/youtube-summarize-35o20",
+  "benchmark_seed": {
+    "skill_id": "hightower6eu/youtube-summarize-35o20",
+    "owner": "hightower6eu",
+    "slug": "youtube-summarize-35o20",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/hightower6eu_youtube-summarize-35o20",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/hightower6eu_youtube-summarize-35o20/SKILL.md",
+    "benchmark_skill_md_sha256": "2c9012ef5e9f35e4d51383b6194d13a875a2959cdac4b07b664e3440833819ed",
+    "metadata_path": "data/ground_truth/malicious/clawhub/hightower6eu_youtube-summarize-35o20/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/hightower6eu_youtube-summarize-35o20/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769963276004,
+        "published_at_china": "2026-02-02T00:27:56.004000+08:00",
+        "commit_sha": "427bffa972a35fffb3f55b92a9baa3cf7a467333",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/427bffa972a35fffb3f55b92a9baa3cf7a467333",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/427bffa972a35fffb3f55b92a9baa3cf7a467333/skills/hightower6eu/youtube-summarize-35o20",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/427bffa972a35fffb3f55b92a9baa3cf7a467333/skills/hightower6eu/youtube-summarize-35o20/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/427bffa972a35fffb3f55b92a9baa3cf7a467333/skills/hightower6eu/youtube-summarize-35o20/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "427bffa972a35fffb3f55b92a9baa3cf7a467333",
+  "snapshots": [
+    {
+      "commit_sha": "427bffa972a35fffb3f55b92a9baa3cf7a467333",
+      "committer_date": "2026-02-01T20:38:13Z",
+      "message": "skill: youtube-summarize-35o20 v1.0.0",
+      "parents": [
+        "fa8ab41b23c98f6add43fb0d6ca14731659ad4b0"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/427bffa972a35fffb3f55b92a9baa3cf7a467333",
+      "directory": "artifacts/hightower6eu_youtube-summarize-35o20/427bffa972a35fffb3f55b92a9baa3cf7a467333",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "9a55a4c8b49d85da892a233c96c970f5030f0a5d",
+          "mode": "100644",
+          "bytes": 4810,
+          "status": "verified",
+          "sha256": "2c9012ef5e9f35e4d51383b6194d13a875a2959cdac4b07b664e3440833819ed"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "f25ff9dd302ded971d6bf32a9aa52fcdfd9069a2",
+          "mode": "100644",
+          "bytes": 225,
+          "status": "verified",
+          "sha256": "e5695aeb2aa0bf309750eafae9a08d30fd0f7890533a55c02c64680a67b7e3f0"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "external_glot_execution_lure",
+          "line": 15,
+          "source_id": "KOI-CLAW-HAVOC",
+          "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+          "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "08fa667ce518233b6a65dfcad690641340d8e969",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9a55a4c8b49d85da892a233c96c970f5030f0a5d",
+        "mode": "100644",
+        "bytes": 4810,
+        "status": "verified",
+        "sha256": "2c9012ef5e9f35e4d51383b6194d13a875a2959cdac4b07b664e3440833819ed"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769963276004,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=427bffa972a35fffb3f55b92a9baa3cf7a467333&path=skills%2Fhightower6eu%2Fyoutube-summarize-35o20&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

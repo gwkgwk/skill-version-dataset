@@ -1,0 +1,27 @@
+{
+  "skill_id": "zaycv/clawhub",
+  "version": "1.0.3",
+  "new_commit": "93d548f298d9d996a42da85de09f9860136c2280",
+  "git_commit_at": "2026-01-31T13:34:46Z",
+  "registry_published_at_ms": 1769865839043,
+  "parent_commit": "8275d463c9b25401d80098b07e65530444af8ff0",
+  "parent_snapshot": "artifacts/zaycv_clawhub/8275d463c9b25401d80098b07e65530444af8ff0",
+  "new_snapshot": "artifacts/zaycv_clawhub/93d548f298d9d996a42da85de09f9860136c2280",
+  "parent_primary_equals_earliest_1_0_0": true,
+  "old_version_has_this_campaign_install_instruction": false,
+  "new_version_has_reported_campaign_install_instruction": true,
+  "source_ids": [
+    "SNYK-CLAWDHUB",
+    "CLAWHUB-ISSUE-108"
+  ],
+  "confirmed_scope": "first introduction in preserved Git history of this registry path at the pinned ref",
+  "global_first_published_malicious_version_confirmed": false,
+  "global_first_published_malicious_version": null,
+  "limitations": [
+    "Registry publication history may contain unarchived releases; version identifiers 1.0.1/1.0.2 have not been established as published or absent.",
+    "The preceding version has no independently established overall benign label.",
+    "This verifies introduction of reported malware-distribution instructions, not execution or infection of a victim.",
+    "Canonical archive repositories are unavailable; evidence comes from an archived Git mirror."
+  ],
+  "parent_registry_version_from_meta": "1.0.0"
+}

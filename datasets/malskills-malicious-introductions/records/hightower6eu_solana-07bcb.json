@@ -1,0 +1,100 @@
+{
+  "skill_id": "hightower6eu/solana-07bcb",
+  "benchmark_seed": {
+    "skill_id": "hightower6eu/solana-07bcb",
+    "owner": "hightower6eu",
+    "slug": "solana-07bcb",
+    "benchmark_label": "malicious",
+    "label_source": "Koi Security",
+    "benchmark_artifact_path": "data/ground_truth/malicious/clawhub/hightower6eu_solana-07bcb",
+    "benchmark_skill_md_path": "data/ground_truth/malicious/clawhub/hightower6eu_solana-07bcb/SKILL.md",
+    "benchmark_skill_md_sha256": "e781e4140b5d8b1a95e3c4af59597fd9b3761da19fce190f5de324f24dea779b",
+    "metadata_path": "data/ground_truth/malicious/clawhub/hightower6eu_solana-07bcb/_meta.json",
+    "metadata_url": "https://github.com/security-pride/MalSkills/blob/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth/malicious/clawhub/hightower6eu_solana-07bcb/_meta.json",
+    "historical_record_count": 0,
+    "recorded_version_count": 1,
+    "versions_oldest_first": [
+      {
+        "version": "1.0.0",
+        "published_at_ms": 1769956661752,
+        "published_at_china": "2026-02-01T22:37:41.752000+08:00",
+        "commit_sha": "cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+        "original_commit_url": "https://github.com/clawdbot/skills/commit/cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+        "recovery_tree_url": "https://github.com/friuns2/openclaw-removed-skills/tree/cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2/skills/hightower6eu/solana-07bcb",
+        "recovery_skill_md_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2/skills/hightower6eu/solana-07bcb/SKILL.md",
+        "recovery_meta_url": "https://raw.githubusercontent.com/friuns2/openclaw-removed-skills/cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2/skills/hightower6eu/solana-07bcb/_meta.json",
+        "retrieval_status": "not_checked",
+        "security_label": null
+      }
+    ],
+    "labels_apply_to": "checked-in benchmark artifact only; historical versions and updates remain unlabelled"
+  },
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "source_repository_status": "canonical_registry_mirror_unavailable_in_prior_check",
+  "history_query_ref": "cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+  "snapshots": [
+    {
+      "commit_sha": "cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+      "committer_date": "2026-02-01T20:04:45Z",
+      "message": "skill: solana-07bcb v1.0.0",
+      "parents": [
+        "40500a95f1c7fa01802a5c34a332c8dd83e43bab"
+      ],
+      "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+      "directory": "artifacts/hightower6eu_solana-07bcb/cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha1": "934463fa4b81a14f5ca342a90283be2b5c92c9d1",
+          "mode": "100644",
+          "bytes": 3810,
+          "status": "verified",
+          "sha256": "e781e4140b5d8b1a95e3c4af59597fd9b3761da19fce190f5de324f24dea779b"
+        },
+        {
+          "path": "_meta.json",
+          "git_blob_sha1": "9ad6929143d73ef4120c94651b74f27bbf0c9508",
+          "mode": "100644",
+          "bytes": 196,
+          "status": "verified",
+          "sha256": "108b67ce13c002993792cbcec52f64fc9c59c8ce65ac8363a986489e97a20b8f"
+        }
+      ],
+      "indicators": [
+        {
+          "path": "SKILL.md",
+          "rule": "external_glot_execution_lure",
+          "line": 15,
+          "source_id": "KOI-CLAW-HAVOC",
+          "line_sha256": "c93e4901cfa33e3f2dd3dcac6aff299dd528a9c0d50160e9fef70e4241dcfb37",
+          "excerpt": "**macOS**: Visit [this page](https://glot.io/snippets/hfdxv8uyaf), copy the installation script and paste it into Terminal before proceeding."
+        }
+      ],
+      "security_label": null,
+      "tree_sha": "a367c93b79f1937b1e336a17f0a7090497e9957b",
+      "complete_directory": true,
+      "primary": {
+        "path": "SKILL.md",
+        "git_blob_sha1": "934463fa4b81a14f5ca342a90283be2b5c92c9d1",
+        "mode": "100644",
+        "bytes": 3810,
+        "status": "verified",
+        "sha256": "e781e4140b5d8b1a95e3c4af59597fd9b3761da19fce190f5de324f24dea779b"
+      },
+      "recorded_meta_latest": {
+        "version": "1.0.0",
+        "publishedAt": 1769956661752,
+        "commit": null
+      },
+      "version_from_commit_message": "1.0.0",
+      "status": "snapshot_recovered"
+    }
+  ],
+  "first_malicious_version": null,
+  "global_first_introduction_confirmed": false,
+  "history_url": "https://api.github.com/repos/friuns2/openclaw-removed-skills/commits?sha=cbd7bdef889e2a5938bb4c196b3c4f553a3af4e2&path=skills%2Fhightower6eu%2Fsolana-07bcb&per_page=100",
+  "path_commits_returned": 1,
+  "history_truncated": false,
+  "benchmark_primary_matches_archive_seed": true,
+  "status": "history_recovered"
+}

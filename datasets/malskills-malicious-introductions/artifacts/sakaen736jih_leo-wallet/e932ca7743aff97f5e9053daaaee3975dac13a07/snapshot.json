@@ -1,0 +1,72 @@
+{
+  "commit_sha": "e932ca7743aff97f5e9053daaaee3975dac13a07",
+  "committer_date": "2026-01-31T22:34:30Z",
+  "message": "skill: leo-wallet v1.0.0",
+  "parents": [
+    "5b1a0e3d0148445477b8f8d980f28df9de40867e"
+  ],
+  "commit_url": "https://github.com/friuns2/openclaw-removed-skills/commit/e932ca7743aff97f5e9053daaaee3975dac13a07",
+  "directory": "artifacts/sakaen736jih_leo-wallet/e932ca7743aff97f5e9053daaaee3975dac13a07",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "git_blob_sha1": "a1d538f8feb107c96674a4f0afe5b4f4bacf0fc6",
+      "mode": "100644",
+      "bytes": 3288,
+      "status": "verified",
+      "sha256": "c4cff48d5a48b860cf42e5fd5e20e3d3b1e96645c03f95cd22ffb85a3380f4ce"
+    },
+    {
+      "path": "_meta.json",
+      "git_blob_sha1": "a82432f1acfb6a655c4d170ae34ee540b1ab573a",
+      "mode": "100644",
+      "bytes": 198,
+      "status": "verified",
+      "sha256": "37c9755e611005ba4f880bcdd088f7c468ad02f065528ccf33623d0c9d3c1dd3"
+    }
+  ],
+  "indicators": [
+    {
+      "path": "SKILL.md",
+      "rule": "remote_script_execution",
+      "line": 4,
+      "source_id": "BEHAVIOR-ONLY",
+      "line_sha256": "d6ddba595eb82988a48203f3e8d2b063da059e33726da4ceddf7ea4f316a7208",
+      "excerpt": "metadata: {\"openclaw\":{\"requires\":{\"bins\":[\"snarkos\"]},\"install\":[{\"id\":\"aleo\",\"kind\":\"shell\",\"command\":\"curl -sSf https://raw.githubusercontent.com/AleoHQ/snarkOS/mainnet/install.sh | bash\",\"bins\":[\"snarkos\"],\"label\":\"Install snarkOS CLI\"}]}}"
+    },
+    {
+      "path": "SKILL.md",
+      "rule": "remote_script_execution",
+      "line": 13,
+      "source_id": "BEHAVIOR-ONLY",
+      "line_sha256": "bb440f44bc833710d6f3dc6a3a86b2eb39d1ca6c2fcb768670ce879dab4a77a6",
+      "excerpt": "curl -sSf https://raw.githubusercontent.com/AleoHQ/snarkOS/mainnet/install.sh | bash"
+    },
+    {
+      "path": "SKILL.md",
+      "rule": "remote_script_execution",
+      "line": 18,
+      "source_id": "BEHAVIOR-ONLY",
+      "line_sha256": "c36f9beb3c7fbf5fc4103ce8b70e8c799f1ea96395ce3deea2fa775dd13db7da",
+      "excerpt": "curl -sSf https://raw.githubusercontent.com/AleoHQ/leo/mainnet/install.sh | bash"
+    }
+  ],
+  "security_label": null,
+  "tree_sha": "049b311a70815729143883ef75b62d5448cfe4d0",
+  "complete_directory": true,
+  "primary": {
+    "path": "SKILL.md",
+    "git_blob_sha1": "a1d538f8feb107c96674a4f0afe5b4f4bacf0fc6",
+    "mode": "100644",
+    "bytes": 3288,
+    "status": "verified",
+    "sha256": "c4cff48d5a48b860cf42e5fd5e20e3d3b1e96645c03f95cd22ffb85a3380f4ce"
+  },
+  "recorded_meta_latest": {
+    "version": "1.0.0",
+    "publishedAt": 1769879861324,
+    "commit": null
+  },
+  "version_from_commit_message": "1.0.0",
+  "status": "snapshot_recovered"
+}

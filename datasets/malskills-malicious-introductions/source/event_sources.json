@@ -1,0 +1,207 @@
+[
+  {
+    "id": "SNYK-CLAWDHUB",
+    "url": "https://snyk.io/articles/clawdhub-malicious-campaign-ai-agent-skills/",
+    "title": "Snyk clawdhub campaign investigation",
+    "event_date": "2026-02-02",
+    "identities": [
+      "zaycv/clawhub"
+    ],
+    "required_anchors": [
+      "Ddoy233",
+      "openclawcli",
+      "zaycv",
+      "91.92.242.30"
+    ],
+    "supports": "将 zaycv/clawhub 与假 CLI 分发事件关联，列出 Ddoy233/openclawcli、加密 ZIP、glot 引导及恶意下载 IP。报告没有给出首个发布版本号。",
+    "response_sha256": "8990b44fe5e2c32a57c079fd3c616312e48de3abb466e13b8f9338ca19481dcf",
+    "anchor_presence": {
+      "Ddoy233": true,
+      "openclawcli": true,
+      "zaycv": true,
+      "91.92.242.30": true
+    },
+    "status": "primary_source_content_verified"
+  },
+  {
+    "id": "SNYK-TOXICSKILLS",
+    "url": "https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/",
+    "title": "Snyk ToxicSkills investigation",
+    "publication_date": "2026-02-05",
+    "identities": [
+      "zaycv/clawhud",
+      "zaycv/clawhub1",
+      "aslaep123/polymarket-traiding-bot",
+      "aslaep123/base-agent",
+      "aslaep123/bybit-agent",
+      "moonshine-100rze/moltbook-lm8",
+      "pepe276/publish-dist"
+    ],
+    "required_anchors": [
+      "polymarket-traiding-bot",
+      "base-agent",
+      "bybit-agent",
+      "moltbook-lm8",
+      "publish-dist"
+    ],
+    "supports": "明确列出这些 owner/slug；这是独立安全事件关联，不证明其任意历史版本都恶意，也没有完整发布序列。",
+    "response_sha256": "dc4ea56d2f8d21847aa936dda82630992a6d9fefd0e9b51cd498c5d80d64b661",
+    "anchor_presence": {
+      "polymarket-traiding-bot": true,
+      "base-agent": true,
+      "bybit-agent": true,
+      "moltbook-lm8": true,
+      "publish-dist": true
+    },
+    "status": "primary_source_content_verified"
+  },
+  {
+    "id": "KOI-CLAW-HAVOC",
+    "url": "https://www.paloaltonetworks.com/blog/security-operations/clawhavoc-ai-agent-skills-poisoning/",
+    "title": "Koi ClawHavoc investigation republished by Palo Alto Networks",
+    "publication_date": "2026-02-01",
+    "reported_update_date": "2026-02-16",
+    "identities": [],
+    "required_anchors": [
+      "91.92.242.30",
+      "better-polymarket",
+      "glot.io"
+    ],
+    "supports": "提供攻击链、主机 IOC 和部分技能名称；仅名称或发布者相似不能单独证明具体 owner/slug 及首次版本。",
+    "response_sha256": "d37ab2a3d615dd93f0fe274a437f4eb7e7c1cacd5575d5ac3e2f4e71bfda8f3a",
+    "anchor_presence": {
+      "91.92.242.30": true,
+      "better-polymarket": true,
+      "glot.io": true
+    },
+    "status": "primary_source_content_verified"
+  },
+  {
+    "id": "CLAWHUB-ISSUE-108",
+    "url": "https://github.com/openclaw/clawhub/issues/108",
+    "identities": [
+      "zaycv/clawhub"
+    ],
+    "title": "ClawHub security incident issue",
+    "supports": "发布在官方项目问题区的事件记录；需区分初始报告与维护者确认，不将所有社区评论等同于官方通告。",
+    "created_at": "2026-02-02T20:49:45Z",
+    "closed_at": "2026-03-13T20:21:25Z",
+    "state": "closed",
+    "reporter": "lycfyi",
+    "reported_author_association": "NONE",
+    "body_sha256": "665a6bb8c0568c1901c5c65bae5bed4bb6c446962fe04a85f1d8f092d6473a6f",
+    "title_observed": "🚨 SECURITY: Malicious skill zaycv/clawhub distributes malware via base64-encoded payload",
+    "identity_present_in_report": true,
+    "project_response": [
+      {
+        "url": "https://github.com/openclaw/clawhub/issues/108#issuecomment-4057612570",
+        "login": "steipete",
+        "association": "CONTRIBUTOR",
+        "created_at": "2026-03-13T19:54:38Z",
+        "body_sha256": "323d0bd0dec5de1e4b5fec3ce888f138fb10029b3027969831dd9d61d1eb3c06",
+        "mentions_mitigation": false
+      },
+      {
+        "url": "https://github.com/openclaw/clawhub/issues/108#issuecomment-4057772460",
+        "login": "steipete",
+        "association": "CONTRIBUTOR",
+        "created_at": "2026-03-13T20:21:25Z",
+        "body_sha256": "52afb148475b69de35c034505a9edca30b89b71145ea263005ee422dde322aa9",
+        "mentions_mitigation": true
+      }
+    ],
+    "status": "primary_project_issue_verified"
+  },
+  {
+    "id": "CLAWHUB-ISSUE-124",
+    "url": "https://github.com/openclaw/clawhub/issues/124",
+    "identities": [
+      "zaycv/linkedin-job-application"
+    ],
+    "title": "ClawHub security incident issue",
+    "supports": "发布在官方项目问题区的事件记录；需区分初始报告与维护者确认，不将所有社区评论等同于官方通告。",
+    "created_at": "2026-02-04T03:56:16Z",
+    "closed_at": "2026-03-13T20:21:27Z",
+    "state": "closed",
+    "reporter": "adrianwedd",
+    "reported_author_association": "NONE",
+    "body_sha256": "7bb3ee5e78e6686c3177c2dee69c74b683d8229ec3de842ae8e4f2fec41c3c48",
+    "title_observed": "Security: Malicious skill linkedin-job-application by zaycv contained RCE payload",
+    "identity_present_in_report": true,
+    "project_response": [
+      {
+        "url": "https://github.com/openclaw/clawhub/issues/124#issuecomment-4057772602",
+        "login": "steipete",
+        "association": "CONTRIBUTOR",
+        "created_at": "2026-03-13T20:21:27Z",
+        "body_sha256": "52afb148475b69de35c034505a9edca30b89b71145ea263005ee422dde322aa9",
+        "mentions_mitigation": true
+      }
+    ],
+    "status": "primary_project_issue_verified"
+  },
+  {
+    "id": "CLAWHUB-ISSUE-138",
+    "url": "https://github.com/openclaw/clawhub/issues/138",
+    "identities": [
+      "zaycv/autoupdater"
+    ],
+    "title": "ClawHub security incident issue",
+    "supports": "发布在官方项目问题区的事件记录；需区分初始报告与维护者确认，不将所有社区评论等同于官方通告。",
+    "created_at": "2026-02-05T05:50:46Z",
+    "closed_at": "2026-03-13T20:21:29Z",
+    "state": "closed",
+    "reporter": "hendrysadrak",
+    "reported_author_association": "NONE",
+    "body_sha256": "febad9463a94e47b64b576bd035a5c910c87b87bc8407638f5306bb4b10ccab4",
+    "title_observed": "SECURITY: Malicious skill 'autoupdater' contains malware payload",
+    "identity_present_in_report": true,
+    "project_response": [
+      {
+        "url": "https://github.com/openclaw/clawhub/issues/138#issuecomment-3851438296",
+        "login": "orlyjamie",
+        "association": "CONTRIBUTOR",
+        "created_at": "2026-02-05T07:04:10Z",
+        "body_sha256": "2690b004b355c7a5f3cac6095a4a05f26fc69b07d7ca232dc1763d4fa2fd3388",
+        "mentions_mitigation": false
+      },
+      {
+        "url": "https://github.com/openclaw/clawhub/issues/138#issuecomment-4057772768",
+        "login": "steipete",
+        "association": "CONTRIBUTOR",
+        "created_at": "2026-03-13T20:21:28Z",
+        "body_sha256": "52afb148475b69de35c034505a9edca30b89b71145ea263005ee422dde322aa9",
+        "mentions_mitigation": true
+      }
+    ],
+    "status": "primary_project_issue_verified"
+  },
+  {
+    "id": "CLAWHUB-ISSUE-154",
+    "url": "https://github.com/openclaw/clawhub/issues/154",
+    "identities": [
+      "zaycv/deepresearch"
+    ],
+    "title": "ClawHub security incident issue",
+    "supports": "发布在官方项目问题区的事件记录；需区分初始报告与维护者确认，不将所有社区评论等同于官方通告。",
+    "created_at": "2026-02-06T01:51:47Z",
+    "closed_at": "2026-03-13T20:21:30Z",
+    "state": "closed",
+    "reporter": "rafadiasbsb",
+    "reported_author_association": "NONE",
+    "body_sha256": "ff3091c23dc6538686edc75ec2df889821513b8c6831d26208b5a64af5d2bf15",
+    "title_observed": "🚨 SECURITY: Malicious skill distributing malware - zaycv/deepresearch",
+    "identity_present_in_report": true,
+    "project_response": [
+      {
+        "url": "https://github.com/openclaw/clawhub/issues/154#issuecomment-4057772876",
+        "login": "steipete",
+        "association": "CONTRIBUTOR",
+        "created_at": "2026-03-13T20:21:30Z",
+        "body_sha256": "52afb148475b69de35c034505a9edca30b89b71145ea263005ee422dde322aa9",
+        "mentions_mitigation": true
+      }
+    ],
+    "status": "primary_project_issue_verified"
+  }
+]
