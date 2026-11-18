@@ -1,0 +1,39 @@
+{
+  "checked_date_china": "2026-11-18",
+  "repository_commit": "46d60f09cef00fd3a9c01272be63dbd273ab4444",
+  "archive_sha256": "c39cabdd216e00c46c29f348705e66ad348b90b6fe339194277808d2af5f6b0c",
+  "repository_source_blob_bytes": 19375961,
+  "metadata_records_all_checked_in_artifacts": 697,
+  "csv_rows": {
+    "ground_truth_final.csv": 200,
+    "ground_truth_dedup.csv": 167,
+    "ground_truth_original.csv": 670
+  },
+  "canonical_final": {
+    "benign": {
+      "final_samples": 100,
+      "samples_with_history": 40,
+      "historical_records": 205
+    },
+    "malicious": {
+      "final_samples": 100,
+      "samples_with_history": 2,
+      "historical_records": 7
+    }
+  },
+  "recorded_timeline_pairs": 212,
+  "confirmed_benign_to_malicious_updates": 0,
+  "confirmed_update_count_note": "No pair has been independently labelled. Zero is the confirmed count, not evidence of absence.",
+  "recovery": {
+    "attempted_version_snapshots": 15,
+    "primary_documents_readable": 12,
+    "metadata_version_matches": 15,
+    "files_readable_and_hashed": 27,
+    "files_blocked_by_host_security": 3,
+    "complete_malicious_candidate_directory_snapshots": 6,
+    "readable_document_pairs_with_diff": 7,
+    "benchmark_primary_document_matches": 4
+  },
+  "repository_releases": 0,
+  "repository_tags": 0
+}
