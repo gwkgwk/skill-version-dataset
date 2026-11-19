@@ -1,0 +1,21 @@
+{
+  "data/skills_dataset.csv": [
+    {
+      "sha": "74f32a83d4d8fc73238e4ec8c06fd69ea484ce32",
+      "message": "Add reproducible analysis suite, static AST scanner, and dynamic sandbox validation\n\n- Offline analysis suite (helper.py analyze) regenerating the dataset and taxonomy numbers from data/\n- Phase 2 static detection: regex scanner + tree-sitter AST credential->sink flow + NL description analyzer\n- Phase 3 dynamic validation: dual-condition (benign/adversarial) differential in an instrumented Docker sandbox\n- Reproduction guide (REPRODUCE.md) and unit tests",
+      "date": "2026-06-22T12:04:48Z"
+    },
+    {
+      "sha": "c5394845fbe336e8fded41b58375ecf37a9a387c",
+      "message": "Add files via upload",
+      "date": "2026-04-01T10:15:41Z"
+    }
+  ],
+  "data/issues.csv": [
+    {
+      "sha": "74f32a83d4d8fc73238e4ec8c06fd69ea484ce32",
+      "message": "Add reproducible analysis suite, static AST scanner, and dynamic sandbox validation\n\n- Offline analysis suite (helper.py analyze) regenerating the dataset and taxonomy numbers from data/\n- Phase 2 static detection: regex scanner + tree-sitter AST credential->sink flow + NL description analyzer\n- Phase 3 dynamic validation: dual-condition (benign/adversarial) differential in an instrumented Docker sandbox\n- Reproduction guide (REPRODUCE.md) and unit tests",
+      "date": "2026-06-22T12:04:48Z"
+    }
+  ]
+}

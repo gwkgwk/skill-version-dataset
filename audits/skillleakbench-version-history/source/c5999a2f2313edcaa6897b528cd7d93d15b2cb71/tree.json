@@ -1,0 +1,272 @@
+{
+  "sha": "6804dc6d65bc24e7882543a6cef76e3c7739640f",
+  "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/6804dc6d65bc24e7882543a6cef76e3c7739640f",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e93e852fbf50f6292041030d92882b56fa581ba1",
+      "size": 1066,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/e93e852fbf50f6292041030d92882b56fa581ba1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259684f5df5b085a711edc2bcb79c068aa75451d",
+      "size": 4018,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/259684f5df5b085a711edc2bcb79c068aa75451d"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd36af8cb0f3ec04cb173cb4cf5b3d597a1ba0ac",
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/fd36af8cb0f3ec04cb173cb4cf5b3d597a1ba0ac"
+    },
+    {
+      "path": "code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "768e9b29be17c28ca0ca4062dae372e21d5a60d9",
+      "size": 936,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/768e9b29be17c28ca0ca4062dae372e21d5a60d9"
+    },
+    {
+      "path": "code/phase1_collection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6537c668e20267fb52afd1cb8e78aeba1a16e593",
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/6537c668e20267fb52afd1cb8e78aeba1a16e593"
+    },
+    {
+      "path": "code/phase1_collection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "babb029208b93bcf26b3878473e2580fde9e56aa",
+      "size": 922,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/babb029208b93bcf26b3878473e2580fde9e56aa"
+    },
+    {
+      "path": "code/phase1_collection/crawler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0898c04f7c3d6a928feea1c0f2f456885fafbb73",
+      "size": 18615,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/0898c04f7c3d6a928feea1c0f2f456885fafbb73"
+    },
+    {
+      "path": "code/phase1_collection/extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c1fa06b60d674876b98178bb5784266393f359",
+      "size": 6122,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/e5c1fa06b60d674876b98178bb5784266393f359"
+    },
+    {
+      "path": "code/phase2_static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f758cabcab8ecef767e890b4f2dced0d9598e6f",
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/7f758cabcab8ecef767e890b4f2dced0d9598e6f"
+    },
+    {
+      "path": "code/phase2_static/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b87d28b58b76084dc35806bc09c962992dd95fd",
+      "size": 1924,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/9b87d28b58b76084dc35806bc09c962992dd95fd"
+    },
+    {
+      "path": "code/phase2_static/nl_analyzer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb5c88d4d007ab79b6ceb1de775a02a8b20442be",
+      "size": 23866,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/bb5c88d4d007ab79b6ceb1de775a02a8b20442be"
+    },
+    {
+      "path": "code/phase2_static/scanner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e95e32c136d5d5aaddb61421fcb02901ef9711d",
+      "size": 28462,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/1e95e32c136d5d5aaddb61421fcb02901ef9711d"
+    },
+    {
+      "path": "code/phase2_static/scanning_rules.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d47b84a7c15f6650b816844c7d68923c586c505d",
+      "size": 20371,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/d47b84a7c15f6650b816844c7d68923c586c505d"
+    },
+    {
+      "path": "code/phase3_dynamic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f8712dc759204eea91474a1b663f78863a17ff4",
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/6f8712dc759204eea91474a1b663f78863a17ff4"
+    },
+    {
+      "path": "code/phase3_dynamic/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52a8ed9d8df27cce2facae9285ee167d72cb5934",
+      "size": 2822,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/52a8ed9d8df27cce2facae9285ee167d72cb5934"
+    },
+    {
+      "path": "code/phase3_dynamic/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b2cefeb9a4724e42d3362fa0281167c139aa123",
+      "size": 2253,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/4b2cefeb9a4724e42d3362fa0281167c139aa123"
+    },
+    {
+      "path": "code/phase3_dynamic/entrypoint.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66429f7f7cdfee0e6e2c8e06b117f889a4adb272",
+      "size": 11183,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/66429f7f7cdfee0e6e2c8e06b117f889a4adb272"
+    },
+    {
+      "path": "code/phase3_dynamic/executor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "921edc1dff8676f25acab32d12f8632c3fa280f2",
+      "size": 18659,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/921edc1dff8676f25acab32d12f8632c3fa280f2"
+    },
+    {
+      "path": "code/phase3_dynamic/mock_creds.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57bad1a6646a94a20db11624dae5695c415e8c6d",
+      "size": 12309,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/57bad1a6646a94a20db11624dae5695c415e8c6d"
+    },
+    {
+      "path": "code/phase3_dynamic/monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1310898f2221268483b27680d3ca6993bde88426",
+      "size": 26570,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/1310898f2221268483b27680d3ca6993bde88426"
+    },
+    {
+      "path": "code/phase3_dynamic/sandbox_monitor.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caf50fb974c13f0f2c65822b38a05ff1652b80d9",
+      "size": 9081,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/caf50fb974c13f0f2c65822b38a05ff1652b80d9"
+    },
+    {
+      "path": "code/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "768976781904fbcd882c434984cbb92444e2f938",
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/768976781904fbcd882c434984cbb92444e2f938"
+    },
+    {
+      "path": "code/scripts/01_collect.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f213134121341fe4a366dbe13c8e55713b887575",
+      "size": 997,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/f213134121341fe4a366dbe13c8e55713b887575"
+    },
+    {
+      "path": "code/scripts/02_static_filter.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f65c567eadd174940c4fe472b9eb309daabaa961",
+      "size": 3218,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/f65c567eadd174940c4fe472b9eb309daabaa961"
+    },
+    {
+      "path": "code/scripts/03_dynamic_validate.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68006a025d0546fd04962f2a1d5610268d9cf977",
+      "size": 1565,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/68006a025d0546fd04962f2a1d5610268d9cf977"
+    },
+    {
+      "path": "code/scripts/run_all.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a0da6d2a65d23e4de796e7774d89b68e8ea035f",
+      "size": 1958,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/1a0da6d2a65d23e4de796e7774d89b68e8ea035f"
+    },
+    {
+      "path": "code/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e212440db85396bba90df4837e0eb8bde47b97fa",
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/e212440db85396bba90df4837e0eb8bde47b97fa"
+    },
+    {
+      "path": "code/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b65096d4bbb8dc0fd8aaba3e54bf47d9859dc20",
+      "size": 51,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/4b65096d4bbb8dc0fd8aaba3e54bf47d9859dc20"
+    },
+    {
+      "path": "code/utils/config_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c48e379fe4298f62a8efcd05f9f3dbb91c861cd2",
+      "size": 2147,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/c48e379fe4298f62a8efcd05f9f3dbb91c861cd2"
+    },
+    {
+      "path": "config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d8c2f3edc6444200bc31c36b5f2050df144486c",
+      "size": 2351,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/2d8c2f3edc6444200bc31c36b5f2050df144486c"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6eba3f36c5f2d51d933bb7020a5eb9169f25e38",
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/d6eba3f36c5f2d51d933bb7020a5eb9169f25e38"
+    },
+    {
+      "path": "data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c5172254d9c38b8a0395aa5e21a2ef13581e0ea",
+      "size": 1472,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/4c5172254d9c38b8a0395aa5e21a2ef13581e0ea"
+    },
+    {
+      "path": "data/skills_dataset.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d641ac1b41e91445fe88a5b84b27058030acfc6",
+      "size": 34882,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/4d641ac1b41e91445fe88a5b84b27058030acfc6"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ee71b59a51d037e2462af7e3c483c91b5855b70",
+      "size": 59,
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/blobs/7ee71b59a51d037e2462af7e3c483c91b5855b70"
+    }
+  ],
+  "truncated": false
+}

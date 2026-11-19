@@ -1,0 +1,41 @@
+{
+  "repository": "AgentSkillsPrivacy/SkillLeakBench",
+  "head_ref": "682521a54f65045725e1e01076db449e402a78f9",
+  "initial_ref": "c5394845fbe336e8fded41b58375ecf37a9a387c",
+  "main_history_commits": 9,
+  "release_tags": 4,
+  "distinct_refs_checked": 6,
+  "data_rows": 520,
+  "malicious_records": 83,
+  "malicious_distinct_name_strings": 80,
+  "repeated_malicious_name_strings": {
+    "creative-writer": 2,
+    "better-polymarket": 2,
+    "reddit-trends": 2
+  },
+  "vulnerable_records": 437,
+  "initial_malicious_records": 83,
+  "initial_current_malicious_identity_multiset_equal": false,
+  "malicious_issue_rows": 337,
+  "total_issue_rows": 1708,
+  "issue_columns": [
+    "skill_id",
+    "skill_name",
+    "classification",
+    "pattern_id",
+    "academic_code",
+    "pattern",
+    "severity"
+  ],
+  "malicious_issue_case_ids": 83,
+  "malicious_names_with_explicit_owner_slug": [
+    "abdullah4ai/openclaw-watchdog",
+    "houzl3416/antigravity-image",
+    "hummusonrails/arbitrum-dapp-skill",
+    "lvy19811120-gif/polymarketagent",
+    "novirusallowed/clawpenflow",
+    "pepe276/moltbookagent",
+    "rjnpage/rankaj"
+  ],
+  "any_source_tree_SKILL_files": false
+}

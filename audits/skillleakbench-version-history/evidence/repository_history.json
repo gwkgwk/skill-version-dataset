@@ -1,0 +1,75 @@
+[
+  {
+    "sha": "682521a54f65045725e1e01076db449e402a78f9",
+    "message": "Merge pull request #5 from AgentSkillsPrivacy/badges-hf\n\nAdd arXiv + HuggingFace badges and link the published dataset",
+    "date": "2026-06-23T14:04:59Z",
+    "parents": [
+      "985b93df0c73ad162ddc6bcb46b579a8347e1ebd",
+      "d29e3b06c6dba3cbc242e5bf40e405f6d70f6685"
+    ]
+  },
+  {
+    "sha": "d29e3b06c6dba3cbc242e5bf40e405f6d70f6685",
+    "message": "Add arXiv + HuggingFace badges and link the published dataset\n\n- arXiv (2604.03070) and HuggingFace dataset badges; link the paper title to arXiv.\n- Data section now links the HuggingFace dataset (AgentSkillPrivacy/SkillLeakBench).\n- LICENSE copyright -> \"SkillLeakBench Contributors\"; data/README citation -> the paper's author list.",
+    "date": "2026-06-23T13:59:58Z",
+    "parents": [
+      "985b93df0c73ad162ddc6bcb46b579a8347e1ebd"
+    ]
+  },
+  {
+    "sha": "985b93df0c73ad162ddc6bcb46b579a8347e1ebd",
+    "message": "Merge pull request #4 from AgentSkillsPrivacy/docs-ghcr\n\nAdd prebuilt GHCR image pull instructions",
+    "date": "2026-06-22T12:51:35Z",
+    "parents": [
+      "448f12251559e39005d253142b58f29ea64b101e",
+      "1305a2b9228ad383db832fcb105c6a5303b15b22"
+    ]
+  },
+  {
+    "sha": "1305a2b9228ad383db832fcb105c6a5303b15b22",
+    "message": "docs: add prebuilt GHCR image as an alternative to building the sandbox\n\nREADME and REPRODUCE now offer `docker pull ghcr.io/agentskillsprivacy/skill-leakbench`\n(public, no login) as an alternative to building with helper.py, tagged as skill-leakbench\nso the pipeline scripts find it.",
+    "date": "2026-06-22T12:45:46Z",
+    "parents": [
+      "448f12251559e39005d253142b58f29ea64b101e"
+    ]
+  },
+  {
+    "sha": "448f12251559e39005d253142b58f29ea64b101e",
+    "message": "Update README.md",
+    "date": "2026-06-22T12:07:55Z",
+    "parents": [
+      "87d47f59ee72bdfd00132027c50873098ed37759"
+    ]
+  },
+  {
+    "sha": "87d47f59ee72bdfd00132027c50873098ed37759",
+    "message": "Merge pull request #3 from AgentSkillsPrivacy/update\n\nAdd reproducible analysis suite, static AST scanner, and dynamic sandbox validation",
+    "date": "2026-06-22T12:06:13Z",
+    "parents": [
+      "c5999a2f2313edcaa6897b528cd7d93d15b2cb71",
+      "74f32a83d4d8fc73238e4ec8c06fd69ea484ce32"
+    ]
+  },
+  {
+    "sha": "74f32a83d4d8fc73238e4ec8c06fd69ea484ce32",
+    "message": "Add reproducible analysis suite, static AST scanner, and dynamic sandbox validation\n\n- Offline analysis suite (helper.py analyze) regenerating the dataset and taxonomy numbers from data/\n- Phase 2 static detection: regex scanner + tree-sitter AST credential->sink flow + NL description analyzer\n- Phase 3 dynamic validation: dual-condition (benign/adversarial) differential in an instrumented Docker sandbox\n- Reproduction guide (REPRODUCE.md) and unit tests",
+    "date": "2026-06-22T12:04:48Z",
+    "parents": [
+      "c5999a2f2313edcaa6897b528cd7d93d15b2cb71"
+    ]
+  },
+  {
+    "sha": "c5999a2f2313edcaa6897b528cd7d93d15b2cb71",
+    "message": "Update README.md",
+    "date": "2026-04-01T10:37:51Z",
+    "parents": [
+      "c5394845fbe336e8fded41b58375ecf37a9a387c"
+    ]
+  },
+  {
+    "sha": "c5394845fbe336e8fded41b58375ecf37a9a387c",
+    "message": "Add files via upload",
+    "date": "2026-04-01T10:15:41Z",
+    "parents": []
+  }
+]

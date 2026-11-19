@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "method": "offline standard-library verification; no upstream code or Skill execution",
+  "source_rows": 520,
+  "malicious_records": 83,
+  "vulnerable_records": 437,
+  "unverified_native_version_cases": 83,
+  "existing_related_pairs_not_recounted": 6,
+  "new_release_version_pairs": 0,
+  "new_git_commit_pairs": 0,
+  "global_combined_count_unchanged": 37,
+  "git_commit_trees_checked": 6,
+  "main_history_commits_reviewed": 9,
+  "release_tags_reviewed": 4,
+  "zenodo_zip_members_checked": 75,
+  "checks": [
+    "reconstructed original Git directory trees",
+    "all supplied original file Git blob hashes",
+    "class counts and unique local issue case IDs",
+    "metadata comparison with explicit name and pattern-order normalization",
+    "Zenodo ZIP MD5 and SHA-256, content inventory and identical dataset",
+    "Hugging Face fixed-revision hash receipts",
+    "placeholder source examples excluded",
+    "existing six pairs referenced without new credit",
+    "manifest hashes when present"
+  ],
+  "limit": "No new original Skill bytes, fixed sample commits or native release histories were found; absence in these inspected public artifacts does not prove no other versions exist."
+}

@@ -1,0 +1,35 @@
+{
+  "sha": "74f32a83d4d8fc73238e4ec8c06fd69ea484ce32",
+  "node_id": "C_kwDOR2z159oAKDc0ZjMyYTgzZDRkOGZjNzMyMzhlNGVjOGMwNmZkNjllYTQ4NGNlMzI",
+  "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/commits/74f32a83d4d8fc73238e4ec8c06fd69ea484ce32",
+  "html_url": "https://github.com/AgentSkillsPrivacy/SkillLeakBench/commit/74f32a83d4d8fc73238e4ec8c06fd69ea484ce32",
+  "author": {
+    "name": "AgentSkillsPrivacy",
+    "email": "AgentSkillsPrivacy@users.noreply.github.com",
+    "date": "2026-06-22T11:21:09Z"
+  },
+  "committer": {
+    "name": "AgentSkillsPrivacy",
+    "email": "AgentSkillsPrivacy@users.noreply.github.com",
+    "date": "2026-06-22T12:04:48Z"
+  },
+  "tree": {
+    "sha": "358dea198ce815b430f6e184e265974b63de1027",
+    "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/trees/358dea198ce815b430f6e184e265974b63de1027"
+  },
+  "message": "Add reproducible analysis suite, static AST scanner, and dynamic sandbox validation\n\n- Offline analysis suite (helper.py analyze) regenerating the dataset and taxonomy numbers from data/\n- Phase 2 static detection: regex scanner + tree-sitter AST credential->sink flow + NL description analyzer\n- Phase 3 dynamic validation: dual-condition (benign/adversarial) differential in an instrumented Docker sandbox\n- Reproduction guide (REPRODUCE.md) and unit tests",
+  "parents": [
+    {
+      "sha": "c5999a2f2313edcaa6897b528cd7d93d15b2cb71",
+      "url": "https://api.github.com/repos/AgentSkillsPrivacy/SkillLeakBench/git/commits/c5999a2f2313edcaa6897b528cd7d93d15b2cb71",
+      "html_url": "https://github.com/AgentSkillsPrivacy/SkillLeakBench/commit/c5999a2f2313edcaa6897b528cd7d93d15b2cb71"
+    }
+  ],
+  "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+  }
+}

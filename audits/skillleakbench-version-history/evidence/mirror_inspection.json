@@ -1,0 +1,64 @@
+[
+  {
+    "name": "zenodo",
+    "url": "https://zenodo.org/api/records/19367969",
+    "status": "retrieved",
+    "files": [
+      {
+        "key": "AgentSkillsPrivacy/SkillLeakBench-v1.2.zip",
+        "size": 155135,
+        "checksum": "md5:8ad9c5c25fcd015fd74f4f43c764447d"
+      }
+    ]
+  },
+  {
+    "name": "huggingface_tree",
+    "url": "https://huggingface.co/api/datasets/AgentSkillPrivacy/SkillLeakBench/tree/main?recursive=true",
+    "status": "retrieved",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size": 2504
+      },
+      {
+        "path": "README.md",
+        "size": 3695
+      },
+      {
+        "path": "issues.csv",
+        "size": 143205
+      },
+      {
+        "path": "popularity_hardcoded_repos.csv",
+        "size": 715
+      },
+      {
+        "path": "remediation_summary.csv",
+        "size": 117
+      },
+      {
+        "path": "skills_dataset.csv",
+        "size": 36287
+      }
+    ]
+  },
+  {
+    "name": "huggingface_commits",
+    "url": "https://huggingface.co/api/datasets/AgentSkillPrivacy/SkillLeakBench/commits/main",
+    "status": "retrieved",
+    "files": [
+      {
+        "id": "8264436a0483e2fc1aed84b80e5fde73ea52c3ca",
+        "title": "Refresh to paper's released data: 520 affected (437 vuln + 83 mal), 1,708 issues + disclosure/popularity; updated card (arXiv 2604.03070)"
+      },
+      {
+        "id": "6f3bb6cad493525648e217fa4e66833a0d37d9fa",
+        "title": "Upload 3 files"
+      },
+      {
+        "id": "4e543c7e0803fb7b2ff757a28864abb9384a5ed7",
+        "title": "initial commit"
+      }
+    ]
+  }
+]

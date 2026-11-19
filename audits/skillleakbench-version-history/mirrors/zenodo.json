@@ -1,0 +1,119 @@
+{
+  "created": "2026-07-03T05:29:35.927716+00:00",
+  "modified": "2026-07-03T05:29:36.112016+00:00",
+  "id": 21154129,
+  "conceptrecid": "19367969",
+  "doi": "10.5281/zenodo.21154129",
+  "conceptdoi": "10.5281/zenodo.19367969",
+  "doi_url": "https://doi.org/10.5281/zenodo.21154129",
+  "metadata": {
+    "title": "AgentSkillsPrivacy/SkillLeakBench: SkillLeakBench v1.2",
+    "doi": "10.5281/zenodo.21154129",
+    "publication_date": "2026-07-03",
+    "description": "<p>Add the ASE 2026 artifact-evaluation documents (STATUS, REQUIREMENTS, artifact appendix).</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "AgentSkillsPrivacy",
+        "affiliation": null
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/AgentSkillsPrivacy/SkillLeakBench/tree/v1.2",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "version": "v1.2",
+    "custom": {
+      "code:codeRepository": "https://github.com/AgentSkillsPrivacy/SkillLeakBench"
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "mit-license"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "19367969"
+          }
+        }
+      ]
+    }
+  },
+  "title": "AgentSkillsPrivacy/SkillLeakBench: SkillLeakBench v1.2",
+  "links": {
+    "self": "https://zenodo.org/api/records/21154129",
+    "self_html": "https://zenodo.org/records/21154129",
+    "preview_html": "https://zenodo.org/records/21154129?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.21154129",
+    "self_doi": "https://doi.org/10.5281/zenodo.21154129",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21154129",
+    "reserve_doi": "https://zenodo.org/api/records/21154129/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/19367969",
+    "parent_html": "https://zenodo.org/records/19367969",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19367969",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19367969",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21154129/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21154129/sequence/default",
+    "files": "https://zenodo.org/api/records/21154129/files",
+    "media_files": "https://zenodo.org/api/records/21154129/media-files",
+    "latest": "https://zenodo.org/api/records/21154129/versions/latest",
+    "latest_html": "https://zenodo.org/records/21154129/latest",
+    "versions": "https://zenodo.org/api/records/21154129/versions",
+    "draft": "https://zenodo.org/api/records/21154129/draft",
+    "access_links": "https://zenodo.org/api/records/21154129/access/links",
+    "access_grants": "https://zenodo.org/api/records/21154129/access/grants",
+    "access_users": "https://zenodo.org/api/records/21154129/access/users",
+    "access_request": "https://zenodo.org/api/records/21154129/access/request",
+    "access": "https://zenodo.org/api/records/21154129/access",
+    "communities": "https://zenodo.org/api/records/21154129/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/21154129/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/21154129/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/21154129/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/21154129/quota-increase",
+    "requests": "https://zenodo.org/api/records/21154129/requests"
+  },
+  "updated": "2026-07-03T05:29:36.112016+00:00",
+  "recid": "21154129",
+  "revision": 3,
+  "files": [
+    {
+      "id": "6eeb146c-5bdd-4749-b686-c5809f01a5a7",
+      "key": "AgentSkillsPrivacy/SkillLeakBench-v1.2.zip",
+      "size": 155135,
+      "checksum": "md5:8ad9c5c25fcd015fd74f4f43c764447d",
+      "links": {
+        "self": "https://zenodo.org/api/records/21154129/files/AgentSkillsPrivacy/SkillLeakBench-v1.2.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1595033"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 69,
+    "unique_downloads": 46,
+    "views": 233,
+    "unique_views": 222,
+    "version_downloads": 26,
+    "version_unique_downloads": 17,
+    "version_unique_views": 79,
+    "version_views": 86
+  },
+  "state": "done",
+  "submitted": true
+}
