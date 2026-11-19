@@ -1,0 +1,78 @@
+[
+  {
+    "case_id": "E-NATIVE-SYMLINK",
+    "first_parent_verified": true,
+    "sha256_checked_files": [
+      {
+        "side": "before",
+        "file": "quick_validate.py",
+        "sha256": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw/c06ad38a715f764cb17e702b1c6d4c9b90abb053/skills/skill-creator/scripts/quick_validate.py",
+        "bytes": 3293
+      },
+      {
+        "side": "before",
+        "file": "package_skill.py",
+        "sha256": "b4dbaba3700848f149419e500dd2ccecf7d98b75c84d648f1a699fe4fb2f4628",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw/c06ad38a715f764cb17e702b1c6d4c9b90abb053/skills/skill-creator/scripts/package_skill.py",
+        "bytes": 3280
+      },
+      {
+        "side": "after",
+        "file": "quick_validate.py",
+        "sha256": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw/c275932aa4230fb7a8212fe1b9d2a18424874b3f/skills/skill-creator/scripts/quick_validate.py",
+        "bytes": 3293
+      },
+      {
+        "side": "after",
+        "file": "package_skill.py",
+        "sha256": "86c9d4a944da2ffe8ac03774777e3cafab737052449ade858d4e2a125ff139b1",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw/c275932aa4230fb7a8212fe1b9d2a18424874b3f/skills/skill-creator/scripts/package_skill.py",
+        "bytes": 4112
+      }
+    ],
+    "new_commit": "c275932aa4230fb7a8212fe1b9d2a18424874b3f",
+    "old_commit": "c06ad38a715f764cb17e702b1c6d4c9b90abb053",
+    "commit_message": "fix(security): OC-22 prevent Zip Slip and symlink following in skill packaging\n\nThis commit implements critical security fixes for vulnerability OC-22\n(CVSS 7.7, CWE-426) in the skill packaging system.\n\n## Security Fixes\n\n1. Symlink Detection and Rejection\n   - Added check to detect and reject symlinks in skill directories\n   - Prevents attackers from including arbitrary system files via symlink following\n   - Rejects packaging with error message if any symlink is found\n\n2. Path Traversal (Zip Slip) Prevention\n   - Added validation for arcname paths in zip archives\n   - Rejects paths containing \"..\" (directory traversal)\n   - Rejects absolute paths that could escape skill directory\n   - Prevents attackers from overwriting system files during extraction\n\n## Attack Vectors Mitigated\n\n- Symlink following: Attacker creates symlink to /etc/passwd or other\n  sensitive files in skill directory → now rejected\n- Zip Slip: Attacker crafts paths with \"../../root/.bashrc\" to overwrite\n  system files during extraction → now rejected\n\n## Changes\n\n- Modified: skills/skill-creator/scripts/package_skill.py\n  - Added symlink check (line 73-76)\n  - Added path validation check (line 84-87)\n  - Enhanced error messages for security violations\n\n- Added: skills/skill-creator/scripts/test_package_skill.py\n  - Comprehensive test suite with 11 test cases\n  - Tests for symlink rejection\n  - Tests for path traversal prevention\n  - Tests for normal file packaging\n  - Tests for edge cases (nested files, multiple files, large skills)\n\n## Testing\n\nAll 11 tests pass:\n- test_normal_file_packaging: Normal files packaged correctly\n- test_symlink_rejection: Symlinks detected and rejected\n- test_symlink_to_sensitive_file: Sensitive file symlinks rejected\n- test_zip_slip_prevention: Normal subdirectories work properly\n- test_absolute_path_prevention: Path validation logic tested\n- test_nested_files_allowed: Properly nested files allowed\n- test_multiple_files_with_symlink_mixed: Single symlink fails entire package\n- test_large_skill_with_many_files: Large skills handled correctly\n- test_missing_skill_directory: Error handling verified\n- test_file_instead_of_directory: Error handling verified\n- test_missing_skill_md: Error handling verified",
+    "source_classification": "safety_improvement_not_historical_malicious_incident"
+  },
+  {
+    "case_id": "E-NATIVE-VCS",
+    "first_parent_verified": true,
+    "sha256_checked_files": [
+      {
+        "side": "before",
+        "file": "quick_validate.py",
+        "sha256": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw/3f64d4ad7b23c95de4cc8ae4de9861d958593436/skills/skill-creator/scripts/quick_validate.py",
+        "bytes": 3293
+      },
+      {
+        "side": "before",
+        "file": "package_skill.py",
+        "sha256": "975a6e5903b875da67039a9f71f653da0af4ba182104338c5e07a03a7669c24d",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw/3f64d4ad7b23c95de4cc8ae4de9861d958593436/skills/skill-creator/scripts/package_skill.py",
+        "bytes": 3606
+      },
+      {
+        "side": "after",
+        "file": "quick_validate.py",
+        "sha256": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw/3bfe990c33b176f42bb58038922bd9124a8c79b6/skills/skill-creator/scripts/quick_validate.py",
+        "bytes": 3293
+      },
+      {
+        "side": "after",
+        "file": "package_skill.py",
+        "sha256": "59725065fd03e231a6fc4fe3d42fe16f25b3546509edb62a96115319c86e2669",
+        "url": "https://raw.githubusercontent.com/openclaw/openclaw/3bfe990c33b176f42bb58038922bd9124a8c79b6/skills/skill-creator/scripts/package_skill.py",
+        "bytes": 3849
+      }
+    ],
+    "new_commit": "3bfe990c33b176f42bb58038922bd9124a8c79b6",
+    "old_commit": "3f64d4ad7b23c95de4cc8ae4de9861d958593436",
+    "commit_message": "fix(skill-creator): exclude .git and VCS internals from .skill archives (#23180)\n\nThe packager included .git directory contents in .skill archives,\ncausing unnecessary bloat, metadata leakage, and poor artifact hygiene.\n\nHard-exclude .git, .svn, .hg, __pycache__, and node_modules from\npackaged archives. These paths are never useful in distributable skills.\n\nFixes #23149\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+    "source_classification": "safety_improvement_not_historical_malicious_incident"
+  }
+]

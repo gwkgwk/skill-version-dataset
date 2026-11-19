@@ -1,0 +1,2888 @@
+{
+  "sha": "da998c02db22acaa88bf0ca2fa0f9ecfc745a7a2",
+  "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/da998c02db22acaa88bf0ca2fa0f9ecfc745a7a2",
+  "tree": [
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "890093b0f0a16b1c3300882c48a9450f3580843a",
+      "size": 149,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/890093b0f0a16b1c3300882c48a9450f3580843a"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d171cbda87dc4a1306fbe187854733414661e111",
+      "size": 344,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d171cbda87dc4a1306fbe187854733414661e111"
+    },
+    {
+      "path": "CITATION.bib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "613a4f52d96fc1950d91578bbd2d0738bdc2fdb3",
+      "size": 254,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/613a4f52d96fc1950d91578bbd2d0738bdc2fdb3"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df7acae8a4ab5344b5e85692b6b464a4079d55d",
+      "size": 535,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/0df7acae8a4ab5344b5e85692b6b464a4079d55d"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1aaeca810257376a6ec94cc461080f2afab5956",
+      "size": 1105,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d1aaeca810257376a6ec94cc461080f2afab5956"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eaa86b1c43faba349a981f626e7033907fb2388",
+      "size": 5305,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2eaa86b1c43faba349a981f626e7033907fb2388"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ad82d1e6a071139e2bd97bf89c17a4ec2115ef",
+      "size": 2314,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/03ad82d1e6a071139e2bd97bf89c17a4ec2115ef"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a07c7c83d3ecb1e4d93e6c38e2a9ca24f0fbe09b",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/a07c7c83d3ecb1e4d93e6c38e2a9ca24f0fbe09b"
+    },
+    {
+      "path": "data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9f814c5250a1d6d1695a74b85679a6e8670aebc",
+      "size": 2115,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f9f814c5250a1d6d1695a74b85679a6e8670aebc"
+    },
+    {
+      "path": "data/lifecycle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5cb9d0cd96b388f1d66f7ca7a77f0b43f61ecdce",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/5cb9d0cd96b388f1d66f7ca7a77f0b43f61ecdce"
+    },
+    {
+      "path": "data/lifecycle/analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9caeb610a589c76836195b05263e5e7b08eac73f",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/9caeb610a589c76836195b05263e5e7b08eac73f"
+    },
+    {
+      "path": "data/lifecycle/analysis/coverage.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506bb3858fb028223dad97aba0bd653355b8bcb0",
+      "size": 5208,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/506bb3858fb028223dad97aba0bd653355b8bcb0"
+    },
+    {
+      "path": "data/lifecycle/analysis/decision-analysis-protocol.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f4dcaf319f066b59eb06212a30c81062f79ed62",
+      "size": 1087,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3f4dcaf319f066b59eb06212a30c81062f79ed62"
+    },
+    {
+      "path": "data/lifecycle/analysis/decision-episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a84057700cc08eb302178e0f17124cac64d64a4",
+      "size": 741697,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/0a84057700cc08eb302178e0f17124cac64d64a4"
+    },
+    {
+      "path": "data/lifecycle/analysis/decision-trace-examples.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "129d8e2c77595bab42c4b3ea9456320f46a5f90a",
+      "size": 13547,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/129d8e2c77595bab42c4b3ea9456320f46a5f90a"
+    },
+    {
+      "path": "data/lifecycle/analysis/decision-traces.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90726c3535af462a1080215a1c7b58e10f823791",
+      "size": 42769,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/90726c3535af462a1080215a1c7b58e10f823791"
+    },
+    {
+      "path": "data/lifecycle/analysis/model-ranking.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eba2a19e74d8bd1f3f18ccc3867d64bb56f04632",
+      "size": 5865,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/eba2a19e74d8bd1f3f18ccc3867d64bb56f04632"
+    },
+    {
+      "path": "data/lifecycle/analysis/model-ranking.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7c9b79b6271fe8453dc0b212141e7e3de06f840",
+      "size": 21518,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c7c9b79b6271fe8453dc0b212141e7e3de06f840"
+    },
+    {
+      "path": "data/lifecycle/analysis/paired-transitions.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83341b98674dc7017396266013d914478100aa02",
+      "size": 14420,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/83341b98674dc7017396266013d914478100aa02"
+    },
+    {
+      "path": "data/lifecycle/analysis/per-template.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb874bd405dc9ffd374462d7848d3fb6270d7f5",
+      "size": 14369,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7cb874bd405dc9ffd374462d7848d3fb6270d7f5"
+    },
+    {
+      "path": "data/lifecycle/analysis/raw-regrade-verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9dd0a129a39374e4a36ac9e78c56b5a8a22257",
+      "size": 6359,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3c9dd0a129a39374e4a36ac9e78c56b5a8a22257"
+    },
+    {
+      "path": "data/lifecycle/analysis/runtime-lifecycle-comparison.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d3941d2795d3edbc757c08a77a51f6e595eb677",
+      "size": 1040,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7d3941d2795d3edbc757c08a77a51f6e595eb677"
+    },
+    {
+      "path": "data/lifecycle/analysis/selected-outcome-index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "593a895ea59a8e0f287a34e6b6b245ce151cb70c",
+      "size": 1140689,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/593a895ea59a8e0f287a34e6b6b245ce151cb70c"
+    },
+    {
+      "path": "data/lifecycle/analysis/termination-routes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a55c28f212ec7cf807f718d23200053cebfb50a4",
+      "size": 6914,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a55c28f212ec7cf807f718d23200053cebfb50a4"
+    },
+    {
+      "path": "data/lifecycle/analysis/uncertainty.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b174bc0debab6249fa9fb132e68cb9558cc9049",
+      "size": 22526,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/8b174bc0debab6249fa9fb132e68cb9558cc9049"
+    },
+    {
+      "path": "data/lifecycle/analysis/verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6dbe7c20bbe4bc74f90157f75d15f1986746fb0",
+      "size": 941594,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a6dbe7c20bbe4bc74f90157f75d15f1986746fb0"
+    },
+    {
+      "path": "data/lifecycle/evidence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fcda228e7dd55e8e500b3be30afcf298abb7cac",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/4fcda228e7dd55e8e500b3be30afcf298abb7cac"
+    },
+    {
+      "path": "data/lifecycle/evidence/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a2d057feeb6eb1270f8f33e6fd6611a497dbc1",
+      "size": 2219,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/44a2d057feeb6eb1270f8f33e6fd6611a497dbc1"
+    },
+    {
+      "path": "data/lifecycle/evidence/archive-index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36b742b12dcc928f3008eb11b825d3dbe198dbdd",
+      "size": 2700,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/36b742b12dcc928f3008eb11b825d3dbe198dbdd"
+    },
+    {
+      "path": "data/lifecycle/evidence/evidence.tar.xz.part-0001",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b86b875b60cc3b6035916809c585d66287c49a1d",
+      "size": 15152772,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b86b875b60cc3b6035916809c585d66287c49a1d"
+    },
+    {
+      "path": "data/lifecycle/evidence/verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40afe0b49921793926ba5ac5dce8be421575c0bc",
+      "size": 225,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/40afe0b49921793926ba5ac5dce8be421575c0bc"
+    },
+    {
+      "path": "data/lifecycle/evidence/verify_public_export.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffa93b41b2ad5847d05c9399beac65903aca310e",
+      "size": 7750,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ffa93b41b2ad5847d05c9399beac65903aca310e"
+    },
+    {
+      "path": "data/lifecycle/protocol",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b07280b71da29a40c91a9f59f148e0ef8adb71e",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/2b07280b71da29a40c91a9f59f148e0ef8adb71e"
+    },
+    {
+      "path": "data/lifecycle/protocol/execution-plan02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fa1e12bf783422b6e9340d615410d009ebbe302",
+      "size": 33529,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/1fa1e12bf783422b6e9340d615410d009ebbe302"
+    },
+    {
+      "path": "data/lifecycle/protocol/qualification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d1929a761e17816d168e23c9cdd4519e5f0bf9e",
+      "size": 222358,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6d1929a761e17816d168e23c9cdd4519e5f0bf9e"
+    },
+    {
+      "path": "data/lifecycle/protocol/study.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "923e94bf329df7c7cbc45261e66f3690804e8d07",
+      "size": 1958,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/923e94bf329df7c7cbc45261e66f3690804e8d07"
+    },
+    {
+      "path": "data/lifecycle/protocol/task-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d44a56b5eab28048a69b5a141760fdf403aa389",
+      "size": 1377254,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6d44a56b5eab28048a69b5a141760fdf403aa389"
+    },
+    {
+      "path": "data/lifecycle/publication.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e233a903275745f5cdd0a09fad46f47ace49080",
+      "size": 9075,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3e233a903275745f5cdd0a09fad46f47ace49080"
+    },
+    {
+      "path": "data/runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbebcf04be892e2defa605c99b6bc09dbca625e9",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/fbebcf04be892e2defa605c99b6bc09dbca625e9"
+    },
+    {
+      "path": "data/runtime/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "115e1b4bca9a5bad628a14657713d5780e3ecbdb",
+      "size": 757,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/115e1b4bca9a5bad628a14657713d5780e3ecbdb"
+    },
+    {
+      "path": "data/runtime/current-model-runtime-data.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2595c6c2bb32a32614bf32abd79118849ac082ef",
+      "size": 32371,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2595c6c2bb32a32614bf32abd79118849ac082ef"
+    },
+    {
+      "path": "data/runtime/hosted",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3da40c95883b23b6bda4c4c8bc46d9a4c84b5556",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/3da40c95883b23b6bda4c4c8bc46d9a4c84b5556"
+    },
+    {
+      "path": "data/runtime/hosted/RELEASE.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f5f6657b73d9dde3ff322ea299b7081358cb57",
+      "size": 1728,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/82f5f6657b73d9dde3ff322ea299b7081358cb57"
+    },
+    {
+      "path": "data/runtime/hosted/USAGE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d5aa438d21c809c0571cd9991cf3fa9e011920",
+      "size": 3209,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/91d5aa438d21c809c0571cd9991cf3fa9e011920"
+    },
+    {
+      "path": "data/runtime/hosted/bundle-index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497175ee2f7a29ca9e2085984f173d6c6ea6cb81",
+      "size": 2275,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/497175ee2f7a29ca9e2085984f173d6c6ea6cb81"
+    },
+    {
+      "path": "data/runtime/hosted/bundles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a96149ff69e10b192459461bd33b33f839ec2d3f",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/a96149ff69e10b192459461bd33b33f839ec2d3f"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/audit-only.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73d455a95090dd444147ec23cf268180fdbae5f9",
+      "size": 6492980,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/73d455a95090dd444147ec23cf268180fdbae5f9"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/claude-sonnet-4-6.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d359a0cadd4f4c1754be42e70bf017af3692cf2b",
+      "size": 9631688,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d359a0cadd4f4c1754be42e70bf017af3692cf2b"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/claude-sonnet-5.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b4c1c9a418e3d08159603be87218d43ca849455",
+      "size": 9318540,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9b4c1c9a418e3d08159603be87218d43ca849455"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/deepseek-v3.2.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7dc231ac41473543615f0b91b7aeff65b472232",
+      "size": 12914368,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a7dc231ac41473543615f0b91b7aeff65b472232"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/deepseek-v4-flash.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a0a9be1b9e29f045d0179fbb878c174587748d9",
+      "size": 10717944,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3a0a9be1b9e29f045d0179fbb878c174587748d9"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/deepseek-v4-pro.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2c51121889060407853a40fbcdf966527c7dbbd",
+      "size": 9255824,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e2c51121889060407853a40fbcdf966527c7dbbd"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/gemini-3.5-flash.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c70a1841d38c7726d388791dd3c8c90009dae3",
+      "size": 12298264,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/33c70a1841d38c7726d388791dd3c8c90009dae3"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/glm-5.2.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74c06308147ef65ee47c524ee5f738c0e53c19b6",
+      "size": 8903320,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/74c06308147ef65ee47c524ee5f738c0e53c19b6"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/glm-5.3.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2645f446a41ad1a003413c2e313371e03c838e8",
+      "size": 12159452,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d2645f446a41ad1a003413c2e313371e03c838e8"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/gpt-5.6-sol.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4954afb86eae33138e6be5a17cf38f8743d014cd",
+      "size": 10412180,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/4954afb86eae33138e6be5a17cf38f8743d014cd"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/gpt-5.6-terra.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd18346606e512fa34a809b12c3570d9deb6ecd3",
+      "size": 10601072,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/bd18346606e512fa34a809b12c3570d9deb6ecd3"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/gpt-6-luna.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc493ace680fc62e20cd8d467a583e0bd5dd509",
+      "size": 8068736,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/8bc493ace680fc62e20cd8d467a583e0bd5dd509"
+    },
+    {
+      "path": "data/runtime/hosted/bundles/kimi-k2.6.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47097915bb62ddfcd7b99fbb5266dad6e172db47",
+      "size": 8954312,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/47097915bb62ddfcd7b99fbb5266dad6e172db47"
+    },
+    {
+      "path": "data/runtime/hosted/checks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80a9d7d560e81f13fc8e05208769e97d62b88aba",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/80a9d7d560e81f13fc8e05208769e97d62b88aba"
+    },
+    {
+      "path": "data/runtime/hosted/checks/archive-roundtrip.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9565409488e75158e875fbe805582c117e09b22d",
+      "size": 5596,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9565409488e75158e875fbe805582c117e09b22d"
+    },
+    {
+      "path": "data/runtime/hosted/checks/identity-and-case-coverage.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03de7a9f28517ee854a94dfd5c4766acaa62d107",
+      "size": 200,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/03de7a9f28517ee854a94dfd5c4766acaa62d107"
+    },
+    {
+      "path": "data/runtime/hosted/checks/portable-scorer-verification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13fba44cb14b496eab6b041243577aa88ac47282",
+      "size": 4388,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/13fba44cb14b496eab6b041243577aa88ac47282"
+    },
+    {
+      "path": "data/runtime/hosted/checks/privacy-hardening.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37addaf2a471cb09e8f5d507497fb9ec307aef7",
+      "size": 606,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d37addaf2a471cb09e8f5d507497fb9ec307aef7"
+    },
+    {
+      "path": "data/runtime/hosted/code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eea85864e3d091018a5a7868d5853cc9b1327b55",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/eea85864e3d091018a5a7868d5853cc9b1327b55"
+    },
+    {
+      "path": "data/runtime/hosted/code/apply_semantic_adjudications.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76bc698d9e67aa3107cd8438c1d36aec7c66bfdd",
+      "size": 9670,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/76bc698d9e67aa3107cd8438c1d36aec7c66bfdd"
+    },
+    {
+      "path": "data/runtime/hosted/code/replays",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6d2df42fa907b27313af77015ae90ccc033300f",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/e6d2df42fa907b27313af77015ae90ccc033300f"
+    },
+    {
+      "path": "data/runtime/hosted/code/replays/service_error_rule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a4c9bbfdbdab368139773641f39048d03ea2995",
+      "size": 842,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9a4c9bbfdbdab368139773641f39048d03ea2995"
+    },
+    {
+      "path": "data/runtime/hosted/code/saved_runtime_inputs_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9e2b60502b9566627943377995393f30a06d39",
+      "size": 12523,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/8a9e2b60502b9566627943377995393f30a06d39"
+    },
+    {
+      "path": "data/runtime/hosted/code/verify_final_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91c12f74fbc3e6d341193df5958a75494506f23c",
+      "size": 4001,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/91c12f74fbc3e6d341193df5958a75494506f23c"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a038c5299dec5e9ab58a5151f5ecfb253f89ad2c",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/a038c5299dec5e9ab58a5151f5ecfb253f89ad2c"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_banking_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "021dfa8e67c39a09b89f81d6d14ff45499e6a1f2",
+      "size": 37113,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/021dfa8e67c39a09b89f81d6d14ff45499e6a1f2"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_banking_record_measurements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fbe00dd202b68c039bb86d0a711888e3fb8ed45",
+      "size": 21778,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3fbe00dd202b68c039bb86d0a711888e3fb8ed45"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_binary_goal_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda6d959610309f245c6f5a124d763a4dc563c92",
+      "size": 10495,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/cda6d959610309f245c6f5a124d763a4dc563c92"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_binary_task_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebdfd5d39e3ed0cbbb5167277e169c5aede2388",
+      "size": 35572,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/aebdfd5d39e3ed0cbbb5167277e169c5aede2388"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_candidate_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b69593bff72f326aeba348bf2876d527abd8fd78",
+      "size": 60161,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b69593bff72f326aeba348bf2876d527abd8fd78"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_candidate_projections.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b511f4908e748661aa906251d1761640af73ea89",
+      "size": 20247,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b511f4908e748661aa906251d1761640af73ea89"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_candidate_utility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb67da67ea193c6e6c54dd59763006a19d92d825",
+      "size": 30358,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/eb67da67ea193c6e6c54dd59763006a19d92d825"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efe34b52bec22561ca40e23e94c57c73e6d5c855",
+      "size": 25224,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/efe34b52bec22561ca40e23e94c57c73e6d5c855"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next40_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5adabc98833c4b8d508dd2aa226f40437d644e04",
+      "size": 46918,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5adabc98833c4b8d508dd2aa226f40437d644e04"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next40_effect_evidence_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95ca858b1c0ef3b79e1ca3764e26c6e5e2360b8b",
+      "size": 5172,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/95ca858b1c0ef3b79e1ca3764e26c6e5e2360b8b"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next40_normal_utility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56d251cfd9f9cb91182c7be880a605b27035800f",
+      "size": 36697,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/56d251cfd9f9cb91182c7be880a605b27035800f"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next40_normal_utility_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30e45da1163e7aeec0c3a0ae32e729785596ecc8",
+      "size": 11745,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/30e45da1163e7aeec0c3a0ae32e729785596ecc8"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next40_normal_validation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fabb6e6c77d829fba49dea3c0708b9f94dc916b0",
+      "size": 37682,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/fabb6e6c77d829fba49dea3c0708b9f94dc916b0"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next51_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a079831ad91f51d2b4f14ba92482fba406914a0",
+      "size": 32772,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3a079831ad91f51d2b4f14ba92482fba406914a0"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next51_normal_utility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44dbd55393cae37d6705fa16616c965f5f22a7e9",
+      "size": 28440,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/44dbd55393cae37d6705fa16616c965f5f22a7e9"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next51_normal_utility_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c630b8e1b53c0c83882b91a4e6d0f7d22d1d990",
+      "size": 7521,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5c630b8e1b53c0c83882b91a4e6d0f7d22d1d990"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next51_reference_diagnostics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c88f44cd2ef3227f5dc30242c2c091ded2cdb52",
+      "size": 34585,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9c88f44cd2ef3227f5dc30242c2c091ded2cdb52"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next51_target_measurements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1352c0699ad506124619d7b2b55762cf6a52f63",
+      "size": 38842,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a1352c0699ad506124619d7b2b55762cf6a52f63"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next51_target_measurements_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f7ae76a9c138b8c9e7783268fb19fa50ec10e3",
+      "size": 24254,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f1f7ae76a9c138b8c9e7783268fb19fa50ec10e3"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next60_source_review.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3af3c487579212d5cd92922d69b442172970f55",
+      "size": 63739,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c3af3c487579212d5cd92922d69b442172970f55"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next60_target_measurements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327575373bd2b10ab2d3e1b00171f7678b57f195",
+      "size": 33949,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/327575373bd2b10ab2d3e1b00171f7678b57f195"
+    },
+    {
+      "path": "data/runtime/hosted/code/www2027/agentdojo_next60_target_measurements_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2103b990ec179f6a66665956c4281507d055dea",
+      "size": 3922,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d2103b990ec179f6a66665956c4281507d055dea"
+    },
+    {
+      "path": "data/runtime/hosted/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac64daf03c3551e60b67950abee6f3e80c356c84",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/ac64daf03c3551e60b67950abee6f3e80c356c84"
+    },
+    {
+      "path": "data/runtime/hosted/data/contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81005fa6413fe539d7fbbdcc1a5730b466230100",
+      "size": 3707165,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/81005fa6413fe539d7fbbdcc1a5730b466230100"
+    },
+    {
+      "path": "data/runtime/hosted/data/current-model-runtime-data.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc2352d382bf8b86dd80ebee98655db7a644510f",
+      "size": 25457,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/cc2352d382bf8b86dd80ebee98655db7a644510f"
+    },
+    {
+      "path": "data/runtime/hosted/data/full-suite-category-C-updates.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c826ca0c157d8ec2fef1f7a18624633b16bb24f1",
+      "size": 190282,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c826ca0c157d8ec2fef1f7a18624633b16bb24f1"
+    },
+    {
+      "path": "data/runtime/hosted/data/hosted-leaderboard.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39b66639b81be31f91e58fdd400e326bc5762599",
+      "size": 1063,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/39b66639b81be31f91e58fdd400e326bc5762599"
+    },
+    {
+      "path": "data/runtime/hosted/data/independent-checks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2183f6d77e9bda89ac08d7d8f3d14bc5d052a455",
+      "size": 3626,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2183f6d77e9bda89ac08d7d8f3d14bc5d052a455"
+    },
+    {
+      "path": "data/runtime/hosted/data/independent-package-counts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab6a7e07663638cf8114d4a1679537ea9e67efdf",
+      "size": 4088,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ab6a7e07663638cf8114d4a1679537ea9e67efdf"
+    },
+    {
+      "path": "data/runtime/hosted/data/ineligible-configurations.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a948a8035fe0832d0925940b14d2e8e86bc83c66",
+      "size": 1894,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a948a8035fe0832d0925940b14d2e8e86bc83c66"
+    },
+    {
+      "path": "data/runtime/hosted/data/prior-public-projection-links.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "703aff191d0ede39bd945f5e0d99d17f182daaa8",
+      "size": 3675351,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/703aff191d0ede39bd945f5e0d99d17f182daaa8"
+    },
+    {
+      "path": "data/runtime/hosted/data/runtime-case-verdicts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7add8d56d51cb29218f92850267f42053e54a0b2",
+      "size": 439100,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7add8d56d51cb29218f92850267f42053e54a0b2"
+    },
+    {
+      "path": "data/runtime/hosted/data/runtime-case-verdicts.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4899f1cec61ea7e75e1b801976a049bcb9d66b02",
+      "size": 2230895,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/4899f1cec61ea7e75e1b801976a049bcb9d66b02"
+    },
+    {
+      "path": "data/runtime/hosted/data/seal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09458996def73c1726e0c8ee8aea4c9c89e9943d",
+      "size": 1892,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/09458996def73c1726e0c8ee8aea4c9c89e9943d"
+    },
+    {
+      "path": "data/runtime/hosted/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a0e6e03fd20b3063533a0bb9e66fdea5680ddf6",
+      "size": 16052,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/1a0e6e03fd20b3063533a0bb9e66fdea5680ddf6"
+    },
+    {
+      "path": "data/runtime/hosted/manifest.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad657ac8297e52a75281447b9c8c098a175dd12",
+      "size": 9526,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/dad657ac8297e52a75281447b9c8c098a175dd12"
+    },
+    {
+      "path": "data/runtime/hosted/protocol",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cdf57f1d5cec61c9abfa1bd632481581e2dd04e",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/4cdf57f1d5cec61c9abfa1bd632481581e2dd04e"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/adjudication-emissions.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd392587475ad64203b924c723c136fe8deb057",
+      "size": 666698,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6fd392587475ad64203b924c723c136fe8deb057"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/adjudication-inputs.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7576150821f6800db3061a97d5133e8b3f194879",
+      "size": 877670,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7576150821f6800db3061a97d5133e8b3f194879"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/archival-kimi-exact-protocol-proof.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "955b6608c10156d7aba9c88fd9a90b8e3a691b71",
+      "size": 3422,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/955b6608c10156d7aba9c88fd9a90b8e3a691b71"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/archival-label-continuation-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "569ea96994aadf7be10bb8f3b46a2b732a8e4142",
+      "size": 11835,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/569ea96994aadf7be10bb8f3b46a2b732a8e4142"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/continuation-binder-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acc85b274cb47d0484f77b08c8dae07202ae3530",
+      "size": 2590,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/acc85b274cb47d0484f77b08c8dae07202ae3530"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/continuation-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d73bd3ca385034f22de8010a1b4b417bcef2c74",
+      "size": 18915,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3d73bd3ca385034f22de8010a1b4b417bcef2c74"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/contract-files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "781b3cb7b045cdf38fdfc111dba18cb45ddfd427",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/781b3cb7b045cdf38fdfc111dba18cb45ddfd427"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/contract-files/agentdojo-next40-normal-utility-contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc50fc5a79f57568f7bf1c35fccd12c0459f529",
+      "size": 480048,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7fc50fc5a79f57568f7bf1c35fccd12c0459f529"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/contract-files/agentdojo-next51-normal-utility-contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65436cdc0834d6631d4f0777f2e3b09c6618b1cf",
+      "size": 995999,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/65436cdc0834d6631d4f0777f2e3b09c6618b1cf"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/contract-files/agentdojo-next51-target-contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dd6a7f60444fbe5ca54247dd387e8f4e52fe31c",
+      "size": 3068768,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5dd6a7f60444fbe5ca54247dd387e8f4e52fe31c"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/contract-files/agentdojo-next60-target-contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e027b42b09c523012f6de02e52b98c4235d0343a",
+      "size": 724949,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e027b42b09c523012f6de02e52b98c4235d0343a"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/execution-validity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32de90c21f16c2ae09d6f77021e6400ed62bcb45",
+      "size": 746691,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/32de90c21f16c2ae09d6f77021e6400ed62bcb45"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/frozen-test-sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f1d7a3569060312a910a45f2a41ee09cbf90240",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/0f1d7a3569060312a910a45f2a41ee09cbf90240"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/frozen-test-sources/test_agentdojo_binary_goal_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01245ffeef6b1411ef2db9d464d84e3933da1b1b",
+      "size": 3633,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/01245ffeef6b1411ef2db9d464d84e3933da1b1b"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/frozen-test-sources/test_binary_task_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b41c5a3a5b6e4650fc8b6f1959965be543eeac91",
+      "size": 10358,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b41c5a3a5b6e4650fc8b6f1959965be543eeac91"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/goal-grader-freeze01.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3a841bed912c2e8af3c2322445010d0d3f45ae7",
+      "size": 741,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c3a841bed912c2e8af3c2322445010d0d3f45ae7"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/grader-freeze05.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589864b1f43450ee3a5baa97e8a55878c7e07e9a",
+      "size": 3467,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/589864b1f43450ee3a5baa97e8a55878c7e07e9a"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/independent-joint-verdicts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2085df3e7fea742ace250f12ea3016084e3d505b",
+      "size": 22952,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2085df3e7fea742ace250f12ea3016084e3d505b"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/independent-joint-verification-binding.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8058194d5a7919af921b099c2131ac4114643e2",
+      "size": 478,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b8058194d5a7919af921b099c2131ac4114643e2"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/parser-regression-all-valid04.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72c6c89c4acbcb730e5715ef0603ec71038b7cd5",
+      "size": 145,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/72c6c89c4acbcb730e5715ef0603ec71038b7cd5"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/publication-contract-bindings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "817ee07d2c3e307e1432ca47bcd1e744e9da7897",
+      "size": 1749778,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/817ee07d2c3e307e1432ca47bcd1e744e9da7897"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/publication-file-bindings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a29e5208e21f9c973f2bfc3bf0931a4849e5263",
+      "size": 18230,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7a29e5208e21f9c973f2bfc3bf0931a4849e5263"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/publication-transform.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee5e605168210c2f92f725cb1d253288b27c227b",
+      "size": 1951439,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ee5e605168210c2f92f725cb1d253288b27c227b"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/qualified-binding-recovery-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab4ad81fb81a6ed57df33a560b089e2defac6425",
+      "size": 36565,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ab4ad81fb81a6ed57df33a560b089e2defac6425"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/qwen-plus-finite-recovery-search.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a38fba5454089110ae616b118f284c0b8c3edc68",
+      "size": 1567,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a38fba5454089110ae616b118f284c0b8c3edc68"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/repair-policy.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f213d77f5472976288d44e57852625a28b96e831",
+      "size": 2993,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f213d77f5472976288d44e57852625a28b96e831"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/replay-collection-candidates.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baf424d9d2d8f9e1318dc033349146c486b8959d",
+      "size": 212986,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/baf424d9d2d8f9e1318dc033349146c486b8959d"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/replay-final-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e60ddab317436f6b58f59c4f2c4b0ec329d9847",
+      "size": 2426,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6e60ddab317436f6b58f59c4f2c4b0ec329d9847"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/replay-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ebedd9f6a3c0898ce28fda035dad900bfc0cb03",
+      "size": 267614,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3ebedd9f6a3c0898ce28fda035dad900bfc0cb03"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/selection-rationale.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b25e6457d81c6dfec823a0de2de984b6211e0600",
+      "size": 1244,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b25e6457d81c6dfec823a0de2de984b6211e0600"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/semantic-adjudication-rubric.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14d84ee1538c7576d074d19500ca8c024783a49e",
+      "size": 3303,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/14d84ee1538c7576d074d19500ca8c024783a49e"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/service-disk-recovery-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "241dccb4ac4f410d0e7995d8834846323961e4fa",
+      "size": 31900,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/241dccb4ac4f410d0e7995d8834846323961e4fa"
+    },
+    {
+      "path": "data/runtime/hosted/protocol/service-replay-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84a7a6f3b8adfba99106b315e5cb0cf1afd907d9",
+      "size": 78885,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/84a7a6f3b8adfba99106b315e5cb0cf1afd907d9"
+    },
+    {
+      "path": "data/runtime/hosted/verify_release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ceb730e942bc16894637f51012edbd681326d0",
+      "size": 11084,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/94ceb730e942bc16894637f51012edbd681326d0"
+    },
+    {
+      "path": "data/runtime/intervention-results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02448ad49040af2b88347a954cbc833dff61b4de",
+      "size": 17024,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/02448ad49040af2b88347a954cbc833dff61b4de"
+    },
+    {
+      "path": "data/runtime/model-data.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4795621c1d497fefc63c46783581503b63f37144",
+      "size": 61082,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/4795621c1d497fefc63c46783581503b63f37144"
+    },
+    {
+      "path": "data/runtime/paired-intervention-inputs.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5007b7e199d3d102da471c97c24116d3abff9fc0",
+      "size": 62843,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5007b7e199d3d102da471c97c24116d3abff9fc0"
+    },
+    {
+      "path": "data/runtime/protocol",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10550959a5f48daad2f1f87ccc8622b8bbad55e6",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/10550959a5f48daad2f1f87ccc8622b8bbad55e6"
+    },
+    {
+      "path": "data/runtime/protocol/baseline-model-data-v55.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85138a5a3a5f4f5f6687e5b0bb97c67f44f6150",
+      "size": 81562,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c85138a5a3a5f4f5f6687e5b0bb97c67f44f6150"
+    },
+    {
+      "path": "data/runtime/protocol/publication-bindings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d7b2c4646292a50eb50244bbc7da4ef2fb79e79",
+      "size": 477,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/4d7b2c4646292a50eb50244bbc7da4ef2fb79e79"
+    },
+    {
+      "path": "data/runtime/protocol/recovery-case-construction-author-report.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "130d22bae88582fc6a2a50d627150b15c1d7caf2",
+      "size": 3200,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/130d22bae88582fc6a2a50d627150b15c1d7caf2"
+    },
+    {
+      "path": "data/runtime/protocol/supporting-study-inputs-v36.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8d97d8f798b658c5051ce849818f290e5574714",
+      "size": 17703,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e8d97d8f798b658c5051ce849818f290e5574714"
+    },
+    {
+      "path": "data/runtime/publication-bindings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5e50291e78f0487c3ed1e07c0a721b75eb52ebf",
+      "size": 968,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f5e50291e78f0487c3ed1e07c0a721b75eb52ebf"
+    },
+    {
+      "path": "data/runtime/qwen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bbe8e0d009616c16b1a2c3edc6b7df0bcd637c1",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/5bbe8e0d009616c16b1a2c3edc6b7df0bcd637c1"
+    },
+    {
+      "path": "data/runtime/qwen/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7ab8f9735a5d00875dbc7e0a1c5aa622711b187",
+      "size": 3154,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e7ab8f9735a5d00875dbc7e0a1c5aa622711b187"
+    },
+    {
+      "path": "data/runtime/qwen/artifact-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1890a33e1a87daad02ede88e14401da0227cc5c",
+      "size": 34445,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a1890a33e1a87daad02ede88e14401da0227cc5c"
+    },
+    {
+      "path": "data/runtime/qwen/code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "475b67e0e64c1bd76dc5a87cd4744da1d728171b",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/475b67e0e64c1bd76dc5a87cd4744da1d728171b"
+    },
+    {
+      "path": "data/runtime/qwen/code/replays",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6d2df42fa907b27313af77015ae90ccc033300f",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/e6d2df42fa907b27313af77015ae90ccc033300f"
+    },
+    {
+      "path": "data/runtime/qwen/code/replays/service_error_rule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a4c9bbfdbdab368139773641f39048d03ea2995",
+      "size": 842,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9a4c9bbfdbdab368139773641f39048d03ea2995"
+    },
+    {
+      "path": "data/runtime/qwen/code/saved_runtime_inputs_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7dfb4ce45247d04c14b0229fcbe3551076a7840",
+      "size": 13213,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f7dfb4ce45247d04c14b0229fcbe3551076a7840"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a038c5299dec5e9ab58a5151f5ecfb253f89ad2c",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/a038c5299dec5e9ab58a5151f5ecfb253f89ad2c"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_banking_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "021dfa8e67c39a09b89f81d6d14ff45499e6a1f2",
+      "size": 37113,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/021dfa8e67c39a09b89f81d6d14ff45499e6a1f2"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_banking_record_measurements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fbe00dd202b68c039bb86d0a711888e3fb8ed45",
+      "size": 21778,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3fbe00dd202b68c039bb86d0a711888e3fb8ed45"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_binary_goal_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda6d959610309f245c6f5a124d763a4dc563c92",
+      "size": 10495,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/cda6d959610309f245c6f5a124d763a4dc563c92"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_binary_task_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebdfd5d39e3ed0cbbb5167277e169c5aede2388",
+      "size": 35572,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/aebdfd5d39e3ed0cbbb5167277e169c5aede2388"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_candidate_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b69593bff72f326aeba348bf2876d527abd8fd78",
+      "size": 60161,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b69593bff72f326aeba348bf2876d527abd8fd78"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_candidate_projections.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b511f4908e748661aa906251d1761640af73ea89",
+      "size": 20247,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b511f4908e748661aa906251d1761640af73ea89"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_candidate_utility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb67da67ea193c6e6c54dd59763006a19d92d825",
+      "size": 30358,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/eb67da67ea193c6e6c54dd59763006a19d92d825"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efe34b52bec22561ca40e23e94c57c73e6d5c855",
+      "size": 25224,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/efe34b52bec22561ca40e23e94c57c73e6d5c855"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next40_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5adabc98833c4b8d508dd2aa226f40437d644e04",
+      "size": 46918,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5adabc98833c4b8d508dd2aa226f40437d644e04"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next40_effect_evidence_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95ca858b1c0ef3b79e1ca3764e26c6e5e2360b8b",
+      "size": 5172,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/95ca858b1c0ef3b79e1ca3764e26c6e5e2360b8b"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next40_normal_utility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56d251cfd9f9cb91182c7be880a605b27035800f",
+      "size": 36697,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/56d251cfd9f9cb91182c7be880a605b27035800f"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next40_normal_utility_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30e45da1163e7aeec0c3a0ae32e729785596ecc8",
+      "size": 11745,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/30e45da1163e7aeec0c3a0ae32e729785596ecc8"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next40_normal_validation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fabb6e6c77d829fba49dea3c0708b9f94dc916b0",
+      "size": 37682,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/fabb6e6c77d829fba49dea3c0708b9f94dc916b0"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next51_effect_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a079831ad91f51d2b4f14ba92482fba406914a0",
+      "size": 32772,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3a079831ad91f51d2b4f14ba92482fba406914a0"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next51_normal_utility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44dbd55393cae37d6705fa16616c965f5f22a7e9",
+      "size": 28440,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/44dbd55393cae37d6705fa16616c965f5f22a7e9"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next51_normal_utility_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c630b8e1b53c0c83882b91a4e6d0f7d22d1d990",
+      "size": 7521,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5c630b8e1b53c0c83882b91a4e6d0f7d22d1d990"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next51_reference_diagnostics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c88f44cd2ef3227f5dc30242c2c091ded2cdb52",
+      "size": 34585,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9c88f44cd2ef3227f5dc30242c2c091ded2cdb52"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next51_target_measurements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1352c0699ad506124619d7b2b55762cf6a52f63",
+      "size": 38842,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a1352c0699ad506124619d7b2b55762cf6a52f63"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next51_target_measurements_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f7ae76a9c138b8c9e7783268fb19fa50ec10e3",
+      "size": 24254,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f1f7ae76a9c138b8c9e7783268fb19fa50ec10e3"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next60_source_review.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3af3c487579212d5cd92922d69b442172970f55",
+      "size": 63739,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c3af3c487579212d5cd92922d69b442172970f55"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next60_target_measurements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327575373bd2b10ab2d3e1b00171f7678b57f195",
+      "size": 33949,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/327575373bd2b10ab2d3e1b00171f7678b57f195"
+    },
+    {
+      "path": "data/runtime/qwen/code/www2027/agentdojo_next60_target_measurements_amendment01.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2103b990ec179f6a66665956c4281507d055dea",
+      "size": 3922,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d2103b990ec179f6a66665956c4281507d055dea"
+    },
+    {
+      "path": "data/runtime/qwen/final",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "997c8614b4656bb11081cbb2c84154f5023f46f3",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/997c8614b4656bb11081cbb2c84154f5023f46f3"
+    },
+    {
+      "path": "data/runtime/qwen/final/case-verdicts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c44fa27329554a3b3dfc70c521ce6de6f564816",
+      "size": 47467,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/0c44fa27329554a3b3dfc70c521ce6de6f564816"
+    },
+    {
+      "path": "data/runtime/qwen/final/case-verdicts.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0517318eee5e004e1148700c28a8916137b0738e",
+      "size": 2725177,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/0517318eee5e004e1148700c28a8916137b0738e"
+    },
+    {
+      "path": "data/runtime/qwen/final/current-model-runtime-data.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "612a840343bab86292118883abd47c95cc774da8",
+      "size": 10812,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/612a840343bab86292118883abd47c95cc774da8"
+    },
+    {
+      "path": "data/runtime/qwen/final/explicit-codex-decisions.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "353eb38491bd03896a4632ca5b2501f0c0f89155",
+      "size": 22084,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/353eb38491bd03896a4632ca5b2501f0c0f89155"
+    },
+    {
+      "path": "data/runtime/qwen/final/independent-checks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5358a3601b3a9098503a67533ffefb589d0c63bc",
+      "size": 4956,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5358a3601b3a9098503a67533ffefb589d0c63bc"
+    },
+    {
+      "path": "data/runtime/qwen/final/leaderboard-default-verdicts.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3afdb417126098133b3a7f10c3d9a5f497895ecf",
+      "size": 1807610,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3afdb417126098133b3a7f10c3d9a5f497895ecf"
+    },
+    {
+      "path": "data/runtime/qwen/final/paired-default-check.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6246b69fb5c70a50ad3398bb7568118592412afc",
+      "size": 251709,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6246b69fb5c70a50ad3398bb7568118592412afc"
+    },
+    {
+      "path": "data/runtime/qwen/final/rows.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceec94cc69ac2e84b35061f6f67d1c4279eedf6d",
+      "size": 26810174,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ceec94cc69ac2e84b35061f6f67d1c4279eedf6d"
+    },
+    {
+      "path": "data/runtime/qwen/final/seal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b343305c3798bb7d812fb3f6c6e402aa5cb19b81",
+      "size": 1641,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b343305c3798bb7d812fb3f6c6e402aa5cb19b81"
+    },
+    {
+      "path": "data/runtime/qwen/final/summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95aa552682265d287ef2969bc507ca752d4df327",
+      "size": 4503,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/95aa552682265d287ef2969bc507ca752d4df327"
+    },
+    {
+      "path": "data/runtime/qwen/publication-bindings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc0b6e5c0104b8311438660b095575f52cd15ea8",
+      "size": 113337,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/cc0b6e5c0104b8311438660b095575f52cd15ea8"
+    },
+    {
+      "path": "data/runtime/qwen/qualified-file-manifest.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "419368236987a56bce8a987077c7da287d94440f",
+      "size": 237367,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/419368236987a56bce8a987077c7da287d94440f"
+    },
+    {
+      "path": "data/runtime/qwen/qualified-records.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f489c06fce10d0802ab6ee715e78010c6dd516d8",
+      "size": 1389596,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f489c06fce10d0802ab6ee715e78010c6dd516d8"
+    },
+    {
+      "path": "data/runtime/qwen/raw-file-manifest.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c3f8179f57cf7dca87113dbe0a4820ee953dd05",
+      "size": 18462115,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3c3f8179f57cf7dca87113dbe0a4820ee953dd05"
+    },
+    {
+      "path": "data/runtime/qwen/raw-local4b-f8bde36007ef.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d97e2eb443aaa71366f4b5ae15a07bfbf5071280",
+      "size": 29237664,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d97e2eb443aaa71366f4b5ae15a07bfbf5071280"
+    },
+    {
+      "path": "data/runtime/qwen/raw-local9b-0dd1f13acf15.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a77f7ed64b02622db09750c1c4cd20265c2a2206",
+      "size": 28505880,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a77f7ed64b02622db09750c1c4cd20265c2a2206"
+    },
+    {
+      "path": "data/runtime/qwen/raw-protocol-9c966770968f.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08e1c3006eef36dffa58fe2580fca965d60f2e89",
+      "size": 130284,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/08e1c3006eef36dffa58fe2580fca965d60f2e89"
+    },
+    {
+      "path": "data/runtime/qwen/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa6a7ca52dba872cc059660425baef55ceb347e8",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/aa6a7ca52dba872cc059660425baef55ceb347e8"
+    },
+    {
+      "path": "data/runtime/qwen/source/binary-grader-protocol.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a159783ddf92c5f3c79f37ac31f3fa50a48bc96",
+      "size": 2817,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2a159783ddf92c5f3c79f37ac31f3fa50a48bc96"
+    },
+    {
+      "path": "data/runtime/qwen/source/cases.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9438b47a2be5a9d5609aef52dc78b1a09c6637f4",
+      "size": 539869,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9438b47a2be5a9d5609aef52dc78b1a09c6637f4"
+    },
+    {
+      "path": "data/runtime/qwen/source/check_append_only.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18c902fba402cf9726d3726a385c3d393cc0b3f3",
+      "size": 618,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/18c902fba402cf9726d3726a385c3d393cc0b3f3"
+    },
+    {
+      "path": "data/runtime/qwen/source/contracts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "781b3cb7b045cdf38fdfc111dba18cb45ddfd427",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/781b3cb7b045cdf38fdfc111dba18cb45ddfd427"
+    },
+    {
+      "path": "data/runtime/qwen/source/contracts/agentdojo-next40-normal-utility-contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc50fc5a79f57568f7bf1c35fccd12c0459f529",
+      "size": 480048,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7fc50fc5a79f57568f7bf1c35fccd12c0459f529"
+    },
+    {
+      "path": "data/runtime/qwen/source/contracts/agentdojo-next51-normal-utility-contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65436cdc0834d6631d4f0777f2e3b09c6618b1cf",
+      "size": 995999,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/65436cdc0834d6631d4f0777f2e3b09c6618b1cf"
+    },
+    {
+      "path": "data/runtime/qwen/source/contracts/agentdojo-next51-target-contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dd6a7f60444fbe5ca54247dd387e8f4e52fe31c",
+      "size": 3068768,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5dd6a7f60444fbe5ca54247dd387e8f4e52fe31c"
+    },
+    {
+      "path": "data/runtime/qwen/source/contracts/agentdojo-next60-target-contracts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e027b42b09c523012f6de02e52b98c4235d0343a",
+      "size": 724949,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e027b42b09c523012f6de02e52b98c4235d0343a"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e342827445fe91f16ab139fdd89cce1a7dd0b9b9",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/e342827445fe91f16ab139fdd89cce1a7dd0b9b9"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/catalog-schema-qualification.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6171348957a869fc458be55e7158f4a86801d324",
+      "size": 36174,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6171348957a869fc458be55e7158f4a86801d324"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/commands.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a4c97fd90eace96672b3161acf605145bfa38dd",
+      "size": 1444,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5a4c97fd90eace96672b3161acf605145bfa38dd"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a0267abc84438da96736389ebbc421cbe3768d",
+      "size": 14473,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/94a0267abc84438da96736389ebbc421cbe3768d"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/manifest.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b07ceacb002c4835eb99dbcaf30271cd379125b4",
+      "size": 65,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b07ceacb002c4835eb99dbcaf30271cd379125b4"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/pilot-reclassification-check.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a1cad9d99c36887df7ed1d18be58bad8c570b74",
+      "size": 4513,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/8a1cad9d99c36887df7ed1d18be58bad8c570b74"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/root-full-review.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aad41b3c5ecbe26e10d9d208019c2e57bc2f225",
+      "size": 459,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2aad41b3c5ecbe26e10d9d208019c2e57bc2f225"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f39717baeb0948753a13571a5aba02ab0f65f53f",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/f39717baeb0948753a13571a5aba02ab0f65f53f"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86f6a9095b88d6d4ee7abd8414b426158166d05c",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/86f6a9095b88d6d4ee7abd8414b426158166d05c"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/agentdojo_binary_task_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebdfd5d39e3ed0cbbb5167277e169c5aede2388",
+      "size": 35572,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/aebdfd5d39e3ed0cbbb5167277e169c5aede2388"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/effect_oracle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d76ec0e2ba10b5c6f5637004f7f788f4a8d490",
+      "size": 7301,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b5d76ec0e2ba10b5c6f5637004f7f788f4a8d490"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/episode_runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29be41a1263f9b63db07517117897a1e7168a8e1",
+      "size": 8866,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/29be41a1263f9b63db07517117897a1e7168a8e1"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/harness_matrix_session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e483095138caf56a916c5c6b153ad7cd156b3c0",
+      "size": 20041,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9e483095138caf56a916c5c6b153ad7cd156b3c0"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/harness_matrix_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3952f2c1938165252e892965c21132a0c51c9c47",
+      "size": 15054,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3952f2c1938165252e892965c21132a0c51c9c47"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/local_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba709b463284b3bd5c438ac3e5803fb1e4b06a86",
+      "size": 7130,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ba709b463284b3bd5c438ac3e5803fb1e4b06a86"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/local_qwen35_lossless_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff099d076e03be3f7bdcca9fd20a61d34bead59",
+      "size": 4358,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6ff099d076e03be3f7bdcca9fd20a61d34bead59"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/local_qwen35_schema_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c61a2689c45ccb23f27e105634190e0d8f1a9ec",
+      "size": 10868,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2c61a2689c45ccb23f27e105634190e0d8f1a9ec"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/provider_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173fc868e0152ba4037c37bee02bb8cbae7262b6",
+      "size": 2877,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/173fc868e0152ba4037c37bee02bb8cbae7262b6"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/qwen_runtime_repair_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df373f673f42ee6382f41e312a87025f2e28da13",
+      "size": 23806,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/df373f673f42ee6382f41e312a87025f2e28da13"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/source-snapshot/www2027/test_qwen_runtime_repair_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09cce29bc49e434512995af0e05005c039b30386",
+      "size": 7773,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/09cce29bc49e434512995af0e05005c039b30386"
+    },
+    {
+      "path": "data/runtime/qwen/source/execution-plan/tests.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cac2402e7057c5e7ba1c934f927be6954e22b8f3",
+      "size": 1402,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/cac2402e7057c5e7ba1c934f927be6954e22b8f3"
+    },
+    {
+      "path": "data/runtime/qwen/source/goal-grader-freeze01.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3a841bed912c2e8af3c2322445010d0d3f45ae7",
+      "size": 741,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c3a841bed912c2e8af3c2322445010d0d3f45ae7"
+    },
+    {
+      "path": "data/runtime/qwen/source/grader-freeze05.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589864b1f43450ee3a5baa97e8a55878c7e07e9a",
+      "size": 3467,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/589864b1f43450ee3a5baa97e8a55878c7e07e9a"
+    },
+    {
+      "path": "data/runtime/qwen/source/package_qwen_runtime_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25f21a083c8f1bc48b48108e2de90a4ee73c51f9",
+      "size": 16541,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/25f21a083c8f1bc48b48108e2de90a4ee73c51f9"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31159b292b57414a1cf8c2209dc38cd97f4307ab",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/31159b292b57414a1cf8c2209dc38cd97f4307ab"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/agentdojo_binary_goal_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda6d959610309f245c6f5a124d763a4dc563c92",
+      "size": 10495,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/cda6d959610309f245c6f5a124d763a4dc563c92"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/agentdojo_binary_task_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebdfd5d39e3ed0cbbb5167277e169c5aede2388",
+      "size": 35572,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/aebdfd5d39e3ed0cbbb5167277e169c5aede2388"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/effect_oracle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d76ec0e2ba10b5c6f5637004f7f788f4a8d490",
+      "size": 7301,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b5d76ec0e2ba10b5c6f5637004f7f788f4a8d490"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/episode_runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29be41a1263f9b63db07517117897a1e7168a8e1",
+      "size": 8866,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/29be41a1263f9b63db07517117897a1e7168a8e1"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/harness_matrix_session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e483095138caf56a916c5c6b153ad7cd156b3c0",
+      "size": 20041,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9e483095138caf56a916c5c6b153ad7cd156b3c0"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/harness_matrix_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3952f2c1938165252e892965c21132a0c51c9c47",
+      "size": 15054,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3952f2c1938165252e892965c21132a0c51c9c47"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/local_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba709b463284b3bd5c438ac3e5803fb1e4b06a86",
+      "size": 7130,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ba709b463284b3bd5c438ac3e5803fb1e4b06a86"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/local_qwen35_lossless_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff099d076e03be3f7bdcca9fd20a61d34bead59",
+      "size": 4358,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6ff099d076e03be3f7bdcca9fd20a61d34bead59"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/local_qwen35_schema_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c61a2689c45ccb23f27e105634190e0d8f1a9ec",
+      "size": 10868,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2c61a2689c45ccb23f27e105634190e0d8f1a9ec"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/provider_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173fc868e0152ba4037c37bee02bb8cbae7262b6",
+      "size": 2877,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/173fc868e0152ba4037c37bee02bb8cbae7262b6"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/qualify_qwen_runtime_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a77b94f633de50f87de1bdd969d3ba7551bd300",
+      "size": 19196,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2a77b94f633de50f87de1bdd969d3ba7551bd300"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/qwen_runtime_repair_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df373f673f42ee6382f41e312a87025f2e28da13",
+      "size": 23806,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/df373f673f42ee6382f41e312a87025f2e28da13"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/saved_runtime_inputs_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8e2f210e50c004350b738ee15975569f6f634db",
+      "size": 12419,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f8e2f210e50c004350b738ee15975569f6f634db"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualification-source-snapshot/test_qwen_runtime_repair_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09cce29bc49e434512995af0e05005c039b30386",
+      "size": 7773,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/09cce29bc49e434512995af0e05005c039b30386"
+    },
+    {
+      "path": "data/runtime/qwen/source/qualify_qwen_runtime_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a77b94f633de50f87de1bdd969d3ba7551bd300",
+      "size": 19196,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/2a77b94f633de50f87de1bdd969d3ba7551bd300"
+    },
+    {
+      "path": "data/runtime/qwen/source/saved_runtime_inputs_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9e2b60502b9566627943377995393f30a06d39",
+      "size": 12523,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/8a9e2b60502b9566627943377995393f30a06d39"
+    },
+    {
+      "path": "data/runtime/qwen/source/schedule.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae1537817c1153433bef2028063beb2f41f07da",
+      "size": 1603496,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/eae1537817c1153433bef2028063beb2f41f07da"
+    },
+    {
+      "path": "data/runtime/qwen/source/semantic-adjudication-rubric.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14d84ee1538c7576d074d19500ca8c024783a49e",
+      "size": 3303,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/14d84ee1538c7576d074d19500ca8c024783a49e"
+    },
+    {
+      "path": "data/runtime/qwen/source/summarize_qwen_runtime_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "782fb1d33f62b6b19e3a79e60db82e01f88a0a78",
+      "size": 10639,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/782fb1d33f62b6b19e3a79e60db82e01f88a0a78"
+    },
+    {
+      "path": "data/runtime/qwen/source/system_check.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a69a6cb6cf6596a3192a4c27e1fafcdb74d9947",
+      "size": 882,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/4a69a6cb6cf6596a3192a4c27e1fafcdb74d9947"
+    },
+    {
+      "path": "data/runtime/qwen/source/system_default.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9ae84d9aa270492a5f7cec2a75757de27914b9",
+      "size": 262,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/bd9ae84d9aa270492a5f7cec2a75757de27914b9"
+    },
+    {
+      "path": "data/runtime/qwen/source/verify_qwen_final_v56.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaebc42146debaaa526f52c8511759acf3cdb5c4",
+      "size": 10229,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/aaebc42146debaaa526f52c8511759acf3cdb5c4"
+    },
+    {
+      "path": "data/runtime/qwen/verify_release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9631392084948779426e865b47ba1fe72c05cc6e",
+      "size": 21061,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9631392084948779426e865b47ba1fe72c05cc6e"
+    },
+    {
+      "path": "data/runtime/runtime-case-verdicts.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b97a6ac9864dd7ecf64653bcee4bf14ce9dcfad",
+      "size": 2570138,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7b97a6ac9864dd7ecf64653bcee4bf14ce9dcfad"
+    },
+    {
+      "path": "data/runtime/runtime-leaderboard.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77fbecee7cb279eb88d214c5e4682ffe54fc21a1",
+      "size": 1974,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/77fbecee7cb279eb88d214c5e4682ffe54fc21a1"
+    },
+    {
+      "path": "data/runtime/seal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ae86185a1eb81d2f95eb227d229a05100cda840",
+      "size": 1022,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6ae86185a1eb81d2f95eb227d229a05100cda840"
+    },
+    {
+      "path": "data/scenarios",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4af49bf2b4bd482c16d42426281cdef6bc04f552",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/4af49bf2b4bd482c16d42426281cdef6bc04f552"
+    },
+    {
+      "path": "data/scenarios/code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df6c4bcff4d2c7944135e1665d2983f931426947",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/df6c4bcff4d2c7944135e1665d2983f931426947"
+    },
+    {
+      "path": "data/scenarios/code/release_bundle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be17177f8cf7e15f4ccd5048fa5d301b56432cff",
+      "size": 26952,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/be17177f8cf7e15f4ccd5048fa5d301b56432cff"
+    },
+    {
+      "path": "data/scenarios/episodes.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ddaf65c98ac408e3cdb12b2ea52e7226a32e4b3",
+      "size": 3232934,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3ddaf65c98ac408e3cdb12b2ea52e7226a32e4b3"
+    },
+    {
+      "path": "data/scenarios/publication-bindings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033bfbce9124378b4b243a490216f5b878674eb9",
+      "size": 3722,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/033bfbce9124378b4b243a490216f5b878674eb9"
+    },
+    {
+      "path": "data/scenarios/release.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "392abcb92fdd0cee3d2d136a0942f78ed3d18831",
+      "size": 45607,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/392abcb92fdd0cee3d2d136a0942f78ed3d18831"
+    },
+    {
+      "path": "data/scenarios/scenarios.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d39d1e792fc9e44c09459d3f8cfcbf04ed778ce7",
+      "size": 3881643,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d39d1e792fc9e44c09459d3f8cfcbf04ed778ce7"
+    },
+    {
+      "path": "data/scenarios/sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fac4cb29ef0edf78bc9c85f7581b2af2a3820b8a",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/fac4cb29ef0edf78bc9c85f7581b2af2a3820b8a"
+    },
+    {
+      "path": "data/scenarios/sources/index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b97eb7e83700be4dfff5d7c3e39d82dd982e445",
+      "size": 278931,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5b97eb7e83700be4dfff5d7c3e39d82dd982e445"
+    },
+    {
+      "path": "data/scenarios/sources/measurements",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4f25fb44a136f52eef376c08ed3e23abd0c650e",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/c4f25fb44a136f52eef376c08ed3e23abd0c650e"
+    },
+    {
+      "path": "data/scenarios/sources/measurements/agentdojo18.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d075800e5cf8ab430621e61b38c7019498196e41",
+      "size": 12554,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d075800e5cf8ab430621e61b38c7019498196e41"
+    },
+    {
+      "path": "data/scenarios/sources/measurements/agentdojo4.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f427ef67b3f57c92134dfc5c3b7478765a0bceb",
+      "size": 44740,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9f427ef67b3f57c92134dfc5c3b7478765a0bceb"
+    },
+    {
+      "path": "data/scenarios/sources/measurements/agentdojo_banking15.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4de133bf9efe40fa45947bde4af8ebf5b90c2f3",
+      "size": 12049,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d4de133bf9efe40fa45947bde4af8ebf5b90c2f3"
+    },
+    {
+      "path": "data/scenarios/sources/measurements/agentdojo_next40.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7abc16b67499f8a546151677509a2186ca42e91f",
+      "size": 52550,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7abc16b67499f8a546151677509a2186ca42e91f"
+    },
+    {
+      "path": "data/scenarios/sources/measurements/agentdojo_next51.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eec8f177f2530d1d32b91c8ec514d76902c61b8",
+      "size": 68251,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6eec8f177f2530d1d32b91c8ec514d76902c61b8"
+    },
+    {
+      "path": "data/scenarios/sources/measurements/legacy66.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b453bd036375ce77f79b6e4c3a0e4d48b383f7d5",
+      "size": 2461777,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b453bd036375ce77f79b6e4c3a0e4d48b383f7d5"
+    },
+    {
+      "path": "data/scenarios/sources/measurements/legacy_c2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20424eda95a3de58bf9c05b3050ae5c54e4e7b8f",
+      "size": 8890,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/20424eda95a3de58bf9c05b3050ae5c54e4e7b8f"
+    },
+    {
+      "path": "data/scenarios/sources/measurements/new194.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25bd16e71bf88b523dce6cfc7d73137d5a5b663b",
+      "size": 6115141,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/25bd16e71bf88b523dce6cfc7d73137d5a5b663b"
+    },
+    {
+      "path": "data/scenarios/sources/next51-plan.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e94ce524bca264b72eb6bc952f765357eca12fc",
+      "size": 369459,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6e94ce524bca264b72eb6bc952f765357eca12fc"
+    },
+    {
+      "path": "data/scenarios/sources/next51-terminal-inventory.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "553ec240419e01fb4d7215270789728fde0467bd",
+      "size": 99511,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/553ec240419e01fb4d7215270789728fde0467bd"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daeed6e34e2ce7c6e37040c0371d9c1bdd32e22c",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/daeed6e34e2ce7c6e37040c0371d9c1bdd32e22c"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-agentdojo-banking15-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623fcd4eada3acdf09ff49ebae176eb2c8cbed9f",
+      "size": 64369,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/623fcd4eada3acdf09ff49ebae176eb2c8cbed9f"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-agentdojo-next40-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14736e9eb6dffff137dbb2e32ee50953ba8f83e9",
+      "size": 230163,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/14736e9eb6dffff137dbb2e32ee50953ba8f83e9"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-agentdojo-next51-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad196179f7caab17cf7f28d288cc9646f4494f13",
+      "size": 359274,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ad196179f7caab17cf7f28d288cc9646f4494f13"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-agentdojo-next51-security49-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9cfabbf4a2ba7352db1c67c4f4a4e196f20bd0",
+      "size": 313044,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/1a9cfabbf4a2ba7352db1c67c4f4a4e196f20bd0"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-agentdojo18-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4aed34a44357b47847f773ea72486f9fed9c83",
+      "size": 90810,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7d4aed34a44357b47847f773ea72486f9fed9c83"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-agentdojo4-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e692ac2eb18be215605f3ddbac5d57e94e07581",
+      "size": 14148,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6e692ac2eb18be215605f3ddbac5d57e94e07581"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-legacy-c2-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc98536507b79f7b2fed37fd9e7c818ffb6f1eb",
+      "size": 23084,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/8dc98536507b79f7b2fed37fd9e7c818ffb6f1eb"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-legacy66-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4137040cd4bf4274a3b92f360e8f4467c00f560",
+      "size": 1438065,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c4137040cd4bf4274a3b92f360e8f4467c00f560"
+    },
+    {
+      "path": "data/scenarios/sources/scenarios/cohort-new194-frozen.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f14b54074ecb943a483d6e61ae9aea39a2c65ee8",
+      "size": 1721848,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f14b54074ecb943a483d6e61ae9aea39a2c65ee8"
+    },
+    {
+      "path": "data/scenarios/sources/supplementary-evidence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7dc5d02b7a8b10bf73e0568ab76581dc79c57f4d",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/7dc5d02b7a8b10bf73e0568ab76581dc79c57f4d"
+    },
+    {
+      "path": "data/scenarios/sources/supplementary-evidence/primary_d_final.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53d7e5b1904e1e85f66d87eead4e07b5a85a76d2",
+      "size": 89181,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/53d7e5b1904e1e85f66d87eead4e07b5a85a76d2"
+    },
+    {
+      "path": "data/scenarios/sources/supplementary-evidence/real_e_final.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a69312acc169a6e965cd368530b5aee64c2d8e31",
+      "size": 16634,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a69312acc169a6e965cd368530b5aee64c2d8e31"
+    },
+    {
+      "path": "data/studies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7ba4b3db8492f5d6cdacfb3fb4bc13adf1ed58d",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/c7ba4b3db8492f5d6cdacfb3fb4bc13adf1ed58d"
+    },
+    {
+      "path": "data/studies/protocol",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1c5812ccfdd3f3e2861fe289e19eca569a9c376",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/c1c5812ccfdd3f3e2861fe289e19eca569a9c376"
+    },
+    {
+      "path": "data/studies/protocol/authorization-check-prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13752ed020977ae7badd8bca1c467a51621ad3eb",
+      "size": 619,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/13752ed020977ae7badd8bca1c467a51621ad3eb"
+    },
+    {
+      "path": "data/studies/protocol/default-prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22c05b17b1d5ee3a440a5a12bbe84dca352cf4da",
+      "size": 263,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/22c05b17b1d5ee3a440a5a12bbe84dca352cf4da"
+    },
+    {
+      "path": "data/studies/protocol/diagnostic-prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06aa859d9b8ea9e2fc8222c09fad5db8f6200197",
+      "size": 891,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/06aa859d9b8ea9e2fc8222c09fad5db8f6200197"
+    },
+    {
+      "path": "data/studies/protocol/protocol.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b79ad566baa7c7adea703bfdf0f5bcce79da9478",
+      "size": 7437,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b79ad566baa7c7adea703bfdf0f5bcce79da9478"
+    },
+    {
+      "path": "data/studies/publication-bindings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c31361b4aa7c30d652c843ed9ee099f15d5a785",
+      "size": 1544,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6c31361b4aa7c30d652c843ed9ee099f15d5a785"
+    },
+    {
+      "path": "data/studies/recovery.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e17a202816d0074d01f2e4c5a6d56080f6ad599d",
+      "size": 6160,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e17a202816d0074d01f2e4c5a6d56080f6ad599d"
+    },
+    {
+      "path": "data/studies/updates.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35c11e6e58ebc7b407d57bbda3919d5a0d59e060",
+      "size": 310359,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/35c11e6e58ebc7b407d57bbda3919d5a0d59e060"
+    },
+    {
+      "path": "data/studies/updates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb85d77be7db40abd5f76ccaf4b586a3335d8a45",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/cb85d77be7db40abd5f76ccaf4b586a3335d8a45"
+    },
+    {
+      "path": "data/studies/updates/evidence.index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b31532289fddec43a53b24ce86c08ba7a84fa13b",
+      "size": 1317421,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b31532289fddec43a53b24ce86c08ba7a84fa13b"
+    },
+    {
+      "path": "data/studies/updates/evidence.tar.xz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc26dcadf8f5e8a5e6694599cdba19bddf29b45a",
+      "size": 246468,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/bc26dcadf8f5e8a5e6694599cdba19bddf29b45a"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fddd40a8625dba0a78d8447a47b2281224625a32",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/fddd40a8625dba0a78d8447a47b2281224625a32"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27cf7a6e9a3dc07c8d82930c98f70f4c3f8635d1",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/27cf7a6e9a3dc07c8d82930c98f70f4c3f8635d1"
+    },
+    {
+      "path": "docs/assets/overview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca0651833bb28ca079479070c0342d8ca1ccd893",
+      "size": 998892,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ca0651833bb28ca079479070c0342d8ca1ccd893"
+    },
+    {
+      "path": "docs/attribution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a290757807eda4ee3f1bc95887ef273a5bbdc331",
+      "size": 1382,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/a290757807eda4ee3f1bc95887ef273a5bbdc331"
+    },
+    {
+      "path": "docs/ci-workflow.example.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c5952aa7d0a095fd1250d0203d081ff5082e63",
+      "size": 520,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e3c5952aa7d0a095fd1250d0203d081ff5082e63"
+    },
+    {
+      "path": "docs/dataset.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e99ae49ec86b52931eafb503c60f6b47943abbea",
+      "size": 3725,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e99ae49ec86b52931eafb503c60f6b47943abbea"
+    },
+    {
+      "path": "docs/evaluation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "978e7251cb6d9295a74822b55e43ed1d59cbb8e9",
+      "size": 3498,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/978e7251cb6d9295a74822b55e43ed1d59cbb8e9"
+    },
+    {
+      "path": "docs/licenses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36f4c14fe9116961b81f09fb3ae47b31c9c03872",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/36f4c14fe9116961b81f09fb3ae47b31c9c03872"
+    },
+    {
+      "path": "docs/licenses/AgentDojo-MIT.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "006aed0b22a430c0f3c6a4fb46768d967b8c3dbc",
+      "size": 1161,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/006aed0b22a430c0f3c6a4fb46768d967b8c3dbc"
+    },
+    {
+      "path": "docs/licenses/Comic-Shanns-MIT.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f2a0dde24f8d3a290f7820d016850bdac5e6772",
+      "size": 1069,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/0f2a0dde24f8d3a290f7820d016850bdac5e6772"
+    },
+    {
+      "path": "docs/licenses/Dataset-CC-BY-4.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5cb6e4b9585f694b35496d39142b638c7a45e28",
+      "size": 805,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/d5cb6e4b9585f694b35496d39142b638c7a45e28"
+    },
+    {
+      "path": "docs/licenses/Libertine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "faaadc50e0df8f9f4a4dffc4941bec3eb2dbf261",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/faaadc50e0df8f9f4a4dffc4941bec3eb2dbf261"
+    },
+    {
+      "path": "docs/licenses/Libertine/GPL.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b890e5559d6cb3cf16f0c5621ea3383cf138d797",
+      "size": 18619,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b890e5559d6cb3cf16f0c5621ea3383cf138d797"
+    },
+    {
+      "path": "docs/licenses/Libertine/LICENCE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca3c39fdb3d805e28f5ef7b844c97c3f9c5af940",
+      "size": 1181,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ca3c39fdb3d805e28f5ef7b844c97c3f9c5af940"
+    },
+    {
+      "path": "docs/licenses/Libertine/OFL.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86e6244f00edafa751454e29db251afd96dda638",
+      "size": 4312,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/86e6244f00edafa751454e29db251afd96dda638"
+    },
+    {
+      "path": "docs/licenses/Libertine/debian-copyright.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96cd33cc46f6fcc274bc3a3be8b83b7004c0c91d",
+      "size": 7091,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/96cd33cc46f6fcc274bc3a3be8b83b7004c0c91d"
+    },
+    {
+      "path": "docs/licenses/Libertine/font-metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c095e476be6eab2efeac0d3d4cfd842d5e99125",
+      "size": 702,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/5c095e476be6eab2efeac0d3d4cfd842d5e99125"
+    },
+    {
+      "path": "docs/licenses/Libertine/libertine-README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f19fa55f3e8835f68d48e0baacebbc16c215af59",
+      "size": 3500,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f19fa55f3e8835f68d48e0baacebbc16c215af59"
+    },
+    {
+      "path": "docs/licenses/Libertine/sources.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63fb9e7518491dfbfab536850dd15e597c26beb8",
+      "size": 810,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/63fb9e7518491dfbfab536850dd15e597c26beb8"
+    },
+    {
+      "path": "docs/licenses/Model-logos-license.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dd53d2a9d99e5f91113831a850276ef530cb9d2",
+      "size": 1064,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/1dd53d2a9d99e5f91113831a850276ef530cb9d2"
+    },
+    {
+      "path": "docs/licenses/Model-logos-source.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27ca9bbf8a81c513d36f6eb28de8c5d0b6383a73",
+      "size": 2383,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/27ca9bbf8a81c513d36f6eb28de8c5d0b6383a73"
+    },
+    {
+      "path": "docs/licenses/SkillOpt-MIT.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf7bcb2ba475e33648180599c0f83c425f1705d9",
+      "size": 1078,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/cf7bcb2ba475e33648180599c0f83c425f1705d9"
+    },
+    {
+      "path": "docs/quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37c6743660e82636e72fb09e0f1a969f3efa9e30",
+      "size": 3702,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/37c6743660e82636e72fb09e0f1a969f3efa9e30"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6391dfba0364824905a4d2cb828bacc233f1914",
+      "size": 3673,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/f6391dfba0364824905a4d2cb828bacc233f1914"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1ee5568582449dfe7a9519a48a4ebc39cacb921",
+      "size": 662,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e1ee5568582449dfe7a9519a48a4ebc39cacb921"
+    },
+    {
+      "path": "release-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34db0a5f54206741c259e0ed633da5ed41b47505",
+      "size": 60014,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/34db0a5f54206741c259e0ed633da5ed41b47505"
+    },
+    {
+      "path": "skilllifebench",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b537ce52b1870316557dbb4f5680b74e6b76a04d",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/b537ce52b1870316557dbb4f5680b74e6b76a04d"
+    },
+    {
+      "path": "skilllifebench/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521b689291315e807a8d8b347117e75f8ef97f25",
+      "size": 98,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/521b689291315e807a8d8b347117e75f8ef97f25"
+    },
+    {
+      "path": "skilllifebench/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e2105f804b74dae3c97d390352b878a0921e74d",
+      "size": 5258,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/8e2105f804b74dae3c97d390352b878a0921e74d"
+    },
+    {
+      "path": "skilllifebench/catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc4a429a0ef9d33ee7b007e0673ef6f41f95c49",
+      "size": 1853,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7cc4a429a0ef9d33ee7b007e0673ef6f41f95c49"
+    },
+    {
+      "path": "skilllifebench/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adaf70584dbcb3e31e137e8414bb024eb9de6597",
+      "size": 4194,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/adaf70584dbcb3e31e137e8414bb024eb9de6597"
+    },
+    {
+      "path": "skilllifebench/privacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eab158868e778e84a1147428dd3a4c5a16ab0dc1",
+      "size": 4897,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/eab158868e778e84a1147428dd3a4c5a16ab0dc1"
+    },
+    {
+      "path": "skilllifebench/runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aad62027cd11632571df4642f2430614ca69575",
+      "size": 6538,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/1aad62027cd11632571df4642f2430614ca69575"
+    },
+    {
+      "path": "skilllifebench/runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1f71f391ac822b6250c7bcbae40b5f553f29c3c",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/e1f71f391ac822b6250c7bcbae40b5f553f29c3c"
+    },
+    {
+      "path": "skilllifebench/runtime/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "skilllifebench/runtime/_sandbox_worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a33b30802f1e3f400845edcb91a57c550bf5652",
+      "size": 6318,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9a33b30802f1e3f400845edcb91a57c550bf5652"
+    },
+    {
+      "path": "skilllifebench/runtime/archive_oracle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "734c0abe6a767481b0c5da98e503edd3d3ddf715",
+      "size": 1781,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/734c0abe6a767481b0c5da98e503edd3d3ddf715"
+    },
+    {
+      "path": "skilllifebench/runtime/effect_oracle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d76ec0e2ba10b5c6f5637004f7f788f4a8d490",
+      "size": 7301,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/b5d76ec0e2ba10b5c6f5637004f7f788f4a8d490"
+    },
+    {
+      "path": "skilllifebench/runtime/episode_runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29be41a1263f9b63db07517117897a1e7168a8e1",
+      "size": 8866,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/29be41a1263f9b63db07517117897a1e7168a8e1"
+    },
+    {
+      "path": "skilllifebench/runtime/harness_matrix_session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3724272882e00802c8246712a3c10b6a6ce6a7aa",
+      "size": 19633,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3724272882e00802c8246712a3c10b6a6ce6a7aa"
+    },
+    {
+      "path": "skilllifebench/runtime/isolated_executor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46d583d63fea1bd7313f6b444c4de0889875a4da",
+      "size": 21300,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/46d583d63fea1bd7313f6b444c4de0889875a4da"
+    },
+    {
+      "path": "skilllifebench/runtime/provider_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9135ca4b20be2298aa6d4f639dea1106d44aee69",
+      "size": 491,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/9135ca4b20be2298aa6d4f639dea1106d44aee69"
+    },
+    {
+      "path": "skilllifebench/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f464e83c0ee24cc33deb7b17d3226cb2c5446cfa",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/f464e83c0ee24cc33deb7b17d3226cb2c5446cfa"
+    },
+    {
+      "path": "skilllifebench/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f119a351c0838d433fdf294cfee56ee5a5d9ff8",
+      "size": 78,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/8f119a351c0838d433fdf294cfee56ee5a5d9ff8"
+    },
+    {
+      "path": "skilllifebench/tasks/b_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "221f2156d6158ea69b19509cc70c93bd87f43e32",
+      "size": 16660,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/221f2156d6158ea69b19509cc70c93bd87f43e32"
+    },
+    {
+      "path": "skilllifebench/tasks/backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3451e93a3aac1a1de6b90d9ae5ed1b2c166c176d",
+      "size": 16596,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/3451e93a3aac1a1de6b90d9ae5ed1b2c166c176d"
+    },
+    {
+      "path": "skilllifebench/tasks/d_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b02ed350dfb3dbada838fdee431073e6e421485",
+      "size": 24820,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/6b02ed350dfb3dbada838fdee431073e6e421485"
+    },
+    {
+      "path": "skilllifebench/tasks/e_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7923ed2468547b2d110b8d3ba77eb437d97e8111",
+      "size": 20645,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/7923ed2468547b2d110b8d3ba77eb437d97e8111"
+    },
+    {
+      "path": "skilllifebench/tasks/qualify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caadf39c3bbc4b9f3e56ea12e4438ba9c8373293",
+      "size": 6259,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/caadf39c3bbc4b9f3e56ea12e4438ba9c8373293"
+    },
+    {
+      "path": "skilllifebench/verification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "947d3587dc74dceb15ad17e1196a126aeab6053b",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/947d3587dc74dceb15ad17e1196a126aeab6053b"
+    },
+    {
+      "path": "skilllifebench/verification/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93160a4172dff996e6fcc929289b82b631cd0c75",
+      "size": 79,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/93160a4172dff996e6fcc929289b82b631cd0c75"
+    },
+    {
+      "path": "skilllifebench/verification/lifecycle_replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64e126f1336066f0e1b234c50b51f3b624cd082b",
+      "size": 25320,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/64e126f1336066f0e1b234c50b51f3b624cd082b"
+    },
+    {
+      "path": "skilllifebench/verification/release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f3b814a5bb2d8a7863963e0af808aa18dd46df2",
+      "size": 29344,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/4f3b814a5bb2d8a7863963e0af808aa18dd46df2"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3714815b9d0bb0eaca375ed7221f74bcb322cf26",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/3714815b9d0bb0eaca375ed7221f74bcb322cf26"
+    },
+    {
+      "path": "tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "335040bfa272ee7eb13ba3674cbd400b5c925607",
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/trees/335040bfa272ee7eb13ba3674cbd400b5c925607"
+    },
+    {
+      "path": "tests/fixtures/full-verification-reports.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c38bac0aa5c444cc637ff5942f98c0b1d28bc8cf",
+      "size": 11009,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/c38bac0aa5c444cc637ff5942f98c0b1d28bc8cf"
+    },
+    {
+      "path": "tests/test_lifecycle_replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "670fe2753356cad6c22f9fc196776b14514fe2aa",
+      "size": 9010,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/670fe2753356cad6c22f9fc196776b14514fe2aa"
+    },
+    {
+      "path": "tests/test_privacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea92e92692c5cc9de5fbd344408db53ac3ebc3f5",
+      "size": 6630,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/ea92e92692c5cc9de5fbd344408db53ac3ebc3f5"
+    },
+    {
+      "path": "tests/test_public_lifecycle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "effb81396c472eba3881251a058ca42feaaa644b",
+      "size": 7535,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/effb81396c472eba3881251a058ca42feaaa644b"
+    },
+    {
+      "path": "tests/test_release_verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1165c9b767bde56364708d39f8bc20132c909dc5",
+      "size": 16891,
+      "url": "https://api.github.com/repos/Tasselszcx/SkillLifeBench/git/blobs/1165c9b767bde56364708d39f8bc20132c909dc5"
+    }
+  ],
+  "truncated": false
+}

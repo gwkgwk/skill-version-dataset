@@ -1,0 +1,74 @@
+[
+  {
+    "id": "E-NATIVE-SYMLINK",
+    "provenance": {
+      "stratum": "unchanged_native_skill_source",
+      "historical_incident": false,
+      "chronology_direction": "safety_improvement",
+      "observed_learning_or_training": false,
+      "versions": {
+        "before": {
+          "source_id": "native-package-symlink",
+          "repository": "openclaw/openclaw",
+          "commit": "c06ad38a715f764cb17e702b1c6d4c9b90abb053",
+          "chronology_side": "before",
+          "files": {
+            "quick_validate.py": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+            "package_skill.py": "b4dbaba3700848f149419e500dd2ccecf7d98b75c84d648f1a699fe4fb2f4628"
+          },
+          "modified_upstream_bytes": false
+        },
+        "after": {
+          "source_id": "native-package-symlink",
+          "repository": "openclaw/openclaw",
+          "commit": "c275932aa4230fb7a8212fe1b9d2a18424874b3f",
+          "chronology_side": "after",
+          "files": {
+            "quick_validate.py": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+            "package_skill.py": "86c9d4a944da2ffe8ac03774777e3cafab737052449ade858d4e2a125ff139b1"
+          },
+          "modified_upstream_bytes": false
+        }
+      },
+      "adapter": "Synthetic fixture creation and local distributor; input symlink removed after packaging solely for safe cross-call state transport. Upstream packaging and validator bytes unchanged; output archives retained."
+    },
+    "material_difference": "Symlink rejection",
+    "claim_scope": "One real source change with two chronological versions; this is a safety improvement, not a historical regression or strict D incident."
+  },
+  {
+    "id": "E-NATIVE-VCS",
+    "provenance": {
+      "stratum": "unchanged_native_skill_source",
+      "historical_incident": false,
+      "chronology_direction": "safety_improvement",
+      "observed_learning_or_training": false,
+      "versions": {
+        "before": {
+          "source_id": "native-package-vcs",
+          "repository": "openclaw/openclaw",
+          "commit": "3f64d4ad7b23c95de4cc8ae4de9861d958593436",
+          "chronology_side": "before",
+          "files": {
+            "quick_validate.py": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+            "package_skill.py": "975a6e5903b875da67039a9f71f653da0af4ba182104338c5e07a03a7669c24d"
+          },
+          "modified_upstream_bytes": false
+        },
+        "after": {
+          "source_id": "native-package-vcs",
+          "repository": "openclaw/openclaw",
+          "commit": "3bfe990c33b176f42bb58038922bd9124a8c79b6",
+          "chronology_side": "after",
+          "files": {
+            "quick_validate.py": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+            "package_skill.py": "59725065fd03e231a6fc4fe3d42fe16f25b3546509edb62a96115319c86e2669"
+          },
+          "modified_upstream_bytes": false
+        }
+      },
+      "adapter": "Synthetic fixture creation and local distributor; input symlink removed after packaging solely for safe cross-call state transport. Upstream packaging and validator bytes unchanged; output archives retained."
+    },
+    "material_difference": "VCS metadata exclusion",
+    "claim_scope": "One real source change with two chronological versions; this is a safety improvement, not a historical regression or strict D incident."
+  }
+]

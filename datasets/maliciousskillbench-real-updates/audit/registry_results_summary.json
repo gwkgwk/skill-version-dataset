@@ -1,0 +1,1072 @@
+[
+  {
+    "skill_id": "igorhvr/dexter",
+    "source_id": "SRC002",
+    "source_metadata_archive_path": "packages/smp_3604/dexter/_meta.json",
+    "source_metadata_sha256": "c1f41f85deab0a70ac564d4c0a975b12e5e9b30e1caecc1185421a2f58042c46",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1768141574420,
+        "commit": "https://github.com/clawdbot/skills/commit/8f882c3e6a8872213e89f695a4e1e8599452dfcb"
+      }
+    ],
+    "benchmark_package_prefix": "packages/smp_3604/dexter",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "8f882c3e6a8872213e89f695a4e1e8599452dfcb",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/igorhvr_dexter/8f882c3e6a8872213e89f695a4e1e8599452dfcb",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 1,
+    "old_commit": "da38320cfb47f380186161b9b3e4a421a4d53b4b",
+    "old_version": null,
+    "old_snapshot": "snapshots/igorhvr_dexter/da38320cfb47f380186161b9b3e4a421a4d53b4b",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "skill_id": "orlyjamie/nasty-skill",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00001_ASB04_000233/skill/_meta.json",
+    "source_metadata_sha256": "4d0c61ac8a9cfe36ede96a49eaecec409c571645c4362d83122789b31e48cf9e",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770352309290,
+        "commit": "https://github.com/openclaw/skills/commit/2ddf32c7f08742012fadaab8efef8bd96159bb3a"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00001_ASB04_000233/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "2ddf32c7f08742012fadaab8efef8bd96159bb3a",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/orlyjamie_nasty-skill/2ddf32c7f08742012fadaab8efef8bd96159bb3a",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 2,
+    "old_commit": "51194ccae1b86310d2b9182d27adfcfec71ec442",
+    "old_version": null,
+    "old_snapshot": "snapshots/orlyjamie_nasty-skill/51194ccae1b86310d2b9182d27adfcfec71ec442",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "maintenance.sh"
+    ]
+  },
+  {
+    "skill_id": "pierremenard/auto-updater-ah1",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00002_ASB04_000893/skill/auto-updater-ah1/_meta.json",
+    "source_metadata_sha256": "c06a7bc30cd4884bb14236dfd7cfd198154546679a87ba89ad73493756969712",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770318495126,
+        "commit": "https://github.com/openclaw/skills/commit/1f89a13ae0fec0d7bb74bb6527b34199dc2be231"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00002_ASB04_000893/skill/auto-updater-ah1",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "benchmark_archive_package_mismatch",
+    "new_commit": "1f89a13ae0fec0d7bb74bb6527b34199dc2be231",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/pierremenard_auto-updater-ah1/1f89a13ae0fec0d7bb74bb6527b34199dc2be231",
+    "benchmark_package_matches": false,
+    "benchmark_package_differences": [
+      "SKILL.md"
+    ],
+    "benchmark_files": 0
+  },
+  {
+    "skill_id": "pierremenard/gmail-client",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00002_ASB04_000893/skill/gmail-client/_meta.json",
+    "source_metadata_sha256": "8a73b137b076b1260b3a2c3507e8229f3ba4ffc04c89428e7c22444fa1621e51",
+    "source_versions": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770318681846,
+        "commit": "https://github.com/openclaw/skills/commit/f26ed40b429d307a271674a5ec8d2795887b37c9"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00002_ASB04_000893/skill/gmail-client",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "f26ed40b429d307a271674a5ec8d2795887b37c9",
+    "new_version": "1.0.1",
+    "new_snapshot": "snapshots/pierremenard_gmail-client/f26ed40b429d307a271674a5ec8d2795887b37c9",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 2,
+    "old_commit": "2878f1b5e8f22e0a60eefd0663ef71603fbfb540",
+    "old_version": null,
+    "old_snapshot": "snapshots/pierremenard_gmail-client/2878f1b5e8f22e0a60eefd0663ef71603fbfb540",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "scripts/gmail_tool.py"
+    ]
+  },
+  {
+    "skill_id": "cyberengage/secure-sync",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00003_ASB04_000952/skill/_meta.json",
+    "source_metadata_sha256": "967ee97cf1761bf0c2f64da8e88bb9f50545551d688657fe8bba35bf045e4ccf",
+    "source_versions": [
+      {
+        "version": "1.3.0",
+        "publishedAt": 1770261232487,
+        "commit": "https://github.com/clawdbot/skills/commit/ecef0e38623a4d0938f34266f0dcc0b26ff9126c"
+      },
+      {
+        "version": "1.1.0",
+        "publishedAt": 1770242194432,
+        "commit": "https://github.com/clawdbot/skills/commit/fa10b86dcb3c26426bf3a96e149a97f085ed335e"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770201624500,
+        "commit": "https://github.com/clawdbot/skills/commit/4ff128af91fec3b6bb4daca01473403a0803e0ba"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00003_ASB04_000952/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "benchmark_archive_package_mismatch",
+    "new_commit": "ecef0e38623a4d0938f34266f0dcc0b26ff9126c",
+    "new_version": "1.3.0",
+    "new_snapshot": "snapshots/cyberengage_secure-sync/ecef0e38623a4d0938f34266f0dcc0b26ff9126c",
+    "benchmark_package_matches": false,
+    "benchmark_package_differences": [
+      "tmp/credentials-backup-1770193226/SKILL.md",
+      "tmp/credentials-backup-1770193226/references/backup.txt"
+    ],
+    "benchmark_files": 2
+  },
+  {
+    "skill_id": "lvcidpsyche/skill-bomb-dog-sniff",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00004_ASB04_001045/skill/_meta.json",
+    "source_metadata_sha256": "603747481a6888c544ec6f26675dca84e6c6a3030758bff5174a05cafbde006c",
+    "source_versions": [
+      {
+        "version": "0.1.0",
+        "publishedAt": 1770530107924,
+        "commit": "https://github.com/openclaw/skills/commit/3f5a45c03e04747940076a4c0401bdcc7be5fd41"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00004_ASB04_001045/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "benchmark_archive_package_mismatch",
+    "new_commit": "3f5a45c03e04747940076a4c0401bdcc7be5fd41",
+    "new_version": "0.1.0",
+    "new_snapshot": "snapshots/lvcidpsyche_skill-bomb-dog-sniff/3f5a45c03e04747940076a4c0401bdcc7be5fd41",
+    "benchmark_package_matches": false,
+    "benchmark_package_differences": [
+      "test-malicious-skill/scripts/malicious.js"
+    ],
+    "benchmark_files": 12
+  },
+  {
+    "skill_id": "steipete/coding-agent",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00005_ASB04_001195/skill/_meta.json",
+    "source_metadata_sha256": "95162ad59c330a6d3c9cbf33c1d13fd26bcc3b2bd9399f110a3e5dba81943a42",
+    "source_versions": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1767667634099,
+        "commit": "https://github.com/clawdbot/skills/commit/4f0b7ed32a1fc0635e2a62ec1181243c1118898d"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00005_ASB04_001195/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "4f0b7ed32a1fc0635e2a62ec1181243c1118898d",
+    "new_version": "1.0.1",
+    "new_snapshot": "snapshots/steipete_coding-agent/4f0b7ed32a1fc0635e2a62ec1181243c1118898d",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 1,
+    "old_commit": "f58492518bde58ce27896e4845c316421ed0f7d5",
+    "old_version": null,
+    "old_snapshot": "snapshots/steipete_coding-agent/f58492518bde58ce27896e4845c316421ed0f7d5",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "skill_id": "houzl3416/antigravity-image",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00006_ASB04_001417/skill/antigravity-image/_meta.json",
+    "source_metadata_sha256": "466e64ee71ae488bc43efaab2dcc90d9469326f674b7c38f7e842db544a9c68c",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770198745110,
+        "commit": "https://github.com/clawdbot/skills/commit/c2de1d5ce068d536e88ed68e52085332e49ea955"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00006_ASB04_001417/skill/antigravity-image",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "c2de1d5ce068d536e88ed68e52085332e49ea955",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/houzl3416_antigravity-image/c2de1d5ce068d536e88ed68e52085332e49ea955",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 3,
+    "old_commit": "022846b8b6341a0f29c2078e4151ceb2d3b1eb03",
+    "old_version": null,
+    "old_snapshot": "snapshots/houzl3416_antigravity-image/022846b8b6341a0f29c2078e4151ceb2d3b1eb03",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "references/internal-api.md",
+      "scripts/generate_image_antigravity.py"
+    ]
+  },
+  {
+    "skill_id": "hummusonrails/arbitrum-dapp-skill",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00007_ASB04_002011/skill/_meta.json",
+    "source_metadata_sha256": "a1d303139ac5abcf2696ac0513e885b96059c0b38ea9a9dd1adc7d64efccb08b",
+    "source_versions": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1770221624830,
+        "commit": "https://github.com/clawdbot/skills/commit/cf37c78a6d8d4b7f557460d5c4c1462e25b87571"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00007_ASB04_002011/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "cf37c78a6d8d4b7f557460d5c4c1462e25b87571",
+    "new_version": "1.1.0",
+    "new_snapshot": "snapshots/hummusonrails_arbitrum-dapp-skill/cf37c78a6d8d4b7f557460d5c4c1462e25b87571",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 12,
+    "old_commit": "8193f8dd0fa7573aeb337fc054a642cf03dd0d90",
+    "old_version": null,
+    "old_snapshot": "snapshots/hummusonrails_arbitrum-dapp-skill/8193f8dd0fa7573aeb337fc054a642cf03dd0d90",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "README.md",
+      "SKILL.md",
+      "docs/assets/arbitrum-horizontal-white.svg",
+      "docs/assets/arbitrum-logomark.svg",
+      "docs/index.html",
+      "install.sh",
+      "references/deployment.md",
+      "references/frontend-integration.md",
+      "references/local-devnode.md",
+      "references/solidity-contracts.md",
+      "references/stylus-rust-contracts.md",
+      "references/testing.md"
+    ]
+  },
+  {
+    "skill_id": "aslaep123/reddit-trends",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00008_ASB04_002076/skill/_meta.json",
+    "source_metadata_sha256": "1ba1a8994a0f6cd909c502f5607326ae9385e470b3449a2064b79623dee895ee",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769627517622,
+        "commit": "https://github.com/clawdbot/skills/commit/ff6865d30afccfa2fe0103d3fd48837b28447117"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00008_ASB04_002076/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "benchmark_archive_package_mismatch",
+    "new_commit": "ff6865d30afccfa2fe0103d3fd48837b28447117",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/aslaep123_reddit-trends/ff6865d30afccfa2fe0103d3fd48837b28447117",
+    "benchmark_package_matches": false,
+    "benchmark_package_differences": [
+      "SKILL.md"
+    ],
+    "benchmark_files": 1
+  },
+  {
+    "skill_id": "c-goro/skillguard",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00009_ASB04_002179/skill/_meta.json",
+    "source_metadata_sha256": "cb2886f559a6d4cfbb64adfabef10940c2209d7094dc709278f9fafdf7ae4990",
+    "source_versions": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1769914559357,
+        "commit": "https://github.com/clawdbot/skills/commit/3ebd254d9b7130b3fe0a6591465516c4f4d197e2"
+      },
+      {
+        "version": "0.2.2",
+        "publishedAt": 1769891328754,
+        "commit": "https://github.com/clawdbot/skills/commit/5b69d68a31a1e2ec81270973e27a9f1396b2f69b"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00009_ASB04_002179/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "verified_real_update_to_source_labeled_malicious_package",
+    "new_commit": "3ebd254d9b7130b3fe0a6591465516c4f4d197e2",
+    "new_version": "1.0.1",
+    "new_snapshot": "snapshots/c-goro_skillguard/3ebd254d9b7130b3fe0a6591465516c4f4d197e2",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 40,
+    "old_commit": "8ff0b9063fc382e99f75f732ea27dad19f9ce63c",
+    "old_version": "0.2.2",
+    "old_snapshot": "snapshots/c-goro_skillguard/8ff0b9063fc382e99f75f732ea27dad19f9ce63c",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "LAUNCH-POST.md",
+      "package.json",
+      "post-retry.js"
+    ]
+  },
+  {
+    "skill_id": "zadahmed/nervepay",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00010_ASB04_002949/skill/_meta.json",
+    "source_metadata_sha256": "d188288ef2a6b61d2c67d1315da786785c02d5336a1d77e090d43e01f6f60bbb",
+    "source_versions": [
+      {
+        "version": "1.2.0",
+        "publishedAt": 1770325560303,
+        "commit": "https://github.com/clawdbot/skills/commit/bc3cf52bd8e667682c21ca90d3a18593b3993744"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770242763662,
+        "commit": "https://github.com/clawdbot/skills/commit/8c28cee2fea9a697045c33adbc9b7b3729d21535"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00010_ASB04_002949/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "verified_real_update_to_source_labeled_malicious_package",
+    "new_commit": "bc3cf52bd8e667682c21ca90d3a18593b3993744",
+    "new_version": "1.2.0",
+    "new_snapshot": "snapshots/zadahmed_nervepay/bc3cf52bd8e667682c21ca90d3a18593b3993744",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 5,
+    "old_commit": "81fcc22b5f1cf28ff873fa81b95bf8dcac58cf83",
+    "old_version": "1.0.0",
+    "old_snapshot": "snapshots/zadahmed_nervepay/81fcc22b5f1cf28ff873fa81b95bf8dcac58cf83",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "api.md",
+      "nervepay-instrument.mjs",
+      "nervepay-request.mjs",
+      "nervepay-track.mjs"
+    ]
+  },
+  {
+    "skill_id": "jeffreyling/devinism",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00011_ASB04_003022/skill/_meta.json",
+    "source_metadata_sha256": "45dc3e2b957b7e0ac0a4475d61c92f773039e12183fa3c2ce395e13903d07a61",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769902200054,
+        "commit": "https://github.com/clawdbot/skills/commit/fabdc29a5cbc68ffbe11ba0aa89d39a0abeac5fe"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00011_ASB04_003022/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "fabdc29a5cbc68ffbe11ba0aa89d39a0abeac5fe",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/jeffreyling_devinism/fabdc29a5cbc68ffbe11ba0aa89d39a0abeac5fe",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 1,
+    "old_commit": "046dabeecd17606dfe505ff9390174281d1b2c45",
+    "old_version": null,
+    "old_snapshot": "snapshots/jeffreyling_devinism/046dabeecd17606dfe505ff9390174281d1b2c45",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "skill_id": "cgnl/nano-banana-antigravity",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00012_ASB04_003082/skill/_meta.json",
+    "source_metadata_sha256": "f6bebb6e07028b0706d69cc68fd4f5bb1ce5733e379e0b3bf9bb23d574338864",
+    "source_versions": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1770098381303,
+        "commit": "https://github.com/clawdbot/skills/commit/d6db5fb82d146232afbf08607380527670ebcde0"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769893061419,
+        "commit": "https://github.com/clawdbot/skills/commit/cdcb6f05dbde224b41f009eab07aef672cb057b9"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00012_ASB04_003082/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "verified_real_update_to_source_labeled_malicious_package",
+    "new_commit": "d6db5fb82d146232afbf08607380527670ebcde0",
+    "new_version": "1.1.0",
+    "new_snapshot": "snapshots/cgnl_nano-banana-antigravity/d6db5fb82d146232afbf08607380527670ebcde0",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 4,
+    "old_commit": "f88e03ed7e35deb19f86d130bf21dbbb8dbc47ef",
+    "old_version": "1.0.0",
+    "old_snapshot": "snapshots/cgnl_nano-banana-antigravity/f88e03ed7e35deb19f86d130bf21dbbb8dbc47ef",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "README.md",
+      "SKILL.md",
+      "scripts/generate_image.py",
+      "scripts/generate_whatsapp_hd.sh"
+    ]
+  },
+  {
+    "skill_id": "seyhunak/govpredict",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00013_ASB04_003128/skill/_meta.json",
+    "source_metadata_sha256": "bff5b217d59245eba82cd81ec073c7077f2787a999b019a3018833c9af3e0a4a",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769457339965,
+        "commit": "https://github.com/clawdbot/skills/commit/2c12f6a4d1ae6dfc80b4267335f74ac275aa883b"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00013_ASB04_003128/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "2c12f6a4d1ae6dfc80b4267335f74ac275aa883b",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/seyhunak_govpredict/2c12f6a4d1ae6dfc80b4267335f74ac275aa883b",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 2,
+    "old_commit": "bc92789b0a1e3cc6c65b709777c1c6c265ef3958",
+    "old_version": null,
+    "old_snapshot": "snapshots/seyhunak_govpredict/bc92789b0a1e3cc6c65b709777c1c6c265ef3958",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "rules/logic.md"
+    ]
+  },
+  {
+    "skill_id": "kasyak0/moltiverse-amongus",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00016_ASB04_003427/skill/_meta.json",
+    "source_metadata_sha256": "a7c08e19612f8a407b402bf454350e63264662d8843825a6e3790e6fef272fa1",
+    "source_versions": [
+      {
+        "version": "2.1.0",
+        "publishedAt": 1770319547519,
+        "commit": "https://github.com/openclaw/skills/commit/0992e998c76cc7caba4b3c7c945c8de168723ed6"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00016_ASB04_003427/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "0992e998c76cc7caba4b3c7c945c8de168723ed6",
+    "new_version": "2.1.0",
+    "new_snapshot": "snapshots/kasyak0_moltiverse-amongus/0992e998c76cc7caba4b3c7c945c8de168723ed6",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 3,
+    "old_commit": "6780778a29a4fcd1d8171d7b22a770830e124478",
+    "old_version": null,
+    "old_snapshot": "snapshots/kasyak0_moltiverse-amongus/6780778a29a4fcd1d8171d7b22a770830e124478",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "assets/GAME_LOOP.md",
+      "assets/STRATEGY.md"
+    ]
+  },
+  {
+    "skill_id": "seyhunak/deep-research",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00017_ASB04_003548/skill/_meta.json",
+    "source_metadata_sha256": "7742d022c0288c24291b2a70c074b86dd373025cfd2eca49dcd7b0f3c28134ff",
+    "source_versions": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1769615567637,
+        "commit": "https://github.com/clawdbot/skills/commit/8ecaec0d290549d79e32fa931f1f66cd5af43f0d"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769540388277,
+        "commit": "https://github.com/clawdbot/skills/commit/96b8c420b5b316e3ffa899a370cc339aa0c046bc"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00017_ASB04_003548/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "verified_real_update_to_source_labeled_malicious_package",
+    "new_commit": "8ecaec0d290549d79e32fa931f1f66cd5af43f0d",
+    "new_version": "1.0.1",
+    "new_snapshot": "snapshots/seyhunak_deep-research/8ecaec0d290549d79e32fa931f1f66cd5af43f0d",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 2,
+    "old_commit": "b4217d1c722491580e31e9db4139ec4c7b326e68",
+    "old_version": "1.0.0",
+    "old_snapshot": "snapshots/seyhunak_deep-research/b4217d1c722491580e31e9db4139ec4c7b326e68",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "rules/logic.md"
+    ]
+  },
+  {
+    "skill_id": "orlyjamie/wed",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00018_ASB04_003932/skill/_meta.json",
+    "source_metadata_sha256": "8b86c44f9999aec3b4cb9dcb8e387d8a7b995da04b5d47bd58f008f2a5a70189",
+    "source_versions": [
+      {
+        "version": "1.0.3",
+        "publishedAt": 1769462878085,
+        "commit": "https://github.com/clawdbot/skills/commit/8d95c7ff7369c813d6aa8c43970ed0f6bf9ad77a"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1769438228272,
+        "commit": "https://github.com/clawdbot/skills/commit/8b485334e267a3d85a3d9af146697e367746da14"
+      },
+      {
+        "version": "1.0.1",
+        "publishedAt": 1769416151842,
+        "commit": "https://github.com/clawdbot/skills/commit/283b7c7797e6f3e8384e5be418962d7d3287504b"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00018_ASB04_003932/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "verified_real_update_to_source_labeled_malicious_package",
+    "new_commit": "8d95c7ff7369c813d6aa8c43970ed0f6bf9ad77a",
+    "new_version": "1.0.3",
+    "new_snapshot": "snapshots/orlyjamie_wed/8d95c7ff7369c813d6aa8c43970ed0f6bf9ad77a",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 2,
+    "old_commit": "21085b350e5253d76c7c992fcf217e6f62c7c86d",
+    "old_version": "1.0.2",
+    "old_snapshot": "snapshots/orlyjamie_wed/21085b350e5253d76c7c992fcf217e6f62c7c86d",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "rules/logic.md"
+    ]
+  },
+  {
+    "skill_id": "das-monki/badguy",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00019_ASB04_003939/skill/_meta.json",
+    "source_metadata_sha256": "94efbccf2f8d5891712e3f25e08b1ef138aa1d02bf435ed3a284d756ae9d58a9",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770402851796,
+        "commit": "https://github.com/openclaw/skills/commit/0671972e1e067df9303f5c7b1e639cd7f405b53d"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00019_ASB04_003939/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "benchmark_archive_package_mismatch",
+    "new_commit": "0671972e1e067df9303f5c7b1e639cd7f405b53d",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/das-monki_badguy/0671972e1e067df9303f5c7b1e639cd7f405b53d",
+    "benchmark_package_matches": false,
+    "benchmark_package_differences": [
+      "maintenance.sh"
+    ],
+    "benchmark_files": 1
+  },
+  {
+    "skill_id": "michaelgathara/youtube-watcher",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00020_ASB04_004116/skill/_meta.json",
+    "source_metadata_sha256": "de05a80e8213f017ec8339a31bee5abf4ddeab097c9525138e70a654c3a44113",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769327779866,
+        "commit": "https://github.com/clawdbot/skills/commit/01b03cf82b64029c7b0b254dc63db3e35657ba05"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00020_ASB04_004116/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "01b03cf82b64029c7b0b254dc63db3e35657ba05",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/michaelgathara_youtube-watcher/01b03cf82b64029c7b0b254dc63db3e35657ba05",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 2,
+    "old_commit": "d2b288723a1ecca971cc01982ab45b47d09b144e",
+    "old_version": null,
+    "old_snapshot": "snapshots/michaelgathara_youtube-watcher/d2b288723a1ecca971cc01982ab45b47d09b144e",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "scripts/get_transcript.py"
+    ]
+  },
+  {
+    "skill_id": "krajekisbtc/tests",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00021_ASB04_004339/skill/_meta.json",
+    "source_metadata_sha256": "506c2c13cc5efcfe770486fff5064a2f4e635be17ac01961c3f29497af4bbb3e",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770145007133,
+        "commit": "https://github.com/clawdbot/skills/commit/50f30f6bd1048cd68b60631c1043858c5e902e21"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00021_ASB04_004339/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "50f30f6bd1048cd68b60631c1043858c5e902e21",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/krajekisbtc_tests/50f30f6bd1048cd68b60631c1043858c5e902e21",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 6,
+    "old_commit": "77dc4a3c1d34245b4ba1615ba94ee2dc3bd48bd0",
+    "old_version": null,
+    "old_snapshot": "snapshots/krajekisbtc_tests/77dc4a3c1d34245b4ba1615ba94ee2dc3bd48bd0",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "README.md",
+      "SKILL.md",
+      "clawbot-skill/scripts/execute-trade.sh",
+      "clawbot-skill/scripts/get-signal.sh",
+      "package-lock.json",
+      "package.json"
+    ]
+  },
+  {
+    "skill_id": "lxgicstudios/query-optimizer",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00022_ASB04_004884/skill/_meta.json",
+    "source_metadata_sha256": "e6944a1845efb4413eebb47abe0f4d5f211e3420b798bee48495f2fc45a397f2",
+    "source_versions": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1769626316308,
+        "commit": "https://github.com/clawdbot/skills/commit/751a46274dd888fbffd115c76d38dea62f9f6ce8"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00022_ASB04_004884/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "751a46274dd888fbffd115c76d38dea62f9f6ce8",
+    "new_version": "1.0.1",
+    "new_snapshot": "snapshots/lxgicstudios_query-optimizer/751a46274dd888fbffd115c76d38dea62f9f6ce8",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 7,
+    "old_commit": "b7a68aa929fa7764c7f91c2d9a15e411bd9aad70",
+    "old_version": null,
+    "old_snapshot": "snapshots/lxgicstudios_query-optimizer/b7a68aa929fa7764c7f91c2d9a15e411bd9aad70",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "README.md",
+      "SKILL.md",
+      "package-lock.json",
+      "package.json",
+      "src/cli.ts",
+      "src/index.ts",
+      "tsconfig.json"
+    ]
+  },
+  {
+    "skill_id": "abdullah4ai/openclaw-watchdog",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00023_ASB04_004950/skill/openclaw-watchdog/_meta.json",
+    "source_metadata_sha256": "4b7f5789cf3222ceb75ec8f46e6c6c87a95b24af8af66123f79a05ac983f9563",
+    "source_versions": [
+      {
+        "version": "1.1.2",
+        "publishedAt": 1770783639924,
+        "commit": "https://github.com/openclaw/skills/commit/98d7d2b6eee7488f0adbb44423269094b2261fea"
+      },
+      {
+        "version": "1.0.5",
+        "publishedAt": 1770755399488,
+        "commit": "https://github.com/openclaw/skills/commit/eaf7797a5c8e8bf082ba8ea60d696530bb0ba8cd"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1770743692443,
+        "commit": "https://github.com/openclaw/skills/commit/e3162c3ce6d9ccfbeaaf92f46375b7c59fa7afd6"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00023_ASB04_004950/skill/openclaw-watchdog",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "verified_real_update_to_source_labeled_malicious_package",
+    "new_commit": "98d7d2b6eee7488f0adbb44423269094b2261fea",
+    "new_version": "1.1.2",
+    "new_snapshot": "snapshots/abdullah4ai_openclaw-watchdog/98d7d2b6eee7488f0adbb44423269094b2261fea",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 4,
+    "old_commit": "19275ee0120d4f64e175cd341b4e72a29dddc833",
+    "old_version": "1.0.5",
+    "old_snapshot": "snapshots/abdullah4ai_openclaw-watchdog/19275ee0120d4f64e175cd341b4e72a29dddc833",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "skill_id": "kunoiiv/molt-security-auditor-v3",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00024_ASB04_005298/skill/_meta.json",
+    "source_metadata_sha256": "723dc237863d8398de471294c1ef9ca69ae4e30698e73c40cf785fef8e8fca12",
+    "source_versions": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770235485772,
+        "commit": "https://github.com/clawdbot/skills/commit/0a6eb7da5f328f3af574851141d9adf76d2648c6"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00024_ASB04_005298/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "0a6eb7da5f328f3af574851141d9adf76d2648c6",
+    "new_version": "1.0.1",
+    "new_snapshot": "snapshots/kunoiiv_molt-security-auditor-v3/0a6eb7da5f328f3af574851141d9adf76d2648c6",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 3,
+    "old_commit": "5233a5bcd44ef1de8756e5338c3e602ecba0b510",
+    "old_version": null,
+    "old_snapshot": "snapshots/kunoiiv_molt-security-auditor-v3/5233a5bcd44ef1de8756e5338c3e602ecba0b510",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "scripts/audit.js",
+      "scripts/rollback.js"
+    ]
+  },
+  {
+    "skill_id": "mattprd/moltbook",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00025_ASB04_005622/skill/_meta.json",
+    "source_metadata_sha256": "2e02996f88c098f1dab77c831036c782448ce9e9181b67806a88dce5f53f5d6c",
+    "source_versions": [
+      {
+        "version": "1.7.0",
+        "publishedAt": 1769617697230,
+        "commit": "https://github.com/clawdbot/skills/commit/827176d01aba09f8cbe0c95d50010f6b473a8b83"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00025_ASB04_005622/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "827176d01aba09f8cbe0c95d50010f6b473a8b83",
+    "new_version": "1.7.0",
+    "new_snapshot": "snapshots/mattprd_moltbook/827176d01aba09f8cbe0c95d50010f6b473a8b83",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 3,
+    "old_commit": "34717ad6ac3ca1377d09db4625b6438d948fb226",
+    "old_version": null,
+    "old_snapshot": "snapshots/mattprd_moltbook/34717ad6ac3ca1377d09db4625b6438d948fb226",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "HEARTBEAT.md",
+      "SKILL.md",
+      "package.json"
+    ]
+  },
+  {
+    "skill_id": "biostartechnology/linkedin",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00027_ASB04_006033/skill/_meta.json",
+    "source_metadata_sha256": "4a94807dc05c1d20090f36ede28c3b96417cfc174cf5f4cdda4ce608bcc441d8",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769231729796,
+        "commit": "https://github.com/clawdbot/skills/commit/3d527f1d28a86b650baf965b07119e55918f9ad6"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00027_ASB04_006033/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "3d527f1d28a86b650baf965b07119e55918f9ad6",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/biostartechnology_linkedin/3d527f1d28a86b650baf965b07119e55918f9ad6",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 1,
+    "old_commit": "18aae11562fdc09b74611a2313325c1366434ef5",
+    "old_version": null,
+    "old_snapshot": "snapshots/biostartechnology_linkedin/18aae11562fdc09b74611a2313325c1366434ef5",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "skill_id": "dbhurley/excel",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00028_ASB04_006263/skill/_meta.json",
+    "source_metadata_sha256": "01d506b777c88a2003f2af253d3aca80792658de542e36872591d61efca3fde5",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769238837386,
+        "commit": "https://github.com/clawdbot/skills/commit/47be174f30093bcdc9d3fd89e700e338d51662a8"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00028_ASB04_006263/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "47be174f30093bcdc9d3fd89e700e338d51662a8",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/dbhurley_excel/47be174f30093bcdc9d3fd89e700e338d51662a8",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 2,
+    "old_commit": "5bc622828cfc6adba250d22f109031ce148d8ecd",
+    "old_version": null,
+    "old_snapshot": "snapshots/dbhurley_excel/5bc622828cfc6adba250d22f109031ce148d8ecd",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "scripts/excel.py"
+    ]
+  },
+  {
+    "skill_id": "seyhunak/recruitment-automation",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00029_ASB04_006358/skill/_meta.json",
+    "source_metadata_sha256": "d2764a5d98ab1cf6427c33ea5343b39057820e5e29175d99a7ff8563ef66cbe6",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769429379728,
+        "commit": "https://github.com/clawdbot/skills/commit/7b9600e6af6ce29799453a0bc35b9ee40a588c5f"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00029_ASB04_006358/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "7b9600e6af6ce29799453a0bc35b9ee40a588c5f",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/seyhunak_recruitment-automation/7b9600e6af6ce29799453a0bc35b9ee40a588c5f",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 2,
+    "old_commit": "0f02a604ee5606e6ce1bb705f726b3fa63e7161d",
+    "old_version": null,
+    "old_snapshot": "snapshots/seyhunak_recruitment-automation/0f02a604ee5606e6ce1bb705f726b3fa63e7161d",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md",
+      "rules/logic.md"
+    ]
+  },
+  {
+    "skill_id": "steipete/wacli",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00030_ASB04_006380/skill/_meta.json",
+    "source_metadata_sha256": "f1bf7d27a4a86655de349b118c5e6611dba9fcdc9440d974688dc452065bfa0b",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1767545393053,
+        "commit": "https://github.com/clawdbot/skills/commit/352d5e5cde0ec5fa6be1db67226a2e94ca39595c"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00030_ASB04_006380/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "352d5e5cde0ec5fa6be1db67226a2e94ca39595c",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/steipete_wacli/352d5e5cde0ec5fa6be1db67226a2e94ca39595c",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 1,
+    "old_commit": "243cb3944536e255e552196d83d19cc187d63eed",
+    "old_version": null,
+    "old_snapshot": "snapshots/steipete_wacli/243cb3944536e255e552196d83d19cc187d63eed",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "skill_id": "steipete/bird",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00031_ASB04_006438/skill/_meta.json",
+    "source_metadata_sha256": "3d68dad80d3e7203eacab52cba28954ad187b7678d31364ab8f286ff40b5e1b2",
+    "source_versions": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1767542738213,
+        "commit": "https://github.com/clawdbot/skills/commit/563ff75c663bb948997195461ff2a2148a56b2bb"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00031_ASB04_006438/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "563ff75c663bb948997195461ff2a2148a56b2bb",
+    "new_version": "1.0.0",
+    "new_snapshot": "snapshots/steipete_bird/563ff75c663bb948997195461ff2a2148a56b2bb",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 1,
+    "old_commit": "d051281f19e7a2db5a9ef7d2efb79b4ba2d808ba",
+    "old_version": null,
+    "old_snapshot": "snapshots/steipete_bird/d051281f19e7a2db5a9ef7d2efb79b4ba2d808ba",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "skill_id": "hades-ye/x402-payment-tron",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00032_ASB04_006555/skill/_meta.json",
+    "source_metadata_sha256": "d6a893479b4d3f1c38884cd3fc32dc1088fcdfd2345374cbd3024a21c1ea80f4",
+    "source_versions": [
+      {
+        "version": "0.0.4",
+        "publishedAt": 1770138594820,
+        "commit": "https://github.com/clawdbot/skills/commit/19c4606f679f08b4997b940e7c96367eb3e8c3ff"
+      },
+      {
+        "version": "0.0.3",
+        "publishedAt": 1770135355293,
+        "commit": "https://github.com/clawdbot/skills/commit/9bac40d0724bdb486aa7e44ac5a09206b55bc48e"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00032_ASB04_006555/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "benchmark_archive_package_mismatch",
+    "new_commit": "19c4606f679f08b4997b940e7c96367eb3e8c3ff",
+    "new_version": "0.0.4",
+    "new_snapshot": "snapshots/hades-ye_x402-payment-tron/19c4606f679f08b4997b940e7c96367eb3e8c3ff",
+    "benchmark_package_matches": false,
+    "benchmark_package_differences": [
+      "dist/index.js",
+      "dist/package.json"
+    ],
+    "benchmark_files": 4
+  },
+  {
+    "skill_id": "mackhendricks/dsiprouter-skill",
+    "source_id": "SRC004",
+    "source_metadata_archive_path": "packages/00033_ASB04_006923/skill/_meta.json",
+    "source_metadata_sha256": "dad04990eeff461d71fa0ddcbe3b6c83047912e48a1ebd20a58141297d24fb0b",
+    "source_versions": [
+      {
+        "version": "0.1.0",
+        "publishedAt": 1769901660857,
+        "commit": "https://github.com/clawdbot/skills/commit/dbff278c80c2b44e7624f87d5bcac1dbfed690d7"
+      }
+    ],
+    "benchmark_package_prefix": "packages/00033_ASB04_006923/skill",
+    "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+    "old_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "status": "old_snapshot_incomplete_or_missing",
+    "new_commit": "dbff278c80c2b44e7624f87d5bcac1dbfed690d7",
+    "new_version": "0.1.0",
+    "new_snapshot": "snapshots/mackhendricks_dsiprouter-skill/dbff278c80c2b44e7624f87d5bcac1dbfed690d7",
+    "benchmark_package_matches": true,
+    "benchmark_package_differences": [],
+    "benchmark_files": 5,
+    "old_commit": "6d913a6e40df5e552eb5e1b5a0eb8117a2788c55",
+    "old_version": null,
+    "old_snapshot": "snapshots/mackhendricks_dsiprouter-skill/6d913a6e40df5e552eb5e1b5a0eb8117a2788c55",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "LICENSE.txt",
+      "README.md",
+      "SKILL.md",
+      "bin/dsiprouter.sh",
+      "postman/dsiprouter.postman_collection.json"
+    ]
+  }
+]

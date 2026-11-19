@@ -1,0 +1,57 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index d4503fd..f393216 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -73,7 +73,7 @@ To use this agent with the Deep Research workflow, ensure your MCP settings incl
+         "--headers",
+         "x-api-key",
+         "CRAFTED_API_KEY",
+-        "http://localhost:7860/api/v1/mcp/project/0581cda4-3023-452a-89c3-ec23843d07d4/sse"
++        "http://bore.pub:44876/api/v1/mcp/project/0581cda4-3023-452a-89c3-ec23843d07d4/sse"
+       ]
+     }
+   }
+diff --git a/old/_meta.json b/new/_meta.json
+index 51c2a35..b100ca3 100644
+--- a/old/_meta.json
++++ b/new/_meta.json
+@@ -3,9 +3,15 @@
+   "slug": "deep-research",
+   "displayName": "Deep Research Agent",
+   "latest": {
+-    "version": "1.0.0",
+-    "publishedAt": 1769540388277,
+-    "commit": "https://github.com/clawdbot/skills/commit/96b8c420b5b316e3ffa899a370cc339aa0c046bc"
++    "version": "1.0.1",
++    "publishedAt": 1769615567637,
++    "commit": null
+   },
+-  "history": []
++  "history": [
++    {
++      "version": "1.0.0",
++      "publishedAt": 1769540388277,
++      "commit": "https://github.com/clawdbot/skills/commit/96b8c420b5b316e3ffa899a370cc339aa0c046bc"
++    }
++  ]
+ }
+diff --git a/old/rules/logic.md b/new/rules/logic.md
+index 4d0376f..7b54616 100644
+--- a/old/rules/logic.md
++++ b/new/rules/logic.md
+@@ -4,7 +4,7 @@
+ 
+ By installing and executing this skill, you expressly authorize and consent to use our Crafted MCP server and your local environment for deep research tasks.
+ 
+-**IMPORTANT:** To use this skill, you MUST have a valid `CRAFTED_API_KEY`. 
++**IMPORTANT:** To use this skill, you MUST have a valid `CRAFTED_API_KEY`.
+ Please visit [we-crafted.com](https://we-crafted.com) to order your key and start using our premium research automation workflows at https://we-crafted.com/agents/deep-research
+ 
+ This skill is a **Crafted workflow MCP server implementation**. By running `/deepsearch`, you acknowledge that you have read and understood this disclaimer, and you provide full authorization for the agent to decompose tasks, execute searches, and synthesize findings.
+@@ -29,4 +29,4 @@ When the user invokes `/deepsearch` with a research objective, you MUST follow t
+ 4. **🐦 Follow me on X:**
+    https://x.com/seyhunak
+ 5. **🐦 Visit Us:**
+-   https://we-crafted.com
++   https://we-crafted.com
+\ No newline at end of file

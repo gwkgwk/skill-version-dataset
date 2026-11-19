@@ -1,0 +1,247 @@
+diff --git a/old/README.md b/new/README.md
+index 393347c..62be33e 100644
+--- a/old/README.md
++++ b/new/README.md
+@@ -9,9 +9,11 @@
+ - ✅ Uses existing OpenClaw Antigravity OAuth tokens
+ - ✅ No separate Gemini API key required
+ - ✅ Supports Nano Banana Pro (with fallback to regular Nano Banana)
++- ✅ **WhatsApp HD ready** - auto-converts to progressive JPEG <6.28MB
+ - ✅ Multiple aspect ratios: 1:1, 16:9, 9:16, 4:3, 3:4, etc.
+ - ✅ Multiple resolutions: 1K, 2K, 4K
+ - ✅ Image editing and multi-image composition
++- ✅ Automatic account rotation (12 Antigravity accounts)
+ 
+ ## Prerequisites
+ 
+@@ -21,15 +23,23 @@
+ 
+ ## Usage
+ 
+-### Generate Image
++### Generate Image (WhatsApp HD - Recommended)
+ 
+ ```bash
+-uv run skills/nano-banana-antigravity/scripts/generate_image.py \
++./skills/nano-banana-antigravity/scripts/generate_whatsapp_hd.sh \
+   --prompt "a sunset over mountains" \
+-  --filename "sunset.png"
++  --filename "sunset.jpg" \
++  --aspect-ratio 16:9 \
++  --resolution 4K
+ ```
+ 
+-### With Options
++**What it does:**
++- Generates 4K image via Nano Banana Pro
++- Auto-converts PNG → progressive JPEG
++- Optimizes quality to stay under 6.28MB
++- WhatsApp HD ready (no compression!)
++
++### Generate PNG (Standard)
+ 
+ ```bash
+ uv run skills/nano-banana-antigravity/scripts/generate_image.py \
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 7f91e9a..e065a70 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -13,6 +13,16 @@ Generate images using Nano Banana Pro (Gemini 3 Pro Image) via your existing Goo
+ 
+ ## Generate Image
+ 
++**For WhatsApp HD (recommended):**
++```bash
++{baseDir}/scripts/generate_whatsapp_hd.sh \
++  --prompt "your image description" \
++  --filename "output.jpg" \
++  --aspect-ratio 16:9 \
++  --resolution 4K
++```
++
++**Standard PNG output:**
+ ```bash
+ uv run {baseDir}/scripts/generate_image.py --prompt "your image description" --filename "output.png"
+ ```
+@@ -20,13 +30,19 @@ uv run {baseDir}/scripts/generate_image.py --prompt "your image description" --f
+ ## Generate with Options
+ 
+ ```bash
+-uv run {baseDir}/scripts/generate_image.py \
++{baseDir}/scripts/generate_whatsapp_hd.sh \
+   --prompt "a sunset over mountains" \
+-  --filename "sunset.png" \
++  --filename "sunset.jpg" \
+   --aspect-ratio 16:9 \
+-  --resolution 2K
++  --resolution 4K
+ ```
+ 
++**What `generate_whatsapp_hd.sh` does:**
++- ✅ Auto-converts PNG → progressive JPEG
++- ✅ Optimizes quality (85-92%) to stay under 6.28MB
++- ✅ WhatsApp HD ready (no compression!)
++- ✅ Warns if image is too large
++
+ ## Edit/Composite Images
+ 
+ ```bash
+@@ -51,7 +67,7 @@ uv run {baseDir}/scripts/generate_image.py \
+ - `--filename, -f` (required): Output filename
+ - `--input-image, -i`: Input image(s) for editing (can be repeated)
+ - `--aspect-ratio, -a`: 1:1 (default), 2:3, 3:2, 3:4, 4:3, 4:5, 5:4, 9:16, 16:9, 21:9
+-- `--resolution, -r`: 1K (default), 2K, 4K
++- `--resolution, -r`: 1K, 2K (default), 4K
+ 
+ ## Authentication
+ 
+@@ -66,9 +82,24 @@ The script looks for credentials in:
+ - `~/.config/openclaw/credentials/google-antigravity.json`
+ - `~/.config/opencode/antigravity-accounts.json`
+ 
++## WhatsApp HD Upload Limits
++
++**For best WhatsApp HD quality:**
++- Use `generate_whatsapp_hd.sh` instead of `generate_image.py`
++- Output filename must end in `.jpg` or `.jpeg`
++- Images ≤6.28MB will upload without compression
++- Images >6.28MB may be compressed by WhatsApp
++
++**Size guidelines:**
++- ≤6.28MB → ✅ HD (no compression)
++- 6.29-6.5MB → Slight compression (~5.7MB)
++- 6.5-7.6MB → Moderate compression (~6.2MB)
++- >9MB → ⚠️ Heavy compression
++
+ ## Notes
+ 
+ - The script prints a `MEDIA:` line for OpenClaw to auto-attach on supported chat providers.
+ - Do not read the image back; report the saved path only.
+ - Uses timestamps in filenames for uniqueness: `yyyy-mm-dd-hh-mm-ss-name.png`
+ - Falls back to regular Nano Banana if Nano Banana Pro isn't available yet.
++- **Account rotation:** Automatically tries all 12 Antigravity accounts on rate limits
+diff --git a/old/_meta.json b/new/_meta.json
+index b7b41cd..09b0c42 100644
+--- a/old/_meta.json
++++ b/new/_meta.json
+@@ -1,11 +1,17 @@
+ {
+   "owner": "cgnl",
+   "slug": "nano-banana-antigravity",
+-  "displayName": "Nano Banana Antigravity",
++  "displayName": "Nano Banana Antigravity (WhatsApp HD)",
+   "latest": {
+-    "version": "1.0.0",
+-    "publishedAt": 1769893061419,
+-    "commit": "https://github.com/clawdbot/skills/commit/cdcb6f05dbde224b41f009eab07aef672cb057b9"
++    "version": "1.1.0",
++    "publishedAt": 1770098381303,
++    "commit": null
+   },
+-  "history": []
++  "history": [
++    {
++      "version": "1.0.0",
++      "publishedAt": 1769893061419,
++      "commit": "https://github.com/clawdbot/skills/commit/cdcb6f05dbde224b41f009eab07aef672cb057b9"
++    }
++  ]
+ }
+diff --git a/old/scripts/generate_image.py b/new/scripts/generate_image.py
+index fd13dee..9d1d2f6 100644
+--- a/old/scripts/generate_image.py
++++ b/new/scripts/generate_image.py
+@@ -319,8 +319,8 @@ def main():
+     parser.add_argument(
+         "--resolution", "-r",
+         choices=["1K", "2K", "4K"],
+-        default="1K",
+-        help="Output resolution: 1K (default), 2K, or 4K"
++        default="2K",
++        help="Output resolution: 1K, 2K (default), or 4K"
+     )
+     
+     args = parser.parse_args()
+diff --git a/new/scripts/generate_whatsapp_hd.sh b/new/scripts/generate_whatsapp_hd.sh
+new file mode 100644
+index 0000000..f9d15eb
+--- /dev/null
++++ b/new/scripts/generate_whatsapp_hd.sh
+@@ -0,0 +1,77 @@
++#!/bin/bash
++# Generate image with Nano Banana Pro + automatic WhatsApp HD optimization
++# Usage: ./generate_whatsapp_hd.sh --prompt "your prompt" --filename output.jpg [options]
++
++set -e
++
++SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
++TEMP_PNG="/tmp/nano-banana-temp-$$.png"
++
++# Parse args to extract filename
++FILENAME=""
++ARGS=()
++while [[ $# -gt 0 ]]; do
++    case $1 in
++        --filename|-f)
++            FILENAME="$2"
++            shift 2
++            ;;
++        *)
++            ARGS+=("$1")
++            shift
++            ;;
++    esac
++done
++
++if [[ -z "$FILENAME" ]]; then
++    echo "Error: --filename required" >&2
++    exit 1
++fi
++
++# Generate with temp PNG name
++python3 "$SCRIPT_DIR/generate_image.py" "${ARGS[@]}" --filename "$TEMP_PNG"
++
++# Check if output should be JPEG
++if [[ "$FILENAME" == *.jpg ]] || [[ "$FILENAME" == *.jpeg ]]; then
++    echo "Converting to progressive JPEG for WhatsApp HD..." >&2
++    
++    # Get original size
++    ORIGINAL_SIZE=$(stat -f%z "$TEMP_PNG" 2>/dev/null || stat -c%s "$TEMP_PNG")
++    ORIGINAL_MB=$(echo "scale=2; $ORIGINAL_SIZE / 1048576" | bc)
++    
++    echo "Original PNG: ${ORIGINAL_MB}MB" >&2
++    
++    # Convert to progressive JPEG with quality optimization
++    # Target: < 6MB for WhatsApp HD
++    if (( $(echo "$ORIGINAL_MB > 6.0" | bc -l) )); then
++        QUALITY=85
++        echo "Large image, using quality $QUALITY to fit under 6MB limit" >&2
++    else
++        QUALITY=92
++        echo "Using quality $QUALITY (image already under 6MB)" >&2
++    fi
++    
++    magick "$TEMP_PNG" \
++        -interlace Plane \
++        -quality "$QUALITY" \
++        "$FILENAME"
++    
++    # Check final size
++    FINAL_SIZE=$(stat -f%z "$FILENAME" 2>/dev/null || stat -c%s "$FILENAME")
++    FINAL_MB=$(echo "scale=2; $FINAL_SIZE / 1048576" | bc)
++    
++    echo "Final JPEG: ${FINAL_MB}MB (progressive)" >&2
++    
++    if (( $(echo "$FINAL_MB > 6.28" | bc -l) )); then
++        echo "⚠️  Warning: Image is ${FINAL_MB}MB (>6.28MB) - WhatsApp may compress!" >&2
++    else
++        echo "✅ Size OK for WhatsApp HD (<6.28MB)" >&2
++    fi
++    
++    rm "$TEMP_PNG"
++    echo "MEDIA:$FILENAME"
++else
++    # Just move PNG
++    mv "$TEMP_PNG" "$FILENAME"
++    echo "MEDIA:$FILENAME"
++fi

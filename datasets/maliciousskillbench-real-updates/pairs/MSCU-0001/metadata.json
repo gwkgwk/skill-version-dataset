@@ -1,0 +1,72 @@
+{
+  "id": "MSCU-0001",
+  "skill_id": "abdullah4ai/openclaw-watchdog",
+  "source_id": "SRC004",
+  "source_metadata_archive_path": "packages/00023_ASB04_004950/skill/openclaw-watchdog/_meta.json",
+  "source_metadata_sha256": "4b7f5789cf3222ceb75ec8f46e6c6c87a95b24af8af66123f79a05ac983f9563",
+  "source_versions": [
+    {
+      "version": "1.1.2",
+      "publishedAt": 1770783639924,
+      "commit": "https://github.com/openclaw/skills/commit/98d7d2b6eee7488f0adbb44423269094b2261fea"
+    },
+    {
+      "version": "1.0.5",
+      "publishedAt": 1770755399488,
+      "commit": "https://github.com/openclaw/skills/commit/eaf7797a5c8e8bf082ba8ea60d696530bb0ba8cd"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1770743692443,
+      "commit": "https://github.com/openclaw/skills/commit/e3162c3ce6d9ccfbeaaf92f46375b7c59fa7afd6"
+    }
+  ],
+  "benchmark_package_prefix": "packages/00023_ASB04_004950/skill/openclaw-watchdog",
+  "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+  "old_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "status": "verified_real_update_to_source_labeled_malicious_package",
+  "new_commit": "98d7d2b6eee7488f0adbb44423269094b2261fea",
+  "new_version": "1.1.2",
+  "new_snapshot": "snapshots/abdullah4ai_openclaw-watchdog/98d7d2b6eee7488f0adbb44423269094b2261fea",
+  "benchmark_package_matches": true,
+  "benchmark_package_differences": [],
+  "benchmark_files": 4,
+  "old_commit": "19275ee0120d4f64e175cd341b4e72a29dddc833",
+  "old_version": "1.0.5",
+  "old_snapshot": "snapshots/abdullah4ai_openclaw-watchdog/19275ee0120d4f64e175cd341b4e72a29dddc833",
+  "old_is_exact_first_parent": true,
+  "operational_changed_files": [
+    "SKILL.md"
+  ],
+  "benchmark_id": "ASB04_004950",
+  "benchmark_ref": "893afd609be22a2dfac5a2b94bbebb4eeb99515e",
+  "benchmark_source": "protectskills/MaliciousSkillBench",
+  "original_source_name": "SkillLeakBench",
+  "new_security_label": "malicious_as_labeled_by_MaliciousSkillBench",
+  "update_security_label": null,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_comparison_exclusions": [
+    "_meta.json",
+    ".DS_Store",
+    "__pycache__",
+    "*.pyc"
+  ],
+  "allowed_name_normalization": "root skill.md / SKILL.md for comparison only; preserve bytes",
+  "local_directory": "pairs/MSCU-0001",
+  "old_files": 5,
+  "new_files": 5,
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "38ec01db538a9fb588b6417febdf06415ace2a0d79f9b5fd28802b0049aaa47a",
+      "bytes": 2836
+    },
+    "package.diff": {
+      "sha256": "9a00fc6201e9dc6af79e6364401f3d404d7620b00378e83952349f60055557d6",
+      "bytes": 3641
+    }
+  },
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/19275ee0120d4f64e175cd341b4e72a29dddc833...98d7d2b6eee7488f0adbb44423269094b2261fea"
+}

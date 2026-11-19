@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "mode": "offline; no sample execution",
+  "accepted_distinct_skills": 6,
+  "update_pairs": 6,
+  "complete_snapshots": 12,
+  "original_files": 123,
+  "original_bytes": 456600,
+  "unverified_registry_records": 26,
+  "prior_overlap": 0,
+  "combined_distinct_skills": 24,
+  "checks": [
+    "original Git blob and SHA-256 hashes",
+    "reconstructed Git trees and source metadata membership",
+    "exact first-parent API lineage",
+    "registry identity and version",
+    "full operational package equality",
+    "benchmark malicious label membership",
+    "actual non-metadata changes",
+    "diff hashes",
+    "deduplication",
+    "synthetic/native-safety-fix exclusion",
+    "manifest hashes when present"
+  ],
+  "new_first_malicious_introductions_confirmed": 0
+}

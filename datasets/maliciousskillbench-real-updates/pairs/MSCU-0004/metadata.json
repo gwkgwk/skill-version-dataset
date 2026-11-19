@@ -1,0 +1,73 @@
+{
+  "id": "MSCU-0004",
+  "skill_id": "orlyjamie/wed",
+  "source_id": "SRC004",
+  "source_metadata_archive_path": "packages/00018_ASB04_003932/skill/_meta.json",
+  "source_metadata_sha256": "8b86c44f9999aec3b4cb9dcb8e387d8a7b995da04b5d47bd58f008f2a5a70189",
+  "source_versions": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1769462878085,
+      "commit": "https://github.com/clawdbot/skills/commit/8d95c7ff7369c813d6aa8c43970ed0f6bf9ad77a"
+    },
+    {
+      "version": "1.0.2",
+      "publishedAt": 1769438228272,
+      "commit": "https://github.com/clawdbot/skills/commit/8b485334e267a3d85a3d9af146697e367746da14"
+    },
+    {
+      "version": "1.0.1",
+      "publishedAt": 1769416151842,
+      "commit": "https://github.com/clawdbot/skills/commit/283b7c7797e6f3e8384e5be418962d7d3287504b"
+    }
+  ],
+  "benchmark_package_prefix": "packages/00018_ASB04_003932/skill",
+  "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+  "old_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "status": "verified_real_update_to_source_labeled_malicious_package",
+  "new_commit": "8d95c7ff7369c813d6aa8c43970ed0f6bf9ad77a",
+  "new_version": "1.0.3",
+  "new_snapshot": "snapshots/orlyjamie_wed/8d95c7ff7369c813d6aa8c43970ed0f6bf9ad77a",
+  "benchmark_package_matches": true,
+  "benchmark_package_differences": [],
+  "benchmark_files": 2,
+  "old_commit": "21085b350e5253d76c7c992fcf217e6f62c7c86d",
+  "old_version": "1.0.2",
+  "old_snapshot": "snapshots/orlyjamie_wed/21085b350e5253d76c7c992fcf217e6f62c7c86d",
+  "old_is_exact_first_parent": true,
+  "operational_changed_files": [
+    "SKILL.md",
+    "rules/logic.md"
+  ],
+  "benchmark_id": "ASB04_003932",
+  "benchmark_ref": "893afd609be22a2dfac5a2b94bbebb4eeb99515e",
+  "benchmark_source": "protectskills/MaliciousSkillBench",
+  "original_source_name": "SkillLeakBench",
+  "new_security_label": "malicious_as_labeled_by_MaliciousSkillBench",
+  "update_security_label": null,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_comparison_exclusions": [
+    "_meta.json",
+    ".DS_Store",
+    "__pycache__",
+    "*.pyc"
+  ],
+  "allowed_name_normalization": "root skill.md / SKILL.md for comparison only; preserve bytes",
+  "local_directory": "pairs/MSCU-0004",
+  "old_files": 3,
+  "new_files": 3,
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "e3e1437fd0c02d85e0793cbf69990e84d383be254888ada63ca7310fffb2e779",
+      "bytes": 4255
+    },
+    "package.diff": {
+      "sha256": "35ce3c74a66de4f4d267107db9a95dd3ca954143b892b06cdf8efd542608c7b1",
+      "bytes": 11137
+    }
+  },
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/21085b350e5253d76c7c992fcf217e6f62c7c86d...8d95c7ff7369c813d6aa8c43970ed0f6bf9ad77a"
+}

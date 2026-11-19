@@ -1,0 +1,71 @@
+{
+  "id": "MSCU-0006",
+  "skill_id": "zadahmed/nervepay",
+  "source_id": "SRC004",
+  "source_metadata_archive_path": "packages/00010_ASB04_002949/skill/_meta.json",
+  "source_metadata_sha256": "d188288ef2a6b61d2c67d1315da786785c02d5336a1d77e090d43e01f6f60bbb",
+  "source_versions": [
+    {
+      "version": "1.2.0",
+      "publishedAt": 1770325560303,
+      "commit": "https://github.com/clawdbot/skills/commit/bc3cf52bd8e667682c21ca90d3a18593b3993744"
+    },
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770242763662,
+      "commit": "https://github.com/clawdbot/skills/commit/8c28cee2fea9a697045c33adbc9b7b3729d21535"
+    }
+  ],
+  "benchmark_package_prefix": "packages/00010_ASB04_002949/skill",
+  "benchmark_label": "malicious_as_labeled_by_MaliciousSkillBench",
+  "old_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "status": "verified_real_update_to_source_labeled_malicious_package",
+  "new_commit": "bc3cf52bd8e667682c21ca90d3a18593b3993744",
+  "new_version": "1.2.0",
+  "new_snapshot": "snapshots/zadahmed_nervepay/bc3cf52bd8e667682c21ca90d3a18593b3993744",
+  "benchmark_package_matches": true,
+  "benchmark_package_differences": [],
+  "benchmark_files": 5,
+  "old_commit": "81fcc22b5f1cf28ff873fa81b95bf8dcac58cf83",
+  "old_version": "1.0.0",
+  "old_snapshot": "snapshots/zadahmed_nervepay/81fcc22b5f1cf28ff873fa81b95bf8dcac58cf83",
+  "old_is_exact_first_parent": true,
+  "operational_changed_files": [
+    "SKILL.md",
+    "api.md",
+    "nervepay-instrument.mjs",
+    "nervepay-request.mjs",
+    "nervepay-track.mjs"
+  ],
+  "benchmark_id": "ASB04_002949",
+  "benchmark_ref": "893afd609be22a2dfac5a2b94bbebb4eeb99515e",
+  "benchmark_source": "protectskills/MaliciousSkillBench",
+  "original_source_name": "SkillLeakBench",
+  "new_security_label": "malicious_as_labeled_by_MaliciousSkillBench",
+  "update_security_label": null,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_comparison_exclusions": [
+    "_meta.json",
+    ".DS_Store",
+    "__pycache__",
+    "*.pyc"
+  ],
+  "allowed_name_normalization": "root skill.md / SKILL.md for comparison only; preserve bytes",
+  "local_directory": "pairs/MSCU-0006",
+  "old_files": 2,
+  "new_files": 6,
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "d23c69676bdd15e3a2a30ccaed9244743cf662ba31aaaf5551c19db62b824bdb",
+      "bytes": 32110
+    },
+    "package.diff": {
+      "sha256": "05aa76994b0ed813d2b2a8eef4b0a5b0591a676c0aa605e9c60d303f153a0823",
+      "bytes": 57267
+    }
+  },
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/81fcc22b5f1cf28ff873fa81b95bf8dcac58cf83...bc3cf52bd8e667682c21ca90d3a18593b3993744"
+}
