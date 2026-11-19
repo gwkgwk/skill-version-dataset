@@ -1,5 +1,7 @@
 # Skill 数据集
 
+本项目是公开研究数据集合，包含真实更新、恶意来源更新及恶意内容克隆。数据范围与限制见 [数据说明](DATASET_CARD.md)，来源与归属见 [第三方来源](THIRD_PARTY_NOTICES.md)，复用条件见 [许可范围](LICENSE.md)，引用见 [CITATION.cff](CITATION.cff)。原创元数据和文档采用 CC BY 4.0、原创工具采用 MIT；第三方 Skill 保留原有许可。
+
 按用途分为以下三个目录，点击即可进入。
 
 | 数据类别 | 已收录内容 | 说明 |
