@@ -1,0 +1,424 @@
+{
+  "old": {
+    "commit": {
+      "sha": "0221194ceff9af492b76108ba6df26f395ad2430",
+      "node_id": "C_kwDOQxxxVtoAKDAyMjExOTRjZWZmOWFmNDkyYjc2MTA4YmE2ZGYyNmYzOTVhZDI0MzA",
+      "url": "https://api.github.com/repos/schmug/karkinos/git/commits/0221194ceff9af492b76108ba6df26f395ad2430",
+      "html_url": "https://github.com/schmug/karkinos/commit/0221194ceff9af492b76108ba6df26f395ad2430",
+      "author": {
+        "name": "schmug",
+        "email": "38227427+schmug@users.noreply.github.com",
+        "date": "2025-12-31T23:58:56Z"
+      },
+      "committer": {
+        "name": "schmug",
+        "email": "38227427+schmug@users.noreply.github.com",
+        "date": "2025-12-31T23:58:56Z"
+      },
+      "tree": {
+        "sha": "e01c65473f5befa09f11d694bacf463229409152",
+        "url": "https://api.github.com/repos/schmug/karkinos/git/trees/e01c65473f5befa09f11d694bacf463229409152"
+      },
+      "message": "refactor: rename Activity column to Changes in TUI\n\nThe column shows git status (modified files), not Claude activity.\nRenamed for clarity. See #46 for live thinking feature.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "6f44dca5eaa5d436880cb0bb401120726fe28d0a",
+          "url": "https://api.github.com/repos/schmug/karkinos/git/commits/6f44dca5eaa5d436880cb0bb401120726fe28d0a",
+          "html_url": "https://github.com/schmug/karkinos/commit/6f44dca5eaa5d436880cb0bb401120726fe28d0a"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "e01c65473f5befa09f11d694bacf463229409152",
+          "url": "https://api.github.com/repos/schmug/karkinos/git/trees/e01c65473f5befa09f11d694bacf463229409152",
+          "tree": [
+            {
+              "path": ".claude-plugin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "763e8438af7a007efc378759ac92bd4e12b8f5a0",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/763e8438af7a007efc378759ac92bd4e12b8f5a0"
+            },
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fbf128ac9239f507d0821436bd8998adfe3e95b9",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/fbf128ac9239f507d0821436bd8998adfe3e95b9"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6fe432cf4d0df7d0e67a34ae4deb4b8753d7d5bd",
+              "size": 324,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/6fe432cf4d0df7d0e67a34ae4deb4b8753d7d5bd"
+            },
+            {
+              "path": "AGENTS.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6d05bc679eb4e855d146879f1c1c4bc944c25322",
+              "size": 2021,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/6d05bc679eb4e855d146879f1c1c4bc944c25322"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "120000",
+              "type": "blob",
+              "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+              "size": 9,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5e26306d8b37026f173bb935503aa79c9c1fb58c",
+              "size": 1061,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/5e26306d8b37026f173bb935503aa79c9c1fb58c"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a90f8d5f35485e9b1260364930d9b9737fc1f47d",
+              "size": 6734,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/a90f8d5f35485e9b1260364930d9b9737fc1f47d"
+            },
+            {
+              "path": "WORKTREE_PERMISSIONS.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "57b66a3771116d4faa56366361dc4aafe2906ffc",
+              "size": 7210,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/57b66a3771116d4faa56366361dc4aafe2906ffc"
+            },
+            {
+              "path": "karkinos-plugin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "26d08a8acb6298edec79dc630b860a6fc8c8a7cd",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/26d08a8acb6298edec79dc630b860a6fc8c8a7cd"
+            },
+            {
+              "path": "pyproject.toml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "77167550b37cbda470567fe1751846a09cce5884",
+              "size": 1370,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/77167550b37cbda470567fe1751846a09cce5884"
+            },
+            {
+              "path": "src",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4e7ece6cde9de21d5f109da18ec0fb294ac6370b",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/4e7ece6cde9de21d5f109da18ec0fb294ac6370b"
+            },
+            {
+              "path": "uv.lock",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "021e0c231c70354ed4e4268daf93eebbbbe7ec63",
+              "size": 14162,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/021e0c231c70354ed4e4268daf93eebbbbe7ec63"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "fbf128ac9239f507d0821436bd8998adfe3e95b9",
+          "url": "https://api.github.com/repos/schmug/karkinos/git/trees/fbf128ac9239f507d0821436bd8998adfe3e95b9",
+          "tree": [
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "517f5fdbeb087cd220156e35e860b2df894d2ac0",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/517f5fdbeb087cd220156e35e860b2df894d2ac0"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "14a6ee361da4f36675d4901676d52261c5bcef24",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/14a6ee361da4f36675d4901676d52261c5bcef24"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "worker",
+        "tree": {
+          "sha": "14a6ee361da4f36675d4901676d52261c5bcef24",
+          "url": "https://api.github.com/repos/schmug/karkinos/git/trees/14a6ee361da4f36675d4901676d52261c5bcef24",
+          "tree": [
+            {
+              "path": "issue-worker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "65b05e0b9d5a3b67673a714e0b0b2a9a7fc17628",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/65b05e0b9d5a3b67673a714e0b0b2a9a7fc17628"
+            },
+            {
+              "path": "pr-worker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "440affd879e59d806d0100a0781a3a540e8dff1b",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/440affd879e59d806d0100a0781a3a540e8dff1b"
+            },
+            {
+              "path": "worker-cleanup",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e050a14886ae701ec1b8b70d1a341895909e7c97",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/e050a14886ae701ec1b8b70d1a341895909e7c97"
+            },
+            {
+              "path": "worker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c2d5fd1aab99e9b0f7b71e7b4f99e72a35de298d",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/c2d5fd1aab99e9b0f7b71e7b4f99e72a35de298d"
+            },
+            {
+              "path": "workers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4faf4b3c412f26fb28501d91d58dad297bcb223c",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/4faf4b3c412f26fb28501d91d58dad297bcb223c"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "c2d5fd1aab99e9b0f7b71e7b4f99e72a35de298d"
+  },
+  "new": {
+    "commit": {
+      "sha": "1beaebc2f97e9203755bcd280f8603c3734c8d57",
+      "node_id": "C_kwDOQxxxVtoAKDFiZWFlYmMyZjk3ZTkyMDM3NTViY2QyODBmODYwM2MzNzM0YzhkNTc",
+      "url": "https://api.github.com/repos/schmug/karkinos/git/commits/1beaebc2f97e9203755bcd280f8603c3734c8d57",
+      "html_url": "https://github.com/schmug/karkinos/commit/1beaebc2f97e9203755bcd280f8603c3734c8d57",
+      "author": {
+        "name": "schmug",
+        "email": "38227427+schmug@users.noreply.github.com",
+        "date": "2026-01-01T01:44:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-01-01T01:44:07Z"
+      },
+      "tree": {
+        "sha": "3aae6145c299bf24ec1d5f07f2430701cdef2b5d",
+        "url": "https://api.github.com/repos/schmug/karkinos/git/trees/3aae6145c299bf24ec1d5f07f2430701cdef2b5d"
+      },
+      "message": "feat: add auto-merge, TUI PR creation, CI/review status columns (#47)\n\n- MCP server: create_pr() now enables GitHub auto-merge via\n  `gh pr merge --auto --squash` after creating PRs\n- TUI: Complete `p` keybinding to create PRs with auto-merge\n- TUI: Add `u` keybinding to rebase all workers onto main\n- TUI: Add CI and Review status columns with 30s caching\n- Skills: Update worker and issue-worker to enable auto-merge\n\nAuto-merge requires GitHub branch protection with required status checks.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-authored-by: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "0221194ceff9af492b76108ba6df26f395ad2430",
+          "url": "https://api.github.com/repos/schmug/karkinos/git/commits/0221194ceff9af492b76108ba6df26f395ad2430",
+          "html_url": "https://github.com/schmug/karkinos/commit/0221194ceff9af492b76108ba6df26f395ad2430"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpVdFnCRC1aQ7uu5UhlAAArJkQAGr5kFYuikRivkWI5PEWXdxO\nYn5dKny1WxWQGIO4iNo+Rlq6qcj6YWLxdVHBmPaCpGLHsD6zzkcYsPIrwWLwJVs9\nX3B6Ua4+hfJEOVTJY9nZ15J2uAX+BVCgJrTRZEQB8OoXEcZ8YJe9MzKVr0PisPde\nd4LcMT1iZNRt8nA26aNhA+F1YQSDdSaKxIR25Q/C9ObXk0Z6xC9vWCQeoPNoaYnB\nIKt6W/QDrb3I2JT7VinRfzvDKwGA5YsWvaAWvAdJm7Gctoc66F87GsNEtIgHzRF5\narlWkRZ1bhIk7Fwfj+GOSyPsrbN4tHj8ENlNA0NzJ1VBZ9Ktsb+kWzh+yrn4dPjB\nf11XM68LyTamD23TR5MlRvqM+JKNVjWDcQg74wy7/pxsb36RwgAqji1fkmWd/kEb\nEQ9QMEu+R8m/by77a7TUY1+l395+vdktwucysjhvPfGm8miE9kqPg/2F4Oa5n4Oe\nLcVhiozVFoy8aZSKKP1WY9ymlAxVsa8HdC0wNEKncUmr4E7em4gWKv3yLF1CS0Oo\npVDX0V8rYPaT6iENLF5/z8UX2uykk3XE7k+zDivb6Xt3nCWRq0jDLVHSBSlRklvD\nYEy9UEYqKTvIglmJcvP52fH4NioyT3qLFEhv0Q3mfZnx26RMJ4hTmxQXfb5hD5fz\noiFnUztjTny6fbj5slzH\n=Lt49\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3aae6145c299bf24ec1d5f07f2430701cdef2b5d\nparent 0221194ceff9af492b76108ba6df26f395ad2430\nauthor schmug <38227427+schmug@users.noreply.github.com> 1767231847 -0500\ncommitter GitHub <noreply@github.com> 1767231847 -0500\n\nfeat: add auto-merge, TUI PR creation, CI/review status columns (#47)\n\n- MCP server: create_pr() now enables GitHub auto-merge via\n  `gh pr merge --auto --squash` after creating PRs\n- TUI: Complete `p` keybinding to create PRs with auto-merge\n- TUI: Add `u` keybinding to rebase all workers onto main\n- TUI: Add CI and Review status columns with 30s caching\n- Skills: Update worker and issue-worker to enable auto-merge\n\nAuto-merge requires GitHub branch protection with required status checks.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-authored-by: Claude Opus 4.5 <noreply@anthropic.com>",
+        "verified_at": "2026-01-01T01:44:08Z"
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "3aae6145c299bf24ec1d5f07f2430701cdef2b5d",
+          "url": "https://api.github.com/repos/schmug/karkinos/git/trees/3aae6145c299bf24ec1d5f07f2430701cdef2b5d",
+          "tree": [
+            {
+              "path": ".claude-plugin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "763e8438af7a007efc378759ac92bd4e12b8f5a0",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/763e8438af7a007efc378759ac92bd4e12b8f5a0"
+            },
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b78b79b1f9cf70bdfe15572c1ee464df65eacc45",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/b78b79b1f9cf70bdfe15572c1ee464df65eacc45"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6fe432cf4d0df7d0e67a34ae4deb4b8753d7d5bd",
+              "size": 324,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/6fe432cf4d0df7d0e67a34ae4deb4b8753d7d5bd"
+            },
+            {
+              "path": "AGENTS.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6d05bc679eb4e855d146879f1c1c4bc944c25322",
+              "size": 2021,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/6d05bc679eb4e855d146879f1c1c4bc944c25322"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "120000",
+              "type": "blob",
+              "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+              "size": 9,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5e26306d8b37026f173bb935503aa79c9c1fb58c",
+              "size": 1061,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/5e26306d8b37026f173bb935503aa79c9c1fb58c"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a90f8d5f35485e9b1260364930d9b9737fc1f47d",
+              "size": 6734,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/a90f8d5f35485e9b1260364930d9b9737fc1f47d"
+            },
+            {
+              "path": "WORKTREE_PERMISSIONS.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "57b66a3771116d4faa56366361dc4aafe2906ffc",
+              "size": 7210,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/57b66a3771116d4faa56366361dc4aafe2906ffc"
+            },
+            {
+              "path": "karkinos-plugin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d91d9404319d3c753688fb52b6447a5256138f4e",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/d91d9404319d3c753688fb52b6447a5256138f4e"
+            },
+            {
+              "path": "pyproject.toml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "77167550b37cbda470567fe1751846a09cce5884",
+              "size": 1370,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/77167550b37cbda470567fe1751846a09cce5884"
+            },
+            {
+              "path": "src",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2107934f10629488ff21efce3caf1f3df1175539",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/2107934f10629488ff21efce3caf1f3df1175539"
+            },
+            {
+              "path": "uv.lock",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "622f058863b8265d0e40e1e6d67fd657358abbf8",
+              "size": 14162,
+              "url": "https://api.github.com/repos/schmug/karkinos/git/blobs/622f058863b8265d0e40e1e6d67fd657358abbf8"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "b78b79b1f9cf70bdfe15572c1ee464df65eacc45",
+          "url": "https://api.github.com/repos/schmug/karkinos/git/trees/b78b79b1f9cf70bdfe15572c1ee464df65eacc45",
+          "tree": [
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "517f5fdbeb087cd220156e35e860b2df894d2ac0",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/517f5fdbeb087cd220156e35e860b2df894d2ac0"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "057203080929ae1da0948eea4938cc4a2f2c3312",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/057203080929ae1da0948eea4938cc4a2f2c3312"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "worker",
+        "tree": {
+          "sha": "057203080929ae1da0948eea4938cc4a2f2c3312",
+          "url": "https://api.github.com/repos/schmug/karkinos/git/trees/057203080929ae1da0948eea4938cc4a2f2c3312",
+          "tree": [
+            {
+              "path": "issue-worker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a76e81dc8964a6039431276fb72b9f342363a2e5",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/a76e81dc8964a6039431276fb72b9f342363a2e5"
+            },
+            {
+              "path": "pr-worker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "440affd879e59d806d0100a0781a3a540e8dff1b",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/440affd879e59d806d0100a0781a3a540e8dff1b"
+            },
+            {
+              "path": "worker-cleanup",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e050a14886ae701ec1b8b70d1a341895909e7c97",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/e050a14886ae701ec1b8b70d1a341895909e7c97"
+            },
+            {
+              "path": "worker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a8556ccf1f519aa4f40eec76618cf1418208bfe3",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/a8556ccf1f519aa4f40eec76618cf1418208bfe3"
+            },
+            {
+              "path": "workers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4faf4b3c412f26fb28501d91d58dad297bcb223c",
+              "url": "https://api.github.com/repos/schmug/karkinos/git/trees/4faf4b3c412f26fb28501d91d58dad297bcb223c"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "a8556ccf1f519aa4f40eec76618cf1418208bfe3"
+  }
+}

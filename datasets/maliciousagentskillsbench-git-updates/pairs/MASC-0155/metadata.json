@@ -1,0 +1,58 @@
+{
+  "id": "MASC-0155",
+  "skill_id": "syeda-hoorain-ali/physical-ai::.claude/skills/image-generator",
+  "skill_name": "image-generator",
+  "origin_repository": "syeda-hoorain-ali/physical-ai",
+  "origin_path": ".claude/skills/image-generator",
+  "version_kind": "git_commit_snapshot",
+  "old_version": "git:0bddbaa32edf248b05cc9675bb43e856a78403a5",
+  "new_version": "git:9c254dbc0a1f6ac68a71f7b6144c32de0c262a3a",
+  "old_commit": "0bddbaa32edf248b05cc9675bb43e856a78403a5",
+  "new_commit": "9c254dbc0a1f6ac68a71f7b6144c32de0c262a3a",
+  "old_is_exact_first_parent": true,
+  "new_commit_date": "2025-12-02T14:31:47Z",
+  "declared_version_fields": {
+    "old": {},
+    "new": {}
+  },
+  "published_release_version_change_confirmed": false,
+  "benchmark_repository": "protectskills/MaliciousAgentSkillsBench",
+  "benchmark_ref": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "benchmark_source_key": [
+    "skillsmp.com",
+    "smp_9124",
+    "image-generator"
+  ],
+  "origin_provenance_ref": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "source_package_prefix": "packages/smp_9124/image-generator",
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "old_security_label": null,
+  "new_security_label": "malicious_as_labeled_by_MaliciousAgentSkillsBench",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_source_archive_inventory": true,
+  "normalization": [
+    "omit registry _meta.json, .DS_Store and Python cache for comparison only",
+    "normalize root skill.md to SKILL.md for comparison only; preserve all original bytes"
+  ],
+  "operational_changed_files": [
+    "SKILL.md"
+  ],
+  "change_scope": "instruction_code_or_reference_change",
+  "old_files": 1,
+  "new_files": 1,
+  "local_directory": "pairs/MASC-0155",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "b77cee9399d5cb759c2af9e323eee7d5eaeefd1f1f02586358ca085a5f34897a",
+      "bytes": 1686
+    },
+    "package.diff": {
+      "sha256": "b77cee9399d5cb759c2af9e323eee7d5eaeefd1f1f02586358ca085a5f34897a",
+      "bytes": 1686
+    }
+  },
+  "compare_url": "https://github.com/syeda-hoorain-ali/physical-ai/compare/0bddbaa32edf248b05cc9675bb43e856a78403a5...9c254dbc0a1f6ac68a71f7b6144c32de0c262a3a"
+}

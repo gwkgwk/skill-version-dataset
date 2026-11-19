@@ -1,0 +1,980 @@
+{
+  "old": {
+    "commit": {
+      "sha": "d191be4a0fbb690cad516c967c3f9bb1169119ba",
+      "node_id": "C_kwDOQYnEm9oAKGQxOTFiZTRhMGZiYjY5MGNhZDUxNmM5NjdjM2Y5YmIxMTY5MTE5YmE",
+      "url": "https://api.github.com/repos/ruvnet/RuVector/git/commits/d191be4a0fbb690cad516c967c3f9bb1169119ba",
+      "html_url": "https://github.com/ruvnet/RuVector/commit/d191be4a0fbb690cad516c967c3f9bb1169119ba",
+      "author": {
+        "name": "rUv",
+        "email": "ruv@ruv.net",
+        "date": "2025-12-25T22:01:38Z"
+      },
+      "committer": {
+        "name": "rUv",
+        "email": "ruv@ruv.net",
+        "date": "2025-12-25T22:01:38Z"
+      },
+      "tree": {
+        "sha": "eb4282b2e776a258f31075bbd0cf1c1dcae003f7",
+        "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/eb4282b2e776a258f31075bbd0cf1c1dcae003f7"
+      },
+      "message": "feat(intelligence): Enhanced guidance display with contextual suggestions\n\nImprovements to self-learning hook output:\n\nPre-Edit Guidance:\n- Confidence thresholds: Only show if confidence >= 30%\n- Shows learning source: \"learned from past success\"\n- Related files: Suggests commonly co-edited files\n- Crate-specific tips for Rust development:\n  - ruvector-core: \"run cargo test --lib\"\n  - rvlite: \"check WASM build with wasm-pack\"\n  - ruvector-postgres: \"test with docker postgres\"\n  - sona: \"verify trajectory recording\"\n\nExample Output:\n  🧠 Intelligence Guidance:\n     📁 ruvector-core/lib.rs\n     🤖 Agent: rust-developer (80% learned)\n        → learned from past success\n     📚 Similar: 3 past edits\n     💬 ⚡ Core lib: run cargo test --lib after changes\n\nCLAUDE.md Updates:\n- Added \"Self-Learning Intelligence System\" section\n- Documented learning data storage locations\n- Added CLI commands for intelligence management\n- Documented INTELLIGENCE_MODE environment variable\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "225979652f3997ca1c3f324e90e97c1e718fc134",
+          "url": "https://api.github.com/repos/ruvnet/RuVector/git/commits/225979652f3997ca1c3f324e90e97c1e718fc134",
+          "html_url": "https://github.com/ruvnet/RuVector/commit/225979652f3997ca1c3f324e90e97c1e718fc134"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "eb4282b2e776a258f31075bbd0cf1c1dcae003f7",
+          "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/eb4282b2e776a258f31075bbd0cf1c1dcae003f7",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e5d70787bace50b77b5a0a4dd7ba54ddac57b2a4",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/e5d70787bace50b77b5a0a4dd7ba54ddac57b2a4"
+            },
+            {
+              "path": ".env.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "eded305db958fc52b792a7dd97ce97759f2632d6",
+              "size": 1152,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/eded305db958fc52b792a7dd97ce97759f2632d6"
+            },
+            {
+              "path": ".githooks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1c636c429f41e68264a19db7c199c739af59114d",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/1c636c429f41e68264a19db7c199c739af59114d"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "97f993c854d336db48a12d49bff154129d182655",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/97f993c854d336db48a12d49bff154129d182655"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3d010af85527ca2786588dc2216e36d7d343871d",
+              "size": 1729,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/3d010af85527ca2786588dc2216e36d7d343871d"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bc1dbefe6476482c9f53a3bb772926e69c1068f9",
+              "size": 7937,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/bc1dbefe6476482c9f53a3bb772926e69c1068f9"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "593eaed3dbf82291814983d151b988f798f4f98a",
+              "size": 15164,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/593eaed3dbf82291814983d151b988f798f4f98a"
+            },
+            {
+              "path": "Cargo.lock",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6b66369524338d47030e7d252e599b118d609dec",
+              "size": 231622,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/6b66369524338d47030e7d252e599b118d609dec"
+            },
+            {
+              "path": "Cargo.toml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1600adcb12b47fb2880eda4d0621b2529b7e2239",
+              "size": 3270,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/1600adcb12b47fb2880eda4d0621b2529b7e2239"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2dd524ac380d7e2f68710913b95e3dbd4cce7319",
+              "size": 1060,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/2dd524ac380d7e2f68710913b95e3dbd4cce7319"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e7a072ff6e3df17dbf7c1191dc5dfe73130991ad",
+              "size": 41714,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/e7a072ff6e3df17dbf7c1191dc5dfe73130991ad"
+            },
+            {
+              "path": "benchmarks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2d04ebf8e5bc2bc454ce352edb845beee747249f",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/2d04ebf8e5bc2bc454ce352edb845beee747249f"
+            },
+            {
+              "path": "crates",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7a47d61a7c552482e47851eb784ab3365fc42d25",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/7a47d61a7c552482e47851eb784ab3365fc42d25"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ec437bbd4f9d85566425706447a7c72b52a7cac9",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/ec437bbd4f9d85566425706447a7c72b52a7cac9"
+            },
+            {
+              "path": "examples",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "faca24f51873bdf4de9a6e84c0efa33229d6a987",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/faca24f51873bdf4de9a6e84c0efa33229d6a987"
+            },
+            {
+              "path": "install.sh",
+              "mode": "100755",
+              "type": "blob",
+              "sha": "21dce628b73f8e119844c9b5d1205740f52a3058",
+              "size": 12761,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/21dce628b73f8e119844c9b5d1205740f52a3058"
+            },
+            {
+              "path": "logs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "21307f979c5a52856d059a784be6e7eb332c6d7e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/21307f979c5a52856d059a784be6e7eb332c6d7e"
+            },
+            {
+              "path": "npm",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "377d5e9e09d6545672ee4793486de02caddb4bee",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/377d5e9e09d6545672ee4793486de02caddb4bee"
+            },
+            {
+              "path": "package.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2fa02c9cae13539bcb41a1e24e6ff86454efee3c",
+              "size": 2084,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/2fa02c9cae13539bcb41a1e24e6ff86454efee3c"
+            },
+            {
+              "path": "patches",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bd179db6e2ded77730e185c263a09838eae6f6c0",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/bd179db6e2ded77730e185c263a09838eae6f6c0"
+            },
+            {
+              "path": "plans",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fcfc0e89b81d8006ce28ef58a12eddf24c816ed0",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/fcfc0e89b81d8006ce28ef58a12eddf24c816ed0"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "712ef34508bf541741900e8b2eced9a9ae35104d",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/712ef34508bf541741900e8b2eced9a9ae35104d"
+            },
+            {
+              "path": "test-all-packages.sh",
+              "mode": "100755",
+              "type": "blob",
+              "sha": "04c614915ca44d12adf3d2e7e8b50e15ecea0b50",
+              "size": 6134,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/04c614915ca44d12adf3d2e7e8b50e15ecea0b50"
+            },
+            {
+              "path": "tests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4a79305390adbda028d79afe8dfaab5285d4cecd",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/4a79305390adbda028d79afe8dfaab5285d4cecd"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "e5d70787bace50b77b5a0a4dd7ba54ddac57b2a4",
+          "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/e5d70787bace50b77b5a0a4dd7ba54ddac57b2a4",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0ec6e2fb3a7bdb7c86da3cfaac46f6aafc73c73f",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/0ec6e2fb3a7bdb7c86da3cfaac46f6aafc73c73f"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8fd4a591d53bffd1b10568522f89a54facdf1050",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/8fd4a591d53bffd1b10568522f89a54facdf1050"
+            },
+            {
+              "path": "helpers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b2e343091657ee3a1e32976f819e57f51fa70863",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/b2e343091657ee3a1e32976f819e57f51fa70863"
+            },
+            {
+              "path": "hooks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d2d609ef5da9121fbf0e6a7aeff3a3373ee4087e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/d2d609ef5da9121fbf0e6a7aeff3a3373ee4087e"
+            },
+            {
+              "path": "intelligence",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f7354bfd48fbaafb07275813789549f98bad5124",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/f7354bfd48fbaafb07275813789549f98bad5124"
+            },
+            {
+              "path": "settings.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1683ad1aa90b27a1c328bfe81ca26859df7c7458",
+              "size": 6774,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/1683ad1aa90b27a1c328bfe81ca26859df7c7458"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c7dd25abb2894d8fc527d36bd085f449866273db",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/c7dd25abb2894d8fc527d36bd085f449866273db"
+            },
+            {
+              "path": "statusline-command.sh",
+              "mode": "100755",
+              "type": "blob",
+              "sha": "896de96ecf15fce28a36b23c3b7738eba676cb81",
+              "size": 6239,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/896de96ecf15fce28a36b23c3b7738eba676cb81"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "flow-nexus-platform",
+        "tree": {
+          "sha": "c7dd25abb2894d8fc527d36bd085f449866273db",
+          "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/c7dd25abb2894d8fc527d36bd085f449866273db",
+          "tree": [
+            {
+              "path": "agentdb-advanced",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "849dcea14b52baf9713ba8aa3688c178e2c493bb",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/849dcea14b52baf9713ba8aa3688c178e2c493bb"
+            },
+            {
+              "path": "agentdb-learning",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3fe940796b0f595bdf4e426ad142d5062b8c3cd4",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/3fe940796b0f595bdf4e426ad142d5062b8c3cd4"
+            },
+            {
+              "path": "agentdb-memory-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7bff4a7b6c9f4c96e41f2b5387b716e08d29b8ca",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/7bff4a7b6c9f4c96e41f2b5387b716e08d29b8ca"
+            },
+            {
+              "path": "agentdb-optimization",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4636825d7385852f38bda76f45574a2b7a2fdabf",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/4636825d7385852f38bda76f45574a2b7a2fdabf"
+            },
+            {
+              "path": "agentdb-vector-search",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b66da6fa60ac6759d61271f409904801ffd38072",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/b66da6fa60ac6759d61271f409904801ffd38072"
+            },
+            {
+              "path": "agentic-jujutsu",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "40eb52e78dbe08eb6b9ad59c7e2ad4e2923af4fb",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/40eb52e78dbe08eb6b9ad59c7e2ad4e2923af4fb"
+            },
+            {
+              "path": "flow-nexus-neural",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c02c3df018de7c9a3e7744e22368e64a79f0a0a4",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/c02c3df018de7c9a3e7744e22368e64a79f0a0a4"
+            },
+            {
+              "path": "flow-nexus-platform",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "36b562ffe4d68bec1b91ce721014667832b55f65",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/36b562ffe4d68bec1b91ce721014667832b55f65"
+            },
+            {
+              "path": "flow-nexus-swarm",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ecba2a6dfcbe6010767dfb0a6daa9e9b1d6eed2b",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/ecba2a6dfcbe6010767dfb0a6daa9e9b1d6eed2b"
+            },
+            {
+              "path": "github-code-review",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "53de9864819ceb00c9cc744d9e4d81af5ba98900",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/53de9864819ceb00c9cc744d9e4d81af5ba98900"
+            },
+            {
+              "path": "github-multi-repo",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a368d3c944910c9c7adb76115dcf2157fd528d84",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/a368d3c944910c9c7adb76115dcf2157fd528d84"
+            },
+            {
+              "path": "github-project-management",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c4c7836c43f0082eed8cd239d4506b80b4ee70a8",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/c4c7836c43f0082eed8cd239d4506b80b4ee70a8"
+            },
+            {
+              "path": "github-release-management",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "cf0da610a2910778429c7c9e44f9395c572c6151",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/cf0da610a2910778429c7c9e44f9395c572c6151"
+            },
+            {
+              "path": "github-workflow-automation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8c50c866f0d2aedb4157c3a071016839713dad96",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/8c50c866f0d2aedb4157c3a071016839713dad96"
+            },
+            {
+              "path": "hive-mind-advanced",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1d9c9a9adfb71abc0438c0267783acd24b38df51",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/1d9c9a9adfb71abc0438c0267783acd24b38df51"
+            },
+            {
+              "path": "hooks-automation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b0bd2ca955c8a2975de508daa0fe41ed33d40771",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/b0bd2ca955c8a2975de508daa0fe41ed33d40771"
+            },
+            {
+              "path": "pair-programming",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3080088939ea5991c3d7173046a1ee5a3b75376e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/3080088939ea5991c3d7173046a1ee5a3b75376e"
+            },
+            {
+              "path": "performance-analysis",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7ff6bb4f9bf0598d383eb08dc207e2724832c0fc",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/7ff6bb4f9bf0598d383eb08dc207e2724832c0fc"
+            },
+            {
+              "path": "reasoningbank-agentdb",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "293967029bdbef5476fc047d16a2ec6330d0e75e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/293967029bdbef5476fc047d16a2ec6330d0e75e"
+            },
+            {
+              "path": "reasoningbank-intelligence",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "85967f0725c99c6323931691db2555a108772ffa",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/85967f0725c99c6323931691db2555a108772ffa"
+            },
+            {
+              "path": "skill-builder",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b01c2de9ad372e8aa4b76eeb6f7d1b115ca3de57",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/b01c2de9ad372e8aa4b76eeb6f7d1b115ca3de57"
+            },
+            {
+              "path": "sparc-methodology",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fe9a981c50d2e86667cccbf7001a5be179e6f7dd",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/fe9a981c50d2e86667cccbf7001a5be179e6f7dd"
+            },
+            {
+              "path": "stream-chain",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0013cbdffaf0cfe442c76102a5d4e4900130fc3c",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/0013cbdffaf0cfe442c76102a5d4e4900130fc3c"
+            },
+            {
+              "path": "swarm-advanced",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ec29988480f58966821f5f1442c48e55e5d97d9d",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/ec29988480f58966821f5f1442c48e55e5d97d9d"
+            },
+            {
+              "path": "swarm-orchestration",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ca1b2690cc21975484eb33c6698646b091e96f7e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/ca1b2690cc21975484eb33c6698646b091e96f7e"
+            },
+            {
+              "path": "verification-quality",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1625c8cbb122d69c345d9ba73a6e832889d07427",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/1625c8cbb122d69c345d9ba73a6e832889d07427"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "36b562ffe4d68bec1b91ce721014667832b55f65"
+  },
+  "new": {
+    "commit": {
+      "sha": "5ae30183f28fbedf4359346ca679069aae3a703c",
+      "node_id": "C_kwDOQYnEm9oAKDVhZTMwMTgzZjI4ZmJlZGY0MzU5MzQ2Y2E2NzkwNjlhYWUzYTcwM2M",
+      "url": "https://api.github.com/repos/ruvnet/RuVector/git/commits/5ae30183f28fbedf4359346ca679069aae3a703c",
+      "html_url": "https://github.com/ruvnet/RuVector/commit/5ae30183f28fbedf4359346ca679069aae3a703c",
+      "author": {
+        "name": "rUv",
+        "email": "ruv@ruv.net",
+        "date": "2025-12-25T23:37:34Z"
+      },
+      "committer": {
+        "name": "rUv",
+        "email": "ruv@ruv.net",
+        "date": "2025-12-25T23:37:34Z"
+      },
+      "tree": {
+        "sha": "e7ae0fdb24f4c34605ea1d7699c7186c7726638e",
+        "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/e7ae0fdb24f4c34605ea1d7699c7186c7726638e"
+      },
+      "message": "feat(agents): Add self-learning intelligence to 76 agents and 26 skills\n\nIntegrate RuVector's Q-learning intelligence layer across all agents:\n\n- Core agents (coder, planner, researcher, reviewer, tester)\n- Consensus agents (byzantine, gossip, crdt, raft, quorum, security)\n- Optimization agents (benchmark, performance, load-balancer, topology)\n- Swarm agents (adaptive, hierarchical, mesh coordinators)\n- Hive-mind agents (collective, queen, scout, memory, worker)\n- Neural/reasoning/goal agents (safla-neural, goal-planners)\n- SPARC agents (specification, pseudocode, architecture, refinement)\n- Template agents (smart-agent, swarm-init, pr-manager, etc.)\n- Testing agents (tdd-london, production-validator)\n- Specialized agents (analysis, architecture, data, devops, docs)\n- GitHub agents (code-review, issue-tracker, release, workflow)\n- Flow-Nexus agents (auth, sandbox, swarm, neural, payments)\n- All 26 skills (agentdb-*, github-*, flow-nexus-*, etc.)\n\nEach agent/skill now includes:\n- Pre/post hooks calling intelligence CLI for Q-learning trajectories\n- Self-learning section with vector memory integration\n- RuVector-specific capabilities (rust, wasm, cargo testing)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "d191be4a0fbb690cad516c967c3f9bb1169119ba",
+          "url": "https://api.github.com/repos/ruvnet/RuVector/git/commits/d191be4a0fbb690cad516c967c3f9bb1169119ba",
+          "html_url": "https://github.com/ruvnet/RuVector/commit/d191be4a0fbb690cad516c967c3f9bb1169119ba"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "e7ae0fdb24f4c34605ea1d7699c7186c7726638e",
+          "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/e7ae0fdb24f4c34605ea1d7699c7186c7726638e",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ff5cdec93467ebf5e9e185ddaef5171e0558aded",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/ff5cdec93467ebf5e9e185ddaef5171e0558aded"
+            },
+            {
+              "path": ".env.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "eded305db958fc52b792a7dd97ce97759f2632d6",
+              "size": 1152,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/eded305db958fc52b792a7dd97ce97759f2632d6"
+            },
+            {
+              "path": ".githooks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1c636c429f41e68264a19db7c199c739af59114d",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/1c636c429f41e68264a19db7c199c739af59114d"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "97f993c854d336db48a12d49bff154129d182655",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/97f993c854d336db48a12d49bff154129d182655"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3d010af85527ca2786588dc2216e36d7d343871d",
+              "size": 1729,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/3d010af85527ca2786588dc2216e36d7d343871d"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bc1dbefe6476482c9f53a3bb772926e69c1068f9",
+              "size": 7937,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/bc1dbefe6476482c9f53a3bb772926e69c1068f9"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "593eaed3dbf82291814983d151b988f798f4f98a",
+              "size": 15164,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/593eaed3dbf82291814983d151b988f798f4f98a"
+            },
+            {
+              "path": "Cargo.lock",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6b66369524338d47030e7d252e599b118d609dec",
+              "size": 231622,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/6b66369524338d47030e7d252e599b118d609dec"
+            },
+            {
+              "path": "Cargo.toml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1600adcb12b47fb2880eda4d0621b2529b7e2239",
+              "size": 3270,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/1600adcb12b47fb2880eda4d0621b2529b7e2239"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2dd524ac380d7e2f68710913b95e3dbd4cce7319",
+              "size": 1060,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/2dd524ac380d7e2f68710913b95e3dbd4cce7319"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e7a072ff6e3df17dbf7c1191dc5dfe73130991ad",
+              "size": 41714,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/e7a072ff6e3df17dbf7c1191dc5dfe73130991ad"
+            },
+            {
+              "path": "benchmarks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2d04ebf8e5bc2bc454ce352edb845beee747249f",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/2d04ebf8e5bc2bc454ce352edb845beee747249f"
+            },
+            {
+              "path": "crates",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7a47d61a7c552482e47851eb784ab3365fc42d25",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/7a47d61a7c552482e47851eb784ab3365fc42d25"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ec437bbd4f9d85566425706447a7c72b52a7cac9",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/ec437bbd4f9d85566425706447a7c72b52a7cac9"
+            },
+            {
+              "path": "examples",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "faca24f51873bdf4de9a6e84c0efa33229d6a987",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/faca24f51873bdf4de9a6e84c0efa33229d6a987"
+            },
+            {
+              "path": "install.sh",
+              "mode": "100755",
+              "type": "blob",
+              "sha": "21dce628b73f8e119844c9b5d1205740f52a3058",
+              "size": 12761,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/21dce628b73f8e119844c9b5d1205740f52a3058"
+            },
+            {
+              "path": "logs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "21307f979c5a52856d059a784be6e7eb332c6d7e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/21307f979c5a52856d059a784be6e7eb332c6d7e"
+            },
+            {
+              "path": "npm",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "377d5e9e09d6545672ee4793486de02caddb4bee",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/377d5e9e09d6545672ee4793486de02caddb4bee"
+            },
+            {
+              "path": "package.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2fa02c9cae13539bcb41a1e24e6ff86454efee3c",
+              "size": 2084,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/2fa02c9cae13539bcb41a1e24e6ff86454efee3c"
+            },
+            {
+              "path": "patches",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bd179db6e2ded77730e185c263a09838eae6f6c0",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/bd179db6e2ded77730e185c263a09838eae6f6c0"
+            },
+            {
+              "path": "plans",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fcfc0e89b81d8006ce28ef58a12eddf24c816ed0",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/fcfc0e89b81d8006ce28ef58a12eddf24c816ed0"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "712ef34508bf541741900e8b2eced9a9ae35104d",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/712ef34508bf541741900e8b2eced9a9ae35104d"
+            },
+            {
+              "path": "test-all-packages.sh",
+              "mode": "100755",
+              "type": "blob",
+              "sha": "04c614915ca44d12adf3d2e7e8b50e15ecea0b50",
+              "size": 6134,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/04c614915ca44d12adf3d2e7e8b50e15ecea0b50"
+            },
+            {
+              "path": "tests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4a79305390adbda028d79afe8dfaab5285d4cecd",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/4a79305390adbda028d79afe8dfaab5285d4cecd"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "ff5cdec93467ebf5e9e185ddaef5171e0558aded",
+          "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/ff5cdec93467ebf5e9e185ddaef5171e0558aded",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5a9538cfcb85fa6e47d8891a5449dc58c3a6e36a",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/5a9538cfcb85fa6e47d8891a5449dc58c3a6e36a"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8fd4a591d53bffd1b10568522f89a54facdf1050",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/8fd4a591d53bffd1b10568522f89a54facdf1050"
+            },
+            {
+              "path": "helpers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b2e343091657ee3a1e32976f819e57f51fa70863",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/b2e343091657ee3a1e32976f819e57f51fa70863"
+            },
+            {
+              "path": "hooks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d2d609ef5da9121fbf0e6a7aeff3a3373ee4087e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/d2d609ef5da9121fbf0e6a7aeff3a3373ee4087e"
+            },
+            {
+              "path": "intelligence",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f7354bfd48fbaafb07275813789549f98bad5124",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/f7354bfd48fbaafb07275813789549f98bad5124"
+            },
+            {
+              "path": "settings.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1683ad1aa90b27a1c328bfe81ca26859df7c7458",
+              "size": 6774,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/1683ad1aa90b27a1c328bfe81ca26859df7c7458"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a7722a35ba9eaf40afd19b0a6446e5edcdd8b0fc",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/a7722a35ba9eaf40afd19b0a6446e5edcdd8b0fc"
+            },
+            {
+              "path": "statusline-command.sh",
+              "mode": "100755",
+              "type": "blob",
+              "sha": "896de96ecf15fce28a36b23c3b7738eba676cb81",
+              "size": 6239,
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/blobs/896de96ecf15fce28a36b23c3b7738eba676cb81"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "flow-nexus-platform",
+        "tree": {
+          "sha": "a7722a35ba9eaf40afd19b0a6446e5edcdd8b0fc",
+          "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/a7722a35ba9eaf40afd19b0a6446e5edcdd8b0fc",
+          "tree": [
+            {
+              "path": "agentdb-advanced",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7ec038b66c014f8a1973de34920d2ac9802159ad",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/7ec038b66c014f8a1973de34920d2ac9802159ad"
+            },
+            {
+              "path": "agentdb-learning",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "6d46308226bafee500fb04184280baef40f830ac",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/6d46308226bafee500fb04184280baef40f830ac"
+            },
+            {
+              "path": "agentdb-memory-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "34057a848d1bd419ec2a62a510ddb01fca7e183e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/34057a848d1bd419ec2a62a510ddb01fca7e183e"
+            },
+            {
+              "path": "agentdb-optimization",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2a8cedf82b65b6c72d56c1bb4d4604f46b20cfe8",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/2a8cedf82b65b6c72d56c1bb4d4604f46b20cfe8"
+            },
+            {
+              "path": "agentdb-vector-search",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1cfd7b8937ec0336adf82a9ed6b77579bbbf374a",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/1cfd7b8937ec0336adf82a9ed6b77579bbbf374a"
+            },
+            {
+              "path": "agentic-jujutsu",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bf0863895ddc7473226b8db34c6447391a3a8fe3",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/bf0863895ddc7473226b8db34c6447391a3a8fe3"
+            },
+            {
+              "path": "flow-nexus-neural",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f92f8a8a8c4be5f3f4b022e2b3c9fe2ae311a3a7",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/f92f8a8a8c4be5f3f4b022e2b3c9fe2ae311a3a7"
+            },
+            {
+              "path": "flow-nexus-platform",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3e93da956e284f1815afb04f3c1e9982b48b3e71",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/3e93da956e284f1815afb04f3c1e9982b48b3e71"
+            },
+            {
+              "path": "flow-nexus-swarm",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "56a341c8764bdfa4eadc33ac41827177aeb1b9c3",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/56a341c8764bdfa4eadc33ac41827177aeb1b9c3"
+            },
+            {
+              "path": "github-code-review",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0ca274c439e6932e7edd9b2722905efcfb33d8f0",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/0ca274c439e6932e7edd9b2722905efcfb33d8f0"
+            },
+            {
+              "path": "github-multi-repo",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bd540432e36ad1d52344398e10164b569489e97c",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/bd540432e36ad1d52344398e10164b569489e97c"
+            },
+            {
+              "path": "github-project-management",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f0abeaed850997d91080e93dbfad9faba89f4481",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/f0abeaed850997d91080e93dbfad9faba89f4481"
+            },
+            {
+              "path": "github-release-management",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "effd1c092a92f799426000da511fe34bfcfb2a3d",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/effd1c092a92f799426000da511fe34bfcfb2a3d"
+            },
+            {
+              "path": "github-workflow-automation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3a1c6bb311b78175e05b43112777a45efd5be70b",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/3a1c6bb311b78175e05b43112777a45efd5be70b"
+            },
+            {
+              "path": "hive-mind-advanced",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7e586bbb2d918c7226a3254e97cd38474915db47",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/7e586bbb2d918c7226a3254e97cd38474915db47"
+            },
+            {
+              "path": "hooks-automation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bdbfd37bd1289b8d5f4dea0c6ae573d67a3f55a7",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/bdbfd37bd1289b8d5f4dea0c6ae573d67a3f55a7"
+            },
+            {
+              "path": "pair-programming",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d3356482a7bcaa16a375b1d05b292315cea8ec81",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/d3356482a7bcaa16a375b1d05b292315cea8ec81"
+            },
+            {
+              "path": "performance-analysis",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2854039801259d9e2e90712a37bfba120d25946b",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/2854039801259d9e2e90712a37bfba120d25946b"
+            },
+            {
+              "path": "reasoningbank-agentdb",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c2e70b75718f8822ea6e28c8a2925f421a86ebb7",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/c2e70b75718f8822ea6e28c8a2925f421a86ebb7"
+            },
+            {
+              "path": "reasoningbank-intelligence",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4f608c5f6ab63d94849c748b7d44d9be0949d3ab",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/4f608c5f6ab63d94849c748b7d44d9be0949d3ab"
+            },
+            {
+              "path": "skill-builder",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0ecb80975813adcf62bf8b80fdbd6ff1f37a572b",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/0ecb80975813adcf62bf8b80fdbd6ff1f37a572b"
+            },
+            {
+              "path": "sparc-methodology",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "21ae29ee5e9af8ea9e89eca82f2fd510c292f423",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/21ae29ee5e9af8ea9e89eca82f2fd510c292f423"
+            },
+            {
+              "path": "stream-chain",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "34d2b6237bfa99ebafc3deda832a34103aace682",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/34d2b6237bfa99ebafc3deda832a34103aace682"
+            },
+            {
+              "path": "swarm-advanced",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "883c5be91eebb2c02fe276f970a35da278ec025c",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/883c5be91eebb2c02fe276f970a35da278ec025c"
+            },
+            {
+              "path": "swarm-orchestration",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0d655b40425131ed45c8912d398bf370a716e0c4",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/0d655b40425131ed45c8912d398bf370a716e0c4"
+            },
+            {
+              "path": "verification-quality",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f1656bb160e918c3777f6b71ece1997fc06d821e",
+              "url": "https://api.github.com/repos/ruvnet/RuVector/git/trees/f1656bb160e918c3777f6b71ece1997fc06d821e"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "3e93da956e284f1815afb04f3c1e9982b48b3e71"
+  }
+}

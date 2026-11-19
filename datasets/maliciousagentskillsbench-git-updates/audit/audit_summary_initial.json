@@ -1,0 +1,70 @@
+{
+  "repository": "protectskills/MaliciousAgentSkillsBench",
+  "pinned_head": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "initial_commit": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "reachable_commits_reviewed": 39,
+  "malicious_records_current": 157,
+  "malicious_records_initial": 157,
+  "distinct_source_repo_aliases": 69,
+  "malicious_identity_set_unchanged": true,
+  "malicious_csv_changed_rows": 157,
+  "malicious_csv_columns_current": [
+    "source",
+    "repo",
+    "skill_name",
+    "classification",
+    "Pattern",
+    "Severity"
+  ],
+  "malicious_csv_columns_initial": [
+    "source",
+    "repo",
+    "skill_name",
+    "classification",
+    "Pattern"
+  ],
+  "snapshot_summary": {
+    "eb431f4f9d855f558fce20fd7de098a0423b6160": {
+      "all_rows": 120711,
+      "classification_counts": {
+        "safe": 119885,
+        "suspicious": 669,
+        "malicious": 157
+      },
+      "selected_malicious_rows": 157,
+      "malicious_urls_redacted": 0,
+      "malicious_urls_present": 157,
+      "columns": [
+        "source",
+        "repo",
+        "skill_name",
+        "classification",
+        "url"
+      ]
+    },
+    "f7d28b1a9de4eb33d552529cf79d1065d765f6c3": {
+      "all_rows": 98380,
+      "classification_counts": {
+        "suspicious": 4130,
+        "safe": 94093,
+        "malicious": 157
+      },
+      "selected_malicious_rows": 157,
+      "malicious_urls_redacted": 157,
+      "malicious_urls_present": 0,
+      "columns": [
+        "source",
+        "repo",
+        "skill_name",
+        "classification",
+        "url"
+      ]
+    }
+  },
+  "path_commit_counts": {
+    "data/malicious_skills.csv": 2,
+    "data/skills_dataset.csv": 3,
+    "code/samples/math-calculator": 1,
+    "code/samples/malicious/math-calculator": 2
+  }
+}

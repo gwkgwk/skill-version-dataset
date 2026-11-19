@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "method": "offline standard-library checks; no sample execution",
+  "accepted_git_commit_version_pairs": 13,
+  "new_registry_release_version_pairs": 0,
+  "complete_snapshots": 26,
+  "original_files": 78,
+  "original_bytes": 746621,
+  "excluded_records": 144,
+  "only_README_changed": 1,
+  "first_malicious_introductions_confirmed": 0,
+  "checks": [
+    "original Git blob hashes, SHA-256 and complete directory inventory",
+    "Git directory trees reconstructed",
+    "commit root trees to Skill paths reconstructed",
+    "exact first-parent API lineage",
+    "source malicious CSV membership",
+    "whole recorded source-package inventory equality",
+    "independent frozen malicious primary-text SHA-256 equality",
+    "actual non-metadata changes and diff hashes",
+    "source metadata Git blob membership",
+    "candidate partition and previous-primary-hash deduplication",
+    "controlled sample relocation excluded",
+    "manifest when present"
+  ],
+  "limits": [
+    "Full SRC002 archive integrity was checked at collection; archive intentionally omitted and not re-read offline",
+    "Full historical ecosystem CSV hash receipts and selected provenance rows are provided; full CSV not included",
+    "No independent runtime or first-malicious-introduction confirmation"
+  ]
+}

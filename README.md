@@ -8,12 +8,13 @@
 | 有版本更新的恶意 Skill | [datasets/malicious-skills-with-updates/](datasets/malicious-skills-with-updates/) | 严格证据：1 个 skill、1 条恶意分发指令更新；另列 2 个多版本候选，98 个单版本样本排除 |
 | MalSkillBench 恶意收录 Skill 真实更新 | [datasets/malskillbench-malicious-updates/](datasets/malskillbench-malicious-updates/) | 17 个不同 Skill、17 对实际内容更新、34 份完整快照；新版整包与恶意收录包一致。4 个未验证候选单列，旧版安全性及恶意行为首次引入未知 |
 | MaliciousSkillBench 真实更新（另审查 SkillLifeBench） | [datasets/maliciousskillbench-real-updates/](datasets/maliciousskillbench-real-updates/) | 新增 6 个恶意收录 Skill、6 对实际内容更新、12 份完整快照；26 条未验证记录单列。SkillLifeBench 的 2 个原生更新为安全修复，未计入恶意更新 |
+| MaliciousAgentSkillsBench Git 提交版本更新 | [datasets/maliciousagentskillsbench-git-updates/](datasets/maliciousagentskillsbench-git-updates/) | 新增 13 个恶意收录 Skill、13 对 Git 提交更新、26 份完整快照；其中 1 对仅 README 变化。与发布版本号更新分开，144 条未计入记录单列 |
 | MalSkills 来源档案（不计作更新集） | [datasets/malskills-malicious-introductions/](datasets/malskills-malicious-introductions/) | 100 个恶意单快照的来源与调查材料；不等于 100 个恶意更新 skill。无法验证的情况单独保留 |
 | MalSkills 历史追溯 | 本仓库根目录的原有数据，说明见下文 | 包含原始 benign / malicious 快照标签和历史候选对；历史版本及更新对没有独立安全真值 |
 
 GitSkills 与 MalSkills 原始文件分开存放，未将 GitSkills 数据混入恶意样本集。
 
-目前去重后的“有真实版本更新的恶意收录 Skill”共 **24 个、24 对更新、48 份旧／新版快照**：MalSkills 1 个 + MalSkillBench 17 个 + MaliciousSkillBench 本批 6 个。48 份快照不等于 48 个恶意版本，旧版安全性尚未全部确认。已确认更新引入恶意分发指令仍为 1 对，其余 23 对采用来源恶意标签，尚未确认首次引入。
+按**注册表发布版本号更新**统计，去重后为 **24 个 Skill、24 对更新、48 份旧／新版快照**：MalSkills 1 个 + MalSkillBench 17 个 + MaliciousSkillBench 6 个。另有 MaliciousAgentSkillsBench 新增的 **13 个 Skill、13 对 Git 提交版本更新、26 份快照**，不把 Git SHA 误称为发布版本号。两类一起统计共 **37 个 Skill、37 对更新、74 份快照**，其中本批 1 对只修改 README。74 份快照不等于 74 个恶意版本，旧版安全性未全部确认；已确认更新引入恶意分发指令仍为 1 对，其余采用来源恶意收录标签，尚未确认首次引入。
 
 [GitSkills 安全初审报告](audits/gitskills-real-updates-500/README.md)：500 条全量规则初筛，44 条助手上下文复核；安全标签仍全部未知，不能直接作为良性真值。
 

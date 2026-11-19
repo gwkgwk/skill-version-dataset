@@ -1,0 +1,58 @@
+{
+  "id": "MASC-0151",
+  "skill_id": "schmug/karkinos::.claude/skills/worker",
+  "skill_name": "worker",
+  "origin_repository": "schmug/karkinos",
+  "origin_path": ".claude/skills/worker",
+  "version_kind": "git_commit_snapshot",
+  "old_version": "git:0221194ceff9af492b76108ba6df26f395ad2430",
+  "new_version": "git:1beaebc2f97e9203755bcd280f8603c3734c8d57",
+  "old_commit": "0221194ceff9af492b76108ba6df26f395ad2430",
+  "new_commit": "1beaebc2f97e9203755bcd280f8603c3734c8d57",
+  "old_is_exact_first_parent": true,
+  "new_commit_date": "2026-01-01T01:44:07Z",
+  "declared_version_fields": {
+    "old": {},
+    "new": {}
+  },
+  "published_release_version_change_confirmed": false,
+  "benchmark_repository": "protectskills/MaliciousAgentSkillsBench",
+  "benchmark_ref": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "benchmark_source_key": [
+    "skillsmp.com",
+    "smp_8593",
+    "worker"
+  ],
+  "origin_provenance_ref": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "source_package_prefix": "packages/smp_8593/worker",
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "old_security_label": null,
+  "new_security_label": "malicious_as_labeled_by_MaliciousAgentSkillsBench",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_source_archive_inventory": true,
+  "normalization": [
+    "omit registry _meta.json, .DS_Store and Python cache for comparison only",
+    "normalize root skill.md to SKILL.md for comparison only; preserve all original bytes"
+  ],
+  "operational_changed_files": [
+    "SKILL.md"
+  ],
+  "change_scope": "instruction_code_or_reference_change",
+  "old_files": 1,
+  "new_files": 1,
+  "local_directory": "pairs/MASC-0151",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "ab3e7cf144876d6fbea43bfe1e73082e3064263aa881804b1f7e43b8de161c14",
+      "bytes": 371
+    },
+    "package.diff": {
+      "sha256": "ab3e7cf144876d6fbea43bfe1e73082e3064263aa881804b1f7e43b8de161c14",
+      "bytes": 371
+    }
+  },
+  "compare_url": "https://github.com/schmug/karkinos/compare/0221194ceff9af492b76108ba6df26f395ad2430...1beaebc2f97e9203755bcd280f8603c3734c8d57"
+}

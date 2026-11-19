@@ -1,0 +1,436 @@
+{
+  "old": {
+    "commit": {
+      "sha": "0bddbaa32edf248b05cc9675bb43e856a78403a5",
+      "node_id": "C_kwDOQenVAtoAKDBiZGRiYWEzMmVkZjI0OGIwNWNjOTY3NWJiNDNlODU2YTc4NDAzYTU",
+      "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/commits/0bddbaa32edf248b05cc9675bb43e856a78403a5",
+      "html_url": "https://github.com/syeda-hoorain-ali/physical-ai/commit/0bddbaa32edf248b05cc9675bb43e856a78403a5",
+      "author": {
+        "name": "Syeda Hoorain Ali",
+        "email": "syedahoorainali8@gmail.com",
+        "date": "2025-11-30T18:00:01Z"
+      },
+      "committer": {
+        "name": "Syeda Hoorain Ali",
+        "email": "syedahoorainali8@gmail.com",
+        "date": "2025-11-30T18:00:01Z"
+      },
+      "tree": {
+        "sha": "9a37ec8318fbe4e70a9fb40100fd0f0e0dfd30ad",
+        "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/9a37ec8318fbe4e70a9fb40100fd0f0e0dfd30ad"
+      },
+      "message": "Fix: Set Node.js version to 20 in Docusaurus deployment workflow\n\nUpdated the GitHub Actions workflow (`deploy-docusaurus.yml`) to use Node.js version 20 instead of 18.\n\nThis resolves the \"Minimum Node.js version not met\" error encountered during the Docusaurus build process, as Docusaurus now requires Node.js >=20.0.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "8de664b3f6f030fbeedb9b6a1453afb54573c6b3",
+          "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/commits/8de664b3f6f030fbeedb9b6a1453afb54573c6b3",
+          "html_url": "https://github.com/syeda-hoorain-ali/physical-ai/commit/8de664b3f6f030fbeedb9b6a1453afb54573c6b3"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "9a37ec8318fbe4e70a9fb40100fd0f0e0dfd30ad",
+          "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/9a37ec8318fbe4e70a9fb40100fd0f0e0dfd30ad",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "cf927eab94cec74dcedadbe4cdb7ac78bb89b59e",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/cf927eab94cec74dcedadbe4cdb7ac78bb89b59e"
+            },
+            {
+              "path": ".gemini",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "15bb41e61e799bc155c9736a184b1147e2850537",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/15bb41e61e799bc155c9736a184b1147e2850537"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b827991a39335f95f626382ac30600a95c30da39",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/b827991a39335f95f626382ac30600a95c30da39"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a00a778375d67ec5c2bd725460f04f9bc5440aee",
+              "size": 324,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/a00a778375d67ec5c2bd725460f04f9bc5440aee"
+            },
+            {
+              "path": ".mcp.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "92d495f80f1eb1c1789a4ffc35b8d8735fa3d946",
+              "size": 200,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/92d495f80f1eb1c1789a4ffc35b8d8735fa3d946"
+            },
+            {
+              "path": ".specify",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7dac09ac65b3fc988cac19de37059312b731e439",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/7dac09ac65b3fc988cac19de37059312b731e439"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "8b330b4a29d73534b2d7f42be56db589851e0f46",
+              "size": 11304,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/8b330b4a29d73534b2d7f42be56db589851e0f46"
+            },
+            {
+              "path": "GEMINI.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "8dcb82e2d48ba6abce97104e457a8d29baa4adca",
+              "size": 10322,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/8dcb82e2d48ba6abce97104e457a8d29baa4adca"
+            },
+            {
+              "path": "book-source",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e461baad130781921661fa54b6de721553a5e080",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/e461baad130781921661fa54b6de721553a5e080"
+            },
+            {
+              "path": "history",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2439865ddb9cf5e5e416429699c064b25a23f6a7",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/2439865ddb9cf5e5e416429699c064b25a23f6a7"
+            },
+            {
+              "path": "physical-ai-and-humanoid-robots-textbook.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "273af70bc8002d8a232bbf23e5e1aeab027616ad",
+              "size": 12365,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/273af70bc8002d8a232bbf23e5e1aeab027616ad"
+            },
+            {
+              "path": "specs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "af96d1d73c253b34338c537ce86d9a004527dcf1",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/af96d1d73c253b34338c537ce86d9a004527dcf1"
+            },
+            {
+              "path": "test.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e839e028ffefa8fe1ebcf1e95ade8cd7fa535d13",
+              "size": 797,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/e839e028ffefa8fe1ebcf1e95ade8cd7fa535d13"
+            },
+            {
+              "path": "worktrees",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5ef8419f0d66e02d4a206a59b539bb9cd6a5c162",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/5ef8419f0d66e02d4a206a59b539bb9cd6a5c162"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "cf927eab94cec74dcedadbe4cdb7ac78bb89b59e",
+          "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/cf927eab94cec74dcedadbe4cdb7ac78bb89b59e",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1f0360d5f5c0a79a4f1f4de7aa6b4a1dd7130802",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/1f0360d5f5c0a79a4f1f4de7aa6b4a1dd7130802"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d781c421a7ec0cc794776d1376ad95b3d9bf8ef1",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/d781c421a7ec0cc794776d1376ad95b3d9bf8ef1"
+            },
+            {
+              "path": "settings.local.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7cd0f6a0150ce9733802651eb6638999f37883e1",
+              "size": 1620,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/7cd0f6a0150ce9733802651eb6638999f37883e1"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8c1784caebf9d4841d2b30ff860b3cc3be2b9547",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/8c1784caebf9d4841d2b30ff860b3cc3be2b9547"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "image-generator",
+        "tree": {
+          "sha": "8c1784caebf9d4841d2b30ff860b3cc3be2b9547",
+          "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/8c1784caebf9d4841d2b30ff860b3cc3be2b9547",
+          "tree": [
+            {
+              "path": "image-generator",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8714f7a3e7b8f1794370528417abc0fcfcf34a88",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/8714f7a3e7b8f1794370528417abc0fcfcf34a88"
+            },
+            {
+              "path": "skill-creator",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b9944a9b5f0cd64dfdd0c5600da547517a69d164",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/b9944a9b5f0cd64dfdd0c5600da547517a69d164"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "8714f7a3e7b8f1794370528417abc0fcfcf34a88"
+  },
+  "new": {
+    "commit": {
+      "sha": "9c254dbc0a1f6ac68a71f7b6144c32de0c262a3a",
+      "node_id": "C_kwDOQenVAtoAKDljMjU0ZGJjMGExZjZhYzY4YTcxZjdiNjE0NGMzMmRlMGMyNjJhM2E",
+      "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/commits/9c254dbc0a1f6ac68a71f7b6144c32de0c262a3a",
+      "html_url": "https://github.com/syeda-hoorain-ali/physical-ai/commit/9c254dbc0a1f6ac68a71f7b6144c32de0c262a3a",
+      "author": {
+        "name": "Syeda Hoorain Ali",
+        "email": "156098367+syeda-hoorain-ali@users.noreply.github.com",
+        "date": "2025-12-02T14:31:47Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-12-02T14:31:47Z"
+      },
+      "tree": {
+        "sha": "2da8a396415dcd3c861dbef0caac9d0856d18894",
+        "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/2da8a396415dcd3c861dbef0caac9d0856d18894"
+      },
+      "message": "feat(ros2-fundamentals): Generate and embed images for Lesson 7 (#5)\n\n* docs(ros2-fundamentals): Develop spec, plan, and tasks for chapter\n\nThis commit introduces the initial documentation artifacts for the \"ROS 2 Fundamentals: Building the Robotic Nervous System\" chapter. It includes:\n- High-level specifications (`spec.md`)\n- Detailed lesson plan (`plan.md`)\n- Actionable content creation tasks (`tasks.md`)\n\nThe `tasks.md` was also refined based on user feedback to focus solely on conceptual content creation rather than physical setup or robot development.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\n* docs(ros2-fundamentals): Complete Lesson 6 on Launch Files and Parameters\n\nThis commit completes the content for Lesson 6, focusing on ROS 2 Launch Files and Parameters. It includes:\n- Content explaining the importance and anatomy of launch files.\n- Example Python launch files (, ).\n- A conceptual exercise for analyzing launch files.\n- Content demonstrating how to pass parameters to nodes via launch files, including a Python node example ().\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\n* Update docs/01-ros2-fundamentals/lesson1.md\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson3_code/publisher.py\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson4_code/action_server.py\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson6.md\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson1.md\r\n\r\nfix typo in the node name. from \"/camer-node\" to \"/camera-node\".\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson3_code/subscriber.py\r\n\r\nFor improved readability and performance, it's recommended to use f-strings for string formatting instead of the older % operator.\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson6_code/my_custom_node.py\r\n\r\nFor improved readability and performance, it's recommended to use f-strings for string formatting instead of the older % operator.\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* feat(ros2-fundamentals): Generate and embed images for Lesson 7\n\nThis commit completes the image generation tasks for Lesson 7 of the ROS 2 Fundamentals chapter.\n- Generated 'ai_ros2_pub.png' and 'ai_ros2_sub.png' using the image-generator skill.\n- Embedded these images into 'book-source/docs/01-ros2-fundamentals/lesson7.md'.\n- Updated 'specs/001-ros2-fundamentals/tasks.md' to reflect the completion of T041 and T042.\n- Updated agent and skill configurations for the image generation process.\n- Created PHR files for the interaction.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\n* Update book-source/docs/01-ros2-fundamentals/lesson6.md\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update book-source/docs/01-ros2-fundamentals/lesson7_code/ai_agent_node.py\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update .claude/agents/lesson-content-writer.md\r\n\r\nFix typo in the example markdown. The Output label has an extra asterisk, which may cause incorrect rendering.\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Claude <noreply@anthropic.com>\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>",
+      "parents": [
+        {
+          "sha": "0bddbaa32edf248b05cc9675bb43e856a78403a5",
+          "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/commits/0bddbaa32edf248b05cc9675bb43e856a78403a5",
+          "html_url": "https://github.com/syeda-hoorain-ali/physical-ai/commit/0bddbaa32edf248b05cc9675bb43e856a78403a5"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpLvhTCRC1aQ7uu5UhlAAAsVAQAD0UKutm8l2luQxU1YdUy+a9\nP6zXvQhKBtjqmky8AQ2bVXS8g3G64DFZIfUAYa3DxICGdnd3viUG0ykT6Gy5f3rI\n6XxhXrfJdNFetXnd5H0y2wzujJnlCoeG+jobvvVClWe7qEsZaFYfL3djptDZu/gl\nYCqeEYXhZ6a/wLZ1QsODGTlYRozAa7syqne1mSJFJemTCgajN9WXOxFFhgU5hB5O\nERM2Dszx+HSNT2ml/Epi4NJjRfElUCiwC+rc26LLwKL9njltINZuP0Ss0UPGqCfP\n0GavN4HQwEPdM1ejl31Vt3D2YkOQheWs5hVcxw4MrPvNI7JA5MinQQIL0VgD9Xsz\nOr2VA5DAgY3WhblDEqmpa5Trdz2rVV0vteIzAiYX/OX+DbemPLDgTJGcjKtdQv01\nLZPP7s2sNa+siGuujp849EJAA/mUrgMxlhNhR4jq+2nDvGwxsSRBdbwJpnIy0oI2\nkfjSxXIIj15hiDd2v1bNEDDvL2lXnhbmPA43qZJ/XldZyZ33/GFrD0UC8YNL3YOW\n6vRzeG2Y5Kfu64wjBHchtYDqdANmbJBXwH81q2R203alpdpqs5srbjOszjvWR7v0\nRSDUdzdh+ZRLFQ6XIWUUdjAbjlLRNNp9NaSd7G2PXb4II3DRoy2qv78GE/0cMsoN\nA7PwW11+4SxJHMqF44Li\n=oiDt\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2da8a396415dcd3c861dbef0caac9d0856d18894\nparent 0bddbaa32edf248b05cc9675bb43e856a78403a5\nauthor Syeda Hoorain Ali <156098367+syeda-hoorain-ali@users.noreply.github.com> 1764685907 +0500\ncommitter GitHub <noreply@github.com> 1764685907 +0500\n\nfeat(ros2-fundamentals): Generate and embed images for Lesson 7 (#5)\n\n* docs(ros2-fundamentals): Develop spec, plan, and tasks for chapter\n\nThis commit introduces the initial documentation artifacts for the \"ROS 2 Fundamentals: Building the Robotic Nervous System\" chapter. It includes:\n- High-level specifications (`spec.md`)\n- Detailed lesson plan (`plan.md`)\n- Actionable content creation tasks (`tasks.md`)\n\nThe `tasks.md` was also refined based on user feedback to focus solely on conceptual content creation rather than physical setup or robot development.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\n* docs(ros2-fundamentals): Complete Lesson 6 on Launch Files and Parameters\n\nThis commit completes the content for Lesson 6, focusing on ROS 2 Launch Files and Parameters. It includes:\n- Content explaining the importance and anatomy of launch files.\n- Example Python launch files (, ).\n- A conceptual exercise for analyzing launch files.\n- Content demonstrating how to pass parameters to nodes via launch files, including a Python node example ().\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\n* Update docs/01-ros2-fundamentals/lesson1.md\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson3_code/publisher.py\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson4_code/action_server.py\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson6.md\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson1.md\r\n\r\nfix typo in the node name. from \"/camer-node\" to \"/camera-node\".\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson3_code/subscriber.py\r\n\r\nFor improved readability and performance, it's recommended to use f-strings for string formatting instead of the older % operator.\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update docs/01-ros2-fundamentals/lesson6_code/my_custom_node.py\r\n\r\nFor improved readability and performance, it's recommended to use f-strings for string formatting instead of the older % operator.\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* feat(ros2-fundamentals): Generate and embed images for Lesson 7\n\nThis commit completes the image generation tasks for Lesson 7 of the ROS 2 Fundamentals chapter.\n- Generated 'ai_ros2_pub.png' and 'ai_ros2_sub.png' using the image-generator skill.\n- Embedded these images into 'book-source/docs/01-ros2-fundamentals/lesson7.md'.\n- Updated 'specs/001-ros2-fundamentals/tasks.md' to reflect the completion of T041 and T042.\n- Updated agent and skill configurations for the image generation process.\n- Created PHR files for the interaction.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\n\n* Update book-source/docs/01-ros2-fundamentals/lesson6.md\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update book-source/docs/01-ros2-fundamentals/lesson7_code/ai_agent_node.py\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n* Update .claude/agents/lesson-content-writer.md\r\n\r\nFix typo in the example markdown. The Output label has an extra asterisk, which may cause incorrect rendering.\n\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Claude <noreply@anthropic.com>\nCo-authored-by: gemini-code-assist[bot] <176961590+gemini-code-assist[bot]@users.noreply.github.com>",
+        "verified_at": "2025-12-02T14:31:48Z"
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "2da8a396415dcd3c861dbef0caac9d0856d18894",
+          "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/2da8a396415dcd3c861dbef0caac9d0856d18894",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "be11156b65a3b2cfcb1b7e6f98b868722c038de8",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/be11156b65a3b2cfcb1b7e6f98b868722c038de8"
+            },
+            {
+              "path": ".gemini",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "15bb41e61e799bc155c9736a184b1147e2850537",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/15bb41e61e799bc155c9736a184b1147e2850537"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b827991a39335f95f626382ac30600a95c30da39",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/b827991a39335f95f626382ac30600a95c30da39"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a00a778375d67ec5c2bd725460f04f9bc5440aee",
+              "size": 324,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/a00a778375d67ec5c2bd725460f04f9bc5440aee"
+            },
+            {
+              "path": ".mcp.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "72ac00387b2499f6c6d8c0583f24cbf3920d073b",
+              "size": 348,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/72ac00387b2499f6c6d8c0583f24cbf3920d073b"
+            },
+            {
+              "path": ".specify",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7dac09ac65b3fc988cac19de37059312b731e439",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/7dac09ac65b3fc988cac19de37059312b731e439"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "8b330b4a29d73534b2d7f42be56db589851e0f46",
+              "size": 11304,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/8b330b4a29d73534b2d7f42be56db589851e0f46"
+            },
+            {
+              "path": "GEMINI.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "8dcb82e2d48ba6abce97104e457a8d29baa4adca",
+              "size": 10322,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/8dcb82e2d48ba6abce97104e457a8d29baa4adca"
+            },
+            {
+              "path": "book-source",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e38cb9286a5ccc8a21c15ed0457ae7073978ab42",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/e38cb9286a5ccc8a21c15ed0457ae7073978ab42"
+            },
+            {
+              "path": "history",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "97cf81843248226ab38a30a8f3412c7914010c06",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/97cf81843248226ab38a30a8f3412c7914010c06"
+            },
+            {
+              "path": "physical-ai-and-humanoid-robots-textbook.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "273af70bc8002d8a232bbf23e5e1aeab027616ad",
+              "size": 12365,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/273af70bc8002d8a232bbf23e5e1aeab027616ad"
+            },
+            {
+              "path": "specs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c6d8a072a87600e9cc5c9bb97ef5f8a632eed755",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/c6d8a072a87600e9cc5c9bb97ef5f8a632eed755"
+            },
+            {
+              "path": "test.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e839e028ffefa8fe1ebcf1e95ade8cd7fa535d13",
+              "size": 797,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/e839e028ffefa8fe1ebcf1e95ade8cd7fa535d13"
+            },
+            {
+              "path": "worktrees",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5ef8419f0d66e02d4a206a59b539bb9cd6a5c162",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/5ef8419f0d66e02d4a206a59b539bb9cd6a5c162"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "be11156b65a3b2cfcb1b7e6f98b868722c038de8",
+          "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/be11156b65a3b2cfcb1b7e6f98b868722c038de8",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "728d9a5fab7241774c12f5768da788741e5b6e12",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/728d9a5fab7241774c12f5768da788741e5b6e12"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d781c421a7ec0cc794776d1376ad95b3d9bf8ef1",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/d781c421a7ec0cc794776d1376ad95b3d9bf8ef1"
+            },
+            {
+              "path": "settings.local.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "00d98fb6662de642806bee39cceda3a80c7f4e95",
+              "size": 1651,
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/blobs/00d98fb6662de642806bee39cceda3a80c7f4e95"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "57118219a1029df5fc624ca317f48666a634b414",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/57118219a1029df5fc624ca317f48666a634b414"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "image-generator",
+        "tree": {
+          "sha": "57118219a1029df5fc624ca317f48666a634b414",
+          "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/57118219a1029df5fc624ca317f48666a634b414",
+          "tree": [
+            {
+              "path": "image-generator",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2cc8d2cbdcb13273e4f1355dfc82e00c1add64ce",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/2cc8d2cbdcb13273e4f1355dfc82e00c1add64ce"
+            },
+            {
+              "path": "skill-creator",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b9944a9b5f0cd64dfdd0c5600da547517a69d164",
+              "url": "https://api.github.com/repos/syeda-hoorain-ali/physical-ai/git/trees/b9944a9b5f0cd64dfdd0c5600da547517a69d164"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "2cc8d2cbdcb13273e4f1355dfc82e00c1add64ce"
+  }
+}

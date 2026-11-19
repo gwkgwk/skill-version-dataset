@@ -1,0 +1,70 @@
+{
+  "data/malicious_skills.csv": [
+    {
+      "sha": "04b9a7a014c47f6f6eca719ba5f0c6d8f0444baa",
+      "date": "2026-05-30T16:55:50Z",
+      "message": "Add RQ2 analysis scripts and refresh released datasets and docs\n\n- code/analysis/: taxonomy, co-occurrence, and hypothesis-testing scripts that re-derive the Section 5.4 results from data/malicious_skills.csv (plus scripts/09,10 wrappers)\n\n- data/: malicious_skills.csv lists Pattern tokens per vulnerability instance with an aligned per-instance Severity column; skills_dataset.csv is the 98,380-skill snapshot with malicious download pointers redacted\n\n- docs: README/.env.example/helper.py/DOCKER_BUILD.md guidance for the SkillsMP API key and the Docker sandbox image",
+      "parents": [
+        "1fae6561a9bbf400c6426a28503235870a86b5bf"
+      ]
+    },
+    {
+      "sha": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+      "date": "2026-02-07T05:11:20Z",
+      "message": "Add files",
+      "parents": []
+    }
+  ],
+  "data/skills_dataset.csv": [
+    {
+      "sha": "04b9a7a014c47f6f6eca719ba5f0c6d8f0444baa",
+      "date": "2026-05-30T16:55:50Z",
+      "message": "Add RQ2 analysis scripts and refresh released datasets and docs\n\n- code/analysis/: taxonomy, co-occurrence, and hypothesis-testing scripts that re-derive the Section 5.4 results from data/malicious_skills.csv (plus scripts/09,10 wrappers)\n\n- data/: malicious_skills.csv lists Pattern tokens per vulnerability instance with an aligned per-instance Severity column; skills_dataset.csv is the 98,380-skill snapshot with malicious download pointers redacted\n\n- docs: README/.env.example/helper.py/DOCKER_BUILD.md guidance for the SkillsMP API key and the Docker sandbox image",
+      "parents": [
+        "1fae6561a9bbf400c6426a28503235870a86b5bf"
+      ]
+    },
+    {
+      "sha": "b5c7659dabc6da9f2333bb41aeedeca26b586210",
+      "date": "2026-05-19T06:43:54Z",
+      "message": "Pipeline restructure",
+      "parents": [
+        "3ec2e6337ae8c3121f4ef737804a06c6d463082c"
+      ]
+    },
+    {
+      "sha": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+      "date": "2026-02-07T05:11:20Z",
+      "message": "Add files",
+      "parents": []
+    }
+  ],
+  "code/samples/math-calculator": [
+    {
+      "sha": "f638f11deafd8dd0066a8e5b6c8d0fcd3b407e24",
+      "date": "2026-07-21T04:59:26Z",
+      "message": "samples: flatten layout to samples/math-calculator (drop malicious/ path)\n\nThe intermediate 'malicious' directory leaked into the skill path passed to the triage/agent; flattening keeps detection driven by the skill's code, not its path. Scripts and README updated to point at samples/.",
+      "parents": [
+        "df03f84f1d10002a8b4cca55f9599c635aab0a2d"
+      ]
+    }
+  ],
+  "code/samples/malicious/math-calculator": [
+    {
+      "sha": "f638f11deafd8dd0066a8e5b6c8d0fcd3b407e24",
+      "date": "2026-07-21T04:59:26Z",
+      "message": "samples: flatten layout to samples/math-calculator (drop malicious/ path)\n\nThe intermediate 'malicious' directory leaked into the skill path passed to the triage/agent; flattening keeps detection driven by the skill's code, not its path. Scripts and README updated to point at samples/.",
+      "parents": [
+        "df03f84f1d10002a8b4cca55f9599c635aab0a2d"
+      ]
+    },
+    {
+      "sha": "be6e00e59c0f6076ae9b958e8e20909014d2ee67",
+      "date": "2026-07-21T04:42:01Z",
+      "message": "samples: add defanged malicious sample with CC-triage and dynamic reproduction; default CC model to haiku; document API-key/model setup\n\nAdd samples/malicious/math-calculator (confirmed malicious skill rest_1659) with its reverse-shell endpoint defanged to 127.0.0.1. samples/run_cc.sh runs the Claude Code triage (pipeline step 8) on it; samples/run_detection.sh runs the dynamic sandbox. Default CC_MODEL is now the robust 'haiku' alias (still overridable via CC_MODEL or a settings.json env block). README documents using an API key or an Anthropic-compatible endpoint (e.g. GLM).",
+      "parents": [
+        "eb9a745ca415d4589d4bbcf61620fe87eb030ae2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "old": {
+    "commit": {
+      "sha": "8474b9118c16a12e1a56e825687b6ad3a9372043",
+      "node_id": "C_kwDOQHE26NoAKDg0NzRiOTExOGMxNmExMmUxYTU2ZTgyNTY4N2I2YWQzYTkzNzIwNDM",
+      "url": "https://api.github.com/repos/romiluz13/cc10x/git/commits/8474b9118c16a12e1a56e825687b6ad3a9372043",
+      "html_url": "https://github.com/romiluz13/cc10x/commit/8474b9118c16a12e1a56e825687b6ad3a9372043",
+      "author": {
+        "name": "Rom Iluz",
+        "email": "rom@iluz.net",
+        "date": "2026-01-14T07:13:50Z"
+      },
+      "committer": {
+        "name": "Rom Iluz",
+        "email": "rom@iluz.net",
+        "date": "2026-01-14T07:13:50Z"
+      },
+      "tree": {
+        "sha": "e0e7e61ee65e6542e83541aad43c2c59753d5f23",
+        "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/e0e7e61ee65e6542e83541aad43c2c59753d5f23"
+      },
+      "message": "feat(v5.18.0): enforce Two-Phase github-research execution\n\n- Fix: Router now executes research FIRST (prerequisite, not hint)\n- Fix: Added \"research\" to router triggers for explicit user requests\n- Add: SKILL_HINTS detection for explicit research keywords\n- Add: RESEARCH_EXECUTED gate before planner\n- Change: Simplified github-research skill (31% smaller)\n- Change: Updated Integration Points to reflect Two-Phase model\n\nResolves issue where planner was ignoring SKILL_HINTS for github-research.\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "c4b47b78647fd7625af75a2cb30facd6a15839f3",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/commits/c4b47b78647fd7625af75a2cb30facd6a15839f3",
+          "html_url": "https://github.com/romiluz13/cc10x/commit/c4b47b78647fd7625af75a2cb30facd6a15839f3"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": "plugins",
+        "tree": {
+          "sha": "e0e7e61ee65e6542e83541aad43c2c59753d5f23",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/e0e7e61ee65e6542e83541aad43c2c59753d5f23",
+          "tree": [
+            {
+              "path": ".claude-plugin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "753d4da85fb2d336c5eb1ab7ea3a613b3aaac600",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/753d4da85fb2d336c5eb1ab7ea3a613b3aaac600"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2ac707653bd8dea2b92d8e2a95290fdad89bbe8d",
+              "size": 3514,
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/blobs/2ac707653bd8dea2b92d8e2a95290fdad89bbe8d"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5a5edf9aab5b363e176a768817570ae334614e26",
+              "size": 44255,
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/blobs/5a5edf9aab5b363e176a768817570ae334614e26"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "534a9977c0d2cf284def97ab8cdee91460e0da61",
+              "size": 1065,
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/blobs/534a9977c0d2cf284def97ab8cdee91460e0da61"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4e325bb130a9277332631d97b1ae48d730a33dfe",
+              "size": 17739,
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/blobs/4e325bb130a9277332631d97b1ae48d730a33dfe"
+            },
+            {
+              "path": "plugins",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b55924632502df77cf226a340634f43c62e76986",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/b55924632502df77cf226a340634f43c62e76986"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "cc10x",
+        "tree": {
+          "sha": "b55924632502df77cf226a340634f43c62e76986",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/b55924632502df77cf226a340634f43c62e76986",
+          "tree": [
+            {
+              "path": "cc10x",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bdfe3d1364a9ae43b1fca8cffcb11e927085dafb",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/bdfe3d1364a9ae43b1fca8cffcb11e927085dafb"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "bdfe3d1364a9ae43b1fca8cffcb11e927085dafb",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/bdfe3d1364a9ae43b1fca8cffcb11e927085dafb",
+          "tree": [
+            {
+              "path": ".claude-plugin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0e90869b275f9e2b4196f68b5e768c95807159fc",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/0e90869b275f9e2b4196f68b5e768c95807159fc"
+            },
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a07a088e7c187d6dbdf67aca0dcece63ceb10e07",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/a07a088e7c187d6dbdf67aca0dcece63ceb10e07"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "6cb64b6ac076af732f919730b637a194d5751326",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/6cb64b6ac076af732f919730b637a194d5751326"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "cc10x-router",
+        "tree": {
+          "sha": "6cb64b6ac076af732f919730b637a194d5751326",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/6cb64b6ac076af732f919730b637a194d5751326",
+          "tree": [
+            {
+              "path": "architecture-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9ffe923c1750646c533605883977f9660bb7aa70",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/9ffe923c1750646c533605883977f9660bb7aa70"
+            },
+            {
+              "path": "brainstorming",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7f2cacd19aa02c5ec17446f06e6e8a87751261e5",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/7f2cacd19aa02c5ec17446f06e6e8a87751261e5"
+            },
+            {
+              "path": "cc10x-router",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "6d1e60fdd77ca7c12acf070a8631c4aa8d8efc1e",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/6d1e60fdd77ca7c12acf070a8631c4aa8d8efc1e"
+            },
+            {
+              "path": "code-generation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e0d21d572909a84dfa871728d7e4e2b0803d3d01",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/e0d21d572909a84dfa871728d7e4e2b0803d3d01"
+            },
+            {
+              "path": "code-review-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f232b67fe22589182508c0f9d1af3d3377f43716",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/f232b67fe22589182508c0f9d1af3d3377f43716"
+            },
+            {
+              "path": "debugging-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "679c971f41a0ae717eb596c41f27559f22d9d750",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/679c971f41a0ae717eb596c41f27559f22d9d750"
+            },
+            {
+              "path": "frontend-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3203f2cace0ed5da0e3592d249bcb859e9b80586",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/3203f2cace0ed5da0e3592d249bcb859e9b80586"
+            },
+            {
+              "path": "github-research",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8d526ffbdf5722b7f771dc634d75d2c9d8115987",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/8d526ffbdf5722b7f771dc634d75d2c9d8115987"
+            },
+            {
+              "path": "planning-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "42e390d5a31efdb2fa7090d3f8d15321d8961ce5",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/42e390d5a31efdb2fa7090d3f8d15321d8961ce5"
+            },
+            {
+              "path": "session-memory",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "271e2433d6c8ae1defd9dda6b93477ec520b353b",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/271e2433d6c8ae1defd9dda6b93477ec520b353b"
+            },
+            {
+              "path": "test-driven-development",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "306e44c862304216e010d43bde31cf4e5d2c6f55",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/306e44c862304216e010d43bde31cf4e5d2c6f55"
+            },
+            {
+              "path": "verification-before-completion",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8e6f3c4834f27d59f4f98dfbf603d96ad298973a",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/8e6f3c4834f27d59f4f98dfbf603d96ad298973a"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "6d1e60fdd77ca7c12acf070a8631c4aa8d8efc1e"
+  },
+  "new": {
+    "commit": {
+      "sha": "f80a01dbb287428ea5a5d174017c89f7f2b43dd6",
+      "node_id": "C_kwDOQHE26NoAKGY4MGEwMWRiYjI4NzQyOGVhNWE1ZDE3NDAxN2M4OWY3ZjJiNDNkZDY",
+      "url": "https://api.github.com/repos/romiluz13/cc10x/git/commits/f80a01dbb287428ea5a5d174017c89f7f2b43dd6",
+      "html_url": "https://github.com/romiluz13/cc10x/commit/f80a01dbb287428ea5a5d174017c89f7f2b43dd6",
+      "author": {
+        "name": "Rom Iluz",
+        "email": "rom@iluz.net",
+        "date": "2026-01-14T11:39:47Z"
+      },
+      "committer": {
+        "name": "Rom Iluz",
+        "email": "rom@iluz.net",
+        "date": "2026-01-14T11:39:47Z"
+      },
+      "tree": {
+        "sha": "0a58d296b9056a13e98179a38aa85f85f3437c90",
+        "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/0a58d296b9056a13e98179a38aa85f85f3437c90"
+      },
+      "message": "fix(router): add cc10x/c10x to trigger words\n\nUsers saying \"use cc10x\" or \"via c10x\" now properly trigger the router.\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "8474b9118c16a12e1a56e825687b6ad3a9372043",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/commits/8474b9118c16a12e1a56e825687b6ad3a9372043",
+          "html_url": "https://github.com/romiluz13/cc10x/commit/8474b9118c16a12e1a56e825687b6ad3a9372043"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": "plugins",
+        "tree": {
+          "sha": "0a58d296b9056a13e98179a38aa85f85f3437c90",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/0a58d296b9056a13e98179a38aa85f85f3437c90",
+          "tree": [
+            {
+              "path": ".claude-plugin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "753d4da85fb2d336c5eb1ab7ea3a613b3aaac600",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/753d4da85fb2d336c5eb1ab7ea3a613b3aaac600"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2ac707653bd8dea2b92d8e2a95290fdad89bbe8d",
+              "size": 3514,
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/blobs/2ac707653bd8dea2b92d8e2a95290fdad89bbe8d"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5a5edf9aab5b363e176a768817570ae334614e26",
+              "size": 44255,
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/blobs/5a5edf9aab5b363e176a768817570ae334614e26"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "534a9977c0d2cf284def97ab8cdee91460e0da61",
+              "size": 1065,
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/blobs/534a9977c0d2cf284def97ab8cdee91460e0da61"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4e325bb130a9277332631d97b1ae48d730a33dfe",
+              "size": 17739,
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/blobs/4e325bb130a9277332631d97b1ae48d730a33dfe"
+            },
+            {
+              "path": "plugins",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "50ba5cddd413b0f201623e0843a223b0be8890d0",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/50ba5cddd413b0f201623e0843a223b0be8890d0"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "cc10x",
+        "tree": {
+          "sha": "50ba5cddd413b0f201623e0843a223b0be8890d0",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/50ba5cddd413b0f201623e0843a223b0be8890d0",
+          "tree": [
+            {
+              "path": "cc10x",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "55e111041cbcfb5ba2dd604513511a93f9b65290",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/55e111041cbcfb5ba2dd604513511a93f9b65290"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "55e111041cbcfb5ba2dd604513511a93f9b65290",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/55e111041cbcfb5ba2dd604513511a93f9b65290",
+          "tree": [
+            {
+              "path": ".claude-plugin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0e90869b275f9e2b4196f68b5e768c95807159fc",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/0e90869b275f9e2b4196f68b5e768c95807159fc"
+            },
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a07a088e7c187d6dbdf67aca0dcece63ceb10e07",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/a07a088e7c187d6dbdf67aca0dcece63ceb10e07"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f26c8397bcc00751a03555a3eda0f6bdcb8608be",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/f26c8397bcc00751a03555a3eda0f6bdcb8608be"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "cc10x-router",
+        "tree": {
+          "sha": "f26c8397bcc00751a03555a3eda0f6bdcb8608be",
+          "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/f26c8397bcc00751a03555a3eda0f6bdcb8608be",
+          "tree": [
+            {
+              "path": "architecture-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9ffe923c1750646c533605883977f9660bb7aa70",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/9ffe923c1750646c533605883977f9660bb7aa70"
+            },
+            {
+              "path": "brainstorming",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7f2cacd19aa02c5ec17446f06e6e8a87751261e5",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/7f2cacd19aa02c5ec17446f06e6e8a87751261e5"
+            },
+            {
+              "path": "cc10x-router",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5a355459f752d3923238cb5feb9bf0e6c1d7287d",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/5a355459f752d3923238cb5feb9bf0e6c1d7287d"
+            },
+            {
+              "path": "code-generation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e0d21d572909a84dfa871728d7e4e2b0803d3d01",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/e0d21d572909a84dfa871728d7e4e2b0803d3d01"
+            },
+            {
+              "path": "code-review-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f232b67fe22589182508c0f9d1af3d3377f43716",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/f232b67fe22589182508c0f9d1af3d3377f43716"
+            },
+            {
+              "path": "debugging-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "679c971f41a0ae717eb596c41f27559f22d9d750",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/679c971f41a0ae717eb596c41f27559f22d9d750"
+            },
+            {
+              "path": "frontend-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3203f2cace0ed5da0e3592d249bcb859e9b80586",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/3203f2cace0ed5da0e3592d249bcb859e9b80586"
+            },
+            {
+              "path": "github-research",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8d526ffbdf5722b7f771dc634d75d2c9d8115987",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/8d526ffbdf5722b7f771dc634d75d2c9d8115987"
+            },
+            {
+              "path": "planning-patterns",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "42e390d5a31efdb2fa7090d3f8d15321d8961ce5",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/42e390d5a31efdb2fa7090d3f8d15321d8961ce5"
+            },
+            {
+              "path": "session-memory",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "271e2433d6c8ae1defd9dda6b93477ec520b353b",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/271e2433d6c8ae1defd9dda6b93477ec520b353b"
+            },
+            {
+              "path": "test-driven-development",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "306e44c862304216e010d43bde31cf4e5d2c6f55",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/306e44c862304216e010d43bde31cf4e5d2c6f55"
+            },
+            {
+              "path": "verification-before-completion",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8e6f3c4834f27d59f4f98dfbf603d96ad298973a",
+              "url": "https://api.github.com/repos/romiluz13/cc10x/git/trees/8e6f3c4834f27d59f4f98dfbf603d96ad298973a"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "5a355459f752d3923238cb5feb9bf0e6c1d7287d"
+  }
+}

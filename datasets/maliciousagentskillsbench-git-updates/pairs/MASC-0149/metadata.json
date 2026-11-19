@@ -1,0 +1,58 @@
+{
+  "id": "MASC-0149",
+  "skill_id": "romiluz13/cc10x::plugins/cc10x/skills/cc10x-router",
+  "skill_name": "cc10x-router",
+  "origin_repository": "romiluz13/cc10x",
+  "origin_path": "plugins/cc10x/skills/cc10x-router",
+  "version_kind": "git_commit_snapshot",
+  "old_version": "git:8474b9118c16a12e1a56e825687b6ad3a9372043",
+  "new_version": "git:f80a01dbb287428ea5a5d174017c89f7f2b43dd6",
+  "old_commit": "8474b9118c16a12e1a56e825687b6ad3a9372043",
+  "new_commit": "f80a01dbb287428ea5a5d174017c89f7f2b43dd6",
+  "old_is_exact_first_parent": true,
+  "new_commit_date": "2026-01-14T11:39:47Z",
+  "declared_version_fields": {
+    "old": {},
+    "new": {}
+  },
+  "published_release_version_change_confirmed": false,
+  "benchmark_repository": "protectskills/MaliciousAgentSkillsBench",
+  "benchmark_ref": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "benchmark_source_key": [
+    "skillsmp.com",
+    "smp_8380",
+    "cc10x-router"
+  ],
+  "origin_provenance_ref": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "source_package_prefix": "packages/smp_8380/cc10x-router",
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "old_security_label": null,
+  "new_security_label": "malicious_as_labeled_by_MaliciousAgentSkillsBench",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_source_archive_inventory": true,
+  "normalization": [
+    "omit registry _meta.json, .DS_Store and Python cache for comparison only",
+    "normalize root skill.md to SKILL.md for comparison only; preserve all original bytes"
+  ],
+  "operational_changed_files": [
+    "SKILL.md"
+  ],
+  "change_scope": "instruction_code_or_reference_change",
+  "old_files": 1,
+  "new_files": 1,
+  "local_directory": "pairs/MASC-0149",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "d690f00faf8595074fc4ecbcddee362510253314d679bad6f48b470ad6770be4",
+      "bytes": 1197
+    },
+    "package.diff": {
+      "sha256": "d690f00faf8595074fc4ecbcddee362510253314d679bad6f48b470ad6770be4",
+      "bytes": 1197
+    }
+  },
+  "compare_url": "https://github.com/romiluz13/cc10x/compare/8474b9118c16a12e1a56e825687b6ad3a9372043...f80a01dbb287428ea5a5d174017c89f7f2b43dd6"
+}

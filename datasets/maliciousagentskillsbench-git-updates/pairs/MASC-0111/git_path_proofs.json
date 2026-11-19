@@ -1,0 +1,630 @@
+{
+  "old": {
+    "commit": {
+      "sha": "9cb2d6ba78da569e04e62cce279baab1d3472117",
+      "node_id": "C_kwDOQGbyp9oAKDljYjJkNmJhNzhkYTU2OWUwNGU2MmNjZTI3OWJhYWIxZDM0NzIxMTc",
+      "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/commits/9cb2d6ba78da569e04e62cce279baab1d3472117",
+      "html_url": "https://github.com/Interstellar-code/claud-skills/commit/9cb2d6ba78da569e04e62cce279baab1d3472117",
+      "author": {
+        "name": "Interstellar-code",
+        "email": "interstellar.consulting@gmail.com",
+        "date": "2025-10-22T22:46:25Z"
+      },
+      "committer": {
+        "name": "Interstellar-code",
+        "email": "interstellar.consulting@gmail.com",
+        "date": "2025-10-22T22:46:25Z"
+      },
+      "tree": {
+        "sha": "e2223390f490de2d89b53c359058e4080c3d516c",
+        "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/e2223390f490de2d89b53c359058e4080c3d516c"
+      },
+      "message": "Release v1.14.0 - Hierarchical Multi-Agent Orchestration & CLI Enforcement\n\n## Version 1.14.0\n\nUpdated CHANGELOG.md, package.json, and README.md to reflect version 1.14.0.\n\n### Highlights\n\n**🎯 Major Feature: Hierarchical Multi-Agent Orchestration System**\n- Complete PM orchestrator (csprojecttask) that coordinates specialist sub-agents\n- State management with Python CLI tools (state_manager.py, topic_manager.py)\n- Interactive multi-topic dashboard with real-time progress tracking\n- Workaround for Claude Code limitation (agents cannot invoke other agents)\n- 3-phase workflow: PM prepares → user approves → main executes\n\n**🌐 Professional Website Templates (3 Complete Templates)**\n- Corporate Professional (enterprise-grade, blue/gray)\n- Startup Modern (vibrant, gradient-heavy, purple/pink/orange)\n- Minimalist Clean (Swiss design, typography-focused, black/white/red)\n- Production-ready: HTML, CSS, JavaScript, full documentation\n\n**🔧 CLI Modern Tools Enforcement**\n- Mandatory pre-flight check with visual decision tree\n- Silent enforcement (find → Glob, grep → Grep, cat → Read, ls → eza)\n- Updated CLAUDE.md with mandatory bash command checking\n\n**🤖 New Agents Added**\n- single-page-website-builder (HTML/CSS/JS expert)\n- feature-comparison-analyst (capability analysis)\n- market-research-analyst (market positioning)\n- pricing-research-analyst (pricing strategy)\n\n**🐛 Critical Fixes**\n- Fixed state management: sub-agents now properly update task states\n- Fixed dashboard integration: shows 100% completion correctly\n- Fixed missing create_state_file step in orchestration template\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "2497cd98fe178a31f8b342dd435b7c7b69c6c95f",
+          "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/commits/2497cd98fe178a31f8b342dd435b7c7b69c6c95f",
+          "html_url": "https://github.com/Interstellar-code/claud-skills/commit/2497cd98fe178a31f8b342dd435b7c7b69c6c95f"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": "generic-claude-framework",
+        "tree": {
+          "sha": "e2223390f490de2d89b53c359058e4080c3d516c",
+          "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/e2223390f490de2d89b53c359058e4080c3d516c",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "055f104639715497390a0196ff1828a223e188ef",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/055f104639715497390a0196ff1828a223e188ef"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ad4c42a02b0f2e05290232451edc1a3efbae6aa1",
+              "size": 34235,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/ad4c42a02b0f2e05290232451edc1a3efbae6aa1"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3486c51b54e5b78a35b96214d5eba778d4b9f0cf",
+              "size": 26038,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/3486c51b54e5b78a35b96214d5eba778d4b9f0cf"
+            },
+            {
+              "path": "Project-tasks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fb4beb763fca26443b97e167e08e13a4ccb59588",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/fb4beb763fca26443b97e167e08e13a4ccb59588"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7c1147a44e7859a5fed2b4dbaff3e76036a91fd8",
+              "size": 12028,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/7c1147a44e7859a5fed2b4dbaff3e76036a91fd8"
+            },
+            {
+              "path": "cs-prj-menu.bat",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cfc078ca0ebe8ab4a2c7efc39a18911c7e703299",
+              "size": 890,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/cfc078ca0ebe8ab4a2c7efc39a18911c7e703299"
+            },
+            {
+              "path": "cs-prj-menu.sh",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e2db5881e36d8a7c833bc795599f2d2299e0ecae",
+              "size": 1130,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/e2db5881e36d8a7c833bc795599f2d2299e0ecae"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c15e7dddbdb391f1eac867f66b8e5fef7a3a9d9b",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/c15e7dddbdb391f1eac867f66b8e5fef7a3a9d9b"
+            },
+            {
+              "path": "examples",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "df5f8ea9a48629ccb6b68a2a182c0370063f310c",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/df5f8ea9a48629ccb6b68a2a182c0370063f310c"
+            },
+            {
+              "path": "generic-claude-framework",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b3cf739af9489d81193667711e9541d41517af09",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/b3cf739af9489d81193667711e9541d41517af09"
+            },
+            {
+              "path": "package.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bd66aed389216406f047ec6c4db4897236c433b7",
+              "size": 874,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/bd66aed389216406f047ec6c4db4897236c433b7"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4718022a7531294a49141f5e14d0ed76402c67fc",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/4718022a7531294a49141f5e14d0ed76402c67fc"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "b3cf739af9489d81193667711e9541d41517af09",
+          "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/b3cf739af9489d81193667711e9541d41517af09",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "04a9e03aa81055a3e5d90b410d19c30f6d558837",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/04a9e03aa81055a3e5d90b410d19c30f6d558837"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "71bf7b80568ff03b25e77283b1d14638fa556061",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/71bf7b80568ff03b25e77283b1d14638fa556061"
+            },
+            {
+              "path": "examples",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9dcbd68339878183ab63957569353f0aa37fea53",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/9dcbd68339878183ab63957569353f0aa37fea53"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b7ff1faf6255a2eff881873daa14a06fd0a6068f",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/b7ff1faf6255a2eff881873daa14a06fd0a6068f"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "lark-agent-simple",
+        "tree": {
+          "sha": "b7ff1faf6255a2eff881873daa14a06fd0a6068f",
+          "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/b7ff1faf6255a2eff881873daa14a06fd0a6068f",
+          "tree": [
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c2179e5970d6a1befa57cf46a4520465c00e7d1b",
+              "size": 7632,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/c2179e5970d6a1befa57cf46a4520465c00e7d1b"
+            },
+            {
+              "path": "agent_skills_spec.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6b6972b18689a4b691b703f981a42f19890042af",
+              "size": 1698,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/6b6972b18689a4b691b703f981a42f19890042af"
+            },
+            {
+              "path": "changelog-manager",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b5fdcbb0e89bb7bf37176dd73733aacb3bad89c2",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/b5fdcbb0e89bb7bf37176dd73733aacb3bad89c2"
+            },
+            {
+              "path": "cli-modern-tools",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f72c39c69672ec016c33183114a1635cc797da26",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/f72c39c69672ec016c33183114a1635cc797da26"
+            },
+            {
+              "path": "colored-output",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "98a499ec7954b27487bfa1156ed4cb78c474f7f9",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/98a499ec7954b27487bfa1156ed4cb78c474f7f9"
+            },
+            {
+              "path": "document-skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "40ade9a4c4057170aecd7f7742458ecb014defb8",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/40ade9a4c4057170aecd7f7742458ecb014defb8"
+            },
+            {
+              "path": "eslint-fixer.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3bbaa40350b151b8244c901dc31f731a25a5acfa",
+              "size": 3934,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/3bbaa40350b151b8244c901dc31f731a25a5acfa"
+            },
+            {
+              "path": "lark-agent-simple",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "892b065ef01f02798beb087c60867d0d1815472a",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/892b065ef01f02798beb087c60867d0d1815472a"
+            },
+            {
+              "path": "lark-agent",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "45adf0f485e12bfa6f9f9d4f608aae3e937d7494",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/45adf0f485e12bfa6f9f9d4f608aae3e937d7494"
+            },
+            {
+              "path": "log-analysis-tools",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7ae5a19e128053f30309ace9be43787d816cfd27",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/7ae5a19e128053f30309ace9be43787d816cfd27"
+            },
+            {
+              "path": "markdown-helper",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bec1426296186b55ac96b30b344a27ea50123887",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/bec1426296186b55ac96b30b344a27ea50123887"
+            },
+            {
+              "path": "skill-creator",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ac49263c975f524edbd5fcfbcb2ab4d12e5febea",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/ac49263c975f524edbd5fcfbcb2ab4d12e5febea"
+            },
+            {
+              "path": "skill-manager",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "cf736e91998201c921d454054a32d168bb507787",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/cf736e91998201c921d454054a32d168bb507787"
+            },
+            {
+              "path": "sql-cli",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c69cf7c1c2ac1dd38c87b9eb11007f59eaddf439",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/c69cf7c1c2ac1dd38c87b9eb11007f59eaddf439"
+            },
+            {
+              "path": "template-skill",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "cc9bd49cb72fa92429ba90bef1736b30bbda50f2",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/cc9bd49cb72fa92429ba90bef1736b30bbda50f2"
+            },
+            {
+              "path": "time-helper",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a0c9d13437e38e2bfb58aff86fb5d0284b33d2fa",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/a0c9d13437e38e2bfb58aff86fb5d0284b33d2fa"
+            },
+            {
+              "path": "webapp-testing",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "36ea745fddd338843b61bf2c1c38a71b4e5238b5",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/36ea745fddd338843b61bf2c1c38a71b4e5238b5"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "892b065ef01f02798beb087c60867d0d1815472a"
+  },
+  "new": {
+    "commit": {
+      "sha": "b0e68a46a0894559fc78b05bc705ae7c7ededf13",
+      "node_id": "C_kwDOQGbyp9oAKGIwZTY4YTQ2YTA4OTQ1NTlmYzc4YjA1YmM3MDVhZTdjN2VkZWRmMTM",
+      "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/commits/b0e68a46a0894559fc78b05bc705ae7c7ededf13",
+      "html_url": "https://github.com/Interstellar-code/claud-skills/commit/b0e68a46a0894559fc78b05bc705ae7c7ededf13",
+      "author": {
+        "name": "Interstellar-code",
+        "email": "interstellar.consulting@gmail.com",
+        "date": "2025-10-22T22:51:14Z"
+      },
+      "committer": {
+        "name": "Interstellar-code",
+        "email": "interstellar.consulting@gmail.com",
+        "date": "2025-10-22T22:51:14Z"
+      },
+      "tree": {
+        "sha": "269f517ed0de181bb44beb9061655d2c3c808496",
+        "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/269f517ed0de181bb44beb9061655d2c3c808496"
+      },
+      "message": "docs: auto-generated documentation for v1.14.0\n\nRegenerated all agent and skill READMEs, plus catalogs to reflect v1.14.0.\n\nGenerated documentation:\n- 14 agent READMEs updated\n- 13 skill READMEs updated\n- 2 catalogs updated (AGENT_CATALOG.md, SKILL_CATALOG.md)\n- Added release verification report\n\nThis step should have been included in the v1.14.0 release commit but was missed.\nRunning documentation generation is MANDATORY per changelog-manager workflow.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "9cb2d6ba78da569e04e62cce279baab1d3472117",
+          "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/commits/9cb2d6ba78da569e04e62cce279baab1d3472117",
+          "html_url": "https://github.com/Interstellar-code/claud-skills/commit/9cb2d6ba78da569e04e62cce279baab1d3472117"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": "generic-claude-framework",
+        "tree": {
+          "sha": "269f517ed0de181bb44beb9061655d2c3c808496",
+          "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/269f517ed0de181bb44beb9061655d2c3c808496",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "055f104639715497390a0196ff1828a223e188ef",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/055f104639715497390a0196ff1828a223e188ef"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ad4c42a02b0f2e05290232451edc1a3efbae6aa1",
+              "size": 34235,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/ad4c42a02b0f2e05290232451edc1a3efbae6aa1"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3486c51b54e5b78a35b96214d5eba778d4b9f0cf",
+              "size": 26038,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/3486c51b54e5b78a35b96214d5eba778d4b9f0cf"
+            },
+            {
+              "path": "Project-tasks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fb4beb763fca26443b97e167e08e13a4ccb59588",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/fb4beb763fca26443b97e167e08e13a4ccb59588"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7c1147a44e7859a5fed2b4dbaff3e76036a91fd8",
+              "size": 12028,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/7c1147a44e7859a5fed2b4dbaff3e76036a91fd8"
+            },
+            {
+              "path": "RELEASE-VERIFICATION-v1.14.0.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "1d791de74d126e746c77f67863ec279e7d90c50d",
+              "size": 9910,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/1d791de74d126e746c77f67863ec279e7d90c50d"
+            },
+            {
+              "path": "cs-prj-menu.bat",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cfc078ca0ebe8ab4a2c7efc39a18911c7e703299",
+              "size": 890,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/cfc078ca0ebe8ab4a2c7efc39a18911c7e703299"
+            },
+            {
+              "path": "cs-prj-menu.sh",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e2db5881e36d8a7c833bc795599f2d2299e0ecae",
+              "size": 1130,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/e2db5881e36d8a7c833bc795599f2d2299e0ecae"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bcc9aceb2927f04c66750305038186943344c0ad",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/bcc9aceb2927f04c66750305038186943344c0ad"
+            },
+            {
+              "path": "examples",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "df5f8ea9a48629ccb6b68a2a182c0370063f310c",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/df5f8ea9a48629ccb6b68a2a182c0370063f310c"
+            },
+            {
+              "path": "generic-claude-framework",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "426184a92b85ea1423e3d8bbce4488e80a85eb14",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/426184a92b85ea1423e3d8bbce4488e80a85eb14"
+            },
+            {
+              "path": "package.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bd66aed389216406f047ec6c4db4897236c433b7",
+              "size": 874,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/bd66aed389216406f047ec6c4db4897236c433b7"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4718022a7531294a49141f5e14d0ed76402c67fc",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/4718022a7531294a49141f5e14d0ed76402c67fc"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "426184a92b85ea1423e3d8bbce4488e80a85eb14",
+          "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/426184a92b85ea1423e3d8bbce4488e80a85eb14",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4b484fb8f8ec8509988c82047b732740d1797143",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/4b484fb8f8ec8509988c82047b732740d1797143"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "71bf7b80568ff03b25e77283b1d14638fa556061",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/71bf7b80568ff03b25e77283b1d14638fa556061"
+            },
+            {
+              "path": "examples",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9dcbd68339878183ab63957569353f0aa37fea53",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/9dcbd68339878183ab63957569353f0aa37fea53"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "83955c2185f9fddddf0ef01d4143f0908a7b54d3",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/83955c2185f9fddddf0ef01d4143f0908a7b54d3"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "lark-agent-simple",
+        "tree": {
+          "sha": "83955c2185f9fddddf0ef01d4143f0908a7b54d3",
+          "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/83955c2185f9fddddf0ef01d4143f0908a7b54d3",
+          "tree": [
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c2179e5970d6a1befa57cf46a4520465c00e7d1b",
+              "size": 7632,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/c2179e5970d6a1befa57cf46a4520465c00e7d1b"
+            },
+            {
+              "path": "agent_skills_spec.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6b6972b18689a4b691b703f981a42f19890042af",
+              "size": 1698,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/6b6972b18689a4b691b703f981a42f19890042af"
+            },
+            {
+              "path": "changelog-manager",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "10ed9a630bd6f371ca13e67e3643d77a58fe1147",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/10ed9a630bd6f371ca13e67e3643d77a58fe1147"
+            },
+            {
+              "path": "cli-modern-tools",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e37a7fd714284d2f3838817d2dfea1f38316787c",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/e37a7fd714284d2f3838817d2dfea1f38316787c"
+            },
+            {
+              "path": "colored-output",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "76af4637f35f5af0b629a6617b5699457143cbc0",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/76af4637f35f5af0b629a6617b5699457143cbc0"
+            },
+            {
+              "path": "document-skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "40ade9a4c4057170aecd7f7742458ecb014defb8",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/40ade9a4c4057170aecd7f7742458ecb014defb8"
+            },
+            {
+              "path": "eslint-fixer.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3bbaa40350b151b8244c901dc31f731a25a5acfa",
+              "size": 3934,
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/blobs/3bbaa40350b151b8244c901dc31f731a25a5acfa"
+            },
+            {
+              "path": "lark-agent-simple",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "89a5cad28cd4015ab184cea0ff87a011aa9777a5",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/89a5cad28cd4015ab184cea0ff87a011aa9777a5"
+            },
+            {
+              "path": "lark-agent",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e06af0fb56342c9cea8b58058ea13f38307cc138",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/e06af0fb56342c9cea8b58058ea13f38307cc138"
+            },
+            {
+              "path": "log-analysis-tools",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "378d28ea192548b82f4df447785cf8c26f553db8",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/378d28ea192548b82f4df447785cf8c26f553db8"
+            },
+            {
+              "path": "markdown-helper",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1a2f501050baad2710c07a7e80e220a6735504f8",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/1a2f501050baad2710c07a7e80e220a6735504f8"
+            },
+            {
+              "path": "skill-creator",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "04d62b2820910f5359c9d4bbbcbdd10d9e57a42e",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/04d62b2820910f5359c9d4bbbcbdd10d9e57a42e"
+            },
+            {
+              "path": "skill-manager",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "916d57c27d3c55a4e93b2a126bf06cfdd30e89dd",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/916d57c27d3c55a4e93b2a126bf06cfdd30e89dd"
+            },
+            {
+              "path": "sql-cli",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d325d42f4e38153fc7347390045270f2bb24f531",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/d325d42f4e38153fc7347390045270f2bb24f531"
+            },
+            {
+              "path": "template-skill",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3778c70fa828ccd869cdadf2c047b277656b8c15",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/3778c70fa828ccd869cdadf2c047b277656b8c15"
+            },
+            {
+              "path": "time-helper",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ede3438c03dad2bc5d23547b76ea593470d7cc2d",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/ede3438c03dad2bc5d23547b76ea593470d7cc2d"
+            },
+            {
+              "path": "webapp-testing",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "aba83485a6d313f60f3fd5e8c29bc7cd18f65de4",
+              "url": "https://api.github.com/repos/Interstellar-code/claud-skills/git/trees/aba83485a6d313f60f3fd5e8c29bc7cd18f65de4"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "89a5cad28cd4015ab184cea0ff87a011aa9777a5"
+  }
+}

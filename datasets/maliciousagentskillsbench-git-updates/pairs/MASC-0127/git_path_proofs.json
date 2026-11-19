@@ -1,0 +1,348 @@
+{
+  "old": {
+    "commit": {
+      "sha": "b1ac047eff5a8eb8383bdf8a04411d9b3671a716",
+      "node_id": "C_kwDOQkl339oAKGIxYWMwNDdlZmY1YThlYjgzODNiZGY4YTA0NDExZDliMzY3MWE3MTY",
+      "url": "https://api.github.com/repos/andr81/pers-assist/git/commits/b1ac047eff5a8eb8383bdf8a04411d9b3671a716",
+      "html_url": "https://github.com/andr81/pers-assist/commit/b1ac047eff5a8eb8383bdf8a04411d9b3671a716",
+      "author": {
+        "name": "Andrei Vitkouski",
+        "email": "andrei.vitkouski@clawbuster.com",
+        "date": "2026-01-02T19:58:23Z"
+      },
+      "committer": {
+        "name": "Andrei Vitkouski",
+        "email": "andrei.vitkouski@clawbuster.com",
+        "date": "2026-01-02T19:58:23Z"
+      },
+      "tree": {
+        "sha": "982b5153bcb20e69b0fd6640e6a40478ee1c5619",
+        "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/982b5153bcb20e69b0fd6640e6a40478ee1c5619"
+      },
+      "message": "Add Notion API workaround script and update documentation\n\n- Add create-notion-page.sh script as workaround for MCP bug\n- Update add-med-record skill documentation with workaround workflow\n- Add claude-code tools reference section to CLAUDE.md\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "7d96873b7c93ad00bd21388ab1b3d4d78285243c",
+          "url": "https://api.github.com/repos/andr81/pers-assist/git/commits/7d96873b7c93ad00bd21388ab1b3d4d78285243c",
+          "html_url": "https://github.com/andr81/pers-assist/commit/7d96873b7c93ad00bd21388ab1b3d4d78285243c"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "982b5153bcb20e69b0fd6640e6a40478ee1c5619",
+          "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/982b5153bcb20e69b0fd6640e6a40478ee1c5619",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0c1e92c72733c251cdaa2e9cd722c131ab7dfc15",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/0c1e92c72733c251cdaa2e9cd722c131ab7dfc15"
+            },
+            {
+              "path": ".env.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7a25d4651bc5a1bb92c3feb1a5b0e4b82b815826",
+              "size": 93,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/7a25d4651bc5a1bb92c3feb1a5b0e4b82b815826"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b57facda6b6decfc64c75d9c5ffa20eb34a13fff",
+              "size": 3442,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/b57facda6b6decfc64c75d9c5ffa20eb34a13fff"
+            },
+            {
+              "path": ".mcp.json.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "52dd12953edb44506c11afbcc6239a473c5ab373",
+              "size": 559,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/52dd12953edb44506c11afbcc6239a473c5ab373"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0296ab2bb260e6ce7b6655ac8d525b1533437b33",
+              "size": 16311,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/0296ab2bb260e6ce7b6655ac8d525b1533437b33"
+            },
+            {
+              "path": "config",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a637b4f99e4631b14aeef1417ca0f54913eb7e93",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/a637b4f99e4631b14aeef1417ca0f54913eb7e93"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2e4e8b57d069b39b1a9730dd888d11d7469f406c",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/2e4e8b57d069b39b1a9730dd888d11d7469f406c"
+            },
+            {
+              "path": "singularity-mcp",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4f4bf5a42a1071419f2c040900ffe4652f85c5d3",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/4f4bf5a42a1071419f2c040900ffe4652f85c5d3"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "0c1e92c72733c251cdaa2e9cd722c131ab7dfc15",
+          "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/0c1e92c72733c251cdaa2e9cd722c131ab7dfc15",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "76fae37f44d26c7e09213766e8e3962ec4def769",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/76fae37f44d26c7e09213766e8e3962ec4def769"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4f651dfea78ad2632e930be98d7919a61e31cda5",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/4f651dfea78ad2632e930be98d7919a61e31cda5"
+            },
+            {
+              "path": "settings.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "16e838ef58fcecb54d83a87c09761cd60799558f",
+              "size": 131,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/16e838ef58fcecb54d83a87c09761cd60799558f"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "41b71ce57dea52bc6f4c557d308c5131d315711f",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/41b71ce57dea52bc6f4c557d308c5131d315711f"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "weekly-plan",
+        "tree": {
+          "sha": "41b71ce57dea52bc6f4c557d308c5131d315711f",
+          "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/41b71ce57dea52bc6f4c557d308c5131d315711f",
+          "tree": [
+            {
+              "path": "add-med-record",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "be2a9f6b74ead7ab4a37f8fe82bee8cff0e58f34",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/be2a9f6b74ead7ab4a37f8fe82bee8cff0e58f34"
+            },
+            {
+              "path": "weekly-plan",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5f2c72c02dc572f6cc2835a7061f39d053b2daeb",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/5f2c72c02dc572f6cc2835a7061f39d053b2daeb"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "5f2c72c02dc572f6cc2835a7061f39d053b2daeb"
+  },
+  "new": {
+    "commit": {
+      "sha": "d69e622a283314e23088cee44f96883406143afd",
+      "node_id": "C_kwDOQkl339oAKGQ2OWU2MjJhMjgzMzE0ZTIzMDg4Y2VlNDRmOTY4ODM0MDYxNDNhZmQ",
+      "url": "https://api.github.com/repos/andr81/pers-assist/git/commits/d69e622a283314e23088cee44f96883406143afd",
+      "html_url": "https://github.com/andr81/pers-assist/commit/d69e622a283314e23088cee44f96883406143afd",
+      "author": {
+        "name": "Andrei Vitkouski",
+        "email": "andrei.vitkouski@clawbuster.com",
+        "date": "2026-01-05T13:05:28Z"
+      },
+      "committer": {
+        "name": "Andrei Vitkouski",
+        "email": "andrei.vitkouski@clawbuster.com",
+        "date": "2026-01-05T13:05:28Z"
+      },
+      "tree": {
+        "sha": "ff63f6129f86cec16034c28770999c1dca41c60a",
+        "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/ff63f6129f86cec16034c28770999c1dca41c60a"
+      },
+      "message": "Require system date and revise weekly plan\n\nReplace external time APIs with system `date` calls in SKILL.md and\nCLAUDE.md Add a curl+python pipeline to fetch and group all active tasks\nby project Require reporting of all tasks (week / later / deferred) and\nnew output order Increase news coverage to 20–30 items, add category\nqueries and a digest Change report filename format to Week-YYYY-MM-DD",
+      "parents": [
+        {
+          "sha": "b1ac047eff5a8eb8383bdf8a04411d9b3671a716",
+          "url": "https://api.github.com/repos/andr81/pers-assist/git/commits/b1ac047eff5a8eb8383bdf8a04411d9b3671a716",
+          "html_url": "https://github.com/andr81/pers-assist/commit/b1ac047eff5a8eb8383bdf8a04411d9b3671a716"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "ff63f6129f86cec16034c28770999c1dca41c60a",
+          "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/ff63f6129f86cec16034c28770999c1dca41c60a",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a572d3a3216fc7d213354d0fa9a62bcf3500f0a9",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/a572d3a3216fc7d213354d0fa9a62bcf3500f0a9"
+            },
+            {
+              "path": ".env.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7a25d4651bc5a1bb92c3feb1a5b0e4b82b815826",
+              "size": 93,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/7a25d4651bc5a1bb92c3feb1a5b0e4b82b815826"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b57facda6b6decfc64c75d9c5ffa20eb34a13fff",
+              "size": 3442,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/b57facda6b6decfc64c75d9c5ffa20eb34a13fff"
+            },
+            {
+              "path": ".mcp.json.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "52dd12953edb44506c11afbcc6239a473c5ab373",
+              "size": 559,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/52dd12953edb44506c11afbcc6239a473c5ab373"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "df8875a5a959e516bf0c5a9a1269359ecfd9dc51",
+              "size": 16448,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/df8875a5a959e516bf0c5a9a1269359ecfd9dc51"
+            },
+            {
+              "path": "config",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a637b4f99e4631b14aeef1417ca0f54913eb7e93",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/a637b4f99e4631b14aeef1417ca0f54913eb7e93"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2e4e8b57d069b39b1a9730dd888d11d7469f406c",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/2e4e8b57d069b39b1a9730dd888d11d7469f406c"
+            },
+            {
+              "path": "singularity-mcp",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4f4bf5a42a1071419f2c040900ffe4652f85c5d3",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/4f4bf5a42a1071419f2c040900ffe4652f85c5d3"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "a572d3a3216fc7d213354d0fa9a62bcf3500f0a9",
+          "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/a572d3a3216fc7d213354d0fa9a62bcf3500f0a9",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "76fae37f44d26c7e09213766e8e3962ec4def769",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/76fae37f44d26c7e09213766e8e3962ec4def769"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4f651dfea78ad2632e930be98d7919a61e31cda5",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/4f651dfea78ad2632e930be98d7919a61e31cda5"
+            },
+            {
+              "path": "settings.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "16e838ef58fcecb54d83a87c09761cd60799558f",
+              "size": 131,
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/blobs/16e838ef58fcecb54d83a87c09761cd60799558f"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5468d7fdfa13d78158f1de7cbbb05819b875ab55",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/5468d7fdfa13d78158f1de7cbbb05819b875ab55"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "weekly-plan",
+        "tree": {
+          "sha": "5468d7fdfa13d78158f1de7cbbb05819b875ab55",
+          "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/5468d7fdfa13d78158f1de7cbbb05819b875ab55",
+          "tree": [
+            {
+              "path": "add-med-record",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "be2a9f6b74ead7ab4a37f8fe82bee8cff0e58f34",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/be2a9f6b74ead7ab4a37f8fe82bee8cff0e58f34"
+            },
+            {
+              "path": "weekly-plan",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d77c97f1d35e6afd837ee80c4e2e4c017a1c02e9",
+              "url": "https://api.github.com/repos/andr81/pers-assist/git/trees/d77c97f1d35e6afd837ee80c4e2e4c017a1c02e9"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "d77c97f1d35e6afd837ee80c4e2e4c017a1c02e9"
+  }
+}

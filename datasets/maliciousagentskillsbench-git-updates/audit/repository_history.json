@@ -1,0 +1,323 @@
+[
+  {
+    "sha": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+    "message": "Add AE badges, paper PDF, and overview figure to README",
+    "date": "2026-08-03T08:30:44Z",
+    "parents": [
+      "9b525dbbfb528ed152a6a9e3ce43e29eb8686515"
+    ]
+  },
+  {
+    "sha": "9b525dbbfb528ed152a6a9e3ce43e29eb8686515",
+    "message": "docs: fix stray samples/malicious reference in README",
+    "date": "2026-07-21T05:01:53Z",
+    "parents": [
+      "f638f11deafd8dd0066a8e5b6c8d0fcd3b407e24"
+    ]
+  },
+  {
+    "sha": "f638f11deafd8dd0066a8e5b6c8d0fcd3b407e24",
+    "message": "samples: flatten layout to samples/math-calculator (drop malicious/ path)\n\nThe intermediate 'malicious' directory leaked into the skill path passed to the triage/agent; flattening keeps detection driven by the skill's code, not its path. Scripts and README updated to point at samples/.",
+    "date": "2026-07-21T04:59:26Z",
+    "parents": [
+      "df03f84f1d10002a8b4cca55f9599c635aab0a2d"
+    ]
+  },
+  {
+    "sha": "df03f84f1d10002a8b4cca55f9599c635aab0a2d",
+    "message": "Merge pull request #13 from protectskills/fix/cc-analyze-json-shape\n\nDynamic-execution robustness fixes and a controlled malicious sample",
+    "date": "2026-07-21T04:46:44Z",
+    "parents": [
+      "5f0b22b0dd4dcc2cd9ef33842f2309308d0c50bc",
+      "be6e00e59c0f6076ae9b958e8e20909014d2ee67"
+    ]
+  },
+  {
+    "sha": "be6e00e59c0f6076ae9b958e8e20909014d2ee67",
+    "message": "samples: add defanged malicious sample with CC-triage and dynamic reproduction; default CC model to haiku; document API-key/model setup\n\nAdd samples/malicious/math-calculator (confirmed malicious skill rest_1659) with its reverse-shell endpoint defanged to 127.0.0.1. samples/run_cc.sh runs the Claude Code triage (pipeline step 8) on it; samples/run_detection.sh runs the dynamic sandbox. Default CC_MODEL is now the robust 'haiku' alias (still overridable via CC_MODEL or a settings.json env block). README documents using an API key or an Anthropic-compatible endpoint (e.g. GLM).",
+    "date": "2026-07-21T04:42:01Z",
+    "parents": [
+      "eb9a745ca415d4589d4bbcf61620fe87eb030ae2"
+    ]
+  },
+  {
+    "sha": "eb9a745ca415d4589d4bbcf61620fe87eb030ae2",
+    "message": "executor: guard empty SETTINGS_ENV_ARGS under set -u; raise default exec timeout\n\nrun_skill_hostauth.sh used \"${SETTINGS_ENV_ARGS[@]}\", which trips an unbound-variable error under set -u on bash 3.2 (default on macOS) when no settings env-file is present; use the ${arr[@]+...} form so an empty array expands to nothing safely. Raise the default EXEC_TIMEOUT from 240 to 600 to reduce spurious execution timeouts.",
+    "date": "2026-07-20T15:51:06Z",
+    "parents": [
+      "1fce97831aa4f9f6e089abe059a2367b30f4c6a4"
+    ]
+  },
+  {
+    "sha": "1fce97831aa4f9f6e089abe059a2367b30f4c6a4",
+    "message": "analyzer: tolerate non-object CC triage responses\n\ncc_analyzer.sh injected run metadata assuming the model returned a JSON object; a top-level array made the step raise AttributeError and abort the task under set -e. Inject metadata only for object responses and pass other shapes through, so a non-object response routes to the ERROR bucket instead of failing the run.",
+    "date": "2026-07-20T12:27:08Z",
+    "parents": [
+      "5f0b22b0dd4dcc2cd9ef33842f2309308d0c50bc"
+    ]
+  },
+  {
+    "sha": "5f0b22b0dd4dcc2cd9ef33842f2309308d0c50bc",
+    "message": "analysis: add E1 dataset count check (stdlib, no deps)",
+    "date": "2026-07-08T04:59:57Z",
+    "parents": [
+      "2620f7833822bab50f8de65ae409992cc2443747"
+    ]
+  },
+  {
+    "sha": "2620f7833822bab50f8de65ae409992cc2443747",
+    "message": "executor: take run status from Claude's exit code; default strace off on macOS\n\nrun_skill_hostauth.sh derives the run result from Claude's own exit code and gates strace behind USE_STRACE. In-container ptrace is unreliable in the Docker Desktop VM on macOS, so syscall tracing defaults off there (Linux keeps it on); override with USE_STRACE. README documents host jq, GNU timeout/coreutils, Claude Code install/login, and USE_STRACE.",
+    "date": "2026-07-08T04:59:57Z",
+    "parents": [
+      "f3ab057e5d80a757a9f5650bb05ff2333d8217a1"
+    ]
+  },
+  {
+    "sha": "f3ab057e5d80a757a9f5650bb05ff2333d8217a1",
+    "message": "Update README: align title with paper, add badges, link HuggingFace/Zenodo, move citation up",
+    "date": "2026-06-17T08:57:56Z",
+    "parents": [
+      "28b3aa3acced6d25761b6f53ed370feab6619414"
+    ]
+  },
+  {
+    "sha": "28b3aa3acced6d25761b6f53ed370feab6619414",
+    "message": "Update citation for malicious agent skills paper",
+    "date": "2026-06-15T07:47:16Z",
+    "parents": [
+      "e73442e6ff7b712255f066214852cf5bbcbd0603"
+    ]
+  },
+  {
+    "sha": "e73442e6ff7b712255f066214852cf5bbcbd0603",
+    "message": "Update",
+    "date": "2026-06-14T20:23:03Z",
+    "parents": [
+      "4e7381a0b27ae70e15224d561fc82116604fe297"
+    ]
+  },
+  {
+    "sha": "4e7381a0b27ae70e15224d561fc82116604fe297",
+    "message": "Merge pull request #12 from protectskills/repro/rq1-landscape-analysis\n\nAdd RQ1 landscape and co-occurrence network analysis scripts",
+    "date": "2026-06-01T12:27:31Z",
+    "parents": [
+      "0bf5a882ef9f7ffc2c414d481c9eebb6d6e20a26",
+      "82e89785da0dd759de12b5fe9f04e60c67d3e179"
+    ]
+  },
+  {
+    "sha": "82e89785da0dd759de12b5fe9f04e60c67d3e179",
+    "message": "Make released landscape results independently reproducible\n\nAdd the RQ1 landscape, phase co-occurrence, archetype, network, and dataset-funnel analysis scripts alongside pipeline wrappers and documentation. The scripts derive the corresponding RQ1/RQ2 figures and tables from the released labeled set and snapshot without requiring a crawl or sandbox run.\n\nConstraint: Keep the reviewer-facing reproduction path focused on released CSV inputs\nRejected: Commit all untracked workspace files | workspace-only notes and patch files are outside the reproducibility surface\nConfidence: high\nScope-risk: narrow\nReversibility: clean\nDirective: Keep taxonomy normalization behavior aligned across analysis scripts\nTested: python3 -m py_compile for analysis scripts; bash -n for wrappers 11-15; executed wrappers 11-15; git diff --check origin/main",
+    "date": "2026-06-01T12:11:05Z",
+    "parents": [
+      "0bf5a882ef9f7ffc2c414d481c9eebb6d6e20a26"
+    ]
+  },
+  {
+    "sha": "0bf5a882ef9f7ffc2c414d481c9eebb6d6e20a26",
+    "message": "Merge pull request #11 from protectskills/repro/rq2-analysis\n\nAdd RQ2 analysis scripts and refresh released datasets and docs",
+    "date": "2026-05-30T17:13:44Z",
+    "parents": [
+      "1fae6561a9bbf400c6426a28503235870a86b5bf",
+      "04b9a7a014c47f6f6eca719ba5f0c6d8f0444baa"
+    ]
+  },
+  {
+    "sha": "04b9a7a014c47f6f6eca719ba5f0c6d8f0444baa",
+    "message": "Add RQ2 analysis scripts and refresh released datasets and docs\n\n- code/analysis/: taxonomy, co-occurrence, and hypothesis-testing scripts that re-derive the Section 5.4 results from data/malicious_skills.csv (plus scripts/09,10 wrappers)\n\n- data/: malicious_skills.csv lists Pattern tokens per vulnerability instance with an aligned per-instance Severity column; skills_dataset.csv is the 98,380-skill snapshot with malicious download pointers redacted\n\n- docs: README/.env.example/helper.py/DOCKER_BUILD.md guidance for the SkillsMP API key and the Docker sandbox image",
+    "date": "2026-05-30T16:55:50Z",
+    "parents": [
+      "1fae6561a9bbf400c6426a28503235870a86b5bf"
+    ]
+  },
+  {
+    "sha": "1fae6561a9bbf400c6426a28503235870a86b5bf",
+    "message": "Merge pull request #10 from protectskills/repro/claude-hostauth-dynamic-exec\n\nMake dynamic execution outcomes artifact-first",
+    "date": "2026-05-19T12:07:44Z",
+    "parents": [
+      "7694f1dec3516dd3de384d4bb1ff10d69c149f3e",
+      "06e164900409695b7f3d4cef3b025d557dbeea0e"
+    ]
+  },
+  {
+    "sha": "7694f1dec3516dd3de384d4bb1ff10d69c149f3e",
+    "message": "Merge pull request #9 from protectskills/repro/preserve-env-on-load-tar\n\nPreserve helper env when loading sandbox archives",
+    "date": "2026-05-19T11:36:18Z",
+    "parents": [
+      "e6445ae0b74f33237811cb3f613e7ce724c7ad63",
+      "e5c79fd373fc08d81653da1df8a34a9abab1a998"
+    ]
+  },
+  {
+    "sha": "e5c79fd373fc08d81653da1df8a34a9abab1a998",
+    "message": "Preserve helper env when loading sandbox archives\n\nLoading a Docker image tar updates DOCKER_IMAGE in the local env file. Preserve active local settings such as SkillsMP, GitHub, Claude, and Docker command values during that writeback, and resolve tar paths relative to both code/ and the repository root so menu input is less fragile.\\n\\nConstraint: Users may initialize or export required credentials before importing the prebuilt sandbox image.\\nRejected: Requiring another init after image load | hides the writeback problem and breaks the menu flow.\\nConfidence: high\\nScope-risk: narrow\\nTested: python3 -m py_compile code/helper.py\\nTested: helper writeback regression with temporary .env\\nTested: fake docker load preserves shell-provided SKILLSMP_API_KEY/GITHUB_TOKEN and updates DOCKER_IMAGE\\nNot-tested: Real Docker load on the remote server.",
+    "date": "2026-05-19T11:21:41Z",
+    "parents": [
+      "e6445ae0b74f33237811cb3f613e7ce724c7ad63"
+    ]
+  },
+  {
+    "sha": "06e164900409695b7f3d4cef3b025d557dbeea0e",
+    "message": "Make dynamic execution outcomes artifact-first\n\nThe dynamic runner now treats normal completion and timeout-with-monitoring-artifacts as one compatible success model, while optional execution reports add evidence instead of changing the accounting path. The helper, manual script, and hostauth executor now agree on report-mode timeout selection and boolean parsing, and host Claude settings can supply auth without copying secrets into tracked files.\\n\\nConstraint: Dynamic runs often produce NOVA reports before Claude emits final --print output.\\nConstraint: Existing queue state files may contain earlier timeout/report status names.\\nRejected: Separate report-mode success statuses | would make helper summaries and state skipping diverge by configuration.\\nRejected: Always increasing EXEC_TIMEOUT | wastes model budget and hides useful timeout-captured results.\\nConfidence: high\\nScope-risk: moderate\\nDirective: Keep batch success accounting artifact-first; report files should remain supplemental evidence, not a separate success path.\\nTested: python3 -m py_compile code/helper.py code/executor/batch_runner.py\\nTested: bash -n code/executor/run_skill_hostauth.sh code/scripts/06_execute.sh\\nTested: helper auth/report-timeout/state compatibility checks with temporary fixtures\\nTested: hostauth dry-run with fake docker command and settings auth\\nTested: helper load-tar fake docker import updates DOCKER_IMAGE\\nNot-tested: Real Claude Code dynamic execution, to avoid model quota use.",
+    "date": "2026-05-19T11:20:28Z",
+    "parents": [
+      "2c8eaed867020e432bc3dddac808e0e9e3f62d00"
+    ]
+  },
+  {
+    "sha": "e6445ae0b74f33237811cb3f613e7ce724c7ad63",
+    "message": "Merge pull request #8 from protectskills/repro/claude-hostauth-dynamic-exec\n\nMake dynamic execution outcomes artifact-first",
+    "date": "2026-05-19T10:51:18Z",
+    "parents": [
+      "34d00eb765f4526b5cccc6164de67b39982e5490",
+      "f4e2ea629f9bb2c431a42e334a971b7890e36c07"
+    ]
+  },
+  {
+    "sha": "f4e2ea629f9bb2c431a42e334a971b7890e36c07",
+    "message": "Make dynamic execution outcomes artifact-first\n\nThe dynamic runner now treats normal completion and timeout-with-monitoring-artifacts as one compatible success model, while optional execution reports add evidence instead of changing the accounting path. The helper, manual script, and hostauth executor now agree on report-mode timeout selection and boolean parsing, and host Claude settings can supply auth without copying secrets into tracked files.\\n\\nConstraint: Dynamic runs often produce NOVA reports before Claude emits final --print output.\\nConstraint: Existing queue state files may contain earlier timeout/report status names.\\nRejected: Separate report-mode success statuses | would make helper summaries and state skipping diverge by configuration.\\nRejected: Always increasing EXEC_TIMEOUT | wastes model budget and hides useful timeout-captured results.\\nConfidence: high\\nScope-risk: moderate\\nDirective: Keep batch success accounting artifact-first; report files should remain supplemental evidence, not a separate success path.\\nTested: python3 -m py_compile code/helper.py code/executor/batch_runner.py\\nTested: bash -n code/executor/run_skill_hostauth.sh code/scripts/06_execute.sh\\nTested: helper auth/report-timeout/state compatibility checks with temporary fixtures\\nTested: hostauth dry-run with fake docker command and settings auth\\nTested: helper load-tar fake docker import updates DOCKER_IMAGE\\nNot-tested: Real Claude Code dynamic execution, to avoid model quota use.",
+    "date": "2026-05-19T10:30:02Z",
+    "parents": [
+      "2c8eaed867020e432bc3dddac808e0e9e3f62d00"
+    ]
+  },
+  {
+    "sha": "34d00eb765f4526b5cccc6164de67b39982e5490",
+    "message": "Merge pull request #7 from protectskills/repro/claude-hostauth-dynamic-exec\n\nSupport offline lite sandbox image import",
+    "date": "2026-05-19T08:23:07Z",
+    "parents": [
+      "6440db9d4d69871908dbda618030c1f32893fe89",
+      "2c8eaed867020e432bc3dddac808e0e9e3f62d00"
+    ]
+  },
+  {
+    "sha": "2c8eaed867020e432bc3dddac808e0e9e3f62d00",
+    "message": "Support offline lite sandbox image import\n\nPublish the prebuilt lite sandbox as a GitHub release asset and let helper import a local tar/tar.gz archive through image mode. This keeps GHCR as the normal path while giving restricted-network hosts a no-registry fallback.\n\nConstraint: Some servers can reach GitHub release downloads but fail Docker registry pulls or Docker Hub base image pulls.\n\nRejected: Commit the tarball into the repository | too large and already covered by gitignored release asset workflow.\n\nConfidence: high\n\nScope-risk: narrow\n\nTested: gh release view sandbox-lite-v1 assets; python3 -m py_compile code/helper.py; bash -n executor scripts; python3 helper.py build --mode load-tar using local tar.gz; git diff --check\n\nNot-tested: Fresh-server release download over restricted network",
+    "date": "2026-05-19T08:22:01Z",
+    "parents": [
+      "2153a9e86db2c96875df7f8e34f5d1f245ca3918"
+    ]
+  },
+  {
+    "sha": "6440db9d4d69871908dbda618030c1f32893fe89",
+    "message": "Merge pull request #6 from protectskills/repro/claude-hostauth-dynamic-exec\n\nDefault helper to prebuilt lite sandbox image",
+    "date": "2026-05-19T07:53:09Z",
+    "parents": [
+      "1b292b7d7ac10147be075da19d373a76427865eb",
+      "2153a9e86db2c96875df7f8e34f5d1f245ca3918"
+    ]
+  },
+  {
+    "sha": "2153a9e86db2c96875df7f8e34f5d1f245ca3918",
+    "message": "Default reproduction to prebuilt lite sandbox\n\nUse the published GHCR lite sandbox image for the default helper path so new hosts do not need to build from Docker Hub before running the small-batch reproduction. Local Docker builds remain available for none/full/custom modes.\n\nConstraint: New servers can fail before project build steps when Docker Hub base image pulls return EOF.\n\nRejected: Make the Dockerfile base image configurable by default | broader configuration surface than needed once the lite image is published.\n\nConfidence: high\n\nScope-risk: narrow\n\nTested: python3 -m py_compile code/helper.py; bash -n executor scripts; docker manifest inspect ghcr.io/protectskills/claude-skill-sandbox:lite; git diff --check\n\nNot-tested: Fresh-server pull/run through helper menu",
+    "date": "2026-05-19T07:52:06Z",
+    "parents": [
+      "56129dc46504fdfdda660a660f1870ca9e44f17b"
+    ]
+  },
+  {
+    "sha": "1b292b7d7ac10147be075da19d373a76427865eb",
+    "message": "Merge pull request #5 from protectskills/repro/claude-hostauth-dynamic-exec\n\nReproduce dynamic skill execution pipeline",
+    "date": "2026-05-19T07:33:59Z",
+    "parents": [
+      "91b92b5cf5bc5453407adef48f31117a45fa89e7",
+      "56129dc46504fdfdda660a660f1870ca9e44f17b"
+    ]
+  },
+  {
+    "sha": "56129dc46504fdfdda660a660f1870ca9e44f17b",
+    "message": "Merge pull request #4 from protectskills/main\n\nUpdate",
+    "date": "2026-05-19T07:25:52Z",
+    "parents": [
+      "899874798e89951e237143f5f0a04872eccd202a",
+      "91b92b5cf5bc5453407adef48f31117a45fa89e7"
+    ]
+  },
+  {
+    "sha": "899874798e89951e237143f5f0a04872eccd202a",
+    "message": "Pipeline restructure",
+    "date": "2026-05-19T07:20:14Z",
+    "parents": [
+      "b5c7659dabc6da9f2333bb41aeedeca26b586210"
+    ]
+  },
+  {
+    "sha": "91b92b5cf5bc5453407adef48f31117a45fa89e7",
+    "message": "Merge pull request #3 from protectskills/repro/claude-hostauth-dynamic-exec\n\nPipeline restructure",
+    "date": "2026-05-19T06:47:59Z",
+    "parents": [
+      "3ec2e6337ae8c3121f4ef737804a06c6d463082c",
+      "b5c7659dabc6da9f2333bb41aeedeca26b586210"
+    ]
+  },
+  {
+    "sha": "b5c7659dabc6da9f2333bb41aeedeca26b586210",
+    "message": "Pipeline restructure",
+    "date": "2026-05-19T06:43:54Z",
+    "parents": [
+      "3ec2e6337ae8c3121f4ef737804a06c6d463082c"
+    ]
+  },
+  {
+    "sha": "3ec2e6337ae8c3121f4ef737804a06c6d463082c",
+    "message": "Add files via upload",
+    "date": "2026-03-12T08:44:12Z",
+    "parents": [
+      "a50f66f9377b27e72da4258891dff7467cd136cc"
+    ]
+  },
+  {
+    "sha": "a50f66f9377b27e72da4258891dff7467cd136cc",
+    "message": "Add files via upload",
+    "date": "2026-03-12T08:42:39Z",
+    "parents": [
+      "0ae0a448ecca5ab65fa2eb0448005955f2415a65"
+    ]
+  },
+  {
+    "sha": "0ae0a448ecca5ab65fa2eb0448005955f2415a65",
+    "message": "Update README.md",
+    "date": "2026-02-07T05:38:26Z",
+    "parents": [
+      "0bb31ee078669561e2a3ae6645743a81367d09a9"
+    ]
+  },
+  {
+    "sha": "0bb31ee078669561e2a3ae6645743a81367d09a9",
+    "message": "Update README.md",
+    "date": "2026-02-07T05:32:08Z",
+    "parents": [
+      "bb47ee22ae4df21487c257b105c455e121c17b1d"
+    ]
+  },
+  {
+    "sha": "bb47ee22ae4df21487c257b105c455e121c17b1d",
+    "message": "Update README.md",
+    "date": "2026-02-07T05:30:19Z",
+    "parents": [
+      "eb1c97a885e7ea4a232909fbff436ab8fef0fc4f"
+    ]
+  },
+  {
+    "sha": "eb1c97a885e7ea4a232909fbff436ab8fef0fc4f",
+    "message": "Update README.md",
+    "date": "2026-02-07T05:15:10Z",
+    "parents": [
+      "93365fbb5b8a19e4b6fe4ba702b2c551f898e932"
+    ]
+  },
+  {
+    "sha": "93365fbb5b8a19e4b6fe4ba702b2c551f898e932",
+    "message": "Update README.md",
+    "date": "2026-02-07T05:12:24Z",
+    "parents": [
+      "eb431f4f9d855f558fce20fd7de098a0423b6160"
+    ]
+  },
+  {
+    "sha": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+    "message": "Add files",
+    "date": "2026-02-07T05:11:20Z",
+    "parents": []
+  }
+]

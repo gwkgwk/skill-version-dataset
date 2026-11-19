@@ -1,0 +1,1055 @@
+{
+  "old": {
+    "commit": {
+      "sha": "7685f42fbe422d22d697dcf889db9fb3981acb6e",
+      "node_id": "C_kwDOGxVsVNoAKDc2ODVmNDJmYmU0MjJkMjJkNjk3ZGNmODg5ZGI5ZmIzOTgxYWNiNmU",
+      "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/commits/7685f42fbe422d22d697dcf889db9fb3981acb6e",
+      "html_url": "https://github.com/sfc-gh-dflippo/snowflake-dbt-demo/commit/7685f42fbe422d22d697dcf889db9fb3981acb6e",
+      "author": {
+        "name": "Dan Flippo",
+        "email": "dan.flippo@snowflake.com",
+        "date": "2025-12-21T16:04:09Z"
+      },
+      "committer": {
+        "name": "Dan Flippo",
+        "email": "dan.flippo@snowflake.com",
+        "date": "2025-12-21T16:04:09Z"
+      },
+      "tree": {
+        "sha": "79d312c9ef59bf0cf447ad1b99390ce769654f49",
+        "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/79d312c9ef59bf0cf447ad1b99390ce769654f49"
+      },
+      "message": "Prettier formatting",
+      "parents": [
+        {
+          "sha": "5729cd606fcbd16969a28f859fa0e0a898721eef",
+          "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/commits/5729cd606fcbd16969a28f859fa0e0a898721eef",
+          "html_url": "https://github.com/sfc-gh-dflippo/snowflake-dbt-demo/commit/5729cd606fcbd16969a28f859fa0e0a898721eef"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABMIAB0WIQQ5K7ymJcgDFs2EIQSFRc2DUV5sQwUCaUgagQAKCRCFRc2DUV5s\nQ0z/AQCjpyW3vupNdxylsT12pE3pvtRdHYhoRSgIDIaY7eF6/AEA4Fti8eC13CF/\nMRcGG0qDZheg2Ea3BlRqbDMGnZT9lQs=\n=esXc\n-----END PGP SIGNATURE-----",
+        "payload": "tree 79d312c9ef59bf0cf447ad1b99390ce769654f49\nparent 5729cd606fcbd16969a28f859fa0e0a898721eef\nauthor Dan Flippo <dan.flippo@snowflake.com> 1766333049 -0500\ncommitter Dan Flippo <dan.flippo@snowflake.com> 1766333049 -0500\n\nPrettier formatting\n",
+        "verified_at": "2025-12-21T16:04:25Z"
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "79d312c9ef59bf0cf447ad1b99390ce769654f49",
+          "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/79d312c9ef59bf0cf447ad1b99390ce769654f49",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "609a4a8d79d74a155b855cf7534ea40af158398a",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/609a4a8d79d74a155b855cf7534ea40af158398a"
+            },
+            {
+              "path": ".cursor",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4b6bbb0b82ae44c760e6c429b5c064a8ee7e150e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/4b6bbb0b82ae44c760e6c429b5c064a8ee7e150e"
+            },
+            {
+              "path": ".devcontainer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a556a62d52ffd6c07e61ec8bdd3e968f58c68f8b",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/a556a62d52ffd6c07e61ec8bdd3e968f58c68f8b"
+            },
+            {
+              "path": ".editorconfig",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "321ab6dd2e36a4e2fdbbe1b55e94bf98a91aa0de",
+              "size": 162,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/321ab6dd2e36a4e2fdbbe1b55e94bf98a91aa0de"
+            },
+            {
+              "path": ".env.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "db2034cfabb1e623b3617f8e983b630d1a7289c3",
+              "size": 1163,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/db2034cfabb1e623b3617f8e983b630d1a7289c3"
+            },
+            {
+              "path": ".gitattributes",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5509c7b348b4f39b53ab684d2ac8d04548432d5e",
+              "size": 120,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/5509c7b348b4f39b53ab684d2ac8d04548432d5e"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f02a450557c6c61a06eee27e5c7acd50d1f9b530",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/f02a450557c6c61a06eee27e5c7acd50d1f9b530"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0a4c965f909e2ee0200dddf668731e72352d05a2",
+              "size": 663,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/0a4c965f909e2ee0200dddf668731e72352d05a2"
+            },
+            {
+              "path": ".pre-commit-config.yaml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b80037897aa0c32b79a94c7283cbc8eb8e5f6e14",
+              "size": 3731,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/b80037897aa0c32b79a94c7283cbc8eb8e5f6e14"
+            },
+            {
+              "path": ".prettierignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b11eac469d4a40dac407123cfa62ef7933a9ee1a",
+              "size": 340,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/b11eac469d4a40dac407123cfa62ef7933a9ee1a"
+            },
+            {
+              "path": ".prettierrc.yaml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "811686c567cbfb9b3870318e26fe7cc73dd9274a",
+              "size": 3098,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/811686c567cbfb9b3870318e26fe7cc73dd9274a"
+            },
+            {
+              "path": ".sqlfluff",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "18065098004f17c211486e44f068ed2a9204735b",
+              "size": 2603,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/18065098004f17c211486e44f068ed2a9204735b"
+            },
+            {
+              "path": ".sqlfluffignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ae82cf2105c9ded15c5cd74d62b2280733ca186f",
+              "size": 77,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/ae82cf2105c9ded15c5cd74d62b2280733ca186f"
+            },
+            {
+              "path": "AGENTS.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a0c9ec1c1e236c372b37f7923244ae378039c018",
+              "size": 34005,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/a0c9ec1c1e236c372b37f7923244ae378039c018"
+            },
+            {
+              "path": "DBT_BEST_PRACTICES.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "352eedc73802be6832d3685abf0cbdd781020211",
+              "size": 18193,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/352eedc73802be6832d3685abf0cbdd781020211"
+            },
+            {
+              "path": "DBT_SETUP_GUIDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c7b05c22e9c0e432469623dd86deb6d113a4b78b",
+              "size": 25008,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/c7b05c22e9c0e432469623dd86deb6d113a4b78b"
+            },
+            {
+              "path": "DEPLOYMENT_SCRIPT.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0108e1569cf631407561888f2c92144fac6b84b6",
+              "size": 8115,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/0108e1569cf631407561888f2c92144fac6b84b6"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+              "size": 11357,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ab2f71b594dc484e4a5bf780464c808031fe456e",
+              "size": 23410,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/ab2f71b594dc484e4a5bf780464c808031fe456e"
+            },
+            {
+              "path": "analysis",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+            },
+            {
+              "path": "data",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+            },
+            {
+              "path": "dbt-conda-env.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "dc09afe3a0851fac8f23f75b3857673812d0c5c4",
+              "size": 1420,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/dc09afe3a0851fac8f23f75b3857673812d0c5c4"
+            },
+            {
+              "path": "dbt_project.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "41f1365b8a7743f23d3a0df16ea3affcd5e7db69",
+              "size": 6901,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/41f1365b8a7743f23d3a0df16ea3affcd5e7db69"
+            },
+            {
+              "path": "deploy_config",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f18f431eaa9c00e8aee387d4acfd5a94a5ee3917",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/f18f431eaa9c00e8aee387d4acfd5a94a5ee3917"
+            },
+            {
+              "path": "deploy_dbt_project.py",
+              "mode": "100755",
+              "type": "blob",
+              "sha": "9766f05129e14b4ed77d09b6f577c2d6551dc541",
+              "size": 4520,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/9766f05129e14b4ed77d09b6f577c2d6551dc541"
+            },
+            {
+              "path": "devops_deploy_dbt_project.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d18051f20dc04aa20f3bc70aafd13850ef08e9d7",
+              "size": 2692,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/d18051f20dc04aa20f3bc70aafd13850ef08e9d7"
+            },
+            {
+              "path": "docker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5ff6cc01dc0b573c4f8dd5520fc018b53958906e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/5ff6cc01dc0b573c4f8dd5520fc018b53958906e"
+            },
+            {
+              "path": "exposures",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "56775749ccca6b3a28f45eec1cd1a2c300db85da",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/56775749ccca6b3a28f45eec1cd1a2c300db85da"
+            },
+            {
+              "path": "macros",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "49a374a7b5c0195aa3388fe5d1b4dfbfd78acbad",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/49a374a7b5c0195aa3388fe5d1b4dfbfd78acbad"
+            },
+            {
+              "path": "models",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3d766ff6df4f84732959d6883693e38085b6e2af",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/3d766ff6df4f84732959d6883693e38085b6e2af"
+            },
+            {
+              "path": "packages.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "866a01d57f8ee7d14888c4ed1dc287f9ef353ceb",
+              "size": 259,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/866a01d57f8ee7d14888c4ed1dc287f9ef353ceb"
+            },
+            {
+              "path": "profiles.yml.sample",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "f8a94a4bec2a69940f2b2d395bd966a6be728a42",
+              "size": 2187,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/f8a94a4bec2a69940f2b2d395bd966a6be728a42"
+            },
+            {
+              "path": "pyproject.toml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a70f6ebd4efa0fc996b3f4d671451c5d33ca0087",
+              "size": 905,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/a70f6ebd4efa0fc996b3f4d671451c5d33ca0087"
+            },
+            {
+              "path": "requirements.txt",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d7d8f06ce47da35580806fa3619791ab424f8d79",
+              "size": 346,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/d7d8f06ce47da35580806fa3619791ab424f8d79"
+            },
+            {
+              "path": "seeds",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2286128e57e2f8dd000b786a2d83071451670cb0",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/2286128e57e2f8dd000b786a2d83071451670cb0"
+            },
+            {
+              "path": "snapshots",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b686ce9b61a34d76a5526ddff348204953aa23f8",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/b686ce9b61a34d76a5526ddff348204953aa23f8"
+            },
+            {
+              "path": "tests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1552536eabbc8c360798a722645ee2493d4024d5",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/1552536eabbc8c360798a722645ee2493d4024d5"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "609a4a8d79d74a155b855cf7534ea40af158398a",
+          "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/609a4a8d79d74a155b855cf7534ea40af158398a",
+          "tree": [
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "aa611b09ad4251c7c54b87ddbab42c3e585f8c59",
+              "size": 2953,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/aa611b09ad4251c7c54b87ddbab42c3e585f8c59"
+            },
+            {
+              "path": "settings.local.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cd991521cd3a8763f76960375a5c912ba68fc460",
+              "size": 962,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/cd991521cd3a8763f76960375a5c912ba68fc460"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "53c734c48ac6fe9dc42cea0ee627ae07664cad7c",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/53c734c48ac6fe9dc42cea0ee627ae07664cad7c"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "doc-scraper",
+        "tree": {
+          "sha": "53c734c48ac6fe9dc42cea0ee627ae07664cad7c",
+          "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/53c734c48ac6fe9dc42cea0ee627ae07664cad7c",
+          "tree": [
+            {
+              "path": "dbt-architecture",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4ea7d51260eca084af7cf5cf31d0cfc90378eb35",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/4ea7d51260eca084af7cf5cf31d0cfc90378eb35"
+            },
+            {
+              "path": "dbt-artifacts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a17db28c1602ab6c574f022b554431f636fea2ce",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/a17db28c1602ab6c574f022b554431f636fea2ce"
+            },
+            {
+              "path": "dbt-commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "49e45449835767c96d6e698b795dd397e456f27d",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/49e45449835767c96d6e698b795dd397e456f27d"
+            },
+            {
+              "path": "dbt-core",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d3336c41abefb4b4e0a5b17e6d7fd6c829859242",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/d3336c41abefb4b4e0a5b17e6d7fd6c829859242"
+            },
+            {
+              "path": "dbt-materializations",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e63f042559eb78083bd32a870b8459dbc47bcf1c",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/e63f042559eb78083bd32a870b8459dbc47bcf1c"
+            },
+            {
+              "path": "dbt-modeling",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "85c5d45a56aac9d8955edce7df747541a03e8269",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/85c5d45a56aac9d8955edce7df747541a03e8269"
+            },
+            {
+              "path": "dbt-performance",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e1975ccf416bcae691e10e27a3f6c3c1c81fa3b7",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/e1975ccf416bcae691e10e27a3f6c3c1c81fa3b7"
+            },
+            {
+              "path": "dbt-projects-on-snowflake",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3c5c2337a71c4fef11fc0161a4522f82816fe1cc",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/3c5c2337a71c4fef11fc0161a4522f82816fe1cc"
+            },
+            {
+              "path": "dbt-projects-snowflake-setup",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1578ab24aaf399af1e52bc52c1ea3e0f33e9bf8b",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/1578ab24aaf399af1e52bc52c1ea3e0f33e9bf8b"
+            },
+            {
+              "path": "dbt-testing",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d3123359801a9add4477e03a38485411614c7725",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/d3123359801a9add4477e03a38485411614c7725"
+            },
+            {
+              "path": "doc-scraper",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4eb887e6722ee9c3c845e0d6fd14717b3359247e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/4eb887e6722ee9c3c845e0d6fd14717b3359247e"
+            },
+            {
+              "path": "playwright-mcp",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "00b70051aea79d03abd01d4043b327967525d185",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/00b70051aea79d03abd01d4043b327967525d185"
+            },
+            {
+              "path": "repos.txt",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4f5fafb741d3c677d013fd39da1ba7f65f73ae52",
+              "size": 37,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/4f5fafb741d3c677d013fd39da1ba7f65f73ae52"
+            },
+            {
+              "path": "schemachange",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3eb762504a004705f1243332c035ae4c2b07ae9d",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/3eb762504a004705f1243332c035ae4c2b07ae9d"
+            },
+            {
+              "path": "skills-sync",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "86bbf8770e71a3098601bf73e93cd33018e15bc5",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/86bbf8770e71a3098601bf73e93cd33018e15bc5"
+            },
+            {
+              "path": "snowflake-cli",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7ae89933529b0433f1b8b44fbde86338f2ae9412",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/7ae89933529b0433f1b8b44fbde86338f2ae9412"
+            },
+            {
+              "path": "snowflake-connections",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "13641da3cad2eb400bef43be81ce12ceeca73337",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/13641da3cad2eb400bef43be81ce12ceeca73337"
+            },
+            {
+              "path": "streamlit-development",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "409873dad6710abceab40f40a9d1b05b5d354449",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/409873dad6710abceab40f40a9d1b05b5d354449"
+            },
+            {
+              "path": "task-master-install",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c2250619540512beafb7131aeea634cdc97467c1",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/c2250619540512beafb7131aeea634cdc97467c1"
+            },
+            {
+              "path": "task-master-viewer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5a608776f5d7968107cb90cbea0d8ebd13d3d47c",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/5a608776f5d7968107cb90cbea0d8ebd13d3d47c"
+            },
+            {
+              "path": "task-master",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5bbd5b3b94813c3ba78c6c2d956db72082779967",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/5bbd5b3b94813c3ba78c6c2d956db72082779967"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "4eb887e6722ee9c3c845e0d6fd14717b3359247e"
+  },
+  "new": {
+    "commit": {
+      "sha": "1683199c00cda10929e129e6e84afdec478e6d2e",
+      "node_id": "C_kwDOGxVsVNoAKDE2ODMxOTljMDBjZGExMDkyOWUxMjllNmU4NGFmZGVjNDc4ZTZkMmU",
+      "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/commits/1683199c00cda10929e129e6e84afdec478e6d2e",
+      "html_url": "https://github.com/sfc-gh-dflippo/snowflake-dbt-demo/commit/1683199c00cda10929e129e6e84afdec478e6d2e",
+      "author": {
+        "name": "Dan Flippo",
+        "email": "dan.flippo@snowflake.com",
+        "date": "2025-12-21T19:15:28Z"
+      },
+      "committer": {
+        "name": "Dan Flippo",
+        "email": "dan.flippo@snowflake.com",
+        "date": "2025-12-21T19:15:28Z"
+      },
+      "tree": {
+        "sha": "1797bc23391d6623edd47a2db6ab63142cef62d7",
+        "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/1797bc23391d6623edd47a2db6ab63142cef62d7"
+      },
+      "message": "Improved skills-sync for Cortex CLI and Cursor support\nPrettier formatting and other linting fixes",
+      "parents": [
+        {
+          "sha": "7685f42fbe422d22d697dcf889db9fb3981acb6e",
+          "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/commits/7685f42fbe422d22d697dcf889db9fb3981acb6e",
+          "html_url": "https://github.com/sfc-gh-dflippo/snowflake-dbt-demo/commit/7685f42fbe422d22d697dcf889db9fb3981acb6e"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABMIAB0WIQQ5K7ymJcgDFs2EIQSFRc2DUV5sQwUCaUhHVQAKCRCFRc2DUV5s\nQy9FAP9d/Q6Nk3QQrbWJ/FSTh9SKCXW+7Ptvg8OtDiR6GZ34FwD+Jzp6BnWxC8aJ\n0I8R+IiFXgkXhkeelzNfebLkGomjWcA=\n=Q6Ef\n-----END PGP SIGNATURE-----",
+        "payload": "tree 1797bc23391d6623edd47a2db6ab63142cef62d7\nparent 7685f42fbe422d22d697dcf889db9fb3981acb6e\nauthor Dan Flippo <dan.flippo@snowflake.com> 1766344528 -0500\ncommitter Dan Flippo <dan.flippo@snowflake.com> 1766344528 -0500\n\nImproved skills-sync for Cortex CLI and Cursor support\nPrettier formatting and other linting fixes\n",
+        "verified_at": "2025-12-21T19:15:41Z"
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "1797bc23391d6623edd47a2db6ab63142cef62d7",
+          "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/1797bc23391d6623edd47a2db6ab63142cef62d7",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f06594e43ea5c0b15d2b8c9af40fc92c57fad3d5",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/f06594e43ea5c0b15d2b8c9af40fc92c57fad3d5"
+            },
+            {
+              "path": ".cortex",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "77f366159af6934ce5c176bf1e2eaa091d5b8ad2",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/77f366159af6934ce5c176bf1e2eaa091d5b8ad2"
+            },
+            {
+              "path": ".cursor",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4b6bbb0b82ae44c760e6c429b5c064a8ee7e150e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/4b6bbb0b82ae44c760e6c429b5c064a8ee7e150e"
+            },
+            {
+              "path": ".devcontainer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a556a62d52ffd6c07e61ec8bdd3e968f58c68f8b",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/a556a62d52ffd6c07e61ec8bdd3e968f58c68f8b"
+            },
+            {
+              "path": ".editorconfig",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "321ab6dd2e36a4e2fdbbe1b55e94bf98a91aa0de",
+              "size": 162,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/321ab6dd2e36a4e2fdbbe1b55e94bf98a91aa0de"
+            },
+            {
+              "path": ".env.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "db2034cfabb1e623b3617f8e983b630d1a7289c3",
+              "size": 1163,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/db2034cfabb1e623b3617f8e983b630d1a7289c3"
+            },
+            {
+              "path": ".gitattributes",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5509c7b348b4f39b53ab684d2ac8d04548432d5e",
+              "size": 120,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/5509c7b348b4f39b53ab684d2ac8d04548432d5e"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f02a450557c6c61a06eee27e5c7acd50d1f9b530",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/f02a450557c6c61a06eee27e5c7acd50d1f9b530"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "90e44fcd4ef0784aed7f64b198048909193c0e33",
+              "size": 3839,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/90e44fcd4ef0784aed7f64b198048909193c0e33"
+            },
+            {
+              "path": ".pre-commit-config.yaml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0e11eb2bd1e73f56f4eee841f5a4e1f5ac6e3f26",
+              "size": 3624,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/0e11eb2bd1e73f56f4eee841f5a4e1f5ac6e3f26"
+            },
+            {
+              "path": ".prettierignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b11eac469d4a40dac407123cfa62ef7933a9ee1a",
+              "size": 340,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/b11eac469d4a40dac407123cfa62ef7933a9ee1a"
+            },
+            {
+              "path": ".prettierrc.yaml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "811686c567cbfb9b3870318e26fe7cc73dd9274a",
+              "size": 3098,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/811686c567cbfb9b3870318e26fe7cc73dd9274a"
+            },
+            {
+              "path": ".sqlfluff",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "18065098004f17c211486e44f068ed2a9204735b",
+              "size": 2603,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/18065098004f17c211486e44f068ed2a9204735b"
+            },
+            {
+              "path": ".sqlfluffignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ae82cf2105c9ded15c5cd74d62b2280733ca186f",
+              "size": 77,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/ae82cf2105c9ded15c5cd74d62b2280733ca186f"
+            },
+            {
+              "path": "AGENTS.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d04f0bb76e337e941c63fcea77b2b9224ebf102b",
+              "size": 45831,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/d04f0bb76e337e941c63fcea77b2b9224ebf102b"
+            },
+            {
+              "path": "DBT_BEST_PRACTICES.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "352eedc73802be6832d3685abf0cbdd781020211",
+              "size": 18193,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/352eedc73802be6832d3685abf0cbdd781020211"
+            },
+            {
+              "path": "DBT_SETUP_GUIDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c7b05c22e9c0e432469623dd86deb6d113a4b78b",
+              "size": 25008,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/c7b05c22e9c0e432469623dd86deb6d113a4b78b"
+            },
+            {
+              "path": "DEPLOYMENT_SCRIPT.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0108e1569cf631407561888f2c92144fac6b84b6",
+              "size": 8115,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/0108e1569cf631407561888f2c92144fac6b84b6"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+              "size": 11357,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ab2f71b594dc484e4a5bf780464c808031fe456e",
+              "size": 23410,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/ab2f71b594dc484e4a5bf780464c808031fe456e"
+            },
+            {
+              "path": "analysis",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+            },
+            {
+              "path": "data",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+            },
+            {
+              "path": "dbt-conda-env.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "dc09afe3a0851fac8f23f75b3857673812d0c5c4",
+              "size": 1420,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/dc09afe3a0851fac8f23f75b3857673812d0c5c4"
+            },
+            {
+              "path": "dbt_project.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "41f1365b8a7743f23d3a0df16ea3affcd5e7db69",
+              "size": 6901,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/41f1365b8a7743f23d3a0df16ea3affcd5e7db69"
+            },
+            {
+              "path": "deploy_config",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f18f431eaa9c00e8aee387d4acfd5a94a5ee3917",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/f18f431eaa9c00e8aee387d4acfd5a94a5ee3917"
+            },
+            {
+              "path": "deploy_dbt_project.py",
+              "mode": "100755",
+              "type": "blob",
+              "sha": "9766f05129e14b4ed77d09b6f577c2d6551dc541",
+              "size": 4520,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/9766f05129e14b4ed77d09b6f577c2d6551dc541"
+            },
+            {
+              "path": "devops_deploy_dbt_project.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d18051f20dc04aa20f3bc70aafd13850ef08e9d7",
+              "size": 2692,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/d18051f20dc04aa20f3bc70aafd13850ef08e9d7"
+            },
+            {
+              "path": "docker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5ff6cc01dc0b573c4f8dd5520fc018b53958906e",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/5ff6cc01dc0b573c4f8dd5520fc018b53958906e"
+            },
+            {
+              "path": "exposures",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "56775749ccca6b3a28f45eec1cd1a2c300db85da",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/56775749ccca6b3a28f45eec1cd1a2c300db85da"
+            },
+            {
+              "path": "macros",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "49a374a7b5c0195aa3388fe5d1b4dfbfd78acbad",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/49a374a7b5c0195aa3388fe5d1b4dfbfd78acbad"
+            },
+            {
+              "path": "models",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3d766ff6df4f84732959d6883693e38085b6e2af",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/3d766ff6df4f84732959d6883693e38085b6e2af"
+            },
+            {
+              "path": "packages.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "866a01d57f8ee7d14888c4ed1dc287f9ef353ceb",
+              "size": 259,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/866a01d57f8ee7d14888c4ed1dc287f9ef353ceb"
+            },
+            {
+              "path": "profiles.yml.sample",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "f8a94a4bec2a69940f2b2d395bd966a6be728a42",
+              "size": 2187,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/f8a94a4bec2a69940f2b2d395bd966a6be728a42"
+            },
+            {
+              "path": "pyproject.toml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e3a8ae0760db8b83a01fb70f4e4e34c8f9cd4d83",
+              "size": 1412,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/e3a8ae0760db8b83a01fb70f4e4e34c8f9cd4d83"
+            },
+            {
+              "path": "requirements.txt",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d7d8f06ce47da35580806fa3619791ab424f8d79",
+              "size": 346,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/d7d8f06ce47da35580806fa3619791ab424f8d79"
+            },
+            {
+              "path": "seeds",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2286128e57e2f8dd000b786a2d83071451670cb0",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/2286128e57e2f8dd000b786a2d83071451670cb0"
+            },
+            {
+              "path": "snapshots",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b686ce9b61a34d76a5526ddff348204953aa23f8",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/b686ce9b61a34d76a5526ddff348204953aa23f8"
+            },
+            {
+              "path": "tests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1552536eabbc8c360798a722645ee2493d4024d5",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/1552536eabbc8c360798a722645ee2493d4024d5"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "f06594e43ea5c0b15d2b8c9af40fc92c57fad3d5",
+          "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/f06594e43ea5c0b15d2b8c9af40fc92c57fad3d5",
+          "tree": [
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "aa611b09ad4251c7c54b87ddbab42c3e585f8c59",
+              "size": 2953,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/aa611b09ad4251c7c54b87ddbab42c3e585f8c59"
+            },
+            {
+              "path": "settings.local.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cd991521cd3a8763f76960375a5c912ba68fc460",
+              "size": 962,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/cd991521cd3a8763f76960375a5c912ba68fc460"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1abbc2977bec5b00a83dc3a7d58fd68444364ce9",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/1abbc2977bec5b00a83dc3a7d58fd68444364ce9"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "doc-scraper",
+        "tree": {
+          "sha": "1abbc2977bec5b00a83dc3a7d58fd68444364ce9",
+          "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/1abbc2977bec5b00a83dc3a7d58fd68444364ce9",
+          "tree": [
+            {
+              "path": "dbt-architecture",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4ea7d51260eca084af7cf5cf31d0cfc90378eb35",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/4ea7d51260eca084af7cf5cf31d0cfc90378eb35"
+            },
+            {
+              "path": "dbt-artifacts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a17db28c1602ab6c574f022b554431f636fea2ce",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/a17db28c1602ab6c574f022b554431f636fea2ce"
+            },
+            {
+              "path": "dbt-commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "49e45449835767c96d6e698b795dd397e456f27d",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/49e45449835767c96d6e698b795dd397e456f27d"
+            },
+            {
+              "path": "dbt-core",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d3336c41abefb4b4e0a5b17e6d7fd6c829859242",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/d3336c41abefb4b4e0a5b17e6d7fd6c829859242"
+            },
+            {
+              "path": "dbt-materializations",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e63f042559eb78083bd32a870b8459dbc47bcf1c",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/e63f042559eb78083bd32a870b8459dbc47bcf1c"
+            },
+            {
+              "path": "dbt-modeling",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "85c5d45a56aac9d8955edce7df747541a03e8269",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/85c5d45a56aac9d8955edce7df747541a03e8269"
+            },
+            {
+              "path": "dbt-performance",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e1975ccf416bcae691e10e27a3f6c3c1c81fa3b7",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/e1975ccf416bcae691e10e27a3f6c3c1c81fa3b7"
+            },
+            {
+              "path": "dbt-projects-on-snowflake",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3c5c2337a71c4fef11fc0161a4522f82816fe1cc",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/3c5c2337a71c4fef11fc0161a4522f82816fe1cc"
+            },
+            {
+              "path": "dbt-projects-snowflake-setup",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1578ab24aaf399af1e52bc52c1ea3e0f33e9bf8b",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/1578ab24aaf399af1e52bc52c1ea3e0f33e9bf8b"
+            },
+            {
+              "path": "dbt-testing",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d3123359801a9add4477e03a38485411614c7725",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/d3123359801a9add4477e03a38485411614c7725"
+            },
+            {
+              "path": "doc-scraper",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a5583ed92df40d6543507ade758f016f54fb23db",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/a5583ed92df40d6543507ade758f016f54fb23db"
+            },
+            {
+              "path": "playwright-mcp",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "00b70051aea79d03abd01d4043b327967525d185",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/00b70051aea79d03abd01d4043b327967525d185"
+            },
+            {
+              "path": "repos.txt",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0e4a2f285c7c96ea5fb754c4f5dbb8932d948789",
+              "size": 90,
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/blobs/0e4a2f285c7c96ea5fb754c4f5dbb8932d948789"
+            },
+            {
+              "path": "schemachange",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3eb762504a004705f1243332c035ae4c2b07ae9d",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/3eb762504a004705f1243332c035ae4c2b07ae9d"
+            },
+            {
+              "path": "skills-sync",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ef5f8181f9c78c3aba5cd0cceb8c9f90662c9f4a",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/ef5f8181f9c78c3aba5cd0cceb8c9f90662c9f4a"
+            },
+            {
+              "path": "snowflake-cli",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7ae89933529b0433f1b8b44fbde86338f2ae9412",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/7ae89933529b0433f1b8b44fbde86338f2ae9412"
+            },
+            {
+              "path": "snowflake-connections",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "13641da3cad2eb400bef43be81ce12ceeca73337",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/13641da3cad2eb400bef43be81ce12ceeca73337"
+            },
+            {
+              "path": "streamlit-development",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "409873dad6710abceab40f40a9d1b05b5d354449",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/409873dad6710abceab40f40a9d1b05b5d354449"
+            },
+            {
+              "path": "task-master-install",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c2250619540512beafb7131aeea634cdc97467c1",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/c2250619540512beafb7131aeea634cdc97467c1"
+            },
+            {
+              "path": "task-master-viewer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5a608776f5d7968107cb90cbea0d8ebd13d3d47c",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/5a608776f5d7968107cb90cbea0d8ebd13d3d47c"
+            },
+            {
+              "path": "task-master",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5bbd5b3b94813c3ba78c6c2d956db72082779967",
+              "url": "https://api.github.com/repos/sfc-gh-dflippo/snowflake-dbt-demo/git/trees/5bbd5b3b94813c3ba78c6c2d956db72082779967"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "a5583ed92df40d6543507ade758f016f54fb23db"
+  }
+}

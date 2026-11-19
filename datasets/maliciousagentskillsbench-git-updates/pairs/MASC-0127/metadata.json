@@ -1,0 +1,58 @@
+{
+  "id": "MASC-0127",
+  "skill_id": "andr81/pers-assist::.claude/skills/weekly-plan",
+  "skill_name": "weekly-plan",
+  "origin_repository": "andr81/pers-assist",
+  "origin_path": ".claude/skills/weekly-plan",
+  "version_kind": "git_commit_snapshot",
+  "old_version": "git:b1ac047eff5a8eb8383bdf8a04411d9b3671a716",
+  "new_version": "git:d69e622a283314e23088cee44f96883406143afd",
+  "old_commit": "b1ac047eff5a8eb8383bdf8a04411d9b3671a716",
+  "new_commit": "d69e622a283314e23088cee44f96883406143afd",
+  "old_is_exact_first_parent": true,
+  "new_commit_date": "2026-01-05T13:05:28Z",
+  "declared_version_fields": {
+    "old": {},
+    "new": {}
+  },
+  "published_release_version_change_confirmed": false,
+  "benchmark_repository": "protectskills/MaliciousAgentSkillsBench",
+  "benchmark_ref": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "benchmark_source_key": [
+    "skillsmp.com",
+    "smp_2670",
+    "weekly-plan"
+  ],
+  "origin_provenance_ref": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "source_package_prefix": "packages/smp_2670/weekly-plan",
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "old_security_label": null,
+  "new_security_label": "malicious_as_labeled_by_MaliciousAgentSkillsBench",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_source_archive_inventory": true,
+  "normalization": [
+    "omit registry _meta.json, .DS_Store and Python cache for comparison only",
+    "normalize root skill.md to SKILL.md for comparison only; preserve all original bytes"
+  ],
+  "operational_changed_files": [
+    "SKILL.md"
+  ],
+  "change_scope": "instruction_code_or_reference_change",
+  "old_files": 3,
+  "new_files": 3,
+  "local_directory": "pairs/MASC-0127",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "b41605127a16d707c2bd5c718dde57d667bb383ae75e123d8a445a949153aa4c",
+      "bytes": 12938
+    },
+    "package.diff": {
+      "sha256": "b41605127a16d707c2bd5c718dde57d667bb383ae75e123d8a445a949153aa4c",
+      "bytes": 12938
+    }
+  },
+  "compare_url": "https://github.com/andr81/pers-assist/compare/b1ac047eff5a8eb8383bdf8a04411d9b3671a716...d69e622a283314e23088cee44f96883406143afd"
+}

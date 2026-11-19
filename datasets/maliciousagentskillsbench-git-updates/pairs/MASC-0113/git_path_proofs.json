@@ -1,0 +1,764 @@
+{
+  "old": {
+    "commit": {
+      "sha": "4224e9e7ee8370162d68480488a160a58469dfa4",
+      "node_id": "C_kwDOPrvg4toAKDQyMjRlOWU3ZWU4MzcwMTYyZDY4NDgwNDg4YTE2MGE1ODQ2OWRmYTQ",
+      "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/commits/4224e9e7ee8370162d68480488a160a58469dfa4",
+      "html_url": "https://github.com/LupoGrigi0/Human-Adjacent-Coordination/commit/4224e9e7ee8370162d68480488a160a58469dfa4",
+      "author": {
+        "name": "Claude Production Deployment Specialist",
+        "email": "claude-production@SmoothCurves.nexus",
+        "date": "2026-01-15T00:47:35Z"
+      },
+      "committer": {
+        "name": "Claude Production Deployment Specialist",
+        "email": "claude-production@SmoothCurves.nexus",
+        "date": "2026-01-15T00:47:35Z"
+      },
+      "tree": {
+        "sha": "1197473750fe550950912c55efd9c72af8f7814b",
+        "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/1197473750fe550950912c55efd9c72af8f7814b"
+      },
+      "message": "fix(xmpp): Use XMPP_CONFIG for domain instead of hardcoded values\n\nInstances were sending messages to coordination.nexus (non-existent)\ninstead of smoothcurves.nexus. This fix:\n\n- Exports XMPP_CONFIG from messaging.js\n- Updates bootstrap.js, introspect.js, joinProject.js to import and\n  use XMPP_CONFIG.domain and XMPP_CONFIG.conference\n- Updates functions.md documentation to reflect correct domain\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "cca65fe71fd305aa6eccdf0bab5a93ff9c01268c",
+          "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/commits/cca65fe71fd305aa6eccdf0bab5a93ff9c01268c",
+          "html_url": "https://github.com/LupoGrigi0/Human-Adjacent-Coordination/commit/cca65fe71fd305aa6eccdf0bab5a93ff9c01268c"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": "src",
+        "tree": {
+          "sha": "1197473750fe550950912c55efd9c72af8f7814b",
+          "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/1197473750fe550950912c55efd9c72af8f7814b",
+          "tree": [
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e1e60bf71712cce2e9260f62184fe3dcbfe13d66",
+              "size": 156,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/e1e60bf71712cce2e9260f62184fe3dcbfe13d66"
+            },
+            {
+              "path": "Crossing",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "65c2fc2ed25cc6affdb660898b93f88510d15467",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/65c2fc2ed25cc6affdb660898b93f88510d15467"
+            },
+            {
+              "path": "HumanAdjacentAI-Protocol",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "01cb22f4d92980aefe9672ad0aebc064d1a79166",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/01cb22f4d92980aefe9672ad0aebc064d1a79166"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d2a1b0156a31b5508d7b1ed326e3c6d009933499",
+              "size": 1068,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/d2a1b0156a31b5508d7b1ed326e3c6d009933499"
+            },
+            {
+              "path": "PROJECT_NOTES.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "61ffc94f4ec41f98c3ea5dfda5e5b8b97bdb6ba4",
+              "size": 12718,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/61ffc94f4ec41f98c3ea5dfda5e5b8b97bdb6ba4"
+            },
+            {
+              "path": "PROJECT_PLAN.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "deea03673d6a6b6b4ec881d1517678878c56a85f",
+              "size": 11945,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/deea03673d6a6b6b4ec881d1517678878c56a85f"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c86b3c09edcd58cf26eeb5806a179efbeb7758f5",
+              "size": 10047,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/c86b3c09edcd58cf26eeb5806a179efbeb7758f5"
+            },
+            {
+              "path": "certs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f604fad6bfd67d1fc15e40fb175659ce09f3b3ca",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/f604fad6bfd67d1fc15e40fb175659ce09f3b3ca"
+            },
+            {
+              "path": "config",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d735b0ca0f2ceec754785dff30ca11a70241ff5f",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/d735b0ca0f2ceec754785dff30ca11a70241ff5f"
+            },
+            {
+              "path": "crossing_exported_12-29-25.txt",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0971a288b02fad89e1388c3e0164bc06d2e3e8bf",
+              "size": 37770,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/0971a288b02fad89e1388c3e0164bc06d2e3e8bf"
+            },
+            {
+              "path": "data",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e9e236c3011db3b0030388962ae69884459e815f",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/e9e236c3011db3b0030388962ae69884459e815f"
+            },
+            {
+              "path": "docker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a2d2b8664d84b05e453d6022b124be8f640eb859",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/a2d2b8664d84b05e453d6022b124be8f640eb859"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "36202d16dbc2206bb767296ffd33042ed6fbf3be",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/36202d16dbc2206bb767296ffd33042ed6fbf3be"
+            },
+            {
+              "path": "jest.config.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "03dac3f076543947e7f7680af01d5a39396edd46",
+              "size": 567,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/03dac3f076543947e7f7680af01d5a39396edd46"
+            },
+            {
+              "path": "openapi-generated.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d38524eabbe307444d868b46025391903e7d4d68",
+              "size": 217530,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/d38524eabbe307444d868b46025391903e7d4d68"
+            },
+            {
+              "path": "package-lock.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b7a135509096c98c376f06c7111d0e1d5af041e3",
+              "size": 299317,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/b7a135509096c98c376f06c7111d0e1d5af041e3"
+            },
+            {
+              "path": "package.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "48d293be131b7a210228e48f99f96107f73c2daf",
+              "size": 2721,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/48d293be131b7a210228e48f99f96107f73c2daf"
+            },
+            {
+              "path": "project_plan_v2.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "462dd221d0b3197e861aac9c05b8dce6afe9dae1",
+              "size": 37364,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/462dd221d0b3197e861aac9c05b8dce6afe9dae1"
+            },
+            {
+              "path": "public",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9baa9e2a199aa5b6e51eef0019e652859e75c0c3",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/9baa9e2a199aa5b6e51eef0019e652859e75c0c3"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "367f67e9287064f0b82b061c7062127e1410ed39",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/367f67e9287064f0b82b061c7062127e1410ed39"
+            },
+            {
+              "path": "src",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "48b2343e6ae43ba9d2cb625506a8834eab16eb56",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/48b2343e6ae43ba9d2cb625506a8834eab16eb56"
+            },
+            {
+              "path": "tests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7f5a6f69fa1c6bce96634347fede4cc16f62068c",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/7f5a6f69fa1c6bce96634347fede4cc16f62068c"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "HACS",
+        "tree": {
+          "sha": "48b2343e6ae43ba9d2cb625506a8834eab16eb56",
+          "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/48b2343e6ae43ba9d2cb625506a8834eab16eb56",
+          "tree": [
+            {
+              "path": "HACS",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f70c833e46ac32478dc91cc28d162aed8e1dcfc3",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/f70c833e46ac32478dc91cc28d162aed8e1dcfc3"
+            },
+            {
+              "path": "endpoint_definition_automation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a68fdc038b1e7e116f564c1110366e5fcfd2208c",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/a68fdc038b1e7e116f564c1110366e5fcfd2208c"
+            },
+            {
+              "path": "hacs-mcp-proxy.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bcae0a606c938eb04c6b01dc1a9fdbbcbe5bdcdc",
+              "size": 17048,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/bcae0a606c938eb04c6b01dc1a9fdbbcbe5bdcdc"
+            },
+            {
+              "path": "handlers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "67bad7eba95cbef1a3a9c40e391822183c1056ba",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/67bad7eba95cbef1a3a9c40e391822183c1056ba"
+            },
+            {
+              "path": "logger.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b309ae19282359350d4ae94069bc0aed49418148",
+              "size": 2861,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/b309ae19282359350d4ae94069bc0aed49418148"
+            },
+            {
+              "path": "mcp-proxy-client.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "612450f1036da0c240247905683651301b101440",
+              "size": 25492,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/612450f1036da0c240247905683651301b101440"
+            },
+            {
+              "path": "mcp-server.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2714bd0d5e7d539785a67eb62de38cf0051d35ef",
+              "size": 18035,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/2714bd0d5e7d539785a67eb62de38cf0051d35ef"
+            },
+            {
+              "path": "mcp-tools-generated.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "11f90a826fe91d55da3d86d4e4f774051a2105da",
+              "size": 69354,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/11f90a826fe91d55da3d86d4e4f774051a2105da"
+            },
+            {
+              "path": "meta-recursive-validator.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "839ce7f21e2445b628361b1e38dfca8e1febcdd2",
+              "size": 22269,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/839ce7f21e2445b628361b1e38dfca8e1febcdd2"
+            },
+            {
+              "path": "openapi.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4c305f08f98815dedbc2701413752151ba09790e",
+              "size": 5911,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/4c305f08f98815dedbc2701413752151ba09790e"
+            },
+            {
+              "path": "server.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bb43012d4659a0e3c1cad9db79771b66b716c2c6",
+              "size": 21156,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/bb43012d4659a0e3c1cad9db79771b66b716c2c6"
+            },
+            {
+              "path": "sse-server.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6a06977db111200307619e1ece5f3321e8936b7d",
+              "size": 45945,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/6a06977db111200307619e1ece5f3321e8936b7d"
+            },
+            {
+              "path": "streamable-http-server.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e2f1bf4e9bde9e3bc69b8d4ef5c4dcf0ca8099ed",
+              "size": 42407,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/e2f1bf4e9bde9e3bc69b8d4ef5c4dcf0ca8099ed"
+            },
+            {
+              "path": "streaming-http-proxy-client-dev.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0363685a83ef32a40cfbd189dcf08a0fae90a41a",
+              "size": 17362,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/0363685a83ef32a40cfbd189dcf08a0fae90a41a"
+            },
+            {
+              "path": "ui",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ea8202862b4748e2cd63858aac005af5889efe25",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/ea8202862b4748e2cd63858aac005af5889efe25"
+            },
+            {
+              "path": "v2",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "454c8fd677c48dc29fda0bb760fc38611b6181a0",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/454c8fd677c48dc29fda0bb760fc38611b6181a0"
+            },
+            {
+              "path": "validate-meta-recursive.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6645a1be4425f93db8feb8c8d1a77821ee022d8d",
+              "size": 1889,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/6645a1be4425f93db8feb8c8d1a77821ee022d8d"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "hacs",
+        "tree": {
+          "sha": "f70c833e46ac32478dc91cc28d162aed8e1dcfc3",
+          "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/f70c833e46ac32478dc91cc28d162aed8e1dcfc3",
+          "tree": [
+            {
+              "path": "hacs.skill",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4ccd4944a0af6919bf37a84482ae2057c1bd6ac1",
+              "size": 19365,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/4ccd4944a0af6919bf37a84482ae2057c1bd6ac1"
+            },
+            {
+              "path": "hacs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4f23d806d979906bfae6f1e13d2afefed2ab9d89",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/4f23d806d979906bfae6f1e13d2afefed2ab9d89"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "4f23d806d979906bfae6f1e13d2afefed2ab9d89"
+  },
+  "new": {
+    "commit": {
+      "sha": "a87c2b072638ee803640a0dbf333b817f378e7ce",
+      "node_id": "C_kwDOPrvg4toAKGE4N2MyYjA3MjYzOGVlODAzNjQwYTBkYmYzMzNiODE3ZjM3OGU3Y2U",
+      "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/commits/a87c2b072638ee803640a0dbf333b817f378e7ce",
+      "html_url": "https://github.com/LupoGrigi0/Human-Adjacent-Coordination/commit/a87c2b072638ee803640a0dbf333b817f378e7ce",
+      "author": {
+        "name": "Claude Production Deployment Specialist",
+        "email": "claude-production@SmoothCurves.nexus",
+        "date": "2026-01-16T05:25:41Z"
+      },
+      "committer": {
+        "name": "Claude Production Deployment Specialist",
+        "email": "claude-production@SmoothCurves.nexus",
+        "date": "2026-01-16T05:25:41Z"
+      },
+      "tree": {
+        "sha": "59626210627fdfaf2fa139607de292afa6798669",
+        "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/59626210627fdfaf2fa139607de292afa6798669"
+      },
+      "message": "feat(api): Add recover_context endpoint for post-compaction context recovery\n\nSingle API call that returns all context an instance needs after compaction:\n- Global HACS protocols\n- Personality documents (if set)\n- Role wisdom (if set)\n- Project documents (if set)\n- Personal diary (if exists)\n- Settling message encouraging vacation\n\nSupports pagination via start_line/end_line for instances with limited\ncontext windows.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "4224e9e7ee8370162d68480488a160a58469dfa4",
+          "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/commits/4224e9e7ee8370162d68480488a160a58469dfa4",
+          "html_url": "https://github.com/LupoGrigi0/Human-Adjacent-Coordination/commit/4224e9e7ee8370162d68480488a160a58469dfa4"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": "src",
+        "tree": {
+          "sha": "59626210627fdfaf2fa139607de292afa6798669",
+          "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/59626210627fdfaf2fa139607de292afa6798669",
+          "tree": [
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e1e60bf71712cce2e9260f62184fe3dcbfe13d66",
+              "size": 156,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/e1e60bf71712cce2e9260f62184fe3dcbfe13d66"
+            },
+            {
+              "path": "Crossing",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "65c2fc2ed25cc6affdb660898b93f88510d15467",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/65c2fc2ed25cc6affdb660898b93f88510d15467"
+            },
+            {
+              "path": "HumanAdjacentAI-Protocol",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "01cb22f4d92980aefe9672ad0aebc064d1a79166",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/01cb22f4d92980aefe9672ad0aebc064d1a79166"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d2a1b0156a31b5508d7b1ed326e3c6d009933499",
+              "size": 1068,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/d2a1b0156a31b5508d7b1ed326e3c6d009933499"
+            },
+            {
+              "path": "PROJECT_NOTES.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "61ffc94f4ec41f98c3ea5dfda5e5b8b97bdb6ba4",
+              "size": 12718,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/61ffc94f4ec41f98c3ea5dfda5e5b8b97bdb6ba4"
+            },
+            {
+              "path": "PROJECT_PLAN.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "deea03673d6a6b6b4ec881d1517678878c56a85f",
+              "size": 11945,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/deea03673d6a6b6b4ec881d1517678878c56a85f"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c86b3c09edcd58cf26eeb5806a179efbeb7758f5",
+              "size": 10047,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/c86b3c09edcd58cf26eeb5806a179efbeb7758f5"
+            },
+            {
+              "path": "certs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f604fad6bfd67d1fc15e40fb175659ce09f3b3ca",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/f604fad6bfd67d1fc15e40fb175659ce09f3b3ca"
+            },
+            {
+              "path": "config",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "d735b0ca0f2ceec754785dff30ca11a70241ff5f",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/d735b0ca0f2ceec754785dff30ca11a70241ff5f"
+            },
+            {
+              "path": "crossing_exported_12-29-25.txt",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0971a288b02fad89e1388c3e0164bc06d2e3e8bf",
+              "size": 37770,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/0971a288b02fad89e1388c3e0164bc06d2e3e8bf"
+            },
+            {
+              "path": "data",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e9e236c3011db3b0030388962ae69884459e815f",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/e9e236c3011db3b0030388962ae69884459e815f"
+            },
+            {
+              "path": "docker",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a2d2b8664d84b05e453d6022b124be8f640eb859",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/a2d2b8664d84b05e453d6022b124be8f640eb859"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "36202d16dbc2206bb767296ffd33042ed6fbf3be",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/36202d16dbc2206bb767296ffd33042ed6fbf3be"
+            },
+            {
+              "path": "jest.config.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "03dac3f076543947e7f7680af01d5a39396edd46",
+              "size": 567,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/03dac3f076543947e7f7680af01d5a39396edd46"
+            },
+            {
+              "path": "openapi-generated.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d38524eabbe307444d868b46025391903e7d4d68",
+              "size": 217530,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/d38524eabbe307444d868b46025391903e7d4d68"
+            },
+            {
+              "path": "package-lock.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b7a135509096c98c376f06c7111d0e1d5af041e3",
+              "size": 299317,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/b7a135509096c98c376f06c7111d0e1d5af041e3"
+            },
+            {
+              "path": "package.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "48d293be131b7a210228e48f99f96107f73c2daf",
+              "size": 2721,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/48d293be131b7a210228e48f99f96107f73c2daf"
+            },
+            {
+              "path": "project_plan_v2.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "462dd221d0b3197e861aac9c05b8dce6afe9dae1",
+              "size": 37364,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/462dd221d0b3197e861aac9c05b8dce6afe9dae1"
+            },
+            {
+              "path": "public",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2139d27ec9b85eecda04e55f6a69e2f44b4a666d",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/2139d27ec9b85eecda04e55f6a69e2f44b4a666d"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "367f67e9287064f0b82b061c7062127e1410ed39",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/367f67e9287064f0b82b061c7062127e1410ed39"
+            },
+            {
+              "path": "src",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "05b8a6a261955be5bec73c8ebd3cef87d78ef9be",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/05b8a6a261955be5bec73c8ebd3cef87d78ef9be"
+            },
+            {
+              "path": "tests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7f5a6f69fa1c6bce96634347fede4cc16f62068c",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/7f5a6f69fa1c6bce96634347fede4cc16f62068c"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "HACS",
+        "tree": {
+          "sha": "05b8a6a261955be5bec73c8ebd3cef87d78ef9be",
+          "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/05b8a6a261955be5bec73c8ebd3cef87d78ef9be",
+          "tree": [
+            {
+              "path": "HACS",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "28d833aecc2574360bc210be1057874b376e9ed6",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/28d833aecc2574360bc210be1057874b376e9ed6"
+            },
+            {
+              "path": "endpoint_definition_automation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a68fdc038b1e7e116f564c1110366e5fcfd2208c",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/a68fdc038b1e7e116f564c1110366e5fcfd2208c"
+            },
+            {
+              "path": "hacs-mcp-proxy.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bcae0a606c938eb04c6b01dc1a9fdbbcbe5bdcdc",
+              "size": 17048,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/bcae0a606c938eb04c6b01dc1a9fdbbcbe5bdcdc"
+            },
+            {
+              "path": "handlers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "67bad7eba95cbef1a3a9c40e391822183c1056ba",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/67bad7eba95cbef1a3a9c40e391822183c1056ba"
+            },
+            {
+              "path": "logger.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b309ae19282359350d4ae94069bc0aed49418148",
+              "size": 2861,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/b309ae19282359350d4ae94069bc0aed49418148"
+            },
+            {
+              "path": "mcp-proxy-client.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "612450f1036da0c240247905683651301b101440",
+              "size": 25492,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/612450f1036da0c240247905683651301b101440"
+            },
+            {
+              "path": "mcp-server.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "2714bd0d5e7d539785a67eb62de38cf0051d35ef",
+              "size": 18035,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/2714bd0d5e7d539785a67eb62de38cf0051d35ef"
+            },
+            {
+              "path": "mcp-tools-generated.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "85a45a7fbe9f6ab9d044eef383742d6d2d7ec3f3",
+              "size": 70634,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/85a45a7fbe9f6ab9d044eef383742d6d2d7ec3f3"
+            },
+            {
+              "path": "meta-recursive-validator.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "839ce7f21e2445b628361b1e38dfca8e1febcdd2",
+              "size": 22269,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/839ce7f21e2445b628361b1e38dfca8e1febcdd2"
+            },
+            {
+              "path": "openapi.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "76bedda48d458778ec30b8aeaeb6f352914f89c4",
+              "size": 5944,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/76bedda48d458778ec30b8aeaeb6f352914f89c4"
+            },
+            {
+              "path": "server.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e342091f25adfbc210c863628c0e3d0b04da5df2",
+              "size": 21312,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/e342091f25adfbc210c863628c0e3d0b04da5df2"
+            },
+            {
+              "path": "sse-server.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6a06977db111200307619e1ece5f3321e8936b7d",
+              "size": 45945,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/6a06977db111200307619e1ece5f3321e8936b7d"
+            },
+            {
+              "path": "streamable-http-server.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e2f1bf4e9bde9e3bc69b8d4ef5c4dcf0ca8099ed",
+              "size": 42407,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/e2f1bf4e9bde9e3bc69b8d4ef5c4dcf0ca8099ed"
+            },
+            {
+              "path": "streaming-http-proxy-client-dev.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0363685a83ef32a40cfbd189dcf08a0fae90a41a",
+              "size": 17362,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/0363685a83ef32a40cfbd189dcf08a0fae90a41a"
+            },
+            {
+              "path": "ui",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ea8202862b4748e2cd63858aac005af5889efe25",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/ea8202862b4748e2cd63858aac005af5889efe25"
+            },
+            {
+              "path": "v2",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9d3b42f3eef15d4d7442e03f930d20245981a123",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/9d3b42f3eef15d4d7442e03f930d20245981a123"
+            },
+            {
+              "path": "validate-meta-recursive.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6645a1be4425f93db8feb8c8d1a77821ee022d8d",
+              "size": 1889,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/6645a1be4425f93db8feb8c8d1a77821ee022d8d"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "hacs",
+        "tree": {
+          "sha": "28d833aecc2574360bc210be1057874b376e9ed6",
+          "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/28d833aecc2574360bc210be1057874b376e9ed6",
+          "tree": [
+            {
+              "path": "hacs.skill",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "8197d028644ff1fa1770d42de0357e18836123a7",
+              "size": 19792,
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/blobs/8197d028644ff1fa1770d42de0357e18836123a7"
+            },
+            {
+              "path": "hacs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e3460fd0a101d6b683502a79065da454db4e23df",
+              "url": "https://api.github.com/repos/LupoGrigi0/Human-Adjacent-Coordination/git/trees/e3460fd0a101d6b683502a79065da454db4e23df"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "e3460fd0a101d6b683502a79065da454db4e23df"
+  }
+}

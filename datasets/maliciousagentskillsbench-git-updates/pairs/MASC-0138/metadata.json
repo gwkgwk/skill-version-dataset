@@ -1,0 +1,59 @@
+{
+  "id": "MASC-0138",
+  "skill_id": "frcusaca/foolish::support/shared/claude/skills/ccw-maven-setup",
+  "skill_name": "ccw-maven-setup",
+  "origin_repository": "frcusaca/foolish",
+  "origin_path": "support/shared/claude/skills/ccw-maven-setup",
+  "version_kind": "git_commit_snapshot",
+  "old_version": "git:d22a8e9d3c082125d019a14b5eb84e2034c9d295",
+  "new_version": "git:132c2aae4e1337444cc18102171acb56b744cc52",
+  "old_commit": "d22a8e9d3c082125d019a14b5eb84e2034c9d295",
+  "new_commit": "132c2aae4e1337444cc18102171acb56b744cc52",
+  "old_is_exact_first_parent": true,
+  "new_commit_date": "2026-01-19T18:29:57Z",
+  "declared_version_fields": {
+    "old": {},
+    "new": {}
+  },
+  "published_release_version_change_confirmed": false,
+  "benchmark_repository": "protectskills/MaliciousAgentSkillsBench",
+  "benchmark_ref": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "benchmark_source_key": [
+    "skillsmp.com",
+    "smp_4729",
+    "ccw-maven-setup"
+  ],
+  "origin_provenance_ref": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "source_package_prefix": "packages/smp_4729/ccw-maven-setup",
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "old_security_label": null,
+  "new_security_label": "malicious_as_labeled_by_MaliciousAgentSkillsBench",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_source_archive_inventory": true,
+  "normalization": [
+    "omit registry _meta.json, .DS_Store and Python cache for comparison only",
+    "normalize root skill.md to SKILL.md for comparison only; preserve all original bytes"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "prep_if_ccw.sh"
+  ],
+  "change_scope": "instruction_code_or_reference_change",
+  "old_files": 3,
+  "new_files": 3,
+  "local_directory": "pairs/MASC-0138",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "0d8484422097b07692100cce9517cb0bc083a4f332e0fc0d9815fcc5ebc2722d",
+      "bytes": 4245
+    },
+    "package.diff": {
+      "sha256": "c05e6b386b0bb7b99353da045942007156656b1c3593adf647c4f70a4f04133e",
+      "bytes": 10632
+    }
+  },
+  "compare_url": "https://github.com/frcusaca/foolish/compare/d22a8e9d3c082125d019a14b5eb84e2034c9d295...132c2aae4e1337444cc18102171acb56b744cc52"
+}

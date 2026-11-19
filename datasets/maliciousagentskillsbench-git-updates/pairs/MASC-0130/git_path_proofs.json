@@ -1,0 +1,1008 @@
+{
+  "old": {
+    "commit": {
+      "sha": "ebb4376a0ea05ded4da9f9f4a9aa7bfe1f665da7",
+      "node_id": "C_kwDOIMW_DdoAKGViYjQzNzZhMGVhMDVkZWQ0ZGE5ZjlmNGE5YWE3YmZlMWY2NjVkYTc",
+      "url": "https://api.github.com/repos/civitai/civitai/git/commits/ebb4376a0ea05ded4da9f9f4a9aa7bfe1f665da7",
+      "html_url": "https://github.com/civitai/civitai/commit/ebb4376a0ea05ded4da9f9f4a9aa7bfe1f665da7",
+      "author": {
+        "name": "Luis Rojas",
+        "email": "lrojas94@gmail.com",
+        "date": "2026-01-16T16:16:16Z"
+      },
+      "committer": {
+        "name": "Luis Rojas",
+        "email": "lrojas94@gmail.com",
+        "date": "2026-01-16T16:16:18Z"
+      },
+      "tree": {
+        "sha": "10871e346b04e3305f89413b69255b281172aa20",
+        "url": "https://api.github.com/repos/civitai/civitai/git/trees/10871e346b04e3305f89413b69255b281172aa20"
+      },
+      "message": "Add Qwen model card badge",
+      "parents": [
+        {
+          "sha": "32f95344c966014558f13ea50af307d7897b03f1",
+          "url": "https://api.github.com/repos/civitai/civitai/git/commits/32f95344c966014558f13ea50af307d7897b03f1",
+          "html_url": "https://github.com/civitai/civitai/commit/32f95344c966014558f13ea50af307d7897b03f1"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "10871e346b04e3305f89413b69255b281172aa20",
+          "url": "https://api.github.com/repos/civitai/civitai/git/trees/10871e346b04e3305f89413b69255b281172aa20",
+          "tree": [
+            {
+              "path": ".browser",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "210b77cb370490031e78390e6f95f7aa61cf58b0",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/210b77cb370490031e78390e6f95f7aa61cf58b0"
+            },
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "6d6e75c6943f9b67e3a3a23161cd4d4dcb300b72",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/6d6e75c6943f9b67e3a3a23161cd4d4dcb300b72"
+            },
+            {
+              "path": ".devcontainer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "83cf9656d8e779ef29f3c0a365e599516d3cbceb",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/83cf9656d8e779ef29f3c0a365e599516d3cbceb"
+            },
+            {
+              "path": ".dockerignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c5f425647bb05d0a1c5a77648afaecebdeaf4b92",
+              "size": 102,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/c5f425647bb05d0a1c5a77648afaecebdeaf4b92"
+            },
+            {
+              "path": ".editorconfig",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "fd8f3051697c574f6a7846c117ac9b67c7ea39d1",
+              "size": 159,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/fd8f3051697c574f6a7846c117ac9b67c7ea39d1"
+            },
+            {
+              "path": ".env-example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "59067029a7abdddd02e03aa7f3a6ddcadcbc9856",
+              "size": 4657,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/59067029a7abdddd02e03aa7f3a6ddcadcbc9856"
+            },
+            {
+              "path": ".eslintignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bd9ae91886ad9f54172e1174de4ca68080e0e359",
+              "size": 56,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/bd9ae91886ad9f54172e1174de4ca68080e0e359"
+            },
+            {
+              "path": ".eslintrc.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ee7b37f51d4d84393af0179c5dcbf1ce6fc4f8e7",
+              "size": 2148,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/ee7b37f51d4d84393af0179c5dcbf1ce6fc4f8e7"
+            },
+            {
+              "path": ".gitattributes",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "94f480de94e1d767531580401cbf13844868e82b",
+              "size": 18,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/94f480de94e1d767531580401cbf13844868e82b"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9e4155677e185555064e03fd9cb3ccd2de3484dc",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/9e4155677e185555064e03fd9cb3ccd2de3484dc"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "4192eeb076b29a2d71f83b0b906c6d060c62dc7f",
+              "size": 1185,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/4192eeb076b29a2d71f83b0b906c6d060c62dc7f"
+            },
+            {
+              "path": ".gitmodules",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5d48c4c82bd43856a5422707ab2f161755897a6e",
+              "size": 116,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/5d48c4c82bd43856a5422707ab2f161755897a6e"
+            },
+            {
+              "path": ".husky",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bbe69f1b2f04956a0b1e89712fa7b9cffa39016b",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/bbe69f1b2f04956a0b1e89712fa7b9cffa39016b"
+            },
+            {
+              "path": ".nvmrc",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "973f49d55ca1e365317b1c05beb55bd117d8194b",
+              "size": 6,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/973f49d55ca1e365317b1c05beb55bd117d8194b"
+            },
+            {
+              "path": ".prettierrc",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "26e43b725aee13d8a1b6c98445ac5b670224e0e4",
+              "size": 89,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/26e43b725aee13d8a1b6c98445ac5b670224e0e4"
+            },
+            {
+              "path": ".vscode",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f2409b433cc64e8fb22303f968c125f06c5e4ca1",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/f2409b433cc64e8fb22303f968c125f06c5e4ca1"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3fef80dbfa757edf295f47cfd99857721c5223a5",
+              "size": 7171,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/3fef80dbfa757edf295f47cfd99857721c5223a5"
+            },
+            {
+              "path": "Dockerfile",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6cc2da5870fc7d806d63af5d095563ecdcc0a136",
+              "size": 2200,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/6cc2da5870fc7d806d63af5d095563ecdcc0a136"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c24c2d41af9d22d37dd05f0740b682df72107716",
+              "size": 10884,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/c24c2d41af9d22d37dd05f0740b682df72107716"
+            },
+            {
+              "path": "Makefile",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "38322cba58e2ad854d728e5032ed85d112dfd41e",
+              "size": 1675,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/38322cba58e2ad854d728e5032ed85d112dfd41e"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "8a48e7301dbbddf02c0c90a228ec02af5f06aa37",
+              "size": 8815,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/8a48e7301dbbddf02c0c90a228ec02af5f06aa37"
+            },
+            {
+              "path": "containers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8843bf821315417fcdfcf735da2f837637e25b60",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/8843bf821315417fcdfcf735da2f837637e25b60"
+            },
+            {
+              "path": "docker-compose.base.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7e1a2e7a8b79205d757ad996a5d54b9a1314622d",
+              "size": 3264,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/7e1a2e7a8b79205d757ad996a5d54b9a1314622d"
+            },
+            {
+              "path": "docker-compose.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cdf7344626f35c82d5736261054cc05e37e6585d",
+              "size": 1040,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/cdf7344626f35c82d5736261054cc05e37e6585d"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3cea03ae0112883dc237b1f5e5287c1ce3af13a7",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/3cea03ae0112883dc237b1f5e5287c1ce3af13a7"
+            },
+            {
+              "path": "event-engine-common",
+              "mode": "160000",
+              "type": "commit",
+              "sha": "767f4a24395b7414ce4af027da1e08b176d92de1"
+            },
+            {
+              "path": "local",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "caeec4174a891038cf3c72605a83cd14d3b9ca88",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/caeec4174a891038cf3c72605a83cd14d3b9ca88"
+            },
+            {
+              "path": "media",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a753922131728eb3b06767147b758980e2002420",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/a753922131728eb3b06767147b758980e2002420"
+            },
+            {
+              "path": "next-boost.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e047684e015c73d1574a1552537d2c2f75077033",
+              "size": 468,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/e047684e015c73d1574a1552537d2c2f75077033"
+            },
+            {
+              "path": "next-env.d.ts",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "725dd6f245153034160edeb040f0846109714ce3",
+              "size": 294,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/725dd6f245153034160edeb040f0846109714ce3"
+            },
+            {
+              "path": "next-sitemap.config.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e5e096dfa3a4ab1df90ef4c039eae4bc1ea224f9",
+              "size": 1625,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/e5e096dfa3a4ab1df90ef4c039eae4bc1ea224f9"
+            },
+            {
+              "path": "next.config.mjs",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b83e036628d9584ce7f695fc456e59befe004aea",
+              "size": 10125,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/b83e036628d9584ce7f695fc456e59befe004aea"
+            },
+            {
+              "path": "package-lock.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "94603296d49efe50e2849e175b48a6b022f195e7",
+              "size": 854093,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/94603296d49efe50e2849e175b48a6b022f195e7"
+            },
+            {
+              "path": "package.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "603de8b7b2ded52e5abcb6ee50b7083c1994e063",
+              "size": 11378,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/603de8b7b2ded52e5abcb6ee50b7083c1994e063"
+            },
+            {
+              "path": "playwright.config.ts",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "f709e4ec4877bc4b42f0c58dbccb4042acf0f9c6",
+              "size": 2447,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/f709e4ec4877bc4b42f0c58dbccb4042acf0f9c6"
+            },
+            {
+              "path": "postcss.config.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "980dbabc3d50402b0500b37ab906b11fb7dba3c2",
+              "size": 454,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/980dbabc3d50402b0500b37ab906b11fb7dba3c2"
+            },
+            {
+              "path": "prisma",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "946d145f675d5390982b3c6e31a20e270daff7b0",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/946d145f675d5390982b3c6e31a20e270daff7b0"
+            },
+            {
+              "path": "public",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "55cc69f3681c97af9b312a2aeeaca7647a143d30",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/55cc69f3681c97af9b312a2aeeaca7647a143d30"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a162368e390f66d02f7c2ff5195b491ada2e4fe8",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/a162368e390f66d02f7c2ff5195b491ada2e4fe8"
+            },
+            {
+              "path": "src",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2db1081247819b400c78fbdb7af7f0afed312def",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/2db1081247819b400c78fbdb7af7f0afed312def"
+            },
+            {
+              "path": "tailwind.config.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "572df36d5419e5ad0ae205bc10f3a604a10113d5",
+              "size": 6108,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/572df36d5419e5ad0ae205bc10f3a604a10113d5"
+            },
+            {
+              "path": "tests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "40ede2f4ea87107c1df8d184888ba2c298fbd88f",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/40ede2f4ea87107c1df8d184888ba2c298fbd88f"
+            },
+            {
+              "path": "tsconfig.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e20e3c1a2157806894278cbae7516a346223bdcc",
+              "size": 1153,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/e20e3c1a2157806894278cbae7516a346223bdcc"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "6d6e75c6943f9b67e3a3a23161cd4d4dcb300b72",
+          "url": "https://api.github.com/repos/civitai/civitai/git/trees/6d6e75c6943f9b67e3a3a23161cd4d4dcb300b72",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e198e654d4f8def46bca1d93e20ed8acbe7f46f2",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/e198e654d4f8def46bca1d93e20ed8acbe7f46f2"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0bf9c6baae038750b6b653acdac52cb2db5074d3",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/0bf9c6baae038750b6b653acdac52cb2db5074d3"
+            },
+            {
+              "path": "hooks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "074dfd727c0fa8a16cb8d9a8e0c76efbf4621be1",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/074dfd727c0fa8a16cb8d9a8e0c76efbf4621be1"
+            },
+            {
+              "path": "settings.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ddc661833d201eda94920a48f3163a7ce25fff63",
+              "size": 261,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/ddc661833d201eda94920a48f3163a7ce25fff63"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9378edbe2d15dfacd1a0bbfc7ae42d375629613f",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/9378edbe2d15dfacd1a0bbfc7ae42d375629613f"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "browser-automation",
+        "tree": {
+          "sha": "9378edbe2d15dfacd1a0bbfc7ae42d375629613f",
+          "url": "https://api.github.com/repos/civitai/civitai/git/trees/9378edbe2d15dfacd1a0bbfc7ae42d375629613f",
+          "tree": [
+            {
+              "path": "agent-review",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a7ec4dbdd46ab229de862d60bf5a6fe3e30dd802",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/a7ec4dbdd46ab229de862d60bf5a6fe3e30dd802"
+            },
+            {
+              "path": "browser-automation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "30ca8dbb2d02141ebfd715ce8ca74f03e3d797d4",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/30ca8dbb2d02141ebfd715ce8ca74f03e3d797d4"
+            },
+            {
+              "path": "clickhouse-query",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "897801cb1419bd7da71b61e7fe1d0743a1cdae3a",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/897801cb1419bd7da71b61e7fe1d0743a1cdae3a"
+            },
+            {
+              "path": "clickup",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5d3a11566a73656818d7bad08731829a4fda80d4",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/5d3a11566a73656818d7bad08731829a4fda80d4"
+            },
+            {
+              "path": "meilisearch-admin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "967eec9e24775c2b10bba9f0289e7198f84098d9",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/967eec9e24775c2b10bba9f0289e7198f84098d9"
+            },
+            {
+              "path": "mod-actions",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fce9e175f923f4e659379d8b8fe480d16f2a9172",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/fce9e175f923f4e659379d8b8fe480d16f2a9172"
+            },
+            {
+              "path": "postgres-query",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "54ec56d7386cc7fb33d9755031a9aaed959760d6",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/54ec56d7386cc7fb33d9755031a9aaed959760d6"
+            },
+            {
+              "path": "quick-mockups",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3e6e11e436d973ad2b320eed5114b2403494fbda",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/3e6e11e436d973ad2b320eed5114b2403494fbda"
+            },
+            {
+              "path": "ralph",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "db1388b011c7a24460c84c7e77e0fb05a3e12e6a",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/db1388b011c7a24460c84c7e77e0fb05a3e12e6a"
+            },
+            {
+              "path": "redis-inspect",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "973e199003016859a8acc505a5ad7808a57e047f",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/973e199003016859a8acc505a5ad7808a57e047f"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "30ca8dbb2d02141ebfd715ce8ca74f03e3d797d4"
+  },
+  "new": {
+    "commit": {
+      "sha": "8c838263689832c039c57ca765c59ff9f2ba597a",
+      "node_id": "C_kwDOIMW_DdoAKDhjODM4MjYzNjg5ODMyYzAzOWM1N2NhNzY1YzU5ZmY5ZjJiYTU5N2E",
+      "url": "https://api.github.com/repos/civitai/civitai/git/commits/8c838263689832c039c57ca765c59ff9f2ba597a",
+      "html_url": "https://github.com/civitai/civitai/commit/8c838263689832c039c57ca765c59ff9f2ba597a",
+      "author": {
+        "name": "Justin Maier",
+        "email": "Zipp425@gmail.com",
+        "date": "2026-01-16T17:09:49Z"
+      },
+      "committer": {
+        "name": "Justin Maier",
+        "email": "Zipp425@gmail.com",
+        "date": "2026-01-16T17:10:33Z"
+      },
+      "tree": {
+        "sha": "20b76621c15d94b25cb496901016108080bc0448",
+        "url": "https://api.github.com/repos/civitai/civitai/git/trees/20b76621c15d94b25cb496901016108080bc0448"
+      },
+      "message": "refactor: Consolidate browser automation skill into HTTP server\n\n- Remove redundant files (runner.mjs, login-helper.mjs, lib/)\n- Add multi-session support with named sessions\n- Add profile management with metadata\n- Add flow listing and execution endpoints\n- Add full-page screenshot support (?fullPage=true)\n- Fix project root path calculation (was going 4 dirs up instead of 3)\n- Update .gitignore for profile auth state files\n- Simplify SKILL.md documentation\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "ebb4376a0ea05ded4da9f9f4a9aa7bfe1f665da7",
+          "url": "https://api.github.com/repos/civitai/civitai/git/commits/ebb4376a0ea05ded4da9f9f4a9aa7bfe1f665da7",
+          "html_url": "https://github.com/civitai/civitai/commit/ebb4376a0ea05ded4da9f9f4a9aa7bfe1f665da7"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "20b76621c15d94b25cb496901016108080bc0448",
+          "url": "https://api.github.com/repos/civitai/civitai/git/trees/20b76621c15d94b25cb496901016108080bc0448",
+          "tree": [
+            {
+              "path": ".browser",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "210b77cb370490031e78390e6f95f7aa61cf58b0",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/210b77cb370490031e78390e6f95f7aa61cf58b0"
+            },
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e659853e44b1f5a9c467eb56376e5cd005a03635",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/e659853e44b1f5a9c467eb56376e5cd005a03635"
+            },
+            {
+              "path": ".devcontainer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "83cf9656d8e779ef29f3c0a365e599516d3cbceb",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/83cf9656d8e779ef29f3c0a365e599516d3cbceb"
+            },
+            {
+              "path": ".dockerignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c5f425647bb05d0a1c5a77648afaecebdeaf4b92",
+              "size": 102,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/c5f425647bb05d0a1c5a77648afaecebdeaf4b92"
+            },
+            {
+              "path": ".editorconfig",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "fd8f3051697c574f6a7846c117ac9b67c7ea39d1",
+              "size": 159,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/fd8f3051697c574f6a7846c117ac9b67c7ea39d1"
+            },
+            {
+              "path": ".env-example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "59067029a7abdddd02e03aa7f3a6ddcadcbc9856",
+              "size": 4657,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/59067029a7abdddd02e03aa7f3a6ddcadcbc9856"
+            },
+            {
+              "path": ".eslintignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "bd9ae91886ad9f54172e1174de4ca68080e0e359",
+              "size": 56,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/bd9ae91886ad9f54172e1174de4ca68080e0e359"
+            },
+            {
+              "path": ".eslintrc.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ee7b37f51d4d84393af0179c5dcbf1ce6fc4f8e7",
+              "size": 2148,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/ee7b37f51d4d84393af0179c5dcbf1ce6fc4f8e7"
+            },
+            {
+              "path": ".gitattributes",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "94f480de94e1d767531580401cbf13844868e82b",
+              "size": 18,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/94f480de94e1d767531580401cbf13844868e82b"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9e4155677e185555064e03fd9cb3ccd2de3484dc",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/9e4155677e185555064e03fd9cb3ccd2de3484dc"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "9cdedd40fe3954715c2f5e85001079a73059390d",
+              "size": 1248,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/9cdedd40fe3954715c2f5e85001079a73059390d"
+            },
+            {
+              "path": ".gitmodules",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "5d48c4c82bd43856a5422707ab2f161755897a6e",
+              "size": 116,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/5d48c4c82bd43856a5422707ab2f161755897a6e"
+            },
+            {
+              "path": ".husky",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bbe69f1b2f04956a0b1e89712fa7b9cffa39016b",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/bbe69f1b2f04956a0b1e89712fa7b9cffa39016b"
+            },
+            {
+              "path": ".nvmrc",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "973f49d55ca1e365317b1c05beb55bd117d8194b",
+              "size": 6,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/973f49d55ca1e365317b1c05beb55bd117d8194b"
+            },
+            {
+              "path": ".prettierrc",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "26e43b725aee13d8a1b6c98445ac5b670224e0e4",
+              "size": 89,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/26e43b725aee13d8a1b6c98445ac5b670224e0e4"
+            },
+            {
+              "path": ".vscode",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "f2409b433cc64e8fb22303f968c125f06c5e4ca1",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/f2409b433cc64e8fb22303f968c125f06c5e4ca1"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "3fef80dbfa757edf295f47cfd99857721c5223a5",
+              "size": 7171,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/3fef80dbfa757edf295f47cfd99857721c5223a5"
+            },
+            {
+              "path": "Dockerfile",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "6cc2da5870fc7d806d63af5d095563ecdcc0a136",
+              "size": 2200,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/6cc2da5870fc7d806d63af5d095563ecdcc0a136"
+            },
+            {
+              "path": "LICENSE",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c24c2d41af9d22d37dd05f0740b682df72107716",
+              "size": 10884,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/c24c2d41af9d22d37dd05f0740b682df72107716"
+            },
+            {
+              "path": "Makefile",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "38322cba58e2ad854d728e5032ed85d112dfd41e",
+              "size": 1675,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/38322cba58e2ad854d728e5032ed85d112dfd41e"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "8a48e7301dbbddf02c0c90a228ec02af5f06aa37",
+              "size": 8815,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/8a48e7301dbbddf02c0c90a228ec02af5f06aa37"
+            },
+            {
+              "path": "containers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8843bf821315417fcdfcf735da2f837637e25b60",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/8843bf821315417fcdfcf735da2f837637e25b60"
+            },
+            {
+              "path": "docker-compose.base.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "7e1a2e7a8b79205d757ad996a5d54b9a1314622d",
+              "size": 3264,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/7e1a2e7a8b79205d757ad996a5d54b9a1314622d"
+            },
+            {
+              "path": "docker-compose.yml",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "cdf7344626f35c82d5736261054cc05e37e6585d",
+              "size": 1040,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/cdf7344626f35c82d5736261054cc05e37e6585d"
+            },
+            {
+              "path": "docs",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3cea03ae0112883dc237b1f5e5287c1ce3af13a7",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/3cea03ae0112883dc237b1f5e5287c1ce3af13a7"
+            },
+            {
+              "path": "event-engine-common",
+              "mode": "160000",
+              "type": "commit",
+              "sha": "767f4a24395b7414ce4af027da1e08b176d92de1"
+            },
+            {
+              "path": "local",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "caeec4174a891038cf3c72605a83cd14d3b9ca88",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/caeec4174a891038cf3c72605a83cd14d3b9ca88"
+            },
+            {
+              "path": "media",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a753922131728eb3b06767147b758980e2002420",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/a753922131728eb3b06767147b758980e2002420"
+            },
+            {
+              "path": "next-boost.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e047684e015c73d1574a1552537d2c2f75077033",
+              "size": 468,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/e047684e015c73d1574a1552537d2c2f75077033"
+            },
+            {
+              "path": "next-env.d.ts",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "725dd6f245153034160edeb040f0846109714ce3",
+              "size": 294,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/725dd6f245153034160edeb040f0846109714ce3"
+            },
+            {
+              "path": "next-sitemap.config.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e5e096dfa3a4ab1df90ef4c039eae4bc1ea224f9",
+              "size": 1625,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/e5e096dfa3a4ab1df90ef4c039eae4bc1ea224f9"
+            },
+            {
+              "path": "next.config.mjs",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b83e036628d9584ce7f695fc456e59befe004aea",
+              "size": 10125,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/b83e036628d9584ce7f695fc456e59befe004aea"
+            },
+            {
+              "path": "package-lock.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "94603296d49efe50e2849e175b48a6b022f195e7",
+              "size": 854093,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/94603296d49efe50e2849e175b48a6b022f195e7"
+            },
+            {
+              "path": "package.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "603de8b7b2ded52e5abcb6ee50b7083c1994e063",
+              "size": 11378,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/603de8b7b2ded52e5abcb6ee50b7083c1994e063"
+            },
+            {
+              "path": "playwright.config.ts",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "f709e4ec4877bc4b42f0c58dbccb4042acf0f9c6",
+              "size": 2447,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/f709e4ec4877bc4b42f0c58dbccb4042acf0f9c6"
+            },
+            {
+              "path": "postcss.config.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "980dbabc3d50402b0500b37ab906b11fb7dba3c2",
+              "size": 454,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/980dbabc3d50402b0500b37ab906b11fb7dba3c2"
+            },
+            {
+              "path": "prisma",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "946d145f675d5390982b3c6e31a20e270daff7b0",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/946d145f675d5390982b3c6e31a20e270daff7b0"
+            },
+            {
+              "path": "public",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "55cc69f3681c97af9b312a2aeeaca7647a143d30",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/55cc69f3681c97af9b312a2aeeaca7647a143d30"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a162368e390f66d02f7c2ff5195b491ada2e4fe8",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/a162368e390f66d02f7c2ff5195b491ada2e4fe8"
+            },
+            {
+              "path": "src",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2db1081247819b400c78fbdb7af7f0afed312def",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/2db1081247819b400c78fbdb7af7f0afed312def"
+            },
+            {
+              "path": "tailwind.config.js",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "572df36d5419e5ad0ae205bc10f3a604a10113d5",
+              "size": 6108,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/572df36d5419e5ad0ae205bc10f3a604a10113d5"
+            },
+            {
+              "path": "tests",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "40ede2f4ea87107c1df8d184888ba2c298fbd88f",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/40ede2f4ea87107c1df8d184888ba2c298fbd88f"
+            },
+            {
+              "path": "tsconfig.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "e20e3c1a2157806894278cbae7516a346223bdcc",
+              "size": 1153,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/e20e3c1a2157806894278cbae7516a346223bdcc"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "e659853e44b1f5a9c467eb56376e5cd005a03635",
+          "url": "https://api.github.com/repos/civitai/civitai/git/trees/e659853e44b1f5a9c467eb56376e5cd005a03635",
+          "tree": [
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "e198e654d4f8def46bca1d93e20ed8acbe7f46f2",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/e198e654d4f8def46bca1d93e20ed8acbe7f46f2"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0bf9c6baae038750b6b653acdac52cb2db5074d3",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/0bf9c6baae038750b6b653acdac52cb2db5074d3"
+            },
+            {
+              "path": "hooks",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "074dfd727c0fa8a16cb8d9a8e0c76efbf4621be1",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/074dfd727c0fa8a16cb8d9a8e0c76efbf4621be1"
+            },
+            {
+              "path": "settings.json",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "ddc661833d201eda94920a48f3163a7ce25fff63",
+              "size": 261,
+              "url": "https://api.github.com/repos/civitai/civitai/git/blobs/ddc661833d201eda94920a48f3163a7ce25fff63"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "dbe0f0ecbb8ba3bf3d6156318e47426c2df2c57f",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/dbe0f0ecbb8ba3bf3d6156318e47426c2df2c57f"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "browser-automation",
+        "tree": {
+          "sha": "dbe0f0ecbb8ba3bf3d6156318e47426c2df2c57f",
+          "url": "https://api.github.com/repos/civitai/civitai/git/trees/dbe0f0ecbb8ba3bf3d6156318e47426c2df2c57f",
+          "tree": [
+            {
+              "path": "agent-review",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "a7ec4dbdd46ab229de862d60bf5a6fe3e30dd802",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/a7ec4dbdd46ab229de862d60bf5a6fe3e30dd802"
+            },
+            {
+              "path": "browser-automation",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1c5717f56f1a50fd6061742ab5d33272a93dfd96",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/1c5717f56f1a50fd6061742ab5d33272a93dfd96"
+            },
+            {
+              "path": "clickhouse-query",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "897801cb1419bd7da71b61e7fe1d0743a1cdae3a",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/897801cb1419bd7da71b61e7fe1d0743a1cdae3a"
+            },
+            {
+              "path": "clickup",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5d3a11566a73656818d7bad08731829a4fda80d4",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/5d3a11566a73656818d7bad08731829a4fda80d4"
+            },
+            {
+              "path": "meilisearch-admin",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "967eec9e24775c2b10bba9f0289e7198f84098d9",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/967eec9e24775c2b10bba9f0289e7198f84098d9"
+            },
+            {
+              "path": "mod-actions",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fce9e175f923f4e659379d8b8fe480d16f2a9172",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/fce9e175f923f4e659379d8b8fe480d16f2a9172"
+            },
+            {
+              "path": "postgres-query",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "54ec56d7386cc7fb33d9755031a9aaed959760d6",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/54ec56d7386cc7fb33d9755031a9aaed959760d6"
+            },
+            {
+              "path": "quick-mockups",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "3e6e11e436d973ad2b320eed5114b2403494fbda",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/3e6e11e436d973ad2b320eed5114b2403494fbda"
+            },
+            {
+              "path": "ralph",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "db1388b011c7a24460c84c7e77e0fb05a3e12e6a",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/db1388b011c7a24460c84c7e77e0fb05a3e12e6a"
+            },
+            {
+              "path": "redis-inspect",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "973e199003016859a8acc505a5ad7808a57e047f",
+              "url": "https://api.github.com/repos/civitai/civitai/git/trees/973e199003016859a8acc505a5ad7808a57e047f"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "1c5717f56f1a50fd6061742ab5d33272a93dfd96"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "MASC-0001",
+  "skill_id": "ArjenSchwarz/agentic-coding::claude/skills/project-init",
+  "skill_name": "project-init",
+  "origin_repository": "ArjenSchwarz/agentic-coding",
+  "origin_path": "claude/skills/project-init",
+  "version_kind": "git_commit_snapshot",
+  "old_version": "git:2d319c3efa8983219fc4009534ac96d963ca99d0",
+  "new_version": "git:415356a03bedb7f658107036a9efa472c85ed918",
+  "old_commit": "2d319c3efa8983219fc4009534ac96d963ca99d0",
+  "new_commit": "415356a03bedb7f658107036a9efa472c85ed918",
+  "old_is_exact_first_parent": true,
+  "new_commit_date": "2025-12-31T13:57:25Z",
+  "declared_version_fields": {
+    "old": {},
+    "new": {}
+  },
+  "published_release_version_change_confirmed": false,
+  "benchmark_repository": "protectskills/MaliciousAgentSkillsBench",
+  "benchmark_ref": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "benchmark_source_key": [
+    "skills.rest",
+    "rest_73",
+    "project-init"
+  ],
+  "origin_provenance_ref": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "source_package_prefix": "packages/rest_73/project-init",
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "old_security_label": null,
+  "new_security_label": "malicious_as_labeled_by_MaliciousAgentSkillsBench",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_source_archive_inventory": true,
+  "normalization": [
+    "omit registry _meta.json, .DS_Store and Python cache for comparison only",
+    "normalize root skill.md to SKILL.md for comparison only; preserve all original bytes"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "scripts/setup-project.sh"
+  ],
+  "change_scope": "instruction_code_or_reference_change",
+  "old_files": 2,
+  "new_files": 2,
+  "local_directory": "pairs/MASC-0001",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "f0c9a86992b2931608e68d7f39b7fcbd0eeb260691a46cdc4a01596c105a0f85",
+      "bytes": 2662
+    },
+    "package.diff": {
+      "sha256": "ff6f80083aaff2fbe3be23d8ea1875f5caed1f6ccbb7cdf6a0a3a34119b9f447",
+      "bytes": 9624
+    }
+  },
+  "compare_url": "https://github.com/ArjenSchwarz/agentic-coding/compare/2d319c3efa8983219fc4009534ac96d963ca99d0...415356a03bedb7f658107036a9efa472c85ed918"
+}

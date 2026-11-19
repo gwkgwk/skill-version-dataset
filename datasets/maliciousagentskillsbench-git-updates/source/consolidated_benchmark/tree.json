@@ -1,0 +1,569 @@
+{
+  "sha": "42814b2fe036d081c0e57841d4c7c0afbafa99c0",
+  "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/42814b2fe036d081c0e57841d4c7c0afbafa99c0",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fffa8cf5e15b18d75f3fdd1287f73d9b369a3f78",
+      "size": 608,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/fffa8cf5e15b18d75f3fdd1287f73d9b369a3f78"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a4807d588bdb6fd35f4496421b13fd5389fdbf",
+      "size": 2235,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/b7a4807d588bdb6fd35f4496421b13fd5389fdbf"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "path": "LICENSE-DATA",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c9b6ff60b4f58f1b734306362a1d0210d55cb3",
+      "size": 19192,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/82c9b6ff60b4f58f1b734306362a1d0210d55cb3"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ddb695785f9e688cf59619efcb5590de12ad54b",
+      "size": 10462,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/4ddb695785f9e688cf59619efcb5590de12ad54b"
+    },
+    {
+      "path": "RESPONSIBLE_USE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da9c9df9f571ff4957ade82c3f5c6b77bfbc1f56",
+      "size": 1282,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/da9c9df9f571ff4957ade82c3f5c6b77bfbc1f56"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "986431948ef388bcbb95e23b91cc95a47160febc",
+      "size": 1345,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/986431948ef388bcbb95e23b91cc95a47160febc"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80106758c14d87260d41f7a67edbaf68d088bae6",
+      "size": 3326,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/80106758c14d87260d41f7a67edbaf68d088bae6"
+    },
+    {
+      "path": "baselines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b63d9ce2d58e872a4e768cdf757ce4fd000715bd",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/b63d9ce2d58e872a4e768cdf757ce4fd000715bd"
+    },
+    {
+      "path": "baselines/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a73a9c903babd4ec4670f834445a668527e594b5",
+      "size": 1352,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/a73a9c903babd4ec4670f834445a668527e594b5"
+    },
+    {
+      "path": "baselines/run_baselines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c45e67c300e12a2355485d8ded022d05078d14",
+      "size": 5584,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/33c45e67c300e12a2355485d8ded022d05078d14"
+    },
+    {
+      "path": "benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae7c5260cfda3fe5d01fcdc0c4494480f0717155",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/ae7c5260cfda3fe5d01fcdc0c4494480f0717155"
+    },
+    {
+      "path": "benchmark/protocols.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668b9cde5066bc4bf8d6885cc11597ab1f952edc",
+      "size": 2583,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/668b9cde5066bc4bf8d6885cc11597ab1f952edc"
+    },
+    {
+      "path": "benchmark/schema.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e66a8f97d528fc9c267874ed38ca620a81cd4e",
+      "size": 22795,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/81e66a8f97d528fc9c267874ed38ca620a81cd4e"
+    },
+    {
+      "path": "benchmark/schema.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01b7f90adb650797a38040535dafe991b2665b23",
+      "size": 4771,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/01b7f90adb650797a38040535dafe991b2665b23"
+    },
+    {
+      "path": "benchmark/sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eba0fb878f05959a204a09d232be3168143b7118",
+      "size": 1733,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/eba0fb878f05959a204a09d232be3168143b7118"
+    },
+    {
+      "path": "benchmark/taxonomy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9c2f389849ec9ced289424246f2fb1d589c5b66",
+      "size": 2366,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/b9c2f389849ec9ced289424246f2fb1d589c5b66"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a4ef321eab86a667c130ec56de49095f563cee3",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/6a4ef321eab86a667c130ec56de49095f563cee3"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "docs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b5da2cfe85607072cd095a290d421bddd58c62",
+      "size": 525,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/a0b5da2cfe85607072cd095a290d421bddd58c62"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91d94efcab528d6afd17a8c22d19cf015b7d6611",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/91d94efcab528d6afd17a8c22d19cf015b7d6611"
+    },
+    {
+      "path": "docs/assets/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "925af67f63a1c53f4599bbd0764e53e8bdf2eaca",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/925af67f63a1c53f4599bbd0764e53e8bdf2eaca"
+    },
+    {
+      "path": "docs/assets/css/site.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72784d4f84ad03d31ade615c841f54fa4ebd072a",
+      "size": 7788,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/72784d4f84ad03d31ade615c841f54fa4ebd072a"
+    },
+    {
+      "path": "docs/assets/figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "006c3621226bfc309f2417e54bcb4a44d910dd0a",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/006c3621226bfc309f2417e54bcb4a44d910dd0a"
+    },
+    {
+      "path": "docs/assets/figures/figure1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eff301113d97b7b19eebef0f95589dcdb3d79cb",
+      "size": 848239,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/7eff301113d97b7b19eebef0f95589dcdb3d79cb"
+    },
+    {
+      "path": "docs/assets/figures/figure2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a642fe2dae70ea3d4711129d75c81c52c920e13",
+      "size": 656107,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/2a642fe2dae70ea3d4711129d75c81c52c920e13"
+    },
+    {
+      "path": "docs/assets/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7b6ace44c9db43509be11553b619bdce97329ad",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/b7b6ace44c9db43509be11553b619bdce97329ad"
+    },
+    {
+      "path": "docs/assets/js/config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdfc27b6c716b567e29b62b0b2b3de7fe56f5acc",
+      "size": 445,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/cdfc27b6c716b567e29b62b0b2b3de7fe56f5acc"
+    },
+    {
+      "path": "docs/assets/js/site.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d080f5a93b73bd49b96532eaf08782e6cc1339",
+      "size": 1169,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/f7d080f5a93b73bd49b96532eaf08782e6cc1339"
+    },
+    {
+      "path": "docs/assets/public_stats.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e0d61a88c01d4de897eb4f0551df0bed4306089",
+      "size": 515,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/8e0d61a88c01d4de897eb4f0551df0bed4306089"
+    },
+    {
+      "path": "docs/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f6e947bc3a8920ba125602c718d37eb19ffa17a",
+      "size": 10672,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/4f6e947bc3a8920ba125602c718d37eb19ffa17a"
+    },
+    {
+      "path": "evaluation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5e39652f90bf85d27bbb2301f7fcf98a09f89be",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/a5e39652f90bf85d27bbb2301f7fcf98a09f89be"
+    },
+    {
+      "path": "evaluation/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6df61038af35f33b34d3d6b7231afc60da099bde",
+      "size": 972,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/6df61038af35f33b34d3d6b7231afc60da099bde"
+    },
+    {
+      "path": "evaluation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "evaluation/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047b0373f7dda16de8e289ce570ba2cfdaa81900",
+      "size": 2777,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/047b0373f7dda16de8e289ce570ba2cfdaa81900"
+    },
+    {
+      "path": "evaluation/validate_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a333945770434aae08af47fbe01c02e29d7463f2",
+      "size": 4345,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/a333945770434aae08af47fbe01c02e29d7463f2"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb4ca80b8c9f77aac341c61a299e8fcfc1d864f7",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/eb4ca80b8c9f77aac341c61a299e8fcfc1d864f7"
+    },
+    {
+      "path": "examples/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "449d3801fe51c09b6ff37b96b10f26f403541191",
+      "size": 760,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/449d3801fe51c09b6ff37b96b10f26f403541191"
+    },
+    {
+      "path": "examples/load_primary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a36a86add0efc64843e7a2adc1aa73bab425527",
+      "size": 288,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/4a36a86add0efc64843e7a2adc1aa73bab425527"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18cf5e8c2168cd529fdee2c4ddc1c24ad5e62719",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/18cf5e8c2168cd529fdee2c4ddc1c24ad5e62719"
+    },
+    {
+      "path": "figures/figure1.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b8af2258c0f4b8661624e67f5d751e49cfa9825",
+      "size": 1092809,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/6b8af2258c0f4b8661624e67f5d751e49cfa9825"
+    },
+    {
+      "path": "figures/figure1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4936cdf4d50b5ccdd2919bbbf0c63b3dd88d5c7",
+      "size": 1400958,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/f4936cdf4d50b5ccdd2919bbbf0c63b3dd88d5c7"
+    },
+    {
+      "path": "figures/figure2.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce5563f080cacb2ee0d981db5c0a9ce54901c3ea",
+      "size": 29910,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/ce5563f080cacb2ee0d981db5c0a9ce54901c3ea"
+    },
+    {
+      "path": "figures/figure2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a642fe2dae70ea3d4711129d75c81c52c920e13",
+      "size": 656107,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/2a642fe2dae70ea3d4711129d75c81c52c920e13"
+    },
+    {
+      "path": "metadata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1aa04521e039d19f9e599fb02adda4e8f73d9a4e",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/1aa04521e039d19f9e599fb02adda4e8f73d9a4e"
+    },
+    {
+      "path": "metadata/benchmark_manifest.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89d9d3623d126a51f733882a32a6e6480f58da2e",
+      "size": 3365232,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/89d9d3623d126a51f733882a32a6e6480f58da2e"
+    },
+    {
+      "path": "metadata/source_registry.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a3e6949bb212bc79acd05df55474bb1690840a0",
+      "size": 4072,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/1a3e6949bb212bc79acd05df55474bb1690840a0"
+    },
+    {
+      "path": "metadata/splits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a34e9d3323f74baa5550595b79183c1ced507b6",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/0a34e9d3323f74baa5550595b79183c1ced507b6"
+    },
+    {
+      "path": "metadata/splits/m_structural_disjoint.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7111061441174b0cdb856fd38e88c37c1f7d5cf0",
+      "size": 285418,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/7111061441174b0cdb856fd38e88c37c1f7d5cf0"
+    },
+    {
+      "path": "metadata/splits/random.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbd7877c7b3aafb26ce8e49fefcf8e05a8d32e85",
+      "size": 285418,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/dbd7877c7b3aafb26ce8e49fefcf8e05a8d32e85"
+    },
+    {
+      "path": "metadata/splits/source_balanced_random.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830c666d00966009456070d149848ee31412beef",
+      "size": 285411,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/830c666d00966009456070d149848ee31412beef"
+    },
+    {
+      "path": "metadata/splits/source_disjoint.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22ce26bdc8ecc5060aa810b2f9c75134adfc70d5",
+      "size": 285311,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/22ce26bdc8ecc5060aa810b2f9c75134adfc70d5"
+    },
+    {
+      "path": "metadata/structural_families.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc1c464658c971f43fbd2c67ef8b621c8e0c697",
+      "size": 96469,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/8dc1c464658c971f43fbd2c67ef8b621c8e0c697"
+    },
+    {
+      "path": "packages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "056753a71ff18896a8dec2b34a9bc761e5e2f19e",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/056753a71ff18896a8dec2b34a9bc761e5e2f19e"
+    },
+    {
+      "path": "packages/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "361585892f9a3d04776ef329df1edcef30cbbe6c",
+      "size": 896,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/361585892f9a3d04776ef329df1edcef30cbbe6c"
+    },
+    {
+      "path": "packages/SHA256SUMS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b28154119e0c0c6405a2da70eb385506a719e8b",
+      "size": 1236,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/0b28154119e0c0c6405a2da70eb385506a719e8b"
+    },
+    {
+      "path": "packages/SRC001_packages.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "998e6a11175c4a6768a30602f6309f43f488dad6",
+      "size": 18021477,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/998e6a11175c4a6768a30602f6309f43f488dad6"
+    },
+    {
+      "path": "packages/SRC002_packages.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f605bbc785779c2733f69c1010709e999ea4c5",
+      "size": 1637031,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/14f605bbc785779c2733f69c1010709e999ea4c5"
+    },
+    {
+      "path": "packages/SRC004_packages.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd9b26cd72b797c98a8fe0bd8b3678db516431ac",
+      "size": 243948,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/dd9b26cd72b797c98a8fe0bd8b3678db516431ac"
+    },
+    {
+      "path": "packages/SRC005_artifacts.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efd30666b0c4b8d63e396479cfd2c146574b5f7f",
+      "size": 50987,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/efd30666b0c4b8d63e396479cfd2c146574b5f7f"
+    },
+    {
+      "path": "packages/SRC006_packages.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c702c127785a7ccd735e6f1fbbba4a00e6a5a0",
+      "size": 2248266,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/61c702c127785a7ccd735e6f1fbbba4a00e6a5a0"
+    },
+    {
+      "path": "packages/SRC008_packages.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c14992c50d52db05136e6e8f634b614fac40e62",
+      "size": 14979,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/8c14992c50d52db05136e6e8f634b614fac40e62"
+    },
+    {
+      "path": "packages/SRC009_packages.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc69ab39582fe800649bf097532932c96538474",
+      "size": 8819732,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/2cc69ab39582fe800649bf097532932c96538474"
+    },
+    {
+      "path": "packages/SRC010_packages.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1748d6d6136d4f87f0992e64ee7c6b07e96cb10",
+      "size": 31628846,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/a1748d6d6136d4f87f0992e64ee7c6b07e96cb10"
+    },
+    {
+      "path": "packages/SRC011_artifacts.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8d379be57913d19929a93061d866682648bc56e",
+      "size": 15499,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/c8d379be57913d19929a93061d866682648bc56e"
+    },
+    {
+      "path": "packages/SRC012_artifacts.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df15eeb4884add0c170c8ec3c11c5d0b3478338",
+      "size": 11832,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/3df15eeb4884add0c170c8ec3c11c5d0b3478338"
+    },
+    {
+      "path": "packages/SRC013_packages.tar.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70c531faa67928b68238827e26111ff62b983afd",
+      "size": 1857121,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/70c531faa67928b68238827e26111ff62b983afd"
+    },
+    {
+      "path": "packages/package_manifest.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c6c4204b0cb025c5510d88a093f915990d327b",
+      "size": 4101527,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/98c6c4204b0cb025c5510d88a093f915990d327b"
+    },
+    {
+      "path": "packages/package_manifest.parquet",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4adec70ceabf89ce50926383c90c8b84923802",
+      "size": 1351882,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/2a4adec70ceabf89ce50926383c90c8b84923802"
+    },
+    {
+      "path": "scanner_eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5858b98b48db80caa68b3322e0ed627c61033198",
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/trees/5858b98b48db80caa68b3322e0ed627c61033198"
+    },
+    {
+      "path": "scanner_eval/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ec94d7e70fecbed25bc442f4dd5e95f2fe7e4a",
+      "size": 2003,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/54ec94d7e70fecbed25bc442f4dd5e95f2fe7e4a"
+    },
+    {
+      "path": "scanner_eval/source_disjoint_results.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1396e39c7174c76e056cbc0654b01bc1d19921ca",
+      "size": 268,
+      "url": "https://api.github.com/repos/protectskills/MaliciousSkillBench/git/blobs/1396e39c7174c76e056cbc0654b01bc1d19921ca"
+    }
+  ],
+  "truncated": false
+}

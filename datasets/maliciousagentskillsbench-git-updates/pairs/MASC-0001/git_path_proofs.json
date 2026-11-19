@@ -1,0 +1,446 @@
+{
+  "old": {
+    "commit": {
+      "sha": "2d319c3efa8983219fc4009534ac96d963ca99d0",
+      "node_id": "C_kwDOPfvDctoAKDJkMzE5YzNlZmE4OTgzMjE5ZmM0MDA5NTM0YWM5NmQ5NjNjYTk5ZDA",
+      "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/commits/2d319c3efa8983219fc4009534ac96d963ca99d0",
+      "html_url": "https://github.com/ArjenSchwarz/agentic-coding/commit/2d319c3efa8983219fc4009534ac96d963ca99d0",
+      "author": {
+        "name": "Arjen Schwarz",
+        "email": "developer@arjen.eu",
+        "date": "2025-12-31T10:42:11Z"
+      },
+      "committer": {
+        "name": "Arjen Schwarz",
+        "email": "developer@arjen.eu",
+        "date": "2025-12-31T10:42:11Z"
+      },
+      "tree": {
+        "sha": "5cd951c8376c3267f1ec9595dfc5136aa6af2f54",
+        "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/5cd951c8376c3267f1ec9595dfc5136aa6af2f54"
+      },
+      "message": "[feat]: Add new skills, commands, and remote environment setup\n\nAdd project-init skill for configuring Claude Code projects with\nSessionStart hooks that pull user configuration in sandboxed environments.\n\nAdd skill-creator skill with initialization scripts and reference\ndocumentation for creating effective Claude skills.\n\nAdd systematic-debugger skill for applying Fagan Inspection methodology\nto persistent bugs.\n\nAdd permission-analyzer skill for analyzing Claude Code permissions.\n\nAdd starwave commands (design, requirements, tasks) and make-it-so command.\n\nAdd claude-remote.sh script for remote environment configuration.\n\nUpdate Swift language rules, simplify creating-spec and rune skills.",
+      "parents": [
+        {
+          "sha": "91c2b7e0e7b348a9b071e0009a7d4489f006f119",
+          "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/commits/91c2b7e0e7b348a9b071e0009a7d4489f006f119",
+          "html_url": "https://github.com/ArjenSchwarz/agentic-coding/commit/91c2b7e0e7b348a9b071e0009a7d4489f006f119"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVlsXdLu0SQPFmGPip85T3XXkY6\nNS/Z9vM+dtGnu+xWkAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQJXHOgQqrTDRYzH8NqXvA4GnlwcRdCJgNzhj0d6RyFgRtnSXJqzuLkURV8QtFQWMIX\nw0u/SHJ1XuV2UReMfAKQU=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 5cd951c8376c3267f1ec9595dfc5136aa6af2f54\nparent 91c2b7e0e7b348a9b071e0009a7d4489f006f119\nauthor Arjen Schwarz <developer@arjen.eu> 1767177731 +1100\ncommitter Arjen Schwarz <developer@arjen.eu> 1767177731 +1100\n\n[feat]: Add new skills, commands, and remote environment setup\n\nAdd project-init skill for configuring Claude Code projects with\nSessionStart hooks that pull user configuration in sandboxed environments.\n\nAdd skill-creator skill with initialization scripts and reference\ndocumentation for creating effective Claude skills.\n\nAdd systematic-debugger skill for applying Fagan Inspection methodology\nto persistent bugs.\n\nAdd permission-analyzer skill for analyzing Claude Code permissions.\n\nAdd starwave commands (design, requirements, tasks) and make-it-so command.\n\nAdd claude-remote.sh script for remote environment configuration.\n\nUpdate Swift language rules, simplify creating-spec and rune skills.\n",
+        "verified_at": "2025-12-31T13:41:45Z"
+      }
+    },
+    "steps": [
+      {
+        "component": "claude",
+        "tree": {
+          "sha": "5cd951c8376c3267f1ec9595dfc5136aa6af2f54",
+          "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/5cd951c8376c3267f1ec9595dfc5136aa6af2f54",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9a26d6cb4e349491c16099d15be5eea6a8030c06",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/9a26d6cb4e349491c16099d15be5eea6a8030c06"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fefb6ddb69c704af96a6ae5a8051ba1b8ac2182d",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/fefb6ddb69c704af96a6ae5a8051ba1b8ac2182d"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d73e0f1cbbe5c4a16a3b6576dc9b9e99aac9e24a",
+              "size": 10,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/d73e0f1cbbe5c4a16a3b6576dc9b9e99aac9e24a"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "b72d4afa5166411d60b4373d413e1b430ee8986b",
+              "size": 10240,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/b72d4afa5166411d60b4373d413e1b430ee8986b"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "48bab2710acaaee69932997578b883bd4cdfeb0a",
+              "size": 8063,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/48bab2710acaaee69932997578b883bd4cdfeb0a"
+            },
+            {
+              "path": "claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "111c0a56ff6cb8ed31dbcb0e50d3a3440e862265",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/111c0a56ff6cb8ed31dbcb0e50d3a3440e862265"
+            },
+            {
+              "path": "copilot",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "245cf5f3427445e37793ca268f5e9dd4d6beff34",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/245cf5f3427445e37793ca268f5e9dd4d6beff34"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "52a59429203142d192de84e1eefc06c24dc056b8",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/52a59429203142d192de84e1eefc06c24dc056b8"
+            },
+            {
+              "path": "spec-workflow.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a8693f7d58b33faba3946ac3e542b9ebfff3765c",
+              "size": 9695,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/a8693f7d58b33faba3946ac3e542b9ebfff3765c"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "111c0a56ff6cb8ed31dbcb0e50d3a3440e862265",
+          "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/111c0a56ff6cb8ed31dbcb0e50d3a3440e862265",
+          "tree": [
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "f9c318f398661f4d44c060b322785c477d412fec",
+              "size": 2015,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/f9c318f398661f4d44c060b322785c477d412fec"
+            },
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7eb9e9888ae1658c81d2a28dd86fbd46f0a4c2ab",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/7eb9e9888ae1658c81d2a28dd86fbd46f0a4c2ab"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1dc67444e11614b83af7b0a4679127d8ac67eb9f",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/1dc67444e11614b83af7b0a4679127d8ac67eb9f"
+            },
+            {
+              "path": "rules",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b2353b7f0a17fb72e31efb7f279d6a4f087f6586",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/b2353b7f0a17fb72e31efb7f279d6a4f087f6586"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c183b3ed01764aacb411c46400c95349acf63d7e",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/c183b3ed01764aacb411c46400c95349acf63d7e"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "project-init",
+        "tree": {
+          "sha": "c183b3ed01764aacb411c46400c95349acf63d7e",
+          "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/c183b3ed01764aacb411c46400c95349acf63d7e",
+          "tree": [
+            {
+              "path": "creating-spec",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b75441705b59a2c3b12bb4b82aae43cfca94d30e",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/b75441705b59a2c3b12bb4b82aae43cfca94d30e"
+            },
+            {
+              "path": "go-test-fixer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "eed9e24fd650c34552e16ebbe013fcfe8cd3cb55",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/eed9e24fd650c34552e16ebbe013fcfe8cd3cb55"
+            },
+            {
+              "path": "permission-analyzer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c1ea74d52aa216f1c66d5848b54ad878af9de51f",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/c1ea74d52aa216f1c66d5848b54ad878af9de51f"
+            },
+            {
+              "path": "project-init",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c75912cf5cf9bfd9a4d5a2d43d3a8cffc82ffe70",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/c75912cf5cf9bfd9a4d5a2d43d3a8cffc82ffe70"
+            },
+            {
+              "path": "rune",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4d6392248ff42c6d2da8f46e4267e0c98fbb812c",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/4d6392248ff42c6d2da8f46e4267e0c98fbb812c"
+            },
+            {
+              "path": "skill-creator",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8a8d39005dad754bfbf86b684bdb28103124c8e8",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/8a8d39005dad754bfbf86b684bdb28103124c8e8"
+            },
+            {
+              "path": "systematic-debugger",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2d2acf1d2ed8cc45ea764905784a094469285a4f",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/2d2acf1d2ed8cc45ea764905784a094469285a4f"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "c75912cf5cf9bfd9a4d5a2d43d3a8cffc82ffe70"
+  },
+  "new": {
+    "commit": {
+      "sha": "415356a03bedb7f658107036a9efa472c85ed918",
+      "node_id": "C_kwDOPfvDctoAKDQxNTM1NmEwM2JlZGI3ZjY1ODEwNzAzNmE5ZWZhNDcyYzg1ZWQ5MTg",
+      "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/commits/415356a03bedb7f658107036a9efa472c85ed918",
+      "html_url": "https://github.com/ArjenSchwarz/agentic-coding/commit/415356a03bedb7f658107036a9efa472c85ed918",
+      "author": {
+        "name": "Arjen Schwarz",
+        "email": "developer@arjen.eu",
+        "date": "2025-12-31T13:57:25Z"
+      },
+      "committer": {
+        "name": "Arjen Schwarz",
+        "email": "developer@arjen.eu",
+        "date": "2025-12-31T13:57:25Z"
+      },
+      "tree": {
+        "sha": "cc277fccee089889a7effd5660f37c641d7d953f",
+        "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/cc277fccee089889a7effd5660f37c641d7d953f"
+      },
+      "message": "[feat]: Add language detection to project-init skill\n\nEnhance project-init skill to automatically detect project languages\nand add appropriate tool permissions to settings.json.\n\nDetects languages based on marker files (go.mod, package.json,\nCargo.toml, etc.) and adds corresponding toolchain permissions.\n\nSupports Go, Swift, Node.js, Python, Rust, Ruby, Java (Maven/Gradle),\nDocker, and Terraform. Always includes git permissions.\n\nPermissions are merged without duplicating existing entries.",
+      "parents": [
+        {
+          "sha": "2d319c3efa8983219fc4009534ac96d963ca99d0",
+          "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/commits/2d319c3efa8983219fc4009534ac96d963ca99d0",
+          "html_url": "https://github.com/ArjenSchwarz/agentic-coding/commit/2d319c3efa8983219fc4009534ac96d963ca99d0"
+        }
+      ],
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgVlsXdLu0SQPFmGPip85T3XXkY6\nNS/Z9vM+dtGnu+xWkAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQDBlKTRW96j2HAbK8eUxctgtl4NRriUQIPLADxfi0z2VvT82LqNSqYzNT8sWrXFBfa\nfnL5NZxYXjJxvMueVIAAo=\n-----END SSH SIGNATURE-----",
+        "payload": "tree cc277fccee089889a7effd5660f37c641d7d953f\nparent 2d319c3efa8983219fc4009534ac96d963ca99d0\nauthor Arjen Schwarz <developer@arjen.eu> 1767189445 +1100\ncommitter Arjen Schwarz <developer@arjen.eu> 1767189445 +1100\n\n[feat]: Add language detection to project-init skill\n\nEnhance project-init skill to automatically detect project languages\nand add appropriate tool permissions to settings.json.\n\nDetects languages based on marker files (go.mod, package.json,\nCargo.toml, etc.) and adds corresponding toolchain permissions.\n\nSupports Go, Swift, Node.js, Python, Rust, Ruby, Java (Maven/Gradle),\nDocker, and Terraform. Always includes git permissions.\n\nPermissions are merged without duplicating existing entries.\n",
+        "verified_at": "2025-12-31T13:57:36Z"
+      }
+    },
+    "steps": [
+      {
+        "component": "claude",
+        "tree": {
+          "sha": "cc277fccee089889a7effd5660f37c641d7d953f",
+          "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/cc277fccee089889a7effd5660f37c641d7d953f",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8d69ae37e3ffeb1042161ca02008a49af37c4e64",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/8d69ae37e3ffeb1042161ca02008a49af37c4e64"
+            },
+            {
+              "path": ".github",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fefb6ddb69c704af96a6ae5a8051ba1b8ac2182d",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/fefb6ddb69c704af96a6ae5a8051ba1b8ac2182d"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d73e0f1cbbe5c4a16a3b6576dc9b9e99aac9e24a",
+              "size": 10,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/d73e0f1cbbe5c4a16a3b6576dc9b9e99aac9e24a"
+            },
+            {
+              "path": "CHANGELOG.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "fdb92b63bcb31ce5d3add8a826d26a33872e7679",
+              "size": 10368,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/fdb92b63bcb31ce5d3add8a826d26a33872e7679"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "48bab2710acaaee69932997578b883bd4cdfeb0a",
+              "size": 8063,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/48bab2710acaaee69932997578b883bd4cdfeb0a"
+            },
+            {
+              "path": "claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "bd1b4a74ede978f561eebb9dfc86194c3c0ffab4",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/bd1b4a74ede978f561eebb9dfc86194c3c0ffab4"
+            },
+            {
+              "path": "copilot",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "245cf5f3427445e37793ca268f5e9dd4d6beff34",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/245cf5f3427445e37793ca268f5e9dd4d6beff34"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "52a59429203142d192de84e1eefc06c24dc056b8",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/52a59429203142d192de84e1eefc06c24dc056b8"
+            },
+            {
+              "path": "spec-workflow.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "a8693f7d58b33faba3946ac3e542b9ebfff3765c",
+              "size": 9695,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/a8693f7d58b33faba3946ac3e542b9ebfff3765c"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "bd1b4a74ede978f561eebb9dfc86194c3c0ffab4",
+          "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/bd1b4a74ede978f561eebb9dfc86194c3c0ffab4",
+          "tree": [
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "f9c318f398661f4d44c060b322785c477d412fec",
+              "size": 2015,
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/blobs/f9c318f398661f4d44c060b322785c477d412fec"
+            },
+            {
+              "path": "agents",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "7eb9e9888ae1658c81d2a28dd86fbd46f0a4c2ab",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/7eb9e9888ae1658c81d2a28dd86fbd46f0a4c2ab"
+            },
+            {
+              "path": "commands",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "1dc67444e11614b83af7b0a4679127d8ac67eb9f",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/1dc67444e11614b83af7b0a4679127d8ac67eb9f"
+            },
+            {
+              "path": "rules",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b2353b7f0a17fb72e31efb7f279d6a4f087f6586",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/b2353b7f0a17fb72e31efb7f279d6a4f087f6586"
+            },
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8f638606b49c075f64fbdfa1afae059f3e787f91",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/8f638606b49c075f64fbdfa1afae059f3e787f91"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "project-init",
+        "tree": {
+          "sha": "8f638606b49c075f64fbdfa1afae059f3e787f91",
+          "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/8f638606b49c075f64fbdfa1afae059f3e787f91",
+          "tree": [
+            {
+              "path": "creating-spec",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "b75441705b59a2c3b12bb4b82aae43cfca94d30e",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/b75441705b59a2c3b12bb4b82aae43cfca94d30e"
+            },
+            {
+              "path": "go-test-fixer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "eed9e24fd650c34552e16ebbe013fcfe8cd3cb55",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/eed9e24fd650c34552e16ebbe013fcfe8cd3cb55"
+            },
+            {
+              "path": "permission-analyzer",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "c1ea74d52aa216f1c66d5848b54ad878af9de51f",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/c1ea74d52aa216f1c66d5848b54ad878af9de51f"
+            },
+            {
+              "path": "project-init",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "0ad7f9a0827e46ee06c0d7a1a487e2bff75ae52e",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/0ad7f9a0827e46ee06c0d7a1a487e2bff75ae52e"
+            },
+            {
+              "path": "rune",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "4d6392248ff42c6d2da8f46e4267e0c98fbb812c",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/4d6392248ff42c6d2da8f46e4267e0c98fbb812c"
+            },
+            {
+              "path": "skill-creator",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "8a8d39005dad754bfbf86b684bdb28103124c8e8",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/8a8d39005dad754bfbf86b684bdb28103124c8e8"
+            },
+            {
+              "path": "systematic-debugger",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "2d2acf1d2ed8cc45ea764905784a094469285a4f",
+              "url": "https://api.github.com/repos/ArjenSchwarz/agentic-coding/git/trees/2d2acf1d2ed8cc45ea764905784a094469285a4f"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "0ad7f9a0827e46ee06c0d7a1a487e2bff75ae52e"
+  }
+}

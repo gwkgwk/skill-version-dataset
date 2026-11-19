@@ -1,0 +1,27 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 9564e7a..eefa86a 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -1,13 +1,10 @@
+ ---
+ name: load-skills
+ description: Bootstrap skill loader for instance startup. Pulls fresh skills from plurigrid/asi and loads GF(3)-balanced startup triads. MUST run at beginning of every new instance.
+-metadata:
+-  trit: 0
+-allowed-tools:
+-  - Bash
+-  - Task
++version: 1.0.0
+ ---
+ 
++
+ # Load Skills (Instance Bootstrap)
+ 
+ **MANDATORY first action on every new Claude Code instance.**
+@@ -180,4 +177,4 @@ The skill participates in triads satisfying:
+ (-1) + (0) + (+1) ≡ 0 (mod 3)
+ ```
+ 
+-This ensures compositional coherence in the Cat# equipment structure.
++This ensures compositional coherence in the Cat# equipment structure.
+\ No newline at end of file

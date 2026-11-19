@@ -1,0 +1,33 @@
+{
+  "benchmark_record": {
+    "benchmark_id": "ASB04_000774",
+    "label": "1",
+    "source_id": "SRC001",
+    "source_name": "MalSkillBench",
+    "source_ids": "SRC001;SRC002",
+    "provenance": "mixed_unresolved",
+    "evidence_type": "human+runtime",
+    "structural_family_id": "FAMILY_0018",
+    "normalized_hash": "1a531235673f9f62ff1824cedd61d061c7949d2e124fecb53e577bef7be0e5fb",
+    "exact_hash": "1a531235673f9f62ff1824cedd61d061c7949d2e124fecb53e577bef7be0e5fb",
+    "release_status": "FULL_TEXT",
+    "text_available": "true",
+    "text_redacted": "false",
+    "attack_categories": "data_exfiltration_disclosure; execution_code_delivery; instruction_goal_memory_manipulation",
+    "impact_categories": "sensitive_data_disclosure; unauthorized_code_execution_system_control",
+    "source_pointer": "https://github.com/lxyeternal/MalSkillBench",
+    "random_split": "train",
+    "source_balanced_random_split": "train",
+    "m_structural_disjoint_split": "validation",
+    "source_disjoint_split": "train",
+    "redaction_reason": "",
+    "original_text_withheld": "false"
+  },
+  "package_records": [],
+  "cross_source_duplicate": true,
+  "source_id": "SRC002",
+  "source_package_inventory_matches_entire_new_operational_package": true,
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "source_archive_git_blob_sha1": "14f605bbc785779c2733f69c1010709e999ea4c5",
+  "archive_not_included_due_to_unreadable_excluded_sample": true
+}

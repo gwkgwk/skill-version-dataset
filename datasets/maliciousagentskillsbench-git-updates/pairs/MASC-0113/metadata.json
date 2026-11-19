@@ -1,0 +1,58 @@
+{
+  "id": "MASC-0113",
+  "skill_id": "LupoGrigi0/Human-Adjacent-Coordination::src/HACS/hacs",
+  "skill_name": "hacs",
+  "origin_repository": "LupoGrigi0/Human-Adjacent-Coordination",
+  "origin_path": "src/HACS/hacs",
+  "version_kind": "git_commit_snapshot",
+  "old_version": "git:4224e9e7ee8370162d68480488a160a58469dfa4",
+  "new_version": "git:a87c2b072638ee803640a0dbf333b817f378e7ce",
+  "old_commit": "4224e9e7ee8370162d68480488a160a58469dfa4",
+  "new_commit": "a87c2b072638ee803640a0dbf333b817f378e7ce",
+  "old_is_exact_first_parent": true,
+  "new_commit_date": "2026-01-16T05:25:41Z",
+  "declared_version_fields": {
+    "old": {},
+    "new": {}
+  },
+  "published_release_version_change_confirmed": false,
+  "benchmark_repository": "protectskills/MaliciousAgentSkillsBench",
+  "benchmark_ref": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "benchmark_source_key": [
+    "skillsmp.com",
+    "smp_1160",
+    "hacs"
+  ],
+  "origin_provenance_ref": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "source_package_prefix": "packages/smp_1160/hacs",
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "old_security_label": null,
+  "new_security_label": "malicious_as_labeled_by_MaliciousAgentSkillsBench",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_source_archive_inventory": true,
+  "normalization": [
+    "omit registry _meta.json, .DS_Store and Python cache for comparison only",
+    "normalize root skill.md to SKILL.md for comparison only; preserve all original bytes"
+  ],
+  "operational_changed_files": [
+    "references/functions.md"
+  ],
+  "change_scope": "instruction_code_or_reference_change",
+  "old_files": 2,
+  "new_files": 2,
+  "local_directory": "pairs/MASC-0113",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "package.diff": {
+      "sha256": "ef107dd56a9acd69418cbfcfb70f4ed4b27596f00252847fe18967dd1f0b2525",
+      "bytes": 2372
+    }
+  },
+  "compare_url": "https://github.com/LupoGrigi0/Human-Adjacent-Coordination/compare/4224e9e7ee8370162d68480488a160a58469dfa4...a87c2b072638ee803640a0dbf333b817f378e7ce"
+}

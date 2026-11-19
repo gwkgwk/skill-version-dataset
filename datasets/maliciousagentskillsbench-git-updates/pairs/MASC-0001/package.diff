@@ -1,0 +1,283 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index ec66efd..54be077 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: project-init
+-description: Initialize Claude Code project settings with standard hooks and configuration. Use when setting up a new project for Claude Code or adding standard configuration to an existing project.
++description: Initialize Claude Code project settings with standard hooks and language-specific permissions. Use when setting up a new project for Claude Code or adding standard configuration to an existing project.
+ ---
+ 
+ # Project Init
+@@ -9,13 +9,32 @@ Initialize a project with standard Claude Code configuration.
+ 
+ ## What It Does
+ 
+-Adds a SessionStart hook to `.claude/settings.json` that pulls in user-level configuration when running in sandboxed environments (GitHub Actions, online Claude Code).
++1. Adds a SessionStart hook to `.claude/settings.json` for remote environment setup
++2. Detects project languages and adds appropriate tool permissions
+ 
+-The hook runs `claude-remote.sh` via curl to set up the environment.
++## Language Detection
++
++The script detects languages based on project files and adds permissions:
++
++| Detection File | Language | Permissions Added |
++|----------------|----------|-------------------|
++| `go.mod` | Go | `go`, `golangci-lint`, `staticcheck`, `govulncheck` |
++| `Package.swift`, `*.xcodeproj` | Swift | `swift`, `xcodebuild`, `swiftlint`, `xcrun` |
++| `package.json` | Node.js | `npm`, `npx`, `node`, plus `yarn`/`pnpm`/`bun` if lockfiles present |
++| `pyproject.toml`, `requirements.txt` | Python | `python`, `pip`, `uv`, `pytest`, `ruff`, `mypy` |
++| `Cargo.toml` | Rust | `cargo`, `rustc` |
++| `Gemfile` | Ruby | `ruby`, `bundle`, `rake`, `rspec` |
++| `pom.xml` | Java (Maven) | `mvn`, `java` |
++| `build.gradle` | Java (Gradle) | `gradle`, `./gradlew`, `java` |
++| `Dockerfile` | Docker | `docker`, `docker-compose` |
++| `*.tf` | Terraform | `terraform`, `tofu` |
++| `Makefile` | Make | `make` |
++
++`git` is always included.
+ 
+ ## Usage
+ 
+-Run the setup script:
++Run the setup script from your project directory:
+ 
+ ```bash
+ ~/.claude/skills/project-init/scripts/setup-project.sh
+@@ -23,13 +42,13 @@ Run the setup script:
+ 
+ The script:
+ - Creates `.claude/settings.json` if it doesn't exist
+-- Merges the hook into existing settings without overwriting
++- Merges hooks and permissions into existing settings without overwriting
+ - Is idempotent (safe to run multiple times)
+ - Requires `jq` for JSON manipulation
+ 
+ ## Batch Setup
+ 
+-To add the hook to multiple existing projects:
++To initialize multiple projects:
+ 
+ ```bash
+ for dir in ~/projects/*; do
+diff --git a/old/scripts/setup-project.sh b/new/scripts/setup-project.sh
+index 117df80..59ae8fb 100644
+--- a/old/scripts/setup-project.sh
++++ b/new/scripts/setup-project.sh
+@@ -1,5 +1,5 @@
+ #!/bin/bash
+-# Initialize Claude Code project settings with standard hooks
++# Initialize Claude Code project settings with standard hooks and permissions
+ # Can be run standalone or via the project-init skill
+ 
+ set -e
+@@ -7,6 +7,110 @@ set -e
+ CLAUDE_DIR=".claude"
+ SETTINGS_FILE="$CLAUDE_DIR/settings.json"
+ 
++# Check for jq
++if ! command -v jq &> /dev/null; then
++    echo "Error: jq is required but not installed."
++    echo "Install with: brew install jq"
++    exit 1
++fi
++
++# Detect project languages and build permissions array
++detect_permissions() {
++    local permissions=()
++
++    # Always include git
++    permissions+=("Bash(git:*)")
++
++    # Makefile present
++    if [[ -f "Makefile" ]] || [[ -f "makefile" ]] || [[ -f "GNUmakefile" ]]; then
++        permissions+=("Bash(make:*)")
++    fi
++
++    # Go
++    if [[ -f "go.mod" ]]; then
++        permissions+=("Bash(go:*)")
++        permissions+=("Bash(golangci-lint:*)")
++        permissions+=("Bash(staticcheck:*)")
++        permissions+=("Bash(govulncheck:*)")
++    fi
++
++    # Swift
++    if [[ -f "Package.swift" ]] || ls *.xcodeproj &>/dev/null 2>&1 || ls *.xcworkspace &>/dev/null 2>&1; then
++        permissions+=("Bash(swift:*)")
++        permissions+=("Bash(xcodebuild:*)")
++        permissions+=("Bash(swiftlint:*)")
++        permissions+=("Bash(xcrun:*)")
++    fi
++
++    # Node/JavaScript/TypeScript
++    if [[ -f "package.json" ]]; then
++        permissions+=("Bash(npm:*)")
++        permissions+=("Bash(npx:*)")
++        permissions+=("Bash(node:*)")
++        if [[ -f "yarn.lock" ]]; then
++            permissions+=("Bash(yarn:*)")
++        fi
++        if [[ -f "pnpm-lock.yaml" ]]; then
++            permissions+=("Bash(pnpm:*)")
++        fi
++        if [[ -f "bun.lockb" ]]; then
++            permissions+=("Bash(bun:*)")
++        fi
++    fi
++
++    # Python
++    if [[ -f "pyproject.toml" ]] || [[ -f "setup.py" ]] || [[ -f "requirements.txt" ]] || [[ -f "Pipfile" ]]; then
++        permissions+=("Bash(python:*)")
++        permissions+=("Bash(python3:*)")
++        permissions+=("Bash(pip:*)")
++        permissions+=("Bash(pip3:*)")
++        permissions+=("Bash(uv:*)")
++        permissions+=("Bash(pytest:*)")
++        permissions+=("Bash(ruff:*)")
++        permissions+=("Bash(mypy:*)")
++    fi
++
++    # Rust
++    if [[ -f "Cargo.toml" ]]; then
++        permissions+=("Bash(cargo:*)")
++        permissions+=("Bash(rustc:*)")
++    fi
++
++    # Ruby
++    if [[ -f "Gemfile" ]]; then
++        permissions+=("Bash(ruby:*)")
++        permissions+=("Bash(bundle:*)")
++        permissions+=("Bash(rake:*)")
++        permissions+=("Bash(rspec:*)")
++    fi
++
++    # Java/Kotlin
++    if [[ -f "pom.xml" ]]; then
++        permissions+=("Bash(mvn:*)")
++        permissions+=("Bash(java:*)")
++    fi
++    if [[ -f "build.gradle" ]] || [[ -f "build.gradle.kts" ]]; then
++        permissions+=("Bash(gradle:*)")
++        permissions+=("Bash(./gradlew:*)")
++        permissions+=("Bash(java:*)")
++    fi
++
++    # Docker
++    if [[ -f "Dockerfile" ]] || [[ -f "docker-compose.yml" ]] || [[ -f "docker-compose.yaml" ]]; then
++        permissions+=("Bash(docker:*)")
++        permissions+=("Bash(docker-compose:*)")
++    fi
++
++    # Terraform
++    if ls *.tf &>/dev/null 2>&1; then
++        permissions+=("Bash(terraform:*)")
++        permissions+=("Bash(tofu:*)")
++    fi
++
++    # Output as JSON array
++    printf '%s\n' "${permissions[@]}" | jq -R . | jq -s .
++}
++
+ # The SessionStart hook to add
+ NEW_HOOK=$(cat <<'EOF'
+ {
+@@ -21,51 +125,58 @@ NEW_HOOK=$(cat <<'EOF'
+ EOF
+ )
+ 
+-# Check for jq
+-if ! command -v jq &> /dev/null; then
+-    echo "Error: jq is required but not installed."
+-    echo "Install with: brew install jq"
+-    exit 1
+-fi
+-
+ # Create .claude directory if needed
+ mkdir -p "$CLAUDE_DIR"
+ 
++# Detect permissions for this project
++PERMISSIONS=$(detect_permissions)
++echo "Detected permissions based on project files:"
++echo "$PERMISSIONS" | jq -r '.[]'
++
+ if [[ -f "$SETTINGS_FILE" ]]; then
+-    # Check if this exact hook already exists
++    # Check if hook already exists
+     EXISTING=$(jq -r '.hooks.SessionStart // [] | .[] | .hooks[]? | .command // empty' "$SETTINGS_FILE" 2>/dev/null || echo "")
+-
++    HOOK_EXISTS=false
+     if echo "$EXISTING" | grep -q "claude-remote.sh"; then
+-        echo "Hook already exists in $SETTINGS_FILE"
+-        exit 0
++        HOOK_EXISTS=true
+     fi
+ 
+-    # Merge the new hook into existing settings
+-    jq --argjson newHook "$NEW_HOOK" '
+-        .hooks //= {} |
+-        .hooks.SessionStart //= [] |
+-        .hooks.SessionStart += [$newHook]
+-    ' "$SETTINGS_FILE" > "$SETTINGS_FILE.tmp" && mv "$SETTINGS_FILE.tmp" "$SETTINGS_FILE"
+-
+-    echo "Added SessionStart hook to existing $SETTINGS_FILE"
++    # Merge permissions and optionally add hook
++    if [[ "$HOOK_EXISTS" == "true" ]]; then
++        # Only merge permissions
++        jq --argjson perms "$PERMISSIONS" '
++            .permissions //= {} |
++            .permissions.allow //= [] |
++            .permissions.allow = (.permissions.allow + $perms | unique)
++        ' "$SETTINGS_FILE" > "$SETTINGS_FILE.tmp" && mv "$SETTINGS_FILE.tmp" "$SETTINGS_FILE"
++        echo "Merged permissions into existing $SETTINGS_FILE (hook already present)"
++    else
++        # Merge both hook and permissions
++        jq --argjson newHook "$NEW_HOOK" --argjson perms "$PERMISSIONS" '
++            .hooks //= {} |
++            .hooks.SessionStart //= [] |
++            .hooks.SessionStart += [$newHook] |
++            .permissions //= {} |
++            .permissions.allow //= [] |
++            .permissions.allow = (.permissions.allow + $perms | unique)
++        ' "$SETTINGS_FILE" > "$SETTINGS_FILE.tmp" && mv "$SETTINGS_FILE.tmp" "$SETTINGS_FILE"
++        echo "Added SessionStart hook and merged permissions into $SETTINGS_FILE"
++    fi
+ else
+-    # Create new settings file with the hook
+-    cat > "$SETTINGS_FILE" <<'EOF'
+-{
+-  "hooks": {
+-    "SessionStart": [
+-      {
+-        "matcher": "",
+-        "hooks": [
+-          {
+-            "type": "command",
+-            "command": "bash -c 'curl -fsSL https://raw.githubusercontent.com/ArjenSchwarz/agentic-coding/main/scripts/claude-remote.sh | bash'"
+-          }
+-        ]
+-      }
+-    ]
+-  }
+-}
+-EOF
+-    echo "Created $SETTINGS_FILE with SessionStart hook"
++    # Create new settings file with hook and permissions
++    jq -n --argjson newHook "$NEW_HOOK" --argjson perms "$PERMISSIONS" '
++        {
++            hooks: {
++                SessionStart: [$newHook]
++            },
++            permissions: {
++                allow: $perms
++            }
++        }
++    ' > "$SETTINGS_FILE"
++    echo "Created $SETTINGS_FILE with SessionStart hook and permissions"
+ fi
++
++echo ""
++echo "Settings file contents:"
++cat "$SETTINGS_FILE"

@@ -1,0 +1,309 @@
+{
+  "old": {
+    "commit": {
+      "sha": "04d6af82541a2e3e8988ad6a92f32ece05325f83",
+      "node_id": "C_kwDOQ7h2VNoAKDA0ZDZhZjgyNTQxYTJlM2U4OTg4YWQ2YTkyZjMyZWNlMDUzMjVmODM",
+      "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/commits/04d6af82541a2e3e8988ad6a92f32ece05325f83",
+      "html_url": "https://github.com/Porkbutts/jetaasc-events/commit/04d6af82541a2e3e8988ad6a92f32ece05325f83",
+      "author": {
+        "name": "Adrian Teng-Amnuay",
+        "email": "pumpadrian@gmail.com",
+        "date": "2026-01-19T00:52:50Z"
+      },
+      "committer": {
+        "name": "Adrian Teng-Amnuay",
+        "email": "pumpadrian@gmail.com",
+        "date": "2026-01-19T00:52:50Z"
+      },
+      "tree": {
+        "sha": "2b89fb7695d15bd0a16e3067abea9bbeba372290",
+        "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/2b89fb7695d15bd0a16e3067abea9bbeba372290"
+      },
+      "message": "Add audience analytics scripts for heatmap generation\n\nPython scripts to generate interactive maps from Mailchimp audience exports:\n- generate_residence_heatmap.py: Maps where subscribers currently live\n- generate_jet_placement_heatmap.py: Maps JET Program placements in Japan\n\nBoth produce standalone HTML files with Leaflet maps and Chart.js visualizations.\nNo external Python dependencies required.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "0ae8e6b9c3f4f8dbc2a0c03106c0d76e99f89cb7",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/commits/0ae8e6b9c3f4f8dbc2a0c03106c0d76e99f89cb7",
+          "html_url": "https://github.com/Porkbutts/jetaasc-events/commit/0ae8e6b9c3f4f8dbc2a0c03106c0d76e99f89cb7"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "2b89fb7695d15bd0a16e3067abea9bbeba372290",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/2b89fb7695d15bd0a16e3067abea9bbeba372290",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "23cce5ece124734b830d7017fc96d8fa950eaa5c",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/23cce5ece124734b830d7017fc96d8fa950eaa5c"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c940177cf272f281a8f5580965d60fb8bba1a521",
+              "size": 124,
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/blobs/c940177cf272f281a8f5580965d60fb8bba1a521"
+            },
+            {
+              "path": ".mcp.json.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d5c4bf93679b69af354b18af6289bb9519f7fa83",
+              "size": 761,
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/blobs/d5c4bf93679b69af354b18af6289bb9519f7fa83"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d6382a956b4ef218a7342d17ecfce6dbc41e298a",
+              "size": 484,
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/blobs/d6382a956b4ef218a7342d17ecfce6dbc41e298a"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0f449345e6f5ee755c0b0b727c6e6987cdc2162a",
+              "size": 6906,
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/blobs/0f449345e6f5ee755c0b0b727c6e6987cdc2162a"
+            },
+            {
+              "path": "mcp-servers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5695c2931ba4472d0470ef56ae215049ddae0709",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/5695c2931ba4472d0470ef56ae215049ddae0709"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "536219354adc7835cc6792044f1a6227cdc1b50e",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/536219354adc7835cc6792044f1a6227cdc1b50e"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "23cce5ece124734b830d7017fc96d8fa950eaa5c",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/23cce5ece124734b830d7017fc96d8fa950eaa5c",
+          "tree": [
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ba4fdfcfee86b73461e47f8cf373a34e1043984a",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/ba4fdfcfee86b73461e47f8cf373a34e1043984a"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "jetaasc-newsletter",
+        "tree": {
+          "sha": "ba4fdfcfee86b73461e47f8cf373a34e1043984a",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/ba4fdfcfee86b73461e47f8cf373a34e1043984a",
+          "tree": [
+            {
+              "path": "jetaasc-event-publisher",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fc5dc4e3602020eabd5bbcfe8b43cee5c466a125",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/fc5dc4e3602020eabd5bbcfe8b43cee5c466a125"
+            },
+            {
+              "path": "jetaasc-newsletter",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "ccf27f6e0fb82c990a50fb471f616c6c62dfd9f5",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/ccf27f6e0fb82c990a50fb471f616c6c62dfd9f5"
+            },
+            {
+              "path": "wix-blog-archiver",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "04d8c67d644ca47d90d458d16537e52e51bd299e",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/04d8c67d644ca47d90d458d16537e52e51bd299e"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "ccf27f6e0fb82c990a50fb471f616c6c62dfd9f5"
+  },
+  "new": {
+    "commit": {
+      "sha": "fcf7849eaf9b83908004c0dda1dea8555f72d0cb",
+      "node_id": "C_kwDOQ7h2VNoAKGZjZjc4NDllYWY5YjgzOTA4MDA0YzBkZGExZGVhODU1NWY3MmQwY2I",
+      "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/commits/fcf7849eaf9b83908004c0dda1dea8555f72d0cb",
+      "html_url": "https://github.com/Porkbutts/jetaasc-events/commit/fcf7849eaf9b83908004c0dda1dea8555f72d0cb",
+      "author": {
+        "name": "Adrian Teng-Amnuay",
+        "email": "pumpadrian@gmail.com",
+        "date": "2026-01-19T00:54:00Z"
+      },
+      "committer": {
+        "name": "Adrian Teng-Amnuay",
+        "email": "pumpadrian@gmail.com",
+        "date": "2026-01-19T00:54:00Z"
+      },
+      "tree": {
+        "sha": "37477a2aa0609cc162c46f2d101a224f4bae763a",
+        "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/37477a2aa0609cc162c46f2d101a224f4bae763a"
+      },
+      "message": "Merge main into feat/separate-date-time-newsletter\n\nResolved conflicts by keeping:\n- Separate date and time fields (branch purpose)\n- Brand color #b22222 for event details border (from main)\n- Job Opportunities as required section with JETAA Job Board link (from main)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "parents": [
+        {
+          "sha": "04d6af82541a2e3e8988ad6a92f32ece05325f83",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/commits/04d6af82541a2e3e8988ad6a92f32ece05325f83",
+          "html_url": "https://github.com/Porkbutts/jetaasc-events/commit/04d6af82541a2e3e8988ad6a92f32ece05325f83"
+        },
+        {
+          "sha": "7ec0974715ff8e460ed5a57a8ea5fb1363f93b08",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/commits/7ec0974715ff8e460ed5a57a8ea5fb1363f93b08",
+          "html_url": "https://github.com/Porkbutts/jetaasc-events/commit/7ec0974715ff8e460ed5a57a8ea5fb1363f93b08"
+        }
+      ],
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "steps": [
+      {
+        "component": ".claude",
+        "tree": {
+          "sha": "37477a2aa0609cc162c46f2d101a224f4bae763a",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/37477a2aa0609cc162c46f2d101a224f4bae763a",
+          "tree": [
+            {
+              "path": ".claude",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "18ef670b9667f09ff6ac6aea6b78a67105f42f4e",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/18ef670b9667f09ff6ac6aea6b78a67105f42f4e"
+            },
+            {
+              "path": ".gitignore",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "c940177cf272f281a8f5580965d60fb8bba1a521",
+              "size": 124,
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/blobs/c940177cf272f281a8f5580965d60fb8bba1a521"
+            },
+            {
+              "path": ".mcp.json.example",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d5c4bf93679b69af354b18af6289bb9519f7fa83",
+              "size": 761,
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/blobs/d5c4bf93679b69af354b18af6289bb9519f7fa83"
+            },
+            {
+              "path": "CLAUDE.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "d6382a956b4ef218a7342d17ecfce6dbc41e298a",
+              "size": 484,
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/blobs/d6382a956b4ef218a7342d17ecfce6dbc41e298a"
+            },
+            {
+              "path": "README.md",
+              "mode": "100644",
+              "type": "blob",
+              "sha": "0f449345e6f5ee755c0b0b727c6e6987cdc2162a",
+              "size": 6906,
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/blobs/0f449345e6f5ee755c0b0b727c6e6987cdc2162a"
+            },
+            {
+              "path": "mcp-servers",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "5695c2931ba4472d0470ef56ae215049ddae0709",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/5695c2931ba4472d0470ef56ae215049ddae0709"
+            },
+            {
+              "path": "scripts",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "536219354adc7835cc6792044f1a6227cdc1b50e",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/536219354adc7835cc6792044f1a6227cdc1b50e"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "skills",
+        "tree": {
+          "sha": "18ef670b9667f09ff6ac6aea6b78a67105f42f4e",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/18ef670b9667f09ff6ac6aea6b78a67105f42f4e",
+          "tree": [
+            {
+              "path": "skills",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "48b3f44e7c27d6456bcacc66fc22b867f5340b08",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/48b3f44e7c27d6456bcacc66fc22b867f5340b08"
+            }
+          ],
+          "truncated": false
+        }
+      },
+      {
+        "component": "jetaasc-newsletter",
+        "tree": {
+          "sha": "48b3f44e7c27d6456bcacc66fc22b867f5340b08",
+          "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/48b3f44e7c27d6456bcacc66fc22b867f5340b08",
+          "tree": [
+            {
+              "path": "jetaasc-event-publisher",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "fc5dc4e3602020eabd5bbcfe8b43cee5c466a125",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/fc5dc4e3602020eabd5bbcfe8b43cee5c466a125"
+            },
+            {
+              "path": "jetaasc-newsletter",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "9e0ff95cf6e56a55def5930951fd68849287ad93",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/9e0ff95cf6e56a55def5930951fd68849287ad93"
+            },
+            {
+              "path": "wix-blog-archiver",
+              "mode": "040000",
+              "type": "tree",
+              "sha": "04d8c67d644ca47d90d458d16537e52e51bd299e",
+              "url": "https://api.github.com/repos/Porkbutts/jetaasc-events/git/trees/04d8c67d644ca47d90d458d16537e52e51bd299e"
+            }
+          ],
+          "truncated": false
+        }
+      }
+    ],
+    "leaf_tree_sha": "9e0ff95cf6e56a55def5930951fd68849287ad93"
+  }
+}

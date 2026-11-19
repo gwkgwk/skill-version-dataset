@@ -1,0 +1,1152 @@
+{
+  "sha": "5f04ba4f6ecdb3b9c860c3ba1201e0bdcf1e09ba",
+  "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/5f04ba4f6ecdb3b9c860c3ba1201e0bdcf1e09ba",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4df60c42542471de6e39e5ddf14ad9376331f901",
+      "size": 238,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/4df60c42542471de6e39e5ddf14ad9376331f901"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5d178fe2035ab2322aa8d94fe8a368c240972f8",
+      "size": 1095,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/e5d178fe2035ab2322aa8d94fe8a368c240972f8"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e315b1da422d8dd4bc710bd3aee4dd0a9e9e76",
+      "size": 19145,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/b7e315b1da422d8dd4bc710bd3aee4dd0a9e9e76"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fdf725f72b4ce9634d1cefccd3ad6b87498ea11",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/1fdf725f72b4ce9634d1cefccd3ad6b87498ea11"
+    },
+    {
+      "path": "code/.dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3160e3e73e3c1b39d39749dceb3d0b271dc29c2",
+      "size": 133,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/d3160e3e73e3c1b39d39749dceb3d0b271dc29c2"
+    },
+    {
+      "path": "code/.env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1788a8be144e43c16f28f65eb1f461c38452161d",
+      "size": 3612,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/1788a8be144e43c16f28f65eb1f461c38452161d"
+    },
+    {
+      "path": "code/DOCKER_BUILD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "832cd0345a2039c618b51b8cb58cd8dc4f9db3ba",
+      "size": 2869,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/832cd0345a2039c618b51b8cb58cd8dc4f9db3ba"
+    },
+    {
+      "path": "code/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d99baac40c202b4399de122da173b7092ef0d261",
+      "size": 4447,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/d99baac40c202b4399de122da173b7092ef0d261"
+    },
+    {
+      "path": "code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62fa4a793970c6207c4b214282dc06f1e9c3a622",
+      "size": 21549,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/62fa4a793970c6207c4b214282dc06f1e9c3a622"
+    },
+    {
+      "path": "code/analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a819fdaddf31c0369685f260c73678b4dd6f3ff",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/5a819fdaddf31c0369685f260c73678b4dd6f3ff"
+    },
+    {
+      "path": "code/analysis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "859d5849122065b1aac7980953144562b926f2b8",
+      "size": 4706,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/859d5849122065b1aac7980953144562b926f2b8"
+    },
+    {
+      "path": "code/analysis/archetypes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7395acb7773dad13f60b57af7f4b877641cd254c",
+      "size": 4561,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/7395acb7773dad13f60b57af7f4b877641cd254c"
+    },
+    {
+      "path": "code/analysis/cooccurrence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a78c4fcb554f0e870cc911b15f892f6a4aac3b1",
+      "size": 6632,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/1a78c4fcb554f0e870cc911b15f892f6a4aac3b1"
+    },
+    {
+      "path": "code/analysis/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40af72191bbdc312f0ae525d1b87085d22f01a86",
+      "size": 3044,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/40af72191bbdc312f0ae525d1b87085d22f01a86"
+    },
+    {
+      "path": "code/analysis/dataset_funnel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bf16c299be4bd44ee2f51392874d26b4b13db8e",
+      "size": 2578,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/1bf16c299be4bd44ee2f51392874d26b4b13db8e"
+    },
+    {
+      "path": "code/analysis/hypothesis_tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6cddd569513f09de535bcf07e1387afa3eb29bf",
+      "size": 8344,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/e6cddd569513f09de535bcf07e1387afa3eb29bf"
+    },
+    {
+      "path": "code/analysis/network_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c0aeae3fd3469779965fabd58033a33d6d92f34",
+      "size": 3140,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/6c0aeae3fd3469779965fabd58033a33d6d92f34"
+    },
+    {
+      "path": "code/analysis/patterns.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6699c2aeb6cfc1e06ee352c5484bf8352cd781d",
+      "size": 3676,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/f6699c2aeb6cfc1e06ee352c5484bf8352cd781d"
+    },
+    {
+      "path": "code/analysis/phase_cooccurrence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "715830009806056af883ae48adf7e1d64f1519e4",
+      "size": 2474,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/715830009806056af883ae48adf7e1d64f1519e4"
+    },
+    {
+      "path": "code/analysis/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "847c57b2fd85bc503bb303673785ff435fbe2b19",
+      "size": 509,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/847c57b2fd85bc503bb303673785ff435fbe2b19"
+    },
+    {
+      "path": "code/analysis/rq1_landscape.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3487a763fb8b17e1637a75a7f6a9667730864017",
+      "size": 7729,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/3487a763fb8b17e1637a75a7f6a9667730864017"
+    },
+    {
+      "path": "code/analysis/taxonomy_counts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a5859687adf0e0497973f5bf0c78654ca684d30",
+      "size": 3097,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/0a5859687adf0e0497973f5bf0c78654ca684d30"
+    },
+    {
+      "path": "code/analysis/verify_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e92cfd1d4b8f9dcb24526617b6949751aa7d6b7e",
+      "size": 757,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/e92cfd1d4b8f9dcb24526617b6949751aa7d6b7e"
+    },
+    {
+      "path": "code/analyzer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31140f755ec7c93843c9ef82a96dd46bed2d2496",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/31140f755ec7c93843c9ef82a96dd46bed2d2496"
+    },
+    {
+      "path": "code/analyzer/cc_analyzer.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2ba29d43a67849db5658290339755b374b48bfb9",
+      "size": 10447,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/2ba29d43a67849db5658290339755b374b48bfb9"
+    },
+    {
+      "path": "code/analyzer/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95f674d62f7758679a7f6b65999973ecb69e452c",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/95f674d62f7758679a7f6b65999973ecb69e452c"
+    },
+    {
+      "path": "code/analyzer/prompts/audit_prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "930fe3a0d796115978cad3d8ed35c5876d25ee18",
+      "size": 4388,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/930fe3a0d796115978cad3d8ed35c5876d25ee18"
+    },
+    {
+      "path": "code/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bafb9bce4a2cb64c655fd8f12f16170b20554114",
+      "size": 1402,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/bafb9bce4a2cb64c655fd8f12f16170b20554114"
+    },
+    {
+      "path": "code/crawler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93c0ef4912aaa78541c0e4f52c7ced586bbdede9",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/93c0ef4912aaa78541c0e4f52c7ced586bbdede9"
+    },
+    {
+      "path": "code/crawler/crawler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b80a9d27c3618f351ec1abbda647fa4d32501f5",
+      "size": 15938,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/8b80a9d27c3618f351ec1abbda647fa4d32501f5"
+    },
+    {
+      "path": "code/executor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "793cbde8cb970b103dadc0bcf7d0fcb8ba2ef2ab",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/793cbde8cb970b103dadc0bcf7d0fcb8ba2ef2ab"
+    },
+    {
+      "path": "code/executor/batch_runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee28dc81726699cde727d7ed780bf279065f89d5",
+      "size": 18877,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/ee28dc81726699cde727d7ed780bf279065f89d5"
+    },
+    {
+      "path": "code/executor/nova-tracer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1757525271a9b8c5859f801747e5b18e8835864",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/c1757525271a9b8c5859f801747e5b18e8835864"
+    },
+    {
+      "path": "code/executor/nova-tracer/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cf37ca0c2eace7f4b4f9ed9ee96040f8247981c",
+      "size": 429,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/0cf37ca0c2eace7f4b4f9ed9ee96040f8247981c"
+    },
+    {
+      "path": "code/executor/nova-tracer/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc1a90ff49181458b7ab5ea4467d9b094d9345c",
+      "size": 1082,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/5bc1a90ff49181458b7ab5ea4467d9b094d9345c"
+    },
+    {
+      "path": "code/executor/nova-tracer/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eef986dd9e4c7e28918ce3bbb8fe36a587358cb",
+      "size": 410,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/0eef986dd9e4c7e28918ce3bbb8fe36a587358cb"
+    },
+    {
+      "path": "code/executor/nova-tracer/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26eb114434b09bd720c40a6d88e83766020ffbde",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/26eb114434b09bd720c40a6d88e83766020ffbde"
+    },
+    {
+      "path": "code/executor/nova-tracer/config/nova-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f925061481f968da8c659d37bce4050144140e85",
+      "size": 5363,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/f925061481f968da8c659d37bce4050144140e85"
+    },
+    {
+      "path": "code/executor/nova-tracer/config/otel-env.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5305aac3524f3b2f34871d2f64a07507574df56c",
+      "size": 1211,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/5305aac3524f3b2f34871d2f64a07507574df56c"
+    },
+    {
+      "path": "code/executor/nova-tracer/config/otel-file.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdd66e6bd2dfde417876b1f751e02affca8dc372",
+      "size": 1201,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/fdd66e6bd2dfde417876b1f751e02affca8dc372"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8744af0211050449ca5bee07ee25aee831c207b9",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/8744af0211050449ca5bee07ee25aee831c207b9"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16d2282690abc8ccf81b32fbcd96120c8bd69d87",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/16d2282690abc8ccf81b32fbcd96120c8bd69d87"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/lib/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2c7af5773c2f323762f395c5f57d68e2ad51464",
+      "size": 691,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/d2c7af5773c2f323762f395c5f57d68e2ad51464"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/lib/ai_summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d68cf30e4337fd1e5531e299c3e89c0b1d1d1a1",
+      "size": 8035,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/8d68cf30e4337fd1e5531e299c3e89c0b1d1d1a1"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/lib/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50e2e9dd35c413db655485e634541294d4e6abb1",
+      "size": 7496,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/50e2e9dd35c413db655485e634541294d4e6abb1"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/lib/nova_logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fafa8667312a8aeebc4b9b2514e49621ce7d6869",
+      "size": 11037,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/fafa8667312a8aeebc4b9b2514e49621ce7d6869"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/lib/report_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85ebceeacee8d643aba8c11a3e1246834e2e4dff",
+      "size": 64482,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/85ebceeacee8d643aba8c11a3e1246834e2e4dff"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/lib/session_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcd1276ed59e8fb5ad06eaa465283f639abdfb1a",
+      "size": 22776,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/dcd1276ed59e8fb5ad06eaa465283f639abdfb1a"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/loggers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c0e5677c1911a98e3d7c503a2f1ead064994e7e",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/6c0e5677c1911a98e3d7c503a2f1ead064994e7e"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/loggers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d71ba91e0ae18a3803228386345c0a5169af59f",
+      "size": 299,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/2d71ba91e0ae18a3803228386345c0a5169af59f"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/loggers/datadog_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "466961490b2d9704362d3b03ad0cc0cac2c4c795",
+      "size": 4942,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/466961490b2d9704362d3b03ad0cc0cac2c4c795"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/loggers/file_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "221956b0d0cf74531691fb8edc784e43cf29b914",
+      "size": 1956,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/221956b0d0cf74531691fb8edc784e43cf29b914"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/post-tool-nova-guard.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d919986bf251c4dba820fbe72755b1de82fb662f",
+      "size": 26447,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/d919986bf251c4dba820fbe72755b1de82fb662f"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/pre-tool-guard.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "697d232a630095960639cd6035676a56a7d49a38",
+      "size": 7857,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/697d232a630095960639cd6035676a56a7d49a38"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/session-end.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bb5db2cd8a6579fc1813bf83043c0ca4e69e4af4",
+      "size": 4094,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/bb5db2cd8a6579fc1813bf83043c0ca4e69e4af4"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/session-start.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "23421341796a2cbdd783769e2229d77061500f08",
+      "size": 4554,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/23421341796a2cbdd783769e2229d77061500f08"
+    },
+    {
+      "path": "code/executor/nova-tracer/hooks/user-prompt-capture.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e747f6a2cea241c128507f3c66012fa46aa73ec8",
+      "size": 2426,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/e747f6a2cea241c128507f3c66012fa46aa73ec8"
+    },
+    {
+      "path": "code/executor/nova-tracer/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9707168e9d58beba3f84652bd4f91dbfdc64317f",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/9707168e9d58beba3f84652bd4f91dbfdc64317f"
+    },
+    {
+      "path": "code/executor/nova-tracer/rules/context_manipulation.nov",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c31fc8ec9f60b20eeb3cad11328455fe993e08d",
+      "size": 6835,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/1c31fc8ec9f60b20eeb3cad11328455fe993e08d"
+    },
+    {
+      "path": "code/executor/nova-tracer/rules/encoding_obfuscation.nov",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbb764101d2c0507cc8093989ff4301903aff105",
+      "size": 5171,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/bbb764101d2c0507cc8093989ff4301903aff105"
+    },
+    {
+      "path": "code/executor/nova-tracer/rules/instruction_override.nov",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ce2ae6bc15033c748473f599f3ee191f0db079",
+      "size": 5881,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/d9ce2ae6bc15033c748473f599f3ee191f0db079"
+    },
+    {
+      "path": "code/executor/nova-tracer/rules/roleplay_jailbreak.nov",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42ab3d8944e5f79408d362fe3e33e26768be1567",
+      "size": 5955,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/42ab3d8944e5f79408d362fe3e33e26768be1567"
+    },
+    {
+      "path": "code/executor/nova_setup.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3ba36bdc9679a1d43f9c16ee1b38113af30c7047",
+      "size": 5481,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/3ba36bdc9679a1d43f9c16ee1b38113af30c7047"
+    },
+    {
+      "path": "code/executor/run_skill.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2bec4cee62000650f2087330804ceb8ccc88d21",
+      "size": 5317,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/c2bec4cee62000650f2087330804ceb8ccc88d21"
+    },
+    {
+      "path": "code/executor/run_skill_hostauth.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "41d4e9482e612f86f9fe0f3b515d76695fa439e1",
+      "size": 16833,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/41d4e9482e612f86f9fe0f3b515d76695fa439e1"
+    },
+    {
+      "path": "code/executor/smart_monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b52d81b88cf38734e045cb6d958a3fadf05924ad",
+      "size": 4244,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/b52d81b88cf38734e045cb6d958a3fadf05924ad"
+    },
+    {
+      "path": "code/helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c3cea8ba5e2d5c552b576b6e15380d5b0bfe984",
+      "size": 44478,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/6c3cea8ba5e2d5c552b576b6e15380d5b0bfe984"
+    },
+    {
+      "path": "code/nova-requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02c1d40cd59e5d637add45de10f938d8596b54a3",
+      "size": 540,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/02c1d40cd59e5d637add45de10f938d8596b54a3"
+    },
+    {
+      "path": "code/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c8a21f6f8eb2c71219c9b8f02e2efea851abe2e",
+      "size": 62,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/6c8a21f6f8eb2c71219c9b8f02e2efea851abe2e"
+    },
+    {
+      "path": "code/samples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a142d27182fcee9a3f9d9e0fe8e7eb090bac982e",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/a142d27182fcee9a3f9d9e0fe8e7eb090bac982e"
+    },
+    {
+      "path": "code/samples/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6b6321be9eddc046b2a6bd2c5c334ead281db4",
+      "size": 1674,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/6d6b6321be9eddc046b2a6bd2c5c334ead281db4"
+    },
+    {
+      "path": "code/samples/math-calculator",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae4b318ddaf604a302dc3c0d9d437acdf26b2ce9",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/ae4b318ddaf604a302dc3c0d9d437acdf26b2ce9"
+    },
+    {
+      "path": "code/samples/math-calculator/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9c617f09ae8a6496a38c22ae4161149904aab7f",
+      "size": 2135,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/a9c617f09ae8a6496a38c22ae4161149904aab7f"
+    },
+    {
+      "path": "code/samples/math-calculator/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2b86725cd5bf504c5a19ef23ffb53cad96e12ed",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/b2b86725cd5bf504c5a19ef23ffb53cad96e12ed"
+    },
+    {
+      "path": "code/samples/math-calculator/scripts/calculate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bebad3a6575666e62283e935924288ce7018541d",
+      "size": 2227,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/bebad3a6575666e62283e935924288ce7018541d"
+    },
+    {
+      "path": "code/samples/run_cc.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "72c816a0e8427b8b4a1614a0d1ff7904cbef592d",
+      "size": 601,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/72c816a0e8427b8b4a1614a0d1ff7904cbef592d"
+    },
+    {
+      "path": "code/samples/run_detection.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5a947fe198cbb6353c8c6a36834217420ee24b88",
+      "size": 266,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/5a947fe198cbb6353c8c6a36834217420ee24b88"
+    },
+    {
+      "path": "code/scanner",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55a3979fb4190c76f78eb37e90bbb4b4bf4c3e0b",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/55a3979fb4190c76f78eb37e90bbb4b4bf4c3e0b"
+    },
+    {
+      "path": "code/scanner/scanner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63a84276c3d8350f102406947c90f57527afd02c",
+      "size": 20244,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/63a84276c3d8350f102406947c90f57527afd02c"
+    },
+    {
+      "path": "code/scanner/skill-security-scan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3543953b700b80d0a50036b8e7803f1eff8b82f",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/a3543953b700b80d0a50036b8e7803f1eff8b82f"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2601c8b448fe15f2a76b2e8476bf4edf85affda0",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/2601c8b448fe15f2a76b2e8476bf4edf85affda0"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/config/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54037a5811d9d3685e224f48158baf90800e3790",
+      "size": 79,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/54037a5811d9d3685e224f48158baf90800e3790"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/config/rules.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1ac70142ca10fae30b91fece9c206f014cdd16d",
+      "size": 2396,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/d1ac70142ca10fae30b91fece9c206f014cdd16d"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/config/whitelist.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9c681cf391a368a04ee64af3289d471b1cdc1c8",
+      "size": 14,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/b9c681cf391a368a04ee64af3289d471b1cdc1c8"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8006a9f4ae8aafcb35080db684763d0bc183db23",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/8006a9f4ae8aafcb35080db684763d0bc183db23"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10b9cd1350c839eb726aeffb86fa7abb392717e1",
+      "size": 329,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/10b9cd1350c839eb726aeffb86fa7abb392717e1"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4cfd7b082b04eefa695a1d209d0ba680f619e89",
+      "size": 122,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/a4cfd7b082b04eefa695a1d209d0ba680f619e89"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15c3bbd75759b246b80e8908dea031952df66cc",
+      "size": 12532,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/b15c3bbd75759b246b80e8908dea031952df66cc"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/config_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd3ac7293e50bf9b2c58ce70b33ba5b31163a98a",
+      "size": 4761,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/bd3ac7293e50bf9b2c58ce70b33ba5b31163a98a"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/i18n",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7cceddc9d3883353d8b4adabdc04af51f948c762",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/7cceddc9d3883353d8b4adabdc04af51f948c762"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/i18n/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5d5dd0b901fc012683416f3b44e2b74e3393a93",
+      "size": 2588,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/c5d5dd0b901fc012683416f3b44e2b74e3393a93"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/i18n/en_US",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a33fa15364fb00759a7872b45a41a7b6b33c70f",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/5a33fa15364fb00759a7872b45a41a7b6b33c70f"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/i18n/en_US/LC_MESSAGES",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b378f2fa31835c230edcd120127f93b928ad56a8",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/b378f2fa31835c230edcd120127f93b928ad56a8"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/i18n/en_US/LC_MESSAGES/skill_scan.po",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a29582448d783a4b98c146698ba02d9c74e530b",
+      "size": 5308,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/3a29582448d783a4b98c146698ba02d9c74e530b"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/i18n/zh_CN",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35de881ce34479de9f67b5e0780c3ccb39a1603d",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/35de881ce34479de9f67b5e0780c3ccb39a1603d"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/i18n/zh_CN/LC_MESSAGES",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b608e6e1a6ad75979a023ac6940405e82c87418",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/4b608e6e1a6ad75979a023ac6940405e82c87418"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/i18n/zh_CN/LC_MESSAGES/skill_scan.po",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d613c14502ccf5e90fcd87ea07282989b72930b1",
+      "size": 5219,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/d613c14502ccf5e90fcd87ea07282989b72930b1"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/reporters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38dc70491b483ffe85fc4244fcd812b901f7781d",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/38dc70491b483ffe85fc4244fcd812b901f7781d"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/reporters/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adeabeed03d54050fc150fdf663b2a124fb5fed4",
+      "size": 220,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/adeabeed03d54050fc150fdf663b2a124fb5fed4"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/reporters/console.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b2eaa84698188d5785595cff7342f21bc765ca8",
+      "size": 6228,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/0b2eaa84698188d5785595cff7342f21bc765ca8"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/reporters/html_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0c6d44aa9dae0e08850e791e4fe9d31b447f5b",
+      "size": 23741,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/dd0c6d44aa9dae0e08850e791e4fe9d31b447f5b"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/reporters/json_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a90214294e607d1d8f92059cba027c8ecf4ac7c",
+      "size": 1742,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/3a90214294e607d1d8f92059cba027c8ecf4ac7c"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dba93529411efa3df8d03ec33e36d93551c03f73",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/dba93529411efa3df8d03ec33e36d93551c03f73"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "099081d2cdcc1bc7c040bda29e8516061a211b06",
+      "size": 687,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/099081d2cdcc1bc7c040bda29e8516061a211b06"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "177717f3241567dfcf7d9bada56b756928302ba8",
+      "size": 2665,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/177717f3241567dfcf7d9bada56b756928302ba8"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules/command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eca195073c66ee71aa203fe6eaffd808dfc90209",
+      "size": 2722,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/eca195073c66ee71aa203fe6eaffd808dfc90209"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules/dependencies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76e19a4acf82f6cc95af086f0d56a7a782a0fcf7",
+      "size": 2413,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/76e19a4acf82f6cc95af086f0d56a7a782a0fcf7"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules/fileops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "018427c71ecfeb2be1f9561873cb983d2b4f636b",
+      "size": 2253,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/018427c71ecfeb2be1f9561873cb983d2b4f636b"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules/injection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3800922b4ac53fa3f351ab45fb98baa3d86e099",
+      "size": 2966,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/f3800922b4ac53fa3f351ab45fb98baa3d86e099"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules/network.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330e0765c65c3150955c38362389e2522473da6e",
+      "size": 2242,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/330e0765c65c3150955c38362389e2522473da6e"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/rules_factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10fa6e6dc52ef8d5d4bc5012680b5ba2801bc281",
+      "size": 3149,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/10fa6e6dc52ef8d5d4bc5012680b5ba2801bc281"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/scanner",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76fa9fb875a4af686f7cd5ca3598b7fc23e4aab6",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/76fa9fb875a4af686f7cd5ca3598b7fc23e4aab6"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/scanner/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae6f9d0b05da9532d87d6d5c68dc58ed42a203f",
+      "size": 253,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/5ae6f9d0b05da9532d87d6d5c68dc58ed42a203f"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/scanner/analyzer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28fab33de680749ebc1e4eb9c6500a1d54264ebf",
+      "size": 6078,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/28fab33de680749ebc1e4eb9c6500a1d54264ebf"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/scanner/detector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a22d0c84f5e6f5b685b436e1e60c03b0ac12dab",
+      "size": 2097,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/3a22d0c84f5e6f5b685b436e1e60c03b0ac12dab"
+    },
+    {
+      "path": "code/scanner/skill-security-scan/src/scanner/parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4aa214c01351d4f103b60a41b0b5cdbe0b982a1",
+      "size": 4172,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/c4aa214c01351d4f103b60a41b0b5cdbe0b982a1"
+    },
+    {
+      "path": "code/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35a4e03104ec1886337f4debcfacaebf6f77ab71",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/35a4e03104ec1886337f4debcfacaebf6f77ab71"
+    },
+    {
+      "path": "code/scripts/01_crawl.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22817529ff0157b4747f5308af7cadbb664eda68",
+      "size": 2923,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/22817529ff0157b4747f5308af7cadbb664eda68"
+    },
+    {
+      "path": "code/scripts/02_generate_mapping.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e090dcf437c1444fe56e47199a735e60890b4680",
+      "size": 2825,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/e090dcf437c1444fe56e47199a735e60890b4680"
+    },
+    {
+      "path": "code/scripts/03_download.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a325fd0b8fe4cb16ab5758b7f21e36e46b31eb",
+      "size": 2156,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/72a325fd0b8fe4cb16ab5758b7f21e36e46b31eb"
+    },
+    {
+      "path": "code/scripts/04_scan.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "145ab082d0b0cfa7aa8b3141cf710854ef099a2d",
+      "size": 1790,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/145ab082d0b0cfa7aa8b3141cf710854ef099a2d"
+    },
+    {
+      "path": "code/scripts/05_gen_run_queue.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da11b229f24c2a092d4d5ea84894b4037f745db0",
+      "size": 6743,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/da11b229f24c2a092d4d5ea84894b4037f745db0"
+    },
+    {
+      "path": "code/scripts/06_execute.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d78b4218e4b313d6035532a1277fa79791056680",
+      "size": 2270,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/d78b4218e4b313d6035532a1277fa79791056680"
+    },
+    {
+      "path": "code/scripts/07_gen_cc_queue.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2da5f7abb2a28e745a3f8dd18e58dfe9492f77",
+      "size": 3641,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/0c2da5f7abb2a28e745a3f8dd18e58dfe9492f77"
+    },
+    {
+      "path": "code/scripts/08_cc_analyze.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df9a958fcab9b847b03d27b98197258ad803b2ce",
+      "size": 751,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/df9a958fcab9b847b03d27b98197258ad803b2ce"
+    },
+    {
+      "path": "code/scripts/09_cooccurrence.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "03ad2160ab06985da833517a66b795439e466b5e",
+      "size": 957,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/03ad2160ab06985da833517a66b795439e466b5e"
+    },
+    {
+      "path": "code/scripts/10_hypothesis.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a20ff7d5ad46666dc8d4c121b30961db5f28e1ee",
+      "size": 861,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/a20ff7d5ad46666dc8d4c121b30961db5f28e1ee"
+    },
+    {
+      "path": "code/scripts/11_rq1.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8ad3e68f0fbe65e29217741876382f08ec408dda",
+      "size": 779,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/8ad3e68f0fbe65e29217741876382f08ec408dda"
+    },
+    {
+      "path": "code/scripts/12_phase.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9118d17c516fb2bade65518275a623b1ddb64a4f",
+      "size": 783,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/9118d17c516fb2bade65518275a623b1ddb64a4f"
+    },
+    {
+      "path": "code/scripts/13_archetypes.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ba157367a249f0f2191fc68d68a6eaa66fce26fa",
+      "size": 795,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/ba157367a249f0f2191fc68d68a6eaa66fce26fa"
+    },
+    {
+      "path": "code/scripts/14_network.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e0db70287acf0ec4b6e01e3cc04dc00a4bd2e386",
+      "size": 804,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/e0db70287acf0ec4b6e01e3cc04dc00a4bd2e386"
+    },
+    {
+      "path": "code/scripts/15_funnel.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1bc6f0031b8c26ae3cc2f69110fb5f0a67c0da97",
+      "size": 699,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/1bc6f0031b8c26ae3cc2f69110fb5f0a67c0da97"
+    },
+    {
+      "path": "code/scripts/lib.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9f8eb2d3ed02337fddc2fe83f8f6d738aede0e8",
+      "size": 3886,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/e9f8eb2d3ed02337fddc2fe83f8f6d738aede0e8"
+    },
+    {
+      "path": "code/scripts/run_pipeline.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "479605cc0efbf6f1e585ab8a5351000dc02311da",
+      "size": 2309,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/479605cc0efbf6f1e585ab8a5351000dc02311da"
+    },
+    {
+      "path": "code/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a83f28c1d0f1a17fe4dcbb93318bdcf1e97f6d53",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/a83f28c1d0f1a17fe4dcbb93318bdcf1e97f6d53"
+    },
+    {
+      "path": "code/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3d39ae4a7e63897e95f04c0fed65d7b511083a2",
+      "size": 106,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/c3d39ae4a7e63897e95f04c0fed65d7b511083a2"
+    },
+    {
+      "path": "code/utils/config_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07f815f816953e0d43b89fc97835deb146dfa4ea",
+      "size": 6034,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/07f815f816953e0d43b89fc97835deb146dfa4ea"
+    },
+    {
+      "path": "code/utils/path_helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bc92ce1fb40d7e5ae3c7e0d9a5b2b01ad4534b5",
+      "size": 1907,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/4bc92ce1fb40d7e5ae3c7e0d9a5b2b01ad4534b5"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cac8b935d65989398b976608fecc27ed165a17dc",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/cac8b935d65989398b976608fecc27ed165a17dc"
+    },
+    {
+      "path": "data/malicious_skills.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c6d6dcc098cf1a4c18990928d6eb3bb0f295131",
+      "size": 27434,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/5c6d6dcc098cf1a4c18990928d6eb3bb0f295131"
+    },
+    {
+      "path": "data/skills_dataset.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "935799c09ddd9c982d98d813f984ad5480d25621",
+      "size": 10538735,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/935799c09ddd9c982d98d813f984ad5480d25621"
+    },
+    {
+      "path": "figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbf6813e398eef2d7d334dcb3268e142f2609d98",
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/trees/fbf6813e398eef2d7d334dcb3268e142f2609d98"
+    },
+    {
+      "path": "figs/overview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d5e5df79aebca946a61931c10d42637ac9940a",
+      "size": 153568,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/92d5e5df79aebca946a61931c10d42637ac9940a"
+    },
+    {
+      "path": "figs/usenixbadges-available.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f460ee1b200895ac84184881ca7b296beae9307",
+      "size": 16724,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/7f460ee1b200895ac84184881ca7b296beae9307"
+    },
+    {
+      "path": "figs/usenixbadges-functional.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9111e77dc3646fe81b63bb06afd5a0539e23a0d7",
+      "size": 17268,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/9111e77dc3646fe81b63bb06afd5a0539e23a0d7"
+    },
+    {
+      "path": "figs/usenixbadges-reproduced.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ea1dd40aa67d840a83b24ab15a00376de16a71",
+      "size": 17844,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/67ea1dd40aa67d840a83b24ab15a00376de16a71"
+    },
+    {
+      "path": "paper.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c35867678fd4539e02b05382fd4cf7986a83641",
+      "size": 512582,
+      "url": "https://api.github.com/repos/protectskills/MaliciousAgentSkillsBench/git/blobs/9c35867678fd4539e02b05382fd4cf7986a83641"
+    }
+  ],
+  "truncated": false
+}

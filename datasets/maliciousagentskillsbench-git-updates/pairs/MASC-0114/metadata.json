@@ -1,0 +1,59 @@
+{
+  "id": "MASC-0114",
+  "skill_id": "Porkbutts/jetaasc-events::.claude/skills/jetaasc-newsletter",
+  "skill_name": "jetaasc-newsletter",
+  "origin_repository": "Porkbutts/jetaasc-events",
+  "origin_path": ".claude/skills/jetaasc-newsletter",
+  "version_kind": "git_commit_snapshot",
+  "old_version": "git:04d6af82541a2e3e8988ad6a92f32ece05325f83",
+  "new_version": "git:fcf7849eaf9b83908004c0dda1dea8555f72d0cb",
+  "old_commit": "04d6af82541a2e3e8988ad6a92f32ece05325f83",
+  "new_commit": "fcf7849eaf9b83908004c0dda1dea8555f72d0cb",
+  "old_is_exact_first_parent": true,
+  "new_commit_date": "2026-01-19T00:54:00Z",
+  "declared_version_fields": {
+    "old": {},
+    "new": {}
+  },
+  "published_release_version_change_confirmed": false,
+  "benchmark_repository": "protectskills/MaliciousAgentSkillsBench",
+  "benchmark_ref": "f7d28b1a9de4eb33d552529cf79d1065d765f6c3",
+  "benchmark_source_key": [
+    "skillsmp.com",
+    "smp_1535",
+    "jetaasc-newsletter"
+  ],
+  "origin_provenance_ref": "eb431f4f9d855f558fce20fd7de098a0423b6160",
+  "source_package_prefix": "packages/smp_1535/jetaasc-newsletter",
+  "source_archive_sha256": "bf2532cb0e7fd3a76a2cf1bbb53cff1cd77fe67b3f152f802c084ef196860ed5",
+  "old_security_label": null,
+  "new_security_label": "malicious_as_labeled_by_MaliciousAgentSkillsBench",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_source_archive_inventory": true,
+  "normalization": [
+    "omit registry _meta.json, .DS_Store and Python cache for comparison only",
+    "normalize root skill.md to SKILL.md for comparison only; preserve all original bytes"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "assets/template.html"
+  ],
+  "change_scope": "instruction_code_or_reference_change",
+  "old_files": 2,
+  "new_files": 2,
+  "local_directory": "pairs/MASC-0114",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "6ca3c5b8ad7917df309340591745daf72f15a770d88a08d931681cd7ab8c86be",
+      "bytes": 2654
+    },
+    "package.diff": {
+      "sha256": "b0ec2663c0691626438af6060061b13eb5f1148525cc230f4f193fcbdd839aa2",
+      "bytes": 9819
+    }
+  },
+  "compare_url": "https://github.com/Porkbutts/jetaasc-events/compare/04d6af82541a2e3e8988ad6a92f32ece05325f83...fcf7849eaf9b83908004c0dda1dea8555f72d0cb"
+}

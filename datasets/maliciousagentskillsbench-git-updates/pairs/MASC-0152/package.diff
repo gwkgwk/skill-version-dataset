@@ -1,0 +1,550 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 8f1685e..4a1a962 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -2,247 +2,68 @@
+ name: doc-scraper
+ description:
+   Generic web scraper for extracting and organizing Snowflake documentation with intelligent caching
+-  and configurable spider depth. Install globally with uv for easy access, or use uvx for
+-  development. Scrapes any section of docs.snowflake.com controlled by --base-path.
++  and configurable spider depth. Scrapes any section of docs.snowflake.com controlled by
++  --base-path.
+ ---
+ 
+ # Snowflake Documentation Scraper
+ 
+-Generic scraper for any section of docs.snowflake.com. Converts to Markdown with metadata and
+-generates indexed SKILL.md.
++Scrapes docs.snowflake.com sections to Markdown with SQLite caching (7-day expiration).
+ 
+-**Features:** SQLite caching (7-day expiration) • Multi-threaded (4 workers) • Configurable spider
+-depth • Base path filtering
++## Usage
+ 
+-**Install:** `uv tool install --editable .` • **Run:** `doc-scraper --output-dir=/path/to/output`
+-
+-## Quick Start
+-
+-**One-time setup (installs globally):**
+-
+-```bash
+-cd .claude/skills/doc-scraper
+-uv tool install --editable .
+-```
+-
+-**Then run from anywhere:**
++**First time setup** (auto-installs uv and doc-scraper):
+ 
+ ```bash
+-doc-scraper --output-dir=/path/to/output
++python3 .claude/skills/doc-scraper/scripts/doc_scraper.py
+ ```
+ 
+-**For development** (picks up code/config changes without reinstall):
++**Subsequent runs:**
+ 
+ ```bash
+-cd .claude/skills/doc-scraper
+-uvx --from . doc-scraper --output-dir=../../snowflake-docs
++doc-scraper --output-dir=./snowflake-docs
++doc-scraper --output-dir=./snowflake-docs --base-path="/en/sql-reference/"
++doc-scraper --output-dir=./snowflake-docs --spider-depth=2
+ ```
+ 
+-## ⚠️ Safety Guidelines for AI Agents
+-
+-**NEVER delete documentation or cache unless explicitly requested by the user with clear
+-confirmation:**
+-
+-❌ **DO NOT**:
+-
+-- Delete entire output directories (e.g., `snowflake-docs/`)
+-- Delete documentation files (`.md` files in output directory)
+-- Suggest clearing cache as a first step or routine operation
+-- Use `rm -rf` commands without explicit user request and path verification
+-- Delete cache to "fix" issues without diagnosing the actual problem
+-
+-✅ **DO**:
+-
+-- Run the scraper normally - cache handles itself automatically
+-- Trust the 7-day cache expiration to keep content fresh
+-- Only suggest cache clearing if user reports cache corruption errors
+-- Ask user to verify paths before any deletion commands
+-- Explain that cache clearing is rarely needed and may slow down subsequent runs
+-
+-**The scraper is designed to run without manual cache management.** Cache expiration, updates, and
+-maintenance are all automatic.
+-
+ ## Command Options
+ 
+-| Option                 | Default           | Description                                         |
+-| ---------------------- | ----------------- | --------------------------------------------------- |
+-| `--output-dir DIR`     | **Required**      | Output directory for scraped docs (relative to CWD) |
+-| `--base-path PATH`     | `/en/migrations/` | URL filter - controls what section to scrape        |
+-| `--spider/--no-spider` | `--spider`        | Follow internal links                               |
+-| `--spider-depth N`     | `1`               | Depth: 0=seeds only, 1=+direct links, 2=+2nd degree |
+-| `--limit N`            | None              | Cap URLs (for testing)                              |
+-| `--dry-run`            | -                 | Preview without writing files                       |
+-| `-v, --verbose`        | -                 | Debug logging                                       |
+-
+-## Common Tasks
+-
+-**Using globally installed tool** (recommended - run from anywhere):
+-
+-```bash
+-# Initial scrape - migrations section (cache is built automatically)
+-doc-scraper --output-dir=/path/to/project/snowflake-docs
+-
+-# Update existing (skips cached pages automatically - this is the normal workflow)
+-doc-scraper --output-dir=/path/to/project/snowflake-docs
+-
+-# Scrape SQL reference instead of migrations
+-doc-scraper --output-dir=/path/to/project/snowflake-docs \
+-  --base-path="/en/sql-reference/"
++| Option           | Default           | Description                           |
++| ---------------- | ----------------- | ------------------------------------- |
++| `--output-dir`   | **Required**      | Output directory for scraped docs     |
++| `--base-path`    | `/en/migrations/` | URL section to scrape                 |
++| `--spider-depth` | `1`               | Link depth: 0=seeds, 1=+links, 2=+2nd |
++| `--limit`        | None              | Cap URLs (for testing)                |
++| `--dry-run`      | -                 | Preview without writing               |
+ 
+-# Scrape user guide section
+-doc-scraper --output-dir=/path/to/project/snowflake-docs \
+-  --base-path="/en/user-guide/"
++## Output
+ 
+-# Deep spider (2 levels of link following)
+-doc-scraper --output-dir=/path/to/project/snowflake-docs \
+-  --spider-depth=2
+-
+-# Test run (10 URLs max, preview only)
+-doc-scraper --output-dir=/path/to/project/snowflake-docs \
+-  --limit 10 --dry-run
+ ```
+-
+-**For development** (from `.claude/skills/doc-scraper/` directory):
+-
+-```bash
+-# Use uvx to pick up code/config changes immediately
+-uvx --from . doc-scraper --output-dir=../../snowflake-docs
+-uvx --from . doc-scraper --output-dir=../../snowflake-docs --base-path="/en/sql-reference/"
++output-dir/
++├── SKILL.md              # Auto-generated index
++├── scraper_config.yaml   # Editable config (auto-created)
++├── .cache/               # SQLite cache (auto-managed)
++└── en/migrations/*.md    # Scraped pages with frontmatter
+ ```
+ 
+ ## Configuration
+ 
+-**Auto-created on first run**: `{output-dir}/scraper_config.yaml`
+-
+-The config file is automatically created in your output directory on first run with these defaults:
++Auto-created at `{output-dir}/scraper_config.yaml`:
+ 
+ ```yaml
+ rate_limiting:
+-  requests_per_second: 2 # Rate limit
+-  max_concurrent_threads: 4 # Parallel workers
+-
++  max_concurrent_threads: 4
+ spider:
+-  max_pages: 1000 # Stop after N pages
+-  max_queue_size: 500 # Queue limit
+-  allowed_paths: ["/en/"] # URL filters
+-
++  max_pages: 1000
++  allowed_paths: ["/en/"]
+ scraped_pages:
+-  expiration_days: 7 # Cache expiration
+-```
+-
+-**To customize**: Edit `{output-dir}/scraper_config.yaml` directly. Changes take effect on next run.
+-
+-## Output Structure
+-
+-```
+-snowflake-docs/
+-├── SKILL.md                    # Auto-generated index
+-└── en/migrations/              # Organized by URL path
+-    ├── page1.md               # With YAML frontmatter
+-    └── page2.md
+-```
+-
+-Each markdown file includes:
+-
+-```yaml
+----
+-title: "Page Title"
+-source_url: "https://docs.snowflake.com/..."
+-last_scraped: "2025-11-19T12:30:00+00:00"
+----
++  expiration_days: 7
+ ```
+ 
+-## Cache Management
+-
+-**Cache location**: `{output-dir}/.cache/` (NOT the docs themselves!)
+-
+-- `scraper.db` - SQLite database with page metadata
+-- `sitemap_cache.json` - Cached sitemap URLs
+-
+-**⚠️ IMPORTANT**: The cache is designed to be persistent and should NOT be deleted during normal
+-operation. The scraper automatically:
+-
+-- Uses cached pages that are less than 7 days old
+-- Updates expired cache entries automatically
+-- Skips re-scraping recent pages to save time
+-
+-**When cache clearing is needed** (rare):
+-
+-- Cache corruption detected (scraper will show errors)
+-- Testing cache behavior during development
+-- Forcing a complete re-scrape of all pages
+-
+-**If you must clear the cache** (verify output-dir path carefully):
+-
+-```bash
+-# ONLY clear the .cache subdirectory, NEVER delete the docs themselves!
+-# Double-check the path before running!
+-rm -rf /path/to/output/.cache
+-
+-# Example from project root (verify path first):
+-rm -rf snowflake-docs/.cache
+-```
+-
+-**Cache behavior**: 7-day expiration, automatic pre-load, survives crashes, ~50KB per 1,000 pages.
+-
+ ## Troubleshooting
+ 
+-| Issue                   | Solution                                                                                                |
+-| ----------------------- | ------------------------------------------------------------------------------------------------------- |
+-| Too many pages scraped  | Lower `--spider-depth` or add blocked patterns in config                                                |
+-| Missing pages           | Increase `--spider-depth` or adjust `allowed_paths`                                                     |
+-| Slow performance        | Check `max_queue_size` and `max_pages` in config                                                        |
+-| Cache corruption errors | Verify `{output-dir}/.cache/scraper.db` exists and check permissions. Only delete if corrupted.         |
+-| ImportError (uv)        | Use `uvx --refresh` or clear uv's own cache (NOT project cache): `rm -rf ~/.cache/uv/archive-v0/<hash>` |
+-
+-## Installation
+-
+-**Recommended: Global install with uv**
+-
+-```bash
+-cd .claude/skills/doc-scraper
+-uv tool install --editable .
+-```
+-
+-Benefits:
+-
+-- ✅ Run from anywhere: `doc-scraper --output-dir=/path/to/output`
+-- ✅ Simple command: no `uvx` or directory navigation
+-- ✅ Editable mode: updates when you pull new code
+-
+-**For development: Use uvx**
+-
+-```bash
+-cd .claude/skills/doc-scraper
+-uvx --from . doc-scraper --output-dir=../../snowflake-docs
+-```
+-
+-Benefits:
+-
+-- ✅ No installation needed
+-- ✅ Picks up code changes immediately
+-- ✅ Picks up config changes (`scraper_config.yaml`) immediately
+-- ✅ Perfect for testing changes
+-
+-**Legacy: venv method**
+-
+-```bash
+-cd .claude/skills/doc-scraper/scripts
+-python -m venv ../venv
+-source ../venv/bin/activate
+-pip install -r ../requirements.txt
+-python doc_scraper.py --output-dir=../../snowflake-docs
+-```
+-
+-**⚠️ Path Tips:**
+-
+-- Global install: Use absolute paths for `--output-dir`
+-- uvx/venv: Can use relative paths from project directory
+-
+-## Technical Stack
+-
+-Python 3.11+ • SQLite • BeautifulSoup • markdownify • requests • ratelimit • click
+-
+----
+-
+-**Version**: 1.1.0 • **Status**: Production Ready ✅
++| Issue            | Solution                              |
++| ---------------- | ------------------------------------- |
++| Too many pages   | Lower `--spider-depth` or edit config |
++| Missing pages    | Increase `--spider-depth`             |
++| Cache corruption | Delete `{output-dir}/.cache/` (rare)  |
+diff --git a/old/scripts/doc_scraper.py b/new/scripts/doc_scraper.py
+index 545c1ef..874515f 100644
+--- a/old/scripts/doc_scraper.py
++++ b/new/scripts/doc_scraper.py
+@@ -7,23 +7,141 @@ Scrapes any section of docs.snowflake.com, converts to Markdown, and auto-genera
+ a comprehensive SKILL.md file.
+ 
+ Usage:
+-    python doc-scraper.py --full-update --base-path="/en/migrations/"
+-    python doc-scraper.py --database teradata --limit 5
++    python doc_scraper.py --output-dir=./snowflake-docs
++    doc-scraper --output-dir=./snowflake-docs  (after install)
+ """
+ 
++import platform
++import shutil
++import subprocess
++import sys
++from pathlib import Path
++
++# ============================================================================
++# AUTO-INSTALL BOOTSTRAP (runs before other imports)
++# ============================================================================
++
++
++def get_platform() -> str:
++    """Detect current platform."""
++    system = platform.system().lower()
++    if system == "darwin":
++        return "macos"
++    elif system == "windows":
++        return "windows"
++    else:
++        return "linux"
++
++
++def is_running_as_script() -> bool:
++    """Check if running as a direct Python script vs installed uv tool."""
++    return sys.argv[0].endswith(".py")
++
++
++def install_uv() -> bool:
++    """Attempt to install uv. Returns True if successful."""
++    plat = get_platform()
++    print("Installing uv...")
++
++    try:
++        if plat == "windows":
++            subprocess.run(
++                [
++                    "powershell",
++                    "-ExecutionPolicy",
++                    "ByPass",
++                    "-c",
++                    "irm https://astral.sh/uv/install.ps1 | iex",
++                ],
++                check=True,
++                timeout=120,
++            )
++        else:  # macOS and Linux
++            subprocess.run(
++                ["sh", "-c", "curl -LsSf https://astral.sh/uv/install.sh | sh"],
++                check=True,
++                timeout=120,
++            )
++        print("  ✓ uv installed successfully")
++        return True
++    except (
++        subprocess.CalledProcessError,
++        subprocess.TimeoutExpired,
++        FileNotFoundError,
++    ) as e:
++        print(f"  ✗ Failed to install uv: {e}")
++        return False
++
++
++def check_and_install_uv() -> None:
++    """Check if uv is installed, attempt to install if not."""
++    if shutil.which("uv"):
++        return
++
++    if not install_uv():
++        plat = get_platform()
++        print("\nManual installation required. Run:")
++        if plat == "windows":
++            print(
++                '  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"'
++            )
++        else:
++            print("  curl -LsSf https://astral.sh/uv/install.sh | sh")
++        print("\nThen restart your terminal and run this script again.")
++        sys.exit(1)
++
++    # Refresh PATH to find newly installed uv
++    if not shutil.which("uv"):
++        print("\nuv was installed but not found in PATH.")
++        print("Please restart your terminal and run this script again.")
++        sys.exit(1)
++
++
++def install_self_as_uv_tool() -> None:
++    """Install this package as a uv tool and exit."""
++    # Find the package directory (parent of scripts/)
++    script_path = Path(__file__).resolve()
++    package_dir = script_path.parent.parent  # scripts/ -> doc-scraper/
++
++    print(f"Installing doc-scraper as uv tool from {package_dir}...")
++    try:
++        subprocess.run(
++            ["uv", "tool", "install", "--force", str(package_dir)],
++            check=True,
++            timeout=300,
++        )
++        print("\n✓ doc-scraper installed successfully!")
++        print("\nRun 'doc-scraper --help' to see available options.")
++        print("Example: doc-scraper --output-dir=./snowflake-docs")
++        sys.exit(0)
++    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
++        print(f"\n✗ Failed to install doc-scraper: {e}")
++        print("\nTry installing manually:")
++        print(f"  uv tool install {package_dir}")
++        sys.exit(1)
++
++
++# Bootstrap: if running as script, install uv and self as tool
++if is_running_as_script():
++    check_and_install_uv()
++    install_self_as_uv_tool()
++
++
++# ============================================================================
++# MAIN IMPORTS (only reached when running as installed tool)
++# ============================================================================
++
+ import json
+ import logging
+ import os
+ import re
+ import sqlite3
+-import sys
+ import threading
+ import time
+ from concurrent.futures import ThreadPoolExecutor, as_completed
+ from datetime import datetime, timedelta, timezone
+-from pathlib import Path
+ from threading import Lock
+-from typing import Any, Dict, List, Optional, Tuple
++from typing import Any, Dict, List, Optional, Tuple, cast
+ from urllib.parse import urljoin, urlparse
+ from xml.etree import ElementTree
+ 
+@@ -50,7 +168,7 @@ def setup_logging(level: str = "INFO", log_file: Optional[str] = None) -> None:
+     log_format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+     date_format = "%Y-%m-%d %H:%M:%S"
+ 
+-    handlers = [logging.StreamHandler()]
++    handlers: List[logging.Handler] = [logging.StreamHandler()]
+     if log_file:
+         handlers.append(logging.FileHandler(log_file))
+ 
+@@ -107,7 +225,10 @@ def load_config(
+             config_path = embedded_config
+ 
+     with open(config_path, "r", encoding="utf-8") as f:
+-        return yaml.safe_load(f)
++        config = yaml.safe_load(f)
++        if not isinstance(config, dict):
++            return {}
++        return config
+ 
+ 
+ # ============================================================================
+@@ -190,8 +311,8 @@ class ScraperDatabase:
+     def mark_url_scraped(
+         self,
+         url: str,
+-        file_path: str = None,
+-        title: str = None,
++        file_path: Optional[str] = None,
++        title: Optional[str] = None,
+         status: str = "success",
+     ):
+         """Mark URL as scraped with current timestamp."""
+@@ -213,7 +334,7 @@ class ScraperDatabase:
+                 )
+                 conn.commit()
+ 
+-    def mark_url_failed(self, url: str, error: str = None):
++    def mark_url_failed(self, url: str, error: Optional[str] = None):
+         """Mark URL as failed."""
+         with self.lock:
+             with sqlite3.connect(self.db_path) as conn:
+@@ -301,7 +422,7 @@ class ScraperDatabase:
+                 title = post.metadata.get("title")
+                 scraped_at = post.metadata.get("last_scraped")
+ 
+-                if not url:
++                if not url or not isinstance(url, str):
+                     skipped_count += 1
+                     continue
+ 
+@@ -443,7 +564,7 @@ class SnowflakeDocsScraper:
+             status_forcelist=[429, 500, 502, 503, 504],
+         )
+         adapter = HTTPAdapter(
+-            max_retries=retry_strategy, pool_connections=10, pool_maxsize=20
++            max_retries=cast(Any, retry_strategy), pool_connections=10, pool_maxsize=20
+         )
+         session.mount("http://", adapter)
+         session.mount("https://", adapter)
+@@ -547,6 +668,7 @@ class SnowflakeDocsScraper:
+ 
+         try:
+             response = self._rate_limited_get(url)
++            assert response is not None  # Type guard: decorators preserve return type
+             response.raise_for_status()
+ 
+             elapsed = time.time() - start_time
+@@ -610,8 +732,10 @@ class SnowflakeDocsScraper:
+     def _extract_description(self, soup: BeautifulSoup) -> str:
+         """Extract description from HTML."""
+         meta_desc = soup.find("meta", attrs={"name": "description"})
+-        if meta_desc and meta_desc.get("content"):
+-            return meta_desc["content"].strip()
++        if meta_desc:
++            content = meta_desc.get("content")
++            if isinstance(content, str):
++                return content.strip()
+ 
+         p_tag = soup.find("p")
+         if p_tag:
+@@ -639,7 +763,12 @@ class SnowflakeDocsScraper:
+         links = set()
+ 
+         for a_tag in soup.find_all("a", href=True):
+-            href = a_tag["href"].strip()
++            href_attr = a_tag["href"]
++            href = (
++                href_attr.strip()
++                if isinstance(href_attr, str)
++                else str(href_attr[0]).strip() if href_attr else ""
++            )
+ 
+             # Skip anchors, external links, and non-http links
+             if not href or href.startswith("#") or href.startswith("mailto:"):
+@@ -970,7 +1099,7 @@ class SnowflakeDocsScraper:
+ 
+ 
+ def create_comprehensive_skill_file(
+-    root_dir: Path, overwrite: bool = False, db: ScraperDatabase = None
++    root_dir: Path, overwrite: bool = False, db: Optional[ScraperDatabase] = None
+ ) -> Optional[Path]:
+     """
+     Create a single comprehensive SKILL.md at root with ALL documents listed.
+@@ -998,6 +1127,10 @@ def create_comprehensive_skill_file(
+     # Collect all markdown files with their metadata from database
+     documents = []
+ 
++    if db is None:
++        logger.warning("No database provided, cannot generate SKILL.md")
++        return None
++
+     for _url, title, file_path in db.get_all_scraped_urls():
+         if file_path:
+             try:
