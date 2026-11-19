@@ -1,0 +1,74 @@
+[返回仓库首页](../../../README.md)
+
+# MalSkills 历史追溯来源档案
+
+本目录为早期来源与历史候选资料，包含良性及恶意来源记录；不纳入正式恶意更新计数。
+
+## MalSkills 历史版本追溯
+
+2026-11-18 整理。来源固定为 [security-pride/MalSkills](https://github.com/security-pride/MalSkills/tree/46d60f09cef00fd3a9c01272be63dbd273ab4444/data/ground_truth)，
+历史文件通过保留原提交的 [friuns2/openclaw-removed-skills](https://github.com/friuns2/openclaw-removed-skills) 恢复。
+
+本仓库收录版本索引、候选更新对和部分已恢复的原始文件。**212 组记录不等于 212 组已下载或已标注的更新样本。**
+
+| 范围 | Skill 数 | 旧版本记录 / 候选版本对 |
+| --- | ---: | ---: |
+| 收录版本被标为 benign 且保留历史 | 40 | 205 |
+| 收录版本被标为 malicious 且保留历史 | 2 | 7 |
+| 合计 | 42 | 212 |
+
+正式 MalSkills 清单有 200 个单版本样本（100 benign / 100 malicious），本仓库保留其全部版本索引。
+source/all_697_metadata_records.json 还保留上游所有 697 份样本元数据；697 不是正式评测集大小。
+
+## 已恢复范围
+
+- 对 5 个 skill 的 15 个版本记录进行了文件恢复，15 份元数据版本号均核对一致。
+- 保存 12 份可读取的 SKILL.md 和 15 份 _meta.json，共 27 份原始文件。
+- 保存 7 组主文档差异，见 [diff_summary.json](diff_summary.json)。
+- 6 个恶意候选版本的目录经上游清单核对，目录全部文件均恢复；3 个良性 skill 仅恢复主文档与元数据，随附脚本等文件尚未收录。
+- zaycv/clawhub 的 1.0.7、1.0.8、1.0.10 主文档被本机防护拦截，未包含在上传包中；其来源链接和缺失状态保留。
+
+| Skill | 核查版本 |
+| --- | --- |
+| zaycv/shield | 1.0.0、1.0.1 |
+| zaycv/clawhub | 1.0.0、1.0.3、1.0.4、1.0.6、1.0.7、1.0.8、1.0.10 |
+| byungkyu/api-gateway | 1.0.54、1.0.58 |
+| autogame-17/evolver | 1.29.9、1.32.2 |
+| pskoett/self-improving-agent | 3.0.2、3.0.5 |
+
+## 文件入口
+
+- [版本追溯清单](版本追溯清单.md)：42 个带历史 skill 的完整列表与来源。
+- [candidate_update_pairs_212.json](candidate_update_pairs_212.json)：每对的旧新版本、发布时刻、原提交与恢复链接。
+- [final_200_version_index.json](final_200_version_index.json)：正式 200 个样本的版本线索。
+- [recovery_results.json](recovery_results.json)：实际恢复状态、版本核对和 SHA-256。
+- [audit_summary.json](audit_summary.json)：统计口径和覆盖范围。
+- recovered/：已验证可读取的原始文件；diffs/：主文档差异；source/：原始 CSV 与元数据。
+- [MANIFEST.sha256](MANIFEST.sha256)：上传文件的 SHA-256 清单。
+
+## 标签与评测边界
+
+CSV 标签针对 MalSkills 收录的快照。历史版本没有独立真值，更新对也没有真值；候选对的 update_security_label 保持 null。
+只有核查旧版正常、新版恶意以及本次变化的因果证据后，才能作为“正常 → 恶意”更新样本。
+
+版本对按已记录的发布时间排序后相邻配对，可能缺少中间发布版本，不能视为完整连续发布历史。
+最新版本仅指 MalSkills 收录时的快照，不表示当前注册表最新版。
+evolver、self-improving-agent 的所选两版 SKILL.md 相同；这不能证明整包没有变更。
+
+这些文件含恶意指令或代码研究样本，应作为不可信数据静态查看；收录不代表推荐安装。整理过程未执行任何样本。
+
+## 校验
+
+在仓库根目录运行：
+
+```bash
+python verify_dataset.py
+```
+
+校验脚本仅检查文件哈希、统计和恢复状态，不执行样本。
+
+## 来源与权利
+
+MalSkills 分析器的 Apache-2.0 许可证不自动适用于第三方 skill 样本。
+样本仍适用原作者的权利与许可；本仓库保留原始 CSV、owner/slug、版本、发布时间、提交和恢复来源，不重新授予第三方内容许可证。
+上游说明见 [source/ground_truth_README.md](source/ground_truth_README.md)。
