@@ -1,0 +1,21 @@
+{
+  "id": "MCU-0001",
+  "skill_id": "zaycv/clawhub",
+  "old_registry_version": "1.0.0",
+  "new_registry_version": "1.0.3",
+  "old_commit": "8275d463c9b25401d80098b07e65530444af8ff0",
+  "new_commit": "93d548f298d9d996a42da85de09f9860136c2280",
+  "old_is_exact_first_parent": true,
+  "malicious_behavior_change_confirmed": true,
+  "confirmed_behavior": "introduction of installation instructions for the malware-distribution repository identified by Snyk",
+  "confirmation_scope": "preserved registry-path Git history",
+  "old_overall_security_label": null,
+  "new_overall_security_label": null,
+  "benign_to_malicious_truth_confirmed": false,
+  "first_global_malicious_release_confirmed": false,
+  "source_decision": "datasets/malskills-malicious-introductions/confirmed_archive_introductions/zaycv_clawhub/decision.json",
+  "independent_incident_urls": [
+    "https://snyk.io/articles/clawdhub-malicious-campaign-ai-agent-skills/",
+    "https://github.com/openclaw/clawhub/issues/108"
+  ]
+}

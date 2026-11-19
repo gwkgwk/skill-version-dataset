@@ -5,7 +5,8 @@
 | 数据集 | 位置 | 范围与安全标签 |
 | --- | --- | --- |
 | GitSkills 真实更新 | [datasets/gitskills-real-updates-500/](datasets/gitskills-real-updates-500/) | 500 个 skill、500 个仓库、500 条真实更新、1,000 份完整目录快照；安全标签全部未标注，不作为良性真值 |
-| MalSkills 恶意版本证据 | [datasets/malskills-malicious-introductions/](datasets/malskills-malicious-introductions/) | 100 个恶意收录样本，1 条归档路径历史中的恶意指令引入；全局首恶版本未确认，无法验证的情况单独保留 |
+| 有版本更新的恶意 Skill | [datasets/malicious-skills-with-updates/](datasets/malicious-skills-with-updates/) | 严格证据：1 个 skill、1 条恶意分发指令更新；另列 2 个多版本候选，98 个单版本样本排除 |
+| MalSkills 来源档案（不计作更新集） | [datasets/malskills-malicious-introductions/](datasets/malskills-malicious-introductions/) | 100 个恶意单快照的来源与调查材料；不等于 100 个恶意更新 skill。无法验证的情况单独保留 |
 | MalSkills 历史追溯 | 本仓库根目录的原有数据，说明见下文 | 包含原始 benign / malicious 快照标签和历史候选对；历史版本及更新对没有独立安全真值 |
 
 GitSkills 与 MalSkills 原始文件分开存放，未将 GitSkills 数据混入恶意样本集。
