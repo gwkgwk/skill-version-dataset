@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "method": "offline standard-library verification; no sample execution",
+  "accepted_skills": 17,
+  "update_pairs": 17,
+  "complete_snapshots": 34,
+  "original_files": 298,
+  "original_bytes": 1879905,
+  "unverified_excluded": 4,
+  "checks": [
+    "original Git blob and SHA-256 hashes",
+    "complete package tree reconstruction",
+    "exact first-parent lineage",
+    "registry identity and versions",
+    "benchmark commit/tree membership and full operational package equality",
+    "diff hashes",
+    "candidate partition",
+    "manifest hashes when present"
+  ],
+  "first_malicious_introduction_confirmed": 0
+}

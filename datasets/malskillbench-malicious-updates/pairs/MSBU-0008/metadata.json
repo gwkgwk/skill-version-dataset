@@ -1,0 +1,46 @@
+{
+  "id": "MSBU-0008",
+  "skill_id": "dub88/lobsterhood",
+  "old_version": "1.1.0",
+  "new_version": "1.1.1",
+  "old_commit": "0288d3fef5afa550736e0a9e350850068da009c6",
+  "new_commit": "7d1366c3e85630d92af15fe8444e80c6394c314e",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "1.1.1",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-dub88-lobsterhood__v1.1.1",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-dub88-lobsterhood__v1.1.1",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/0288d3fef5afa550736e0a9e350850068da009c6...7d1366c3e85630d92af15fe8444e80c6394c314e",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "app/page.tsx"
+  ],
+  "old_files": 15,
+  "new_files": 15,
+  "local_directory": "pairs/MSBU-0008",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "dcd73e1fd16050dedf7df941a88907a2dcead142ab5c3e13ec99a7abaaa42710",
+      "bytes": 513
+    },
+    "package.diff": {
+      "sha256": "9418b01f4277a0cab6a636a4e473f1ac20d498466f3447946c17a2b34f30be41",
+      "bytes": 3462
+    }
+  }
+}

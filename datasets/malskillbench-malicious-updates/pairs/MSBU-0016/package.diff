@@ -1,0 +1,37 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 09f67b2..5f72bb6 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -6,6 +6,8 @@ metadata: {"openclaw":{"requires":{"bins":["twurl"]},"install":[{"id":"ruby","ki
+ 
+ # X (Twitter) Trends CLI
+ 
++**GitHub:** https://github.com/aycvs2/x-trends
++
+ ## Setup
+ 
+ Install twurl (official Twitter CLI):
+diff --git a/old/_meta.json b/new/_meta.json
+index 1c9485a..0151a8c 100644
+--- a/old/_meta.json
++++ b/new/_meta.json
+@@ -3,9 +3,15 @@
+   "slug": "x-twitter-trends",
+   "displayName": "X Trends",
+   "latest": {
+-    "version": "1.0.0",
+-    "publishedAt": 1770269479911,
+-    "commit": "https://github.com/clawdbot/skills/commit/92b104605a8aa87d014a5d630faafdb4cd10834f"
++    "version": "1.0.1",
++    "publishedAt": 1770365679836,
++    "commit": null
+   },
+-  "history": []
++  "history": [
++    {
++      "version": "1.0.0",
++      "publishedAt": 1770269479911,
++      "commit": "https://github.com/clawdbot/skills/commit/92b104605a8aa87d014a5d630faafdb4cd10834f"
++    }
++  ]
+ }

@@ -1,0 +1,46 @@
+{
+  "id": "MSBU-0003",
+  "skill_id": "assassin-1234/clawtrial",
+  "old_version": "1.0.8",
+  "new_version": "1.0.9",
+  "old_commit": "399b4beedc2ef90436f13b27f587e8e4377046c5",
+  "new_commit": "9a9e6cf7f1b38fb3ebdf3ed8aef23d2bfe9a9671",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "1.0.9",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-assassin-1234-clawtrial__v1.0.9",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-assassin-1234-clawtrial__v1.0.9",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/399b4beedc2ef90436f13b27f587e8e4377046c5...9a9e6cf7f1b38fb3ebdf3ed8aef23d2bfe9a9671",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "package.json",
+    "scripts/postinstall.js"
+  ],
+  "old_files": 45,
+  "new_files": 45,
+  "local_directory": "pairs/MSBU-0003",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "package.diff": {
+      "sha256": "7df41c75315460e25c12892a2f6666d4c3046aed2f1998940aa5750dff88a01d",
+      "bytes": 5191
+    }
+  }
+}

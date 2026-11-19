@@ -1,0 +1,45 @@
+{
+  "id": "MSBU-0011",
+  "skill_id": "happybigmtn/bonero-miner",
+  "old_version": "1.0.1",
+  "new_version": "2.0.0",
+  "old_commit": "5d365a77f44545015e43fdde3c6ab48cadf0d263",
+  "new_commit": "02811547589447a811f59114ed7a033d922ddbc6",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "2.0.0",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-happybigmtn-bonero-miner__v2.0.0",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-happybigmtn-bonero-miner__v2.0.0",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/5d365a77f44545015e43fdde3c6ab48cadf0d263...02811547589447a811f59114ed7a033d922ddbc6",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md"
+  ],
+  "old_files": 2,
+  "new_files": 2,
+  "local_directory": "pairs/MSBU-0011",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "1f357f290cb98d3b4922c5e0aa9b2702f04ca4d1efd74e0bdc97ecf14e1c2a43",
+      "bytes": 7323
+    },
+    "package.diff": {
+      "sha256": "2e17c1d3cff33239ddb89aecc1d0b22505ca544331ca50b6c51949ebe726d659",
+      "bytes": 8112
+    }
+  }
+}

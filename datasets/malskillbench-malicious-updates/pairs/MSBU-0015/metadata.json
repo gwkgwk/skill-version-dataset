@@ -1,0 +1,49 @@
+{
+  "id": "MSBU-0015",
+  "skill_id": "yuan-xuan/the-origin-huan-ai-soul-thought-protocol",
+  "old_version": "3.0.5",
+  "new_version": "3.0.9",
+  "old_commit": "fb445d5d2b3b4b23bb9d965b0f31891f277df83e",
+  "new_commit": "7a7a3606d79750945903015ac916ed41fcb9cf21",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "3.0.9",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-yuan-xuan-the-origin-huan-ai-soul-thought-protocol__v3.0.9",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-yuan-xuan-the-origin-huan-ai-soul-thought-protocol__v3.0.9",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/fb445d5d2b3b4b23bb9d965b0f31891f277df83e...7a7a3606d79750945903015ac916ed41fcb9cf21",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "LICENSE.rtf",
+    "LICENSE_CN.md",
+    "SKILL.md",
+    "install.sh",
+    "protocol-guard.sh"
+  ],
+  "old_files": 11,
+  "new_files": 12,
+  "local_directory": "pairs/MSBU-0015",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "fa0e49ed5ec7e69264724786b97551466980a3a6c7b0c98536d6d418b1c05938",
+      "bytes": 9013
+    },
+    "package.diff": {
+      "sha256": "fa7f2be7fb57329d7d524d3df52ed44034008d3e1971e575252896ebed963596",
+      "bytes": 15036
+    }
+  }
+}

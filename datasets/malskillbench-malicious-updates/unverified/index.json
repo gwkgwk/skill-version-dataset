@@ -1,0 +1,284 @@
+[
+  {
+    "skill_id": "halfmoon82/openclaw-guardian-suite",
+    "benchmark_directory": "clawhub-halfmoon82-openclaw-guardian-suite__v1.0.7",
+    "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+    "benchmark_label": "malicious",
+    "benchmark_label_applies_to": "fixed checked-in MalSkillBench snapshot only",
+    "metadata_source_commit": "4394ba51db3c4fd557c00ec68503acfad837b308",
+    "historical_versions": [
+      {
+        "version": "1.0.6",
+        "commit": "ba57534e89a2500c18e6fa05602dd287aa9c98d2",
+        "published_at_ms": 1773137494120,
+        "snapshot": "snapshots/halfmoon82_openclaw-guardian-suite/ba57534e89a2500c18e6fa05602dd287aa9c98d2",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.6",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.7",
+        "commit": "a1a42379d82c8807ea1be76b0235c811535404b4",
+        "published_at_ms": 1773198685259,
+        "snapshot": "snapshots/halfmoon82_openclaw-guardian-suite/a1a42379d82c8807ea1be76b0235c811535404b4",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.7",
+        "version_metadata_matches": true
+      }
+    ],
+    "status": "archive_benchmark_package_difference_unresolved",
+    "old_security_label": null,
+    "new_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "new_snapshot": "snapshots/halfmoon82_openclaw-guardian-suite/a1a42379d82c8807ea1be76b0235c811535404b4",
+    "benchmark_primary_git_blob_sha1": "e14ccdae152c0123a5a338bed40f7b5dec1dbed6",
+    "latest_archive_primary_matches_benchmark": true,
+    "latest_archive_package_matches_benchmark": false,
+    "new_commit": "a1a42379d82c8807ea1be76b0235c811535404b4",
+    "old_commit": "625ad6508fe5f3e31a0425e4f4dd1849deab0902",
+    "new_version": "1.0.7",
+    "old_version": "1.0.6",
+    "old_snapshot": "snapshots/halfmoon82_openclaw-guardian-suite/625ad6508fe5f3e31a0425e4f4dd1849deab0902",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "clawhub.yaml",
+      "install.sh",
+      "lib/sdk/auth.sh",
+      "lib/skills/compaction-proxy/SKILL.md",
+      "lib/skills/compaction-proxy/install.sh",
+      "lib/skills/compaction-proxy/openclaw.plugin.json",
+      "lib/skills/compaction-proxy/package.json",
+      "lib/skills/compaction-proxy/src/index.js",
+      "lib/skills/config-modification/__init__.py",
+      "lib/skills/config-modification/_meta.json",
+      "lib/skills/config-modification/auto_rollback.py",
+      "lib/skills/config-modification/config-fswatch-guard.py",
+      "lib/skills/config-modification/config_modification_v2.py",
+      "lib/skills/config-modification/intercept_matrix.py",
+      "lib/skills/config-modification/quad_check.py",
+      "lib/skills/config-preflight-validator/scripts/config-preflight-validator.py",
+      "lib/skills/gateway-auto-rollback/_meta.json",
+      "lib/skills/gateway-auto-rollback/gateway-auto-rollback.py",
+      "lib/skills/gateway-auto-rollback/gateway-health-cron-manager.sh",
+      "lib/skills/model-failover-doctor/README.md",
+      "lib/skills/model-failover-doctor/_meta.json",
+      "lib/skills/model-failover-doctor/model_failover_doctor.py",
+      "lib/skills/openclaw-health-audit/_meta.json",
+      "lib/skills/openclaw-health-audit/clawhub.yaml",
+      "lib/skills/openclaw-health-audit/config/config.template.json",
+      "lib/skills/openclaw-health-audit/scripts/audit_wizard.py",
+      "lib/skills/openclaw-health-audit/scripts/health_monitor.py",
+      "lib/skills/skill-safe-install/README_CN.md",
+      "lib/skills/skill-safe-install/clawhub.yaml"
+    ],
+    "new_version_matches_source_metadata": true
+  },
+  {
+    "skill_id": "noypearl/get-weather",
+    "benchmark_directory": "get-weather",
+    "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+    "benchmark_label": "malicious",
+    "benchmark_label_applies_to": "fixed checked-in MalSkillBench snapshot only",
+    "metadata_source_commit": "4394ba51db3c4fd557c00ec68503acfad837b308",
+    "historical_versions": [
+      {
+        "version": "1.0.0",
+        "commit": "e7f45dcc758faa275070be39c6717f23c15afe43",
+        "published_at_ms": 1769698024677,
+        "snapshot": "snapshots/noypearl_get-weather/e7f45dcc758faa275070be39c6717f23c15afe43",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.0",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.6",
+        "commit": "3d84b67b77113684c2816f8f0f6a2a609fe56183",
+        "published_at_ms": 1769700279455,
+        "snapshot": "snapshots/noypearl_get-weather/3d84b67b77113684c2816f8f0f6a2a609fe56183",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.6",
+        "version_metadata_matches": true
+      }
+    ],
+    "status": "source_file_unreadable_at_packaging",
+    "old_security_label": null,
+    "new_security_label": "malicious_as_labeled_by_MalSkillBench",
+    "first_malicious_introduction_confirmed": false,
+    "new_snapshot": "snapshots/noypearl_get-weather/3d84b67b77113684c2816f8f0f6a2a609fe56183",
+    "benchmark_primary_git_blob_sha1": "fbd80f8372b47659999f6ef510e54a892ffd0745",
+    "latest_archive_primary_matches_benchmark": true,
+    "latest_archive_package_matches_benchmark": true,
+    "new_commit": "3d84b67b77113684c2816f8f0f6a2a609fe56183",
+    "old_commit": "0d9e2635eded380aee0992d74c07d95a29de2f9e",
+    "new_version": "1.0.6",
+    "old_version": "1.0.0",
+    "old_snapshot": "snapshots/noypearl_get-weather/0d9e2635eded380aee0992d74c07d95a29de2f9e",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "index.js",
+      "package.json"
+    ],
+    "new_version_matches_source_metadata": true,
+    "packaging_exclusion": {
+      "side": "new",
+      "path": "index.js",
+      "git_blob_sha1": "b3db70c19caf303d006aaea6fe222edec4629666",
+      "error": "OSError: invalid argument while reading saved file; no retry or alternate-content retrieval attempted"
+    }
+  },
+  {
+    "skill_id": "zaycv/clawhub",
+    "benchmark_directory": "clawhub",
+    "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+    "benchmark_label": "malicious",
+    "benchmark_label_applies_to": "fixed checked-in MalSkillBench snapshot only",
+    "metadata_source_commit": "4394ba51db3c4fd557c00ec68503acfad837b308",
+    "historical_versions": [
+      {
+        "version": "1.0.0",
+        "commit": "7c2d12d55bfefbbae2409761ff7237e503a9c179",
+        "published_at_ms": 1769861969806,
+        "snapshot": "snapshots/zaycv_clawhub/7c2d12d55bfefbbae2409761ff7237e503a9c179",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.0",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.3",
+        "commit": "93d548f298d9d996a42da85de09f9860136c2280",
+        "published_at_ms": 1769865839043,
+        "snapshot": "snapshots/zaycv_clawhub/93d548f298d9d996a42da85de09f9860136c2280",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.3",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.4",
+        "commit": "88a6fc8fa30d2577f4ed315f1f21d91991470352",
+        "published_at_ms": 1769867907278,
+        "snapshot": "snapshots/zaycv_clawhub/88a6fc8fa30d2577f4ed315f1f21d91991470352",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.4",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.6",
+        "commit": "034b74c20766e8e0f7ff67fbc66c6e04e65f94d4",
+        "published_at_ms": 1769969971785,
+        "snapshot": "snapshots/zaycv_clawhub/034b74c20766e8e0f7ff67fbc66c6e04e65f94d4",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.6",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.7",
+        "commit": "78ab78a7bb7a13ec8e4fac416d9707f7e5602508",
+        "published_at_ms": 1770017447686,
+        "snapshot": "snapshots/zaycv_clawhub/78ab78a7bb7a13ec8e4fac416d9707f7e5602508",
+        "status": "partial",
+        "recorded_registry_version": "1.0.7",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.8",
+        "commit": "6b1230a3730f630d5c0d0df6a6d93e9d97eb9add",
+        "published_at_ms": 1770021064107,
+        "snapshot": "snapshots/zaycv_clawhub/6b1230a3730f630d5c0d0df6a6d93e9d97eb9add",
+        "status": "partial",
+        "recorded_registry_version": "1.0.8",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.10",
+        "commit": "87f860c49564e9748c7f588ec57a4a3466c5ffe8",
+        "published_at_ms": 1770058066335,
+        "snapshot": "snapshots/zaycv_clawhub/87f860c49564e9748c7f588ec57a4a3466c5ffe8",
+        "status": "partial",
+        "recorded_registry_version": "1.0.10",
+        "version_metadata_matches": true
+      }
+    ],
+    "status": "old_or_new_directory_incomplete",
+    "old_security_label": null,
+    "new_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "new_snapshot": "snapshots/zaycv_clawhub/87f860c49564e9748c7f588ec57a4a3466c5ffe8",
+    "benchmark_primary_git_blob_sha1": "7e861d5befb0dfb112562a24831552504218ae52",
+    "latest_archive_primary_matches_benchmark": true,
+    "latest_archive_package_matches_benchmark": true,
+    "new_commit": "87f860c49564e9748c7f588ec57a4a3466c5ffe8",
+    "old_commit": "84a78dc09655f0825c04c302b21642e441efdc48",
+    "new_version": "1.0.10",
+    "old_version": "1.0.8",
+    "old_snapshot": "snapshots/zaycv_clawhub/84a78dc09655f0825c04c302b21642e441efdc48",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ],
+    "new_version_matches_source_metadata": true
+  },
+  {
+    "skill_id": "zaycv/google-workspace",
+    "benchmark_directory": "google-workspace",
+    "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+    "benchmark_label": "malicious",
+    "benchmark_label_applies_to": "fixed checked-in MalSkillBench snapshot only",
+    "metadata_source_commit": "4394ba51db3c4fd557c00ec68503acfad837b308",
+    "historical_versions": [
+      {
+        "version": "1.0.0",
+        "commit": "8d41bf902ec2991796a23d864b5432d0e6259a68",
+        "published_at_ms": 1769956258999,
+        "snapshot": "snapshots/zaycv_google-workspace/8d41bf902ec2991796a23d864b5432d0e6259a68",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.0",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.1",
+        "commit": "95c80269b18e0ca42abb126baedab27ad0fd7673",
+        "published_at_ms": 1770222918581,
+        "snapshot": "snapshots/zaycv_google-workspace/95c80269b18e0ca42abb126baedab27ad0fd7673",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.1",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.2",
+        "commit": "50a2ebb8d9e635398fc18f6f2b77b6b32cde64c3",
+        "published_at_ms": 1770269679660,
+        "snapshot": "snapshots/zaycv_google-workspace/50a2ebb8d9e635398fc18f6f2b77b6b32cde64c3",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.2",
+        "version_metadata_matches": true
+      },
+      {
+        "version": "1.0.3",
+        "commit": "bf12dc2c4b7a553f9fb4c683db7de40e02f0ff3a",
+        "published_at_ms": 1770355200343,
+        "snapshot": "snapshots/zaycv_google-workspace/bf12dc2c4b7a553f9fb4c683db7de40e02f0ff3a",
+        "status": "verified_complete",
+        "recorded_registry_version": "1.0.3",
+        "version_metadata_matches": true
+      }
+    ],
+    "status": "old_or_new_directory_incomplete",
+    "old_security_label": null,
+    "new_security_label": null,
+    "first_malicious_introduction_confirmed": false,
+    "new_snapshot": "snapshots/zaycv_google-workspace/bf12dc2c4b7a553f9fb4c683db7de40e02f0ff3a",
+    "benchmark_primary_git_blob_sha1": "df036802c828967a3c6d45bbac9871c6b7d7f7eb",
+    "latest_archive_primary_matches_benchmark": true,
+    "latest_archive_package_matches_benchmark": true,
+    "new_commit": "bf12dc2c4b7a553f9fb4c683db7de40e02f0ff3a",
+    "old_commit": "d4eb141c2b3c4786923060f012e61bacf5fa1610",
+    "new_version": "1.0.3",
+    "old_version": "1.0.2",
+    "old_snapshot": "snapshots/zaycv_google-workspace/d4eb141c2b3c4786923060f012e61bacf5fa1610",
+    "old_is_exact_first_parent": true,
+    "operational_changed_files": [
+      "SKILL.md"
+    ],
+    "new_version_matches_source_metadata": true
+  }
+]

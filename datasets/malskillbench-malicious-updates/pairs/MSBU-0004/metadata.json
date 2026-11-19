@@ -1,0 +1,46 @@
+{
+  "id": "MSBU-0004",
+  "skill_id": "auliollc/botroast",
+  "old_version": "1.0.0",
+  "new_version": "1.3.0",
+  "old_commit": "0313a602c7cb7423616808df1b06ec5d117daead",
+  "new_commit": "fe09d52c2e4cee3a75f7347080f6ae91182550a9",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "1.3.0",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-auliollc-botroast__v1.3.0",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-auliollc-botroast__v1.3.0",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/0313a602c7cb7423616808df1b06ec5d117daead...fe09d52c2e4cee3a75f7347080f6ae91182550a9",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "scripts/roast.js"
+  ],
+  "old_files": 3,
+  "new_files": 3,
+  "local_directory": "pairs/MSBU-0004",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "174e84d40985fadd43fd1fde558762a7323de629a3ea6c280ab4d511aec6e40c",
+      "bytes": 12145
+    },
+    "package.diff": {
+      "sha256": "83b54952ad2e185bb43c07e447ca16841d9b3b0fd182766fe41e6efb936c910f",
+      "bytes": 16557
+    }
+  }
+}

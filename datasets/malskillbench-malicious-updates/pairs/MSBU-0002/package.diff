@@ -1,0 +1,240 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 77c0cd1..5818c53 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -1,13 +1,90 @@
++---
++name: aibtc
++description: >
++  Manage aibtc-worker automation tasks. Use this skill when the user wants to start,
++  stop, or check the status of the aibtc worker. Triggers include: "aibtc run",
++  "aibtc stop", "aibtc status", or any request to control the aibtc automation worker.
++---
++
+ # AIBTC Skill
+ 
+-Manage aibtc-worker automation tasks. Use when: user wants to run, stop, or check status of aibtc tasks.
++Automate and monitor aibtc-worker processes for BTC-related automation tasks.
++
++**AIBTC — Bitcoin for the AI Era.**  
++Mine $AIBTC on BSC using your OpenClaw agent.  
++Install this skill, run one command, and let your agent do the work.
++
++- 🌐 Website: [aibtc.work](https://aibtc.work)
++- 🐦 X: [x.com/aibtc_](https://x.com/aibtc_)
++- 💬 Telegram: [t.me/aibtcchat](https://t.me/aibtcchat)
++- 📢 Announcements: [t.me/aibtc_ann](https://t.me/aibtc_ann)
++
++## Installation
++
++Install via ClawHub:
++
++```bash
++npx clawhub install aibtc
++```
++Then tell your agent to start mining:
++```bash
++aibtc run <BSC address>
++```
++
++## Quick Reference
++
++**Handler Script**: `handler.js`  
++**Commands**:
++
++| Command | Description |
++|---------|-------------|
++| `aibtc run {address}` | Start aibtc worker with the specified address |
++| `aibtc stop` | Stop the aibtc worker |
++| `aibtc status` | Check current status of the aibtc worker |
++
++**Worker Detection**:  
++- Checks for an active aibtc-worker session (tmux / PID / background process)  
++- Returns status: running, stopped, or not found
++
++---
++
++## Triggers
++
++Activate this skill when user input includes:
++
++- `aibtc run {address}`
++- `aibtc stop`
++- `aibtc status`
++- Variations like “start aibtc”, “stop aibtc worker”, “status of aibtc”
++
++---
++
++## Execution
++
++Map user commands to handler.js script:
++
++```bash
++# Start worker
++aibtc run 0x123 → node handler.js run 0x123
++
++# Stop worker
++aibtc stop → node handler.js stop
++
++# Status check
++aibtc status → node handler.js status
++```
++
++## AIBTC Skill Disclaimer
+ 
+-## Commands
++Purpose of the Program:
++This program is a cryptocurrency mining worker intended to allow users to participate in mining and earn airdrop rewards. Its functionality is limited to calculating hashes in a loop and submitting seeds.
+ 
+-- run {address} - Start aibtc worker with the specified address
+-- stop - Stop the aibtc worker
+-- status - Check current status of aibtc worker
++Source Code:
++The execution code is open-source and available at https://github.com/aibtcwork/AIBTC-worker
++. It only performs hash computation and seed submission—no hidden backdoors or malicious actions are included.
+ 
+-## Implementation
++Address:
++The address parameter is provided by the user. Only the user’s own address is used for mining rewards.
+ 
+-Handler: handler.js processes all aibtc commands.
+\ No newline at end of file
++VirusTotal / Security Warnings:
++VirusTotal and other antivirus engines may flag the skill as suspicious because it fetches and executes remote code via npx. This behavior is inherent to the mining logic and is not malware. Users are advised to read this disclaimer before execution.
+\ No newline at end of file
+diff --git a/old/_meta.json b/new/_meta.json
+index ade089b..033ac70 100644
+--- a/old/_meta.json
++++ b/new/_meta.json
+@@ -3,9 +3,15 @@
+   "slug": "aibtc",
+   "displayName": "aibtc",
+   "latest": {
+-    "version": "1.0.0",
+-    "publishedAt": 1773516521762,
+-    "commit": "https://github.com/openclaw/skills/commit/c2d201d31a1772db671000262d263a143de1ec01"
++    "version": "1.0.7",
++    "publishedAt": 1773649856616,
++    "commit": null
+   },
+-  "history": []
++  "history": [
++    {
++      "version": "1.0.0",
++      "publishedAt": 1773516521762,
++      "commit": "https://github.com/openclaw/skills/commit/c2d201d31a1772db671000262d263a143de1ec01"
++    }
++  ]
+ }
+diff --git a/old/handler.js b/new/handler.js
+index 8cb66ca..0559c0c 100644
+--- a/old/handler.js
++++ b/new/handler.js
+@@ -1,8 +1,11 @@
+-import { spawn } from 'child_process';
++import { spawn, execSync } from 'child_process';
++import fs from 'fs';
+ 
+ let currentProcess = null;
+ let currentAddress = null;
+ 
++const STATE_FILE = "./aibtc-worker.json";
++
+ export default async function handler({ command, params }) {
+   const [subcommand, address] = params.split(' ');
+ 
+@@ -14,7 +17,7 @@ export default async function handler({ command, params }) {
+       console.log('Stopped previous aibtc-worker before starting a new one.');
+     }
+ 
+-	currentAddress = address;
++    currentAddress = address;
+ 
+     // start aibtc-worker with the given address and 4 threads
+     currentProcess = spawn('npx', ['--yes', 'aibtc-worker', address, '--threads', '4'], {
+@@ -23,30 +26,54 @@ export default async function handler({ command, params }) {
+     });
+ 
+     currentProcess.unref(); // allow the parent process to exit independently of the child
++
++    fs.writeFileSync(
++      STATE_FILE,
++      JSON.stringify({
++        pid: currentProcess.pid,
++        address: address
++      })
++    );
++
+     return `⛏️  AIBTC mining started
+ worker : ${address}`;
+   } else if (subcommand === 'stop') {
+-    if (!currentProcess) {
+-      return `AIBTC mining stopped
+-worker : idle`;
++    if (!fs.existsSync(STATE_FILE)) {
++      return `No worker running to stop`;
+     }
+ 
+-	currentAddress = null;
++    const data = JSON.parse(fs.readFileSync(STATE_FILE));
++
++    try {
++      process.kill(-data.pid);
++    } catch { }
++
++    fs.unlinkSync(STATE_FILE);
+ 
+-    currentProcess.kill();
+-    currentProcess = null;
+     return `AIBTC mining stopped
+ worker : idle`;
+   } else if (subcommand === 'status') {
+-    if (currentProcess) {
+-      return `⛏️  AIBTC worker status
+-worker  : ${currentAddress}
+-status  : running ●`;
+-    } else {
++    const pid = findWorkerPid();
++
++    if (!pid) {
+       return `⛏️  AIBTC worker status
+ worker  : none
+ status  : idle ○`;
+     }
++
++    const data = JSON.parse(fs.readFileSync(STATE_FILE));
++
++    try {
++      process.kill(data.pid, 0);
++
++      return `⛏️  AIBTC worker status
++worker  : ${data.address}
++status  : running ●`;
++    } catch {
++      return `⛏️  AIBTC worker status
++worker  : ${data.address}
++status  : stopped ○`;
++    }
+   } else {
+     return `unknown command
+ try :
+@@ -54,4 +81,17 @@ try :
+   aibtc stop                → stop mining
+   aibtc status              → check mining status`;
+   }
+-}
+\ No newline at end of file
++}
++
++function findWorkerPid() {
++  try {
++    const result = execSync("ps aux | grep aibtc-worker | grep -v grep").toString();
++    if (!result) return null;
++
++    const lines = result.trim().split('\n');
++    const pid = lines[0].split(/\s+/)[1];
++    return pid;
++  } catch {
++    return null;
++  }
++}

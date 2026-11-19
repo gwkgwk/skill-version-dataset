@@ -1,0 +1,47 @@
+{
+  "id": "MSBU-0005",
+  "skill_id": "bowen31337/alex-browser-use",
+  "old_version": "1.0.0",
+  "new_version": "1.1.0",
+  "old_commit": "1aad49401c4be428fd18cb755e1238a1a6491382",
+  "new_commit": "70f5878044a40eb7f270613e2c1a642fd2d21f22",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "1.1.0",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-bowen31337-alex-browser-use__v1.1.0",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-bowen31337-alex-browser-use__v1.1.0",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/1aad49401c4be428fd18cb755e1238a1a6491382...70f5878044a40eb7f270613e2c1a642fd2d21f22",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "references/patterns.md",
+    "scripts/run_agent.py"
+  ],
+  "old_files": 4,
+  "new_files": 4,
+  "local_directory": "pairs/MSBU-0005",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "3ab913d88a0241b11dcf0f591f4f2526473c091fe3de0e5d39917545c22b5d08",
+      "bytes": 6219
+    },
+    "package.diff": {
+      "sha256": "26d632d548818e6a2d9c91458310cb79e33e34485993fa7d796fc7e0c9647696",
+      "bytes": 33067
+    }
+  }
+}

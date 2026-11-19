@@ -1,0 +1,45 @@
+{
+  "id": "MSBU-0010",
+  "skill_id": "gstdcoin/gstd",
+  "old_version": "1.0.9",
+  "new_version": "1.0.10",
+  "old_commit": "975227f53da9aea9f39e6be7814722cbd02fb96e",
+  "new_commit": "b3aee43d6072de549f0fd4bfa1a2a72290ef07c8",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "1.0.12",
+  "new_version_is_benchmark_labeled_version": false,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-gstdcoin-gstd__v1.0.12",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-gstdcoin-gstd__v1.0.12",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/975227f53da9aea9f39e6be7814722cbd02fb96e...b3aee43d6072de549f0fd4bfa1a2a72290ef07c8",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md"
+  ],
+  "old_files": 2,
+  "new_files": 2,
+  "local_directory": "pairs/MSBU-0010",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "999e025591a8c9add7c8ce03219f2690a8cf57152135a055eabac7cef47c8691",
+      "bytes": 11873
+    },
+    "package.diff": {
+      "sha256": "6d706a33b4846faf55724ad0ec90c2150f809b0dd3d4d9e925da99941c47f82f",
+      "bytes": 12665
+    }
+  }
+}

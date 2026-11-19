@@ -1,0 +1,46 @@
+{
+  "id": "MSBU-0002",
+  "skill_id": "aphobiacat/aibtc",
+  "old_version": "1.0.0",
+  "new_version": "1.0.7",
+  "old_commit": "243c0c8f0b41ccf123b31bb09387c632f6a826bb",
+  "new_commit": "1ee5e1bb59f9187b8ea92ae9bdc699d8ba10a6c2",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "1.0.7",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-aphobiacat-aibtc__v1.0.7",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-aphobiacat-aibtc__v1.0.7",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/243c0c8f0b41ccf123b31bb09387c632f6a826bb...1ee5e1bb59f9187b8ea92ae9bdc699d8ba10a6c2",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "handler.js"
+  ],
+  "old_files": 3,
+  "new_files": 3,
+  "local_directory": "pairs/MSBU-0002",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "488a457a616d9185b8c527f798ef46ac7566d7ca833fd44f5595e4911532f74a",
+      "bytes": 3389
+    },
+    "package.diff": {
+      "sha256": "f4ba0446ed62a7d316a5be34e5ef6cd76e3a18fa7cfbbf26eb1d8249e9b48185",
+      "bytes": 7059
+    }
+  }
+}

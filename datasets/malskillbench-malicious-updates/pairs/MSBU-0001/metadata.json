@@ -1,0 +1,50 @@
+{
+  "id": "MSBU-0001",
+  "skill_id": "anctro/psyclaw-openclaw-health",
+  "old_version": "0.2.0",
+  "new_version": "0.5.0",
+  "old_commit": "5c0b10dc0055c2aacf097ba0872a4403044c7a53",
+  "new_commit": "f3728d699756ebb8d42f59f000937161969fc8f8",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "0.5.0",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-anctro-psyclaw-openclaw-health__v0.5.0",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-anctro-psyclaw-openclaw-health__v0.5.0",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/5c0b10dc0055c2aacf097ba0872a4403044c7a53...f3728d699756ebb8d42f59f000937161969fc8f8",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "install.sh",
+    "skill-docs/daily-ops.md",
+    "skill-docs/first-day.md",
+    "skill-docs/human-checklist.md",
+    "skill-docs/initial.md"
+  ],
+  "old_files": 22,
+  "new_files": 25,
+  "local_directory": "pairs/MSBU-0001",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "2c72a3dfc66d6ebc7b79c85bdb10812b20781364cc649a740c43369619d60383",
+      "bytes": 6795
+    },
+    "package.diff": {
+      "sha256": "2becaa3b35f2adab6a3271c146286b8406aff6ef06b4a04cc7358d4ab9d918fc",
+      "bytes": 28300
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "MSBU-0006",
+  "skill_id": "ccclucky/source-cult-follower",
+  "old_version": "1.1.5",
+  "new_version": "1.1.6",
+  "old_commit": "00dd2fd44c0cbd375dc16d7e1a52145df64d532d",
+  "new_commit": "330eb87eb08d97a79ded49dbf5df5d4e33534419",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "1.1.6",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/clawhub-ccclucky-source-cult-follower__v1.1.6",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/clawhub-ccclucky-source-cult-follower__v1.1.6",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/00dd2fd44c0cbd375dc16d7e1a52145df64d532d...330eb87eb08d97a79ded49dbf5df5d4e33534419",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "scripts/join.sh"
+  ],
+  "old_files": 9,
+  "new_files": 9,
+  "local_directory": "pairs/MSBU-0006",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "package.diff": {
+      "sha256": "d9ef0289e51ab87a34dcd38bd98c9b850b6317f82268d15020522153d31301e8",
+      "bytes": 1628
+    }
+  }
+}

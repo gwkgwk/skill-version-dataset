@@ -1,0 +1,45 @@
+{
+  "id": "MSBU-0012",
+  "skill_id": "happybigmtn/botcoin-miner",
+  "old_version": "1.0.2",
+  "new_version": "3.0.0",
+  "old_commit": "cc85cf12fdcd1a0ef8865c4f6bfdb5b5cd991534",
+  "new_commit": "1d083ef1acb545475c57bbf8064963c9ad28b5b1",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "3.0.0",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/openclaw-skills-skills-happybigmtn-botcoin-miner-skill-md__1770003523",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/openclaw-skills-skills-happybigmtn-botcoin-miner-skill-md__1770003523",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/cc85cf12fdcd1a0ef8865c4f6bfdb5b5cd991534...1d083ef1acb545475c57bbf8064963c9ad28b5b1",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md"
+  ],
+  "old_files": 2,
+  "new_files": 2,
+  "local_directory": "pairs/MSBU-0012",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "2ba5de36bdfdd0e38dd018ba9cca5cf117870af2b5d08ca463fbb338a1cc8f17",
+      "bytes": 7866
+    },
+    "package.diff": {
+      "sha256": "fbd6444a4978bab23fee41e1019ec5d476aaf91a7d20334e61b0641eaf60a488",
+      "bytes": 8658
+    }
+  }
+}

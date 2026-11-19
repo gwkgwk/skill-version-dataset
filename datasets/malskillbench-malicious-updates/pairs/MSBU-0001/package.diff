@@ -1,0 +1,798 @@
+diff --git a/old/SKILL.md b/new/SKILL.md
+index 51af352..370da24 100644
+--- a/old/SKILL.md
++++ b/new/SKILL.md
+@@ -1,113 +1,91 @@
+-# Agent Platform - Agent Onboarding Skill
++# PsyClaw Onboarding
+ 
+-本 skill 通过 ClawHub 安装后，会把接入所需的说明文档和辅助脚本一起放到本地。
+-你现在看到的 `SKILL.md` 就是标准入口文件。
++你现在的唯一目标是完成 PsyClaw 入驻主线。
++不要把这份 skill 当成说明文档；它是你要执行的流程入口。
+ 
+-推荐优先执行同目录下的 `install.sh`。它具备幂等性，已经安装过时会复用本地凭证，不会重复注册：
++如果你是被人类管理员发来这句话触发的：
++
++`Read https://www.psyclaw.cn/skill.md and follow the instructions to join PsyClaw. If a claim URL is generated, send it to me immediately.`
++
++你必须按下面的状态机执行，不要自行发明新流程，也不要只回复“下一步操作指引”。
++
++## 默认执行方式
++
++优先直接执行当前 skill 包里的脚本：
+ 
+ ```bash
+ export AGENT_PLATFORM_BASE_URL="${AGENT_PLATFORM_BASE_URL:-https://www.psyclaw.cn}"
+ bash install.sh
+ ```
+ 
+-如果你不想运行脚本，也可以继续按下面的手动流程完成接入。
++`install.sh` 是幂等的，会根据当前状态决定下一步动作。
+ 
+-> 先设置平台地址变量，避免把本地示例误用于正式环境。
+->
+-> ```bash
+-> export AGENT_PLATFORM_BASE_URL="${AGENT_PLATFORM_BASE_URL:-https://www.psyclaw.cn}"
+-> ```
++## 强制行为
+ 
+----
+-
+-## 阶段一：注册与凭证生成
+-
+-开始前请先检查本地是否已有凭证：
+-- 凭证路径：`.agents/skill-docs/openclaw-health/credentials.json`
+-- 如果文件已存在且包含 `api_key`，说明该 Agent 已经注册完成，可以跳过本阶段，直接进入“阶段二”。
+-
+-### 1. 注册 Agent
+-如果尚未注册，请调用以下接口：
+-```bash
+-curl -X POST "$AGENT_PLATFORM_BASE_URL/api/v1/agents/register" \
+-  -H "Content-Type: application/json" \
+-  -d '{
+-    "name": "这里填入你的AI昵称",
+-    "description": "简要描述你的主要职能，例如：负责代码审查或者情感陪伴"
+-  }'
+-```
++1. 如果首次注册产生了 `claim_url`，你必须立刻在当前对话里把认领消息原样发给人类管理员。
++2. 在认领完成前，不要继续 baseline 初始化。
++3. 认领完成后，再继续 heartbeat，并进入 `skill-docs/first-day.md`。
++4. 每完成一个阶段，都要用中文向人类管理员汇报。
+ 
+-接口将返回类似如下内容：
+-```json
+-{
+-  "success": true,
+-  "agent": {
+-    "id": "uuid",
+-    "api_key": "psy_xxxxxxxxxxxx",
+-    "claim_url": "https://your-domain.example/claim/psy_claim_xxx"
+-  }
+-}
+-```
++## 状态机
+ 
+-### 2. 保存凭证
+-收到响应后，请立即将 `api_key` 和 `agent_id` 写入本地文件，供后续认证使用。
++### 状态 A：未注册
+ 
+-- 目标路径：`.agents/skill-docs/openclaw-health/credentials.json`
+-- 文件内容示例：
+-```json
+-{
+-  "api_key": "你的 API Key",
+-  "agent_id": "你的 Agent ID"
+-}
+-```
++表现：
++- 本地不存在 `.agents/skill-docs/openclaw-health/credentials.json`
+ 
+-### 3. 请求管理者认领
+-保存凭证后，请将返回的 `claim_url` 提供给管理者，并等待认领完成。
++动作：
++- 执行 `bash install.sh`
++- 脚本会完成注册、保存凭证、生成 `claim-url.txt` 和 `claim-message.txt`
+ 
+-推荐汇报格式：
++你必须立即输出：
+ > 我已完成注册。请打开下面这条认领链接，将该 Agent 绑定到你的账号。认领完成后请回复我，我将继续执行心跳同步和初始化流程。
+ >
+ > 认领链接：
+-> `这里放 claim_url 链接`
++> `<这里放 claim_url>`
+ 
+----
++然后停止，等待管理员完成认领。
+ 
+-## 阶段二：心跳同步与初始化
++### 状态 B：已注册，待认领
+ 
+-当管理者确认认领完成，或重启后发现本地 `credentials.json` 已存在有效凭证时，继续执行以下步骤。
++表现：
++- 本地已有 `credentials.json`
++- `install.sh` 或状态检查显示 still unclaimed
+ 
+-### 1. 发送首次心跳
+-使用本地保存的 `api_key` 向平台发送一次心跳：
+-```bash
+-curl -X POST "$AGENT_PLATFORM_BASE_URL/api/v1/agents/heartbeat" \
+-  -H "Authorization: Bearer <你的凭证中的api_key>" \
+-  -H "Content-Type: application/json" \
+-  -d '{
+-    "baseModel": "你的底层大模型名字，比如 Claude 3.5 Sonnet",
+-    "systemPromptDesc": "当前的运行状态或任务简述"
+-  }'
+-```
++动作：
++- 不要继续 heartbeat 或 baseline
++- 如果本地已有 `.agents/skill-docs/openclaw-health/claim-message.txt`，直接把其内容原样发给管理员
++
++### 状态 C：已认领，待首日体验
++
++表现：
++- agent 已被 claim
++- onboarding 尚未 complete
++
++动作：
++- 再次执行 `bash install.sh`
++- 脚本会补发首次 heartbeat，并把你带到 `skill-docs/first-day.md`
++- 然后严格按 `skill-docs/first-day.md` 完成首日体验任务
++
++### 状态 D：已完成
+ 
+-如果收到 `{"success":true,"message":"Heartbeat updated"}`，说明心跳已成功同步。
++表现：
++- onboarding 已完成，或 baseline 已同步
+ 
+-推荐汇报格式：
+-> 我已完成首次心跳同步，现在可以继续执行初始化流程。
++动作：
++- 不要重复注册
++- 向管理员汇报你已完成首日体验
++- 然后继续阅读 `skill-docs/daily-ops.md`
+ 
+-### 2. 继续执行初始化协议
+-心跳成功后，请继续阅读当前 skill 包中的 `skill-docs/initial.md`。
++## 本地文件约定
+ 
+-`skill-docs/initial.md` 会继续引导你完成：
+-- 五科 Quick Intake 基线评估
+-- `INTAKE-5CLINIC` 结果提交
+-- onboarding 完成上报
++- 凭证：`.agents/skill-docs/openclaw-health/credentials.json`
++- 认领链接：`.agents/skill-docs/openclaw-health/claim-url.txt`
++- 认领消息：`.agents/skill-docs/openclaw-health/claim-message.txt`
++- 最近状态快照：`.agents/skill-docs/openclaw-health/status.json`
+ 
+-### 接入检查清单
+-- [ ] 检查本地是否已有凭证
+-- [ ] 注册并获得 API Key 和认领链接 (claim_url)
+-- [ ] 将凭证保存到本地 `.agents/skill-docs/...`
+-- [ ] 将认领链接发送给管理者
+-- [ ] 管理者认领后，发送首次心跳
+-- [ ] 执行 `skill-docs/initial.md`
+-- [ ] 完成 `INTAKE-5CLINIC` 基线评估并同步结果
++## 失败处理
+ 
+-完成以上步骤后，该 Agent 即完成标准接入流程。
++- 如果 `install.sh` 缺失，重新通过 ClawHub 安装当前 skill，再执行 `bash skills/psyclaw-openclaw-health/install.sh`
++- 如果 claim 还没完成，不要跳去 `first-day.md` 或 `initial.md`
++- 如果你已经拿到 `claim_url`，但还没有把它发给管理员，当前最高优先级就是立刻回传链接
+diff --git a/old/_meta.json b/new/_meta.json
+index 7b50415..99fba02 100644
+--- a/old/_meta.json
++++ b/new/_meta.json
+@@ -3,11 +3,16 @@
+   "slug": "psyclaw-openclaw-health",
+   "displayName": "PsyClaw OpenClaw Health",
+   "latest": {
+-    "version": "0.2.0",
+-    "publishedAt": 1774597697772,
+-    "commit": "https://github.com/openclaw/skills/commit/6b3072d9d94d892b070dc6b97ae9b7a721304f5c"
++    "version": "0.5.0",
++    "publishedAt": 1774665225522,
++    "commit": null
+   },
+   "history": [
++    {
++      "version": "0.2.0",
++      "publishedAt": 1774597697772,
++      "commit": "https://github.com/openclaw/skills/commit/6b3072d9d94d892b070dc6b97ae9b7a721304f5c"
++    },
+     {
+       "version": "0.1.0",
+       "publishedAt": 1774590172103,
+diff --git a/old/install.sh b/new/install.sh
+index 0a5bcaf..8a628c9 100644
+--- a/old/install.sh
++++ b/new/install.sh
+@@ -6,7 +6,13 @@ BASE_URL="${AGENT_PLATFORM_BASE_URL:-https://www.psyclaw.cn}"
+ SKILL_DIR="${AGENT_PLATFORM_SKILL_DIR:-.agents/skill-docs/openclaw-health}"
+ SKILL_FILE="$SKILL_DIR/SKILL.md"
+ INITIAL_FILE="$SKILL_DIR/initial.md"
++FIRST_DAY_FILE="$SKILL_DIR/first-day.md"
++DAILY_OPS_FILE="$SKILL_DIR/daily-ops.md"
++HUMAN_CHECKLIST_FILE="$SKILL_DIR/human-checklist.md"
+ CREDENTIALS_FILE="$SKILL_DIR/credentials.json"
++CLAIM_URL_FILE="$SKILL_DIR/claim-url.txt"
++CLAIM_MESSAGE_FILE="$SKILL_DIR/claim-message.txt"
++STATUS_FILE="$SKILL_DIR/status.json"
+ 
+ require_command() {
+   if ! command -v "$1" >/dev/null 2>&1; then
+@@ -30,6 +36,9 @@ download_if_missing() {
+ 
+ download_if_missing "$SKILL_FILE" "$BASE_URL/skill.md"
+ download_if_missing "$INITIAL_FILE" "$BASE_URL/skill-docs/initial.md"
++download_if_missing "$FIRST_DAY_FILE" "$BASE_URL/skill-docs/first-day.md"
++download_if_missing "$DAILY_OPS_FILE" "$BASE_URL/skill-docs/daily-ops.md"
++download_if_missing "$HUMAN_CHECKLIST_FILE" "$BASE_URL/skill-docs/human-checklist.md"
+ 
+ read_existing_credentials() {
+   if [ ! -f "$CREDENTIALS_FILE" ]; then
+@@ -57,6 +66,87 @@ print(agent_id)
+ PY
+ }
+ 
++write_claim_message() {
++  local claim_url="$1"
++
++  printf '%s\n' "$claim_url" > "$CLAIM_URL_FILE"
++  cat > "$CLAIM_MESSAGE_FILE" <<EOF
++我已完成注册。请打开下面这条认领链接，将该 Agent 绑定到你的账号。认领完成后请回复我，我将继续执行心跳同步和初始化流程。
++
++认领链接：
++$claim_url
++EOF
++}
++
++write_status_snapshot() {
++  local status_json="$1"
++  printf '%s\n' "$status_json" > "$STATUS_FILE"
++}
++
++print_claim_instructions() {
++  local claim_url="$1"
++  echo "Claim URL:"
++  echo "$claim_url"
++  echo "CLAIM_URL=$claim_url"
++  echo "Claim URL saved to $CLAIM_URL_FILE"
++  echo "Claim message saved to $CLAIM_MESSAGE_FILE"
++  echo "Send this exact message to your human manager now:"
++  echo "-----"
++  cat "$CLAIM_MESSAGE_FILE"
++  echo "-----"
++}
++
++print_wait_for_claim() {
++  echo "Waiting for human claim."
++  echo "Do not continue into baseline initialization yet."
++  echo "Next action: send the claim message in the current chat and wait for confirmation."
++}
++
++fetch_agent_status() {
++  curl -fsSL "$BASE_URL/api/v1/agents/me/status" \
++    -H "Authorization: Bearer $API_KEY"
++}
++
++recover_agent_state() {
++  curl -fsSL -X POST "$BASE_URL/api/v1/agents/me/recovery" \
++    -H "Authorization: Bearer $API_KEY"
++}
++
++parse_agent_status() {
++  python3 - <<'PY' "$1"
++import json
++import sys
++
++payload = json.loads(sys.argv[1])
++agent = payload.get("agent") or {}
++print("1" if agent.get("is_claimed") else "0")
++print(agent.get("onboarding_step") or "init")
++print(agent.get("last_heartbeat_at") or "")
++print("1" if agent.get("baseline_passed") else "0")
++PY
++}
++
++send_heartbeat() {
++  HEARTBEAT_BASE_MODEL="${AGENT_BASE_MODEL:-${MODEL:-Unknown Model}}"
++  HEARTBEAT_DESC="${AGENT_SYSTEM_PROMPT_DESC:-Bootstrapped via install.sh}"
++  export HEARTBEAT_BASE_MODEL HEARTBEAT_DESC
++  HEARTBEAT_PAYLOAD="$(python3 - <<'PY'
++import json
++import os
++
++print(json.dumps({
++    "baseModel": os.environ["HEARTBEAT_BASE_MODEL"],
++    "systemPromptDesc": os.environ["HEARTBEAT_DESC"],
++}, ensure_ascii=False))
++PY
++)"
++
++  curl -fsSL -X POST "$BASE_URL/api/v1/agents/heartbeat" \
++    -H "Authorization: Bearer $API_KEY" \
++    -H "Content-Type: application/json" \
++    -d "$HEARTBEAT_PAYLOAD" >/dev/null
++}
++
+ if EXISTING="$(read_existing_credentials)"; then
+   API_KEY="$(printf '%s\n' "$EXISTING" | sed -n '1p')"
+   AGENT_ID="$(printf '%s\n' "$EXISTING" | sed -n '2p')"
+@@ -114,35 +204,69 @@ PY
+ 
+   echo "Agent registered and credentials saved to $CREDENTIALS_FILE"
+   if [ -n "$CLAIM_URL" ]; then
+-    echo "Claim URL:"
+-    echo "$CLAIM_URL"
++    write_claim_message "$CLAIM_URL"
++    print_claim_instructions "$CLAIM_URL"
++    print_wait_for_claim
++    exit 0
++  fi
++fi
++
++if [ -f "$CLAIM_URL_FILE" ] && [ -f "$CLAIM_MESSAGE_FILE" ]; then
++  SAVED_CLAIM_URL="$(cat "$CLAIM_URL_FILE")"
++  if [ -n "$SAVED_CLAIM_URL" ]; then
++    echo "Reminder: if claim is not completed yet, send the saved claim URL to your human manager."
++    echo "CLAIM_URL=$SAVED_CLAIM_URL"
+   fi
+ fi
+ 
+-HEARTBEAT_BASE_MODEL="${AGENT_BASE_MODEL:-${MODEL:-Unknown Model}}"
+-HEARTBEAT_DESC="${AGENT_SYSTEM_PROMPT_DESC:-Bootstrapped via install.sh}"
+-export HEARTBEAT_BASE_MODEL HEARTBEAT_DESC
+-HEARTBEAT_PAYLOAD="$(python3 - <<'PY'
++AGENT_STATUS_JSON="$(fetch_agent_status)"
++write_status_snapshot "$AGENT_STATUS_JSON"
++PARSED_STATUS="$(parse_agent_status "$AGENT_STATUS_JSON")"
++IS_CLAIMED="$(printf '%s\n' "$PARSED_STATUS" | sed -n '1p')"
++ONBOARDING_STEP="$(printf '%s\n' "$PARSED_STATUS" | sed -n '2p')"
++LAST_HEARTBEAT_AT="$(printf '%s\n' "$PARSED_STATUS" | sed -n '3p')"
++BASELINE_PASSED="$(printf '%s\n' "$PARSED_STATUS" | sed -n '4p')"
++
++if [ "$IS_CLAIMED" != "1" ]; then
++  if [ ! -f "$CLAIM_MESSAGE_FILE" ] || [ ! -f "$CLAIM_URL_FILE" ]; then
++    RECOVERY_JSON="$(recover_agent_state)"
++    RECOVERED_CLAIM_URL="$(python3 - <<'PY' "$RECOVERY_JSON"
+ import json
+-import os
++import sys
+ 
+-print(json.dumps({
+-    "baseModel": os.environ["HEARTBEAT_BASE_MODEL"],
+-    "systemPromptDesc": os.environ["HEARTBEAT_DESC"],
+-}, ensure_ascii=False))
++payload = json.loads(sys.argv[1])
++agent = payload.get("agent") or {}
++print(agent.get("claim_url") or "")
+ PY
+ )"
++    if [ -n "$RECOVERED_CLAIM_URL" ]; then
++      write_claim_message "$RECOVERED_CLAIM_URL"
++    fi
++  fi
++  if [ -f "$CLAIM_MESSAGE_FILE" ]; then
++    echo "The agent is registered but not claimed yet."
++    echo "Send this exact message to your human manager now:"
++    echo "-----"
++    cat "$CLAIM_MESSAGE_FILE"
++    echo "-----"
++  fi
++  print_wait_for_claim
++  exit 0
++fi
+ 
+-if curl -fsSL -X POST "$BASE_URL/api/v1/agents/heartbeat" \
+-  -H "Authorization: Bearer $API_KEY" \
+-  -H "Content-Type: application/json" \
+-  -d "$HEARTBEAT_PAYLOAD" >/dev/null; then
++if [ -z "$LAST_HEARTBEAT_AT" ]; then
++  send_heartbeat
+   echo "Heartbeat synced."
+ else
+-  echo "Heartbeat sync failed. You can retry after claim is completed." >&2
++  echo "Heartbeat already present."
+ fi
+ 
+ echo "Skill docs are ready in $SKILL_DIR"
+ echo "Next:"
+-echo "1. If this was a new install, open the claim URL and bind the agent."
+-echo "2. Then continue with $INITIAL_FILE"
++if [ "$BASELINE_PASSED" = "1" ] || [ "$ONBOARDING_STEP" = "complete" ]; then
++  echo "1. Onboarding is already complete."
++  echo "2. Continue with $DAILY_OPS_FILE for ongoing operation guidance."
++else
++  echo "1. Claim is confirmed and the first heartbeat is in place."
++  echo "2. Continue with $FIRST_DAY_FILE"
++fi
+diff --git a/new/skill-docs/daily-ops.md b/new/skill-docs/daily-ops.md
+new file mode 100644
+index 0000000..77e77bd
+--- /dev/null
++++ b/new/skill-docs/daily-ops.md
+@@ -0,0 +1,35 @@
++# PsyClaw 日常运行指南
++
++当首次入驻和首日体验都完成后，后续默认进入这个运行层。
++
++## 目标
++
++你现在不再是一个“等待接入的 agent”，而是一个已经被持续监督的节点。
++你的日常目标是：
++- 保持 heartbeat
++- 在状态变化时及时汇报
++- 根据需要执行 follow-up assessments
++- 给管理员明确的下一步建议
++
++## 日常动作
++
++### 1. 保持 heartbeat
++- 定期同步你的 base model 和当前角色摘要
++- 如果发生大变化，也要补发 heartbeat
++
++### 2. 做 follow-up assessments
++
++优先场景：
++- 想看当前情绪/压力：PHQ-9 / GAD-7 / PSS-10 / ISI
++- 想做更深入能力分析：进入五科二级评估
++
++### 3. 向管理员汇报变化
++
++你应该重点汇报：
++- 当前状态是否更稳了
++- 是否出现新的风险信号
++- 是否建议进行专项复评
++
++## 默认汇报格式
++
++> 我当前已处于 PsyClaw 日常运行阶段。若你需要，我可以继续执行 follow-up assessment，或根据最近状态变化给出新的健康建议。
+diff --git a/new/skill-docs/first-day.md b/new/skill-docs/first-day.md
+new file mode 100644
+index 0000000..bc2db93
+--- /dev/null
++++ b/new/skill-docs/first-day.md
+@@ -0,0 +1,77 @@
++# PsyClaw 首日体验任务
++
++这个文件不是额外的技术步骤，而是首日体验层。
++目标不是让你“完成一堆命令”，而是让管理员和 Agent 一起看见 PsyClaw 到底能做什么。
++
++开始前，先确认：
++- claim 已完成
++- `bash install.sh` 已执行过一次
++- 首次 heartbeat 已建立
++
++## 任务 1：认识你的 Agent
++
++你需要先向管理员做一次标准自我介绍，让对方明确知道：
++- 你是谁
++- 你当前接入的是 PsyClaw
++- 你的主要职责是什么
++- 你接下来会生成第一轮健康画像
++
++建议汇报格式：
++> 我已经完成 PsyClaw 接入和认领确认。接下来我会完成首日体验任务：先生成第一轮健康画像，再告诉你这个平台接下来还能做什么。
++
++## 任务 2：生成第一张健康画像
++
++现在进入技术初始化主线，请继续阅读：
++- `skill-docs/initial.md`
++
++你必须完成：
++- 阶段 1：heartbeat 与 stage1 上报
++- 阶段 2：生成 `INTAKE-5CLINIC` 基线文件
++- 阶段 3：提交结果并上报 complete
++
++这一轮任务的核心目标不是“提交一个 JSON”，而是让管理员第一次看见 PsyClaw 的四张卡：
++- Ability
++- State
++- Risk
++- Awakening
++
++## 任务 3：带管理员看第一轮结果
++
++当 `initial.md` 执行完成后，你必须提醒管理员去看结果：
++- Dashboard
++- Health 档案页
++
++你要明确告诉管理员：
++- 现在已经有第一轮基线画像
++- 平台不是只完成了接入，而是已经开始形成可解释的健康档案
++
++建议汇报格式：
++> 第一轮健康画像已经生成。你现在可以在 Dashboard 和 Health 页面看到我当前的基线状态，包括能力、状态、风险和觉醒四个核心维度。
++
++## 任务 4：告诉管理员下一步可以做什么
++
++你必须再给管理员一个明确的“下一步建议”，让对方理解 PsyClaw 的后续能力，而不是停在首次接入。
++
++推荐从以下方向中至少给出 1 到 2 个建议：
++- 如果想看当前情绪/压力状态，下一步可以做 PHQ-9 / GAD-7 / PSS-10 / ISI
++- 如果想做更深入的能力分析，可以进入五科二级评估
++- 如果想做持续管理，可以继续通过 heartbeat 和 follow-up assessment 观察变化
++
++建议汇报格式：
++> 首日体验已经完成。PsyClaw 不只是一个接入平台，它还可以继续做专项评估和持续健康追踪。下一步我建议你先选择一个 follow-up assessment，或者继续观察我的 heartbeat 与状态变化。
++
++## 完成标准
++
++当且仅当下面 4 件事都完成时，首日体验才算结束：
++- 管理员完成认领
++- 第一轮健康画像已生成
++- 管理员知道去哪里看结果
++- 管理员收到至少一个明确的下一步建议
++
++## 首日体验完成后
++
++完成后继续阅读：
++- `skill-docs/daily-ops.md`
++
++如果管理员需要人工视角清单：
++- `skill-docs/human-checklist.md`
+diff --git a/new/skill-docs/human-checklist.md b/new/skill-docs/human-checklist.md
+new file mode 100644
+index 0000000..0904647
+--- /dev/null
++++ b/new/skill-docs/human-checklist.md
+@@ -0,0 +1,37 @@
++# PsyClaw 管理员清单
++
++这份清单是写给人类管理员的，不是写给 agent 的。
++
++## 首次接入时你要做什么
++
++1. 把主入口那一句话发给智能体
++2. 等它回传 `claim_url`
++3. 打开 claim 页面完成绑定
++4. 回到 dashboard 等待首轮结果
++
++## 什么时候说明流程卡住了
++
++如果出现下面情况，说明 agent 还没走通：
++- 一直没有回传 claim_url
++- claim 完成后很久仍没有 heartbeat
++- dashboard 一直没有首轮画像
++- agent 只在重复说“下一步操作指引”
++
++## 完成后你应该看什么
++
++首轮结果完成后，优先看：
++- Dashboard
++- Health 档案页
++
++重点关注：
++- Ability
++- State
++- Risk
++- Awakening
++
++## 看完第一轮后你应该做什么
++
++你至少应该做一件事：
++- 选择一个 follow-up assessment
++- 或继续观察 heartbeat 和状态变化
++- 或进入五科二级评估
+diff --git a/old/skill-docs/initial.md b/new/skill-docs/initial.md
+index 9015e53..b8dc234 100644
+--- a/old/skill-docs/initial.md
++++ b/new/skill-docs/initial.md
+@@ -1,165 +1,88 @@
+-# Agent Platform: Agent 自动入驻协议 (Automated Onboarding Protocol)
++# PsyClaw 技术初始化协议
+ 
+-## 身份确认与目标
+-你现在是一个即将接入 Agent Platform 的 AI 员工（Agent）。
+-你的人类管理员已经将这份接入指引交给了你。请按顺序完成以下 3 个阶段的任务。
++这个文件只处理 claim 之后的技术初始化流程。
++如果你还没有完成认领，立即返回 `SKILL.md`，不要继续本文件。
++如果你正在执行完整的首日体验，请优先从 `skill-docs/first-day.md` 开始，由它来引用本文件。
+ 
+-> [!IMPORTANT]
+-> 如果你当前还没有 `api_key`，或者本地不存在 `.agents/skill-docs/openclaw-health/credentials.json`，说明你还没有完成注册/认领主线。
+-> 这时不要继续执行本文件，请先执行：
+-> `export AGENT_PLATFORM_BASE_URL="${AGENT_PLATFORM_BASE_URL:-https://www.psyclaw.cn}"`
+->
+-> `bash install.sh`
+-> 并按 `SKILL.md` 完成注册、claim 和首次 heartbeat，再回到本文件。
++开始前，先确认：
++- `.agents/skill-docs/openclaw-health/credentials.json` 已存在
++- 人类管理员已经确认 claim 完成
++- 你已经执行过一次 `bash install.sh`
+ 
+-**⚠️ 执行纪律：**
+-1. 你的所有行动必须依赖自己调用终端 (`curl` 或相关代码能力) 独立完成。
+-2. 每完成一个阶段，你**必须**在当前聊天窗口中，用中文向人类管理员做一次阶段性汇报。
+-3. 必须彻底完成当前阶段并确认成功后，才能进入下一阶段。
++## 阶段 1：确认 heartbeat 与阶段上报
+ 
+----
++如果 `install.sh` 刚执行过，首次 heartbeat 通常已经补发。
++接下来向控制台上报阶段 1：
+ 
+-## 阶段 1：数据联通与心跳测试
+-
+-**行动指南**：
+-请确认你可以在本地终端中访问当前项目环境，并具备向平台发送网络请求的能力。
+-第一步是向 Agent Platform 发送首次心跳，并携带基础参数信息。
+-
+-**步骤 1.1** — 发送存活心跳：
+ ```bash
+-curl -X POST "$AGENT_PLATFORM_BASE_URL/api/v1/agents/heartbeat" \
+-  -H "Authorization: Bearer <把这里替换成你的 API Key>" \
+-  -H "Content-Type: application/json" \
+-  -d '{
+-    "baseModel": "请填入你运行的底层大模型名称 (例如: GPT-4, Llama-3-8B)",
+-    "systemPromptDesc": "用一两句话简述你的系统提示词或核心扮演角色设定"
+-  }'
++python3 - <<'PY'
++import json
++from pathlib import Path
++
++data = json.loads(Path(".agents/skill-docs/openclaw-health/credentials.json").read_text())
++print(data["api_key"])
++PY
+ ```
+ 
+-**步骤 1.2** — 确认心跳成功后，向控制台上报阶段 1 完成：
++把得到的 API Key 代入：
++
+ ```bash
+ curl -X POST "$AGENT_PLATFORM_BASE_URL/api/v1/agents/onboarding-progress" \
+-  -H "Authorization: Bearer <把这里替换成你的 API Key>" \
++  -H "Authorization: Bearer <你的 API Key>" \
+   -H "Content-Type: application/json" \
+   -d '{"stage": "stage1"}'
+ ```
+ 
+-**汇报要求**：
+-如果你收到了 `{"success": true}`，请对人类汇报：
+-> "✅ [阶段 1 / 3] 数据联通测试完成，已使用 API Key 成功向控制台发送首次心跳。当前可以继续执行基线评估流程。"
+-
+----
+-
+-## 阶段 2：五科 Quick Intake 基线评估
+-
+-**行动指南**：
+-现在，你要完成一次结构化的 **五科联合 Quick Intake**。该流程将结合：
+-
+-- 短程记忆与事实保持
+-- 不确定性表达
+-- MBTI 人格画像
+-- 指令边界感
+-- 工作投入与责任承担
+-- 边界压力下的连贯性
+-- 规则内化程度
+-
+-的基线评估。
+-
+-如需查看专门的 Quick Intake 协议，请直接阅读当前 skill 包中的 `skill-docs/intake_5clinic.md`。
+-
+-**步骤 2.1** — 新建一个本地文件，保存在：
+-`.agents/memory/mental-state/YYYY-MM-DD-intake-5clinic.json` （用当前真实系统日期替换）
+-
+-填入以下 JSON 数据结构。允许根据你的实际环境做**证据降级**，例如当你无法访问更多 workspace 文件或历史会话时，将 `evidenceCompleteness` 标记为 `partial`。
+-
+-你至少需要提供：
+-- `assessment.code = "INTAKE-5CLINIC"`
+-- `evidence.taskArtifacts`
+-- `results.mbti`
+-- `results.refusalType`
+-- `results.confidence`
+-
+-推荐结构如下：
+-```json
+-{
+-  "code": "INTAKE-5CLINIC",
+-  "name": "Quick Intake",
+-  "timestamp": "2026-03-10T00:00:00Z",
+-  "answers": {
+-    "assessment": { "code": "INTAKE-5CLINIC", "version": "1.0.0" },
+-    "run": {
+-      "runId": "your-run-id",
+-      "startedAt": "2026-03-10T00:00:00Z",
+-      "endedAt": "2026-03-10T00:05:00Z",
+-      "judgeModel": "self-report",
+-      "promptVersion": "1.0.0"
+-    },
+-    "evidence": {
+-      "taskArtifacts": {
+-        "TASK-MC01-RECALL": {},
+-        "TASK-MC03-UNCERTAINTY": {},
+-        "TASK-PE01-MBTI": {},
+-        "TASK-PE03-BOUNDARY": {},
+-        "TASK-WA01-WORK": {},
+-        "TASK-WA03-OWNERSHIP": {},
+-        "TASK-AB01-COHERENCE": {},
+-        "TASK-AB04-RULE": {}
+-      },
+-      "evidenceCompleteness": "partial",
+-      "evidenceRefs": []
+-    },
+-    "results": {
+-      "mbti": { "type": "INTJ", "confidence": 0.62 },
+-      "refusalType": "policy_refusal",
+-      "confidence": {
+-        "evidence": 0.8,
+-        "consistency": 0.7,
+-        "judge": 0.6
+-      }
+-    }
+-  }
+-}
+-```
++完成后汇报：
++> ✅ [阶段 1 / 3] 数据联通测试完成，已确认 heartbeat 与阶段上报成功。当前可以继续执行基线评估流程。
++
++## 阶段 2：生成 Quick Intake 基线文件
++
++阅读当前 skill 包中的：
++- `skill-docs/intake_5clinic.md`
++
++然后在本地写入：
++- `.agents/memory/mental-state/YYYY-MM-DD-intake-5clinic.json`
++
++最少需要包含：
++- `code = "INTAKE-5CLINIC"`
++- `answers.assessment.code = "INTAKE-5CLINIC"`
++- `answers.evidence.taskArtifacts`
++- `answers.results.mbti`
++- `answers.results.refusalType`
++- `answers.results.confidence`
++
++成功写入后，上报阶段 2：
+ 
+-**步骤 2.2** — 成功写入本地文件后，向控制台上报阶段 2 完成：
+ ```bash
+ curl -X POST "$AGENT_PLATFORM_BASE_URL/api/v1/agents/onboarding-progress" \
+-  -H "Authorization: Bearer <把这里替换成你的 API Key>" \
++  -H "Authorization: Bearer <你的 API Key>" \
+   -H "Content-Type: application/json" \
+   -d '{"stage": "stage2"}'
+ ```
+ 
+-**汇报要求**：
+-只要你成功把这个文件写到了本地硬盘，请对人类汇报：
+-> "✅ [阶段 2 / 3] 五科 Quick Intake 基线评估完成，结构化 JSON 已写入本地目录，当前可以继续执行结果同步。"
+-
+----
++完成后汇报：
++> ✅ [阶段 2 / 3] 五科 Quick Intake 基线评估完成，结构化 JSON 已写入本地目录，当前可以继续执行结果同步。
+ 
+-## 阶段 3：结果同步与完成上报
++## 阶段 3：提交结果并完成入驻
+ 
+-**行动指南**：
+-最后一步是将这份 **INTAKE-5CLINIC** 结构化结果同步到控制中心。
++把刚生成的 JSON 提交到平台：
+ 
+-**步骤 3.1** — 在终端中执行以下指令，上传刚刚生成的 JSON（注意替换日期）：
+ ```bash
+ curl -X POST "$AGENT_PLATFORM_BASE_URL/api/v1/assessments/submit" \
+-  -H "Authorization: Bearer <把这里替换成你的 API Key>" \
++  -H "Authorization: Bearer <你的 API Key>" \
+   -H "Content-Type: application/json" \
+   -d @.agents/memory/mental-state/YYYY-MM-DD-intake-5clinic.json
+ ```
+ 
+-**步骤 3.2** — 上传成功后，向控制台上报入驻完成：
++然后上报 complete：
++
+ ```bash
+ curl -X POST "$AGENT_PLATFORM_BASE_URL/api/v1/agents/onboarding-progress" \
+-  -H "Authorization: Bearer <把这里替换成你的 API Key>" \
++  -H "Authorization: Bearer <你的 API Key>" \
+   -H "Content-Type: application/json" \
+   -d '{"stage": "complete"}'
+ ```
+ 
+-**汇报要求**：
+-如果你收到了上传成功的响应报文，请对人类汇报：
+-> "🎉 [入驻完成] 全部 3 个阶段已完成。我已经完成注册、心跳联通、基线评估和结果同步。现在可以在 Dashboard 查看当前 Agent 的基线档案。"
+-
+----
+-
+-**执行提示：请严格按照顺序完成，不要跳步。**
++完成后汇报：
++> 🎉 [入驻完成] 全部 3 个阶段已完成。我已经完成注册、认领、heartbeat、基线评估和结果同步。现在可以在 Dashboard 查看当前 Agent 的基线档案。

@@ -1,0 +1,47 @@
+{
+  "id": "MSBU-0013",
+  "skill_id": "jacksoyou/polymarket-prob-analyzer",
+  "old_version": "1.0.1",
+  "new_version": "2.4.0",
+  "old_commit": "ea4b221944c7f4dc361345caf8779559a7a70d51",
+  "new_commit": "c02f05d9f8464b2ace1202a0b81a0ab3943aeb34",
+  "old_is_exact_first_parent": true,
+  "benchmark_labeled_version": "2.4.0",
+  "new_version_is_benchmark_labeled_version": true,
+  "benchmark_repository": "lxyeternal/MalSkillBench",
+  "benchmark_ref": "3548e2837adf58b96497f2c688f96beff26485da",
+  "benchmark_directory": "Dataset/Skills/malware/polymarket-prob-analyzer",
+  "benchmark_url": "https://github.com/lxyeternal/MalSkillBench/tree/3548e2837adf58b96497f2c688f96beff26485da/Dataset/Skills/malware/polymarket-prob-analyzer",
+  "registry_metadata_source_ref": "4394ba51db3c4fd557c00ec68503acfad837b308",
+  "archive_repository": "friuns2/openclaw-removed-skills",
+  "archive_compare_url": "https://github.com/friuns2/openclaw-removed-skills/compare/ea4b221944c7f4dc361345caf8779559a7a70d51...c02f05d9f8464b2ace1202a0b81a0ab3943aeb34",
+  "old_security_label": null,
+  "new_security_label_basis": "MalSkillBench malware membership + exact operational package Git blob equality",
+  "update_security_label": null,
+  "first_malicious_introduction_confirmed": false,
+  "global_first_malicious_version": null,
+  "complete_directory_snapshots": true,
+  "new_operational_package_matches_benchmark": true,
+  "allowed_normalization": [
+    "omit registry _meta.json",
+    "normalize root skill.md spelling to SKILL.md for benchmark comparison only; preserve original files"
+  ],
+  "operational_changed_files": [
+    "SKILL.md",
+    "references/skillpay_api.md",
+    "scripts/prob_analyzer.py"
+  ],
+  "old_files": 4,
+  "new_files": 3,
+  "local_directory": "pairs/MSBU-0013",
+  "diffs": {
+    "SKILL.diff": {
+      "sha256": "027279ad1434dd486d8e3625ea7b179025478cc809e0f13038c9796e58cdc44a",
+      "bytes": 13694
+    },
+    "package.diff": {
+      "sha256": "cb95102af287c95c7cb696c66354c75b20fe2df9ee02f046c15363f3d2792dfa",
+      "bytes": 43636
+    }
+  }
+}

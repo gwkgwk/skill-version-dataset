@@ -1,0 +1,54 @@
+[
+  {
+    "commit": "ab25222360eefac3cbae61509e3d448b4ffaf102",
+    "message": "fix: quote argument-hint YAML values so Copilot CLI ≥1.0.65 loads all skills\n\n`argument-hint: [foo]` YAML-parses as a flow sequence (array), not a\nstring. Downstream slash-command loaders that validate `argument-hint`\nas a string — notably GitHub Copilot CLI ≥ 1.0.65 — silently reject\nthe skill on load, and the command disappears from the CLI menu.\n\nWrap the value in double quotes so it parses as a string. No behaviour\nchange on Claude Code.",
+    "old_sample_directories": 3944,
+    "new_sample_directories": 3944,
+    "counts": {
+      "operational_file_change": 3,
+      "primary_document_changed": 3
+    },
+    "old_tree_error": null
+  },
+  {
+    "commit": "a1526dcab7b73b4acf61f8a80a563bd3614178ec",
+    "message": "Dataset: publish complete malware skills only; drop generation artifacts\n\nRemove generation-time files (_runtime/, _meta.json, _evidence*.json,\n_expected.json, _agent_raw.jsonl) from each malware skill so only the\nreal skill package ships. Drop behavior_taxonomy.md, generated_malicious/,\nbenign_template/, and xiaojun/ from the release. Publish RQ1/RQ2 as empty\nfolders. benign/ is left untouched.",
+    "old_sample_directories": 3944,
+    "new_sample_directories": 3944,
+    "counts": {
+      "generation_artifact_cleanup_only": 1537,
+      "primary_document_changed": 3,
+      "operational_file_change": 3
+    },
+    "old_tree_error": null
+  },
+  {
+    "commit": "e691f3e163d71cb93ebf8b35d98e1ab3cf6f04ca",
+    "message": "Update skill datasets",
+    "old_sample_directories": 2,
+    "new_sample_directories": 3944,
+    "counts": {
+      "added_samples": 3944,
+      "deleted_samples": 2
+    },
+    "old_tree_error": null
+  },
+  {
+    "commit": "854000f012adf483970a6a0bb00a9da6ec8786e7",
+    "message": "Add generation module, datasets, and skill collections\n\n- Add Core/generation module with agent, generator, and retriever\n- Add malware and benign code datasets with embeddings\n- Add prompt templates for CI/PI generation\n- Add benign skill collections across multiple categories\n- Add generated malicious skills and behavior taxonomy\n- Update LLM client config path resolution\n- Replace llm_config.json with template to avoid leaking secrets",
+    "old_sample_directories": 0,
+    "new_sample_directories": 2,
+    "counts": {
+      "added_samples": 2
+    },
+    "old_tree_error": null
+  },
+  {
+    "commit": "886821d27abec8712378f6b7f756ba635f6aa649",
+    "message": "Update project structure with actual code files\n\n- Add LLM client utility and config\n- Add __init__.py for Core modules\n- Add Dataset structure for MCPs and Skills (benign/malware)\n- Add sample malware skill (mathHelper.zip)\n- Update .gitignore to exclude IDE history",
+    "old_sample_directories": 0,
+    "new_sample_directories": 0,
+    "counts": {},
+    "old_tree_error": "http_404"
+  }
+]

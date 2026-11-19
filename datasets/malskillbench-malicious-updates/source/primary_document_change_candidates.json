@@ -1,0 +1,119 @@
+[
+  {
+    "skill_directory": "Command Development",
+    "old_commit": "06e083125d5ec5dd7a189dfedadfe587a70635b9",
+    "new_commit": "ab25222360eefac3cbae61509e3d448b4ffaf102",
+    "commit_date": "2026-07-13T16:26:46Z",
+    "commit_message": "fix: quote argument-hint YAML values so Copilot CLI ≥1.0.65 loads all skills\n\n`argument-hint: [foo]` YAML-parses as a flow sequence (array), not a\nstring. Downstream slash-command loaders that validate `argument-hint`\nas a string — notably GitHub Copilot CLI ≥ 1.0.65 — silently reject\nthe skill on load, and the command disappears from the CLI menu.\n\nWrap the value in double quotes so it parses as a string. No behaviour\nchange on Claude Code.",
+    "kind": "operational_file_change",
+    "changed_files": [
+      "SKILL.md"
+    ],
+    "operational_changed_files": [
+      "SKILL.md"
+    ],
+    "primary_changed": true,
+    "old_primary_exists": true,
+    "new_primary_exists": true,
+    "origin_hint": "requires_origin_verification"
+  },
+  {
+    "skill_directory": "my-prs",
+    "old_commit": "06e083125d5ec5dd7a189dfedadfe587a70635b9",
+    "new_commit": "ab25222360eefac3cbae61509e3d448b4ffaf102",
+    "commit_date": "2026-07-13T16:26:46Z",
+    "commit_message": "fix: quote argument-hint YAML values so Copilot CLI ≥1.0.65 loads all skills\n\n`argument-hint: [foo]` YAML-parses as a flow sequence (array), not a\nstring. Downstream slash-command loaders that validate `argument-hint`\nas a string — notably GitHub Copilot CLI ≥ 1.0.65 — silently reject\nthe skill on load, and the command disappears from the CLI menu.\n\nWrap the value in double quotes so it parses as a string. No behaviour\nchange on Claude Code.",
+    "kind": "operational_file_change",
+    "changed_files": [
+      "SKILL.md"
+    ],
+    "operational_changed_files": [
+      "SKILL.md"
+    ],
+    "primary_changed": true,
+    "old_primary_exists": true,
+    "new_primary_exists": true,
+    "origin_hint": "requires_origin_verification"
+  },
+  {
+    "skill_directory": "review-flow",
+    "old_commit": "06e083125d5ec5dd7a189dfedadfe587a70635b9",
+    "new_commit": "ab25222360eefac3cbae61509e3d448b4ffaf102",
+    "commit_date": "2026-07-13T16:26:46Z",
+    "commit_message": "fix: quote argument-hint YAML values so Copilot CLI ≥1.0.65 loads all skills\n\n`argument-hint: [foo]` YAML-parses as a flow sequence (array), not a\nstring. Downstream slash-command loaders that validate `argument-hint`\nas a string — notably GitHub Copilot CLI ≥ 1.0.65 — silently reject\nthe skill on load, and the command disappears from the CLI menu.\n\nWrap the value in double quotes so it parses as a string. No behaviour\nchange on Claude Code.",
+    "kind": "operational_file_change",
+    "changed_files": [
+      "SKILL.md"
+    ],
+    "operational_changed_files": [
+      "SKILL.md"
+    ],
+    "primary_changed": true,
+    "old_primary_exists": true,
+    "new_primary_exists": true,
+    "origin_hint": "requires_origin_verification"
+  },
+  {
+    "skill_directory": "clawhub-kalos-chen-9ma-mata-human__v1.0.5",
+    "old_commit": "4394ba51db3c4fd557c00ec68503acfad837b308",
+    "new_commit": "a1526dcab7b73b4acf61f8a80a563bd3614178ec",
+    "commit_date": "2026-06-06T08:50:29Z",
+    "commit_message": "Dataset: publish complete malware skills only; drop generation artifacts\n\nRemove generation-time files (_runtime/, _meta.json, _evidence*.json,\n_expected.json, _agent_raw.jsonl) from each malware skill so only the\nreal skill package ships. Drop behavior_taxonomy.md, generated_malicious/,\nbenign_template/, and xiaojun/ from the release. Publish RQ1/RQ2 as empty\nfolders. benign/ is left untouched.",
+    "kind": "operational_file_change",
+    "changed_files": [
+      "SKILL.md",
+      "_meta.json",
+      "skill.md"
+    ],
+    "operational_changed_files": [
+      "SKILL.md",
+      "skill.md"
+    ],
+    "primary_changed": true,
+    "old_primary_exists": false,
+    "new_primary_exists": true,
+    "origin_hint": "requires_origin_verification"
+  },
+  {
+    "skill_directory": "clawhub-kalos-chen-jiuma-mata-human__v1.0.6",
+    "old_commit": "4394ba51db3c4fd557c00ec68503acfad837b308",
+    "new_commit": "a1526dcab7b73b4acf61f8a80a563bd3614178ec",
+    "commit_date": "2026-06-06T08:50:29Z",
+    "commit_message": "Dataset: publish complete malware skills only; drop generation artifacts\n\nRemove generation-time files (_runtime/, _meta.json, _evidence*.json,\n_expected.json, _agent_raw.jsonl) from each malware skill so only the\nreal skill package ships. Drop behavior_taxonomy.md, generated_malicious/,\nbenign_template/, and xiaojun/ from the release. Publish RQ1/RQ2 as empty\nfolders. benign/ is left untouched.",
+    "kind": "operational_file_change",
+    "changed_files": [
+      "SKILL.md",
+      "_meta.json",
+      "skill.md"
+    ],
+    "operational_changed_files": [
+      "SKILL.md",
+      "skill.md"
+    ],
+    "primary_changed": true,
+    "old_primary_exists": false,
+    "new_primary_exists": true,
+    "origin_hint": "requires_origin_verification"
+  },
+  {
+    "skill_directory": "clawhub-zkclaw-zkclaw__v1.0.1",
+    "old_commit": "4394ba51db3c4fd557c00ec68503acfad837b308",
+    "new_commit": "a1526dcab7b73b4acf61f8a80a563bd3614178ec",
+    "commit_date": "2026-06-06T08:50:29Z",
+    "commit_message": "Dataset: publish complete malware skills only; drop generation artifacts\n\nRemove generation-time files (_runtime/, _meta.json, _evidence*.json,\n_expected.json, _agent_raw.jsonl) from each malware skill so only the\nreal skill package ships. Drop behavior_taxonomy.md, generated_malicious/,\nbenign_template/, and xiaojun/ from the release. Publish RQ1/RQ2 as empty\nfolders. benign/ is left untouched.",
+    "kind": "operational_file_change",
+    "changed_files": [
+      "SKILL.md",
+      "_meta.json",
+      "skill.md"
+    ],
+    "operational_changed_files": [
+      "SKILL.md",
+      "skill.md"
+    ],
+    "primary_changed": true,
+    "old_primary_exists": false,
+    "new_primary_exists": true,
+    "origin_hint": "requires_origin_verification"
+  }
+]
