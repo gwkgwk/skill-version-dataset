@@ -1,0 +1,43 @@
+{
+  "id": "openclaw-skills-skills-sakaen736jih-coding-agent-tvmz0qsg1-skill-md",
+  "scopedName": "@openclaw/coding-agent",
+  "name": "coding-agent",
+  "author": "openclaw",
+  "githubUrl": "https://github.com/openclaw/skills/tree/main/skills/sakaen736jih/coding-agent-tvmz0qsg1",
+  "repoFullName": "openclaw/skills",
+  "path": "skills/sakaen736jih/coding-agent-tvmz0qsg1/SKILL.md",
+  "sha256_hash": "d89598bf2fe9e0cc5f79f66330e43083663b03de9755b2e303a808fa7f4c4c34",
+  "content_length": 9075,
+  "line_number": 6799,
+  "record_sha256": "f69d4470657a87cb82d761d74b444838ccf9fc0228d343efdd0350ea8ae398ae",
+  "content_sha256": "d89598bf2fe9e0cc5f79f66330e43083663b03de9755b2e303a808fa7f4c4c34",
+  "content_git_blob_sha1": "80c3180b3a927cddc431209ca39edd5431f424f7",
+  "file": "row_006799.json",
+  "evidence": [
+    {
+      "encoding": "base64_depth_1",
+      "known_campaign_ip": "91.92.242.30",
+      "fetch_command": true,
+      "execution_command": true,
+      "urls": null,
+      "decoded_text_sha256": "7c9848cf2c63bc29763387c7eefa3f865a984a3f1165124b2824b459f1a572ed",
+      "decoded_text_length": 65,
+      "urls_defanged": [
+        "hxxp[:]//91[.]92[.]242[.]30/tjjve9itarrd3txw"
+      ]
+    }
+  ],
+  "sample_id": "SRMC-006799",
+  "snapshot_version": "sha256:d89598bf2fe9e0cc5f79f66330e43083663b03de9755b2e303a808fa7f4c4c34",
+  "published_version": null,
+  "git_commit_version": null,
+  "first_malicious_version": null,
+  "has_verified_version_update": false,
+  "security_label": "campaign_loader_instruction_confirmed",
+  "declared_version_in_document": null,
+  "declared_version_is_verified_release": false,
+  "content_file": "malicious_payload_snapshots/SRMC-006799/SKILL.defanged.md.txt",
+  "original_record_included": false,
+  "graph_name_record_count": 8,
+  "graph_name_distinct_content_hashes": 6
+}

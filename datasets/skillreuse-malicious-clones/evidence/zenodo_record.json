@@ -1,0 +1,115 @@
+{
+  "created": "2026-03-30T04:43:55.252339+00:00",
+  "modified": "2026-03-30T04:43:55.509390+00:00",
+  "id": 19245910,
+  "conceptrecid": "19245909",
+  "doi": "10.5281/zenodo.19245910",
+  "conceptdoi": "10.5281/zenodo.19245909",
+  "doi_url": "https://doi.org/10.5281/zenodo.19245910",
+  "metadata": {
+    "title": "skill reuse",
+    "doi": "10.5281/zenodo.19245910",
+    "publication_date": "2026-03-27",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "anonymous",
+        "affiliation": null
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "19245909"
+          }
+        }
+      ]
+    }
+  },
+  "title": "skill reuse",
+  "links": {
+    "self": "https://zenodo.org/api/records/19245910",
+    "self_html": "https://zenodo.org/records/19245910",
+    "preview_html": "https://zenodo.org/records/19245910?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.19245910",
+    "self_doi": "https://doi.org/10.5281/zenodo.19245910",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19245910",
+    "reserve_doi": "https://zenodo.org/api/records/19245910/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/19245909",
+    "parent_html": "https://zenodo.org/records/19245909",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19245909",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19245909",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:19245910/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:19245910/sequence/default",
+    "files": "https://zenodo.org/api/records/19245910/files",
+    "media_files": "https://zenodo.org/api/records/19245910/media-files",
+    "latest": "https://zenodo.org/api/records/19245910/versions/latest",
+    "latest_html": "https://zenodo.org/records/19245910/latest",
+    "versions": "https://zenodo.org/api/records/19245910/versions",
+    "draft": "https://zenodo.org/api/records/19245910/draft",
+    "access_links": "https://zenodo.org/api/records/19245910/access/links",
+    "access_grants": "https://zenodo.org/api/records/19245910/access/grants",
+    "access_users": "https://zenodo.org/api/records/19245910/access/users",
+    "access_request": "https://zenodo.org/api/records/19245910/access/request",
+    "access": "https://zenodo.org/api/records/19245910/access",
+    "communities": "https://zenodo.org/api/records/19245910/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/19245910/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/19245910/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/19245910/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/19245910/quota-increase",
+    "requests": "https://zenodo.org/api/records/19245910/requests"
+  },
+  "updated": "2026-03-30T04:43:55.509390+00:00",
+  "recid": "19245910",
+  "revision": 4,
+  "files": [
+    {
+      "id": "286c86cd-4cd4-4dcb-985a-9129e848c453",
+      "key": "skill-reuse-main.zip",
+      "size": 276598,
+      "checksum": "md5:af9a97220978b6e3980049e9fccc6070",
+      "links": {
+        "self": "https://zenodo.org/api/records/19245910/files/skill-reuse-main.zip/content"
+      }
+    },
+    {
+      "id": "12ce5a08-3700-440e-abc2-f0906f94b8f0",
+      "key": "skills_with_content.jsonl",
+      "size": 1460271174,
+      "checksum": "md5:fb4a146f93f9dd0439a7f7b2cc40807b",
+      "links": {
+        "self": "https://zenodo.org/api/records/19245910/files/skills_with_content.jsonl/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "381659"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 222,
+    "unique_downloads": 78,
+    "views": 160,
+    "unique_views": 146,
+    "version_downloads": 206,
+    "version_unique_downloads": 69,
+    "version_unique_views": 95,
+    "version_views": 101
+  },
+  "state": "done",
+  "submitted": true
+}

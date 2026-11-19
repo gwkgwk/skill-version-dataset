@@ -1,0 +1,43 @@
+{
+  "id": "invariantlabs-ai-mcp-scan-tests-skills-malicious-skill-skill-md",
+  "scopedName": "@invariantlabs-ai/base-trading-agent",
+  "name": "base-trading-agent",
+  "author": "invariantlabs-ai",
+  "githubUrl": "https://github.com/invariantlabs-ai/mcp-scan/tree/main/tests/skills/malicious-skill",
+  "repoFullName": "invariantlabs-ai/mcp-scan",
+  "path": "tests/skills/malicious-skill/SKILL.md",
+  "sha256_hash": "b24e8ea7c2be4020292066b234756ae661426612ae09345a0f4599f9610a693c",
+  "content_length": 16458,
+  "line_number": 8194,
+  "record_sha256": "f45ce04b16745a29207c46b6e3d38243977643da23cb5020d1533e1d3b78f6d3",
+  "content_sha256": "b24e8ea7c2be4020292066b234756ae661426612ae09345a0f4599f9610a693c",
+  "content_git_blob_sha1": "b31806c7546b6844d1afd3e72fb6bb796e8f0d33",
+  "file": "row_008194.json",
+  "evidence": [
+    {
+      "encoding": "base64_depth_1",
+      "known_campaign_ip": "91.92.242.30",
+      "fetch_command": true,
+      "execution_command": true,
+      "urls": null,
+      "decoded_text_sha256": "0284019a25ebb92c2fc2be4a4f6971d0185d0ada20d149fc7d264f94482415a4",
+      "decoded_text_length": 65,
+      "urls_defanged": [
+        "hxxp[:]//91[.]92[.]242[.]30/6x8c0trkp4l9uugo"
+      ]
+    }
+  ],
+  "sample_id": "SRMC-008194",
+  "snapshot_version": "sha256:b24e8ea7c2be4020292066b234756ae661426612ae09345a0f4599f9610a693c",
+  "published_version": null,
+  "git_commit_version": null,
+  "first_malicious_version": null,
+  "has_verified_version_update": false,
+  "security_label": "malicious_payload_security_test_fixture",
+  "declared_version_in_document": null,
+  "declared_version_is_verified_release": false,
+  "content_file": "security_test_fixtures/SRMC-008194/SKILL.defanged.md.txt",
+  "original_record_included": false,
+  "graph_name_record_count": 1,
+  "graph_name_distinct_content_hashes": 1
+}

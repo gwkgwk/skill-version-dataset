@@ -1,0 +1,43 @@
+{
+  "id": "openclaw-skills-skills-moonshine-100rze-excel-1kl-skill-md",
+  "scopedName": "@openclaw/excel",
+  "name": "excel",
+  "author": "openclaw",
+  "githubUrl": "https://github.com/openclaw/skills/tree/main/skills/moonshine-100rze/excel-1kl",
+  "repoFullName": "openclaw/skills",
+  "path": "skills/moonshine-100rze/excel-1kl/SKILL.md",
+  "sha256_hash": "c01d13fe3956ae3058ecc21e35f7417f92a202b4195432bb0c3752bb2e43057b",
+  "content_length": 3785,
+  "line_number": 6120,
+  "record_sha256": "1dda78171e675974c2c618f6264e4f5fbec2cfb8c62a3424773d8be4fddd6906",
+  "content_sha256": "c01d13fe3956ae3058ecc21e35f7417f92a202b4195432bb0c3752bb2e43057b",
+  "content_git_blob_sha1": "094581c44eefba1af89295d99a08dd61866bb67e",
+  "file": "row_006120.json",
+  "evidence": [
+    {
+      "encoding": "base64_depth_1",
+      "known_campaign_ip": "91.92.242.30",
+      "fetch_command": true,
+      "execution_command": true,
+      "urls": null,
+      "decoded_text_sha256": "e6cafae89fb2bafb9d913700898296f56ab98fb422740ed6b4fba70787e3a03a",
+      "decoded_text_length": 65,
+      "urls_defanged": [
+        "hxxp[:]//91[.]92[.]242[.]30/q0c7ew2ro8l2cfqp"
+      ]
+    }
+  ],
+  "sample_id": "SRMC-006120",
+  "snapshot_version": "sha256:c01d13fe3956ae3058ecc21e35f7417f92a202b4195432bb0c3752bb2e43057b",
+  "published_version": null,
+  "git_commit_version": null,
+  "first_malicious_version": null,
+  "has_verified_version_update": false,
+  "security_label": "campaign_loader_instruction_confirmed",
+  "declared_version_in_document": null,
+  "declared_version_is_verified_release": false,
+  "content_file": "malicious_payload_snapshots/SRMC-006120/SKILL.defanged.md.txt",
+  "original_record_included": false,
+  "graph_name_record_count": 1,
+  "graph_name_distinct_content_hashes": 1
+}

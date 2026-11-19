@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "all packaged file hashes match MANIFEST.sha256",
+    "62 original-content hash identities, security classifications and defanged artifact references verified",
+    "20 exact-content clone pairs across distinct source paths verified",
+    "original public graph and README match immutable upstream Git blob hashes",
+    "632 graph links retain unknown security labels and explicit name-to-content ambiguity",
+    "all 63 indexed payload-bearing source records bound byte-for-byte to checksum-verified Zenodo corpus"
+  ],
+  "original_corpus_reverified": true,
+  "sample_execution": false,
+  "network_payload_fetch": false,
+  "limitations": "Defanged copies cannot establish original hashes without the external 1.46 GB corpus. Published graph edges lack frozen source-content bindings. No release-version transitions established.",
+  "graph_parquet_reverification": {
+    "status": "passed",
+    "original_graph_edges": 1059923,
+    "reproduced_candidate_edges": 632
+  }
+}

@@ -16,6 +16,8 @@ GitSkills 与 MalSkills 原始文件分开存放，未将 GitSkills 数据混入
 
 按**注册表发布版本号更新**统计，去重后为 **24 个 Skill、24 对更新、48 份旧／新版快照**：MalSkills 1 个 + MalSkillBench 17 个 + MaliciousSkillBench 6 个。另有 MaliciousAgentSkillsBench 新增的 **13 个 Skill、13 对 Git 提交版本更新、26 份快照**，不把 Git SHA 误称为发布版本号。两类一起统计共 **37 个 Skill、37 对更新、74 份快照**，其中本批 1 对只修改 README。74 份快照不等于 74 个恶意版本，旧版安全性未全部确认；已确认更新引入恶意分发指令仍为 1 对，其余采用来源恶意收录标签，尚未确认首次引入。
 
+[SkillReuse 恶意内容克隆独立集合](datasets/skillreuse-malicious-clones/README.md)：62 份含已知活动恶意安装指令的快照，42 个不同内容哈希；核验 20 对全文相同克隆。安全测试夹具 1 份另存，632 条图中关联仅为待核验候选。内容均移除长编码字符串并禁用 URL；没有新增真实版本更新，原有 37 个更新 Skill 计数不变。
+
 [SkillLeakBench 原仓库版本追溯复核](audits/skillleakbench-version-history/README.md)：检查原始 Git 历史、4 个发布标签、Zenodo 和 Hugging Face；本次新增 0 对。83 条恶意标注未提供原始 Skill 版本证据，待追溯清单单列；此前汇总来源中的 6 对不重复计数。
 
 [GitSkills 安全初审报告](audits/gitskills-real-updates-500/README.md)：500 条全量规则初筛，44 条助手上下文复核；安全标签仍全部未知，不能直接作为良性真值。

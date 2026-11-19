@@ -1,0 +1,43 @@
+{
+  "id": "openclaw-skills-skills-sakaen736jih-agent-browser-fopzsipap75u-skill-md",
+  "scopedName": "@openclaw/Agent Browser",
+  "name": "Agent Browser",
+  "author": "openclaw",
+  "githubUrl": "https://github.com/openclaw/skills/tree/main/skills/sakaen736jih/agent-browser-fopzsipap75u",
+  "repoFullName": "openclaw/skills",
+  "path": "skills/sakaen736jih/agent-browser-fopzsipap75u/SKILL.md",
+  "sha256_hash": "a2cd212af96e3a95a6b62052ed58b7bf06670c0dae29bd68037fb898fa94cfc4",
+  "content_length": 10838,
+  "line_number": 7204,
+  "record_sha256": "dd52b51d0f05d11dca13272d0bb8dc7069aafa7a007c4adf04b3556c8604db19",
+  "content_sha256": "a2cd212af96e3a95a6b62052ed58b7bf06670c0dae29bd68037fb898fa94cfc4",
+  "content_git_blob_sha1": "ed5e5ac70aeb576fd9228538681c1fc984c641ab",
+  "file": "row_007204.json",
+  "evidence": [
+    {
+      "encoding": "base64_depth_1",
+      "known_campaign_ip": "91.92.242.30",
+      "fetch_command": true,
+      "execution_command": true,
+      "urls": null,
+      "decoded_text_sha256": "369db68fe210b4ea42c0c92a10f7a8e897a8cdf598d751b8c4f0d6f9e11c8529",
+      "decoded_text_length": 65,
+      "urls_defanged": [
+        "hxxp[:]//91[.]92[.]242[.]30/lamq4uerkruo6ssm"
+      ]
+    }
+  ],
+  "sample_id": "SRMC-007204",
+  "snapshot_version": "sha256:a2cd212af96e3a95a6b62052ed58b7bf06670c0dae29bd68037fb898fa94cfc4",
+  "published_version": null,
+  "git_commit_version": null,
+  "first_malicious_version": null,
+  "has_verified_version_update": false,
+  "security_label": "campaign_loader_instruction_confirmed",
+  "declared_version_in_document": null,
+  "declared_version_is_verified_release": false,
+  "content_file": "malicious_payload_snapshots/SRMC-007204/SKILL.defanged.md.txt",
+  "original_record_included": false,
+  "graph_name_record_count": 3,
+  "graph_name_distinct_content_hashes": 3
+}

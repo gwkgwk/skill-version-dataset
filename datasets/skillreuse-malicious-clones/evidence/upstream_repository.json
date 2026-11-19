@@ -1,0 +1,520 @@
+{
+  "commit": {
+    "sha": "0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+    "node_id": "C_kwDORyDMY9oAKDAxMjVhY2FhYWM3OWVmM2ZkNWFiMzE0NjU0OWRlNWMyYjg0YjY3ODU",
+    "commit": {
+      "author": {
+        "name": "zly123987",
+        "email": "zhanglvyesnest@gmail.com",
+        "date": "2026-08-24T16:53:53Z"
+      },
+      "committer": {
+        "name": "zly123987",
+        "email": "zhanglvyesnest@gmail.com",
+        "date": "2026-08-24T16:53:53Z"
+      },
+      "message": "update RQ3",
+      "tree": {
+        "sha": "bb26885699170f1091c83c2dfa0a0d1fbd781e35",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/bb26885699170f1091c83c2dfa0a0d1fbd781e35"
+      },
+      "url": "https://api.github.com/repos/zly123987/skill-reuse/git/commits/0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/zly123987/skill-reuse/commits/0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+    "html_url": "https://github.com/zly123987/skill-reuse/commit/0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+    "comments_url": "https://api.github.com/repos/zly123987/skill-reuse/commits/0125acaaac79ef3fd5ab3146549de5c2b84b6785/comments",
+    "author": {
+      "login": "zly123987",
+      "id": 17679115,
+      "node_id": "MDQ6VXNlcjE3Njc5MTE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17679115?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zly123987",
+      "html_url": "https://github.com/zly123987",
+      "followers_url": "https://api.github.com/users/zly123987/followers",
+      "following_url": "https://api.github.com/users/zly123987/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zly123987/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zly123987/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zly123987/subscriptions",
+      "organizations_url": "https://api.github.com/users/zly123987/orgs",
+      "repos_url": "https://api.github.com/users/zly123987/repos",
+      "events_url": "https://api.github.com/users/zly123987/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zly123987/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "zly123987",
+      "id": 17679115,
+      "node_id": "MDQ6VXNlcjE3Njc5MTE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17679115?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zly123987",
+      "html_url": "https://github.com/zly123987",
+      "followers_url": "https://api.github.com/users/zly123987/followers",
+      "following_url": "https://api.github.com/users/zly123987/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zly123987/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zly123987/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zly123987/subscriptions",
+      "organizations_url": "https://api.github.com/users/zly123987/orgs",
+      "repos_url": "https://api.github.com/users/zly123987/repos",
+      "events_url": "https://api.github.com/users/zly123987/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zly123987/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e437ef6983a64482d41f4237d935a3a1771fa0be",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/commits/e437ef6983a64482d41f4237d935a3a1771fa0be",
+        "html_url": "https://github.com/zly123987/skill-reuse/commit/e437ef6983a64482d41f4237d935a3a1771fa0be"
+      }
+    ],
+    "stats": {
+      "total": 148081,
+      "additions": 148080,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "154729c0fff5717fa4d680819b952fd612c8e238",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 82,
+        "deletions": 1,
+        "changes": 83,
+        "blob_url": "https://github.com/zly123987/skill-reuse/blob/0125acaaac79ef3fd5ab3146549de5c2b84b6785/README.md",
+        "raw_url": "https://github.com/zly123987/skill-reuse/raw/0125acaaac79ef3fd5ab3146549de5c2b84b6785/README.md",
+        "contents_url": "https://api.github.com/repos/zly123987/skill-reuse/contents/README.md?ref=0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+        "patch": "@@ -55,7 +55,14 @@ skill-reuse/\n │   ├── evaluation_results.json     # Evaluation results (Table 3 in paper)\n │   ├── evaluation_results_v2.json  # Local-only evaluation results\n │   └── benchmark_stats.json        # Benchmark composition statistics\n-├── results/                    # Output directory (generated at runtime)\n+├── scripts/\n+│   └── dump_fullcorpus_clusters.py  # Materialise the full-corpus clone graph (RQ3)\n+├── results/\n+│   └── ecosystem/                   # Full-corpus clone graph at theta = 0.80 (see \"Clone graph\")\n+│       ├── repro_fullcorpus_theta080_clusters.jsonl\n+│       ├── repro_fullcorpus_theta080_components.tsv\n+│       ├── repro_fullcorpus_theta080_edges.parquet\n+│       └── repro_fullcorpus_theta080_clusters_stats.json\n ├── config.ini.example          # LLM configuration template\n ├── requirements.txt            # Python dependencies\n └── README.md\n@@ -70,6 +77,80 @@ The full skill corpus (`data/skills_content/skills_with_content.jsonl`, 155,547\n \n After downloading, place the file at `data/skills_content/skills_with_content.jsonl`.\n \n+## Clone graph (RQ3)\n+\n+`results/ecosystem/` ships the ecosystem-scale clone graph reported in Table 5, at the\n+conservative operating point **theta = 0.80**. These are the detected clone\n+relationships themselves, so the deduplication figures can be inspected per skill\n+rather than only in aggregate.\n+\n+| File | Size | Contents |\n+|---|---|---|\n+| `repro_fullcorpus_theta080_clusters.jsonl` | 3.5 MB | One JSON object per multi-skill cluster, largest first: `{cluster_id, size, skill_ids[]}`. 10,365 clusters covering 91,792 skills. |\n+| `repro_fullcorpus_theta080_components.tsv` | 5.1 MB | `skill_id <TAB> component_id <TAB> component_size` for all 137,470 analysed skills, singletons included. |\n+| `repro_fullcorpus_theta080_edges.parquet` | 6.8 MB | All 1,059,923 clone pairs: `skill_a`, `skill_b`, `fused` (clone score), `cross_author`. |\n+| `repro_fullcorpus_theta080_clusters_stats.json` | 853 B | Derived statistics with a field-by-field comparison against Table 5. |\n+\n+Skills are identified by scoped name (e.g. `@anthropics/docx`), matching the\n+`scopedName` field of the corpus records, so any file here joins directly against\n+`data/skills_content/skills_with_content.jsonl`.\n+\n+The JSONL and TSV files need only the standard library. Reading the Parquet edge list\n+additionally requires `pyarrow` (and `pandas` for the DataFrame example below):\n+\n+```bash\n+pip install pyarrow pandas\n+```\n+\n+### Examples\n+\n+Find the clone family a given skill belongs to:\n+\n+```python\n+import csv\n+rows = {r[\"skill_id\"]: r for r in csv.DictReader(open(\n+    \"results/ecosystem/repro_fullcorpus_theta080_components.tsv\"), delimiter=\"\\t\")}\n+print(rows[\"@anthropics/docx\"])        # -> component_id, component_size\n+```\n+\n+List the members of the largest clusters:\n+\n+```python\n+import json\n+with open(\"results/ecosystem/repro_fullcorpus_theta080_clusters.jsonl\") as fh:\n+    clusters = [json.loads(line) for line in fh]      # already sorted, largest first\n+print(clusters[1][\"size\"], clusters[1][\"skill_ids\"][:5])\n+```\n+\n+Pull every clone of one skill, with its score:\n+\n+```python\n+import pyarrow.parquet as pq\n+t = pq.read_table(\"results/ecosystem/repro_fullcorpus_theta080_edges.parquet\")\n+df = t.to_pandas()\n+print(df[(df.skill_a == \"@anthropics/docx\") | (df.skill_b == \"@anthropics/docx\")])\n+```\n+\n+Cross-author reuse only (95.3% of edges):\n+\n+```python\n+print(df[df.cross_author].shape[0])     # -> 1010480\n+```\n+\n+### Regenerating\n+\n+```bash\n+python3 scripts/dump_fullcorpus_clusters.py --theta 0.80\n+```\n+\n+The script streams the cached full-corpus scoring run (`full_155k_run/`, candidate-pair\n+scores as Parquet), thresholds the fused score, and runs connected components. Like the\n+other corpus-scale analyses it requires that run as an external input; `--theta` accepts\n+any threshold in the reported sweep. Every figure written to\n+`repro_fullcorpus_theta080_clusters_stats.json` is recomputed from the pair scores, and\n+the graph is self-consistent: rebuilding the components from `edges.parquet` alone\n+reproduces the same partition (56,043 components, 45,678 singletons, largest 61,651).\n+\n ## Environment Setup\n \n **Python 3.10+** is required."
+      },
+      {
+        "sha": "a80775b2d88e72c20bf172ff731a409db257eb1f",
+        "filename": "results/ecosystem/repro_fullcorpus_theta080_clusters.jsonl",
+        "status": "added",
+        "additions": 10365,
+        "deletions": 0,
+        "changes": 10365,
+        "blob_url": "https://github.com/zly123987/skill-reuse/blob/0125acaaac79ef3fd5ab3146549de5c2b84b6785/results%2Fecosystem%2Frepro_fullcorpus_theta080_clusters.jsonl",
+        "raw_url": "https://github.com/zly123987/skill-reuse/raw/0125acaaac79ef3fd5ab3146549de5c2b84b6785/results%2Fecosystem%2Frepro_fullcorpus_theta080_clusters.jsonl",
+        "contents_url": "https://api.github.com/repos/zly123987/skill-reuse/contents/results%2Fecosystem%2Frepro_fullcorpus_theta080_clusters.jsonl?ref=0125acaaac79ef3fd5ab3146549de5c2b84b6785"
+      },
+      {
+        "sha": "8beb008800d2cae0bdcfaff548b81836ee57dfac",
+        "filename": "results/ecosystem/repro_fullcorpus_theta080_clusters_stats.json",
+        "status": "added",
+        "additions": 35,
+        "deletions": 0,
+        "changes": 35,
+        "blob_url": "https://github.com/zly123987/skill-reuse/blob/0125acaaac79ef3fd5ab3146549de5c2b84b6785/results%2Fecosystem%2Frepro_fullcorpus_theta080_clusters_stats.json",
+        "raw_url": "https://github.com/zly123987/skill-reuse/raw/0125acaaac79ef3fd5ab3146549de5c2b84b6785/results%2Fecosystem%2Frepro_fullcorpus_theta080_clusters_stats.json",
+        "contents_url": "https://api.github.com/repos/zly123987/skill-reuse/contents/results%2Fecosystem%2Frepro_fullcorpus_theta080_clusters_stats.json?ref=0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+        "patch": "@@ -0,0 +1,35 @@\n+{\n+  \"theta\": 0.8,\n+  \"N\": 137470,\n+  \"scanned_pairs\": 4976884536,\n+  \"clone_involvement_rate\": 0.667724,\n+  \"cross_author_rate\": 0.953352,\n+  \"inflation_ratio\": 2.452938,\n+  \"derived\": {\n+    \"n_edges\": 1059923,\n+    \"components\": 56043,\n+    \"singletons\": 45678,\n+    \"multi_skill_clusters\": 10365,\n+    \"largest_cluster\": 61651,\n+    \"clone_involved_skills\": 91792,\n+    \"cross_author_pairs\": 1010480\n+  },\n+  \"paper_table5\": {\n+    \"n_edges\": 1059923,\n+    \"components\": 56043,\n+    \"singletons\": 45678,\n+    \"multi_skill_clusters\": 10365,\n+    \"largest_cluster\": 61651,\n+    \"clone_involved_skills\": 91792,\n+    \"cross_author_pairs\": 1010480\n+  },\n+  \"matches_paper\": {\n+    \"n_edges\": true,\n+    \"components\": true,\n+    \"singletons\": true,\n+    \"multi_skill_clusters\": true,\n+    \"largest_cluster\": true,\n+    \"clone_involved_skills\": true,\n+    \"cross_author_pairs\": true\n+  }\n+}\n\\ No newline at end of file"
+      },
+      {
+        "sha": "08a873604cb9d52433433ff73a39f1aacc2626c2",
+        "filename": "results/ecosystem/repro_fullcorpus_theta080_components.tsv",
+        "status": "added",
+        "additions": 137471,
+        "deletions": 0,
+        "changes": 137471,
+        "blob_url": "https://github.com/zly123987/skill-reuse/blob/0125acaaac79ef3fd5ab3146549de5c2b84b6785/results%2Fecosystem%2Frepro_fullcorpus_theta080_components.tsv",
+        "raw_url": "https://github.com/zly123987/skill-reuse/raw/0125acaaac79ef3fd5ab3146549de5c2b84b6785/results%2Fecosystem%2Frepro_fullcorpus_theta080_components.tsv",
+        "contents_url": "https://api.github.com/repos/zly123987/skill-reuse/contents/results%2Fecosystem%2Frepro_fullcorpus_theta080_components.tsv?ref=0125acaaac79ef3fd5ab3146549de5c2b84b6785"
+      },
+      {
+        "sha": "ab8c2ca2b3affae304d2521c4b8a4dd3905fe3dd",
+        "filename": "results/ecosystem/repro_fullcorpus_theta080_edges.parquet",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/zly123987/skill-reuse/blob/0125acaaac79ef3fd5ab3146549de5c2b84b6785/results%2Fecosystem%2Frepro_fullcorpus_theta080_edges.parquet",
+        "raw_url": "https://github.com/zly123987/skill-reuse/raw/0125acaaac79ef3fd5ab3146549de5c2b84b6785/results%2Fecosystem%2Frepro_fullcorpus_theta080_edges.parquet",
+        "contents_url": "https://api.github.com/repos/zly123987/skill-reuse/contents/results%2Fecosystem%2Frepro_fullcorpus_theta080_edges.parquet?ref=0125acaaac79ef3fd5ab3146549de5c2b84b6785"
+      },
+      {
+        "sha": "ade6a19454c1b118c3365f5a0066a4e7b33cc275",
+        "filename": "scripts/dump_fullcorpus_clusters.py",
+        "status": "added",
+        "additions": 127,
+        "deletions": 0,
+        "changes": 127,
+        "blob_url": "https://github.com/zly123987/skill-reuse/blob/0125acaaac79ef3fd5ab3146549de5c2b84b6785/scripts%2Fdump_fullcorpus_clusters.py",
+        "raw_url": "https://github.com/zly123987/skill-reuse/raw/0125acaaac79ef3fd5ab3146549de5c2b84b6785/scripts%2Fdump_fullcorpus_clusters.py",
+        "contents_url": "https://api.github.com/repos/zly123987/skill-reuse/contents/scripts%2Fdump_fullcorpus_clusters.py?ref=0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+        "patch": "@@ -0,0 +1,127 @@\n+#!/usr/bin/env python3\n+\"\"\"Materialize the full-corpus clone graph at the paper's operating point (theta=0.80).\n+\n+Streams full_155k_run/pairs/*.parquet, keeps edges with fused >= THETA, runs connected\n+components over all N skills, and writes the clone graph that until now existed only\n+implicitly inside the 41 GB pair store.\n+\n+Outputs (ALL NEW FILENAMES - nothing existing is overwritten):\n+  results/ecosystem/repro_fullcorpus_theta080_clusters.jsonl    {cluster_id, size, skill_ids[]}\n+  results/ecosystem/repro_fullcorpus_theta080_components.tsv    skill_id <TAB> component_id\n+  results/ecosystem/repro_fullcorpus_theta080_edges.parquet     skill_a, skill_b, fused, cross_author\n+  results/ecosystem/repro_fullcorpus_theta080_clusters_stats.json  derived stats + paper cross-check\n+\n+Usage: python3 paper/rebuttal/dump_fullcorpus_clusters.py [--theta 0.80]\n+\"\"\"\n+import glob, json, os, sys, time\n+from pathlib import Path\n+import numpy as np\n+import pyarrow as pa\n+import pyarrow.parquet as pq\n+from scipy.sparse import coo_matrix\n+from scipy.sparse.csgraph import connected_components\n+\n+PROJ = Path(__file__).resolve().parent.parent.parent\n+RUN = PROJ / 'paper' / 'rebuttal' / 'full_155k_run'\n+OUTDIR = PROJ / 'results' / 'ecosystem'\n+\n+THETA = 0.80\n+if '--theta' in sys.argv:\n+    THETA = float(sys.argv[sys.argv.index('--theta') + 1])\n+tag = f'{THETA:.2f}'.replace('.', '')[:3]\n+\n+t0 = time.time()\n+ids = (RUN / 'skill_order.txt').read_text().splitlines()\n+N = len(ids)\n+print(f'corpus N={N}', flush=True)\n+\n+authors = np.array([s[1:].split('/', 1)[0] if s.startswith('@') else 'unknown' for s in ids])\n+\n+# 1. stream the pair store, keep edges above threshold\n+I, J, F = [], [], []\n+scanned = 0\n+for f in sorted(glob.glob(str(RUN / 'pairs' / '*.parquet'))):\n+    pf = pq.ParquetFile(f)\n+    for rg in range(pf.num_row_groups):\n+        t = pf.read_row_group(rg, columns=['i', 'j', 'fused'])\n+        fu = t['fused'].to_numpy(zero_copy_only=False).astype(np.float32)\n+        scanned += fu.size\n+        m = fu >= THETA\n+        if m.any():\n+            I.append(t['i'].to_numpy(zero_copy_only=False)[m].astype(np.int32))\n+            J.append(t['j'].to_numpy(zero_copy_only=False)[m].astype(np.int32))\n+            F.append(fu[m])\n+    print(f'  {os.path.basename(f)}  scanned={scanned:,}  kept={sum(len(x) for x in I):,}  ({time.time()-t0:.0f}s)', flush=True)\n+\n+I = np.concatenate(I); J = np.concatenate(J); F = np.concatenate(F)\n+n_edges = int(I.size)\n+print(f'\\nedges at theta={THETA}: {n_edges:,}   ({time.time()-t0:.0f}s)', flush=True)\n+\n+# 2. connected components\n+g = coo_matrix((np.ones(n_edges, dtype=np.int8), (I, J)), shape=(N, N))\n+ncomp, labels = connected_components(g, directed=False)\n+sizes = np.bincount(labels, minlength=ncomp)\n+singletons = int((sizes == 1).sum())\n+multi = int((sizes > 1).sum())\n+largest = int(sizes.max())\n+clone_involved = int(N - singletons)\n+cross = authors[I] != authors[J]\n+n_cross = int(cross.sum())\n+\n+# 3. write clusters (multi-skill only, largest first)\n+OUTDIR.mkdir(parents=True, exist_ok=True)\n+order = np.argsort(-sizes)\n+members = {}\n+for node, lab in enumerate(labels):\n+    if sizes[lab] > 1:\n+        members.setdefault(int(lab), []).append(node)\n+p_cl = OUTDIR / f'repro_fullcorpus_theta{tag}_clusters.jsonl'\n+with open(p_cl, 'w') as fh:\n+    cid = 0\n+    for lab in order:\n+        if sizes[lab] <= 1:\n+            continue\n+        fh.write(json.dumps({'cluster_id': cid, 'size': int(sizes[lab]),\n+                             'skill_ids': [ids[n] for n in members[int(lab)]]}) + '\\n')\n+        cid += 1\n+\n+# 4. per-skill component assignment\n+p_co = OUTDIR / f'repro_fullcorpus_theta{tag}_components.tsv'\n+with open(p_co, 'w') as fh:\n+    fh.write('skill_id\\tcomponent_id\\tcomponent_size\\n')\n+    for node in range(N):\n+        fh.write(f'{ids[node]}\\t{int(labels[node])}\\t{int(sizes[labels[node]])}\\n')\n+\n+# 5. edge list\n+p_ed = OUTDIR / f'repro_fullcorpus_theta{tag}_edges.parquet'\n+pq.write_table(pa.table({\n+    'skill_a': pa.array([ids[x] for x in I]).dictionary_encode(),\n+    'skill_b': pa.array([ids[x] for x in J]).dictionary_encode(),\n+    'fused': pa.array(F, type=pa.float32()),\n+    'cross_author': pa.array(cross),\n+}), p_ed, compression='zstd')\n+\n+# 6. stats + cross-check against the published Table 5\n+paper = {'n_edges': 1059923, 'components': 56043, 'singletons': 45678,\n+         'multi_skill_clusters': 10365, 'largest_cluster': 61651,\n+         'clone_involved_skills': 91792, 'cross_author_pairs': 1010480}\n+got = {'n_edges': n_edges, 'components': int(ncomp), 'singletons': singletons,\n+       'multi_skill_clusters': multi, 'largest_cluster': largest,\n+       'clone_involved_skills': clone_involved, 'cross_author_pairs': n_cross}\n+stats = {'theta': THETA, 'N': N, 'scanned_pairs': int(scanned),\n+         'clone_involvement_rate': round(clone_involved / N, 6),\n+         'cross_author_rate': round(n_cross / n_edges, 6),\n+         'inflation_ratio': round(N / ncomp, 6),\n+         'derived': got, 'paper_table5': paper,\n+         'matches_paper': {k: (got[k] == paper[k]) for k in paper}}\n+(OUTDIR / f'repro_fullcorpus_theta{tag}_clusters_stats.json').write_text(json.dumps(stats, indent=2))\n+\n+print('\\n=== derived vs published Table 5 ===')\n+for k in paper:\n+    print('  {:<24} derived {:>10,}   paper {:>10,}   {}'.format(\n+        k, got[k], paper[k], 'MATCH' if got[k] == paper[k] else 'DIFFERS'))\n+print('\\nclone involvement {:.4f}  cross-author {:.4f}  inflation {:.4f}x'.format(\n+    clone_involved / N, n_cross / n_edges, N / ncomp))\n+for p in (p_cl, p_co, p_ed):\n+    print('wrote {}  ({:.1f} MB)'.format(p.name, os.path.getsize(p) / 1e6))\n+print(f'total {time.time()-t0:.0f}s')"
+      }
+    ]
+  },
+  "tree": {
+    "sha": "0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+    "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/0125acaaac79ef3fd5ab3146549de5c2b84b6785",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e1aa6b39955267e65706594f1f49d822a80835e",
+        "size": 169,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/7e1aa6b39955267e65706594f1f49d822a80835e"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "154729c0fff5717fa4d680819b952fd612c8e238",
+        "size": 9098,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/154729c0fff5717fa4d680819b952fd612c8e238"
+      },
+      {
+        "path": "benchmark",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d1c114183c82c86327a515908230528c73a14f2f",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/d1c114183c82c86327a515908230528c73a14f2f"
+      },
+      {
+        "path": "benchmark/auto_labeled.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b788c72e9a2c2eacf07e914093d7ecbd88b65bd7",
+        "size": 104790,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/b788c72e9a2c2eacf07e914093d7ecbd88b65bd7"
+      },
+      {
+        "path": "benchmark/benchmark_stats.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59b56fdd3062cb66a75917d432b133692c503af4",
+        "size": 980,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/59b56fdd3062cb66a75917d432b133692c503af4"
+      },
+      {
+        "path": "benchmark/evaluation_results.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db7027c2c85cb88fcc1108c33f7c8013f4ef21af",
+        "size": 7363,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/db7027c2c85cb88fcc1108c33f7c8013f4ef21af"
+      },
+      {
+        "path": "benchmark/evaluation_results_v2.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e8c31a077bebaa0f6e83a8fc4a3176d157889fa",
+        "size": 3607,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/8e8c31a077bebaa0f6e83a8fc4a3176d157889fa"
+      },
+      {
+        "path": "benchmark/synthetic_contents.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e63df6801d4dca3cafc3a619d796c61d5280e8b1",
+        "size": 462071,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/e63df6801d4dca3cafc3a619d796c61d5280e8b1"
+      },
+      {
+        "path": "config.ini.example",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e019f6d13660a175eb35b5bb72e27adae8b04cc",
+        "size": 312,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/6e019f6d13660a175eb35b5bb72e27adae8b04cc"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bfabf3bb0c54749f4b7b7eac34e3dc49f267a792",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/bfabf3bb0c54749f4b7b7eac34e3dc49f267a792"
+      },
+      {
+        "path": "data/gold_standard",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2dcfc910e9036188b1ca45ff6f244d4f279dacdb",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/2dcfc910e9036188b1ca45ff6f244d4f279dacdb"
+      },
+      {
+        "path": "data/gold_standard/annotation_guidelines.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63d71ff8bf8ca4ae7cc32db2039a5a4b20b1843d",
+        "size": 10442,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/63d71ff8bf8ca4ae7cc32db2039a5a4b20b1843d"
+      },
+      {
+        "path": "data/skills_catalog.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6edc2ee62a6c83d530f49addffb6ec347479214",
+        "size": 61089,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/d6edc2ee62a6c83d530f49addffb6ec347479214"
+      },
+      {
+        "path": "requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5dbee3301ea7c1a5bceb8d1d6a7bd8872dd5c188",
+        "size": 134,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/5dbee3301ea7c1a5bceb8d1d6a7bd8872dd5c188"
+      },
+      {
+        "path": "results",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dc5e54a9cac61c0aa819cbc98f9f85aac47af557",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/dc5e54a9cac61c0aa819cbc98f9f85aac47af557"
+      },
+      {
+        "path": "results/ecosystem",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b7f6376df68ca0a91b462eac109aee124df41776",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/b7f6376df68ca0a91b462eac109aee124df41776"
+      },
+      {
+        "path": "results/ecosystem/repro_fullcorpus_theta080_clusters.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a80775b2d88e72c20bf172ff731a409db257eb1f",
+        "size": 3504525,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/a80775b2d88e72c20bf172ff731a409db257eb1f"
+      },
+      {
+        "path": "results/ecosystem/repro_fullcorpus_theta080_clusters_stats.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8beb008800d2cae0bdcfaff548b81836ee57dfac",
+        "size": 853,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/8beb008800d2cae0bdcfaff548b81836ee57dfac"
+      },
+      {
+        "path": "results/ecosystem/repro_fullcorpus_theta080_components.tsv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08a873604cb9d52433433ff73a39f1aacc2626c2",
+        "size": 5139736,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/08a873604cb9d52433433ff73a39f1aacc2626c2"
+      },
+      {
+        "path": "results/ecosystem/repro_fullcorpus_theta080_edges.parquet",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab8c2ca2b3affae304d2521c4b8a4dd3905fe3dd",
+        "size": 6825669,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/ab8c2ca2b3affae304d2521c4b8a4dd3905fe3dd"
+      },
+      {
+        "path": "scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ac1f8fe34e058be14e33575d0355b9b43ed5d610",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/ac1f8fe34e058be14e33575d0355b9b43ed5d610"
+      },
+      {
+        "path": "scripts/dump_fullcorpus_clusters.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ade6a19454c1b118c3365f5a0066a4e7b33cc275",
+        "size": 5565,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/ade6a19454c1b118c3365f5a0066a4e7b33cc275"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d65176c5e269637f556505d2583661f806e4247a",
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/trees/d65176c5e269637f556505d2583661f806e4247a"
+      },
+      {
+        "path": "src/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7dbe2f325b90c57c7b4527ca1598fc9459cc2b76",
+        "size": 51,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/7dbe2f325b90c57c7b4527ca1598fc9459cc2b76"
+      },
+      {
+        "path": "src/annotator.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a11142b68812cf40027b4b8b8ef830a3c01349bb",
+        "size": 9620,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/a11142b68812cf40027b4b8b8ef830a3c01349bb"
+      },
+      {
+        "path": "src/ast_similarity.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72089eb0753d20e601e7abb3b7712d6efd7cb168",
+        "size": 7304,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/72089eb0753d20e601e7abb3b7712d6efd7cb168"
+      },
+      {
+        "path": "src/benchmark.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a089686e62da754fa5d52310d816e959a6d77265",
+        "size": 50172,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/a089686e62da754fa5d52310d816e959a6d77265"
+      },
+      {
+        "path": "src/contrastive_fusion.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2bba960851c2a1449def4149a6ab459625b2af7",
+        "size": 17437,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/d2bba960851c2a1449def4149a6ab459625b2af7"
+      },
+      {
+        "path": "src/embeddings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8255ffcec4a073f46f0dce1e4bc3bc70c31d0c25",
+        "size": 8550,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/8255ffcec4a073f46f0dce1e4bc3bc70c31d0c25"
+      },
+      {
+        "path": "src/llm_config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "710fbb1b10d04d6298aa80805ab96cad82603daa",
+        "size": 3004,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/710fbb1b10d04d6298aa80805ab96cad82603daa"
+      },
+      {
+        "path": "src/local_embeddings.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2be82e2cf3b604a7565530ddbd1ae52682752089",
+        "size": 11845,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/2be82e2cf3b604a7565530ddbd1ae52682752089"
+      },
+      {
+        "path": "src/models.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ad35a0367e323868368d5706359a94ed32bb9b1",
+        "size": 1778,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/5ad35a0367e323868368d5706359a94ed32bb9b1"
+      },
+      {
+        "path": "src/phase0_characterization.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "480134716a2206d33c7181f6c3a9d9190cba9d95",
+        "size": 6530,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/480134716a2206d33c7181f6c3a9d9190cba9d95"
+      },
+      {
+        "path": "src/phase1_preprocessing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08a763132e15fd2f7eb8cfcbd960e0f509e6a5a7",
+        "size": 10248,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/08a763132e15fd2f7eb8cfcbd960e0f509e6a5a7"
+      },
+      {
+        "path": "src/phase2_similarity.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d36dcb056159f3a6fa0c9a918518d2049e978445",
+        "size": 17689,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/d36dcb056159f3a6fa0c9a918518d2049e978445"
+      },
+      {
+        "path": "src/phase3_fusion.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e032844129fa1e1a534ba6e4d3fb958fe66bb383",
+        "size": 17512,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/e032844129fa1e1a534ba6e4d3fb958fe66bb383"
+      },
+      {
+        "path": "src/phase4_graph.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd3cb07f4006c1ce1a654fdd775067097218ab82",
+        "size": 11194,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/dd3cb07f4006c1ce1a654fdd775067097218ab82"
+      },
+      {
+        "path": "src/phase5_blast_radius.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b72bd93686efc03121f46a8179233b64b601c41c",
+        "size": 18929,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/b72bd93686efc03121f46a8179233b64b601c41c"
+      },
+      {
+        "path": "src/phase_a_fetch_content.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a381e89e433378347de300f955a4b62250a3bef7",
+        "size": 22103,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/a381e89e433378347de300f955a4b62250a3bef7"
+      },
+      {
+        "path": "src/pipeline.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c597d517e59e0b4a0bd723106c9e94b42b65d1cf",
+        "size": 32810,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/c597d517e59e0b4a0bd723106c9e94b42b65d1cf"
+      },
+      {
+        "path": "src/pipeline_v2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6cd4f87f83965220a95efbb836f64fd9e56968a1",
+        "size": 24878,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/6cd4f87f83965220a95efbb836f64fd9e56968a1"
+      },
+      {
+        "path": "src/run_eval_cached.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f67f799394d52c00ca850569afa1f07706fdd59",
+        "size": 14851,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/9f67f799394d52c00ca850569afa1f07706fdd59"
+      },
+      {
+        "path": "src/run_eval_local.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "784b6baa9cb1b0d82f8def4d7aa4d17797f44120",
+        "size": 14318,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/784b6baa9cb1b0d82f8def4d7aa4d17797f44120"
+      },
+      {
+        "path": "src/run_evaluation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dab2d0b27f9054e3595ccdeb3ca279612d8cdf77",
+        "size": 6896,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/dab2d0b27f9054e3595ccdeb3ca279612d8cdf77"
+      },
+      {
+        "path": "src/security_propagation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7302cdf8049fd84fec0ac76f69398b3ac2abfeb",
+        "size": 20943,
+        "url": "https://api.github.com/repos/zly123987/skill-reuse/git/blobs/a7302cdf8049fd84fec0ac76f69398b3ac2abfeb"
+      }
+    ],
+    "truncated": false
+  }
+}
