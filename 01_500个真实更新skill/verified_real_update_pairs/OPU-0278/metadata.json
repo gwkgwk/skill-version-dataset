@@ -1,0 +1,193 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/api-gateway-troubleshooting/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "04f663f3ed8a0d18d63b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "613a3929dce4289513c1c8e88539050974ed7ce6",
+    "computed_tree_sha": "a5d14f947733fe29b07c120446a313aa6becf938",
+    "api_tree_sha_as_returned": "a5d14f947733fe29b07c120446a313aa6becf938",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f65e0d386dd625f66c9af654e78ffdc425daa0a7",
+        "sha256": "1e4b0bcd8e7b2dfec8fb314df400ea46a5f42287d02de9a2b32f5b688e5ebf92",
+        "size": 20581,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "c36aab5e7bbd62374ea7bcc25fdb972b6c16c51b",
+        "sha256": "c1ca116b587052d8dd865699657efdffbe6b50429d56dff0912fb78bec152998",
+        "size": 1925,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-errors.md",
+        "git_blob_sha1": "f3d0a7a88b3047ca8965b301bbc0122dc444e0f2",
+        "sha256": "025615938d976207d4574353188a6de22c3729878bf5494ff862f8aa70051643",
+        "size": 10606,
+        "mode": "100644"
+      },
+      {
+        "path": "references/backend-routing-and-timeouts.md",
+        "git_blob_sha1": "9f9ea78a1e5a24f0789fd854d192c1096d6d9eb9",
+        "sha256": "7102ceaec3b636cc3625ac2852ede095769da3d5586d88d3f1dc5b3445f656bf",
+        "size": 7592,
+        "mode": "100644"
+      },
+      {
+        "path": "references/config-deployment-errors.md",
+        "git_blob_sha1": "788738c5e4ff0edd0177b9a630756ac31f5e7356",
+        "sha256": "a2457d72864704d98fcb6692c785d94170d8238e5d2b6a1137c378d57a2c25ca",
+        "size": 5059,
+        "mode": "100644"
+      },
+      {
+        "path": "references/limits-and-escalation.md",
+        "git_blob_sha1": "d82256a35db22e5a89e506abdcde8f3c5edb4385",
+        "sha256": "3e7dd8401f1668415944dac8b32f0ef57b2f7481ee6551d9c1c5b65542c7a6d2",
+        "size": 4512,
+        "mode": "100644"
+      },
+      {
+        "path": "references/networking-domains-tls.md",
+        "git_blob_sha1": "73c5ddbf4c40a2008c055c77142f9b6137db017b",
+        "sha256": "2ba2b93a31838a84994b7d6fa34a4ce02b38935a7a93d7f92be6bc2a949dcbde",
+        "size": 4913,
+        "mode": "100644"
+      },
+      {
+        "path": "references/triage-and-logs.md",
+        "git_blob_sha1": "4462997779284414003b74d2b32f6c844c5e527d",
+        "sha256": "4fd37013d4abc5a4c2c697cabc50f58900afb2869b8d1554071fe339944b0a66",
+        "size": 7833,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/lint_openapi_for_gateway.py",
+        "git_blob_sha1": "b6dc47604164a2590c3040fc9f1f61d75215abb0",
+        "sha256": "5dcaf096094e0cac105b7a11a29599f8fbbd2060dc414f2b7bc112850a16f9b6",
+        "size": 25829,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+    "computed_tree_sha": "71f5aebafbe9a216f9740b3168447d6c962f4e1a",
+    "api_tree_sha_as_returned": "71f5aebafbe9a216f9740b3168447d6c962f4e1a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c444e5ab5439054e589c270167f3e6c87ae51e99",
+        "sha256": "83d98a963e1a66c14942a0b15f14f6d1b4b2f3f5ef51e3ffc718505e7b48c3dc",
+        "size": 19611,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "c36aab5e7bbd62374ea7bcc25fdb972b6c16c51b",
+        "sha256": "c1ca116b587052d8dd865699657efdffbe6b50429d56dff0912fb78bec152998",
+        "size": 1925,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-errors.md",
+        "git_blob_sha1": "fc9fb4d05bede7ea48e45756e32e6ad272adb5e2",
+        "sha256": "edb16ec815f91a984b9a63d8a98a95e9bbc367cc42e73794b332cbf35649d0b8",
+        "size": 10489,
+        "mode": "100644"
+      },
+      {
+        "path": "references/backend-routing-and-timeouts.md",
+        "git_blob_sha1": "9f9ea78a1e5a24f0789fd854d192c1096d6d9eb9",
+        "sha256": "7102ceaec3b636cc3625ac2852ede095769da3d5586d88d3f1dc5b3445f656bf",
+        "size": 7592,
+        "mode": "100644"
+      },
+      {
+        "path": "references/config-deployment-errors.md",
+        "git_blob_sha1": "788738c5e4ff0edd0177b9a630756ac31f5e7356",
+        "sha256": "a2457d72864704d98fcb6692c785d94170d8238e5d2b6a1137c378d57a2c25ca",
+        "size": 5059,
+        "mode": "100644"
+      },
+      {
+        "path": "references/limits-and-escalation.md",
+        "git_blob_sha1": "d82256a35db22e5a89e506abdcde8f3c5edb4385",
+        "sha256": "3e7dd8401f1668415944dac8b32f0ef57b2f7481ee6551d9c1c5b65542c7a6d2",
+        "size": 4512,
+        "mode": "100644"
+      },
+      {
+        "path": "references/networking-domains-tls.md",
+        "git_blob_sha1": "73c5ddbf4c40a2008c055c77142f9b6137db017b",
+        "sha256": "2ba2b93a31838a84994b7d6fa34a4ce02b38935a7a93d7f92be6bc2a949dcbde",
+        "size": 4913,
+        "mode": "100644"
+      },
+      {
+        "path": "references/triage-and-logs.md",
+        "git_blob_sha1": "4462997779284414003b74d2b32f6c844c5e527d",
+        "sha256": "4fd37013d4abc5a4c2c697cabc50f58900afb2869b8d1554071fe339944b0a66",
+        "size": 7833,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/lint_openapi_for_gateway.py",
+        "git_blob_sha1": "9864d0445735812d30a2fc6e0091c42724d62af1",
+        "sha256": "81d44b31ecd6c4c1dc07f76920f5e067b454f29d9cb3565dfd13f134333b54ab",
+        "size": 25641,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/auth-errors.md",
+    "scripts/lint_openapi_for_gateway.py"
+  ],
+  "old_commit": "613a3929dce4289513c1c8e88539050974ed7ce6",
+  "new_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "No public description\n\nPiperOrigin-RevId: 1026868521",
+  "new_commit_time": "2026-11-21T01:29:05Z",
+  "compare_url": "https://github.com/google/skills/compare/613a3929dce4289513c1c8e88539050974ed7ce6...4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "commit_url": "https://github.com/google/skills/commit/4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "skill_directory": "skills/cloud/api-gateway-troubleshooting",
+  "local_directory": "verified_real_update_pairs/OPU-0278",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0278",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

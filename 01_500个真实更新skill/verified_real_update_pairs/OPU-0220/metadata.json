@@ -1,0 +1,255 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-eval-flywheel/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "888aebe9bfbbc380d5f4",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "cb11c49ce1076788d69115a9f001b07b4ba0b616",
+    "computed_tree_sha": "157b613b2fbbe860c1b87120d70eed29ba88b9af",
+    "api_tree_sha_as_returned": "157b613b2fbbe860c1b87120d70eed29ba88b9af",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0072815e8cfdff81e2415b70394cb644b230a92a",
+        "sha256": "bc6604a0b22a2cda2a2468749051dfdf2a209130650c9826f53f68c80b2641a9",
+        "size": 29798,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dataset_schema.md",
+        "git_blob_sha1": "01f43e74fa1f89ae34f8e65392c61dce10c3e1ae",
+        "sha256": "f45c02188d98c3726ff5c54a314d68848ca2594f5d4d8b37858da7296d96706e",
+        "size": 11281,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment.md",
+        "git_blob_sha1": "e7fe54b2c023c6cc582cacda6bc0201b4d7775bb",
+        "sha256": "c1df8540625008511521ed865f3281e729c7b9efd914cf3acf835d0ef77d5350",
+        "size": 7244,
+        "mode": "100644"
+      },
+      {
+        "path": "references/failure_patterns.md",
+        "git_blob_sha1": "ec9c1d278244f5dcab80e1e61379c2fb32271be9",
+        "sha256": "861e35adcd3fffc81f3d0e204d4bd348f1737fd16cd323f6e1bbbfd40ca62e71",
+        "size": 6356,
+        "mode": "100644"
+      },
+      {
+        "path": "references/metric_registry.md",
+        "git_blob_sha1": "0ba2a362ce4c030286571ce049e06e850e722f16",
+        "sha256": "a91120280d8b3704e2269f1236ad5a4ef83338ac273391573c6c8faafd00ed9d",
+        "size": 16457,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk_patterns.md",
+        "git_blob_sha1": "27b9d200b6a352f1542773e237cee34f82019297",
+        "sha256": "7ec537938330c7fb09e9e6c258b6142c7a18be3f3df3d202c95d12728687446f",
+        "size": 11460,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/compare_results.py",
+        "git_blob_sha1": "ff7a160a6c30121bb4bd065eb87a602da6840d63",
+        "sha256": "27100ae990acb95c3c73f38627b6fc55e4fa0450b6a9f3415ed5f64c85d18ece",
+        "size": 6328,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/endpoint_evaluation.py",
+        "git_blob_sha1": "772e37bb174ecb98c928974cab89b648a26f8e4d",
+        "sha256": "61d268dd4e6f6635758926a59a14ddedec5baf2da55fec80618092c51cfb17e4",
+        "size": 5410,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect_results.py",
+        "git_blob_sha1": "2ad50789969b037bf3c0b355f31329da45e8a8f7",
+        "sha256": "155d9c03a92ee3c202dd283e536400e8dea63687141888ea8ec86179d8937efe",
+        "size": 6824,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/maas_evaluation.py",
+        "git_blob_sha1": "21889476b569e42db53861e5b9903d8aef158b76",
+        "sha256": "23070c6e5346b4ed0c23efb1c80a4d13d97bd81caf71a0507e85eae9c57652c4",
+        "size": 2344,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/parse_adk_traces.py",
+        "git_blob_sha1": "db37313ab864e52902fc97bf285e36d7fcfca6d3",
+        "sha256": "4ccdc48d55719c6b3bdc003d0792e3ba5c872830dd623db5c17aa0d8cd5279d1",
+        "size": 8639,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/render_html_report.py",
+        "git_blob_sha1": "368196240d27815c5e178d51424b61eeefbd58c6",
+        "sha256": "bb38e29b7d5be05ec8058d3e0e6af4ee0e39eb4b3c323f3c6cb3636dca66cbe2",
+        "size": 3768,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_dataset.py",
+        "git_blob_sha1": "c4bac8f6526c57f6100b9fc95e9eb501d48795a0",
+        "sha256": "8afccfbca6e26c76c452ef7fa4e7ab0def43f3aa03b553e8991f99e42c02a669",
+        "size": 11205,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "8d65fc35b9b486ce1b126c0f8c41098bbc6f0614",
+    "computed_tree_sha": "fd526e5b5618e19f800cbfb4466ab299bbce63b4",
+    "api_tree_sha_as_returned": "fd526e5b5618e19f800cbfb4466ab299bbce63b4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "04c6762455c3681a692efd0d7ef3d783dec1977c",
+        "sha256": "17ba2fac40d1c5c9dce0b0346288dc787311788de721182af78e2342d605ce91",
+        "size": 30929,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "cf7aa7ebb3c88aa3116b982d19977434bc6f1bf8",
+        "sha256": "8e91365f4d41ec4de9d6c611faf04093493b0f0489c41ee9ce9be85301b82057",
+        "size": 1958,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dataset_schema.md",
+        "git_blob_sha1": "01f43e74fa1f89ae34f8e65392c61dce10c3e1ae",
+        "sha256": "f45c02188d98c3726ff5c54a314d68848ca2594f5d4d8b37858da7296d96706e",
+        "size": 11281,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment.md",
+        "git_blob_sha1": "e7fe54b2c023c6cc582cacda6bc0201b4d7775bb",
+        "sha256": "c1df8540625008511521ed865f3281e729c7b9efd914cf3acf835d0ef77d5350",
+        "size": 7244,
+        "mode": "100644"
+      },
+      {
+        "path": "references/failure_patterns.md",
+        "git_blob_sha1": "ec9c1d278244f5dcab80e1e61379c2fb32271be9",
+        "sha256": "861e35adcd3fffc81f3d0e204d4bd348f1737fd16cd323f6e1bbbfd40ca62e71",
+        "size": 6356,
+        "mode": "100644"
+      },
+      {
+        "path": "references/metric_registry.md",
+        "git_blob_sha1": "0ba2a362ce4c030286571ce049e06e850e722f16",
+        "sha256": "a91120280d8b3704e2269f1236ad5a4ef83338ac273391573c6c8faafd00ed9d",
+        "size": 16457,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk_patterns.md",
+        "git_blob_sha1": "27b9d200b6a352f1542773e237cee34f82019297",
+        "sha256": "7ec537938330c7fb09e9e6c258b6142c7a18be3f3df3d202c95d12728687446f",
+        "size": 11460,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/compare_results.py",
+        "git_blob_sha1": "ff7a160a6c30121bb4bd065eb87a602da6840d63",
+        "sha256": "27100ae990acb95c3c73f38627b6fc55e4fa0450b6a9f3415ed5f64c85d18ece",
+        "size": 6328,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/endpoint_evaluation.py",
+        "git_blob_sha1": "772e37bb174ecb98c928974cab89b648a26f8e4d",
+        "sha256": "61d268dd4e6f6635758926a59a14ddedec5baf2da55fec80618092c51cfb17e4",
+        "size": 5410,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect_results.py",
+        "git_blob_sha1": "2ad50789969b037bf3c0b355f31329da45e8a8f7",
+        "sha256": "155d9c03a92ee3c202dd283e536400e8dea63687141888ea8ec86179d8937efe",
+        "size": 6824,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/maas_evaluation.py",
+        "git_blob_sha1": "21889476b569e42db53861e5b9903d8aef158b76",
+        "sha256": "23070c6e5346b4ed0c23efb1c80a4d13d97bd81caf71a0507e85eae9c57652c4",
+        "size": 2344,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/parse_adk_traces.py",
+        "git_blob_sha1": "db37313ab864e52902fc97bf285e36d7fcfca6d3",
+        "sha256": "4ccdc48d55719c6b3bdc003d0792e3ba5c872830dd623db5c17aa0d8cd5279d1",
+        "size": 8639,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/render_html_report.py",
+        "git_blob_sha1": "368196240d27815c5e178d51424b61eeefbd58c6",
+        "sha256": "bb38e29b7d5be05ec8058d3e0e6af4ee0e39eb4b3c323f3c6cb3636dca66cbe2",
+        "size": 3768,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_dataset.py",
+        "git_blob_sha1": "c4bac8f6526c57f6100b9fc95e9eb501d48795a0",
+        "sha256": "8afccfbca6e26c76c452ef7fa4e7ab0def43f3aa03b553e8991f99e42c02a669",
+        "size": 11205,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "cb11c49ce1076788d69115a9f001b07b4ba0b616",
+  "new_commit": "8d65fc35b9b486ce1b126c0f8c41098bbc6f0614",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update the Agent Platform skills.\n\n- Keep the agent-platform-tuning frontmatter description unchanged so the automated Copybara export matches third_party/skills/index.json.\n- Add standardized usage attribution to Agent Platform skills.  - Add `references/attribution.md` to all 9 Model Garden Agent Platform skills. - Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Default validation_split to None in convert_to_jsonl so programmatic prompt_only=True calls do not fail, and include adapter size 2 in tune_open_model.py CLI choices.\n- Add Qwen3.8-27B to the open-model tuning catalog and cost calculator.\n- Add distillation tuning to the agent-platform-tuning skill: supported teacher and student models, prompt-only training datasets (prepare_dataset.py --prompt_only), and --method/--teacher_model flags in tune_open_model.py.\n- Improve skill instructions for model-registry and agent-cli skills.\n- Improve skill instructions for tuning, tuning-management, and eval-flywheel skills.\n- Improve interactive confirmation and post-deletion verification guidance in prompt management skill.\n- Improve deployment region confirmation and hardware validation guidance in agent-platform-deploy skill.\n\nPiperOrigin-RevId: 1012386873",
+  "new_commit_time": "2026-11-02T21:01:16Z",
+  "compare_url": "https://github.com/google/skills/compare/cb11c49ce1076788d69115a9f001b07b4ba0b616...8d65fc35b9b486ce1b126c0f8c41098bbc6f0614",
+  "commit_url": "https://github.com/google/skills/commit/8d65fc35b9b486ce1b126c0f8c41098bbc6f0614",
+  "skill_directory": "skills/cloud/agent-platform-eval-flywheel",
+  "local_directory": "verified_real_update_pairs/OPU-0220",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0220",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

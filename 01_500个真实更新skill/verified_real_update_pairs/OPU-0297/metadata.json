@@ -1,0 +1,161 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/static-analysis/skills/sarif-parsing/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "c6eff56ab5fb5d88bd9f",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "9e06dc67a31fc291e76ad28b690abfd350a8fd6d",
+    "computed_tree_sha": "aff04c74300b90c301ffa7b656a4040e401d20a0",
+    "api_tree_sha_as_returned": "aff04c74300b90c301ffa7b656a4040e401d20a0",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e5b1a754f35d509770c18e0a8003ec59843fc275",
+        "sha256": "1cba2c881125662e594e615fd82bf0b4fdfb30446e9a55aff149ccfba3db6c68",
+        "size": 15401,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/jq-queries.md",
+        "git_blob_sha1": "6f5377e3a9dd27ace951234eb660365b150431b2",
+        "sha256": "d7fb98ee8859f37a2b2bddd56cef6e8f165409472a14e56631454ed2348c55cd",
+        "size": 5267,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/sarif_helpers.py",
+        "git_blob_sha1": "e19f327bfddf7014a8ce3ba1c5fac5c763e17427",
+        "sha256": "26159c7405b6aad7c01ae0d6e09a82a6aa26a1bfd1ad685a8e2954e4763f4d60",
+        "size": 10196,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+    "computed_tree_sha": "c6f2785d98fa5a97b1ecce3892a0f1b72da402bd",
+    "api_tree_sha_as_returned": "c6f2785d98fa5a97b1ecce3892a0f1b72da402bd",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f61b06f9ad50bace183edb70eb378eb44dbb9756",
+        "sha256": "cc5f008f40ffb8a1ae03ebd32d7234de43e828293955a0bc251b76ba249554fa",
+        "size": 17925,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/fixtures/codeql-no-level.sarif",
+        "git_blob_sha1": "c4d036f932340ee31bfa2f4f467608c662006429",
+        "sha256": "edc92b09e4d8b1247ec87f081c68caa1843d8407063508ad33aab13327ba386a",
+        "size": 2302,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/fixtures/levels-on-results.sarif",
+        "git_blob_sha1": "ed758403979df8873e4df00ebf2ac35bc75d75a5",
+        "sha256": "625e8175a3c68d0d11f7e4c14095dddff5056d52a539e3153180cdb37ce50c6b",
+        "size": 1782,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/jq-queries.md",
+        "git_blob_sha1": "4350e2ba5ab7f362d63f69bff120e0d988c77c6a",
+        "sha256": "f44ec4e219c93504ec69fdeb2c60668ee3934585e5565fffdaa43f6b224b5d6a",
+        "size": 7868,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/sarif_helpers.py",
+        "git_blob_sha1": "a817f0386b5ebabd81d571da95b801d68025b535",
+        "sha256": "06d8e63849bd2b93baf31b23a33550447eed2ac457c2687f173933039e5ad247",
+        "size": 13027,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/test_sarif_helpers.py",
+        "git_blob_sha1": "77409d2a675581d867777d452dfe738dc909433c",
+        "sha256": "5efc4e50f3dbd81ea223049b1892653a46bce0c273904d0b04e43e449343fe17",
+        "size": 14028,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "resources/fixtures/codeql-no-level.sarif",
+    "resources/fixtures/levels-on-results.sarif",
+    "resources/jq-queries.md",
+    "resources/sarif_helpers.py",
+    "resources/test_sarif_helpers.py"
+  ],
+  "old_commit": "9e06dc67a31fc291e76ad28b690abfd350a8fd6d",
+  "new_commit": "9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "static-analysis: resolve SARIF severity from the rule, not just result.level (#271)\n\n* static-analysis: resolve SARIF severity from the rule\n\nresult.level is optional in SARIF 2.1.0 and CodeQL never emits it: severity\nlives on the rule as defaultConfiguration.level and the result inherits it.\nsarif-parsing read result.level directly in the helper, the jq reference and\nthe SKILL, so the documented CI gate counted zero errors on a CodeQL run\nhowever many it found.\n\nresolve_level() now joins the rule by ruleIndex, falls back to ruleId, and\nreturns result.level when present, \"warning\" when neither states one, and\n\"none\" for a kind other than \"fail\" so passing compliance records do not\ninherit an error. The jq queries and every SKILL example resolve the same way.\n\ncompute_fingerprint() hashed the basename alone, so the same rule at the same\nline in two directories collided and deduplicate() dropped the second finding.\nIt now hashes the whole normalized path.\n\nTwo fixtures and a pytest suite pin both: fixtures/codeql-no-level.sarif holds\none error reachable only through its rule, fixtures/levels-on-results.sarif\nholds one error on the result, and the suite runs the documented jq gate over\nboth so the docs cannot drift from the helper.\n\nFixes #262\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: reject a negative ruleIndex in the jq resolver\n\nSARIF writes ruleIndex: -1 for \"no rule\", and $rules[-1] in jq is the last\nelement, so the documented function labelled those results with whatever\nseverity the final rule in the array happened to carry. The Python resolver\nalready rejected it through its 0 <= index < len(rules) bound; the jq copies\nnow require >= 0 too, and a test pins both.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: run the documented GitHub Actions gate in the suite\n\nThe workflow step inlines its own copy of the resolver, since a workflow has\nno shell variable to paste LEVEL_FN into, so comparing the LEVEL_FN blocks\nleft the one artifact issue #262 named untested. The suite now extracts that\nstep's jq program and runs it over both fixtures.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: coalesce null kind and drop the misleading pysarif level example\n\nresolve_level read `result.get(\"kind\", \"fail\")`, which only defaults when the key\nis absent; an explicit `\"kind\": null` returned \"none\" and hid a real error, where\nthe jq gate's `// \"fail\"` coalesces it to a fail. Coalesce null to \"fail\" so the two\nresolvers agree, and add a null/fail regression test the buggy form fails.\n\nThe pysarif Strategy 2 example computed `result.level or rule_levels.get(...)`, but\npysarif fills a missing result.level with \"warning\", so the rule-inheritance fallback\nwas dead code and a CodeQL error printed as \"warning\". Drop it and point severity\ngating at Strategy 1's level() or resolve_level(), which resolve from the rule.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014UFqJu1ada7gXjD9peo1rX\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-19T21:38:12Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/9e06dc67a31fc291e76ad28b690abfd350a8fd6d...9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+  "commit_url": "https://github.com/trailofbits/skills/commit/9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+  "skill_directory": "plugins/static-analysis/skills/sarif-parsing",
+  "local_directory": "verified_real_update_pairs/OPU-0297",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0297",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

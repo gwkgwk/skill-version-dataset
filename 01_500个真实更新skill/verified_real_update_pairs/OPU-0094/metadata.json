@@ -1,0 +1,107 @@
+{
+  "repository": "google-labs-code/stitch-skills",
+  "primary": "plugins/stitch-design/skills/manage-design-system/SKILL.md",
+  "pinned_commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+  "repository_license": "Apache-2.0",
+  "key": "76e552941c1bc063625b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "1544aa4a3be93e7515b0c27d32722f7ca5a2f691",
+    "computed_tree_sha": "be31fe3ab771d4bbf0d99243e1ade27ca7efe07c",
+    "api_tree_sha_as_returned": "be31fe3ab771d4bbf0d99243e1ade27ca7efe07c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b1a6bfaf462e6dfc6a921622dcb4ea766e80756d",
+        "sha256": "29dbbc9b9483cef9b03cde53d3f87bc59b3d4c47cd28decb11bb3ca2e0e5f8db",
+        "size": 5291,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/metadata.json",
+        "git_blob_sha1": "b55e1b75432927bd955cac4fc13fed31b89e6c70",
+        "sha256": "4d93c7d897caa26a3b0f26e7b0312017555b2d8beb997c4edd1a3f6e478e8c90",
+        "size": 546,
+        "mode": "100644"
+      },
+      {
+        "path": "reference/tool-schema.md",
+        "git_blob_sha1": "883e0c4a707a0df1e4cd9bb1718d1328be3b7c3a",
+        "sha256": "b0d4f0d80127c3f576ddb3412543e7f99dcd08c3e88c9712987c3c7359c613f0",
+        "size": 6630,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "22716f97492ef1189306f0a03595f99129ae113a",
+    "computed_tree_sha": "739b7b13eb18f6f80c41daf24e9c3bc966dc50de",
+    "api_tree_sha_as_returned": "739b7b13eb18f6f80c41daf24e9c3bc966dc50de",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d45bef7b8c8bd0e1120244c39c0189db787c23b2",
+        "sha256": "5ce0b8adb5261e8a926fc0942d679cda0421ac29e8159a6ee38e5d940bc9658e",
+        "size": 5663,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/metadata.json",
+        "git_blob_sha1": "b55e1b75432927bd955cac4fc13fed31b89e6c70",
+        "sha256": "4d93c7d897caa26a3b0f26e7b0312017555b2d8beb997c4edd1a3f6e478e8c90",
+        "size": 546,
+        "mode": "100644"
+      },
+      {
+        "path": "reference/tool-schema.md",
+        "git_blob_sha1": "883e0c4a707a0df1e4cd9bb1718d1328be3b7c3a",
+        "sha256": "b0d4f0d80127c3f576ddb3412543e7f99dcd08c3e88c9712987c3c7359c613f0",
+        "size": 6630,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "1544aa4a3be93e7515b0c27d32722f7ca5a2f691",
+  "new_commit": "22716f97492ef1189306f0a03595f99129ae113a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(stitch-design): add markdown upload support and generated-by provenance tracking\n\n- upload_to_stitch.py: Add .md extension / text/markdown MIME mapping\n- upload_to_stitch.py: Add --generated-by argument to set the generatedBy field on HTML/Markdown screens\n- upload_to_stitch.py: Add warning when --generated-by is passed on image uploads (ignored)\n- upload_to_stitch.py: Define global SSL context using certifi.where() fallback if package is available\n- upload-to-stitch/SKILL.md: Add .md to supported formats and document new CLI options\n- code-to-design/SKILL.md: Update Steps 4 & 5 to pass --generated-by with corresponding skill identifiers\n- manage-design-system/SKILL.md: Update DESIGN.md upload example with --generated-by <GENERATED_BY> placeholder and document how to set it",
+  "new_commit_time": "2026-06-16T21:47:45Z",
+  "compare_url": "https://github.com/google-labs-code/stitch-skills/compare/1544aa4a3be93e7515b0c27d32722f7ca5a2f691...22716f97492ef1189306f0a03595f99129ae113a",
+  "commit_url": "https://github.com/google-labs-code/stitch-skills/commit/22716f97492ef1189306f0a03595f99129ae113a",
+  "skill_directory": "plugins/stitch-design/skills/manage-design-system",
+  "local_directory": "verified_real_update_pairs/OPU-0094",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0094",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

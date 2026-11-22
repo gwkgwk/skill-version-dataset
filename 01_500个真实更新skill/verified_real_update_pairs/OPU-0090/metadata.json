@@ -1,0 +1,148 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/building-secure-contracts/skills/cosmos-vulnerability-scanner/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "4d002a7d01ebe5f85b52",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "17ba9fa3e95d2bba94cf6a0baac04d65833d7a51",
+    "computed_tree_sha": "73c9003e45d4193318e7838dc2af09464a0748e7",
+    "api_tree_sha_as_returned": "73c9003e45d4193318e7838dc2af09464a0748e7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "61b55ed862fcf79fbade2948c4692bdd2444aadf",
+        "sha256": "0af2e52a6fe73ebd7e7b9032e45941d6cd67853a736bda0c9bc3180333126533",
+        "size": 10000,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "7bd9c386bc941f383e514faff14006969ab7a2e4",
+        "sha256": "95a778ed849f8bb091b88433ab0cb9de42bcf71d9131ee5b104327414388f2f2",
+        "size": 22675,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d7f76b532d1e4c6e7757e04d25c99ab60dd5e32c",
+    "computed_tree_sha": "d5f767a4aa89c4157b24297cd0132b8975df8aae",
+    "api_tree_sha_as_returned": "d5f767a4aa89c4157b24297cd0132b8975df8aae",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "git_blob_sha1": "141ce3cf2d090202086a0da8072f090620628c0c",
+        "sha256": "fd4ca29cf7a9c36c5ec22947c43974f38b44b99337b45f9b50255bead0f99b41",
+        "size": 12950,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "840a45d2d412d32ab064eea845b01d4ef73c76a4",
+        "sha256": "5f12f1ecdcf220726d32b391e5e646807d09d869d4cc92ae105236ecff4b9a42",
+        "size": 10940,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/ADVANCED_VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "caec1c884faa83949f5cec48ae12137d9f578a15",
+        "sha256": "c5d8582061f30cae4c17953f8493a8c2e452a67cb3b9449664705fff9cc8e671",
+        "size": 12800,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/COSMWASM_VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "65a7b87f0b4360ca965e062a6d39c67a67daa2c5",
+        "sha256": "9df45b35b92cb07bee7aafdd6f1a8742831dcdb9be413f9c353d21cc0c0f02a3",
+        "size": 7643,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/DISCOVERY.md",
+        "git_blob_sha1": "5d9734bf310be01ef7aaaa093f724d27da12aa6f",
+        "sha256": "33f3d3c7ccc2816463f8bf60bbe29582ae5a10216e70bb16dae5829a775d847d",
+        "size": 3018,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/EVM_VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "bb7ba9fad2d4285e421a8832bc0fc6e3dbe44560",
+        "sha256": "eb038859445add39e9b9332b38da99d4418fa249e5ca879140652fe031cfe426",
+        "size": 18442,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/IBC_VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "a836bad0c22223708565eabd886f6f9fb15c9679",
+        "sha256": "3462dcadf15038c0e48a48d866c8db688497779f2fafbfe215abcdcd7e40f3c7",
+        "size": 28119,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/STATE_VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "9515275263c6f7e3785ad8c1273491326e833078",
+        "sha256": "323863a7d6faae1a36a134d65bd000071606a719602262cca8d88e69e6b1edae",
+        "size": 29890,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "22126e853fe4ee47660852f2f4aca03840900870",
+        "sha256": "e8fa593eabe0ee4f7a7734dd50c67bd83ec87842c3ff87d4b735c88de4ae579c",
+        "size": 27033,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "CHANGELOG.md",
+    "SKILL.md",
+    "resources/ADVANCED_VULNERABILITY_PATTERNS.md",
+    "resources/COSMWASM_VULNERABILITY_PATTERNS.md",
+    "resources/DISCOVERY.md",
+    "resources/EVM_VULNERABILITY_PATTERNS.md",
+    "resources/IBC_VULNERABILITY_PATTERNS.md",
+    "resources/STATE_VULNERABILITY_PATTERNS.md",
+    "resources/VULNERABILITY_PATTERNS.md"
+  ],
+  "old_commit": "17ba9fa3e95d2bba94cf6a0baac04d65833d7a51",
+  "new_commit": "d7f76b532d1e4c6e7757e04d25c99ab60dd5e32c",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Cosmos improve (#127)\n\n* cosmos update 1\n\n* cosmos update 2\n\n* cosmos update 3\n\n* rm internal data\n\n* renumber\n\n* ibc\n\n* bump cosmos skill version\n\n* proper checklist with progressive disclosure\n\n* rm duplicates\n\n* workflow instaed of checklist\n\n* better workflows\n\n* correct version\n\n* main skill saves findings",
+  "new_commit_time": "2026-04-01T14:50:10Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/17ba9fa3e95d2bba94cf6a0baac04d65833d7a51...d7f76b532d1e4c6e7757e04d25c99ab60dd5e32c",
+  "commit_url": "https://github.com/trailofbits/skills/commit/d7f76b532d1e4c6e7757e04d25c99ab60dd5e32c",
+  "skill_directory": "plugins/building-secure-contracts/skills/cosmos-vulnerability-scanner",
+  "local_directory": "verified_real_update_pairs/OPU-0090",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0090",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

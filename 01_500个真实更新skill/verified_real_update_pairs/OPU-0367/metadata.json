@@ -1,0 +1,149 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/trailmark/skills/graph-evolution/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "e82b029efaafc14aedf7",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+    "computed_tree_sha": "d72485b9da453785e6faff3574ffd633336e6138",
+    "api_tree_sha_as_returned": "d72485b9da453785e6faff3574ffd633336e6138",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b1dc1eff2f3490c148f428090e0bf21ee0d64a2e",
+        "sha256": "69d050e0c6488d7bb829c1d4c9f2d56451562bb3f1dad642ba3c0b768abb98b5",
+        "size": 11590,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/evolution-metrics.md",
+        "git_blob_sha1": "c6bcb13ffa1f51cdb9066e94acdf035be6702456",
+        "sha256": "ec26ea932290be3490227025705296126e446743a64b604e11f7a50fd649f722",
+        "size": 5205,
+        "mode": "100644"
+      },
+      {
+        "path": "references/report-format.md",
+        "git_blob_sha1": "8f672f2a4e47d786f13b235580a7ab3cb34f8bc9",
+        "sha256": "cc44977216b7e90075c6fca845b630d7156e72d88f1234fa3f0026d367d1a0db",
+        "size": 4340,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/graph_diff.py",
+        "git_blob_sha1": "40535b88ef25b1b40b17f7bbf757e703754e370d",
+        "sha256": "4cb00ee257d45e464e7679f654261791b3b21f2c92f7887e5b306b1de62faa55",
+        "size": 7845,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "1e0cc133f425b8ca049943e91000f3a38dcf6980",
+    "computed_tree_sha": "9395afe139caded86a4ff57c9fdb0ac166883be7",
+    "api_tree_sha_as_returned": "9395afe139caded86a4ff57c9fdb0ac166883be7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b135d861559c18eba68cd0b381bfacc950fff0ea",
+        "sha256": "009055f8ad529fd9fa3bfe58c510fae79cf81d8b3d16b31b27a86ec248797618",
+        "size": 13506,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/evolution-metrics.md",
+        "git_blob_sha1": "c6bcb13ffa1f51cdb9066e94acdf035be6702456",
+        "sha256": "ec26ea932290be3490227025705296126e446743a64b604e11f7a50fd649f722",
+        "size": 5205,
+        "mode": "100644"
+      },
+      {
+        "path": "references/report-format.md",
+        "git_blob_sha1": "8f672f2a4e47d786f13b235580a7ab3cb34f8bc9",
+        "sha256": "cc44977216b7e90075c6fca845b630d7156e72d88f1234fa3f0026d367d1a0db",
+        "size": 4340,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/graph_diff.py",
+        "git_blob_sha1": "40535b88ef25b1b40b17f7bbf757e703754e370d",
+        "sha256": "4cb00ee257d45e464e7679f654261791b3b21f2c92f7887e5b306b1de62faa55",
+        "size": 7845,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+  "new_commit": "1e0cc133f425b8ca049943e91000f3a38dcf6980",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "trailmark: pass --language to graph-evolution's diff calls (#266)\n\n* trailmark: pass --language to graph-evolution's diff calls\n\n`trailmark diff` defaults `--language` to `python`. On a non-Python target it\nexits 0 and writes well-formed JSON with empty `nodes`, `edges`, and\n`entrypoints` arrays, which the skill's own \"stop if empty\" guard read as \"no\nchanges\" rather than \"wrong language\".\n\nBoth call sites now pass `--language auto`, mirroring the `language=\"auto\"`\ndefault that Phase 2's `build_and_export` already uses, and the guard text says\nto confirm the language before treating an empty diff as an unchanged codebase.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* trailmark: fix the two remaining bare diff calls and the stale empty-diff guard\n\nThe core skill's Quick Start (SKILL.md:147) and query-patterns.md:223 still ran\n`trailmark diff` without `--language`, hitting the same silent python default\nthis PR fixes in graph-evolution — worse, the entrypoints line directly above\neach passes `--language auto`, so the omission read as deliberate. Pass\n`--language auto` at both.\n\nWith `auto` in the documented command, \"empty most often means the language was\nwrong\" no longer names the likely cause, and \"compare the two outputs\" gives no\ndecision rule. Key the empty-diff guard on Phase 2's graph summaries instead:\nempty diff plus healthy node counts on both snapshots is genuine stability,\nempty diff with a (near-)zero count means the parse missed the code. The\nchecklist item now states that checkable condition rather than a self-attested\n\"language was confirmed\".\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014UFqJu1ada7gXjD9peo1rX\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: Scott Arciszewski <147527775+tob-scott-a@users.noreply.github.com>",
+  "new_commit_time": "2026-08-20T15:39:52Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/9b2813356e9b9ef670dc1f4493a69e82c8e7f27e...1e0cc133f425b8ca049943e91000f3a38dcf6980",
+  "commit_url": "https://github.com/trailofbits/skills/commit/1e0cc133f425b8ca049943e91000f3a38dcf6980",
+  "skill_directory": "plugins/trailmark/skills/graph-evolution",
+  "local_directory": "verified_real_update_pairs/OPU-0367",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0367",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

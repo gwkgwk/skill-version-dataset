@@ -1,0 +1,107 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-java/skills/azure-monitor-opentelemetry-exporter-java/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "8868d634e3fe93449b45",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "673f81db3b0f24526fcd74f230f21437abaf7ceb",
+    "computed_tree_sha": "4f49189951681c1957f52b31c42462a2dafa0f10",
+    "api_tree_sha_as_returned": "4f49189951681c1957f52b31c42462a2dafa0f10",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6cfdf8b238ddb874774bdc1b9e956dbcab8c71e1",
+        "sha256": "7589221996e9bc3b05ded56e14ad12f2b3c534f38e3920baf3c555295b85aeed",
+        "size": 8708,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "fd83268723d0beee0a09fe1a2b28adbe370720c2",
+        "sha256": "cd781c1d9857b2695ebf956999d346dd30009bca4415bfc131662a0ec610b312",
+        "size": 2770,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "0c6065ccc15d8b72d9ee077ce2d297768ab08468",
+        "sha256": "85bdfc7be556eefb310fe51886e3bacaca759187dea377270fa4022d771d5d06",
+        "size": 5513,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "67ae723a23ba880e3e5c8a3e5e2320092024476e",
+    "computed_tree_sha": "545645f29dc0a4b7b610dea7ed6ba238dde99009",
+    "api_tree_sha_as_returned": "545645f29dc0a4b7b610dea7ed6ba238dde99009",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2be5ec33b16457816e0737dcc99007560fea74d5",
+        "sha256": "2ecdd3db79950efc38de599e90887a41f34e9a670949b9be8e6708578dbad6df",
+        "size": 8772,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "fd83268723d0beee0a09fe1a2b28adbe370720c2",
+        "sha256": "cd781c1d9857b2695ebf956999d346dd30009bca4415bfc131662a0ec610b312",
+        "size": 2770,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "0c6065ccc15d8b72d9ee077ce2d297768ab08468",
+        "sha256": "85bdfc7be556eefb310fe51886e3bacaca759187dea377270fa4022d771d5d06",
+        "size": 5513,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "673f81db3b0f24526fcd74f230f21437abaf7ceb",
+  "new_commit": "67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Move package field into metadata map across plugin SKILL.md files\n\nMigrate 138 SKILL.md files under .github/plugins/ to use\nspec-conformant metadata maps:\n\n- Move top-level package field into metadata.package\n- Add license: MIT to all updated files\n- Add metadata.author: Microsoft and metadata.version: 1.0.0\n- Leave 28 azure-skills files untouched (already conformant)\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-02T16:37:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/673f81db3b0f24526fcd74f230f21437abaf7ceb...67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "commit_url": "https://github.com/microsoft/skills/commit/67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "skill_directory": ".github/plugins/azure-sdk-java/skills/azure-monitor-opentelemetry-exporter-java",
+  "local_directory": "verified_real_update_pairs/OPU-0339",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0339",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

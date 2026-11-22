@@ -1,0 +1,248 @@
+{
+  "repository": "expo/skills",
+  "primary": ".claude/skills/expo-skill-eval/SKILL.md",
+  "pinned_commit": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+  "repository_license": "MIT",
+  "key": "135f79b0426de4534f57",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "06fcc81d979c015fc0e2ff55b5b733021f04ec3e",
+    "computed_tree_sha": "4078a0145ba655678b3ac3205b85e1fa012ac8a7",
+    "api_tree_sha_as_returned": "4078a0145ba655678b3ac3205b85e1fa012ac8a7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "763c48c61431cc4d55740a9bfdbffbc8cdf128cb",
+        "sha256": "ff181dabfbd8d7ccaf2dc3e9d08e7192d3ce796dcfe1ba971266b51dcabe213c",
+        "size": 48460,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/visual-grader.md",
+        "git_blob_sha1": "db2a10a321d137646e3d0d18344e7deabe73703d",
+        "sha256": "957f594babe48aaf818fc0e350c8ca9a1e128e96ec113936124211a80630f822",
+        "size": 5006,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design-rubric.md",
+        "git_blob_sha1": "9f688ff212f32e8fbf89aa569bba43755edac1c0",
+        "sha256": "0f311c43355c08dee33a43a25b5b6fdc3b50a70e77f9d342cabf7fedaa275fa0",
+        "size": 4370,
+        "mode": "100644"
+      },
+      {
+        "path": "references/runtime-matrix.md",
+        "git_blob_sha1": "aa65f97da22cf0e699705820bedf947d766ffe77",
+        "sha256": "f1ab8ced4a32c4c77d8a05bb4ace2bead8c8baaa80096cc85168fdb2b5dcecf3",
+        "size": 4250,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check-static.sh",
+        "git_blob_sha1": "bd087ab4d7f81a95216a2935255ea5b5cddcd61f",
+        "sha256": "b7ee46ee253a2779c0935cd416ca725bf970eea319eba7c8e06bcf567288ba4c",
+        "size": 1920,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/clean-fixture.sh",
+        "git_blob_sha1": "0bfb9628ca38d6c06f7b2d7a5028cb3ab995d1d0",
+        "sha256": "1620a5ffc921365c20b0f415f366c3f1ef896a9f1c9bfd9a6889461a9c387231",
+        "size": 2588,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/generate_viewer.py",
+        "git_blob_sha1": "a7b637057ef3aeecfaaa7844899a7d53d112fe7e",
+        "sha256": "92b9460d7926929b2bf98811a56d47434f2d8661518e0333be7a97e73e183da0",
+        "size": 21402,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/latest-sdk.sh",
+        "git_blob_sha1": "c650d801368cce54571d985c92039d2e6e172081",
+        "sha256": "0a1a503fd61ee2c8a601bf441485d309efb5f41cb9d40b15ed66545560f4a7f6",
+        "size": 1469,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/make-fixture.sh",
+        "git_blob_sha1": "9e9eae3a0f21e8807479b88e537ee82f6e3728fb",
+        "sha256": "a462815fde894d71a96d57c8c5809057b2c64e95508c32f216d08fd027958c88",
+        "size": 4291,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/make-workspace.sh",
+        "git_blob_sha1": "09e2e23c90e6eaeb91839a554655c6a81bfb98bc",
+        "sha256": "2f602afe1a742b4df264d062d476f64fab0cd4bb626825647600e23c9593660c",
+        "size": 1429,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/snapshot-android.sh",
+        "git_blob_sha1": "c4e7d26bdbfb4674eec4f837b76120d6eb8f64d7",
+        "sha256": "35c9fc6662374382a196ae584affb300b3f5585ce9bc7140e53b779aa537c985",
+        "size": 12440,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/snapshot-ios.sh",
+        "git_blob_sha1": "dae3c4a21b4cd4c17f84d4af1786c8d6e41fd927",
+        "sha256": "7846af374af76741f7f4974dc26c73d868164cd6669b0813c1b010bd367c7d72",
+        "size": 5479,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/snapshot-web.sh",
+        "git_blob_sha1": "64990a3d8f4c63c8df262b994010acc4fba872a6",
+        "sha256": "7c2d14c7c17f5aa825a82d690a058744e9fbf084410b614add2ffefa6da526df",
+        "size": 2200,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b2fdce752bbf8f3ba83883d8a35c642e229c8812",
+    "computed_tree_sha": "8fba0f5e619101fcafee68e1d0b4f0517b138e44",
+    "api_tree_sha_as_returned": "8fba0f5e619101fcafee68e1d0b4f0517b138e44",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4ea45bdf7691e915b430fcb7cd519b4c1d41bc7a",
+        "sha256": "9e7b4fdc885847a4f701d31829714a559547f144dcba6f01f8289cae71f846b6",
+        "size": 48461,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/visual-grader.md",
+        "git_blob_sha1": "db2a10a321d137646e3d0d18344e7deabe73703d",
+        "sha256": "957f594babe48aaf818fc0e350c8ca9a1e128e96ec113936124211a80630f822",
+        "size": 5006,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design-rubric.md",
+        "git_blob_sha1": "9f688ff212f32e8fbf89aa569bba43755edac1c0",
+        "sha256": "0f311c43355c08dee33a43a25b5b6fdc3b50a70e77f9d342cabf7fedaa275fa0",
+        "size": 4370,
+        "mode": "100644"
+      },
+      {
+        "path": "references/runtime-matrix.md",
+        "git_blob_sha1": "752569ad21a00f02f5da3b252f1fc899149f1deb",
+        "sha256": "33ca4f1e3bbefe3b36ed5e89eebbbffc0c17e3ff10684a363a3e8407e4c09834",
+        "size": 4226,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check-static.sh",
+        "git_blob_sha1": "bd087ab4d7f81a95216a2935255ea5b5cddcd61f",
+        "sha256": "b7ee46ee253a2779c0935cd416ca725bf970eea319eba7c8e06bcf567288ba4c",
+        "size": 1920,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/clean-fixture.sh",
+        "git_blob_sha1": "0bfb9628ca38d6c06f7b2d7a5028cb3ab995d1d0",
+        "sha256": "1620a5ffc921365c20b0f415f366c3f1ef896a9f1c9bfd9a6889461a9c387231",
+        "size": 2588,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/generate_viewer.py",
+        "git_blob_sha1": "a7b637057ef3aeecfaaa7844899a7d53d112fe7e",
+        "sha256": "92b9460d7926929b2bf98811a56d47434f2d8661518e0333be7a97e73e183da0",
+        "size": 21402,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/latest-sdk.sh",
+        "git_blob_sha1": "c650d801368cce54571d985c92039d2e6e172081",
+        "sha256": "0a1a503fd61ee2c8a601bf441485d309efb5f41cb9d40b15ed66545560f4a7f6",
+        "size": 1469,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/make-fixture.sh",
+        "git_blob_sha1": "9e9eae3a0f21e8807479b88e537ee82f6e3728fb",
+        "sha256": "a462815fde894d71a96d57c8c5809057b2c64e95508c32f216d08fd027958c88",
+        "size": 4291,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/make-workspace.sh",
+        "git_blob_sha1": "09e2e23c90e6eaeb91839a554655c6a81bfb98bc",
+        "sha256": "2f602afe1a742b4df264d062d476f64fab0cd4bb626825647600e23c9593660c",
+        "size": 1429,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/snapshot-android.sh",
+        "git_blob_sha1": "c4e7d26bdbfb4674eec4f837b76120d6eb8f64d7",
+        "sha256": "35c9fc6662374382a196ae584affb300b3f5585ce9bc7140e53b779aa537c985",
+        "size": 12440,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/snapshot-ios.sh",
+        "git_blob_sha1": "dae3c4a21b4cd4c17f84d4af1786c8d6e41fd927",
+        "sha256": "7846af374af76741f7f4974dc26c73d868164cd6669b0813c1b010bd367c7d72",
+        "size": 5479,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/snapshot-web.sh",
+        "git_blob_sha1": "64990a3d8f4c63c8df262b994010acc4fba872a6",
+        "sha256": "7c2d14c7c17f5aa825a82d690a058744e9fbf084410b614add2ffefa6da526df",
+        "size": 2200,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/runtime-matrix.md"
+  ],
+  "old_commit": "06fcc81d979c015fc0e2ff55b5b733021f04ec3e",
+  "new_commit": "b2fdce752bbf8f3ba83883d8a35c642e229c8812",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Organize skills with expo-* and eas-* (#98)\n\n* Organize skills with expo-* and eas-* naming\n\nPrefix every skill with expo-* (framework/OSS) or eas-* (paid EAS\nservice), and prefix each description with \"Framework (OSS).\" or\n\"EAS service (paid).\" so the free/paid boundary is visible in the\nalways-loaded metadata and /expo- / /eas- discovery works.\n\nRenames to established product names:\n- building-native-ui (visual guide) -> expo-native-ui; navigation\n  stays in the expo-router skill, matching the #99 split\n- native-data-fetching -> expo-data-fetching\n- use-dom -> expo-dom\n- web-to-native -> expo-web-to-native\n- add-app-clip -> expo-app-clip\n- upgrading-expo -> expo-upgrade\n- expo-observe -> eas-observe\n- expo-cicd-workflows -> eas-workflows\n- expo-deployment -> eas-app-stores (web deploy split into eas-hosting)\n- expo-api-routes -> eas-hosting\n\nAdd CONTRIBUTING.md with documented patterns, CI checks for skill\nlimits and plugin version bump, and bump the expo plugin to 1.7.0.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* Fix mangled EXPO_PUBLIC_ in expo-data-fetching quick reference\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-07-07T16:18:52Z",
+  "compare_url": "https://github.com/expo/skills/compare/06fcc81d979c015fc0e2ff55b5b733021f04ec3e...b2fdce752bbf8f3ba83883d8a35c642e229c8812",
+  "commit_url": "https://github.com/expo/skills/commit/b2fdce752bbf8f3ba83883d8a35c642e229c8812",
+  "skill_directory": ".claude/skills/expo-skill-eval",
+  "local_directory": "verified_real_update_pairs/OPU-0003",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0003",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

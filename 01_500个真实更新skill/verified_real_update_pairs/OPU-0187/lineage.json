@@ -1,0 +1,82 @@
+{
+  "sha": "2960faf806231e253302a410b9e97e7682aa8b64",
+  "node_id": "C_kwDOQ0VAy9oAKDI5NjBmYWY4MDYyMzFlMjUzMzAyYTQxMGI5ZTk3ZTc2ODJhYThiNjQ",
+  "commit": {
+    "author": {
+      "name": "Mark Collao",
+      "email": "mark.collao@sentry.io",
+      "date": "2026-11-02T21:33:58Z"
+    },
+    "committer": {
+      "name": "Mark Collao",
+      "email": "mark.collao@sentry.io",
+      "date": "2026-11-02T21:34:04Z"
+    },
+    "message": "feat(security-model): add Component Map section to policy drafts\n\nDrafts now map the security-critical directories and files, grouped by\nthe trust level of their input, with a one-line purpose and the\ninvariants each one bears. Paths are backticked so check catches them\nmoving.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "tree": {
+      "sha": "c9c661fb3a57244f167fdc7f1286adf65afea225",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/c9c661fb3a57244f167fdc7f1286adf65afea225"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/2960faf806231e253302a410b9e97e7682aa8b64",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/2960faf806231e253302a410b9e97e7682aa8b64",
+  "html_url": "https://github.com/getsentry/skills/commit/2960faf806231e253302a410b9e97e7682aa8b64",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/2960faf806231e253302a410b9e97e7682aa8b64/comments",
+  "author": {
+    "login": "markatsentry",
+    "id": 335683450,
+    "node_id": "U_kgDOFAIfeg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/335683450?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/markatsentry",
+    "html_url": "https://github.com/markatsentry",
+    "followers_url": "https://api.github.com/users/markatsentry/followers",
+    "following_url": "https://api.github.com/users/markatsentry/following{/other_user}",
+    "gists_url": "https://api.github.com/users/markatsentry/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/markatsentry/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/markatsentry/subscriptions",
+    "organizations_url": "https://api.github.com/users/markatsentry/orgs",
+    "repos_url": "https://api.github.com/users/markatsentry/repos",
+    "events_url": "https://api.github.com/users/markatsentry/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/markatsentry/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "markatsentry",
+    "id": 335683450,
+    "node_id": "U_kgDOFAIfeg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/335683450?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/markatsentry",
+    "html_url": "https://github.com/markatsentry",
+    "followers_url": "https://api.github.com/users/markatsentry/followers",
+    "following_url": "https://api.github.com/users/markatsentry/following{/other_user}",
+    "gists_url": "https://api.github.com/users/markatsentry/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/markatsentry/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/markatsentry/subscriptions",
+    "organizations_url": "https://api.github.com/users/markatsentry/orgs",
+    "repos_url": "https://api.github.com/users/markatsentry/repos",
+    "events_url": "https://api.github.com/users/markatsentry/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/markatsentry/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+      "html_url": "https://github.com/getsentry/skills/commit/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e"
+    }
+  ]
+}

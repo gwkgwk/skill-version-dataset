@@ -1,0 +1,206 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-monitoring-notification-channels-configuration/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "fc7a8d858c0feddecc7b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "2194d3b8b1f31975fef2f1a0ae6b9ab55bd7ceee",
+    "computed_tree_sha": "0bb048f85375423fee5cbc8ad3714703b891b9b2",
+    "api_tree_sha_as_returned": "0bb048f85375423fee5cbc8ad3714703b891b9b2",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "85ffe2fc2d3237542dd16d267dcc444e699e05b8",
+        "sha256": "baeb7b571c29e8e8ea632c96bbcf1329ae55e6c312629d041680371615a2aec1",
+        "size": 15558,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/secret.tfvars",
+        "git_blob_sha1": "b91d2e3d321038814d7a128358a672e8b7948ce0",
+        "sha256": "b2fcb947e4f50d8e4ca984720ce2ca2e31819232067bf99b902466ae7bc793f7",
+        "size": 205,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "3894e108fc9e5279d6b9f54bbd103a6f62209b0e",
+        "sha256": "3c5ca3897a94fb6f7bfbaf14bbfdd235ec5d1cea353f1b6a5302464c04a34803",
+        "size": 2004,
+        "mode": "100644"
+      },
+      {
+        "path": "references/email.md",
+        "git_blob_sha1": "2da6d7b1b560e7065baae9104b771daac267c4ba",
+        "sha256": "bc68d37ad0a7e772d28ddefdec771861294704049786ace4455d82b1f10956b3",
+        "size": 931,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pagerduty.md",
+        "git_blob_sha1": "b6587027c5333bfc6111380bdc67776d506266e1",
+        "sha256": "ea81deb08d2c4f2b0693d6a30e58f85c8b7fe4da3b838e9444d3c59a4b93c1e6",
+        "size": 3504,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pubsub.md",
+        "git_blob_sha1": "6ca6426d0c728b1cea2b569e1ff7e6b96a529f5f",
+        "sha256": "896733d06990dca8388d0e9740cc9f50affea704002e1c64770b7fcc4478cb6a",
+        "size": 6254,
+        "mode": "100644"
+      },
+      {
+        "path": "references/slack.md",
+        "git_blob_sha1": "ccae3f3776ab9a584a2ccc7525e833a02d83c4cc",
+        "sha256": "42c3ee711ef3bc872280d0b5d61272e1e0a9d9b1b208120622627910d374d7d7",
+        "size": 1071,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sms.md",
+        "git_blob_sha1": "00e281c3f5cb20cb7735d7b0e394e352097f5bf8",
+        "sha256": "2c3add106281cf55d3bbbb42dfb11aa53f6ad06fe09cc9a82bf78a79d230574d",
+        "size": 906,
+        "mode": "100644"
+      },
+      {
+        "path": "references/webhook.md",
+        "git_blob_sha1": "f50d0060593892ef30606b8565dba9244c51b5aa",
+        "sha256": "d5748e89e6122ef3d100ddc1ccf9e86bc46785533fbfac03ae4452ff87d7fbd3",
+        "size": 3937,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/verify_pubsub_topic.sh",
+        "git_blob_sha1": "68edb75674fff08a0a990815fd32f968defc2fa3",
+        "sha256": "6b5df8894277ad3e558b6ee9de9b092c1db293160eef86af2d75adf2ecefb262",
+        "size": 9063,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "00dc11483fe7b3cf40895f0a3e11e1c9803cf2df",
+    "computed_tree_sha": "1678f7fb4767ff38eec788ee53dc4d208039b7e0",
+    "api_tree_sha_as_returned": "1678f7fb4767ff38eec788ee53dc4d208039b7e0",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8e022d2c64f9e525684b9c1f15200ee736b4e21b",
+        "sha256": "d755fb3816eccc17064dad3281c0e8a2ef8ab7feca5d172c3b3415d2d46ebaff",
+        "size": 15542,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/secret.tfvars",
+        "git_blob_sha1": "b91d2e3d321038814d7a128358a672e8b7948ce0",
+        "sha256": "b2fcb947e4f50d8e4ca984720ce2ca2e31819232067bf99b902466ae7bc793f7",
+        "size": 205,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "3894e108fc9e5279d6b9f54bbd103a6f62209b0e",
+        "sha256": "3c5ca3897a94fb6f7bfbaf14bbfdd235ec5d1cea353f1b6a5302464c04a34803",
+        "size": 2004,
+        "mode": "100644"
+      },
+      {
+        "path": "references/email.md",
+        "git_blob_sha1": "2da6d7b1b560e7065baae9104b771daac267c4ba",
+        "sha256": "bc68d37ad0a7e772d28ddefdec771861294704049786ace4455d82b1f10956b3",
+        "size": 931,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pagerduty.md",
+        "git_blob_sha1": "b6587027c5333bfc6111380bdc67776d506266e1",
+        "sha256": "ea81deb08d2c4f2b0693d6a30e58f85c8b7fe4da3b838e9444d3c59a4b93c1e6",
+        "size": 3504,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pubsub.md",
+        "git_blob_sha1": "6ca6426d0c728b1cea2b569e1ff7e6b96a529f5f",
+        "sha256": "896733d06990dca8388d0e9740cc9f50affea704002e1c64770b7fcc4478cb6a",
+        "size": 6254,
+        "mode": "100644"
+      },
+      {
+        "path": "references/slack.md",
+        "git_blob_sha1": "ccae3f3776ab9a584a2ccc7525e833a02d83c4cc",
+        "sha256": "42c3ee711ef3bc872280d0b5d61272e1e0a9d9b1b208120622627910d374d7d7",
+        "size": 1071,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sms.md",
+        "git_blob_sha1": "00e281c3f5cb20cb7735d7b0e394e352097f5bf8",
+        "sha256": "2c3add106281cf55d3bbbb42dfb11aa53f6ad06fe09cc9a82bf78a79d230574d",
+        "size": 906,
+        "mode": "100644"
+      },
+      {
+        "path": "references/webhook.md",
+        "git_blob_sha1": "f50d0060593892ef30606b8565dba9244c51b5aa",
+        "sha256": "d5748e89e6122ef3d100ddc1ccf9e86bc46785533fbfac03ae4452ff87d7fbd3",
+        "size": 3937,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/verify_pubsub_topic.sh",
+        "git_blob_sha1": "b2e72175d542c1c45d5709f8a76c34228e9ddb1b",
+        "sha256": "90c6a5e7b9f35b63965a7f8a8315cade9626d061fde1d809fd9445879766d6e8",
+        "size": 9056,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/verify_pubsub_topic.sh"
+  ],
+  "old_commit": "2194d3b8b1f31975fef2f1a0ae6b9ab55bd7ceee",
+  "new_commit": "00dc11483fe7b3cf40895f0a3e11e1c9803cf2df",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Cloud Logging bucket analytics guidance and Cloud Monitoring notification channel CLI attribution tokens.\n\nPiperOrigin-RevId: 1017295666",
+  "new_commit_time": "2026-11-09T14:26:10Z",
+  "compare_url": "https://github.com/google/skills/compare/2194d3b8b1f31975fef2f1a0ae6b9ab55bd7ceee...00dc11483fe7b3cf40895f0a3e11e1c9803cf2df",
+  "commit_url": "https://github.com/google/skills/commit/00dc11483fe7b3cf40895f0a3e11e1c9803cf2df",
+  "skill_directory": "skills/cloud/cloud-monitoring-notification-channels-configuration",
+  "local_directory": "verified_real_update_pairs/OPU-0377",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0377",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

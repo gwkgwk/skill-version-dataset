@@ -1,0 +1,193 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/fp-check/skills/fp-check/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "015311fc738d0b51edab",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "c070b9b5881183ea5f6e320ff06c46688becb13e",
+    "computed_tree_sha": "cf7cfe90decc5aced9f573640de9a799803a84b5",
+    "api_tree_sha_as_returned": "cf7cfe90decc5aced9f573640de9a799803a84b5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "259311dfea0890ba2658544e7ef25a80643b9822",
+        "sha256": "bff31dcbb0446e6e43013e7a404583bc6d1542494340a2cf86a955ed97233345",
+        "size": 6546,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/bug-class-verification.md",
+        "git_blob_sha1": "2c014614abe301b922ed67c50ac9c53eaec4d924",
+        "sha256": "a19160eeac2cbed81377fcc2ba43b07767c6eae5d92b666f31d49b4b7aad50c7",
+        "size": 7220,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deep-verification.md",
+        "git_blob_sha1": "71fcdfb85cff445d3831f985f67551d3d09db31f",
+        "sha256": "3b54276ed4cf446f1be640853181fd8b3bf67d76ed59e56571cc18128567f632",
+        "size": 8834,
+        "mode": "100644"
+      },
+      {
+        "path": "references/evidence-templates.md",
+        "git_blob_sha1": "c0227e56238eb856d9d4efc6d2bde6c85ebd3339",
+        "sha256": "340346b9c6b3b43aa7edc71ff09351c910bc8aefec62647d2284bdf637a59e3d",
+        "size": 2973,
+        "mode": "100644"
+      },
+      {
+        "path": "references/false-positive-patterns.md",
+        "git_blob_sha1": "b5759fedeb5a6242e4820546ccc901f386b27c04",
+        "sha256": "7a24e3c8515b11b4abc181e0496704bc44708fd00c7e367edb7da8dad54b03b8",
+        "size": 6700,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gate-reviews.md",
+        "git_blob_sha1": "b9dd2f4eaf118ca5206ef94ecf12c6b826d4fded",
+        "sha256": "de4fd3680496b6f622b25dd5d8459eee1fe95e2cf61aa533c5ff86c548d6acc9",
+        "size": 1936,
+        "mode": "100644"
+      },
+      {
+        "path": "references/standard-verification.md",
+        "git_blob_sha1": "0576d9fbdc4dc4a3f910be0fa1108d43233f63f3",
+        "sha256": "6a365656ffb2698caf71d9dd90509e9986113f0dc8378d20390dadba8606bba2",
+        "size": 4521,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ff4162dcb9cec5b7abe5ab039c868544b325275d",
+    "computed_tree_sha": "9f74aca5c287b23ce09287765b20deb4690b4354",
+    "api_tree_sha_as_returned": "9f74aca5c287b23ce09287765b20deb4690b4354",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b7e7278cbae101f948f39890e5dcc088248d789d",
+        "sha256": "129223b79b8cb1e7c289c90cbe4ba288d9b210e318a0d1464f319e30329481b3",
+        "size": 6747,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/bug-class-verification.md",
+        "git_blob_sha1": "3eb666d646b4c6071b82012d4911ba0650665078",
+        "sha256": "b687b0fddb945354175b653a86653087110717ffe21f0bb6b8ce95535643fdde",
+        "size": 8041,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deep-verification.md",
+        "git_blob_sha1": "1b2499d03627b0d8a025f115f2137292766abdf7",
+        "sha256": "653ee21c3ab73f8ca6aa0a7c8e51a9195c90bcfa76533cb966c41d16baa52ffa",
+        "size": 8810,
+        "mode": "100644"
+      },
+      {
+        "path": "references/evidence-templates.md",
+        "git_blob_sha1": "c0227e56238eb856d9d4efc6d2bde6c85ebd3339",
+        "sha256": "340346b9c6b3b43aa7edc71ff09351c910bc8aefec62647d2284bdf637a59e3d",
+        "size": 2973,
+        "mode": "100644"
+      },
+      {
+        "path": "references/false-positive-patterns.md",
+        "git_blob_sha1": "7ad448441b882e1f801f31550f9528f7ff7d9310",
+        "sha256": "868c4e3f794c95a11c177ff4999c30eb71ebafcbc0e30ab826761b0d17b17a7e",
+        "size": 7052,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gate-reviews.md",
+        "git_blob_sha1": "b9dd2f4eaf118ca5206ef94ecf12c6b826d4fded",
+        "sha256": "de4fd3680496b6f622b25dd5d8459eee1fe95e2cf61aa533c5ff86c548d6acc9",
+        "size": 1936,
+        "mode": "100644"
+      },
+      {
+        "path": "references/standard-verification.md",
+        "git_blob_sha1": "c9e5b901ad4b3008950c31f24806f7bacdbf6cfe",
+        "sha256": "09032334d472b0fd796fc13f6d95cf6f0ae98cce34f1aa8dbd0c3fdce2854710",
+        "size": 4521,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/bug-class-verification.md",
+    "references/deep-verification.md",
+    "references/false-positive-patterns.md",
+    "references/standard-verification.md"
+  ],
+  "old_commit": "c070b9b5881183ea5f6e320ff06c46688becb13e",
+  "new_commit": "ff4162dcb9cec5b7abe5ab039c868544b325275d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update fp-check with links and best practices update (#189)",
+  "new_commit_time": "2026-06-22T02:28:34Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/c070b9b5881183ea5f6e320ff06c46688becb13e...ff4162dcb9cec5b7abe5ab039c868544b325275d",
+  "commit_url": "https://github.com/trailofbits/skills/commit/ff4162dcb9cec5b7abe5ab039c868544b325275d",
+  "skill_directory": "plugins/fp-check/skills/fp-check",
+  "local_directory": "verified_real_update_pairs/OPU-0241",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0241",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

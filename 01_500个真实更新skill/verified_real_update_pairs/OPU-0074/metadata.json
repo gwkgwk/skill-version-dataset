@@ -1,0 +1,79 @@
+{
+  "repository": "googleworkspace/cli",
+  "primary": "skills/gws-chat/SKILL.md",
+  "pinned_commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+  "repository_license": "Apache-2.0",
+  "key": "b4f1745cfa5d9e50e8b0",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 30,
+  "primary_history_count_returned": 17,
+  "old": {
+    "commit": "19ddc2593509aefb28a9a4468553e5b0d3866d9d",
+    "computed_tree_sha": "7efb90a20dc865c178771a2c262671843d4343d0",
+    "api_tree_sha_as_returned": "7efb90a20dc865c178771a2c262671843d4343d0",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "601a08d367e40e2de49d17ae6886c206a2aec454",
+        "sha256": "e878f40bfc25becdf4fe95f53c5fa84b62c33286462b6de269040f2cde01f5ce",
+        "size": 5700,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "6a45832ea5b51702a44a1d57dc3a1123142dcd12",
+    "computed_tree_sha": "60d8777dd73811137746303ec6a0d13ea59a1aba",
+    "api_tree_sha_as_returned": "60d8777dd73811137746303ec6a0d13ea59a1aba",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "979e96c63b1f032713e46e55d64f49b2a97cff29",
+        "sha256": "5710d93086ab03de621c498e45b7727471aaafb9c667fe611d65add240fa2e98",
+        "size": 5757,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "19ddc2593509aefb28a9a4468553e5b0d3866d9d",
+  "new_commit": "6a45832ea5b51702a44a1d57dc3a1123142dcd12",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "chore: regenerate skills from Discovery API (#621)\n\nCo-authored-by: jpoehnelt <3392975+jpoehnelt@users.noreply.github.com>",
+  "new_commit_time": "2026-03-25T05:07:45Z",
+  "compare_url": "https://github.com/googleworkspace/cli/compare/19ddc2593509aefb28a9a4468553e5b0d3866d9d...6a45832ea5b51702a44a1d57dc3a1123142dcd12",
+  "commit_url": "https://github.com/googleworkspace/cli/commit/6a45832ea5b51702a44a1d57dc3a1123142dcd12",
+  "skill_directory": "skills/gws-chat",
+  "local_directory": "verified_real_update_pairs/OPU-0074",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0074",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

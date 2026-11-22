@@ -1,0 +1,82 @@
+{
+  "sha": "4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f",
+  "node_id": "C_kwDOQ55KR9oAKDRiNDNiNWJjZmRiMjM4NWU3Y2I1YmZmYzlhM2Y2OWViOWJjYjQ2N2Y",
+  "commit": {
+    "author": {
+      "name": "omarinuwa",
+      "email": "omar.inuwa@trailofbits.com",
+      "date": "2026-10-14T21:01:41Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T21:01:41Z"
+    },
+    "message": "Maker Week: make firebase-apk-scanner report what the scan actually found (#374)\n\n* fix(firebase-apk-scanner): read the current report, keep it on nonzero exit, count vulnerabilities once\n\n- Step 3 ran `cat firebase_scan_*/scan_report.txt`, which also reads every\n  earlier scan in the directory, and took counts from the text report\n  although the reporting rule names scan_report.json. Read the JSON (and\n  text) report in the directory the scanner printed as `Results saved to:`.\n- scanner.sh exits 1 after writing its report when no APK could be tested,\n  which the \"if the scanner fails\" fallback read as a failure and started\n  manual live probes. Present a written report on any exit code; fall back\n  only when no report exists.\n- State the scanner's coverage limits (Cloud Functions in us-central1 only;\n  auth, functions and Remote Config for the first project and key only).\n- The per-APK \"APK IS VULNERABLE\" summary line used log_vuln, which counts\n  toward TOTAL_VULNS, so total_vulnerabilities was one too high for every\n  vulnerable APK. Log it with log_error. Documented output change.\n- Quote \"$ARGUMENTS\" so paths with spaces work.\n\ntests/test_scanner_reports.py runs the scanner with mocked apktool and curl\n(secure, vulnerable, no-config, failed) and checks the counts, the stale\ndirectory, and the SKILL.md guidance; two tests fail before this change.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n* perf(firebase-apk-scanner): load the manual-testing fallback only when needed\n\nMove \"Manual Testing (If Scanner Fails)\" word for word into\nreferences/manual-fallback.md and leave a two-line pointer: it is only\nneeded when the scanner wrote no report, but every run loaded it. Every\nother section is unchanged. Bump firebase-apk-scanner to 2.2.3.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+    "tree": {
+      "sha": "37691230731de85d9481d884a0c9b76f76573277",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/37691230731de85d9481d884a0c9b76f76573277"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz+21CRC1aQ7uu5UhlAAAYOUQAK1LnUXjnXTaMcjfCZip4J+4\nq8a5e5TSa0H6G/ew0+LFHi+bSmNi8dbAPv2k+eUZNoCns9bkzaPtVZ4g0y1Fwxml\nvFvn1z5rNQIisYZO+tV8B4psv/kaQJjQ3baTNRqcJdvsUcCI09ABUMMd1kLSytc2\nihDxYCrtu2VOAiYx3Bu0NHHzXh0l9x9/zV5dYb4jgxVyswzzNm0e/DuMt2NDGLEC\nF3tBxYs0lLTUShGMfG4i4fI2GpH06XGOlSzb/NxaJc6wjDBVsCid9kkcpWwX/iU1\nsR8yR0R3llgeME8CHoivb7/QVmnnvST3huTMBeuSpq81okteb2lZKijUAmW5Y6/x\nQsSWr21N7BXjY8t5J0wZNwYi99PccpVAS6iZfEpoXp2vNZIAM203YN93rNfOzn0n\nnP0K//mGA6tTSThaZrQVWBiQ0Pnv7Bdr5OVy8+RA6GCYjIEg8Re6UQdQ1Wa45l0K\nrriyUYfeN77JYUPOIY7S6qA6OGve9Jp5gdWSjlUYp+0HeRh7vP3GluiUTJLFNJR+\no6WXmB7dkhUBgfEMwcjyCJaT9zULcmWuWMaEEWtKqjOH46WhHB0z7zeKRkSDjO6b\nbDjolhqXtNjISJU7scBaajKN0b8CDZTN+ZywXa+ts2UB2OgSqt+i0Txzwma1nJBV\nQxeyv7nqZZOG0XhbyF2S\n=9INS\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 37691230731de85d9481d884a0c9b76f76573277\nparent 29424a451e2b9c8adc44f6d5251310df8f044ae7\nauthor omarinuwa <omar.inuwa@trailofbits.com> 1792011701 +0100\ncommitter GitHub <noreply@github.com> 1792011701 -0400\n\nMaker Week: make firebase-apk-scanner report what the scan actually found (#374)\n\n* fix(firebase-apk-scanner): read the current report, keep it on nonzero exit, count vulnerabilities once\n\n- Step 3 ran `cat firebase_scan_*/scan_report.txt`, which also reads every\n  earlier scan in the directory, and took counts from the text report\n  although the reporting rule names scan_report.json. Read the JSON (and\n  text) report in the directory the scanner printed as `Results saved to:`.\n- scanner.sh exits 1 after writing its report when no APK could be tested,\n  which the \"if the scanner fails\" fallback read as a failure and started\n  manual live probes. Present a written report on any exit code; fall back\n  only when no report exists.\n- State the scanner's coverage limits (Cloud Functions in us-central1 only;\n  auth, functions and Remote Config for the first project and key only).\n- The per-APK \"APK IS VULNERABLE\" summary line used log_vuln, which counts\n  toward TOTAL_VULNS, so total_vulnerabilities was one too high for every\n  vulnerable APK. Log it with log_error. Documented output change.\n- Quote \"$ARGUMENTS\" so paths with spaces work.\n\ntests/test_scanner_reports.py runs the scanner with mocked apktool and curl\n(secure, vulnerable, no-config, failed) and checks the counts, the stale\ndirectory, and the SKILL.md guidance; two tests fail before this change.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n* perf(firebase-apk-scanner): load the manual-testing fallback only when needed\n\nMove \"Manual Testing (If Scanner Fails)\" word for word into\nreferences/manual-fallback.md and leave a two-line pointer: it is only\nneeded when the scanner wrote no report, but every run loaded it. Every\nother section is unchanged. Bump firebase-apk-scanner to 2.2.3.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+      "verified_at": "2026-10-14T21:01:43Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f",
+  "html_url": "https://github.com/trailofbits/skills/commit/4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f/comments",
+  "author": {
+    "login": "omarinuwa",
+    "id": 190324229,
+    "node_id": "U_kgDOC1geBQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/190324229?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/omarinuwa",
+    "html_url": "https://github.com/omarinuwa",
+    "followers_url": "https://api.github.com/users/omarinuwa/followers",
+    "following_url": "https://api.github.com/users/omarinuwa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/omarinuwa/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/omarinuwa/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/omarinuwa/subscriptions",
+    "organizations_url": "https://api.github.com/users/omarinuwa/orgs",
+    "repos_url": "https://api.github.com/users/omarinuwa/repos",
+    "events_url": "https://api.github.com/users/omarinuwa/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/omarinuwa/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "29424a451e2b9c8adc44f6d5251310df8f044ae7",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/29424a451e2b9c8adc44f6d5251310df8f044ae7",
+      "html_url": "https://github.com/trailofbits/skills/commit/29424a451e2b9c8adc44f6d5251310df8f044ae7"
+    }
+  ]
+}

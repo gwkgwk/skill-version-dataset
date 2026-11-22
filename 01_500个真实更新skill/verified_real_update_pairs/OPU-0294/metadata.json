@@ -1,0 +1,157 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/application-integration-basics/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "acc4455cb5c1d8cd6cee",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "cb11ad82ada424d1a004c3dfec106b6fab1188e1",
+    "computed_tree_sha": "c13d247f4dec6af383552f1554b2277afe645e4c",
+    "api_tree_sha_as_returned": "c13d247f4dec6af383552f1554b2277afe645e4c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e22b63b55ad4b2728bb82013645d171824d0d638",
+        "sha256": "a3cd762c3c72af533d9f6932819f1314b8ec55934cf637d3e2581beadbb8adce",
+        "size": 22454,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-access.md",
+        "git_blob_sha1": "40360a77b79aa9a62c802f5a9e9cccf043a3c6fe",
+        "sha256": "ce6e3c5dccfcee092b9696bdfbce32d05ed913319e4009ce4c1b9e23ba949159",
+        "size": 11800,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-concepts.md",
+        "git_blob_sha1": "45b03c8ae5608f6256c60abb503113d0982d29db",
+        "sha256": "51614b13ec26dcaa3a8e28c8b6a5041a485c97b7ba60a9966814e600ba83fcb7",
+        "size": 14082,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-and-service-accounts.md",
+        "git_blob_sha1": "fc6828bc878e0df6d67b8826e3d31874933eb406",
+        "sha256": "2ccacf03fb39a102d7f8d71b3731702012cc90a2029ad4b7d3cc8dcc2ef84741",
+        "size": 15161,
+        "mode": "100644"
+      },
+      {
+        "path": "references/limits.md",
+        "git_blob_sha1": "06ac2ec931cc3598d6afd9a0a881b25d00537c81",
+        "sha256": "bd824ff49249240a858d9957931473b0c01551ce248ef781475bdc016f517292",
+        "size": 6414,
+        "mode": "100644"
+      },
+      {
+        "path": "references/provisioning-and-terraform.md",
+        "git_blob_sha1": "cf41c4ab3d857fb5c4987da20a41dd0033605758",
+        "sha256": "ddbe71874f042388e5b45102daf4cec871113f826e2fbfddf2b2164926bbaaae",
+        "size": 8467,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "cfe5b58bafa9663e06e14dc6a3db7d10e408db0a",
+    "computed_tree_sha": "c087cf177e8c6d2b2bd57547fa8aca83f30e48c3",
+    "api_tree_sha_as_returned": "c087cf177e8c6d2b2bd57547fa8aca83f30e48c3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a811ac9797b9f86f49b3b37c391e5e1296d03ba4",
+        "sha256": "4a71d9f71788e7546978da9dce1b44ccca2907d443e275604a43900d974e595c",
+        "size": 23167,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-access.md",
+        "git_blob_sha1": "40360a77b79aa9a62c802f5a9e9cccf043a3c6fe",
+        "sha256": "ce6e3c5dccfcee092b9696bdfbce32d05ed913319e4009ce4c1b9e23ba949159",
+        "size": 11800,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "7aad0f88c49484fd4bad079c46a44a2cd984f24f",
+        "sha256": "0618c2954a01a6a96e510b6b2475ec612148813c21dd8be6718a057cfdb4ffb3",
+        "size": 5079,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-concepts.md",
+        "git_blob_sha1": "45b03c8ae5608f6256c60abb503113d0982d29db",
+        "sha256": "51614b13ec26dcaa3a8e28c8b6a5041a485c97b7ba60a9966814e600ba83fcb7",
+        "size": 14082,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-and-service-accounts.md",
+        "git_blob_sha1": "fc6828bc878e0df6d67b8826e3d31874933eb406",
+        "sha256": "2ccacf03fb39a102d7f8d71b3731702012cc90a2029ad4b7d3cc8dcc2ef84741",
+        "size": 15161,
+        "mode": "100644"
+      },
+      {
+        "path": "references/limits.md",
+        "git_blob_sha1": "06ac2ec931cc3598d6afd9a0a881b25d00537c81",
+        "sha256": "bd824ff49249240a858d9957931473b0c01551ce248ef781475bdc016f517292",
+        "size": 6414,
+        "mode": "100644"
+      },
+      {
+        "path": "references/provisioning-and-terraform.md",
+        "git_blob_sha1": "cf41c4ab3d857fb5c4987da20a41dd0033605758",
+        "sha256": "ddbe71874f042388e5b45102daf4cec871113f826e2fbfddf2b2164926bbaaae",
+        "size": 8467,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "cb11ad82ada424d1a004c3dfec106b6fab1188e1",
+  "new_commit": "cfe5b58bafa9663e06e14dc6a3db7d10e408db0a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to Application Integration agent skills.\n\n- Add `references/attribution.md` to application-integration-basics,\n  application-integration-authoring, and application-integration-troubleshooting.\n- Add a concise `## Attribution` section to each `SKILL.md` with the attribution\n  tokens and the generated-code guardrail.\n- Add an `attribution_tagged_commands` eval case to each `EVAL.txtpb`.\n- Bump `metadata.version` to 1.0.2.\n\nPiperOrigin-RevId: 1007375037",
+  "new_commit_time": "2026-10-26T17:24:28Z",
+  "compare_url": "https://github.com/google/skills/compare/cb11ad82ada424d1a004c3dfec106b6fab1188e1...cfe5b58bafa9663e06e14dc6a3db7d10e408db0a",
+  "commit_url": "https://github.com/google/skills/commit/cfe5b58bafa9663e06e14dc6a3db7d10e408db0a",
+  "skill_directory": "skills/cloud/application-integration-basics",
+  "local_directory": "verified_real_update_pairs/OPU-0294",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0294",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sha": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "node_id": "C_kwDOR2K4PNoAKDU2ZmJhM2U4MmE2YjY5MTRhZDcwMjhmOWZkOGExYzU5NDQ3OWU4OTk",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-11-16T20:10:37Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-11-16T20:11:22Z"
+    },
+    "message": "Update the Agent Platform skills.\n\n- Update Agent Platform deploy, prompt management, and endpoint management skills for current models, SDKs, and gcloud flags.\n- Update RAG Engine management skill examples from Gemini 2.5 models to `gemini-3.8-flash`.\n- Add standardized usage attribution to Agent Platform skills.  - Add `references/attribution.md` to all 9 Model Garden Agent Platform skills. - Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Default validation_split to None in convert_to_jsonl so programmatic prompt_only=True calls do not fail, and include adapter size 2 in tune_open_model.py CLI choices.\n- Add Qwen3.8-27B to the open-model tuning catalog and cost calculator.\n- Add distillation tuning to the agent-platform-tuning skill: supported teacher and student models, prompt-only training datasets (prepare_dataset.py --prompt_only), and --method/--teacher_model flags in tune_open_model.py.\n- Improve skill instructions for model-registry and agent-cli skills.\n- Improve skill instructions for tuning, tuning-management, and eval-flywheel skills.\n- Improve interactive confirmation and post-deletion verification guidance in prompt management skill.\n- Improve deployment region confirmation and hardware validation guidance in agent-platform-deploy skill.\n\nPiperOrigin-RevId: 1023012351",
+    "tree": {
+      "sha": "cbb0423c3247c103100b5534972442aaa8a8207a",
+      "url": "https://api.github.com/repos/google/skills/git/trees/cbb0423c3247c103100b5534972442aaa8a8207a"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "html_url": "https://github.com/google/skills/commit/56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/56fba3e82a6b6914ad7028f9fd8a1c594479e899/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+      "url": "https://api.github.com/repos/google/skills/commits/fd711c21669433d293aa0fe65bbed9d2d888df5d",
+      "html_url": "https://github.com/google/skills/commit/fd711c21669433d293aa0fe65bbed9d2d888df5d"
+    }
+  ]
+}

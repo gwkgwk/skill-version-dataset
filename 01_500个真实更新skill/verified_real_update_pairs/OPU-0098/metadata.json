@@ -1,0 +1,77 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "24b60f874e2b0351690a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "23a77bd472fe460f91fad97401f6dbbf87eba532",
+    "computed_tree_sha": "01a98a4b537c9e53be31eda1f895f15eaff267a0",
+    "api_tree_sha_as_returned": "01a98a4b537c9e53be31eda1f895f15eaff267a0",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c68e8f1876547fe2c4acdef357355541ca65a47a",
+        "sha256": "e5ae4a4b01e557f1bf81115b59a33247f6c6b77a8ae1e121e8f7559a4d92fe7e",
+        "size": 13329,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+    "computed_tree_sha": "482dbcdcc9a1108a63e53395c16d08ac5b3fef22",
+    "api_tree_sha_as_returned": "482dbcdcc9a1108a63e53395c16d08ac5b3fef22",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3156848ee9bf82dc7f0aabd71934e19574113601",
+        "sha256": "898e9dd9acece95418989c09e3e9824fbe81c8ecb3bb4279003edff334f63e24",
+        "size": 14014,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "23a77bd472fe460f91fad97401f6dbbf87eba532",
+  "new_commit": "073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update .NET skills auth and env vars with DefaultEnvironmentVariableName\n\n- Use DefaultAzureCredential(DefaultEnvironmentVariableName) in 26 .NET skills\n- Add ManagedIdentityCredential as production alternative with credential classes link\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables sections\n- Add inline comments to all env vars explaining purpose\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-05-05T00:22:24Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/23a77bd472fe460f91fad97401f6dbbf87eba532...073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "commit_url": "https://github.com/microsoft/skills/commit/073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "skill_directory": ".github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet",
+  "local_directory": "verified_real_update_pairs/OPU-0098",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0098",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

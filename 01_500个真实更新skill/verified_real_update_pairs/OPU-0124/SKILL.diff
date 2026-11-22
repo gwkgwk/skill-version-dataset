@@ -1,0 +1,29 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -171,7 +171,7 @@
+ 
+ ```sh
+ bunx expo export -p web
+-eas deploy --prod
++npx --yes eas-cli@latest deploy --prod
+ ```
+ 
+ This publishes the site (including `/.well-known/apple-app-site-association`) at `https://<slug>.expo.app`. Verify:
+@@ -222,7 +222,7 @@
+ Pull existing App Store metadata to local:
+ 
+ ```sh
+-eas metadata:pull
++npx --yes eas-cli@latest metadata:pull
+ ```
+ 
+ Add `apple.appClip` to `store.config.json`. Up to 3 invocation URLs can launch the Clip from a web page:
+@@ -255,7 +255,7 @@
+ Push back to the store:
+ 
+ ```sh
+-eas metadata:push
++npx --yes eas-cli@latest metadata:push
+ ```
+ 
+ Apple's recommended App Clip metadata guidelines: https://sosumi.ai/documentation/appclip/configuring-the-launch-experience-of-your-app-clip

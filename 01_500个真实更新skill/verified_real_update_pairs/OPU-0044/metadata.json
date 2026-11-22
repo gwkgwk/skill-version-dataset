@@ -1,0 +1,155 @@
+{
+  "repository": "cloudflare/skills",
+  "primary": "skills/cloudflare-email-service/SKILL.md",
+  "pinned_commit": "5108325ecceabc899c761e07aa617b09c02445ee",
+  "repository_license": "Apache-2.0",
+  "key": "9e8783f031e33dd7ab1e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+    "computed_tree_sha": "71a7107b1e2046e1d6a3c9998997bd51c93872bb",
+    "api_tree_sha_as_returned": "71a7107b1e2046e1d6a3c9998997bd51c93872bb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5db5219305ebd27646adccc08dc192c66a5b6ada",
+        "sha256": "846013394fd263cf637b4ea8fb319ccce8ca23a8e5c5aa2ee920a813cf13781a",
+        "size": 6619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-and-mcp.md",
+        "git_blob_sha1": "d7d0ec9eacce283b4aa80d90e076e24594502eae",
+        "sha256": "a7b4115514ca685fd664afaa54fe27240e87ce268b854beaf9aa26a16d41e65f",
+        "size": 4047,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deliverability.md",
+        "git_blob_sha1": "95cd80c39e799f139559e1ca953121dbe0c3b040",
+        "sha256": "16fac60424f90fdeeb2081eb844e79b0f3f535202778b0a5b0b1c06691eb233a",
+        "size": 9060,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rest-api.md",
+        "git_blob_sha1": "ea40053675f287119e1fc40d56609dc3e3b9ec72",
+        "sha256": "b3c512d0e76a30dd51c6f131488c438cd3975aa0f14f42bad00ef2d442721083",
+        "size": 1868,
+        "mode": "100644"
+      },
+      {
+        "path": "references/routing.md",
+        "git_blob_sha1": "274e51de49e092a452ff250ceae1ad0cbea0d20f",
+        "sha256": "22e42f3b60a4c256e79c865c2c8fb0512e656e95b2b9ee206d5e7f18d9de92ec",
+        "size": 7470,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sending.md",
+        "git_blob_sha1": "c21ad7edfd642f18de70bf9465e8e2d3211d6b70",
+        "sha256": "313e75e8ec59eb428b443d284ee6e74631e8c2e0b585ee64f2e4a1c7612e4207",
+        "size": 2621,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+    "computed_tree_sha": "988914d106ce5eda33c31ba6ad7c15482ce10c0f",
+    "api_tree_sha_as_returned": "988914d106ce5eda33c31ba6ad7c15482ce10c0f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c57d6f87311f5fe64186eadef75951d67264a159",
+        "sha256": "3f0448eb0f9f98e1762cb5e9bedb60531587ba003d8809b3e082f6dd82cb5912",
+        "size": 6806,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-and-mcp.md",
+        "git_blob_sha1": "d7d0ec9eacce283b4aa80d90e076e24594502eae",
+        "sha256": "a7b4115514ca685fd664afaa54fe27240e87ce268b854beaf9aa26a16d41e65f",
+        "size": 4047,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deliverability.md",
+        "git_blob_sha1": "95cd80c39e799f139559e1ca953121dbe0c3b040",
+        "sha256": "16fac60424f90fdeeb2081eb844e79b0f3f535202778b0a5b0b1c06691eb233a",
+        "size": 9060,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rest-api.md",
+        "git_blob_sha1": "ea40053675f287119e1fc40d56609dc3e3b9ec72",
+        "sha256": "b3c512d0e76a30dd51c6f131488c438cd3975aa0f14f42bad00ef2d442721083",
+        "size": 1868,
+        "mode": "100644"
+      },
+      {
+        "path": "references/routing.md",
+        "git_blob_sha1": "274e51de49e092a452ff250ceae1ad0cbea0d20f",
+        "sha256": "22e42f3b60a4c256e79c865c2c8fb0512e656e95b2b9ee206d5e7f18d9de92ec",
+        "size": 7470,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sending.md",
+        "git_blob_sha1": "c21ad7edfd642f18de70bf9465e8e2d3211d6b70",
+        "sha256": "313e75e8ec59eb428b443d284ee6e74631e8c2e0b585ee64f2e4a1c7612e4207",
+        "size": 2621,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "6ee0de26fcacafab4d5790cf6b277b33bb35afe4",
+        "sha256": "29030bb3ecae6dc6ce172a84d4cf9e6aeb6be6fcc3d2ede60bac72ec4bb748ae",
+        "size": 1932,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/skill-feedback.md"
+  ],
+  "old_commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+  "new_commit": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat: add skill feedback reference to every skill\n\nWhen a skill gives incorrect, outdated, or missing guidance, agents had no\ninstructions for reporting it, so the problem stayed with the user. Each\nskill now includes references/skill-feedback.md, which tells the agent to\nask the user, draft a GitHub issue on cloudflare/skills with a structured\nfield table, review it with the user, and post it with a\n`skill-feedback: <skill>:` title prefix. Each SKILL.md links to it.\n\nThe reference is copied into every skill because skills can be installed\nindividually.",
+  "new_commit_time": "2026-10-27T16:25:48Z",
+  "compare_url": "https://github.com/cloudflare/skills/compare/86505e44f87d801aa1864a3c4109e9a8ae5c409f...0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "commit_url": "https://github.com/cloudflare/skills/commit/0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "skill_directory": "skills/cloudflare-email-service",
+  "local_directory": "verified_real_update_pairs/OPU-0044",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0044",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

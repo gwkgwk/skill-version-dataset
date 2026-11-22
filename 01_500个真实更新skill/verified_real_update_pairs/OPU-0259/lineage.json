@@ -1,0 +1,82 @@
+{
+  "sha": "e104106cd796bbe2a61146ccbc74714a69feb775",
+  "node_id": "C_kwDORcxyRtoAKGUxMDQxMDZjZDc5NmJiZTJhNjExNDZjY2JjNzQ3MTRhNjlmZWI3NzU",
+  "commit": {
+    "author": {
+      "name": "Anshul Garg",
+      "email": "anshulgarg.garg509@gmail.com",
+      "date": "2026-03-12T16:15:51Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-12T16:15:51Z"
+    },
+    "message": "docs: warn about zsh ! history expansion in sheet range examples (#412)\n\n* docs: warn about zsh \\! history expansion in sheet range examples\n\nAdd a \"Shell Tips\" section to the gws-shared skill explaining that\nzsh interprets \\! inside single quotes as history expansion, which\nmangles sheet ranges like 'Sheet1\\!A1:B2'.\n\nReplace single quotes with double quotes around sheet ranges\ncontaining \\! in:\n- registry/recipes.yaml (source for generated recipe skills)\n- src/helpers/sheets.rs (+read after_help examples)\n- src/generate_skills.rs (shared skill template)\n- Generated SKILL.md files for affected recipes and gws-sheets-read\n\nCloses #268\n\n* fix: escape double quotes in after_help string literal\n\nThe after_help string for +read uses a regular string literal, not a\nraw string, so inner double quotes must be escaped with backslashes.",
+    "tree": {
+      "sha": "dcf9081ae3322a708fb48f7be7b8c8188fd5bdf2",
+      "url": "https://api.github.com/repos/googleworkspace/cli/git/trees/dcf9081ae3322a708fb48f7be7b8c8188fd5bdf2"
+    },
+    "url": "https://api.github.com/repos/googleworkspace/cli/git/commits/e104106cd796bbe2a61146ccbc74714a69feb775",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpsua3CRC1aQ7uu5UhlAAAfvMQAJtqQJXR6/vyyJbNUiqSs4m0\nbfstpNrYat3u82FkB7z6iy/GWv0d/xuusJxiq0NnTArjEKM8OIXomIdBCnHTUaI6\nZjBhcGrjT+BzJmXlEWdfmmtlzp+h1phuLNiPAhrOqVSdV7XIC4jsS131iEX9yc5P\nnwVEq3LeGNNIrDvd6U2e3Q8TE7ZpMsB4ktFPBjziu2BASxIthx3CCmhI7GwOrTgC\nodhbY5NtsuboVF+G/BgWKOMFpq/v6vrxotIJroy6CD8giViYdjWt24XPYOeMR78l\nNOZR5BkBatZPKqd1l7ufSYDMVV7mx/v0a2c911ZxHTqk3QIZPdiSIRigJwRnI0NF\nkzk7PjPqv7hEygs59cdbtODMNgjiWHfunfEtnlTP9k9TXRlc0QCPTwsDzWpsxg48\nSUJhHJXxN7sjrlDsDzwQPHN9xilIuUWcu8ZqFo2tU8A/D4LLHEpoE2IBzIj+KiBi\n/P5voUPJ29Ta5WhprjqYRKyYOY2WjKsOxLlo4k/uB7mwmdOAa4Ibd+8qSU2m6jKY\n0yavu0NZj6MNi59xc+80nOgNDS8Mm8JKM2j/NhwmCrXdIMNLjTde4wcNfUN84U6H\n+Wh0nFLczOXt1QiD+3GJS760m6T2vSxJF/JSlrkNTBNk+nGDVNfIsz955fYrwmQQ\nnBwliZxnsUmqFIQ5KKVo\n=GkNT\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree dcf9081ae3322a708fb48f7be7b8c8188fd5bdf2\nparent 9d937af8af6a8f9a12da4e478bd1bc1ebecff2f8\nauthor Anshul Garg <anshulgarg.garg509@gmail.com> 1773332151 +0530\ncommitter GitHub <noreply@github.com> 1773332151 -0600\n\ndocs: warn about zsh ! history expansion in sheet range examples (#412)\n\n* docs: warn about zsh \\! history expansion in sheet range examples\n\nAdd a \"Shell Tips\" section to the gws-shared skill explaining that\nzsh interprets \\! inside single quotes as history expansion, which\nmangles sheet ranges like 'Sheet1\\!A1:B2'.\n\nReplace single quotes with double quotes around sheet ranges\ncontaining \\! in:\n- registry/recipes.yaml (source for generated recipe skills)\n- src/helpers/sheets.rs (+read after_help examples)\n- src/generate_skills.rs (shared skill template)\n- Generated SKILL.md files for affected recipes and gws-sheets-read\n\nCloses #268\n\n* fix: escape double quotes in after_help string literal\n\nThe after_help string for +read uses a regular string literal, not a\nraw string, so inner double quotes must be escaped with backslashes.",
+      "verified_at": "2026-03-12T16:15:53Z"
+    }
+  },
+  "url": "https://api.github.com/repos/googleworkspace/cli/commits/e104106cd796bbe2a61146ccbc74714a69feb775",
+  "html_url": "https://github.com/googleworkspace/cli/commit/e104106cd796bbe2a61146ccbc74714a69feb775",
+  "comments_url": "https://api.github.com/repos/googleworkspace/cli/commits/e104106cd796bbe2a61146ccbc74714a69feb775/comments",
+  "author": {
+    "login": "anshul-garg27",
+    "id": 13553550,
+    "node_id": "MDQ6VXNlcjEzNTUzNTUw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/13553550?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/anshul-garg27",
+    "html_url": "https://github.com/anshul-garg27",
+    "followers_url": "https://api.github.com/users/anshul-garg27/followers",
+    "following_url": "https://api.github.com/users/anshul-garg27/following{/other_user}",
+    "gists_url": "https://api.github.com/users/anshul-garg27/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/anshul-garg27/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/anshul-garg27/subscriptions",
+    "organizations_url": "https://api.github.com/users/anshul-garg27/orgs",
+    "repos_url": "https://api.github.com/users/anshul-garg27/repos",
+    "events_url": "https://api.github.com/users/anshul-garg27/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/anshul-garg27/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9d937af8af6a8f9a12da4e478bd1bc1ebecff2f8",
+      "url": "https://api.github.com/repos/googleworkspace/cli/commits/9d937af8af6a8f9a12da4e478bd1bc1ebecff2f8",
+      "html_url": "https://github.com/googleworkspace/cli/commit/9d937af8af6a8f9a12da4e478bd1bc1ebecff2f8"
+    }
+  ]
+}

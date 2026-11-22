@@ -1,0 +1,149 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-python/skills/azure-search-documents-py/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "482f7f5ee936f4d0c912",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "bdc66e4618eb2f277d013192820aa042039372e0",
+    "computed_tree_sha": "e4b232c6af58b66ac26b575b016ce0ca956be7ca",
+    "api_tree_sha_as_returned": "e4b232c6af58b66ac26b575b016ce0ca956be7ca",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5eb74109fe52828ecda714e19f6388874b37e8a0",
+        "sha256": "21d55f38ebcf76bd3ea1251eb3fc43c41b2609c4134eca189bdb3e5253968b7b",
+        "size": 17523,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agentic-retrieval.md",
+        "git_blob_sha1": "1e018051a8e64c9810dfdfaa0ff4278a6149b3b4",
+        "sha256": "4f11c80e8833130a2ecf85e475de8e9c3f1dbf645ed9d0b10bfb7dba98963091",
+        "size": 7432,
+        "mode": "100644"
+      },
+      {
+        "path": "references/semantic-ranking.md",
+        "git_blob_sha1": "b87aa058e15eb5475be802323ed7b83b7f376ac7",
+        "sha256": "010b66e83c07e299f0d46d54b83cf281c498a5d7efecea5ff5ba95cbd7d78e1f",
+        "size": 7540,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-search.md",
+        "git_blob_sha1": "86aae01081a96baf31cc09ac9f7575cbb5443bc3",
+        "sha256": "c8a5c4f990e9f72735b835ad249891fc43d7a44fc5b6a24bcf8ff438eb017a0f",
+        "size": 6960,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_agentic_retrieval.py",
+        "git_blob_sha1": "078b4292481cd56b5e4f513136b6573ddd266ba0",
+        "sha256": "5b9353822db9c542fd5278d7d0dccd7933ceaa29ad1888e0d7f7235a02b74a3b",
+        "size": 6960,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_vector_index.py",
+        "git_blob_sha1": "5ceba2e48e21ff7b0e8aac33f5899f791b59ec57",
+        "sha256": "c97810b42b0d26d73709a0070fe204280eb2c2345377d863fbcd82e6e71b1104",
+        "size": 6143,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+    "computed_tree_sha": "629dedbea4c5b2112e6eeae902145e4c0d5d6cc7",
+    "api_tree_sha_as_returned": "629dedbea4c5b2112e6eeae902145e4c0d5d6cc7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "41ed03ad443be379d3cd39a3df18ff29634f1940",
+        "sha256": "4a8d46e6e8def539b71987804fdc2d0946948e6e332c98ca831eeaea9e596401",
+        "size": 17752,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agentic-retrieval.md",
+        "git_blob_sha1": "1e018051a8e64c9810dfdfaa0ff4278a6149b3b4",
+        "sha256": "4f11c80e8833130a2ecf85e475de8e9c3f1dbf645ed9d0b10bfb7dba98963091",
+        "size": 7432,
+        "mode": "100644"
+      },
+      {
+        "path": "references/semantic-ranking.md",
+        "git_blob_sha1": "b87aa058e15eb5475be802323ed7b83b7f376ac7",
+        "sha256": "010b66e83c07e299f0d46d54b83cf281c498a5d7efecea5ff5ba95cbd7d78e1f",
+        "size": 7540,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-search.md",
+        "git_blob_sha1": "86aae01081a96baf31cc09ac9f7575cbb5443bc3",
+        "sha256": "c8a5c4f990e9f72735b835ad249891fc43d7a44fc5b6a24bcf8ff438eb017a0f",
+        "size": 6960,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_agentic_retrieval.py",
+        "git_blob_sha1": "078b4292481cd56b5e4f513136b6573ddd266ba0",
+        "sha256": "5b9353822db9c542fd5278d7d0dccd7933ceaa29ad1888e0d7f7235a02b74a3b",
+        "size": 6960,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_vector_index.py",
+        "git_blob_sha1": "5ceba2e48e21ff7b0e8aac33f5899f791b59ec57",
+        "sha256": "c97810b42b0d26d73709a0070fe204280eb2c2345377d863fbcd82e6e71b1104",
+        "size": 6143,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bdc66e4618eb2f277d013192820aa042039372e0",
+  "new_commit": "df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "to address feedback\n\nCo-authored-by: Copilot <copilot@github.com>",
+  "new_commit_time": "2026-05-18T15:32:08Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bdc66e4618eb2f277d013192820aa042039372e0...df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "commit_url": "https://github.com/microsoft/skills/commit/df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "skill_directory": ".github/plugins/azure-sdk-python/skills/azure-search-documents-py",
+  "local_directory": "verified_real_update_pairs/OPU-0416",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0416",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

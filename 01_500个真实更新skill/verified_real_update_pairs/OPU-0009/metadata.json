@@ -1,0 +1,77 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/hf-cli/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "e2f84d05209362897dcc",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "fabc634a893f62ad5c2039830397efa35fa62715",
+    "computed_tree_sha": "5922046fde1ac4609c029f458dd1a2acd37196fe",
+    "api_tree_sha_as_returned": "5922046fde1ac4609c029f458dd1a2acd37196fe",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5e79e6348b2b23b7354f17b9526b676ff11136c2",
+        "sha256": "7cb0219c5d9b2beeaae97fe3efb4fc890e8e1869a150b7c0a5e5a0d85202b51c",
+        "size": 34199,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "computed_tree_sha": "70f9109ebb99cf204b7e3ffaade324beff66e36b",
+    "api_tree_sha_as_returned": "70f9109ebb99cf204b7e3ffaade324beff66e36b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2a01cd0f144f19d283196b02f3d5726a37733293",
+        "sha256": "a60115f0ca8fa0468e2e7878730925fc4dbf2fffdbed15391d14429a9830c4c1",
+        "size": 34197,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "fabc634a893f62ad5c2039830397efa35fa62715",
+  "new_commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync HF CLI skill from huggingface_hub@v2.4.0 (#281)\n\nCo-authored-by: hanouticelina <36770234+hanouticelina@users.noreply.github.com>",
+  "new_commit_time": "2026-10-29T15:32:11Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/fabc634a893f62ad5c2039830397efa35fa62715...25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "commit_url": "https://github.com/huggingface/skills/commit/25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "skill_directory": "skills/hf-cli",
+  "local_directory": "verified_real_update_pairs/OPU-0009",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0009",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

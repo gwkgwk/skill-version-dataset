@@ -1,0 +1,194 @@
+{
+  "sha": "d6c0a94c31ff13eae6b45fe73f249cff5ea506f9",
+  "url": "https://api.github.com/repos/openai/skills/git/trees/d6c0a94c31ff13eae6b45fe73f249cff5ea506f9",
+  "tree": [
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+      "size": 11357,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f892d9907212691ed5f40e79ba8819f4138d9cf0",
+      "size": 7820,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/f892d9907212691ed5f40e79ba8819f4138d9cf0"
+    },
+    {
+      "path": "agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "464706d71628e6b8b2df3763685137d495d75482",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/464706d71628e6b8b2df3763685137d495d75482"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32110f9ca1975b8222e05e96c943dbbc5d1a261b",
+      "size": 144,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/32110f9ca1975b8222e05e96c943dbbc5d1a261b"
+    },
+    {
+      "path": "references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1072767f1e06cd331211f5d1d77bd7eb1ba43b46",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/1072767f1e06cd331211f5d1d77bd7eb1ba43b46"
+    },
+    {
+      "path": "references/differences.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68a12b54c0842db9e85681af836847e015951cdd",
+      "size": 13735,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/68a12b54c0842db9e85681af836847e015951cdd"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5606f4b5955794e37699ff4cfdd6862b5606ebe7",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/5606f4b5955794e37699ff4cfdd6862b5606ebe7"
+    },
+    {
+      "path": "scripts/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f01ea17753be62ddaa6fd50d1bf73fb6d6fa38e",
+      "size": 30124,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/9f01ea17753be62ddaa6fd50d1bf73fb6d6fa38e"
+    },
+    {
+      "path": "scripts/migrate-to-codex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a2def4c3acbade3e928c308a270c5da9b9504dd",
+      "size": 208,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/7a2def4c3acbade3e928c308a270c5da9b9504dd"
+    },
+    {
+      "path": "scripts/migrate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38e32d21a710e4a11ae386899f873d070ba4886f",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/38e32d21a710e4a11ae386899f873d070ba4886f"
+    },
+    {
+      "path": "scripts/migrate/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16ac85a272622eab0172a85f17e2b6823becbbe2",
+      "size": 285,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/16ac85a272622eab0172a85f17e2b6823becbbe2"
+    },
+    {
+      "path": "scripts/migrate/agents.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b83e5908c04565a9a056353e1abdaf0b68d46c2c",
+      "size": 9991,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/b83e5908c04565a9a056353e1abdaf0b68d46c2c"
+    },
+    {
+      "path": "scripts/migrate/codex_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "915f120a116882e9d7d0b10ae41a87e169f2e6c6",
+      "size": 4031,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/915f120a116882e9d7d0b10ae41a87e169f2e6c6"
+    },
+    {
+      "path": "scripts/migrate/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5d83a8449f9da020e5adb402d1f490539e5086d",
+      "size": 11492,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/d5d83a8449f9da020e5adb402d1f490539e5086d"
+    },
+    {
+      "path": "scripts/migrate/hooks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb4f09e997b6b6d412f9deecfa2b19cc08b59cf3",
+      "size": 8194,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/eb4f09e997b6b6d412f9deecfa2b19cc08b59cf3"
+    },
+    {
+      "path": "scripts/migrate/instructions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ef0192011095887e6379e1bd5bc587be8f0306",
+      "size": 2434,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/07ef0192011095887e6379e1bd5bc587be8f0306"
+    },
+    {
+      "path": "scripts/migrate/mcps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1726739798cdcb16aaac5b110040ec918540e511",
+      "size": 7078,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/1726739798cdcb16aaac5b110040ec918540e511"
+    },
+    {
+      "path": "scripts/migrate/plugins.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b05cd0d0d7dcc60f100356a5f8b3f5b7e9fd49d3",
+      "size": 660,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/b05cd0d0d7dcc60f100356a5f8b3f5b7e9fd49d3"
+    },
+    {
+      "path": "scripts/migrate/settings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e0aa071011b068fae54ba28432d46cd563617ff",
+      "size": 1027,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/0e0aa071011b068fae54ba28432d46cd563617ff"
+    },
+    {
+      "path": "scripts/migrate/skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e72984fd33f4fb74ed6de81b9808b34b33f9f09",
+      "size": 12605,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/0e72984fd33f4fb74ed6de81b9808b34b33f9f09"
+    },
+    {
+      "path": "scripts/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "77c3e97111f288a6348c450d3e04066a06824ccd",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/77c3e97111f288a6348c450d3e04066a06824ccd"
+    },
+    {
+      "path": "scripts/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "211a97f94ae608868182ac56cdf33931a2978b5d",
+      "size": 35,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/211a97f94ae608868182ac56cdf33931a2978b5d"
+    },
+    {
+      "path": "scripts/utils/scan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc1540cec53156458b8dbf771780e6760be56379",
+      "size": 4370,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/cc1540cec53156458b8dbf771780e6760be56379"
+    },
+    {
+      "path": "scripts/utils/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6e0b0b33e5f8360f173459bc271897f5e819a99",
+      "size": 9441,
+      "url": "https://api.github.com/repos/openai/skills/git/blobs/c6e0b0b33e5f8360f173459bc271897f5e819a99"
+    }
+  ],
+  "truncated": false
+}

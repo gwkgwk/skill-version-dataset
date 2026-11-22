@@ -1,0 +1,250 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/python-appservice-deploy/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "31715b0ae251e653c0d4",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "4f831bbbf54e004507758d8ef2ab420c77bb81b6",
+    "computed_tree_sha": "3003f4d14f1e1a63ec94afd28f958560aab4b273",
+    "api_tree_sha_as_returned": "3003f4d14f1e1a63ec94afd28f958560aab4b273",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ca5cc00ee36032b5552bca1ff56d9110341c6396",
+        "sha256": "17a263999dfd82daf0c1aa826e5b7656c21a0dec5d9c458cbf2e32b9418100e3",
+        "size": 2787,
+        "mode": "100644"
+      },
+      {
+        "path": "references/create-app.md",
+        "git_blob_sha1": "891186a009ea0560a903257bfb0fd16af0f5b35c",
+        "sha256": "cee57397c4bf60bc45f039c402a606d028c0ecb71e3ac90b65d9cf5937295e78",
+        "size": 6202,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deploy-azcli.md",
+        "git_blob_sha1": "89e8d0d6badfc0cce742995c70113b0c13e9132a",
+        "sha256": "4bc99a3a09393cf3ab56edfcc1629de855d09b0ad85a73a8019fa93533c93893",
+        "size": 4800,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deploy-azd.md",
+        "git_blob_sha1": "f95976c2fd1cec518e136585811e6b84cc6371b2",
+        "sha256": "6f98bde0a91407afaa6ec178752cef0186924468d6958e83bf06f9877612b3f8",
+        "size": 2372,
+        "mode": "100644"
+      },
+      {
+        "path": "references/detect.md",
+        "git_blob_sha1": "b9054315874e249155c6a782965bf98b6379c842",
+        "sha256": "318e1a2ccd214082c79aeb418f39471bdcf565c9adbb638e319101a356e1f4cf",
+        "size": 3733,
+        "mode": "100644"
+      },
+      {
+        "path": "references/errors.md",
+        "git_blob_sha1": "6e4d09d4e56c2ed7ad9ec495cbd6e79f0fa45b53",
+        "sha256": "ea478d6a8699cc1b6a85dc3de680f5155bb21f16ea3a5cab6cead3c63a71a18e",
+        "size": 3855,
+        "mode": "100644"
+      },
+      {
+        "path": "references/post-deploy-message.md",
+        "git_blob_sha1": "b2a8f71a9fe0c1b6157ce01bcf36d8a5fac5c63e",
+        "sha256": "f01c28c96a9ebe975d95bf0c526ebceeaab0fb21d0466e25c74d875b8643fc40",
+        "size": 4488,
+        "mode": "100644"
+      },
+      {
+        "path": "references/startup-commands.md",
+        "git_blob_sha1": "7da6c705c12891628d6db191dc9fb6ad66f12dd2",
+        "sha256": "567e075b812cb0e4a93a58f8c78588e150628142c1d53f8872f2eedc18728bcf",
+        "size": 4421,
+        "mode": "100644"
+      },
+      {
+        "path": "references/transient-retry.md",
+        "git_blob_sha1": "85a44266669d188aaebbb3f8f67557a6ed15034f",
+        "sha256": "a33c51f1b9277bb790ba9f58128f241a4ada1e0ea67b151318c1158af83ad5a7",
+        "size": 2365,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate-app-name.ps1",
+        "git_blob_sha1": "db64c38e309f35a6f58931bccf79da0bc10a5661",
+        "sha256": "879eccd020a3e7b90432e6b80ce32ad6a68045a63b9732801b386e0be798a9da",
+        "size": 1744,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate-app-name.sh",
+        "git_blob_sha1": "c72ceb7f7bb3ecc2bdea474fb6ca4bd5d4e530ba",
+        "sha256": "06dd60528ab2870eaf38194d508c56efff2e77fd3c1979adcbc765134f0db183",
+        "size": 1844,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/retry-az-create.ps1",
+        "git_blob_sha1": "412bcd6295106f39c4e5420d4560eb3b96daa185",
+        "sha256": "432adb3d4d52a13360f8ac554cf9cb603848fee8ac0b9873a571e1d53f833d7b",
+        "size": 2201,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/retry-az-create.sh",
+        "git_blob_sha1": "222faa6f56e8445be0a96f30b1704c125bf05842",
+        "sha256": "bf1b6f1bc07a96f3e2b8f1d95c7a1c870353289a4006fbf2cd4f0efd87f4f7af",
+        "size": 1936,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "5211c2d689264beda633e549826602b719b9d828",
+    "computed_tree_sha": "d004beb92f073448259ed3d6ea2ad8eee3803e19",
+    "api_tree_sha_as_returned": "d004beb92f073448259ed3d6ea2ad8eee3803e19",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b97377ef1c765819820754f44e1bee922414d748",
+        "sha256": "63f15b83c033131b85ecbd7635c779a12e08efe16080301688944e3157364d00",
+        "size": 3287,
+        "mode": "100644"
+      },
+      {
+        "path": "references/create-app.md",
+        "git_blob_sha1": "08b808d17207f817953a30712ea745ca7ea202fe",
+        "sha256": "d71ca83197adf1fb902f448235ead1d10b977b54c8c79f2f5b3b8b8330eb7049",
+        "size": 6313,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deploy-azcli.md",
+        "git_blob_sha1": "08b97de641c228703b1ba65e2938d85972641555",
+        "sha256": "65da2143dcb7a17b5b0a5669d015c8320599346070323ebc9dd797783026176b",
+        "size": 6967,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deploy-azd.md",
+        "git_blob_sha1": "8a3027f6e51a3f46a2582cee99c9aeba2d689599",
+        "sha256": "ce1d2bdd3f26d2cd0feecfbd38843724084b9ddd300d2f033406c692e301e09e",
+        "size": 3455,
+        "mode": "100644"
+      },
+      {
+        "path": "references/detect.md",
+        "git_blob_sha1": "b9054315874e249155c6a782965bf98b6379c842",
+        "sha256": "318e1a2ccd214082c79aeb418f39471bdcf565c9adbb638e319101a356e1f4cf",
+        "size": 3733,
+        "mode": "100644"
+      },
+      {
+        "path": "references/errors.md",
+        "git_blob_sha1": "6e4d09d4e56c2ed7ad9ec495cbd6e79f0fa45b53",
+        "sha256": "ea478d6a8699cc1b6a85dc3de680f5155bb21f16ea3a5cab6cead3c63a71a18e",
+        "size": 3855,
+        "mode": "100644"
+      },
+      {
+        "path": "references/post-deploy-message.md",
+        "git_blob_sha1": "b2a8f71a9fe0c1b6157ce01bcf36d8a5fac5c63e",
+        "sha256": "f01c28c96a9ebe975d95bf0c526ebceeaab0fb21d0466e25c74d875b8643fc40",
+        "size": 4488,
+        "mode": "100644"
+      },
+      {
+        "path": "references/startup-commands.md",
+        "git_blob_sha1": "7da6c705c12891628d6db191dc9fb6ad66f12dd2",
+        "sha256": "567e075b812cb0e4a93a58f8c78588e150628142c1d53f8872f2eedc18728bcf",
+        "size": 4421,
+        "mode": "100644"
+      },
+      {
+        "path": "references/transient-retry.md",
+        "git_blob_sha1": "85a44266669d188aaebbb3f8f67557a6ed15034f",
+        "sha256": "a33c51f1b9277bb790ba9f58128f241a4ada1e0ea67b151318c1158af83ad5a7",
+        "size": 2365,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate-app-name.ps1",
+        "git_blob_sha1": "db64c38e309f35a6f58931bccf79da0bc10a5661",
+        "sha256": "879eccd020a3e7b90432e6b80ce32ad6a68045a63b9732801b386e0be798a9da",
+        "size": 1744,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate-app-name.sh",
+        "git_blob_sha1": "c72ceb7f7bb3ecc2bdea474fb6ca4bd5d4e530ba",
+        "sha256": "06dd60528ab2870eaf38194d508c56efff2e77fd3c1979adcbc765134f0db183",
+        "size": 1844,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/retry-az-create.ps1",
+        "git_blob_sha1": "412bcd6295106f39c4e5420d4560eb3b96daa185",
+        "sha256": "432adb3d4d52a13360f8ac554cf9cb603848fee8ac0b9873a571e1d53f833d7b",
+        "size": 2201,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/retry-az-create.sh",
+        "git_blob_sha1": "222faa6f56e8445be0a96f30b1704c125bf05842",
+        "sha256": "bf1b6f1bc07a96f3e2b8f1d95c7a1c870353289a4006fbf2cd4f0efd87f4f7af",
+        "size": 1936,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/create-app.md",
+    "references/deploy-azcli.md",
+    "references/deploy-azd.md"
+  ],
+  "old_commit": "4f831bbbf54e004507758d8ef2ab420c77bb81b6",
+  "new_commit": "5211c2d689264beda633e549826602b719b9d828",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-11-06T11:04:17Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/4f831bbbf54e004507758d8ef2ab420c77bb81b6...5211c2d689264beda633e549826602b719b9d828",
+  "commit_url": "https://github.com/microsoft/skills/commit/5211c2d689264beda633e549826602b719b9d828",
+  "skill_directory": ".github/plugins/azure-skills/skills/python-appservice-deploy",
+  "local_directory": "verified_real_update_pairs/OPU-0486",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0486",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

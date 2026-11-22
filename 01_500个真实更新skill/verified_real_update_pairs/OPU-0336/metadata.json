@@ -1,0 +1,93 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-java/skills/azure-monitor-ingestion-java/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "d9260d83902092013d00",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+    "computed_tree_sha": "f3f0b7088541ceac5d4c805b90369ec288216237",
+    "api_tree_sha_as_returned": "f3f0b7088541ceac5d4c805b90369ec288216237",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "20603db324c0a9f3652528ca9101c54bc54acfd5",
+        "sha256": "508a48c4589670aa723bc3f12929a33a511439bc4deb3c7b0ee298d5ac10ce7f",
+        "size": 7307,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "cde2a20e304986978f3ac3be8d4527924368528b",
+        "sha256": "930e5cfa1a13c14d17f1f46c6812b2143c4bed0194141909416a72c17bae8fd2",
+        "size": 8073,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+    "computed_tree_sha": "99ffd5484dfa60d3c5c38d0bd22b3d2861d8a624",
+    "api_tree_sha_as_returned": "99ffd5484dfa60d3c5c38d0bd22b3d2861d8a624",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fdafd0a6c66489ff4096732c092c8e17671527e7",
+        "sha256": "edc52c6adc3d7503cfce4bee6fca0357f98f003b3555b4b2867daace43210f5f",
+        "size": 8031,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "cde2a20e304986978f3ac3be8d4527924368528b",
+        "sha256": "930e5cfa1a13c14d17f1f46c6812b2143c4bed0194141909416a72c17bae8fd2",
+        "size": 8073,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+  "new_commit": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Java skills auth and env vars with requireEnvVars pattern\n\n- Add requireEnvVars(AzureIdentityEnvVars.AZURE_TOKEN_CREDENTIALS) to DefaultAzureCredentialBuilder in 20 Java skills\n- Add ManagedIdentityCredentialBuilder as production alternative with credential classes link\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables sections\n- Add inline comments to all env vars explaining purpose\n- Update skill-creator with Java and C# auth patterns\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-29T07:41:43Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/7d736cbd13e586462eac0c22d6eada4f7a0e435a...e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "commit_url": "https://github.com/microsoft/skills/commit/e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "skill_directory": ".github/plugins/azure-sdk-java/skills/azure-monitor-ingestion-java",
+  "local_directory": "verified_real_update_pairs/OPU-0336",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0336",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/entra-app-registration/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "3796e0d600410dfcac10",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "752edb9b01dd42aa731e22b3da891cc733d7bebe",
+    "computed_tree_sha": "9796dd5d6b70d96a7defe3ee3e542fecdef5904c",
+    "api_tree_sha_as_returned": "9796dd5d6b70d96a7defe3ee3e542fecdef5904c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9253ba09a6f71ea5b2bda0dd128d481bec321e52",
+        "sha256": "c95e095025be0579170293652ff89a0515870e2585e238cdbb2491f53d6f4fde",
+        "size": 8272,
+        "mode": "100644"
+      },
+      {
+        "path": "references/BICEP-EXAMPLE.bicep",
+        "git_blob_sha1": "8b2472a567d4c751967e54b93b8b3a5d733f9626",
+        "sha256": "b76bd3a16f66f91597e37ec547f15bbe6e3f544865f788ebd98f5284567f7ef9",
+        "size": 5328,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-permissions.md",
+        "git_blob_sha1": "e6a91d1fb3659a525d5f5787c4e639f8618181b4",
+        "sha256": "e9ac672e8bdd4e689e4bdb11a272d125e3a4008ff95dd16c3285175753a80e68",
+        "size": 10198,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-commands.md",
+        "git_blob_sha1": "62f9fe14bcfda66a32acae8f4d9b9f7013a93b21",
+        "sha256": "c6c7881bcd6c9710fd71f54413077109f455cd2a1ba0d233652410f72f56ad24",
+        "size": 8852,
+        "mode": "100644"
+      },
+      {
+        "path": "references/console-app-example.md",
+        "git_blob_sha1": "dfdb8c5be554a4a1160718493b7c1d212718d284",
+        "sha256": "f4eef7238d9e3c5f09de4c49c7fc47da398a9d4ef6876cd29b3c1efa0a41eee4",
+        "size": 11005,
+        "mode": "100644"
+      },
+      {
+        "path": "references/first-app-registration.md",
+        "git_blob_sha1": "4300c1985a35992a95da351443e9e6b5bf16c07a",
+        "sha256": "4db5c564eb3d61468f39d05c98e0e91940cb8912aeb25023b2cf09d8176a84ed",
+        "size": 7415,
+        "mode": "100644"
+      },
+      {
+        "path": "references/oauth-flows.md",
+        "git_blob_sha1": "dd19b153cb8a245d226588c70d2ebfa6840376b1",
+        "sha256": "24e7f2d19c39ef1f6a1b20de86f6ab901195eb66bde3785d9e2798165990b0c7",
+        "size": 9540,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-dotnet.md",
+        "git_blob_sha1": "5bec6aae80872a45e89a26cc3a7634ce63f6c2a8",
+        "sha256": "57aa33fc39d9e57bb7ca03d7de04efc064406237a52dc11b3ab4c7eb58240771",
+        "size": 940,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-java.md",
+        "git_blob_sha1": "0681b73ab9c4d9828beb98ae0024c47262b8f67d",
+        "sha256": "56a0255fb7c54c371d29df6e282b46668f0abbe0d46370ccc75d643883d29ccb",
+        "size": 1248,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-py.md",
+        "git_blob_sha1": "f73e44db597cb94be3472be629245b9e2d1dfba7",
+        "sha256": "2b2413f9398bef770085a6db2bbf042d3be4569345f8b7da9286107517ac2528",
+        "size": 1148,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-rust.md",
+        "git_blob_sha1": "30057e22b47a1f317583f136997ba32905318c2c",
+        "sha256": "59d1d971670247bba0f403d6a308403ca7c8541597dc5b802385eb74fb5949bc",
+        "size": 805,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-ts.md",
+        "git_blob_sha1": "e1a64790ea161fe5f45197b3faadec3540bc4226",
+        "sha256": "cbda94a98c58bb7a95d4fff9dffdbe7890cf59ac4f418dd307e3589b24090e73",
+        "size": 1144,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-py.md",
+        "git_blob_sha1": "043c80cbc919302f9ca55bcfa6e70105675d5865",
+        "sha256": "27f350103a537eeeadf57e88dc6159283313d1e01c803d2f547f4bc4047035bc",
+        "size": 1135,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-secrets-ts.md",
+        "git_blob_sha1": "3a7dce4d3da3b595b00807cc1db5bb33ab430b10",
+        "sha256": "1245bf5652e351813290fee3e6d244b16aeba20f7c91ac62163a39743c4edccf",
+        "size": 1043,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/microsoft-azure-webjobs-extensions-authentication-events-dotnet.md",
+        "git_blob_sha1": "9b2aef9a2c323aad182e441b7da7a06e88c5bcf2",
+        "sha256": "33c98b6d5014a5ce4b99aad1aee231687e5771cf9691169888d0efd4c48e7ade",
+        "size": 1522,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "768ea80337f93eab6fd68ec92b0eb312ee883693",
+        "sha256": "47527e8b887a83f89d6de6e25f12faa49a12f3b6e269063743eb11f0678857f3",
+        "size": 7594,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "54973169ce3688bddc6f7343d807a79445d629f4",
+    "computed_tree_sha": "bb97c90dd4e628264630e40dde41bda714fefa5a",
+    "api_tree_sha_as_returned": "bb97c90dd4e628264630e40dde41bda714fefa5a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b95c4e5b0abafeb052c8272142d3a3c7e99c6493",
+        "sha256": "7af8bad0b1a8a467912299df85566b9af642e4de6618b3331146a42cf507d0ab",
+        "size": 8223,
+        "mode": "100644"
+      },
+      {
+        "path": "references/BICEP-EXAMPLE.bicep",
+        "git_blob_sha1": "8b2472a567d4c751967e54b93b8b3a5d733f9626",
+        "sha256": "b76bd3a16f66f91597e37ec547f15bbe6e3f544865f788ebd98f5284567f7ef9",
+        "size": 5328,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-permissions.md",
+        "git_blob_sha1": "e6a91d1fb3659a525d5f5787c4e639f8618181b4",
+        "sha256": "e9ac672e8bdd4e689e4bdb11a272d125e3a4008ff95dd16c3285175753a80e68",
+        "size": 10198,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-commands.md",
+        "git_blob_sha1": "62f9fe14bcfda66a32acae8f4d9b9f7013a93b21",
+        "sha256": "c6c7881bcd6c9710fd71f54413077109f455cd2a1ba0d233652410f72f56ad24",
+        "size": 8852,
+        "mode": "100644"
+      },
+      {
+        "path": "references/console-app-example.md",
+        "git_blob_sha1": "dfdb8c5be554a4a1160718493b7c1d212718d284",
+        "sha256": "f4eef7238d9e3c5f09de4c49c7fc47da398a9d4ef6876cd29b3c1efa0a41eee4",
+        "size": 11005,
+        "mode": "100644"
+      },
+      {
+        "path": "references/first-app-registration.md",
+        "git_blob_sha1": "4300c1985a35992a95da351443e9e6b5bf16c07a",
+        "sha256": "4db5c564eb3d61468f39d05c98e0e91940cb8912aeb25023b2cf09d8176a84ed",
+        "size": 7415,
+        "mode": "100644"
+      },
+      {
+        "path": "references/oauth-flows.md",
+        "git_blob_sha1": "dd19b153cb8a245d226588c70d2ebfa6840376b1",
+        "sha256": "24e7f2d19c39ef1f6a1b20de86f6ab901195eb66bde3785d9e2798165990b0c7",
+        "size": 9540,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-dotnet.md",
+        "git_blob_sha1": "5bec6aae80872a45e89a26cc3a7634ce63f6c2a8",
+        "sha256": "57aa33fc39d9e57bb7ca03d7de04efc064406237a52dc11b3ab4c7eb58240771",
+        "size": 940,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-java.md",
+        "git_blob_sha1": "0681b73ab9c4d9828beb98ae0024c47262b8f67d",
+        "sha256": "56a0255fb7c54c371d29df6e282b46668f0abbe0d46370ccc75d643883d29ccb",
+        "size": 1248,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-py.md",
+        "git_blob_sha1": "f73e44db597cb94be3472be629245b9e2d1dfba7",
+        "sha256": "2b2413f9398bef770085a6db2bbf042d3be4569345f8b7da9286107517ac2528",
+        "size": 1148,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-rust.md",
+        "git_blob_sha1": "30057e22b47a1f317583f136997ba32905318c2c",
+        "sha256": "59d1d971670247bba0f403d6a308403ca7c8541597dc5b802385eb74fb5949bc",
+        "size": 805,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-identity-ts.md",
+        "git_blob_sha1": "e1a64790ea161fe5f45197b3faadec3540bc4226",
+        "sha256": "cbda94a98c58bb7a95d4fff9dffdbe7890cf59ac4f418dd307e3589b24090e73",
+        "size": 1144,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-py.md",
+        "git_blob_sha1": "043c80cbc919302f9ca55bcfa6e70105675d5865",
+        "sha256": "27f350103a537eeeadf57e88dc6159283313d1e01c803d2f547f4bc4047035bc",
+        "size": 1135,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-secrets-ts.md",
+        "git_blob_sha1": "3a7dce4d3da3b595b00807cc1db5bb33ab430b10",
+        "sha256": "1245bf5652e351813290fee3e6d244b16aeba20f7c91ac62163a39743c4edccf",
+        "size": 1043,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/microsoft-azure-webjobs-extensions-authentication-events-dotnet.md",
+        "git_blob_sha1": "9b2aef9a2c323aad182e441b7da7a06e88c5bcf2",
+        "sha256": "33c98b6d5014a5ce4b99aad1aee231687e5771cf9691169888d0efd4c48e7ade",
+        "size": 1522,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "768ea80337f93eab6fd68ec92b0eb312ee883693",
+        "sha256": "47527e8b887a83f89d6de6e25f12faa49a12f3b6e269063743eb11f0678857f3",
+        "size": 7594,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "752edb9b01dd42aa731e22b3da891cc733d7bebe",
+  "new_commit": "54973169ce3688bddc6f7343d807a79445d629f4",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-07-17T11:28:57Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/752edb9b01dd42aa731e22b3da891cc733d7bebe...54973169ce3688bddc6f7343d807a79445d629f4",
+  "commit_url": "https://github.com/microsoft/skills/commit/54973169ce3688bddc6f7343d807a79445d629f4",
+  "skill_directory": ".github/plugins/azure-skills/skills/entra-app-registration",
+  "local_directory": "verified_real_update_pairs/OPU-0480",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0480",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

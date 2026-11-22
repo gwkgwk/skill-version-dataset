@@ -1,0 +1,227 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/airunway-aks-setup/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "4454f8bba359111acf5e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "3898ec894e90afdfdae982a925db28b6a7b334e3",
+    "computed_tree_sha": "92ee32d7ae377d718d4c2282c1eb2176a7fd6407",
+    "api_tree_sha_as_returned": "92ee32d7ae377d718d4c2282c1eb2176a7fd6407",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "48df683b3762fe8641c5276f1d85120c5b4a7bfa",
+        "sha256": "fff89af6c8c81005b48a073e470636f3b11ef3f991e55c109dae9f36105ffda7",
+        "size": 4107,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gpu-profiles.md",
+        "git_blob_sha1": "d2e88eecb54898909101ffb9f5ead093effc3639",
+        "sha256": "d9782a61870446dac17dc2b6c62049a586372ec14bfa18493d4926162b10807b",
+        "size": 2566,
+        "mode": "100644"
+      },
+      {
+        "path": "references/model-sizing.md",
+        "git_blob_sha1": "5c88d071e318a7efc6abb1731c6ace4924a3f827",
+        "sha256": "00118f56befd015b53eb6df2572a8c5590fcaa3afd7f3b729c8d75fabfd8626f",
+        "size": 1878,
+        "mode": "100644"
+      },
+      {
+        "path": "references/powershell-notes.md",
+        "git_blob_sha1": "9cbdb4f48abe4e111afb701bcc65a92bddbaf175",
+        "sha256": "82ee93effe3c62b87ff4b9520a06c814ccd42f8d25a620781865f8a564c91e81",
+        "size": 3218,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-1-verify.md",
+        "git_blob_sha1": "aec488a8492dd8ed9199eea66add1bd28d8c9354",
+        "sha256": "1d8776309855462b47d1094bfef0d02f7105f3d03f6902eea6de0a57636bf94e",
+        "size": 1972,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-2-controller.md",
+        "git_blob_sha1": "54d3298de196805609e3812d4425525dc8145bb6",
+        "sha256": "5088d7b90881e35db3d2f9d7a128eca6661487924338aaf057cfc22109701e93",
+        "size": 1075,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-3-gpu.md",
+        "git_blob_sha1": "553f19f47a9a9e6c8b0a1fbf194381c3f8339a00",
+        "sha256": "882f657390c9fc55a87d657da9ac1c6ae18bc0730c0f9d64683d174d7d2892a8",
+        "size": 834,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-4-provider.md",
+        "git_blob_sha1": "a3046fb0dcccd2bf9e898adfa0f05f7fd7bbb040",
+        "sha256": "3a618de715c5594d12ded0e08189cf66843239dc234d86c541df268ac9dcbcff",
+        "size": 2059,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-5-deploy.md",
+        "git_blob_sha1": "7029cc435e6b9fa0d71ab4b973d5b330a9b81123",
+        "sha256": "14ce2057fbeb21d419fd0d9ebba00e42305dbbb959d595d18e55dc1fdeb43179",
+        "size": 3648,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-6-summary.md",
+        "git_blob_sha1": "42e109017d391e10c3704bfb1781dfa1484bd436",
+        "sha256": "fe7c9a47b2786b4eaefef1f3cc08fc6d11925fe9514610b72b7f41ceed7a39e7",
+        "size": 1745,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "643f00b50c1f317cd6a81f1f35d0bce9859914dd",
+        "sha256": "e04601080a33e34bfad2aff51dfaa47c8410aed2a524366d156641837efd8ead",
+        "size": 1566,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "07ade634651fa0852f6bb5d6d0b12f495b66bacb",
+    "computed_tree_sha": "f1188c99d276aada84992b4e60387f2ad5814dd8",
+    "api_tree_sha_as_returned": "f1188c99d276aada84992b4e60387f2ad5814dd8",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b073a851e1f9678e349032558a51ab2a36f10454",
+        "sha256": "cb076706a81bef96568a0f71fdda9e44ab67bc76a3c40541d20046ae129f29df",
+        "size": 4501,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gpu-profiles.md",
+        "git_blob_sha1": "d2e88eecb54898909101ffb9f5ead093effc3639",
+        "sha256": "d9782a61870446dac17dc2b6c62049a586372ec14bfa18493d4926162b10807b",
+        "size": 2566,
+        "mode": "100644"
+      },
+      {
+        "path": "references/model-sizing.md",
+        "git_blob_sha1": "5c88d071e318a7efc6abb1731c6ace4924a3f827",
+        "sha256": "00118f56befd015b53eb6df2572a8c5590fcaa3afd7f3b729c8d75fabfd8626f",
+        "size": 1878,
+        "mode": "100644"
+      },
+      {
+        "path": "references/optional-gpu-day2.md",
+        "git_blob_sha1": "835549da2f2ddb44d006c5b8e52a9b3ad51838e6",
+        "sha256": "9077cd70a33a126b69767a10b353c37a4d0ce7ed273b01dda9f8ec3572d7f464",
+        "size": 1085,
+        "mode": "100644"
+      },
+      {
+        "path": "references/powershell-notes.md",
+        "git_blob_sha1": "9cbdb4f48abe4e111afb701bcc65a92bddbaf175",
+        "sha256": "82ee93effe3c62b87ff4b9520a06c814ccd42f8d25a620781865f8a564c91e81",
+        "size": 3218,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-1-verify.md",
+        "git_blob_sha1": "aec488a8492dd8ed9199eea66add1bd28d8c9354",
+        "sha256": "1d8776309855462b47d1094bfef0d02f7105f3d03f6902eea6de0a57636bf94e",
+        "size": 1972,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-2-controller.md",
+        "git_blob_sha1": "54d3298de196805609e3812d4425525dc8145bb6",
+        "sha256": "5088d7b90881e35db3d2f9d7a128eca6661487924338aaf057cfc22109701e93",
+        "size": 1075,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-3-gpu.md",
+        "git_blob_sha1": "553f19f47a9a9e6c8b0a1fbf194381c3f8339a00",
+        "sha256": "882f657390c9fc55a87d657da9ac1c6ae18bc0730c0f9d64683d174d7d2892a8",
+        "size": 834,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-4-provider.md",
+        "git_blob_sha1": "a3046fb0dcccd2bf9e898adfa0f05f7fd7bbb040",
+        "sha256": "3a618de715c5594d12ded0e08189cf66843239dc234d86c541df268ac9dcbcff",
+        "size": 2059,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-5-deploy.md",
+        "git_blob_sha1": "7029cc435e6b9fa0d71ab4b973d5b330a9b81123",
+        "sha256": "14ce2057fbeb21d419fd0d9ebba00e42305dbbb959d595d18e55dc1fdeb43179",
+        "size": 3648,
+        "mode": "100644"
+      },
+      {
+        "path": "references/steps/step-6-summary.md",
+        "git_blob_sha1": "42e109017d391e10c3704bfb1781dfa1484bd436",
+        "sha256": "fe7c9a47b2786b4eaefef1f3cc08fc6d11925fe9514610b72b7f41ceed7a39e7",
+        "size": 1745,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "643f00b50c1f317cd6a81f1f35d0bce9859914dd",
+        "sha256": "e04601080a33e34bfad2aff51dfaa47c8410aed2a524366d156641837efd8ead",
+        "size": 1566,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/optional-gpu-day2.md"
+  ],
+  "old_commit": "3898ec894e90afdfdae982a925db28b6a7b334e3",
+  "new_commit": "07ade634651fa0852f6bb5d6d0b12f495b66bacb",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-10-09T11:06:40Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/3898ec894e90afdfdae982a925db28b6a7b334e3...07ade634651fa0852f6bb5d6d0b12f495b66bacb",
+  "commit_url": "https://github.com/microsoft/skills/commit/07ade634651fa0852f6bb5d6d0b12f495b66bacb",
+  "skill_directory": ".github/plugins/azure-skills/skills/airunway-aks-setup",
+  "local_directory": "verified_real_update_pairs/OPU-0458",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0458",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-operator/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "95aef74d11d44314ead7",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "06fff9e3edb7fc3c115a1769406047fcaf0a6289",
+    "computed_tree_sha": "699e634eeb3be328583c0c4c33a878804f0c3966",
+    "api_tree_sha_as_returned": "699e634eeb3be328583c0c4c33a878804f0c3966",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4160504a37ca324b1b2a988796b99938d7b45a76",
+        "sha256": "32c2faf6d98d3d523eebb278858fb201aa1ff48ac7e7a7f1a7d0b8ad6a2c9067",
+        "size": 15711,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "9e566f6273c03d12379fc592aa750bb1c404294c",
+        "sha256": "7beba046ac65ca71d94a9a82535773a5495b0dc065feb6b53191f60709442173",
+        "size": 1931,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e96f2070b42c11e184e662cfe1fda8b20c9e2140",
+    "computed_tree_sha": "6bd472c881ebfa7f2e2071025c150a47b8ec0c34",
+    "api_tree_sha_as_returned": "6bd472c881ebfa7f2e2071025c150a47b8ec0c34",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8887eec541cbe4622b1cc49b5796de5af39a5a8e",
+        "sha256": "efeb2b41e5590c663b393143b761e52be828694e4b6256817f539fc8c4f6889a",
+        "size": 22614,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "97053f5b51218e6fe19c6131be8d700bb131b74e",
+        "sha256": "b1148407aaa52765abfda53b532d6de1c613650b865eefa9adb07236e4961fbf",
+        "size": 1931,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "06fff9e3edb7fc3c115a1769406047fcaf0a6289",
+  "new_commit": "e96f2070b42c11e184e662cfe1fda8b20c9e2140",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Move the Cloud Operator skills to organization-scoped operator agents.\n\nEach user now has one personal operator agent per Google Cloud organization.\nThe cloud-operator, cloud-operator-setup and cloud-operator-share-context\nskills find the organization of the project the user works in, call the\noperator with `organization`, and walk the user through creating their agent\nwhen they don't have one yet.\n\nPiperOrigin-RevId: 1025598336",
+  "new_commit_time": "2026-11-19T16:04:20Z",
+  "compare_url": "https://github.com/google/skills/compare/06fff9e3edb7fc3c115a1769406047fcaf0a6289...e96f2070b42c11e184e662cfe1fda8b20c9e2140",
+  "commit_url": "https://github.com/google/skills/commit/e96f2070b42c11e184e662cfe1fda8b20c9e2140",
+  "skill_directory": "skills/cloud/cloud-operator",
+  "local_directory": "verified_real_update_pairs/OPU-0392",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0392",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

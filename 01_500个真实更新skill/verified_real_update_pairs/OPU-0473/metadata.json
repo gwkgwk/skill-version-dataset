@@ -1,0 +1,123 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-quotas/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "cf924d5748b2d2ee02ba",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "322f7cddf73864248aa855b435bb93198ae3efaa",
+    "computed_tree_sha": "0cba19a64d23d503dd74a9e07cbc93bba309d51a",
+    "api_tree_sha_as_returned": "0cba19a64d23d503dd74a9e07cbc93bba309d51a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "04a0b1ac4a561ae1ac1b702580b07d6379f3280a",
+        "sha256": "df0a4041356f08e56df2b227d7fe8f50e58315504bbb86ac3145cffa1b80d770",
+        "size": 11324,
+        "mode": "100644"
+      },
+      {
+        "path": "references/advanced-commands.md",
+        "git_blob_sha1": "9dfec4b008153639ecce28e66eaccbc323b1a29b",
+        "sha256": "8dedb79dd9ed6468bbec7a92f4dadfd9d87e794317424818ba1c635250b6dfed",
+        "size": 1814,
+        "mode": "100644"
+      },
+      {
+        "path": "references/commands.md",
+        "git_blob_sha1": "6040ad4fda176a0b10bde60a41c1b27b8907140e",
+        "sha256": "8c5d3df832a20322ed8e94be757ef2fe49fdd39a781aaddd69fe5b6867a3a627",
+        "size": 10619,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "c5efa32e0ef4922d693785014258f7a0aefae259",
+    "computed_tree_sha": "8a628e265ecb05a8f78a9a7e4e4772fb82d78c40",
+    "api_tree_sha_as_returned": "8a628e265ecb05a8f78a9a7e4e4772fb82d78c40",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "cbd67b6c336362ee343390e713b91b5662841038",
+        "sha256": "b517e29b50ba07dc42dd4fd356c0c15d5d41435415f6835ddb2ad874d6997237",
+        "size": 12065,
+        "mode": "100644"
+      },
+      {
+        "path": "references/advanced-commands.md",
+        "git_blob_sha1": "9dfec4b008153639ecce28e66eaccbc323b1a29b",
+        "sha256": "8dedb79dd9ed6468bbec7a92f4dadfd9d87e794317424818ba1c635250b6dfed",
+        "size": 1814,
+        "mode": "100644"
+      },
+      {
+        "path": "references/commands.md",
+        "git_blob_sha1": "6040ad4fda176a0b10bde60a41c1b27b8907140e",
+        "sha256": "8c5d3df832a20322ed8e94be757ef2fe49fdd39a781aaddd69fe5b6867a3a627",
+        "size": 10619,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check-quota.ps1",
+        "git_blob_sha1": "5342fd727672005c5216417e58d275e53fb9120a",
+        "sha256": "426ff42da18d06e2ca9f382b2342b1434cf27e998b70b60a700bfc82fdc3ed23",
+        "size": 3409,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check-quota.sh",
+        "git_blob_sha1": "bc5e64d5464720385744d6ae7e55ef2d3a049f0b",
+        "sha256": "35cd93d7b8665fa1803a5253da8da326c9dae532ea7e1501b413ecf11f72542b",
+        "size": 3021,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/check-quota.ps1",
+    "scripts/check-quota.sh"
+  ],
+  "old_commit": "322f7cddf73864248aa855b435bb93198ae3efaa",
+  "new_commit": "c5efa32e0ef4922d693785014258f7a0aefae259",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-05-27T16:59:58Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/322f7cddf73864248aa855b435bb93198ae3efaa...c5efa32e0ef4922d693785014258f7a0aefae259",
+  "commit_url": "https://github.com/microsoft/skills/commit/c5efa32e0ef4922d693785014258f7a0aefae259",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-quotas",
+  "local_directory": "verified_real_update_pairs/OPU-0473",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0473",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

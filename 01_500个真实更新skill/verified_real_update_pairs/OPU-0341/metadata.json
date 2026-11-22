@@ -1,0 +1,185 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/bigtable-basics/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "a6ebac53f07e7361bbdb",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+    "computed_tree_sha": "e0f9fd9c13bb68a3bd4649a0059294411eceb2e4",
+    "api_tree_sha_as_returned": "e0f9fd9c13bb68a3bd4649a0059294411eceb2e4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "65c284fcfef1f75ef331128ea711954e08c9448e",
+        "sha256": "090fe13bb07b0aeaff671ebf54e71708475838703dd62497bf628d71e3680d59",
+        "size": 5154,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/row_key_schema.yaml",
+        "git_blob_sha1": "95b7c411b11328e8154feea8b37af60269a43e35",
+        "sha256": "d624971c1803f1204aa88a1892db9ccca5c8a658e82975e0bac766e77053e41e",
+        "size": 205,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli_data_access.md",
+        "git_blob_sha1": "eeaac0ac74914de81384eff83fd917f8ec252164",
+        "sha256": "99824f9a6850957007f20d7d9962ae982e662549e1ae14c6c4227e0c4b05a24a",
+        "size": 1639,
+        "mode": "100644"
+      },
+      {
+        "path": "references/client_libraries.md",
+        "git_blob_sha1": "7c16cb94df06c3d2a2ffdb92fa234fe384ccd69a",
+        "sha256": "20e1815463881915c638c50873c108f981fe291f57351914e12196eba5086c58",
+        "size": 2364,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dataplex.md",
+        "git_blob_sha1": "2aa6407e4cb50cbdfb5c5a61bca836786d9b8eb6",
+        "sha256": "a7fe80e70dacbef047c7542ca26a644ffa0976d27be7b63c1f533ba35976d6f6",
+        "size": 911,
+        "mode": "100644"
+      },
+      {
+        "path": "references/infrastructure_management.md",
+        "git_blob_sha1": "ed11fce65c31d59fc523403ec5314d3c05471dab",
+        "sha256": "5ad1439fbaeae399906629e374567132e487ce7629344518f6e562c9b05fb536",
+        "size": 3444,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema_design.md",
+        "git_blob_sha1": "24b64497f705042ad65b549cd15f155754c27ba6",
+        "sha256": "8f77d0b06de5563c7e6a72970d256bbadc5d8515997ee9279580ac98388a2f73",
+        "size": 8136,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sql_guide.md",
+        "git_blob_sha1": "d7152fa78ff1a729a0c8f2d2641a78cfa418eeb2",
+        "sha256": "ca970ecbba95b4d495706380821a015dd78e885ae8dabcb38de70c01515561dd",
+        "size": 7614,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+    "computed_tree_sha": "d475e657952d4e6a04d95e4bcf8d57b9bc80a39b",
+    "api_tree_sha_as_returned": "d475e657952d4e6a04d95e4bcf8d57b9bc80a39b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b86f082912bc885d97d87c0f82fb5404fc31f9a3",
+        "sha256": "36bf4ac074b32f0f0d4c39338453c185c6cf278359cc2d1137911d9d87393633",
+        "size": 5589,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/row_key_schema.yaml",
+        "git_blob_sha1": "95b7c411b11328e8154feea8b37af60269a43e35",
+        "sha256": "d624971c1803f1204aa88a1892db9ccca5c8a658e82975e0bac766e77053e41e",
+        "size": 205,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "eca5b7fe4c09cba670585c36603f1d7ab3e6c55f",
+        "sha256": "f50b83a9df999f540b3914235035f8810bfdf3adf3c84649bf03d379d4bb77ab",
+        "size": 1885,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli_data_access.md",
+        "git_blob_sha1": "eeaac0ac74914de81384eff83fd917f8ec252164",
+        "sha256": "99824f9a6850957007f20d7d9962ae982e662549e1ae14c6c4227e0c4b05a24a",
+        "size": 1639,
+        "mode": "100644"
+      },
+      {
+        "path": "references/client_libraries.md",
+        "git_blob_sha1": "7c16cb94df06c3d2a2ffdb92fa234fe384ccd69a",
+        "sha256": "20e1815463881915c638c50873c108f981fe291f57351914e12196eba5086c58",
+        "size": 2364,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dataplex.md",
+        "git_blob_sha1": "2aa6407e4cb50cbdfb5c5a61bca836786d9b8eb6",
+        "sha256": "a7fe80e70dacbef047c7542ca26a644ffa0976d27be7b63c1f533ba35976d6f6",
+        "size": 911,
+        "mode": "100644"
+      },
+      {
+        "path": "references/infrastructure_management.md",
+        "git_blob_sha1": "ed11fce65c31d59fc523403ec5314d3c05471dab",
+        "sha256": "5ad1439fbaeae399906629e374567132e487ce7629344518f6e562c9b05fb536",
+        "size": 3444,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema_design.md",
+        "git_blob_sha1": "24b64497f705042ad65b549cd15f155754c27ba6",
+        "sha256": "8f77d0b06de5563c7e6a72970d256bbadc5d8515997ee9279580ac98388a2f73",
+        "size": 8136,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sql_guide.md",
+        "git_blob_sha1": "d7152fa78ff1a729a0c8f2d2641a78cfa418eeb2",
+        "sha256": "ca970ecbba95b4d495706380821a015dd78e885ae8dabcb38de70c01515561dd",
+        "size": 7614,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+  "new_commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to Data and Databases agent skills.\n\n- Add `references/attribution.md` to all 17 Data, Analytics, and Database skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1003337710",
+  "new_commit_time": "2026-10-20T20:10:36Z",
+  "compare_url": "https://github.com/google/skills/compare/46e817d86d34f8a3d21a0432e99ae3e3feddda72...dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "commit_url": "https://github.com/google/skills/commit/dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "skill_directory": "skills/cloud/bigtable-basics",
+  "local_directory": "verified_real_update_pairs/OPU-0341",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0341",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

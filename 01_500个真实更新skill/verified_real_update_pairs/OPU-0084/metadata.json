@@ -1,0 +1,77 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/ads/data-manager-api-event-ingestion/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "6cb60afee0e79be87241",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "c00afe69076dd6985a70cc6d640a9b91980e41d0",
+    "computed_tree_sha": "7f2f82c62ea3cbea39b9bc3aacd2728964f7b27f",
+    "api_tree_sha_as_returned": "7f2f82c62ea3cbea39b9bc3aacd2728964f7b27f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4c0479d47684f9807dc13eb5e1fe5f319c35d9e8",
+        "sha256": "d48fbcc6c6b3b06dd24775c8d4ff21bcb9df21423d1e3bf3df3757297e71e4c6",
+        "size": 12342,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "219a8ff487ad03c6f0c5edd6c5622b68ccbaf553",
+    "computed_tree_sha": "0d16e93719f4e07b37c2f244991b96975996c2bb",
+    "api_tree_sha_as_returned": "0d16e93719f4e07b37c2f244991b96975996c2bb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "37b638d6874aba4a7c3de5c39cfdbe4a828603f2",
+        "sha256": "f7ff05151b755c3c8ac3239b66a78d6522ac87c45bf6a850c6cf4f667a0789a1",
+        "size": 12354,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "c00afe69076dd6985a70cc6d640a9b91980e41d0",
+  "new_commit": "219a8ff487ad03c6f0c5edd6c5622b68ccbaf553",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Data Manager API event ingestion endpoint path\n\nPiperOrigin-RevId: 1026490987",
+  "new_commit_time": "2026-11-20T16:16:16Z",
+  "compare_url": "https://github.com/google/skills/compare/c00afe69076dd6985a70cc6d640a9b91980e41d0...219a8ff487ad03c6f0c5edd6c5622b68ccbaf553",
+  "commit_url": "https://github.com/google/skills/commit/219a8ff487ad03c6f0c5edd6c5622b68ccbaf553",
+  "skill_directory": "skills/ads/data-manager-api-event-ingestion",
+  "local_directory": "verified_real_update_pairs/OPU-0084",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0084",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

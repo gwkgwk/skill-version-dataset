@@ -1,0 +1,159 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/playwright-interactive/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "9388e8ef714b6771ccec",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "f99f78239259226b1675e4dca1cac34ab0d482af",
+    "computed_tree_sha": "6d18386434d5cc0235d62e32ca4f7db8fc9813f6",
+    "api_tree_sha_as_returned": "6d18386434d5cc0235d62e32ca4f7db8fc9813f6",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "cefe596afef12e19a8e5e923f1a04c7da3188760",
+        "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+        "size": 11552,
+        "mode": "100644"
+      },
+      {
+        "path": "NOTICE.txt",
+        "git_blob_sha1": "aa622cea6ab0bbab8f7eb538598a48bf0f8e4cf1",
+        "sha256": "7fe676d2e5359fb6aa0bdf5b0881b26e14c272dd36b04408366d4b0e26738322",
+        "size": 478,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8575c02a8f8656d0c4b51d5be744a5f3e50d0b2e",
+        "sha256": "92a0882bc34be10451c7b077f20bb915a2711e68e1baa9ccb10f6915b5568881",
+        "size": 31621,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "56c0b51223cc20cdc4f3cbf01315a91e4738e9e0",
+        "sha256": "7342e0a2c2cb8f3e20982317467f58b06c8bf71ba308ed8fcc1cda4a6e9397d8",
+        "size": 345,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/playwright-small.svg",
+        "git_blob_sha1": "e872f5322f2173ab3cc2f0fa0da55190eeb58af0",
+        "sha256": "0744d0d4cc1433e2130c3522196e1571222d502f1461f39274f680520e728588",
+        "size": 843,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/playwright.png",
+        "git_blob_sha1": "370b3ade4343314cf87bf7b5386110b299875ef9",
+        "sha256": "29b51cdeeb4e541565d1d419e5150e11913af50f72ebb4d27cfcc8813185ffd6",
+        "size": 1785,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ecc1fb8bc0b82f1d3c7a92a82167ae8e8e613a67",
+    "computed_tree_sha": "f3ee9d182d73053a1f0428f6e446db1fa9e4d780",
+    "api_tree_sha_as_returned": "f3ee9d182d73053a1f0428f6e446db1fa9e4d780",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "cefe596afef12e19a8e5e923f1a04c7da3188760",
+        "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+        "size": 11552,
+        "mode": "100644"
+      },
+      {
+        "path": "NOTICE.txt",
+        "git_blob_sha1": "aa622cea6ab0bbab8f7eb538598a48bf0f8e4cf1",
+        "sha256": "7fe676d2e5359fb6aa0bdf5b0881b26e14c272dd36b04408366d4b0e26738322",
+        "size": 478,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7d85f8284014c8c2690918a596a4b5bef7cb86e1",
+        "sha256": "f6c1155d923e6ae3ccc12abfef2266f119f8e9546df2ddeee1f5eb369845a0a1",
+        "size": 31711,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "56c0b51223cc20cdc4f3cbf01315a91e4738e9e0",
+        "sha256": "7342e0a2c2cb8f3e20982317467f58b06c8bf71ba308ed8fcc1cda4a6e9397d8",
+        "size": 345,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/playwright-small.svg",
+        "git_blob_sha1": "e872f5322f2173ab3cc2f0fa0da55190eeb58af0",
+        "sha256": "0744d0d4cc1433e2130c3522196e1571222d502f1461f39274f680520e728588",
+        "size": 843,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/playwright.png",
+        "git_blob_sha1": "370b3ade4343314cf87bf7b5386110b299875ef9",
+        "sha256": "29b51cdeeb4e541565d1d419e5150e11913af50f72ebb4d27cfcc8813185ffd6",
+        "size": 1785,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "f99f78239259226b1675e4dca1cac34ab0d482af",
+  "new_commit": "ecc1fb8bc0b82f1d3c7a92a82167ae8e8e613a67",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update playwright-interactive examples for original image detail (#261)\n\nEnsure that as https://github.com/openai/codex/pull/14175 rolls out,\nthis skill will take advantage of it (adding the arg before the change\nrolls out is a no-op, so this is safe to add now).",
+  "new_commit_time": "2026-03-11T23:54:05Z",
+  "compare_url": "https://github.com/openai/skills/compare/f99f78239259226b1675e4dca1cac34ab0d482af...ecc1fb8bc0b82f1d3c7a92a82167ae8e8e613a67",
+  "commit_url": "https://github.com/openai/skills/commit/ecc1fb8bc0b82f1d3c7a92a82167ae8e8e613a67",
+  "skill_directory": "skills/.curated/playwright-interactive",
+  "local_directory": "verified_real_update_pairs/OPU-0110",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0110",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

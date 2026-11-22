@@ -1,0 +1,120 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/huggingface-trackio/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "42441297a03b354e98f8",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "814357bbc722125c85ee18e32f2d2a13915bf99a",
+    "computed_tree_sha": "28b642d42eb4e6044e584d164d51525e534716a1",
+    "api_tree_sha_as_returned": "28b642d42eb4e6044e584d164d51525e534716a1",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "58ae095f3fe5eb75a523456f6a9f7cbd76e13a24",
+        "sha256": "893ac9695f8677db4c4f0c15795e789346946f6142305c89d7ee57774e22ffb1",
+        "size": 4887,
+        "mode": "100644"
+      },
+      {
+        "path": "references/alerts.md",
+        "git_blob_sha1": "d2d46a1fd3b15aa9d87e1891599baa66017fb81b",
+        "sha256": "4065538fd2d090a145cdb66b7b84019d448becd3038740c87708b8fa1bdaef08",
+        "size": 5950,
+        "mode": "100644"
+      },
+      {
+        "path": "references/logging_metrics.md",
+        "git_blob_sha1": "594ba08cd72d3af8316f88f1d5ed8fc1be6b8e8e",
+        "sha256": "8230be7bc121f1709462ed2424cea5d0b1c252a68a0e447bafbb9792e28d1a05",
+        "size": 4853,
+        "mode": "100644"
+      },
+      {
+        "path": "references/retrieving_metrics.md",
+        "git_blob_sha1": "0a144047fa2a43e0acb05f369947995463533ba9",
+        "sha256": "fa1339a8f6a7f88d2d83b191324eb8412d80ee837e9779fbc70cda81408e5e90",
+        "size": 8707,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "88e864e27586c1b43eb43610fd3d14252522400f",
+    "computed_tree_sha": "481815dc70f6697fe10ffe947372e52b2d08bc54",
+    "api_tree_sha_as_returned": "481815dc70f6697fe10ffe947372e52b2d08bc54",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "df231aa06d661bf031aaad00dfa286ca83df4940",
+        "sha256": "540f52974f4f77c2455a7b37ed983da0dbfb0f5af3d2c482e4736f14f1cc8724",
+        "size": 5128,
+        "mode": "100644"
+      },
+      {
+        "path": "references/alerts.md",
+        "git_blob_sha1": "d2d46a1fd3b15aa9d87e1891599baa66017fb81b",
+        "sha256": "4065538fd2d090a145cdb66b7b84019d448becd3038740c87708b8fa1bdaef08",
+        "size": 5950,
+        "mode": "100644"
+      },
+      {
+        "path": "references/logging_metrics.md",
+        "git_blob_sha1": "1bd5e437270921de4f39490c5469942e4ab725e6",
+        "sha256": "238849c975496dad8b6b7816d8d0ef1868c1a61456e0063c6a88db390ea89b29",
+        "size": 5576,
+        "mode": "100644"
+      },
+      {
+        "path": "references/retrieving_metrics.md",
+        "git_blob_sha1": "0a144047fa2a43e0acb05f369947995463533ba9",
+        "sha256": "fa1339a8f6a7f88d2d83b191324eb8412d80ee837e9779fbc70cda81408e5e90",
+        "size": 8707,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/logging_metrics.md"
+  ],
+  "old_commit": "814357bbc722125c85ee18e32f2d2a13915bf99a",
+  "new_commit": "88e864e27586c1b43eb43610fd3d14252522400f",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Document private= and bucket_id= in trackio examples; fix stale Jobs sync description (#185)\n\n* docs: document private= / bucket_id= in trackio examples; update stale Jobs sync description\n\nAgents following the trackio examples create public Spaces by default\n(examples show space_id= but never private=). Document private and\nbucket_id in the huggingface-trackio skill and the llm-trainer trackio\nguide, framing private=True as a choice (omit for a shareable public\ndashboard).\n\nAlso update the llm-trainer guide's 'How It Works with Jobs' section,\nwhich described the old Dataset/Parquet 5-minute sync: current trackio\nstreams to the running Space (batched sub-second), spills to an HF\nBucket every ~30s when the Space is unreachable/building, and the Space\ningests the bucket inbox every ~15s (verified against trackio main:\nrun.py BATCH_SEND_INTERVAL/BUCKET_FLUSH_INTERVAL, utils.get_inbox_poll_interval).\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* chore: bump plugin versions to 1.0.11\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* version bump\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: shaun smith <1936278+evalstate@users.noreply.github.com>\nCo-authored-by: evalstate <evalstate@users.noreply.github.com>",
+  "new_commit_time": "2026-07-06T17:39:01Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/814357bbc722125c85ee18e32f2d2a13915bf99a...88e864e27586c1b43eb43610fd3d14252522400f",
+  "commit_url": "https://github.com/huggingface/skills/commit/88e864e27586c1b43eb43610fd3d14252522400f",
+  "skill_directory": "skills/huggingface-trackio",
+  "local_directory": "verified_real_update_pairs/OPU-0146",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0146",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

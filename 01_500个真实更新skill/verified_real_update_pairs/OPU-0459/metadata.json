@@ -1,0 +1,247 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/appinsights-instrumentation/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "c6fd24848290678f2fc1",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "18eb319b121b92ea19ca911fc3bd4cc53769bb1c",
+    "computed_tree_sha": "c8073c3feba00a1ac15f83a586f85cac7c99721d",
+    "api_tree_sha_as_returned": "c8073c3feba00a1ac15f83a586f85cac7c99721d",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "8dfb11f8b3fd235fe83f30d9dbfe1644b584da2e",
+        "sha256": "cacacf3e9ede21a9237d9fdef6728ebe7a27d489f6df08cbf946f622ad9b834c",
+        "size": 1078,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1febee945655469943278b79c242fed76a95991c",
+        "sha256": "f46e9dd4d4bef33ca78b32980eb06d6667d1c68bf0c1690eef26ea90ca0ae4fa",
+        "size": 3738,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/appinsights.bicep",
+        "git_blob_sha1": "e60ea800c79e787dad2e368733aa5cb7f019412b",
+        "sha256": "35793f28333b37b4639f866b2204a48eebcab343f0e52ab44128a618a28eaacb",
+        "size": 759,
+        "mode": "100644"
+      },
+      {
+        "path": "references/aspnetcore.md",
+        "git_blob_sha1": "7f3ec84a19deaf5bdc9da981bb3408ae46c02cf4",
+        "sha256": "29986d08a27b4d7a9086e89c1d56f9cc9b4e27bfd88ef65517f8bed641c7f636",
+        "size": 1717,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auto.md",
+        "git_blob_sha1": "40890f42f86cebc6d3ae92bf7fddbf6dd81311e2",
+        "sha256": "8a0a447289e232dc54909017b4a490b46ca5fc1eb90099645eeb99b1b9a8a732",
+        "size": 891,
+        "mode": "100644"
+      },
+      {
+        "path": "references/container-apps.md",
+        "git_blob_sha1": "33ca330cca1b91592f33680a671d9762fe4f1a1a",
+        "sha256": "66a7eaa29c8257abb33c7637ce2500356515f434f0f0262b3764409c08e69aae",
+        "size": 7367,
+        "mode": "100644"
+      },
+      {
+        "path": "references/nodejs.md",
+        "git_blob_sha1": "f67690fb84ab77e7b539051e354cf3c0bcd04e44",
+        "sha256": "6b36d0a8a1d2bb64ce8d0e7d51ddaac282c7bf180124c988e2c956e3c467bc1a",
+        "size": 1815,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "3bb44c4b73e8826c1af1866a3f9eb24ff8a26574",
+        "sha256": "fa5785231dde00eaad3a6f141211dfe291e82a44a24163eca3f4a3285e6e1742",
+        "size": 1812,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-monitor-opentelemetry-exporter-java.md",
+        "git_blob_sha1": "f69800e868cd5d284615811e1465ca6f3157a441",
+        "sha256": "f525e167b23bd98062600c9aa422df359a90342054f30cba1ef98642af3fb250",
+        "size": 1173,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-monitor-opentelemetry-exporter-py.md",
+        "git_blob_sha1": "ff88e9637eca6fff7d7a83487bcc23270eb7b858",
+        "sha256": "4394ed04bcc4c99bc5f584fdccbdd08592c07d14ebebe37dee56488f457cbc1e",
+        "size": 963,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-monitor-opentelemetry-py.md",
+        "git_blob_sha1": "41d98a0ededc373e6a82870cd6d1b3da122dab3e",
+        "sha256": "2d8cab0440063297890e686c2f1cd58c3a21dc291937858abc915fb4a5740977",
+        "size": 880,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-monitor-opentelemetry-ts.md",
+        "git_blob_sha1": "893dbd4c4721d125a0b841e1002fbda896618b9c",
+        "sha256": "648599ce299edc3c765f4fc8daa356b9e90f71026a42682cff5da39641cae487",
+        "size": 986,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/appinsights.ps1",
+        "git_blob_sha1": "e014cf0c8939619f240308b99f2ce4aca50f5a54",
+        "sha256": "69e1ccdf00b138e9f7a245e8da1d28d0ac00112f2a6a05c76d4432cc16fe9919",
+        "size": 1221,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b2f2284da6ba6fbac0f6f0c397abdc396c16802e",
+    "computed_tree_sha": "2bb1307f9a0f22a26c6efbd8c795caf353be9d72",
+    "api_tree_sha_as_returned": "2bb1307f9a0f22a26c6efbd8c795caf353be9d72",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "8dfb11f8b3fd235fe83f30d9dbfe1644b584da2e",
+        "sha256": "cacacf3e9ede21a9237d9fdef6728ebe7a27d489f6df08cbf946f622ad9b834c",
+        "size": 1078,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7e0ade1b244f12f6828eaf15b86b7099482c3f3e",
+        "sha256": "8865590c029e53142edc56634914625fe23869baf7828a8181aed67e096a9e31",
+        "size": 3794,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/appinsights.bicep",
+        "git_blob_sha1": "e60ea800c79e787dad2e368733aa5cb7f019412b",
+        "sha256": "35793f28333b37b4639f866b2204a48eebcab343f0e52ab44128a618a28eaacb",
+        "size": 759,
+        "mode": "100644"
+      },
+      {
+        "path": "references/aspnetcore.md",
+        "git_blob_sha1": "7f3ec84a19deaf5bdc9da981bb3408ae46c02cf4",
+        "sha256": "29986d08a27b4d7a9086e89c1d56f9cc9b4e27bfd88ef65517f8bed641c7f636",
+        "size": 1717,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auto.md",
+        "git_blob_sha1": "40890f42f86cebc6d3ae92bf7fddbf6dd81311e2",
+        "sha256": "8a0a447289e232dc54909017b4a490b46ca5fc1eb90099645eeb99b1b9a8a732",
+        "size": 891,
+        "mode": "100644"
+      },
+      {
+        "path": "references/container-apps.md",
+        "git_blob_sha1": "33ca330cca1b91592f33680a671d9762fe4f1a1a",
+        "sha256": "66a7eaa29c8257abb33c7637ce2500356515f434f0f0262b3764409c08e69aae",
+        "size": 7367,
+        "mode": "100644"
+      },
+      {
+        "path": "references/nodejs.md",
+        "git_blob_sha1": "f67690fb84ab77e7b539051e354cf3c0bcd04e44",
+        "sha256": "6b36d0a8a1d2bb64ce8d0e7d51ddaac282c7bf180124c988e2c956e3c467bc1a",
+        "size": 1815,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "3bb44c4b73e8826c1af1866a3f9eb24ff8a26574",
+        "sha256": "fa5785231dde00eaad3a6f141211dfe291e82a44a24163eca3f4a3285e6e1742",
+        "size": 1812,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-monitor-opentelemetry-exporter-java.md",
+        "git_blob_sha1": "f69800e868cd5d284615811e1465ca6f3157a441",
+        "sha256": "f525e167b23bd98062600c9aa422df359a90342054f30cba1ef98642af3fb250",
+        "size": 1173,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-monitor-opentelemetry-exporter-py.md",
+        "git_blob_sha1": "ff88e9637eca6fff7d7a83487bcc23270eb7b858",
+        "sha256": "4394ed04bcc4c99bc5f584fdccbdd08592c07d14ebebe37dee56488f457cbc1e",
+        "size": 963,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-monitor-opentelemetry-py.md",
+        "git_blob_sha1": "41d98a0ededc373e6a82870cd6d1b3da122dab3e",
+        "sha256": "2d8cab0440063297890e686c2f1cd58c3a21dc291937858abc915fb4a5740977",
+        "size": 880,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-monitor-opentelemetry-ts.md",
+        "git_blob_sha1": "893dbd4c4721d125a0b841e1002fbda896618b9c",
+        "sha256": "648599ce299edc3c765f4fc8daa356b9e90f71026a42682cff5da39641cae487",
+        "size": 986,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/appinsights.ps1",
+        "git_blob_sha1": "e014cf0c8939619f240308b99f2ce4aca50f5a54",
+        "sha256": "69e1ccdf00b138e9f7a245e8da1d28d0ac00112f2a6a05c76d4432cc16fe9919",
+        "size": 1221,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "18eb319b121b92ea19ca911fc3bd4cc53769bb1c",
+  "new_commit": "b2f2284da6ba6fbac0f6f0c397abdc396c16802e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-10-06T11:05:16Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/18eb319b121b92ea19ca911fc3bd4cc53769bb1c...b2f2284da6ba6fbac0f6f0c397abdc396c16802e",
+  "commit_url": "https://github.com/microsoft/skills/commit/b2f2284da6ba6fbac0f6f0c397abdc396c16802e",
+  "skill_directory": ".github/plugins/azure-skills/skills/appinsights-instrumentation",
+  "local_directory": "verified_real_update_pairs/OPU-0459",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0459",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

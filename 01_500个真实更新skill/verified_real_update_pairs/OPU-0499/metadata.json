@@ -1,0 +1,79 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/skills/copilot-sdk/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "3127ff284296d8d7c52c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "c4d4d8bb00db10dbb40803d4c22cb84017ce3106",
+    "computed_tree_sha": "3b5434bc5bfd53ba682a6c303a3d842da28ea445",
+    "api_tree_sha_as_returned": "3b5434bc5bfd53ba682a6c303a3d842da28ea445",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6caeeea7a593e325ca67f385cbb7ff96b61affbd",
+        "sha256": "f5c047c8c7c55a1cd498fa40e84846d0feb6d52fe76a96d171787731c3782fbd",
+        "size": 15050,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "62a0dfe963f4333e8640b6d9cb5796ab4bd40c60",
+    "computed_tree_sha": "dbdf15d9f078af5a2996a8b9a3bf719e80330aed",
+    "api_tree_sha_as_returned": "dbdf15d9f078af5a2996a8b9a3bf719e80330aed",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "79f42cd0aef9a7a660f96668bc547d998e2485b4",
+        "sha256": "9bec8025d0ccf14b3c2f66754966781ba42d08a57b86b103bb9ef98d9f05c58b",
+        "size": 28557,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "c4d4d8bb00db10dbb40803d4c22cb84017ce3106",
+  "new_commit": "62a0dfe963f4333e8640b6d9cb5796ab4bd40c60",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat: comprehensive copilot-sdk skill with full API coverage\n\nSignificantly expanded the copilot-sdk skill from ~510 to ~900 lines:\n\n- Architecture section with transport modes (stdio/TCP)\n- Expanded hooks: all 6 hooks with input/output fields, examples in\n  multiple languages (pre/post tool use, user prompt, session lifecycle,\n  error handling)\n- Comprehensive BYOK section: all provider configs (OpenAI, Azure,\n  Anthropic, Ollama), provider config reference table, Azure Managed\n  Identity pattern, limitations\n- Full authentication coverage: priority order, OAuth GitHub App,\n  supported token types, disable auto-login\n- Session persistence: resume options, session ID best practices,\n  what gets persisted, infinite sessions\n- MCP server integration: local + HTTP configs with all fields,\n  debugging tips, MCP Inspector usage\n- Deployment patterns: local CLI, external server, bundled CLI,\n  Docker Compose, session isolation patterns, production checklist\n- Permission & input handlers with deny-by-default model\n- SDK vs CLI feature comparison with workarounds\n- Expanded debugging: common issues table, connection state\n- Skills integration with combined examples\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-02-19T04:54:21Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/c4d4d8bb00db10dbb40803d4c22cb84017ce3106...62a0dfe963f4333e8640b6d9cb5796ab4bd40c60",
+  "commit_url": "https://github.com/microsoft/skills/commit/62a0dfe963f4333e8640b6d9cb5796ab4bd40c60",
+  "skill_directory": ".github/skills/copilot-sdk",
+  "local_directory": "verified_real_update_pairs/OPU-0499",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0499",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

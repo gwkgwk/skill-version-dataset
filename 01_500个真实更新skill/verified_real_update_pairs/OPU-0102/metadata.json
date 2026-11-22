@@ -1,0 +1,91 @@
+{
+  "repository": "cloudflare/skills",
+  "primary": "skills/k2/SKILL.md",
+  "pinned_commit": "5108325ecceabc899c761e07aa617b09c02445ee",
+  "repository_license": "Apache-2.0",
+  "key": "27ff3b852afe806206cb",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "cbf893b954222276bf1af57e5f23379231e0efb9",
+    "computed_tree_sha": "acfdec46771c0f35ed938aac1e9b5e939e0e8242",
+    "api_tree_sha_as_returned": "acfdec46771c0f35ed938aac1e9b5e939e0e8242",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bf8fe16ffb4366346ba58688356074e0fea0f87d",
+        "sha256": "b1e621615e7c73bd9c5966f79b965380b4f73418cbe1ed98bb9d953853168d66",
+        "size": 2361,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "e599002515de878a0236c08f598dc286627052da",
+        "sha256": "a15f88d0d9bdc1f1e748102f78e4e7bbe35fc77a5bae91a7d20d5130a6ff4051",
+        "size": 2763,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "619d28a2979530373dae82bbab62f7022e548d83",
+    "computed_tree_sha": "2b53e7f1213b9c722b6919db291ffe6e209262a3",
+    "api_tree_sha_as_returned": "2b53e7f1213b9c722b6919db291ffe6e209262a3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b76e14b45ba918fc38ec1c70259b6453dea767fd",
+        "sha256": "94c199923bd4d3eb836dbdd360a37d254b2249ed9f1cb3e20421ed2d34996587",
+        "size": 2602,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "e599002515de878a0236c08f598dc286627052da",
+        "sha256": "a15f88d0d9bdc1f1e748102f78e4e7bbe35fc77a5bae91a7d20d5130a6ff4051",
+        "size": 2763,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "cbf893b954222276bf1af57e5f23379231e0efb9",
+  "new_commit": "619d28a2979530373dae82bbab62f7022e548d83",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Point Basin and K2 skills at published docs\n\nRemove references to the pending cloudflare-docs PRs (#33850, #33858)\nnow that the Basin and K2 docs are published. This also resolves the\nSnyk W011 third-party content warning on the K2 skill.\n\n- Basin: note GA status and API deprecation per published docs, add\n  Basin pricing link, fix renamed Basin Catalog enable/disable anchors,\n  and align Basin SQL token permissions with the Query data page.\n- K2: note public beta on Workers Paid, add Delivery guarantees and\n  Pricing pages.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+  "new_commit_time": "2026-11-17T15:42:25Z",
+  "compare_url": "https://github.com/cloudflare/skills/compare/cbf893b954222276bf1af57e5f23379231e0efb9...619d28a2979530373dae82bbab62f7022e548d83",
+  "commit_url": "https://github.com/cloudflare/skills/commit/619d28a2979530373dae82bbab62f7022e548d83",
+  "skill_directory": "skills/k2",
+  "local_directory": "verified_real_update_pairs/OPU-0102",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0102",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

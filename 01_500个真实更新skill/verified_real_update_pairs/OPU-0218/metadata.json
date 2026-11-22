@@ -1,0 +1,163 @@
+{
+  "repository": "expo/skills",
+  "primary": "plugins/expo/skills/expo-ui/SKILL.md",
+  "pinned_commit": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+  "repository_license": "MIT",
+  "key": "fe9c2e167f0e35fc7f55",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+    "computed_tree_sha": "0de3de2643f4057e54f21bf12e93531199434134",
+    "api_tree_sha_as_returned": "0de3de2643f4057e54f21bf12e93531199434134",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e9183456a8171c3408dd4b45fdf986b02667e529",
+        "sha256": "9205ab3a6e8199caa8060d0e638f43c4b943b31cc30d4a34b130efadba9c1f94",
+        "size": 7200,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "585e24d3764bef685a79b011499f79b5915f7fc3",
+        "sha256": "abe551630c5975e13cd06a55a698a880b0663b63436966abdd50053fcccafe5a",
+        "size": 722,
+        "mode": "100644"
+      },
+      {
+        "path": "references/drop-in-replacements.md",
+        "git_blob_sha1": "d462ada88e38d8f1d54279dc2961e60e861ba90d",
+        "sha256": "0929fb52954dd0a359a2925a23c392f650d0976f25d93bca190e5b9ff200373f",
+        "size": 2085,
+        "mode": "100644"
+      },
+      {
+        "path": "references/jetpack-compose.md",
+        "git_blob_sha1": "1096a57c3e9a394ae2aa93d4fb556f5663e07ee1",
+        "sha256": "7322bb663fa260b3521c092f425e5d27589bd87e6a6a653e8864bd6f5f9ad749",
+        "size": 5517,
+        "mode": "100644"
+      },
+      {
+        "path": "references/swift-ui.md",
+        "git_blob_sha1": "480ec90f671c4f1ab8f04996cfc94a10d7b1ac5e",
+        "sha256": "9b2727190bd49dd5ddd495ce702745f9490bd7ed9a42d9bd9c7cb75219084f8e",
+        "size": 4397,
+        "mode": "100644"
+      },
+      {
+        "path": "references/universal.md",
+        "git_blob_sha1": "3271d5451b66bb6ada37acb777b4a9d3721969f2",
+        "sha256": "9b015890560b41c535f44cf65528acee6bd1a98485e43e240aa4cd89da714d59",
+        "size": 4792,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list-components.js",
+        "git_blob_sha1": "3a64f7d1dd6d42abff320f65ab81cf7680d71e78",
+        "sha256": "cbc16cdbb2b924a3d73898e1baa3f9c5c634f513383d1a531b2d9ff6f2171f4c",
+        "size": 7343,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+    "computed_tree_sha": "b6bc44b9efb0dc3d211c58c59761c93c38a8f9e5",
+    "api_tree_sha_as_returned": "b6bc44b9efb0dc3d211c58c59761c93c38a8f9e5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7e8e064c592c811521b59f315c550c2f2e6332f3",
+        "sha256": "8ae4cbeb53c79d82f9128289660c66f1a84ef68fc40ae663ac4a8d0d5faf60fb",
+        "size": 7067,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "585e24d3764bef685a79b011499f79b5915f7fc3",
+        "sha256": "abe551630c5975e13cd06a55a698a880b0663b63436966abdd50053fcccafe5a",
+        "size": 722,
+        "mode": "100644"
+      },
+      {
+        "path": "references/drop-in-replacements.md",
+        "git_blob_sha1": "d462ada88e38d8f1d54279dc2961e60e861ba90d",
+        "sha256": "0929fb52954dd0a359a2925a23c392f650d0976f25d93bca190e5b9ff200373f",
+        "size": 2085,
+        "mode": "100644"
+      },
+      {
+        "path": "references/jetpack-compose.md",
+        "git_blob_sha1": "1096a57c3e9a394ae2aa93d4fb556f5663e07ee1",
+        "sha256": "7322bb663fa260b3521c092f425e5d27589bd87e6a6a653e8864bd6f5f9ad749",
+        "size": 5517,
+        "mode": "100644"
+      },
+      {
+        "path": "references/swift-ui.md",
+        "git_blob_sha1": "480ec90f671c4f1ab8f04996cfc94a10d7b1ac5e",
+        "sha256": "9b2727190bd49dd5ddd495ce702745f9490bd7ed9a42d9bd9c7cb75219084f8e",
+        "size": 4397,
+        "mode": "100644"
+      },
+      {
+        "path": "references/universal.md",
+        "git_blob_sha1": "3271d5451b66bb6ada37acb777b4a9d3721969f2",
+        "sha256": "9b015890560b41c535f44cf65528acee6bd1a98485e43e240aa4cd89da714d59",
+        "size": 4792,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list-components.js",
+        "git_blob_sha1": "3a64f7d1dd6d42abff320f65ab81cf7680d71e78",
+        "sha256": "cbc16cdbb2b924a3d73898e1baa3f9c5c634f513383d1a531b2d9ff6f2171f4c",
+        "size": 7343,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+  "new_commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Ask the user before sending feedback to Expo (#290)",
+  "new_commit_time": "2026-11-14T18:33:50Z",
+  "compare_url": "https://github.com/expo/skills/compare/7582922d039d5a96dc574757d399d22d56370f2b...ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "commit_url": "https://github.com/expo/skills/commit/ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "skill_directory": "plugins/expo/skills/expo-ui",
+  "local_directory": "verified_real_update_pairs/OPU-0218",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0218",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

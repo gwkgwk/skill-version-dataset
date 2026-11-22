@@ -1,0 +1,82 @@
+{
+  "sha": "86cdeee824b73e504198b6005bb113552cdfa7ba",
+  "node_id": "C_kwDOQbz6WNoAKDg2Y2RlZWU4MjRiNzNlNTA0MTk4YjYwMDViYjExMzU1MmNkZmE3YmE",
+  "commit": {
+    "author": {
+      "name": "Linoy Tsaban",
+      "email": "57615435+linoytsaban@users.noreply.github.com",
+      "date": "2026-07-16T08:07:15Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-07-16T08:07:15Z"
+    },
+    "message": "[lora demo skill] Fix gr.Examples instructions  (#196)\n\n* Fix gr.Examples fn/inputs signature guidance in lora-space-builder\n\nAdd the rule that gr.Examples(fn=...) calls fn with only the inputs=\nvalues positionally, so uncovered params need defaults or the first\nexample click raises a missing-positional-argument TypeError.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* bump!\n\n* bump!\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\nCo-authored-by: evalstate <1936278+evalstate@users.noreply.github.com>",
+    "tree": {
+      "sha": "c6bbe01927cc06ae5cdcdc2ffb128bc5a6dc78dc",
+      "url": "https://api.github.com/repos/huggingface/skills/git/trees/c6bbe01927cc06ae5cdcdc2ffb128bc5a6dc78dc"
+    },
+    "url": "https://api.github.com/repos/huggingface/skills/git/commits/86cdeee824b73e504198b6005bb113552cdfa7ba",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqWJEzCRC1aQ7uu5UhlAAAPlwQAE65puoK0Wnc+8jZSy9O1EVk\nr7e7wd3Cnm47iwfCd08RHTDZ9we4G3Eol6EQqRgTWRK5ied8bvKyUkvVLnn10n+T\njlsxBMRs/Olu7/IZCQH5olzg4Dhj5rN5zqm91YJ02Y2FQIBJbrQCCq0wnFo3EsWV\nODVGWx8A6R94ynNPwkh0UufHsPpU2BIbP4JddgyzKOJdlRh6gA5V1LEsaHQwFAjD\nRUtOoVOWAMOMFNlTJHqP96b7sC+jwqA7qajttKLmrKdk/9y2yBT8xIa12W5Ib5Su\nFyp8otCFYyTAiC7wqyff57chYlXvrq+JkEYoz2qB7JGwOuHRuJYZRG+5jPXel155\n4s9x5MjrxlDQGTsrtCQWHcQEbbTMUCF6YgonkMcNCpXeBgPVCYo4e29nsMcs5IJt\ncwAJ6JkqV8h5/ZSfGdRDAvkff06an3Hi/Ab2/FhakTfQvhttovUFjXSkOJbeR9fg\nEGDYwM1Ozi8o4jhTsJA4uEiZnEwTgxUjw31JCqMn683zgVmwmEDZ3TGHokOE7Xgy\nCBp/hncAFxUlZYzuMNHRBVWgv3N1SfaATLNo9eVB0SVF465hrXGZk7WQz0wBmLkB\nhBMFLF898MPn1iKlDSpIr3u8mH37JCVxiTlphjS4/JYnUrwpP985GEljadQzYogc\nti4hjL/3oNRlXPTzBZMO\n=wv8H\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c6bbe01927cc06ae5cdcdc2ffb128bc5a6dc78dc\nparent 9c8c3e1c96111298bffff71b7ac363524742b76f\nauthor Linoy Tsaban <57615435+linoytsaban@users.noreply.github.com> 1784189235 +0300\ncommitter GitHub <noreply@github.com> 1784189235 +0100\n\n[lora demo skill] Fix gr.Examples instructions  (#196)\n\n* Fix gr.Examples fn/inputs signature guidance in lora-space-builder\n\nAdd the rule that gr.Examples(fn=...) calls fn with only the inputs=\nvalues positionally, so uncovered params need defaults or the first\nexample click raises a missing-positional-argument TypeError.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* bump!\n\n* bump!\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\nCo-authored-by: evalstate <1936278+evalstate@users.noreply.github.com>",
+      "verified_at": "2026-07-16T08:07:16Z"
+    }
+  },
+  "url": "https://api.github.com/repos/huggingface/skills/commits/86cdeee824b73e504198b6005bb113552cdfa7ba",
+  "html_url": "https://github.com/huggingface/skills/commit/86cdeee824b73e504198b6005bb113552cdfa7ba",
+  "comments_url": "https://api.github.com/repos/huggingface/skills/commits/86cdeee824b73e504198b6005bb113552cdfa7ba/comments",
+  "author": {
+    "login": "linoytsaban",
+    "id": 57615435,
+    "node_id": "MDQ6VXNlcjU3NjE1NDM1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/57615435?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/linoytsaban",
+    "html_url": "https://github.com/linoytsaban",
+    "followers_url": "https://api.github.com/users/linoytsaban/followers",
+    "following_url": "https://api.github.com/users/linoytsaban/following{/other_user}",
+    "gists_url": "https://api.github.com/users/linoytsaban/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/linoytsaban/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/linoytsaban/subscriptions",
+    "organizations_url": "https://api.github.com/users/linoytsaban/orgs",
+    "repos_url": "https://api.github.com/users/linoytsaban/repos",
+    "events_url": "https://api.github.com/users/linoytsaban/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/linoytsaban/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9c8c3e1c96111298bffff71b7ac363524742b76f",
+      "url": "https://api.github.com/repos/huggingface/skills/commits/9c8c3e1c96111298bffff71b7ac363524742b76f",
+      "html_url": "https://github.com/huggingface/skills/commit/9c8c3e1c96111298bffff71b7ac363524742b76f"
+    }
+  ]
+}

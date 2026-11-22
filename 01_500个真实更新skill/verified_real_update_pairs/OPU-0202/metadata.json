@@ -1,0 +1,235 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-autorater-customization/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "ba460c5a62a50a0972b6",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "212dcc4260a0371f52c85a72ba7592bf4dda7136",
+    "computed_tree_sha": "e1c479ea2e12f9814392c4a84c701f59df73f902",
+    "api_tree_sha_as_returned": "e1c479ea2e12f9814392c4a84c701f59df73f902",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "57015399df6fa1c48fc446dd582140d67f3d2924",
+        "sha256": "362cb1ac68e4a1260da5b71bc0ae73bec7128349d8ee8b5101657c018a71f215",
+        "size": 14425,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "801a3570a329d92f30d30abe31d4e771bb8c2953",
+        "sha256": "1320415f7c99f30fc4802a6cc7d13c302d32d3fb9b62933ac6dc6109574d4052",
+        "size": 1958,
+        "mode": "100644"
+      },
+      {
+        "path": "references/converting_trajectories.md",
+        "git_blob_sha1": "7cb20130f6282aef26c28e87ca324f4922edd865",
+        "sha256": "8e6dd08256a4bf4102229ebff5de3c6ac256cdc7bb23898d4008c05c86f3fa0b",
+        "size": 1932,
+        "mode": "100644"
+      },
+      {
+        "path": "references/metric_templates.md",
+        "git_blob_sha1": "84c3db17cb5be8fc2cade56a9b421256f95b7b85",
+        "sha256": "005ae8c87ad3fce76fdab1fc9765a910a297231d8ef1d4d7ee2f935eee7e1c64",
+        "size": 24531,
+        "mode": "100644"
+      },
+      {
+        "path": "references/multi_turn.md",
+        "git_blob_sha1": "4a82fbbe9151716a7a295b15ba267118190e79a1",
+        "sha256": "b632b966a8bba33f96e2aaa45dd88498f31816d68610cb05e34e04be311c3b26",
+        "size": 2095,
+        "mode": "100644"
+      },
+      {
+        "path": "references/noise_and_agreement.md",
+        "git_blob_sha1": "cf3f70816136ad93f244ce5bb38e034f407fa62f",
+        "sha256": "7c9a1c49f77332daff733b6d6eee67892901a991f409e556afd209aed5a48bdf",
+        "size": 1272,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk_gotchas.md",
+        "git_blob_sha1": "6b8118823d29b997717e4585d62ec94978f50e20",
+        "sha256": "cb827b6ecaa1ad5de479dcdb6d9cec204b377d3e116dcbe91f4eb5b695597bb3",
+        "size": 2760,
+        "mode": "100644"
+      },
+      {
+        "path": "references/writing_checks.md",
+        "git_blob_sha1": "7009914166247faa7e30857013a58c31e797c3ca",
+        "sha256": "0cd6048f1446126dd075cbddb0bb1056e0be6fe3d0770a017c7623b8e84a0807",
+        "size": 1437,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/agreement.py",
+        "git_blob_sha1": "5252b239cc69e6b73136bc31c936dd632258d633",
+        "sha256": "bfe0fd7c80e303c81e0f0f8e99d2e9d716d74868b788aed6b8b031aca7b13582",
+        "size": 7064,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/build_review_page.py",
+        "git_blob_sha1": "b0db5f09e59b21ffbde8eca0f2d02c1e68adc6ac",
+        "sha256": "d00878e18fef7abf81c11e46633b418df819c3cfc8c2d25f4ee207b5684e5ffd",
+        "size": 10493,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/render_agent_data.py",
+        "git_blob_sha1": "7cd8e11d018d83cf1639603acfbb9a1034d02e17",
+        "sha256": "3ed908d916e2e44fc7d3d8edd386291c8ea51caeff21c9c4e37684f2d71bbc55",
+        "size": 3374,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/run_metrics.py",
+        "git_blob_sha1": "b3210547d68cc71774302e2dc27cbe602223b6de",
+        "sha256": "9851eec532019c7d62626d18754af678c6a00f12001a602f1add21b41f3f01e4",
+        "size": 6328,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "06fff9e3edb7fc3c115a1769406047fcaf0a6289",
+    "computed_tree_sha": "155cffddf0225712865b416331cd9ae5eaecbaae",
+    "api_tree_sha_as_returned": "155cffddf0225712865b416331cd9ae5eaecbaae",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b564fdde23b465fccc71a1e0cec448fd99cccb20",
+        "sha256": "365358927a57938d1f073093684535f21833290257956cb96ef6be203926d891",
+        "size": 14529,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "801a3570a329d92f30d30abe31d4e771bb8c2953",
+        "sha256": "1320415f7c99f30fc4802a6cc7d13c302d32d3fb9b62933ac6dc6109574d4052",
+        "size": 1958,
+        "mode": "100644"
+      },
+      {
+        "path": "references/converting_trajectories.md",
+        "git_blob_sha1": "7cb20130f6282aef26c28e87ca324f4922edd865",
+        "sha256": "8e6dd08256a4bf4102229ebff5de3c6ac256cdc7bb23898d4008c05c86f3fa0b",
+        "size": 1932,
+        "mode": "100644"
+      },
+      {
+        "path": "references/metric_templates.md",
+        "git_blob_sha1": "2d6065e3be18ce4980640495f1c985476046ab7d",
+        "sha256": "28442a97d54784563fc3e519bbcf8455721dcf14ddae8a6e113e34aa2a3f623c",
+        "size": 24545,
+        "mode": "100644"
+      },
+      {
+        "path": "references/multi_turn.md",
+        "git_blob_sha1": "4a82fbbe9151716a7a295b15ba267118190e79a1",
+        "sha256": "b632b966a8bba33f96e2aaa45dd88498f31816d68610cb05e34e04be311c3b26",
+        "size": 2095,
+        "mode": "100644"
+      },
+      {
+        "path": "references/noise_and_agreement.md",
+        "git_blob_sha1": "cf3f70816136ad93f244ce5bb38e034f407fa62f",
+        "sha256": "7c9a1c49f77332daff733b6d6eee67892901a991f409e556afd209aed5a48bdf",
+        "size": 1272,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk_gotchas.md",
+        "git_blob_sha1": "6b8118823d29b997717e4585d62ec94978f50e20",
+        "sha256": "cb827b6ecaa1ad5de479dcdb6d9cec204b377d3e116dcbe91f4eb5b695597bb3",
+        "size": 2760,
+        "mode": "100644"
+      },
+      {
+        "path": "references/writing_checks.md",
+        "git_blob_sha1": "7009914166247faa7e30857013a58c31e797c3ca",
+        "sha256": "0cd6048f1446126dd075cbddb0bb1056e0be6fe3d0770a017c7623b8e84a0807",
+        "size": 1437,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/agreement.py",
+        "git_blob_sha1": "5252b239cc69e6b73136bc31c936dd632258d633",
+        "sha256": "bfe0fd7c80e303c81e0f0f8e99d2e9d716d74868b788aed6b8b031aca7b13582",
+        "size": 7064,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/build_review_page.py",
+        "git_blob_sha1": "b0db5f09e59b21ffbde8eca0f2d02c1e68adc6ac",
+        "sha256": "d00878e18fef7abf81c11e46633b418df819c3cfc8c2d25f4ee207b5684e5ffd",
+        "size": 10493,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/render_agent_data.py",
+        "git_blob_sha1": "7cd8e11d018d83cf1639603acfbb9a1034d02e17",
+        "sha256": "3ed908d916e2e44fc7d3d8edd386291c8ea51caeff21c9c4e37684f2d71bbc55",
+        "size": 3374,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/run_metrics.py",
+        "git_blob_sha1": "dcc487f92a95c8f6342ddb52957c28d839540ffa",
+        "sha256": "f6ffaf68c02dd292c45c8dab8769e8d4777cd172ace9b1219c0e97de796e32a5",
+        "size": 6448,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/metric_templates.md",
+    "scripts/run_metrics.py"
+  ],
+  "old_commit": "212dcc4260a0371f52c85a72ba7592bf4dda7136",
+  "new_commit": "06fff9e3edb7fc3c115a1769406047fcaf0a6289",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update judge model in agent-platform-autorater-customization templates\n\nPiperOrigin-RevId: 1025132606",
+  "new_commit_time": "2026-11-19T01:59:00Z",
+  "compare_url": "https://github.com/google/skills/compare/212dcc4260a0371f52c85a72ba7592bf4dda7136...06fff9e3edb7fc3c115a1769406047fcaf0a6289",
+  "commit_url": "https://github.com/google/skills/commit/06fff9e3edb7fc3c115a1769406047fcaf0a6289",
+  "skill_directory": "skills/cloud/agent-platform-autorater-customization",
+  "local_directory": "verified_real_update_pairs/OPU-0202",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0202",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sha": "b0d0b95d07cfa6393ff9058fac308ced5b33e7e3",
+  "node_id": "C_kwDORcxyRtoAKGIwZDBiOTVkMDdjZmE2MzkzZmY5MDU4ZmFjMzA4Y2VkNWIzM2U3ZTM",
+  "commit": {
+    "author": {
+      "name": "Justin Poehnelt",
+      "email": "jpoehnelt@google.com",
+      "date": "2026-03-03T23:02:34Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-03T23:02:34Z"
+    },
+    "message": "feat: skills expansion (#18)\n\n* wip\n\n* feat: replace admin recipes with 50 consumer-focused recipes\n\n- Remove all admin/security/IT recipes (offboard-user, audit-user-login, etc.)\n- Remove enterprise-only recipes (initiate-litigation-hold)\n- Replace dangerous recipes (setup-email-forwarding -> create-gmail-filter)\n- Remove recipes overlapping with gws-workflow-* helpers\n- Remove thin 2-step recipes better served as helpers\n- Add 50 curated consumer recipes for Gmail, Drive, Docs, Calendar, Sheets\n- Update README: link to docs/skills.md, update skill count to 100+\n- Fix clippy needless_borrow warnings in generate_skills.rs\n- Fix lefthook.yml: run fmt/clippy sequentially (parallel causes races)\n\n---------\n\nCo-authored-by: jpoehnelt-bot <jpoehnelt-bot@users.noreply.github.com>",
+    "tree": {
+      "sha": "80c10527247160709d75627fabba13a16d0011b2",
+      "url": "https://api.github.com/repos/googleworkspace/cli/git/trees/80c10527247160709d75627fabba13a16d0011b2"
+    },
+    "url": "https://api.github.com/repos/googleworkspace/cli/git/commits/b0d0b95d07cfa6393ff9058fac308ced5b33e7e3",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpp2iKCRC1aQ7uu5UhlAAABggQAEytgBbbB9apAvyD4cV+5aq+\nFb/w+TbtqvNUBHwZMbMhwbwLus20LXxyin1KQDtkEB0u4aeNG3Sdk5yK6RLFvY8J\n/qGRV52piPANctZnMWN8DZNDUMVpvYLVztqjqBamZ4hvriZydoFFc+4tYc8Ro9il\nPbZKI0AuGoRrxf12JynklBtyBZZwXyu6IE93GBjdCIhAGj1Mt51S6nd32wZkD/Mo\nzb2mA/7L0l2/RLLnY1bZS3Eq8hKA6U2o83FqJBiQ85166avM0mr2/60NyWAEOWYu\nI813zYzpyJaJSL50pJUSwxHoiMrWcimVJUMZJ6V5tUZB4g3qE9SFUMVtMueSVrMm\nefBLn3YKTC97p1o01E+Qr+2UY9KspgF9FpBW0ISV5cwH4Ld0DlmNpVz7zGPyI5MK\nO7I14R12TkeJvgOg218L5woV5lKM0dBoTwRTWQv5dHM81Ip2LBCf0jGsRVuyotzN\nUAVE4/mW5zFrje5DzH/UOfhHq5ZYHs7+2bm5KA3jB4nOwuh2TGqVzEPpRB6Bvlrk\nXnccsr7gxEsbPaeTMUVW5IXF/nqMLtn+Nmoy6UTAdP3MEJ82Gqq/RDNID3pLgurc\n+77a5KshNaxeuwbwQ/i31QhKJhQxDg5ua5fN6Zvzx76p1FmdZc5PV3aDd6BPgKjm\nHpcxdBJUhgfAPxEUUTn2\n=ok3t\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 80c10527247160709d75627fabba13a16d0011b2\nparent 62868840b5f46646fc8cab1debfbca561be299aa\nauthor Justin Poehnelt <jpoehnelt@google.com> 1772578954 -0700\ncommitter GitHub <noreply@github.com> 1772578954 -0800\n\nfeat: skills expansion (#18)\n\n* wip\n\n* feat: replace admin recipes with 50 consumer-focused recipes\n\n- Remove all admin/security/IT recipes (offboard-user, audit-user-login, etc.)\n- Remove enterprise-only recipes (initiate-litigation-hold)\n- Replace dangerous recipes (setup-email-forwarding -> create-gmail-filter)\n- Remove recipes overlapping with gws-workflow-* helpers\n- Remove thin 2-step recipes better served as helpers\n- Add 50 curated consumer recipes for Gmail, Drive, Docs, Calendar, Sheets\n- Update README: link to docs/skills.md, update skill count to 100+\n- Fix clippy needless_borrow warnings in generate_skills.rs\n- Fix lefthook.yml: run fmt/clippy sequentially (parallel causes races)\n\n---------\n\nCo-authored-by: jpoehnelt-bot <jpoehnelt-bot@users.noreply.github.com>",
+      "verified_at": "2026-03-03T23:02:35Z"
+    }
+  },
+  "url": "https://api.github.com/repos/googleworkspace/cli/commits/b0d0b95d07cfa6393ff9058fac308ced5b33e7e3",
+  "html_url": "https://github.com/googleworkspace/cli/commit/b0d0b95d07cfa6393ff9058fac308ced5b33e7e3",
+  "comments_url": "https://api.github.com/repos/googleworkspace/cli/commits/b0d0b95d07cfa6393ff9058fac308ced5b33e7e3/comments",
+  "author": {
+    "login": "jpoehnelt",
+    "id": 3392975,
+    "node_id": "MDQ6VXNlcjMzOTI5NzU=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3392975?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jpoehnelt",
+    "html_url": "https://github.com/jpoehnelt",
+    "followers_url": "https://api.github.com/users/jpoehnelt/followers",
+    "following_url": "https://api.github.com/users/jpoehnelt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jpoehnelt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jpoehnelt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jpoehnelt/subscriptions",
+    "organizations_url": "https://api.github.com/users/jpoehnelt/orgs",
+    "repos_url": "https://api.github.com/users/jpoehnelt/repos",
+    "events_url": "https://api.github.com/users/jpoehnelt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jpoehnelt/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "62868840b5f46646fc8cab1debfbca561be299aa",
+      "url": "https://api.github.com/repos/googleworkspace/cli/commits/62868840b5f46646fc8cab1debfbca561be299aa",
+      "html_url": "https://github.com/googleworkspace/cli/commit/62868840b5f46646fc8cab1debfbca561be299aa"
+    }
+  ]
+}

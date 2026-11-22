@@ -1,0 +1,607 @@
+{
+  "sha": "542df5e34db46f05ec9a75c1f7e3c1c01fecf50c",
+  "url": "https://api.github.com/repos/microsoft/skills/git/trees/542df5e34db46f05ec9a75c1f7e3c1c01fecf50c",
+  "tree": [
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ec1d16e8588f97064bf19653e6b54b8bfb5886",
+      "size": 6809,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/23ec1d16e8588f97064bf19653e6b54b8bfb5886"
+    },
+    {
+      "path": "deploy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9f819e80fc2b1212439e82f2997f85188ba45c2",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/c9f819e80fc2b1212439e82f2997f85188ba45c2"
+    },
+    {
+      "path": "deploy/PHASE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10bad9ae2c8a1c4fd93af0973c4c10cee187e918",
+      "size": 7636,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/10bad9ae2c8a1c4fd93af0973c4c10cee187e918"
+    },
+    {
+      "path": "deploy/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc7673ce762107c6672fe51ddeac516dbadaef8e",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/fc7673ce762107c6672fe51ddeac516dbadaef8e"
+    },
+    {
+      "path": "deploy/references/approval-gate-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e74a17ee5ac2a3fa2b512368f21463fbeba6526d",
+      "size": 2988,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/e74a17ee5ac2a3fa2b512368f21463fbeba6526d"
+    },
+    {
+      "path": "deploy/references/blocked-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada2238ec5b2f54455753b996f6854448888ca77",
+      "size": 5883,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ada2238ec5b2f54455753b996f6854448888ca77"
+    },
+    {
+      "path": "deploy/references/code-deployment-appservice.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7fa9dfe0b02267c500c0db4cbd17345ebf4efa8",
+      "size": 4735,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/c7fa9dfe0b02267c500c0db4cbd17345ebf4efa8"
+    },
+    {
+      "path": "deploy/references/code-deployment-container-apps.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9893d709d2d6ad975a1b7d7b5ae22e9e0d82ab4e",
+      "size": 8648,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/9893d709d2d6ad975a1b7d7b5ae22e9e0d82ab4e"
+    },
+    {
+      "path": "deploy/references/code-deployment-swa.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0cc7c0f6b9a8a0b68eb0c9ea956f6952067e016",
+      "size": 5828,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/a0cc7c0f6b9a8a0b68eb0c9ea956f6952067e016"
+    },
+    {
+      "path": "deploy/references/database-post-deploy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7612f9b8a64d84ec4bf291f810fe294c6c9440c",
+      "size": 4578,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/e7612f9b8a64d84ec4bf291f810fe294c6c9440c"
+    },
+    {
+      "path": "deploy/references/deploy-checklist-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "820821c6add5d0940a547093fbec1861d5903aec",
+      "size": 10385,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/820821c6add5d0940a547093fbec1861d5903aec"
+    },
+    {
+      "path": "deploy/references/deploy-safety.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94df7c60b8ae1423e9d86e44925cb7d7c5fa8240",
+      "size": 4640,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/94df7c60b8ae1423e9d86e44925cb7d7c5fa8240"
+    },
+    {
+      "path": "deploy/references/deploy-schemas.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe3eda1d069e55d6d03cacf4556edf286ca347b3",
+      "size": 3558,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/fe3eda1d069e55d6d03cacf4556edf286ca347b3"
+    },
+    {
+      "path": "deploy/references/error-classification.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddaea3df3335eb75c715478eb5a7e664d2b0aac1",
+      "size": 3732,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ddaea3df3335eb75c715478eb5a7e664d2b0aac1"
+    },
+    {
+      "path": "deploy/references/health-check-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98e9bc88336aafc4a6fe3b3c54a297502245e0c6",
+      "size": 5633,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/98e9bc88336aafc4a6fe3b3c54a297502245e0c6"
+    },
+    {
+      "path": "deploy/references/mcp-tools.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bcfd1549bd9e1253ea12bcab3d55b949c6cef95",
+      "size": 5642,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/6bcfd1549bd9e1253ea12bcab3d55b949c6cef95"
+    },
+    {
+      "path": "deploy/references/portal-links.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f467d1785c82c70ba23ac0f3cf23ec6d8ef211b3",
+      "size": 3142,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/f467d1785c82c70ba23ac0f3cf23ec6d8ef211b3"
+    },
+    {
+      "path": "deploy/references/preflight-checks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aed4bb3fa34f876449d1b4ca0cba9429832a42d",
+      "size": 4470,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/3aed4bb3fa34f876449d1b4ca0cba9429832a42d"
+    },
+    {
+      "path": "deploy/references/subagent-preflight.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4e6a49501db2bc41781bcb8804da9c9068ad106",
+      "size": 5210,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/b4e6a49501db2bc41781bcb8804da9c9068ad106"
+    },
+    {
+      "path": "prepare",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97527533d4ed153366904a6178aebf119a0244d9",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/97527533d4ed153366904a6178aebf119a0244d9"
+    },
+    {
+      "path": "prepare/PHASE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "020e85775ea331a20e0d801ad9cd98d17039d5de",
+      "size": 6595,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/020e85775ea331a20e0d801ad9cd98d17039d5de"
+    },
+    {
+      "path": "prepare/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a56e7c0f632f7274c6635535f10343449b17fb48",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/a56e7c0f632f7274c6635535f10343449b17fb48"
+    },
+    {
+      "path": "prepare/references/deploy-strategy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28af8f5b8a637424ff62ac70ad773ef0e7ce614d",
+      "size": 6996,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/28af8f5b8a637424ff62ac70ad773ef0e7ce614d"
+    },
+    {
+      "path": "prepare/references/mcp-tools.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd8ed120944f7792f8f6522ac851e2292231a77a",
+      "size": 5695,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/cd8ed120944f7792f8f6522ac851e2292231a77a"
+    },
+    {
+      "path": "prepare/references/naming-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "968f1ccc5edede7008597cd1be65b8072e8e080e",
+      "size": 4713,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/968f1ccc5edede7008597cd1be65b8072e8e080e"
+    },
+    {
+      "path": "prepare/references/prepare-schemas.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07b269ee240dcd9837ed5eadc7a9efa00e306dcf",
+      "size": 7154,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/07b269ee240dcd9837ed5eadc7a9efa00e306dcf"
+    },
+    {
+      "path": "prepare/references/pricing-guide-services.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7b5b3b9467667c97d29d1f9fb983c7d8bff27a3",
+      "size": 8646,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/a7b5b3b9467667c97d29d1f9fb983c7d8bff27a3"
+    },
+    {
+      "path": "prepare/references/pricing-guide.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be87a4fdacc090e46ed9629c66c431ab30cf1ade",
+      "size": 4085,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/be87a4fdacc090e46ed9629c66c431ab30cf1ade"
+    },
+    {
+      "path": "prepare/references/service-mapping.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e4c8ce6a06e442e21dbe69238e922a10e20ae4b",
+      "size": 8706,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/2e4c8ce6a06e442e21dbe69238e922a10e20ae4b"
+    },
+    {
+      "path": "prepare/references/sku-matrix.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1d8c7e7a23352cdde7ffa152bb3db27d05561bc",
+      "size": 3291,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/e1d8c7e7a23352cdde7ffa152bb3db27d05561bc"
+    },
+    {
+      "path": "prepare/references/sku-quota-validation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa1af0b08e030047b57102b0a1dbf0035ce3c84d",
+      "size": 9205,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/fa1af0b08e030047b57102b0a1dbf0035ce3c84d"
+    },
+    {
+      "path": "prepare/references/subagent-pricing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e7392254c9c84193d4826b18f19efbe207e0198",
+      "size": 2557,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0e7392254c9c84193d4826b18f19efbe207e0198"
+    },
+    {
+      "path": "prepare/references/subagent-quota.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc10f89b388655878d16229d21eba57f935482b2",
+      "size": 3568,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/fc10f89b388655878d16229d21eba57f935482b2"
+    },
+    {
+      "path": "prepare/references/validation-rubric.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "005de4fa4f87aec9e9235efa2516452d803b7628",
+      "size": 2351,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/005de4fa4f87aec9e9235efa2516452d803b7628"
+    },
+    {
+      "path": "references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c7cf43d78c9eb84b3fdedc17f08a632af37a459",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/9c7cf43d78c9eb84b3fdedc17f08a632af37a459"
+    },
+    {
+      "path": "references/approval-gates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7fb8f23d7cbe4ca0aa01b1b3eb129fc0a3101f",
+      "size": 8632,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/1c7fb8f23d7cbe4ca0aa01b1b3eb129fc0a3101f"
+    },
+    {
+      "path": "references/azd-template-routing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7ab014c216dd0852e4a8d0c62e0c0b4e16cd0e6",
+      "size": 4832,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/e7ab014c216dd0852e4a8d0c62e0c0b4e16cd0e6"
+    },
+    {
+      "path": "references/handoff-protocol.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ed98e0a1b85aaa6feabee46f0a9ddf8fc644ff3",
+      "size": 8013,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/5ed98e0a1b85aaa6feabee46f0a9ddf8fc644ff3"
+    },
+    {
+      "path": "references/iac-resources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972649c30fe1768157692bc25718e18537d431a9",
+      "size": 2682,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/972649c30fe1768157692bc25718e18537d431a9"
+    },
+    {
+      "path": "references/intent-gathering.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e602b72024f495de0b546b3fa1e3d86656a21a",
+      "size": 2289,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/45e602b72024f495de0b546b3fa1e3d86656a21a"
+    },
+    {
+      "path": "references/mcp-tool-reference.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240ff063e81ad1ab92d66b7e0649067cf793cd4d",
+      "size": 3780,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/240ff063e81ad1ab92d66b7e0649067cf793cd4d"
+    },
+    {
+      "path": "references/pipeline-rules-runtime.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a729900dc9f5f86207a1337f8328e29b5f1b5698",
+      "size": 3619,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/a729900dc9f5f86207a1337f8328e29b5f1b5698"
+    },
+    {
+      "path": "references/pipeline-rules.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17086f15f8d49920ae1cfb0d04e5fae86b5c47c7",
+      "size": 6488,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/17086f15f8d49920ae1cfb0d04e5fae86b5c47c7"
+    },
+    {
+      "path": "references/session-protocol.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc6f0d9e154211d50c8cb0634def37f9514e8b4c",
+      "size": 8190,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/cc6f0d9e154211d50c8cb0634def37f9514e8b4c"
+    },
+    {
+      "path": "references/session-schemas.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9da5577266f84038a670787fb5301bd9e059b9c",
+      "size": 5298,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/b9da5577266f84038a670787fb5301bd9e059b9c"
+    },
+    {
+      "path": "references/subscription-resolution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5509c293a82f93698a6790a4c70b787974c0941",
+      "size": 2187,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/b5509c293a82f93698a6790a4c70b787974c0941"
+    },
+    {
+      "path": "scaffold",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0f1cfce38b59b98261a1b97385528afe547f387",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/c0f1cfce38b59b98261a1b97385528afe547f387"
+    },
+    {
+      "path": "scaffold/PHASE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24e461da90d1e0f5abe74d4df2ed0fe20d57f40b",
+      "size": 14534,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/24e461da90d1e0f5abe74d4df2ed0fe20d57f40b"
+    },
+    {
+      "path": "scaffold/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7228eb8ad8467c35a933ca14fbc93bf855819d0d",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/7228eb8ad8467c35a933ca14fbc93bf855819d0d"
+    },
+    {
+      "path": "scaffold/references/bicep-app-service.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbe98070ecc98760a9f1f5969947f3a7c4043517",
+      "size": 5557,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/fbe98070ecc98760a9f1f5969947f3a7c4043517"
+    },
+    {
+      "path": "scaffold/references/bicep-container-apps.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d51fb6346e9d066ca504f7dc4ae9f689b06a0ac",
+      "size": 9508,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0d51fb6346e9d066ca504f7dc4ae9f689b06a0ac"
+    },
+    {
+      "path": "scaffold/references/bicep-patterns-data.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40515ed425636481788c5ff8060faf96f747bee2",
+      "size": 4054,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/40515ed425636481788c5ff8060faf96f747bee2"
+    },
+    {
+      "path": "scaffold/references/bicep-patterns-security.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73f9e506261a60be8f10c9e3c404fb9b58a3f69a",
+      "size": 7979,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/73f9e506261a60be8f10c9e3c404fb9b58a3f69a"
+    },
+    {
+      "path": "scaffold/references/bicep-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4771765b418dd68c173fa6ae5be7a1cb7ab96be3",
+      "size": 6974,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/4771765b418dd68c173fa6ae5be7a1cb7ab96be3"
+    },
+    {
+      "path": "scaffold/references/bicep-swa.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63ec654ed24dcabe64deea6b78bf2dfe158db9ce",
+      "size": 757,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/63ec654ed24dcabe64deea6b78bf2dfe158db9ce"
+    },
+    {
+      "path": "scaffold/references/cicd-pipelines.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddbad793e74206d4b0eca8c65c28c3047a560871",
+      "size": 325,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ddbad793e74206d4b0eca8c65c28c3047a560871"
+    },
+    {
+      "path": "scaffold/references/dockerfile-generation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f8afb369c14dbac97f73a8575221ae839b54a3",
+      "size": 4164,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/13f8afb369c14dbac97f73a8575221ae839b54a3"
+    },
+    {
+      "path": "scaffold/references/env-var-secrets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77dd71b10dc709bd49bfd2f3389dc0ae0926c8f5",
+      "size": 4213,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/77dd71b10dc709bd49bfd2f3389dc0ae0926c8f5"
+    },
+    {
+      "path": "scaffold/references/error-handling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29143676436a5396c0036414a5ff6d7815692326",
+      "size": 1506,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/29143676436a5396c0036414a5ff6d7815692326"
+    },
+    {
+      "path": "scaffold/references/iac-generation-rules.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4e057037a14ef3239fa6da413bc44caf66598eb",
+      "size": 6777,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/d4e057037a14ef3239fa6da413bc44caf66598eb"
+    },
+    {
+      "path": "scaffold/references/mcp-tools.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d50d660e9b4ebb13bac19390d5a676bbfdf3d5",
+      "size": 7182,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/96d50d660e9b4ebb13bac19390d5a676bbfdf3d5"
+    },
+    {
+      "path": "scaffold/references/rbac-roles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fafc26800fa488f4221f23dcd62372aebdb15772",
+      "size": 3942,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/fafc26800fa488f4221f23dcd62372aebdb15772"
+    },
+    {
+      "path": "scaffold/references/scaffold-healing-rules.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faa1ffa04b56e96b0fc404430b3b8f93de72ea38",
+      "size": 3409,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/faa1ffa04b56e96b0fc404430b3b8f93de72ea38"
+    },
+    {
+      "path": "scaffold/references/scaffold-schemas.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a423234264d8e7da24c1a79f8968d92348bfaac",
+      "size": 3575,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/2a423234264d8e7da24c1a79f8968d92348bfaac"
+    },
+    {
+      "path": "scaffold/references/self-healing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b175048e9396853047596f475b474199457a5cc9",
+      "size": 2405,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/b175048e9396853047596f475b474199457a5cc9"
+    },
+    {
+      "path": "scaffold/references/self-review-checklist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ebe7b5821d8045e6f589c2e0e2f41bceb8d7da7",
+      "size": 9252,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0ebe7b5821d8045e6f589c2e0e2f41bceb8d7da7"
+    },
+    {
+      "path": "scaffold/references/self-review-procedure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3a47ebe1b9178fa2c3e328efa6770232a19a75a",
+      "size": 2343,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/d3a47ebe1b9178fa2c3e328efa6770232a19a75a"
+    },
+    {
+      "path": "scaffold/references/subagent-iac-gen.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bbba830b9bf57e8ccaac24fe6282a2e2d50fce5",
+      "size": 9749,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/1bbba830b9bf57e8ccaac24fe6282a2e2d50fce5"
+    },
+    {
+      "path": "scaffold/references/subagent-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b89cd37f63fb4fb7e13daede4555187a0c0a70b7",
+      "size": 3596,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/b89cd37f63fb4fb7e13daede4555187a0c0a70b7"
+    },
+    {
+      "path": "scaffold/references/subagent-validate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a23177cd586d6c7703ad43c1ef41235e5de767d",
+      "size": 7325,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/5a23177cd586d6c7703ad43c1ef41235e5de767d"
+    },
+    {
+      "path": "scaffold/references/terraform-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35ffcb8f07006dc928aa14c10787782765dd32b5",
+      "size": 7037,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/35ffcb8f07006dc928aa14c10787782765dd32b5"
+    },
+    {
+      "path": "scaffold/references/validation-and-manifest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e731fefe8e0b1012ed791a0afd41712a238ad3d",
+      "size": 5255,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0e731fefe8e0b1012ed791a0afd41712a238ad3d"
+    },
+    {
+      "path": "scaffold/references/waf-checklist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03d5eba5c52b466a603660d91378ecdfb195948a",
+      "size": 2330,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/03d5eba5c52b466a603660d91378ecdfb195948a"
+    },
+    {
+      "path": "scaffold/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ce009aae409e75e008e44d737d95a1f1ba5d622",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/4ce009aae409e75e008e44d737d95a1f1ba5d622"
+    },
+    {
+      "path": "scaffold/scripts/scaffold-conformance.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30dba844ce599e32c70d042857645b1b861251cc",
+      "size": 13131,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/30dba844ce599e32c70d042857645b1b861251cc"
+    },
+    {
+      "path": "scaffold/scripts/scaffold-conformance.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "749e77e2c234a836bc95425c85b67134b767c2c4",
+      "size": 14083,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/749e77e2c234a836bc95425c85b67134b767c2c4"
+    }
+  ],
+  "truncated": false
+}

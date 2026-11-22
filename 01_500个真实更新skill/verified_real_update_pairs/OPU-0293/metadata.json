@@ -1,0 +1,458 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/static-analysis/skills/codeql/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "1d1d083fab6e1984ebb5",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "e6066e7db1fd57cb35f9a534781ceec595327feb",
+    "computed_tree_sha": "d0c3bbeb25f433fe840941a21bcdf230bf8786ae",
+    "api_tree_sha_as_returned": "d0c3bbeb25f433fe840941a21bcdf230bf8786ae",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "482688e32408fe9367a38d24d92ede859a799e3b",
+        "sha256": "b88b4f0b2044ed9abb7c42e6c2a0413ac66e5eb1a3a02fefe5c32725851fcd16",
+        "size": 15577,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/build-fixes.md",
+        "git_blob_sha1": "fb4e32ae20c83c104f4c56f552393520b9b3b764",
+        "sha256": "9d74eaef2a75c1e99bacd66c2b874b8a2bd88480a88f4d9e42790eb2c72c7e08",
+        "size": 2636,
+        "mode": "100644"
+      },
+      {
+        "path": "references/diagnostic-query-templates.md",
+        "git_blob_sha1": "6104dbfad836cb1f802ff9fc4ca119958180e5d6",
+        "sha256": "d9f72ace8865a5b80e04de76f9f5db56e4a0c49d3946f32cd1d6a006eceacbaa",
+        "size": 10039,
+        "mode": "100644"
+      },
+      {
+        "path": "references/extension-yaml-format.md",
+        "git_blob_sha1": "5fc7b179e006435a61188a612b458db8f02060ff",
+        "sha256": "a263fa41dc78dd1e2884cc7567d4db110cb86fc1fd222cc66629b6191abe41f1",
+        "size": 7848,
+        "mode": "100644"
+      },
+      {
+        "path": "references/important-only-suite.md",
+        "git_blob_sha1": "e9c5bb00919ba4815dca81f5ac2ea77999f8da4c",
+        "sha256": "27823a2553db154849e8e4b979d1d3d625fa46ab8ed122dec385b12df1454780",
+        "size": 5777,
+        "mode": "100644"
+      },
+      {
+        "path": "references/language-details.md",
+        "git_blob_sha1": "f87ffca77c5514c1472ff25b62961bc7fd5ab708",
+        "sha256": "1d6db4a45a8858fb0fb2a580a386bc7912697a90b22816b17f22bf0eaf1afce0",
+        "size": 5091,
+        "mode": "100644"
+      },
+      {
+        "path": "references/macos-arm64e-workaround.md",
+        "git_blob_sha1": "35e8221a2da627f175e1d458dbbb16877e8b985d",
+        "sha256": "2b4e18ae0924f18edf5918ac237a13f268edc6fca802ecb4d55113c372711088",
+        "size": 6824,
+        "mode": "100644"
+      },
+      {
+        "path": "references/performance-tuning.md",
+        "git_blob_sha1": "3dfe8f540bdf18204fc41c75d6fb1094a94561d2",
+        "sha256": "d725aef573fd7fcf59ad495890f1ab40e4b202ad6692ea798fea94655fb2ae93",
+        "size": 3356,
+        "mode": "100644"
+      },
+      {
+        "path": "references/quality-assessment.md",
+        "git_blob_sha1": "f2dedce0b06e7aa00d20973fe6d860235082b0a7",
+        "sha256": "1dabaec584cc3ba0d2e2e09559f7da6b279ef7ab88caf641a066ea5b644295b0",
+        "size": 7010,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruleset-catalog.md",
+        "git_blob_sha1": "2ecb6f3ce361cd69ccff0b2a31753d52a410333a",
+        "sha256": "2b139ae593865548a596fb5b78694cb09d4a1959beb5225a5d8a914155a72165",
+        "size": 2197,
+        "mode": "100644"
+      },
+      {
+        "path": "references/run-all-suite.md",
+        "git_blob_sha1": "1ed619911a0d48ea65143660206eca600c28d455",
+        "sha256": "cde0d37d23f400dde567d631196dfbc8787fd4a6cc4e4a469bba103127c09ccb",
+        "size": 4267,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sarif-processing.md",
+        "git_blob_sha1": "726e2f049f7eba3fd0c0b65e3f6da1ae0a235126",
+        "sha256": "abde04ca479a372ed134150cd9cd1fd2b45cd7b4b45386034a2b3f4d415f6f9b",
+        "size": 3119,
+        "mode": "100644"
+      },
+      {
+        "path": "references/threat-models.md",
+        "git_blob_sha1": "88e3594037255c42526a17e6d256fed6804df764",
+        "sha256": "8855d4907b390f04149cc8064a1ea61ee95e802b25da2d2880604a493b477854",
+        "size": 3074,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/build-database.md",
+        "git_blob_sha1": "48b63e68e2308d5e8ccceb45b7a881755ea414b0",
+        "sha256": "7fb24c47ffe46a0d6c99b59eadbfd3159017703e77ef799bb1d8e1e7095518f1",
+        "size": 9597,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/create-data-extensions.md",
+        "git_blob_sha1": "482ac8e5ede6b26e61e2056fff4494fcffb6239c",
+        "sha256": "2210ce1466a8269c115776f501343d6c1dc5b45ca315493932dfcd033a6e3ea0",
+        "size": 9930,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/run-analysis.md",
+        "git_blob_sha1": "c757c9f44efebac51b8b10e3e1e6453852298dbd",
+        "sha256": "6a489cfc57eb76db029ec8cad9bc32eb64a98ce99db85a5914ac4e32d3895a58",
+        "size": 11506,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "304c81a8cefb6e3c029ebd0d12940ccf0713eccb",
+    "computed_tree_sha": "133904ce64269ea30c935b45f649f5490dcf3e47",
+    "api_tree_sha_as_returned": "133904ce64269ea30c935b45f649f5490dcf3e47",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "79856ae812a9c6bedbbf0cb410aa474e1091f701",
+        "sha256": "1a6d919ff80f83b262daf650552af6eb6d2c32b19d0c529b70efe0c116b675cf",
+        "size": 18600,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/build-fixes.md",
+        "git_blob_sha1": "69994a59d53fc37e275c8a6a67aa90153a89a0d9",
+        "sha256": "41b8ddbe3538a8014b53eb22a877f01573566860f629d0ad940b991fd389d5b4",
+        "size": 3190,
+        "mode": "100644"
+      },
+      {
+        "path": "references/diagnostic-query-templates.md",
+        "git_blob_sha1": "0203570f2d055c0639ae343c999d127f471b3ec2",
+        "sha256": "c27a979094f8de6d1d341a838de52952a98385ff75c9439a7e76ba3bb3fbe662",
+        "size": 9751,
+        "mode": "100644"
+      },
+      {
+        "path": "references/extension-yaml-format.md",
+        "git_blob_sha1": "5b180b115d102f96ae0fb2c1528a4d803a5464c6",
+        "sha256": "c98903da4f21fd94816c520f6fdaba8d12e08b4bd55f85233c487e3baf39a1a6",
+        "size": 7621,
+        "mode": "100644"
+      },
+      {
+        "path": "references/important-only-suite.md",
+        "git_blob_sha1": "9f168e0bae5c3318282cfd6e7b1d554dc985ab2c",
+        "sha256": "9f2fbb57b0e02fe964ad268b11ad88c9598b38314fc008016caa615cf303b3a5",
+        "size": 5270,
+        "mode": "100644"
+      },
+      {
+        "path": "references/language-details.md",
+        "git_blob_sha1": "659c0a8bbb50e707e0acc3332f5d5a348168d586",
+        "sha256": "f0857914eeabfb96929c2d1a8f086e92c0a3973cc2ac8460f371fedc2d023818",
+        "size": 5811,
+        "mode": "100644"
+      },
+      {
+        "path": "references/macos-arm64e-workaround.md",
+        "git_blob_sha1": "e068c32e44b83d58b55af7b972fd380a7481a6d1",
+        "sha256": "72d7c9fc2be8368968516857fe4e32211473b92cc8bc3ef1d28530aaf744d1fe",
+        "size": 7455,
+        "mode": "100644"
+      },
+      {
+        "path": "references/performance-tuning.md",
+        "git_blob_sha1": "54a0311bd0fb9d7bc4f55fe023ace8d78f5ef226",
+        "sha256": "536473b91e8574c18a3a943df2e4328615bbabbd899c76827d345ff7be986b7d",
+        "size": 2835,
+        "mode": "100644"
+      },
+      {
+        "path": "references/quality-assessment.md",
+        "git_blob_sha1": "dfeebb9f61235f3de0b9cade44750142b662017a",
+        "sha256": "97a089828d376867cf0e7a901eaacb40d95d30407641db743d6d6f6a365ff7d9",
+        "size": 7799,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruleset-catalog.md",
+        "git_blob_sha1": "2ecb6f3ce361cd69ccff0b2a31753d52a410333a",
+        "sha256": "2b139ae593865548a596fb5b78694cb09d4a1959beb5225a5d8a914155a72165",
+        "size": 2197,
+        "mode": "100644"
+      },
+      {
+        "path": "references/run-all-suite.md",
+        "git_blob_sha1": "17e3a3acfabe7521e47378b46003d40cf83c24d6",
+        "sha256": "bbac653d6e8ea115fa7df47307729745157bb60868939a71167c30cc18dcffb6",
+        "size": 5552,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sarif-processing.md",
+        "git_blob_sha1": "726e2f049f7eba3fd0c0b65e3f6da1ae0a235126",
+        "sha256": "abde04ca479a372ed134150cd9cd1fd2b45cd7b4b45386034a2b3f4d415f6f9b",
+        "size": 3119,
+        "mode": "100644"
+      },
+      {
+        "path": "references/threat-models.md",
+        "git_blob_sha1": "40718e997cc608e11c0af0fac91b03573811543f",
+        "sha256": "fd4252f0fc71734ab756ff51bead1b894397bf67382b2337cbe0b0de4672cefd",
+        "size": 2799,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/build_log.sh",
+        "git_blob_sha1": "6d561e8767279140fd958f622078ca83ebf73438",
+        "sha256": "83c98d08c85a96b0b46246c14f3ffbe61370f5d184338455c6c288ddcf8df5de",
+        "size": 2144,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_db_quality.py",
+        "git_blob_sha1": "7ada3a5881f28bc798511597e1b0ed000c13a6ab",
+        "sha256": "fca99a149eb4689730b7d3a3314527a5716823fb5f19b6b79114f4949b726c36",
+        "size": 15069,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/find_databases.sh",
+        "git_blob_sha1": "889b79b08a8ab6d77a4b6e5008a1764e3ec916e3",
+        "sha256": "a56995c048b322bce45baf4482388a3cdf78dd59d562eca39e169c065f7f9b18",
+        "size": 2515,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/generate_suite.sh",
+        "git_blob_sha1": "ed845c5b0ccb9728b2c68cf1c0954a152cbf465f",
+        "sha256": "489516c52155c2061ec2a53d8190ebe474f4bdcb53ddc53b1216dc72ff7b1d9f",
+        "size": 3406,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/pyproject.toml",
+        "git_blob_sha1": "06559cad79aabdd6c7c2ca700d3b9ee146bdfc57",
+        "sha256": "c78fce8eeb7d91895dfc44296bdf547bcf77a156c8c057ae5238032883dfa41b",
+        "size": 585,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_build_log.py",
+        "git_blob_sha1": "01df07bbb62a308570f8930b12fdd6a0fcdc1428",
+        "sha256": "3d58186d066d0ebf8117f89dfb03d49a8db8907e43cb013bd51b7669aa478f2d",
+        "size": 3244,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_build_mode_claims.py",
+        "git_blob_sha1": "71104bad725faa12b5d0722ed313801305784db8",
+        "sha256": "eeddedd49a2aa33790425f828c808a0504fab66a635c7902878cac2a292db89e",
+        "size": 3678,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_check_db_quality.py",
+        "git_blob_sha1": "ef904fcf98374e64ffff226d778bf0dfff11e12b",
+        "sha256": "842c78079bb0a033f7e3ec0d2608ac5913906c87e96132e85fb38577eb170c29",
+        "size": 20247,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_find_databases.py",
+        "git_blob_sha1": "0e574c04a3f06fbecb80f2bc9544fa6de2932c27",
+        "sha256": "eb9895c35f94ccb334997b296774dc36c5997ce520acb606bfd83b0934d4982a",
+        "size": 6116,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_generation_scripts.py",
+        "git_blob_sha1": "428733a9256bd92c0d49d5c5c02d3de0cc7acf29",
+        "sha256": "7a28e51ef4550974641982004dfd446cdb12487ebf500ad103df7cdb307316fe",
+        "size": 11806,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_script_flags.py",
+        "git_blob_sha1": "281db92e6370dc74f846f29ef28f17067425c7f6",
+        "sha256": "7aa9ca403051f4bd7690ee4ce46b3d9e16050119a24b4eb2858653e489c7edeb",
+        "size": 6451,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_section_pointers.py",
+        "git_blob_sha1": "8a16d5bbe8209bd2ef79b313310443ed8fa9bb5f",
+        "sha256": "46aa000803005d5e3328b4c028b3431f67c7105997bddd15aa361a3e2511695c",
+        "size": 8072,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_shell_blocks.py",
+        "git_blob_sha1": "e9d7af817a9fb5255ecf4bfddeabcb127a577367",
+        "sha256": "bf800714b9bee72292d74ac0c80acd47c00e6bb7e2624731e8b30a82c840358e",
+        "size": 29804,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_suite_templates.py",
+        "git_blob_sha1": "57fa9d8cad4ddf856bc35301697ba24f6a2125cb",
+        "sha256": "94028929d16a3bbcdcc4b92b5f32bda396360cbbb34198c4f2405b3397957d5d",
+        "size": 5120,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_verify_query_suite.py",
+        "git_blob_sha1": "0680c47b362aeed4274afaf208f6381b9918d805",
+        "sha256": "21089b2b06407c6dcf43ff2bf44644b64ad4fd028713eadeafb92e8db8d5732d",
+        "size": 1902,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/verify_query_suite.py",
+        "git_blob_sha1": "f9d9cb8e2acef3b6cfef31df1168866fee788f4f",
+        "sha256": "ad1bb120201c9af5ae199d3d36a727ba12d897162f817045e8a8006e691154f8",
+        "size": 2802,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/build-database.md",
+        "git_blob_sha1": "f9d820572b76d3d46158248fa6d7feedafcff4cd",
+        "sha256": "06794bb67182303b0c81d30b3772531537d9f986b7b2cbe2a9ffa4b4f3e230ba",
+        "size": 13273,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/create-data-extensions.md",
+        "git_blob_sha1": "b83d3d229d92f7f114e425898d5f9b3435af5810",
+        "sha256": "f3643e4916e7586c7738c14f781e3919bce35129d75beb00812b963efbbc4673",
+        "size": 10555,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/run-analysis.md",
+        "git_blob_sha1": "534e81411044cc475b7fa6c52472d08b863ddd16",
+        "sha256": "a85ee6df365445353e482e38c43c73e013a280268570284ac858798f47716626",
+        "size": 12939,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/build-fixes.md",
+    "references/diagnostic-query-templates.md",
+    "references/extension-yaml-format.md",
+    "references/important-only-suite.md",
+    "references/language-details.md",
+    "references/macos-arm64e-workaround.md",
+    "references/performance-tuning.md",
+    "references/quality-assessment.md",
+    "references/run-all-suite.md",
+    "references/threat-models.md",
+    "scripts/build_log.sh",
+    "scripts/check_db_quality.py",
+    "scripts/find_databases.sh",
+    "scripts/generate_suite.sh",
+    "scripts/pyproject.toml",
+    "scripts/test_build_log.py",
+    "scripts/test_build_mode_claims.py",
+    "scripts/test_check_db_quality.py",
+    "scripts/test_find_databases.py",
+    "scripts/test_generation_scripts.py",
+    "scripts/test_script_flags.py",
+    "scripts/test_section_pointers.py",
+    "scripts/test_shell_blocks.py",
+    "scripts/test_suite_templates.py",
+    "scripts/test_verify_query_suite.py",
+    "scripts/verify_query_suite.py",
+    "workflows/build-database.md",
+    "workflows/create-data-extensions.md",
+    "workflows/run-analysis.md"
+  ],
+  "old_commit": "e6066e7db1fd57cb35f9a534781ceec595327feb",
+  "new_commit": "304c81a8cefb6e3c029ebd0d12940ccf0713eccb",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "static-analysis: make the codeql skill's guards real and add tests (#225)\n\n* fix(codeql): make the skill's guards real, add tests, trim the prose\n\nEvery verification step piped its command to a formatter and used the\npipeline's exit status, which without pipefail belongs to the formatter,\nnot the command. Nine sites. The sharpest was the arm64e detection:\n`EXIT_CODE=$?` after `| tee` compared against 137, a value it could\nnever hold, so the check underpinning Essential Principle #5 and three\nRationalizations could not fire.\n\nThe build workflow now runs check_db_quality.py as its Step 4 exit\ncondition rather than describing metrics it never compared to a\nthreshold, and suite generation aborts on zero resolved queries. Two\nblocks that were invalid bash — an else branch containing only comments\n— are fixed.\n\nLog helpers move to scripts/build_log.sh, sourced by the workflow and by\nthe three reference docs that use run_logged. They were previously\ndefined in one markdown file and used from three others, so those blocks\nfailed standalone. As the skill's first .sh file it is also the first\nthing here that `make shell` lints. Sourcing it now checks the log is\nwritable: under pipefail an unwritable log made tee's failure the\npipeline's, so run_logged returned 1 for a build that succeeded and the\nmethod ladder walked to --build-mode=none blaming CodeQL.\n\nSuite generation moves to scripts/generate_suite.sh, which takes the\nmode as its argument. Both modes had been copy-pasted into two reference\ndocs sharing some 25 lines of identical scaffolding — guards, the\nthird-party pack loop, the excludes, the verification call — none of it\nlintable where it sat. The tests now run the script instead of\nextracting bash from markdown, and one of them fails if either doc\ninlines a generation block again.\n\ncheck_db_quality.py counts project files under the source root recorded\nin codeql-database.yml instead of against a hardcoded prefix list that\nonly knew where macOS keeps its toolchain. src.zip stores each file at\nits absolute path minus the leading separator, so the recorded root is a\nprefix of the project's entries and of nothing else — verified against a\ndatabase built by CodeQL 2.25.6. It also resolves the summary-versus-\nseverity preference per extractor: a single `extractor-failures: 0` used\nto suppress the fallback for every other language in the database.\n\nrun-analysis.md had its own database discovery loop, which SKILL.md\nstates the workflows do not restate. It also lacked SKILL.md's\n`codeql resolve database` filter, so a marker file left by a failed\nbuild could be selected as a database. It now uses the canonical block.\n\nTwenty-odd snippets across language-details, threat-models, and\nperformance-tuning created and analysed a literal `codeql.db` in the\nworking directory — the exact shortcut SKILL.md lists as a\nRationalization to Reject, and one its Success Criteria forbid. They use\n\"$DB_NAME\" under $OUTPUT_DIR.\n\nAdds six hermetic test suites needing no CodeQL install, plus the first\ntests that execute build_log.sh rather than reading it. They cover the\nshell in every markdown block, both suite generators, the quality\nthresholds, the .qls templates, and the exit-status claim the build\nladder rests on.\n\nCorrects the run-all coverage figures against cpp-queries 1.8.0: the\npack holds 515 alert queries, not 510, and run-all leaves 307 of them\nunrun, not 302 — 13 of those are Security/CWE queries, which the prose\ndescribed as harmless refactoring metrics.\n\nTrims the skill's markdown from 2867 lines to 2748, and SKILL.md from\n269 to 257. Out: the When NOT to Use section that #216 dropped\nrepo-wide, five Essential Principles that restated their own\nRationalization, two literal prompt mock-ups, three Reference Index rows\nduplicating the workflow table above them, three identical qlpack.yml\nblocks, and code fences in performance-tuning and threat-models that\neach carried a single flag.\n\nReplaces three approval prompts with one confirmation gate, and drops\nallowed-tools entries for tools that no longer exist.\n\nBumps static-analysis to 1.3.0.\n\n* fix(codeql): address review findings on shell-block scope and suite claims\n\nEach markdown block runs in a fresh shell, so scalars and sourced functions\ncross it no better than arrays do. build-database.md now says to re-source\nbuild_log.sh and re-set DB_NAME in every block using run_logged: without it\nrun_logged exits 127, the method ladder reads that as a failed build method,\nand it walks to --build-mode=none having never invoked CodeQL. run-analysis.md\nStep 4 re-establishes DB_NAME, RAW_DIR and SUITE_FILE for the same reason --\nunder set -u it aborted with \"unbound variable\" before analysis started.\n\ncreate-data-extensions.md was the third caller of database discovery and still\nused a bare find for codeql-database.yml, which selects a marker left by a\nbuild killed mid-run; the queries then return nothing and Step 3 reports\ncoverage as adequate. It now uses find_databases.sh like the other two.\n\nquality-assessment.md sources build_log.sh in the Collect Metrics block, so a\nfailed quality gate is recorded rather than silently dropped by a\ncommand-not-found, and the raised-threshold override logs inside the if -- it\npreviously wrote \"raised to 15%\" even when the re-run still failed.\n\ngenerate_suite.sh no longer describes the run-all suite as every security,\nexperimental and quality query: it imports two suites totalling 219 of the\npack's 515 alert queries, as run-all-suite.md documents. Changed in the doc\ntemplate too, which test_generation_scripts.py pins to the script's output.\n\nThe two remaining review findings were already fixed on this branch and needed\nno change: quality-assessment.md assigns ERROR_RATIO from the script's JSON\nbefore reading it, and extractor_error_count() resolves the summary-versus-\nseverity preference per extractor rather than once for the tree.\n\n* style(codeql): trim comments in the shared shell scripts\n\nbuild_log.sh carried more comment than code. The consequence of an\nunwritable log -- the ladder walking to --build-mode=none after a build\nthat succeeded -- was stated twice within ten lines; it is stated once\nnow. find_databases.sh and generate_suite.sh get the same treatment.\n\nComments only: the diff contains no code lines. 435 tests pass unchanged.\n\n* feat(codeql): ship /static-analysis:codeql-build as a dynamic workflow\n\nThe build is the part of this skill with real judgement and no user in it:\ntry a method, read the failure, apply a fix, retry, escalate. That loop now\nruns unattended as workflows/codeql-build.js, beside the four workflows\nalready on main.\n\nThree phases. Detect resolves the output directory and profiles the language,\nbuild system and macOS arm64e state. Build walks the ladder. Assess runs\ncheck_db_quality.py and applies the improvements from quality-assessment.md\nbefore re-running it.\n\nThe ladder is deterministic and lives in the script; diagnose-fix-retry for a\nsingle rung lives in that rung's agent, where the build output it has to read\nalready is. The agent is told not to escalate itself -- the caller owns the\norder, so a rung that fails is a result rather than a licence to try something\nelse. Go and Swift never reach Method 4, which they reject outright; an\narm64e Mac starts at 2m rather than spending two rungs to reach the same\nSIGKILL; an interpreted language does one extraction and no ladder at all.\n\nNothing is asked. Every method failing returns no-method-succeeded, and a\ndatabase that built but sits below the quality threshold returns\nbuilt-below-threshold with its metrics. Whether the remaining extractor errors\nare confined to code nobody needs analysed is the caller's call, so the assess\nphase is told not to raise --max-error-ratio to make its own gate pass.\n\nA build command exiting 0 is not a database: every rung is confirmed with\ncodeql resolve database before it counts, because finalize after a failed\ntrace-command leaves one that resolves and holds nothing.\n\ntests/codeql_build_harness.js compiles the workflow with stubbed agents and\nasserts the ladder and the guards; --self-test mutates it six ways and requires\nevery mutation to turn a scenario red. run_codeql_build_tests.sh wraps both so\nCI's existing shell-suite discovery runs them, with no workflow file changes.\n\nSKILL.md documents it as the unattended alternative and keeps the manual path.\nDatabase selection, analysis planning and data extensions stay in the session.\n\n* refactor(codeql): stop the docs recomputing what check_db_quality.py reports\n\nCollect Metrics parsed baseline-info.json with an inline python3 -c into\nBASELINE_LOC, then read .baseline_loc out of the checker's JSON into DB_LOC\nin the same block -- the same number, computed two ways, logged twice under\ntwo labels. The block's own comment said \"Everything downstream reads\n$QUALITY_JSON rather than recomputing\" while the recount sat sixteen lines\nabove it. The inline parse and the print-baseline call before it are gone;\nthe checker is the only thing that counts now, and the Quality Criteria table\ncites it rather than a command the doc no longer runs.\n\nLog Assessment read five variables out of Collect Metrics' shell. It runs in\nits own, so they expanded to empty and the log recorded \"Baseline LoC:\" with\nno number -- the same shape as the dangling ERROR_RATIO the first review\nfound. It re-sources the helpers and re-reads the metrics, and no longer\nprints an expected-file count it cannot see.\n\ntest_shell_blocks.py's embedded-python guard required three matches and there\nare two now, which is the guard working: removing the last sample of a\nconstruct must fail rather than silently leave the extractor untested. The\nfloor moves to two, with the reason recorded.\n\n* test(codeql): drop test_suite_resolution.py, which never ran in CI\n\nIts six tests needed the CodeQL CLI and codeql/cpp-queries; CI installs\nneither, so every one of them reported as a skip on every run. Confirmed by\nreproducing CI's environment locally -- with codeql off PATH the directory\ngives 428 passed, 135 skipped, matching the job log exactly. Removing it\nleaves 428 passed, 129 skipped, and the remaining skips are per-block\nparametrisations of test_shell_blocks.py whose test functions do run for\nother blocks.\n\nWhat goes with it: the only check that resolved the suite templates against\na real CodeQL rather than a fake one. run-all-suite.md's coverage claims --\nthat run-all is not the whole pack, that important-only reaches queries\nrun-all does not -- are now prose nobody verifies, so the doc carries the\ncommand to re-derive them instead of pointing at a test file that is gone.\ntest_generation_scripts.py's docstring no longer claims a sibling covers\nreal-CLI resolution.\n\n* fix(codeql): Rust supports --build-mode=none; say so\n\nThe language table left Rust as \"check your CLI — not listed either way\" and\nthe Overview's three categories did not cover it at all, so a reader had no\nroute for a Rust project and codeql-build.js resolved the ambiguity silently\nby putting Method 4 on its ladder.\n\nSettled against CodeQL 2.25.6 rather than the help text: `codeql database\ncreate --language=rust --build-mode=none` exits 0 and writes a database with\n`finalised: true`. Go, for contrast, fails immediately with \"Go does not\nsupport the none build mode\". So `--help` omits Rust the same way it omits\nC/C++, which the Overview already warned about; Rust joins that category and\nthe ladder in codeql-build.js was right.\n\n* refactor(codeql): one prose copy of the quality-gate exit codes, not two\n\ncheck_db_quality.py's exit contract was written out four times: the script's\nown docstring, codeql-build.js's assess prompt, build-database.md Steps 4-5,\nand quality-assessment.md's Enforce the Thresholds. The first two earn it --\none is the source of truth, the other is an agent prompt that cannot read a\ndocstring. The two prose copies are one too many.\n\nbuild-database.md keeps the part a reader needs at that moment (exit 1 is not\na judgement call, exit 3 is) and defers the table to quality-assessment.md,\nwhich it already links and which is where someone looks for gate detail. The\nraised-threshold rationale there loses two lines it did not need.\n\n* refactor(codeql): assess phase reads the exit-code table instead of copying it\n\nThe Assess prompt spelled out all four exit codes while its sibling phases\npoint at a file -- Select says to read rulesets.md rather than choose from\nmemory, and each build rung is sent to build-fixes.md. It now reads \"Enforce\nthe Thresholds\" in quality-assessment.md the same way, keeping inline only the\ntwo facts that decide what it does: exit 1 is not overridable, exit 3 is a\nheuristic. That leaves one prose description of the contract instead of two,\nand a change to the script's exits reaches the agent without a second edit.\n\nAlso aligns the ladder comment with the Rust finding: --help omits C/C++ and\nRust, not just C/C++.\n\n* fix(codeql): pass --format=json, the flag check_db_quality.py defines\n\nThe workflow's Assess phase ran `check_db_quality.py --json`. The script takes\n--format {text,json}, so argparse exited 2 before reading the database, and 2 is\nthe one exit code ASSESS_SCHEMA does not describe.\n\ntest_script_flags.py checks the class: it reads each script's accepted flags from\nits own --help and verifies every invocation across the plugin's .md and .js. The\nbug shipped because test_shell_blocks.py scans the skill tree and codeql-build.js\nsits outside it.\n\n* test(codeql): scan every block in one test instead of parametrizing over all of them\n\nSeven tests parametrized over all 65 bash blocks, which is 455 cases for seven\nassertions, and three of them skipped the blocks that did not qualify. That was\n129 skips, and it hid a check that matched no block at all: the unpreserved-pipeline\nassertion had never run against the skill.\n\nEach now scans in one pass and lists every offending file:line, so a run reports\nall offenders rather than the first. 557 cases down to 118, none skipped. The array\ncollector's empty case is an assertion rather than a skip.\n\n* refactor(codeql): point the workflow at build-database.md instead of restating it\n\ncodeql-build.js carried its own copy of the build procedure: the arm64e detection\nblock verbatim, the build-system command table, every method's invocation, and the\noutput-directory logic. Both copies were live, which is how the workflow came to pass\ncheck_db_quality.py a --json flag while the doc had --format=json. Each rung now names\nits section of build-database.md, the way Method 2m already pointed at\nmacos-arm64e-workaround.md.\n\nquality-assessment.md called the checker three times and re-derived its numbers with\njq, unzip and grep. check_db_quality.py now reports archive_files and finalised from\nthe two files it already reads, so one call covers the whole assessment.\n\nThe fresh-shell rule was stated in five places; SKILL.md holds it once and the\nworkflows link to it with the consequence specific to their site.\n\ntest_section_pointers.py checks what this trade depends on: every \"Section\" in file.md\npointer and every #anchor link must land on a real heading. The repo validator resolves\npaths, not section names, so a renamed heading would leave the pointers aimed at\nnothing with every check still green.\n\nProse 1128 -> 1084 lines, codeql-build.js 390 -> 340.\n\n* fix(codeql): address PR review findings on skill paths and database selection\n\ncodeql-build.js hardcoded plugins/static-analysis/skills/codeql, which only\nresolves in a checkout of this repo. Installed, the first build block sourced a\nbuild_log.sh that was not there and exited 127, so every rung of the ladder\nreported a build failure for a project that would have built. The Detect phase now\nresolves the directory at runtime from $CLAUDE_PLUGIN_ROOT, $CODEX_PLUGIN_ROOT, or\na find over ~/.claude and ~/.codex, accepting a candidate only when\nscripts/build_log.sh exists. skillDir is a required schema field validated as\nabsolute, so an unresolved path stops the run before the ladder starts.\n\nSKILL.md built FOUND_DBS in one bash fence and looped over it in the next. Each\nfence is a separate shell, so the metadata loop iterated zero times and the\nselection prompt had no language or creation time to show. The two are now one\nblock.\n\nrun-analysis.md Step 1 branched only on the zero-database case and fell through to\nFOUND_DBS[0] for any other count, analysing whichever database find returned first\nwithout telling the user there was a choice. It now uses the elif/else shape from\ncreate-data-extensions.md and exits with an error when DB_NAME is still unset.\n\nTwo new checks cover the class rather than the instance. test_shell_blocks.py\nfails when a block reads an array it does not build. test_section_pointers.py\nfails on a repo-relative plugins/ path in the workflow, and resolves ${SKILL_DIR}\npointers against the skill root so the workflow's file references stay checked:\nnine of them now, up from two.\n\nThe rest of the review: run-all-suite.md no longer claims total coverage, which\nits own measurement section refutes; the analyze block expands optional flags as\n${ARR[@]+\"${ARR[@]}\"}, since bash 3.2 treats an empty array under set -u as\nunbound; find_databases.sh exits 2 when codeql is absent instead of printing\nnothing, which auto-detection reads as \"no databases, rebuild\"; make -j$(nproc)\nfalls back to sysctl -n hw.ncpu on macOS; every . build_log.sh site is || exit 1,\nas none of those blocks set -e; the Reference Index lists find_databases.sh and\ngenerate_suite.sh.\n\n* fix(codeql): source build_log.sh in every block that uses its helpers\n\nEach fenced block is its own Bash call, so a helper defined in an earlier\none is undefined and exits 127. The build ladder reads that as a failed\nmethod and walks to the next one, reporting failure for a build that was\nnever attempted.\n\ntest_shell_blocks.py now fails any block that uses run_logged, log_step,\nlog_cmd, log_result or LOG_FILE without sourcing build_log.sh, with\nfixtures pinning the detector in both directions.\n\n* fix(codeql): gate each step of the Method 3 multi-step build\n\nbuild_log.sh does not set -e, so the four run_logged calls ran regardless of\neach other: a failed trace-command still reached finalize, and the resulting\ndatabase resolves while holding nothing, which the ladder reads as success.\nThe steps now chain through if/elif, as 2m-a already does.\n\ntest_shell_blocks.py fails an ungated `codeql database finalize`.\n\n* fix(codeql): stop database discovery reporting none when it found some\n\nfind_databases.sh resolves each root to an absolute path, so the old\n-not -path '*/.*' exclusion also matched dotted ancestors: a checkout\nunder ~/.cache or ~/.local had every database filtered out, the script\nprinted nothing and exited 0, and the caller rebuilt from scratch. Prune\ndotted directories by name instead, with -mindepth 1 so a root that is\nitself dotted still searches.\n\nAll three callers read the script through a process substitution, whose\nexit status is unobservable. Exit 2 (no codeql on this shell's PATH, a\nfresh shell per block) arrived as an empty list and was reported as \"No\nCodeQL database found\" for a project with several. Read it with command\nsubstitution and check the status.\n\nTests cover the dotted-ancestor case, the dot-directory-below-root case\nthe fix must not widen into, and a block scanner rejecting a process\nsubstitution around the script.\n\n* chore(static-analysis): bump version to 1.3.1\n\n#231 bumped the plugin to 1.3.0 on main after this branch had already\ndone the same, so merging main left HEAD and the merge base equal and\nthe version-increment check failed.\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-08-11T18:57:14Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/e6066e7db1fd57cb35f9a534781ceec595327feb...304c81a8cefb6e3c029ebd0d12940ccf0713eccb",
+  "commit_url": "https://github.com/trailofbits/skills/commit/304c81a8cefb6e3c029ebd0d12940ccf0713eccb",
+  "skill_directory": "plugins/static-analysis/skills/codeql",
+  "local_directory": "verified_real_update_pairs/OPU-0293",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0293",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

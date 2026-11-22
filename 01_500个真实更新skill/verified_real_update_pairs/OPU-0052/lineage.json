@@ -1,0 +1,82 @@
+{
+  "sha": "c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+  "node_id": "C_kwDOQchDtdoAKGMyNTExM2JmNGM2NGM4ZGJhNmJmZTYxYWNmMDYwNTFkNzlhYTQzZjY",
+  "commit": {
+    "author": {
+      "name": "richardopenai",
+      "email": "richardlee@openai.com",
+      "date": "2026-05-12T22:24:22Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-05-12T22:24:22Z"
+    },
+    "message": "Replace hatch-pet curated skill workflow (#399)\n\n## Summary\n- add the curated `hatch-pet-v2` skill for Codex-compatible pet\nspritesheet generation\n- keep image generation lightweight with per-job workers, storage\ncontrols, and visual QA guidance\n- add adaptive brand discovery briefs while keeping generation prompts\ncompact\n\n## Verification\n- `python -m py_compile skills/.curated/hatch-pet-v2/scripts/*.py`\n- `ruff check skills/.curated/hatch-pet-v2/scripts`\n- smoke-tested `prepare_pet_run.py` with and without a brand discovery\nbrief",
+    "tree": {
+      "sha": "18a643028422dfe1163a75e34b67b810176a7cf3",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/18a643028422dfe1163a75e34b67b810176a7cf3"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqA6iWCRC1aQ7uu5UhlAAAY8kQAKZt87g9QveAT4tfdDNGYL29\nSbD0452NyDtFm/Wrwb96+yQZaEBRotAL/T0xXwwdxMc09FOwYaU+Rs5kFSMZPzvP\neSMWSnNGlSra8huypOgRVsyNKO94U0F4iX3LQ3am0ZcPRC/WgF3p8nvOQO4VjyDu\nXzl924DLBptWrC6pEn+JmhDPHIu7M1LbHRGE+wQaIK9Ed99mQ9cdHS+CwyVosD4m\n6P+2rSDyn64b+6UnrPMPLb6FGQIYEPfZku+H+KrfD9LI7ovTZUqmA/oNQDqUE6mH\nUaWZaMUNelOADDNbbHrTwfNYGYwHn/gSpI3No5LmEJ+Uf5CLJFMqRRjvEfMcMJfT\naSPooKyJyKVrCTzmjcLWL1pwALpEFDJI+Za1+hI3KcEaN+JWE+rsEGb8KAX1NyD6\nP/krKvYKKVd9KACkR/t7Gnm4IJZIPy5dy5o3+03P0sok7NxetVGq+cEjD3Pcd8Fn\nc5FYhwvTpUs6G6M/t4Ml/GMw19V1IaT+HXN7ktjbgUE0ahnf2LGFikVs22/a9dLN\ny8z48h17sv1bzt+avkQ/f4byDQf1ILicunjlN/xPD6+l38sePB3bZCExuBEV+nMl\nMZaF0TJjaZy2uGeLdRIbRTuLhdJYJgHjK1ZAViSAZ3YtWUO8GcbKrnqLuL3D7v+T\naqcVzvcbAINthtHMn5EB\n=GSjN\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 18a643028422dfe1163a75e34b67b810176a7cf3\nparent 4c4058ebf44f6734e62c70ab4a81246d4d093fc8\nauthor richardopenai <richardlee@openai.com> 1778624662 -0700\ncommitter GitHub <noreply@github.com> 1778624662 -0700\n\nReplace hatch-pet curated skill workflow (#399)\n\n## Summary\n- add the curated `hatch-pet-v2` skill for Codex-compatible pet\nspritesheet generation\n- keep image generation lightweight with per-job workers, storage\ncontrols, and visual QA guidance\n- add adaptive brand discovery briefs while keeping generation prompts\ncompact\n\n## Verification\n- `python -m py_compile skills/.curated/hatch-pet-v2/scripts/*.py`\n- `ruff check skills/.curated/hatch-pet-v2/scripts`\n- smoke-tested `prepare_pet_run.py` with and without a brand discovery\nbrief",
+      "verified_at": "2026-05-12T22:24:23Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+  "html_url": "https://github.com/openai/skills/commit/c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/c25113bf4c64c8dba6bfe61acf06051d79aa43f6/comments",
+  "author": {
+    "login": "richardopenai",
+    "id": 272641442,
+    "node_id": "U_kgDOEEAtog",
+    "avatar_url": "https://avatars.githubusercontent.com/u/272641442?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/richardopenai",
+    "html_url": "https://github.com/richardopenai",
+    "followers_url": "https://api.github.com/users/richardopenai/followers",
+    "following_url": "https://api.github.com/users/richardopenai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/richardopenai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/richardopenai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/richardopenai/subscriptions",
+    "organizations_url": "https://api.github.com/users/richardopenai/orgs",
+    "repos_url": "https://api.github.com/users/richardopenai/repos",
+    "events_url": "https://api.github.com/users/richardopenai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/richardopenai/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "4c4058ebf44f6734e62c70ab4a81246d4d093fc8",
+      "url": "https://api.github.com/repos/openai/skills/commits/4c4058ebf44f6734e62c70ab4a81246d4d093fc8",
+      "html_url": "https://github.com/openai/skills/commit/4c4058ebf44f6734e62c70ab4a81246d4d093fc8"
+    }
+  ]
+}

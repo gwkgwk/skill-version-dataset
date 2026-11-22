@@ -1,0 +1,163 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/entra-agent-id/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "981ab6c0ac288b3e8f40",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "752edb9b01dd42aa731e22b3da891cc733d7bebe",
+    "computed_tree_sha": "405ed207c079150581ef0540a0b4a0a1f176fc9e",
+    "api_tree_sha_as_returned": "405ed207c079150581ef0540a0b4a0a1f176fc9e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5aaf917945171757112bdb341fb593b4517542cd",
+        "sha256": "a21b4ddbcaea5c2655ea1ba7593fe3268d07ab9f6a0ca98209f07282f3636cb7",
+        "size": 16065,
+        "mode": "100644"
+      },
+      {
+        "path": "references/known-limitations.md",
+        "git_blob_sha1": "77c00377da96497984323bb0e368f66f67314852",
+        "sha256": "afd31e03e69d73f09e9e59e1c24128d270fe0f68c358c547d629f17e3b65c3ae",
+        "size": 4754,
+        "mode": "100644"
+      },
+      {
+        "path": "references/oauth2-token-flow.md",
+        "git_blob_sha1": "675e9a268d5b8d814457a1b3d54ef6ccf319828a",
+        "sha256": "0e3b591a474fa998109ad965d72f6664de127a01fe56e92ef0a8fb7f379227ec",
+        "size": 4507,
+        "mode": "100644"
+      },
+      {
+        "path": "references/obo-blueprint-setup.md",
+        "git_blob_sha1": "27435bad8ea3e3ba971d51fa8eb4015dadfddf63",
+        "sha256": "83aa3208ced36e82d899a68ad39aef94e95747d04ffea6a653cc6f5cb8e834e2",
+        "size": 4235,
+        "mode": "100644"
+      },
+      {
+        "path": "references/runtime-token-exchange.md",
+        "git_blob_sha1": "017ae63360c021c6bbeb031db4d6b4e4418715c7",
+        "sha256": "a25ed3eadc700253f17f360d83fc7cc0e798c839d5102f0b55198f3a88a6e960",
+        "size": 6746,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk-sidecar-deployment.md",
+        "git_blob_sha1": "c7de8e9a10e5927b7d478f68d1b930312fda1368",
+        "sha256": "30a606488ef0a989521332cac3473eefd8b6ab3f2db2a3413f99013e9fc60fde",
+        "size": 6276,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk-sidecar.md",
+        "git_blob_sha1": "6e22151f32d6b4f716bf20126f8055af2716eb72",
+        "sha256": "ca709e93fe7cbffe2251102edeb4edb9046d7dc71da693cd7cc486909024ebc7",
+        "size": 6107,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "54973169ce3688bddc6f7343d807a79445d629f4",
+    "computed_tree_sha": "ffb3e8d1dd8f9291462f80680d3bbdbe668800b3",
+    "api_tree_sha_as_returned": "ffb3e8d1dd8f9291462f80680d3bbdbe668800b3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7bbb8076427d592a0dbfcd5e222f0cf305696679",
+        "sha256": "27b3342d870cc1e5741670258e142f42c3a089ee8b53a8697d1cd23b534b201e",
+        "size": 16036,
+        "mode": "100644"
+      },
+      {
+        "path": "references/known-limitations.md",
+        "git_blob_sha1": "77c00377da96497984323bb0e368f66f67314852",
+        "sha256": "afd31e03e69d73f09e9e59e1c24128d270fe0f68c358c547d629f17e3b65c3ae",
+        "size": 4754,
+        "mode": "100644"
+      },
+      {
+        "path": "references/oauth2-token-flow.md",
+        "git_blob_sha1": "675e9a268d5b8d814457a1b3d54ef6ccf319828a",
+        "sha256": "0e3b591a474fa998109ad965d72f6664de127a01fe56e92ef0a8fb7f379227ec",
+        "size": 4507,
+        "mode": "100644"
+      },
+      {
+        "path": "references/obo-blueprint-setup.md",
+        "git_blob_sha1": "27435bad8ea3e3ba971d51fa8eb4015dadfddf63",
+        "sha256": "83aa3208ced36e82d899a68ad39aef94e95747d04ffea6a653cc6f5cb8e834e2",
+        "size": 4235,
+        "mode": "100644"
+      },
+      {
+        "path": "references/runtime-token-exchange.md",
+        "git_blob_sha1": "017ae63360c021c6bbeb031db4d6b4e4418715c7",
+        "sha256": "a25ed3eadc700253f17f360d83fc7cc0e798c839d5102f0b55198f3a88a6e960",
+        "size": 6746,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk-sidecar-deployment.md",
+        "git_blob_sha1": "c7de8e9a10e5927b7d478f68d1b930312fda1368",
+        "sha256": "30a606488ef0a989521332cac3473eefd8b6ab3f2db2a3413f99013e9fc60fde",
+        "size": 6276,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk-sidecar.md",
+        "git_blob_sha1": "6e22151f32d6b4f716bf20126f8055af2716eb72",
+        "sha256": "ca709e93fe7cbffe2251102edeb4edb9046d7dc71da693cd7cc486909024ebc7",
+        "size": 6107,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "752edb9b01dd42aa731e22b3da891cc733d7bebe",
+  "new_commit": "54973169ce3688bddc6f7343d807a79445d629f4",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-07-17T11:28:57Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/752edb9b01dd42aa731e22b3da891cc733d7bebe...54973169ce3688bddc6f7343d807a79445d629f4",
+  "commit_url": "https://github.com/microsoft/skills/commit/54973169ce3688bddc6f7343d807a79445d629f4",
+  "skill_directory": ".github/plugins/azure-skills/skills/entra-agent-id",
+  "local_directory": "verified_real_update_pairs/OPU-0479",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0479",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

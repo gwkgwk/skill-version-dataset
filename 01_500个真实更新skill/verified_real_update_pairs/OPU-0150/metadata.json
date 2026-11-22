@@ -1,0 +1,268 @@
+{
+  "repository": "cloudflare/skills",
+  "primary": "skills/turnstile-spin/SKILL.md",
+  "pinned_commit": "5108325ecceabc899c761e07aa617b09c02445ee",
+  "repository_license": "Apache-2.0",
+  "key": "6d34ad0068ff97f4c9a3",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+    "computed_tree_sha": "92bdf038738947cddf27e3edf14a81a09f3ba188",
+    "api_tree_sha_as_returned": "92bdf038738947cddf27e3edf14a81a09f3ba188",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "e69238595d2b3d9c30983404cc042c3ea1f2f10b",
+        "sha256": "86b5933dbc8cd767a9194f0757258261d9c61dbc919c8d8d7321a0a4ed3f2870",
+        "size": 3781,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "841aeb02610f4f37b0ab36799763e2f8dbaca2ab",
+        "sha256": "ec154e3f2df0ce4018be74aa287b59596031617f939c3b4e5ef49a4f10ce6a66",
+        "size": 28689,
+        "mode": "100644"
+      },
+      {
+        "path": "references/astro.md",
+        "git_blob_sha1": "435c02644876ef46519bab725c321fb042b0dd54",
+        "sha256": "6e2faeba9bf9ad24c062c6a723dc37c74644e5843dd7a06164999240e83d7a96",
+        "size": 5929,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hugo.md",
+        "git_blob_sha1": "c73419410734267379d274f749660a90ff0a1470",
+        "sha256": "5bc91dca7264de9bcb163d4c8e21a20d64afcad7becdd69926f9c7a09d1bb05c",
+        "size": 3852,
+        "mode": "100644"
+      },
+      {
+        "path": "references/nextjs-app.md",
+        "git_blob_sha1": "ac3104621b26f82b6d6edd236c0c44bfeca8a5b3",
+        "sha256": "a8e10a569937efd076c3f32f37b48a8083c8c52918c9aa309b770d35d5a03273",
+        "size": 7643,
+        "mode": "100644"
+      },
+      {
+        "path": "references/nextjs-pages.md",
+        "git_blob_sha1": "2e7019ef60891bb59465e8b8cfacff69d8a2ed66",
+        "sha256": "f6fa729155fa682f6c77b157cbb75492caf172f7451bcc889bc417441a3f02a5",
+        "size": 2737,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sveltekit.md",
+        "git_blob_sha1": "b04e7aac4d514d180962903348367ea9a10aedbf",
+        "sha256": "da8dbe10014a0a94d25c51e80010ffd4fb5f0719caa7226c42b9dacb3ae8933a",
+        "size": 5513,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vanilla-html.md",
+        "git_blob_sha1": "d6657514efc15c46179e663769c3d4258b1526f5",
+        "sha256": "bb01ca94b0e942c0e329c2fcaf50d0c5ff846f1ae166aa6d654d4c962d48fa9d",
+        "size": 5756,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/auth-probe.sh",
+        "git_blob_sha1": "44265cfaa6aaaf509fb91d876acd0baac00181ef",
+        "sha256": "a54d7ab1f6e6ac98a6aeb45498d7bb3568d173669d2d3a7c6a08b56ed2c20182",
+        "size": 11270,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/persist-skill.sh",
+        "git_blob_sha1": "82a4efa2a63859aca6c1585dfd030a1de0070693",
+        "sha256": "804081c7460d617b31a7bfc110030bd98c356f5781a8bf46f7d282e531499aa3",
+        "size": 3696,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate.sh",
+        "git_blob_sha1": "5443faf71eed68bbcdc8fcec04f110d402139e6c",
+        "sha256": "45af59068104650ac8b247cf2059d985fa17960d9c2f3d867287fc296771de81",
+        "size": 4438,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/widget-create.sh",
+        "git_blob_sha1": "bde8ad6b48128fa488f3143c24e326757ddeb747",
+        "sha256": "ebc3ef13ef99f4f6f93400ce66ffc3848c1913aac0cb0876470c6378cf1d9fed",
+        "size": 4149,
+        "mode": "100755"
+      },
+      {
+        "path": "tests/test_persist_skill.py",
+        "git_blob_sha1": "8d8868afe8047c3e1115ee025a5614f6d954ece4",
+        "sha256": "4f056e24454c166c289edac2dc07fb46032bb2b091a8f4cc08f7264be3bdb756",
+        "size": 3132,
+        "mode": "100644"
+      },
+      {
+        "path": "tests/validation.md",
+        "git_blob_sha1": "c323d06febe03f599b546210c7010bc9dcc57419",
+        "sha256": "6c6be1c540997fd1d56973bd11dff92856c4256090886bfe9a385e51058fca53",
+        "size": 3314,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+    "computed_tree_sha": "b0934cee407fe07e892d20b52428122ba01e7aec",
+    "api_tree_sha_as_returned": "b0934cee407fe07e892d20b52428122ba01e7aec",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "8bf830dade74b1c612b36b4f6ae0f740aa8948b1",
+        "sha256": "d7a9b38b31941196696d85769289893612264c218f8c6dd9ead1449ef6ba7ec6",
+        "size": 3892,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7f826babb92baf1ba00731c8ecf6c1d9b116a29b",
+        "sha256": "077590991a3eb90c362aa380b91e6da334cc6da0001d7a9bc39fed86da13858b",
+        "size": 28876,
+        "mode": "100644"
+      },
+      {
+        "path": "references/astro.md",
+        "git_blob_sha1": "435c02644876ef46519bab725c321fb042b0dd54",
+        "sha256": "6e2faeba9bf9ad24c062c6a723dc37c74644e5843dd7a06164999240e83d7a96",
+        "size": 5929,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hugo.md",
+        "git_blob_sha1": "c73419410734267379d274f749660a90ff0a1470",
+        "sha256": "5bc91dca7264de9bcb163d4c8e21a20d64afcad7becdd69926f9c7a09d1bb05c",
+        "size": 3852,
+        "mode": "100644"
+      },
+      {
+        "path": "references/nextjs-app.md",
+        "git_blob_sha1": "ac3104621b26f82b6d6edd236c0c44bfeca8a5b3",
+        "sha256": "a8e10a569937efd076c3f32f37b48a8083c8c52918c9aa309b770d35d5a03273",
+        "size": 7643,
+        "mode": "100644"
+      },
+      {
+        "path": "references/nextjs-pages.md",
+        "git_blob_sha1": "2e7019ef60891bb59465e8b8cfacff69d8a2ed66",
+        "sha256": "f6fa729155fa682f6c77b157cbb75492caf172f7451bcc889bc417441a3f02a5",
+        "size": 2737,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "10543ce42aace51cc3beb4825893852e971fc379",
+        "sha256": "736e50e5763c4755d12662074de9bd68661f922e64c01c5a48383843b7824e34",
+        "size": 1902,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sveltekit.md",
+        "git_blob_sha1": "b04e7aac4d514d180962903348367ea9a10aedbf",
+        "sha256": "da8dbe10014a0a94d25c51e80010ffd4fb5f0719caa7226c42b9dacb3ae8933a",
+        "size": 5513,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vanilla-html.md",
+        "git_blob_sha1": "d6657514efc15c46179e663769c3d4258b1526f5",
+        "sha256": "bb01ca94b0e942c0e329c2fcaf50d0c5ff846f1ae166aa6d654d4c962d48fa9d",
+        "size": 5756,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/auth-probe.sh",
+        "git_blob_sha1": "44265cfaa6aaaf509fb91d876acd0baac00181ef",
+        "sha256": "a54d7ab1f6e6ac98a6aeb45498d7bb3568d173669d2d3a7c6a08b56ed2c20182",
+        "size": 11270,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/persist-skill.sh",
+        "git_blob_sha1": "82a4efa2a63859aca6c1585dfd030a1de0070693",
+        "sha256": "804081c7460d617b31a7bfc110030bd98c356f5781a8bf46f7d282e531499aa3",
+        "size": 3696,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate.sh",
+        "git_blob_sha1": "5443faf71eed68bbcdc8fcec04f110d402139e6c",
+        "sha256": "45af59068104650ac8b247cf2059d985fa17960d9c2f3d867287fc296771de81",
+        "size": 4438,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/widget-create.sh",
+        "git_blob_sha1": "bde8ad6b48128fa488f3143c24e326757ddeb747",
+        "sha256": "ebc3ef13ef99f4f6f93400ce66ffc3848c1913aac0cb0876470c6378cf1d9fed",
+        "size": 4149,
+        "mode": "100755"
+      },
+      {
+        "path": "tests/test_persist_skill.py",
+        "git_blob_sha1": "8d8868afe8047c3e1115ee025a5614f6d954ece4",
+        "sha256": "4f056e24454c166c289edac2dc07fb46032bb2b091a8f4cc08f7264be3bdb756",
+        "size": 3132,
+        "mode": "100644"
+      },
+      {
+        "path": "tests/validation.md",
+        "git_blob_sha1": "c323d06febe03f599b546210c7010bc9dcc57419",
+        "sha256": "6c6be1c540997fd1d56973bd11dff92856c4256090886bfe9a385e51058fca53",
+        "size": 3314,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "README.md",
+    "SKILL.md",
+    "references/skill-feedback.md"
+  ],
+  "old_commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+  "new_commit": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat: add skill feedback reference to every skill\n\nWhen a skill gives incorrect, outdated, or missing guidance, agents had no\ninstructions for reporting it, so the problem stayed with the user. Each\nskill now includes references/skill-feedback.md, which tells the agent to\nask the user, draft a GitHub issue on cloudflare/skills with a structured\nfield table, review it with the user, and post it with a\n`skill-feedback: <skill>:` title prefix. Each SKILL.md links to it.\n\nThe reference is copied into every skill because skills can be installed\nindividually.",
+  "new_commit_time": "2026-10-27T16:25:48Z",
+  "compare_url": "https://github.com/cloudflare/skills/compare/86505e44f87d801aa1864a3c4109e9a8ae5c409f...0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "commit_url": "https://github.com/cloudflare/skills/commit/0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "skill_directory": "skills/turnstile-spin",
+  "local_directory": "verified_real_update_pairs/OPU-0150",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0150",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

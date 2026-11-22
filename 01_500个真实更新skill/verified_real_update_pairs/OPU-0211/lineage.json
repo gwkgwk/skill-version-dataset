@@ -1,0 +1,82 @@
+{
+  "sha": "cad5abdc48b09e099a69277aebd66a0fc05c86d7",
+  "node_id": "C_kwDOQ55KR9oAKGNhZDVhYmRjNDhiMDllMDk5YTY5Mjc3YWViZDY2YTBmYzA1Yzg2ZDc",
+  "commit": {
+    "author": {
+      "name": "dm",
+      "email": "alexis.challande@trailofbits.com",
+      "date": "2026-04-29T00:50:28Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-04-29T00:50:28Z"
+    },
+    "message": "Sync skill with claude-code-devcontainer repo (#151)\n\n* sync skill with claude-code-devcontainer repo\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>\n\n* devcontainer-setup: apply ruff format and shfmt\n\nThe pre-commit hook was failing on these two files in CI: ruff joins\nthe multi-line f-strings in post_install.py, and shfmt with the repo's\n'-i 2 -ci' flags adjusts case-body indentation in install.sh.\nNo behavior change.\n\nCo-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>\nCo-authored-by: Dan Guido <dan@trailofbits.com>",
+    "tree": {
+      "sha": "23df70d17ce425461f662ac22710aa0f89e3f169",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/23df70d17ce425461f662ac22710aa0f89e3f169"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/cad5abdc48b09e099a69277aebd66a0fc05c86d7",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp8VXUCRC1aQ7uu5UhlAAAmKAQACXJb0e1BDZ+REJ17oH1LQ5Z\niGEs1DM3u6wtK9Ew8ygbRsMlXc6whamzf/2rxF1fNwQrhqVPoWo/zaOwCCtJESVJ\nd/GlDcWCbJqoFqZ+PB1+KQHNC6X6HbkSqmbQdNi8jfRPoMzfjVmF6oF/3JpVXGEX\nmnA2/nbAl7loBRdNflQU9LWWXj0mCvj6QWLczOWySbghmgncw0OYuauRwH2EX7n4\nuqCN6dW8DxXYMjUk50jYwVHMcSOdhDXejjDIgq4sp5ruZ+IWv1687u8Vrsy1PJtY\nC8DQl7n8ofE3PwO+/V2DUFqdFFqfiDWa9du86u3B5QqmUP2FlJTBV6hWYiWAigjN\nm0LDv35jYWvlvk65qUPC9h6RzWqSMlrI6GeCDlKzKM9VNnOPO/pyOyE8+5ju8tJS\nwbZWjpe/R1Hue5jLrhTFQg331RCodf3UnhgNsEUaBVbtCQLGwKhGW9V/ncqe3VfT\nYVSkz0RsnOh/8YPkacMqtyhXi7n6cl3ol+Wj/8jZUwYvrvCmP5hQlwpiIDMMU02b\nKQIjD0cHUmEaLgIl7ZdXnL3JuPdNWWFTPwyJb9evQGeZkYAPizUu/esgaAfj29YX\nqtmwTkFoYCk76v4Z9+3bvGS4XE43whFBVDKMPvY2SURV1WJ8t1LuLt2/jnh12l8k\nQaYCo8vdPxEtsj9HBZJV\n=gTd1\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 23df70d17ce425461f662ac22710aa0f89e3f169\nparent debfb29c8e992894f86f8263a6ffbc28c5bc45ad\nauthor dm <alexis.challande@trailofbits.com> 1777423828 +0200\ncommitter GitHub <noreply@github.com> 1777423828 -0400\n\nSync skill with claude-code-devcontainer repo (#151)\n\n* sync skill with claude-code-devcontainer repo\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>\n\n* devcontainer-setup: apply ruff format and shfmt\n\nThe pre-commit hook was failing on these two files in CI: ruff joins\nthe multi-line f-strings in post_install.py, and shfmt with the repo's\n'-i 2 -ci' flags adjusts case-body indentation in install.sh.\nNo behavior change.\n\nCo-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>\nCo-authored-by: Dan Guido <dan@trailofbits.com>",
+      "verified_at": "2026-04-29T00:50:28Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/cad5abdc48b09e099a69277aebd66a0fc05c86d7",
+  "html_url": "https://github.com/trailofbits/skills/commit/cad5abdc48b09e099a69277aebd66a0fc05c86d7",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/cad5abdc48b09e099a69277aebd66a0fc05c86d7/comments",
+  "author": {
+    "login": "DarkaMaul",
+    "id": 8711456,
+    "node_id": "MDQ6VXNlcjg3MTE0NTY=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8711456?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/DarkaMaul",
+    "html_url": "https://github.com/DarkaMaul",
+    "followers_url": "https://api.github.com/users/DarkaMaul/followers",
+    "following_url": "https://api.github.com/users/DarkaMaul/following{/other_user}",
+    "gists_url": "https://api.github.com/users/DarkaMaul/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/DarkaMaul/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/DarkaMaul/subscriptions",
+    "organizations_url": "https://api.github.com/users/DarkaMaul/orgs",
+    "repos_url": "https://api.github.com/users/DarkaMaul/repos",
+    "events_url": "https://api.github.com/users/DarkaMaul/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/DarkaMaul/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "debfb29c8e992894f86f8263a6ffbc28c5bc45ad",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/debfb29c8e992894f86f8263a6ffbc28c5bc45ad",
+      "html_url": "https://github.com/trailofbits/skills/commit/debfb29c8e992894f86f8263a6ffbc28c5bc45ad"
+    }
+  ]
+}

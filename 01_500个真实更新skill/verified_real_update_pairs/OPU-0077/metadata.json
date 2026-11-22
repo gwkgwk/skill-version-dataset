@@ -1,0 +1,187 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/netlify-deploy/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "c26b984d0a77f81272c4",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "33400391a3ab7960eb929b39060487b12c4a65ad",
+    "computed_tree_sha": "0817635ef1f856a78eb763a06de5ce2292c53a32",
+    "api_tree_sha_as_returned": "0817635ef1f856a78eb763a06de5ce2292c53a32",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bd4cd111650068701f6bb7888eb9862c652ae745",
+        "sha256": "b839237d7387087c7311828a7a6ff846214a13f5dc00ecb958dad472468ae032",
+        "size": 6330,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "43ed2397e62918330de60268ee1f5021afa128bf",
+        "sha256": "7d3acb1ee5376c98f3366401cd413200a4aab82af48bbe97382565dcdd04870f",
+        "size": 318,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/netlify-small.svg",
+        "git_blob_sha1": "27ac8c81ebbf9a48c50ac7212494c6a4f56aa493",
+        "sha256": "a2d9b9b5087c840247eb8e8360120ce9a20780c5470519b7703f49e920f780cd",
+        "size": 1291,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/netlify.png",
+        "git_blob_sha1": "dec3c66c55d05568fa53dcff8f868b016393d7b6",
+        "sha256": "ffbeef6d0af29a9c52f84297630f57c2c8ae86c1771458b24ad19795c4811160",
+        "size": 933,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-commands.md",
+        "git_blob_sha1": "4fe92a2d2cbe82b7f4def87f4b1aa4a8e75bb0f8",
+        "sha256": "a24b08401b8c796e4a58933a71441b3341b61afc840d690d9127b27ab00cfe05",
+        "size": 2652,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment-patterns.md",
+        "git_blob_sha1": "e89d8b77c949b57958f3a5b8e6080706027561d5",
+        "sha256": "fdb8c3b96fe03099826e4207b4933df3ff97571415f5e283567979bdc86cdc85",
+        "size": 6702,
+        "mode": "100644"
+      },
+      {
+        "path": "references/netlify-toml.md",
+        "git_blob_sha1": "5188c83a4283504e6f3d61d69419fedabbfd89c3",
+        "sha256": "436ea3c2e0ce04abb34895db993d91b8660423977d9c52a89f2dfa014cad0b9c",
+        "size": 3972,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "bf9e226541ec801750547acfa8cf761b7c878f27",
+    "computed_tree_sha": "c6a6b44ad6ac2cba019c007bb18cdeb31c73dd5d",
+    "api_tree_sha_as_returned": "c6a6b44ad6ac2cba019c007bb18cdeb31c73dd5d",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "52075090a6644b104fc34837c9923b403d949369",
+        "sha256": "bb2c29bf599a043cade932f60cc64f632ca100e8767ccdfa2ba1a42c8d43958f",
+        "size": 7011,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "43ed2397e62918330de60268ee1f5021afa128bf",
+        "sha256": "7d3acb1ee5376c98f3366401cd413200a4aab82af48bbe97382565dcdd04870f",
+        "size": 318,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/netlify-small.svg",
+        "git_blob_sha1": "27ac8c81ebbf9a48c50ac7212494c6a4f56aa493",
+        "sha256": "a2d9b9b5087c840247eb8e8360120ce9a20780c5470519b7703f49e920f780cd",
+        "size": 1291,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/netlify.png",
+        "git_blob_sha1": "dec3c66c55d05568fa53dcff8f868b016393d7b6",
+        "sha256": "ffbeef6d0af29a9c52f84297630f57c2c8ae86c1771458b24ad19795c4811160",
+        "size": 933,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-commands.md",
+        "git_blob_sha1": "4fe92a2d2cbe82b7f4def87f4b1aa4a8e75bb0f8",
+        "sha256": "a24b08401b8c796e4a58933a71441b3341b61afc840d690d9127b27ab00cfe05",
+        "size": 2652,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment-patterns.md",
+        "git_blob_sha1": "e89d8b77c949b57958f3a5b8e6080706027561d5",
+        "sha256": "fdb8c3b96fe03099826e4207b4933df3ff97571415f5e283567979bdc86cdc85",
+        "size": 6702,
+        "mode": "100644"
+      },
+      {
+        "path": "references/netlify-toml.md",
+        "git_blob_sha1": "5188c83a4283504e6f3d61d69419fedabbfd89c3",
+        "sha256": "436ea3c2e0ce04abb34895db993d91b8660423977d9c52a89f2dfa014cad0b9c",
+        "size": 3972,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "33400391a3ab7960eb929b39060487b12c4a65ad",
+  "new_commit": "bf9e226541ec801750547acfa8cf761b7c878f27",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add prerequisites and troubleshooting to deploy skills (#90)\n\n**Summary**\n- aligned the Cloudflare, Netlify, and Render deploy skills with the\nprereqs and escalation guidance from the Vercel skill\n- documented requirement to rerun deployments with\n`sandbox_permissions=require_escalated` when sandboxing blocks\nnetworking and reminded that deployments may take several minutes\n- added a Troubleshooting section that describes when to request\nescalated network access and sample messaging for Cloudflare, Netlify,\nand Render\n\n**Testing**\n- Not run (not requested)",
+  "new_commit_time": "2026-02-02T20:20:40Z",
+  "compare_url": "https://github.com/openai/skills/compare/33400391a3ab7960eb929b39060487b12c4a65ad...bf9e226541ec801750547acfa8cf761b7c878f27",
+  "commit_url": "https://github.com/openai/skills/commit/bf9e226541ec801750547acfa8cf761b7c878f27",
+  "skill_directory": "skills/.curated/netlify-deploy",
+  "local_directory": "verified_real_update_pairs/OPU-0077",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0077",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

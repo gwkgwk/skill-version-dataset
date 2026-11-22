@@ -1,0 +1,93 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-typescript/skills/azure-monitor-opentelemetry-ts/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "85a12a05d84a793f6fa8",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+    "computed_tree_sha": "295918af6029438264b37523441929021ee9c675",
+    "api_tree_sha_as_returned": "295918af6029438264b37523441929021ee9c675",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "57e75740efbc4bbbdecf715589d8f3dffa0b9077",
+        "sha256": "8222487186e79ba6e031b76a4fcecb19463fb1cb889a3aa7993fa7761d85f34a",
+        "size": 8746,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "a6d643619c407e62761c9133c0fd6b9e5d9f219a",
+        "sha256": "d18397181c001ae2a780d42d855e0185ec4aaf17b6344c50285958ae964c9b56",
+        "size": 9194,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+    "computed_tree_sha": "6629604b48cea93dc49361832fad8b090aa036e9",
+    "api_tree_sha_as_returned": "6629604b48cea93dc49361832fad8b090aa036e9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "538f028b72746103fa2314ba625acad23c934fce",
+        "sha256": "330aa4ea6110ffca30ef3a8e227d60fe6a3e44ee44b25560b1b5aade427dc476",
+        "size": 8962,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "a6d643619c407e62761c9133c0fd6b9e5d9f219a",
+        "sha256": "d18397181c001ae2a780d42d855e0185ec4aaf17b6344c50285958ae964c9b56",
+        "size": 9194,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+  "new_commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add AZURE_TOKEN_CREDENTIALS env var and credential classes link to all TS skills\n\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables section (20 skills)\n- Add credential classes reference link in Authentication section (20 skills)\n- Reword credential classes link in skill-creator template\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-22T00:02:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bb5ba24c931f82be9b6d266f29947e4ed0dd1679...338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "commit_url": "https://github.com/microsoft/skills/commit/338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "skill_directory": ".github/plugins/azure-sdk-typescript/skills/azure-monitor-opentelemetry-ts",
+  "local_directory": "verified_real_update_pairs/OPU-0446",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0446",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

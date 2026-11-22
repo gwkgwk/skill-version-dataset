@@ -1,0 +1,161 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "1b469ac3ee05cdb70308",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "4822dc38767c426fea909405d92b21e0c92c4fea",
+    "computed_tree_sha": "66d32d72d3a736aa5647bb81645632603f9e8a12",
+    "api_tree_sha_as_returned": "66d32d72d3a736aa5647bb81645632603f9e8a12",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bb1103809ba84e24da1107b8bd035bdc4fb3bbf3",
+        "sha256": "d92dff470c59ed35fabe8e88bc5058d67f4ac8e7f8686b3ed384ad13b254c0cf",
+        "size": 10778,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/COMPLETENESS_CHECKLIST.md",
+        "git_blob_sha1": "a88c74e60b8298508d7b1d882fb7e3da4c9e7483",
+        "sha256": "872e6b319cc7b89ad6ed5acd2021d92eb25fa828857023ab8c5856500748f46b",
+        "size": 3327,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/IR_EXAMPLES.md",
+        "git_blob_sha1": "b0ebe6b8939b37fa7499c30dd9bfbfb93cef641a",
+        "sha256": "053f670171dbb59b795257bbf24865641c66af657a025dc9d79baad4fb2501ec",
+        "size": 15134,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/OUTPUT_REQUIREMENTS.md",
+        "git_blob_sha1": "d02d44b03dbcf6150f5c167c5a1559563d13ae64",
+        "sha256": "1342fdef19e38a73495b568050203b777fbe589d62929b76a52f94cad8fa38f0",
+        "size": 5461,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "798b591aa498100f7744a948c0e3cbfc40e7eded",
+    "computed_tree_sha": "46b94817e78aa3140cc589d4bbd876a1b0d274c4",
+    "api_tree_sha_as_returned": "46b94817e78aa3140cc589d4bbd876a1b0d274c4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b10d8a081c39dd8f89bdc0559da3074f367ec869",
+        "sha256": "eb0d91b50a9c06f50baf8763d1e23566897b9fa3e7ffcf13134eee4e1ccaefe5",
+        "size": 7547,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/ANALYSIS_FORMAT.md",
+        "git_blob_sha1": "6740d7d661b8c3c68f38bdb1352fc3eceaa28058",
+        "sha256": "802674d5a0622fba7c32d1e480fd236f4bddcd2435841fcf48b17044d5d4d273",
+        "size": 2855,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/DIVERGENCE_RUBRIC.md",
+        "git_blob_sha1": "483ae02af20ad7eb33a3a10873baec906516ff92",
+        "sha256": "c7192803ae5c489501788ae5be56a5dd36b3f0b64f88982bf41f69a4245303f1",
+        "size": 3421,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/DOMAIN_NOTES.md",
+        "git_blob_sha1": "632684bc8991da4642f0f79872024f190ccc9243",
+        "sha256": "435459c75d21208ea73a6cda7dfc6910efc468a903f62e20f4837d5bd8b92c4a",
+        "size": 5810,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/WORKED_EXAMPLE.md",
+        "git_blob_sha1": "20a299e12c94cd0eff78ee95ce232bf4796fcb2a",
+        "sha256": "7b9ff43b20ba83e1ce934bc9161b14ce58617b65a9ae9c4583026dbf0299e927",
+        "size": 4238,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "resources/ANALYSIS_FORMAT.md",
+    "resources/COMPLETENESS_CHECKLIST.md",
+    "resources/DIVERGENCE_RUBRIC.md",
+    "resources/DOMAIN_NOTES.md",
+    "resources/IR_EXAMPLES.md",
+    "resources/OUTPUT_REQUIREMENTS.md",
+    "resources/WORKED_EXAMPLE.md"
+  ],
+  "old_commit": "4822dc38767c426fea909405d92b21e0c92c4fea",
+  "new_commit": "798b591aa498100f7744a948c0e3cbfc40e7eded",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Convert spec-to-code-compliance to a dynamic workflow (#230)\n\n* Convert spec-to-code-compliance to a dynamic workflow\n\nThe skill held a fixed seven-phase plan and drove a subagent from prose, which\nis the shape Maker Week asks us to move into a script. Phase 3 required\nline-by-line YAML IR for every function in the codebase before Phase 4 could\nstart, so on any real target the window was exhausted partway through and the\nremaining requirements got a plausible check rather than a real one.\n\nworkflows/spec-compliance.js inverts that. Requirements are extracted once, then\neach one gets its own agent to hunt the code with, so no context ever holds the\nwhole behavioral model. Divergences go to two agents that did not produce them,\none re-reading the code and one re-reading the document, and what either refutes\nis dropped. A separate agent sweeps the reverse direction, which the\nrequirement-driven pass cannot cover.\n\nThe removed resources are replaced by the workflow's schemas: OUTPUT_REQUIREMENTS\nset minimum item counts that a spec with fewer requirements can only meet by\ninventing them, alongside a \"zero speculation\" rule in the same file.\nCOMPLETENESS_CHECKLIST was a self-verification pass. IR_EXAMPLES demonstrated\nYAML formats the schemas now enforce. SKILL.md keeps the judgment that stays\njudgment: which verdicts matter, and when a gap is a code fix or a docs fix.\n\nFixes a classification bug in passing. SKILL.md called undocumented behavior\nUNDOCUMENTED CODE PATH while the other two resources called it\ncode_stronger_than_spec, and the former was not one of the six legal match_type\nvalues, so following the skill emitted a verdict outside its own enum.\n\ncommands/spec-compliance.md is removed: it forwarded two arguments to the skill,\nrequired naming the spec that Phase 0 exists to discover, and would have collided\nwith the workflow on the same slash command.\n\nAdds three eval cases. routes-not-inline measures Δ +1.00 for dispatch.\nname-is-not-evidence and documents-contradict both measure Δ 0.00 — Opus 5\nhandles those unaided — and say so in their own descriptions rather than\nimplying coverage they do not have.\n\n* Restore domain guidance dropped in the workflow conversion\n\nThe conversion deleted IR_EXAMPLES.md on the grounds that the workflow's schemas\nreplace it. The schemas replace the YAML formats it demonstrated; they do not\nreplace knowing that `unchecked` suspends a guarantee the calling code is written\nas though it still has, or that a 0.3% fee is implemented as `amountIn * 997`\nand matches nothing you can grep for. A Solidity user brought the same spec and\ngot a checker with no calibration for it.\n\naudit-context-building kept its worked examples and added DOMAIN_NOTES.md for the\nsame cross-domain problem. Following that:\n\n- DOMAIN_NOTES.md maps what counts as a specification, what enforcement looks\n  like, and where it hides across contracts, C and C++, services, and decompiled\n  firmware, plus scoping a check against an RFC or standard rather than a project\n  document. Generalizing past contracts was previously done by deleting the\n  \"non-blockchain\" exclusion and adding nothing.\n- WORKED_EXAMPLE.md carries three requirements to a verdict, one per verdict\n  that is easy to get wrong: arithmetic that satisfies a requirement it does not\n  resemble, an absence whose credibility is the search record, and enforcement\n  present on every path but the one nobody tested.\n- ANALYSIS_FORMAT.md holds the on-disk format in one place. The agent and the\n  workflow prompt were both describing it, which is the duplication this\n  conversion was meant to remove.\n\nREADME gains a migration note: the 1.x command is gone, arguments inverted, PDFs\nwork and DOCX never did, and the report is no longer a fixed 16 sections.\n\n* Survive an unresolvable checker agent instead of failing the phase\n\nRunning the workflow end to end for the first time failed all six requirement\nchecks with \"agent type 'spec-to-code-compliance:spec-compliance-checker' not\nfound\" and returned nothing salvageable. The proximate cause was a stale session\n— the plugin had been installed after the session started, so its agents were not\nin the registry — but a hard dependency on a namespaced agentType with no\nfallback turns any resolution failure into total loss of the run.\n\ncheckRequirement now retries on the default agent with the checker's load-bearing\nrules inlined, and logs once that it did. The fan-out is concurrent, so every\nitem in the first batch attempts the specialized agent before the flag is set;\nthose attempts fail at spawn without consuming tokens, and later batches skip\nstraight to the fallback.\n\nThe prompt no longer says \"in the format your instructions define\", which was\nonly true on the specialized path and left the fallback with no format at all.\n\nVerified end to end against evals/documents-contradict/fixture: 26 requirements\nextracted from two documents, 6 checked, 3 divergences found and none refuted —\nthe operator zeroing balances via reassign (critical), and the Senior-tier\ncollateral bypass from both directions (high). The SPEC/README fee contradiction\nwas reported as a documentation fix with the note that README frames it as\ndeliberate. The report named all 20 unchecked requirements as unknown rather than\ncompliant, and declined to give the unchecked fee requirements a verdict while\nstill reporting the contradiction as a direct observation.\n\nConfirms the id-collision fix in bf96722 was a real bug, not a hypothetical: both\ndocuments numbered from REQ-01 and the second series landed as REQ-01-2 onward.\n\n* Address PR review: honesty gaps and a fragile fallback\n\nallowed-tools omitted Workflow, the tool the skill's only instruction requires.\naudit-context-building has the same omission, so its conversion needs the same\nfix.\n\nRequirement checks that died were dropped by `checked.filter(Boolean)` with no\nrecord anywhere: the report could present a short alignment matrix with no\nindication that four of ten requirements were never checked, and\n`requirementsChecked` was indistinguishable from a smaller selection. pipeline()\npreserves input order, so the nulls name them — now logged, passed to the report\nas unknown-rather-than-compliant, and returned as `checksFailed`.\n\nThe fallback's error matching was verified against the message an unresolvable\nagent type actually emits, not guessed, but gating recovery on any phrasing is\nthe fragility the review identifies: a reworded runtime message restores the\noutage. It now falls back on any failure of the typed dispatch and uses the\nmessage only to decide whether to latch, so a transient error retries one\nrequirement instead of downgrading the rest.\n\nRefuted divergences left no trace in the report. A single refuter drops a\nfinding, so one over-confident refutation could lose a real divergence with\nnothing for a reader to notice. The report now carries a \"considered and dropped\"\nlist with the reasoning.\n\nThe report path was defaulted to the expected location whether or not the write\nhappened, so a schema-valid summary with no Write looked like a successful run.\nThe script cannot check the filesystem, so it no longer invents the path:\n`report` is null with a warning when the agent named none, and `analysisFile` is\nnow required in ALIGNMENT_SCHEMA so an unwritten analysis fails the schema rather\nthan being silently absent from a file the report tells the reader to open.\n\n`limit: 0` passed the nullish check, selected nothing, and reported it as every\ncheck failing. Clamped below as well as above.\n\nBoth READMEs and SKILL.md documented `{path, spec, limit}` as slash-command\ninput; a slash command passes a string, so the object literal became the path.\nThe root README table still described the plugin as being for blockchain audits.\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-08-05T13:37:57Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/4822dc38767c426fea909405d92b21e0c92c4fea...798b591aa498100f7744a948c0e3cbfc40e7eded",
+  "commit_url": "https://github.com/trailofbits/skills/commit/798b591aa498100f7744a948c0e3cbfc40e7eded",
+  "skill_directory": "plugins/spec-to-code-compliance/skills/spec-to-code-compliance",
+  "local_directory": "verified_real_update_pairs/OPU-0289",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0289",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

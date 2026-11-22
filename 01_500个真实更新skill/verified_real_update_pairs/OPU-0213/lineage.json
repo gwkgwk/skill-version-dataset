@@ -1,0 +1,82 @@
+{
+  "sha": "c81373583417504de2d3be1ae3d81977b11b2981",
+  "node_id": "C_kwDOQ0VAy9oAKGM4MTM3MzU4MzQxNzUwNGRlMmQzYmUxYWUzZDgxOTc3YjExYjI5ODE",
+  "commit": {
+    "author": {
+      "name": "sentry-junior[bot]",
+      "email": "264270552+sentry-junior[bot]@users.noreply.github.com",
+      "date": "2026-05-09T17:46:26Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-05-09T17:46:26Z"
+    },
+    "message": "fix: replace ${CLAUDE_SKILL_ROOT} with skill-root-relative paths (#146)\n\n## Problem\n\n`${CLAUDE_SKILL_ROOT}` is used across multiple skills to reference\nbundled scripts and files. This causes two problems in Claude Code:\n\n1. **Permission friction** — variable expansion in bash commands\ntriggers a confirmation prompt\n2. **Runtime failure** — after confirmation, the variable is not set, so\npaths resolve to `/scripts/foo.py` → file not found\n\nReported by Phil in\n[#proj-junior](https://sentry.slack.com/archives/C07P2KGJGG0/p1778225171252819).\n\n## Changes\n\nReplaced all `${CLAUDE_SKILL_ROOT}/...` references with\nskill-root-relative paths (e.g. `scripts/foo.py`, `references/bar.md`)\nper the [Agent Skills spec](https://agentskills.io/specification).\n\n**Affected skills (8 files):**\n- `iterate-pr/SKILL.md` — 14 refs → all converted; updated guidance text\n- `gh-review-requests/SKILL.md` — 2 refs\n- `presentation-creator/SKILL.md` — 4 refs\n- `presentation-creator/references/design-system.md` — 3 refs\n- `skill-scanner/SKILL.md` — 6 refs; updated guidance text\n- `sred-project-organizer/SKILL.md` — 4 refs\n- `skill-writer/SOURCES.md` — changelog entry added\n- `skill-writer/references/registration-validation.md` — updated\nmeta-guidance to recommend against env var path prefixes\n\n## Verification\n\n```bash\n# Only remaining mentions are in skill-writer changelog/meta docs (documenting the change itself)\ngrep -rn \"CLAUDE_SKILL_ROOT\" skills/ --include=\"*.md\"\n```\n\nCloses #145\n\nCo-authored-by: junior[bot] <junior[bot]@users.noreply.github.com>",
+    "tree": {
+      "sha": "2d8c0d032af66e43533cce74fa2447e5a111a860",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/2d8c0d032af66e43533cce74fa2447e5a111a860"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/c81373583417504de2d3be1ae3d81977b11b2981",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp/3LyCRC1aQ7uu5UhlAAAUPAQAHmaNrgQQx/wC6mdxoXkobxh\ncmrBEFO5ezpyFfrlNc7sc0Ov2U+pJLAk/0ZymC998vnM0xwZiWmwWBIWwaCpFQg0\nkupAngZx6oF9f3RsevxE9Vs5Q3ryjnB0qeQISkxJPX1hMka1gMefmtGeDrBrMSDd\neOTkStIKtSmeCBWuRoAtlfC3ydnCFqQOwmplfRK8EDe30DwhAYiQbaxmU4iMkcfA\nTdO3XwLQdtb7nUv7muOvzWzsg74mnq9Bj0gGAoGfw0UuNspwKJkYARgvAsWOu4rk\n4Y5b7YAbvwrVHqTML7E/nR/jWB4gjUyK2JrZdPqeKJrhcflFT/G65PIpDlI+X2Sk\nrEB/xzSBuckD97CMhbdprnpNoSAt68J3H+Ef93vMhm+0yXn0/sU+YzyPPO/rNRq3\n3WGQUyzZwj048eE/2kH4zWUbU3QdUS0uINBEv/UYWJwEc9KZLIFhdnYltgwZukPK\n0PF6BA0OzB4AvgbhzY1A1zbf/MIOEnZiZR+67nK2BI4LW8nx6CRwBMM4Dpjf4SyE\n7obfM0WO7htNjSjSGlAGowtobD+LaFYiTnM0aZ3kEY5QIZLHMQ0ebKBuXkwKqxen\nLruxwKDYYqTCdmn3Fecc1V+u6OpZ8Id+g+Uc2b5OHSTXEwHE+lJrGz437PdJAQq4\nCroLTT9Qp5KiOomdfKeP\n=W+HR\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 2d8c0d032af66e43533cce74fa2447e5a111a860\nparent 89aaec068abcc70368ccd3e1f7fee58a66313377\nauthor sentry-junior[bot] <264270552+sentry-junior[bot]@users.noreply.github.com> 1778348786 -0700\ncommitter GitHub <noreply@github.com> 1778348786 -0700\n\nfix: replace ${CLAUDE_SKILL_ROOT} with skill-root-relative paths (#146)\n\n## Problem\n\n`${CLAUDE_SKILL_ROOT}` is used across multiple skills to reference\nbundled scripts and files. This causes two problems in Claude Code:\n\n1. **Permission friction** — variable expansion in bash commands\ntriggers a confirmation prompt\n2. **Runtime failure** — after confirmation, the variable is not set, so\npaths resolve to `/scripts/foo.py` → file not found\n\nReported by Phil in\n[#proj-junior](https://sentry.slack.com/archives/C07P2KGJGG0/p1778225171252819).\n\n## Changes\n\nReplaced all `${CLAUDE_SKILL_ROOT}/...` references with\nskill-root-relative paths (e.g. `scripts/foo.py`, `references/bar.md`)\nper the [Agent Skills spec](https://agentskills.io/specification).\n\n**Affected skills (8 files):**\n- `iterate-pr/SKILL.md` — 14 refs → all converted; updated guidance text\n- `gh-review-requests/SKILL.md` — 2 refs\n- `presentation-creator/SKILL.md` — 4 refs\n- `presentation-creator/references/design-system.md` — 3 refs\n- `skill-scanner/SKILL.md` — 6 refs; updated guidance text\n- `sred-project-organizer/SKILL.md` — 4 refs\n- `skill-writer/SOURCES.md` — changelog entry added\n- `skill-writer/references/registration-validation.md` — updated\nmeta-guidance to recommend against env var path prefixes\n\n## Verification\n\n```bash\n# Only remaining mentions are in skill-writer changelog/meta docs (documenting the change itself)\ngrep -rn \"CLAUDE_SKILL_ROOT\" skills/ --include=\"*.md\"\n```\n\nCloses #145\n\nCo-authored-by: junior[bot] <junior[bot]@users.noreply.github.com>",
+      "verified_at": "2026-05-09T17:46:26Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/c81373583417504de2d3be1ae3d81977b11b2981",
+  "html_url": "https://github.com/getsentry/skills/commit/c81373583417504de2d3be1ae3d81977b11b2981",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/c81373583417504de2d3be1ae3d81977b11b2981/comments",
+  "author": {
+    "login": "sentry-junior[bot]",
+    "id": 264270552,
+    "node_id": "BOT_kgDOD8By2A",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2960336?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sentry-junior%5Bbot%5D",
+    "html_url": "https://github.com/apps/sentry-junior",
+    "followers_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "89aaec068abcc70368ccd3e1f7fee58a66313377",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/89aaec068abcc70368ccd3e1f7fee58a66313377",
+      "html_url": "https://github.com/getsentry/skills/commit/89aaec068abcc70368ccd3e1f7fee58a66313377"
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-enterprise-infra-planner/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "780b8ede91ceacdb9c00",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "bbe0b526c61b2d9caaf02db3057859622ce8a6c9",
+    "computed_tree_sha": "f2528afd2b528f15a2f92d8ad48855213c17510f",
+    "api_tree_sha_as_returned": "f2528afd2b528f15a2f92d8ad48855213c17510f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1babce75d8a02b29b4f8437e0c22c1e6ba1afd49",
+        "sha256": "bc329fc8b330a775d77a4fec34c5f0598d635196563a13f173f14e368759ad02",
+        "size": 3629,
+        "mode": "100644"
+      },
+      {
+        "path": "references/bicep-generation.md",
+        "git_blob_sha1": "eca575043c2cbb68ef3fa66b180ab865a9a2b0e2",
+        "sha256": "4fb5e9f8c32a352677039af733c28af14702ef032a25ac4ab0121d2301e5c124",
+        "size": 3695,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/README.md",
+        "git_blob_sha1": "c346aa228f310634e4699e72cbf417442cbf3770",
+        "sha256": "2b719ec5393b72677a8411a41c246734d83b4710735e1bdef00c4fcd3f44549d",
+        "size": 1264,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/ai-ml.md",
+        "git_blob_sha1": "3fb42780a2a2347260c60081e57d04f82e207f1f",
+        "sha256": "bafcdfb5ce82784d44927e0fcb9430bdf4620b6df5a2798ecdc810cd77e89d2d",
+        "size": 3328,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/compute-apps.md",
+        "git_blob_sha1": "d2c0f13c3655ff04facc29b5a8a082606a6437f8",
+        "sha256": "b2076961d02d1455289450ed05aca47d8f59cdc62edbe88811265d2f9d9e2aee",
+        "size": 8089,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/compute-infra.md",
+        "git_blob_sha1": "0bbe5f24d545d508170e5d150c63dcdd93e2e0d5",
+        "sha256": "ee6042e0bda6ee21d9f22e01cda73dcaa8df19f898afd7e4566aa32f39f6588b",
+        "size": 4621,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/data-analytics.md",
+        "git_blob_sha1": "693a48e6d65f4bbf6ed4581fad1e1ffa79728356",
+        "sha256": "ad69c43fdd6a2e247552999479098b8ae8c04fd0a16a30f92e6d5bd07b40bf97",
+        "size": 6552,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/data-relational.md",
+        "git_blob_sha1": "72c28e59ba24a26d7ea473cc3f2f1ec166b0a96e",
+        "sha256": "c8177eaf2af3fcc5ad8bbb6c25b1a9a843a1352e9b6d44b6b411ae60e8df0505",
+        "size": 5092,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/messaging.md",
+        "git_blob_sha1": "b89c95a86651e8a41a35b553c44604e7d3a07070",
+        "sha256": "03e28532d5887846d8a1865faf7a1ab0ef58cda452b6877a34c56cca5eb77080",
+        "size": 2609,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/monitoring.md",
+        "git_blob_sha1": "c66dcdf183edb7f20b95e95430b7fe00d7162131",
+        "sha256": "fe25a9801c704331fdbd29037b2a09996c17477c94efe44fb9b9ad988baa038f",
+        "size": 1798,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/networking-connectivity.md",
+        "git_blob_sha1": "849bfe511de7ed1145b185d64f4b4ca7c369229b",
+        "sha256": "d811c8c99de2d117354b0855121c1e002ad8220af8ef7863cdbc68c4b1aa6dac",
+        "size": 6282,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/networking-core.md",
+        "git_blob_sha1": "8ea36abd0cb1aeca8044f58c00eab2b678f1ec35",
+        "sha256": "829029f2364c25b5f0f10154054c9247cc0fc9ea8fa937b257cf6bb7b5820f47",
+        "size": 7251,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/networking-traffic.md",
+        "git_blob_sha1": "8a37708809aee169532ac8cbca7a9e12e0d1cc6e",
+        "sha256": "e35dec00fa86fb998dcdb94a6aca2011a131554aaf670e3752aa6bb8b7f64fc5",
+        "size": 4708,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/security.md",
+        "git_blob_sha1": "312d52cfefd7615aa76975d0341dc062fc7d4a4d",
+        "sha256": "154d140cc04eb18e87487a9b4be361ef91ebb2ce3491c100440d7c17334de02a",
+        "size": 2435,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment.md",
+        "git_blob_sha1": "49c700547bbe0666744897a1e3162ad9547ffec7",
+        "sha256": "3e9eb07efeb7c9449634ab4f1aec1b0c6ba3d413c461283c028488ee53c78caa",
+        "size": 3803,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pairing-checks.md",
+        "git_blob_sha1": "d47c5ae6a211f1335640c1f8807884ff800037ca",
+        "sha256": "933b226617f82e4509d1a6379b5d66a69140a19d34f85100fee0293b520b75d4",
+        "size": 3753,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/1-extract-insights.md",
+        "git_blob_sha1": "6e522053b7dd3be9daffff03a218c3948d56e01f",
+        "sha256": "217383bced7db728129130308460ec4e18eaa73b52703aa47a423d91a561373a",
+        "size": 1801,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/2-research-best-practices.md",
+        "git_blob_sha1": "035c419db6f121637831e8d7550dc2b082c1ab33",
+        "sha256": "0a919604bbcacce145f0c416b500d39606addf12cb40f71df645c4c4e9f5b98b",
+        "size": 2906,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/3-research-resources.md",
+        "git_blob_sha1": "41c2b31fdac62e3e846bfbfe24224ba6eae3bbca",
+        "sha256": "2c768ac449b066584334d63015f67ca6260a2b098b314d34072cf6efff3880bc",
+        "size": 3387,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/4-generate-plan.md",
+        "git_blob_sha1": "c3732a29770e8beb3390ff33851c534018763de1",
+        "sha256": "2569ff79e1801dc54907b465491eceb4d13b30f33710a6933978b48f990318aa",
+        "size": 792,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/5-verify.md",
+        "git_blob_sha1": "61405285b1e640fb271c60b99710d7580fa54f89",
+        "sha256": "d139b7c65d0aa69ef3d04647649475a31fd7faa0a52cbabbee8033f544165349",
+        "size": 814,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/6-generate-iac.md",
+        "git_blob_sha1": "04ebc5ffe7ad901d31e9e1dd6c5b020272fad99f",
+        "sha256": "96cd941ab1fa90e54a4df523965a4e6eb985e9f4b2834181b2895b78efbb4269",
+        "size": 675,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/7-deploy.md",
+        "git_blob_sha1": "2688bd4373963399285865f67f4d478c02554d63",
+        "sha256": "d2f0a8838c779accd2a7994b8922a45beb79cf0cda9dcddfdd1c712e4b27901c",
+        "size": 1300,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/README.md",
+        "git_blob_sha1": "940639965fbf6751cf3278b99f981929a1a68b17",
+        "sha256": "9f20f64f4a8d6c9bbdd8f9c102cba54a463d5a0dd4584c11a034c6501613eea3",
+        "size": 1674,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/ai-ml.md",
+        "git_blob_sha1": "6717f1a8aed7c35b0d17fb90a87e985ec7af1e75",
+        "sha256": "a4f0ddf86ca87dab5a5938db0113f2ecb17ed1662dcddc58464383b894798fb1",
+        "size": 2177,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/compute-apps.md",
+        "git_blob_sha1": "53b008e630d763e201342d3ff452c533ecc0ef7a",
+        "sha256": "184346069e6670ade07b280ad3a596d8ec540566c2d0bc0a6acbdb79c93936f0",
+        "size": 4141,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/compute-infra.md",
+        "git_blob_sha1": "082161b23256f2e8260fa2b05bb638c99ac6a5db",
+        "sha256": "0b4a314a6bf642df2214ebd03ffc47fd7d7a9df3d23bd4a1722222c43242dbf8",
+        "size": 2916,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/data-analytics.md",
+        "git_blob_sha1": "7e457676bd7732cbe6716dd48f47b67b36f89f13",
+        "sha256": "6e9051f0b1968a364863a5dfae431ac6d77da6481745889399b2bb0c0f76a871",
+        "size": 3097,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/data-relational.md",
+        "git_blob_sha1": "5be0f2aa68aecf8e270e74ed5d07f6f388e40911",
+        "sha256": "edc5230b2476df6b33623de59a7ccd7c6e5fd1d69a40656c1d968cee54996cd3",
+        "size": 2712,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/messaging.md",
+        "git_blob_sha1": "338822ccd2c6530e8062dc38cd3e54be7b11bed8",
+        "sha256": "5d67a69c397c79257b4a66ae6493917cf5b8fa21e4659a6bf07b3bf020bc842a",
+        "size": 2016,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/monitoring.md",
+        "git_blob_sha1": "094a04f77a2991beaa30ecfd095973c0bf4ccbe5",
+        "sha256": "8695b39739d677d08a65bc736469370fa7a5248ab00d959f11c07b859f0c9d0a",
+        "size": 1528,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/networking-connectivity.md",
+        "git_blob_sha1": "053e5e43ef018163c772b138f9abb9fccf81c463",
+        "sha256": "2151d202ad8ebe7d271f489dddc02a5f0c3b32a44dfdf992247cb176f0e8587a",
+        "size": 3698,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/networking-core.md",
+        "git_blob_sha1": "a6bb51e9593096ea1e4d1259b6b3f259a3489a71",
+        "sha256": "7dde70a03e591daa2f71468e8ba6cee93b27c5f9760d75cbe90b8b51bc4ad2aa",
+        "size": 4429,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/networking-traffic.md",
+        "git_blob_sha1": "f80c536f5846ff3ae571bfe9521fbe7e449495dd",
+        "sha256": "ee899d2ffe8160879bc0954e7bc58086756b751430c9c35f20f56b53253f9a3b",
+        "size": 2634,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/security.md",
+        "git_blob_sha1": "74aaa489ed16b2974d77c2ed51ca97c133041a7f",
+        "sha256": "33490b80cd4fde131bab246ff4b6203cc5e70fe25b30f262a8895a9eaa4c0375",
+        "size": 1523,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema.md",
+        "git_blob_sha1": "2c47c6b24ec8d9905ca227c95c6cde65a5380d0c",
+        "sha256": "be22ab12fbfc5b7102db1c34ae2d57edb95ffdd74edf6731e90223ed5a9d0d6a",
+        "size": 2715,
+        "mode": "100644"
+      },
+      {
+        "path": "references/terraform-generation.md",
+        "git_blob_sha1": "7b880604c86a303113994ee682ed95fe4efe02f4",
+        "sha256": "cee692face165859a317456498ed6e2e0006618a2835edb02e1cdf9964101278",
+        "size": 2812,
+        "mode": "100644"
+      },
+      {
+        "path": "references/verification.md",
+        "git_blob_sha1": "4a174a78826f7db8bcc20dc50623d4475eb166a2",
+        "sha256": "5d57eb981a3cad16a2a56eb610d1cf58ed4e444cf7b756a5b2de1cb29075cd0f",
+        "size": 2669,
+        "mode": "100644"
+      },
+      {
+        "path": "references/waf-checklist.md",
+        "git_blob_sha1": "e093f70ec65d15460bf630abd8b13c91ab08c14f",
+        "sha256": "4748a924d126cb060f6b50dbf2abc3ba00b7e8208166947db8c0ac21eb98d007",
+        "size": 1947,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow.md",
+        "git_blob_sha1": "816df03e1ea0194087697db71f7b252d75d57db2",
+        "sha256": "6b9af4864a05e4599526ee519c0d0122eb2f8d12e6b40b67d7e3cb57458492c6",
+        "size": 2616,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d58859a5c2ef0a4ff90bb6a993a031b9cacc97ee",
+    "computed_tree_sha": "01855069f81012840bdc1d2e738e3452143f1939",
+    "api_tree_sha_as_returned": "01855069f81012840bdc1d2e738e3452143f1939",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "eccc653c8569c9be26dc5d75249452018a0c8505",
+        "sha256": "7e1b932f780b6348745b9d283437b64fc031ba452e8982ed9705849b9c19f50e",
+        "size": 6339,
+        "mode": "100644"
+      },
+      {
+        "path": "references/bicep-generation.md",
+        "git_blob_sha1": "1db8b02505f7c2c60faef4ea24665453c1027d24",
+        "sha256": "bd1178e3de6a45a97428a42cd2463e2b603da283f4434d9597e6ad204e602f90",
+        "size": 5339,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/README.md",
+        "git_blob_sha1": "c346aa228f310634e4699e72cbf417442cbf3770",
+        "sha256": "2b719ec5393b72677a8411a41c246734d83b4710735e1bdef00c4fcd3f44549d",
+        "size": 1264,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/ai-ml.md",
+        "git_blob_sha1": "3fb42780a2a2347260c60081e57d04f82e207f1f",
+        "sha256": "bafcdfb5ce82784d44927e0fcb9430bdf4620b6df5a2798ecdc810cd77e89d2d",
+        "size": 3328,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/compute-apps.md",
+        "git_blob_sha1": "d2c0f13c3655ff04facc29b5a8a082606a6437f8",
+        "sha256": "b2076961d02d1455289450ed05aca47d8f59cdc62edbe88811265d2f9d9e2aee",
+        "size": 8089,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/compute-infra.md",
+        "git_blob_sha1": "0bbe5f24d545d508170e5d150c63dcdd93e2e0d5",
+        "sha256": "ee6042e0bda6ee21d9f22e01cda73dcaa8df19f898afd7e4566aa32f39f6588b",
+        "size": 4621,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/data-analytics.md",
+        "git_blob_sha1": "693a48e6d65f4bbf6ed4581fad1e1ffa79728356",
+        "sha256": "ad69c43fdd6a2e247552999479098b8ae8c04fd0a16a30f92e6d5bd07b40bf97",
+        "size": 6552,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/data-relational.md",
+        "git_blob_sha1": "72c28e59ba24a26d7ea473cc3f2f1ec166b0a96e",
+        "sha256": "c8177eaf2af3fcc5ad8bbb6c25b1a9a843a1352e9b6d44b6b411ae60e8df0505",
+        "size": 5092,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/messaging.md",
+        "git_blob_sha1": "b89c95a86651e8a41a35b553c44604e7d3a07070",
+        "sha256": "03e28532d5887846d8a1865faf7a1ab0ef58cda452b6877a34c56cca5eb77080",
+        "size": 2609,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/monitoring.md",
+        "git_blob_sha1": "c66dcdf183edb7f20b95e95430b7fe00d7162131",
+        "sha256": "fe25a9801c704331fdbd29037b2a09996c17477c94efe44fb9b9ad988baa038f",
+        "size": 1798,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/networking-connectivity.md",
+        "git_blob_sha1": "849bfe511de7ed1145b185d64f4b4ca7c369229b",
+        "sha256": "d811c8c99de2d117354b0855121c1e002ad8220af8ef7863cdbc68c4b1aa6dac",
+        "size": 6282,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/networking-core.md",
+        "git_blob_sha1": "8ea36abd0cb1aeca8044f58c00eab2b678f1ec35",
+        "sha256": "829029f2364c25b5f0f10154054c9247cc0fc9ea8fa937b257cf6bb7b5820f47",
+        "size": 7251,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/networking-traffic.md",
+        "git_blob_sha1": "8a37708809aee169532ac8cbca7a9e12e0d1cc6e",
+        "sha256": "e35dec00fa86fb998dcdb94a6aca2011a131554aaf670e3752aa6bb8b7f64fc5",
+        "size": 4708,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraints/security.md",
+        "git_blob_sha1": "312d52cfefd7615aa76975d0341dc062fc7d4a4d",
+        "sha256": "154d140cc04eb18e87487a9b4be361ef91ebb2ce3491c100440d7c17334de02a",
+        "size": 2435,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment.md",
+        "git_blob_sha1": "49c700547bbe0666744897a1e3162ad9547ffec7",
+        "sha256": "3e9eb07efeb7c9449634ab4f1aec1b0c6ba3d413c461283c028488ee53c78caa",
+        "size": 3803,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pairing-checks.md",
+        "git_blob_sha1": "d47c5ae6a211f1335640c1f8807884ff800037ca",
+        "sha256": "933b226617f82e4509d1a6379b5d66a69140a19d34f85100fee0293b520b75d4",
+        "size": 3753,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/1-extract-insights.md",
+        "git_blob_sha1": "36c55d694656511db7955ac51638d22a73192935",
+        "sha256": "b19d51e209f24ea0218adf3f3be31948c604ce9f7522e77a6a0eed861ff478a0",
+        "size": 2653,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/2-research-best-practices.md",
+        "git_blob_sha1": "035c419db6f121637831e8d7550dc2b082c1ab33",
+        "sha256": "0a919604bbcacce145f0c416b500d39606addf12cb40f71df645c4c4e9f5b98b",
+        "size": 2906,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/3-research-resources.md",
+        "git_blob_sha1": "41c2b31fdac62e3e846bfbfe24224ba6eae3bbca",
+        "sha256": "2c768ac449b066584334d63015f67ca6260a2b098b314d34072cf6efff3880bc",
+        "size": 3387,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/4-generate-plan.md",
+        "git_blob_sha1": "c3732a29770e8beb3390ff33851c534018763de1",
+        "sha256": "2569ff79e1801dc54907b465491eceb4d13b30f33710a6933978b48f990318aa",
+        "size": 792,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/5-verify.md",
+        "git_blob_sha1": "61405285b1e640fb271c60b99710d7580fa54f89",
+        "sha256": "d139b7c65d0aa69ef3d04647649475a31fd7faa0a52cbabbee8033f544165349",
+        "size": 814,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/6-generate-iac.md",
+        "git_blob_sha1": "7c5e3db3b32417eff889a246833dceae6ab47354",
+        "sha256": "94e1f2e5798bdee5833e245a93c26cd6cb1d7fac470976f98c5e54f7ef1d7067",
+        "size": 2606,
+        "mode": "100644"
+      },
+      {
+        "path": "references/phases/7-deploy.md",
+        "git_blob_sha1": "2688bd4373963399285865f67f4d478c02554d63",
+        "sha256": "d2f0a8838c779accd2a7994b8922a45beb79cf0cda9dcddfdd1c712e4b27901c",
+        "size": 1300,
+        "mode": "100644"
+      },
+      {
+        "path": "references/referenced-workload.md",
+        "git_blob_sha1": "6fb30ea70e3a02e545dee5223431636e9ed970f8",
+        "sha256": "adaa30f644e519c93fd994b29f202926d504f3c4a0ee68c6b0b8b4f08978ed6c",
+        "size": 7504,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/README.md",
+        "git_blob_sha1": "940639965fbf6751cf3278b99f981929a1a68b17",
+        "sha256": "9f20f64f4a8d6c9bbdd8f9c102cba54a463d5a0dd4584c11a034c6501613eea3",
+        "size": 1674,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/ai-ml.md",
+        "git_blob_sha1": "6717f1a8aed7c35b0d17fb90a87e985ec7af1e75",
+        "sha256": "a4f0ddf86ca87dab5a5938db0113f2ecb17ed1662dcddc58464383b894798fb1",
+        "size": 2177,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/compute-apps.md",
+        "git_blob_sha1": "53b008e630d763e201342d3ff452c533ecc0ef7a",
+        "sha256": "184346069e6670ade07b280ad3a596d8ec540566c2d0bc0a6acbdb79c93936f0",
+        "size": 4141,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/compute-infra.md",
+        "git_blob_sha1": "082161b23256f2e8260fa2b05bb638c99ac6a5db",
+        "sha256": "0b4a314a6bf642df2214ebd03ffc47fd7d7a9df3d23bd4a1722222c43242dbf8",
+        "size": 2916,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/data-analytics.md",
+        "git_blob_sha1": "7e457676bd7732cbe6716dd48f47b67b36f89f13",
+        "sha256": "6e9051f0b1968a364863a5dfae431ac6d77da6481745889399b2bb0c0f76a871",
+        "size": 3097,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/data-relational.md",
+        "git_blob_sha1": "5be0f2aa68aecf8e270e74ed5d07f6f388e40911",
+        "sha256": "edc5230b2476df6b33623de59a7ccd7c6e5fd1d69a40656c1d968cee54996cd3",
+        "size": 2712,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/messaging.md",
+        "git_blob_sha1": "338822ccd2c6530e8062dc38cd3e54be7b11bed8",
+        "sha256": "5d67a69c397c79257b4a66ae6493917cf5b8fa21e4659a6bf07b3bf020bc842a",
+        "size": 2016,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/monitoring.md",
+        "git_blob_sha1": "094a04f77a2991beaa30ecfd095973c0bf4ccbe5",
+        "sha256": "8695b39739d677d08a65bc736469370fa7a5248ab00d959f11c07b859f0c9d0a",
+        "size": 1528,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/networking-connectivity.md",
+        "git_blob_sha1": "053e5e43ef018163c772b138f9abb9fccf81c463",
+        "sha256": "2151d202ad8ebe7d271f489dddc02a5f0c3b32a44dfdf992247cb176f0e8587a",
+        "size": 3698,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/networking-core.md",
+        "git_blob_sha1": "a6bb51e9593096ea1e4d1259b6b3f259a3489a71",
+        "sha256": "7dde70a03e591daa2f71468e8ba6cee93b27c5f9760d75cbe90b8b51bc4ad2aa",
+        "size": 4429,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/networking-traffic.md",
+        "git_blob_sha1": "f80c536f5846ff3ae571bfe9521fbe7e449495dd",
+        "sha256": "ee899d2ffe8160879bc0954e7bc58086756b751430c9c35f20f56b53253f9a3b",
+        "size": 2634,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resources/security.md",
+        "git_blob_sha1": "74aaa489ed16b2974d77c2ed51ca97c133041a7f",
+        "sha256": "33490b80cd4fde131bab246ff4b6203cc5e70fe25b30f262a8895a9eaa4c0375",
+        "size": 1523,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema.md",
+        "git_blob_sha1": "cdbe20141aaf316bde5ce37cbfeb33bba9993f97",
+        "sha256": "87b12e1ebc2a70f1caf05e5a99dd8fd72a4624b9dd56dd93fcb9c299eb2df0fa",
+        "size": 3853,
+        "mode": "100644"
+      },
+      {
+        "path": "references/terraform-generation.md",
+        "git_blob_sha1": "7f38ef69ec49ea35fbab96f99bc93d6b38813d1c",
+        "sha256": "1a0f6360fc656aa7c7d71fac23deeafbc173460993bcb85db089a0a2f5905649",
+        "size": 4504,
+        "mode": "100644"
+      },
+      {
+        "path": "references/verification.md",
+        "git_blob_sha1": "4a174a78826f7db8bcc20dc50623d4475eb166a2",
+        "sha256": "5d57eb981a3cad16a2a56eb610d1cf58ed4e444cf7b756a5b2de1cb29075cd0f",
+        "size": 2669,
+        "mode": "100644"
+      },
+      {
+        "path": "references/waf-checklist.md",
+        "git_blob_sha1": "e093f70ec65d15460bf630abd8b13c91ab08c14f",
+        "sha256": "4748a924d126cb060f6b50dbf2abc3ba00b7e8208166947db8c0ac21eb98d007",
+        "size": 1947,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow.md",
+        "git_blob_sha1": "71943604b28219cbb2a798940b377303b54ca6bc",
+        "sha256": "cc68a27d9c87bf73ecd5cabc2a212dcac2d34b9e4a18314946f1e2430e36891a",
+        "size": 5028,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/bicep-generation.md",
+    "references/phases/1-extract-insights.md",
+    "references/phases/6-generate-iac.md",
+    "references/referenced-workload.md",
+    "references/schema.md",
+    "references/terraform-generation.md",
+    "references/workflow.md"
+  ],
+  "old_commit": "bbe0b526c61b2d9caaf02db3057859622ce8a6c9",
+  "new_commit": "d58859a5c2ef0a4ff90bb6a993a031b9cacc97ee",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-08-24T22:12:03Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bbe0b526c61b2d9caaf02db3057859622ce8a6c9...d58859a5c2ef0a4ff90bb6a993a031b9cacc97ee",
+  "commit_url": "https://github.com/microsoft/skills/commit/d58859a5c2ef0a4ff90bb6a993a031b9cacc97ee",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-enterprise-infra-planner",
+  "local_directory": "verified_real_update_pairs/OPU-0468",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0468",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

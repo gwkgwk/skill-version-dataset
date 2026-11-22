@@ -1,0 +1,11 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -32,7 +32,7 @@
+ ## Examples
+ 
+ ```bash
+-gws sheets +read --spreadsheet ID --range 'Sheet1!A1:D10'
++gws sheets +read --spreadsheet ID --range "Sheet1!A1:D10"
+ gws sheets +read --spreadsheet ID --range Sheet1
+ ```
+ 

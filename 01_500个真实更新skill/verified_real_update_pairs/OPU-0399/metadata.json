@@ -1,0 +1,121 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-python/skills/azure-cosmos-py/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "909f9cd257256093fbe3",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "bdc66e4618eb2f277d013192820aa042039372e0",
+    "computed_tree_sha": "8347c59cf7ed6f7e6e6ee447bfa7b6e065796895",
+    "api_tree_sha_as_returned": "8347c59cf7ed6f7e6e6ee447bfa7b6e065796895",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3916b855a401b96591282d194dd4e543193bae26",
+        "sha256": "772d7d9574857687c305b84a8ec09ebb343d7b9bca6394400d94caa65ead6c24",
+        "size": 9087,
+        "mode": "100644"
+      },
+      {
+        "path": "references/partitioning.md",
+        "git_blob_sha1": "91e2ea93f99996179a93b0f140acbce895aba4ec",
+        "sha256": "c8e7e4005dbb09a9f6d2f5e5bf84eb9aea1654d4189c68affafae160dfe07e1d",
+        "size": 10514,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-patterns.md",
+        "git_blob_sha1": "217430ea497ee9c7457efefca48b87afe9919430",
+        "sha256": "e95a0bbf78d434e3a78058aab1152cb53110486c1edd98ea6417d2834f038d10",
+        "size": 10868,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_cosmos_container.py",
+        "git_blob_sha1": "88cb5d064a1c74201a72ec7ea953bab92f5143c7",
+        "sha256": "f078f6f8a27572aa1494946907e5049347a45ee5c10acff5fe9023d859612c33",
+        "size": 10347,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+    "computed_tree_sha": "159aea3f186349abfb5004b51587e3dfe210ab56",
+    "api_tree_sha_as_returned": "159aea3f186349abfb5004b51587e3dfe210ab56",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9800d67e64c753e221128e38c43a81bfabdff944",
+        "sha256": "7b3c8cbbee11c4900cec94db00927a60f69d002385194df953af665768281925",
+        "size": 9316,
+        "mode": "100644"
+      },
+      {
+        "path": "references/partitioning.md",
+        "git_blob_sha1": "91e2ea93f99996179a93b0f140acbce895aba4ec",
+        "sha256": "c8e7e4005dbb09a9f6d2f5e5bf84eb9aea1654d4189c68affafae160dfe07e1d",
+        "size": 10514,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-patterns.md",
+        "git_blob_sha1": "217430ea497ee9c7457efefca48b87afe9919430",
+        "sha256": "e95a0bbf78d434e3a78058aab1152cb53110486c1edd98ea6417d2834f038d10",
+        "size": 10868,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_cosmos_container.py",
+        "git_blob_sha1": "88cb5d064a1c74201a72ec7ea953bab92f5143c7",
+        "sha256": "f078f6f8a27572aa1494946907e5049347a45ee5c10acff5fe9023d859612c33",
+        "size": 10347,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bdc66e4618eb2f277d013192820aa042039372e0",
+  "new_commit": "df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "to address feedback\n\nCo-authored-by: Copilot <copilot@github.com>",
+  "new_commit_time": "2026-05-18T15:32:08Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bdc66e4618eb2f277d013192820aa042039372e0...df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "commit_url": "https://github.com/microsoft/skills/commit/df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "skill_directory": ".github/plugins/azure-sdk-python/skills/azure-cosmos-py",
+  "local_directory": "verified_real_update_pairs/OPU-0399",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0399",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

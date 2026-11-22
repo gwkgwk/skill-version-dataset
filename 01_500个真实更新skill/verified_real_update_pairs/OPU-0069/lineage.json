@@ -1,0 +1,82 @@
+{
+  "sha": "0ebb24138425f111994af3d8d9d5560d2dc68926",
+  "node_id": "C_kwDOQmUc69oAKDBlYmIyNDEzODQyNWYxMTE5OTRhZjNkOGQ5ZDU1NjBkMmRjNjg5MjY",
+  "commit": {
+    "author": {
+      "name": "kylie ski",
+      "email": "kczajkowski@cloudflare.com",
+      "date": "2026-11-06T19:27:09Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-11-06T19:27:09Z"
+    },
+    "message": "Teach agents to use Access service tokens (#269)\n\n* Teach agents to use Access service tokens\n\nWhen a non-browser client hits a Cloudflare Access login page, check for\nan authorized service token and send its header pair on the original\nrequest. Cover Service Auth policies, secret handling, cross-origin\nredirects, and single-header mode. Route these requests from the\ncloudflare skill to cloudflare-one.\n\nCo-authored-by: scottbuscemi <4336848+scottbuscemi@users.noreply.github.com>\nCo-authored-by: Brendan Irvine-Broque <1221592+irvinebroque@users.noreply.github.com>\n\n* separate ref to auth token types\n\nCo-authored-by: Jordan Coeyman <coeyman@gmail.com>\n\n---------\n\nCo-authored-by: scottbuscemi <4336848+scottbuscemi@users.noreply.github.com>\nCo-authored-by: Brendan Irvine-Broque <1221592+irvinebroque@users.noreply.github.com>\nCo-authored-by: Jordan Coeyman <coeyman@gmail.com>",
+    "tree": {
+      "sha": "4a970f4fce6d479836772ea909dd9641a8747e2c",
+      "url": "https://api.github.com/repos/cloudflare/skills/git/trees/4a970f4fce6d479836772ea909dd9641a8747e2c"
+    },
+    "url": "https://api.github.com/repos/cloudflare/skills/git/commits/0ebb24138425f111994af3d8d9d5560d2dc68926",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq7ioNCRC1aQ7uu5UhlAAAEaAQAG2V3UDZeSNuUpXJEvgvJEAB\nCwVFBVdLezOIKU/cASLcO5SY+4C1yYxTth2eGQEAe14wLX3DpRZuJc13+DFU4Lp6\nppNxoS8Dz/DuknO4MJr3RSAsMwamaCkh3nvsXQ+zkwWB2mM7deCvrUuTBP6FLxWt\nLEdsreIzNAg3WnaGCpL2lpzTg0OfXLt5Io4/ZPBbeh1pkb//d72qiX8UPXDPIbGQ\nrN//m6UsJoj8quY7zVWtYemXsVwa2Mqmh3UAvcaChgcB0ufYFVPO+4EqleMnolal\nMrUY/mFtfmImcZwBGzbLgmwEznBcchjMi5qn3j24/Pwb9XoarE4dIMOEdSttS2cs\ndz0o6uQhJhnONW43+3SfhEp6hSArOOWJZEbkSZD+KVKsSRZP/xHrKBgiSTlLG9Ou\nwqGiwvulxpGhdcHWEh4qXnBDXi0PGTEPV4CXRD9L9kgaNsX1M4Nj5/dIVnWeutct\n5PRiipdiYFFxmmtxWYw9oyitu7N0iVTMTuvRD/z/V5/BH0Zatxow0ntjQWfLT91/\nCC6AwGVSQk5+1soHMzHabuAmEzaMnpebQ7yJ2FXH7Sp5El6OkaE5lHPXiZXPhPMj\nVsDTMW71tPcxcqLdqNEsW8Fbq/mpp++WKCruMPgWvd5W9jS/FieBrwl2EfPrGgyl\nn2IqN0jof4zPJ8cPd3Np\n=uUCX\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 4a970f4fce6d479836772ea909dd9641a8747e2c\nparent 1820a51dda1c1ed8f849ad355cd56e62a6ec395f\nauthor kylie ski <kczajkowski@cloudflare.com> 1793993229 -0800\ncommitter GitHub <noreply@github.com> 1793993229 -0800\n\nTeach agents to use Access service tokens (#269)\n\n* Teach agents to use Access service tokens\n\nWhen a non-browser client hits a Cloudflare Access login page, check for\nan authorized service token and send its header pair on the original\nrequest. Cover Service Auth policies, secret handling, cross-origin\nredirects, and single-header mode. Route these requests from the\ncloudflare skill to cloudflare-one.\n\nCo-authored-by: scottbuscemi <4336848+scottbuscemi@users.noreply.github.com>\nCo-authored-by: Brendan Irvine-Broque <1221592+irvinebroque@users.noreply.github.com>\n\n* separate ref to auth token types\n\nCo-authored-by: Jordan Coeyman <coeyman@gmail.com>\n\n---------\n\nCo-authored-by: scottbuscemi <4336848+scottbuscemi@users.noreply.github.com>\nCo-authored-by: Brendan Irvine-Broque <1221592+irvinebroque@users.noreply.github.com>\nCo-authored-by: Jordan Coeyman <coeyman@gmail.com>",
+      "verified_at": "2026-11-06T19:27:10Z"
+    }
+  },
+  "url": "https://api.github.com/repos/cloudflare/skills/commits/0ebb24138425f111994af3d8d9d5560d2dc68926",
+  "html_url": "https://github.com/cloudflare/skills/commit/0ebb24138425f111994af3d8d9d5560d2dc68926",
+  "comments_url": "https://api.github.com/repos/cloudflare/skills/commits/0ebb24138425f111994af3d8d9d5560d2dc68926/comments",
+  "author": {
+    "login": "kale-stew",
+    "id": 30479228,
+    "node_id": "MDQ6VXNlcjMwNDc5MjI4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/30479228?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kale-stew",
+    "html_url": "https://github.com/kale-stew",
+    "followers_url": "https://api.github.com/users/kale-stew/followers",
+    "following_url": "https://api.github.com/users/kale-stew/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kale-stew/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kale-stew/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kale-stew/subscriptions",
+    "organizations_url": "https://api.github.com/users/kale-stew/orgs",
+    "repos_url": "https://api.github.com/users/kale-stew/repos",
+    "events_url": "https://api.github.com/users/kale-stew/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kale-stew/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "1820a51dda1c1ed8f849ad355cd56e62a6ec395f",
+      "url": "https://api.github.com/repos/cloudflare/skills/commits/1820a51dda1c1ed8f849ad355cd56e62a6ec395f",
+      "html_url": "https://github.com/cloudflare/skills/commit/1820a51dda1c1ed8f849ad355cd56e62a6ec395f"
+    }
+  ]
+}

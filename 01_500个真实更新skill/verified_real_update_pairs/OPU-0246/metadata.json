@@ -1,0 +1,185 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-skill-registry/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "d6f705fc039da26b4e5b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "e1b1a1b2e5c6ace6cc49aa86912718f26875b1b5",
+    "computed_tree_sha": "71e676f15b18e579bbc0c03b22fbf661d0a5a954",
+    "api_tree_sha_as_returned": "71e676f15b18e579bbc0c03b22fbf661d0a5a954",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d7edc3a8fd22e083a032e8b6fcc53a1a6783528c",
+        "sha256": "b64cc8b38bec139a018c313d7fbda931c9684b2b5fa945645c89142c0ecf560a",
+        "size": 2333,
+        "mode": "100644"
+      },
+      {
+        "path": "references/generate-skill.md",
+        "git_blob_sha1": "a49d96542348528ddaef4b64ddb46cb972ab9912",
+        "sha256": "c9cde68c86489425dd67190b4813297fd3198a7a67adfbe83c48907c1a93a82c",
+        "size": 2612,
+        "mode": "100644"
+      },
+      {
+        "path": "references/manage-skills.md",
+        "git_blob_sha1": "79fefdbda9de1a88d75e171a3eb4f5c4b102bf8b",
+        "sha256": "3052e68e463bcbc240c9441075d77e2b004e02be25c22d202655fffcf039f3dd",
+        "size": 2502,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitor-operations.md",
+        "git_blob_sha1": "055acadcbc714c737112295a9cc40ef53032c8b2",
+        "sha256": "409f32bacaadfbc78dcd74a6745e6159e0d13016a7d1fb145130e98ec59c38db",
+        "size": 619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-skills.md",
+        "git_blob_sha1": "ac52524f3c383b2182e610fed56c75e52c8fc2f9",
+        "sha256": "56c6053681ea48d067980dbad16bc1436bcd0d40051882299ddedfba24a4c032",
+        "size": 1562,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/requirements.txt",
+        "git_blob_sha1": "f2fcfa1a57c17b52e527a5da9787128f327c1b21",
+        "sha256": "3fbdea0caf83c5ebf2b3e400c647ae2688e58949111a759895ecf64946d578a1",
+        "size": 83,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/skill_registry_ops.py",
+        "git_blob_sha1": "63c094772a429ece0fbf3a57309fbf0c24ab3855",
+        "sha256": "4d75b273faabfe368e08cab49dbbd9bd968ea7a9f09d380c4b1c051c2c8030df",
+        "size": 11073,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_env.py",
+        "git_blob_sha1": "347f008003e6d31d2e83634fa3e9b32bb418b3be",
+        "sha256": "1e80c1e76267d8d71360a6ef79c0b7d9d62ba248c8aa29acf7513f9291a1063a",
+        "size": 454,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "2826afea139f84afdc99dab8e69f555c775e1ac5",
+    "computed_tree_sha": "7bb45151e40b635b68d3368b8ed5764ac9f834ba",
+    "api_tree_sha_as_returned": "7bb45151e40b635b68d3368b8ed5764ac9f834ba",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "adbc49ace8e58653cadc3a182f372617f81d479a",
+        "sha256": "e0ed737b0fde8909974bd00787c8bfa3f80358361fb543761e30c2ebc11a19cd",
+        "size": 2796,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "336319f7e4c8b8fbfb9514c26de2554713070929",
+        "sha256": "f48eb7632c3c962d8464a47b57ca723adc14440b478ac9298306a40578acf687",
+        "size": 1935,
+        "mode": "100644"
+      },
+      {
+        "path": "references/generate-skill.md",
+        "git_blob_sha1": "a49d96542348528ddaef4b64ddb46cb972ab9912",
+        "sha256": "c9cde68c86489425dd67190b4813297fd3198a7a67adfbe83c48907c1a93a82c",
+        "size": 2612,
+        "mode": "100644"
+      },
+      {
+        "path": "references/manage-skills.md",
+        "git_blob_sha1": "79fefdbda9de1a88d75e171a3eb4f5c4b102bf8b",
+        "sha256": "3052e68e463bcbc240c9441075d77e2b004e02be25c22d202655fffcf039f3dd",
+        "size": 2502,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitor-operations.md",
+        "git_blob_sha1": "055acadcbc714c737112295a9cc40ef53032c8b2",
+        "sha256": "409f32bacaadfbc78dcd74a6745e6159e0d13016a7d1fb145130e98ec59c38db",
+        "size": 619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-skills.md",
+        "git_blob_sha1": "ac52524f3c383b2182e610fed56c75e52c8fc2f9",
+        "sha256": "56c6053681ea48d067980dbad16bc1436bcd0d40051882299ddedfba24a4c032",
+        "size": 1562,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/requirements.txt",
+        "git_blob_sha1": "f2fcfa1a57c17b52e527a5da9787128f327c1b21",
+        "sha256": "3fbdea0caf83c5ebf2b3e400c647ae2688e58949111a759895ecf64946d578a1",
+        "size": 83,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/skill_registry_ops.py",
+        "git_blob_sha1": "63c094772a429ece0fbf3a57309fbf0c24ab3855",
+        "sha256": "4d75b273faabfe368e08cab49dbbd9bd968ea7a9f09d380c4b1c051c2c8030df",
+        "size": 11073,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_env.py",
+        "git_blob_sha1": "347f008003e6d31d2e83634fa3e9b32bb418b3be",
+        "sha256": "1e80c1e76267d8d71360a6ef79c0b7d9d62ba248c8aa29acf7513f9291a1063a",
+        "size": 454,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "e1b1a1b2e5c6ace6cc49aa86912718f26875b1b5",
+  "new_commit": "2826afea139f84afdc99dab8e69f555c775e1ac5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to AI and Gemini agent skills.\n\n- Add `references/attribution.md` to all 8 native AI and Gemini skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1005009892",
+  "new_commit_time": "2026-10-22T20:24:58Z",
+  "compare_url": "https://github.com/google/skills/compare/e1b1a1b2e5c6ace6cc49aa86912718f26875b1b5...2826afea139f84afdc99dab8e69f555c775e1ac5",
+  "commit_url": "https://github.com/google/skills/commit/2826afea139f84afdc99dab8e69f555c775e1ac5",
+  "skill_directory": "skills/cloud/agent-platform-skill-registry",
+  "local_directory": "verified_real_update_pairs/OPU-0246",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0246",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

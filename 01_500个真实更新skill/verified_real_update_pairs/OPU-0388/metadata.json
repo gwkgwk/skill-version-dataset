@@ -1,0 +1,301 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/variant-analysis/skills/variant-analysis/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "ac61b544459d5f9d5195",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "82e8e0ad7791805662aa5570230c64c8b8b9ee16",
+    "computed_tree_sha": "7726df05ca570ec7b2ec0b1dc69f6efdbe436c5e",
+    "api_tree_sha_as_returned": "7726df05ca570ec7b2ec0b1dc69f6efdbe436c5e",
+    "files": [
+      {
+        "path": "METHODOLOGY.md",
+        "git_blob_sha1": "2f8db2e84b701e73151a7507ef42585aa8e805c6",
+        "sha256": "bbe15a7e6edf419f348564542fec22200b4f0ce30a0f801d620fbd2e406c14f3",
+        "size": 9590,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "cf70af1df5f9263f9f11504b19aac7293f599505",
+        "sha256": "b0b94dec027087b25bae609a8104b496314b34c5095f474593597bac9639e333",
+        "size": 5651,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/cpp.ql",
+        "git_blob_sha1": "5371f374a1ea7ec0ce95a904f7b39da62957abdd",
+        "sha256": "efd574081969d2bdd19e1756302d843fdbf936968a72de62eb24d66db43efc0c",
+        "size": 3503,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/go.ql",
+        "git_blob_sha1": "7e6efaf65d2791e1958835b4392bf7fc434b4508",
+        "sha256": "d3fa419af29bb15bf81510c54bc1ce0cf55f5b7adbdbf79cc2c8cd922d2365fb",
+        "size": 2018,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/java.ql",
+        "git_blob_sha1": "88fb0814dd6590d356745011e74aba4c34c4e685",
+        "sha256": "ee4a92a5cbde67304d17a2c5fb739fe9acf1d39ebac9406e3d3a2c1cbbbb19c1",
+        "size": 2365,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/javascript.ql",
+        "git_blob_sha1": "c40054374b78cbb745a29ddace8e1187f5755099",
+        "sha256": "b6ceaa3acb6ba6fa89903c14c8fd3aa7cf48316e6b2588dcacae51bb423b3526",
+        "size": 1733,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/python.ql",
+        "git_blob_sha1": "2faaa4b9725c0a9a249df5afe85be256a34d05e0",
+        "sha256": "135ec55760e1e827065e34b002c6d954b4c4293d07233a93d7ff31d9d97528a9",
+        "size": 2447,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/cpp.yaml",
+        "git_blob_sha1": "da6f2c5e6b32b640c9e14869a1dfe2cbaa90b2f6",
+        "sha256": "41f034c9a5967cc3b87bf5880243ed21f633017111489ee843dd5d002271b10a",
+        "size": 2795,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/go.yaml",
+        "git_blob_sha1": "61d5ae0ef75140b20ea6c6bc0f5751563e54e024",
+        "sha256": "8a8257eb8e0a7150cb7dffa2b64813691fd560de24b0f85fa6640ec2bfc6595f",
+        "size": 1797,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/java.yaml",
+        "git_blob_sha1": "a52c86a3664f029eb349e10bc50d1e5c7181050b",
+        "sha256": "5be3990b052bc9ce5e1aa203d1f3c93cb3cde7d46eba463c24c661fc6b342902",
+        "size": 2011,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/javascript.yaml",
+        "git_blob_sha1": "4e233ba32e278dc490ddad36e296ddacae070b7e",
+        "sha256": "2f97e3545fcac449820c2d058bcb9cc36822e238b6249efa3a5dcb4f5f576912",
+        "size": 1715,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/python.yaml",
+        "git_blob_sha1": "70d61aafab24efc30455bf341a173e5f88e0724e",
+        "sha256": "c1ce15574569d45555d582707db030b226763d81b2d521d9e61d6067440948f2",
+        "size": 2002,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/variant-report-template.md",
+        "git_blob_sha1": "42c78cc4dda57b619ebfdc02cc5f64d047bd67b6",
+        "sha256": "03333c762318a89dd819784a62695f7660713479a5009a15189314400836202f",
+        "size": 1356,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4822dc38767c426fea909405d92b21e0c92c4fea",
+    "computed_tree_sha": "30e3e125f907fb265e0cddecf2616e0a7a43d6dd",
+    "api_tree_sha_as_returned": "30e3e125f907fb265e0cddecf2616e0a7a43d6dd",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8f58f54b1883110f1a38a51c9360d4b9d1b195a8",
+        "sha256": "7b6b78e499bcb88d05c68254ffc91ebc28edabf4e9808adcc40e2628ebb9407e",
+        "size": 3903,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reporting.md",
+        "git_blob_sha1": "61633f837c8a0e918b47af26fd5623224a623620",
+        "sha256": "07a1d8f25537ec3da44b7c6e484bf922ab2eeaee733ced6df423df7bea517906",
+        "size": 1547,
+        "mode": "100644"
+      },
+      {
+        "path": "references/root-cause.md",
+        "git_blob_sha1": "243834f6bab0ad7bbc8cdd7a39cba6f565415f27",
+        "sha256": "b4556f22adadc894b22c8df01d98bb94596d4e035386c780fbca73594014660c",
+        "size": 4209,
+        "mode": "100644"
+      },
+      {
+        "path": "references/searching.md",
+        "git_blob_sha1": "b9427a66ce3005246e4db89a575e250b993837d4",
+        "sha256": "22834e63e7412220feec9bd1d4cfd9298c17679489ad66d13be450928bf5d158",
+        "size": 4585,
+        "mode": "100644"
+      },
+      {
+        "path": "references/triage.md",
+        "git_blob_sha1": "80f36ab221ac9b367f0226098bf30910014c4012",
+        "sha256": "f1f0277096ae41641be311c783f2f7a1c677c2c6b6e8a485986d8d5ed7fa3653",
+        "size": 3587,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/cpp.ql",
+        "git_blob_sha1": "5371f374a1ea7ec0ce95a904f7b39da62957abdd",
+        "sha256": "efd574081969d2bdd19e1756302d843fdbf936968a72de62eb24d66db43efc0c",
+        "size": 3503,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/go.ql",
+        "git_blob_sha1": "7e6efaf65d2791e1958835b4392bf7fc434b4508",
+        "sha256": "d3fa419af29bb15bf81510c54bc1ce0cf55f5b7adbdbf79cc2c8cd922d2365fb",
+        "size": 2018,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/java.ql",
+        "git_blob_sha1": "88fb0814dd6590d356745011e74aba4c34c4e685",
+        "sha256": "ee4a92a5cbde67304d17a2c5fb739fe9acf1d39ebac9406e3d3a2c1cbbbb19c1",
+        "size": 2365,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/javascript.ql",
+        "git_blob_sha1": "c40054374b78cbb745a29ddace8e1187f5755099",
+        "sha256": "b6ceaa3acb6ba6fa89903c14c8fd3aa7cf48316e6b2588dcacae51bb423b3526",
+        "size": 1733,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/codeql/python.ql",
+        "git_blob_sha1": "2faaa4b9725c0a9a249df5afe85be256a34d05e0",
+        "sha256": "135ec55760e1e827065e34b002c6d954b4c4293d07233a93d7ff31d9d97528a9",
+        "size": 2447,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/cpp.yaml",
+        "git_blob_sha1": "da6f2c5e6b32b640c9e14869a1dfe2cbaa90b2f6",
+        "sha256": "41f034c9a5967cc3b87bf5880243ed21f633017111489ee843dd5d002271b10a",
+        "size": 2795,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/go.yaml",
+        "git_blob_sha1": "61d5ae0ef75140b20ea6c6bc0f5751563e54e024",
+        "sha256": "8a8257eb8e0a7150cb7dffa2b64813691fd560de24b0f85fa6640ec2bfc6595f",
+        "size": 1797,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/java.yaml",
+        "git_blob_sha1": "a52c86a3664f029eb349e10bc50d1e5c7181050b",
+        "sha256": "5be3990b052bc9ce5e1aa203d1f3c93cb3cde7d46eba463c24c661fc6b342902",
+        "size": 2011,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/javascript.yaml",
+        "git_blob_sha1": "4e233ba32e278dc490ddad36e296ddacae070b7e",
+        "sha256": "2f97e3545fcac449820c2d058bcb9cc36822e238b6249efa3a5dcb4f5f576912",
+        "size": 1715,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/semgrep/python.yaml",
+        "git_blob_sha1": "70d61aafab24efc30455bf341a173e5f88e0724e",
+        "sha256": "c1ce15574569d45555d582707db030b226763d81b2d521d9e61d6067440948f2",
+        "size": 2002,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/variant-report-template.md",
+        "git_blob_sha1": "42c78cc4dda57b619ebfdc02cc5f64d047bd67b6",
+        "sha256": "03333c762318a89dd819784a62695f7660713479a5009a15189314400836202f",
+        "size": 1356,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "METHODOLOGY.md",
+    "SKILL.md",
+    "references/reporting.md",
+    "references/root-cause.md",
+    "references/searching.md",
+    "references/triage.md"
+  ],
+  "old_commit": "82e8e0ad7791805662aa5570230c64c8b8b9ee16",
+  "new_commit": "4822dc38767c426fea909405d92b21e0c92c4fea",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "variant-analysis: convert the skill to a dynamic workflow  (#232)\n\n* Converted skill into a dynamic workflow. Still working on the tests\n\n* Added gradio test with injected vulns\n\n* Fix grader\n\n* Fix trailing whitespaces\n\n* Bump version number\n\n* Remove trailing whitespaces from a git patch...\n\n* Run pre-commit\n\n* Add claude evals\n\n* Address PR claude review\n\n* variant-analysis: fix problems found by testing #232 before release (#237)\n\n* variant-analysis: fix three workflow defects found in a cold run\n\nProse args killed the run on the first line. The model wrote\n`bug: ...; root: /path; lang: python` instead of an object, and the invocation\ndied with `args.bug is required` before a single agent started. Parse that\nshape, and say in whenToUse that args is a JSON object.\n\nThe baseline command was not shell-safe. The pattern went through\nJSON.stringify, which looks like quoting but yields a double-quoted string where\n$(...) and backticks still expand -- and the pattern is model-generated from\ncodebase content. The root was not quoted at all, so any path with a space broke\nthe command. Single-quote both.\n\nThe sweep had no size floor. It spawned 25 agents against a 5-file fixture,\nre-reading in parallel what one agent holds at once. The eval's own negative\nresult already said so: five small synthetic codebases showed no difference\nbetween the workflow and the skill alone because the fan-out had nothing to buy.\nBelow 40 source files, sweep two axes in one round -- 7 agents on the same\nfixture. The baseline gate reports the file count, and a single-round sweep is\nnow reported as the deliberate bound it is rather than as a truncated one.\n\nThe report stage now has to emit `**Location:**` fields. Without them the\ngrader falls through to a permissive path its own docstring calls over-counting,\nwhich is what happened on the cold run: a real report scored through the\nfallback and nothing said so.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* variant-analysis: score construct spans, not line proximity\n\nA cold run scored a correct report as wrong. The report flagged a helper at\nlines 4 and 7 of a file whose safe site began at line 10; LINE_WINDOW=30\ncredited it as the safe site being reported as real, and the run failed. Two\ndifferent functions three lines apart, conflated.\n\nGround truth now records a `span` per site -- the function's real line range --\nand a reported location has to fall inside it. verify_fixtures.py fails if a\nspan stops containing its own anchor line, so a stale hand-edit cannot\nreintroduce the failure silently. LINE_WINDOW drops 30 -> 12 as the fallback for\nentries carrying no span.\n\nLine-less mentions now lean opposite ways for recall and precision, and both\ndirections favour not failing a run that did the work. A report naming the right\nfile without a line is still credited for recall. It is no longer treated as\nclaiming the decoy: the decoy's file in the real fixture also holds a genuine\nupstream finding, so any run reporting the real one without a line number was\nmarked as having flagged the decoy.\n\nThree self-tests added, all reduced from the cold run. Both fixes were\nmutation-checked: reverting the span logic and reverting require_line each fail\nthe suite.\n\nAlso removeprefix(\"./\") for lstrip(\"./\"), which took a character set and ate the\nleading dot of paths like .github/scripts/x.py.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* variant-analysis: surface loose scoring, plumb --strict-decoy, parse the workflow\n\nsummarize.py prints a `loose` column counting runs scored through score.py's\npermissive fallback. A score built on it is worth less than one built on\nlocation fields, and that was invisible.\n\n--strict-decoy was documented in the README and implemented in score.py but\nunreachable from eval.sh, which exited 2 on the unknown option. Plumbed through.\nThe usage header also advertised `--codebase go`, left over from the five\nsynthetic codebases; gradio is the only one, and passing both modes needs\nquoting.\n\nrun_fixtures.sh now runs `node --check` on the workflow. It is the only\nJavaScript in the repo and nothing in CI parses it, so a syntax error would\nsurface only inside a paid eval.sh run. Skipped, not failed, where node is\nabsent.\n\nsetup-gradio.sh reported \"the checkout is not at $SHA\" for any failed\napply --check, including a checkout at the right SHA whose patch is already\npartly applied -- reachable, since the unpatched probe only looks at one of the\nthree files. Name both causes and the recovery.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* variant-analysis: drop eval graders no arm can fail, correct the firing claim\n\nThe skill-not-fired graders on cases 06-07 set `arm: both`, which makes them\nscored, and neither arm can fail them: the baseline arm has no plugin so Skill\nnever fires, and the with-plugin arm does not fire on these shapes either. The\nsuite's own guidance says a grader no arm can fail is worth deleting rather than\nreweighting. The type: llm grader on each case carries the real check.\n\nThe \"skill does not fire\" limitation was overstated as a property of the skill.\nA 9-run cold run across three prompt shapes locates the actual cause: it fires\n2/3 on a conversational prompt and 3/3 on the description's trigger language\nwhen there is a codebase on disk, and 0/3 on an inline candidate panel -- which\nis the shape of every case in this directory. With nothing to sweep, declining\nthe skill is arguably correct. Giving these cases files on disk would fix the\nsaturated delta and the trigger rate at once; that is the highest-value change\nleft here and it is not a small one.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* variant-analysis: describe the trigger that actually fires\n\nThe skill description was generic where the measured trigger is specific: a bug\njust found in a named file, and the question of where else it occurs. It now\nleads with that situation and names the bare conversational form, which is what\nfired 2/3 in a cold run. The old description was diagnosed as the reason the\nskill never fired; it was not, but it was still vague.\n\nThe README's entry-point table claimed the skill is \"best for a narrow search\nwhere you want a say in each generalization\" and triggers on its own. Measured\non a real codebase, Claude reaches for the workflow in 4 of 5 firing runs and\nthe skill in 1 of 9 -- so ask for the skill by name if you want to weigh in.\nAlso records the size floor, and that args is a JSON object.\n\ntests/README.md documents spans, the recall/precision asymmetry on line-less\nmentions, and the loose column.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Document dynamic workflow layout; variant-analysis 2.0.1\n\nAGENTS.md described only skills/<skill>/workflows/, the prose step-by-step kind,\nso the plugin-root workflows/*.js layout that ships as /<plugin>:<workflow> was\nundocumented -- and variant-analysis is the first plugin in the repo to use it.\nNames both, says which one a \"Phase 1 / for each / repeat until\" SKILL.md\nbelongs in, and records that ${CLAUDE_PLUGIN_ROOT} is unavailable inside a\nworkflow script.\n\nVersion bumped 2.0.0 -> 2.0.1 since these are behavioural changes on top of an\nunmerged 2.0.0. Squash it back to 2.0.0 if you would rather ship one version.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* variant-analysis: close gaps found by review of the fix PR\n\nA line-less claim on the safe site's file fell into the gap between the strict\naccusation check and the permissive examined check: it stayed out of\ndecoy_reported_as_real (correct -- it names no line), matched `known`\npermissively so it dropped out of unreviewed_findings, and then satisfied\ndecoy_examined_and_ruled_out. A run was credited with correctly ruling out the\nsite it had just listed under Findings, and passed even under --strict-decoy.\nNow surfaced as decoy_claimed_without_line, kept visible in\nunreviewed_findings, and it blocks the ruled-out credit without counting as a\nfalse positive.\n\nThe small-tree bound could drop expansion axes with no record in the artifact.\nWith axesPerRound=2 and one round, a 6-axis root cause left four\ngeneralizations unattempted and only the live progress log said so; REPORT.md\nwas indistinguishable from an exhausted sweep. The report prompt and the return\nvalue now carry swept/total axes and name the unswept ones.\n\nSpans are exact def..return, which left no room for a decorator directly above\na def. RECALL_PAD=3 covers that on the recall side only; the safe site gets no\nslack, since padding it walks back into the conflation the spans fixed.\n\nverify_fixtures.py now requires a span on every entry and validates the range.\nWithout that, a dropped span silently reverted the grader to a proximity window\nwith a green suite, while ground-truth's own comment documented a guarantee that\nno longer held.\n\nsource_file_count was `rg --files | wc -l`, which counts assets and fixtures.\nA 25-source-file project behind 300 fixtures reported 325 and missed the floor\nit was built for. The prompt and the schema now ask for source files only.\n\n`node --check` runs against an .mjs copy. On a .js file whose first statement is\n`export`, it only passes on Node ~22.7+, and lint.yml pins no Node version.\n\nAlso: pinned the extraction-mode labels as constants with a self-test, so\nrenaming one cannot leave summarize.py's loose column reading zero forever;\nfixed a self-test fixture whose span did not contain its own anchor line, a\nshape verify_fixtures.py now rejects; dropped a dead condition in parseArgs;\nthird-person skill description per AGENTS.md.\n\nscore.py self-test 16 -> 18 checks, summarize.py 6 -> 7. The label-rename and\nspan-removal mutations were both confirmed to fail the suite.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix node check. Claude workflows have syntax like top-level returns that will trip the linter\n\n* Add trailing newline\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>\nCo-authored-by: Clinton Thomas <1033162+KernelClint@users.noreply.github.com>\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-05T13:13:41Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/82e8e0ad7791805662aa5570230c64c8b8b9ee16...4822dc38767c426fea909405d92b21e0c92c4fea",
+  "commit_url": "https://github.com/trailofbits/skills/commit/4822dc38767c426fea909405d92b21e0c92c4fea",
+  "skill_directory": "plugins/variant-analysis/skills/variant-analysis",
+  "local_directory": "verified_real_update_pairs/OPU-0388",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0388",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

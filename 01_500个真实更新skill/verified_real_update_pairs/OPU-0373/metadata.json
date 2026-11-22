@@ -1,0 +1,166 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/trailmark/skills/trailmark-finding-triage/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "ffbc7e4432725e2d78b2",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "0f44fe01dcb00bd6929b4ba82a257d305de04554",
+    "computed_tree_sha": "06196afab5acb6d2659e2699ac6ed9aa639cd7b8",
+    "api_tree_sha_as_returned": "06196afab5acb6d2659e2699ac6ed9aa639cd7b8",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "62dbe599e037c7fbe9bb3559088048d74ebf92f6",
+        "sha256": "9f76e25b1ef98076e462dcac78afb488825bdab4d4d9fd5ffb74decc419c6989",
+        "size": 5813,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "6a59b3cf1efabdc710a838bae301a11aa400f3b9",
+        "sha256": "39998c99587b2a460c46df319c9196bb1f0920431ad3a391aa8f50d6f75d6116",
+        "size": 245,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/input-normalization.md",
+        "git_blob_sha1": "575aa254dd1f9bc345cb39bd69ed55d2e5a362e9",
+        "sha256": "12ff637d5817f93db5c1b29f2ae6e0789cbf720e3c537576f4be035a02bca99c",
+        "size": 1842,
+        "mode": "100644"
+      },
+      {
+        "path": "references/output-format.md",
+        "git_blob_sha1": "83503812027ca7c374af639bb08d3054bfc47eed",
+        "sha256": "69deec7c2510445db418ec9f05a8c29eaee35d6bb94041167814b13b1c85a35d",
+        "size": 1756,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-recipes.md",
+        "git_blob_sha1": "6a7d280ebaaff12cea3398fc7566479fd35b15ca",
+        "sha256": "d0c948a22af7015f6716f853b9be8e7b38c13b31ae3f3a2813ae8d86b032f9cc",
+        "size": 2228,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a12ea6a1afd751664540a48f83ba1c5654e9a238",
+    "computed_tree_sha": "b657204e3860aa9fc02f167ed799d5c0f8826846",
+    "api_tree_sha_as_returned": "b657204e3860aa9fc02f167ed799d5c0f8826846",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "05ecc4e193d2bca2b4d6b93c1bd17eb349098d11",
+        "sha256": "51c7b9346866b1350295e84fb1cf23f9efee523e67fc5d6cb49631b242ddb4f8",
+        "size": 7803,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "6a59b3cf1efabdc710a838bae301a11aa400f3b9",
+        "sha256": "39998c99587b2a460c46df319c9196bb1f0920431ad3a391aa8f50d6f75d6116",
+        "size": 245,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/input-normalization.md",
+        "git_blob_sha1": "575aa254dd1f9bc345cb39bd69ed55d2e5a362e9",
+        "sha256": "12ff637d5817f93db5c1b29f2ae6e0789cbf720e3c537576f4be035a02bca99c",
+        "size": 1842,
+        "mode": "100644"
+      },
+      {
+        "path": "references/output-format.md",
+        "git_blob_sha1": "83503812027ca7c374af639bb08d3054bfc47eed",
+        "sha256": "69deec7c2510445db418ec9f05a8c29eaee35d6bb94041167814b13b1c85a35d",
+        "size": 1756,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-recipes.md",
+        "git_blob_sha1": "ec251694db8df5d511cb53ca01fff457914a8cdc",
+        "sha256": "1f4ea3a9f3ef97a8b1f387f9c52888a15bcb4e111a84823370a6b593440b6f57",
+        "size": 2432,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/evidence_packet.py",
+        "git_blob_sha1": "063603f68e2198964c876bd98abb0504e97a19e3",
+        "sha256": "7dbd5cbd10bc34154468f6d9d25941c4b8d7b4612e967beb0d64b7241b3d8c70",
+        "size": 10476,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_evidence_packet.py",
+        "git_blob_sha1": "d6e904711856be91ee76a22506e085d2557ed7f3",
+        "sha256": "5f268588bf83fcaab7e6ab67fb2089ed38db61e92efeef87e4c8fbc4bdaf9f89",
+        "size": 10521,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/query-recipes.md",
+    "scripts/evidence_packet.py",
+    "scripts/test_evidence_packet.py"
+  ],
+  "old_commit": "0f44fe01dcb00bd6929b4ba82a257d305de04554",
+  "new_commit": "a12ea6a1afd751664540a48f83ba1c5654e9a238",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Maker Week: fix trailmark-finding-triage's broken query recipe (+ one-call evidence packet) (#360)\n\n* fix(trailmark-finding-triage): make the subgraph recipes work on Trailmark 0.5\n\nThe taint, privilege-boundary, entrypoint-reachable and blast-radius recipes\nbuilt `set(engine.subgraph(...))`. Trailmark 0.5 returns node dicts from\nsubgraph(), so the recipe raised `TypeError: unhashable type: 'dict'` and the\nmodel had to improvise the membership checks by hand. Compare node ids instead.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n* feat(trailmark-finding-triage): build the evidence packet in one call\n\nAdd scripts/evidence_packet.py, which builds the Trailmark graph and\npreanalysis once and returns the Graph Evidence fields (bound node, all\nmatches, entrypoint paths with trust level, subgraph membership, callers,\ncallees, downstream) for one or more file/line findings. SKILL.md gets a\nshortcut section for Steps 2-4; the manual steps stay for function-name and\nSARIF inputs. The script gathers facts only; the verdict stays with the model.\n\nTests cover binding (exact, nested, ambiguous, containers), path handling,\nargument and empty-graph errors, --out, and run every query-recipes.md block\nagainst a real Trailmark 0.5 graph.\n\nBump trailmark to 0.12.0.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-10-14T17:50:02Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/0f44fe01dcb00bd6929b4ba82a257d305de04554...a12ea6a1afd751664540a48f83ba1c5654e9a238",
+  "commit_url": "https://github.com/trailofbits/skills/commit/a12ea6a1afd751664540a48f83ba1c5654e9a238",
+  "skill_directory": "plugins/trailmark/skills/trailmark-finding-triage",
+  "local_directory": "verified_real_update_pairs/OPU-0373",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0373",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

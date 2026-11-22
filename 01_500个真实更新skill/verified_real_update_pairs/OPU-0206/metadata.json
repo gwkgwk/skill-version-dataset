@@ -1,0 +1,93 @@
+{
+  "repository": "expo/skills",
+  "primary": "plugins/expo/skills/expo-project-structure/SKILL.md",
+  "pinned_commit": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+  "repository_license": "MIT",
+  "key": "ed655a7535894874b6ce",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+    "computed_tree_sha": "ab1f880ccaffe7c6e9d5a9a8014d2f6825f671c4",
+    "api_tree_sha_as_returned": "ab1f880ccaffe7c6e9d5a9a8014d2f6825f671c4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "74ab445dd9eb31c1ac1ac449e59532c907b84944",
+        "sha256": "2e1e2d1868f2d335ae1361cd57d21f301229871e3c0497eca477f52b0c6704e7",
+        "size": 6736,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "a4b9ce543aba78fbd7734d4d26be403482c9a8bc",
+        "sha256": "cd7a9387766af254f9d8f691c332606e71273b8dd1c99c949f0934ed693878e0",
+        "size": 316,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+    "computed_tree_sha": "6d66527fff2dbc83bc4a0507efa3d7624348e7b0",
+    "api_tree_sha_as_returned": "6d66527fff2dbc83bc4a0507efa3d7624348e7b0",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8db353d78bf6452fa92501d7ad8b651937de9c12",
+        "sha256": "120b036f702d9f64a996fda7a05e95127602d6f6d707666732abb920b95edb68",
+        "size": 6603,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "a4b9ce543aba78fbd7734d4d26be403482c9a8bc",
+        "sha256": "cd7a9387766af254f9d8f691c332606e71273b8dd1c99c949f0934ed693878e0",
+        "size": 316,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+  "new_commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Ask the user before sending feedback to Expo (#290)",
+  "new_commit_time": "2026-11-14T18:33:50Z",
+  "compare_url": "https://github.com/expo/skills/compare/7582922d039d5a96dc574757d399d22d56370f2b...ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "commit_url": "https://github.com/expo/skills/commit/ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "skill_directory": "plugins/expo/skills/expo-project-structure",
+  "local_directory": "verified_real_update_pairs/OPU-0206",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0206",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

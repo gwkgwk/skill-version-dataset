@@ -1,0 +1,82 @@
+{
+  "sha": "e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "node_id": "C_kwDOQ7RUQ9oAKGUxOWVmYzI3ODg3ZTVmMWE2MzgwYjkxMzVjZGJkYmYxMDY0OGZiYTc",
+  "commit": {
+    "author": {
+      "name": "Larry Osterman",
+      "email": "LarryOsterman@users.noreply.github.com",
+      "date": "2026-07-15T21:49:49Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-07-15T21:49:49Z"
+    },
+    "message": "Add capability and non-hero references for Python skills (#382)\n\n* Add capability and non-hero references for Python skills\n\nSplit from #375: adds references/capabilities.md and\nreferences/non-hero-scenarios.md across ~30 azure-sdk-python skills,\nupdates their SKILL.md files, and refreshes .github/skills symlinks.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCopilot-Session: 9429ad33-6f31-4ec5-ba00-0f11b5afb82e\n\n* Fix create_analyzer to begin_create_analyzer LRO in contentunderstanding non-hero-scenarios\n\n* Fix get_supported_languages to use TextTranslationClient in translation-document non-hero-scenarios\n\n* Clarify TextTranslationClient default endpoint in supported languages example\n\n* Fix instrumentation_options API and supported libraries in azure-monitor-opentelemetry-py non-hero-scenarios\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply remaining changes\n\n* Fix invalid token acquisition example in m365 capabilities reference\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Replace placeholder non-hero scenario files with actionable content\n\nAdd retry, timeout, pagination, cleanup, and async examples for:\n- azure-ai-transcription-py\n- azure-messaging-webpubsubservice-py\n- azure-ai-language-conversations-py\n\n* Fix variable naming and list iteration in new non-hero scenarios\n\n* Replace Azure SDK boilerplate checklist with Pydantic-specific checks in capabilities.md\n\n* Refine Pydantic checklist: focus v2 patterns item on new code\n\n* Fix fastapi-router-py capabilities checklist: replace Azure SDK boilerplate with FastAPI-specific checks\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Fix remaining open review comments: eventgrid event var, transcription/speech auth, fabric RpSku, keyvault/botservice credential exposure\n\n* Fix Authorization header wording in speech-to-text-rest SKILL.md\n\n* Polish wording per code review: fabric None guard, transcription key comment, speech-to-text auth reference\n\n* Address all open PR review comments\n\n- Fix pnpm-workspace.yaml: resolve esbuild allowBuilds placeholder\n- Fix azure-mgmt-apicenter non-hero: add missing closing parenthesis\n- Fix azure-monitor-opentelemetry SKILL.md: flush() → force_flush()\n- Fix azure-monitor-opentelemetry-exporter SKILL.md: flush() → force_flush()\n- Fix azure-storage-queue non-hero: re-raise instead of silently passing exception\n- Fix azure-identity non-hero: log and re-raise auth errors instead of silently passing\n- Fix azure-ai-contentunderstanding non-hero: AnalysisInput → AnalyzeInput, fix model imports\n- Fix azure-ai-transcription SKILL.md + non-hero: use AzureKeyCredential wrapper\n- Fix m365-agents capabilities.md: complete CopilotClient example end-to-end\n\n* Polish m365-agents capabilities: improve variable names and context manager comment\n\n* Fix remaining review comments and CI pipeline failure\n\n- Delete tests/pnpm-workspace.yaml (caused CI 'packages field missing' error)\n- Delete azure-cosmos-py/scripts/setup_cosmos_container.py (outside PR scope)\n- Fix pydantic-models-py: clarify model_validate vs direct construction\n- Fix m365-agents-py: remove activity.conversation.id (UnboundLocalError on empty stream)\n- Fix azure-messaging-webpubsubservice-py: use close_user_connections, don't log bearer token URL\n- Fix azure-messaging-webpubsubservice-py acceptance-criteria: update connection close example\n- Fix azure-ai-transcription-py: correct LROPoller timeout pattern (done()+deadline loop)\n- Fix azure-ai-transcription-py acceptance-criteria: remove DefaultAzureCredential anti-pattern\n- Fix azure-ai-translation-text-py: use InputTextItem instead of raw strings in all bodies\n- Fix azure-ai-ml-py: remove unused Pipeline import\n- Fix azure-ai-language-conversations-py: fix orchestration intents (dict keyed by name)\n\n* Move import time to top of transcription timeout example\n\n* Fix transcription acceptance criteria: add DefaultAzureCredential as valid auth, remove incorrect anti-pattern\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+    "tree": {
+      "sha": "7eab353db81fc48b5b16758b459b645b0e8c0d5c",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/7eab353db81fc48b5b16758b459b645b0e8c0d5c"
+    },
+    "url": "https://api.github.com/repos/microsoft/skills/git/commits/e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqWAB9CRC1aQ7uu5UhlAAAmZMQAFjFLYOMd6esaGT8ZS50CafK\nFLTvTeMoYloDCYcG6R28bE4XcTbu8awc6MXDDIqGLys3NCBqwToiy9UOQaHZ7WYq\nQ9K0P1Uq95XAWcGHW0dJ7wUkRo1foCrToTNeoAd55oItyZwOHo0Hy1Cvcd5jMcio\n4SwGozeBxKS252WCWVbQwUO427jJS1eX7HSTzuqiCo4xA0LjT0VmaEeZw0a/42Lu\ni0EoiY4eHqNwrfZIel9c1Ypj+Wmv0stbIqhqjSDMkR6xOuKY+Cqv7YDZc345ISIh\nj5yturz22+nqtGWy0hClHEnp1aMqM/WDz0SQrZyr9BdagDS1Hi70DwAw8l8N7yoo\nfwCG945W0H3uanitaj3Fnap2FwR2lj9CaCKIZDVALTkJAziWXevdNU+5pgcoywqw\nVuTc5apIiV5EAtJmIJ0Rd+MNn7kBKbI6PuH22sabAkv9xrOFpnRX8sG1/W79Eex9\ng3MAdWx50nRDN0o8/aahEk0kR/uqxv7NWQ9KXrIizr/XHF+zM9/aNJzH7YMMtfpb\nkFfeKxnyOtdkzjlLD8IhvBLkRZAMpaIG9N5Lq+hOt3w0T4KMPjBbxM9mNVI5iECF\nJDc2mCsnUufOlRRAxJbMflnh9836QxOXYP9qCBrVBPYVzdOHBafAMV+ZQljyIGGy\nHXSSPBc4cHaDHFOSUxrN\n=sEDH\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 7eab353db81fc48b5b16758b459b645b0e8c0d5c\nparent 40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6\nauthor Larry Osterman <LarryOsterman@users.noreply.github.com> 1784152189 -0700\ncommitter GitHub <noreply@github.com> 1784152189 -0700\n\nAdd capability and non-hero references for Python skills (#382)\n\n* Add capability and non-hero references for Python skills\n\nSplit from #375: adds references/capabilities.md and\nreferences/non-hero-scenarios.md across ~30 azure-sdk-python skills,\nupdates their SKILL.md files, and refreshes .github/skills symlinks.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCopilot-Session: 9429ad33-6f31-4ec5-ba00-0f11b5afb82e\n\n* Fix create_analyzer to begin_create_analyzer LRO in contentunderstanding non-hero-scenarios\n\n* Fix get_supported_languages to use TextTranslationClient in translation-document non-hero-scenarios\n\n* Clarify TextTranslationClient default endpoint in supported languages example\n\n* Fix instrumentation_options API and supported libraries in azure-monitor-opentelemetry-py non-hero-scenarios\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply remaining changes\n\n* Fix invalid token acquisition example in m365 capabilities reference\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Replace placeholder non-hero scenario files with actionable content\n\nAdd retry, timeout, pagination, cleanup, and async examples for:\n- azure-ai-transcription-py\n- azure-messaging-webpubsubservice-py\n- azure-ai-language-conversations-py\n\n* Fix variable naming and list iteration in new non-hero scenarios\n\n* Replace Azure SDK boilerplate checklist with Pydantic-specific checks in capabilities.md\n\n* Refine Pydantic checklist: focus v2 patterns item on new code\n\n* Fix fastapi-router-py capabilities checklist: replace Azure SDK boilerplate with FastAPI-specific checks\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Fix remaining open review comments: eventgrid event var, transcription/speech auth, fabric RpSku, keyvault/botservice credential exposure\n\n* Fix Authorization header wording in speech-to-text-rest SKILL.md\n\n* Polish wording per code review: fabric None guard, transcription key comment, speech-to-text auth reference\n\n* Address all open PR review comments\n\n- Fix pnpm-workspace.yaml: resolve esbuild allowBuilds placeholder\n- Fix azure-mgmt-apicenter non-hero: add missing closing parenthesis\n- Fix azure-monitor-opentelemetry SKILL.md: flush() → force_flush()\n- Fix azure-monitor-opentelemetry-exporter SKILL.md: flush() → force_flush()\n- Fix azure-storage-queue non-hero: re-raise instead of silently passing exception\n- Fix azure-identity non-hero: log and re-raise auth errors instead of silently passing\n- Fix azure-ai-contentunderstanding non-hero: AnalysisInput → AnalyzeInput, fix model imports\n- Fix azure-ai-transcription SKILL.md + non-hero: use AzureKeyCredential wrapper\n- Fix m365-agents capabilities.md: complete CopilotClient example end-to-end\n\n* Polish m365-agents capabilities: improve variable names and context manager comment\n\n* Fix remaining review comments and CI pipeline failure\n\n- Delete tests/pnpm-workspace.yaml (caused CI 'packages field missing' error)\n- Delete azure-cosmos-py/scripts/setup_cosmos_container.py (outside PR scope)\n- Fix pydantic-models-py: clarify model_validate vs direct construction\n- Fix m365-agents-py: remove activity.conversation.id (UnboundLocalError on empty stream)\n- Fix azure-messaging-webpubsubservice-py: use close_user_connections, don't log bearer token URL\n- Fix azure-messaging-webpubsubservice-py acceptance-criteria: update connection close example\n- Fix azure-ai-transcription-py: correct LROPoller timeout pattern (done()+deadline loop)\n- Fix azure-ai-transcription-py acceptance-criteria: remove DefaultAzureCredential anti-pattern\n- Fix azure-ai-translation-text-py: use InputTextItem instead of raw strings in all bodies\n- Fix azure-ai-ml-py: remove unused Pipeline import\n- Fix azure-ai-language-conversations-py: fix orchestration intents (dict keyed by name)\n\n* Move import time to top of transcription timeout example\n\n* Fix transcription acceptance criteria: add DefaultAzureCredential as valid auth, remove incorrect anti-pattern\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+      "verified_at": "2026-07-15T21:49:50Z"
+    }
+  },
+  "url": "https://api.github.com/repos/microsoft/skills/commits/e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "html_url": "https://github.com/microsoft/skills/commit/e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "comments_url": "https://api.github.com/repos/microsoft/skills/commits/e19efc27887e5f1a6380b9135cdbdbf10648fba7/comments",
+  "author": {
+    "login": "LarryOsterman",
+    "id": 8220172,
+    "node_id": "MDQ6VXNlcjgyMjAxNzI=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8220172?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LarryOsterman",
+    "html_url": "https://github.com/LarryOsterman",
+    "followers_url": "https://api.github.com/users/LarryOsterman/followers",
+    "following_url": "https://api.github.com/users/LarryOsterman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LarryOsterman/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/LarryOsterman/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/LarryOsterman/subscriptions",
+    "organizations_url": "https://api.github.com/users/LarryOsterman/orgs",
+    "repos_url": "https://api.github.com/users/LarryOsterman/repos",
+    "events_url": "https://api.github.com/users/LarryOsterman/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/LarryOsterman/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6",
+      "url": "https://api.github.com/repos/microsoft/skills/commits/40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6",
+      "html_url": "https://github.com/microsoft/skills/commit/40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6"
+    }
+  ]
+}

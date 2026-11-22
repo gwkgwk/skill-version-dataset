@@ -1,0 +1,117 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/ads/google-mobile-ads-banner/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "a770898402a4ca289c63",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "777fb8e194b9941c74c85f17b10202614ef4e435",
+    "computed_tree_sha": "d7e6258b2170560bfbe94b75649c140ba79acad1",
+    "api_tree_sha_as_returned": "d7e6258b2170560bfbe94b75649c140ba79acad1",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "89490ef8ae0c948f05021722641883aa2b73174c",
+        "sha256": "4676c259224b87570de976ecfdeae8d75475ab4f56031bada9851930925ef138",
+        "size": 1955,
+        "mode": "100644"
+      },
+      {
+        "path": "references/android-banner.md",
+        "git_blob_sha1": "a9515ba4a6ba2013cd1c148fc831eb7bba0e1818",
+        "sha256": "1dacfe0c018dcb7733013a18117e14b0f7e274017ab7f90602077c5a5623f741",
+        "size": 3133,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ios-banner.md",
+        "git_blob_sha1": "c5a17027bd69f12b0c62f6868d72f13f46f9d30d",
+        "sha256": "36fcaa14873566e11d30393ebd60d1532d5bb2b69e5632394025d7e95996feee",
+        "size": 1884,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "92aa4282b6f7501cb25694e51901b963842f391e",
+    "computed_tree_sha": "a04fc52a6f59d40ad793fb670140eea6ab167dd3",
+    "api_tree_sha_as_returned": "a04fc52a6f59d40ad793fb670140eea6ab167dd3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "cab25b32d05b5e66e1bb87a947ef2678c63cbba3",
+        "sha256": "b2e9654757e8fbfbd7994998f4ff7259c4f1d9b1c0676127d3c4c4aaaf22b844",
+        "size": 1803,
+        "mode": "100644"
+      },
+      {
+        "path": "references/android-banner.md",
+        "git_blob_sha1": "7f9df995880fc73e0dd1ac16ea193aa1e64735cd",
+        "sha256": "227ac6148b95a57bb1027cf58fcc09a1742f5246143c27aa280f0a29dfecde9b",
+        "size": 3040,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ios-banner.md",
+        "git_blob_sha1": "14d7b2ed235075ca2704abe1b1ac259b09ec9229",
+        "sha256": "58dc5e806e3b8172636c26f216eb097de7de3bea6a4266fdd454d287668b885f",
+        "size": 1786,
+        "mode": "100644"
+      },
+      {
+        "path": "references/unity-banner.md",
+        "git_blob_sha1": "634a896418a8ec89d81ad1146cccdfafe32b7bf1",
+        "sha256": "118e885736003b47b42a7b825243f0215d11cdf9cb30c7e7f5042b324b417409",
+        "size": 3204,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/android-banner.md",
+    "references/ios-banner.md",
+    "references/unity-banner.md"
+  ],
+  "old_commit": "777fb8e194b9941c74c85f17b10202614ef4e435",
+  "new_commit": "92aa4282b6f7501cb25694e51901b963842f391e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "No public description\n\nPiperOrigin-RevId: 960497761",
+  "new_commit_time": "2026-08-06T21:24:20Z",
+  "compare_url": "https://github.com/google/skills/compare/777fb8e194b9941c74c85f17b10202614ef4e435...92aa4282b6f7501cb25694e51901b963842f391e",
+  "commit_url": "https://github.com/google/skills/commit/92aa4282b6f7501cb25694e51901b963842f391e",
+  "skill_directory": "skills/ads/google-mobile-ads-banner",
+  "local_directory": "verified_real_update_pairs/OPU-0135",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0135",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/iterate-pr/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "71a271b964f872023118",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "9a85b59acc928789b49907109483f46aee1050cd",
+    "computed_tree_sha": "7f7b01f328d81547916aad511028ddc7c7ced689",
+    "api_tree_sha_as_returned": "7f7b01f328d81547916aad511028ddc7c7ced689",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "20120424b15edb8cc0e2f764e4782b26beb34ebd",
+        "sha256": "dd8b640d87ba3ae34d34188f5fb07f20261e014a50398061f1450f1baff37316",
+        "size": 5004,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "e4bbb28b91d7b9cecb03452bf638bb8d2ee63438",
+        "sha256": "822b1b18a9140bd79f41f217eae3bc4dde816314553e18b44cd3f95bafcf75af",
+        "size": 5225,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_pr_checks.py",
+        "git_blob_sha1": "9b19493119e1640d807483d66d15de6145bb56ed",
+        "sha256": "f028ff19a20317039238851bcfb4e7caff1847f4a1f717790ec01c1b63379fa9",
+        "size": 9901,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/fetch_pr_feedback.py",
+        "git_blob_sha1": "6186e0b75bba87b860e337cac18a72e00216c3ba",
+        "sha256": "f38cbcb2900fb90e54be2d66146dd34c6a59db02dcf235a36616c71bfeffd5d4",
+        "size": 14742,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/monitor_pr_checks.py",
+        "git_blob_sha1": "797e7924d251d085daaa81dd92b0f5460f06982e",
+        "sha256": "9b1b7bcbb3a9f7b068f225f4c1546344ae4945098f8f4b5d819667ee4b64ca36",
+        "size": 6699,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/reply_to_thread.py",
+        "git_blob_sha1": "51bfa6a21b86e13aedae79dac60af94598ee2a5f",
+        "sha256": "06a4f81df7d99bd6e09a46c9879a4db2752471ba4e4bc199725191bf567d2e17",
+        "size": 5395,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e7a87fa72645158f9b5e722cbb1c7e09266f48f1",
+    "computed_tree_sha": "b4be97617dde6f0a22f015d36cb45a5e74dfe4e5",
+    "api_tree_sha_as_returned": "b4be97617dde6f0a22f015d36cb45a5e74dfe4e5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "679e17ee1c6036ed2b4ffc2402a2733875b37245",
+        "sha256": "d57ecb10e3f0619796a2b71045fbe6725b4ba6cf60aaf63d4c8860a83a83279e",
+        "size": 5036,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "0c6b9266f230c1db148e5668174cb05ea07cc760",
+        "sha256": "0e7a049e467052a29b14731cd434221aff393541c2bd689acda17f164ac43ca6",
+        "size": 5355,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "0bf677f52b5dd4336c820280a30f47aac98da155",
+        "sha256": "5db7b84a710647dc2f349f89c0e1d14fb2005fece3c9cbef0bb0e23baa2c4555",
+        "size": 292,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_pr_checks.py",
+        "git_blob_sha1": "9b19493119e1640d807483d66d15de6145bb56ed",
+        "sha256": "f028ff19a20317039238851bcfb4e7caff1847f4a1f717790ec01c1b63379fa9",
+        "size": 9901,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/fetch_pr_feedback.py",
+        "git_blob_sha1": "6186e0b75bba87b860e337cac18a72e00216c3ba",
+        "sha256": "f38cbcb2900fb90e54be2d66146dd34c6a59db02dcf235a36616c71bfeffd5d4",
+        "size": 14742,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/monitor_pr_checks.py",
+        "git_blob_sha1": "797e7924d251d085daaa81dd92b0f5460f06982e",
+        "sha256": "9b1b7bcbb3a9f7b068f225f4c1546344ae4945098f8f4b5d819667ee4b64ca36",
+        "size": 6699,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/reply_to_thread.py",
+        "git_blob_sha1": "51bfa6a21b86e13aedae79dac60af94598ee2a5f",
+        "sha256": "06a4f81df7d99bd6e09a46c9879a4db2752471ba4e4bc199725191bf567d2e17",
+        "size": 5395,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "SPEC.md",
+    "agents/openai.yaml"
+  ],
+  "old_commit": "9a85b59acc928789b49907109483f46aee1050cd",
+  "new_commit": "e7a87fa72645158f9b5e722cbb1c7e09266f48f1",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(iterate-pr): Enable model invocation (#163)\n\nMake `iterate-pr` explicitly model-invocable in both Claude Code and\nCodex.\n\nClaude now records `disable-model-invocation: false`, while Codex gets\nthe matching `agents/openai.yaml` metadata with\n`policy.allow_implicit_invocation: true` and a focused default prompt.\nThe skill specification records the intended trigger behavior.\n\nThe shared skill-authoring guidance and repository checklist now\ndocument how to keep Claude and Codex invocation policy aligned,\nfollowing the established pattern in `dcramer/agents`.\n\n<!-- junior-request-attribution:start -->\nRequested by **David Cramer** via Junior.\n<!-- junior-request-attribution:end -->\n\n<!-- junior-session-footer:start -->\n<!-- junior-conversation-id:slack%3AC0B595QDZLL%3A1784935323.178399 -->\n\n--\n\n[View Junior\nSession](https://junior-prod.sentry.dev/conversations/slack%3AC0B595QDZLL%3A1784935323.178399)\n\n<!-- junior-session-footer:end -->\n\nCo-authored-by: sentry-junior[bot] <264270552+sentry-junior[bot]@users.noreply.github.com>\nCo-authored-by: David Cramer <david@sentry.io>",
+  "new_commit_time": "2026-07-25T15:44:40Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/9a85b59acc928789b49907109483f46aee1050cd...e7a87fa72645158f9b5e722cbb1c7e09266f48f1",
+  "commit_url": "https://github.com/getsentry/skills/commit/e7a87fa72645158f9b5e722cbb1c7e09266f48f1",
+  "skill_directory": "skills/iterate-pr",
+  "local_directory": "verified_real_update_pairs/OPU-0125",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0125",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

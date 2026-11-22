@@ -1,0 +1,20 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -97,7 +97,7 @@
+ |-----------|----------------------|
+ | API endpoints, routes | `authorization.md`, `authentication.md`, `injection.md` |
+ | Django/DRF views, permission classes, object-level access | Use the `django-access-review` skill if available for access control; otherwise `authorization.md` |
+-| Frontend, templates | `xss.md`, `csrf.md` |
++| Frontend, templates | `xss.md`, `csrf.md`, `modern-threats.md` (DOM clobbering, prototype pollution) |
+ | File handling, uploads | `file-security.md` |
+ | Crypto, secrets, tokens | `cryptography.md`, `data-protection.md` |
+ | Data serialization | `deserialization.md` |
+@@ -108,7 +108,7 @@
+ | CI/CD, dependencies | `supply-chain.md` |
+ | Error handling | `error-handling.md` |
+ | Audit, logging | `logging.md` |
+-| Object merging/cloning, `__proto__`, WebSocket handlers, LLM prompt construction | `modern-threats.md` |
++| Object merging/cloning, `__proto__`, DOM `id`/`name` lookups, WebSocket handlers, LLM prompt construction | `modern-threats.md` |
+ 
+ ### 2. Load Language Guide
+ 

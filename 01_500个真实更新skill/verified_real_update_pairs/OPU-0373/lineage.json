@@ -1,0 +1,82 @@
+{
+  "sha": "a12ea6a1afd751664540a48f83ba1c5654e9a238",
+  "node_id": "C_kwDOQ55KR9oAKGExMmVhNmExYWZkNzUxNjY0NTQwYTQ4ZjgzYmExYzU2NTRlOWEyMzg",
+  "commit": {
+    "author": {
+      "name": "omarinuwa",
+      "email": "omar.inuwa@trailofbits.com",
+      "date": "2026-10-14T17:50:02Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T17:50:02Z"
+    },
+    "message": "Maker Week: fix trailmark-finding-triage's broken query recipe (+ one-call evidence packet) (#360)\n\n* fix(trailmark-finding-triage): make the subgraph recipes work on Trailmark 0.5\n\nThe taint, privilege-boundary, entrypoint-reachable and blast-radius recipes\nbuilt `set(engine.subgraph(...))`. Trailmark 0.5 returns node dicts from\nsubgraph(), so the recipe raised `TypeError: unhashable type: 'dict'` and the\nmodel had to improvise the membership checks by hand. Compare node ids instead.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n* feat(trailmark-finding-triage): build the evidence packet in one call\n\nAdd scripts/evidence_packet.py, which builds the Trailmark graph and\npreanalysis once and returns the Graph Evidence fields (bound node, all\nmatches, entrypoint paths with trust level, subgraph membership, callers,\ncallees, downstream) for one or more file/line findings. SKILL.md gets a\nshortcut section for Steps 2-4; the manual steps stay for function-name and\nSARIF inputs. The script gathers facts only; the verdict stays with the model.\n\nTests cover binding (exact, nested, ambiguous, containers), path handling,\nargument and empty-graph errors, --out, and run every query-recipes.md block\nagainst a real Trailmark 0.5 graph.\n\nBump trailmark to 0.12.0.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+    "tree": {
+      "sha": "6b1dad3766eace2e0dd9be7f27c26648064a2f3e",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/6b1dad3766eace2e0dd9be7f27c26648064a2f3e"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/a12ea6a1afd751664540a48f83ba1c5654e9a238",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz8DKCRC1aQ7uu5UhlAAAEuwQAD5XPVtSgFi8/9zK7NcdYTTF\nT0Ymw1py+q4Em/6W2t6momaXuhbPj/tOazyGsOJj74yFfNBMQi+hhHvCy1GL+fI4\nuIQfH3T9ViCMqQi9Z2w3gAYMMnX4wI49MdGNQZ8Gwu6aYaR6iHVY2UtjzN7yjgu4\nEym5lrtWokcbNI7kpxzvZ3ZF2K7uqHfl1YhZohupqRE33ziqQeoc8N+flWff9S3n\ni7dT0GM/JTuZrqKhATbgcOljAg3Smo1XPcSRbguuMt1HlOuTZZ6V2KrrrLURRyPd\nXNxoFVi7DskZiFOiqlbMJTVkM0dq2C/1SdmMXISMiWOL9r0ora8gJcENt8N3b5L9\nu55svgSnWfZFy7e52bDsHlHTJinZxEZwV/TbSy8TAEW2JaXUB9mMWCotKxz/HYFs\n5PUADXHkuG9FxyPzOzRLZkrehAJdeB0PXI29+mY+nmHL7jlKPHU6YENj01bbzw1l\nx2vYLGOvPq7xMoUkJYL4x3tBvxhgZsac/51P634DVFo0HBoSmX+JhMnguFZHJA2M\nHQfyxvKTjXgpjKNUB7SHVsLnjR2INa6tAOIf138tFPYpO16KxZYkB9Ay1weBr3sA\nCPFnf4T8TMjLlaB7SG7rwJVtQZyBoNEOrNtSo2mFKU4V8++velnkne5BqcDbyqxy\nnyPbsy0m/Q2ZYmXxTiZT\n=LUR+\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 6b1dad3766eace2e0dd9be7f27c26648064a2f3e\nparent 0f44fe01dcb00bd6929b4ba82a257d305de04554\nauthor omarinuwa <omar.inuwa@trailofbits.com> 1792000202 +0100\ncommitter GitHub <noreply@github.com> 1792000202 -0400\n\nMaker Week: fix trailmark-finding-triage's broken query recipe (+ one-call evidence packet) (#360)\n\n* fix(trailmark-finding-triage): make the subgraph recipes work on Trailmark 0.5\n\nThe taint, privilege-boundary, entrypoint-reachable and blast-radius recipes\nbuilt `set(engine.subgraph(...))`. Trailmark 0.5 returns node dicts from\nsubgraph(), so the recipe raised `TypeError: unhashable type: 'dict'` and the\nmodel had to improvise the membership checks by hand. Compare node ids instead.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n* feat(trailmark-finding-triage): build the evidence packet in one call\n\nAdd scripts/evidence_packet.py, which builds the Trailmark graph and\npreanalysis once and returns the Graph Evidence fields (bound node, all\nmatches, entrypoint paths with trust level, subgraph membership, callers,\ncallees, downstream) for one or more file/line findings. SKILL.md gets a\nshortcut section for Steps 2-4; the manual steps stay for function-name and\nSARIF inputs. The script gathers facts only; the verdict stays with the model.\n\nTests cover binding (exact, nested, ambiguous, containers), path handling,\nargument and empty-graph errors, --out, and run every query-recipes.md block\nagainst a real Trailmark 0.5 graph.\n\nBump trailmark to 0.12.0.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+      "verified_at": "2026-10-14T17:50:03Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/a12ea6a1afd751664540a48f83ba1c5654e9a238",
+  "html_url": "https://github.com/trailofbits/skills/commit/a12ea6a1afd751664540a48f83ba1c5654e9a238",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/a12ea6a1afd751664540a48f83ba1c5654e9a238/comments",
+  "author": {
+    "login": "omarinuwa",
+    "id": 190324229,
+    "node_id": "U_kgDOC1geBQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/190324229?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/omarinuwa",
+    "html_url": "https://github.com/omarinuwa",
+    "followers_url": "https://api.github.com/users/omarinuwa/followers",
+    "following_url": "https://api.github.com/users/omarinuwa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/omarinuwa/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/omarinuwa/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/omarinuwa/subscriptions",
+    "organizations_url": "https://api.github.com/users/omarinuwa/orgs",
+    "repos_url": "https://api.github.com/users/omarinuwa/repos",
+    "events_url": "https://api.github.com/users/omarinuwa/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/omarinuwa/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0f44fe01dcb00bd6929b4ba82a257d305de04554",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/0f44fe01dcb00bd6929b4ba82a257d305de04554",
+      "html_url": "https://github.com/trailofbits/skills/commit/0f44fe01dcb00bd6929b4ba82a257d305de04554"
+    }
+  ]
+}

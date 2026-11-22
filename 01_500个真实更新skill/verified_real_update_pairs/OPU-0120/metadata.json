@@ -1,0 +1,202 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/playwright/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "556f9226c571f85bfad3",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "2f7901ee4202a26757a5237e987a8ec5a1799e29",
+    "computed_tree_sha": "6c97e0db9a46b6ac78dba1fb4ebb47374721746f",
+    "api_tree_sha_as_returned": "6c97e0db9a46b6ac78dba1fb4ebb47374721746f",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "cefe596afef12e19a8e5e923f1a04c7da3188760",
+        "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+        "size": 11552,
+        "mode": "100644"
+      },
+      {
+        "path": "NOTICE.txt",
+        "git_blob_sha1": "f3a1933ff01c4402bc4210aa30ae4a52aa23c05f",
+        "sha256": "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b",
+        "size": 403,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "de81e331c1ed76629a4e4f19b08f40eaac56ad6c",
+        "sha256": "7172692b607a12763b20e4aea03ad49faf244447e5095e44e51ea211082b7e32",
+        "size": 3771,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "e74575e62f7c0e4b2b825de3cae2062a483fadd4",
+        "sha256": "ddda43720fc566fffa45264be8f17f7745a3cee28d5245d41d3b963bc9967230",
+        "size": 313,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/playwright-small.svg",
+        "git_blob_sha1": "bf694d6611157cf88d478ee8e26004b3bfb5b3c2",
+        "sha256": "f1d213c0f76735d8272c3d3e9fbf71fe7b894e2d1588907044c780f2c33a9732",
+        "size": 828,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/playwright.png",
+        "git_blob_sha1": "c651868b94ffbed29cf5e6a07a5f6ced79edbd51",
+        "sha256": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+        "size": 1730,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli.md",
+        "git_blob_sha1": "ec0b4e1aca28021a493ba84ce67489bd8ef9e876",
+        "sha256": "7c069a8206ba20b9ddbdc42436b04de30bb3aa4a825ba98680757ee62e954900",
+        "size": 1863,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflows.md",
+        "git_blob_sha1": "ffd45c0d8249fe1a3766f9745b75154112d04d87",
+        "sha256": "a2b5835a00ebee3906c146adf7f764f7718ea3f89a8702d86eaa135dfe0fc8c2",
+        "size": 1864,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/playwright_cli.sh",
+        "git_blob_sha1": "1694b9235407aad6db69df1aeadf89efcfff9a85",
+        "sha256": "c8f5f0672b4ac483f19f5f2f08a081f4d052599e3dcc609fb64eea18edf2e5a7",
+        "size": 526,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a5119697b819090e00e5d11ee1d86834d7c1043a",
+    "computed_tree_sha": "74888f3c1d5581aea6415e78d5fbd760a8ab2a41",
+    "api_tree_sha_as_returned": "74888f3c1d5581aea6415e78d5fbd760a8ab2a41",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "cefe596afef12e19a8e5e923f1a04c7da3188760",
+        "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+        "size": 11552,
+        "mode": "100644"
+      },
+      {
+        "path": "NOTICE.txt",
+        "git_blob_sha1": "f3a1933ff01c4402bc4210aa30ae4a52aa23c05f",
+        "sha256": "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b",
+        "size": 403,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "77c01afb31aa602d0b002ae2438c2b67f0335fcb",
+        "sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8",
+        "size": 3771,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "e74575e62f7c0e4b2b825de3cae2062a483fadd4",
+        "sha256": "ddda43720fc566fffa45264be8f17f7745a3cee28d5245d41d3b963bc9967230",
+        "size": 313,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/playwright-small.svg",
+        "git_blob_sha1": "bf694d6611157cf88d478ee8e26004b3bfb5b3c2",
+        "sha256": "f1d213c0f76735d8272c3d3e9fbf71fe7b894e2d1588907044c780f2c33a9732",
+        "size": 828,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/playwright.png",
+        "git_blob_sha1": "c651868b94ffbed29cf5e6a07a5f6ced79edbd51",
+        "sha256": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+        "size": 1730,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli.md",
+        "git_blob_sha1": "ec0b4e1aca28021a493ba84ce67489bd8ef9e876",
+        "sha256": "7c069a8206ba20b9ddbdc42436b04de30bb3aa4a825ba98680757ee62e954900",
+        "size": 1863,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflows.md",
+        "git_blob_sha1": "ffd45c0d8249fe1a3766f9745b75154112d04d87",
+        "sha256": "a2b5835a00ebee3906c146adf7f764f7718ea3f89a8702d86eaa135dfe0fc8c2",
+        "size": 1864,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/playwright_cli.sh",
+        "git_blob_sha1": "51fabc65500efd877d2c3de36b19b48b733ebb15",
+        "sha256": "aa3fdff5d0e4556177f4dfd5f04117e772aa54f94b6a2e34b6c0edf629c6b9b5",
+        "size": 526,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/playwright_cli.sh"
+  ],
+  "old_commit": "2f7901ee4202a26757a5237e987a8ec5a1799e29",
+  "new_commit": "a5119697b819090e00e5d11ee1d86834d7c1043a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Fix playwright CLI package reference (#104)\n\n## Summary\nFix Playwright CLI skill to reference the correct npm package.\n\n## Changes\n- Use `@playwright/cli` in the wrapper script instead of\n`@playwright/mcp`.\n- Update skill install guidance to match the correct package.\n\n## Why\nThe Playwright CLI binary is provided by `@playwright/cli`. The skill\ncurrently points at `@playwright/mcp`, which does not install\n`playwright-cli`, causing installs to succeed but the CLI to be missing.\n\n## Testing\n- Installed the updated skill locally.\n- Opened Google and performed a search via `playwright-cli` in headed\nmode.",
+  "new_commit_time": "2026-02-06T18:01:32Z",
+  "compare_url": "https://github.com/openai/skills/compare/2f7901ee4202a26757a5237e987a8ec5a1799e29...a5119697b819090e00e5d11ee1d86834d7c1043a",
+  "commit_url": "https://github.com/openai/skills/commit/a5119697b819090e00e5d11ee1d86834d7c1043a",
+  "skill_directory": "skills/.curated/playwright",
+  "local_directory": "verified_real_update_pairs/OPU-0120",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0120",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

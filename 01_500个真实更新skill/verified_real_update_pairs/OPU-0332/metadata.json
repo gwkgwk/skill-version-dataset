@@ -1,0 +1,199 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/bigquery-optimization/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "2882789c975980225459",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+    "computed_tree_sha": "287785e28d6b64ad6952140b2d381e8f285adbf2",
+    "api_tree_sha_as_returned": "287785e28d6b64ad6952140b2d381e8f285adbf2",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ccdf97ac589b30cbc8682c7332685838d6381788",
+        "sha256": "0c1a570baf790b75185229152f40b33c1a0443a88749b8ad0ebb61df8f715ba1",
+        "size": 9074,
+        "mode": "100644"
+      },
+      {
+        "path": "references/bi_engine.md",
+        "git_blob_sha1": "52612d0d8ba435e078f527a73149234f14094774",
+        "sha256": "bc3692f398f67262f43961aa127de625b35c5179f560715a625aaf572ffb3013",
+        "size": 7439,
+        "mode": "100644"
+      },
+      {
+        "path": "references/capacity_planning_editions.md",
+        "git_blob_sha1": "209858183cb3d5221b488fd76affe40a4ac169da",
+        "sha256": "6a8159c09f3057f9fbbf15f6fee6e81cf9fcc70462ef7d751f069b2b6458b6bd",
+        "size": 7148,
+        "mode": "100644"
+      },
+      {
+        "path": "references/materialized_views.md",
+        "git_blob_sha1": "ad037ea98f153a6b068f0d618340a738fc63e3d3",
+        "sha256": "7922a456c8fc7b66a0e36cc7a7c9b459e5229fd98141d9e1325a7b59e8197d66",
+        "size": 5022,
+        "mode": "100644"
+      },
+      {
+        "path": "references/search_indexes.md",
+        "git_blob_sha1": "d01c1f9e1daf463ea8ce039bacac6a11e17908c0",
+        "sha256": "ef294b7f0ada2fb16e45be9284c087ca371f8df8c5254606d35aa4118b9433fb",
+        "size": 4151,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sql_optimization.md",
+        "git_blob_sha1": "933960290de9fa7cdf9e0325b49d112326743b42",
+        "sha256": "a10d0344e9df1f66e3d3c028e4e721231f075fc2717e6bfe4e9c72d14ae548ab",
+        "size": 24066,
+        "mode": "100644"
+      },
+      {
+        "path": "references/storage_billing_models.md",
+        "git_blob_sha1": "395e0f4616304b53307aeabc2e8fcbd2de2f49dc",
+        "sha256": "772ef9abb45baee8662db53b6f1aa9c1512a63da550fdac80f920f4bfa9356f3",
+        "size": 6381,
+        "mode": "100644"
+      },
+      {
+        "path": "references/storage_lifecycle_management.md",
+        "git_blob_sha1": "ae6f6e8674c8c914e1ca9a267f5f1e907a085e36",
+        "sha256": "bd47ed9fe1e0d2996e712a65be7a0bc331beaf49a911c8497ab6e5e2dd3731b3",
+        "size": 2274,
+        "mode": "100644"
+      },
+      {
+        "path": "references/table_partitioning_clustering.md",
+        "git_blob_sha1": "1ac5e640a6eb8d96a27eb08b9ad44155df1f90be",
+        "sha256": "86b503548f823ba780b61f387c7867e514c01a9d2f801dffa4daa3dbe5ed8d8f",
+        "size": 15714,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+    "computed_tree_sha": "6f406a47d36137a476661ab16763b9eb32c5ddf2",
+    "api_tree_sha_as_returned": "6f406a47d36137a476661ab16763b9eb32c5ddf2",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ba4c11f7b9fc39e042f2c5959bcf4d718030c23b",
+        "sha256": "c3ab16164631beeec73cf34d4bf9a6d248bd9e1a8ec0c12e6d4fa1dc8cba9c2f",
+        "size": 9521,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "fe8db146f509eb8b80f75a0eb50d8177ba877561",
+        "sha256": "8bec4fd0313d58bfc00045e629df426d351b60822a0d8426ad630317d54a0c7d",
+        "size": 1903,
+        "mode": "100644"
+      },
+      {
+        "path": "references/bi_engine.md",
+        "git_blob_sha1": "52612d0d8ba435e078f527a73149234f14094774",
+        "sha256": "bc3692f398f67262f43961aa127de625b35c5179f560715a625aaf572ffb3013",
+        "size": 7439,
+        "mode": "100644"
+      },
+      {
+        "path": "references/capacity_planning_editions.md",
+        "git_blob_sha1": "209858183cb3d5221b488fd76affe40a4ac169da",
+        "sha256": "6a8159c09f3057f9fbbf15f6fee6e81cf9fcc70462ef7d751f069b2b6458b6bd",
+        "size": 7148,
+        "mode": "100644"
+      },
+      {
+        "path": "references/materialized_views.md",
+        "git_blob_sha1": "ad037ea98f153a6b068f0d618340a738fc63e3d3",
+        "sha256": "7922a456c8fc7b66a0e36cc7a7c9b459e5229fd98141d9e1325a7b59e8197d66",
+        "size": 5022,
+        "mode": "100644"
+      },
+      {
+        "path": "references/search_indexes.md",
+        "git_blob_sha1": "d01c1f9e1daf463ea8ce039bacac6a11e17908c0",
+        "sha256": "ef294b7f0ada2fb16e45be9284c087ca371f8df8c5254606d35aa4118b9433fb",
+        "size": 4151,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sql_optimization.md",
+        "git_blob_sha1": "933960290de9fa7cdf9e0325b49d112326743b42",
+        "sha256": "a10d0344e9df1f66e3d3c028e4e721231f075fc2717e6bfe4e9c72d14ae548ab",
+        "size": 24066,
+        "mode": "100644"
+      },
+      {
+        "path": "references/storage_billing_models.md",
+        "git_blob_sha1": "395e0f4616304b53307aeabc2e8fcbd2de2f49dc",
+        "sha256": "772ef9abb45baee8662db53b6f1aa9c1512a63da550fdac80f920f4bfa9356f3",
+        "size": 6381,
+        "mode": "100644"
+      },
+      {
+        "path": "references/storage_lifecycle_management.md",
+        "git_blob_sha1": "ae6f6e8674c8c914e1ca9a267f5f1e907a085e36",
+        "sha256": "bd47ed9fe1e0d2996e712a65be7a0bc331beaf49a911c8497ab6e5e2dd3731b3",
+        "size": 2274,
+        "mode": "100644"
+      },
+      {
+        "path": "references/table_partitioning_clustering.md",
+        "git_blob_sha1": "1ac5e640a6eb8d96a27eb08b9ad44155df1f90be",
+        "sha256": "86b503548f823ba780b61f387c7867e514c01a9d2f801dffa4daa3dbe5ed8d8f",
+        "size": 15714,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+  "new_commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to Data and Databases agent skills.\n\n- Add `references/attribution.md` to all 17 Data, Analytics, and Database skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1003337710",
+  "new_commit_time": "2026-10-20T20:10:36Z",
+  "compare_url": "https://github.com/google/skills/compare/46e817d86d34f8a3d21a0432e99ae3e3feddda72...dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "commit_url": "https://github.com/google/skills/commit/dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "skill_directory": "skills/cloud/bigquery-optimization",
+  "local_directory": "verified_real_update_pairs/OPU-0332",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0332",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

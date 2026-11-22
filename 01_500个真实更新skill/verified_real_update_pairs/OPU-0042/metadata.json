@@ -1,0 +1,657 @@
+{
+  "repository": "vercel-labs/agent-skills",
+  "primary": "skills/react-native-skills/SKILL.md",
+  "pinned_commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+  "repository_license": null,
+  "key": "e9d6c3b041d5b9c09d19",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 5,
+  "old": {
+    "commit": "e091729eab9bb0475faca790114c2d702ef6a516",
+    "computed_tree_sha": "321b44cb6255af30016e9577dd8d7984155a56bc",
+    "api_tree_sha_as_returned": "321b44cb6255af30016e9577dd8d7984155a56bc",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "git_blob_sha1": "83c810fb93ace04246a8ec41363b36da9f3f50dd",
+        "sha256": "106565c1b8ed63b10350e0e5708b44e3c77c16155f2b6c18849f36c58a3e0b0b",
+        "size": 70558,
+        "mode": "100644"
+      },
+      {
+        "path": "README.md",
+        "git_blob_sha1": "eeac7108ad72ca8699c40ce30fa7ad3a2e098ccd",
+        "sha256": "593b5e5f55035454da378d18663f2729b6b7427b6f55c989bc7ed925fd516d04",
+        "size": 4988,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3fa35f26c04d678140eacbab2f133164d56a410f",
+        "sha256": "a37756cd18d1df7fdf0bf39e54504200c107089d13a77852291f759e620b88bd",
+        "size": 4366,
+        "mode": "100644"
+      },
+      {
+        "path": "metadata.json",
+        "git_blob_sha1": "600eb5bc73d42a337a1d7aa3a59c654fee7b3278",
+        "sha256": "59ee2274cadbd95b2220727028f0dbc26d3e0251e7937226edc9e7640756ba21",
+        "size": 896,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/_sections.md",
+        "git_blob_sha1": "0519cf2325eec35f2f56611204d9ee35aa2a9782",
+        "sha256": "21d7445e92bd7d393b420118c3fb9ebbf30aaf123a15143afb6c0b1b562cfdfd",
+        "size": 2228,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/_template.md",
+        "git_blob_sha1": "1e9e70703485021e0b969f5731f38c8b9f8694db",
+        "sha256": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+        "size": 631,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/animation-derived-value.md",
+        "git_blob_sha1": "310928a957b841fc5af335e984a4df6c1a6b3f3a",
+        "sha256": "689228e9d59227934f296563963951aa9368be0afb2a188f650de161203b1862",
+        "size": 1373,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/animation-gesture-detector-press.md",
+        "git_blob_sha1": "87c67827054bbb0a41d7e4ad78adf3612accb6bf",
+        "sha256": "69408d4be669e74689d865c5f50a22fc3a802d521fe493371761abd20526e58e",
+        "size": 2559,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/animation-gpu-properties.md",
+        "git_blob_sha1": "5fda09558e89b2d6021bbbe5a2731fd26d16b1f3",
+        "sha256": "f885e4179445da27cbc225e0a4aa3ed9016fc3507ca6f864392ba7a9d0bd7516",
+        "size": 2059,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/design-system-compound-components.md",
+        "git_blob_sha1": "d8239ee1fbb95d52b5b57a1d699199b1f4758e8c",
+        "sha256": "dcb10900a58fcf57cca2e27c062d02df2325a7949e08fb45e9e05cc2b132b1a6",
+        "size": 1625,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/fonts-config-plugin.md",
+        "git_blob_sha1": "39aa01477af69b372e7e6251831430da1c3203f9",
+        "sha256": "b92568774064a604e7a479d4c8d7263aed5609740e9161d2f2764bfff761905d",
+        "size": 1393,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/imports-design-system-folder.md",
+        "git_blob_sha1": "8466dcb2544dad65639d29e5921a6be00ea1ac2c",
+        "sha256": "aa6337f7f2869a46a9141ec65e02c3da5c3bf051023899b82e0f0aef5bff8423",
+        "size": 1418,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/js-hoist-intl.md",
+        "git_blob_sha1": "9af1c354c3e5e8836883c1a79a533fa5e72d4958",
+        "sha256": "b4b08622465ffcd5e5961878eb8c6d7359aa242d16c990b59941c9111962fe46",
+        "size": 1645,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-callbacks.md",
+        "git_blob_sha1": "a0b3913ff3b88e92bd0a91b555f8c96732b2b953",
+        "sha256": "db800e9dfe0080eb4954b96e2a362ee8344d08e08b1ed06bc8059450f3e6f0dd",
+        "size": 1059,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-function-references.md",
+        "git_blob_sha1": "9721929b28b8115e8fa24ff8a6f82a6b1ec94d6e",
+        "sha256": "b54470e41d578b207ee3223f6853efb7fbf8e5f83d9aecf8da16989072f99544",
+        "size": 4133,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-images.md",
+        "git_blob_sha1": "75a3bafc83f65e0e14af3b7cc5786ea40b0d34b4",
+        "sha256": "e88f16ac113c29230d674b7aa2c66c31d5772a74b1ea378d48a97b1143fe6c19",
+        "size": 1417,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-inline-objects.md",
+        "git_blob_sha1": "d5b6514a6658917468399803b16cb61b17459af7",
+        "sha256": "e2a80aac0f29c6abaf0163c1cc273d09cc8a0030ec077ca2022bbf5c309e4625",
+        "size": 2308,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-item-expensive.md",
+        "git_blob_sha1": "f617a76d4e525cde99b937a8e0e163dfe0ef52b0",
+        "sha256": "a68cc8ec5dba3c55761bd5df9dfd3d98485f63076868d3e03af15f1e58907ce3",
+        "size": 2466,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-item-memo.md",
+        "git_blob_sha1": "634935e8ed0e6bd10014450c91b8a97187cbeda1",
+        "sha256": "38ec1d149ee485434d11c2b9e2101dfc914afadae4a0738ca905f26b05f708c1",
+        "size": 2250,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-virtualize.md",
+        "git_blob_sha1": "8a393ba1eef972f72a00a67c6b0a23c09c688639",
+        "sha256": "98cad308118acb4d6e8e975c0168ce56e2d48ca52ed47f23bc9a30667c066ada",
+        "size": 1742,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/monorepo-native-deps-in-app.md",
+        "git_blob_sha1": "ff85d76735d89e4cdfa89afd75759020780c5d5f",
+        "sha256": "8368b109027fcec1b8a81bfb99718aef2b64edaba77107f73d7c465cc5a14217",
+        "size": 1091,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/monorepo-single-dependency-versions.md",
+        "git_blob_sha1": "1087dfa511e9837f14b71f49d1c3d2018d6cfdc1",
+        "sha256": "61c01b9eaab1e319bf078204231fb573bdfea3c43a6eb99e7ef73ee95d474ccc",
+        "size": 1351,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/navigation-native-navigators.md",
+        "git_blob_sha1": "c973cd88bfe939476fc67257d0c2bceead3613a6",
+        "sha256": "4b7017c4f34ec5c3186cd9655ae9ac57053555771e0bbd93c7880d1d91101161",
+        "size": 4408,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-compiler-destructure-functions.md",
+        "git_blob_sha1": "f76c25ac6f8c48c8436f0ccee1359a649a33b48f",
+        "sha256": "8048926a4fa3fbd28fc0ecf4ba4c383a2f0ed06c2fd7330dd4a15d7f4e548044",
+        "size": 1274,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-compiler-reanimated-shared-values.md",
+        "git_blob_sha1": "0dcbaf47a6abeb72da8673f99b45d2e8b609412b",
+        "sha256": "3174303a72b6849ff0eda5cd9f9650f26baa5f31ed28d35a75076af714fb2ffc",
+        "size": 1268,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-state-dispatcher.md",
+        "git_blob_sha1": "93e8b6db6112936ad57e6506f56eeef0725336c1",
+        "sha256": "7ec5b653e3ff8d9ca97d8d66981cce5590c0e49fa79ab708fd6324542b588870",
+        "size": 2255,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-state-fallback.md",
+        "git_blob_sha1": "204f34665f206a734cb2d0de17a7179f3793dc89",
+        "sha256": "eb76e386d71680bfdfc0ab64dba1221f4d3d0fdcb4980bb4a871381d58e9e58b",
+        "size": 1735,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-state-minimize.md",
+        "git_blob_sha1": "64605b6c382e407f244d2db8b72bb3105ebae87b",
+        "sha256": "31b989de61defda1c61d8578c4700efd64a427218c3f3dbb7062a1666e1cbe43",
+        "size": 1740,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/rendering-no-falsy-and.md",
+        "git_blob_sha1": "30f05d3f8bea95379273799a21f0a1990a6e6511",
+        "sha256": "7300fa45ac3a4968db144727a21052421bc62de9b5e9f6f59e28bd16d2fff001",
+        "size": 1812,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/rendering-text-in-text-component.md",
+        "git_blob_sha1": "fd1b9f407014c783f3e59a5f3e5bf72979d62547",
+        "sha256": "fc67897b6126b6b5574f4d284a6c5b2282528fe89de8ec08e6cfd2a86ab5b235",
+        "size": 697,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/scroll-position-no-state.md",
+        "git_blob_sha1": "a5760cd2892a9985aeeed93abf719be5dc4efa88",
+        "sha256": "70aa1ee679e755556d7b01b326431fe898d3c23ddba40d0da6bdac23c87a1525",
+        "size": 1936,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/state-ground-truth.md",
+        "git_blob_sha1": "c3c4bd9e497bcec63c303ec1cf2d0ff34e5a39cb",
+        "sha256": "9f3efc73d2e66a5deb3199c9774f42524cd6a0f69784af38301946be5d747cb5",
+        "size": 2172,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-expo-image.md",
+        "git_blob_sha1": "72d768f1bf89d998e93611724e3608f48eb6b3a1",
+        "sha256": "c3c13cce3dd2cc7f8a9b4861e5743af98f62e28f5699f72f492e79a335cfae55",
+        "size": 1648,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-image-gallery.md",
+        "git_blob_sha1": "ef26d962f376c8c3fe052d578e143932fdd96a58",
+        "sha256": "b34d1ba03710ed9622187716541ae618968e7d03bc28895c2ac918d3cc5853f1",
+        "size": 2546,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-measure-views.md",
+        "git_blob_sha1": "8b783fee314ec7a4152cf49e0febcbdd78411e2c",
+        "sha256": "170d058abc4900ea9e851e54f5e8b437ffffc2c9d3847ae35e30a515c8990c3d",
+        "size": 2232,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-menus.md",
+        "git_blob_sha1": "5168bc2037ca1fd1e1312abd4a2b77fec8eb5264",
+        "sha256": "5964adbecfe9aeb28d736a4eaacec6469a1c4ca3f48779d243eb38b6d181cfe9",
+        "size": 4598,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-native-modals.md",
+        "git_blob_sha1": "f560e11e12e703a46517ff87d371a43e56230a81",
+        "sha256": "d803493b3046ad31cbb2c189f1fffb948fd0055050e3c322589bd548421e23a8",
+        "size": 1859,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-pressable.md",
+        "git_blob_sha1": "31c3d204274292e244466bae9f425064263ae80a",
+        "sha256": "52cdbad127d713d7d32c59ef74ab1bbd6dca211edc9b25993453f7f4545e79fa",
+        "size": 1534,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-safe-area-scroll.md",
+        "git_blob_sha1": "79812bc9ce35eaad4c965103d0d87b7230084ca8",
+        "sha256": "3dd776caef2344d73529010940b50042861d06d31a192122a4df64bc06aed0e8",
+        "size": 1579,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-scrollview-content-inset.md",
+        "git_blob_sha1": "bbebc3b81c22ded13447efe5876c8c3408b4eb02",
+        "sha256": "89e4bbe5e9a602660f4155e9d4c0dee09db1adf21c73f47213cd67ec896e5a13",
+        "size": 1317,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-styling.md",
+        "git_blob_sha1": "3908de3c4bbd03ce2f024917a2d82f9c03517100",
+        "sha256": "cdef4d8b1a097b844e5992ab78e66a2dc604faf1e90f8d325a0eb116e8ef6a7e",
+        "size": 2212,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "757ccb42a20478be6b7284088978070358b52d5e",
+    "computed_tree_sha": "bddfedf6f178ffc2e7ae10c1020605df51d206d3",
+    "api_tree_sha_as_returned": "bddfedf6f178ffc2e7ae10c1020605df51d206d3",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "git_blob_sha1": "825002a7086b62ec31e8a7b36ccbe3d819ce9fea",
+        "sha256": "402b90180443b9b2b46f78be8962ce3c87404f36baf746825d0d79dc2024f7b2",
+        "size": 73164,
+        "mode": "100644"
+      },
+      {
+        "path": "README.md",
+        "git_blob_sha1": "854db9f525c3427060b4ecefd266f00beca94eac",
+        "sha256": "d60d7623005a833b928be6a109ed9d14dea43d7217fb534e8f2e4de5fc1f0ddf",
+        "size": 5064,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "73401865dd7440a43c5243b107a3763e0d2f4aae",
+        "sha256": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66",
+        "size": 4439,
+        "mode": "100644"
+      },
+      {
+        "path": "metadata.json",
+        "git_blob_sha1": "600eb5bc73d42a337a1d7aa3a59c654fee7b3278",
+        "sha256": "59ee2274cadbd95b2220727028f0dbc26d3e0251e7937226edc9e7640756ba21",
+        "size": 896,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/_sections.md",
+        "git_blob_sha1": "0519cf2325eec35f2f56611204d9ee35aa2a9782",
+        "sha256": "21d7445e92bd7d393b420118c3fb9ebbf30aaf123a15143afb6c0b1b562cfdfd",
+        "size": 2228,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/_template.md",
+        "git_blob_sha1": "1e9e70703485021e0b969f5731f38c8b9f8694db",
+        "sha256": "99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+        "size": 631,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/animation-derived-value.md",
+        "git_blob_sha1": "310928a957b841fc5af335e984a4df6c1a6b3f3a",
+        "sha256": "689228e9d59227934f296563963951aa9368be0afb2a188f650de161203b1862",
+        "size": 1373,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/animation-gesture-detector-press.md",
+        "git_blob_sha1": "87c67827054bbb0a41d7e4ad78adf3612accb6bf",
+        "sha256": "69408d4be669e74689d865c5f50a22fc3a802d521fe493371761abd20526e58e",
+        "size": 2559,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/animation-gpu-properties.md",
+        "git_blob_sha1": "5fda09558e89b2d6021bbbe5a2731fd26d16b1f3",
+        "sha256": "f885e4179445da27cbc225e0a4aa3ed9016fc3507ca6f864392ba7a9d0bd7516",
+        "size": 2059,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/design-system-compound-components.md",
+        "git_blob_sha1": "d8239ee1fbb95d52b5b57a1d699199b1f4758e8c",
+        "sha256": "dcb10900a58fcf57cca2e27c062d02df2325a7949e08fb45e9e05cc2b132b1a6",
+        "size": 1625,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/fonts-config-plugin.md",
+        "git_blob_sha1": "39aa01477af69b372e7e6251831430da1c3203f9",
+        "sha256": "b92568774064a604e7a479d4c8d7263aed5609740e9161d2f2764bfff761905d",
+        "size": 1393,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/imports-design-system-folder.md",
+        "git_blob_sha1": "8466dcb2544dad65639d29e5921a6be00ea1ac2c",
+        "sha256": "aa6337f7f2869a46a9141ec65e02c3da5c3bf051023899b82e0f0aef5bff8423",
+        "size": 1418,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/js-hoist-intl.md",
+        "git_blob_sha1": "9af1c354c3e5e8836883c1a79a533fa5e72d4958",
+        "sha256": "b4b08622465ffcd5e5961878eb8c6d7359aa242d16c990b59941c9111962fe46",
+        "size": 1645,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-callbacks.md",
+        "git_blob_sha1": "a0b3913ff3b88e92bd0a91b555f8c96732b2b953",
+        "sha256": "db800e9dfe0080eb4954b96e2a362ee8344d08e08b1ed06bc8059450f3e6f0dd",
+        "size": 1059,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-function-references.md",
+        "git_blob_sha1": "9721929b28b8115e8fa24ff8a6f82a6b1ec94d6e",
+        "sha256": "b54470e41d578b207ee3223f6853efb7fbf8e5f83d9aecf8da16989072f99544",
+        "size": 4133,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-images.md",
+        "git_blob_sha1": "75a3bafc83f65e0e14af3b7cc5786ea40b0d34b4",
+        "sha256": "e88f16ac113c29230d674b7aa2c66c31d5772a74b1ea378d48a97b1143fe6c19",
+        "size": 1417,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-inline-objects.md",
+        "git_blob_sha1": "d5b6514a6658917468399803b16cb61b17459af7",
+        "sha256": "e2a80aac0f29c6abaf0163c1cc273d09cc8a0030ec077ca2022bbf5c309e4625",
+        "size": 2308,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-item-expensive.md",
+        "git_blob_sha1": "f617a76d4e525cde99b937a8e0e163dfe0ef52b0",
+        "sha256": "a68cc8ec5dba3c55761bd5df9dfd3d98485f63076868d3e03af15f1e58907ce3",
+        "size": 2466,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-item-memo.md",
+        "git_blob_sha1": "634935e8ed0e6bd10014450c91b8a97187cbeda1",
+        "sha256": "38ec1d149ee485434d11c2b9e2101dfc914afadae4a0738ca905f26b05f708c1",
+        "size": 2250,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-item-types.md",
+        "git_blob_sha1": "09a95507405ae077fe81f2b53e7671a3745586f0",
+        "sha256": "78300896834258460b48f001d62fbc1ab1f49267fb50479519e12489f7509708",
+        "size": 2675,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/list-performance-virtualize.md",
+        "git_blob_sha1": "8a393ba1eef972f72a00a67c6b0a23c09c688639",
+        "sha256": "98cad308118acb4d6e8e975c0168ce56e2d48ca52ed47f23bc9a30667c066ada",
+        "size": 1742,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/monorepo-native-deps-in-app.md",
+        "git_blob_sha1": "ff85d76735d89e4cdfa89afd75759020780c5d5f",
+        "sha256": "8368b109027fcec1b8a81bfb99718aef2b64edaba77107f73d7c465cc5a14217",
+        "size": 1091,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/monorepo-single-dependency-versions.md",
+        "git_blob_sha1": "1087dfa511e9837f14b71f49d1c3d2018d6cfdc1",
+        "sha256": "61c01b9eaab1e319bf078204231fb573bdfea3c43a6eb99e7ef73ee95d474ccc",
+        "size": 1351,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/navigation-native-navigators.md",
+        "git_blob_sha1": "c973cd88bfe939476fc67257d0c2bceead3613a6",
+        "sha256": "4b7017c4f34ec5c3186cd9655ae9ac57053555771e0bbd93c7880d1d91101161",
+        "size": 4408,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-compiler-destructure-functions.md",
+        "git_blob_sha1": "f76c25ac6f8c48c8436f0ccee1359a649a33b48f",
+        "sha256": "8048926a4fa3fbd28fc0ecf4ba4c383a2f0ed06c2fd7330dd4a15d7f4e548044",
+        "size": 1274,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-compiler-reanimated-shared-values.md",
+        "git_blob_sha1": "0dcbaf47a6abeb72da8673f99b45d2e8b609412b",
+        "sha256": "3174303a72b6849ff0eda5cd9f9650f26baa5f31ed28d35a75076af714fb2ffc",
+        "size": 1268,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-state-dispatcher.md",
+        "git_blob_sha1": "93e8b6db6112936ad57e6506f56eeef0725336c1",
+        "sha256": "7ec5b653e3ff8d9ca97d8d66981cce5590c0e49fa79ab708fd6324542b588870",
+        "size": 2255,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-state-fallback.md",
+        "git_blob_sha1": "204f34665f206a734cb2d0de17a7179f3793dc89",
+        "sha256": "eb76e386d71680bfdfc0ab64dba1221f4d3d0fdcb4980bb4a871381d58e9e58b",
+        "size": 1735,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react-state-minimize.md",
+        "git_blob_sha1": "64605b6c382e407f244d2db8b72bb3105ebae87b",
+        "sha256": "31b989de61defda1c61d8578c4700efd64a427218c3f3dbb7062a1666e1cbe43",
+        "size": 1740,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/rendering-no-falsy-and.md",
+        "git_blob_sha1": "30f05d3f8bea95379273799a21f0a1990a6e6511",
+        "sha256": "7300fa45ac3a4968db144727a21052421bc62de9b5e9f6f59e28bd16d2fff001",
+        "size": 1812,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/rendering-text-in-text-component.md",
+        "git_blob_sha1": "fd1b9f407014c783f3e59a5f3e5bf72979d62547",
+        "sha256": "fc67897b6126b6b5574f4d284a6c5b2282528fe89de8ec08e6cfd2a86ab5b235",
+        "size": 697,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/scroll-position-no-state.md",
+        "git_blob_sha1": "a5760cd2892a9985aeeed93abf719be5dc4efa88",
+        "sha256": "70aa1ee679e755556d7b01b326431fe898d3c23ddba40d0da6bdac23c87a1525",
+        "size": 1936,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/state-ground-truth.md",
+        "git_blob_sha1": "c3c4bd9e497bcec63c303ec1cf2d0ff34e5a39cb",
+        "sha256": "9f3efc73d2e66a5deb3199c9774f42524cd6a0f69784af38301946be5d747cb5",
+        "size": 2172,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-expo-image.md",
+        "git_blob_sha1": "72d768f1bf89d998e93611724e3608f48eb6b3a1",
+        "sha256": "c3c13cce3dd2cc7f8a9b4861e5743af98f62e28f5699f72f492e79a335cfae55",
+        "size": 1648,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-image-gallery.md",
+        "git_blob_sha1": "ef26d962f376c8c3fe052d578e143932fdd96a58",
+        "sha256": "b34d1ba03710ed9622187716541ae618968e7d03bc28895c2ac918d3cc5853f1",
+        "size": 2546,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-measure-views.md",
+        "git_blob_sha1": "8b783fee314ec7a4152cf49e0febcbdd78411e2c",
+        "sha256": "170d058abc4900ea9e851e54f5e8b437ffffc2c9d3847ae35e30a515c8990c3d",
+        "size": 2232,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-menus.md",
+        "git_blob_sha1": "5168bc2037ca1fd1e1312abd4a2b77fec8eb5264",
+        "sha256": "5964adbecfe9aeb28d736a4eaacec6469a1c4ca3f48779d243eb38b6d181cfe9",
+        "size": 4598,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-native-modals.md",
+        "git_blob_sha1": "f560e11e12e703a46517ff87d371a43e56230a81",
+        "sha256": "d803493b3046ad31cbb2c189f1fffb948fd0055050e3c322589bd548421e23a8",
+        "size": 1859,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-pressable.md",
+        "git_blob_sha1": "31c3d204274292e244466bae9f425064263ae80a",
+        "sha256": "52cdbad127d713d7d32c59ef74ab1bbd6dca211edc9b25993453f7f4545e79fa",
+        "size": 1534,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-safe-area-scroll.md",
+        "git_blob_sha1": "79812bc9ce35eaad4c965103d0d87b7230084ca8",
+        "sha256": "3dd776caef2344d73529010940b50042861d06d31a192122a4df64bc06aed0e8",
+        "size": 1579,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-scrollview-content-inset.md",
+        "git_blob_sha1": "bbebc3b81c22ded13447efe5876c8c3408b4eb02",
+        "sha256": "89e4bbe5e9a602660f4155e9d4c0dee09db1adf21c73f47213cd67ec896e5a13",
+        "size": 1317,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/ui-styling.md",
+        "git_blob_sha1": "3908de3c4bbd03ce2f024917a2d82f9c03517100",
+        "sha256": "cdef4d8b1a097b844e5992ab78e66a2dc604faf1e90f8d325a0eb116e8ef6a7e",
+        "size": 2212,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "AGENTS.md",
+    "README.md",
+    "SKILL.md",
+    "rules/list-performance-item-types.md"
+  ],
+  "old_commit": "e091729eab9bb0475faca790114c2d702ef6a516",
+  "new_commit": "757ccb42a20478be6b7284088978070358b52d5e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "list",
+  "new_commit_time": "2026-01-27T00:48:33Z",
+  "compare_url": "https://github.com/vercel-labs/agent-skills/compare/e091729eab9bb0475faca790114c2d702ef6a516...757ccb42a20478be6b7284088978070358b52d5e",
+  "commit_url": "https://github.com/vercel-labs/agent-skills/commit/757ccb42a20478be6b7284088978070358b52d5e",
+  "skill_directory": "skills/react-native-skills",
+  "local_directory": "verified_real_update_pairs/OPU-0042",
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "SKILL.md frontmatter",
+        "identifier": "MIT",
+        "side": "old"
+      },
+      {
+        "path": "SKILL.md frontmatter",
+        "identifier": "MIT",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0042",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sha": "82fe8226252622fa807643bdca1710901198553a",
+  "node_id": "C_kwDOQ55KR9oAKDgyZmU4MjI2MjUyNjIyZmE4MDc2NDNiZGNhMTcxMDkwMTE5ODU1M2E",
+  "commit": {
+    "author": {
+      "name": "udsy19",
+      "email": "71968569+udsy19@users.noreply.github.com",
+      "date": "2026-09-28T18:06:37Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-09-28T18:06:37Z"
+    },
+    "message": "static-analysis: Scan files over 1 MB, and report the ones still skipped (#343)\n\nsemgrep skips any file larger than --max-target-bytes and reports nothing about\nit: no paths.skipped entry, no error, and the file simply absent from\npaths.scanned. run-scans.sh never set the flag, so semgrep's 1,000,000-byte\ndefault applied and a scan that never opened a file recorded `findings: 0` next\nto a plausible filesScanned count.\n\nReproduced on semgrep 1.178.0 against a 1,050,060-byte bundle carrying a\ndocument.write(location.hash) sink, beside a 36-byte sibling so the scan opened\nsomething and coveredNothing stayed empty:\n\n  before   findings 0, filesScanned 1, coveredNothing []\n  after    findings 1, filesScanned 2, maxTargetBytes 20000000\n\nThe limit is now explicit at 20,000,000 bytes and settable with\n--max-target-bytes N, where 0 means no limit as it does in semgrep. Bytes only:\nthe oversized report below compares the limit against a file size, and semgrep's\n'1.5MB' spelling would have to be parsed a second way that could disagree.\n\nA higher default moves the cliff rather than removing it, so the files still\nover it are named as `oversized` in scans.json, scoped to the --include globs a\nscan actually passed. The report phase of the workflow and the report template\ncarry it for the reason they carry coveredNothing: a gap only stderr knows about\nis a gap the report calls coverage. Cross-language rulesets take no --include and\nsemgrep decides for itself what it can parse, so their share is not enumerable\nhere; references/scan-modes.md says so and maxTargetBytes is in the report.\n\nEleven assertions added to tests/run_scan_tests.sh (104 in total), and one to\nthe workflow harness with the mutation that proves it load-bearing.\n\nRefs #298\n\nSigned-off-by: Udaya Tejas <udayatejas2004@gmail.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+    "tree": {
+      "sha": "9cf630657892690adfb649b3125269253e549c3a",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/9cf630657892690adfb649b3125269253e549c3a"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/82fe8226252622fa807643bdca1710901198553a",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJquqytCRC1aQ7uu5UhlAAA9o8QAA4aoAUVm1IIalT3dzFA6MlC\nMTPNKgwirD2R1nRoreHv08ApoU/4GG6WOkROvTBqkNbxeA0XaSy0idDBmbevLbk5\n8f6egCjdcXsMkGFZPFP2mn1jgWl7Fg3iVhntFEEloIPO5iG1wct999/3RTLIr3YI\neqzSqk7WlYbr9sKuB3y1o+7rdRPcsKi2o+5IU0kOzfm5IXPWlfBOpVi2yFJxnC82\nrY6nEXTCKyF7tFn3xUlGjXpFsJ/v7TM5vKHwjtQuf4VIFu2JNzyBEnnjOVyxNGaK\nC/nx4Bh1Q5vuqbm7x415TesaMnDssmSgezzfo/RdcVvM2o7pXgcYo5kcw0UksFSN\nV84hed37uQvzoTgv8W4cArH3qC29tGR0u7Y1U1FwLD9N715G/5RAAeRNPANjDohm\no/Y1GeCdBRgcCYfQ7ZSpZ2H7pmsjbxDvZdDRZPpD/Q0R5dhHEnBpzsR96OEDf90U\nmN2QF5eRFkn+wEWY5GwGHtKlPdJXxTMy+Bis6Zz4NTQmlSjB8YNyb68vDF6CazHF\npfYa+3Kikl40zRHCuRoHlaLMffuWcVU/iMGZJ8v2RCE9MA8D6wWDXdzD6F1OGEK9\nLYGhd1mqC9TGU++RjEw4+HpjvV1mGEzIW5W6XyZ+RHtKs58WpnO6rhDqh/EYeU7C\n/x4YOEZ6XFpWyX0LFd8d\n=liky\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 9cf630657892690adfb649b3125269253e549c3a\nparent ed01a6bca3361fd937cd7d5f05a58cb1abffe509\nauthor udsy19 <71968569+udsy19@users.noreply.github.com> 1790618797 -0400\ncommitter GitHub <noreply@github.com> 1790618797 -0400\n\nstatic-analysis: Scan files over 1 MB, and report the ones still skipped (#343)\n\nsemgrep skips any file larger than --max-target-bytes and reports nothing about\nit: no paths.skipped entry, no error, and the file simply absent from\npaths.scanned. run-scans.sh never set the flag, so semgrep's 1,000,000-byte\ndefault applied and a scan that never opened a file recorded `findings: 0` next\nto a plausible filesScanned count.\n\nReproduced on semgrep 1.178.0 against a 1,050,060-byte bundle carrying a\ndocument.write(location.hash) sink, beside a 36-byte sibling so the scan opened\nsomething and coveredNothing stayed empty:\n\n  before   findings 0, filesScanned 1, coveredNothing []\n  after    findings 1, filesScanned 2, maxTargetBytes 20000000\n\nThe limit is now explicit at 20,000,000 bytes and settable with\n--max-target-bytes N, where 0 means no limit as it does in semgrep. Bytes only:\nthe oversized report below compares the limit against a file size, and semgrep's\n'1.5MB' spelling would have to be parsed a second way that could disagree.\n\nA higher default moves the cliff rather than removing it, so the files still\nover it are named as `oversized` in scans.json, scoped to the --include globs a\nscan actually passed. The report phase of the workflow and the report template\ncarry it for the reason they carry coveredNothing: a gap only stderr knows about\nis a gap the report calls coverage. Cross-language rulesets take no --include and\nsemgrep decides for itself what it can parse, so their share is not enumerable\nhere; references/scan-modes.md says so and maxTargetBytes is in the report.\n\nEleven assertions added to tests/run_scan_tests.sh (104 in total), and one to\nthe workflow harness with the mutation that proves it load-bearing.\n\nRefs #298\n\nSigned-off-by: Udaya Tejas <udayatejas2004@gmail.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+      "verified_at": "2026-09-28T18:06:38Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/82fe8226252622fa807643bdca1710901198553a",
+  "html_url": "https://github.com/trailofbits/skills/commit/82fe8226252622fa807643bdca1710901198553a",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/82fe8226252622fa807643bdca1710901198553a/comments",
+  "author": {
+    "login": "udsy19",
+    "id": 71968569,
+    "node_id": "MDQ6VXNlcjcxOTY4NTY5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/71968569?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/udsy19",
+    "html_url": "https://github.com/udsy19",
+    "followers_url": "https://api.github.com/users/udsy19/followers",
+    "following_url": "https://api.github.com/users/udsy19/following{/other_user}",
+    "gists_url": "https://api.github.com/users/udsy19/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/udsy19/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/udsy19/subscriptions",
+    "organizations_url": "https://api.github.com/users/udsy19/orgs",
+    "repos_url": "https://api.github.com/users/udsy19/repos",
+    "events_url": "https://api.github.com/users/udsy19/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/udsy19/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "ed01a6bca3361fd937cd7d5f05a58cb1abffe509",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/ed01a6bca3361fd937cd7d5f05a58cb1abffe509",
+      "html_url": "https://github.com/trailofbits/skills/commit/ed01a6bca3361fd937cd7d5f05a58cb1abffe509"
+    }
+  ]
+}

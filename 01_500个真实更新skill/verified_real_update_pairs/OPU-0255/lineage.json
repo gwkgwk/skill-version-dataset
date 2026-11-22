@@ -1,0 +1,82 @@
+{
+  "sha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+  "node_id": "C_kwDORcxyRtoAKGEzNzY4ZDBlODJhZDgzY2NhMmRhOTc3MjRlNDZiZWE0ZmYwZTZkYmQ",
+  "commit": {
+    "author": {
+      "name": "Simon",
+      "email": "yunchao@cresclab.com",
+      "date": "2026-03-31T18:51:15Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-31T18:51:15Z"
+    },
+    "message": "feat(sheets): add --range flag to +append for targeting specific tabs (#641)\n\nPreviously +append always used hardcoded \"A1\" range, limiting appends\nto the first sheet. Add optional --range flag (default: \"A1\") to allow\nappending to any sheet tab using A1 notation.",
+    "tree": {
+      "sha": "28127e4c0edff4bdf9226369e7a2ef744b353c25",
+      "url": "https://api.github.com/repos/googleworkspace/cli/git/trees/28127e4c0edff4bdf9226369e7a2ef744b353c25"
+    },
+    "url": "https://api.github.com/repos/googleworkspace/cli/git/commits/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpzBejCRC1aQ7uu5UhlAAAUT0QADHKzqRhYVFDwjAHPGOtmLpn\nzo3XctCgDNSx60oqKHGrQqnhPN31Hx1rOguStoHUjiLQaxuvmigNKeRSgJPeSi4K\n0QmrzkWLX+g+0yPOThvooMlir2Qyru5RJOYG+dYUphCB/vFkq9vbcVWGk0V7+mvv\nbN3w/Ik/PL++jv5imyoTPqDZ7Bx+Kv3sVhn/tq5MArZX+HtcvvVGxK7/FZBg+gBT\ni+tvFdypnk/ARztRqyBibA2L6pGMkMGE4rotd/l3ByojTZWXstvuTCPMt6LIAIV4\nGaDI887PnKLkdBykma8Bg2yP8rwxO3ss5YJQ5F28UzRvCL3Cft4sv+ZtxHhLRApp\nu/reZd7MDjdbBV5keNWoov8oGNo1y8QS6jbz7+JV5yigVe/unAg60pRJOWG5mUHi\nFeTzk1AvYJa4A82B3DO9ncZxmZ9S5zRzzb1Km6EtMkKyQ5rFNpRcBtSigQySdlWA\noeXkRmAKyklPUkitrPKA3UIg2FjsN36qVPhqKiPAAOFJt/9OGFkk1sxlpKXXsA17\nguMoNGXSsVgm0Y2ClZCR9q1wR7OI9f6eup3NhzFk46ECtCuezbl7gkP9Wbj7ek8+\n2PCsaDugu61u1smUWdWrvdhw5X5xL8/bJTKTVyrr1KhZjXCxYwSV7DIpmKFFIEjs\nAgQzn2Losc3W0IGG+jEA\n=7Reo\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 28127e4c0edff4bdf9226369e7a2ef744b353c25\nparent 705fb0ecac6f4249679958f6325b809b63fdde17\nauthor Simon <yunchao@cresclab.com> 1774983075 +0800\ncommitter GitHub <noreply@github.com> 1774983075 -0600\n\nfeat(sheets): add --range flag to +append for targeting specific tabs (#641)\n\nPreviously +append always used hardcoded \"A1\" range, limiting appends\nto the first sheet. Add optional --range flag (default: \"A1\") to allow\nappending to any sheet tab using A1 notation.",
+      "verified_at": "2026-03-31T18:51:15Z"
+    }
+  },
+  "url": "https://api.github.com/repos/googleworkspace/cli/commits/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+  "html_url": "https://github.com/googleworkspace/cli/commit/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+  "comments_url": "https://api.github.com/repos/googleworkspace/cli/commits/a3768d0e82ad83cca2da97724e46bea4ff0e6dbd/comments",
+  "author": {
+    "login": "YunChaoTsai",
+    "id": 5583381,
+    "node_id": "MDQ6VXNlcjU1ODMzODE=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5583381?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YunChaoTsai",
+    "html_url": "https://github.com/YunChaoTsai",
+    "followers_url": "https://api.github.com/users/YunChaoTsai/followers",
+    "following_url": "https://api.github.com/users/YunChaoTsai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YunChaoTsai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YunChaoTsai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YunChaoTsai/subscriptions",
+    "organizations_url": "https://api.github.com/users/YunChaoTsai/orgs",
+    "repos_url": "https://api.github.com/users/YunChaoTsai/repos",
+    "events_url": "https://api.github.com/users/YunChaoTsai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YunChaoTsai/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "705fb0ecac6f4249679958f6325b809b63fdde17",
+      "url": "https://api.github.com/repos/googleworkspace/cli/commits/705fb0ecac6f4249679958f6325b809b63fdde17",
+      "html_url": "https://github.com/googleworkspace/cli/commit/705fb0ecac6f4249679958f6325b809b63fdde17"
+    }
+  ]
+}

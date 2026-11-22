@@ -1,0 +1,191 @@
+{
+  "repository": "expo/skills",
+  "primary": "plugins/expo/skills/expo-upgrade/SKILL.md",
+  "pinned_commit": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+  "repository_license": "MIT",
+  "key": "0c835f2ddfc1a62d0836",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+    "computed_tree_sha": "a13b89b84c216a5e00e3c93bee2c7a44db00c55a",
+    "api_tree_sha_as_returned": "a13b89b84c216a5e00e3c93bee2c7a44db00c55a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e8f2ba596ea5e460620cb7000453794f8dfd3233",
+        "sha256": "378d18072b352aec36f3206a75a584ade36872a9f61123acf14fcf1f6a48bc02",
+        "size": 7916,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "39d580e6760dfbebf481eff03dab9c0a178ea49d",
+        "sha256": "c0695e6a721f721e4d27c44df7b5adbf7602bf798862c6674ee3002c993edc20",
+        "size": 373,
+        "mode": "100644"
+      },
+      {
+        "path": "references/expo-av-to-audio.md",
+        "git_blob_sha1": "afacde7fe90a0b2ec173992327f469db97d39965",
+        "sha256": "b66df7e8722339e2b0ae5e22da225e313794744eb0648303ad6cfc43632cc6a1",
+        "size": 3683,
+        "mode": "100644"
+      },
+      {
+        "path": "references/expo-av-to-video.md",
+        "git_blob_sha1": "5c9bec1919b3598697857b24b87139047dbf8e73",
+        "sha256": "e222bf0e767baee721f7e42ce68d2c26a8b844d723e830d81cdfecac805564a2",
+        "size": 4262,
+        "mode": "100644"
+      },
+      {
+        "path": "references/native-tabs.md",
+        "git_blob_sha1": "95214c2e49c593ecf9745d52e3164a326ecd9e30",
+        "sha256": "bf945b38a970a556769d1c406f8089d8ece34b5f204fe32a0e10fbedc24fff83",
+        "size": 3520,
+        "mode": "100644"
+      },
+      {
+        "path": "references/new-architecture.md",
+        "git_blob_sha1": "b4b27ba7b5229942a5583e6e0827a294d92a6c0f",
+        "sha256": "32479e9be069c5e4931dfdf3e475119ddc7a879bac8a475e259e5193bcf32cff",
+        "size": 2177,
+        "mode": "100644"
+      },
+      {
+        "path": "references/react-19.md",
+        "git_blob_sha1": "74035b2b1353902018ab92a005e97098e62c6812",
+        "sha256": "bf600571e38dd7d114b58e0f6ace5a560792624dcfdc49c421134cd1669a0d77",
+        "size": 1875,
+        "mode": "100644"
+      },
+      {
+        "path": "references/react-compiler.md",
+        "git_blob_sha1": "4d58e281093552d7f5628d24ad5b4db74f2e94f9",
+        "sha256": "ad485033650cff963abdfd8a98d5bbe5f0825a853ffebd6cfe11a4c80b3c63db",
+        "size": 1645,
+        "mode": "100644"
+      },
+      {
+        "path": "references/react-navigation-to-expo-router.md",
+        "git_blob_sha1": "c0155f46256ccbba7302e406e95406b1e45eab2a",
+        "sha256": "083fb891adb87a1ab02aff92b1f322014ecb2427014e20194ff9e05f5d321ca9",
+        "size": 4174,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+    "computed_tree_sha": "35fc11a00bd8cd233e9914e57399d03da6ef5772",
+    "api_tree_sha_as_returned": "35fc11a00bd8cd233e9914e57399d03da6ef5772",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "93fe91c2af9bca836619ea73398e78b5eaac272d",
+        "sha256": "21f728bc9316071c5440ab7d61df08b4daebe2e793f607271f034d17a266f11b",
+        "size": 7783,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "39d580e6760dfbebf481eff03dab9c0a178ea49d",
+        "sha256": "c0695e6a721f721e4d27c44df7b5adbf7602bf798862c6674ee3002c993edc20",
+        "size": 373,
+        "mode": "100644"
+      },
+      {
+        "path": "references/expo-av-to-audio.md",
+        "git_blob_sha1": "afacde7fe90a0b2ec173992327f469db97d39965",
+        "sha256": "b66df7e8722339e2b0ae5e22da225e313794744eb0648303ad6cfc43632cc6a1",
+        "size": 3683,
+        "mode": "100644"
+      },
+      {
+        "path": "references/expo-av-to-video.md",
+        "git_blob_sha1": "5c9bec1919b3598697857b24b87139047dbf8e73",
+        "sha256": "e222bf0e767baee721f7e42ce68d2c26a8b844d723e830d81cdfecac805564a2",
+        "size": 4262,
+        "mode": "100644"
+      },
+      {
+        "path": "references/native-tabs.md",
+        "git_blob_sha1": "95214c2e49c593ecf9745d52e3164a326ecd9e30",
+        "sha256": "bf945b38a970a556769d1c406f8089d8ece34b5f204fe32a0e10fbedc24fff83",
+        "size": 3520,
+        "mode": "100644"
+      },
+      {
+        "path": "references/new-architecture.md",
+        "git_blob_sha1": "b4b27ba7b5229942a5583e6e0827a294d92a6c0f",
+        "sha256": "32479e9be069c5e4931dfdf3e475119ddc7a879bac8a475e259e5193bcf32cff",
+        "size": 2177,
+        "mode": "100644"
+      },
+      {
+        "path": "references/react-19.md",
+        "git_blob_sha1": "74035b2b1353902018ab92a005e97098e62c6812",
+        "sha256": "bf600571e38dd7d114b58e0f6ace5a560792624dcfdc49c421134cd1669a0d77",
+        "size": 1875,
+        "mode": "100644"
+      },
+      {
+        "path": "references/react-compiler.md",
+        "git_blob_sha1": "4d58e281093552d7f5628d24ad5b4db74f2e94f9",
+        "sha256": "ad485033650cff963abdfd8a98d5bbe5f0825a853ffebd6cfe11a4c80b3c63db",
+        "size": 1645,
+        "mode": "100644"
+      },
+      {
+        "path": "references/react-navigation-to-expo-router.md",
+        "git_blob_sha1": "c0155f46256ccbba7302e406e95406b1e45eab2a",
+        "sha256": "083fb891adb87a1ab02aff92b1f322014ecb2427014e20194ff9e05f5d321ca9",
+        "size": 4174,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+  "new_commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Ask the user before sending feedback to Expo (#290)",
+  "new_commit_time": "2026-11-14T18:33:50Z",
+  "compare_url": "https://github.com/expo/skills/compare/7582922d039d5a96dc574757d399d22d56370f2b...ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "commit_url": "https://github.com/expo/skills/commit/ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "skill_directory": "plugins/expo/skills/expo-upgrade",
+  "local_directory": "verified_real_update_pairs/OPU-0224",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0224",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

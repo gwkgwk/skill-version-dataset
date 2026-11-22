@@ -1,0 +1,129 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/skills/entra-agent-id/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "5002fe0726d2f905a2ba",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "d704346c145154ddfa3a580ec3256224d6eb9514",
+    "computed_tree_sha": "a470f4a68c00717e96af8dcd4aaf9d31036e7a15",
+    "api_tree_sha_as_returned": "a470f4a68c00717e96af8dcd4aaf9d31036e7a15",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ccf1c7aab8acc735830f12679be2c9eb25fbfea2",
+        "sha256": "cc9b518bd391a0055095ab0c7fa29136551cd7927f8588ee128d95df30b3b298",
+        "size": 8746,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "25e1fcf53df4331ca48370f58461f02de029d9d4",
+        "sha256": "bbfcf4b00d0adbdcfcc62e2fbf5334662f384dccb0da8ea8ee61c6bc0ac07192",
+        "size": 5621,
+        "mode": "100644"
+      },
+      {
+        "path": "references/known-limitations.md",
+        "git_blob_sha1": "3f267d5f983bb1fdf0550d85dfbea667df948d02",
+        "sha256": "52675c4722fb3c838f7fa5c8490efc41a59373307639056696a645b54eb1a8d6",
+        "size": 4890,
+        "mode": "100644"
+      },
+      {
+        "path": "references/oauth2-token-flow.md",
+        "git_blob_sha1": "9532ecc48d263587d3d779362350c5480a18252f",
+        "sha256": "a59d860504a560158b6d0eb66a706e2fb316374278abb0ad35446f7e42bf5d9b",
+        "size": 5000,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "af147bb0192296646964b31f6ea3b8dd33e4f704",
+    "computed_tree_sha": "703245bf2243c63059613f17f9044d7116d19afb",
+    "api_tree_sha_as_returned": "703245bf2243c63059613f17f9044d7116d19afb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a8653ea1e50451c43e1ab7dc95f5024543d63658",
+        "sha256": "f002fdcfca1affe824a0e39dee0ebe000473a38663a4182d8b0484520ac36c38",
+        "size": 9454,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "25e1fcf53df4331ca48370f58461f02de029d9d4",
+        "sha256": "bbfcf4b00d0adbdcfcc62e2fbf5334662f384dccb0da8ea8ee61c6bc0ac07192",
+        "size": 5621,
+        "mode": "100644"
+      },
+      {
+        "path": "references/known-limitations.md",
+        "git_blob_sha1": "3f267d5f983bb1fdf0550d85dfbea667df948d02",
+        "sha256": "52675c4722fb3c838f7fa5c8490efc41a59373307639056696a645b54eb1a8d6",
+        "size": 4890,
+        "mode": "100644"
+      },
+      {
+        "path": "references/oauth2-token-flow.md",
+        "git_blob_sha1": "9532ecc48d263587d3d779362350c5480a18252f",
+        "sha256": "a59d860504a560158b6d0eb66a706e2fb316374278abb0ad35446f7e42bf5d9b",
+        "size": 5000,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk-sidecar.md",
+        "git_blob_sha1": "1bfb0e7aa30870a83ac9ae5a4d204f85ec3a590f",
+        "sha256": "d3c9b7946756c188a02682cf324fceacf7ba789b8af8dfecbbdc16706e5ee1de",
+        "size": 13326,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/sdk-sidecar.md"
+  ],
+  "old_commit": "d704346c145154ddfa3a580ec3256224d6eb9514",
+  "new_commit": "af147bb0192296646964b31f6ea3b8dd33e4f704",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(entra-agent-id): add SDK sidecar reference for polyglot agent auth\n\nAdd references/sdk-sidecar.md covering the Microsoft Entra SDK for AgentID\ncontainerized sidecar — endpoints, 3P agent patterns, Docker/K8s deployment,\nand security guidance.\n\nUpdate SKILL.md frontmatter with sidecar triggers and reference links.\nAdd 3 test scenarios for sidecar patterns (autonomous, interactive, deployment).",
+  "new_commit_time": "2026-03-24T15:34:17Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/d704346c145154ddfa3a580ec3256224d6eb9514...af147bb0192296646964b31f6ea3b8dd33e4f704",
+  "commit_url": "https://github.com/microsoft/skills/commit/af147bb0192296646964b31f6ea3b8dd33e4f704",
+  "skill_directory": ".github/skills/entra-agent-id",
+  "local_directory": "verified_real_update_pairs/OPU-0500",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0500",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

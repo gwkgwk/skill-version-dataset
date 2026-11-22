@@ -1,0 +1,93 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/deep-wiki/skills/wiki-qa/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "0b5d273bd219902f4072",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "673f81db3b0f24526fcd74f230f21437abaf7ceb",
+    "computed_tree_sha": "b50b65ee5089349cfcfc44179cec38d538270eab",
+    "api_tree_sha_as_returned": "b50b65ee5089349cfcfc44179cec38d538270eab",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "74aba51dc96d7f44b562c52ffe9e0839d45dadbe",
+        "sha256": "0b4369b07366b129c13a918aacb7aa93628778f7d5376bc1c0098a6ddcad4179",
+        "size": 2296,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "1c00b19203d195f4f9f1f8b2ff468df1342ebfda",
+        "sha256": "7d9e6d7be9943de22cce3463fc86e6a5c305532e4d757973f9199c9741f32c22",
+        "size": 2425,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "67ae723a23ba880e3e5c8a3e5e2320092024476e",
+    "computed_tree_sha": "3fd6ef32e6ad436dc9663c981b1eee37f06aa8b3",
+    "api_tree_sha_as_returned": "3fd6ef32e6ad436dc9663c981b1eee37f06aa8b3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2568639d0204aff644b86563342487fec78eb332",
+        "sha256": "e509864c9561b98dc3f6e9d8bf80824f07a1fe78978dea9ed849959c34b6f7b4",
+        "size": 2358,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "1c00b19203d195f4f9f1f8b2ff468df1342ebfda",
+        "sha256": "7d9e6d7be9943de22cce3463fc86e6a5c305532e4d757973f9199c9741f32c22",
+        "size": 2425,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "673f81db3b0f24526fcd74f230f21437abaf7ceb",
+  "new_commit": "67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Move package field into metadata map across plugin SKILL.md files\n\nMigrate 138 SKILL.md files under .github/plugins/ to use\nspec-conformant metadata maps:\n\n- Move top-level package field into metadata.package\n- Add license: MIT to all updated files\n- Add metadata.author: Microsoft and metadata.version: 1.0.0\n- Leave 28 azure-skills files untouched (already conformant)\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-02T16:37:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/673f81db3b0f24526fcd74f230f21437abaf7ceb...67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "commit_url": "https://github.com/microsoft/skills/commit/67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "skill_directory": ".github/plugins/deep-wiki/skills/wiki-qa",
+  "local_directory": "verified_real_update_pairs/OPU-0494",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0494",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

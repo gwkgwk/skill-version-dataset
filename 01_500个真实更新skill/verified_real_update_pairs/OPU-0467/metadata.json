@@ -1,0 +1,822 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-diagnostics/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "bfccc5e3a333f26e2633",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "0d60658e34d07c05a5cd0514d3e64ccd653e8539",
+    "computed_tree_sha": "277fd35c8b3f7ab784dfe791aa7cba9b1292bf16",
+    "api_tree_sha_as_returned": "277fd35c8b3f7ab784dfe791aa7cba9b1292bf16",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b4ee2db593a16869339b97b9095cdac2f2d49ca9",
+        "sha256": "98539bd472258ec80a1b2718a197df2f1f85b27d43a5c96a980424e5fac6894c",
+        "size": 7481,
+        "mode": "100644"
+      },
+      {
+        "path": "references/app-service/README.md",
+        "git_blob_sha1": "36b3bfb4a49d0655e56e2a7fd623e69b47e2e4dc",
+        "sha256": "cf43af284241ce4bae6dcbc1c646cd35f2ce049620da26d209c38a7ca37e1388",
+        "size": 7967,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-resource-graph.md",
+        "git_blob_sha1": "0c1d78ddcbf725c7a5c8c1abac53d07e04773441",
+        "sha256": "cd7cf01f8f74983a38e24f8bb20cb8f492f682319a56ac73cdc8647ddf550491",
+        "size": 2909,
+        "mode": "100644"
+      },
+      {
+        "path": "references/container-apps/README.md",
+        "git_blob_sha1": "6a9ca0c9b66579febf9e8f103056bdc3398e76a9",
+        "sha256": "84e55cea1303be8300109c0d0cd95fe479a981f052921f8403ae933f32e12437",
+        "size": 3577,
+        "mode": "100644"
+      },
+      {
+        "path": "references/functions/README.md",
+        "git_blob_sha1": "c90e098965123798a75109afe7c79373cf2757f1",
+        "sha256": "68e9d73865fd465b5cfd7b9e86127675a92721779283d5539ea914fe032945de",
+        "size": 3979,
+        "mode": "100644"
+      },
+      {
+        "path": "references/functions/durable.md",
+        "git_blob_sha1": "9a58268fb181df99ebd0ec77a42abf06df6eba85",
+        "sha256": "9d43d0b29c17cca92635ccd6cb5f29eca5fc95eda9cf4dffc42f7585a4925d8a",
+        "size": 7827,
+        "mode": "100644"
+      },
+      {
+        "path": "references/functions/triggers.md",
+        "git_blob_sha1": "39b70346f54a9077172a06181f5a7d97a360453c",
+        "sha256": "5048d2e47072c808228cf38354d00369e7a3714e5f7ae2e5a1c3fd0294709793",
+        "size": 8516,
+        "mode": "100644"
+      },
+      {
+        "path": "references/kql-queries.md",
+        "git_blob_sha1": "4dc2f34a24838b5e94a7a82fdea946afecb1a8a2",
+        "sha256": "3a784ff92bb90e0967c0c40dc0ce4daed8b664ceb1f014bd7a70d8c2926cc8a3",
+        "size": 1342,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/aks-baseline.ps1",
+        "git_blob_sha1": "e88845af72b3fe25bad22b81ef73e7224dae2094",
+        "sha256": "f61e3158363103a2e5912f2cab4d27e93e830c89f7e5b2f27920f6b242673fb5",
+        "size": 7581,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/aks-baseline.sh",
+        "git_blob_sha1": "9361e8e69b6de8add3236a5d695bdae2b08b0bff",
+        "sha256": "2772e90323cab531203726b5a9af6829930986bfd6248ac1aa27403ade70f228",
+        "size": 7141,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/appservice-diagnostics.ps1",
+        "git_blob_sha1": "dca273aaae9fab7465c1b55ecc46ea0655aaef85",
+        "sha256": "1fcc0d0b07ecace5d28a50213d76fab23c701933c05a07d1b97891c5bce2baa6",
+        "size": 2750,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/appservice-diagnostics.sh",
+        "git_blob_sha1": "d3b109aa35422258b39c8ef0d51e9e12462fbad4",
+        "sha256": "210e25beeaf94116a7829654782206d5cea7e7f0dd97e5869c171851e71051fc",
+        "size": 3362,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/containerapp-diagnostics.ps1",
+        "git_blob_sha1": "52f340cacf60a0ad9c33cafba1a59b85442820a1",
+        "sha256": "f01c4a47de3c01d2d616d7521a5e26df0cc95f155c93bbec465cd82d792fe910",
+        "size": 2605,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/containerapp-diagnostics.sh",
+        "git_blob_sha1": "0b59eee190169a11f217dad51df406cd1f514ea3",
+        "sha256": "f393206b606e0d5d5eb4e6505393dd9e8c0463adf6b1693d47dd750ff7179e80",
+        "size": 3200,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pod-evidence.ps1",
+        "git_blob_sha1": "ac8e6e5f311ecb64389d463d60afda0a7c820299",
+        "sha256": "ec95c20067b66df2dae73ceed09d561e089b0b0b09fa3f6172836b8c3fc2ec27",
+        "size": 6749,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pod-evidence.sh",
+        "git_blob_sha1": "e1e8cd019e45bd5983a543a3501f36e42567889b",
+        "sha256": "cb6bbea2957017f1815a87f90f896dcbdcc3aec538097958242752724bf1fefb",
+        "size": 7222,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/run-ig.ps1",
+        "git_blob_sha1": "ab2acc9727e10c253701be4e5086e276bd1144c7",
+        "sha256": "044c1311c7be68ff990e978c8a6a34c79ba0b8dc0720f14a0570193150ac9201",
+        "size": 5690,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/run-ig.sh",
+        "git_blob_sha1": "c1286d813908a7a9302231d01bc653d785ab05e3",
+        "sha256": "35a64f1d4da8c3c1b107b243bae6d4a9a9fa66957c9878febb0b6bcf3fe2582e",
+        "size": 6664,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test-messaging-connectivity.ps1",
+        "git_blob_sha1": "203c4d10473addb5647ab74b4100414e1fa59bd3",
+        "sha256": "a42d229408b4281fc6f6110c6e9286091523ce00d48b96e0f28672307c6f49a2",
+        "size": 6491,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test-messaging-connectivity.sh",
+        "git_blob_sha1": "212c3318b6076bca572a8772264d8435b371e815",
+        "sha256": "cf6d212b403a8846c8d58629fc20272f3e7a325d9a97a12688f367d665d87c36",
+        "size": 6974,
+        "mode": "100755"
+      },
+      {
+        "path": "troubleshooting/aks/aks-troubleshooting.md",
+        "git_blob_sha1": "28079dc2fbd7280e9106f5c90a23772896f3fb23",
+        "sha256": "37a141177815d3bda47b15f270683d3a96f0d57dd59a2078150da2ab03ec6223",
+        "size": 9424,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/general-diagnostics.md",
+        "git_blob_sha1": "844cd12b3e48945f66b5d0bebb29c954219ce7a3",
+        "sha256": "8acf6259604ef912d6ac763d75552a65925e76ab2020da56168ca879c389ef56",
+        "size": 2053,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/load-balancer-and-ingress.md",
+        "git_blob_sha1": "cdcb9aa761e4810c926a6404bad4af347ea38552",
+        "sha256": "411fe1e7af9b072011d1cdc34733051cf8c31d6fa59355c0b0a5b2421a5f4681",
+        "size": 3687,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/network-policy.md",
+        "git_blob_sha1": "32f2147fa2ce89d99d3cf4148b1ce120928e7445",
+        "sha256": "557901c258eb637baad32466e6e4eb9e570fa66deebb21520cef3436fe4672ce",
+        "size": 832,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/networking.md",
+        "git_blob_sha1": "b5fd1ed391ff5afa38b2fde6934a90320ea6492c",
+        "sha256": "75ec5358fc5baff4a8c3f5891e3c6bf8fbb6930972abe00cbc09096aa96db66a",
+        "size": 5597,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/node-issues.md",
+        "git_blob_sha1": "9e69be29ea99f8829afcfb5ba209af1be8be79e6",
+        "sha256": "1913b8383ecf748ea2fae53b1e3dfb176205c0f1a4183070f5a35ecce01a41d6",
+        "size": 4833,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/optional-aks-operations.md",
+        "git_blob_sha1": "02266a48b0ce993d09ee056ead9600128987aa99",
+        "sha256": "96d5598e05b4dd0ec9982400fcce25bd4a1d969d626877876a3f2426d4607c07",
+        "size": 2402,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/pod-failures.md",
+        "git_blob_sha1": "114516eae37fcc1b7022b347ee8a05995af981c2",
+        "sha256": "930c8da84023a13da2fc92793f283eb7252bb03779b611716852338fe79a2126",
+        "size": 7751,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/references/aks-mcp.md",
+        "git_blob_sha1": "6f5527f5c8a20ce83c82c57a6f93e35cf8961420",
+        "sha256": "6377b54c5828aff186fed7ef86dcb0c38c7eba52d6266309d4b41d27febcf5c1",
+        "size": 2404,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/references/command-flows.md",
+        "git_blob_sha1": "f9d0935df8d1606002e98a39124f9f689d723de5",
+        "sha256": "130392554d7d93bad0fb74bef445333b7e11a27124133cf6d4821ae5edbdc3ad",
+        "size": 4160,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/references/inspektor-gadget.md",
+        "git_blob_sha1": "14f775ec2b48b3237674e80263aeafc1dd16315c",
+        "sha256": "c78220ece086363f969810eee40a1963d276864d8cd31f6cd8af823cf91fb741",
+        "size": 7795,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/references/structured-input-modes.md",
+        "git_blob_sha1": "208cc0cd02b46647bcfe3feca3793629462582d8",
+        "sha256": "eb1d1efe70567b5583d56c155a640ed6d3964befba1e63589d57045ee0640119",
+        "size": 1508,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/spot-and-zone-issues.md",
+        "git_blob_sha1": "7b774185cd4179d8fa41bce152853fbd5b7c4f54",
+        "sha256": "00531f4c15aafa5d89d9d8696d2b83c37611fbf7014600308252ef2382ec0379",
+        "size": 2608,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/upgrade-operations.md",
+        "git_blob_sha1": "f2ab3f1997c9ed6049cfc8462bd8e50b8df2a79d",
+        "sha256": "a159e73391f2436c0184790deb9a3296c766288269cead50d07f3d021331dc88",
+        "size": 2252,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/cannot-connect-to-vm.md",
+        "git_blob_sha1": "ef8ac13b3874d270c9f50335866c9659cbe0d4a3",
+        "sha256": "d49c4ac1447e343c465750232379624434dad1955fac1b204894f91ee7e24663",
+        "size": 3204,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/credential-auth-errors.md",
+        "git_blob_sha1": "37e1640ced7bbb4da58cad36939a973019cfb4e4",
+        "sha256": "741fdd4facf000ddaf01f0b6d0654a0f12b0421ba9f75d626d51a25babd1805a",
+        "size": 2365,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/firewall-blocking.md",
+        "git_blob_sha1": "60f7c8c3ef94938399f197fc534a73dd055557a5",
+        "sha256": "a855444fd7d42a1f874b97c8a9d354cecf7567f12ce14ce7b410aec4092f221c",
+        "size": 2376,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/network-connectivity.md",
+        "git_blob_sha1": "758d60e13503049562dd9de19d31e293b4aeab73",
+        "sha256": "0d4dab14b9ee2b8f05faa0ecc2fc08592a12d05ee23489e4c7a52c5300d0d0fc",
+        "size": 2604,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/rdp-connectivity.md",
+        "git_blob_sha1": "d4c3c6b45e6f3c00545f6dd5e02b0ce90fe1c060",
+        "sha256": "e3d5a70e4a027e639602967107eb53be3b40a9360898bb843508cd7214379247",
+        "size": 2800,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/rdp-service-config.md",
+        "git_blob_sha1": "cd8f35bc40d20ba027577e1e726182dc98f01bc5",
+        "sha256": "1a6e3bb20d6e7ae9a7c7638ce74009bf0bdb82b632c3e560be5201e87ad44881",
+        "size": 3299,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/ssh-connectivity.md",
+        "git_blob_sha1": "8d87fafe5fafeb4efdfb99763c3d253e7328a4b8",
+        "sha256": "e9346d563a9a9d890ef6f9a03d429dd5e72decbe7bbdd5868d278c1b5823b44a",
+        "size": 2979,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/vm-agent-not-responding.md",
+        "git_blob_sha1": "92be89777b9a8b18df0633e342d23f44cb8afe23",
+        "sha256": "270c2b73af1ac40d9cc9b0acc6b830363f6fa1a76d5591b2e275cfcbd78f2adc",
+        "size": 3723,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/vm-troubleshooting.md",
+        "git_blob_sha1": "c6333888f1203fa9b7f0f4649199afef44133a69",
+        "sha256": "4f25c141241dbc0f4b1ed25d8e998475f4881584ac7207f7e8678ca4ad4ab9a8",
+        "size": 3384,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/README.md",
+        "git_blob_sha1": "0eab25b79477ff57dc5c90a60ede4c9a96ac46d5",
+        "sha256": "060a285a2fab6038e198261f9a6d2b6151707f8e0aa29951f08816bba0766d2c",
+        "size": 1606,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-eventhubs-dotnet.md",
+        "git_blob_sha1": "10ad4336dd6be547e7f241ab049282721966c612",
+        "sha256": "d168fd1529ad865409707fd0e208d44877ae3e9306de25f36ad141fe916e7b5e",
+        "size": 3573,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-eventhubs-java.md",
+        "git_blob_sha1": "0d8bf97ec90243a5e1c3cb9b71261d3141b903e2",
+        "sha256": "f81e0671f1472545a805cb8ed5982fc3fb3ab743ac7111a26549be1500bb2e49",
+        "size": 3298,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-eventhubs-js.md",
+        "git_blob_sha1": "1bb8c751ef84ca89512dead7f9c1ea776a4a044e",
+        "sha256": "f4794520b65453a99ba1ede3fe9c7d34742d37a5148710a957ad8c6ba3033bb4",
+        "size": 2777,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-eventhubs-py.md",
+        "git_blob_sha1": "afab2401818381f66f7ca386adab9ec30062c7a4",
+        "sha256": "4511039cc6ce513e8ff4eaedc46b7248bb64d12897b52003bf66709a0c4a4e78",
+        "size": 4454,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-servicebus-dotnet.md",
+        "git_blob_sha1": "81cbe6cbe4fc1a91233c074f82018b340b5cd542",
+        "sha256": "49ee74f9327aa2fe311d56d0bed2b80d757c807b82e6385833497570a1eb3927",
+        "size": 2568,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-servicebus-java.md",
+        "git_blob_sha1": "e4a10d59c13ad5b99987d84ed2d81fbe34d74a53",
+        "sha256": "d5c07b964c79225c52f7dcaea2c46cef5fdb320aec67cbf3ba0fc03d46675910",
+        "size": 2281,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-servicebus-js.md",
+        "git_blob_sha1": "c63c23845a06fb54cd24a6045cc10940cc24ee78",
+        "sha256": "ef4131010dbaa59fea9dd9c5b6b6a4d866e83d375fd4d920c79d25ccadf0e16b",
+        "size": 2489,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-servicebus-py.md",
+        "git_blob_sha1": "cf1ef08da87e606eda19c17a9a7cbcaa330b4876",
+        "sha256": "274162fa4cec6f96fea056639c7cf0d8821bce277af82eb01343f6a9e74f647b",
+        "size": 2388,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/service-troubleshooting.md",
+        "git_blob_sha1": "557899e6604a9ce3844ac2a7b1d4810d2faf372d",
+        "sha256": "056d3ee490ff20d121eb8575c47c6bab67a786996b6949921c08de3aa887f949",
+        "size": 5193,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "6024ec4951da59796f20d6db1ba32645427e0503",
+    "computed_tree_sha": "8125278b1d1e010f686c157307ee86502fd92474",
+    "api_tree_sha_as_returned": "8125278b1d1e010f686c157307ee86502fd92474",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2065c17715b474d23663c8622741d05a313eac4c",
+        "sha256": "31d5fe597458076b12ed6194b8f581dd78acd88a5382c910d2b2d76a08764c29",
+        "size": 9064,
+        "mode": "100644"
+      },
+      {
+        "path": "references/app-service/README.md",
+        "git_blob_sha1": "36b3bfb4a49d0655e56e2a7fd623e69b47e2e4dc",
+        "sha256": "cf43af284241ce4bae6dcbc1c646cd35f2ce049620da26d209c38a7ca37e1388",
+        "size": 7967,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-resource-graph.md",
+        "git_blob_sha1": "0c1d78ddcbf725c7a5c8c1abac53d07e04773441",
+        "sha256": "cd7cf01f8f74983a38e24f8bb20cb8f492f682319a56ac73cdc8647ddf550491",
+        "size": 2909,
+        "mode": "100644"
+      },
+      {
+        "path": "references/container-apps/README.md",
+        "git_blob_sha1": "6a9ca0c9b66579febf9e8f103056bdc3398e76a9",
+        "sha256": "84e55cea1303be8300109c0d0cd95fe479a981f052921f8403ae933f32e12437",
+        "size": 3577,
+        "mode": "100644"
+      },
+      {
+        "path": "references/functions/README.md",
+        "git_blob_sha1": "c90e098965123798a75109afe7c79373cf2757f1",
+        "sha256": "68e9d73865fd465b5cfd7b9e86127675a92721779283d5539ea914fe032945de",
+        "size": 3979,
+        "mode": "100644"
+      },
+      {
+        "path": "references/functions/durable.md",
+        "git_blob_sha1": "9a58268fb181df99ebd0ec77a42abf06df6eba85",
+        "sha256": "9d43d0b29c17cca92635ccd6cb5f29eca5fc95eda9cf4dffc42f7585a4925d8a",
+        "size": 7827,
+        "mode": "100644"
+      },
+      {
+        "path": "references/functions/triggers.md",
+        "git_blob_sha1": "b1a0af2448005f5af0b234dbf7ab807744197a99",
+        "sha256": "ee57b25ff768792b20e7d490322b799e921264f85fe09ea087f328f7cc6b5ba9",
+        "size": 12122,
+        "mode": "100644"
+      },
+      {
+        "path": "references/kql-queries.md",
+        "git_blob_sha1": "4dc2f34a24838b5e94a7a82fdea946afecb1a8a2",
+        "sha256": "3a784ff92bb90e0967c0c40dc0ce4daed8b664ceb1f014bd7a70d8c2926cc8a3",
+        "size": 1342,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/aks-baseline.ps1",
+        "git_blob_sha1": "e88845af72b3fe25bad22b81ef73e7224dae2094",
+        "sha256": "f61e3158363103a2e5912f2cab4d27e93e830c89f7e5b2f27920f6b242673fb5",
+        "size": 7581,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/aks-baseline.sh",
+        "git_blob_sha1": "9361e8e69b6de8add3236a5d695bdae2b08b0bff",
+        "sha256": "2772e90323cab531203726b5a9af6829930986bfd6248ac1aa27403ade70f228",
+        "size": 7141,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/appservice-diagnostics.ps1",
+        "git_blob_sha1": "dca273aaae9fab7465c1b55ecc46ea0655aaef85",
+        "sha256": "1fcc0d0b07ecace5d28a50213d76fab23c701933c05a07d1b97891c5bce2baa6",
+        "size": 2750,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/appservice-diagnostics.sh",
+        "git_blob_sha1": "d3b109aa35422258b39c8ef0d51e9e12462fbad4",
+        "sha256": "210e25beeaf94116a7829654782206d5cea7e7f0dd97e5869c171851e71051fc",
+        "size": 3362,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/containerapp-diagnostics.ps1",
+        "git_blob_sha1": "52f340cacf60a0ad9c33cafba1a59b85442820a1",
+        "sha256": "f01c4a47de3c01d2d616d7521a5e26df0cc95f155c93bbec465cd82d792fe910",
+        "size": 2605,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/containerapp-diagnostics.sh",
+        "git_blob_sha1": "0b59eee190169a11f217dad51df406cd1f514ea3",
+        "sha256": "f393206b606e0d5d5eb4e6505393dd9e8c0463adf6b1693d47dd750ff7179e80",
+        "size": 3200,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pod-evidence.ps1",
+        "git_blob_sha1": "ac8e6e5f311ecb64389d463d60afda0a7c820299",
+        "sha256": "ec95c20067b66df2dae73ceed09d561e089b0b0b09fa3f6172836b8c3fc2ec27",
+        "size": 6749,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pod-evidence.sh",
+        "git_blob_sha1": "e1e8cd019e45bd5983a543a3501f36e42567889b",
+        "sha256": "cb6bbea2957017f1815a87f90f896dcbdcc3aec538097958242752724bf1fefb",
+        "size": 7222,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/run-ig.ps1",
+        "git_blob_sha1": "ab2acc9727e10c253701be4e5086e276bd1144c7",
+        "sha256": "044c1311c7be68ff990e978c8a6a34c79ba0b8dc0720f14a0570193150ac9201",
+        "size": 5690,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/run-ig.sh",
+        "git_blob_sha1": "c1286d813908a7a9302231d01bc653d785ab05e3",
+        "sha256": "35a64f1d4da8c3c1b107b243bae6d4a9a9fa66957c9878febb0b6bcf3fe2582e",
+        "size": 6664,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test-messaging-connectivity.ps1",
+        "git_blob_sha1": "203c4d10473addb5647ab74b4100414e1fa59bd3",
+        "sha256": "a42d229408b4281fc6f6110c6e9286091523ce00d48b96e0f28672307c6f49a2",
+        "size": 6491,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test-messaging-connectivity.sh",
+        "git_blob_sha1": "212c3318b6076bca572a8772264d8435b371e815",
+        "sha256": "cf6d212b403a8846c8d58629fc20272f3e7a325d9a97a12688f367d665d87c36",
+        "size": 6974,
+        "mode": "100755"
+      },
+      {
+        "path": "troubleshooting/aks/aks-troubleshooting.md",
+        "git_blob_sha1": "28079dc2fbd7280e9106f5c90a23772896f3fb23",
+        "sha256": "37a141177815d3bda47b15f270683d3a96f0d57dd59a2078150da2ab03ec6223",
+        "size": 9424,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/general-diagnostics.md",
+        "git_blob_sha1": "844cd12b3e48945f66b5d0bebb29c954219ce7a3",
+        "sha256": "8acf6259604ef912d6ac763d75552a65925e76ab2020da56168ca879c389ef56",
+        "size": 2053,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/load-balancer-and-ingress.md",
+        "git_blob_sha1": "cdcb9aa761e4810c926a6404bad4af347ea38552",
+        "sha256": "411fe1e7af9b072011d1cdc34733051cf8c31d6fa59355c0b0a5b2421a5f4681",
+        "size": 3687,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/network-policy.md",
+        "git_blob_sha1": "32f2147fa2ce89d99d3cf4148b1ce120928e7445",
+        "sha256": "557901c258eb637baad32466e6e4eb9e570fa66deebb21520cef3436fe4672ce",
+        "size": 832,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/networking.md",
+        "git_blob_sha1": "b5fd1ed391ff5afa38b2fde6934a90320ea6492c",
+        "sha256": "75ec5358fc5baff4a8c3f5891e3c6bf8fbb6930972abe00cbc09096aa96db66a",
+        "size": 5597,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/node-issues.md",
+        "git_blob_sha1": "9e69be29ea99f8829afcfb5ba209af1be8be79e6",
+        "sha256": "1913b8383ecf748ea2fae53b1e3dfb176205c0f1a4183070f5a35ecce01a41d6",
+        "size": 4833,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/optional-aks-operations.md",
+        "git_blob_sha1": "02266a48b0ce993d09ee056ead9600128987aa99",
+        "sha256": "96d5598e05b4dd0ec9982400fcce25bd4a1d969d626877876a3f2426d4607c07",
+        "size": 2402,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/pod-failures.md",
+        "git_blob_sha1": "114516eae37fcc1b7022b347ee8a05995af981c2",
+        "sha256": "930c8da84023a13da2fc92793f283eb7252bb03779b611716852338fe79a2126",
+        "size": 7751,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/references/aks-mcp.md",
+        "git_blob_sha1": "6f5527f5c8a20ce83c82c57a6f93e35cf8961420",
+        "sha256": "6377b54c5828aff186fed7ef86dcb0c38c7eba52d6266309d4b41d27febcf5c1",
+        "size": 2404,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/references/command-flows.md",
+        "git_blob_sha1": "f9d0935df8d1606002e98a39124f9f689d723de5",
+        "sha256": "130392554d7d93bad0fb74bef445333b7e11a27124133cf6d4821ae5edbdc3ad",
+        "size": 4160,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/references/inspektor-gadget.md",
+        "git_blob_sha1": "14f775ec2b48b3237674e80263aeafc1dd16315c",
+        "sha256": "c78220ece086363f969810eee40a1963d276864d8cd31f6cd8af823cf91fb741",
+        "size": 7795,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/references/structured-input-modes.md",
+        "git_blob_sha1": "208cc0cd02b46647bcfe3feca3793629462582d8",
+        "sha256": "eb1d1efe70567b5583d56c155a640ed6d3964befba1e63589d57045ee0640119",
+        "size": 1508,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/spot-and-zone-issues.md",
+        "git_blob_sha1": "7b774185cd4179d8fa41bce152853fbd5b7c4f54",
+        "sha256": "00531f4c15aafa5d89d9d8696d2b83c37611fbf7014600308252ef2382ec0379",
+        "size": 2608,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/aks/upgrade-operations.md",
+        "git_blob_sha1": "f2ab3f1997c9ed6049cfc8462bd8e50b8df2a79d",
+        "sha256": "a159e73391f2436c0184790deb9a3296c766288269cead50d07f3d021331dc88",
+        "size": 2252,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/cannot-connect-to-vm.md",
+        "git_blob_sha1": "ef8ac13b3874d270c9f50335866c9659cbe0d4a3",
+        "sha256": "d49c4ac1447e343c465750232379624434dad1955fac1b204894f91ee7e24663",
+        "size": 3204,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/credential-auth-errors.md",
+        "git_blob_sha1": "37e1640ced7bbb4da58cad36939a973019cfb4e4",
+        "sha256": "741fdd4facf000ddaf01f0b6d0654a0f12b0421ba9f75d626d51a25babd1805a",
+        "size": 2365,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/firewall-blocking.md",
+        "git_blob_sha1": "60f7c8c3ef94938399f197fc534a73dd055557a5",
+        "sha256": "a855444fd7d42a1f874b97c8a9d354cecf7567f12ce14ce7b410aec4092f221c",
+        "size": 2376,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/network-connectivity.md",
+        "git_blob_sha1": "758d60e13503049562dd9de19d31e293b4aeab73",
+        "sha256": "0d4dab14b9ee2b8f05faa0ecc2fc08592a12d05ee23489e4c7a52c5300d0d0fc",
+        "size": 2604,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/rdp-connectivity.md",
+        "git_blob_sha1": "d4c3c6b45e6f3c00545f6dd5e02b0ce90fe1c060",
+        "sha256": "e3d5a70e4a027e639602967107eb53be3b40a9360898bb843508cd7214379247",
+        "size": 2800,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/rdp-service-config.md",
+        "git_blob_sha1": "cd8f35bc40d20ba027577e1e726182dc98f01bc5",
+        "sha256": "1a6e3bb20d6e7ae9a7c7638ce74009bf0bdb82b632c3e560be5201e87ad44881",
+        "size": 3299,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/ssh-connectivity.md",
+        "git_blob_sha1": "8d87fafe5fafeb4efdfb99763c3d253e7328a4b8",
+        "sha256": "e9346d563a9a9d890ef6f9a03d429dd5e72decbe7bbdd5868d278c1b5823b44a",
+        "size": 2979,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/references/vm-agent-not-responding.md",
+        "git_blob_sha1": "92be89777b9a8b18df0633e342d23f44cb8afe23",
+        "sha256": "270c2b73af1ac40d9cc9b0acc6b830363f6fa1a76d5591b2e275cfcbd78f2adc",
+        "size": 3723,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/compute/vm-troubleshooting.md",
+        "git_blob_sha1": "c6333888f1203fa9b7f0f4649199afef44133a69",
+        "sha256": "4f25c141241dbc0f4b1ed25d8e998475f4881584ac7207f7e8678ca4ad4ab9a8",
+        "size": 3384,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/README.md",
+        "git_blob_sha1": "0eab25b79477ff57dc5c90a60ede4c9a96ac46d5",
+        "sha256": "060a285a2fab6038e198261f9a6d2b6151707f8e0aa29951f08816bba0766d2c",
+        "size": 1606,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-eventhubs-dotnet.md",
+        "git_blob_sha1": "10ad4336dd6be547e7f241ab049282721966c612",
+        "sha256": "d168fd1529ad865409707fd0e208d44877ae3e9306de25f36ad141fe916e7b5e",
+        "size": 3573,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-eventhubs-java.md",
+        "git_blob_sha1": "0d8bf97ec90243a5e1c3cb9b71261d3141b903e2",
+        "sha256": "f81e0671f1472545a805cb8ed5982fc3fb3ab743ac7111a26549be1500bb2e49",
+        "size": 3298,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-eventhubs-js.md",
+        "git_blob_sha1": "1bb8c751ef84ca89512dead7f9c1ea776a4a044e",
+        "sha256": "f4794520b65453a99ba1ede3fe9c7d34742d37a5148710a957ad8c6ba3033bb4",
+        "size": 2777,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-eventhubs-py.md",
+        "git_blob_sha1": "afab2401818381f66f7ca386adab9ec30062c7a4",
+        "sha256": "4511039cc6ce513e8ff4eaedc46b7248bb64d12897b52003bf66709a0c4a4e78",
+        "size": 4454,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-servicebus-dotnet.md",
+        "git_blob_sha1": "81cbe6cbe4fc1a91233c074f82018b340b5cd542",
+        "sha256": "49ee74f9327aa2fe311d56d0bed2b80d757c807b82e6385833497570a1eb3927",
+        "size": 2568,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-servicebus-java.md",
+        "git_blob_sha1": "e4a10d59c13ad5b99987d84ed2d81fbe34d74a53",
+        "sha256": "d5c07b964c79225c52f7dcaea2c46cef5fdb320aec67cbf3ba0fc03d46675910",
+        "size": 2281,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-servicebus-js.md",
+        "git_blob_sha1": "c63c23845a06fb54cd24a6045cc10940cc24ee78",
+        "sha256": "ef4131010dbaa59fea9dd9c5b6b6a4d866e83d375fd4d920c79d25ccadf0e16b",
+        "size": 2489,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/azure-servicebus-py.md",
+        "git_blob_sha1": "cf1ef08da87e606eda19c17a9a7cbcaa330b4876",
+        "sha256": "274162fa4cec6f96fea056639c7cf0d8821bce277af82eb01343f6a9e74f647b",
+        "size": 2388,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/messaging/service-troubleshooting.md",
+        "git_blob_sha1": "557899e6604a9ce3844ac2a7b1d4810d2faf372d",
+        "sha256": "056d3ee490ff20d121eb8575c47c6bab67a786996b6949921c08de3aa887f949",
+        "size": 5193,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/functions/triggers.md"
+  ],
+  "old_commit": "0d60658e34d07c05a5cd0514d3e64ccd653e8539",
+  "new_commit": "6024ec4951da59796f20d6db1ba32645427e0503",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-11-20T11:04:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/0d60658e34d07c05a5cd0514d3e64ccd653e8539...6024ec4951da59796f20d6db1ba32645427e0503",
+  "commit_url": "https://github.com/microsoft/skills/commit/6024ec4951da59796f20d6db1ba32645427e0503",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-diagnostics",
+  "local_directory": "verified_real_update_pairs/OPU-0467",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0467",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

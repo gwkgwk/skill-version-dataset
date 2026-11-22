@@ -1,0 +1,91 @@
+{
+  "repository": "googleworkspace/cli",
+  "primary": "skills/recipe-find-large-files/SKILL.md",
+  "pinned_commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+  "repository_license": "Apache-2.0",
+  "key": "522801750d40766f3c25",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 30,
+  "primary_history_count_returned": 14,
+  "skipped_release_maintenance_commits": [
+    "705fb0ecac6f4249679958f6325b809b63fdde17",
+    "f4ee65836031e105e48f1cef77f91dde3499b389",
+    "c7c6646d7a3ab1851e535afc8fdbcc311ab4d440",
+    "a63b070a51098324b0660cac937a49b0b04ccb87",
+    "45ca45bfd418db07b02995e8510dd18ac45cb3a6",
+    "9198386a3de7fcf2df95532dca79257568d45c19",
+    "2aec0ba5a363735bae3eb20b5a3ea3306f8065f4",
+    "186e88caa05071ee706ad5d2b1b5cbdf242a8e76",
+    "3ac16ee595be33b602149b0b57c724cdd20b4322",
+    "834fa7d25a507e12020a2b04a4e8097558c56c96"
+  ],
+  "old": {
+    "commit": "d6372105eb6f5e252f98c8a8ca073f943871b7e0",
+    "computed_tree_sha": "8822b7b77affce4fa969934ee273c0283fad88f3",
+    "api_tree_sha_as_returned": "8822b7b77affce4fa969934ee273c0283fad88f3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a4cee757bbd7b5f8b0c8561de45ee74fa03ae2fe",
+        "sha256": "ff0fc8998ec91a80acaacd31ea2187d384a57eec3f2c65762efff91604cc1720",
+        "size": 857,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d34576c5c7eb3f10ec272251f4503acf82b10952",
+    "computed_tree_sha": "ffce915f44c55cbfb9db333af37e36e00bc472ef",
+    "api_tree_sha_as_returned": "ffce915f44c55cbfb9db333af37e36e00bc472ef",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "433d9e78515ca2f34353cb15e2ee3101af0e3817",
+        "sha256": "b373093d77b62e31b0a6cca512064da5d872d8dd4eccfccb8d7e491c8214b662",
+        "size": 685,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "d6372105eb6f5e252f98c8a8ca073f943871b7e0",
+  "new_commit": "d34576c5c7eb3f10ec272251f4503acf82b10952",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "chore: Remove a subset of skills and recipes along with their service entries and registry references (#254)",
+  "new_commit_time": "2026-03-06T03:51:59Z",
+  "compare_url": "https://github.com/googleworkspace/cli/compare/d6372105eb6f5e252f98c8a8ca073f943871b7e0...d34576c5c7eb3f10ec272251f4503acf82b10952",
+  "commit_url": "https://github.com/googleworkspace/cli/commit/d34576c5c7eb3f10ec272251f4503acf82b10952",
+  "skill_directory": "skills/recipe-find-large-files",
+  "local_directory": "verified_real_update_pairs/OPU-0303",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0303",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

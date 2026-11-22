@@ -1,0 +1,79 @@
+{
+  "repository": "googleworkspace/cli",
+  "primary": "skills/gws-chat-send/SKILL.md",
+  "pinned_commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+  "repository_license": "Apache-2.0",
+  "key": "66f85f9cae0bc9f06081",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 30,
+  "primary_history_count_returned": 14,
+  "old": {
+    "commit": "e82c02c5a25ad4df6140006fa94a4127df2c3037",
+    "computed_tree_sha": "bb627bdc4b90f609a5ac52e0128864406b3ed01a",
+    "api_tree_sha_as_returned": "bb627bdc4b90f609a5ac52e0128864406b3ed01a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "80dd5ee095a0e79ce664b325b612aedaa7f95459",
+        "sha256": "0ddfcaf734149378651b683146a225f6797dc0b28317d84f5ffdb8959ec97d37",
+        "size": 1143,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "834fa7d25a507e12020a2b04a4e8097558c56c96",
+    "computed_tree_sha": "4879e36c609bc397a7f8bcdc79ce22300fc3cb02",
+    "api_tree_sha_as_returned": "4879e36c609bc397a7f8bcdc79ce22300fc3cb02",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5252421f68c37ca8fd38c78d1ed8c77c5397d925",
+        "sha256": "62109150fe787b00beec8a816195322cb5eb11c0357cbcb78b161a7ae940bd39",
+        "size": 1149,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "e82c02c5a25ad4df6140006fa94a4127df2c3037",
+  "new_commit": "834fa7d25a507e12020a2b04a4e8097558c56c96",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "chore: release versions (#590)\n\n* chore: release versions\n\n* chore: regenerate skills [skip ci]\n\n---------\n\nCo-authored-by: googleworkspace-bot <googleworkspace-bot@users.noreply.github.com>",
+  "new_commit_time": "2026-03-23T20:49:28Z",
+  "compare_url": "https://github.com/googleworkspace/cli/compare/e82c02c5a25ad4df6140006fa94a4127df2c3037...834fa7d25a507e12020a2b04a4e8097558c56c96",
+  "commit_url": "https://github.com/googleworkspace/cli/commit/834fa7d25a507e12020a2b04a4e8097558c56c96",
+  "skill_directory": "skills/gws-chat-send",
+  "local_directory": "verified_real_update_pairs/OPU-0062",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0062",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

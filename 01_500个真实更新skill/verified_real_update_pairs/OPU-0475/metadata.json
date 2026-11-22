@@ -1,0 +1,93 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-resource-lookup/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "4f2c83797385e9f65fca",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "9196aceaa45bc5df8a5af6f987e5aa0d098ea77b",
+    "computed_tree_sha": "0bab61e84c77800c1820cc1071895be5d05ceeb3",
+    "api_tree_sha_as_returned": "0bab61e84c77800c1820cc1071895be5d05ceeb3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f9f827553f6a3cf0dd323fb74220d47a5c6f8a4d",
+        "sha256": "259698027a6ab6fd6f9b51080f2b29faf533c038bce7b5af73bf63164020ad2a",
+        "size": 5526,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-resource-graph.md",
+        "git_blob_sha1": "459b0775aa34ece0463bb8b1195a459bd8187d42",
+        "sha256": "478e6a6d0ce9c515523548c2e4b44b71baedd3bd8c27e2af7f3bd3aa804060ea",
+        "size": 5232,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b8a1c666fc63a737097558f8289d8fa107914bf9",
+    "computed_tree_sha": "ee93e28b19fe1e532a4973439925e27a80ae1812",
+    "api_tree_sha_as_returned": "ee93e28b19fe1e532a4973439925e27a80ae1812",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ff5c2c98fc7b26616956393b58fe6c1abf056d88",
+        "sha256": "e9dd664dfffae116fc9be43e439d227cf56296ea94ad9f67893cada4666a3d12",
+        "size": 5569,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-resource-graph.md",
+        "git_blob_sha1": "459b0775aa34ece0463bb8b1195a459bd8187d42",
+        "sha256": "478e6a6d0ce9c515523548c2e4b44b71baedd3bd8c27e2af7f3bd3aa804060ea",
+        "size": 5232,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "9196aceaa45bc5df8a5af6f987e5aa0d098ea77b",
+  "new_commit": "b8a1c666fc63a737097558f8289d8fa107914bf9",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-09-23T11:05:59Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/9196aceaa45bc5df8a5af6f987e5aa0d098ea77b...b8a1c666fc63a737097558f8289d8fa107914bf9",
+  "commit_url": "https://github.com/microsoft/skills/commit/b8a1c666fc63a737097558f8289d8fa107914bf9",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-resource-lookup",
+  "local_directory": "verified_real_update_pairs/OPU-0475",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0475",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

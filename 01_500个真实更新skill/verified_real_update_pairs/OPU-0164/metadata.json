@@ -1,0 +1,173 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/transformers-js/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "7bc5f105b66b9a63ebf8",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "bcbb92021d254f46c590e315f213c7da4eae5160",
+    "computed_tree_sha": "4cf10861d205876c5ac74d76fbf7cf2a8564fd72",
+    "api_tree_sha_as_returned": "4cf10861d205876c5ac74d76fbf7cf2a8564fd72",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d9ebf0d733384c4ca33fe8568a1f7cee0afd4bd5",
+        "sha256": "03e5039f7f68644ee894a066ae2c3a6a27b025746c16c945d9926b594e48744f",
+        "size": 22679,
+        "mode": "100644"
+      },
+      {
+        "path": "references/CACHE.md",
+        "git_blob_sha1": "6f97b2cdd54b256df3d874f9372b2890341b44c4",
+        "sha256": "8f71ede1889bb16fcc3ef62aa803dc721a77a92fbfbdd5f1ab0c818db86f0c37",
+        "size": 9195,
+        "mode": "100644"
+      },
+      {
+        "path": "references/CONFIGURATION.md",
+        "git_blob_sha1": "52e18d9665852ad162b96d9b461720aec3e7714a",
+        "sha256": "d74959019da525953d08d1e2c668a354610c84037bc4b24007293c648c7da512",
+        "size": 9861,
+        "mode": "100644"
+      },
+      {
+        "path": "references/EXAMPLES.md",
+        "git_blob_sha1": "6a6e9b74293c5460ae967cc491ee76f940e3c58a",
+        "sha256": "724dbed0061642e798b25fe265b9d679ad89f19c386feb560125b5812bef3e09",
+        "size": 15196,
+        "mode": "100644"
+      },
+      {
+        "path": "references/MODEL_ARCHITECTURES.md",
+        "git_blob_sha1": "5660913316b7e60fe7fe721f61e7b5f3e856524e",
+        "sha256": "5c2a5d83d9ba5826cc3a34ab99870692de215d7dfc9810e5af8188c8eab10c2b",
+        "size": 5590,
+        "mode": "100644"
+      },
+      {
+        "path": "references/PIPELINE_OPTIONS.md",
+        "git_blob_sha1": "7eac6e89f92ccb6769f9b8f5602c994bd00790ce",
+        "sha256": "b39c232774dc8cf1408eb95c5bd216aa1ee40614b7d7df91ac86cc71567732ad",
+        "size": 14539,
+        "mode": "100644"
+      },
+      {
+        "path": "references/TEXT_GENERATION.md",
+        "git_blob_sha1": "face5a91af7ca2a6d9aec1a9c95e8b2d558246aa",
+        "sha256": "7407cb31a88eaa2cb1384df8446f863ede6158c5bf6b0589d808c27216bd4907",
+        "size": 7880,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4db6015affd7779ca959b7c7c53cdcd3c8f4737b",
+    "computed_tree_sha": "84735eef029302734e6888b74226fa4ac3b3ac2d",
+    "api_tree_sha_as_returned": "84735eef029302734e6888b74226fa4ac3b3ac2d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bc62aa1a63bc31ea9aea9456fed65b334e5010bd",
+        "sha256": "241ef15a39acbdf1d610acab683c0f76500d7c021c9c0303e6bb2c751ac3d395",
+        "size": 24911,
+        "mode": "100644"
+      },
+      {
+        "path": "references/CACHE.md",
+        "git_blob_sha1": "6f97b2cdd54b256df3d874f9372b2890341b44c4",
+        "sha256": "8f71ede1889bb16fcc3ef62aa803dc721a77a92fbfbdd5f1ab0c818db86f0c37",
+        "size": 9195,
+        "mode": "100644"
+      },
+      {
+        "path": "references/CONFIGURATION.md",
+        "git_blob_sha1": "77c40a5e647e574d183a0cf3fbefa5a5216aab54",
+        "sha256": "095273cf0d43faa3005eaa399411cdc04e48a1408888c026d43ce1f948bb6f6f",
+        "size": 11043,
+        "mode": "100644"
+      },
+      {
+        "path": "references/EXAMPLES.md",
+        "git_blob_sha1": "b254d863f6060c49c25be577d4c479a31de26866",
+        "sha256": "3ba8931d4ef306f3942d338488153c928b426460efc5810f8c5bd8fbffe64d1c",
+        "size": 15691,
+        "mode": "100644"
+      },
+      {
+        "path": "references/MODEL_ARCHITECTURES.md",
+        "git_blob_sha1": "5660913316b7e60fe7fe721f61e7b5f3e856524e",
+        "sha256": "5c2a5d83d9ba5826cc3a34ab99870692de215d7dfc9810e5af8188c8eab10c2b",
+        "size": 5590,
+        "mode": "100644"
+      },
+      {
+        "path": "references/MODEL_REGISTRY.md",
+        "git_blob_sha1": "763fd674e1cd04a361604ffee5ddd7ee8b0e97f2",
+        "sha256": "1baca18045eaeb09249e34a01abf0599f7e37e48cfcd877eeab12b22b93245b2",
+        "size": 6052,
+        "mode": "100644"
+      },
+      {
+        "path": "references/PIPELINE_OPTIONS.md",
+        "git_blob_sha1": "80e9bbbe73f57d1a3252c5dc119915cb61e4a25e",
+        "sha256": "808fcd24e24e29f0d5fb4abda5922ad0189ee7429c53fea2dff0a06e39007526",
+        "size": 14950,
+        "mode": "100644"
+      },
+      {
+        "path": "references/TEXT_GENERATION.md",
+        "git_blob_sha1": "d99f6d2ff101d6545e4001a8f7f79848692266c0",
+        "sha256": "84382abc32a02ac96b8ceee989cef56b87ed8ab20328114e3de188de4cbf5c00",
+        "size": 7876,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/CONFIGURATION.md",
+    "references/EXAMPLES.md",
+    "references/MODEL_REGISTRY.md",
+    "references/PIPELINE_OPTIONS.md",
+    "references/TEXT_GENERATION.md"
+  ],
+  "old_commit": "bcbb92021d254f46c590e315f213c7da4eae5160",
+  "new_commit": "4db6015affd7779ca959b7c7c53cdcd3c8f4737b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "updated to transformers.js v4",
+  "new_commit_time": "2026-04-10T15:57:42Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/bcbb92021d254f46c590e315f213c7da4eae5160...4db6015affd7779ca959b7c7c53cdcd3c8f4737b",
+  "commit_url": "https://github.com/huggingface/skills/commit/4db6015affd7779ca959b7c7c53cdcd3c8f4737b",
+  "skill_directory": "skills/transformers-js",
+  "local_directory": "verified_real_update_pairs/OPU-0164",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0164",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

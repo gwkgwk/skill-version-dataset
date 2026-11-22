@@ -1,0 +1,179 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "9185e49e4d5b757bd5b7",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "debfb29c8e992894f86f8263a6ffbc28c5bc45ad",
+    "computed_tree_sha": "4ba42bce4e43e9803e79a0747c710d6fdef57bbe",
+    "api_tree_sha_as_returned": "4ba42bce4e43e9803e79a0747c710d6fdef57bbe",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c0f26aafc9d8e3dcb76d0f1cccfac5a3b7e7f620",
+        "sha256": "07f16eceea4750cc141cfee38306f1d34d0c2a450b198a97527069ef2b0fa66f",
+        "size": 7842,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dockerfile-best-practices.md",
+        "git_blob_sha1": "50287dbbe2edf38e1107257aceacca9401b3c0b5",
+        "sha256": "78b9bdb7a9596f849ae69fec3042d6c3e6b65e0f3aea953e7656b89b7efedb1c",
+        "size": 3341,
+        "mode": "100644"
+      },
+      {
+        "path": "references/features-vs-dockerfile.md",
+        "git_blob_sha1": "e2d9a174a7edc71b074a5522f4aadcac5e99b7fd",
+        "sha256": "999ac17d8f0172fce5fb00906190a97980b6a1c94d42b4046255992a9aa8c88d",
+        "size": 675,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/.zshrc",
+        "git_blob_sha1": "cb23cd1d0294ac84da8229cd5d0addb95d07de6f",
+        "sha256": "0788e061b87afde6d0e7243e1aa2b93952c1fcdc82125278f5ac503142a5bec2",
+        "size": 1869,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/Dockerfile",
+        "git_blob_sha1": "6e1c2b8f7cb71f41778644560d16e02f4dabdf8b",
+        "sha256": "e6bc2ffb4d87df22109620b8c4ae938cd845e74e10b2e7568f1de6d9a14a61cf",
+        "size": 3711,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/devcontainer.json",
+        "git_blob_sha1": "50c11d30ab3e888e9cdfee0f8d479db2a42976ab",
+        "sha256": "9107792afbed49a87c0edbd5f8704411f897f254deea2e7f11814b174445e06c",
+        "size": 2433,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/install.sh",
+        "git_blob_sha1": "5c4be63cacf9236264c3d6b94bbdf5bdd65f982b",
+        "sha256": "209795546f62c6c94230770d3a83e134a7c2149f83d07f1f1a77f6d7f2be4e61",
+        "size": 11727,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/post_install.py",
+        "git_blob_sha1": "31a1e024b16d6c1e3210c424c092f382ed64397f",
+        "sha256": "ca1c2512284adfa9c2c2557c7f5a6fba8d2b94c2907441292c440967558bfe50",
+        "size": 5678,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "cad5abdc48b09e099a69277aebd66a0fc05c86d7",
+    "computed_tree_sha": "1337dde6ec523ad2234caf150a6ba2e446adc17c",
+    "api_tree_sha_as_returned": "1337dde6ec523ad2234caf150a6ba2e446adc17c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7e00563a8557433e768ae46427e768f54d3702eb",
+        "sha256": "ef698feec8a76cf89f283c07632a2ce92378cb34e030f6c2ca13f312a7393e39",
+        "size": 8060,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dockerfile-best-practices.md",
+        "git_blob_sha1": "50287dbbe2edf38e1107257aceacca9401b3c0b5",
+        "sha256": "78b9bdb7a9596f849ae69fec3042d6c3e6b65e0f3aea953e7656b89b7efedb1c",
+        "size": 3341,
+        "mode": "100644"
+      },
+      {
+        "path": "references/features-vs-dockerfile.md",
+        "git_blob_sha1": "e2d9a174a7edc71b074a5522f4aadcac5e99b7fd",
+        "sha256": "999ac17d8f0172fce5fb00906190a97980b6a1c94d42b4046255992a9aa8c88d",
+        "size": 675,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/.zshrc",
+        "git_blob_sha1": "cb23cd1d0294ac84da8229cd5d0addb95d07de6f",
+        "sha256": "0788e061b87afde6d0e7243e1aa2b93952c1fcdc82125278f5ac503142a5bec2",
+        "size": 1869,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/Dockerfile",
+        "git_blob_sha1": "edfdaba59406a1c963d0046207d622be59129e14",
+        "sha256": "86653908049df668d9dfaaeefc7b05b839c1df77a55166398c32d441e86c882d",
+        "size": 3679,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/devcontainer.json",
+        "git_blob_sha1": "d2c185ace804f85ff4d7c4b9962de493618f6567",
+        "sha256": "0d3140742a2196b2f2eba1a756cb568c2732f9f09465dec2d9397aef7793e42f",
+        "size": 2584,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/install.sh",
+        "git_blob_sha1": "038e254ddd05058d324dd2f8e27dfa5d3fdfd5a1",
+        "sha256": "022c145aef7e3890203f362460d87159b04f0835866d4610f32f1627de426822",
+        "size": 23116,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/post_install.py",
+        "git_blob_sha1": "88ebffdfed8d4538db6c82d70e4527242b3cf0cb",
+        "sha256": "7d37aabd6a6421df6ab6448548e852e5b42d3b3d2b2aa39c9d17c4ea40543419",
+        "size": 8606,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "resources/Dockerfile",
+    "resources/devcontainer.json",
+    "resources/install.sh",
+    "resources/post_install.py"
+  ],
+  "old_commit": "debfb29c8e992894f86f8263a6ffbc28c5bc45ad",
+  "new_commit": "cad5abdc48b09e099a69277aebd66a0fc05c86d7",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync skill with claude-code-devcontainer repo (#151)\n\n* sync skill with claude-code-devcontainer repo\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>\n\n* devcontainer-setup: apply ruff format and shfmt\n\nThe pre-commit hook was failing on these two files in CI: ruff joins\nthe multi-line f-strings in post_install.py, and shfmt with the repo's\n'-i 2 -ci' flags adjusts case-body indentation in install.sh.\nNo behavior change.\n\nCo-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>\nCo-authored-by: Dan Guido <dan@trailofbits.com>",
+  "new_commit_time": "2026-04-29T00:50:28Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/debfb29c8e992894f86f8263a6ffbc28c5bc45ad...cad5abdc48b09e099a69277aebd66a0fc05c86d7",
+  "commit_url": "https://github.com/trailofbits/skills/commit/cad5abdc48b09e099a69277aebd66a0fc05c86d7",
+  "skill_directory": "plugins/devcontainer-setup/skills/devcontainer-setup",
+  "local_directory": "verified_real_update_pairs/OPU-0211",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0211",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

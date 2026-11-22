@@ -1,0 +1,82 @@
+{
+  "sha": "e7a87fa72645158f9b5e722cbb1c7e09266f48f1",
+  "node_id": "C_kwDOQ0VAy9oAKGU3YTg3ZmE3MjY0NTE1OGY5YjVlNzIyY2JiMWM3ZTA5MjY2ZjQ4ZjE",
+  "commit": {
+    "author": {
+      "name": "sentry-junior[bot]",
+      "email": "264270552+sentry-junior[bot]@users.noreply.github.com",
+      "date": "2026-07-25T15:44:40Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-07-25T15:44:40Z"
+    },
+    "message": "feat(iterate-pr): Enable model invocation (#163)\n\nMake `iterate-pr` explicitly model-invocable in both Claude Code and\nCodex.\n\nClaude now records `disable-model-invocation: false`, while Codex gets\nthe matching `agents/openai.yaml` metadata with\n`policy.allow_implicit_invocation: true` and a focused default prompt.\nThe skill specification records the intended trigger behavior.\n\nThe shared skill-authoring guidance and repository checklist now\ndocument how to keep Claude and Codex invocation policy aligned,\nfollowing the established pattern in `dcramer/agents`.\n\n<!-- junior-request-attribution:start -->\nRequested by **David Cramer** via Junior.\n<!-- junior-request-attribution:end -->\n\n<!-- junior-session-footer:start -->\n<!-- junior-conversation-id:slack%3AC0B595QDZLL%3A1784935323.178399 -->\n\n--\n\n[View Junior\nSession](https://junior-prod.sentry.dev/conversations/slack%3AC0B595QDZLL%3A1784935323.178399)\n\n<!-- junior-session-footer:end -->\n\nCo-authored-by: sentry-junior[bot] <264270552+sentry-junior[bot]@users.noreply.github.com>\nCo-authored-by: David Cramer <david@sentry.io>",
+    "tree": {
+      "sha": "8d9ee1d1ab71ebbbf4c3c2424dd8cce441f6015d",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/8d9ee1d1ab71ebbbf4c3c2424dd8cce441f6015d"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/e7a87fa72645158f9b5e722cbb1c7e09266f48f1",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqZNnoCRC1aQ7uu5UhlAAAx2IQAIAH9ZYEMRvH/gIJMcqQdQNh\nvy+pMOYUKrixBvLja6PGZobIKGb+qpu0087lcGmTMYR0tIJtmkzeWabhKoazCoZ3\npsuaXtK+DXcaeYMc0VI/awd5VEoLXEoniQfbpKfk1gb3Ki19N8W4b6CHrwSSvTXX\nTqTOj4rCaq8MDWDmgXhbbJIU879e+mSXdhqhiaNd9IC+vFjBVWsXbVkFMvGvikm/\njwFicdIpVMrC2FBNS5ssV3ZiZ4GGna6pJAGHM/4dCroGPlxxac+y9pxFnzFj+RC2\nmo+BbZZnKPB064FwacnsOPVXDVFNR2AKX1QN6aHPiDMQJSw/uZYMBSQFMqrFsf1/\n8be01lGc9syFGdVbS66T6tlZEXLmaNB2RY/mmcPD5JG0jvAVA+RDVuECzmuOjaCQ\nxfzlXwvd+BnCLP5cbcnLfd3ARonvDtg31oz9PjYie2s3/+3dWaXHMnX4bBnEGmUJ\nVUUPOYXb/jyittbwmQMHVyesK2tkftmmNcv6M1F0A+C3Nl3IIg1uhXGLfhG3zNpu\n1XkjlZVJPXhtTd5Ex5v47O9nO/f4ziA3mxM058LnVEfgOTicmark0CT4R3krEZtR\nrM+l/K8UDAHT2eSTXcVwe+uvgSAKUVAUvLdE4VhX3VEV0x4MZpNCeNS/v5AQ966U\ny7iQXktZF7bT27ZJMYP+\n=CT0G\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 8d9ee1d1ab71ebbbf4c3c2424dd8cce441f6015d\nparent 9a85b59acc928789b49907109483f46aee1050cd\nauthor sentry-junior[bot] <264270552+sentry-junior[bot]@users.noreply.github.com> 1784994280 -0700\ncommitter GitHub <noreply@github.com> 1784994280 -0700\n\nfeat(iterate-pr): Enable model invocation (#163)\n\nMake `iterate-pr` explicitly model-invocable in both Claude Code and\nCodex.\n\nClaude now records `disable-model-invocation: false`, while Codex gets\nthe matching `agents/openai.yaml` metadata with\n`policy.allow_implicit_invocation: true` and a focused default prompt.\nThe skill specification records the intended trigger behavior.\n\nThe shared skill-authoring guidance and repository checklist now\ndocument how to keep Claude and Codex invocation policy aligned,\nfollowing the established pattern in `dcramer/agents`.\n\n<!-- junior-request-attribution:start -->\nRequested by **David Cramer** via Junior.\n<!-- junior-request-attribution:end -->\n\n<!-- junior-session-footer:start -->\n<!-- junior-conversation-id:slack%3AC0B595QDZLL%3A1784935323.178399 -->\n\n--\n\n[View Junior\nSession](https://junior-prod.sentry.dev/conversations/slack%3AC0B595QDZLL%3A1784935323.178399)\n\n<!-- junior-session-footer:end -->\n\nCo-authored-by: sentry-junior[bot] <264270552+sentry-junior[bot]@users.noreply.github.com>\nCo-authored-by: David Cramer <david@sentry.io>",
+      "verified_at": "2026-07-25T15:44:40Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/e7a87fa72645158f9b5e722cbb1c7e09266f48f1",
+  "html_url": "https://github.com/getsentry/skills/commit/e7a87fa72645158f9b5e722cbb1c7e09266f48f1",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/e7a87fa72645158f9b5e722cbb1c7e09266f48f1/comments",
+  "author": {
+    "login": "sentry-junior[bot]",
+    "id": 264270552,
+    "node_id": "BOT_kgDOD8By2A",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2960336?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sentry-junior%5Bbot%5D",
+    "html_url": "https://github.com/apps/sentry-junior",
+    "followers_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9a85b59acc928789b49907109483f46aee1050cd",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/9a85b59acc928789b49907109483f46aee1050cd",
+      "html_url": "https://github.com/getsentry/skills/commit/9a85b59acc928789b49907109483f46aee1050cd"
+    }
+  ]
+}

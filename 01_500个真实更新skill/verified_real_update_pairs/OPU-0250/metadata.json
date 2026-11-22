@@ -1,0 +1,178 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-troubleshooting/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "526292db20c911bc5cbb",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "dc266e019a32621845b6b2bb81084b3c9657774c",
+    "computed_tree_sha": "b66e4f693f56eb8cba7dd67e22fe9389f3737f49",
+    "api_tree_sha_as_returned": "b66e4f693f56eb8cba7dd67e22fe9389f3737f49",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9907d949f970e4ee30ea74de78b7ebadd97dc691",
+        "sha256": "fe981a0a762f982b345c081286f003c3192e5521c077a84af345680d54c3216a",
+        "size": 26788,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agent-gateway.md",
+        "git_blob_sha1": "cf84750d1c0a3a302484b1400b2bc024cea0661b",
+        "sha256": "aa465effb335bbdfe957e8c33748907c31f76d3ce1204f284f074b40774a05c6",
+        "size": 56554,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agent-identity.md",
+        "git_blob_sha1": "4d9212a63049ebf9a23c9f1f8fd53eb7a189823b",
+        "sha256": "ba3cac1148ca7002a0798cc4996fea8a6d1609690ac9e504a66615705609c443",
+        "size": 34397,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agent-registry.md",
+        "git_blob_sha1": "f4396a67ab481b1c1269d30bc8be04bc0e1d6c4d",
+        "sha256": "2a7847968022f73f56a5ff7e18d25babe9b8bf70ab5940b942a55652f5b673ec",
+        "size": 50926,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "974c48e794cf6008b660909cf04144bfe1cfa1cd",
+        "sha256": "a874fcc54414261eaac89ecb0c45a22e843ab716cc8e0fcb4f676747d6f2e801",
+        "size": 1938,
+        "mode": "100644"
+      },
+      {
+        "path": "references/field-manual.md",
+        "git_blob_sha1": "b07a62fdd32dce66b4fe3b6853ec3355f1309bd1",
+        "sha256": "d88d2bb3dfca4757bd01fc714e00b3b3cec309c22d2b0e331748af3dd7dd9742",
+        "size": 69934,
+        "mode": "100644"
+      },
+      {
+        "path": "references/known-issues.md",
+        "git_blob_sha1": "a3d2fa5d2cf8b78232be95b6e72ed33f0eb2ca90",
+        "sha256": "1ca8fc2b5860032289796ae323a7e167a8e0da9c832309669b00f08d5b6b9b24",
+        "size": 89712,
+        "mode": "100644"
+      },
+      {
+        "path": "references/policies.md",
+        "git_blob_sha1": "f0ceee8be4aec4adbf6d8ac4facf4fecb9923c46",
+        "sha256": "f6d7344844e198495ab714ed52799b2be596d2fc84617383abf050d8136a63ac",
+        "size": 77022,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "cb11c49ce1076788d69115a9f001b07b4ba0b616",
+    "computed_tree_sha": "2ef0441092a1b80a20d19ed47c747f1e8cecb166",
+    "api_tree_sha_as_returned": "2ef0441092a1b80a20d19ed47c747f1e8cecb166",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "526d4b499a129c42f051cb5281e6f5e4c32c3237",
+        "sha256": "82a4522522660f19cd216b5cf484bccbfd3fb6ef7008d2a2aae07bf0914a4d7a",
+        "size": 26792,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agent-gateway.md",
+        "git_blob_sha1": "cf84750d1c0a3a302484b1400b2bc024cea0661b",
+        "sha256": "aa465effb335bbdfe957e8c33748907c31f76d3ce1204f284f074b40774a05c6",
+        "size": 56554,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agent-identity.md",
+        "git_blob_sha1": "4d9212a63049ebf9a23c9f1f8fd53eb7a189823b",
+        "sha256": "ba3cac1148ca7002a0798cc4996fea8a6d1609690ac9e504a66615705609c443",
+        "size": 34397,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agent-registry.md",
+        "git_blob_sha1": "f4396a67ab481b1c1269d30bc8be04bc0e1d6c4d",
+        "sha256": "2a7847968022f73f56a5ff7e18d25babe9b8bf70ab5940b942a55652f5b673ec",
+        "size": 50926,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "974c48e794cf6008b660909cf04144bfe1cfa1cd",
+        "sha256": "a874fcc54414261eaac89ecb0c45a22e843ab716cc8e0fcb4f676747d6f2e801",
+        "size": 1938,
+        "mode": "100644"
+      },
+      {
+        "path": "references/field-manual.md",
+        "git_blob_sha1": "f5ef1d935ee5b4df614f5246c2d894fe37e4062a",
+        "sha256": "bb8ced3f2fc415be19e7c36c74d91ba63f0b43014dac7dfa2b64a887a15fe503",
+        "size": 69938,
+        "mode": "100644"
+      },
+      {
+        "path": "references/known-issues.md",
+        "git_blob_sha1": "a3d2fa5d2cf8b78232be95b6e72ed33f0eb2ca90",
+        "sha256": "1ca8fc2b5860032289796ae323a7e167a8e0da9c832309669b00f08d5b6b9b24",
+        "size": 89712,
+        "mode": "100644"
+      },
+      {
+        "path": "references/policies.md",
+        "git_blob_sha1": "f0ceee8be4aec4adbf6d8ac4facf4fecb9923c46",
+        "sha256": "f6d7344844e198495ab714ed52799b2be596d2fc84617383abf050d8136a63ac",
+        "size": 77022,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/field-manual.md"
+  ],
+  "old_commit": "dc266e019a32621845b6b2bb81084b3c9657774c",
+  "new_commit": "cb11c49ce1076788d69115a9f001b07b4ba0b616",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(agent-platform-troubleshooting): update gcloud install links to v1.1.1\n\n- Point Google Cloud CLI installation links to canonical https://docs.cloud.google.com/sdk/docs/install-sdk.md.txt instead of the redirecting /sdk/docs/install.md.txt path that returns HTTP 404.\n- Bump `metadata.version` to 1.1.1.\n\nPiperOrigin-RevId: 1012270562",
+  "new_commit_time": "2026-11-02T18:25:43Z",
+  "compare_url": "https://github.com/google/skills/compare/dc266e019a32621845b6b2bb81084b3c9657774c...cb11c49ce1076788d69115a9f001b07b4ba0b616",
+  "commit_url": "https://github.com/google/skills/commit/cb11c49ce1076788d69115a9f001b07b4ba0b616",
+  "skill_directory": "skills/cloud/agent-platform-troubleshooting",
+  "local_directory": "verified_real_update_pairs/OPU-0250",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0250",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

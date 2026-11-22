@@ -1,0 +1,82 @@
+{
+  "sha": "bd9f26d58d001b3f880fd5a08e3a6e7547b91513",
+  "node_id": "C_kwDOR2K4PNoAKGJkOWYyNmQ1OGQwMDFiM2Y4ODBmZDVhMDhlM2E2ZTc1NDdiOTE1MTM",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-11-11T21:00:16Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-11-11T21:00:55Z"
+    },
+    "message": "Update cloud-sql-basics skill for PostgreSQL 18 Enterprise edition and CLI flags\n\n- Add --edition=ENTERPRISE and --cpu/--memory sizing for PostgreSQL 18\n- Update EC P-384 CA certificate specification\n- Clarify automated backup retention and minimal-downtime DR switchover\n- Update supported MySQL versions (9.7 added, 8.4 default)\n\nPiperOrigin-RevId: 1019428572",
+    "tree": {
+      "sha": "95729f804f16ad270e95a2d09d29fdbb1808a3a7",
+      "url": "https://api.github.com/repos/google/skills/git/trees/95729f804f16ad270e95a2d09d29fdbb1808a3a7"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/bd9f26d58d001b3f880fd5a08e3a6e7547b91513",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/bd9f26d58d001b3f880fd5a08e3a6e7547b91513",
+  "html_url": "https://github.com/google/skills/commit/bd9f26d58d001b3f880fd5a08e3a6e7547b91513",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/bd9f26d58d001b3f880fd5a08e3a6e7547b91513/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "2e81dada87254903d51a652cc022239a59eac554",
+      "url": "https://api.github.com/repos/google/skills/commits/2e81dada87254903d51a652cc022239a59eac554",
+      "html_url": "https://github.com/google/skills/commit/2e81dada87254903d51a652cc022239a59eac554"
+    }
+  ]
+}

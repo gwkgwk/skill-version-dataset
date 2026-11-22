@@ -1,0 +1,213 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-monitoring-chart-generation/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "52d0c6f6cf3a80267766",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+    "computed_tree_sha": "b45ba07445744b9781bab887e7970ce7993d2a1b",
+    "api_tree_sha_as_returned": "b45ba07445744b9781bab887e7970ce7993d2a1b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9f5f961b3db40360a486036759d81e7e9d11a928",
+        "sha256": "3dbd353161c8b6455e26a866d08c89575b2858e49733d745b082634470d74503",
+        "size": 10677,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/assemble_widget_proto.py",
+        "git_blob_sha1": "3ccfa17dc6985324f50751314e8fb78953b30eb1",
+        "sha256": "58073b8d58f34715943168d155a8209172def1b94a47b05a3438afd90583ad13",
+        "size": 8399,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/assemble_widget_proto_test.py",
+        "git_blob_sha1": "7ed40262d04a6106b098a6cad24d4e30f63ac4bf",
+        "sha256": "43d11dd60dd72f19ec9903b7880cd1ffe57baf786a9f49344f0708bd88cad666",
+        "size": 1718,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/compute_labels.py",
+        "git_blob_sha1": "06d9c51613cefdec9cbfe701b3403310465dd474",
+        "sha256": "2198a9d134e61590bff5420c69eb15e978eafa2933b6fde8a36dee9424c16794",
+        "size": 12067,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/compute_labels_test.py",
+        "git_blob_sha1": "54aa2ff1ff90a878e913302f1a805c20bb6c23e6",
+        "sha256": "8fea416ede300f660356b2394678d699461479a0218cd8b464805b448893d66c",
+        "size": 7007,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/requirements.txt",
+        "git_blob_sha1": "b7ccf108318646c2be683ef2c075929928d81aea",
+        "sha256": "748d44e58d47a7669ce454c7b9f7914fd77b7bff07c5c8f130f6ddedb1fc8cd3",
+        "size": 157,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/textproto_util.py",
+        "git_blob_sha1": "45c837825b1a4cbb1d69441cb9663d0fbe45ac34",
+        "sha256": "de9a49793e85539918d9c6ca80de04396d9af44bc970a01ad110e6ee78b6c2a2",
+        "size": 8146,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/textproto_util_test.py",
+        "git_blob_sha1": "51a01c9e6bfcd473843cf84ecc269e95a9bedbd4",
+        "sha256": "c1b851b288c6934fd09b32118db10f37bb6ef386332fa2cba084e2261191efde",
+        "size": 10260,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_chart.py",
+        "git_blob_sha1": "4a0fd682edf4bd6cec2cf97ff728e3ef57fdd18a",
+        "sha256": "b83c0e87882158e63cea2b8c52f91fa1e494221cd59b3fd061ad980b4cad633b",
+        "size": 8308,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_chart_test.py",
+        "git_blob_sha1": "64ac2d884aabe619d88e9739789394c01139a3e3",
+        "sha256": "fc73fd8bf75bb959bcab48b0cf27e6e7383c338d237149163ded1a72865217bb",
+        "size": 3096,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+    "computed_tree_sha": "b7779592355f6f302a34c759e0e5c16a30b50108",
+    "api_tree_sha_as_returned": "b7779592355f6f302a34c759e0e5c16a30b50108",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "04aa725a0d5ee5f51b22e1069251109f256bbb6b",
+        "sha256": "c3c402245ed2d136bcf14a43a7ee04ae63d2849cd944baa24e64db2a22af4b5d",
+        "size": 11148,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "fab2989e34da225f1b83b99eb3a7425dc3c4b2b6",
+        "sha256": "3296796ab9e8c6751b6bed1ccea33285831825298f87f7b7de21008bb2ecca79",
+        "size": 1939,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/assemble_widget_proto.py",
+        "git_blob_sha1": "3ccfa17dc6985324f50751314e8fb78953b30eb1",
+        "sha256": "58073b8d58f34715943168d155a8209172def1b94a47b05a3438afd90583ad13",
+        "size": 8399,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/assemble_widget_proto_test.py",
+        "git_blob_sha1": "7ed40262d04a6106b098a6cad24d4e30f63ac4bf",
+        "sha256": "43d11dd60dd72f19ec9903b7880cd1ffe57baf786a9f49344f0708bd88cad666",
+        "size": 1718,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/compute_labels.py",
+        "git_blob_sha1": "06d9c51613cefdec9cbfe701b3403310465dd474",
+        "sha256": "2198a9d134e61590bff5420c69eb15e978eafa2933b6fde8a36dee9424c16794",
+        "size": 12067,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/compute_labels_test.py",
+        "git_blob_sha1": "54aa2ff1ff90a878e913302f1a805c20bb6c23e6",
+        "sha256": "8fea416ede300f660356b2394678d699461479a0218cd8b464805b448893d66c",
+        "size": 7007,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/requirements.txt",
+        "git_blob_sha1": "b7ccf108318646c2be683ef2c075929928d81aea",
+        "sha256": "748d44e58d47a7669ce454c7b9f7914fd77b7bff07c5c8f130f6ddedb1fc8cd3",
+        "size": 157,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/textproto_util.py",
+        "git_blob_sha1": "45c837825b1a4cbb1d69441cb9663d0fbe45ac34",
+        "sha256": "de9a49793e85539918d9c6ca80de04396d9af44bc970a01ad110e6ee78b6c2a2",
+        "size": 8146,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/textproto_util_test.py",
+        "git_blob_sha1": "51a01c9e6bfcd473843cf84ecc269e95a9bedbd4",
+        "sha256": "c1b851b288c6934fd09b32118db10f37bb6ef386332fa2cba084e2261191efde",
+        "size": 10260,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_chart.py",
+        "git_blob_sha1": "4a0fd682edf4bd6cec2cf97ff728e3ef57fdd18a",
+        "sha256": "b83c0e87882158e63cea2b8c52f91fa1e494221cd59b3fd061ad980b4cad633b",
+        "size": 8308,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_chart_test.py",
+        "git_blob_sha1": "64ac2d884aabe619d88e9739789394c01139a3e3",
+        "sha256": "fc73fd8bf75bb959bcab48b0cf27e6e7383c338d237149163ded1a72865217bb",
+        "size": 3096,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+  "new_commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to DevEx, Serverless, and Observability skills.\n\n- Add `references/attribution.md` to all 21 DevEx, Serverless, API Gateway, and Observability skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills and bundled plugin manifests.\n\nPiperOrigin-RevId: 1002429999",
+  "new_commit_time": "2026-10-19T17:26:03Z",
+  "compare_url": "https://github.com/google/skills/compare/6c946422b9456555b9a4d8144edeeb64a9f56e94...a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "commit_url": "https://github.com/google/skills/commit/a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "skill_directory": "skills/cloud/cloud-monitoring-chart-generation",
+  "local_directory": "verified_real_update_pairs/OPU-0368",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0368",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

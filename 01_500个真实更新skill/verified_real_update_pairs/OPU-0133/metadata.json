@@ -1,0 +1,177 @@
+{
+  "repository": "expo/skills",
+  "primary": "plugins/expo/skills/expo-brownfield/SKILL.md",
+  "pinned_commit": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+  "repository_license": "MIT",
+  "key": "7da339d8d6efad35fab5",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+    "computed_tree_sha": "e5200c3b95a563e49eb5daeb8170ae25cade1794",
+    "api_tree_sha_as_returned": "e5200c3b95a563e49eb5daeb8170ae25cade1794",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fc971b2707a8884e61913af1f3c0366039ee4014",
+        "sha256": "d3f28998933b73d510bfef90b3bc951339591edaa2c2fa650db7c1be8546b4b2",
+        "size": 6068,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "9f253d143c8eef4c73f67f8ba6f9c6eb2d18f94c",
+        "sha256": "1c3eb46ac47c96765f3894ac93df62eddbe73cd2afd7abcdc010b90be9d619c1",
+        "size": 420,
+        "mode": "100644"
+      },
+      {
+        "path": "references/brownfield-integrated.md",
+        "git_blob_sha1": "bf8ea3a4b990ba86ec36a2f934f60530f54a29f7",
+        "sha256": "5399ab0e61b121e8d6074bc3c7435137183a0a777055f7dd1a9b4e58f5c76ac7",
+        "size": 22723,
+        "mode": "100644"
+      },
+      {
+        "path": "references/brownfield-isolated.md",
+        "git_blob_sha1": "ff72f189d0445dda83beec64fe65f3bf07548f23",
+        "sha256": "8f31a566c6c72d5ec1d231baa1d15488d3bdfaae8cd747fd62a42267d4cafbba",
+        "size": 22287,
+        "mode": "100644"
+      },
+      {
+        "path": "references/comparison.md",
+        "git_blob_sha1": "6a8c18442548f1616b970875e6f118a37fc7e7f4",
+        "sha256": "4ae5556acdc7339eea48da52fa323669ec9ebcc47d8307e417c1e7ccad825aaf",
+        "size": 6797,
+        "mode": "100644"
+      },
+      {
+        "path": "references/feature-integration.md",
+        "git_blob_sha1": "5ddcff6d90a24ca9c3709eba4f5742720881c038",
+        "sha256": "6ad9257835778f7fe51b9a2d9c451ddb60bfcf6a5acbc5b1bbbdec1fc2c21c30",
+        "size": 10149,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "32cf7e5d28625c24b77a2d513f9c43595da0620b",
+        "sha256": "672dcd740bdcfb251e67623817a2c4b71d90c605379c511dcd10119e0a34add1",
+        "size": 8381,
+        "mode": "100644"
+      },
+      {
+        "path": "references/version-compatibility.md",
+        "git_blob_sha1": "d7ee01a23bd273329ffee5bf6440c7de72461959",
+        "sha256": "768c5472da08dac1e14676691efbcc288adc6df4062cf0ec6cfe5f7bf697118d",
+        "size": 4464,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+    "computed_tree_sha": "564d52000289eb63bc01c0850ba96827f6a26f86",
+    "api_tree_sha_as_returned": "564d52000289eb63bc01c0850ba96827f6a26f86",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1c49dc15eabafa1a527fa420e7323beceb123ee5",
+        "sha256": "02a13f4483daecde696f948def1e6474b975238dd9fdfc6b1bcbe3b485601405",
+        "size": 5935,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "9f253d143c8eef4c73f67f8ba6f9c6eb2d18f94c",
+        "sha256": "1c3eb46ac47c96765f3894ac93df62eddbe73cd2afd7abcdc010b90be9d619c1",
+        "size": 420,
+        "mode": "100644"
+      },
+      {
+        "path": "references/brownfield-integrated.md",
+        "git_blob_sha1": "bf8ea3a4b990ba86ec36a2f934f60530f54a29f7",
+        "sha256": "5399ab0e61b121e8d6074bc3c7435137183a0a777055f7dd1a9b4e58f5c76ac7",
+        "size": 22723,
+        "mode": "100644"
+      },
+      {
+        "path": "references/brownfield-isolated.md",
+        "git_blob_sha1": "ff72f189d0445dda83beec64fe65f3bf07548f23",
+        "sha256": "8f31a566c6c72d5ec1d231baa1d15488d3bdfaae8cd747fd62a42267d4cafbba",
+        "size": 22287,
+        "mode": "100644"
+      },
+      {
+        "path": "references/comparison.md",
+        "git_blob_sha1": "6a8c18442548f1616b970875e6f118a37fc7e7f4",
+        "sha256": "4ae5556acdc7339eea48da52fa323669ec9ebcc47d8307e417c1e7ccad825aaf",
+        "size": 6797,
+        "mode": "100644"
+      },
+      {
+        "path": "references/feature-integration.md",
+        "git_blob_sha1": "5ddcff6d90a24ca9c3709eba4f5742720881c038",
+        "sha256": "6ad9257835778f7fe51b9a2d9c451ddb60bfcf6a5acbc5b1bbbdec1fc2c21c30",
+        "size": 10149,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "32cf7e5d28625c24b77a2d513f9c43595da0620b",
+        "sha256": "672dcd740bdcfb251e67623817a2c4b71d90c605379c511dcd10119e0a34add1",
+        "size": 8381,
+        "mode": "100644"
+      },
+      {
+        "path": "references/version-compatibility.md",
+        "git_blob_sha1": "d7ee01a23bd273329ffee5bf6440c7de72461959",
+        "sha256": "768c5472da08dac1e14676691efbcc288adc6df4062cf0ec6cfe5f7bf697118d",
+        "size": 4464,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+  "new_commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Ask the user before sending feedback to Expo (#290)",
+  "new_commit_time": "2026-11-14T18:33:50Z",
+  "compare_url": "https://github.com/expo/skills/compare/7582922d039d5a96dc574757d399d22d56370f2b...ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "commit_url": "https://github.com/expo/skills/commit/ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "skill_directory": "plugins/expo/skills/expo-brownfield",
+  "local_directory": "verified_real_update_pairs/OPU-0133",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0133",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

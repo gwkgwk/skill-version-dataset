@@ -1,0 +1,82 @@
+{
+  "sha": "1e285f9d77ab260fd50944b49c3e2269b459474c",
+  "node_id": "C_kwDOR2K4PNoAKDFlMjg1ZjlkNzdhYjI2MGZkNTA5NDRiNDljM2UyMjY5YjQ1OTQ3NGM",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-11-15T13:56:49Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-11-15T13:57:54Z"
+    },
+    "message": "Update google-ads-api-quickstart skill for current APIs, flags, and documentation\n\n- Use `google-ads-googleads` as the Ruby gem name in the language routing table.\n- Update the example Google Ads API version to v26 and the Java client library version to 48.0.0.\n- Pass a `SearchGoogleAdsStreamRequest` object to `searchStream()` in the PHP reference and initialize `SearchStreamHandler` with service and request in the Perl reference.\n\nPiperOrigin-RevId: 1022185056",
+    "tree": {
+      "sha": "614d6e4b29499f4ccb4ba7a439adf83999880bb4",
+      "url": "https://api.github.com/repos/google/skills/git/trees/614d6e4b29499f4ccb4ba7a439adf83999880bb4"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/1e285f9d77ab260fd50944b49c3e2269b459474c",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/1e285f9d77ab260fd50944b49c3e2269b459474c",
+  "html_url": "https://github.com/google/skills/commit/1e285f9d77ab260fd50944b49c3e2269b459474c",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/1e285f9d77ab260fd50944b49c3e2269b459474c/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "61d3e26a0c385defa7842c3b3902b3419482c8c9",
+      "url": "https://api.github.com/repos/google/skills/commits/61d3e26a0c385defa7842c3b3902b3419482c8c9",
+      "html_url": "https://github.com/google/skills/commit/61d3e26a0c385defa7842c3b3902b3419482c8c9"
+    }
+  ]
+}

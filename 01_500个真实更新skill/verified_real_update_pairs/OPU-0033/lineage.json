@@ -1,0 +1,87 @@
+{
+  "sha": "869bc1cd766bdc69863921af20e39881dc29662d",
+  "node_id": "C_kwDOQ0VAy9oAKDg2OWJjMWNkNzY2YmRjNjk4NjM5MjFhZjIwZTM5ODgxZGMyOTY2MmQ",
+  "commit": {
+    "author": {
+      "name": "Josh Ghoulberg 👻",
+      "email": "github@joshuakgoldberg.com",
+      "date": "2026-11-05T18:40:32Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-11-05T18:40:32Z"
+    },
+    "message": "feat(browse-local-sentry): Add skill for QA in a local Sentry dev server (#182)\n\nAdds a skill that attaches an agent's browser to the user's own\nsigned-in Chrome, with a trusted mkcert certificate, so it can QA and\nscreenshot a local Sentry dev server. Without it, agents launch a\nthrowaway browser, hit the self-signed certificate or a login wall, and\nreport that browser verification was blocked.",
+    "tree": {
+      "sha": "12ed2b135b53586adf3961c0f62bbd321c860b72",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/12ed2b135b53586adf3961c0f62bbd321c860b72"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/869bc1cd766bdc69863921af20e39881dc29662d",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq7M2gCRC1aQ7uu5UhlAAAlr4QAGL/gCNp3CGZO0TadFU/AFUo\nahcTGMccj1rFVBOu/udmOdU7y08YR/LlcAC95tz790HiUvfM7K0e3fr9iHha5UOb\nqVJAMmPSMG3NASlBp6tE6jk/Q8U8bPW7on58FPzU3Jl/xWQqWGZLWdO1Ikkg7cV5\nXV3pnR4xi++44GxUwTM5HjkyReirm1JnWiWuTCJWoIm6MzMgLxfU71FSjr1aEWPA\nspmt/MvqYI9t8Cro/zMD8cy6XrAOtMAm9MJhwgUEO0yWp9siRB6SeW1rBvhj61GF\neCLsbJ+HWnAPoSIXhofvFfJHMHI2eJRDX/AbIBUjpY4OnQyTgydVo6n23sSqi8P5\nrCYqtimOPOlk7dnErVehE5AbfxSJuQMgMQYXOQJ1K7v5EHO2TI4qeFkkkIfTsJlN\nODVS21sPydkEHiKhLQxwyw3T42Bwmwmisqd1GkvFSi+8viJ5t2o8hWplqjB3Wo6k\niAilMZ/xXQnNjKlpwf58f1oY6LizL2Og7pMiKgWDz/61+Bekb/yQ9+TbkSUVLsOa\nqOomz+lWKYFGVRrjY4vIb1ubId1568AUJoVh8m903JuyG8dUPKm3lXZcBo/pDKSK\nP0W0/0tsdw8VBIv4Bd6Y+11g+5dk1ZcLjmz7MiK1wWp1pno/fG1y36SHynNvbSAT\n8Zgu143reNfXIMNvEaY6\n=cZLC\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 12ed2b135b53586adf3961c0f62bbd321c860b72\nparent 0c464f411bdfb8d4c12314b36264d06cb2f60270\nparent dcce042d07119fe632ded061e7818befa2fc5a08\nauthor Josh Ghoulberg 👻 <github@joshuakgoldberg.com> 1793904032 -0500\ncommitter GitHub <noreply@github.com> 1793904032 -0500\n\nfeat(browse-local-sentry): Add skill for QA in a local Sentry dev server (#182)\n\nAdds a skill that attaches an agent's browser to the user's own\nsigned-in Chrome, with a trusted mkcert certificate, so it can QA and\nscreenshot a local Sentry dev server. Without it, agents launch a\nthrowaway browser, hit the self-signed certificate or a login wall, and\nreport that browser verification was blocked.",
+      "verified_at": "2026-11-05T18:40:32Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/869bc1cd766bdc69863921af20e39881dc29662d",
+  "html_url": "https://github.com/getsentry/skills/commit/869bc1cd766bdc69863921af20e39881dc29662d",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/869bc1cd766bdc69863921af20e39881dc29662d/comments",
+  "author": {
+    "login": "JoshuaKGoldberg",
+    "id": 3335181,
+    "node_id": "MDQ6VXNlcjMzMzUxODE=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3335181?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/JoshuaKGoldberg",
+    "html_url": "https://github.com/JoshuaKGoldberg",
+    "followers_url": "https://api.github.com/users/JoshuaKGoldberg/followers",
+    "following_url": "https://api.github.com/users/JoshuaKGoldberg/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JoshuaKGoldberg/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/JoshuaKGoldberg/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/JoshuaKGoldberg/subscriptions",
+    "organizations_url": "https://api.github.com/users/JoshuaKGoldberg/orgs",
+    "repos_url": "https://api.github.com/users/JoshuaKGoldberg/repos",
+    "events_url": "https://api.github.com/users/JoshuaKGoldberg/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/JoshuaKGoldberg/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0c464f411bdfb8d4c12314b36264d06cb2f60270",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/0c464f411bdfb8d4c12314b36264d06cb2f60270",
+      "html_url": "https://github.com/getsentry/skills/commit/0c464f411bdfb8d4c12314b36264d06cb2f60270"
+    },
+    {
+      "sha": "dcce042d07119fe632ded061e7818befa2fc5a08",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/dcce042d07119fe632ded061e7818befa2fc5a08",
+      "html_url": "https://github.com/getsentry/skills/commit/dcce042d07119fe632ded061e7818befa2fc5a08"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sha": "5839bc29b5b7cadf8c4140461eff19c9487a8e19",
+  "node_id": "C_kwDOR2K4PNoAKDU4MzliYzI5YjViN2NhZGY4YzQxNDA0NjFlZmYxOWM5NDg3YThlMTk",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-11-16T15:35:09Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-11-16T15:36:01Z"
+    },
+    "message": "Update agent-platform-migrate-from-ai-studio and gemini-agents-api skills\n\n- agent-platform-migrate-from-ai-studio: Query `project/numeric-project-id` from the Compute Engine metadata server, use the `roles/aiplatform.user` IAM role identifier, update SDK and ADK model examples to `gemini-3.5-flash`, and update the ADK Agent Platform documentation link.\n- gemini-agents-api: Update the `base_agent` example identifier to `antigravity-preview-09-2026` and reference the `gemini-interactions-api` skill by name.\n\nPiperOrigin-RevId: 1022802953",
+    "tree": {
+      "sha": "e6bd607e87d4aea56992e276d209c37e7aab2240",
+      "url": "https://api.github.com/repos/google/skills/git/trees/e6bd607e87d4aea56992e276d209c37e7aab2240"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/5839bc29b5b7cadf8c4140461eff19c9487a8e19",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/5839bc29b5b7cadf8c4140461eff19c9487a8e19",
+  "html_url": "https://github.com/google/skills/commit/5839bc29b5b7cadf8c4140461eff19c9487a8e19",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/5839bc29b5b7cadf8c4140461eff19c9487a8e19/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0c7c0579fc23896a8faa802dda333c4a3f458891",
+      "url": "https://api.github.com/repos/google/skills/commits/0c7c0579fc23896a8faa802dda333c4a3f458891",
+      "html_url": "https://github.com/google/skills/commit/0c7c0579fc23896a8faa802dda333c4a3f458891"
+    }
+  ]
+}

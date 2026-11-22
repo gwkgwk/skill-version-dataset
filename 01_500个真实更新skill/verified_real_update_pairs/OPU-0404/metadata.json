@@ -1,0 +1,121 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-python/skills/azure-eventhub-py/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "7fd15f980950eb267104",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "bdc66e4618eb2f277d013192820aa042039372e0",
+    "computed_tree_sha": "aab5f9fd311a1d2cd2744a200209b277c465cdba",
+    "api_tree_sha_as_returned": "aab5f9fd311a1d2cd2744a200209b277c465cdba",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5b4645564a1c36ec87e0a21e929f03aa4f395113",
+        "sha256": "96690817ed01e5a8d51756864a37c319aecd358dd8d5e4bd30ae725769c66168",
+        "size": 9062,
+        "mode": "100644"
+      },
+      {
+        "path": "references/checkpointing.md",
+        "git_blob_sha1": "39fabba6e3aefa0531b5e208cf85dcd3c24208a2",
+        "sha256": "a82569bf0a846a6bbc46ef6abc71eac7ec67d203400d9652fabe9f23603b69d9",
+        "size": 10018,
+        "mode": "100644"
+      },
+      {
+        "path": "references/partitions.md",
+        "git_blob_sha1": "1e64c82d620bae578c124253f81407b7f82aed25",
+        "sha256": "d78fdd2b8a94abaad138c2aa7bb117f5609afd792450bad269a91e4590c6823b",
+        "size": 10630,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_consumer.py",
+        "git_blob_sha1": "73b925deb18c3b6da0760b3225cc8e3ea69db1e7",
+        "sha256": "0e2df705c5df1dc6b7c943974c14edc876fb55e115624dd8a6fb81bc1ff1f706",
+        "size": 13609,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+    "computed_tree_sha": "0fbf762f81763b55040414428dcb0a3a0d29bd5f",
+    "api_tree_sha_as_returned": "0fbf762f81763b55040414428dcb0a3a0d29bd5f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "289676f5c80a9f4064980ff98283575502fe1d99",
+        "sha256": "fd26cd3d54d9e92d3d8989b0c2be8f54ab140f41837ba1f4a03da40659f64d03",
+        "size": 9291,
+        "mode": "100644"
+      },
+      {
+        "path": "references/checkpointing.md",
+        "git_blob_sha1": "39fabba6e3aefa0531b5e208cf85dcd3c24208a2",
+        "sha256": "a82569bf0a846a6bbc46ef6abc71eac7ec67d203400d9652fabe9f23603b69d9",
+        "size": 10018,
+        "mode": "100644"
+      },
+      {
+        "path": "references/partitions.md",
+        "git_blob_sha1": "1e64c82d620bae578c124253f81407b7f82aed25",
+        "sha256": "d78fdd2b8a94abaad138c2aa7bb117f5609afd792450bad269a91e4590c6823b",
+        "size": 10630,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_consumer.py",
+        "git_blob_sha1": "73b925deb18c3b6da0760b3225cc8e3ea69db1e7",
+        "sha256": "0e2df705c5df1dc6b7c943974c14edc876fb55e115624dd8a6fb81bc1ff1f706",
+        "size": 13609,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bdc66e4618eb2f277d013192820aa042039372e0",
+  "new_commit": "df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "to address feedback\n\nCo-authored-by: Copilot <copilot@github.com>",
+  "new_commit_time": "2026-05-18T15:32:08Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bdc66e4618eb2f277d013192820aa042039372e0...df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "commit_url": "https://github.com/microsoft/skills/commit/df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "skill_directory": ".github/plugins/azure-sdk-python/skills/azure-eventhub-py",
+  "local_directory": "verified_real_update_pairs/OPU-0404",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0404",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-logging-finops/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "76672d09fcc135ed4535",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "ae55fb66945a6541ce7259bffa2af5bd22be288e",
+    "computed_tree_sha": "0738f88d3a6c6be70b8f3121e7538d82709e7698",
+    "api_tree_sha_as_returned": "0738f88d3a6c6be70b8f3121e7538d82709e7698",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "79ea76602541d15abab5cd8e590d529307e8827d",
+        "sha256": "1c2a72fe1479f175ecd9f3283a048299961c42cd731f64b68d4a4ecd7f041283",
+        "size": 20057,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/report_template.html",
+        "git_blob_sha1": "8687136ec921cabf0b5f535bb15db4ec1f9fbac7",
+        "sha256": "83d1afacf5f6d8d1f3a9dea84b6ff6c72324db5292f8b7e9e42d7c108d53251d",
+        "size": 137733,
+        "mode": "100644"
+      },
+      {
+        "path": "references/executive_summary_authoring.md",
+        "git_blob_sha1": "51f58bc7377ae19f290f4629e3c8db2a7893badc",
+        "sha256": "25c5033c5df157a9fce6487161dd84f7c37cf5ea91c4e91909ac790ca369f0de",
+        "size": 3930,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/actions.py",
+        "git_blob_sha1": "0d47e5a877ccd2f7fb042dabbd85ab5ce0a3e2d5",
+        "sha256": "fee64790c5dc848195d640834f555e68b21b0e9675a1009e85cac8cc57814280",
+        "size": 12723,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/aggregations.py",
+        "git_blob_sha1": "3c0609ac1ac401f7743efd01f55988b1c7d5f303",
+        "sha256": "7bae94c9c3a429eac23bc629d5b8d78f96847c67fca80b6f597437863a5d9ab4",
+        "size": 26008,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analytics.py",
+        "git_blob_sha1": "37abc2da426b94a5dc9ddcfa312610dc45c7d14b",
+        "sha256": "a17819e4064147d196d81f4d7c52c2adfc9a8ce80ba613325e1dd1ce27d1ad5a",
+        "size": 26262,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/attribution.py",
+        "git_blob_sha1": "41c04ce90f827f15e56d68e61b66803b61428181",
+        "sha256": "0f9c1d8fc1808ddfc9d62beb49a6f6cc91bc644a26d0f15134b5315062b62f41",
+        "size": 2383,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/billing.py",
+        "git_blob_sha1": "04d5eb73dedaa811d05c26b80e660e1132df5afd",
+        "sha256": "d76267657cec24d18cb8966279bd98db2a3199bad96152009f168a35c596dfb5",
+        "size": 23141,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/build_report.py",
+        "git_blob_sha1": "258e672f42f35625a0fb7c9dbadc888b3fd17522",
+        "sha256": "ec485ee03fce824efd803de634053697ff8397a37059d07c78421d543284776d",
+        "size": 15113,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/collect_logging_data.py",
+        "git_blob_sha1": "3a310dc30ebcc7f1fa53df7609dc262b6c1d0d3e",
+        "sha256": "88f0b9f75076d95147228a7aa75e61fba87d7b2e36d398996c41aa2b57c72720",
+        "size": 20417,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/constants.py",
+        "git_blob_sha1": "385e965aa121606324f4385f124b508efa4c8e50",
+        "sha256": "b584666a10c44cbcb19a5c4af5b4d28e16b6f2a395d3545dcf08b2d2f0e398b0",
+        "size": 9364,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/enable_log_analytics.py",
+        "git_blob_sha1": "7e61e77dd3b4655237950294283be1f0d03bc786",
+        "sha256": "b97ab6ca0165139330e8b8876a409173b40dd9226d439246480de750e0fa07f6",
+        "size": 4256,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/exclusion_rules.py",
+        "git_blob_sha1": "2a49f437ddaa20f874016966c2e0955b6e0cd8ba",
+        "sha256": "8e36350975671fd6af096b356a9f398206283490bb31fee97931f8a525ab6254",
+        "size": 12926,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inventory.py",
+        "git_blob_sha1": "b8107164761c301b4c72e3fd8854186b5cb1164d",
+        "sha256": "8a66edf3016dde1f3501b52af910118ef57bf824ef4a4ca799d33ee5354fb2a8",
+        "size": 7253,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/messages.py",
+        "git_blob_sha1": "f75002d005b41908fff1ef0ad2aa6eec516d3b2a",
+        "sha256": "139ced790113e4b8e42d06f4143112d43fa521a6f91c2e27b5c6f4614f8fcfbc",
+        "size": 3488,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/monitoring.py",
+        "git_blob_sha1": "63a004ae4c88ff59a7db419b6813c7d5caa1644d",
+        "sha256": "17def5bc4ad685f530884eee09ac7e2960a4ff43c329c4aa9a061aa160720bdd",
+        "size": 12950,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/output.py",
+        "git_blob_sha1": "fc2b60222dfe6c6f665cead6b6200e3da79ef560",
+        "sha256": "b23977b53d861f28cdccd1ac41f6eed8d9b36ac053b54d6234a8b407ebd9be72",
+        "size": 6049,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/perf.py",
+        "git_blob_sha1": "a6d66dd32f47d45badd0f3b86105d6a473ade27f",
+        "sha256": "d8c4297a93eb9a69fdc17ab26fb4248c5afb6300f81359d803cdd06b66ce6358",
+        "size": 1675,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pricing.py",
+        "git_blob_sha1": "ef3265ddf6badc6476888379ecbf4d8d18639e15",
+        "sha256": "61f1d14096903215899fb86982c423019c120fe93c134dc1c858f574e2132631",
+        "size": 17605,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/provenance.py",
+        "git_blob_sha1": "0661ea769581fc5d8a12c8e68df827d9bf07e4c9",
+        "sha256": "4c923b8856478c3e1fb889277992d6381a375ff6a0be2f807d8cfd6a153b0911",
+        "size": 57893,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/requirements.txt",
+        "git_blob_sha1": "fe4018f609107d38551b12f2b56b4b9cea911eb6",
+        "sha256": "8e77269b58e71244aedd62fc0f5a72a0bb7d0cb5bf6bbf0ff145b6756d3cbb8b",
+        "size": 200,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/telemetry_integrity.py",
+        "git_blob_sha1": "c2757c5b68b6360300dee53e917d8e5d2730a134",
+        "sha256": "1798a132a860cca95e3c9a6305ce27ee0b5f27eaaefc92f95dca678d19f147aa",
+        "size": 7794,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/verify_claim.py",
+        "git_blob_sha1": "95f56770c1b09727e4f53b9b66541fae4ed638a8",
+        "sha256": "6febedafc18b78c273ba9385f67b3556277bf477ce289057524ad2e1ab892166",
+        "size": 10483,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/waste.py",
+        "git_blob_sha1": "58edcc0856d4960c91ec989b36f71029e42e602d",
+        "sha256": "16b0d8d29cc68d18472c7c17fab2d8cd0c5245aab294ad34eb12a2e7bb83ab85",
+        "size": 19562,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f72d4289501dfb4cce66d2190f2e2827ece62814",
+    "computed_tree_sha": "a9d491e2e9f663f082e3d2003fcfa2c9d5c0379e",
+    "api_tree_sha_as_returned": "a9d491e2e9f663f082e3d2003fcfa2c9d5c0379e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "32edf68bb0123f669f8361a83c990ca8bd179093",
+        "sha256": "b14b75c6b47a1b215ec6a3d5e9d1abda8fa187cc02392f7346bc72ec7fbcbe65",
+        "size": 20065,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/report_template.html",
+        "git_blob_sha1": "8687136ec921cabf0b5f535bb15db4ec1f9fbac7",
+        "sha256": "83d1afacf5f6d8d1f3a9dea84b6ff6c72324db5292f8b7e9e42d7c108d53251d",
+        "size": 137733,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "c986d53afdab6b6b82400088115b0a18627b1e2a",
+        "sha256": "2b83cc6d7a0a8aeb76667208965b53ffbb1066b057a79ee43206bb7f0700be9c",
+        "size": 1904,
+        "mode": "100644"
+      },
+      {
+        "path": "references/executive_summary_authoring.md",
+        "git_blob_sha1": "51f58bc7377ae19f290f4629e3c8db2a7893badc",
+        "sha256": "25c5033c5df157a9fce6487161dd84f7c37cf5ea91c4e91909ac790ca369f0de",
+        "size": 3930,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/actions.py",
+        "git_blob_sha1": "0d47e5a877ccd2f7fb042dabbd85ab5ce0a3e2d5",
+        "sha256": "fee64790c5dc848195d640834f555e68b21b0e9675a1009e85cac8cc57814280",
+        "size": 12723,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/aggregations.py",
+        "git_blob_sha1": "3c0609ac1ac401f7743efd01f55988b1c7d5f303",
+        "sha256": "7bae94c9c3a429eac23bc629d5b8d78f96847c67fca80b6f597437863a5d9ab4",
+        "size": 26008,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analytics.py",
+        "git_blob_sha1": "37abc2da426b94a5dc9ddcfa312610dc45c7d14b",
+        "sha256": "a17819e4064147d196d81f4d7c52c2adfc9a8ce80ba613325e1dd1ce27d1ad5a",
+        "size": 26262,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/attribution.py",
+        "git_blob_sha1": "41c04ce90f827f15e56d68e61b66803b61428181",
+        "sha256": "0f9c1d8fc1808ddfc9d62beb49a6f6cc91bc644a26d0f15134b5315062b62f41",
+        "size": 2383,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/billing.py",
+        "git_blob_sha1": "04d5eb73dedaa811d05c26b80e660e1132df5afd",
+        "sha256": "d76267657cec24d18cb8966279bd98db2a3199bad96152009f168a35c596dfb5",
+        "size": 23141,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/build_report.py",
+        "git_blob_sha1": "258e672f42f35625a0fb7c9dbadc888b3fd17522",
+        "sha256": "ec485ee03fce824efd803de634053697ff8397a37059d07c78421d543284776d",
+        "size": 15113,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/collect_logging_data.py",
+        "git_blob_sha1": "3a310dc30ebcc7f1fa53df7609dc262b6c1d0d3e",
+        "sha256": "88f0b9f75076d95147228a7aa75e61fba87d7b2e36d398996c41aa2b57c72720",
+        "size": 20417,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/constants.py",
+        "git_blob_sha1": "385e965aa121606324f4385f124b508efa4c8e50",
+        "sha256": "b584666a10c44cbcb19a5c4af5b4d28e16b6f2a395d3545dcf08b2d2f0e398b0",
+        "size": 9364,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/enable_log_analytics.py",
+        "git_blob_sha1": "7e61e77dd3b4655237950294283be1f0d03bc786",
+        "sha256": "b97ab6ca0165139330e8b8876a409173b40dd9226d439246480de750e0fa07f6",
+        "size": 4256,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/exclusion_rules.py",
+        "git_blob_sha1": "2a49f437ddaa20f874016966c2e0955b6e0cd8ba",
+        "sha256": "8e36350975671fd6af096b356a9f398206283490bb31fee97931f8a525ab6254",
+        "size": 12926,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inventory.py",
+        "git_blob_sha1": "b8107164761c301b4c72e3fd8854186b5cb1164d",
+        "sha256": "8a66edf3016dde1f3501b52af910118ef57bf824ef4a4ca799d33ee5354fb2a8",
+        "size": 7253,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/messages.py",
+        "git_blob_sha1": "f75002d005b41908fff1ef0ad2aa6eec516d3b2a",
+        "sha256": "139ced790113e4b8e42d06f4143112d43fa521a6f91c2e27b5c6f4614f8fcfbc",
+        "size": 3488,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/monitoring.py",
+        "git_blob_sha1": "63a004ae4c88ff59a7db419b6813c7d5caa1644d",
+        "sha256": "17def5bc4ad685f530884eee09ac7e2960a4ff43c329c4aa9a061aa160720bdd",
+        "size": 12950,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/output.py",
+        "git_blob_sha1": "fc2b60222dfe6c6f665cead6b6200e3da79ef560",
+        "sha256": "b23977b53d861f28cdccd1ac41f6eed8d9b36ac053b54d6234a8b407ebd9be72",
+        "size": 6049,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/perf.py",
+        "git_blob_sha1": "a6d66dd32f47d45badd0f3b86105d6a473ade27f",
+        "sha256": "d8c4297a93eb9a69fdc17ab26fb4248c5afb6300f81359d803cdd06b66ce6358",
+        "size": 1675,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pricing.py",
+        "git_blob_sha1": "ef3265ddf6badc6476888379ecbf4d8d18639e15",
+        "sha256": "61f1d14096903215899fb86982c423019c120fe93c134dc1c858f574e2132631",
+        "size": 17605,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/provenance.py",
+        "git_blob_sha1": "0661ea769581fc5d8a12c8e68df827d9bf07e4c9",
+        "sha256": "4c923b8856478c3e1fb889277992d6381a375ff6a0be2f807d8cfd6a153b0911",
+        "size": 57893,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/requirements.txt",
+        "git_blob_sha1": "fe4018f609107d38551b12f2b56b4b9cea911eb6",
+        "sha256": "8e77269b58e71244aedd62fc0f5a72a0bb7d0cb5bf6bbf0ff145b6756d3cbb8b",
+        "size": 200,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/telemetry_integrity.py",
+        "git_blob_sha1": "c2757c5b68b6360300dee53e917d8e5d2730a134",
+        "sha256": "1798a132a860cca95e3c9a6305ce27ee0b5f27eaaefc92f95dca678d19f147aa",
+        "size": 7794,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/verify_claim.py",
+        "git_blob_sha1": "95f56770c1b09727e4f53b9b66541fae4ed638a8",
+        "sha256": "6febedafc18b78c273ba9385f67b3556277bf477ce289057524ad2e1ab892166",
+        "size": 10483,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/waste.py",
+        "git_blob_sha1": "58edcc0856d4960c91ec989b36f71029e42e602d",
+        "sha256": "16b0d8d29cc68d18472c7c17fab2d8cd0c5245aab294ad34eb12a2e7bb83ab85",
+        "size": 19562,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "ae55fb66945a6541ce7259bffa2af5bd22be288e",
+  "new_commit": "f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to remaining 7 Cloud agent skills.\n\n- Add `references/attribution.md` to `apigee-agent-gateway-governance`, `assuredworkloads-frameworks-author`, `bigquery-migration-sql-translator`, `bigquery-udfs`, `cloud-logging-finops`, `firebase-basics`, and `managed-airflow-recommendations`.\n- Add concise `## Usage Attribution` directives in `SKILL.md` linking to `references/attribution.md`.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1007391435",
+  "new_commit_time": "2026-10-26T17:48:53Z",
+  "compare_url": "https://github.com/google/skills/compare/ae55fb66945a6541ce7259bffa2af5bd22be288e...f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "commit_url": "https://github.com/google/skills/commit/f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "skill_directory": "skills/cloud/cloud-logging-finops",
+  "local_directory": "verified_real_update_pairs/OPU-0359",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0359",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

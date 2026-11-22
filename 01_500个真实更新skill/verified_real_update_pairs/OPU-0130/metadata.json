@@ -1,0 +1,369 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/render-deploy/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "35973e0ffc03e1e85692",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "33400391a3ab7960eb929b39060487b12c4a65ad",
+    "computed_tree_sha": "35f37163f97b14a1a36be11f94b3d796c5215d29",
+    "api_tree_sha_as_returned": "35f37163f97b14a1a36be11f94b3d796c5215d29",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1678cd2e2345ba92330cd19040685266a063d8ea",
+        "sha256": "7359897f84a75e83c2a919078743887f55d428250f61b6d37cb8672eae5cbc30",
+        "size": 16883,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "8d287b70154ed6b2d32d2e5a3e3fedc7180ad24e",
+        "sha256": "9d14eae8aad5f2e02112f1003e823df2da2b5b5df626fae4439f44349f59d291",
+        "size": 480,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/docker.yaml",
+        "git_blob_sha1": "c3f9d3a66ade17a84fcf9e70c5f1acdf222e9260",
+        "sha256": "3fd98d72fc490df5c2a57ee5ddb3997347d31ea72ac68035f6442e787a19e091",
+        "size": 1398,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/go-api.yaml",
+        "git_blob_sha1": "dd24eb744c1646032a80613af025cc83b2af6f5d",
+        "sha256": "fed7f5f2f59dc98cfc505533177d7b35dd3a993e6a93d0a6be1fae59a676af0b",
+        "size": 848,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/nextjs-postgres.yaml",
+        "git_blob_sha1": "ef70b758a433879ab4c13bd78989200a64dfb62a",
+        "sha256": "0c3d482632b88c0e5f3dc620d32b06216b356205b1fd988f69b6fc69ee41d2d3",
+        "size": 870,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/node-express.yaml",
+        "git_blob_sha1": "04facaf2b4d872ca229063455cde7961ad58a855",
+        "sha256": "1785a380074f7439e983f0cd50381559fd804a76c56f8d2da7d988a30ac8b519",
+        "size": 619,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/python-django.yaml",
+        "git_blob_sha1": "2be69d28199776447b248d06d6f5b415b664e10d",
+        "sha256": "ce9e540e8cff7171557223044f61a83a058f0012831d07f99750cac70a4e236c",
+        "size": 2538,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/render-small.svg",
+        "git_blob_sha1": "c921c7431af3c1ae0a7261c8736144478a76bfe5",
+        "sha256": "27cc74f766850724ac4a01bda8fb4a765a997522cdf5b93748e2e0c546193623",
+        "size": 553,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/render.png",
+        "git_blob_sha1": "f3410b0d6318b201aea515291b3d969dfa84c5a4",
+        "sha256": "becffed2fbc78e10cf25fb7837299b30bed33764bdd1ba521d7b6bd4e9167693",
+        "size": 911,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/static-site.yaml",
+        "git_blob_sha1": "0f5ff612627b16b5233248e8faabbcbec02e8f62",
+        "sha256": "d0a7df7c7a987049ec3609c28f1fdeef8e2e01f534c64372c6079746df286ac1",
+        "size": 1352,
+        "mode": "100644"
+      },
+      {
+        "path": "references/blueprint-spec.md",
+        "git_blob_sha1": "01c29b24f676b7ff1e5afb696962e53c0bb35494",
+        "sha256": "52cdb41c930c22ec5578c2e56cef33ffbba910ef6c72de57965908be7ec54139",
+        "size": 16013,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codebase-analysis.md",
+        "git_blob_sha1": "a258295baffefba29565c5ba5f128813274a1a7d",
+        "sha256": "54c4fe84ae50a4b358f7c9048dfcd68f9eddd88ddfbe24c50b4be7949dc9f6a7",
+        "size": 2300,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configuration-guide.md",
+        "git_blob_sha1": "ebd1558a2a641331e420bbd588093898d1b6841e",
+        "sha256": "f0bdee2c78db76066e797139b1ee1230cf277192e8fbe9c42d277e82bef2ec40",
+        "size": 11735,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment-details.md",
+        "git_blob_sha1": "e17bbeade6b6d6db373b9544143297a48b22a578",
+        "sha256": "fa6aa90a707494fcc9438b65829ef4891b9ed03c1cf69d6323fbd997b1f6782a",
+        "size": 5345,
+        "mode": "100644"
+      },
+      {
+        "path": "references/direct-creation.md",
+        "git_blob_sha1": "6187245b19f0dc3c34ef71ccf30af0e84aa06afa",
+        "sha256": "3b148def3c12061582229599616b680f57972c86a8782e22a765cf261ec80adc",
+        "size": 2786,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error-patterns.md",
+        "git_blob_sha1": "228f2348a938f9bf24b1f6540652538ffcdab3b9",
+        "sha256": "b5556cdd3ba832e8f33602cf207cd80872df9c89ed17fe92129a56903176675b",
+        "size": 833,
+        "mode": "100644"
+      },
+      {
+        "path": "references/post-deploy-checks.md",
+        "git_blob_sha1": "a14e8e4180f46378401b163971ef644e23778402",
+        "sha256": "bd1e3e24abe6c9eb63164ac8ada9b285ceaffbd1722f58bbc1d3d94af4c59911",
+        "size": 1025,
+        "mode": "100644"
+      },
+      {
+        "path": "references/runtimes.md",
+        "git_blob_sha1": "9e1175794b3d69b032f406052a27906ddd3c9bff",
+        "sha256": "285b66f9fbb7b20195be80d3bc91bdfc82944c779debbffad85f08ba338b414f",
+        "size": 9849,
+        "mode": "100644"
+      },
+      {
+        "path": "references/service-types.md",
+        "git_blob_sha1": "5eff82b71273373623d736cb2df0c6df70463411",
+        "sha256": "459590bed5b5600f155f8a9d39c7ca3a32e307270e58d636b30e7b25e6ca4e64",
+        "size": 11338,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting-basics.md",
+        "git_blob_sha1": "54fa0749e0c68aa4853c14824ce4b921b659d478",
+        "sha256": "f999b13fc56ff62ccf6eec593d0e4cee94e52dec27a815e40d68532bf558a4ca",
+        "size": 1361,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "bf9e226541ec801750547acfa8cf761b7c878f27",
+    "computed_tree_sha": "f14885c4c082870b8b77791eb4eebe59fed2f33e",
+    "api_tree_sha_as_returned": "f14885c4c082870b8b77791eb4eebe59fed2f33e",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a0f78c13b07df3def82c16bccf4a1c17c4d8e30d",
+        "sha256": "c17c75adeb1834ed5cee1e440a651ae476c4101cd63762fcd9a58eada917552d",
+        "size": 17582,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "8d287b70154ed6b2d32d2e5a3e3fedc7180ad24e",
+        "sha256": "9d14eae8aad5f2e02112f1003e823df2da2b5b5df626fae4439f44349f59d291",
+        "size": 480,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/docker.yaml",
+        "git_blob_sha1": "c3f9d3a66ade17a84fcf9e70c5f1acdf222e9260",
+        "sha256": "3fd98d72fc490df5c2a57ee5ddb3997347d31ea72ac68035f6442e787a19e091",
+        "size": 1398,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/go-api.yaml",
+        "git_blob_sha1": "dd24eb744c1646032a80613af025cc83b2af6f5d",
+        "sha256": "fed7f5f2f59dc98cfc505533177d7b35dd3a993e6a93d0a6be1fae59a676af0b",
+        "size": 848,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/nextjs-postgres.yaml",
+        "git_blob_sha1": "ef70b758a433879ab4c13bd78989200a64dfb62a",
+        "sha256": "0c3d482632b88c0e5f3dc620d32b06216b356205b1fd988f69b6fc69ee41d2d3",
+        "size": 870,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/node-express.yaml",
+        "git_blob_sha1": "04facaf2b4d872ca229063455cde7961ad58a855",
+        "sha256": "1785a380074f7439e983f0cd50381559fd804a76c56f8d2da7d988a30ac8b519",
+        "size": 619,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/python-django.yaml",
+        "git_blob_sha1": "2be69d28199776447b248d06d6f5b415b664e10d",
+        "sha256": "ce9e540e8cff7171557223044f61a83a058f0012831d07f99750cac70a4e236c",
+        "size": 2538,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/render-small.svg",
+        "git_blob_sha1": "c921c7431af3c1ae0a7261c8736144478a76bfe5",
+        "sha256": "27cc74f766850724ac4a01bda8fb4a765a997522cdf5b93748e2e0c546193623",
+        "size": 553,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/render.png",
+        "git_blob_sha1": "f3410b0d6318b201aea515291b3d969dfa84c5a4",
+        "sha256": "becffed2fbc78e10cf25fb7837299b30bed33764bdd1ba521d7b6bd4e9167693",
+        "size": 911,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/static-site.yaml",
+        "git_blob_sha1": "0f5ff612627b16b5233248e8faabbcbec02e8f62",
+        "sha256": "d0a7df7c7a987049ec3609c28f1fdeef8e2e01f534c64372c6079746df286ac1",
+        "size": 1352,
+        "mode": "100644"
+      },
+      {
+        "path": "references/blueprint-spec.md",
+        "git_blob_sha1": "01c29b24f676b7ff1e5afb696962e53c0bb35494",
+        "sha256": "52cdb41c930c22ec5578c2e56cef33ffbba910ef6c72de57965908be7ec54139",
+        "size": 16013,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codebase-analysis.md",
+        "git_blob_sha1": "a258295baffefba29565c5ba5f128813274a1a7d",
+        "sha256": "54c4fe84ae50a4b358f7c9048dfcd68f9eddd88ddfbe24c50b4be7949dc9f6a7",
+        "size": 2300,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configuration-guide.md",
+        "git_blob_sha1": "ebd1558a2a641331e420bbd588093898d1b6841e",
+        "sha256": "f0bdee2c78db76066e797139b1ee1230cf277192e8fbe9c42d277e82bef2ec40",
+        "size": 11735,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment-details.md",
+        "git_blob_sha1": "e17bbeade6b6d6db373b9544143297a48b22a578",
+        "sha256": "fa6aa90a707494fcc9438b65829ef4891b9ed03c1cf69d6323fbd997b1f6782a",
+        "size": 5345,
+        "mode": "100644"
+      },
+      {
+        "path": "references/direct-creation.md",
+        "git_blob_sha1": "6187245b19f0dc3c34ef71ccf30af0e84aa06afa",
+        "sha256": "3b148def3c12061582229599616b680f57972c86a8782e22a765cf261ec80adc",
+        "size": 2786,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error-patterns.md",
+        "git_blob_sha1": "228f2348a938f9bf24b1f6540652538ffcdab3b9",
+        "sha256": "b5556cdd3ba832e8f33602cf207cd80872df9c89ed17fe92129a56903176675b",
+        "size": 833,
+        "mode": "100644"
+      },
+      {
+        "path": "references/post-deploy-checks.md",
+        "git_blob_sha1": "a14e8e4180f46378401b163971ef644e23778402",
+        "sha256": "bd1e3e24abe6c9eb63164ac8ada9b285ceaffbd1722f58bbc1d3d94af4c59911",
+        "size": 1025,
+        "mode": "100644"
+      },
+      {
+        "path": "references/runtimes.md",
+        "git_blob_sha1": "9e1175794b3d69b032f406052a27906ddd3c9bff",
+        "sha256": "285b66f9fbb7b20195be80d3bc91bdfc82944c779debbffad85f08ba338b414f",
+        "size": 9849,
+        "mode": "100644"
+      },
+      {
+        "path": "references/service-types.md",
+        "git_blob_sha1": "5eff82b71273373623d736cb2df0c6df70463411",
+        "sha256": "459590bed5b5600f155f8a9d39c7ca3a32e307270e58d636b30e7b25e6ca4e64",
+        "size": 11338,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting-basics.md",
+        "git_blob_sha1": "54fa0749e0c68aa4853c14824ce4b921b659d478",
+        "sha256": "f999b13fc56ff62ccf6eec593d0e4cee94e52dec27a815e40d68532bf558a4ca",
+        "size": 1361,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "33400391a3ab7960eb929b39060487b12c4a65ad",
+  "new_commit": "bf9e226541ec801750547acfa8cf761b7c878f27",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add prerequisites and troubleshooting to deploy skills (#90)\n\n**Summary**\n- aligned the Cloudflare, Netlify, and Render deploy skills with the\nprereqs and escalation guidance from the Vercel skill\n- documented requirement to rerun deployments with\n`sandbox_permissions=require_escalated` when sandboxing blocks\nnetworking and reminded that deployments may take several minutes\n- added a Troubleshooting section that describes when to request\nescalated network access and sample messaging for Cloudflare, Netlify,\nand Render\n\n**Testing**\n- Not run (not requested)",
+  "new_commit_time": "2026-02-02T20:20:40Z",
+  "compare_url": "https://github.com/openai/skills/compare/33400391a3ab7960eb929b39060487b12c4a65ad...bf9e226541ec801750547acfa8cf761b7c878f27",
+  "commit_url": "https://github.com/openai/skills/commit/bf9e226541ec801750547acfa8cf761b7c878f27",
+  "skill_directory": "skills/.curated/render-deploy",
+  "local_directory": "verified_real_update_pairs/OPU-0130",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0130",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

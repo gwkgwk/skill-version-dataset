@@ -1,0 +1,77 @@
+{
+  "repository": "google-labs-code/stitch-skills",
+  "primary": "plugins/stitch-design/skills/code-to-design/SKILL.md",
+  "pinned_commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+  "repository_license": "Apache-2.0",
+  "key": "072d858e1174f041fb6b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "894d79ce4ae4fbe89778526a6ef5783277b741cc",
+    "computed_tree_sha": "6f6ba8cfae6ec0f9a1aa6615405d6b8b2bfe61d3",
+    "api_tree_sha_as_returned": "6f6ba8cfae6ec0f9a1aa6615405d6b8b2bfe61d3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "87ba739ff6c7195a2c753f562b4b7e300acb3086",
+        "sha256": "689f9bf3ef073b0ea8625a9e054586b596132a14a19eae99a47bb54017cb9987",
+        "size": 3439,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "bf2f67da80c934e584b7e8c04ec078c90cc47d19",
+    "computed_tree_sha": "b450218e6a4efa67fc7426f82bffc0d379f9aed5",
+    "api_tree_sha_as_returned": "b450218e6a4efa67fc7426f82bffc0d379f9aed5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c70c6f99ea2f77e93acb6e01193b5f0e810c9c76",
+        "sha256": "1daafb1d89d6e18574edc33818b992b7af59aaeb2960134dfc818ea0f53b2455",
+        "size": 3649,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "894d79ce4ae4fbe89778526a6ef5783277b741cc",
+  "new_commit": "bf2f67da80c934e584b7e8c04ec078c90cc47d19",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(stitch-design): enhance static HTML snapshotting, dev-overlay removal, and route titling",
+  "new_commit_time": "2026-07-29T17:38:23Z",
+  "compare_url": "https://github.com/google-labs-code/stitch-skills/compare/894d79ce4ae4fbe89778526a6ef5783277b741cc...bf2f67da80c934e584b7e8c04ec078c90cc47d19",
+  "commit_url": "https://github.com/google-labs-code/stitch-skills/commit/bf2f67da80c934e584b7e8c04ec078c90cc47d19",
+  "skill_directory": "plugins/stitch-design/skills/code-to-design",
+  "local_directory": "verified_real_update_pairs/OPU-0047",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0047",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

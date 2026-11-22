@@ -1,0 +1,82 @@
+{
+  "sha": "5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+  "node_id": "C_kwDOQ0VAy9oAKDVhNjRiMzZjNjJkMDQyZDM5ODFiNzkzN2Q5ZDZjYTdiZDE3NTNiOWE",
+  "commit": {
+    "author": {
+      "name": "David Cramer",
+      "email": "dcramer@users.noreply.github.com",
+      "date": "2026-06-30T20:52:17Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-06-30T20:52:17Z"
+    },
+    "message": "feat(skills): Add AXIS skill evals (#159)\n\nThis standardizes skill evaluation on AXIS, using its built-in Codex\nadapter so evals run through the real `codex exec --json` harness\ninstead of custom runner scripts.\n\nThe new maintainer path for `skill-writer` is:\n\n```bash\nnpx @netlify/axis run --config skills/skill-writer/evals/axis.config.json\nnpx @netlify/axis run --config skills/skill-writer/evals/axis.config.json --scenario small-inline-workflow\nnpx @netlify/axis reports latest --config skills/skill-writer/evals/axis.config.json --html\n```\n\nEach AXIS scenario copies the repo into an isolated temp workspace,\nexcludes local agent/report state, installs the local skill under test\nwith `skills: [\"./..\"]`, runs Codex, and captures\ntranscript/judge/artifact evidence. Generated `.axis/` report\ndirectories are now ignored so local eval runs do not pollute future\ndiffs.\n\nThe initial `skill-writer` evals cover three behavior classes:\n\n- `small-inline-workflow`: catches simple skills being overbuilt with\nreferences, scripts, or broad source research.\n- `reference-backed-integration`: checks that complex/integration skills\nkeep `SKILL.md` as a router and split optional depth into focused\nreferences.\n- `iteration-from-bad-output`: checks that `skill-writer` can improve an\nexisting bloated skill by narrowing triggers and removing unnecessary\nfiles.\n\nThe runtime `references/skill-evals.md` teaches future skills the same\npattern: add `EVAL.md`, `evals/axis.config.json`, and focused AXIS\nscenarios with observable judge checks. It explicitly keeps AXIS as the\nprescribed skill-eval framework and treats Promptfoo/custom Codex\nscripts as out of scope for this repo's skill evals.\n\n`pr-writer` gets a proof eval focused on actual behavior rather than\neval plumbing:\n\n```bash\nnpx @netlify/axis run --config skills/pr-writer/evals/axis.config.json --scenario concise-docs-pr\n```\n\nThat scenario creates a docs-only skill change and verifies the\ngenerated PR title/body stay concise, use an appropriate conventional\ntitle, avoid template headings, and omit validation/tool boilerplate.\nThe renamed `concise-docs-pr` case is meant to be a pattern for\nbehavior-focused eval cases, not framework smoke tests.\n\nI exercised the new paths locally: `small-inline-workflow` completed\nthrough AXIS/Codex with score 94, and `concise-docs-pr` completed with\nscore 99. Structural validation also passed for both `skill-writer` and\n`pr-writer`.\n\nCo-authored-by: GPT-5 Codex <codex@openai.com>",
+    "tree": {
+      "sha": "678d9767b995a373bfd6b72b1546299775cf96bc",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/678d9767b995a373bfd6b72b1546299775cf96bc"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqRCyBCRC1aQ7uu5UhlAAAevQQAJtyrR51cG0AKA6Aqm4op3SE\nlLaowqWOAlwkaRj+7cnF3zne5EHPlr4naFpCjHo5ALU2goABWHg42s3qvfAFMedN\nwucR/1zgfDvI0NDnCIILvB1zCtpTR8+5ea/GtrkBbxoFykLDAgYaJKeVCc8WGlKc\nWYZQ0PISIhWKsYknCMkL6t7uEUEPgAtl+ox2po1V25IzAzNCcuTqFywOv6XvpJ2V\nRRRcxs01xmqQLfzfsrqc7GyRSGS4CF0ZSMbfwpmXiZfNER8250dZ2QqKrnAxWROz\nnQiGycOJCBibztZgNp5OK9HcB8VYyLOYU2ekhDLHf8ssjAxI8EuZExeOgAR/hbHI\n4yuyYWZzSW0HzpciFtm41/HuQl5EivjCBpIoISbVQ5AUPB3oizhGq8hBv+M6G5Ka\n465wCYB/7Z7jralZwPnysVV+3zf1P//b9PGaXYadR2vDeQN/kBgww4Gv7NWHgYwE\nUAEgWuaYAn89Xw4RE1xc2XJ4g2s7YfoJJCg/JHf0QGUQvyQFb/2A9jKh4I34+Hgj\nrVR4NbGoxkMiZrsgTryzaGNH1amKGSBsJeJdJoVGqH1mL1G5t9qPtJPLaPFeXmzC\nIy6aCG5V66XdRSq408cABY3uz9HBIIPHdQ2wxZy8NI5gIWqZHfigtJ3Gck+/Cqxr\nkkMItBhMInkCvMi0S+zM\n=iC+c\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 678d9767b995a373bfd6b72b1546299775cf96bc\nparent 89a1f0105c5be12934bda2bcd01f58ab894976e2\nauthor David Cramer <dcramer@users.noreply.github.com> 1782852737 -0700\ncommitter GitHub <noreply@github.com> 1782852737 -0700\n\nfeat(skills): Add AXIS skill evals (#159)\n\nThis standardizes skill evaluation on AXIS, using its built-in Codex\nadapter so evals run through the real `codex exec --json` harness\ninstead of custom runner scripts.\n\nThe new maintainer path for `skill-writer` is:\n\n```bash\nnpx @netlify/axis run --config skills/skill-writer/evals/axis.config.json\nnpx @netlify/axis run --config skills/skill-writer/evals/axis.config.json --scenario small-inline-workflow\nnpx @netlify/axis reports latest --config skills/skill-writer/evals/axis.config.json --html\n```\n\nEach AXIS scenario copies the repo into an isolated temp workspace,\nexcludes local agent/report state, installs the local skill under test\nwith `skills: [\"./..\"]`, runs Codex, and captures\ntranscript/judge/artifact evidence. Generated `.axis/` report\ndirectories are now ignored so local eval runs do not pollute future\ndiffs.\n\nThe initial `skill-writer` evals cover three behavior classes:\n\n- `small-inline-workflow`: catches simple skills being overbuilt with\nreferences, scripts, or broad source research.\n- `reference-backed-integration`: checks that complex/integration skills\nkeep `SKILL.md` as a router and split optional depth into focused\nreferences.\n- `iteration-from-bad-output`: checks that `skill-writer` can improve an\nexisting bloated skill by narrowing triggers and removing unnecessary\nfiles.\n\nThe runtime `references/skill-evals.md` teaches future skills the same\npattern: add `EVAL.md`, `evals/axis.config.json`, and focused AXIS\nscenarios with observable judge checks. It explicitly keeps AXIS as the\nprescribed skill-eval framework and treats Promptfoo/custom Codex\nscripts as out of scope for this repo's skill evals.\n\n`pr-writer` gets a proof eval focused on actual behavior rather than\neval plumbing:\n\n```bash\nnpx @netlify/axis run --config skills/pr-writer/evals/axis.config.json --scenario concise-docs-pr\n```\n\nThat scenario creates a docs-only skill change and verifies the\ngenerated PR title/body stay concise, use an appropriate conventional\ntitle, avoid template headings, and omit validation/tool boilerplate.\nThe renamed `concise-docs-pr` case is meant to be a pattern for\nbehavior-focused eval cases, not framework smoke tests.\n\nI exercised the new paths locally: `small-inline-workflow` completed\nthrough AXIS/Codex with score 94, and `concise-docs-pr` completed with\nscore 99. Structural validation also passed for both `skill-writer` and\n`pr-writer`.\n\nCo-authored-by: GPT-5 Codex <codex@openai.com>",
+      "verified_at": "2026-06-30T20:52:18Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+  "html_url": "https://github.com/getsentry/skills/commit/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a/comments",
+  "author": {
+    "login": "dcramer",
+    "id": 23610,
+    "node_id": "MDQ6VXNlcjIzNjEw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/23610?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dcramer",
+    "html_url": "https://github.com/dcramer",
+    "followers_url": "https://api.github.com/users/dcramer/followers",
+    "following_url": "https://api.github.com/users/dcramer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dcramer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dcramer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dcramer/subscriptions",
+    "organizations_url": "https://api.github.com/users/dcramer/orgs",
+    "repos_url": "https://api.github.com/users/dcramer/repos",
+    "events_url": "https://api.github.com/users/dcramer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dcramer/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "89a1f0105c5be12934bda2bcd01f58ab894976e2",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/89a1f0105c5be12934bda2bcd01f58ab894976e2",
+      "html_url": "https://github.com/getsentry/skills/commit/89a1f0105c5be12934bda2bcd01f58ab894976e2"
+    }
+  ]
+}

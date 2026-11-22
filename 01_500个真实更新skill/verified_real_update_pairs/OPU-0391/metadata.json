@@ -1,0 +1,93 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/vulnerability-triage-brocards/skills/vulnerability-triage-brocards/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "3d78063df41c3c20fcfc",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "6feac677af72e52ef4d279412276b5a6f21366f0",
+    "computed_tree_sha": "d7bb84ba652643b0cac54a5dae8c33f50fb69be7",
+    "api_tree_sha_as_returned": "d7bb84ba652643b0cac54a5dae8c33f50fb69be7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2e73d1f335fd3308835d5eeec3ca6b77a84e6992",
+        "sha256": "32c1a8fc233435f04ded12c3c9d4fcf0fa586b000b19b0ea71f72485f63c80ee",
+        "size": 8767,
+        "mode": "100644"
+      },
+      {
+        "path": "references/brocards-detail.md",
+        "git_blob_sha1": "f3b50939d59fa3ea5ed39d828efcfbeb97642465",
+        "sha256": "f7684195c04041cad159cc0cc0bc9520c81ff23e0ec8b5fb33db3d2aa15cb116",
+        "size": 10790,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b89f6dbc3565c9e3e8990b3a837991d25d76633e",
+    "computed_tree_sha": "4f452f4563c7dfec0d0ac71093f94021b93e9462",
+    "api_tree_sha_as_returned": "4f452f4563c7dfec0d0ac71093f94021b93e9462",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a0761213e3a0ab76b50c56648a3760f84f93e57c",
+        "sha256": "b033c02d83f65b19b96c79e70fbf7cee58e51c8cbdd8f81d907ad2351a1433db",
+        "size": 8721,
+        "mode": "100644"
+      },
+      {
+        "path": "references/brocards-detail.md",
+        "git_blob_sha1": "f3b50939d59fa3ea5ed39d828efcfbeb97642465",
+        "sha256": "f7684195c04041cad159cc0cc0bc9520c81ff23e0ec8b5fb33db3d2aa15cb116",
+        "size": 10790,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "6feac677af72e52ef4d279412276b5a6f21366f0",
+  "new_commit": "b89f6dbc3565c9e3e8990b3a837991d25d76633e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update brocards source URL (#295)\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-09-01T12:32:54Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/6feac677af72e52ef4d279412276b5a6f21366f0...b89f6dbc3565c9e3e8990b3a837991d25d76633e",
+  "commit_url": "https://github.com/trailofbits/skills/commit/b89f6dbc3565c9e3e8990b3a837991d25d76633e",
+  "skill_directory": "plugins/vulnerability-triage-brocards/skills/vulnerability-triage-brocards",
+  "local_directory": "verified_real_update_pairs/OPU-0391",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0391",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

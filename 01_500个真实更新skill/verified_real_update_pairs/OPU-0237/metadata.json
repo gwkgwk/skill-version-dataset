@@ -1,0 +1,142 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "f1f2a5925c0a8c6415b7",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "29424a451e2b9c8adc44f6d5251310df8f044ae7",
+    "computed_tree_sha": "12b46b0159a49d196bf415cdf3faeb898df500ef",
+    "api_tree_sha_as_returned": "12b46b0159a49d196bf415cdf3faeb898df500ef",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6346701f7e6a793678291adde1eddd2e8943d31c",
+        "sha256": "fd7376ea038ea5a44a819e6fb75aa8e6e2ad38a2ec0d237cc6f71aa8ebbf95a4",
+        "size": 7370,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "a54832aa2f74ffa24fa7ebf7ac344480b0d97255",
+        "sha256": "58892bc567e66bd185f23de4884fb6d54dfc3d9852f627ca26116f243e8ca089",
+        "size": 238,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vulnerabilities.md",
+        "git_blob_sha1": "86270be8574f37004d78c75d9b247fd29982ea39",
+        "sha256": "7ae89875a6e0f5a0dfc0da6172f1bdfe6d2719e66dcea6b94c62158d5e9ae1fa",
+        "size": 21033,
+        "mode": "100644"
+      },
+      {
+        "path": "scanner.sh",
+        "git_blob_sha1": "a8ab8453aa66fc0434832a61eff108c102438b41",
+        "sha256": "4126fb09c7887af26af20df5a1ed618022b1c292b1c1926781a7817de1dcd260",
+        "size": 52160,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f",
+    "computed_tree_sha": "eb6218591b35fd6e260e3a31285464b965a4217b",
+    "api_tree_sha_as_returned": "eb6218591b35fd6e260e3a31285464b965a4217b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6ed04d515e91adea932a12c652142a0a54518266",
+        "sha256": "1c63bf5e2a0cfde241eefdc12d20a4df0572d0df96df503a163f7224af137be3",
+        "size": 6753,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "a54832aa2f74ffa24fa7ebf7ac344480b0d97255",
+        "sha256": "58892bc567e66bd185f23de4884fb6d54dfc3d9852f627ca26116f243e8ca089",
+        "size": 238,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/manual-fallback.md",
+        "git_blob_sha1": "ac2817fc31bf83af2cecfb52ef88cbea3be53f2b",
+        "sha256": "2cee4a46c3c3e4685248a6fda92e65983527d322d5f9f68ff474052265212d96",
+        "size": 1511,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vulnerabilities.md",
+        "git_blob_sha1": "86270be8574f37004d78c75d9b247fd29982ea39",
+        "sha256": "7ae89875a6e0f5a0dfc0da6172f1bdfe6d2719e66dcea6b94c62158d5e9ae1fa",
+        "size": 21033,
+        "mode": "100644"
+      },
+      {
+        "path": "scanner.sh",
+        "git_blob_sha1": "01b5d12e472ac05548ad9465692c7d36fab80921",
+        "sha256": "90470b72ed4db246fc49ff9f2a70b1e343bc5f804b9e20817720548feff469f0",
+        "size": 52242,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/manual-fallback.md",
+    "scanner.sh"
+  ],
+  "old_commit": "29424a451e2b9c8adc44f6d5251310df8f044ae7",
+  "new_commit": "4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Maker Week: make firebase-apk-scanner report what the scan actually found (#374)\n\n* fix(firebase-apk-scanner): read the current report, keep it on nonzero exit, count vulnerabilities once\n\n- Step 3 ran `cat firebase_scan_*/scan_report.txt`, which also reads every\n  earlier scan in the directory, and took counts from the text report\n  although the reporting rule names scan_report.json. Read the JSON (and\n  text) report in the directory the scanner printed as `Results saved to:`.\n- scanner.sh exits 1 after writing its report when no APK could be tested,\n  which the \"if the scanner fails\" fallback read as a failure and started\n  manual live probes. Present a written report on any exit code; fall back\n  only when no report exists.\n- State the scanner's coverage limits (Cloud Functions in us-central1 only;\n  auth, functions and Remote Config for the first project and key only).\n- The per-APK \"APK IS VULNERABLE\" summary line used log_vuln, which counts\n  toward TOTAL_VULNS, so total_vulnerabilities was one too high for every\n  vulnerable APK. Log it with log_error. Documented output change.\n- Quote \"$ARGUMENTS\" so paths with spaces work.\n\ntests/test_scanner_reports.py runs the scanner with mocked apktool and curl\n(secure, vulnerable, no-config, failed) and checks the counts, the stale\ndirectory, and the SKILL.md guidance; two tests fail before this change.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n* perf(firebase-apk-scanner): load the manual-testing fallback only when needed\n\nMove \"Manual Testing (If Scanner Fails)\" word for word into\nreferences/manual-fallback.md and leave a two-line pointer: it is only\nneeded when the scanner wrote no report, but every run loaded it. Every\nother section is unchanged. Bump firebase-apk-scanner to 2.2.3.\n\nCo-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-10-14T21:01:41Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/29424a451e2b9c8adc44f6d5251310df8f044ae7...4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f",
+  "commit_url": "https://github.com/trailofbits/skills/commit/4b43b5bcfdb2385e7cb5bffc9a3f69eb9bcb467f",
+  "skill_directory": "plugins/firebase-apk-scanner/skills/firebase-apk-scanner",
+  "local_directory": "verified_real_update_pairs/OPU-0237",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0237",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

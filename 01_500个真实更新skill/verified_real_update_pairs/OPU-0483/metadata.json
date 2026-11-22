@@ -1,0 +1,135 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/capacity/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "75f889f7001e5fe94e03",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "34dddbd53c2226379c6da1dac1e05223554a821e",
+    "computed_tree_sha": "ccf05cf687f1e6b7557b6a1175349a3ba0de6e77",
+    "api_tree_sha_as_returned": "ccf05cf687f1e6b7557b6a1175349a3ba0de6e77",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d7758fc3c277d56cb6c1b2a56cb72f73fe4e98a3",
+        "sha256": "aab63e2f3a6c957be6882ada723af5fd0bc30b45a02b52cf0400b4820ae678d7",
+        "size": 6955,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/discover_and_rank.ps1",
+        "git_blob_sha1": "4b86363f4d707bbff4371050d32b04f6b10a63f5",
+        "sha256": "784f4f144d61ba0714873541377b313568c8a5f279d3e028029a3f9e09f58969",
+        "size": 4670,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/discover_and_rank.sh",
+        "git_blob_sha1": "83c771b47fc3342268ded19d684ecad402c4ade7",
+        "sha256": "21b1a3197e2b49c0bdc0af5dafa368c9807df0841a718e344fd09d1849df8939",
+        "size": 4641,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/query_capacity.ps1",
+        "git_blob_sha1": "f65dff5aa99a596d75e19427caf7dd711837d757",
+        "sha256": "b8580f46de51cd09dc43f0d30dde95ae64f2b54723b70768cd78ccfe107ce6cc",
+        "size": 3030,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/query_capacity.sh",
+        "git_blob_sha1": "7869f6904927bf1d83dc29c357f7746a37229504",
+        "sha256": "3af156c2cf0b2306f3389a34475ad39a9960ebf8e2384bfa6da6f05b62432ae8",
+        "size": 2942,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "28a6dfe735d29044c9fff1d9b3c15999162792af",
+    "computed_tree_sha": "edb0b5bb776569c8941e4ed3755d9f65e32c5b80",
+    "api_tree_sha_as_returned": "edb0b5bb776569c8941e4ed3755d9f65e32c5b80",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "46935315ebdf18fbc93771efb72e7f8f9e9980ac",
+        "sha256": "91b3ce958de44f728453572747504e8c9146f119892aa690546fd19f8d96a344",
+        "size": 7011,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/discover_and_rank.ps1",
+        "git_blob_sha1": "4b86363f4d707bbff4371050d32b04f6b10a63f5",
+        "sha256": "784f4f144d61ba0714873541377b313568c8a5f279d3e028029a3f9e09f58969",
+        "size": 4670,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/discover_and_rank.sh",
+        "git_blob_sha1": "83c771b47fc3342268ded19d684ecad402c4ade7",
+        "sha256": "21b1a3197e2b49c0bdc0af5dafa368c9807df0841a718e344fd09d1849df8939",
+        "size": 4641,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/query_capacity.ps1",
+        "git_blob_sha1": "f65dff5aa99a596d75e19427caf7dd711837d757",
+        "sha256": "b8580f46de51cd09dc43f0d30dde95ae64f2b54723b70768cd78ccfe107ce6cc",
+        "size": 3030,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/query_capacity.sh",
+        "git_blob_sha1": "7869f6904927bf1d83dc29c357f7746a37229504",
+        "sha256": "3af156c2cf0b2306f3389a34475ad39a9960ebf8e2384bfa6da6f05b62432ae8",
+        "size": 2942,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "34dddbd53c2226379c6da1dac1e05223554a821e",
+  "new_commit": "28a6dfe735d29044c9fff1d9b3c15999162792af",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-03-19T11:13:20Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/34dddbd53c2226379c6da1dac1e05223554a821e...28a6dfe735d29044c9fff1d9b3c15999162792af",
+  "commit_url": "https://github.com/microsoft/skills/commit/28a6dfe735d29044c9fff1d9b3c15999162792af",
+  "skill_directory": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/capacity",
+  "local_directory": "verified_real_update_pairs/OPU-0483",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0483",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

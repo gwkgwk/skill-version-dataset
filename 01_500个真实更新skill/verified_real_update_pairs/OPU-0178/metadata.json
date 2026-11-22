@@ -1,0 +1,107 @@
+{
+  "repository": "expo/skills",
+  "primary": "plugins/expo/skills/expo-examples/SKILL.md",
+  "pinned_commit": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+  "repository_license": "MIT",
+  "key": "7fcba1b7cfd106063348",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+    "computed_tree_sha": "bb3243b116a5c2d74e6e72c2b9b65770930d4d83",
+    "api_tree_sha_as_returned": "bb3243b116a5c2d74e6e72c2b9b65770930d4d83",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "16f35815e66eea2394a3b5f290fcf01ad1a089a7",
+        "sha256": "ae6a5384e1a2bf949c2450823882751431465727bfec5dffa678f4e79e225640",
+        "size": 6977,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "d68fe295555966d2bfe26b0e26062e2b5698f87e",
+        "sha256": "efdcc54de3f666d0d3f5515ee38e0c07ecc2d302a3c9e9acd742ce8f2f42f52d",
+        "size": 399,
+        "mode": "100644"
+      },
+      {
+        "path": "references/catalog.md",
+        "git_blob_sha1": "1d03b6a9ecebcf0dd1a2fb879cc75b890b3dc946",
+        "sha256": "024aa05d82dffcc2a5e3b29e87ec4e800122bc39825c36e2e389f7b7e090d4fc",
+        "size": 4353,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+    "computed_tree_sha": "0bee90b88b83e60ca815a4c0f573f97496578792",
+    "api_tree_sha_as_returned": "0bee90b88b83e60ca815a4c0f573f97496578792",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7afc2d976cc6121bc509f91e587b4eb3320cbf7c",
+        "sha256": "f892153712ce83f057a4987a8ff97b61c396600a3edb4838fdb53047e02e4e35",
+        "size": 6844,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "d68fe295555966d2bfe26b0e26062e2b5698f87e",
+        "sha256": "efdcc54de3f666d0d3f5515ee38e0c07ecc2d302a3c9e9acd742ce8f2f42f52d",
+        "size": 399,
+        "mode": "100644"
+      },
+      {
+        "path": "references/catalog.md",
+        "git_blob_sha1": "1d03b6a9ecebcf0dd1a2fb879cc75b890b3dc946",
+        "sha256": "024aa05d82dffcc2a5e3b29e87ec4e800122bc39825c36e2e389f7b7e090d4fc",
+        "size": 4353,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7582922d039d5a96dc574757d399d22d56370f2b",
+  "new_commit": "ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Ask the user before sending feedback to Expo (#290)",
+  "new_commit_time": "2026-11-14T18:33:50Z",
+  "compare_url": "https://github.com/expo/skills/compare/7582922d039d5a96dc574757d399d22d56370f2b...ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "commit_url": "https://github.com/expo/skills/commit/ab6cb2c58b0daa7555590d869dd1aa2ddb5d7632",
+  "skill_directory": "plugins/expo/skills/expo-examples",
+  "local_directory": "verified_real_update_pairs/OPU-0178",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0178",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

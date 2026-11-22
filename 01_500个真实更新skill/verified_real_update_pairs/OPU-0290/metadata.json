@@ -1,0 +1,164 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/application-integration-authoring/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "a6fd72ef98e292e3c7d0",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "db45052a5beac8141bae8e524cd769c8401e09b3",
+    "computed_tree_sha": "90ec606404df65afd20ae8d3b23eb244bd312f6b",
+    "api_tree_sha_as_returned": "90ec606404df65afd20ae8d3b23eb244bd312f6b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "48f845c0d8f5622641bb11b87ef74c439263ba82",
+        "sha256": "56c9a82a6a1340876cbff8a591617ac1f8628cda55d6d6962086c28507577969",
+        "size": 34505,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "9dffbbe0fa55882a6dc22ed0dc4bf4724c2edc73",
+        "sha256": "3cefe72fb5a32b74d549f94a9ef131b33885c40382ebd0f68fecb9426ed0454d",
+        "size": 5091,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cicd-promotion.md",
+        "git_blob_sha1": "42c028df81c56bd4daaba00c7456a88e2cc5d7b2",
+        "sha256": "c0aa36edaa6510cfc1cd5d66dcf7346467eabbb60a1bed2a149ec5ef25977a4f",
+        "size": 11646,
+        "mode": "100644"
+      },
+      {
+        "path": "references/integration-version-json.md",
+        "git_blob_sha1": "a779eb7c0f5c32bce63068b1b8fe44634b3dc654",
+        "sha256": "ae71228cabb512cd60b502814e86d3c7a3212d247ae0185c8b15a6aafae4ae3c",
+        "size": 14704,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rest-api-cheatsheet.md",
+        "git_blob_sha1": "7617f6fac48a151b85caf200bc5fba0ac244032a",
+        "sha256": "0bd998ea3120686bd214c09e822ae7a2ebaf7a91b73b5742bc6b8274408ff360",
+        "size": 19800,
+        "mode": "100644"
+      },
+      {
+        "path": "references/tasks-and-gotchas.md",
+        "git_blob_sha1": "e3ce1d7be01ed5782a71602f5cb45f687ae2fdb2",
+        "sha256": "c8a337c1700ff3efdc582636481bdf6dfc2e72fa3468b558b3af1eaef984e9ae",
+        "size": 13302,
+        "mode": "100644"
+      },
+      {
+        "path": "references/triggers-and-execution.md",
+        "git_blob_sha1": "92425f546a48a3f961fa32a756b2ee4769dc75d9",
+        "sha256": "f986ee13f98f4f3e2c9412cf7b3ee2954aa32c4bdae892a519cca1a64e364e58",
+        "size": 15764,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "0c09da56e133078f22b00a948b806434fd69fa87",
+    "computed_tree_sha": "81ddf7d812e5c88b20c76555435a81fc188b9645",
+    "api_tree_sha_as_returned": "81ddf7d812e5c88b20c76555435a81fc188b9645",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5a91926e6a148654c19f7b7609b524e19a918711",
+        "sha256": "94aac87b3121a416b6a31d82663af90c486390c2183425610fad69cffc63b052",
+        "size": 34511,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "9dffbbe0fa55882a6dc22ed0dc4bf4724c2edc73",
+        "sha256": "3cefe72fb5a32b74d549f94a9ef131b33885c40382ebd0f68fecb9426ed0454d",
+        "size": 5091,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cicd-promotion.md",
+        "git_blob_sha1": "de7688680400a66e5b2bb8a98a867ffe06cbf362",
+        "sha256": "3191b25ad2bbc7b7778ed0515a4ac1ab53192a1ab42e97adfac0f04e150b1ea8",
+        "size": 11653,
+        "mode": "100644"
+      },
+      {
+        "path": "references/integration-version-json.md",
+        "git_blob_sha1": "a779eb7c0f5c32bce63068b1b8fe44634b3dc654",
+        "sha256": "ae71228cabb512cd60b502814e86d3c7a3212d247ae0185c8b15a6aafae4ae3c",
+        "size": 14704,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rest-api-cheatsheet.md",
+        "git_blob_sha1": "7617f6fac48a151b85caf200bc5fba0ac244032a",
+        "sha256": "0bd998ea3120686bd214c09e822ae7a2ebaf7a91b73b5742bc6b8274408ff360",
+        "size": 19800,
+        "mode": "100644"
+      },
+      {
+        "path": "references/tasks-and-gotchas.md",
+        "git_blob_sha1": "e3ce1d7be01ed5782a71602f5cb45f687ae2fdb2",
+        "sha256": "c8a337c1700ff3efdc582636481bdf6dfc2e72fa3468b558b3af1eaef984e9ae",
+        "size": 13302,
+        "mode": "100644"
+      },
+      {
+        "path": "references/triggers-and-execution.md",
+        "git_blob_sha1": "92425f546a48a3f961fa32a756b2ee4769dc75d9",
+        "sha256": "f986ee13f98f4f3e2c9412cf7b3ee2954aa32c4bdae892a519cca1a64e364e58",
+        "size": 15764,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/cicd-promotion.md"
+  ],
+  "old_commit": "db45052a5beac8141bae8e524cd769c8401e09b3",
+  "new_commit": "0c09da56e133078f22b00a948b806434fd69fa87",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Google Cloud CLI naming and Docker image in application-integration-authoring.\n\nPiperOrigin-RevId: 1020457845",
+  "new_commit_time": "2026-11-12T22:43:59Z",
+  "compare_url": "https://github.com/google/skills/compare/db45052a5beac8141bae8e524cd769c8401e09b3...0c09da56e133078f22b00a948b806434fd69fa87",
+  "commit_url": "https://github.com/google/skills/commit/0c09da56e133078f22b00a948b806434fd69fa87",
+  "skill_directory": "skills/cloud/application-integration-authoring",
+  "local_directory": "verified_real_update_pairs/OPU-0290",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0290",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

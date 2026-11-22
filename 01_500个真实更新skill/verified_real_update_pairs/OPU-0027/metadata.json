@@ -1,0 +1,119 @@
+{
+  "repository": "supabase/agent-skills",
+  "primary": "skills/supabase/SKILL.md",
+  "pinned_commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+  "repository_license": "MIT",
+  "key": "90ab9995358a5031fb87",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "8331f910845103c08d51f6ca1d86ebb7d1f745e3",
+    "computed_tree_sha": "3c890031c3df7b4ea2561bd3a452a94df0e9a53d",
+    "api_tree_sha_as_returned": "3c890031c3df7b4ea2561bd3a452a94df0e9a53d",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "git_blob_sha1": "e9faf97be27b69343e42544c0610d79bdb411331",
+        "sha256": "f4c9c7750ea2c9212a05c3f38bc04d66cb2fe037f6b9a3fb6279d53bef152f8e",
+        "size": 7355,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d2816ead2250609a3027fa9a665f642e6ff0fba0",
+        "sha256": "16817870f69bb9db58343cfa41c6fb864713c01f3680a64e0fb869605a5d81c3",
+        "size": 12830,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feedback-issue-template.md",
+        "git_blob_sha1": "e81082532d36309e11f2721e8380636329221525",
+        "sha256": "ea211aa174c5a096fe76461f25143b8bc23f3bde3adc9e727cda38218cc8c282",
+        "size": 459,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "9c047d5a1775c0cf4b35d3687753d84b77b1cf0a",
+        "sha256": "09ad94c0291735dfc04c92557c8734fa259ec39e1d56bf2bd5c6a6529d838717",
+        "size": 1035,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "551274ed2fe97c8fea1325f7ceb05803a542f8df",
+    "computed_tree_sha": "a0b1cc080110f3686c190f834f5ecb1249b218f8",
+    "api_tree_sha_as_returned": "a0b1cc080110f3686c190f834f5ecb1249b218f8",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "git_blob_sha1": "e9faf97be27b69343e42544c0610d79bdb411331",
+        "sha256": "f4c9c7750ea2c9212a05c3f38bc04d66cb2fe037f6b9a3fb6279d53bef152f8e",
+        "size": 7355,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "66093e0a0f8d9268094c1a4b38c04419b787ca89",
+        "sha256": "697e0e949f97621c6fc1784169eb3ccbf673747d6bb8299a52962d3d84d93dc6",
+        "size": 14307,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feedback-issue-template.md",
+        "git_blob_sha1": "e81082532d36309e11f2721e8380636329221525",
+        "sha256": "ea211aa174c5a096fe76461f25143b8bc23f3bde3adc9e727cda38218cc8c282",
+        "size": 459,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "9c047d5a1775c0cf4b35d3687753d84b77b1cf0a",
+        "sha256": "09ad94c0291735dfc04c92557c8734fa259ec39e1d56bf2bd5c6a6529d838717",
+        "size": 1035,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "8331f910845103c08d51f6ca1d86ebb7d1f745e3",
+  "new_commit": "551274ed2fe97c8fea1325f7ceb05803a542f8df",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(supabase): recommend scoped personal access tokens for the Management API, CLI, and MCP (#604)\n\nThe skill had no guidance on personal access tokens, so agents setting up\nManagement API scripts, CLI in CI, or the MCP server without OAuth tended to\nsuggest a classic token with full account access. Scoped personal access\ntokens limit a token to chosen organizations, projects, and permissions.\n\nChanges to skills/supabase/SKILL.md:\n\n- Security checklist: prefer scoped personal access tokens for scripts, CI,\n  and agents, and look up required permissions in the personal access tokens\n  guide instead of guessing. No endpoint-to-permission mapping is copied into\n  the skill, so it can't drift from the docs.\n- CLI gotchas: the browser flow of `supabase login` creates a classic token.\n  In CI, set SUPABASE_ACCESS_TOKEN to a scoped token, which takes precedence\n  over a saved login. Commands that connect with the database password (for\n  example `supabase db push` with SUPABASE_DB_PASSWORD) aren't limited by the\n  token's permissions.\n- MCP troubleshooting: where the browser OAuth flow can't run, pass a scoped\n  token in the Authorization header. New step 4 explains the \"You do not have\n  permission to perform this action\" error a scoped token returns when it\n  lacks a tool's permission or the project is outside its scope.",
+  "new_commit_time": "2026-09-24T09:55:24Z",
+  "compare_url": "https://github.com/supabase/agent-skills/compare/8331f910845103c08d51f6ca1d86ebb7d1f745e3...551274ed2fe97c8fea1325f7ceb05803a542f8df",
+  "commit_url": "https://github.com/supabase/agent-skills/commit/551274ed2fe97c8fea1325f7ceb05803a542f8df",
+  "skill_directory": "skills/supabase",
+  "local_directory": "verified_real_update_pairs/OPU-0027",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0027",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "repository": "google-labs-code/stitch-skills",
+  "primary": "plugins/stitch-design/skills/extract-static-html/SKILL.md",
+  "pinned_commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+  "repository_license": "Apache-2.0",
+  "key": "599bd5cfaabfebc5cff2",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "894d79ce4ae4fbe89778526a6ef5783277b741cc",
+    "computed_tree_sha": "44dd37b4a79476d9232d700299aac3a1ae38245f",
+    "api_tree_sha_as_returned": "44dd37b4a79476d9232d700299aac3a1ae38245f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c99d9589bba7788a3dcb214850db85a2f3ea6805",
+        "sha256": "193b04c54747faaa1b5a3c7c92df47963ad60eb852d6117c168c7d005d02c82d",
+        "size": 10007,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/extract_inline_html.ts",
+        "git_blob_sha1": "c22063039cbc53d0e75d4335531b5d757343a294",
+        "sha256": "491378e7be6a70b0549e8b5bf286cef4107761ad2f5b21e8eccb231073b1e0b0",
+        "size": 34450,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/post_process.ts",
+        "git_blob_sha1": "0facbc72f889951e2f6c8a3f9949da6f3bb7c78a",
+        "sha256": "e1587e4658fde350d72e57a97d316bc5fe373f718a80dc5afa329752acbafe6e",
+        "size": 14295,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/snapshot.ts",
+        "git_blob_sha1": "cdbf4d5d7419aeec2629688e22afd448fc7c5cbb",
+        "sha256": "89dd8bb2fec7b1b7cc89d1b312cc8ba66dcb18142692aabd5a191ad31068cad7",
+        "size": 48666,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "bf2f67da80c934e584b7e8c04ec078c90cc47d19",
+    "computed_tree_sha": "18d135b37eae9ae4cc8f2e1530afe682209696d0",
+    "api_tree_sha_as_returned": "18d135b37eae9ae4cc8f2e1530afe682209696d0",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "914d1bb2776ace06a982ea1710d3d0751c5cd77f",
+        "sha256": "87ebabb29c37f903541bb6c32ee5f2c84e322d140d6b83bb3a0872943ebc1356",
+        "size": 10774,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/extract_inline_html.ts",
+        "git_blob_sha1": "c22063039cbc53d0e75d4335531b5d757343a294",
+        "sha256": "491378e7be6a70b0549e8b5bf286cef4107761ad2f5b21e8eccb231073b1e0b0",
+        "size": 34450,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/post_process.ts",
+        "git_blob_sha1": "0facbc72f889951e2f6c8a3f9949da6f3bb7c78a",
+        "sha256": "e1587e4658fde350d72e57a97d316bc5fe373f718a80dc5afa329752acbafe6e",
+        "size": 14295,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/snapshot.ts",
+        "git_blob_sha1": "88c9cd238ce4b3dce203558d520235b27772ace4",
+        "sha256": "777e783cc1805a9b3511efb3268ed2e8eb8d000a22f843e00fa7bd3d8323bc40",
+        "size": 54743,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/snapshot.ts"
+  ],
+  "old_commit": "894d79ce4ae4fbe89778526a6ef5783277b741cc",
+  "new_commit": "bf2f67da80c934e584b7e8c04ec078c90cc47d19",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(stitch-design): enhance static HTML snapshotting, dev-overlay removal, and route titling",
+  "new_commit_time": "2026-07-29T17:38:23Z",
+  "compare_url": "https://github.com/google-labs-code/stitch-skills/compare/894d79ce4ae4fbe89778526a6ef5783277b741cc...bf2f67da80c934e584b7e8c04ec078c90cc47d19",
+  "commit_url": "https://github.com/google-labs-code/stitch-skills/commit/bf2f67da80c934e584b7e8c04ec078c90cc47d19",
+  "skill_directory": "plugins/stitch-design/skills/extract-static-html",
+  "local_directory": "verified_real_update_pairs/OPU-0072",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0072",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

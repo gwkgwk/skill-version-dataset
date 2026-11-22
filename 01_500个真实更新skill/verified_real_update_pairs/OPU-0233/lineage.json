@@ -1,0 +1,82 @@
+{
+  "sha": "41604b5e728e24e3d246b8fe9307d410a78bdee0",
+  "node_id": "C_kwDOQ55KR9oAKDQxNjA0YjVlNzI4ZTI0ZTNkMjQ2YjhmZTkzMDdkNDEwYTc4YmRlZTA",
+  "commit": {
+    "author": {
+      "name": "nisedo",
+      "email": "73041332+nisedo@users.noreply.github.com",
+      "date": "2026-10-15T13:20:15Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-15T13:20:15Z"
+    },
+    "message": "Add Codex support to entry-point-analyzer and correct caller classification (#359)\n\n* Make entry-point-analyzer Codex-first\n\n* Correct entry-point reachability and caller classification\n\n* Restore Claude entry points alongside Codex support\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+    "tree": {
+      "sha": "ca76f5fcf3475f88006e17cf4b88c4f73ef234a1",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/ca76f5fcf3475f88006e17cf4b88c4f73ef234a1"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/41604b5e728e24e3d246b8fe9307d410a78bdee0",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq0NMPCRC1aQ7uu5UhlAAA0BwQAKp9joWHIBNoNjmw7mg/ETi3\nTriYTFPZ/32lVFWG+Z5ISZLg2vVWqJV5AlrIWsZJZq7YxQFXU9rhQ+ZyeDv9TFqR\nG+JT/XqY7wwgeCYwXhAlcXtWDDtPAsi+6LA/4IyoEL2db2f4AY+2GlwsF/BOW+8Q\nJa8TCJP5JatGZuJdlNngYfN1Fyuy4VVxyRTKaScDbADIxcLa/gwpwmLE69C3X6km\n6c6jXL3HaNCScMaeONtNqtpirsGGSM1TqVwxD7DJTzXFBAYv2FkmbQH5hgWKQN/z\nasxNJ9uImxZFsUCCqzUZKdl0L6wdDb86monPg/2Nueo8wKsU5Vy+xvP5Obdpm5F9\nRKf4IOoQHc+Dam1M7Asxxgmu7/L1gD7lL0r4O836FE5ahzYtPFOyM7wkdvsWHv/G\nQucdbTk8y6knZ71yp5GEaASztnYPNPgR+OedC85AgTEJ6ZNM92Fjdnstmsuywj7X\nH2+po0UQtqFq54IvpIKgLmQefLxNuFJ0ggpCJiw5Z8Il57aqN0+xFEV0wl9pb8g5\ngzIvxEGgOfWyPPhR/c2IQLIduDlaMT33CriB6rZJCPDDocPY13P71y/CJd5yAv3C\nVoG0tKMd6GzCui33esVtn8A+kQ3Sftq/i0QC7RsW0wj7/4hH653JgpW6uXk8a5zB\nhzeCkg1R+HahT/c2h+ak\n=cGfE\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree ca76f5fcf3475f88006e17cf4b88c4f73ef234a1\nparent 4fc769be63559c8b108f225e1ea1ed60821c85ea\nauthor nisedo <73041332+nisedo@users.noreply.github.com> 1792070415 +0200\ncommitter GitHub <noreply@github.com> 1792070415 -0400\n\nAdd Codex support to entry-point-analyzer and correct caller classification (#359)\n\n* Make entry-point-analyzer Codex-first\n\n* Correct entry-point reachability and caller classification\n\n* Restore Claude entry points alongside Codex support\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+      "verified_at": "2026-10-15T13:20:16Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/41604b5e728e24e3d246b8fe9307d410a78bdee0",
+  "html_url": "https://github.com/trailofbits/skills/commit/41604b5e728e24e3d246b8fe9307d410a78bdee0",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/41604b5e728e24e3d246b8fe9307d410a78bdee0/comments",
+  "author": {
+    "login": "nisedo",
+    "id": 73041332,
+    "node_id": "MDQ6VXNlcjczMDQxMzMy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/73041332?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nisedo",
+    "html_url": "https://github.com/nisedo",
+    "followers_url": "https://api.github.com/users/nisedo/followers",
+    "following_url": "https://api.github.com/users/nisedo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nisedo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nisedo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nisedo/subscriptions",
+    "organizations_url": "https://api.github.com/users/nisedo/orgs",
+    "repos_url": "https://api.github.com/users/nisedo/repos",
+    "events_url": "https://api.github.com/users/nisedo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nisedo/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "4fc769be63559c8b108f225e1ea1ed60821c85ea",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/4fc769be63559c8b108f225e1ea1ed60821c85ea",
+      "html_url": "https://github.com/trailofbits/skills/commit/4fc769be63559c8b108f225e1ea1ed60821c85ea"
+    }
+  ]
+}

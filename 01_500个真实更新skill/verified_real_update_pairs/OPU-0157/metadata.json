@@ -1,0 +1,281 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/speech/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "7d305889c5c17673b45b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd",
+    "computed_tree_sha": "5ebf3ca302c62fc63ba0233504941418d02370ec",
+    "api_tree_sha_as_returned": "5ebf3ca302c62fc63ba0233504941418d02370ec",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e8740d854813940aab43d363eeb6656c349f55ca",
+        "sha256": "0732d37969cc720fdf0b5e37636ec29fa9cd4decab6d499c2aa2d485c41161b2",
+        "size": 7301,
+        "mode": "100644"
+      },
+      {
+        "path": "references/accessibility.md",
+        "git_blob_sha1": "5f7641615fba9fcdc0fbdc21bc1bb032874fbe87",
+        "sha256": "34cd91bc6a3ef65c8da8997e312d163babcdfc3241f9e359418b3f5a76f15b76",
+        "size": 696,
+        "mode": "100644"
+      },
+      {
+        "path": "references/audio-api.md",
+        "git_blob_sha1": "4c859c126196dcb2a4555c073b20a41b077edf2d",
+        "sha256": "dba58cfc0d5e125cf1ac13875193950233aa948639b268ed7799ca17bca66bfe",
+        "size": 902,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli.md",
+        "git_blob_sha1": "d821eb94ca15b685d1c531b46c4d345563c6a99a",
+        "sha256": "77e6a0c01036ac0092cf37c3d5c88dc6800b223524c5b9c8920d10fc4f68e0cc",
+        "size": 3275,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codex-network.md",
+        "git_blob_sha1": "c57c13be2a60a788a7903076b49ca1911bd11ba7",
+        "sha256": "c956a51d3e67246cfb43982aa8c82065350fcce4ef7b94bd89e599c575c94d9c",
+        "size": 1148,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ivr.md",
+        "git_blob_sha1": "5748dc56d0de53a2481e3b311d0f8d80cf6902c6",
+        "sha256": "2aaf225b7cea9277fe5413eb0360a845de035c00ea0d6f30348b5ce7138803fc",
+        "size": 708,
+        "mode": "100644"
+      },
+      {
+        "path": "references/narration.md",
+        "git_blob_sha1": "fb9c3a200b38af982a57e7bc6e50b034e27c75f1",
+        "sha256": "3e68829fe4a5a47c3d37cbe9a1ed95ff3cedf1b303ff02a10501e56ad5e7c74a",
+        "size": 671,
+        "mode": "100644"
+      },
+      {
+        "path": "references/prompting.md",
+        "git_blob_sha1": "66429adb9d735b02bcd8b809346ebb2bbac664ff",
+        "sha256": "2adcb001813be04e56918eb0d34d9a45f9326aa0fb240526ae74a926522b6554",
+        "size": 1553,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sample-prompts.md",
+        "git_blob_sha1": "e3c25f73b0da4b0b8aae52a69fe7e3698225c8db",
+        "sha256": "c14e1b1c526f2fe555ab2dc86c0e8aead33d38238d2bfcfbf9de0c18d28bde03",
+        "size": 991,
+        "mode": "100644"
+      },
+      {
+        "path": "references/voice-directions.md",
+        "git_blob_sha1": "442247d1745f3793db0fe217a032b198d0f3a5e3",
+        "sha256": "5da0a4c59bdadb47d1795f51a9708b515fbf2901f0ca808cc5c66d83a336986d",
+        "size": 2155,
+        "mode": "100644"
+      },
+      {
+        "path": "references/voiceover.md",
+        "git_blob_sha1": "62b4d1e369fbe8fca0c9331d6293d4eed5c218d4",
+        "sha256": "a4bb96c31c8be6a62d35a103f9d7fc700b8004df2efd10595d00b63f0c096486",
+        "size": 790,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/text_to_speech.py",
+        "git_blob_sha1": "e746c94e5c37c47d968cd1b4bef2f32107be95ba",
+        "sha256": "0000014efdf1194512c017ffa0d0574ae65881f6a1340b7ed822053b6e3d3c44",
+        "size": 15592,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "33a75a7b572867072dc0674bee8e63e06c19e67b",
+    "computed_tree_sha": "98a36e9353304b7e7f97e18c1b3e72d087c9d6dd",
+    "api_tree_sha_as_returned": "98a36e9353304b7e7f97e18c1b3e72d087c9d6dd",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "54727b1f84831739e7262b4db8271ada026d20c7",
+        "sha256": "d6120efc03ea0e80204f687801cfaec8efc4519a3430b68e13e4ebd8e1c69b52",
+        "size": 7241,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "5aa17b9e6b7070e5e876320fe0928e6fed715ead",
+        "sha256": "7b6ea3d51b6537f0f4648971759da1814420a9684e69040fa28fd55ea8e5592d",
+        "size": 256,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/speech-small.svg",
+        "git_blob_sha1": "b904079535800cf9c3723a3aa9de1f1dd80cbcc2",
+        "sha256": "791c45b8367df84919e829f7fab8490e9ce185b2af319cbe7058930126843b2e",
+        "size": 757,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/speech.png",
+        "git_blob_sha1": "bd19d490f333d0cdf797ee2ac26da680f5f94f07",
+        "sha256": "4f47da99f0ec5285deda22ec1f1b755715b1495ad197d39a3d3d1591e46b5f27",
+        "size": 1371,
+        "mode": "100644"
+      },
+      {
+        "path": "references/accessibility.md",
+        "git_blob_sha1": "5f7641615fba9fcdc0fbdc21bc1bb032874fbe87",
+        "sha256": "34cd91bc6a3ef65c8da8997e312d163babcdfc3241f9e359418b3f5a76f15b76",
+        "size": 696,
+        "mode": "100644"
+      },
+      {
+        "path": "references/audio-api.md",
+        "git_blob_sha1": "4c859c126196dcb2a4555c073b20a41b077edf2d",
+        "sha256": "dba58cfc0d5e125cf1ac13875193950233aa948639b268ed7799ca17bca66bfe",
+        "size": 902,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli.md",
+        "git_blob_sha1": "d821eb94ca15b685d1c531b46c4d345563c6a99a",
+        "sha256": "77e6a0c01036ac0092cf37c3d5c88dc6800b223524c5b9c8920d10fc4f68e0cc",
+        "size": 3275,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codex-network.md",
+        "git_blob_sha1": "c57c13be2a60a788a7903076b49ca1911bd11ba7",
+        "sha256": "c956a51d3e67246cfb43982aa8c82065350fcce4ef7b94bd89e599c575c94d9c",
+        "size": 1148,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ivr.md",
+        "git_blob_sha1": "5748dc56d0de53a2481e3b311d0f8d80cf6902c6",
+        "sha256": "2aaf225b7cea9277fe5413eb0360a845de035c00ea0d6f30348b5ce7138803fc",
+        "size": 708,
+        "mode": "100644"
+      },
+      {
+        "path": "references/narration.md",
+        "git_blob_sha1": "fb9c3a200b38af982a57e7bc6e50b034e27c75f1",
+        "sha256": "3e68829fe4a5a47c3d37cbe9a1ed95ff3cedf1b303ff02a10501e56ad5e7c74a",
+        "size": 671,
+        "mode": "100644"
+      },
+      {
+        "path": "references/prompting.md",
+        "git_blob_sha1": "66429adb9d735b02bcd8b809346ebb2bbac664ff",
+        "sha256": "2adcb001813be04e56918eb0d34d9a45f9326aa0fb240526ae74a926522b6554",
+        "size": 1553,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sample-prompts.md",
+        "git_blob_sha1": "e3c25f73b0da4b0b8aae52a69fe7e3698225c8db",
+        "sha256": "c14e1b1c526f2fe555ab2dc86c0e8aead33d38238d2bfcfbf9de0c18d28bde03",
+        "size": 991,
+        "mode": "100644"
+      },
+      {
+        "path": "references/voice-directions.md",
+        "git_blob_sha1": "442247d1745f3793db0fe217a032b198d0f3a5e3",
+        "sha256": "5da0a4c59bdadb47d1795f51a9708b515fbf2901f0ca808cc5c66d83a336986d",
+        "size": 2155,
+        "mode": "100644"
+      },
+      {
+        "path": "references/voiceover.md",
+        "git_blob_sha1": "62b4d1e369fbe8fca0c9331d6293d4eed5c218d4",
+        "sha256": "a4bb96c31c8be6a62d35a103f9d7fc700b8004df2efd10595d00b63f0c096486",
+        "size": 790,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/text_to_speech.py",
+        "git_blob_sha1": "e746c94e5c37c47d968cd1b4bef2f32107be95ba",
+        "sha256": "0000014efdf1194512c017ffa0d0574ae65881f6a1340b7ed822053b6e3d3c44",
+        "size": 15592,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "assets/speech-small.svg",
+    "assets/speech.png"
+  ],
+  "old_commit": "3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd",
+  "new_commit": "33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync curated skills! (#64)",
+  "new_commit_time": "2026-01-30T18:34:32Z",
+  "compare_url": "https://github.com/openai/skills/compare/3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd...33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "commit_url": "https://github.com/openai/skills/commit/33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "skill_directory": "skills/.curated/speech",
+  "local_directory": "verified_real_update_pairs/OPU-0157",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0157",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

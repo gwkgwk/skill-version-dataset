@@ -1,0 +1,121 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "a1888400150ff5ccada6",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6",
+    "computed_tree_sha": "8e2c48a446597c749edca8381cb7d2dd112eed64",
+    "api_tree_sha_as_returned": "8e2c48a446597c749edca8381cb7d2dd112eed64",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1a3f3aa129ef79ff45c6d0fc25160971d9c62a6c",
+        "sha256": "c9184bd6992bb23bf66aca6d7e506e715f46046130dc2eabf39e899d65709e15",
+        "size": 11589,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-reference.md",
+        "git_blob_sha1": "2398ede788f0ae17ae64b1e571865febab7539fa",
+        "sha256": "09d1fde82ca8c571a17f7c492bcf220ddbe44e133d71496851cb03fd333b9c1d",
+        "size": 8910,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "2ed3848e3c0ad3293001226f9040c90b9ec81dd0",
+        "sha256": "5f9c9cf8ef6dd5895a4e86e5fa022592ffac2b410f4d601cc32b37e9313afe5e",
+        "size": 17345,
+        "mode": "100644"
+      },
+      {
+        "path": "references/models.md",
+        "git_blob_sha1": "3c3d66c38f1b90bb6eab33121a527b11c0b5a0ea",
+        "sha256": "6e150bbb15bb19ba010015b4f2ba0f6ae5024eae67f7f5d11bd67e6364ba782b",
+        "size": 18415,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+    "computed_tree_sha": "c9e31e86696d1af0604abc9aa11f6b1b9ce8b87c",
+    "api_tree_sha_as_returned": "c9e31e86696d1af0604abc9aa11f6b1b9ce8b87c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "512d0686e39a7be742d99d27a9aac8210abc319d",
+        "sha256": "8a765d22c122b71f8726aded787a45e248ed3823fdf373cc041d3adc2a5814f5",
+        "size": 11585,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-reference.md",
+        "git_blob_sha1": "2398ede788f0ae17ae64b1e571865febab7539fa",
+        "sha256": "09d1fde82ca8c571a17f7c492bcf220ddbe44e133d71496851cb03fd333b9c1d",
+        "size": 8910,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "2ed3848e3c0ad3293001226f9040c90b9ec81dd0",
+        "sha256": "5f9c9cf8ef6dd5895a4e86e5fa022592ffac2b410f4d601cc32b37e9313afe5e",
+        "size": 17345,
+        "mode": "100644"
+      },
+      {
+        "path": "references/models.md",
+        "git_blob_sha1": "3c3d66c38f1b90bb6eab33121a527b11c0b5a0ea",
+        "sha256": "6e150bbb15bb19ba010015b4f2ba0f6ae5024eae67f7f5d11bd67e6364ba782b",
+        "size": 18415,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6",
+  "new_commit": "e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add capability and non-hero references for Python skills (#382)\n\n* Add capability and non-hero references for Python skills\n\nSplit from #375: adds references/capabilities.md and\nreferences/non-hero-scenarios.md across ~30 azure-sdk-python skills,\nupdates their SKILL.md files, and refreshes .github/skills symlinks.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCopilot-Session: 9429ad33-6f31-4ec5-ba00-0f11b5afb82e\n\n* Fix create_analyzer to begin_create_analyzer LRO in contentunderstanding non-hero-scenarios\n\n* Fix get_supported_languages to use TextTranslationClient in translation-document non-hero-scenarios\n\n* Clarify TextTranslationClient default endpoint in supported languages example\n\n* Fix instrumentation_options API and supported libraries in azure-monitor-opentelemetry-py non-hero-scenarios\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply remaining changes\n\n* Fix invalid token acquisition example in m365 capabilities reference\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Replace placeholder non-hero scenario files with actionable content\n\nAdd retry, timeout, pagination, cleanup, and async examples for:\n- azure-ai-transcription-py\n- azure-messaging-webpubsubservice-py\n- azure-ai-language-conversations-py\n\n* Fix variable naming and list iteration in new non-hero scenarios\n\n* Replace Azure SDK boilerplate checklist with Pydantic-specific checks in capabilities.md\n\n* Refine Pydantic checklist: focus v2 patterns item on new code\n\n* Fix fastapi-router-py capabilities checklist: replace Azure SDK boilerplate with FastAPI-specific checks\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Fix remaining open review comments: eventgrid event var, transcription/speech auth, fabric RpSku, keyvault/botservice credential exposure\n\n* Fix Authorization header wording in speech-to-text-rest SKILL.md\n\n* Polish wording per code review: fabric None guard, transcription key comment, speech-to-text auth reference\n\n* Address all open PR review comments\n\n- Fix pnpm-workspace.yaml: resolve esbuild allowBuilds placeholder\n- Fix azure-mgmt-apicenter non-hero: add missing closing parenthesis\n- Fix azure-monitor-opentelemetry SKILL.md: flush() → force_flush()\n- Fix azure-monitor-opentelemetry-exporter SKILL.md: flush() → force_flush()\n- Fix azure-storage-queue non-hero: re-raise instead of silently passing exception\n- Fix azure-identity non-hero: log and re-raise auth errors instead of silently passing\n- Fix azure-ai-contentunderstanding non-hero: AnalysisInput → AnalyzeInput, fix model imports\n- Fix azure-ai-transcription SKILL.md + non-hero: use AzureKeyCredential wrapper\n- Fix m365-agents capabilities.md: complete CopilotClient example end-to-end\n\n* Polish m365-agents capabilities: improve variable names and context manager comment\n\n* Fix remaining review comments and CI pipeline failure\n\n- Delete tests/pnpm-workspace.yaml (caused CI 'packages field missing' error)\n- Delete azure-cosmos-py/scripts/setup_cosmos_container.py (outside PR scope)\n- Fix pydantic-models-py: clarify model_validate vs direct construction\n- Fix m365-agents-py: remove activity.conversation.id (UnboundLocalError on empty stream)\n- Fix azure-messaging-webpubsubservice-py: use close_user_connections, don't log bearer token URL\n- Fix azure-messaging-webpubsubservice-py acceptance-criteria: update connection close example\n- Fix azure-ai-transcription-py: correct LROPoller timeout pattern (done()+deadline loop)\n- Fix azure-ai-transcription-py acceptance-criteria: remove DefaultAzureCredential anti-pattern\n- Fix azure-ai-translation-text-py: use InputTextItem instead of raw strings in all bodies\n- Fix azure-ai-ml-py: remove unused Pipeline import\n- Fix azure-ai-language-conversations-py: fix orchestration intents (dict keyed by name)\n\n* Move import time to top of transcription timeout example\n\n* Fix transcription acceptance criteria: add DefaultAzureCredential as valid auth, remove incorrect anti-pattern\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-07-15T21:49:49Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6...e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "commit_url": "https://github.com/microsoft/skills/commit/e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "skill_directory": ".github/plugins/azure-sdk-python/skills/azure-ai-voicelive-py",
+  "local_directory": "verified_real_update_pairs/OPU-0387",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0387",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

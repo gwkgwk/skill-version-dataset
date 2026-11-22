@@ -1,0 +1,119 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/browse-local-sentry/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "1fdbfbfed2a16086ee6d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "c153d1c6dbd3f8caa06da491ae6d145d305c11b6",
+    "computed_tree_sha": "411eae8310ddafb15bdf3c51974725d6cb6c265d",
+    "api_tree_sha_as_returned": "411eae8310ddafb15bdf3c51974725d6cb6c265d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f217ef940222c8c29a94f06071f58df26caa13ab",
+        "sha256": "8d43976efe76db72110ed4cc6d3ecc4d222af0ec5830b7682893d402ba8cf02c",
+        "size": 3339,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "ca16932208b05aab0f619acad0992a5e6b7d9eac",
+        "sha256": "7e10a49e6294093563b922dd3cc43276e3be1cd11c10ef1347eebf8bc3b651ba",
+        "size": 5572,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "80ab9a013c6ff32c0eaccdbcf18bed13bbcf0cac",
+        "sha256": "9db14985494d31f21d96ba6fa9e20a8ef3649a84b51b3505b93bf7a18fde2628",
+        "size": 2576,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "ad0aaf6fa667ee30af2ca6981e841dc52248d0cd",
+        "sha256": "0ea82ece1ef37c0c3cbd9327187e0eaa6cdfadb249b4920a865c3b6a6a3ed568",
+        "size": 5311,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "dcce042d07119fe632ded061e7818befa2fc5a08",
+    "computed_tree_sha": "87758385642e0364861a4bda693abdb72258aa9a",
+    "api_tree_sha_as_returned": "87758385642e0364861a4bda693abdb72258aa9a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "94f361961d90ec654aa1f8c1a7090d09ef0dee35",
+        "sha256": "d0726a61123f03875272192ebdab57ffced3b34b990f14f23165c4186408795b",
+        "size": 3043,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "ca16932208b05aab0f619acad0992a5e6b7d9eac",
+        "sha256": "7e10a49e6294093563b922dd3cc43276e3be1cd11c10ef1347eebf8bc3b651ba",
+        "size": 5572,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "80ab9a013c6ff32c0eaccdbcf18bed13bbcf0cac",
+        "sha256": "9db14985494d31f21d96ba6fa9e20a8ef3649a84b51b3505b93bf7a18fde2628",
+        "size": 2576,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "ad0aaf6fa667ee30af2ca6981e841dc52248d0cd",
+        "sha256": "0ea82ece1ef37c0c3cbd9327187e0eaa6cdfadb249b4920a865c3b6a6a3ed568",
+        "size": 5311,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "c153d1c6dbd3f8caa06da491ae6d145d305c11b6",
+  "new_commit": "dcce042d07119fe632ded061e7818befa2fc5a08",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update skills/browse-local-sentry/SKILL.md",
+  "new_commit_time": "2026-10-26T12:26:35Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/c153d1c6dbd3f8caa06da491ae6d145d305c11b6...dcce042d07119fe632ded061e7818befa2fc5a08",
+  "commit_url": "https://github.com/getsentry/skills/commit/dcce042d07119fe632ded061e7818befa2fc5a08",
+  "skill_directory": "skills/browse-local-sentry",
+  "local_directory": "verified_real_update_pairs/OPU-0019",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0019",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

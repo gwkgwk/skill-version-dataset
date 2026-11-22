@@ -1,0 +1,82 @@
+{
+  "sha": "bf9e226541ec801750547acfa8cf761b7c878f27",
+  "node_id": "C_kwDOQchDtdoAKGJmOWUyMjY1NDFlYzgwMTc1MDU0N2FjZmE4Y2Y3NjFiN2M4NzhmMjc",
+  "commit": {
+    "author": {
+      "name": "Dominik Kundel",
+      "email": "dkundel@openai.com",
+      "date": "2026-02-02T20:20:40Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-02-02T20:20:40Z"
+    },
+    "message": "Add prerequisites and troubleshooting to deploy skills (#90)\n\n**Summary**\n- aligned the Cloudflare, Netlify, and Render deploy skills with the\nprereqs and escalation guidance from the Vercel skill\n- documented requirement to rerun deployments with\n`sandbox_permissions=require_escalated` when sandboxing blocks\nnetworking and reminded that deployments may take several minutes\n- added a Troubleshooting section that describes when to request\nescalated network access and sample messaging for Cloudflare, Netlify,\nand Render\n\n**Testing**\n- Not run (not requested)",
+    "tree": {
+      "sha": "208f28b85558a355073b109d30b9a4c419e08300",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/208f28b85558a355073b109d30b9a4c419e08300"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/bf9e226541ec801750547acfa8cf761b7c878f27",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpgQcYCRC1aQ7uu5UhlAAAj9IQAA21GToVWmZUKao99Ijm/vW7\nwoGurEbsU54bF7kwZ4i9p5Ztbbhifkf/X911OZvfWwLcj698JgSmsuu1HACL/Shv\nZUuG2KlRYDiDAbe0G5uLwce/hddsU7vEX8Mtjqd4cY0vv0VYAdPwyOu4gYpgrIwB\nA4jySKPs8SUoIRSbmMqfy+jToP0YeateKpqyoNvrUhOy8hByEHxgJFXQCWz/eJSR\nHz00Z4gs0POZmb3Bg2UfuruvhzD+CevkUMq9O6/ubz/9PLb/UvKtBEADKr3RjOW3\nzt/V6qmQTPPY8u0VH5vfSwhiibxumgwZz4WU3Rnd/i0TMuae3H79MCpDTbMLQz0G\ntUDyaEymGaYsupcI9o/xl0MSqATKIhqME6OGBzmIarMBaf+2HLwZeW0yAtN32hqq\nZaGnYmLuvMLjwKg+dOL4N6OUDyMRbMOZnZGU7g2FzhhKrfiie30ZBXFgA+M4zm2w\n0NfI3GrOiX/yR8tEeYlg+cOLWZk9Gb8KqHNdM3UgcIjdo8ODrw17wKyNitrxDgpl\n+7T1+fmzl3bXwv/34+UnwpSj5IUYqPqqZFBM8QlQ15jHKOs7LjH+zxO5DCFcIUHL\neYRoqwEXRXC5KM7A04wxvDKwFDpRx1HW/AA8qRut4xao7dMw3X+qy7WcgeEoYd10\nZQKIJei6GNZ+ckhiO5Si\n=c3xN\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 208f28b85558a355073b109d30b9a4c419e08300\nparent 33400391a3ab7960eb929b39060487b12c4a65ad\nauthor Dominik Kundel <dkundel@openai.com> 1770063640 -0800\ncommitter GitHub <noreply@github.com> 1770063640 -0800\n\nAdd prerequisites and troubleshooting to deploy skills (#90)\n\n**Summary**\n- aligned the Cloudflare, Netlify, and Render deploy skills with the\nprereqs and escalation guidance from the Vercel skill\n- documented requirement to rerun deployments with\n`sandbox_permissions=require_escalated` when sandboxing blocks\nnetworking and reminded that deployments may take several minutes\n- added a Troubleshooting section that describes when to request\nescalated network access and sample messaging for Cloudflare, Netlify,\nand Render\n\n**Testing**\n- Not run (not requested)",
+      "verified_at": "2026-02-02T20:20:40Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/bf9e226541ec801750547acfa8cf761b7c878f27",
+  "html_url": "https://github.com/openai/skills/commit/bf9e226541ec801750547acfa8cf761b7c878f27",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/bf9e226541ec801750547acfa8cf761b7c878f27/comments",
+  "author": {
+    "login": "dkundel-openai",
+    "id": 200841172,
+    "node_id": "U_kgDOC_iX1A",
+    "avatar_url": "https://avatars.githubusercontent.com/u/200841172?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dkundel-openai",
+    "html_url": "https://github.com/dkundel-openai",
+    "followers_url": "https://api.github.com/users/dkundel-openai/followers",
+    "following_url": "https://api.github.com/users/dkundel-openai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dkundel-openai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dkundel-openai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dkundel-openai/subscriptions",
+    "organizations_url": "https://api.github.com/users/dkundel-openai/orgs",
+    "repos_url": "https://api.github.com/users/dkundel-openai/repos",
+    "events_url": "https://api.github.com/users/dkundel-openai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dkundel-openai/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "33400391a3ab7960eb929b39060487b12c4a65ad",
+      "url": "https://api.github.com/repos/openai/skills/commits/33400391a3ab7960eb929b39060487b12c4a65ad",
+      "html_url": "https://github.com/openai/skills/commit/33400391a3ab7960eb929b39060487b12c4a65ad"
+    }
+  ]
+}

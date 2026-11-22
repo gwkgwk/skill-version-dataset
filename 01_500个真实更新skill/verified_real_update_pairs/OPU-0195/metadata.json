@@ -1,0 +1,465 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-alert-configuration/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "dbed1a00745a9de7cf52",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "e1b1a1b2e5c6ace6cc49aa86912718f26875b1b5",
+    "computed_tree_sha": "05d8f5497f72eb1466dcde0d74d51b04d81cac16",
+    "api_tree_sha_as_returned": "05d8f5497f72eb1466dcde0d74d51b04d81cac16",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "350c09a2e6ccfadb92f26656c07f058eb9a50d19",
+        "sha256": "9157429cb9bc4d0b32d6085b3f2b85e00e1266492ded3819a103bda7b300de64",
+        "size": 16706,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cost_alert_policies.md",
+        "git_blob_sha1": "c2e7fcbf94fc835122ca3018a16f43d294eea7d4",
+        "sha256": "a334486f7a5c2c42c3311aa0f6e21cc52233c96dcd8d39041dc511c4a6d555f6",
+        "size": 9347,
+        "mode": "100644"
+      },
+      {
+        "path": "references/has_historical_traffic_data.md",
+        "git_blob_sha1": "ce7dba254a1240c237760fbf0979469595b0afd0",
+        "sha256": "9ca8f9e59d5a7586b49f1feb9f74c3417b2eedab3ba5ced37db411e14da35319",
+        "size": 5629,
+        "mode": "100644"
+      },
+      {
+        "path": "references/no_historical_traffic_data.md",
+        "git_blob_sha1": "c6fc89f62de387079a26bc2ba3716fcc47d28709",
+        "sha256": "bfa52626590c32c825958e465df6fdb264cbec119722beed3b2b178d678bc45d",
+        "size": 3915,
+        "mode": "100644"
+      },
+      {
+        "path": "references/quality_alert_policies.md",
+        "git_blob_sha1": "0430bfb50f71bdf3cd4fc05effd092bfc5e582b9",
+        "sha256": "99f6c9f38a436e2aeb8ddd00a2603582ca15b1b0f42d5fcf7ce7633731cb13b8",
+        "size": 11940,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reliability_alert_policies.md",
+        "git_blob_sha1": "7a4d9d9162d34fbbbefe6caaa0d261c314ed420e",
+        "sha256": "f1081198455c532320f18d1d4b5748318db3e68da20ad623702344de56d611f5",
+        "size": 22008,
+        "mode": "100644"
+      },
+      {
+        "path": "references/safety_alert_policies.md",
+        "git_blob_sha1": "d47fd4178b05375d101ea8aa02f7fef9dd224c77",
+        "sha256": "e661624c856fa9c6f158dd5ed472075c3508fa8b2fca2c248053f1a7b3e238e2",
+        "size": 6710,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security_alert_policies.md",
+        "git_blob_sha1": "18de03d066111309cedf6cb75fe5e33298cdf7fc",
+        "sha256": "1cf1bba79665c1e449999eec806de74f7236bd11ae9b65edf04f9e160679af9a",
+        "size": 6257,
+        "mode": "100644"
+      },
+      {
+        "path": "references/telemetry_enablement.md",
+        "git_blob_sha1": "aeea850d8b1d83479faa933992b988e565281812",
+        "sha256": "b3f13b9a7dda84000333556834e05c4cf4578384f1e26df12f4b5991a6a0a21c",
+        "size": 2524,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze_traffic.py",
+        "git_blob_sha1": "b66ff7dcf22f38f97acd95b442470f03b210db4d",
+        "sha256": "7cd29fdbc4f1004ab433ced3355ac494a4734364a3378709e3031e77d09aa77f",
+        "size": 12627,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze_traffic_test.py",
+        "git_blob_sha1": "2785076f7bfdfef33fcfdd22bd5e3ba9219c618a",
+        "sha256": "39d66d938feb39184addd5b9e742b0eef46dd08c0e22bff8b7f5b8d258267628",
+        "size": 7840,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_telemetry.py",
+        "git_blob_sha1": "c255777a337e9096f2150ebce04e1451c5d38b1e",
+        "sha256": "0f2a1b0122c1bff9f2e00db19e3da93c0958580d66f2d3f4779a7e8d8e590540",
+        "size": 5788,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_telemetry_test.py",
+        "git_blob_sha1": "9dbe5a362913aff7e521390e41303f920efea293",
+        "sha256": "323b1a34b54a1d4a9b7aece2b473ee0aae357ee8cd76b36e9205bffb6d6ca849",
+        "size": 5381,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/config_utils.py",
+        "git_blob_sha1": "6792fdd179c17b548e348b8f0785cfcf8f3108be",
+        "sha256": "2fe5c7ca9055b499fc5f374b86febf3c2251e9c65385f979a8cfd23b752436e6",
+        "size": 9615,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/config_utils_test.py",
+        "git_blob_sha1": "bfb7580a3d5d334c58915f77e14503e591ce32f7",
+        "sha256": "60d14cc80a256dd6bc2dfb34be000e7159536bb70e1958983609c8e4caf8d00d",
+        "size": 10325,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/create_online_monitor.py",
+        "git_blob_sha1": "ab822ac90d8a08322984b954f5cae371c7ca602c",
+        "sha256": "cc890d2f0f600e238a7919d8b352ef0b42c9a7245a9e3c38abd7bb1bf66c38a1",
+        "size": 5855,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/create_online_monitor_test.py",
+        "git_blob_sha1": "0f876230f1c87c5312f39d00902f44bfd86c8cfd",
+        "sha256": "c27f927ec514008675f6055d650d4c1fe527bb907482bd7936c01c8d27bbf1b7",
+        "size": 5733,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/gather_agent_info.py",
+        "git_blob_sha1": "e8bbb07249abd6a7d2c279177f0b830a66bad535",
+        "sha256": "fb8bb7e6d504cea22bd4e0d991dc6475a99fceb4c9252e3531d867c74f3ade1a",
+        "size": 14730,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/gather_agent_info_test.py",
+        "git_blob_sha1": "9892c49b362fb8640a51b42886c9bdd48eb26698",
+        "sha256": "961602f2bce2d6e2725e694d11c85a8b456b9ff7c7082a81702b7b3f5626abc1",
+        "size": 11075,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/lint_syntax.py",
+        "git_blob_sha1": "9b7061aa68a3c9f56b006e4dd5b65726e36d49f0",
+        "sha256": "ba5144c5e71e1a6daafcf348ca943075a45d11a232af8cf67e699d41665420b1",
+        "size": 1781,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_log_scope_table_names.py",
+        "git_blob_sha1": "34812403f29acd9160434853923083d41dfac4f0",
+        "sha256": "9159d62fa553cc678176cfccb8bb2eeef7e15f7752749e1ea07bc88fbe752e3e",
+        "size": 4852,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_log_scope_table_names_test.py",
+        "git_blob_sha1": "26fa1a69170d42ef21e865ce0ec7bfb59aa53420",
+        "sha256": "5d66963c8b90c7768cfb418c6b183f00cbc7f5f5c82661d5b7d28ead3a82a719",
+        "size": 8664,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_trace_scope_table_names.py",
+        "git_blob_sha1": "1d1b6ba4994c5406b2984322966ba0ffce919e95",
+        "sha256": "d06f918e3cc264f936662b1bb9c242d637b20b85ee047685bb193831a17b3eb5",
+        "size": 4417,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_trace_scope_table_names_test.py",
+        "git_blob_sha1": "5d44727f732838c07803f0e9e6910f55cf8e9287",
+        "sha256": "9a5c45e2b9934f00468e674baf564f55a4aba875c74e2326c10d454335694bd5",
+        "size": 6401,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/mock_traffic_data.py",
+        "git_blob_sha1": "da018cbafefcf4ccd5a48c4a5c9e867459370e29",
+        "sha256": "145c582ae9d3cea0a54ac3122667830b6f10e7c98dc829474c79a4d829a30052",
+        "size": 102844,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/requirements.txt",
+        "git_blob_sha1": "32929dc4d100473cf5ae27294ef9afb48cfb8146",
+        "sha256": "c4cc01272e6fa7a5186f70ac74f3b00b3e3b1e40042897cbd631d738b25c0bc7",
+        "size": 102,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/scan_duplicates.py",
+        "git_blob_sha1": "f98d1b1406456147a4b8d23c99b7b7918e3c1131",
+        "sha256": "26d152e84af609b57d473aa09334da3e28b185afc13d59e8b5c23d0b51d4d0b4",
+        "size": 3576,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/scan_duplicates_test.py",
+        "git_blob_sha1": "3035fe92cdeb06cb966c9938146be74ef52e5d6b",
+        "sha256": "3b31162f6cf728d858f129e63d300f875a49beb5ab2e4b7e3bd826a39d25f496",
+        "size": 3890,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "2826afea139f84afdc99dab8e69f555c775e1ac5",
+    "computed_tree_sha": "cd152e0bbc1e7ae32d429cb6504016386e53ed29",
+    "api_tree_sha_as_returned": "cd152e0bbc1e7ae32d429cb6504016386e53ed29",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d98e6335e2ac982ee81ddeeb01052cd663b01497",
+        "sha256": "52f2b68b53c193526ff7b8e557f69b89e5976ad4196f21f2493d869e5f8d5b3c",
+        "size": 17179,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "940bea13d022b782c324b00bca7bafaac19e9249",
+        "sha256": "50e21a3be7dc94bc521038a65eaa5c54b13860aa8b23621170c0e31a43dceb14",
+        "size": 1950,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cost_alert_policies.md",
+        "git_blob_sha1": "c2e7fcbf94fc835122ca3018a16f43d294eea7d4",
+        "sha256": "a334486f7a5c2c42c3311aa0f6e21cc52233c96dcd8d39041dc511c4a6d555f6",
+        "size": 9347,
+        "mode": "100644"
+      },
+      {
+        "path": "references/has_historical_traffic_data.md",
+        "git_blob_sha1": "ce7dba254a1240c237760fbf0979469595b0afd0",
+        "sha256": "9ca8f9e59d5a7586b49f1feb9f74c3417b2eedab3ba5ced37db411e14da35319",
+        "size": 5629,
+        "mode": "100644"
+      },
+      {
+        "path": "references/no_historical_traffic_data.md",
+        "git_blob_sha1": "c6fc89f62de387079a26bc2ba3716fcc47d28709",
+        "sha256": "bfa52626590c32c825958e465df6fdb264cbec119722beed3b2b178d678bc45d",
+        "size": 3915,
+        "mode": "100644"
+      },
+      {
+        "path": "references/quality_alert_policies.md",
+        "git_blob_sha1": "0430bfb50f71bdf3cd4fc05effd092bfc5e582b9",
+        "sha256": "99f6c9f38a436e2aeb8ddd00a2603582ca15b1b0f42d5fcf7ce7633731cb13b8",
+        "size": 11940,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reliability_alert_policies.md",
+        "git_blob_sha1": "7a4d9d9162d34fbbbefe6caaa0d261c314ed420e",
+        "sha256": "f1081198455c532320f18d1d4b5748318db3e68da20ad623702344de56d611f5",
+        "size": 22008,
+        "mode": "100644"
+      },
+      {
+        "path": "references/safety_alert_policies.md",
+        "git_blob_sha1": "d47fd4178b05375d101ea8aa02f7fef9dd224c77",
+        "sha256": "e661624c856fa9c6f158dd5ed472075c3508fa8b2fca2c248053f1a7b3e238e2",
+        "size": 6710,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security_alert_policies.md",
+        "git_blob_sha1": "18de03d066111309cedf6cb75fe5e33298cdf7fc",
+        "sha256": "1cf1bba79665c1e449999eec806de74f7236bd11ae9b65edf04f9e160679af9a",
+        "size": 6257,
+        "mode": "100644"
+      },
+      {
+        "path": "references/telemetry_enablement.md",
+        "git_blob_sha1": "aeea850d8b1d83479faa933992b988e565281812",
+        "sha256": "b3f13b9a7dda84000333556834e05c4cf4578384f1e26df12f4b5991a6a0a21c",
+        "size": 2524,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze_traffic.py",
+        "git_blob_sha1": "b66ff7dcf22f38f97acd95b442470f03b210db4d",
+        "sha256": "7cd29fdbc4f1004ab433ced3355ac494a4734364a3378709e3031e77d09aa77f",
+        "size": 12627,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze_traffic_test.py",
+        "git_blob_sha1": "2785076f7bfdfef33fcfdd22bd5e3ba9219c618a",
+        "sha256": "39d66d938feb39184addd5b9e742b0eef46dd08c0e22bff8b7f5b8d258267628",
+        "size": 7840,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_telemetry.py",
+        "git_blob_sha1": "c255777a337e9096f2150ebce04e1451c5d38b1e",
+        "sha256": "0f2a1b0122c1bff9f2e00db19e3da93c0958580d66f2d3f4779a7e8d8e590540",
+        "size": 5788,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_telemetry_test.py",
+        "git_blob_sha1": "9dbe5a362913aff7e521390e41303f920efea293",
+        "sha256": "323b1a34b54a1d4a9b7aece2b473ee0aae357ee8cd76b36e9205bffb6d6ca849",
+        "size": 5381,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/config_utils.py",
+        "git_blob_sha1": "6792fdd179c17b548e348b8f0785cfcf8f3108be",
+        "sha256": "2fe5c7ca9055b499fc5f374b86febf3c2251e9c65385f979a8cfd23b752436e6",
+        "size": 9615,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/config_utils_test.py",
+        "git_blob_sha1": "bfb7580a3d5d334c58915f77e14503e591ce32f7",
+        "sha256": "60d14cc80a256dd6bc2dfb34be000e7159536bb70e1958983609c8e4caf8d00d",
+        "size": 10325,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/create_online_monitor.py",
+        "git_blob_sha1": "ab822ac90d8a08322984b954f5cae371c7ca602c",
+        "sha256": "cc890d2f0f600e238a7919d8b352ef0b42c9a7245a9e3c38abd7bb1bf66c38a1",
+        "size": 5855,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/create_online_monitor_test.py",
+        "git_blob_sha1": "0f876230f1c87c5312f39d00902f44bfd86c8cfd",
+        "sha256": "c27f927ec514008675f6055d650d4c1fe527bb907482bd7936c01c8d27bbf1b7",
+        "size": 5733,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/gather_agent_info.py",
+        "git_blob_sha1": "e8bbb07249abd6a7d2c279177f0b830a66bad535",
+        "sha256": "fb8bb7e6d504cea22bd4e0d991dc6475a99fceb4c9252e3531d867c74f3ade1a",
+        "size": 14730,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/gather_agent_info_test.py",
+        "git_blob_sha1": "9892c49b362fb8640a51b42886c9bdd48eb26698",
+        "sha256": "961602f2bce2d6e2725e694d11c85a8b456b9ff7c7082a81702b7b3f5626abc1",
+        "size": 11075,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/lint_syntax.py",
+        "git_blob_sha1": "9b7061aa68a3c9f56b006e4dd5b65726e36d49f0",
+        "sha256": "ba5144c5e71e1a6daafcf348ca943075a45d11a232af8cf67e699d41665420b1",
+        "size": 1781,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_log_scope_table_names.py",
+        "git_blob_sha1": "34812403f29acd9160434853923083d41dfac4f0",
+        "sha256": "9159d62fa553cc678176cfccb8bb2eeef7e15f7752749e1ea07bc88fbe752e3e",
+        "size": 4852,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_log_scope_table_names_test.py",
+        "git_blob_sha1": "26fa1a69170d42ef21e865ce0ec7bfb59aa53420",
+        "sha256": "5d66963c8b90c7768cfb418c6b183f00cbc7f5f5c82661d5b7d28ead3a82a719",
+        "size": 8664,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_trace_scope_table_names.py",
+        "git_blob_sha1": "1d1b6ba4994c5406b2984322966ba0ffce919e95",
+        "sha256": "d06f918e3cc264f936662b1bb9c242d637b20b85ee047685bb193831a17b3eb5",
+        "size": 4417,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_trace_scope_table_names_test.py",
+        "git_blob_sha1": "5d44727f732838c07803f0e9e6910f55cf8e9287",
+        "sha256": "9a5c45e2b9934f00468e674baf564f55a4aba875c74e2326c10d454335694bd5",
+        "size": 6401,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/mock_traffic_data.py",
+        "git_blob_sha1": "da018cbafefcf4ccd5a48c4a5c9e867459370e29",
+        "sha256": "145c582ae9d3cea0a54ac3122667830b6f10e7c98dc829474c79a4d829a30052",
+        "size": 102844,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/requirements.txt",
+        "git_blob_sha1": "32929dc4d100473cf5ae27294ef9afb48cfb8146",
+        "sha256": "c4cc01272e6fa7a5186f70ac74f3b00b3e3b1e40042897cbd631d738b25c0bc7",
+        "size": 102,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/scan_duplicates.py",
+        "git_blob_sha1": "f98d1b1406456147a4b8d23c99b7b7918e3c1131",
+        "sha256": "26d152e84af609b57d473aa09334da3e28b185afc13d59e8b5c23d0b51d4d0b4",
+        "size": 3576,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/scan_duplicates_test.py",
+        "git_blob_sha1": "3035fe92cdeb06cb966c9938146be74ef52e5d6b",
+        "sha256": "3b31162f6cf728d858f129e63d300f875a49beb5ab2e4b7e3bd826a39d25f496",
+        "size": 3890,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "e1b1a1b2e5c6ace6cc49aa86912718f26875b1b5",
+  "new_commit": "2826afea139f84afdc99dab8e69f555c775e1ac5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to AI and Gemini agent skills.\n\n- Add `references/attribution.md` to all 8 native AI and Gemini skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1005009892",
+  "new_commit_time": "2026-10-22T20:24:58Z",
+  "compare_url": "https://github.com/google/skills/compare/e1b1a1b2e5c6ace6cc49aa86912718f26875b1b5...2826afea139f84afdc99dab8e69f555c775e1ac5",
+  "commit_url": "https://github.com/google/skills/commit/2826afea139f84afdc99dab8e69f555c775e1ac5",
+  "skill_directory": "skills/cloud/agent-platform-alert-configuration",
+  "local_directory": "verified_real_update_pairs/OPU-0195",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0195",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

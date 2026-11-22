@@ -1,0 +1,196 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/assuredworkloads-frameworks-navigator/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "247ac88329944bc36d5c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "a1a942f058366f70e11e36fda390ac4019272c9c",
+    "computed_tree_sha": "5089204bc785a014d8f8ff3a93e0f3a7b237ff5f",
+    "api_tree_sha_as_returned": "5089204bc785a014d8f8ff3a93e0f3a7b237ff5f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e684985136b91ef7599f11731716ff7e373abf16",
+        "sha256": "59ba3a21872d89135e7b37de0aec73efaec14b0cc1c7ac7305e2cc4ff7adb5e2",
+        "size": 23055,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/locations.json",
+        "git_blob_sha1": "a83bddc693f0291a69162de637efd1a132171616",
+        "sha256": "c0b3e70ee2b60f2fc0055b9e3335a9d65c4cd4462f3b944a0fda91a0556da1fc",
+        "size": 3156,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "35ba569b51c4d6b00fb8ae17ebc7dbdfcc79960b",
+        "sha256": "d44860d9df094cc66227a05f3a4aee9d26d61374e0e44cbe8f678b4636b510a8",
+        "size": 1959,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gcloud-commands.md",
+        "git_blob_sha1": "d2c9908ca6d23cc049a02b82ae444c0ce696c372",
+        "sha256": "b8127d8989df66ae610f7e3a7ee25e8eec10bf256c9c6c57e3581737faf26416",
+        "size": 2049,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_output_match_analyzer.py",
+        "git_blob_sha1": "9a1473f167eae2b7958d9f7e4d0e8c56dd92abfd",
+        "sha256": "578cda7ee63a7bdd1d023774583a5112bd336e1d71a811d570ec70ff7efe6275",
+        "size": 26771,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_output_match_analyzer_test.py",
+        "git_blob_sha1": "50b3a68b55f79822ce6f788a2ad5f9af948d8f11",
+        "sha256": "aa12aa6168bef308c7468451dfa03b7cb6201be6b6e93357bf0f841ec6e686fd",
+        "size": 39342,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_resources_loader.py",
+        "git_blob_sha1": "919de582a3c3f5f7404122640f0dc1a583e3d4f1",
+        "sha256": "0f005cee0560ca577651799621fa92909004bb321f86f1fd44f3ad44f3a60437",
+        "size": 11708,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_resources_loader_test.py",
+        "git_blob_sha1": "f21a6d056081e828143612f9c8a76c2074526151",
+        "sha256": "233c58adf78b5699ab5b0558c337f0c0fc41d26e5f5873d6948ec692387ae994",
+        "size": 27808,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f70aa02c5e8d1360169af143f4bfc0af68d73012",
+    "computed_tree_sha": "62a0cb70b0837ee316091fb82be2808d4a3d1eaf",
+    "api_tree_sha_as_returned": "62a0cb70b0837ee316091fb82be2808d4a3d1eaf",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0c34d8aa552eadb9792edfeda83ee8fe546200c4",
+        "sha256": "c860fdc8cd279aecaff7dcd2c050cd08fa0ceede4d66cd3e853b22ccba6900b4",
+        "size": 23748,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/locations.json",
+        "git_blob_sha1": "3b8fcf979c8c102d1219a58fe46c111c784ed828",
+        "sha256": "17fe14b36a7a9f66122b3d92b39d5f707503ce0ead5ed9998970447f60477a08",
+        "size": 3063,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "35ba569b51c4d6b00fb8ae17ebc7dbdfcc79960b",
+        "sha256": "d44860d9df094cc66227a05f3a4aee9d26d61374e0e44cbe8f678b4636b510a8",
+        "size": 1959,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gcloud-commands.md",
+        "git_blob_sha1": "d2c9908ca6d23cc049a02b82ae444c0ce696c372",
+        "sha256": "b8127d8989df66ae610f7e3a7ee25e8eec10bf256c9c6c57e3581737faf26416",
+        "size": 2049,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_output_match_analyzer.py",
+        "git_blob_sha1": "9a1473f167eae2b7958d9f7e4d0e8c56dd92abfd",
+        "sha256": "578cda7ee63a7bdd1d023774583a5112bd336e1d71a811d570ec70ff7efe6275",
+        "size": 26771,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_output_match_analyzer_test.py",
+        "git_blob_sha1": "6e696d31fbb071c170bc41c478d1fb171ae65cd9",
+        "sha256": "655c7843043a7214f17ebb14dcb2ecf726051c0af9650aeabd2f942d96a7d94a",
+        "size": 39304,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_resources_loader.py",
+        "git_blob_sha1": "919de582a3c3f5f7404122640f0dc1a583e3d4f1",
+        "sha256": "0f005cee0560ca577651799621fa92909004bb321f86f1fd44f3ad44f3a60437",
+        "size": 11708,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_resources_loader_test.py",
+        "git_blob_sha1": "785a2b53736d7568d4cde01d739b960df42e9ec7",
+        "sha256": "bdddf1c7b6975d824139fbbc57ec999b23e2b9e2cd51ebbab1687da8f0e91408",
+        "size": 27796,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/db_search.py",
+        "git_blob_sha1": "ba7ab015d1037ad937325a868e5325f6b223b270",
+        "sha256": "88b0411b638702ab179db8e087e8d5ee690b01dbba08920738a86bb5f5624e24",
+        "size": 1818,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/db_search_test.py",
+        "git_blob_sha1": "895513cfae9f4d619a1687ae2ff374894ccc7ba9",
+        "sha256": "8e23cd824d1b38d5c8bd0e4c1338faed044bfe43657cc17a047c00617dc480b9",
+        "size": 3859,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "assets/locations.json",
+    "scripts/db_output_match_analyzer_test.py",
+    "scripts/db_resources_loader_test.py",
+    "scripts/db_search.py",
+    "scripts/db_search_test.py"
+  ],
+  "old_commit": "a1a942f058366f70e11e36fda390ac4019272c9c",
+  "new_commit": "f70aa02c5e8d1360169af143f4bfc0af68d73012",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add Assured Workloads Data Boundary frameworks navigator and author skills enhancements to the 1P Agent Registry.\n\nPiperOrigin-RevId: 1014568458",
+  "new_commit_time": "2026-11-05T11:41:02Z",
+  "compare_url": "https://github.com/google/skills/compare/a1a942f058366f70e11e36fda390ac4019272c9c...f70aa02c5e8d1360169af143f4bfc0af68d73012",
+  "commit_url": "https://github.com/google/skills/commit/f70aa02c5e8d1360169af143f4bfc0af68d73012",
+  "skill_directory": "skills/cloud/assuredworkloads-frameworks-navigator",
+  "local_directory": "verified_real_update_pairs/OPU-0310",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0310",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

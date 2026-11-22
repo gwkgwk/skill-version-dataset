@@ -1,0 +1,121 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-typescript/skills/azure-ai-voicelive-ts/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "f5c5ccfad09d6a6dca45",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+    "computed_tree_sha": "dcab17035416d95ea06adb6317c0738b4b3fecb3",
+    "api_tree_sha_as_returned": "dcab17035416d95ea06adb6317c0738b4b3fecb3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "102150df30b0725e307a37709194442dc74506d8",
+        "sha256": "657217e792249ff6b34dfaa243a9e484f58a00b4e9bd89414d44e1bd52426365",
+        "size": 13623,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "136c078db9feef4f4edd430e5538378197ea97f0",
+        "sha256": "43e0eeb9c68bdd040de748a608e0d39182489b0d7661b8330ddf8840de29d79b",
+        "size": 11846,
+        "mode": "100644"
+      },
+      {
+        "path": "references/audio-streaming.md",
+        "git_blob_sha1": "c2858ec7790af3a9b41f111862de86f5d9b35173",
+        "sha256": "7fa9be894cc0043c427cc8c953d1b2891b49bef19ba3aacdaa3bcaccb5c02e11",
+        "size": 12563,
+        "mode": "100644"
+      },
+      {
+        "path": "references/function-calling.md",
+        "git_blob_sha1": "27adcb7ec75b73403c4680cb7c7d6197edad8431",
+        "sha256": "900325ee0cdcfbee67075da41a6f1bd1358200dece473ee58ac904e19dab6d4c",
+        "size": 13808,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+    "computed_tree_sha": "6bd7d3dbd212bc9d69f80282e70a3bd2742b3a64",
+    "api_tree_sha_as_returned": "6bd7d3dbd212bc9d69f80282e70a3bd2742b3a64",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "64ca766cb56c16b7d2b015cd3684834e25f076db",
+        "sha256": "d288827a7769dba34a4154b0981feee766ecefcd64ccd5e052f21d5e064d4d04",
+        "size": 13839,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "136c078db9feef4f4edd430e5538378197ea97f0",
+        "sha256": "43e0eeb9c68bdd040de748a608e0d39182489b0d7661b8330ddf8840de29d79b",
+        "size": 11846,
+        "mode": "100644"
+      },
+      {
+        "path": "references/audio-streaming.md",
+        "git_blob_sha1": "c2858ec7790af3a9b41f111862de86f5d9b35173",
+        "sha256": "7fa9be894cc0043c427cc8c953d1b2891b49bef19ba3aacdaa3bcaccb5c02e11",
+        "size": 12563,
+        "mode": "100644"
+      },
+      {
+        "path": "references/function-calling.md",
+        "git_blob_sha1": "27adcb7ec75b73403c4680cb7c7d6197edad8431",
+        "sha256": "900325ee0cdcfbee67075da41a6f1bd1358200dece473ee58ac904e19dab6d4c",
+        "size": 13808,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+  "new_commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add AZURE_TOKEN_CREDENTIALS env var and credential classes link to all TS skills\n\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables section (20 skills)\n- Add credential classes reference link in Authentication section (20 skills)\n- Reword credential classes link in skill-creator template\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-22T00:02:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bb5ba24c931f82be9b6d266f29947e4ed0dd1679...338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "commit_url": "https://github.com/microsoft/skills/commit/338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "skill_directory": ".github/plugins/azure-sdk-typescript/skills/azure-ai-voicelive-ts",
+  "local_directory": "verified_real_update_pairs/OPU-0438",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0438",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

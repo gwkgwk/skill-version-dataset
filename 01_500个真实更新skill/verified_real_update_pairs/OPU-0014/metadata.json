@@ -1,0 +1,279 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "f67ea74b9db65e4a42fb",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "ea5327d4676928040877cad43941a0971c26a971",
+    "computed_tree_sha": "53f866be2ff23bbd628cc34ca8d3651664c11d0d",
+    "api_tree_sha_as_returned": "53f866be2ff23bbd628cc34ca8d3651664c11d0d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3b0255ac73456f667ba8e88a17132951bfffabb8",
+        "sha256": "80e36ab06e3ee667ac45bab036ed395fc425c4d54fa72c4b4981a5b982a389aa",
+        "size": 21526,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/action-profiles.md",
+        "git_blob_sha1": "74eaeb1c345713bed1e14a2c04f3f98094363367",
+        "sha256": "ea75573060fe7e7a4e06d39c45487609d2ff5b583159a2b0d073d244ff5f81cb",
+        "size": 8777,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cross-file-resolution.md",
+        "git_blob_sha1": "18c4d79edc6367be6d3428016cd576176cfe496d",
+        "sha256": "c15a46bb0695ecc07512ac4007231169301001e5733a720c6ad75606ae5bee95",
+        "size": 10625,
+        "mode": "100644"
+      },
+      {
+        "path": "references/foundations.md",
+        "git_blob_sha1": "e8dbf34684590ece8c3fe96cfa109f9e76aa8ac3",
+        "sha256": "9e0eb90b3bfb53e195251685b1291bdd1d75e07d6c60e634ecb28f72b1723bf3",
+        "size": 5151,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-a-env-var-intermediary.md",
+        "git_blob_sha1": "77388fc7ae219976adc2cb4ca5719f6664db3ef5",
+        "sha256": "7903992f54409760aae64ddb45bb3c26032223443f746ac6e3d8fd281bda877d",
+        "size": 4482,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-b-direct-expression-injection.md",
+        "git_blob_sha1": "9e8cc4825fef789cea9f704ca049d35c1574bc4e",
+        "sha256": "d074c95ee282d56e0174beae3d109ce088f6a8f032d9bd16e523ec2d1d7d94c7",
+        "size": 4541,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-c-cli-data-fetch.md",
+        "git_blob_sha1": "630d9e4f14d22fb7adf810176d8436546333f72b",
+        "sha256": "f11d2333f2b3800215311047c0b0ad35a1020c79dbb77614ff66a8c1fef16252",
+        "size": 5042,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-d-pr-target-checkout.md",
+        "git_blob_sha1": "659d2f60fc9b9b7b2a847e625b5307308e281d86",
+        "sha256": "fc029037bb219aed5e130708eb4911ad235e47f1394e2155b5e40175ddb2d187",
+        "size": 5235,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-e-error-log-injection.md",
+        "git_blob_sha1": "681dd7ae2485c031fd5210cacd42e6b5562cb109",
+        "sha256": "2c93623d96f49c4ab70bc2dd92e111b2cfca68ff70aaf579efd86812b0df15a9",
+        "size": 5380,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-f-subshell-expansion.md",
+        "git_blob_sha1": "cf98b91c375421854e61e4a65a044d7aeec8adcb",
+        "sha256": "a9345ace4af2dd167b4bcbeb1864c5883e6186752ded08bcefa9c0182f514dc3",
+        "size": 5791,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-g-eval-of-ai-output.md",
+        "git_blob_sha1": "7e2bbfb63819ac5a25a61695fc594493a17207cf",
+        "sha256": "b9a47a41dd1470cc469cc030cd6cd6059b35741c78ba9f494c1d18b2fd65b686",
+        "size": 5602,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-h-dangerous-sandbox-configs.md",
+        "git_blob_sha1": "745f256fa37ab630450a9be76b21b7a211f7a906",
+        "sha256": "278df9befc36f231dea2e4d2bf00311657056fa7b87a1a49b0e0e23a141d5935",
+        "size": 5576,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-i-wildcard-allowlists.md",
+        "git_blob_sha1": "881ee57e23a8bb6dee9b00b53838d727a8e3abb0",
+        "sha256": "68a4cd774ad829e535a8ec15ee492caefbae8e46f115f345b7f2bf2fecf88f86",
+        "size": 4372,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+    "computed_tree_sha": "0d47021ff2857ab9522316b4e9dfe64e2c0aaa71",
+    "api_tree_sha_as_returned": "0d47021ff2857ab9522316b4e9dfe64e2c0aaa71",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "efdeacdf470d5bd1d714ca231d6276f086214971",
+        "sha256": "b2bdb88d559bc37e6c2c8314e28e7a2eb47e7cdd9da51e77da347d3517326dc0",
+        "size": 21743,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/action-profiles.md",
+        "git_blob_sha1": "8b6afc4920e4a71802764e72f3ec7f83f0e530ce",
+        "sha256": "bbfaf6abe69b57e6289948340aa649482378b53f752a25cba92e7d4a740c4324",
+        "size": 8966,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cross-file-resolution.md",
+        "git_blob_sha1": "1ec95b5505f71def1c5f9895493bf87e719264c5",
+        "sha256": "b7d0d31fa24f1b987953ef0c11dc22ad48e81675b34de65c65ff79a74a3e6084",
+        "size": 12597,
+        "mode": "100644"
+      },
+      {
+        "path": "references/foundations.md",
+        "git_blob_sha1": "a8a7397da09643dce6211739602549bf247fa414",
+        "sha256": "722ee7ea1dc06af8fa8cbb6cacb62f3c7c70139c8ed402752dd12c851a195d0e",
+        "size": 6659,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-a-env-var-intermediary.md",
+        "git_blob_sha1": "77388fc7ae219976adc2cb4ca5719f6664db3ef5",
+        "sha256": "7903992f54409760aae64ddb45bb3c26032223443f746ac6e3d8fd281bda877d",
+        "size": 4482,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-b-direct-expression-injection.md",
+        "git_blob_sha1": "75e6a7fd961a74937d6e4bdf3b3a611978a8b5dc",
+        "sha256": "be6e5baff68d6770665ce6c7b7995c92dfdec3866b96ea21330c94b340499631",
+        "size": 4645,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-c-cli-data-fetch.md",
+        "git_blob_sha1": "630d9e4f14d22fb7adf810176d8436546333f72b",
+        "sha256": "f11d2333f2b3800215311047c0b0ad35a1020c79dbb77614ff66a8c1fef16252",
+        "size": 5042,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-d-pr-target-checkout.md",
+        "git_blob_sha1": "659d2f60fc9b9b7b2a847e625b5307308e281d86",
+        "sha256": "fc029037bb219aed5e130708eb4911ad235e47f1394e2155b5e40175ddb2d187",
+        "size": 5235,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-e-error-log-injection.md",
+        "git_blob_sha1": "681dd7ae2485c031fd5210cacd42e6b5562cb109",
+        "sha256": "2c93623d96f49c4ab70bc2dd92e111b2cfca68ff70aaf579efd86812b0df15a9",
+        "size": 5380,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-f-subshell-expansion.md",
+        "git_blob_sha1": "5ca7365843780b0d50cecd22154efcfa99c4c9d8",
+        "sha256": "d6ede1d6a7769e1b75faed3dfeba7d212e0115fb9ddb09d39145bf65d062ba7f",
+        "size": 5917,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-g-eval-of-ai-output.md",
+        "git_blob_sha1": "7e2bbfb63819ac5a25a61695fc594493a17207cf",
+        "sha256": "b9a47a41dd1470cc469cc030cd6cd6059b35741c78ba9f494c1d18b2fd65b686",
+        "size": 5602,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-h-dangerous-sandbox-configs.md",
+        "git_blob_sha1": "e28e4ace81fb01346a8984100f53c2dac7d2b9e6",
+        "sha256": "892cb478d91c2e155b4084c5cf707bea5045bb4e2a11c7a5a1131b6212690b86",
+        "size": 5758,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-i-wildcard-allowlists.md",
+        "git_blob_sha1": "881ee57e23a8bb6dee9b00b53838d727a8e3abb0",
+        "sha256": "68a4cd774ad829e535a8ec15ee492caefbae8e46f115f345b7f2bf2fecf88f86",
+        "size": 4372,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/action-profiles.md",
+    "references/cross-file-resolution.md",
+    "references/foundations.md",
+    "references/vector-b-direct-expression-injection.md",
+    "references/vector-f-subshell-expansion.md",
+    "references/vector-h-dangerous-sandbox-configs.md"
+  ],
+  "old_commit": "ea5327d4676928040877cad43941a0971c26a971",
+  "new_commit": "9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "agentic-actions-auditor: the pre-v1 claude-code-action inputs, and the composite-action secrets gap (#292)\n\n* agentic-actions-auditor: match the pre-v1 claude-code-action inputs\n\nclaude-code-action renamed its inputs at v1, per the action's own migration\nguide. The skill names only the v1 set, and SKILL.md Step 2 tells the auditor\nto ignore the ref after `@`, so a workflow carrying `direct_prompt` presents\nno prompt field the skill knows about and no sink is reported.\n\nOn main the skill never mentions `direct_prompt`, `override_prompt`,\n`custom_instructions` or `disallowed_tools`. Its one use of `allowed_tools`\nis a heading debunking it as a security control, not a field to capture.\n\nBoth spellings now appear wherever the v1 one did: the prompt-field table\nand a mapping table in foundations, the Step 3a capture list, the dangerous\nconfiguration table in action-profiles, and the Vector B, F and H signatures.\n\n* agentic-actions-auditor: say how secrets cross a resolved-file boundary\n\nStep 5b scores severity on secrets availability, and cross-file-resolution.md\ncovers resolving and input tracing but not this. The two file kinds behave\noppositely and neither can be read off the resolved file alone.\n\nA composite action has no `secrets` context, so a `${{ secrets.NAME }}` inside\none resolves to empty and is a broken workflow rather than an exposure, while a\nsecret that did arrive is sitting in `inputs.*` where a search for `secrets.`\nwill not find it. A called workflow under `secrets: inherit` holds every secret\nthe caller has without declaring any, so an empty `on.workflow_call.secrets` is\nnot evidence of a callee without secrets. Inheritance stops at the directly\ncalled workflow.\n\nThe reusable-workflow trace claimed `has secrets access` from a caller that\nshowed neither a trigger nor a `secrets:` line. Both appear in the example the\ntrace reads from.\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-08-31T13:47:18Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/ea5327d4676928040877cad43941a0971c26a971...9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+  "commit_url": "https://github.com/trailofbits/skills/commit/9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+  "skill_directory": "plugins/agentic-actions-auditor/skills/agentic-actions-auditor",
+  "local_directory": "verified_real_update_pairs/OPU-0014",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0014",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

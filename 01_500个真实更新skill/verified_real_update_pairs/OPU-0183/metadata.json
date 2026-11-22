@@ -1,0 +1,215 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.system/openai-docs/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "c7026052add7e9b532b5",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "a8924c2a35cfa290458852c4fad17c9133054c2e",
+    "computed_tree_sha": "dbdc3c25c018dbd57881e502646e880390a8155e",
+    "api_tree_sha_as_returned": "dbdc3c25c018dbd57881e502646e880390a8155e",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "30526bd9d82cf0af016175f58b795c6f79a41e44",
+        "sha256": "5cae604fb26d9ca3db47af72e16e9c1bffa47f9e6508b77566d2374dac75e610",
+        "size": 18655,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "8bbf03c2065aa2e45b288d572506dceb7f16539a",
+        "sha256": "004c73f6e01409cfd7db699e815f5fed4ced3b63dd2cc25874f6791eae7fd4bc",
+        "size": 598,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/openai-small.svg",
+        "git_blob_sha1": "1d075dc04f617247747ca8e44f8aa9193e0ab3e6",
+        "sha256": "45be1f0757eb18889eefb1e7db79668ef46a275dc4e0e78e8df5ebd7f6cdeadc",
+        "size": 1091,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/openai.png",
+        "git_blob_sha1": "e9b9eb80cd90ccdfc7e276b07f4046aa9c9d1887",
+        "sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+        "size": 1429,
+        "mode": "100644"
+      },
+      {
+        "path": "references/latest-model.md",
+        "git_blob_sha1": "04aa84bad9199428e7acba391c4e96264fe707f7",
+        "sha256": "997e0c438432f983aae1a5e8bfec27d936314501da363bb40db4e146bbfa5fc1",
+        "size": 1959,
+        "mode": "100644"
+      },
+      {
+        "path": "references/prompting-guide.md",
+        "git_blob_sha1": "0d9273cec273da2c6ae0fd162069907e5eec2352",
+        "sha256": "ecdf49b4a824a87367c7a6ec3c0218e2c5783dff951b30a101c3b6a95152aafa",
+        "size": 14338,
+        "mode": "100644"
+      },
+      {
+        "path": "references/upgrade-guide.md",
+        "git_blob_sha1": "b29f137bc67e620d91308e318ae6b36e05618039",
+        "sha256": "563784eb13ad1b44c3a592f940aa7ac2086ebeb97df3f4a09ba038b2f1564d39",
+        "size": 11308,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch-codex-manual.mjs",
+        "git_blob_sha1": "b2605520dc54aa3b71769e90887b9fdf06c97da4",
+        "sha256": "f53eb6d2f286e9efcc397e8bee93a938e37296c90953e4e06e94899ef1b6c363",
+        "size": 16085,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/resolve-latest-model-info.js",
+        "git_blob_sha1": "1bd16ac9bcf9e2abb16e317395ac64538f0cde05",
+        "sha256": "3fc420a12ab1a344ac49b852138f599d01e3ac561ec86426ba161f42a03d3e52",
+        "size": 3463,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "972cb867affac58fda9afa76bb1a19b399a278cf",
+    "computed_tree_sha": "10af10911debc3b9d3fc6895a5cd059c2d8c6218",
+    "api_tree_sha_as_returned": "10af10911debc3b9d3fc6895a5cd059c2d8c6218",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "df395fb442746703eefcc1d0cb9183efa39d9e66",
+        "sha256": "669a42ccf3323fe0ceda6e466730bcb05dddf1e0c220d6523ea504909fc49165",
+        "size": 18747,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "8bbf03c2065aa2e45b288d572506dceb7f16539a",
+        "sha256": "004c73f6e01409cfd7db699e815f5fed4ced3b63dd2cc25874f6791eae7fd4bc",
+        "size": 598,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/openai-small.svg",
+        "git_blob_sha1": "1d075dc04f617247747ca8e44f8aa9193e0ab3e6",
+        "sha256": "45be1f0757eb18889eefb1e7db79668ef46a275dc4e0e78e8df5ebd7f6cdeadc",
+        "size": 1091,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/openai.png",
+        "git_blob_sha1": "e9b9eb80cd90ccdfc7e276b07f4046aa9c9d1887",
+        "sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+        "size": 1429,
+        "mode": "100644"
+      },
+      {
+        "path": "references/latest-model.md",
+        "git_blob_sha1": "04aa84bad9199428e7acba391c4e96264fe707f7",
+        "sha256": "997e0c438432f983aae1a5e8bfec27d936314501da363bb40db4e146bbfa5fc1",
+        "size": 1959,
+        "mode": "100644"
+      },
+      {
+        "path": "references/prompting-guide.md",
+        "git_blob_sha1": "0d9273cec273da2c6ae0fd162069907e5eec2352",
+        "sha256": "ecdf49b4a824a87367c7a6ec3c0218e2c5783dff951b30a101c3b6a95152aafa",
+        "size": 14338,
+        "mode": "100644"
+      },
+      {
+        "path": "references/upgrade-guide.md",
+        "git_blob_sha1": "b29f137bc67e620d91308e318ae6b36e05618039",
+        "sha256": "563784eb13ad1b44c3a592f940aa7ac2086ebeb97df3f4a09ba038b2f1564d39",
+        "size": 11308,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch-codex-manual.mjs",
+        "git_blob_sha1": "b2605520dc54aa3b71769e90887b9fdf06c97da4",
+        "sha256": "f53eb6d2f286e9efcc397e8bee93a938e37296c90953e4e06e94899ef1b6c363",
+        "size": 16085,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/resolve-latest-model-info.js",
+        "git_blob_sha1": "1bd16ac9bcf9e2abb16e317395ac64538f0cde05",
+        "sha256": "3fc420a12ab1a344ac49b852138f599d01e3ac561ec86426ba161f42a03d3e52",
+        "size": 3463,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "a8924c2a35cfa290458852c4fad17c9133054c2e",
+  "new_commit": "972cb867affac58fda9afa76bb1a19b399a278cf",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "[codex] Mirror compact OpenAI docs search guidance (#494)\n\n## Summary\n\nMirrors [openai/codex#28389](https://github.com/openai/codex/pull/28389)\ninto the system and curated OpenAI Docs skills. The compact search\nguidance performs better in Codex.\n\n## Validation\n\n- Both skill validations passed\n- `git diff --check`",
+  "new_commit_time": "2026-06-17T19:15:37Z",
+  "compare_url": "https://github.com/openai/skills/compare/a8924c2a35cfa290458852c4fad17c9133054c2e...972cb867affac58fda9afa76bb1a19b399a278cf",
+  "commit_url": "https://github.com/openai/skills/commit/972cb867affac58fda9afa76bb1a19b399a278cf",
+  "skill_directory": "skills/.system/openai-docs",
+  "local_directory": "verified_real_update_pairs/OPU-0183",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0183",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-messaging/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "b5eb6ec14e9d36378dc9",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "74ba7ea791ead8b56128594cce35db1da397d7b4",
+    "computed_tree_sha": "2fcb285dd7a2b70c17e96074d1d25e7a3aaf48af",
+    "api_tree_sha_as_returned": "2fcb285dd7a2b70c17e96074d1d25e7a3aaf48af",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "415a86571cddbb296382616bb3936cb248a67474",
+        "sha256": "41f2de39c09717edea2760d8a595268d1c75313cb65c0b73ff7f7b2f488dd63c",
+        "size": 3880,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-eventhubs-dotnet.md",
+        "git_blob_sha1": "42bff58687c3c49f2eeb1b9348e6ac4362be8a01",
+        "sha256": "429688261f07a36cb21065499a29663e96cb34998e70e7cb80b8eaba98ccb730",
+        "size": 3576,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-eventhubs-java.md",
+        "git_blob_sha1": "7fdf6a84ebec253755d953e7b01403b341042d29",
+        "sha256": "188343d4ae5bb3b2322f64434f787e6767df6761e491c598765aac725711c896",
+        "size": 3301,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-eventhubs-js.md",
+        "git_blob_sha1": "9800e5afd4bc21fd15374dcaa69cd0bbd4619e23",
+        "sha256": "81d2e71eb015aca20267dc5acddf7c86137b9e134bca25b7b421f061d28123e4",
+        "size": 2780,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-eventhubs-py.md",
+        "git_blob_sha1": "aa0d4384eb037df9cdf6467be4197769344520c2",
+        "sha256": "36e6725d9bbc6ed49c04c2fc2dcd48a1d356ca66806c03eb08a744878658e071",
+        "size": 4460,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-servicebus-dotnet.md",
+        "git_blob_sha1": "81cbe6cbe4fc1a91233c074f82018b340b5cd542",
+        "sha256": "49ee74f9327aa2fe311d56d0bed2b80d757c807b82e6385833497570a1eb3927",
+        "size": 2568,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-servicebus-java.md",
+        "git_blob_sha1": "e4a10d59c13ad5b99987d84ed2d81fbe34d74a53",
+        "sha256": "d5c07b964c79225c52f7dcaea2c46cef5fdb320aec67cbf3ba0fc03d46675910",
+        "size": 2281,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-servicebus-js.md",
+        "git_blob_sha1": "c63c23845a06fb54cd24a6045cc10940cc24ee78",
+        "sha256": "ef4131010dbaa59fea9dd9c5b6b6a4d866e83d375fd4d920c79d25ccadf0e16b",
+        "size": 2489,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-servicebus-py.md",
+        "git_blob_sha1": "cf1ef08da87e606eda19c17a9a7cbcaa330b4876",
+        "sha256": "274162fa4cec6f96fea056639c7cf0d8821bce277af82eb01343f6a9e74f647b",
+        "size": 2388,
+        "mode": "100644"
+      },
+      {
+        "path": "references/service-troubleshooting.md",
+        "git_blob_sha1": "26809d46a2e61cde1388c8d3f3830bdf78728df8",
+        "sha256": "206d243b21e22a129b68a4ba36729e18b740bffaf2dfa1aecc9fd36dc7d4df02",
+        "size": 4208,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "6caaee77319fb3d6cb2b749c70586a1313bde78d",
+    "computed_tree_sha": "de972c7cf2a46e572b5fcfd24ed8963bc41b5a04",
+    "api_tree_sha_as_returned": "de972c7cf2a46e572b5fcfd24ed8963bc41b5a04",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "512147e502149117b33fed6c0a367606f1829e1e",
+        "sha256": "6304fe3ccbb6f36a4dcafe1bfe30d0c03618019d68fb4a933fd716bf8763d84c",
+        "size": 3282,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/auth-best-practices.md",
+    "references/sdk/azure-eventhubs-dotnet.md",
+    "references/sdk/azure-eventhubs-java.md",
+    "references/sdk/azure-eventhubs-js.md",
+    "references/sdk/azure-eventhubs-py.md",
+    "references/sdk/azure-servicebus-dotnet.md",
+    "references/sdk/azure-servicebus-java.md",
+    "references/sdk/azure-servicebus-js.md",
+    "references/sdk/azure-servicebus-py.md",
+    "references/service-troubleshooting.md"
+  ],
+  "old_commit": "74ba7ea791ead8b56128594cce35db1da397d7b4",
+  "new_commit": "6caaee77319fb3d6cb2b749c70586a1313bde78d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-04-29T11:31:45Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/74ba7ea791ead8b56128594cce35db1da397d7b4...6caaee77319fb3d6cb2b749c70586a1313bde78d",
+  "commit_url": "https://github.com/microsoft/skills/commit/6caaee77319fb3d6cb2b749c70586a1313bde78d",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-messaging",
+  "local_directory": "verified_real_update_pairs/OPU-0472",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0472",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-build-basics/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "a10aeee5f99f76fdc796",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+    "computed_tree_sha": "b2afc81e5bfc11405889654a8c8399899f768059",
+    "api_tree_sha_as_returned": "b2afc81e5bfc11405889654a8c8399899f768059",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7fc2b542ab73e284f3147a02cfbf68b8252bf0c9",
+        "sha256": "a3ca49374997ad7d0936d480e3a41adf3e469c46ac70731420e74522643fa229",
+        "size": 8162,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cb-create-trigger.md",
+        "git_blob_sha1": "7467814d84ee8e3b0af87a0120dd0a1c38e20b2f",
+        "sha256": "fa05f6cd0828d32d841383d5e93c3b7c1d3cf042c8afb036cb5690201aaa0f1d",
+        "size": 11854,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cb-list-build-zero-state.md",
+        "git_blob_sha1": "307e8f552bf595c5a82f1dd313bca20e5a1a2d9f",
+        "sha256": "0782bfaaee81f5ad9c1c949915d9950939b64fe4cb04857218453c414af18e4c",
+        "size": 7404,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cb-run-trigger.md",
+        "git_blob_sha1": "f149a45b988bbcd7d179c28c78cfd297a3610a1b",
+        "sha256": "c7af107e8d5459e11dbac5fc4fc8d1bfa93fe431580296e7994d186f941a6e44",
+        "size": 6061,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+    "computed_tree_sha": "fbbfa243198cbf25703931e1b4576ec21cc4ec94",
+    "api_tree_sha_as_returned": "fbbfa243198cbf25703931e1b4576ec21cc4ec94",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0f1672618d609be7f85803cc37c337cd1faf2770",
+        "sha256": "3dda02d8830aa553216ac9920dffe3c9b3e26f7f55af4810b0d0281d3de76389",
+        "size": 8603,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "3173aefabac426a91cb3a293a034cba40c886bb2",
+        "sha256": "b4718db85a87ef0ed068528e161661302f02ad0c26e96d80823639c9f510f9fb",
+        "size": 1894,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cb-create-trigger.md",
+        "git_blob_sha1": "7467814d84ee8e3b0af87a0120dd0a1c38e20b2f",
+        "sha256": "fa05f6cd0828d32d841383d5e93c3b7c1d3cf042c8afb036cb5690201aaa0f1d",
+        "size": 11854,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cb-list-build-zero-state.md",
+        "git_blob_sha1": "307e8f552bf595c5a82f1dd313bca20e5a1a2d9f",
+        "sha256": "0782bfaaee81f5ad9c1c949915d9950939b64fe4cb04857218453c414af18e4c",
+        "size": 7404,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cb-run-trigger.md",
+        "git_blob_sha1": "f149a45b988bbcd7d179c28c78cfd297a3610a1b",
+        "sha256": "c7af107e8d5459e11dbac5fc4fc8d1bfa93fe431580296e7994d186f941a6e44",
+        "size": 6061,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+  "new_commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to DevEx, Serverless, and Observability skills.\n\n- Add `references/attribution.md` to all 21 DevEx, Serverless, API Gateway, and Observability skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills and bundled plugin manifests.\n\nPiperOrigin-RevId: 1002429999",
+  "new_commit_time": "2026-10-19T17:26:03Z",
+  "compare_url": "https://github.com/google/skills/compare/6c946422b9456555b9a4d8144edeeb64a9f56e94...a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "commit_url": "https://github.com/google/skills/commit/a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "skill_directory": "skills/cloud/cloud-build-basics",
+  "local_directory": "verified_real_update_pairs/OPU-0347",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0347",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

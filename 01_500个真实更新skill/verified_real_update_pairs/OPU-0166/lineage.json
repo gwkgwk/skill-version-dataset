@@ -1,0 +1,82 @@
+{
+  "sha": "2c9ebb321958f64aa9414b46e4240901e2b9e1a9",
+  "node_id": "C_kwDOQchDtdoAKDJjOWViYjMyMTk1OGY2NGFhOTQxNGI0NmU0MjQwOTAxZTJiOWUxYTk",
+  "commit": {
+    "author": {
+      "name": "Dominik Kundel",
+      "email": "dkundel@openai.com",
+      "date": "2026-02-21T04:07:43Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-02-21T04:07:43Z"
+    },
+    "message": "Update vercel skill instructions for CLI check and fallback (#180)\n\nSummary\n- document a preliminary `vercel` CLI check and clarify when to escalate\npermissions\n- align deploy script references with other skills using the `skill_dir`\nplaceholder for script paths\n- spell out fallback behavior when the CLI is missing or lacks\ncredentials\nTesting\n- Not run (not requested)",
+    "tree": {
+      "sha": "1cc063807541bdd920094f98f835b61232e091a5",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/1cc063807541bdd920094f98f835b61232e091a5"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/2c9ebb321958f64aa9414b46e4240901e2b9e1a9",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpmS+PCRC1aQ7uu5UhlAAAMxgQAGW3Gkpb4vbomn/dp/I8F206\ngIbtKztparFqQvjG105tiFqDd/nq9dLyVYyd/6MPQGZQaI77DvokJ4MkdXVux235\n9b0Nw4pKMe/S8wPrkpWOyzU0iffAZGMQBeT/Op8EcE4YAHJkRo50xRWVG23IBmc8\ny2+oJsvfVneSwEM90Fh1oZdCWmRg+vAZrmHsie7bD/B6Hp5PlMNo1aUmeiMTAIzM\njuYjv+FpJax9kE36wAP3jCDghWxNEoDAhAuTndVHuBCWF9zx5VILY30+y9fOLuti\nMGv69z4XWMCHmK5bDyVJqg6i30RTksK17SS5G8wQSrMlLxgcY/bNbXvV7WYC3mqO\nWadUZjZkUdaqsI2wMxnN12iyV4gyE3RcsTZsPbbijQDMkxxUEognFMQQTvGcFk0l\nhq+Py4fsAVp3N5pHxTsbx0l2DqGpPCwcSpmtvicE1dM7mvDGtE6wR76IzXGxQrZP\nrpiIx91+kA29CvATxgqRUGhJmoUHaZyMS2jXwMfq0aR0zf/Sgn6342l7/Qzdk2ZW\n8fgfRi5Uen9uFHPW/WapIH4UiPyF+tcI2svQh0xLytVuslPtS4mHLcfKKBJpzYP6\nvVYnrny3p7vaZQHquNFYmTGo0v3d53ZyLZGHmS8W7o/vmKXJYwKqL9JTlHZIJr7G\nUBg5oue8vMwgPcSJQX7+\n=PM7H\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 1cc063807541bdd920094f98f835b61232e091a5\nparent 4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc\nauthor Dominik Kundel <dkundel@openai.com> 1771646863 -0800\ncommitter GitHub <noreply@github.com> 1771646863 -0800\n\nUpdate vercel skill instructions for CLI check and fallback (#180)\n\nSummary\n- document a preliminary `vercel` CLI check and clarify when to escalate\npermissions\n- align deploy script references with other skills using the `skill_dir`\nplaceholder for script paths\n- spell out fallback behavior when the CLI is missing or lacks\ncredentials\nTesting\n- Not run (not requested)",
+      "verified_at": "2026-02-21T04:07:44Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/2c9ebb321958f64aa9414b46e4240901e2b9e1a9",
+  "html_url": "https://github.com/openai/skills/commit/2c9ebb321958f64aa9414b46e4240901e2b9e1a9",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/2c9ebb321958f64aa9414b46e4240901e2b9e1a9/comments",
+  "author": {
+    "login": "dkundel-openai",
+    "id": 200841172,
+    "node_id": "U_kgDOC_iX1A",
+    "avatar_url": "https://avatars.githubusercontent.com/u/200841172?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dkundel-openai",
+    "html_url": "https://github.com/dkundel-openai",
+    "followers_url": "https://api.github.com/users/dkundel-openai/followers",
+    "following_url": "https://api.github.com/users/dkundel-openai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dkundel-openai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dkundel-openai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dkundel-openai/subscriptions",
+    "organizations_url": "https://api.github.com/users/dkundel-openai/orgs",
+    "repos_url": "https://api.github.com/users/dkundel-openai/repos",
+    "events_url": "https://api.github.com/users/dkundel-openai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dkundel-openai/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+      "url": "https://api.github.com/repos/openai/skills/commits/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+      "html_url": "https://github.com/openai/skills/commit/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/burpsuite-project-parser/skills/burpsuite-project-parser/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "d4bd92357714245d1264",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "49699bb474b93a06638573ad5a9d1a18464253c6",
+    "computed_tree_sha": "588623bb2c3965cc48fb2415eeabf5199d3d4604",
+    "api_tree_sha_as_returned": "588623bb2c3965cc48fb2415eeabf5199d3d4604",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "83f953a78496e835ce40fad1f1b8409eb55442bb",
+        "sha256": "43bf45e43192229810b5dab47d1eff3380db9cc86ed89374db87f9a869f19543",
+        "size": 12486,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/burp-search.sh",
+        "git_blob_sha1": "fee0f112835f94dc440c47a7d5a79a1ea3dec5ff",
+        "sha256": "342adc2d2529ecd05f9e5109d4170fc7d1b6c12d68ccaf6ecb6e00148df5d37c",
+        "size": 3035,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "14e5a1070020c5d101e8362756f3201fb677b467",
+    "computed_tree_sha": "63cf009840b61a13e236b4a3188b2017ec1c9fa8",
+    "api_tree_sha_as_returned": "63cf009840b61a13e236b4a3188b2017ec1c9fa8",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6bd5e5c00fe409b0a6fd1e1e199d65eb71cdb659",
+        "sha256": "6c34b59d603023bc03b2aa2b6a5788eba6be9b69ff5c4096d19c288cce3dbd13",
+        "size": 16675,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/burp-search.sh",
+        "git_blob_sha1": "3bd71f6855affbc652e55fa0165a1369cc75fd77",
+        "sha256": "f38a7a59ce482981ea4de145ec789d2095c2304b98035b78fd5f0714dcc256af",
+        "size": 9972,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/burp-search.sh"
+  ],
+  "old_commit": "49699bb474b93a06638573ad5a9d1a18464253c6",
+  "new_commit": "14e5a1070020c5d101e8362756f3201fb677b467",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "burpsuite-project-parser: fail rather than report an unverified search as clean (#288)\n\n* burpsuite-project-parser: fail rather than report an unverified search as clean\n\nBurp ignores flags it does not recognise, so without the parser\nextension it starts normally and drops the query. The script streamed\nwhatever came back and exited 0, so a missing extension was\nindistinguishable from a search that matched nothing.\n\nOutput now streams through awk, which classifies it: non-JSON on the\nfirst line means the flags were dropped (exit 4), and no output at all\nmeans an empty result set and an unloaded extension cannot be told\napart (exit 3, stated plainly rather than reported as success). Burp's\nown non-zero exits propagate instead of being masked. SIGPIPE from a\ndownstream head or jq is not a failure -- the documented workflows do\nthat deliberately.\n\nset +e around the pipeline rather than '|| true', which is a command of\nits own and resets PIPESTATUS before it can be read.\n\nSKILL.md documents the exit codes, notes that '0 0' from the size check\nis not a size to act on, and adds a rationalization for reading an\nempty search as absence of traffic.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* burpsuite-project-parser: classify the whole stream, not the first line\n\nThree defects in the first-line check, all in the same place.\n\nThe pattern accepted `{` or `[`, and `[main] INFO burp.StartBurp - ...`\nis very common Java stdout. With the extension unloaded that first line\npassed as JSON, awk exited 0, and the banner went to stdout as a\nverified clean result -- the exact state this branch exists to prevent,\nthrough a one-character widening.\n\nThe opposite direction was worse: a working install that prints a\nlicence or startup line before the JSON set not_json on line 1 and\nexited 4, telling the agent the extension is missing and to install it\nbefore trusting any result. Every documented workflow would have failed\non a setup that worked before this branch. A blank first line did the\nsame, with an empty string in the diagnostic.\n\nTightening to `{` trades one for the other, so the check is now over the\nwhole stream: count lines that are JSON objects, fail only when that\ncount is zero. A preamble is tolerated, a log line is not mistaken for\ndata, and only JSON objects reach stdout -- everything else goes to\nstderr, so a downstream grep or jq cannot match a banner.\n\nSKILL.md also now says the exit code is invisible through a pipe, since\nnearly every documented example ends in | jq or | head and reports that\ncommand's status. stderr is the reliable signal; pipefail and\nPIPESTATUS are shown for reading the code itself.\n\nVerified against the stub: JSON 0, empty 3, banner 4, [main] INFO log 4,\nlicence preamble then JSON 0, blank first line 0, Burp exit 7\npropagated, SIGPIPE clean, banner text absent from stdout.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* burpsuite-project-parser: flush per line, and pin the classification with a suite\n\nTwo gaps in the previous commit, both found by testing rather than reading.\n\nawk block-buffers when its stdout is a pipe, and every documented workflow\npipes. So the claim that streaming through awk keeps `| jq` and `| head`\nunbuffered was wrong in its second half: a long search over a large project\nprinted nothing until Burp exited, where the bare `exec` this replaced\nstreamed line by line. `fflush()` after each emitted object restores that for\none write per line. The temp-file half of the claim was right and stands.\n\nThe change also shipped with no test, while arguing from the AGENTS.md rule\nthat a checker inspecting zero items must not pass -- the same paragraph asks\nfor a fixture proving the checker still detects its target. The suite supplies\nit: 16 assertions over a stub standing in for Burp, covering the working case,\nexit 3 on no output, exit 4 on a startup banner and on a `[main] INFO` line\nthat a leading-bracket check would have taken for JSON, a banner ahead of real\nJSON still succeeding, Burp's own non-zero status propagating with and without\noutput, SIGPIPE from a downstream `head` producing no stderr noise, and the\nstreaming behaviour above.\n\nVerified the suite bites by mutating the script three ways -- dropping\nfflush(), turning exit 3 into exit 0, and letting non-JSON reach stdout. All\nthree turn it red. The assertion count is asserted for the same reason the\nscript refuses to report an unverified empty result.\n\nStill not covered, and recorded at the foot of the suite: the stub proves the\nclassification, not Burp's behaviour with the extension missing. If Burp\nlaunches and waits rather than exiting, neither 3 nor 4 fires and the script\nblocks. Settling that needs Burp Pro and a renamed extension JAR.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* burpsuite-project-parser: cap the stderr mirror, and make exit 3 resolvable\n\nTwo problems with the previous commit, both in the case it exists to handle.\n\nWhen no line is JSON -- the missing-extension case -- awk never writes to\nstdout, so it never takes SIGPIPE, so a documented downstream `head -c 50000`\ncannot close the pipeline early. It blocks to EOF while every line Burp\nproduced is mirrored to stderr, which the caller captures and which no\ndocumented output limit covers. Measured on a 100k-line non-JSON stream behind\na `head -c 200` that could not terminate: 8,389,235 bytes across 100,005 lines.\nUnder the bare `exec` this replaced, those bytes went to stdout where `head`\ntruncated them, so this was a regression in the exact scenario the change\ntargets. Capped at 20 lines plus a suppressed count, the same stream now yields\n2,014 bytes across 26 lines. Exit codes are unchanged.\n\nExit 3's remediation was not something the agent reading it could carry out.\n`allowed-tools` is `Bash Read` and Burp runs headless, so \"Check Burp Suite ->\nExtensions\" has no GUI to open, and re-running returns 3 again. That leaves\ndeciding the extension is loaded and reporting \"nothing found\" -- the false\nnegative this whole script exists to prevent, reached through its own\ninstructions, and reached often, since exit 3 is the common case for any\nnarrow regex. Both the script and SKILL.md now give a control query instead: a\nselector broad enough that it must return rows if the parser works at all, run\nagainst the same project. Rows mean the narrow query genuinely matched nothing;\nexit 3 again means nothing comes back through the parser at all; exit 4 means\nthe flags were dropped. Asking the user to check the GUI is named as the\nlegitimate answer where the control is inconclusive -- guessing is not.\n\nThe suite gains two assertions for the cap, since an uncapped mirror looks\nidentical to a capped one on every stream the other 16 use. Verified by\nremoving the cap: the suite goes red.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* burpsuite-project-parser: bound the mirror by length, skip blank lines, fix the control query\n\nThree fixes to the previous commit, all in the parts that commit added.\n\nThe control query it introduced for exit 3 told the agent to run bare\n`proxyHistory | head -n 1` -- the one selector this skill bans outright.\nSKILL.md calls it \"NEVER DO THIS\" (:125), \"NEVER use this directly\" (:183,\n:191), notes it \"can return gigabytes\" (:100), and sets a hard rule that body\ncontent over 1000 chars must never enter context (:140). `head -n 1` does not\nsoften that; it delivers exactly one complete record, request and response and\nbodies, which the file's own table says can be megabytes. And exit 3 is the\ncommon case, so the advice would have fired constantly.\n`proxyHistory.request.headers` answers the same question -- does anything at\nall come back through the parser -- at the under-1KB-per-record the file\ndocuments at :106.\n\nThe stderr cap bounded how many lines were mirrored, not how long one could\nbe, so a single very long line passed the count check and was written in full.\nSKILL.md:217 already records that shape (\"A single 10MB response on one line\nwill show high byte count but only 1 line\"), and those bytes are captured HTTP\ntraffic on a channel the documented `head -c` on stdout cannot reach. Lines are\nnow truncated at 500 characters with the original length reported.\n\nA whitespace-only line was counted as non-JSON, so one trailing newline turned\nan empty-but-correct result into exit 4 -- \"the extension is not loaded\",\nwrongly, on a healthy install -- and mirrored a diagnostic with nothing after\nthe colon, which is the empty-diagnostic defect e3dd90c set out to remove.\nBlank lines are now skipped before the count.\n\nThree assertions added, taking the suite to 21. Both new guards are\nmutation-checked: removing the length cap or the blank-line skip turns the\nsuite red.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-09-01T13:29:40Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/49699bb474b93a06638573ad5a9d1a18464253c6...14e5a1070020c5d101e8362756f3201fb677b467",
+  "commit_url": "https://github.com/trailofbits/skills/commit/14e5a1070020c5d101e8362756f3201fb677b467",
+  "skill_directory": "plugins/burpsuite-project-parser/skills/burpsuite-project-parser",
+  "local_directory": "verified_real_update_pairs/OPU-0158",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0158",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

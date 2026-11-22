@@ -1,0 +1,93 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-migrate-from-ai-studio/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "b359630bbfe60a2e14b7",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "0c7c0579fc23896a8faa802dda333c4a3f458891",
+    "computed_tree_sha": "869afd2600723b1ec6e4fdedabf0d3bce7ea226f",
+    "api_tree_sha_as_returned": "869afd2600723b1ec6e4fdedabf0d3bce7ea226f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "de258fe9fc5b94e7db7bb2042d1059dcb2a3e147",
+        "sha256": "f8df91303ca2258d1167f1103189d7e3df0e73e72cb0cb77c7c11a218b42ce8f",
+        "size": 14542,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "7dc5905a2aeb80279b48f37a62acb149c93206ac",
+        "sha256": "91d9fdf7999e1550ed52c0132ad2aa7e54c1c850d73dc9e7203b3f6d6de4647f",
+        "size": 1959,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "5839bc29b5b7cadf8c4140461eff19c9487a8e19",
+    "computed_tree_sha": "0e8353a7ca2e0e9d95a233b339ceca623d373eba",
+    "api_tree_sha_as_returned": "0e8353a7ca2e0e9d95a233b339ceca623d373eba",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5db806e49eeaebda80392af76741ff638d71cea4",
+        "sha256": "3079ed17e969c393e027769a27c64ad99597bd4171a3480000a820a11598144b",
+        "size": 14492,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "7dc5905a2aeb80279b48f37a62acb149c93206ac",
+        "sha256": "91d9fdf7999e1550ed52c0132ad2aa7e54c1c850d73dc9e7203b3f6d6de4647f",
+        "size": 1959,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "0c7c0579fc23896a8faa802dda333c4a3f458891",
+  "new_commit": "5839bc29b5b7cadf8c4140461eff19c9487a8e19",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update agent-platform-migrate-from-ai-studio and gemini-agents-api skills\n\n- agent-platform-migrate-from-ai-studio: Query `project/numeric-project-id` from the Compute Engine metadata server, use the `roles/aiplatform.user` IAM role identifier, update SDK and ADK model examples to `gemini-3.5-flash`, and update the ADK Agent Platform documentation link.\n- gemini-agents-api: Update the `base_agent` example identifier to `antigravity-preview-09-2026` and reference the `gemini-interactions-api` skill by name.\n\nPiperOrigin-RevId: 1022802953",
+  "new_commit_time": "2026-11-16T15:36:01Z",
+  "compare_url": "https://github.com/google/skills/compare/0c7c0579fc23896a8faa802dda333c4a3f458891...5839bc29b5b7cadf8c4140461eff19c9487a8e19",
+  "commit_url": "https://github.com/google/skills/commit/5839bc29b5b7cadf8c4140461eff19c9487a8e19",
+  "skill_directory": "skills/cloud/agent-platform-migrate-from-ai-studio",
+  "local_directory": "verified_real_update_pairs/OPU-0230",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0230",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

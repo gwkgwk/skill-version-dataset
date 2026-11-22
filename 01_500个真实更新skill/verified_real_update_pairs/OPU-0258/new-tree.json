@@ -1,0 +1,125 @@
+{
+  "sha": "7b074fee73a105830ac10946aa08103eb00b47db",
+  "url": "https://api.github.com/repos/google/skills/git/trees/7b074fee73a105830ac10946aa08103eb00b47db",
+  "tree": [
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86b3cedd57b357af3f4b0c2ee45ca6540565bf1",
+      "size": 42030,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/e86b3cedd57b357af3f4b0c2ee45ca6540565bf1"
+    },
+    {
+      "path": "references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d225d474e94bb1a052d07b078fd666494f789f1b",
+      "url": "https://api.github.com/repos/google/skills/git/trees/d225d474e94bb1a052d07b078fd666494f789f1b"
+    },
+    {
+      "path": "references/attribution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9ae37feac378bfb08e42678d629aa0d05b9d147",
+      "size": 1937,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/a9ae37feac378bfb08e42678d629aa0d05b9d147"
+    },
+    {
+      "path": "references/data_prep.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef6a1f8b8c80abe0da1621fc625f7fe76a660ed",
+      "size": 4107,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/bef6a1f8b8c80abe0da1621fc625f7fe76a660ed"
+    },
+    {
+      "path": "references/hf_datasets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f1ac3d29fdd65fb1a9857deaacbf7b04bdee7ed",
+      "size": 5442,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/3f1ac3d29fdd65fb1a9857deaacbf7b04bdee7ed"
+    },
+    {
+      "path": "references/models.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a237f2591e00e7dd2adb29ba2e564d9b5129624b",
+      "size": 10076,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/a237f2591e00e7dd2adb29ba2e564d9b5129624b"
+    },
+    {
+      "path": "references/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1049a590d417d58e99480faab974d4dff80ac84f",
+      "size": 100,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/1049a590d417d58e99480faab974d4dff80ac84f"
+    },
+    {
+      "path": "references/tuning_guide.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8514ebe44b45bf2b5f4c3384be0d3b943689f545",
+      "size": 2315,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/8514ebe44b45bf2b5f4c3384be0d3b943689f545"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3b53bfaab30223049e288de234094794f8ce9f1",
+      "url": "https://api.github.com/repos/google/skills/git/trees/e3b53bfaab30223049e288de234094794f8ce9f1"
+    },
+    {
+      "path": "scripts/calculate_cost.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59eeba605b256b714bdd7683f357913166fc20fe",
+      "size": 13427,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/59eeba605b256b714bdd7683f357913166fc20fe"
+    },
+    {
+      "path": "scripts/cancel_tuning_job.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e432119465e2b6d7366b4ffca3a6348afcfbf9ec",
+      "size": 1130,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/e432119465e2b6d7366b4ffca3a6348afcfbf9ec"
+    },
+    {
+      "path": "scripts/list_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "377e521a5b6bc3e325ec3e89bde17fb5c089b9ab",
+      "size": 1052,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/377e521a5b6bc3e325ec3e89bde17fb5c089b9ab"
+    },
+    {
+      "path": "scripts/monitor_tuning_job.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0a25b8c4d276cdc750fb7ed8865b51e56e5af1da",
+      "size": 2308,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/0a25b8c4d276cdc750fb7ed8865b51e56e5af1da"
+    },
+    {
+      "path": "scripts/prepare_dataset.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d763173ccce05020dbc11f7dec0f87badefe58ba",
+      "size": 11976,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/d763173ccce05020dbc11f7dec0f87badefe58ba"
+    },
+    {
+      "path": "scripts/tune_open_model.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "db7a8dd30287a9e92d95905d043a54feffe0cad4",
+      "size": 4075,
+      "url": "https://api.github.com/repos/google/skills/git/blobs/db7a8dd30287a9e92d95905d043a54feffe0cad4"
+    }
+  ],
+  "truncated": false
+}

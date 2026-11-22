@@ -1,0 +1,82 @@
+{
+  "sha": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "node_id": "C_kwDOQmUc69oAKDBlMDlkZjRjZGJkNjYzNTBjOWQ0ZDNiMDdlODg4ZmM1OGIzZDIyOWI",
+  "commit": {
+    "author": {
+      "name": "Matt TK Taylor",
+      "email": "matttaylor@cloudflare.com",
+      "date": "2026-10-27T16:25:48Z"
+    },
+    "committer": {
+      "name": "Matt TK Taylor",
+      "email": "matttaylor@cloudflare.com",
+      "date": "2026-10-27T16:25:48Z"
+    },
+    "message": "feat: add skill feedback reference to every skill\n\nWhen a skill gives incorrect, outdated, or missing guidance, agents had no\ninstructions for reporting it, so the problem stayed with the user. Each\nskill now includes references/skill-feedback.md, which tells the agent to\nask the user, draft a GitHub issue on cloudflare/skills with a structured\nfield table, review it with the user, and post it with a\n`skill-feedback: <skill>:` title prefix. Each SKILL.md links to it.\n\nThe reference is copied into every skill because skills can be installed\nindividually.",
+    "tree": {
+      "sha": "ec468046fefa219b2f7551d7bf9a48f7882b6489",
+      "url": "https://api.github.com/repos/cloudflare/skills/git/trees/ec468046fefa219b2f7551d7bf9a48f7882b6489"
+    },
+    "url": "https://api.github.com/repos/cloudflare/skills/git/commits/0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgnW93pR8Hqv105jWdtgBJq7VcWB\n9SXhGXG190k8jqF9IAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQMpSoCd8oHOeNsdWnKw7C59wJcLhP5fONjCV8CHWeOb2JtAJfWfugU+6WeqAj16jub\nPq/+lP0UKB3mIG/VlangY=\n-----END SSH SIGNATURE-----",
+      "payload": "tree ec468046fefa219b2f7551d7bf9a48f7882b6489\nparent 86505e44f87d801aa1864a3c4109e9a8ae5c409f\nauthor Matt TK Taylor <matttaylor@cloudflare.com> 1793118348 +0000\ncommitter Matt TK Taylor <matttaylor@cloudflare.com> 1793118348 +0000\n\nfeat: add skill feedback reference to every skill\n\nWhen a skill gives incorrect, outdated, or missing guidance, agents had no\ninstructions for reporting it, so the problem stayed with the user. Each\nskill now includes references/skill-feedback.md, which tells the agent to\nask the user, draft a GitHub issue on cloudflare/skills with a structured\nfield table, review it with the user, and post it with a\n`skill-feedback: <skill>:` title prefix. Each SKILL.md links to it.\n\nThe reference is copied into every skill because skills can be installed\nindividually.\n",
+      "verified_at": "2026-10-27T16:25:55Z"
+    }
+  },
+  "url": "https://api.github.com/repos/cloudflare/skills/commits/0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "html_url": "https://github.com/cloudflare/skills/commit/0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "comments_url": "https://api.github.com/repos/cloudflare/skills/commits/0e09df4cdbd66350c9d4d3b07e888fc58b3d229b/comments",
+  "author": {
+    "login": "MattieTK",
+    "id": 125273,
+    "node_id": "MDQ6VXNlcjEyNTI3Mw==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/125273?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MattieTK",
+    "html_url": "https://github.com/MattieTK",
+    "followers_url": "https://api.github.com/users/MattieTK/followers",
+    "following_url": "https://api.github.com/users/MattieTK/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MattieTK/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MattieTK/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MattieTK/subscriptions",
+    "organizations_url": "https://api.github.com/users/MattieTK/orgs",
+    "repos_url": "https://api.github.com/users/MattieTK/repos",
+    "events_url": "https://api.github.com/users/MattieTK/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MattieTK/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "MattieTK",
+    "id": 125273,
+    "node_id": "MDQ6VXNlcjEyNTI3Mw==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/125273?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MattieTK",
+    "html_url": "https://github.com/MattieTK",
+    "followers_url": "https://api.github.com/users/MattieTK/followers",
+    "following_url": "https://api.github.com/users/MattieTK/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MattieTK/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MattieTK/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MattieTK/subscriptions",
+    "organizations_url": "https://api.github.com/users/MattieTK/orgs",
+    "repos_url": "https://api.github.com/users/MattieTK/repos",
+    "events_url": "https://api.github.com/users/MattieTK/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MattieTK/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+      "url": "https://api.github.com/repos/cloudflare/skills/commits/86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+      "html_url": "https://github.com/cloudflare/skills/commit/86505e44f87d801aa1864a3c4109e9a8ae5c409f"
+    }
+  ]
+}

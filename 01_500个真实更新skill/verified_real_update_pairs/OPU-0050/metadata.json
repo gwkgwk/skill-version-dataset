@@ -1,0 +1,178 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/hf-cloud-sagemaker-production-defaults/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "38c3b3c9a6dff3c5f7a5",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+    "computed_tree_sha": "26ccafe4d6a20cc3f9073a2be713c96e87be210f",
+    "api_tree_sha_as_returned": "26ccafe4d6a20cc3f9073a2be713c96e87be210f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "cb6b72048486b72c154c77b5df5cba542ceccf3d",
+        "sha256": "25423961aac5c2d5cb379201e272b4bad1c77119acd33844d168bceaf4c2c61f",
+        "size": 27002,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment-template.md",
+        "git_blob_sha1": "c2b52bfdf53a7fc0084919047a4836fc5b410c9c",
+        "sha256": "c5d65eb2c667f002d92b3a33f69958d1d734a96a7b13dcb1561e51f5c3bdbcbc",
+        "size": 3664,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/_common.py",
+        "git_blob_sha1": "c4f13ce80dbfba9ec3395e3e5ac689440457aaf6",
+        "sha256": "698f166212a005a5420b774ebdff1569e54244d14ee4d90bb8653ee8696d508d",
+        "size": 4874,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/deploy.py",
+        "git_blob_sha1": "823e241de03e1b6154d9d486115f0af16b3d2b99",
+        "sha256": "31dba6fe8ab647347a0405ebacb52e59d8af4c0317d3505e42c7b016a49656ef",
+        "size": 12915,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/deploy_async.py",
+        "git_blob_sha1": "5ec28b84a85fffd2d5a73201327625b63841a755",
+        "sha256": "1143cc3c5d526837aae01a4f5f48375be5922dfebd54df2c480dda1930b3fc7e",
+        "size": 18430,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/deploy_ic.py",
+        "git_blob_sha1": "f7b93e13a72b7548d25622f18e8925f4b0094623",
+        "sha256": "5538ed717514cb7857631573f49990003ea963febe05434b802830f4880e03f1",
+        "size": 20583,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/invoke_endpoint.py",
+        "git_blob_sha1": "08245d39cb3651abf873b7c6280a930aedbc2275",
+        "sha256": "559173501af510e257156f27990e27c23d2cc3bede1f1ecb1a767de4b5b960e9",
+        "size": 6509,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/teardown.py",
+        "git_blob_sha1": "c85b230bf3f543bc088ee843e2bcc9ae859870ba",
+        "sha256": "640c35eca572c492ab3dae016ed227d192f7db878dbb11e72dd2b550da8d220d",
+        "size": 9461,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f3186efbbc322121eb5d0f31e8a1d669ee961159",
+    "computed_tree_sha": "ab31da1d96901d2ef2d52383e65258fa48ac378e",
+    "api_tree_sha_as_returned": "ab31da1d96901d2ef2d52383e65258fa48ac378e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0161c21c4a12e0f79ff231d3e04871fa61e15bc7",
+        "sha256": "6a8c1aff465e548ac4476d56831f864621af83b6a0f54544637601f3ecc44f9e",
+        "size": 27636,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment-template.md",
+        "git_blob_sha1": "c2b52bfdf53a7fc0084919047a4836fc5b410c9c",
+        "sha256": "c5d65eb2c667f002d92b3a33f69958d1d734a96a7b13dcb1561e51f5c3bdbcbc",
+        "size": 3664,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/_common.py",
+        "git_blob_sha1": "c4f13ce80dbfba9ec3395e3e5ac689440457aaf6",
+        "sha256": "698f166212a005a5420b774ebdff1569e54244d14ee4d90bb8653ee8696d508d",
+        "size": 4874,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/deploy.py",
+        "git_blob_sha1": "f870cc5fb0bd2c82f875c818152060f54ef91e27",
+        "sha256": "0299f3857409b8f7a7a57efd74602bf7e8364237c4252e5c09468831dfb81223",
+        "size": 12991,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/deploy_async.py",
+        "git_blob_sha1": "779a301b6d10c1f6fabff3b4bdef0c17682d0ac5",
+        "sha256": "37ef561fbb19db5f11eb7fe53ef1681d31b5c5ddc64f0009359d2b11b6eeb60e",
+        "size": 18522,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/deploy_ic.py",
+        "git_blob_sha1": "223801574e42beae53d164aab3e323bf60f40d4e",
+        "sha256": "eed165a57034937027c50622e9d0c7e356fd085abbd0a695f1a3ca7f82207fd0",
+        "size": 20700,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/invoke_endpoint.py",
+        "git_blob_sha1": "08245d39cb3651abf873b7c6280a930aedbc2275",
+        "sha256": "559173501af510e257156f27990e27c23d2cc3bede1f1ecb1a767de4b5b960e9",
+        "size": 6509,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/teardown.py",
+        "git_blob_sha1": "c85b230bf3f543bc088ee843e2bcc9ae859870ba",
+        "sha256": "640c35eca572c492ab3dae016ed227d192f7db878dbb11e72dd2b550da8d220d",
+        "size": 9461,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/deploy.py",
+    "scripts/deploy_async.py",
+    "scripts/deploy_ic.py"
+  ],
+  "old_commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "new_commit": "f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "change: implement changes suggested by the aws security team (#245)\n\n* change: implement changes suggested by the aws security team\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>\n\n* fix: version bump\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>\n\n---------\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>",
+  "new_commit_time": "2026-09-10T10:36:34Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/97862b0fcc89c850fdd00c82ede1e62d3c930a6d...f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "commit_url": "https://github.com/huggingface/skills/commit/f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "skill_directory": "skills/hf-cloud-sagemaker-production-defaults",
+  "local_directory": "verified_real_update_pairs/OPU-0050",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0050",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

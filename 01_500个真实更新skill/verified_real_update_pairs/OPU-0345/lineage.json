@@ -1,0 +1,82 @@
+{
+  "sha": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "node_id": "C_kwDOQ7RUQ9oAKGU3ZWU1OGZjMWZhNjY5ODQxZTA2ZjhkMjczNTllMDUzM2QxNDgzOTQ",
+  "commit": {
+    "author": {
+      "name": "KarishmaGhiya",
+      "email": "kaghiya@microsoft.com",
+      "date": "2026-04-29T07:41:43Z"
+    },
+    "committer": {
+      "name": "KarishmaGhiya",
+      "email": "kaghiya@microsoft.com",
+      "date": "2026-04-29T07:41:43Z"
+    },
+    "message": "Update Java skills auth and env vars with requireEnvVars pattern\n\n- Add requireEnvVars(AzureIdentityEnvVars.AZURE_TOKEN_CREDENTIALS) to DefaultAzureCredentialBuilder in 20 Java skills\n- Add ManagedIdentityCredentialBuilder as production alternative with credential classes link\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables sections\n- Add inline comments to all env vars explaining purpose\n- Update skill-creator with Java and C# auth patterns\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+    "tree": {
+      "sha": "bdffb25ca59f9b064c7ca65849ef9e59bac5847c",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/bdffb25ca59f9b064c7ca65849ef9e59bac5847c"
+    },
+    "url": "https://api.github.com/repos/microsoft/skills/git/commits/e7ee58fc1fa669841e06f8d27359e0533d148394",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/microsoft/skills/commits/e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "html_url": "https://github.com/microsoft/skills/commit/e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "comments_url": "https://api.github.com/repos/microsoft/skills/commits/e7ee58fc1fa669841e06f8d27359e0533d148394/comments",
+  "author": {
+    "login": "KarishmaGhiya",
+    "id": 8968058,
+    "node_id": "MDQ6VXNlcjg5NjgwNTg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8968058?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/KarishmaGhiya",
+    "html_url": "https://github.com/KarishmaGhiya",
+    "followers_url": "https://api.github.com/users/KarishmaGhiya/followers",
+    "following_url": "https://api.github.com/users/KarishmaGhiya/following{/other_user}",
+    "gists_url": "https://api.github.com/users/KarishmaGhiya/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/KarishmaGhiya/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/KarishmaGhiya/subscriptions",
+    "organizations_url": "https://api.github.com/users/KarishmaGhiya/orgs",
+    "repos_url": "https://api.github.com/users/KarishmaGhiya/repos",
+    "events_url": "https://api.github.com/users/KarishmaGhiya/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/KarishmaGhiya/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "committer": {
+    "login": "KarishmaGhiya",
+    "id": 8968058,
+    "node_id": "MDQ6VXNlcjg5NjgwNTg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8968058?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/KarishmaGhiya",
+    "html_url": "https://github.com/KarishmaGhiya",
+    "followers_url": "https://api.github.com/users/KarishmaGhiya/followers",
+    "following_url": "https://api.github.com/users/KarishmaGhiya/following{/other_user}",
+    "gists_url": "https://api.github.com/users/KarishmaGhiya/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/KarishmaGhiya/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/KarishmaGhiya/subscriptions",
+    "organizations_url": "https://api.github.com/users/KarishmaGhiya/orgs",
+    "repos_url": "https://api.github.com/users/KarishmaGhiya/repos",
+    "events_url": "https://api.github.com/users/KarishmaGhiya/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/KarishmaGhiya/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "parents": [
+    {
+      "sha": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+      "url": "https://api.github.com/repos/microsoft/skills/commits/7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+      "html_url": "https://github.com/microsoft/skills/commit/7d736cbd13e586462eac0c22d6eada4f7a0e435a"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sha": "cfe5b58bafa9663e06e14dc6a3db7d10e408db0a",
+  "node_id": "C_kwDOR2K4PNoAKGNmZTViNThiYWZhOTY2M2UwNmUxNGRjNmEzZGI3ZDEwZTQwOGRiMGE",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-10-26T17:23:23Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-10-26T17:24:28Z"
+    },
+    "message": "Add standardized usage attribution to Application Integration agent skills.\n\n- Add `references/attribution.md` to application-integration-basics,\n  application-integration-authoring, and application-integration-troubleshooting.\n- Add a concise `## Attribution` section to each `SKILL.md` with the attribution\n  tokens and the generated-code guardrail.\n- Add an `attribution_tagged_commands` eval case to each `EVAL.txtpb`.\n- Bump `metadata.version` to 1.0.2.\n\nPiperOrigin-RevId: 1007375037",
+    "tree": {
+      "sha": "094691d657172e5ce9890e47a55af5a4c1bc514d",
+      "url": "https://api.github.com/repos/google/skills/git/trees/094691d657172e5ce9890e47a55af5a4c1bc514d"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/cfe5b58bafa9663e06e14dc6a3db7d10e408db0a",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/cfe5b58bafa9663e06e14dc6a3db7d10e408db0a",
+  "html_url": "https://github.com/google/skills/commit/cfe5b58bafa9663e06e14dc6a3db7d10e408db0a",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/cfe5b58bafa9663e06e14dc6a3db7d10e408db0a/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "cb11ad82ada424d1a004c3dfec106b6fab1188e1",
+      "url": "https://api.github.com/repos/google/skills/commits/cb11ad82ada424d1a004c3dfec106b6fab1188e1",
+      "html_url": "https://github.com/google/skills/commit/cb11ad82ada424d1a004c3dfec106b6fab1188e1"
+    }
+  ]
+}

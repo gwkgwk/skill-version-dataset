@@ -1,0 +1,82 @@
+{
+  "sha": "32912161e2732c3e5001c6811a76c1f8308ed0da",
+  "node_id": "C_kwDOQ65icdoAKDMyOTEyMTYxZTI3MzJjM2U1MDAxYzY4MTFhNzZjMWY4MzA4ZWQwZGE",
+  "commit": {
+    "author": {
+      "name": "Pedro Rodrigues",
+      "email": "44656907+Rodriguespn@users.noreply.github.com",
+      "date": "2026-07-30T11:44:23Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-07-30T11:44:23Z"
+    },
+    "message": "fix(supabase-postgres-best-practices): make skill description trigger-rich (#194)\n\nRewrite the description so the skill loads for schema, migration, RLS,\nand SQL-authoring tasks — not just performance work — and lead with the\nconcrete authoring triggers. Improves activation when it coexists with\nthe supabase skill.\n\nPart of AI-942. Tested in https://github.com/supabase/evals/pull/131\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+    "tree": {
+      "sha": "30402076fd66ddc20fb2c3e859fa1c9f80101bbb",
+      "url": "https://api.github.com/repos/supabase/agent-skills/git/trees/30402076fd66ddc20fb2c3e859fa1c9f80101bbb"
+    },
+    "url": "https://api.github.com/repos/supabase/agent-skills/git/commits/32912161e2732c3e5001c6811a76c1f8308ed0da",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqazkXCRC1aQ7uu5UhlAAAFswQABbKyrd9bViVvUaYeYDkeWAX\nFXzWRWRd5hMHthUrh/hku+z4se9vungG0ctpClHGB3GIZZlJHfnR3Jc8T8Yeh9w1\n1JaAW+fwmhtEKQQe6O5i037vL0lOl9tWskF167i69t8Yi/Ow7CBqNGrViFFeH/Ky\n0pVg69nkuimI4+HHF2jvE5ZxuO5dBfSm1/VaQwjkGF3b5h0q2kbarOO85YGe/65/\nnX5cm4GOUb/cwGlaiX0XhU7w6pdef7GHh9tBCPnP/O6PHDPGc9jiBzzEdrvQ6DLA\nvt9SgUTbNr4qpQJrly62LU/m0zBkSkXv1CCvOsgf/DptyH1eCrp2OEDCy0PMXhCB\ndyuLbq9hA16k0zcDGwZzNxQZqerFFmQYU1RAnja8zvKFX5l4K5nfSalz2Bo1rRiN\nCeHW7Swo4LuWKUQGUPIAZNSA08KH6/spsQKRzwWrLIerJ0P7CX1swyBF5/BBCKxT\niP9OARUkc1ekmCvIYdHFX8OlaVGDIDJl4hTX3bI8P2Pc/FKpZQZSDVzTxaCGvJB+\n+h6YZKhMjfjt2Mu6DLsY+xYXPZA+Cif+ipFtrwHYnrr37cqVW6+dxNC4cAjADDWY\n4GIOyjB0TOp7GMUyH1iE4HxnEeVt88uup+WYTRGCVSE+VYPrdQRnUvtju9VRV81a\nLf6G033cwtTziQZSYBVo\n=Q74B\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 30402076fd66ddc20fb2c3e859fa1c9f80101bbb\nparent 1ad9aaeb49caafd9e95c0a91116f71890eebbc53\nauthor Pedro Rodrigues <44656907+Rodriguespn@users.noreply.github.com> 1785411863 +0100\ncommitter GitHub <noreply@github.com> 1785411863 +0100\n\nfix(supabase-postgres-best-practices): make skill description trigger-rich (#194)\n\nRewrite the description so the skill loads for schema, migration, RLS,\nand SQL-authoring tasks — not just performance work — and lead with the\nconcrete authoring triggers. Improves activation when it coexists with\nthe supabase skill.\n\nPart of AI-942. Tested in https://github.com/supabase/evals/pull/131\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "verified_at": "2026-07-30T11:44:24Z"
+    }
+  },
+  "url": "https://api.github.com/repos/supabase/agent-skills/commits/32912161e2732c3e5001c6811a76c1f8308ed0da",
+  "html_url": "https://github.com/supabase/agent-skills/commit/32912161e2732c3e5001c6811a76c1f8308ed0da",
+  "comments_url": "https://api.github.com/repos/supabase/agent-skills/commits/32912161e2732c3e5001c6811a76c1f8308ed0da/comments",
+  "author": {
+    "login": "Rodriguespn",
+    "id": 44656907,
+    "node_id": "MDQ6VXNlcjQ0NjU2OTA3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/44656907?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rodriguespn",
+    "html_url": "https://github.com/Rodriguespn",
+    "followers_url": "https://api.github.com/users/Rodriguespn/followers",
+    "following_url": "https://api.github.com/users/Rodriguespn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rodriguespn/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rodriguespn/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rodriguespn/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rodriguespn/orgs",
+    "repos_url": "https://api.github.com/users/Rodriguespn/repos",
+    "events_url": "https://api.github.com/users/Rodriguespn/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rodriguespn/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "1ad9aaeb49caafd9e95c0a91116f71890eebbc53",
+      "url": "https://api.github.com/repos/supabase/agent-skills/commits/1ad9aaeb49caafd9e95c0a91116f71890eebbc53",
+      "html_url": "https://github.com/supabase/agent-skills/commit/1ad9aaeb49caafd9e95c0a91116f71890eebbc53"
+    }
+  ]
+}

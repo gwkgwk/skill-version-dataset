@@ -1,0 +1,82 @@
+{
+  "sha": "88e864e27586c1b43eb43610fd3d14252522400f",
+  "node_id": "C_kwDOQbz6WNoAKDg4ZTg2NGUyNzU4NmMxYjQzZWI0MzYxMGZkM2QxNDI1MjUyMjQwMGY",
+  "commit": {
+    "author": {
+      "name": "Daniel van Strien",
+      "email": "davanstrien@users.noreply.github.com",
+      "date": "2026-07-06T17:39:01Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-07-06T17:39:01Z"
+    },
+    "message": "Document private= and bucket_id= in trackio examples; fix stale Jobs sync description (#185)\n\n* docs: document private= / bucket_id= in trackio examples; update stale Jobs sync description\n\nAgents following the trackio examples create public Spaces by default\n(examples show space_id= but never private=). Document private and\nbucket_id in the huggingface-trackio skill and the llm-trainer trackio\nguide, framing private=True as a choice (omit for a shareable public\ndashboard).\n\nAlso update the llm-trainer guide's 'How It Works with Jobs' section,\nwhich described the old Dataset/Parquet 5-minute sync: current trackio\nstreams to the running Space (batched sub-second), spills to an HF\nBucket every ~30s when the Space is unreachable/building, and the Space\ningests the bucket inbox every ~15s (verified against trackio main:\nrun.py BATCH_SEND_INTERVAL/BUCKET_FLUSH_INTERVAL, utils.get_inbox_poll_interval).\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* chore: bump plugin versions to 1.0.11\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* version bump\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: shaun smith <1936278+evalstate@users.noreply.github.com>\nCo-authored-by: evalstate <evalstate@users.noreply.github.com>",
+    "tree": {
+      "sha": "092bc87d104e83387beba3f3a80da99c568675ff",
+      "url": "https://api.github.com/repos/huggingface/skills/git/trees/092bc87d104e83387beba3f3a80da99c568675ff"
+    },
+    "url": "https://api.github.com/repos/huggingface/skills/git/commits/88e864e27586c1b43eb43610fd3d14252522400f",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqS+g1CRC1aQ7uu5UhlAAAD9wQADmKyemFlIi1sJmU0H2xWSQm\n7SV14P4ozg/NVHhfhadeyXY3ymYvvBMNz8Hpbz09FYGmc/bIjeCF9ZDbA9XogIJ1\n3EZu0fLjScBteAqOWaxo05hhPSJ97OkVayBDjANdH9eNa7kOl5YdXyzXa+CGwA/e\n4wPEisZrY26N6kWOLB7pbB5inNZxv/2ZDnD8zT7thcvdgqU0YyGz5ICoiFlOy8CK\nm4RPzaOXCF7lTMFyKNl7TqkgQlEOiI6yL14Qn6on7bxkplxdGEHhD/M9lQotORGL\ndtPhuoqSq8s/yH1wFZsQbpsBsg/pzbFKRBk5Wi30pVsHg/NiAdorAZlnlSxsQ5tZ\n8xWXNj8leh3SOKGVGw8kg1HaMVj8qC+V4HMVtx0UdE5Sx3YUxfiaFM/QFN5omlO/\nyDLlXbaXAGk2Wan6c5lb7OVxHN/rAeHqdQCRkonAJH/TXkw6uu0YgZaDyfugNoEi\n7Jwyo8Kp721AyxpwPrpdE+U36uJTS5Oo/WhtqZUbf2HHu8X+P4ambkMG2S/kqKVt\nocKHt4ewQa0mHh75wDGWmbmMze7tzdRcDiWET7YHKdUFCgQWHMzC8SZZKaFXqxwQ\n1HqnHW1lnD0Sx6x3jPt3YuansTECWADzyb2cTQtYdqe+ttH1f6kwHXyrd5BN4Z0E\nFu6OmBnKVJQEIQ+/UHLr\n=uRZJ\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 092bc87d104e83387beba3f3a80da99c568675ff\nparent 814357bbc722125c85ee18e32f2d2a13915bf99a\nauthor Daniel van Strien <davanstrien@users.noreply.github.com> 1783359541 +0100\ncommitter GitHub <noreply@github.com> 1783359541 +0200\n\nDocument private= and bucket_id= in trackio examples; fix stale Jobs sync description (#185)\n\n* docs: document private= / bucket_id= in trackio examples; update stale Jobs sync description\n\nAgents following the trackio examples create public Spaces by default\n(examples show space_id= but never private=). Document private and\nbucket_id in the huggingface-trackio skill and the llm-trainer trackio\nguide, framing private=True as a choice (omit for a shareable public\ndashboard).\n\nAlso update the llm-trainer guide's 'How It Works with Jobs' section,\nwhich described the old Dataset/Parquet 5-minute sync: current trackio\nstreams to the running Space (batched sub-second), spills to an HF\nBucket every ~30s when the Space is unreachable/building, and the Space\ningests the bucket inbox every ~15s (verified against trackio main:\nrun.py BATCH_SEND_INTERVAL/BUCKET_FLUSH_INTERVAL, utils.get_inbox_poll_interval).\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* chore: bump plugin versions to 1.0.11\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* version bump\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: shaun smith <1936278+evalstate@users.noreply.github.com>\nCo-authored-by: evalstate <evalstate@users.noreply.github.com>",
+      "verified_at": "2026-07-06T17:39:01Z"
+    }
+  },
+  "url": "https://api.github.com/repos/huggingface/skills/commits/88e864e27586c1b43eb43610fd3d14252522400f",
+  "html_url": "https://github.com/huggingface/skills/commit/88e864e27586c1b43eb43610fd3d14252522400f",
+  "comments_url": "https://api.github.com/repos/huggingface/skills/commits/88e864e27586c1b43eb43610fd3d14252522400f/comments",
+  "author": {
+    "login": "davanstrien",
+    "id": 8995957,
+    "node_id": "MDQ6VXNlcjg5OTU5NTc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8995957?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/davanstrien",
+    "html_url": "https://github.com/davanstrien",
+    "followers_url": "https://api.github.com/users/davanstrien/followers",
+    "following_url": "https://api.github.com/users/davanstrien/following{/other_user}",
+    "gists_url": "https://api.github.com/users/davanstrien/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/davanstrien/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/davanstrien/subscriptions",
+    "organizations_url": "https://api.github.com/users/davanstrien/orgs",
+    "repos_url": "https://api.github.com/users/davanstrien/repos",
+    "events_url": "https://api.github.com/users/davanstrien/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/davanstrien/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "814357bbc722125c85ee18e32f2d2a13915bf99a",
+      "url": "https://api.github.com/repos/huggingface/skills/commits/814357bbc722125c85ee18e32f2d2a13915bf99a",
+      "html_url": "https://github.com/huggingface/skills/commit/814357bbc722125c85ee18e32f2d2a13915bf99a"
+    }
+  ]
+}

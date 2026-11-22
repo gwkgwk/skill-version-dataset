@@ -1,0 +1,77 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/hf-cloud-sagemaker-deployment-planner/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "d284bf6464b584de3a41",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "57d80c38700f4f016e965b2a680679573bfe9d4d",
+    "computed_tree_sha": "b2b4f7a62b07c24deaa471c76b43ce9d2c17b4f3",
+    "api_tree_sha_as_returned": "b2b4f7a62b07c24deaa471c76b43ce9d2c17b4f3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "567bcd7be7529892217d7e9b07518b61ec78df65",
+        "sha256": "ee51349e7a21980f8eda6fc7790df875d3b8ce0aedbcf8f74982402eae40b9a9",
+        "size": 7516,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "32f8bb0928e95fc9d47ca9fbf69cbfbaf2bc2bda",
+    "computed_tree_sha": "408d473b89d749246f7b58bccd42d0c2bd490ed5",
+    "api_tree_sha_as_returned": "408d473b89d749246f7b58bccd42d0c2bd490ed5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c8e1b321698a3f6ede5cb607cf73cdd2dfc0e63a",
+        "sha256": "2538e5f705466ef2912c07eb4311befc29940f026dfd17720242e4c976a8d8e9",
+        "size": 8620,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "57d80c38700f4f016e965b2a680679573bfe9d4d",
+  "new_commit": "32f8bb0928e95fc9d47ca9fbf69cbfbaf2bc2bda",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "add: skill and scripts for scale-to-zero using inference components (#215)\n\n* add: skill and scripts for scale-to-zero using inference components\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>\n\n* chore: bump plugin version\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>\n\n---------\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>",
+  "new_commit_time": "2026-08-03T18:54:36Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/57d80c38700f4f016e965b2a680679573bfe9d4d...32f8bb0928e95fc9d47ca9fbf69cbfbaf2bc2bda",
+  "commit_url": "https://github.com/huggingface/skills/commit/32f8bb0928e95fc9d47ca9fbf69cbfbaf2bc2bda",
+  "skill_directory": "skills/hf-cloud-sagemaker-deployment-planner",
+  "local_directory": "verified_real_update_pairs/OPU-0023",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0023",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

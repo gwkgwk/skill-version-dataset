@@ -1,0 +1,121 @@
+{
+  "repository": "google/skills",
+  "primary": "plugins/cloud/google-cloud-developer/skills/gcloud/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "a5564aa4c22287378fb7",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "42ed164bea1ae2fc05c8d65fda182a1851264008",
+    "computed_tree_sha": "6f5d455876a484c77896580bca312699623e56a6",
+    "api_tree_sha_as_returned": "6f5d455876a484c77896580bca312699623e56a6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c9b7cfb87f3b41c221c120d8dfb85d0fcb2e8f84",
+        "sha256": "4e8c58e24c71a42803ac211e8c03c5f6f22279960e66819c1ee14f984a4668be",
+        "size": 15098,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "385efd8de4e24e22bd2b32f1ab058378a4451424",
+        "sha256": "835174a5e64e8129edcd930659fcf3d9b4c4f327c49ba8dcc6b5a58d16bd8fad",
+        "size": 2518,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-usage.md",
+        "git_blob_sha1": "42525d170b0b9e33831dc23fdb55f9d2d1d8a651",
+        "sha256": "cb4e2cbea20793d6766cfc2d7ffd81ee20eeefba90270df36892fdcaa1125fab",
+        "size": 4874,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "15d058e2fd62ec7446e80cd98127b7a0d1c00890",
+        "sha256": "a3d75e6ec90a3d0157803faa92a7c0bb43d7481157b45aa3a819f12e1adbda57",
+        "size": 7911,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "db25e83418d6690c4fa644d23df1d33e03108930",
+    "computed_tree_sha": "e372bc74b02f6f6a5a77bc8aab13dbee70d47766",
+    "api_tree_sha_as_returned": "e372bc74b02f6f6a5a77bc8aab13dbee70d47766",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "37e82a3a27822ecd4f495e5e51392c6563d40f92",
+        "sha256": "a16e7688f5b64c155b2d8ca452f9196df259ef1bd3c0a35f23e4a5f941eb037b",
+        "size": 15594,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "385efd8de4e24e22bd2b32f1ab058378a4451424",
+        "sha256": "835174a5e64e8129edcd930659fcf3d9b4c4f327c49ba8dcc6b5a58d16bd8fad",
+        "size": 2518,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-usage.md",
+        "git_blob_sha1": "e459441e33fb5d52e470f295e5c2bd60afa8a342",
+        "sha256": "7a8b5b2499a02cb397d1064663616d21c338c4b2a6fc6eeb77a6de749fc33e1b",
+        "size": 4880,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "de98daa4b5787d33eab7f66a6ce2ab2634ca8fb6",
+        "sha256": "04645f54167f5cd917baa2e5caab91a9db9f56451fef7145c1361cc7e050f5b1",
+        "size": 7931,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/cli-usage.md",
+    "references/mcp-usage.md"
+  ],
+  "old_commit": "42ed164bea1ae2fc05c8d65fda182a1851264008",
+  "new_commit": "db25e83418d6690c4fa644d23df1d33e03108930",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update gcloud skill operations syntax, MCP guidance, and WIF auth link\n\n- Use service-scoped `gcloud <GROUP> operations describe` instead of nonexistent top-level `gcloud operations describe`.\n- Include folder and organization queries alongside billing in MCP `--billing-project` guidance and update WIF auth link to `sdk/docs/authenticate`.\n\nPiperOrigin-RevId: 1020240786",
+  "new_commit_time": "2026-11-12T18:29:51Z",
+  "compare_url": "https://github.com/google/skills/compare/42ed164bea1ae2fc05c8d65fda182a1851264008...db25e83418d6690c4fa644d23df1d33e03108930",
+  "commit_url": "https://github.com/google/skills/commit/db25e83418d6690c4fa644d23df1d33e03108930",
+  "skill_directory": "plugins/cloud/google-cloud-developer/skills/gcloud",
+  "local_directory": "verified_real_update_pairs/OPU-0021",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0021",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/presentation-creator/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "34500471990c6ba22c06",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "89aaec068abcc70368ccd3e1f7fee58a66313377",
+    "computed_tree_sha": "0710feaa089c5dc3f58ae9e5b15928b6a06886be",
+    "api_tree_sha_as_returned": "0710feaa089c5dc3f58ae9e5b15928b6a06886be",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "97433846199d8776c42ad9825ec4bcc6ebfa7f43",
+        "sha256": "5d0c054998732973702077ba6a6c7a2bbc373535049b2373d3cee0ea12f9ac2b",
+        "size": 9344,
+        "mode": "100644"
+      },
+      {
+        "path": "references/chart-patterns.md",
+        "git_blob_sha1": "4b705e9fb0cdae33bdfac4de9acb22083977ca21",
+        "sha256": "9d4450eda3546cb51f22edff1e082761bebfd2a5b629ce122fff7ec4877d609c",
+        "size": 7308,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design-system.md",
+        "git_blob_sha1": "c2cd063480bccbbf5abfe5b5a992c32b27067bb3",
+        "sha256": "1e692bf483339d435904300ba6ac4f0ba9f240d1b4ab3e8696453d9f935b6fc8",
+        "size": 9209,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sentry-glyph.svg",
+        "git_blob_sha1": "7b1777b8e81c6326e8a42d40f28436a40f9cb187",
+        "sha256": "90bb56430ea1b83d01af719dbc712cc650f2008dd340d408aebdb859bb0493d6",
+        "size": 718,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sentry-logo.svg",
+        "git_blob_sha1": "d3cfd51922d21ec1bce10cea710349d4dde0f045",
+        "sha256": "267dc6baa26c2ae5b9a873536805d393109b2beaaa9eb340fddaee8d6cb67bae",
+        "size": 1468,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "c81373583417504de2d3be1ae3d81977b11b2981",
+    "computed_tree_sha": "5efe0026219d1c1ce544e38f853cb3df35ce6027",
+    "api_tree_sha_as_returned": "5efe0026219d1c1ce544e38f853cb3df35ce6027",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d1c97d718867fa012850d42d198b0b24edd3d4c0",
+        "sha256": "28c0cef62578ec5423da646049e336069cde5ca9c5a92b4161455f8d45262cc8",
+        "size": 9282,
+        "mode": "100644"
+      },
+      {
+        "path": "references/chart-patterns.md",
+        "git_blob_sha1": "4b705e9fb0cdae33bdfac4de9acb22083977ca21",
+        "sha256": "9d4450eda3546cb51f22edff1e082761bebfd2a5b629ce122fff7ec4877d609c",
+        "size": 7308,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design-system.md",
+        "git_blob_sha1": "309822e731190156640f0d30be66cfde21e6de73",
+        "sha256": "da7873936991bf39779b9aa6235f937408ccb67aed6773e9d63c58c3498f8044",
+        "size": 9146,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sentry-glyph.svg",
+        "git_blob_sha1": "7b1777b8e81c6326e8a42d40f28436a40f9cb187",
+        "sha256": "90bb56430ea1b83d01af719dbc712cc650f2008dd340d408aebdb859bb0493d6",
+        "size": 718,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sentry-logo.svg",
+        "git_blob_sha1": "d3cfd51922d21ec1bce10cea710349d4dde0f045",
+        "sha256": "267dc6baa26c2ae5b9a873536805d393109b2beaaa9eb340fddaee8d6cb67bae",
+        "size": 1468,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/design-system.md"
+  ],
+  "old_commit": "89aaec068abcc70368ccd3e1f7fee58a66313377",
+  "new_commit": "c81373583417504de2d3be1ae3d81977b11b2981",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix: replace ${CLAUDE_SKILL_ROOT} with skill-root-relative paths (#146)\n\n## Problem\n\n`${CLAUDE_SKILL_ROOT}` is used across multiple skills to reference\nbundled scripts and files. This causes two problems in Claude Code:\n\n1. **Permission friction** — variable expansion in bash commands\ntriggers a confirmation prompt\n2. **Runtime failure** — after confirmation, the variable is not set, so\npaths resolve to `/scripts/foo.py` → file not found\n\nReported by Phil in\n[#proj-junior](https://sentry.slack.com/archives/C07P2KGJGG0/p1778225171252819).\n\n## Changes\n\nReplaced all `${CLAUDE_SKILL_ROOT}/...` references with\nskill-root-relative paths (e.g. `scripts/foo.py`, `references/bar.md`)\nper the [Agent Skills spec](https://agentskills.io/specification).\n\n**Affected skills (8 files):**\n- `iterate-pr/SKILL.md` — 14 refs → all converted; updated guidance text\n- `gh-review-requests/SKILL.md` — 2 refs\n- `presentation-creator/SKILL.md` — 4 refs\n- `presentation-creator/references/design-system.md` — 3 refs\n- `skill-scanner/SKILL.md` — 6 refs; updated guidance text\n- `sred-project-organizer/SKILL.md` — 4 refs\n- `skill-writer/SOURCES.md` — changelog entry added\n- `skill-writer/references/registration-validation.md` — updated\nmeta-guidance to recommend against env var path prefixes\n\n## Verification\n\n```bash\n# Only remaining mentions are in skill-writer changelog/meta docs (documenting the change itself)\ngrep -rn \"CLAUDE_SKILL_ROOT\" skills/ --include=\"*.md\"\n```\n\nCloses #145\n\nCo-authored-by: junior[bot] <junior[bot]@users.noreply.github.com>",
+  "new_commit_time": "2026-05-09T17:46:26Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/89aaec068abcc70368ccd3e1f7fee58a66313377...c81373583417504de2d3be1ae3d81977b11b2981",
+  "commit_url": "https://github.com/getsentry/skills/commit/c81373583417504de2d3be1ae3d81977b11b2981",
+  "skill_directory": "skills/presentation-creator",
+  "local_directory": "verified_real_update_pairs/OPU-0161",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0161",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

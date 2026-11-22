@@ -1,0 +1,107 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/trailmark/skills/trailmark-summary/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "e347fd5ac30d15d3a55a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "07bce8a2c8ccc56c5b44b7067a04b8bf46128f05",
+    "computed_tree_sha": "4fecea89f67083de69f70a928b6f524cea79c257",
+    "api_tree_sha_as_returned": "4fecea89f67083de69f70a928b6f524cea79c257",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a9ead6a77dd62bce10dd47a5999f5817f17b27b3",
+        "sha256": "8eff44a18e955bdb0e4f925e9526c1a06e5ec9fe9d0349946e94d03588c6e3fa",
+        "size": 3684,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "9e06dc67a31fc291e76ad28b690abfd350a8fd6d",
+    "computed_tree_sha": "509cffde2fcb9b7e9f153d76161c8249285738f1",
+    "api_tree_sha_as_returned": "509cffde2fcb9b7e9f153d76161c8249285738f1",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6fb854ad418ecef4512cb4b37a60d77b9134b6f1",
+        "sha256": "c6a6b5feb7bc3eda3b45140be8aa01f5a5c5c8cc2454918ad1da98080815bf48",
+        "size": 3701,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "07bce8a2c8ccc56c5b44b7067a04b8bf46128f05",
+  "new_commit": "9e06dc67a31fc291e76ad28b690abfd350a8fd6d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Make every documented command runnable under our own python shims (#258)\n\n* Make every documented command runnable under our own python shims\n\nThe modern-python plugin ships PATH shims that refuse `python <script>`,\n`pip install`, `python -m pip` and `uv pip install`. Twelve other plugins\nin this marketplace issued exactly those forms, so installing our own\nplugin broke our own skills — and CI was green throughout.\n\nThe worst case was not theoretical. c-review and rust-review both call\ntheir Phase 4 planner as `python3 \"${PLUGIN_ROOT}/scripts/build_run_plan.py\"`,\nso with the shim installed every run died before spawning a worker.\nVerified both directions: the new form exits 0 with the shim on PATH, the\nold form exits 1.\n\nPhase 1's reading pass named 16 skills. A mechanical sweep found 96\ncandidate lines across 44 files, and scanning shell scripts as well as\nmarkdown found 10 more the docs sweep had missed. That gap is the reason\nthe check below exists.\n\nThe fix is not one substitution. Four classes needed different treatment:\n\n- Our own scripts become `uv run --no-project <script>`. Not bare `uv run`,\n  because these execute inside the *target* repo, which may be a Python\n  project that cannot resolve; verified against a broken pyproject.toml and\n  against validate_artifacts.py's sibling import of generate_sarif.\n- Package installs become `uv add` for a dependency, `uv tool install` for a\n  CLI, `uv sync` for a project's own editable install.\n- Third-party CLIs we merely document — OSS-Fuzz's infra/helper.py, yarGen —\n  become `uv run --no-project python <script>`, which keeps upstream's exact\n  semantics rather than handing their script an environment we manage.\n- atheris's instrumented build keeps its source build, as\n  `uv add --no-binary-package cbor2`. Dropping that flag would silently\n  produce an uninstrumented fuzzer, which is worse than a visible failure.\n  Its prose was updated to name the flag it now uses.\n\nTwo factual corrections fell out. `pip install caracal` was wrong twice\nover: caracal is a Rust tool (Cargo.toml at its root), so it is now\nupstream's own `cargo install --git`, not a uv equivalent that would fetch\nan unrelated PyPI package. And `pip install uv` cannot bootstrap uv under\na shim that intercepts pip, so culture-index now points at the official\ninstaller.\n\nThirteen lines stay as they are, each deliberately: Dockerfile `RUN` lines\nand oss-fuzz's build.sh run in containers where our shims are absent;\ncodeql's pip calls install the *analysed* project's dependencies, and that\nproject is arbitrary; trailmark's dispatch skills must keep saying \"Do NOT\nrun `pip install`\"; and modern-python documents what it intercepts.\n\n`make shell-suites` passes again as a result — exit 0 with the 1.6.0 shim,\nwhere AGENTS.md previously recorded it as broken by variant-analysis.\n\nThe guardrail: check_python_invocations scans 698 markdown and shell files\nand fails on the four refused forms, with structural exemptions for\ndockerfile fences and an `allow-legacy-python: <reason>` marker that scopes\nto its code block. Eleven self-test fixtures cover it, four asserting it\nfires and seven asserting it stays quiet on the compliant forms. It was\nmutation-tested in both languages, and it caught its own worst bug during\ndevelopment: unanchored patterns first flagged `uv run --no-project python\nfuzz.py`, the very form the advice recommends. Self-test goes 45 -> 56.\n\n* Review pass: fix the atheris flow, drop a stray exemption, trim comments\n\nThree corrections from reviewing the branch diff:\n\n- atheris's install now opens with `uv init --bare`, without which the\n  documented `uv add atheris` errors in a bare harness directory. The old\n  pip form assumed an activated venv, so setup was always implicit; now\n  it is one explicit line.\n- ossfuzz carried an allow-legacy-python marker on a C++ build block that\n  contains no python at all — yesterday's insertion matched the first of\n  three \"Build in build.sh\" headings instead of the python one. The\n  exemption now sits only on the block that needs it.\n- The anti-vacuity message said \"read no markdown\" for a scan that also\n  covers shell scripts.\n\nThe rest is weight: the new check's comment blocks, the hardcoded-path\nconstants' commentary, the AGENTS.md bullets and the three exemption\nmarkers all said the same things at two to three times the length. Each\nkeeps its one-line why; the narratives are gone. No behavioural change —\nself-test still passes 56 assertions and the full scan is unchanged.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Address the review: fix where packages land, widen the check to match the shim\n\nThe review's core insight was right twice over. Several substitutions had\nchanged WHERE a package lands, breaking the documented next step, and the\nchecker enforced a narrower invariant than the shim it exists to mirror.\n\nWhere packages land:\n\n- trailmark is imported as a library from five skills, and a `uv tool\n  install` environment is not importable — the retry loop at\n  trailmark/SKILL.md:47-51 would have spun forever on the exact error it\n  names. The CLI install stays `uv tool install`; the import snippets now\n  run under `uv run --with trailmark python -`.\n- `uv add` writes to the manifest of whatever project you are standing\n  in, which for sarif-parsing is the audited repo. Its scripting rows,\n  ijson comment and jsonschema example now use `uv run --with <pkg>`,\n  which leaves no trace. atheris keeps `uv add` deliberately: the fuzzing\n  harness is the user's own project, made explicit by `uv init --bare`.\n- `uv sync` leaves ct-analyzer in .venv/bin, so the README's very next\n  line failed with command not found. Now `uv tool install .`, verified\n  end to end: the console script lands on PATH and --help runs.\n- yarGen needs pefile/lxml/yara-python, which `--no-project` had detached;\n  now `uv run --with-requirements requirements.txt`.\n- The cbor2 source-build preference now persists via\n  `no-binary-package = [\"cbor2\"]` under [tool.uv] (field verified against\n  uv's accepted-settings list), so a later `uv sync` cannot silently swap\n  in an uninstrumented wheel.\n\nThe checker, widened to the shim's actual behaviour:\n\n- `python3 --version` and `python3 -u foo.py` are refused by the shim but\n  passed the old patterns; one live instance (constant-time-analysis\n  README) proved it. Both forms are now caught.\n- Every `uv pip` subcommand is refused, not just install; `-t` joins the\n  allowed tool-managed flags.\n- .py files are scanned too: usage strings and error messages told users\n  to run refused commands from ten scripts, including the --help of the\n  very planner this PR fixed. All rewritten.\n- The evals/tests exemption now tests path parts relative to plugins/, so\n  a checkout under a directory named tests no longer exempts every file.\n- An allow-marker's scope ends at a blank line as well as a fence, so one\n  marker cannot blanket a whole file; quality-assessment.md gains the\n  second marker that scoping made necessary.\n\nAlso from the review: zeroize's preflight gets `which python3` back (a\nhelper script still needs the binary; the shim never required removing\nit), the Makefile's shell-suites note no longer describes an interception\nthat is gone, and the cairo CI example warns that it rebuilds caracal\nfrom source each run.\n\nSelf-test 56 -> 63; every new pattern and exemption is fixture-covered\nand was mutation-probed against the real tree. Full scan: 0 findings over\n773 files.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Address the second review: prerequisite probe, checker parity, package placement\n\nThe review's P2 was a regression this PR introduced for a population the\nfirst fix ignored: c-review and rust-review now require uv, and a box\nwith python3 but no uv would die at Phase 4 exactly the way shimmed boxes\ndied before. Phase 1 (Prerequisites) in both skills now probes\n`command -v uv` and aborts with install guidance. zeroize-audit's\npreflight already checked uv. The four converted shell suites gain the\nsame guard with a clear message instead of a bare 127 mid-run.\n\nChecker parity with the shims, second pass:\n\n- pipx and the non-install pip subcommands are refused by catch-all shim\n  arms and passed the checker; both get named-subcommand patterns.\n- A script named by variable or path (`python3 \"$MERGE\"`) has no `.py`\n  token; a new pattern covers it and immediately caught one live\n  instance — a codeql test stub that fakes uv itself, now carrying an\n  allow-marker with its reason.\n- finditer everywhere: a compliant `uv run` earlier on a line no longer\n  masks a refused command later on it, which was exactly the table-cell\n  case the unanchored design exists for.\n- Prohibition phrases now test the text BEFORE the match, so\n  \"Use `pip install semgrep` instead of the tarball\" is flagged while\n  \"Do NOT run `pip install`\" stays exempt.\n- The uv-pip allowance matches whole flags after the command, so\n  `--target-dir` no longer counts as `--target` and a trailing `-t /tmp`\n  does; `uv pip` precedes `pip` in the pattern order so its lines get\n  the right advice; a pip match directly after `uv ` defers to the\n  uv-pip verdict instead of double-reporting.\n\nPackage placement, continued from the same insight as round one:\n\n- yarGen regains --no-project alongside --with-requirements, plus a cd\n  into the checkout so requirements.txt resolves where it lives.\n- sarif-parsing's jsonschema example no longer names a script that does\n  not exist, and the table's run-forms show a concrete script.py.\n- culture-index's two messages now agree and name the actual remedy\n  (`uv run --project` on the scripts directory) instead of re-adding a\n  dependency its pyproject already declares.\n- merge_sarif's usage line gains --no-project; the generator plugin's\n  install section stops prescribing a venv its own runner never uses.\n- generate_poc declared requires-python >=3.9 while using `str | None`\n  in a signature, a TypeError on 3.9 that uv's interpreter selection\n  made reachable; now >=3.10.\n- The GitLab CI example exports ~/.local/bin onto PATH, without which\n  `uv tool install` warns and the next line dies command-not-found.\n\nSelf-test 63 -> 71; the masking, prohibition-direction, flag-position\nand pipx cases are all fixtures, and each new pattern was probed live\nagainst the tree (plant, error, remove, clean — 0 findings over 773\nfiles).\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Address the third review: importable trailmark, honest probes, sturdier scan\n\nThe P2 was the residue of round two's own fix, applied to the siblings\nbut not the flagship: trailmark/SKILL.md told the model to cure an import\nerror with `uv tool install`, which cannot cure it — a tool env is not\nimportable — while forbidding every fallback. The install block now says\nwhat each remedy is for: `uv tool install` for the CLI, `uv run --with\ntrailmark python -` for the snippets, and the other five library-first\ndocs carry the same one-line annotation next to their install command.\n\nEmpirically settled rather than taken from the review: `uv run python3\n<script>` works fine under the shims — uv prepends its environment's bin\ndirectory, so python3 resolves to a real interpreter, not the shim. The\nreview's claim to the contrary would have meant rewriting the Makefile\nand a bats suite; a two-minute transcript said no. Also declined: a\nzeroize uv-prerequisite (its preflight already lists uv and uvx; the\nC/C++ `which` line now names uv too).\n\nReal and fixed:\n\n- ct-analyzer's availability probe ran `python3 --version` by subprocess\n  — the one refused form — so under the shims it reported \"Python is not\n  available\" on machines where it plainly is. It now probes\n  sys.executable, the interpreter the analyzer itself runs under.\n  Verified under the shim: probe returns True.\n- The flag step-over in both script patterns handles long and\n  value-taking flags (`python3 -W ignore harness.py`, `--verbose\n  tool.py`), matching the shim's two-slot consumption.\n- A bare `allow-legacy-python:` with no reason no longer exempts\n  anything; the reason the docs demand is now enforced.\n- `uv run {baseDir}/...` gets --no-project at the ten semgrep and\n  culture-index call sites that round two missed, and the culture-index\n  remediation strings now name that same runnable command instead of a\n  --project mechanism nothing uses.\n- pip gains cache/config; the pattern comment now says the subcommand\n  list is deliberately a subset.\n- Both filesystem scans skip .venv/node_modules-style directories, after\n  a stray local .venv (left by this session's own uv probe, and invisible\n  to CI) turned the path scan red.\n\nSmaller review items: the uv-probe prose says \"Phase 4 onward\" rather\nthan a wrong phase range, run_fixtures' comment stops claiming PEP 723\nheaders its stdlib-only helpers do not have, the yarGen one-liners say\nto run from the checkout, `uv tool install` sites note or export the\ntool bin dir the way a fresh container needs, and sarif-parsing's table\ncolumn says Install / run and stops naming a file that does not exist.\n\nSelf-test 71 -> 74. Full scan: 0 findings over 773 files.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-19T17:39:07Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/07bce8a2c8ccc56c5b44b7067a04b8bf46128f05...9e06dc67a31fc291e76ad28b690abfd350a8fd6d",
+  "commit_url": "https://github.com/trailofbits/skills/commit/9e06dc67a31fc291e76ad28b690abfd350a8fd6d",
+  "skill_directory": "plugins/trailmark/skills/trailmark-summary",
+  "local_directory": "verified_real_update_pairs/OPU-0379",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0379",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

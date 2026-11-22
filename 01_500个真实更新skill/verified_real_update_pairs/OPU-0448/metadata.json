@@ -1,0 +1,121 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-typescript/skills/azure-search-documents-ts/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "55ac51978c3f301f4b06",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+    "computed_tree_sha": "ef59f455ad313fed2aa4e717f93dc8bb32822570",
+    "api_tree_sha_as_returned": "ef59f455ad313fed2aa4e717f93dc8bb32822570",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "805ac30284e62110de13f5c35b911ffc67081a1d",
+        "sha256": "cdd96990c23a44f6c54300eb6d0696c08ddcc54884b8a8522436b7e169228a36",
+        "size": 7020,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "04224b0e0af1bf847d7dc3c5245f89ed5b81b5df",
+        "sha256": "74a9a92799cf457475185b2b349c0919d0e037dc1f76ab89d2ffc4bae432aa40",
+        "size": 9214,
+        "mode": "100644"
+      },
+      {
+        "path": "references/semantic-ranking.md",
+        "git_blob_sha1": "b89ec78c4f02b3f92335e1017eaba47b4216567c",
+        "sha256": "f66727d9092c553595e5c91792731fed21ee466c9c787bfb547e20abba05cdb3",
+        "size": 11400,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-search.md",
+        "git_blob_sha1": "c573322019dbe06307753ab31f214869389a3e5c",
+        "sha256": "573a6bd823708a2267e1adb8e8555591d4210748235e4a93401eaf35819e3d58",
+        "size": 9993,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+    "computed_tree_sha": "fe5908268054b188c707c70581397bceff34b9eb",
+    "api_tree_sha_as_returned": "fe5908268054b188c707c70581397bceff34b9eb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b31e05d49593682d54727deec69b10e5394c1f6f",
+        "sha256": "b6a0a3f657d9b31b7eb59363f9bc10b688f99b1de035f581bfd765d3edc8d654",
+        "size": 7236,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "04224b0e0af1bf847d7dc3c5245f89ed5b81b5df",
+        "sha256": "74a9a92799cf457475185b2b349c0919d0e037dc1f76ab89d2ffc4bae432aa40",
+        "size": 9214,
+        "mode": "100644"
+      },
+      {
+        "path": "references/semantic-ranking.md",
+        "git_blob_sha1": "b89ec78c4f02b3f92335e1017eaba47b4216567c",
+        "sha256": "f66727d9092c553595e5c91792731fed21ee466c9c787bfb547e20abba05cdb3",
+        "size": 11400,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vector-search.md",
+        "git_blob_sha1": "c573322019dbe06307753ab31f214869389a3e5c",
+        "sha256": "573a6bd823708a2267e1adb8e8555591d4210748235e4a93401eaf35819e3d58",
+        "size": 9993,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+  "new_commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add AZURE_TOKEN_CREDENTIALS env var and credential classes link to all TS skills\n\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables section (20 skills)\n- Add credential classes reference link in Authentication section (20 skills)\n- Reword credential classes link in skill-creator template\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-22T00:02:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bb5ba24c931f82be9b6d266f29947e4ed0dd1679...338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "commit_url": "https://github.com/microsoft/skills/commit/338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "skill_directory": ".github/plugins/azure-sdk-typescript/skills/azure-search-documents-ts",
+  "local_directory": "verified_real_update_pairs/OPU-0448",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0448",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

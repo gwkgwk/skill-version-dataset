@@ -1,0 +1,82 @@
+{
+  "sha": "6feac677af72e52ef4d279412276b5a6f21366f0",
+  "node_id": "C_kwDOQ55KR9oAKDZmZWFjNjc3YWY3MmU1MmVmNGQyNzk0MTIyNzZiNWE2ZjIxMzY2ZjA",
+  "commit": {
+    "author": {
+      "name": "kz-tob",
+      "email": "kara.zaffarano@trailofbits.com",
+      "date": "2026-08-31T21:07:57Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-31T21:07:57Z"
+    },
+    "message": "building-secure-contracts: require a per-pattern coverage table in the five flat scanners (#287)\n\n* building-secure-contracts: require a per-pattern coverage table in the five flat scanners\n\nEach scanner advertises a fixed pattern count but nothing forced a report\non each one, so a scan that examined four of eleven patterns produced\noutput indistinguishable from a clean contract.\n\nAdds a coverage table with pre-filled rows per scanner (algorand 11,\ncairo 6, solana 6, substrate 7, ton 3) and three verdicts: found, clear,\nn/a with a reason. Not having looked is not n/a. Adds a chain-specific\nRationalizations to Reject section to each.\n\nAlso aligns ton's pattern summary with VULNERABILITY_PATTERNS.md, which\nthe frontmatter description already matched: Integer as Boolean rather\nthan Integer Overflow, which is a different bug class.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: build every table from the canonical pattern list\n\nThe TON drift fix was right and I did not apply the same audit to the\nrest. Cairo and Algorand tables were built from their SKILL.md §6\nsummaries, which disagree with resources/VULNERABILITY_PATTERNS.md --\nthe file §6 sends the model to read.\n\nCairo: only arithmetic overlapped. Every L1/L2 pattern and signature\nreplay had no row, including \"Unchecked from_address in L1 Handler\",\nwhich is the file's own CRITICAL Finding Template example and the bug\nthe new Rationalizations section calls the canonical StarkNet bridge\nbug. Algorand: no row for unchecked transaction fee, AssetCloseTo,\naccess controls, asset ID verification or inner transaction fee, all\nfive already items in the same file's §12 checklist.\n\nThat is worse than before this branch: the omission used to be silent,\nand a coverage table turns it into a completeness claim that licenses\nstopping. Both summaries and both tables are now rebuilt from the\ncanonical files, as is the plugin README, whose Cairo list was a third\ndistinct pattern set and whose TON list named three patterns that no\nlonger exist. In both cases the frontmatter description already matched\ncanonical; only the summary had drifted.\n\nAlso:\n- A checklist item in all five, so a missing table is detectable where a\n  run checks itself rather than only in prose upstream.\n- The §4 output list and the §5 example reports showed a full report\n  with no table -- a concrete artifact beats an abstract instruction,\n  and the model copies the example.\n- Solana's pattern 5 is version-scoped like Substrate's pattern 4 but\n  had no version rule, so \"targets 1.17\" and \"did not look\" read alike.\n- Substrate's table said \"above the findings\" and \"below\" in a skill\n  with no findings section to anchor either.\n- TON §4 still listed replay protection as scope, a category with no row.\n\nVerified mechanically: all five tables now match their resource file in\ncount and order.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: fill row 1 so the table is not a blank skeleton\n\nEvery table shipped with empty Verdict and Evidence cells, and both\ngates -- \"with all 6 rows present\" and the new §12 checklist item -- are\nsatisfied literally by a table whose every verdict is blank. To a\nskimming reader an emitted table looks like completed coverage, which is\nthe silence-equals-absence failure this branch fixes, one level up.\n\nAlgorand and TON had filled rows in §5 Example Output; cairo, solana and\nsubstrate had no rendering of the artifact but the blank skeleton.\n\nRow 1 of each table is now filled in with a realistic verdict and\nevidence -- one found, one clear naming what was searched, one n/a with\na reason -- and the row-count rule now says a row with an empty Verdict\ncell is incomplete in the same way as a missing row.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+    "tree": {
+      "sha": "8005a1d19be36fefdf6f9e19648f69bbb3698f32",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/8005a1d19be36fefdf6f9e19648f69bbb3698f32"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/6feac677af72e52ef4d279412276b5a6f21366f0",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqle0tCRC1aQ7uu5UhlAAALM4QAA2WDKhypSIUE1N3p8oGp4Wz\nDnNa8+p9HtMMIa7/2SiQ0ViB2WoywnYmPaJp/oBjhoMWNfP/+5pj+VJza7FyVOea\nZdOsnB80ifUOMKU5ugvXkwe6sNZvRA/O+UA6Pvi1j28/5w20u7ZZ79zuHrK2hq9I\nmsEsU7cdQDIUOzjJH1Y3ZeK1mMYuI85UzjOTE8kGUGR0GxmK+OSyNsg/n2TL/S6M\namQvYlB5nlpWigug3i7IQThk0dCp64/dsbVr8Oid2jqVqAevdzSCgLbLjEKhq0Dw\nmQFampA4kbWwUtFex7vBEXQcdPDb5mAERle+w2VEDtyad2oMBFmZNh48Kq3wLIhL\ngFj9KLclGIghFjRS3wVUO83EFhlxysDCQlDz4NUOFtA17UA0v+bTqfBNnXyUTFY0\n5GVbsE/bMG3+ZRnMEFls8ch8mD4moBUo+cAqq1GT7YRPmW2WvEzpLfl/mu/3QRi2\nAzT1xzdT2lj0zJS7ZxMc74Jhra47pC8n/eckFAko/j/FT+w/t+GFYXh/g0b4+ua5\n4C0BV5PBBSvn1YopKrPyFQI+3J03I/MZtB9hOHO9AfZEvdQyxEpbOUlsUikrWauA\nVLA8RpQ4sMdUh6WPf2kgrJqtyN1idc5w9utA1JGb2XIzHx5xP9VP/QN+bpDHsG5q\nmir4fBbHPtFIqtObOX3K\n=jMYW\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 8005a1d19be36fefdf6f9e19648f69bbb3698f32\nparent 9645e2f89b2d3195847df5c82ddf68b67e4de90f\nauthor kz-tob <kara.zaffarano@trailofbits.com> 1788210477 -0400\ncommitter GitHub <noreply@github.com> 1788210477 -0400\n\nbuilding-secure-contracts: require a per-pattern coverage table in the five flat scanners (#287)\n\n* building-secure-contracts: require a per-pattern coverage table in the five flat scanners\n\nEach scanner advertises a fixed pattern count but nothing forced a report\non each one, so a scan that examined four of eleven patterns produced\noutput indistinguishable from a clean contract.\n\nAdds a coverage table with pre-filled rows per scanner (algorand 11,\ncairo 6, solana 6, substrate 7, ton 3) and three verdicts: found, clear,\nn/a with a reason. Not having looked is not n/a. Adds a chain-specific\nRationalizations to Reject section to each.\n\nAlso aligns ton's pattern summary with VULNERABILITY_PATTERNS.md, which\nthe frontmatter description already matched: Integer as Boolean rather\nthan Integer Overflow, which is a different bug class.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: build every table from the canonical pattern list\n\nThe TON drift fix was right and I did not apply the same audit to the\nrest. Cairo and Algorand tables were built from their SKILL.md §6\nsummaries, which disagree with resources/VULNERABILITY_PATTERNS.md --\nthe file §6 sends the model to read.\n\nCairo: only arithmetic overlapped. Every L1/L2 pattern and signature\nreplay had no row, including \"Unchecked from_address in L1 Handler\",\nwhich is the file's own CRITICAL Finding Template example and the bug\nthe new Rationalizations section calls the canonical StarkNet bridge\nbug. Algorand: no row for unchecked transaction fee, AssetCloseTo,\naccess controls, asset ID verification or inner transaction fee, all\nfive already items in the same file's §12 checklist.\n\nThat is worse than before this branch: the omission used to be silent,\nand a coverage table turns it into a completeness claim that licenses\nstopping. Both summaries and both tables are now rebuilt from the\ncanonical files, as is the plugin README, whose Cairo list was a third\ndistinct pattern set and whose TON list named three patterns that no\nlonger exist. In both cases the frontmatter description already matched\ncanonical; only the summary had drifted.\n\nAlso:\n- A checklist item in all five, so a missing table is detectable where a\n  run checks itself rather than only in prose upstream.\n- The §4 output list and the §5 example reports showed a full report\n  with no table -- a concrete artifact beats an abstract instruction,\n  and the model copies the example.\n- Solana's pattern 5 is version-scoped like Substrate's pattern 4 but\n  had no version rule, so \"targets 1.17\" and \"did not look\" read alike.\n- Substrate's table said \"above the findings\" and \"below\" in a skill\n  with no findings section to anchor either.\n- TON §4 still listed replay protection as scope, a category with no row.\n\nVerified mechanically: all five tables now match their resource file in\ncount and order.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: fill row 1 so the table is not a blank skeleton\n\nEvery table shipped with empty Verdict and Evidence cells, and both\ngates -- \"with all 6 rows present\" and the new §12 checklist item -- are\nsatisfied literally by a table whose every verdict is blank. To a\nskimming reader an emitted table looks like completed coverage, which is\nthe silence-equals-absence failure this branch fixes, one level up.\n\nAlgorand and TON had filled rows in §5 Example Output; cairo, solana and\nsubstrate had no rendering of the artifact but the blank skeleton.\n\nRow 1 of each table is now filled in with a realistic verdict and\nevidence -- one found, one clear naming what was searched, one n/a with\na reason -- and the row-count rule now says a row with an empty Verdict\ncell is incomplete in the same way as a missing row.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+      "verified_at": "2026-08-31T21:07:58Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/6feac677af72e52ef4d279412276b5a6f21366f0",
+  "html_url": "https://github.com/trailofbits/skills/commit/6feac677af72e52ef4d279412276b5a6f21366f0",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/6feac677af72e52ef4d279412276b5a6f21366f0/comments",
+  "author": {
+    "login": "kz-tob",
+    "id": 295975343,
+    "node_id": "U_kgDOEaQ5rw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/295975343?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kz-tob",
+    "html_url": "https://github.com/kz-tob",
+    "followers_url": "https://api.github.com/users/kz-tob/followers",
+    "following_url": "https://api.github.com/users/kz-tob/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kz-tob/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kz-tob/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kz-tob/subscriptions",
+    "organizations_url": "https://api.github.com/users/kz-tob/orgs",
+    "repos_url": "https://api.github.com/users/kz-tob/repos",
+    "events_url": "https://api.github.com/users/kz-tob/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kz-tob/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+      "html_url": "https://github.com/trailofbits/skills/commit/9645e2f89b2d3195847df5c82ddf68b67e4de90f"
+    }
+  ]
+}

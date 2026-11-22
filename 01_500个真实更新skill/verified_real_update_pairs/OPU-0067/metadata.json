@@ -1,0 +1,119 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/building-secure-contracts/skills/cairo-vulnerability-scanner/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "0cdf1e697b0f2d9c6697",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 5,
+  "old": {
+    "commit": "9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+    "computed_tree_sha": "ef05f0f69f20be71f616940d53aa204a7db5aba1",
+    "api_tree_sha_as_returned": "ef05f0f69f20be71f616940d53aa204a7db5aba1",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5c5ed852108846b464758d4317676c8f3c9f9580",
+        "sha256": "3408b4d0ea2e618255e5715683626e7ebe0c10ae3c7929b19bb6af023a1d77f9",
+        "size": 9933,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "c6eae2d9252b4cc5ec6efb64247efb9ea41a056d",
+        "sha256": "615bee673bd545579e6ce01f64e17e85417e698ac779354bb84eaf02ef82dfab",
+        "size": 21282,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "6feac677af72e52ef4d279412276b5a6f21366f0",
+    "computed_tree_sha": "ff028a225cd39a90b5f7975c39c08fa2f2dd5a4c",
+    "api_tree_sha_as_returned": "ff028a225cd39a90b5f7975c39c08fa2f2dd5a4c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "88889ab994ab953744e46c47a5c468b5396566e7",
+        "sha256": "2d843b87efa0775e1147e8fce1493288267b19a3aa86efd65df6eb3085725f97",
+        "size": 13109,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/VULNERABILITY_PATTERNS.md",
+        "git_blob_sha1": "c6eae2d9252b4cc5ec6efb64247efb9ea41a056d",
+        "sha256": "615bee673bd545579e6ce01f64e17e85417e698ac779354bb84eaf02ef82dfab",
+        "size": 21282,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+  "new_commit": "6feac677af72e52ef4d279412276b5a6f21366f0",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "building-secure-contracts: require a per-pattern coverage table in the five flat scanners (#287)\n\n* building-secure-contracts: require a per-pattern coverage table in the five flat scanners\n\nEach scanner advertises a fixed pattern count but nothing forced a report\non each one, so a scan that examined four of eleven patterns produced\noutput indistinguishable from a clean contract.\n\nAdds a coverage table with pre-filled rows per scanner (algorand 11,\ncairo 6, solana 6, substrate 7, ton 3) and three verdicts: found, clear,\nn/a with a reason. Not having looked is not n/a. Adds a chain-specific\nRationalizations to Reject section to each.\n\nAlso aligns ton's pattern summary with VULNERABILITY_PATTERNS.md, which\nthe frontmatter description already matched: Integer as Boolean rather\nthan Integer Overflow, which is a different bug class.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: build every table from the canonical pattern list\n\nThe TON drift fix was right and I did not apply the same audit to the\nrest. Cairo and Algorand tables were built from their SKILL.md §6\nsummaries, which disagree with resources/VULNERABILITY_PATTERNS.md --\nthe file §6 sends the model to read.\n\nCairo: only arithmetic overlapped. Every L1/L2 pattern and signature\nreplay had no row, including \"Unchecked from_address in L1 Handler\",\nwhich is the file's own CRITICAL Finding Template example and the bug\nthe new Rationalizations section calls the canonical StarkNet bridge\nbug. Algorand: no row for unchecked transaction fee, AssetCloseTo,\naccess controls, asset ID verification or inner transaction fee, all\nfive already items in the same file's §12 checklist.\n\nThat is worse than before this branch: the omission used to be silent,\nand a coverage table turns it into a completeness claim that licenses\nstopping. Both summaries and both tables are now rebuilt from the\ncanonical files, as is the plugin README, whose Cairo list was a third\ndistinct pattern set and whose TON list named three patterns that no\nlonger exist. In both cases the frontmatter description already matched\ncanonical; only the summary had drifted.\n\nAlso:\n- A checklist item in all five, so a missing table is detectable where a\n  run checks itself rather than only in prose upstream.\n- The §4 output list and the §5 example reports showed a full report\n  with no table -- a concrete artifact beats an abstract instruction,\n  and the model copies the example.\n- Solana's pattern 5 is version-scoped like Substrate's pattern 4 but\n  had no version rule, so \"targets 1.17\" and \"did not look\" read alike.\n- Substrate's table said \"above the findings\" and \"below\" in a skill\n  with no findings section to anchor either.\n- TON §4 still listed replay protection as scope, a category with no row.\n\nVerified mechanically: all five tables now match their resource file in\ncount and order.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: fill row 1 so the table is not a blank skeleton\n\nEvery table shipped with empty Verdict and Evidence cells, and both\ngates -- \"with all 6 rows present\" and the new §12 checklist item -- are\nsatisfied literally by a table whose every verdict is blank. To a\nskimming reader an emitted table looks like completed coverage, which is\nthe silence-equals-absence failure this branch fixes, one level up.\n\nAlgorand and TON had filled rows in §5 Example Output; cairo, solana and\nsubstrate had no rendering of the artifact but the blank skeleton.\n\nRow 1 of each table is now filled in with a realistic verdict and\nevidence -- one found, one clear naming what was searched, one n/a with\na reason -- and the row-count rule now says a row with an empty Verdict\ncell is incomplete in the same way as a missing row.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-31T21:07:57Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/9645e2f89b2d3195847df5c82ddf68b67e4de90f...6feac677af72e52ef4d279412276b5a6f21366f0",
+  "commit_url": "https://github.com/trailofbits/skills/commit/6feac677af72e52ef4d279412276b5a6f21366f0",
+  "skill_directory": "plugins/building-secure-contracts/skills/cairo-vulnerability-scanner",
+  "local_directory": "verified_real_update_pairs/OPU-0067",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0067",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

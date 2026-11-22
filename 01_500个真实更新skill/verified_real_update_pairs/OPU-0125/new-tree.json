@@ -1,0 +1,77 @@
+{
+  "sha": "b4be97617dde6f0a22f015d36cb45a5e74dfe4e5",
+  "url": "https://api.github.com/repos/getsentry/skills/git/trees/b4be97617dde6f0a22f015d36cb45a5e74dfe4e5",
+  "tree": [
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "679e17ee1c6036ed2b4ffc2402a2733875b37245",
+      "size": 5036,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/679e17ee1c6036ed2b4ffc2402a2733875b37245"
+    },
+    {
+      "path": "SPEC.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6b9266f230c1db148e5668174cb05ea07cc760",
+      "size": 5355,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/0c6b9266f230c1db148e5668174cb05ea07cc760"
+    },
+    {
+      "path": "agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4aac32972a40083bc419ef8d49a69f7455cd217",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/e4aac32972a40083bc419ef8d49a69f7455cd217"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bf677f52b5dd4336c820280a30f47aac98da155",
+      "size": 292,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/0bf677f52b5dd4336c820280a30f47aac98da155"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b2285a3dbf911a02995573eff3936489caf5b60",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/5b2285a3dbf911a02995573eff3936489caf5b60"
+    },
+    {
+      "path": "scripts/fetch_pr_checks.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9b19493119e1640d807483d66d15de6145bb56ed",
+      "size": 9901,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/9b19493119e1640d807483d66d15de6145bb56ed"
+    },
+    {
+      "path": "scripts/fetch_pr_feedback.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6186e0b75bba87b860e337cac18a72e00216c3ba",
+      "size": 14742,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/6186e0b75bba87b860e337cac18a72e00216c3ba"
+    },
+    {
+      "path": "scripts/monitor_pr_checks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797e7924d251d085daaa81dd92b0f5460f06982e",
+      "size": 6699,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/797e7924d251d085daaa81dd92b0f5460f06982e"
+    },
+    {
+      "path": "scripts/reply_to_thread.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51bfa6a21b86e13aedae79dac60af94598ee2a5f",
+      "size": 5395,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/51bfa6a21b86e13aedae79dac60af94598ee2a5f"
+    }
+  ],
+  "truncated": false
+}

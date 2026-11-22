@@ -1,0 +1,85 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-dotnet/skills/m365-agents-dotnet/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "407f72db63d648daf88f",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "6ec13a50cbc7d39f90e014b3d481a9fac84025cf",
+    "computed_tree_sha": "09a58c64c5435ce27058822b2b08f54fd252ac9a",
+    "api_tree_sha_as_returned": "09a58c64c5435ce27058822b2b08f54fd252ac9a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "55da6777e7cde28e3836afecfdb5d88f34a156e8",
+        "sha256": "b6bf463b410c404936dc3405f6c90cfb7fe53e552b87d13718ff6d4d6b1755fd",
+        "size": 9644,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "249aaa039202f50d7efb199cc696cb500af74b82",
+        "sha256": "428d5b61ae6c8900d5c9ef0c9a666768ae95caf06b26917679669a8541543c5b",
+        "size": 4168,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e1f9cce11758d305e6c77683fe34ccc394586291",
+    "computed_tree_sha": "2f64c721e9639aede6ce2d0cd1402db021684c69",
+    "api_tree_sha_as_returned": "2f64c721e9639aede6ce2d0cd1402db021684c69",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d914cd1443fa3df60bddee1e061870f0dd404917",
+        "sha256": "1f29376692b66b1bfc1f3d7074457eb7c4f3606ae9e32f56c2aba600bca8503b",
+        "size": 10045,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/acceptance-criteria.md"
+  ],
+  "old_commit": "6ec13a50cbc7d39f90e014b3d481a9fac84025cf",
+  "new_commit": "e1f9cce11758d305e6c77683fe34ccc394586291",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Moved acceptance-criteria out of skills directory into tests directly; Fixed Rust skills to reflect current code (#268)",
+  "new_commit_time": "2026-04-20T16:58:14Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/6ec13a50cbc7d39f90e014b3d481a9fac84025cf...e1f9cce11758d305e6c77683fe34ccc394586291",
+  "commit_url": "https://github.com/microsoft/skills/commit/e1f9cce11758d305e6c77683fe34ccc394586291",
+  "skill_directory": ".github/plugins/azure-sdk-dotnet/skills/m365-agents-dotnet",
+  "local_directory": "verified_real_update_pairs/OPU-0252",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0252",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

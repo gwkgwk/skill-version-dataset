@@ -1,0 +1,121 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-typescript/skills/azure-identity-ts/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "229322c488d4b0be562d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+    "computed_tree_sha": "14d0da60f2088eec6de4f561eff5518ee772b2e7",
+    "api_tree_sha_as_returned": "14d0da60f2088eec6de4f561eff5518ee772b2e7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0762c24d6b2da995ff178a7224a8045715e98e0b",
+        "sha256": "e339bbaa73bbad96dc18534d661f89da48a7f324ff6cd27fda85330e046c5397",
+        "size": 7738,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "6a313b46e490731144a162f60959140b80bb3404",
+        "sha256": "0e6961bc7d9c89cc6e4bd1974aab8440e4a7fbc282fde5d2ab841e12c1399603",
+        "size": 8625,
+        "mode": "100644"
+      },
+      {
+        "path": "references/browser-auth.md",
+        "git_blob_sha1": "1d8a93ad3e4a907e41e8cbe009ddf81b3b1f01c4",
+        "sha256": "ae12c4dfb043b5122cbc0ce7789dfda130b8688f94963dd1a298537de6e9c9a9",
+        "size": 10691,
+        "mode": "100644"
+      },
+      {
+        "path": "references/credential-types.md",
+        "git_blob_sha1": "ae246f78be2b6ae48863b180dd5c0c188aafbeae",
+        "sha256": "88a305a18093f1a825b378251b6ab74cb556fdb8086c6691eadef0c4d7655a2e",
+        "size": 10136,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+    "computed_tree_sha": "d98b0b95c25bf7d7aa587d5d883651efc5e6f54d",
+    "api_tree_sha_as_returned": "d98b0b95c25bf7d7aa587d5d883651efc5e6f54d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "50b8b57d4f064c88ddd3c35976511952bcdeba05",
+        "sha256": "779d1684a34a4a051e23835b99ce51909d4485d88db44df9508e3a4debdf729b",
+        "size": 7954,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "6a313b46e490731144a162f60959140b80bb3404",
+        "sha256": "0e6961bc7d9c89cc6e4bd1974aab8440e4a7fbc282fde5d2ab841e12c1399603",
+        "size": 8625,
+        "mode": "100644"
+      },
+      {
+        "path": "references/browser-auth.md",
+        "git_blob_sha1": "1d8a93ad3e4a907e41e8cbe009ddf81b3b1f01c4",
+        "sha256": "ae12c4dfb043b5122cbc0ce7789dfda130b8688f94963dd1a298537de6e9c9a9",
+        "size": 10691,
+        "mode": "100644"
+      },
+      {
+        "path": "references/credential-types.md",
+        "git_blob_sha1": "ae246f78be2b6ae48863b180dd5c0c188aafbeae",
+        "sha256": "88a305a18093f1a825b378251b6ab74cb556fdb8086c6691eadef0c4d7655a2e",
+        "size": 10136,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+  "new_commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add AZURE_TOKEN_CREDENTIALS env var and credential classes link to all TS skills\n\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables section (20 skills)\n- Add credential classes reference link in Authentication section (20 skills)\n- Reword credential classes link in skill-creator template\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-22T00:02:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bb5ba24c931f82be9b6d266f29947e4ed0dd1679...338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "commit_url": "https://github.com/microsoft/skills/commit/338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "skill_directory": ".github/plugins/azure-sdk-typescript/skills/azure-identity-ts",
+  "local_directory": "verified_real_update_pairs/OPU-0442",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0442",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

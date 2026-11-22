@@ -1,0 +1,149 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/bigquery-udfs/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "e420bf2df9ae19b818e1",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "f84cb936853c1dd8bd1fdae56fb2eda8d0a6aceb",
+    "computed_tree_sha": "1bf15bc49af3a24136084989aa43c10688a927ac",
+    "api_tree_sha_as_returned": "1bf15bc49af3a24136084989aa43c10688a927ac",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a0360eefba2fa481a004a270374f271ff5dcf2de",
+        "sha256": "fd305d14f3018b702db95e17e782b1ebdc7678297a46068049b0ce6eafcaf957",
+        "size": 19000,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "147fcb2e2d38dea125caadba780c939f6e6480e9",
+        "sha256": "98d9378c46bccb049d46d14a00d6e0a0054f3178ae75a59091b0a66483e5d2c1",
+        "size": 1883,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-and-quotas.md",
+        "git_blob_sha1": "a68b17fdd86d9b669201d03f76bd9c17fb111122",
+        "sha256": "81b50744b666303e4e52e0d9bdbcea61d4e2e664e415f03390b4dd9f643d5ccc",
+        "size": 7363,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python-udfs.md",
+        "git_blob_sha1": "f5f9da05159b2e3dfc34ffe4625dc7eef4f03f7c",
+        "sha256": "76090b1fbc914e968797f5c92d9952da090480d7b4af596be0c7f3cbea2df9fc",
+        "size": 19619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/remote-functions.md",
+        "git_blob_sha1": "edef47a1687b3f89a7e0856daf34b891305d1940",
+        "sha256": "86f989b2d2e5cd0c8241a54bf3b4e737a0151660c53d355d174ecb74bbf1497a",
+        "size": 7153,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sql-and-js-udfs.md",
+        "git_blob_sha1": "48fbf6de0ddafec59175014006f2528a6b633b8f",
+        "sha256": "23a9d646be70ead8b99caab7867171236a876b0486caab024e9fcfb8d3fcebe8",
+        "size": 6729,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "742ffb230bc013b5d248e2d410f0ca1952d56d5a",
+    "computed_tree_sha": "c984b1f9dd4d98b1b7bedaa278bf85bebd50b388",
+    "api_tree_sha_as_returned": "c984b1f9dd4d98b1b7bedaa278bf85bebd50b388",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "67cad59e3cc9ca333bdc2a7302ade0ee6d601507",
+        "sha256": "fb849e14bfbd33cd0f2db80510f2b96bb758cc807862386c28bc2bdaa7c5d880",
+        "size": 19289,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "147fcb2e2d38dea125caadba780c939f6e6480e9",
+        "sha256": "98d9378c46bccb049d46d14a00d6e0a0054f3178ae75a59091b0a66483e5d2c1",
+        "size": 1883,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-and-quotas.md",
+        "git_blob_sha1": "a68b17fdd86d9b669201d03f76bd9c17fb111122",
+        "sha256": "81b50744b666303e4e52e0d9bdbcea61d4e2e664e415f03390b4dd9f643d5ccc",
+        "size": 7363,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python-udfs.md",
+        "git_blob_sha1": "f5f9da05159b2e3dfc34ffe4625dc7eef4f03f7c",
+        "sha256": "76090b1fbc914e968797f5c92d9952da090480d7b4af596be0c7f3cbea2df9fc",
+        "size": 19619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/remote-functions.md",
+        "git_blob_sha1": "edef47a1687b3f89a7e0856daf34b891305d1940",
+        "sha256": "86f989b2d2e5cd0c8241a54bf3b4e737a0151660c53d355d174ecb74bbf1497a",
+        "size": 7153,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sql-and-js-udfs.md",
+        "git_blob_sha1": "48fbf6de0ddafec59175014006f2528a6b633b8f",
+        "sha256": "23a9d646be70ead8b99caab7867171236a876b0486caab024e9fcfb8d3fcebe8",
+        "size": 6729,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "f84cb936853c1dd8bd1fdae56fb2eda8d0a6aceb",
+  "new_commit": "742ffb230bc013b5d248e2d410f0ca1952d56d5a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update bigquery-udfs skill for AI functions and canonical skill references\n\n- Update ML.GENERATE_TEXT to AI.GENERATE_TEXT\n- Use canonical skill name references\n- Document remote function batch limits and retry semantics\n\nPiperOrigin-RevId: 1019375889",
+  "new_commit_time": "2026-11-11T19:52:56Z",
+  "compare_url": "https://github.com/google/skills/compare/f84cb936853c1dd8bd1fdae56fb2eda8d0a6aceb...742ffb230bc013b5d248e2d410f0ca1952d56d5a",
+  "commit_url": "https://github.com/google/skills/commit/742ffb230bc013b5d248e2d410f0ca1952d56d5a",
+  "skill_directory": "skills/cloud/bigquery-udfs",
+  "local_directory": "verified_real_update_pairs/OPU-0338",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0338",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

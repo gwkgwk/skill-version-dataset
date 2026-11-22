@@ -1,0 +1,323 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/huggingface-llm-trainer/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "b24c62c1135cf377ff18",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "6464d547c41cc3897c826a211625f1e2b9fee0f9",
+    "computed_tree_sha": "1a49cfb7ebd23cf49ca237895e8f301c16be9f04",
+    "api_tree_sha_as_returned": "1a49cfb7ebd23cf49ca237895e8f301c16be9f04",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "aa74347d9739c66b371d172cb92f8cb22e9f0481",
+        "sha256": "3e09554ccee6699a83027ce69c39885c08ec75d8f17a2b5a7b6dd112ca8b9169",
+        "size": 27965,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gguf_conversion.md",
+        "git_blob_sha1": "a99ea0e888a24895ab2017bc8fdab3d809f66f88",
+        "sha256": "d341b8720e91a64e715cc76095b28a44d31319eb7d63df5bd7f93340804f89e0",
+        "size": 9854,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hardware_guide.md",
+        "git_blob_sha1": "22eba945ad61b93725d547a94bd130c422f98b27",
+        "sha256": "01b3ba873c5a45214746a25111131a5d27cd484722bc00cbe9f43dcaebc6a28c",
+        "size": 6778,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hub_saving.md",
+        "git_blob_sha1": "734e49b51de8b0224a3e2ee91084432a2fdb5a76",
+        "sha256": "ca3aacd6bad68ab149c007089c00cf4c72fd39b5c150c4fb7d192fda94ac838f",
+        "size": 8501,
+        "mode": "100644"
+      },
+      {
+        "path": "references/local_training_macos.md",
+        "git_blob_sha1": "fdf5dede51aaf47c3bd31cc9b45fd36e3a8faa24",
+        "sha256": "864619b791239093d33e2627bc9e61428dcbb15cb3e947e3f9b278b73f0c871b",
+        "size": 8324,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reliability_principles.md",
+        "git_blob_sha1": "bf2f745878edd6a4a7b51b68e806b43ac6e6d856",
+        "sha256": "189b40920184a64124a834ab4a0e3e99756a850b124add3e6cc5049036cd824f",
+        "size": 10867,
+        "mode": "100644"
+      },
+      {
+        "path": "references/trackio_guide.md",
+        "git_blob_sha1": "342045ee8ba34d05e3d777b17aec54eb69523668",
+        "sha256": "2846e8cefd27c78692a409c9631a332bd91f4fbdeb826042feb802a01a9fc257",
+        "size": 5784,
+        "mode": "100644"
+      },
+      {
+        "path": "references/training_methods.md",
+        "git_blob_sha1": "2393d7731cb2c9d1b4c3029f5fbc635d3beba49f",
+        "sha256": "10849c3f258ef571c576d3ec4779e7d01b625aec62891ecbc66be5356a7bf69d",
+        "size": 5011,
+        "mode": "100644"
+      },
+      {
+        "path": "references/training_patterns.md",
+        "git_blob_sha1": "2101e12a766ea675ee0577b2c4d46f6b5277f7a7",
+        "sha256": "cae8248d52454a5a93f20c0da6d64017f32d36e3b2cbbe298762affc083f3923",
+        "size": 6127,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "430816ce5340022f7f7422ba5ca4fbc39a8baf8c",
+        "sha256": "1149767feca1e301197fcd8b7a91b75ec7ac101edb01c766770e687d6d02f6d7",
+        "size": 8858,
+        "mode": "100644"
+      },
+      {
+        "path": "references/unsloth.md",
+        "git_blob_sha1": "83e1e116e54106709eafc3ff4273419a5512c8a6",
+        "sha256": "ff6255c21bde78a3120e40b5d620758a4f910ce7b5e1f9f05eb07214da83dff2",
+        "size": 8005,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/convert_to_gguf.py",
+        "git_blob_sha1": "db42069a8366a4b460b2615e56eca6600f01aafc",
+        "sha256": "7e882d67f4bee9ef8593c622eb3387fffc42c69d68252d45e6fcfaaffa83fc24",
+        "size": 12612,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/dataset_inspector.py",
+        "git_blob_sha1": "e29aed3e239f8d6f6fa9038724b77078e93f5ad6",
+        "sha256": "a75f9840e1925f50d6525faf97a502ed0810538746121cd666e691784be816eb",
+        "size": 15683,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/estimate_cost.py",
+        "git_blob_sha1": "fff8e4eb38ca93356867f11aead4259dbf895cfe",
+        "sha256": "7f69e6cd34f35a462a5e6e3cb9121fc785abf2f9cb84ed6c473a0b167556e64b",
+        "size": 4854,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/train_dpo_example.py",
+        "git_blob_sha1": "84c66f996b06d92a66a34f035de3984cf5d8cb98",
+        "sha256": "de24eb7ab1e61adcc2387256ab40c10a6ca0648ad6db703d7e348ffd37e1d361",
+        "size": 3118,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/train_grpo_example.py",
+        "git_blob_sha1": "db6bcbd839a7009aec169b290fc6583cf37162cb",
+        "sha256": "a25888208b0410e2982aa92c8a96dd43a9fe9fcce45037a48215885c755a608d",
+        "size": 2384,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/train_sft_example.py",
+        "git_blob_sha1": "e20233be552794829a2a8d37aef071b6d2500cbd",
+        "sha256": "29d1e6aa09c7d548158849c4ffa0bdaccaf7d205a79909b4c872abb9a7961284",
+        "size": 3343,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/unsloth_sft_example.py",
+        "git_blob_sha1": "7ee9fc2ba5a59274c53fae5414882eec8f608840",
+        "sha256": "40174038a0f1b03014fe0f0d3099aec2f44fa6954920d90c628c2b5ed21dc84a",
+        "size": 16854,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d0d3f4301358fc1351d408a58596d5644b5a8114",
+    "computed_tree_sha": "ac937a5b9853bdd63522a98bf98cc4b2ef98fc90",
+    "api_tree_sha_as_returned": "ac937a5b9853bdd63522a98bf98cc4b2ef98fc90",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "74ad29af05eee633fb4c04376118f751c24cdd5e",
+        "sha256": "fb5c5e25103e38226e4d8ae28db84a01de42a11da4be1918fa72f833699f9d0d",
+        "size": 28780,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gguf_conversion.md",
+        "git_blob_sha1": "a99ea0e888a24895ab2017bc8fdab3d809f66f88",
+        "sha256": "d341b8720e91a64e715cc76095b28a44d31319eb7d63df5bd7f93340804f89e0",
+        "size": 9854,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hardware_guide.md",
+        "git_blob_sha1": "22eba945ad61b93725d547a94bd130c422f98b27",
+        "sha256": "01b3ba873c5a45214746a25111131a5d27cd484722bc00cbe9f43dcaebc6a28c",
+        "size": 6778,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hub_saving.md",
+        "git_blob_sha1": "734e49b51de8b0224a3e2ee91084432a2fdb5a76",
+        "sha256": "ca3aacd6bad68ab149c007089c00cf4c72fd39b5c150c4fb7d192fda94ac838f",
+        "size": 8501,
+        "mode": "100644"
+      },
+      {
+        "path": "references/local_training_macos.md",
+        "git_blob_sha1": "fdf5dede51aaf47c3bd31cc9b45fd36e3a8faa24",
+        "sha256": "864619b791239093d33e2627bc9e61428dcbb15cb3e947e3f9b278b73f0c871b",
+        "size": 8324,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reliability_principles.md",
+        "git_blob_sha1": "bf2f745878edd6a4a7b51b68e806b43ac6e6d856",
+        "sha256": "189b40920184a64124a834ab4a0e3e99756a850b124add3e6cc5049036cd824f",
+        "size": 10867,
+        "mode": "100644"
+      },
+      {
+        "path": "references/trackio_guide.md",
+        "git_blob_sha1": "342045ee8ba34d05e3d777b17aec54eb69523668",
+        "sha256": "2846e8cefd27c78692a409c9631a332bd91f4fbdeb826042feb802a01a9fc257",
+        "size": 5784,
+        "mode": "100644"
+      },
+      {
+        "path": "references/training_methods.md",
+        "git_blob_sha1": "2393d7731cb2c9d1b4c3029f5fbc635d3beba49f",
+        "sha256": "10849c3f258ef571c576d3ec4779e7d01b625aec62891ecbc66be5356a7bf69d",
+        "size": 5011,
+        "mode": "100644"
+      },
+      {
+        "path": "references/training_patterns.md",
+        "git_blob_sha1": "2101e12a766ea675ee0577b2c4d46f6b5277f7a7",
+        "sha256": "cae8248d52454a5a93f20c0da6d64017f32d36e3b2cbbe298762affc083f3923",
+        "size": 6127,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "430816ce5340022f7f7422ba5ca4fbc39a8baf8c",
+        "sha256": "1149767feca1e301197fcd8b7a91b75ec7ac101edb01c766770e687d6d02f6d7",
+        "size": 8858,
+        "mode": "100644"
+      },
+      {
+        "path": "references/unsloth.md",
+        "git_blob_sha1": "83e1e116e54106709eafc3ff4273419a5512c8a6",
+        "sha256": "ff6255c21bde78a3120e40b5d620758a4f910ce7b5e1f9f05eb07214da83dff2",
+        "size": 8005,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/convert_to_gguf.py",
+        "git_blob_sha1": "db42069a8366a4b460b2615e56eca6600f01aafc",
+        "sha256": "7e882d67f4bee9ef8593c622eb3387fffc42c69d68252d45e6fcfaaffa83fc24",
+        "size": 12612,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/dataset_inspector.py",
+        "git_blob_sha1": "e29aed3e239f8d6f6fa9038724b77078e93f5ad6",
+        "sha256": "a75f9840e1925f50d6525faf97a502ed0810538746121cd666e691784be816eb",
+        "size": 15683,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/estimate_cost.py",
+        "git_blob_sha1": "fff8e4eb38ca93356867f11aead4259dbf895cfe",
+        "sha256": "7f69e6cd34f35a462a5e6e3cb9121fc785abf2f9cb84ed6c473a0b167556e64b",
+        "size": 4854,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/hf_benchmarks.py",
+        "git_blob_sha1": "60e840c1e1d2709e48aeaae268a5377d2b32a0bc",
+        "sha256": "70524bfe1e897d03a6d43ef6db254fe1bb02c26d9bf1471a35277bcabae64e86",
+        "size": 20086,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/train_dpo_example.py",
+        "git_blob_sha1": "84c66f996b06d92a66a34f035de3984cf5d8cb98",
+        "sha256": "de24eb7ab1e61adcc2387256ab40c10a6ca0648ad6db703d7e348ffd37e1d361",
+        "size": 3118,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/train_grpo_example.py",
+        "git_blob_sha1": "db6bcbd839a7009aec169b290fc6583cf37162cb",
+        "sha256": "a25888208b0410e2982aa92c8a96dd43a9fe9fcce45037a48215885c755a608d",
+        "size": 2384,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/train_sft_example.py",
+        "git_blob_sha1": "e20233be552794829a2a8d37aef071b6d2500cbd",
+        "sha256": "29d1e6aa09c7d548158849c4ffa0bdaccaf7d205a79909b4c872abb9a7961284",
+        "size": 3343,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/unsloth_sft_example.py",
+        "git_blob_sha1": "7ee9fc2ba5a59274c53fae5414882eec8f608840",
+        "sha256": "40174038a0f1b03014fe0f0d3099aec2f44fa6954920d90c628c2b5ed21dc84a",
+        "size": 16854,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/hf_benchmarks.py"
+  ],
+  "old_commit": "6464d547c41cc3897c826a211625f1e2b9fee0f9",
+  "new_commit": "d0d3f4301358fc1351d408a58596d5644b5a8114",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "add benchmark/leaderboard script to llm-trainer skill (#115)\n\n* add benchmark/leaderboard script to llm-trainer skill\n\n* tweaks\n\n* update description",
+  "new_commit_time": "2026-04-09T10:58:58Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/6464d547c41cc3897c826a211625f1e2b9fee0f9...d0d3f4301358fc1351d408a58596d5644b5a8114",
+  "commit_url": "https://github.com/huggingface/skills/commit/d0d3f4301358fc1351d408a58596d5644b5a8114",
+  "skill_directory": "skills/huggingface-llm-trainer",
+  "local_directory": "verified_real_update_pairs/OPU-0118",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0118",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

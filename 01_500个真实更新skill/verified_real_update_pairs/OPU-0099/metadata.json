@@ -1,0 +1,119 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/pdf/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "b3674f1bbcd475ef9290",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd",
+    "computed_tree_sha": "9800f097344d7a45bd783ca3cf266a9766338b8d",
+    "api_tree_sha_as_returned": "9800f097344d7a45bd783ca3cf266a9766338b8d",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ec6e2d0e12c452a62ae8832e3ff7ab4b5666b076",
+        "sha256": "9efb9e9c58daea2a4bc246b0c6eb553b092cadcaad329579e644e09635dcdb31",
+        "size": 2573,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "33a75a7b572867072dc0674bee8e63e06c19e67b",
+    "computed_tree_sha": "925871a91cccd287917b1fb4c718aea5e55fdd47",
+    "api_tree_sha_as_returned": "925871a91cccd287917b1fb4c718aea5e55fdd47",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fd5d56058f10202e4f50a30bc2906f39696024a1",
+        "sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+        "size": 2517,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "d41072f61dfb360e738a5bfa5287f82393c7a1c9",
+        "sha256": "8ef73d1f00e25bffcc5811a2f2fdd997d51ea48f3181c3ebfc3a922f4c145484",
+        "size": 226,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/pdf.png",
+        "git_blob_sha1": "dd16ba283f6056cfe99cc3d36612d3b8cd79e00d",
+        "sha256": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee",
+        "size": 1312,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "assets/pdf.png"
+  ],
+  "old_commit": "3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd",
+  "new_commit": "33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync curated skills! (#64)",
+  "new_commit_time": "2026-01-30T18:34:32Z",
+  "compare_url": "https://github.com/openai/skills/compare/3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd...33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "commit_url": "https://github.com/openai/skills/commit/33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "skill_directory": "skills/.curated/pdf",
+  "local_directory": "verified_real_update_pairs/OPU-0099",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0099",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

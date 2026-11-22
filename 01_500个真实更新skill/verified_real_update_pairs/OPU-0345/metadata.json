@@ -1,0 +1,93 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-keys-java/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "229c4027f1c3db12892d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+    "computed_tree_sha": "87cd2a92f2e79b97d880c813003194be1d890f8e",
+    "api_tree_sha_as_returned": "87cd2a92f2e79b97d880c813003194be1d890f8e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9f8cba84b19a357fc1660122ac6cbf8d109db324",
+        "sha256": "a6678c5698d72b78de706a90f844e12e4edbca52d9092bad1833003ac04e6352",
+        "size": 10961,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "c1857a699ebaae38750fb0e28d75cea4558561cf",
+        "sha256": "67b854b920a436f18813391844bc50099a27988235f332d066925cab63331b22",
+        "size": 14987,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+    "computed_tree_sha": "1bedbdd6834c29fe29dcb3b6834d5ddec89b068a",
+    "api_tree_sha_as_returned": "1bedbdd6834c29fe29dcb3b6834d5ddec89b068a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "632c3607d93b81d7625969555520be8d873ee2d7",
+        "sha256": "ad00eabdfbfbf51ee4b58d53a5444e44be2725a6d4c2603d88de1c04816ea5b4",
+        "size": 11671,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "c1857a699ebaae38750fb0e28d75cea4558561cf",
+        "sha256": "67b854b920a436f18813391844bc50099a27988235f332d066925cab63331b22",
+        "size": 14987,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+  "new_commit": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Java skills auth and env vars with requireEnvVars pattern\n\n- Add requireEnvVars(AzureIdentityEnvVars.AZURE_TOKEN_CREDENTIALS) to DefaultAzureCredentialBuilder in 20 Java skills\n- Add ManagedIdentityCredentialBuilder as production alternative with credential classes link\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables sections\n- Add inline comments to all env vars explaining purpose\n- Update skill-creator with Java and C# auth patterns\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-29T07:41:43Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/7d736cbd13e586462eac0c22d6eada4f7a0e435a...e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "commit_url": "https://github.com/microsoft/skills/commit/e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "skill_directory": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-keys-java",
+  "local_directory": "verified_real_update_pairs/OPU-0345",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0345",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

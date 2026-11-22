@@ -1,0 +1,82 @@
+{
+  "sha": "1e0cc133f425b8ca049943e91000f3a38dcf6980",
+  "node_id": "C_kwDOQ55KR9oAKDFlMGNjMTMzZjQyNWI4Y2EwNDk5NDNlOTEwMDBmM2EzOGRjZjY5ODA",
+  "commit": {
+    "author": {
+      "name": "Dan Guido",
+      "email": "dan@trailofbits.com",
+      "date": "2026-08-20T15:39:52Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-20T15:39:52Z"
+    },
+    "message": "trailmark: pass --language to graph-evolution's diff calls (#266)\n\n* trailmark: pass --language to graph-evolution's diff calls\n\n`trailmark diff` defaults `--language` to `python`. On a non-Python target it\nexits 0 and writes well-formed JSON with empty `nodes`, `edges`, and\n`entrypoints` arrays, which the skill's own \"stop if empty\" guard read as \"no\nchanges\" rather than \"wrong language\".\n\nBoth call sites now pass `--language auto`, mirroring the `language=\"auto\"`\ndefault that Phase 2's `build_and_export` already uses, and the guard text says\nto confirm the language before treating an empty diff as an unchanged codebase.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* trailmark: fix the two remaining bare diff calls and the stale empty-diff guard\n\nThe core skill's Quick Start (SKILL.md:147) and query-patterns.md:223 still ran\n`trailmark diff` without `--language`, hitting the same silent python default\nthis PR fixes in graph-evolution — worse, the entrypoints line directly above\neach passes `--language auto`, so the omission read as deliberate. Pass\n`--language auto` at both.\n\nWith `auto` in the documented command, \"empty most often means the language was\nwrong\" no longer names the likely cause, and \"compare the two outputs\" gives no\ndecision rule. Key the empty-diff guard on Phase 2's graph summaries instead:\nempty diff plus healthy node counts on both snapshots is genuine stability,\nempty diff with a (near-)zero count means the parse missed the code. The\nchecklist item now states that checkable condition rather than a self-attested\n\"language was confirmed\".\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014UFqJu1ada7gXjD9peo1rX\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: Scott Arciszewski <147527775+tob-scott-a@users.noreply.github.com>",
+    "tree": {
+      "sha": "84a25f37ab59ee65e0dd5d9433872b49162faa1e",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/84a25f37ab59ee65e0dd5d9433872b49162faa1e"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/1e0cc133f425b8ca049943e91000f3a38dcf6980",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqhx/ICRC1aQ7uu5UhlAAAoKoQADq8JkRN5QpxnIIpbEBwseM5\n02n1jNDS896jiei0NEkrw3l6JYysJT50ODwS8fIj+ErPlNIjRIaRPwSa6Ftg7vN+\nY8Mtvw1wvp1SyHesEzuY1T6CKxE082SCRY1Qq5g+yZRXCt55wU7hgQDMc+RYMOOy\niH1k6mYgWTZFJLkOY4aDfPPnHjcXrUjUVvA0RBjfhZTnNy3lzK5UknHzTqawO9CP\naudzq8E5WxXMEKHSpzTg9P0G2+Et23HD2e09RsNO0aaIrRjzMXjkyMO7oQl/kKOS\n3SnPHRwyIS2kjgn/RO+2+ymGt0jbzcwoh4HnDpgGMfegHY29oGxnqRR6e8e7IIjX\nblk6GyTuH7cYmL9nIzOzeKMgo/vutVpeTO+A5g7fnB8sH3WBK5S/PTmrC6Dz9ffG\n3BxWWFICmkteoxFaXjEEok5GXWxIIJkDOuWpWoVyUzbahdbYjLYLQC7OfokKzgV3\nhOaoIDQ3xmc7oaFvCqLX/TBbU4OP22tQRMX9pw22YO60nfnNL1SDFANFwdAQhWxW\nqJdH0ofMsD6NcsK8FB2l8TP1AJKaj4qr3yT0AjxqvgkkCAeAkHGH6znBfGdNaqNj\nBoWwIjIbvB78dr8plCqL6YSVjChZe9SA0CSQiMWGoFy2XF4KgSi1TJsY3aK63QIS\n+y2VmmdjIax6dMP7iIQH\n=b2vj\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 84a25f37ab59ee65e0dd5d9433872b49162faa1e\nparent 9b2813356e9b9ef670dc1f4493a69e82c8e7f27e\nauthor Dan Guido <dan@trailofbits.com> 1787240392 -0400\ncommitter GitHub <noreply@github.com> 1787240392 -0400\n\ntrailmark: pass --language to graph-evolution's diff calls (#266)\n\n* trailmark: pass --language to graph-evolution's diff calls\n\n`trailmark diff` defaults `--language` to `python`. On a non-Python target it\nexits 0 and writes well-formed JSON with empty `nodes`, `edges`, and\n`entrypoints` arrays, which the skill's own \"stop if empty\" guard read as \"no\nchanges\" rather than \"wrong language\".\n\nBoth call sites now pass `--language auto`, mirroring the `language=\"auto\"`\ndefault that Phase 2's `build_and_export` already uses, and the guard text says\nto confirm the language before treating an empty diff as an unchanged codebase.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* trailmark: fix the two remaining bare diff calls and the stale empty-diff guard\n\nThe core skill's Quick Start (SKILL.md:147) and query-patterns.md:223 still ran\n`trailmark diff` without `--language`, hitting the same silent python default\nthis PR fixes in graph-evolution — worse, the entrypoints line directly above\neach passes `--language auto`, so the omission read as deliberate. Pass\n`--language auto` at both.\n\nWith `auto` in the documented command, \"empty most often means the language was\nwrong\" no longer names the likely cause, and \"compare the two outputs\" gives no\ndecision rule. Key the empty-diff guard on Phase 2's graph summaries instead:\nempty diff plus healthy node counts on both snapshots is genuine stability,\nempty diff with a (near-)zero count means the parse missed the code. The\nchecklist item now states that checkable condition rather than a self-attested\n\"language was confirmed\".\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014UFqJu1ada7gXjD9peo1rX\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: Scott Arciszewski <147527775+tob-scott-a@users.noreply.github.com>",
+      "verified_at": "2026-08-20T15:39:52Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/1e0cc133f425b8ca049943e91000f3a38dcf6980",
+  "html_url": "https://github.com/trailofbits/skills/commit/1e0cc133f425b8ca049943e91000f3a38dcf6980",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/1e0cc133f425b8ca049943e91000f3a38dcf6980/comments",
+  "author": {
+    "login": "dguido",
+    "id": 294844,
+    "node_id": "MDQ6VXNlcjI5NDg0NA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/294844?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dguido",
+    "html_url": "https://github.com/dguido",
+    "followers_url": "https://api.github.com/users/dguido/followers",
+    "following_url": "https://api.github.com/users/dguido/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dguido/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dguido/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dguido/subscriptions",
+    "organizations_url": "https://api.github.com/users/dguido/orgs",
+    "repos_url": "https://api.github.com/users/dguido/repos",
+    "events_url": "https://api.github.com/users/dguido/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dguido/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+      "html_url": "https://github.com/trailofbits/skills/commit/9b2813356e9b9ef670dc1f4493a69e82c8e7f27e"
+    }
+  ]
+}

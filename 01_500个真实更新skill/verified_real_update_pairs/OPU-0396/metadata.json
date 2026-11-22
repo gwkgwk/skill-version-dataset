@@ -1,0 +1,191 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-python/skills/azure-cosmos-db-py/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "4dfa96d38be8b4aa433a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6",
+    "computed_tree_sha": "77bdd7486a9195478b4d1663fb36e1b29c42f6b6",
+    "api_tree_sha_as_returned": "77bdd7486a9195478b4d1663fb36e1b29c42f6b6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9fcb9385f93da33da00cd2354df18948c5113956",
+        "sha256": "aed1df0c2b6dc00729f0ebe364d16b133040fc405c5f5511a961972e8d0ad0b0",
+        "size": 11931,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/conftest_template.py",
+        "git_blob_sha1": "996c3025b3c83e756bc7e070777cb4550a4480dd",
+        "sha256": "a5d91776fe91003b791b319bc77a159bd1132feb67561b1874b01555eb3956e8",
+        "size": 9910,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/cosmos_client_template.py",
+        "git_blob_sha1": "7af70bae994cbddf64c94a3ade5464559987a124",
+        "sha256": "14334672c94bf4494927848369058bf88c445eb7f923ec2d059ab2b3af533c8d",
+        "size": 6339,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/service_template.py",
+        "git_blob_sha1": "2efff3e0a13eac98ed6cbfb834e243d6a7600598",
+        "sha256": "ed619b14051241417c109b7cc038dbeaf739885e27d63ff6364609570037cab5",
+        "size": 9410,
+        "mode": "100644"
+      },
+      {
+        "path": "references/client-setup.md",
+        "git_blob_sha1": "c81c4c803cb119d46baa69a622b14323cca479a2",
+        "sha256": "3f14bfabd628bd358dc0fb0eb7ac141fe233db0fdcbb236005a61c25a29cbfb6",
+        "size": 6238,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error-handling.md",
+        "git_blob_sha1": "d9001341f2584db73eeb33d4d8929aadb6ce5c8a",
+        "sha256": "daba3df814fa917e3640fb864c25012bf5fb7c6bf7df3fc2ae4b131b8fc9b5c4",
+        "size": 10525,
+        "mode": "100644"
+      },
+      {
+        "path": "references/partitioning.md",
+        "git_blob_sha1": "a98e1758815b42fd6f1287ed6edcca735b6ec533",
+        "sha256": "23d285c72343f7bca0d0cbc352f2f0bfa1c141545e4149408884ac613a64fdac",
+        "size": 7330,
+        "mode": "100644"
+      },
+      {
+        "path": "references/service-layer.md",
+        "git_blob_sha1": "f32dc6773d273279c19702b1e52b4f68150f014c",
+        "sha256": "002c9f30299457b625c493a9408aa004a483e10af1211bd494fa4a96854caaf3",
+        "size": 8431,
+        "mode": "100644"
+      },
+      {
+        "path": "references/testing.md",
+        "git_blob_sha1": "b7bd21901bf348525b3992ab64d36fff73818cbf",
+        "sha256": "94449b58a3c6b0f6fd7314a0de669bfb85fd5e84a5a8efd1683cdfaa5fe0514f",
+        "size": 14648,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+    "computed_tree_sha": "1a03b83a1054d4183c58bd828db8c7997f1c38eb",
+    "api_tree_sha_as_returned": "1a03b83a1054d4183c58bd828db8c7997f1c38eb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "66973512a33a2ce1cd715d96c39f7ddb7ccc645d",
+        "sha256": "3dd01706390b4b1765ae1a7b3829878c4d0ba8485228f824e817287c4f8990d4",
+        "size": 11894,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/conftest_template.py",
+        "git_blob_sha1": "996c3025b3c83e756bc7e070777cb4550a4480dd",
+        "sha256": "a5d91776fe91003b791b319bc77a159bd1132feb67561b1874b01555eb3956e8",
+        "size": 9910,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/cosmos_client_template.py",
+        "git_blob_sha1": "7af70bae994cbddf64c94a3ade5464559987a124",
+        "sha256": "14334672c94bf4494927848369058bf88c445eb7f923ec2d059ab2b3af533c8d",
+        "size": 6339,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/service_template.py",
+        "git_blob_sha1": "2efff3e0a13eac98ed6cbfb834e243d6a7600598",
+        "sha256": "ed619b14051241417c109b7cc038dbeaf739885e27d63ff6364609570037cab5",
+        "size": 9410,
+        "mode": "100644"
+      },
+      {
+        "path": "references/client-setup.md",
+        "git_blob_sha1": "c81c4c803cb119d46baa69a622b14323cca479a2",
+        "sha256": "3f14bfabd628bd358dc0fb0eb7ac141fe233db0fdcbb236005a61c25a29cbfb6",
+        "size": 6238,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error-handling.md",
+        "git_blob_sha1": "d9001341f2584db73eeb33d4d8929aadb6ce5c8a",
+        "sha256": "daba3df814fa917e3640fb864c25012bf5fb7c6bf7df3fc2ae4b131b8fc9b5c4",
+        "size": 10525,
+        "mode": "100644"
+      },
+      {
+        "path": "references/partitioning.md",
+        "git_blob_sha1": "a98e1758815b42fd6f1287ed6edcca735b6ec533",
+        "sha256": "23d285c72343f7bca0d0cbc352f2f0bfa1c141545e4149408884ac613a64fdac",
+        "size": 7330,
+        "mode": "100644"
+      },
+      {
+        "path": "references/service-layer.md",
+        "git_blob_sha1": "f32dc6773d273279c19702b1e52b4f68150f014c",
+        "sha256": "002c9f30299457b625c493a9408aa004a483e10af1211bd494fa4a96854caaf3",
+        "size": 8431,
+        "mode": "100644"
+      },
+      {
+        "path": "references/testing.md",
+        "git_blob_sha1": "b7bd21901bf348525b3992ab64d36fff73818cbf",
+        "sha256": "94449b58a3c6b0f6fd7314a0de669bfb85fd5e84a5a8efd1683cdfaa5fe0514f",
+        "size": 14648,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6",
+  "new_commit": "e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add capability and non-hero references for Python skills (#382)\n\n* Add capability and non-hero references for Python skills\n\nSplit from #375: adds references/capabilities.md and\nreferences/non-hero-scenarios.md across ~30 azure-sdk-python skills,\nupdates their SKILL.md files, and refreshes .github/skills symlinks.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCopilot-Session: 9429ad33-6f31-4ec5-ba00-0f11b5afb82e\n\n* Fix create_analyzer to begin_create_analyzer LRO in contentunderstanding non-hero-scenarios\n\n* Fix get_supported_languages to use TextTranslationClient in translation-document non-hero-scenarios\n\n* Clarify TextTranslationClient default endpoint in supported languages example\n\n* Fix instrumentation_options API and supported libraries in azure-monitor-opentelemetry-py non-hero-scenarios\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Apply remaining changes\n\n* Fix invalid token acquisition example in m365 capabilities reference\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Replace placeholder non-hero scenario files with actionable content\n\nAdd retry, timeout, pagination, cleanup, and async examples for:\n- azure-ai-transcription-py\n- azure-messaging-webpubsubservice-py\n- azure-ai-language-conversations-py\n\n* Fix variable naming and list iteration in new non-hero scenarios\n\n* Replace Azure SDK boilerplate checklist with Pydantic-specific checks in capabilities.md\n\n* Refine Pydantic checklist: focus v2 patterns item on new code\n\n* Fix fastapi-router-py capabilities checklist: replace Azure SDK boilerplate with FastAPI-specific checks\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Fix remaining open review comments: eventgrid event var, transcription/speech auth, fabric RpSku, keyvault/botservice credential exposure\n\n* Fix Authorization header wording in speech-to-text-rest SKILL.md\n\n* Polish wording per code review: fabric None guard, transcription key comment, speech-to-text auth reference\n\n* Address all open PR review comments\n\n- Fix pnpm-workspace.yaml: resolve esbuild allowBuilds placeholder\n- Fix azure-mgmt-apicenter non-hero: add missing closing parenthesis\n- Fix azure-monitor-opentelemetry SKILL.md: flush() → force_flush()\n- Fix azure-monitor-opentelemetry-exporter SKILL.md: flush() → force_flush()\n- Fix azure-storage-queue non-hero: re-raise instead of silently passing exception\n- Fix azure-identity non-hero: log and re-raise auth errors instead of silently passing\n- Fix azure-ai-contentunderstanding non-hero: AnalysisInput → AnalyzeInput, fix model imports\n- Fix azure-ai-transcription SKILL.md + non-hero: use AzureKeyCredential wrapper\n- Fix m365-agents capabilities.md: complete CopilotClient example end-to-end\n\n* Polish m365-agents capabilities: improve variable names and context manager comment\n\n* Fix remaining review comments and CI pipeline failure\n\n- Delete tests/pnpm-workspace.yaml (caused CI 'packages field missing' error)\n- Delete azure-cosmos-py/scripts/setup_cosmos_container.py (outside PR scope)\n- Fix pydantic-models-py: clarify model_validate vs direct construction\n- Fix m365-agents-py: remove activity.conversation.id (UnboundLocalError on empty stream)\n- Fix azure-messaging-webpubsubservice-py: use close_user_connections, don't log bearer token URL\n- Fix azure-messaging-webpubsubservice-py acceptance-criteria: update connection close example\n- Fix azure-ai-transcription-py: correct LROPoller timeout pattern (done()+deadline loop)\n- Fix azure-ai-transcription-py acceptance-criteria: remove DefaultAzureCredential anti-pattern\n- Fix azure-ai-translation-text-py: use InputTextItem instead of raw strings in all bodies\n- Fix azure-ai-ml-py: remove unused Pipeline import\n- Fix azure-ai-language-conversations-py: fix orchestration intents (dict keyed by name)\n\n* Move import time to top of transcription timeout example\n\n* Fix transcription acceptance criteria: add DefaultAzureCredential as valid auth, remove incorrect anti-pattern\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-07-15T21:49:49Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/40d0f6008a3759c1bfaa6b654cbd3c3b4b580ef6...e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "commit_url": "https://github.com/microsoft/skills/commit/e19efc27887e5f1a6380b9135cdbdbf10648fba7",
+  "skill_directory": ".github/plugins/azure-sdk-python/skills/azure-cosmos-db-py",
+  "local_directory": "verified_real_update_pairs/OPU-0396",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0396",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

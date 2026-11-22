@@ -1,0 +1,135 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-run-alert-configuration/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "9a80c032a7a1af6641f0",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "349e17903a5a25dff45e9c3dc713dcfe5567c4c9",
+    "computed_tree_sha": "99caf7fd1fdfd0863b7cd6893fc45fdc178eb31c",
+    "api_tree_sha_as_returned": "99caf7fd1fdfd0863b7cd6893fc45fdc178eb31c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "54d97fe4012f17e80a1bd65e31b0ca7589840f90",
+        "sha256": "4d08f04f3ba7b4843cfd212a2075bbd9f67cc513d3bce3f4af820eedc464130e",
+        "size": 7457,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "febcc46db25a11cddcdb9d5bc4bf9aec1b7c2b08",
+        "sha256": "725063f3a443a3b78f50f393c5db1ef2d95f7c290f43b57fbc21b11653f0f7a2",
+        "size": 1927,
+        "mode": "100644"
+      },
+      {
+        "path": "references/jobs.md",
+        "git_blob_sha1": "9e1e8ad53ea7659878814eadeb3e5529fc8b67dd",
+        "sha256": "a34d0415afdda97ab5a250df35831549838c2eb21feaae756dd4f3583ded1126",
+        "size": 3332,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services.md",
+        "git_blob_sha1": "fdf4910a07c5913a914b547f81d6048eee296167",
+        "sha256": "52e51c487c4c4364637f974debe6051dd295afb92fb30c7824687ebad9f9309d",
+        "size": 28636,
+        "mode": "100644"
+      },
+      {
+        "path": "references/worker_pools.md",
+        "git_blob_sha1": "e415cb36fc1aab9d09feddd257c8003032e0c1da",
+        "sha256": "77cd377d4080510922e8f05d0aa2f5305ff2f8f8919e0143b1a160acd450c7f3",
+        "size": 12326,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329",
+    "computed_tree_sha": "5eaf01e88f3065ff35ce31d9c4c4f2fb1055e017",
+    "api_tree_sha_as_returned": "5eaf01e88f3065ff35ce31d9c4c4f2fb1055e017",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e86ae046612b19961a0b449221601ef9384dd425",
+        "sha256": "eb07be009c910f0f6cea51c8bdf3492da52528619089ca9d49237abfc9ea8033",
+        "size": 7449,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "febcc46db25a11cddcdb9d5bc4bf9aec1b7c2b08",
+        "sha256": "725063f3a443a3b78f50f393c5db1ef2d95f7c290f43b57fbc21b11653f0f7a2",
+        "size": 1927,
+        "mode": "100644"
+      },
+      {
+        "path": "references/jobs.md",
+        "git_blob_sha1": "9e1e8ad53ea7659878814eadeb3e5529fc8b67dd",
+        "sha256": "a34d0415afdda97ab5a250df35831549838c2eb21feaae756dd4f3583ded1126",
+        "size": 3332,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services.md",
+        "git_blob_sha1": "fdf4910a07c5913a914b547f81d6048eee296167",
+        "sha256": "52e51c487c4c4364637f974debe6051dd295afb92fb30c7824687ebad9f9309d",
+        "size": 28636,
+        "mode": "100644"
+      },
+      {
+        "path": "references/worker_pools.md",
+        "git_blob_sha1": "e415cb36fc1aab9d09feddd257c8003032e0c1da",
+        "sha256": "77cd377d4080510922e8f05d0aa2f5305ff2f8f8919e0143b1a160acd450c7f3",
+        "size": 12326,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "349e17903a5a25dff45e9c3dc713dcfe5567c4c9",
+  "new_commit": "c1578116ec34d574e5df618bb02849ecc717d329",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "cloud-run-alert-configuration: format allowed-tools as string in SKILL.md\n\nPiperOrigin-RevId: 1009699229",
+  "new_commit_time": "2026-10-29T15:14:48Z",
+  "compare_url": "https://github.com/google/skills/compare/349e17903a5a25dff45e9c3dc713dcfe5567c4c9...c1578116ec34d574e5df618bb02849ecc717d329",
+  "commit_url": "https://github.com/google/skills/commit/c1578116ec34d574e5df618bb02849ecc717d329",
+  "skill_directory": "skills/cloud/cloud-run-alert-configuration",
+  "local_directory": "verified_real_update_pairs/OPU-0395",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0395",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

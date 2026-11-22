@@ -1,0 +1,124 @@
+{
+  "repository": "stripe/ai",
+  "primary": "skills/stripe-bfcm-dashboard/SKILL.md",
+  "pinned_commit": "1bb486909cc36ce608181c2af62c4716ba9cd7c7",
+  "repository_license": "MIT",
+  "key": "22c05431ca0ded81d1c6",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "cfaab55a397fab873b2899f5b430bcf3527909c7",
+    "computed_tree_sha": "985708718a93d80bb4d2dea017fa2332857e5907",
+    "api_tree_sha_as_returned": "985708718a93d80bb4d2dea017fa2332857e5907",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c4df95390b1020c8fd698ac3ca07fad86d6f4f35",
+        "sha256": "dddbdca5c0fef783b5291ea8810431d63b9015ab6c1ab8bbb5298b0238594a73",
+        "size": 8513,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dashboard-design.md",
+        "git_blob_sha1": "30582cb1f578341b1d9c9e388623052a24731136",
+        "sha256": "574c41f3fa5951dd3a12349acfcbab89ae366d49a8b0e1e9353d3e82183bf1cf",
+        "size": 15967,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dashboard-output.md",
+        "git_blob_sha1": "20c4a1e7431be3366dc8643ae1060a832b99646a",
+        "sha256": "4a9ec7ccc3a8e874e74832c0b9fc4e1553a8f0c34b7401529d2bd6a29be5948d",
+        "size": 13429,
+        "mode": "100644"
+      },
+      {
+        "path": "references/queries.md",
+        "git_blob_sha1": "0c83854828bc301ae9f5de46961594e46c3d72c7",
+        "sha256": "2b4bd2fbaa06504f4364d37f224e47697ea6714f21c232276ac84a5824fe4891",
+        "size": 28392,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e01f21e7754971027c0498bd2eb4d1e319a89247",
+    "computed_tree_sha": "f6af87304d914e6d14f921ddbb92ec2ebfabb2ec",
+    "api_tree_sha_as_returned": "f6af87304d914e6d14f921ddbb92ec2ebfabb2ec",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2a8568049a797180d3f03d0ef8c9bda95cc56b46",
+        "sha256": "78a804b8a70b6fe4e84b3114fccf3216d5051fce6ce50fcc6a5c94bbaf62d4fa",
+        "size": 9955,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dashboard-design.md",
+        "git_blob_sha1": "9622c5290ef9ae7e56ab8fcf6309975603dfb6e5",
+        "sha256": "1952d95d5dc3e258b1f023a38458d5f46b8c3386b7c073a11199af6489fd5d22",
+        "size": 16567,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dashboard-output.md",
+        "git_blob_sha1": "8965e2dce258419d5cc70717b71a390820177062",
+        "sha256": "94ea6fdc4b3bcf3f2a4266358e53f0c8bff7f8ad7633678e016bd856b6ec9cb7",
+        "size": 13986,
+        "mode": "100644"
+      },
+      {
+        "path": "references/queries.md",
+        "git_blob_sha1": "0d7e8568bb4d9271b7d386262863aa5e2a47a5cb",
+        "sha256": "74fb56281cd817c08c69e9747689a87bdc63ddf4170a2d049ecfdac99075a5d2",
+        "size": 28489,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/dashboard-design.md",
+    "references/dashboard-output.md",
+    "references/queries.md"
+  ],
+  "old_commit": "cfaab55a397fab873b2899f5b430bcf3527909c7",
+  "new_commit": "e01f21e7754971027c0498bd2eb4d1e319a89247",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "sync skills",
+  "new_commit_time": "2026-11-20T23:48:10Z",
+  "compare_url": "https://github.com/stripe/ai/compare/cfaab55a397fab873b2899f5b430bcf3527909c7...e01f21e7754971027c0498bd2eb4d1e319a89247",
+  "commit_url": "https://github.com/stripe/ai/commit/e01f21e7754971027c0498bd2eb4d1e319a89247",
+  "skill_directory": "skills/stripe-bfcm-dashboard",
+  "local_directory": "verified_real_update_pairs/OPU-0111",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0111",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

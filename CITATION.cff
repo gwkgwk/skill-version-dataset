@@ -6,10 +6,12 @@ authors:
   - name: "gwkgwk"
 repository-code: "https://github.com/gwkgwk/skill-version-dataset"
 url: "https://github.com/gwkgwk/skill-version-dataset"
-date-released: "2026-11-19"
+date-released: "2026-11-22"
 abstract: >-
-  A research collection of 500 real Skill updates, 37 malicious-source Skill
+  A research collection of 500 official-source Skill updates with user-reported
+  human-confirmed benign labels, 37 malicious-source Skill
   updates, and 20 exact-content malicious clone pairs. Source labels and
-  provenance limits are recorded separately. No benign-to-malicious update
+  provenance limits are recorded separately. Manual-review labels were supplied
+  by the dataset owner and were not independently reproduced by the collector. No benign-to-malicious update
   transition has been fully verified. Original contributions and third-party
   artifacts have separate license scopes; see LICENSE.md.

@@ -1,0 +1,121 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-python/skills/azure-servicebus-py/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "13223e1300507ae71771",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "bdc66e4618eb2f277d013192820aa042039372e0",
+    "computed_tree_sha": "694435d1687e932e85ffdb64b951e82aef67f7c1",
+    "api_tree_sha_as_returned": "694435d1687e932e85ffdb64b951e82aef67f7c1",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b137b4704db89cd689ee66dd9d7234228e7c1910",
+        "sha256": "b6dda135af4421ab3b263368c30babf509d6f1702222a75c440ac34866a84ea9",
+        "size": 10124,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dead-letter.md",
+        "git_blob_sha1": "7effe7e98ebefdd1762db841a44d84b064b59d0c",
+        "sha256": "9213e789c05b55575e9cce342aaabd1b65ec6dc8a1d5c4ca77720b7852dbd611",
+        "size": 14139,
+        "mode": "100644"
+      },
+      {
+        "path": "references/patterns.md",
+        "git_blob_sha1": "da07528473b19ff05822764585a44eecde60fe50",
+        "sha256": "5f046b927a52f311b9b6baec8af14eb74bfe4621c07554f1d2fb46a7990e883e",
+        "size": 13912,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_servicebus.py",
+        "git_blob_sha1": "46a01dfb88379a15d574d737dcc3ef2be89b7855",
+        "sha256": "5f982ff5bd7b7c1eef0cad121879c6351174f3caec3bcc8f4d8f4b8486175048",
+        "size": 13291,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+    "computed_tree_sha": "0c786cdf38814cdbdcaf42e9fb98b59dae38ca57",
+    "api_tree_sha_as_returned": "0c786cdf38814cdbdcaf42e9fb98b59dae38ca57",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "df06c9281cd34c06b0e8021517019267d9ae3a4c",
+        "sha256": "6d1905fe12c4c84a3e4520ee6c03d21b205111b0c394c14e4a0d5bb322c94435",
+        "size": 10353,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dead-letter.md",
+        "git_blob_sha1": "7effe7e98ebefdd1762db841a44d84b064b59d0c",
+        "sha256": "9213e789c05b55575e9cce342aaabd1b65ec6dc8a1d5c4ca77720b7852dbd611",
+        "size": 14139,
+        "mode": "100644"
+      },
+      {
+        "path": "references/patterns.md",
+        "git_blob_sha1": "da07528473b19ff05822764585a44eecde60fe50",
+        "sha256": "5f046b927a52f311b9b6baec8af14eb74bfe4621c07554f1d2fb46a7990e883e",
+        "size": 13912,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/setup_servicebus.py",
+        "git_blob_sha1": "46a01dfb88379a15d574d737dcc3ef2be89b7855",
+        "sha256": "5f982ff5bd7b7c1eef0cad121879c6351174f3caec3bcc8f4d8f4b8486175048",
+        "size": 13291,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bdc66e4618eb2f277d013192820aa042039372e0",
+  "new_commit": "df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "to address feedback\n\nCo-authored-by: Copilot <copilot@github.com>",
+  "new_commit_time": "2026-05-18T15:32:08Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bdc66e4618eb2f277d013192820aa042039372e0...df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "commit_url": "https://github.com/microsoft/skills/commit/df52e9a69b78c2759553efafe2f937fc53c1cbd1",
+  "skill_directory": ".github/plugins/azure-sdk-python/skills/azure-servicebus-py",
+  "local_directory": "verified_real_update_pairs/OPU-0417",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0417",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

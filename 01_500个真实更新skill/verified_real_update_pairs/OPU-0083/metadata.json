@@ -1,0 +1,121 @@
+{
+  "repository": "google-labs-code/stitch-skills",
+  "primary": "plugins/stitch-design/skills/generate-design/SKILL.md",
+  "pinned_commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+  "repository_license": "Apache-2.0",
+  "key": "a4188fb304e66c1b60ae",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d",
+    "computed_tree_sha": "31dcf4237bf0d689b2e3e61d70d717fc5e2ae0a5",
+    "api_tree_sha_as_returned": "31dcf4237bf0d689b2e3e61d70d717fc5e2ae0a5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "31adf4adc751d68f42346bd588d1dc3ab2d77b26",
+        "sha256": "a78d29be71f790106dbcb3e6ffeaa0a6b6b13852ef2309f2b6fd7592f3c0dbc4",
+        "size": 10915,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/enhanced-prompt.md",
+        "git_blob_sha1": "4fa277bc4d8abdbc277b2dc69ea35598d8a5f012",
+        "sha256": "8ca345151e70d6067bd460fc63fcbd455d60cc87f066e7c70160e3f277f857f5",
+        "size": 1704,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design-mappings.md",
+        "git_blob_sha1": "83d27fe6a8efa81e23c64bfed271bf15bbe74ac4",
+        "sha256": "add62a31b8507d7ce22f345f0104725962f0c62a484d4ff975821cefb28ad10b",
+        "size": 2330,
+        "mode": "100644"
+      },
+      {
+        "path": "references/prompt-keywords.md",
+        "git_blob_sha1": "0fcb88bce979b4ecba4cf6a1e352ead83772f225",
+        "sha256": "8ca5c0cf251a6801d0bdccf5cf59271be172f7c2fd83b298c54d9b3ceb498fdf",
+        "size": 2798,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "681a283c669eed9caa24726a593607a9dbb84957",
+    "computed_tree_sha": "3662e9fef29629d44a42bc176b8e762cb20966ad",
+    "api_tree_sha_as_returned": "3662e9fef29629d44a42bc176b8e762cb20966ad",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f434ad1bf052508d9668508e12250377166fe7d0",
+        "sha256": "d03d2de3a0cefbde2ca7b8cdc2c96e8164a8b9400fe3a9b97a3aa6ce37ee638d",
+        "size": 10996,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/enhanced-prompt.md",
+        "git_blob_sha1": "4fa277bc4d8abdbc277b2dc69ea35598d8a5f012",
+        "sha256": "8ca345151e70d6067bd460fc63fcbd455d60cc87f066e7c70160e3f277f857f5",
+        "size": 1704,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design-mappings.md",
+        "git_blob_sha1": "83d27fe6a8efa81e23c64bfed271bf15bbe74ac4",
+        "sha256": "add62a31b8507d7ce22f345f0104725962f0c62a484d4ff975821cefb28ad10b",
+        "size": 2330,
+        "mode": "100644"
+      },
+      {
+        "path": "references/prompt-keywords.md",
+        "git_blob_sha1": "0fcb88bce979b4ecba4cf6a1e352ead83772f225",
+        "sha256": "8ca5c0cf251a6801d0bdccf5cf59271be172f7c2fd83b298c54d9b3ceb498fdf",
+        "size": 2798,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d",
+  "new_commit": "681a283c669eed9caa24726a593607a9dbb84957",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix minor issues",
+  "new_commit_time": "2026-05-12T05:53:25Z",
+  "compare_url": "https://github.com/google-labs-code/stitch-skills/compare/27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d...681a283c669eed9caa24726a593607a9dbb84957",
+  "commit_url": "https://github.com/google-labs-code/stitch-skills/commit/681a283c669eed9caa24726a593607a9dbb84957",
+  "skill_directory": "plugins/stitch-design/skills/generate-design",
+  "local_directory": "verified_real_update_pairs/OPU-0083",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0083",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

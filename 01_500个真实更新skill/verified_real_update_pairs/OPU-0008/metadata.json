@@ -1,0 +1,77 @@
+{
+  "repository": "hashicorp/agent-skills",
+  "primary": "plugins/terraform/skills/refactor-module/SKILL.md",
+  "pinned_commit": "5e30fa5c867ba6777c37e4206babfd08049c396f",
+  "repository_license": "MPL-2.0",
+  "key": "41fa71dabf5ae4e122cd",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "6333093c37a318cb800d57a6de7d0877a9e048a4",
+    "computed_tree_sha": "64af5f64d5710abaeb3b7faf585a15f30b29d9dd",
+    "api_tree_sha_as_returned": "64af5f64d5710abaeb3b7faf585a15f30b29d9dd",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a272f100c96df0b268c71ee9ddb21cfb00c5178b",
+        "sha256": "8729dc68c2901ea00a2a859a4e8212439d7c0bfac2da5b7ab0fe734b025abcf8",
+        "size": 14745,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "326846817128fd1d052d25fbfded490ce2c5886e",
+    "computed_tree_sha": "04bc36190e69c8906eac3d81f2b3e55b398141b0",
+    "api_tree_sha_as_returned": "04bc36190e69c8906eac3d81f2b3e55b398141b0",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d6339a30f9be58d58d4d4a1a98d6ef29e0e01753",
+        "sha256": "da0b9f3599ed0e513a92b57f0c0ff3fad3168ba461215a9197ebbffe4e0d538f",
+        "size": 14729,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "6333093c37a318cb800d57a6de7d0877a9e048a4",
+  "new_commit": "326846817128fd1d052d25fbfded490ce2c5886e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update terraform-policy skill for tfpolicy 0.1.x and 0.2.0+ compatibility (#97)\n\n* docs(terraform-policy): add tfpolicy version-aware guidance\n\n* docs(terraform-policy): reduce required_providers duplication\n\n* docs(terraform-policy): trim redundant validation guidance\n\n* fix: update broken links in refactor-module to new plugin structure\n\n* docs(terraform-policy): replace hardcoded AWS version with reasoning and example\n\n- Add comments explaining why version constraints matter\n- Change from hardcoded 6.0.0 to broader 5.0.0 range as example\n- Add guidance to adjust based on infrastructure\n- Note that other providers can be added\n\nAddresses reviewer feedback on PR #97\n\n---------\n\nCo-authored-by: vpaul97 <v.paul@v.paul-GHRW27M29M>",
+  "new_commit_time": "2026-08-26T14:39:27Z",
+  "compare_url": "https://github.com/hashicorp/agent-skills/compare/6333093c37a318cb800d57a6de7d0877a9e048a4...326846817128fd1d052d25fbfded490ce2c5886e",
+  "commit_url": "https://github.com/hashicorp/agent-skills/commit/326846817128fd1d052d25fbfded490ce2c5886e",
+  "skill_directory": "plugins/terraform/skills/refactor-module",
+  "local_directory": "verified_real_update_pairs/OPU-0008",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MPL-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0008",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

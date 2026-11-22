@@ -1,0 +1,105 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/hf-cloud-serving-image-selection/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "16800ffca6c02ffd5a19",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+    "computed_tree_sha": "e22afd6c7e5f81cf25c65f108cf6f27a7a20a7ce",
+    "api_tree_sha_as_returned": "e22afd6c7e5f81cf25c65f108cf6f27a7a20a7ce",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "05f70d82c00da9160a086f477f31ff77e9bddea5",
+        "sha256": "66e1b95d8bba2117300b6392eeb89500ba7aed7a175733479d7985c7178c4574",
+        "size": 17970,
+        "mode": "100644"
+      },
+      {
+        "path": "references/model-to-image.md",
+        "git_blob_sha1": "09d3888d73a979308b61eac364815b88ed97eab1",
+        "sha256": "49ab6db136a53c6336ded2b92619d8057eb7ed85e6baa9bb1cde8eb2f592318d",
+        "size": 10826,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/mirror_image.py",
+        "git_blob_sha1": "e3eab00d9bd828c8964f74a11735e387d79b67c3",
+        "sha256": "994fb2ed93243114baa2c33ba4805565e1a4fda15d3d6b800e28f018bcb411de",
+        "size": 4803,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f3186efbbc322121eb5d0f31e8a1d669ee961159",
+    "computed_tree_sha": "e8a476c1f497f96d13c1558fe575cd95031ce815",
+    "api_tree_sha_as_returned": "e8a476c1f497f96d13c1558fe575cd95031ce815",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1709fff53a6fe3005a3bc3120f91019482cd0e23",
+        "sha256": "6af6adfe1cdcf7bcc061ee11e1e2cf88bae9fbb08bf79d16945ce748839c1d76",
+        "size": 18539,
+        "mode": "100644"
+      },
+      {
+        "path": "references/model-to-image.md",
+        "git_blob_sha1": "09d3888d73a979308b61eac364815b88ed97eab1",
+        "sha256": "49ab6db136a53c6336ded2b92619d8057eb7ed85e6baa9bb1cde8eb2f592318d",
+        "size": 10826,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/mirror_image.py",
+        "git_blob_sha1": "e3eab00d9bd828c8964f74a11735e387d79b67c3",
+        "sha256": "994fb2ed93243114baa2c33ba4805565e1a4fda15d3d6b800e28f018bcb411de",
+        "size": 4803,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "new_commit": "f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "change: implement changes suggested by the aws security team (#245)\n\n* change: implement changes suggested by the aws security team\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>\n\n* fix: version bump\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>\n\n---------\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>",
+  "new_commit_time": "2026-09-10T10:36:34Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/97862b0fcc89c850fdd00c82ede1e62d3c930a6d...f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "commit_url": "https://github.com/huggingface/skills/commit/f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "skill_directory": "skills/hf-cloud-serving-image-selection",
+  "local_directory": "verified_real_update_pairs/OPU-0063",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0063",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

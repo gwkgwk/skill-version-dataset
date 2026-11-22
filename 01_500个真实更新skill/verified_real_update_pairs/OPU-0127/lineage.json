@@ -1,0 +1,82 @@
+{
+  "sha": "b8fd3d966f402e4fd0b75d1cd3d5ba30626fea64",
+  "node_id": "C_kwDORcxyRtoAKGI4ZmQzZDk2NmY0MDJlNGZkMGI3NWQxY2QzZDViYTMwNjI2ZmVhNjQ",
+  "commit": {
+    "author": {
+      "name": "Justin Poehnelt",
+      "email": "jpoehnelt@google.com",
+      "date": "2026-03-24T18:49:23Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-24T18:49:23Z"
+    },
+    "message": "fix(client): add 10s connect timeout to prevent initial hangs (#608)\n\n* fix(client): add 10s connect timeout to prevent initial hangs\n\n* fix(client): retry on transient connect/timeout errors\n\n* chore: regenerate skills [skip ci]\n\n---------\n\nCo-authored-by: jpoehnelt-bot <jpoehnelt-bot@users.noreply.github.com>\nCo-authored-by: googleworkspace-bot <googleworkspace-bot@users.noreply.github.com>",
+    "tree": {
+      "sha": "7fc199f780baf363647a6c5e78ba618be14dd532",
+      "url": "https://api.github.com/repos/googleworkspace/cli/git/trees/7fc199f780baf363647a6c5e78ba618be14dd532"
+    },
+    "url": "https://api.github.com/repos/googleworkspace/cli/git/commits/b8fd3d966f402e4fd0b75d1cd3d5ba30626fea64",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpwtyzCRC1aQ7uu5UhlAAAnmwQADa9kwRYP7vCq7SQjIvtnjR8\nhAmI9Wd78I2FN7Ki9BuoKHTnrNkzu6HnpnRw50FYU9VccCw3Fzy0WbYFh1GqGyiW\nQH9fZgrjJArcdCEflw7zDRY1A1QKcSnLAMRidIKLoYqxYBGIV1XIhxmxEVgPXgnv\nSHkFldW5aIxii2D1zIDoze749zpTe07xG+jfmb/Dr5xLmnCb+7ThqHLFEC3n3lVP\n0OgKA2oCwAQGsFPBpVYD6oLWU/CIeuqbF9on6PHQmczJPy0W21CH9831aOaMpRZ/\nXYNixGXl2aCA8/y+Lymhw+fJi56Qb4mUiJHPodS1IUtUO2fLe+U8LZGiTBsPA9F+\nITPBcsgR2BM6JCmp0DSPBLlxRk6ll0NHloEGNexPXS0p5H1Ks5ZeVslV9mvQihEn\nYAmE1c7gQC6vXhMNmK7gSFDIsWKZnWYFWh0pE7ckG1PeXQ4wwS6k3NbUYh+9eh25\nHRQDFqpE9/PdUT63uz7MNyP1naBZn651F2ejWtb0ZAGCSIERWSvgtPvvg4tU2ntX\niVokFXeFm4ydD7Zm1vx4841PIdM+I9t49oLCf8w/GLnydWjt2p2DrGHrUIX2BRUT\nGjx1IjJGW/PULOJGEqz0Pp69lNAR8LlNyHvILW3tf44SokdRwtwCkFbu7j84j10r\nz7DJ8Cp+uuIKQExjTfuq\n=mtl7\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 7fc199f780baf363647a6c5e78ba618be14dd532\nparent 75a7121713b8ff53419ef4e828b638b234f250fb\nauthor Justin Poehnelt <jpoehnelt@google.com> 1774378163 -0600\ncommitter GitHub <noreply@github.com> 1774378163 -0600\n\nfix(client): add 10s connect timeout to prevent initial hangs (#608)\n\n* fix(client): add 10s connect timeout to prevent initial hangs\n\n* fix(client): retry on transient connect/timeout errors\n\n* chore: regenerate skills [skip ci]\n\n---------\n\nCo-authored-by: jpoehnelt-bot <jpoehnelt-bot@users.noreply.github.com>\nCo-authored-by: googleworkspace-bot <googleworkspace-bot@users.noreply.github.com>",
+      "verified_at": "2026-03-24T18:49:24Z"
+    }
+  },
+  "url": "https://api.github.com/repos/googleworkspace/cli/commits/b8fd3d966f402e4fd0b75d1cd3d5ba30626fea64",
+  "html_url": "https://github.com/googleworkspace/cli/commit/b8fd3d966f402e4fd0b75d1cd3d5ba30626fea64",
+  "comments_url": "https://api.github.com/repos/googleworkspace/cli/commits/b8fd3d966f402e4fd0b75d1cd3d5ba30626fea64/comments",
+  "author": {
+    "login": "jpoehnelt",
+    "id": 3392975,
+    "node_id": "MDQ6VXNlcjMzOTI5NzU=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3392975?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jpoehnelt",
+    "html_url": "https://github.com/jpoehnelt",
+    "followers_url": "https://api.github.com/users/jpoehnelt/followers",
+    "following_url": "https://api.github.com/users/jpoehnelt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jpoehnelt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jpoehnelt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jpoehnelt/subscriptions",
+    "organizations_url": "https://api.github.com/users/jpoehnelt/orgs",
+    "repos_url": "https://api.github.com/users/jpoehnelt/repos",
+    "events_url": "https://api.github.com/users/jpoehnelt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jpoehnelt/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "75a7121713b8ff53419ef4e828b638b234f250fb",
+      "url": "https://api.github.com/repos/googleworkspace/cli/commits/75a7121713b8ff53419ef4e828b638b234f250fb",
+      "html_url": "https://github.com/googleworkspace/cli/commit/75a7121713b8ff53419ef4e828b638b234f250fb"
+    }
+  ]
+}

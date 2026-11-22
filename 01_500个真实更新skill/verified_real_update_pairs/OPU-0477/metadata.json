@@ -1,0 +1,261 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-storage/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "206434dee102dc76f4a0",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "ce7edea90860e0c69fa36db164584c87908e09f5",
+    "computed_tree_sha": "cc822d42d4781253930cd7f752f657ec07aff1d7",
+    "api_tree_sha_as_returned": "cc822d42d4781253930cd7f752f657ec07aff1d7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e6ddfe8a8a717d8c3f1ae86f5d9f9b746e577bda",
+        "sha256": "a032c55a4414a1aa3ea40245806944b3e497ee094be04f933a049018fbe8da81",
+        "size": 4898,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk-usage.md",
+        "git_blob_sha1": "60f65f1bbd362f4ab07f24cae5caadde761e5011",
+        "sha256": "954fa6e2c97facb2612a4c5e1f01294b09dc31ec44f755b5d86cff6b4b134a7a",
+        "size": 4542,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-data-tables-java.md",
+        "git_blob_sha1": "50cc2c74e4525d46a6806331150bd3da0ef68b8a",
+        "sha256": "b70a8bc0fa7d587aec8ec9485bd68577d9685640dcce77d337ff039d9879c24b",
+        "size": 1314,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-data-tables-py.md",
+        "git_blob_sha1": "7b10c33316cfd2fc0402cd8e52d86eb25d074cc5",
+        "sha256": "1f37fe3ba56ac8c1244461dc725fc1a8bc6d696073ff25cad52933be7be86049",
+        "size": 1070,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-blob-java.md",
+        "git_blob_sha1": "2c036895236d0420295ff6dbdabd7c318825dd82",
+        "sha256": "f4e2a5ab810cfddd2c3c681814feaa216dc5059161e3c37326fee6910c2a82d0",
+        "size": 1350,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-blob-py.md",
+        "git_blob_sha1": "feee17dd2055484490e19a621aeeb3c8b31a8650",
+        "sha256": "afdd86c5b3e59452e36819195f578ee47207c9f4fd639e047675ef95cbd903d8",
+        "size": 1025,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-blob-rust.md",
+        "git_blob_sha1": "0334976fa17d49759e4dfa60e2d56c09ee350aeb",
+        "sha256": "0c0e37e728cc1115e74286d38c7f8ae1489b627f1231dab26a2229a43e8e0bcd",
+        "size": 1094,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-blob-ts.md",
+        "git_blob_sha1": "ccbc5afbadea114a7837cf007e4d23db12ec89d4",
+        "sha256": "fbcaa7379e7d98247675efd82553cacaef50abc1c61af547fcaf00e03c9c1d3d",
+        "size": 1221,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-file-datalake-py.md",
+        "git_blob_sha1": "0339961023be474ee1a75d9d8fb518c304efcb79",
+        "sha256": "46abbb1effec468c999844cf6e0188691d9fb160da47385a56ed7d1c7d63ca43",
+        "size": 1367,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-file-share-py.md",
+        "git_blob_sha1": "643e1d6fac354bf89eb6163afa470d7cbf803053",
+        "sha256": "2ad59e6ec4fff052f565a63c4643fad85cd643e4de288d84ef0fc6249c7a521d",
+        "size": 1006,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-file-share-ts.md",
+        "git_blob_sha1": "fdc7abd17cb7b97344fd8084b443d70b9e5bf677",
+        "sha256": "5cc219bb649529a29d735d9051eaf03b5a649a59d3ee7842e0da878ba1e8797c",
+        "size": 1262,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-queue-py.md",
+        "git_blob_sha1": "a9061b70bb05b65ff60c65b06bb0dd0d8f2bbdf3",
+        "sha256": "a12ff28b4598f8a62ed22f820882afd954bc873788c17c90db5cbe2af0b2f531",
+        "size": 1091,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-queue-ts.md",
+        "git_blob_sha1": "3c2a534ec22cacc0e22a549b3b8bc6d309514bef",
+        "sha256": "e9f68c8279e8ba5623a6495e209619a7f9cfad7f07beb0d81e2a4ed26231f284",
+        "size": 1258,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "3c461b1d01c2073754e157f3f4e525c1be40639d",
+    "computed_tree_sha": "4c077fa32d77e27b1c1b105d532af6945bb7604f",
+    "api_tree_sha_as_returned": "4c077fa32d77e27b1c1b105d532af6945bb7604f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "09ab9126fcb8418d1fe34db1937ec51ee03eda60",
+        "sha256": "cf527b7c89b54194a9e2475dfaa25a454ef8f8417d7674b3a714d34368f613f9",
+        "size": 5024,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk-usage.md",
+        "git_blob_sha1": "60f65f1bbd362f4ab07f24cae5caadde761e5011",
+        "sha256": "954fa6e2c97facb2612a4c5e1f01294b09dc31ec44f755b5d86cff6b4b134a7a",
+        "size": 4542,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-data-tables-java.md",
+        "git_blob_sha1": "50cc2c74e4525d46a6806331150bd3da0ef68b8a",
+        "sha256": "b70a8bc0fa7d587aec8ec9485bd68577d9685640dcce77d337ff039d9879c24b",
+        "size": 1314,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-data-tables-py.md",
+        "git_blob_sha1": "7b10c33316cfd2fc0402cd8e52d86eb25d074cc5",
+        "sha256": "1f37fe3ba56ac8c1244461dc725fc1a8bc6d696073ff25cad52933be7be86049",
+        "size": 1070,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-blob-java.md",
+        "git_blob_sha1": "2c036895236d0420295ff6dbdabd7c318825dd82",
+        "sha256": "f4e2a5ab810cfddd2c3c681814feaa216dc5059161e3c37326fee6910c2a82d0",
+        "size": 1350,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-blob-py.md",
+        "git_blob_sha1": "feee17dd2055484490e19a621aeeb3c8b31a8650",
+        "sha256": "afdd86c5b3e59452e36819195f578ee47207c9f4fd639e047675ef95cbd903d8",
+        "size": 1025,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-blob-rust.md",
+        "git_blob_sha1": "0334976fa17d49759e4dfa60e2d56c09ee350aeb",
+        "sha256": "0c0e37e728cc1115e74286d38c7f8ae1489b627f1231dab26a2229a43e8e0bcd",
+        "size": 1094,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-blob-ts.md",
+        "git_blob_sha1": "ccbc5afbadea114a7837cf007e4d23db12ec89d4",
+        "sha256": "fbcaa7379e7d98247675efd82553cacaef50abc1c61af547fcaf00e03c9c1d3d",
+        "size": 1221,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-file-datalake-py.md",
+        "git_blob_sha1": "0339961023be474ee1a75d9d8fb518c304efcb79",
+        "sha256": "46abbb1effec468c999844cf6e0188691d9fb160da47385a56ed7d1c7d63ca43",
+        "size": 1367,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-file-share-py.md",
+        "git_blob_sha1": "643e1d6fac354bf89eb6163afa470d7cbf803053",
+        "sha256": "2ad59e6ec4fff052f565a63c4643fad85cd643e4de288d84ef0fc6249c7a521d",
+        "size": 1006,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-file-share-ts.md",
+        "git_blob_sha1": "fdc7abd17cb7b97344fd8084b443d70b9e5bf677",
+        "sha256": "5cc219bb649529a29d735d9051eaf03b5a649a59d3ee7842e0da878ba1e8797c",
+        "size": 1262,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-queue-py.md",
+        "git_blob_sha1": "a9061b70bb05b65ff60c65b06bb0dd0d8f2bbdf3",
+        "sha256": "a12ff28b4598f8a62ed22f820882afd954bc873788c17c90db5cbe2af0b2f531",
+        "size": 1091,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-storage-queue-ts.md",
+        "git_blob_sha1": "3c2a534ec22cacc0e22a549b3b8bc6d309514bef",
+        "sha256": "e9f68c8279e8ba5623a6495e209619a7f9cfad7f07beb0d81e2a4ed26231f284",
+        "size": 1258,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "ce7edea90860e0c69fa36db164584c87908e09f5",
+  "new_commit": "3c461b1d01c2073754e157f3f4e525c1be40639d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-10-05T11:05:46Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/ce7edea90860e0c69fa36db164584c87908e09f5...3c461b1d01c2073754e157f3f4e525c1be40639d",
+  "commit_url": "https://github.com/microsoft/skills/commit/3c461b1d01c2073754e157f3f4e525c1be40639d",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-storage",
+  "local_directory": "verified_real_update_pairs/OPU-0477",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0477",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

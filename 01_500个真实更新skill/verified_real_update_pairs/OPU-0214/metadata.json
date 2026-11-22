@@ -1,0 +1,93 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-endpoint-management/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "cb38eaae660c1d600db9",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+    "computed_tree_sha": "596eb8de8c686b0e8756b69a96e85eed6391613e",
+    "api_tree_sha_as_returned": "596eb8de8c686b0e8756b69a96e85eed6391613e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bc08f2645b3dc755bc2dc8ef5be2f93d88156d28",
+        "sha256": "c88cfcc1742a3801b614ffe93e244fdb8cf2350e0dbad55b4d03f4552776d12c",
+        "size": 7098,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "f46a6e1691785bda00968ab2307cb1d3fffc7e23",
+        "sha256": "c6fc703bb725cd5e9454d0f25633a9ba3ccd7d3efd9e2e1337db8b7b7c63a0db",
+        "size": 1980,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+    "computed_tree_sha": "db95cf6ff95707b4e2f4c7547ad7f3bb2e3042f7",
+    "api_tree_sha_as_returned": "db95cf6ff95707b4e2f4c7547ad7f3bb2e3042f7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "76b096f1ea94f2b5bfc597ca03618dfdbe520112",
+        "sha256": "8e6b0066114c756c39029eafe6c3d1d25dbeb95a5b990257e5b56d401ff9082b",
+        "size": 7110,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "f46a6e1691785bda00968ab2307cb1d3fffc7e23",
+        "sha256": "c6fc703bb725cd5e9454d0f25633a9ba3ccd7d3efd9e2e1337db8b7b7c63a0db",
+        "size": 1980,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+  "new_commit": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update the Agent Platform skills.\n\n- Update Agent Platform deploy, prompt management, and endpoint management skills for current models, SDKs, and gcloud flags.\n- Update RAG Engine management skill examples from Gemini 2.5 models to `gemini-3.8-flash`.\n- Add standardized usage attribution to Agent Platform skills.  - Add `references/attribution.md` to all 9 Model Garden Agent Platform skills. - Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Default validation_split to None in convert_to_jsonl so programmatic prompt_only=True calls do not fail, and include adapter size 2 in tune_open_model.py CLI choices.\n- Add Qwen3.8-27B to the open-model tuning catalog and cost calculator.\n- Add distillation tuning to the agent-platform-tuning skill: supported teacher and student models, prompt-only training datasets (prepare_dataset.py --prompt_only), and --method/--teacher_model flags in tune_open_model.py.\n- Improve skill instructions for model-registry and agent-cli skills.\n- Improve skill instructions for tuning, tuning-management, and eval-flywheel skills.\n- Improve interactive confirmation and post-deletion verification guidance in prompt management skill.\n- Improve deployment region confirmation and hardware validation guidance in agent-platform-deploy skill.\n\nPiperOrigin-RevId: 1023012351",
+  "new_commit_time": "2026-11-16T20:11:22Z",
+  "compare_url": "https://github.com/google/skills/compare/fd711c21669433d293aa0fe65bbed9d2d888df5d...56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "commit_url": "https://github.com/google/skills/commit/56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "skill_directory": "skills/cloud/agent-platform-endpoint-management",
+  "local_directory": "verified_real_update_pairs/OPU-0214",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0214",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

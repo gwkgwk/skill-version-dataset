@@ -1,0 +1,163 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/ads/data-manager-api-setup/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "649457e2ce4586581b2d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "a031b25dd3b868b72366dfc33b343fc4c13cc930",
+    "computed_tree_sha": "1c9aa4bdac6f553222a019d3e4986446f7cd3e17",
+    "api_tree_sha_as_returned": "1c9aa4bdac6f553222a019d3e4986446f7cd3e17",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bc390439db829fbd383420ad9c97947a6738a831",
+        "sha256": "a60488c726b69c67eda74234c0e91b58706d77b6a58e3763ab83e13dbff3946c",
+        "size": 5743,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dotnet.md",
+        "git_blob_sha1": "3686f321cac98dcb72161c5583108ea656e45038",
+        "sha256": "0dd305e22b126368a7a670f1be75bf598bfc1f471e2a8391a021cd67fd35bf4e",
+        "size": 336,
+        "mode": "100644"
+      },
+      {
+        "path": "references/java.md",
+        "git_blob_sha1": "b829ace766054da724ac0ab4e39a1122d593fc9b",
+        "sha256": "1bd4f0ca1361073bc63a6386207734743c9273bf15cc2290961f6910bdd7d5ad",
+        "size": 1554,
+        "mode": "100644"
+      },
+      {
+        "path": "references/node.md",
+        "git_blob_sha1": "17baa15f7cb705fb46b52d8a524a9dcd640d5ae3",
+        "sha256": "a6490308098a2be5ae95d6bc32094c7166a1f030c5c0ae1a4cfe6dece46a33cd",
+        "size": 301,
+        "mode": "100644"
+      },
+      {
+        "path": "references/partner-links.md",
+        "git_blob_sha1": "9e50ac1587d75417db035766f72d9c247b54616c",
+        "sha256": "3f2d35157f48f634d35420623764b1779615b63a6ef6017ace94cfd7e346a51e",
+        "size": 2036,
+        "mode": "100644"
+      },
+      {
+        "path": "references/php.md",
+        "git_blob_sha1": "d78c956afa3af42eeb62fed22c7f8b3fd31f5c72",
+        "sha256": "6fd7f8bcc0325b191e9bfa907e74d96faf76fa398f08ca4b05a82caaeaea7867",
+        "size": 347,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "ad314f426bb1c4844a7d6a4ea55213194c11c700",
+        "sha256": "fbbbc1668f7c201dded60896e5235446c1a59359c65ed821ab6914c82b138a99",
+        "size": 300,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "609310dcb093f772721b0adec46363faa3bcf652",
+    "computed_tree_sha": "804c6236f7e69c6c2dd90d893d42f918699d12d1",
+    "api_tree_sha_as_returned": "804c6236f7e69c6c2dd90d893d42f918699d12d1",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c61fbfa8af5552eb70739c446af287377f515ff2",
+        "sha256": "0c5d3988282eca0d25ceb6d2f967b8876444b49d61ecfb70c31601004261d92a",
+        "size": 5894,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dotnet.md",
+        "git_blob_sha1": "3686f321cac98dcb72161c5583108ea656e45038",
+        "sha256": "0dd305e22b126368a7a670f1be75bf598bfc1f471e2a8391a021cd67fd35bf4e",
+        "size": 336,
+        "mode": "100644"
+      },
+      {
+        "path": "references/java.md",
+        "git_blob_sha1": "b829ace766054da724ac0ab4e39a1122d593fc9b",
+        "sha256": "1bd4f0ca1361073bc63a6386207734743c9273bf15cc2290961f6910bdd7d5ad",
+        "size": 1554,
+        "mode": "100644"
+      },
+      {
+        "path": "references/node.md",
+        "git_blob_sha1": "17baa15f7cb705fb46b52d8a524a9dcd640d5ae3",
+        "sha256": "a6490308098a2be5ae95d6bc32094c7166a1f030c5c0ae1a4cfe6dece46a33cd",
+        "size": 301,
+        "mode": "100644"
+      },
+      {
+        "path": "references/partner-links.md",
+        "git_blob_sha1": "9e50ac1587d75417db035766f72d9c247b54616c",
+        "sha256": "3f2d35157f48f634d35420623764b1779615b63a6ef6017ace94cfd7e346a51e",
+        "size": 2036,
+        "mode": "100644"
+      },
+      {
+        "path": "references/php.md",
+        "git_blob_sha1": "d78c956afa3af42eeb62fed22c7f8b3fd31f5c72",
+        "sha256": "6fd7f8bcc0325b191e9bfa907e74d96faf76fa398f08ca4b05a82caaeaea7867",
+        "size": 347,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "ad314f426bb1c4844a7d6a4ea55213194c11c700",
+        "sha256": "fbbbc1668f7c201dded60896e5235446c1a59359c65ed821ab6914c82b138a99",
+        "size": 300,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "a031b25dd3b868b72366dfc33b343fc4c13cc930",
+  "new_commit": "609310dcb093f772721b0adec46363faa3bcf652",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat: add Data Manager API troubleshooting skill\nchore: move request status diagnostics from the event and audience ingestion skills to the troubleshooting skill\nfeat: add call conversions to the event ingestion use case table\nchore: use a consistent project ID placeholder in the setup skill\ndocs: list the troubleshooting skill in the README\nfeat: call out event field requirements section in event ingestion guides\nfeat: add event ingestion gotchas for request encoding, event_source, and Google Ads session attributes\n\nPiperOrigin-RevId: 1024616084",
+  "new_commit_time": "2026-11-18T14:22:37Z",
+  "compare_url": "https://github.com/google/skills/compare/a031b25dd3b868b72366dfc33b343fc4c13cc930...609310dcb093f772721b0adec46363faa3bcf652",
+  "commit_url": "https://github.com/google/skills/commit/609310dcb093f772721b0adec46363faa3bcf652",
+  "skill_directory": "skills/ads/data-manager-api-setup",
+  "local_directory": "verified_real_update_pairs/OPU-0095",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0095",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

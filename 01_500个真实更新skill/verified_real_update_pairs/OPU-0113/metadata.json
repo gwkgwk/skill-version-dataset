@@ -1,0 +1,85 @@
+{
+  "repository": "cloudflare/skills",
+  "primary": "skills/nextjs-on-cloudflare/SKILL.md",
+  "pinned_commit": "5108325ecceabc899c761e07aa617b09c02445ee",
+  "repository_license": "Apache-2.0",
+  "key": "de04311e8a55a4d7105c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 5,
+  "old": {
+    "commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+    "computed_tree_sha": "7246fd78e60cba1cd482c7046f9df1439969c8df",
+    "api_tree_sha_as_returned": "7246fd78e60cba1cd482c7046f9df1439969c8df",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4d6fa98a76b95e59faa04259302cf2775e9140d8",
+        "sha256": "4755b76350b64f2057f21f44aabc46b73d23b7d66f2c4ceb2970634e7eae70d6",
+        "size": 2711,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+    "computed_tree_sha": "e5d5f72fdafa86117e6212c725aee3dad5705658",
+    "api_tree_sha_as_returned": "e5d5f72fdafa86117e6212c725aee3dad5705658",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "765fd91d545f537ae99fdfac3326ecc566ec3c5f",
+        "sha256": "2e7d42b5a42a871a9ac3f1f638ac4d44e612650544058480164bd4994251a7dd",
+        "size": 2898,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "746ba790b3a5ccbe8c22e07a21cc19c26e52d802",
+        "sha256": "8395c66d7675bc2bb95dca63e70a12308aac8f290b116d9043d2f922d80c5330",
+        "size": 1920,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/skill-feedback.md"
+  ],
+  "old_commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+  "new_commit": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat: add skill feedback reference to every skill\n\nWhen a skill gives incorrect, outdated, or missing guidance, agents had no\ninstructions for reporting it, so the problem stayed with the user. Each\nskill now includes references/skill-feedback.md, which tells the agent to\nask the user, draft a GitHub issue on cloudflare/skills with a structured\nfield table, review it with the user, and post it with a\n`skill-feedback: <skill>:` title prefix. Each SKILL.md links to it.\n\nThe reference is copied into every skill because skills can be installed\nindividually.",
+  "new_commit_time": "2026-10-27T16:25:48Z",
+  "compare_url": "https://github.com/cloudflare/skills/compare/86505e44f87d801aa1864a3c4109e9a8ae5c409f...0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "commit_url": "https://github.com/cloudflare/skills/commit/0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "skill_directory": "skills/nextjs-on-cloudflare",
+  "local_directory": "verified_real_update_pairs/OPU-0113",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0113",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

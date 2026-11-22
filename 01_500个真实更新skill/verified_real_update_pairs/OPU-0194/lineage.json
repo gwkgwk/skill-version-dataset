@@ -1,0 +1,82 @@
+{
+  "sha": "6d20de492725c78e805aa0741507bb90d1982cc7",
+  "node_id": "C_kwDOQ0VAy9oAKDZkMjBkZTQ5MjcyNWM3OGU4MDVhYTA3NDE1MDdiYjkwZDE5ODJjYzc",
+  "commit": {
+    "author": {
+      "name": "jeffreyhung",
+      "email": "17494876+Jeffreyhung@users.noreply.github.com",
+      "date": "2026-10-19T22:57:58Z"
+    },
+    "committer": {
+      "name": "jeffreyhung",
+      "email": "17494876+Jeffreyhung@users.noreply.github.com",
+      "date": "2026-10-19T22:57:58Z"
+    },
+    "message": "fix(security-review): load modern-threats.md for frontend reviews\n\nDOM clobbering is only covered by modern-threats.md, but the Frontend row\nloaded xss.md and csrf.md alone, so that guidance never reached frontend\nreviews. Add it to the Frontend row and name DOM lookups in the\nmodern-threats trigger row.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+    "tree": {
+      "sha": "11a44e03dd1c332bea1bc70bce2186ea99811139",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/11a44e03dd1c332bea1bc70bce2186ea99811139"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/6d20de492725c78e805aa0741507bb90d1982cc7",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEpSgIA9fdkGWut9TPsr3ATMX+7fsFAmrWoHcACgkQsr3ATMX+\n7fsrJw/9HXMUnO2EUje3rAxYw4W7eRqlkzPpiOWI9y0bnKLmkHQAl+N25ja3a2hi\nUuR8r8djnEqARjB6IX3k8S0EMEFnKYMbxxfEfEKEBaMb8GcjFxfWFA9hF3fYDVKQ\n2pOGo40qKwKGSbwM4luTKsANIsuh/QQRk9QVHkjx62ozU5X9H9WL1NS7AoxUJVqP\nJO8dtrCoiafoLTG/OwU7gUYOiftYQ8RVmy/hDeXMgtXItLdH+wpp47j1UpaWUD7v\nasCbX3/M8NICb/L8Oh58mA1CaHBAwZo4sULhxgZejVddkfugC2H0mPt4HsrS6C2+\nbVxFknuPl5aquevxpmPqmpAvHBEDEA50POFq4Pxz5iROMbYiwk1NnidMZeB234RK\n32CGrxRuJ5n1Am6SzN4hX9CUbLVyLQLu94idSSrXJnVlgJZ47I9jgJvhWyKWCN51\nhMvOf5Bua5GFIbdUqNE8D5XuB2z4ptFWjaCXik4xdGQQ/zKAD81RMH7WJignsn+k\nkEuo2lUQCbxgDlQlrsuwakOmsi+erX2Bj4ZNnXcRUCWPv/GCctrswgUpcpflRJY7\nLb6heUpUpKk+g5rP0hUs1WQOpmWLp2ip1pW/rDupkdtdPHyhsDkcwJj6gLXQ95iO\n42ytUHdwB5aEfAXJI/VDcVOR5FtN1z5KI4oIgWTBn+NOsyLSHyM=\n=FxYx\n-----END PGP SIGNATURE-----",
+      "payload": "tree 11a44e03dd1c332bea1bc70bce2186ea99811139\nparent 4e8a32bd279a8ad18e3467b503c45ddf8c607d2e\nauthor jeffreyhung <17494876+Jeffreyhung@users.noreply.github.com> 1792450678 -0700\ncommitter jeffreyhung <17494876+Jeffreyhung@users.noreply.github.com> 1792450678 -0700\n\nfix(security-review): load modern-threats.md for frontend reviews\n\nDOM clobbering is only covered by modern-threats.md, but the Frontend row\nloaded xss.md and csrf.md alone, so that guidance never reached frontend\nreviews. Add it to the Frontend row and name DOM lookups in the\nmodern-threats trigger row.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n",
+      "verified_at": "2026-10-19T22:58:02Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/6d20de492725c78e805aa0741507bb90d1982cc7",
+  "html_url": "https://github.com/getsentry/skills/commit/6d20de492725c78e805aa0741507bb90d1982cc7",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/6d20de492725c78e805aa0741507bb90d1982cc7/comments",
+  "author": {
+    "login": "Jeffreyhung",
+    "id": 17494876,
+    "node_id": "MDQ6VXNlcjE3NDk0ODc2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17494876?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jeffreyhung",
+    "html_url": "https://github.com/Jeffreyhung",
+    "followers_url": "https://api.github.com/users/Jeffreyhung/followers",
+    "following_url": "https://api.github.com/users/Jeffreyhung/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jeffreyhung/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jeffreyhung/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jeffreyhung/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jeffreyhung/orgs",
+    "repos_url": "https://api.github.com/users/Jeffreyhung/repos",
+    "events_url": "https://api.github.com/users/Jeffreyhung/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jeffreyhung/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "Jeffreyhung",
+    "id": 17494876,
+    "node_id": "MDQ6VXNlcjE3NDk0ODc2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17494876?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Jeffreyhung",
+    "html_url": "https://github.com/Jeffreyhung",
+    "followers_url": "https://api.github.com/users/Jeffreyhung/followers",
+    "following_url": "https://api.github.com/users/Jeffreyhung/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Jeffreyhung/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Jeffreyhung/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Jeffreyhung/subscriptions",
+    "organizations_url": "https://api.github.com/users/Jeffreyhung/orgs",
+    "repos_url": "https://api.github.com/users/Jeffreyhung/repos",
+    "events_url": "https://api.github.com/users/Jeffreyhung/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Jeffreyhung/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "4e8a32bd279a8ad18e3467b503c45ddf8c607d2e",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/4e8a32bd279a8ad18e3467b503c45ddf8c607d2e",
+      "html_url": "https://github.com/getsentry/skills/commit/4e8a32bd279a8ad18e3467b503c45ddf8c607d2e"
+    }
+  ]
+}

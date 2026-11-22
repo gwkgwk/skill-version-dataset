@@ -1,0 +1,82 @@
+{
+  "sha": "557711933147cabb9c833fd74d93e45a559b0dcd",
+  "node_id": "C_kwDOQ55KR9oAKDU1NzcxMTkzMzE0N2NhYmI5YzgzM2ZkNzRkOTNlNDVhNTU5YjBkY2Q",
+  "commit": {
+    "author": {
+      "name": "Jamie Reid",
+      "email": "jamie@semgrep.com",
+      "date": "2026-06-10T19:34:58Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-06-10T19:34:58Z"
+    },
+    "message": "fix(semgrep-rule-creator): correct 404ing semgrep-docs links (#179)\n\n* fix(semgrep-rule-creator): correct 404ing semgrep-docs links\n\nThe semgrep-docs repo migrated these writing-rules pages from .md to\n.mdx, so the WebFetch links in SKILL.md were returning 404. Update the\nfive affected links to their .mdx paths (pattern-syntax was already\n.mdx). All seven links now return HTTP 200.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* Bump version to 1.2.2 in plugin.json\n\n* Update semgrep-rule-creator version to 1.2.2\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\nCo-authored-by: ahpaleus <38883201+ahpaleus@users.noreply.github.com>",
+    "tree": {
+      "sha": "f877435898c8fd363baf05550f3a09abeabdb1eb",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/f877435898c8fd363baf05550f3a09abeabdb1eb"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/557711933147cabb9c833fd74d93e45a559b0dcd",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqKbxiCRC1aQ7uu5UhlAAA9+UQAEuC1CzA5Muwb8GLQ9I7QHw2\n/Kv1rRlpUsEmG/k6tjHJb4pxO5oVYs6hcbi0Ri0y41Sg9RwTibLucZUfMCzm3AhP\nnReZv31hytYDDWnNAEKZS2ui0jZD72AHr+ll0diRPi/OA8YxFuVQ/q5GXMQIVO4E\n72KTkbdy37zDmPpiuCg7Eev7+PfzqDc7Xp3+JJOqtr6uMIgp1PDyGT0BwG/M3vdS\nyms0+gVP1WlqQjFbgrNtscUAxl/qUnR7Ea9ulWkkN5ZbCNGEg8QqW1Eb4FDhMqk3\n+s6wvI4loDYeB2dR4yYJJq2+hti0w7WNjjduiQNV8D4vKvBpE2zgYPVWAnCeDJeN\n+1iIWxh/FOSIPUcRbPTjdzk8tGqRRYPBgsLAHLr577vp52DsbzBEm/8+6dH609u1\nxhGcvgFzY5ArmrH1wvrZ50yVH23zfnk6MjFxwzgBTsjKl5gfY/6NmmEZbfk9trcU\n+y4362OathVW/FgdbQGjXWRTaMAuwk0NCAQAJoGE1ckIOw5L0AGBNH2uCDeU/hfj\nnmfEpFQxTGwjqkRDGOmu30Hzvt9DyyTR0x1jzxTIolxrROly2iggU4OREYa226CP\nbkjaYNGXLRQD2tvn29uLmjK40bs9HE7XFeLj3zABwgA0IX8NRAktbsQeUhSnTbox\na8cHzTvRRNb9iEQBYd3c\n=WAEH\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree f877435898c8fd363baf05550f3a09abeabdb1eb\nparent c910ecf7390a741b727210c03d230f34fb0bc62b\nauthor Jamie Reid <jamie@semgrep.com> 1781120098 -0600\ncommitter GitHub <noreply@github.com> 1781120098 -0400\n\nfix(semgrep-rule-creator): correct 404ing semgrep-docs links (#179)\n\n* fix(semgrep-rule-creator): correct 404ing semgrep-docs links\n\nThe semgrep-docs repo migrated these writing-rules pages from .md to\n.mdx, so the WebFetch links in SKILL.md were returning 404. Update the\nfive affected links to their .mdx paths (pattern-syntax was already\n.mdx). All seven links now return HTTP 200.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* Bump version to 1.2.2 in plugin.json\n\n* Update semgrep-rule-creator version to 1.2.2\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\nCo-authored-by: ahpaleus <38883201+ahpaleus@users.noreply.github.com>",
+      "verified_at": "2026-06-10T19:34:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/557711933147cabb9c833fd74d93e45a559b0dcd",
+  "html_url": "https://github.com/trailofbits/skills/commit/557711933147cabb9c833fd74d93e45a559b0dcd",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/557711933147cabb9c833fd74d93e45a559b0dcd/comments",
+  "author": {
+    "login": "semgrep-jamie",
+    "id": 208687120,
+    "node_id": "U_kgDODHBQEA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/208687120?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/semgrep-jamie",
+    "html_url": "https://github.com/semgrep-jamie",
+    "followers_url": "https://api.github.com/users/semgrep-jamie/followers",
+    "following_url": "https://api.github.com/users/semgrep-jamie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/semgrep-jamie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/semgrep-jamie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/semgrep-jamie/subscriptions",
+    "organizations_url": "https://api.github.com/users/semgrep-jamie/orgs",
+    "repos_url": "https://api.github.com/users/semgrep-jamie/repos",
+    "events_url": "https://api.github.com/users/semgrep-jamie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/semgrep-jamie/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "c910ecf7390a741b727210c03d230f34fb0bc62b",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/c910ecf7390a741b727210c03d230f34fb0bc62b",
+      "html_url": "https://github.com/trailofbits/skills/commit/c910ecf7390a741b727210c03d230f34fb0bc62b"
+    }
+  ]
+}

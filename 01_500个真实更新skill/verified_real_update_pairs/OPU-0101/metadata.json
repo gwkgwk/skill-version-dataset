@@ -1,0 +1,147 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/building-secure-contracts/skills/guidelines-advisor/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "39247c01cfb44dfc78b8",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "43d7af806478ea534164ac7b55a3c4ff7b359986",
+    "computed_tree_sha": "5a41fab8751f015f54abcf3809e90dab0ccf1ca3",
+    "api_tree_sha_as_returned": "5a41fab8751f015f54abcf3809e90dab0ccf1ca3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "82cb9e374a2051d6c3f1810efae2fea315743bf2",
+        "sha256": "15b4864cd905a1ed1eea5f04b025b8326229c1c61e975338af77d794c0e84df7",
+        "size": 8486,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/ASSESSMENT_AREAS.md",
+        "git_blob_sha1": "9137afeb47421bc77b4087e712c724583d510e0c",
+        "sha256": "951352a5e7c3afa717ed62770ae1b7c152c4792480e3beebefc68f9c96d2a46c",
+        "size": 7997,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/DELIVERABLES.md",
+        "git_blob_sha1": "a65296a2a2c51b0b842978b710fda4b63142b9b9",
+        "sha256": "5a9a6e14acb0be5dd8e15440227d5cf659931ec79cca346661f9ef22bc5f21c2",
+        "size": 2338,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/EXAMPLE_REPORT.md",
+        "git_blob_sha1": "8cbe818bde4a8dbc5359addb4706d356aa9fe50d",
+        "sha256": "4c31c1718afaece6c7ba2c3519373167ca5d81f937fb4356c8d9b45d280833f0",
+        "size": 8433,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+    "computed_tree_sha": "bf9a8debdcd27d96d0801204209c6a8db28edfe6",
+    "api_tree_sha_as_returned": "bf9a8debdcd27d96d0801204209c6a8db28edfe6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c48f4cbf39ae4be33dfbdfbcd3374aede5a932ed",
+        "sha256": "5bb8ba34d363c419e1769a59d0fcc7444a04dc6d9e59032cb93019befdc2e464",
+        "size": 8752,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/ASSESSMENT_AREAS.md",
+        "git_blob_sha1": "9137afeb47421bc77b4087e712c724583d510e0c",
+        "sha256": "951352a5e7c3afa717ed62770ae1b7c152c4792480e3beebefc68f9c96d2a46c",
+        "size": 7997,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/DELIVERABLES.md",
+        "git_blob_sha1": "a65296a2a2c51b0b842978b710fda4b63142b9b9",
+        "sha256": "5a9a6e14acb0be5dd8e15440227d5cf659931ec79cca346661f9ef22bc5f21c2",
+        "size": 2338,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/EXAMPLE_REPORT.md",
+        "git_blob_sha1": "8cbe818bde4a8dbc5359addb4706d356aa9fe50d",
+        "sha256": "4c31c1718afaece6c7ba2c3519373167ca5d81f937fb4356c8d9b45d280833f0",
+        "size": 8433,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "43d7af806478ea534164ac7b55a3c4ff7b359986",
+  "new_commit": "32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "building-secure-contracts: give five skills trigger clauses (#275)\n\n* building-secure-contracts: give five skills trigger clauses\n\nFive of the plugin's eleven skills had descriptions that were pure\ncapability lists with no trigger clause. The six sibling vulnerability\nscanners all end in \"Use when auditing X\", so these five lost the routing\ncoin-flip to their own siblings and rarely fired.\n\nEach keeps its capability text and gains a \"Use when\" clause naming the\nsituation, drawn from that skill's own Purpose and workflow sections\nrather than invented.\n\nDrop three trailing phrases that said nothing: \"Provides actionable\nrecommendations\", \"professional scorecard\" (replaced with the roadmap the\nskill actually produces), and \"Context-aware for both token\nimplementations and token integrations\", now carried by the trigger.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: fix invocation docs and two triggers\n\nThe README advertised every skill as a bare slash command, but the plugin\nships only skills/ and no commands/, so /audit-prep-assistant is\nunregistered. A user who read the docs and typed the documented form got\nnothing — the other half of the reachability problem this branch fixes.\nNamespace all 22 occurrences; every other plugin README in the repo\nalready uses that form.\n\nAnchor code-maturity-assessor to the domain. Its new clause said only\n\"judging how mature a codebase is against a rubric\", which matches a\nDjango or Go repo just as well, and the skill would then grade it on MEV\nrisk, transaction ordering, and decentralization.\n\nSay which side of an engagement audit-prep-assistant serves. It collided\nwith audit-context-building on \"getting ready to audit this codebase\";\nthe two serve auditee prep and auditor onboarding respectively, and\nneither clause said so up front.\n\nRoot README now mentions the 5 assistants, matching plugin.json, and the\nplugin README drops \"professional scorecard\" to match the description.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-25T15:11:31Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/43d7af806478ea534164ac7b55a3c4ff7b359986...32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "commit_url": "https://github.com/trailofbits/skills/commit/32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "skill_directory": "plugins/building-secure-contracts/skills/guidelines-advisor",
+  "local_directory": "verified_real_update_pairs/OPU-0101",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0101",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

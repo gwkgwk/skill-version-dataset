@@ -1,0 +1,157 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/trailmark/skills/diagramming-code/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "739495c69dc9247dd37a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+    "computed_tree_sha": "62e0201ec9743786374175e8234d572a48641730",
+    "api_tree_sha_as_returned": "62e0201ec9743786374175e8234d572a48641730",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "73c06e99c21dc7b253bbe88ede59f33c39ba4815",
+        "sha256": "1d2397bd08607b686122078afe8d2742cca2a46f19c8e924e54f5886136d1053",
+        "size": 6838,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "89d79a1c6eb1a7031df4911fa8613f914e82c78a",
+        "sha256": "109d4686a5c4b9b23d35d32902c78987947f95dc679da6451d73e6ca04359b61",
+        "size": 241,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/diagram-types.md",
+        "git_blob_sha1": "dac2ed0c6ce45337ff83c77080ac25e8b9795dad",
+        "sha256": "f87a59e21779510920fe3b76c1f4d17f0776a24fed0193f836e982b622394e73",
+        "size": 5186,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mermaid-syntax.md",
+        "git_blob_sha1": "ff1a0b42d91523447137c4fa6567996ade45fa56",
+        "sha256": "5932e0ecb7cfa4d49e5fa54af723880eeecdf1a9419e87ff05ec7021270b53b4",
+        "size": 2947,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/diagram.py",
+        "git_blob_sha1": "6d632e63c122b64cfd310d7507910622e6b636c1",
+        "sha256": "a619c23ecaaa73f3acf6205b088c70b22a92b065beb35ca0aa3308efa36a3682",
+        "size": 389,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "29424a451e2b9c8adc44f6d5251310df8f044ae7",
+    "computed_tree_sha": "3cf2af132212b491a6835e7b1da211fa9118bada",
+    "api_tree_sha_as_returned": "3cf2af132212b491a6835e7b1da211fa9118bada",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a605a8b94a352799104d8999172387c10330b2bd",
+        "sha256": "1af57963c6d8c68eec1c360f3ee4cfec5be7c163a3c01c701f58a67980fff910",
+        "size": 6811,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "89d79a1c6eb1a7031df4911fa8613f914e82c78a",
+        "sha256": "109d4686a5c4b9b23d35d32902c78987947f95dc679da6451d73e6ca04359b61",
+        "size": 241,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/diagram-types.md",
+        "git_blob_sha1": "dac2ed0c6ce45337ff83c77080ac25e8b9795dad",
+        "sha256": "f87a59e21779510920fe3b76c1f4d17f0776a24fed0193f836e982b622394e73",
+        "size": 5186,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mermaid-syntax.md",
+        "git_blob_sha1": "ff1a0b42d91523447137c4fa6567996ade45fa56",
+        "sha256": "5932e0ecb7cfa4d49e5fa54af723880eeecdf1a9419e87ff05ec7021270b53b4",
+        "size": 2947,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/diagram.py",
+        "git_blob_sha1": "6d632e63c122b64cfd310d7507910622e6b636c1",
+        "sha256": "a619c23ecaaa73f3acf6205b088c70b22a92b065beb35ca0aa3308efa36a3682",
+        "size": 389,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_skill_commands.py",
+        "git_blob_sha1": "f84696b9d218c588ee425a0c1d1a381b66a654ab",
+        "sha256": "bd8d726b9b2b4aca7299be81c76b0961ccc9adacb3a96e2d4f13c9b59b769670",
+        "size": 1118,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/test_skill_commands.py"
+  ],
+  "old_commit": "bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+  "new_commit": "29424a451e2b9c8adc44f6d5251310df8f044ae7",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(diagramming-code): drop the unused pre-analysis step and name a language in examples (#365)\n\nStep 1 told the model to build a QueryEngine and run engine.preanalysis()\n\"for data-flow diagrams\", but the diagram command builds its own engine and\nnever reads pre-analysis data: call-graph, complexity and data-flow output\nis byte-identical with and without it on Trailmark 0.5.0. Remove the step\n(one heredoc and one extra full parse per run), and drop diagramming-code\nfrom the core skill's \"always run preanalysis before\" sentence.\n\ndiagram.py defaults to --language python, so five examples without a\nlanguage parsed any repository as Python; add `-l auto`. The Quick Start\nfocused `main`, which fails on repositories without one; use a placeholder.\nA test keeps the skill's commands consistent with this.\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-10-14T20:03:08Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68...29424a451e2b9c8adc44f6d5251310df8f044ae7",
+  "commit_url": "https://github.com/trailofbits/skills/commit/29424a451e2b9c8adc44f6d5251310df8f044ae7",
+  "skill_directory": "plugins/trailmark/skills/diagramming-code",
+  "local_directory": "verified_real_update_pairs/OPU-0361",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0361",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

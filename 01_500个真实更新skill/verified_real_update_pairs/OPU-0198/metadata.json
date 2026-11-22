@@ -1,0 +1,187 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.system/skill-installer/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "158daa5981b851c029c1",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "778b0e6129cf18cbaee3bf11479f583fadae8d03",
+    "computed_tree_sha": "6c065e2ccde6a5a653a32e507bc0323455367e53",
+    "api_tree_sha_as_returned": "6c065e2ccde6a5a653a32e507bc0323455367e53",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7c77222786adb5b2098a93c233364e4cb4895c98",
+        "sha256": "df58efeb75a6001d733701e7d73e24dd71b94a2a0016971f0bcfe097217888a5",
+        "size": 3239,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "88d40cd9468441cfc83ffed52f9d71867392b850",
+        "sha256": "5ce223d8b1070b82c42298538f1b8d376f788eb9e7a42a987e8c094070d73f0e",
+        "size": 221,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/skill-installer-small.svg",
+        "git_blob_sha1": "ccfc034241ae8e6bea7284e188aed142a67c53e9",
+        "sha256": "3928703ff00dc1a681e7a22401843b7edcbd4b2051651ce4c43b75f7e140504e",
+        "size": 923,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/skill-installer.png",
+        "git_blob_sha1": "5dbcfcf66dfdde4c8d755f070758371316e30b0f",
+        "sha256": "a3a31e72c3a8b753893a9ca9bad4a99ceb38efd6f6c3e0f98a38873256d3b36c",
+        "size": 1036,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/github_utils.py",
+        "git_blob_sha1": "711f597e4cf0c08b897083c1c337e13524a76260",
+        "sha256": "61c1bbe2ae217433b4b6f9f09f21aca4df52c12598068343ade719f706e4859b",
+        "size": 659,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/install-skill-from-github.py",
+        "git_blob_sha1": "1c8ce89d0a4c54f1eb8ec00625e8fc0fa59301ae",
+        "sha256": "0fbbd36e8ea294442c0bd48d6f610a2e8656216bfef5c322f1dcf448ef2f09f1",
+        "size": 10096,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/list-skills.py",
+        "git_blob_sha1": "0977c296ab7723d5fdf9ad9ba05329478ba1fe94",
+        "sha256": "e4e1f78ca3d045827f2a05cfd99fae57cc7c1a1bfeba8704029108834debff35",
+        "size": 2967,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "49f948faa9258a0c61caceaf225e179651397431",
+    "computed_tree_sha": "93a460db672fa18ae65e906f26c44acb7a0969ec",
+    "api_tree_sha_as_returned": "93a460db672fa18ae65e906f26c44acb7a0969ec",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8ca23bf833379d2272a0a67e0026c2709b8823f1",
+        "sha256": "83b31cffb2552a923f4152f0338bea548274accc5489d151a95bced8e7bcfb74",
+        "size": 3240,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "88d40cd9468441cfc83ffed52f9d71867392b850",
+        "sha256": "5ce223d8b1070b82c42298538f1b8d376f788eb9e7a42a987e8c094070d73f0e",
+        "size": 221,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/skill-installer-small.svg",
+        "git_blob_sha1": "ccfc034241ae8e6bea7284e188aed142a67c53e9",
+        "sha256": "3928703ff00dc1a681e7a22401843b7edcbd4b2051651ce4c43b75f7e140504e",
+        "size": 923,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/skill-installer.png",
+        "git_blob_sha1": "5dbcfcf66dfdde4c8d755f070758371316e30b0f",
+        "sha256": "a3a31e72c3a8b753893a9ca9bad4a99ceb38efd6f6c3e0f98a38873256d3b36c",
+        "size": 1036,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/github_utils.py",
+        "git_blob_sha1": "711f597e4cf0c08b897083c1c337e13524a76260",
+        "sha256": "61c1bbe2ae217433b4b6f9f09f21aca4df52c12598068343ade719f706e4859b",
+        "size": 659,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/install-skill-from-github.py",
+        "git_blob_sha1": "1c8ce89d0a4c54f1eb8ec00625e8fc0fa59301ae",
+        "sha256": "0fbbd36e8ea294442c0bd48d6f610a2e8656216bfef5c322f1dcf448ef2f09f1",
+        "size": 10096,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/list-skills.py",
+        "git_blob_sha1": "0977c296ab7723d5fdf9ad9ba05329478ba1fe94",
+        "sha256": "e4e1f78ca3d045827f2a05cfd99fae57cc7c1a1bfeba8704029108834debff35",
+        "size": 2967,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "778b0e6129cf18cbaee3bf11479f583fadae8d03",
+  "new_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "[codex] Update skill installer post-install guidance (#507)\n\n## Summary\n\n- Update the skill installer's post-install guidance to say the skill\nwill be available on the user's next turn.\n- Remove the obsolete instruction to restart Codex.\n\n## Why\n\nCodex refreshes its skill catalog between turns. The existing\ninstruction predates that behavior and causes the model to recommend an\nunnecessary restart.\n\n## Impact\n\nUsers receive accurate guidance after installing a skill.\n\n## Related\n\n- Bundled Codex copy: https://github.com/openai/codex/pull/29768\n\n## Validation\n\n- `git diff --check`\n- No tests run (instruction-only Markdown change).",
+  "new_commit_time": "2026-06-24T02:36:12Z",
+  "compare_url": "https://github.com/openai/skills/compare/778b0e6129cf18cbaee3bf11479f583fadae8d03...49f948faa9258a0c61caceaf225e179651397431",
+  "commit_url": "https://github.com/openai/skills/commit/49f948faa9258a0c61caceaf225e179651397431",
+  "skill_directory": "skills/.system/skill-installer",
+  "local_directory": "verified_real_update_pairs/OPU-0198",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0198",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

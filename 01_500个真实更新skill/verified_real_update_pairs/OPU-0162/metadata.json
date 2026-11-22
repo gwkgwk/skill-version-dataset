@@ -1,0 +1,117 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/ads/google-mobile-ads-rewarded/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "1307d258ba581ae5a1ad",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "00c3e741d9782e14dd28415cfee4e8adc165576f",
+    "computed_tree_sha": "2e19221d11e873d0231ad6921e0a4dc2c82c2f77",
+    "api_tree_sha_as_returned": "2e19221d11e873d0231ad6921e0a4dc2c82c2f77",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "910d76c896e31f4569558ea23678ce1649203048",
+        "sha256": "d2188730351c4eb8ee03fc25cdd1e6256bb5ebe06430c24c24d469556ff5a578",
+        "size": 1349,
+        "mode": "100644"
+      },
+      {
+        "path": "references/android-rewarded.md",
+        "git_blob_sha1": "4416358e5172b5b57179200dca11996115280022",
+        "sha256": "7220d2564ea7baaba2117c8c558a91ac0f7401792e5df9efaeb289c2a05999a6",
+        "size": 2435,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ios-rewarded.md",
+        "git_blob_sha1": "d036be0bf446112f1a3a5ff5980779a74b888e4c",
+        "sha256": "49420618e7aad0646b9c0dae0b341b9953348ba72ad2e2a55d01b45daeb5fb0e",
+        "size": 1555,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b276cc3e1cad59269eb7889bf8544c1766ef0db9",
+    "computed_tree_sha": "ee43f6c8ef61e3e07b99a84eae3fdb36a2f1d73f",
+    "api_tree_sha_as_returned": "ee43f6c8ef61e3e07b99a84eae3fdb36a2f1d73f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ad2085c3d8f72e582addbd5417cd295e7c2a4308",
+        "sha256": "879dda6089b7f4c29b52596367809c3fbd30c65f5aa1f96279df577c8ce91103",
+        "size": 1132,
+        "mode": "100644"
+      },
+      {
+        "path": "references/android-rewarded.md",
+        "git_blob_sha1": "e82b72b6f8161ce15de51387e8c7dc1cb2f8c095",
+        "sha256": "3af617b2ae90a521f44d9d25d7b124f7653796572a2aa2de159506c1e68fe687",
+        "size": 2465,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ios-rewarded.md",
+        "git_blob_sha1": "2efd7668b2cf51fce7f2a6c9acb38776cbce697a",
+        "sha256": "e3523f2d87501a5ef512cf1886f194df2581716be5a2f4e10f16a419af73294f",
+        "size": 1583,
+        "mode": "100644"
+      },
+      {
+        "path": "references/unity-rewarded.md",
+        "git_blob_sha1": "cabecc165048df5074f7262040ebef66c9c8447a",
+        "sha256": "7fa6671585c7c7d774483bf4594ba9f09c42997aee33183bbd57a13756a41a72",
+        "size": 3872,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/android-rewarded.md",
+    "references/ios-rewarded.md",
+    "references/unity-rewarded.md"
+  ],
+  "old_commit": "00c3e741d9782e14dd28415cfee4e8adc165576f",
+  "new_commit": "b276cc3e1cad59269eb7889bf8544c1766ef0db9",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add Unity support to google-mobile-ads-rewarded skill\n\nPiperOrigin-RevId: 966808589",
+  "new_commit_time": "2026-08-18T21:31:22Z",
+  "compare_url": "https://github.com/google/skills/compare/00c3e741d9782e14dd28415cfee4e8adc165576f...b276cc3e1cad59269eb7889bf8544c1766ef0db9",
+  "commit_url": "https://github.com/google/skills/commit/b276cc3e1cad59269eb7889bf8544c1766ef0db9",
+  "skill_directory": "skills/ads/google-mobile-ads-rewarded",
+  "local_directory": "verified_real_update_pairs/OPU-0162",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0162",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

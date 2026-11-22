@@ -1,0 +1,165 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -1,118 +1,79 @@
+ ---
+ name: continual-learning
+-description: Guide for implementing continual learning in AI coding agents — hooks, memory files, reflection patterns, and session persistence. Use when setting up learning infrastructure for agents.
++description: Guide for implementing continual learning in AI coding agents — hooks, memory scoping, reflection patterns. Use when setting up learning infrastructure for agents.
+ ---
+ 
+ # Continual Learning for AI Coding Agents
+ 
+-## Core Concept
++Your agent forgets everything between sessions. Continual learning fixes that.
+ 
+-Continual learning enables AI coding agents to improve across sessions by capturing corrections, reflecting on patterns, and persisting knowledge. Instead of starting each session from scratch, agents build on accumulated experience.
++## The Loop
+ 
+ ```
+ Experience → Capture → Reflect → Persist → Apply
++     ↑                                       │
++     └───────────────────────────────────────┘
+ ```
+ 
+-## The Learning Loop
++## Quick Start
+ 
+-### 1. Capture (During Session)
+-
+-Track corrections, tool outcomes, and user feedback as they happen:
+-- User corrections: "no, use X not Y", "actually...", "that's wrong"
+-- Tool failures: repeated failures on the same tool indicate a pattern
+-- Successful patterns: approaches that worked well
+-
+-### 2. Reflect (Session End)
+-
+-At session end, synthesize raw observations into actionable learnings:
+-- Abstract the general principle (not just the specific instance)
+-- Determine scope: project-specific or global?
+-- Check for conflicts with existing rules
+-
+-### 3. Persist (To Storage)
+-
+-Store learnings in one or more of:
+-- **SQLite database** (`~/.copilot/continual-learning.db`) — structured, queryable
+-- **Memory file** (`.github/memory/learnings.md`) — human-readable, version-controlled
+-- **Agent memory tools** (`store_memory`, `sql` session store) — agent-native persistence
+-
+-### 4. Apply (Next Session)
+-
+-On session start, load accumulated context:
+-- Query session store for recent project history
+-- Read persisted learnings from database
+-- Surface memory file content
+-- Agent starts with full context of past work
+-
+-## Implementation Patterns
+-
+-### Hook-Based (Infrastructure Layer)
+-
+-Install the `continual-learning` hook set for automatic capture and reflection:
+-
++Install the hook (one step):
+ ```bash
+ cp -r hooks/continual-learning .github/hooks/
+-chmod +x .github/hooks/continual-learning/scripts/*.sh
+ ```
+ 
+-This provides:
+-- `sessionStart` → loads past learnings
+-- `postToolUse` → tracks tool outcomes
+-- `sessionEnd` → reflects and persists
++Auto-initializes on first session. No config needed.
+ 
+-### Agent-Native (Intelligence Layer)
++## Two-Tier Memory
+ 
+-Use the agent's built-in memory tools for higher-quality learnings:
++**Global** (`~/.copilot/learnings.db`) — follows you across all projects:
++- Tool patterns (which tools fail, which work)
++- Cross-project conventions
++- General coding preferences
+ 
++**Local** (`.copilot-memory/learnings.db`) — stays with this repo:
++- Project-specific conventions
++- Common mistakes for this codebase
++- Team preferences
++
++## How Learnings Get Stored
++
++### Automatic (via hooks)
++The hook observes tool outcomes and detects failure patterns:
+ ```
+-# Using the store_memory tool
+-store_memory(
+-  subject="error handling",
+-  fact="This project uses Result<T> pattern, not exceptions",
+-  category="general"
+-)
++Session 1: bash tool fails 4 times → learning stored: "bash frequently fails"
++Session 2: hook surfaces that learning at start → agent adjusts approach
+ ```
+ 
++### Agent-native (via store_memory / SQL)
++The agent can write learnings directly:
+ ```sql
+--- Using the SQL session database
+-INSERT INTO session_state (key, value)
+-VALUES ('learned_pattern', 'Always use async/await for Azure SDK calls');
++INSERT INTO learnings (scope, category, content, source)
++VALUES ('local', 'convention', 'This project uses Result<T> not exceptions', 'user_correction');
+ ```
+ 
+-### Memory File Pattern
++Categories: `pattern`, `mistake`, `preference`, `tool_insight`
+ 
+-Create a living knowledge base the agent reads on startup:
+-
++### Manual (memory files)
++For human-readable, version-controlled knowledge:
+ ```markdown
+-# .github/memory/learnings.md
+-
+-## Conventions
+-- Use `DefaultAzureCredential` for all Azure auth
+-- Prefer `create_or_update_*` for idempotent operations
+-
+-## Common Mistakes
+-- Don't use `azure-ai-inference` for Foundry agents — use `azure-ai-projects`
+-- The `search()` parameter is `semantic_configuration_name`, not `semantic_configuration`
+-
+-## Preferences
+-- User prefers concise commit messages (50 char limit)
+-- Always run tests before committing
++# .copilot-memory/conventions.md
++- Use DefaultAzureCredential for all Azure auth
++- Parameter is semantic_configuration_name=, not semantic_configuration=
+ ```
+ 
+-### The Diary Pattern (Advanced)
++## Compaction
+ 
+-For deeper reflection across multiple sessions:
++Learnings decay over time:
++- Entries older than 60 days with low hit count are pruned
++- High-value learnings (frequently referenced) persist indefinitely
++- Tool logs are pruned after 7 days
+ 
+-1. **Log sessions** — Save session summaries with decisions, challenges, outcomes
+-2. **Cross-reference** — Identify patterns across sessions (recurring mistakes, preferences)
+-3. **Synthesize** — Convert patterns into rules
+-4. **Prune** — Remove redundant or outdated learnings
++This prevents unbounded growth while preserving what matters.
+ 
+ ## Best Practices
+ 
+-1. **Start simple** — Begin with the hook set, add agent-native memory later
+-2. **Be specific** — "Use `semantic_configuration_name=`" is better than "use the right parameter"
+-3. **Scope learnings** — Mark whether something is project-specific or global
+-4. **Prune regularly** — Outdated learnings cause more harm than no learnings
+-5. **Don't log secrets** — Only store tool names, result types, and abstract patterns
+-6. **Compound over time** — Small improvements per session create exponential gains
++1. **One step to install** — if it takes more than `cp -r`, it won't get adopted
++2. **Scope correctly** — global for tool patterns, local for project conventions
++3. **Be specific** — `"Use semantic_configuration_name="` beats `"use the right parameter"`
++4. **Let it compound** — small improvements per session create exponential gains over weeks

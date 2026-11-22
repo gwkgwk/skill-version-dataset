@@ -1,0 +1,79 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/document-api-endpoint/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "6188a49556749e8ac51e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "e94f22214528d69899d09c627b3315ddc3544816",
+    "computed_tree_sha": "13e80eaee884f84fb83dec2b2decaeb0fb1a7d8e",
+    "api_tree_sha_as_returned": "13e80eaee884f84fb83dec2b2decaeb0fb1a7d8e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ba51054fc733a50c7429e9ecbd2eedad1419c28a",
+        "sha256": "40c7592cdfbef2e02bf004133446d7a9c85e98f9fd653d3cee689f3bba4bf7a9",
+        "size": 4473,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+    "computed_tree_sha": "8cd0073b2a18d1eecb62128e62fb1ceda2f9bc21",
+    "api_tree_sha_as_returned": "8cd0073b2a18d1eecb62128e62fb1ceda2f9bc21",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9ddfd1c10b787b15394b4918796276e797b18d7b",
+        "sha256": "1097124722ef442f9a8e3284501c0979227ea93187d9a4230aee06a650754800",
+        "size": 4550,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "e94f22214528d69899d09c627b3315ddc3544816",
+  "new_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "docs(document-api-endpoint): Say @sentry/api releases from getsentry/sentry (#193)\n\n`@sentry/api` now lives in getsentry/sentry's `static/packages/api`\n(getsentry/sentry#130472). When the spec changes on master,\n`openapi.yml` cuts an `api@` release, so getsentry/sentry-api-schema no\nlonger regenerates anything downstream. The skill now says a published\nendpoint reaches the SDK and MCP with that next `api@` release.\n\n<!-- junior-request-attribution:start -->\nvia @BYK.\n<!-- junior-request-attribution:end -->\n\n<!-- junior-session-footer:start -->\n<!-- junior-conversation-id:agent%3A69da19b385017e68b7f9eace56e9477f -->\n\n--\n\n[View\nSession](https://junior-prod.sentry.dev/conversations/agent%3A69da19b385017e68b7f9eace56e9477f)\n[[Sentry]](https://sentry.sentry.io/explore/conversations/agent%3A69da19b385017e68b7f9eace56e9477f/?project=4510944073809921)\n\n<!-- junior-session-footer:end -->",
+  "new_commit_time": "2026-11-14T19:38:57Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/e94f22214528d69899d09c627b3315ddc3544816...a582c51ee29d0f35e6ac321340796f77d43da733",
+  "commit_url": "https://github.com/getsentry/skills/commit/a582c51ee29d0f35e6ac321340796f77d43da733",
+  "skill_directory": "skills/document-api-endpoint",
+  "local_directory": "verified_real_update_pairs/OPU-0093",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0093",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/post-patch-validation/skills/post-patch-validation/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "915dc556cdc4af446743",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "979a3f97a69934cc390ccbb240f16f4adf411989",
+    "computed_tree_sha": "9401f2e425d2423934ec506eecbd92dd664bd9f4",
+    "api_tree_sha_as_returned": "9401f2e425d2423934ec506eecbd92dd664bd9f4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d117f66223c7f7be27a9efa79c8c135e4db51500",
+        "sha256": "6ff2728ac618bddeec036dc88f952a558c4f928f79417f385f5f19fb79b551be",
+        "size": 13388,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "834b4c07b909b614ee162c34224f15141e0f292b",
+        "sha256": "26b1a313e35f8d0e585a01f4922baac69c57d3f8364db2fce853e81465c1aed2",
+        "size": 244,
+        "mode": "100644"
+      },
+      {
+        "path": "references/evidence-model.md",
+        "git_blob_sha1": "0de8b3d586874161f3282bb766b86752bcf3f168",
+        "sha256": "45fdcc594a8d8777cda20c10ad5e4f862380597eae4c1e2e21be062b5ea2ed08",
+        "size": 10502,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/post_patch_validation.py",
+        "git_blob_sha1": "66632efd5932b9df6476fbe4f1781459800f0372",
+        "sha256": "fb550860f3d5ababd1704807f9bc77133b54b752583ece90dec5202328c056bc",
+        "size": 75187,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/pyproject.toml",
+        "git_blob_sha1": "e38d3aaad7076a70b3866b05b56ed8f5bb5c457f",
+        "sha256": "81c10874ac5fd399c479b31a3c13713a4608138caad1ef61161ba139643ec02b",
+        "size": 116,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "027bc47a69a276c340717bafdc3708263094b9a4",
+    "computed_tree_sha": "bbd47c23d60a5880dd6d3f50081fe24c273f8f08",
+    "api_tree_sha_as_returned": "bbd47c23d60a5880dd6d3f50081fe24c273f8f08",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fff1346bc3b8a58caf26e2ad2c9569d4a9f55acd",
+        "sha256": "33b604f4d7d62eab393d710edb98b18505fcbe079c07c9428daa018f29439b54",
+        "size": 15336,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "834b4c07b909b614ee162c34224f15141e0f292b",
+        "sha256": "26b1a313e35f8d0e585a01f4922baac69c57d3f8364db2fce853e81465c1aed2",
+        "size": 244,
+        "mode": "100644"
+      },
+      {
+        "path": "references/evidence-model.md",
+        "git_blob_sha1": "341229a0788b7fad6e93d85303a619af08ece5c7",
+        "sha256": "450175cb31b9d256c5783627bb7a708a9630f71eb5053fa8035f0daedfa9b7f1",
+        "size": 12305,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/post_patch_validation.py",
+        "git_blob_sha1": "025667053e4860add7f41fe889ffa2b966ffb77e",
+        "sha256": "4f3e0d4c8557d8632ea998e634fc6bd18a932ecabb94ceba8c51045a795decf3",
+        "size": 78163,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/pyproject.toml",
+        "git_blob_sha1": "e38d3aaad7076a70b3866b05b56ed8f5bb5c457f",
+        "sha256": "81c10874ac5fd399c479b31a3c13713a4608138caad1ef61161ba139643ec02b",
+        "size": 116,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/evidence-model.md",
+    "scripts/post_patch_validation.py"
+  ],
+  "old_commit": "979a3f97a69934cc390ccbb240f16f4adf411989",
+  "new_commit": "027bc47a69a276c340717bafdc3708263094b9a4",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Replace post-patch validation grades with findings and gaps (#304)",
+  "new_commit_time": "2026-09-14T22:58:16Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/979a3f97a69934cc390ccbb240f16f4adf411989...027bc47a69a276c340717bafdc3708263094b9a4",
+  "commit_url": "https://github.com/trailofbits/skills/commit/027bc47a69a276c340717bafdc3708263094b9a4",
+  "skill_directory": "plugins/post-patch-validation/skills/post-patch-validation",
+  "local_directory": "verified_real_update_pairs/OPU-0261",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0261",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

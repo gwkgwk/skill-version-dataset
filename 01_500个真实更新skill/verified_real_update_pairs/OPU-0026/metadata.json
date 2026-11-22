@@ -1,0 +1,245 @@
+{
+  "repository": "stripe/ai",
+  "primary": "providers/agent-plugins/plugin/skills/stripe-apps/SKILL.md",
+  "pinned_commit": "1bb486909cc36ce608181c2af62c4716ba9cd7c7",
+  "repository_license": "MIT",
+  "key": "1bcbfcb4caf5d1805e6a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "789ef5e0a55ee1d0787a5974660b15bf76dc29b5",
+    "computed_tree_sha": "49d5ce148b39c17af7705b8dcc48f32fed7bc985",
+    "api_tree_sha_as_returned": "49d5ce148b39c17af7705b8dcc48f32fed7bc985",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4fc9d969294c1c2e7077fd8c4cd350334cf075ce",
+        "sha256": "da49a9a5c86187f3edc13ba3620a6a3c781fbdd1e8956dd0adbc2764679df322",
+        "size": 7365,
+        "mode": "100644"
+      },
+      {
+        "path": "references/authentication.md",
+        "git_blob_sha1": "1bec68b1d067670a9bea464c0a969ffa061df1cd",
+        "sha256": "518017baf7302a769bbe2ddd853cf18079428db20591286f1f664b4845275373",
+        "size": 4746,
+        "mode": "100644"
+      },
+      {
+        "path": "references/backend.md",
+        "git_blob_sha1": "65d6f9c66dec288b7b7cecfa9a67e4094d707843",
+        "sha256": "d7b2348478bae5ed71dc1a117619269c74859a12bae170d0225901825ec04eab",
+        "size": 4458,
+        "mode": "100644"
+      },
+      {
+        "path": "references/canonical-docs.md",
+        "git_blob_sha1": "7f2eef38af3226bcdfa41beb1db164e34e002fce",
+        "sha256": "855d0feb1bd77ad056089f8a7e5c59f72838494e484950c2538097dc235cd834",
+        "size": 4477,
+        "mode": "100644"
+      },
+      {
+        "path": "references/discovery.md",
+        "git_blob_sha1": "c19bf463dc81dcee66ded1c94d322fd253ae48d5",
+        "sha256": "1552d10191f5c0502686c3033d19e2ca1f23a59375b9a632c0e7d73fdb96036a",
+        "size": 9445,
+        "mode": "100644"
+      },
+      {
+        "path": "references/extension-types.md",
+        "git_blob_sha1": "8b8734410b70c0741070e8e9e5bbe8793ef8ebe7",
+        "sha256": "1f51c4ef3ca60bde4f226d1456e10a09806dbd7c0d2724ff972bfd0eda457f4a",
+        "size": 5245,
+        "mode": "100644"
+      },
+      {
+        "path": "references/feedback.md",
+        "git_blob_sha1": "212a4f3f628f7041aaa83490804547595874e659",
+        "sha256": "590c74e49dc00150f3315df1b34636d75b733039f0d76bce582e8564928157dc",
+        "size": 1977,
+        "mode": "100644"
+      },
+      {
+        "path": "references/onboarding-ux.md",
+        "git_blob_sha1": "f8acdb92be283b33c23d426a8624fbca25d29921",
+        "sha256": "837617d1ff7b13e6d01afdf1ab001e667e255e4fa5a9d512109dd5836c7aeca9",
+        "size": 2732,
+        "mode": "100644"
+      },
+      {
+        "path": "references/publishing.md",
+        "git_blob_sha1": "0a90a6208ebac18f3f772f0335613553fe227ee1",
+        "sha256": "73bc9173ecaf2109d67c08383da33fcef71a28812f1665073225c195b8d8cd05",
+        "size": 5867,
+        "mode": "100644"
+      },
+      {
+        "path": "references/script-extensions.md",
+        "git_blob_sha1": "93112ca759d2e80f9553472c2383351eead7cff7",
+        "sha256": "26ebf9b160c89450cb3b5cb3f8111cdc0d3d688cfb03b9531390d290f8240054",
+        "size": 7512,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ui-extensions.md",
+        "git_blob_sha1": "a09124890a6dd1f0e77733cea8428abad7c4742c",
+        "sha256": "1129209f6e1bb8a926d9af4ddcea29c91dcc878d53491026ed28ca82e5082dd8",
+        "size": 21177,
+        "mode": "100644"
+      },
+      {
+        "path": "references/webhooks.md",
+        "git_blob_sha1": "f09bf17c9bb1d70f05bd87b1a6a811f9a84bbae2",
+        "sha256": "d96cd5c0088b6b41b61297a172834381ca5e95c3c697f139ee231c6a9005a752",
+        "size": 3436,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow.md",
+        "git_blob_sha1": "50e276e189fa527f3dbe9e1735fd11bde2dd5ac6",
+        "sha256": "1c6009479ec71831c702ed7c417e8ca4306bf1dfee27990c3d3eb475389fb3cf",
+        "size": 8648,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4f842d4e9084a941c12f1544006344036e0c28f9",
+    "computed_tree_sha": "b8da58e3817c340ffef1d481813cdd55872d7f08",
+    "api_tree_sha_as_returned": "b8da58e3817c340ffef1d481813cdd55872d7f08",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a2f78228d15caf3a953738e841da3d1916c0edbb",
+        "sha256": "b071c045b76d353c05e3878c0210bcde6b56e8886af529459e928705112bedc8",
+        "size": 7764,
+        "mode": "100644"
+      },
+      {
+        "path": "references/authentication.md",
+        "git_blob_sha1": "1bec68b1d067670a9bea464c0a969ffa061df1cd",
+        "sha256": "518017baf7302a769bbe2ddd853cf18079428db20591286f1f664b4845275373",
+        "size": 4746,
+        "mode": "100644"
+      },
+      {
+        "path": "references/backend.md",
+        "git_blob_sha1": "65d6f9c66dec288b7b7cecfa9a67e4094d707843",
+        "sha256": "d7b2348478bae5ed71dc1a117619269c74859a12bae170d0225901825ec04eab",
+        "size": 4458,
+        "mode": "100644"
+      },
+      {
+        "path": "references/canonical-docs.md",
+        "git_blob_sha1": "7f2eef38af3226bcdfa41beb1db164e34e002fce",
+        "sha256": "855d0feb1bd77ad056089f8a7e5c59f72838494e484950c2538097dc235cd834",
+        "size": 4477,
+        "mode": "100644"
+      },
+      {
+        "path": "references/discovery.md",
+        "git_blob_sha1": "c19bf463dc81dcee66ded1c94d322fd253ae48d5",
+        "sha256": "1552d10191f5c0502686c3033d19e2ca1f23a59375b9a632c0e7d73fdb96036a",
+        "size": 9445,
+        "mode": "100644"
+      },
+      {
+        "path": "references/extension-types.md",
+        "git_blob_sha1": "8b8734410b70c0741070e8e9e5bbe8793ef8ebe7",
+        "sha256": "1f51c4ef3ca60bde4f226d1456e10a09806dbd7c0d2724ff972bfd0eda457f4a",
+        "size": 5245,
+        "mode": "100644"
+      },
+      {
+        "path": "references/feedback.md",
+        "git_blob_sha1": "212a4f3f628f7041aaa83490804547595874e659",
+        "sha256": "590c74e49dc00150f3315df1b34636d75b733039f0d76bce582e8564928157dc",
+        "size": 1977,
+        "mode": "100644"
+      },
+      {
+        "path": "references/onboarding-ux.md",
+        "git_blob_sha1": "f8acdb92be283b33c23d426a8624fbca25d29921",
+        "sha256": "837617d1ff7b13e6d01afdf1ab001e667e255e4fa5a9d512109dd5836c7aeca9",
+        "size": 2732,
+        "mode": "100644"
+      },
+      {
+        "path": "references/publishing.md",
+        "git_blob_sha1": "0a90a6208ebac18f3f772f0335613553fe227ee1",
+        "sha256": "73bc9173ecaf2109d67c08383da33fcef71a28812f1665073225c195b8d8cd05",
+        "size": 5867,
+        "mode": "100644"
+      },
+      {
+        "path": "references/script-extensions.md",
+        "git_blob_sha1": "93112ca759d2e80f9553472c2383351eead7cff7",
+        "sha256": "26ebf9b160c89450cb3b5cb3f8111cdc0d3d688cfb03b9531390d290f8240054",
+        "size": 7512,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ui-extensions.md",
+        "git_blob_sha1": "a09124890a6dd1f0e77733cea8428abad7c4742c",
+        "sha256": "1129209f6e1bb8a926d9af4ddcea29c91dcc878d53491026ed28ca82e5082dd8",
+        "size": 21177,
+        "mode": "100644"
+      },
+      {
+        "path": "references/webhooks.md",
+        "git_blob_sha1": "f09bf17c9bb1d70f05bd87b1a6a811f9a84bbae2",
+        "sha256": "d96cd5c0088b6b41b61297a172834381ca5e95c3c697f139ee231c6a9005a752",
+        "size": 3436,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow.md",
+        "git_blob_sha1": "50e276e189fa527f3dbe9e1735fd11bde2dd5ac6",
+        "sha256": "1c6009479ec71831c702ed7c417e8ca4306bf1dfee27990c3d3eb475389fb3cf",
+        "size": 8648,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "789ef5e0a55ee1d0787a5974660b15bf76dc29b5",
+  "new_commit": "4f842d4e9084a941c12f1544006344036e0c28f9",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "sync skills",
+  "new_commit_time": "2026-10-15T00:44:17Z",
+  "compare_url": "https://github.com/stripe/ai/compare/789ef5e0a55ee1d0787a5974660b15bf76dc29b5...4f842d4e9084a941c12f1544006344036e0c28f9",
+  "commit_url": "https://github.com/stripe/ai/commit/4f842d4e9084a941c12f1544006344036e0c28f9",
+  "skill_directory": "providers/agent-plugins/plugin/skills/stripe-apps",
+  "local_directory": "verified_real_update_pairs/OPU-0026",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0026",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

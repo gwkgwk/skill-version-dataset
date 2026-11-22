@@ -1,0 +1,77 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/hf-mem/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "82cd71474b8c8495cfe8",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+    "computed_tree_sha": "a36ea7843be90b3d3b8a78fdb8ac23950a98a451",
+    "api_tree_sha_as_returned": "a36ea7843be90b3d3b8a78fdb8ac23950a98a451",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fadc48b0e2a510e21345e3860c69ac799255d9c0",
+        "sha256": "ee99f9d97e084aa61a80eaec4e6de2265341e71256d918d48fb87a2ac01ce99f",
+        "size": 3325,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "5291c2b9365e06b175dc04817610c778623f4836",
+    "computed_tree_sha": "af4361105d8009fa006f4dfe7cd44b11cbf20f5d",
+    "api_tree_sha_as_returned": "af4361105d8009fa006f4dfe7cd44b11cbf20f5d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d4dac3fd6a8901282affb33f2bf1892c71e24105",
+        "sha256": "f5e8976964d372b3c1f1fdf879317e6fdc00d04688d7ef2542ba78dd787bcbe1",
+        "size": 1901,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c",
+  "new_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update hf-mem skill (#303)",
+  "new_commit_time": "2026-11-17T15:34:16Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/25910b3d0ba31a2ba102f901cdc9e008c278a69c...5291c2b9365e06b175dc04817610c778623f4836",
+  "commit_url": "https://github.com/huggingface/skills/commit/5291c2b9365e06b175dc04817610c778623f4836",
+  "skill_directory": "skills/hf-mem",
+  "local_directory": "verified_real_update_pairs/OPU-0075",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0075",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

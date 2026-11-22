@@ -1,0 +1,444 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-validate/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "7f4e9ed68db93f85ebab",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "0696600436a9669184ce47e8d8b2ceac62e4bfac",
+    "computed_tree_sha": "b81999079b1daa17dac67a394b5df8d801290228",
+    "api_tree_sha_as_returned": "b81999079b1daa17dac67a394b5df8d801290228",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e68df531cd37ae13aedc866f38e19b3d56376dec",
+        "sha256": "53648cbaa1653cdc6860cfa55eaac8e0b8ea925a94d594971b935e9ad9d1b4a4",
+        "size": 3535,
+        "mode": "100644"
+      },
+      {
+        "path": "references/aspire-functions-secrets.md",
+        "git_blob_sha1": "529bafd28c77078e3dadbfe8f225fa2f3e2ada56",
+        "sha256": "bfe9c0f484dd363f79ee85eee2ff489a43637eed1871273e3ed618989406f8a0",
+        "size": 3771,
+        "mode": "100644"
+      },
+      {
+        "path": "references/global-rules.md",
+        "git_blob_sha1": "9cb6c2000e446f5d5aebf314058ef1a32782d360",
+        "sha256": "81395542533728334615e91f7a46ee88ce627d8e21a0fc1b1d5966ce1a2723f4",
+        "size": 1215,
+        "mode": "100644"
+      },
+      {
+        "path": "references/policy-validation.md",
+        "git_blob_sha1": "37cfc5eb72f8a685b56b2d79300227e7dca02f22",
+        "sha256": "f65dde86f358afa14815ab3d974538723f24c7879464e6688665acf2edc11ffa",
+        "size": 1493,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/README.md",
+        "git_blob_sha1": "b76535150f2d11cfad53891c7689a3d4631f46ee",
+        "sha256": "910b5d715e2c1b4251e9fab90ebe7746939778963ba5eaa53c939e804c426476",
+        "size": 374,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azcli/README.md",
+        "git_blob_sha1": "eece00c1408a7e23d47c0800977b5a540a57a245",
+        "sha256": "4ee15e1e80529e519dafb342b0967705972d96712a1e71b7ddcb3fdeae8e4b99",
+        "size": 2786,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azcli/errors.md",
+        "git_blob_sha1": "b1f283f2ef804a5f14fe7fbc63553366bb055a1e",
+        "sha256": "f91321d8dad4f5c299d92d916d60d7d25886ada160f301180019e3dfda950fd9",
+        "size": 505,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/README.md",
+        "git_blob_sha1": "c5edf5c121556efbeef455f4652ed137c82905d8",
+        "sha256": "d0d60a8dbd8af0dc3719c8db8a239135ae6e319ecfd16e0935e7980f90a8c9a7",
+        "size": 5410,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/aspire.md",
+        "git_blob_sha1": "d470410b1d4dd1358a5a84956b2c780c329c71c1",
+        "sha256": "f20f7dcfea1c95bc3466d98607e7c572f818163719b94c7087962301a07a0880",
+        "size": 1772,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/environment.md",
+        "git_blob_sha1": "3bf8caeae93771c374b474dbd89dc623a91b82bc",
+        "sha256": "1ae0229238014d65ff255bfe1ba802919ec68b41383840d265f935c1bec6037f",
+        "size": 1979,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/errors.md",
+        "git_blob_sha1": "af6cab59ab2c75384cf0fdd2b5b4770e814a4993",
+        "sha256": "f1f08d09d766894eaac43f2fc9d610e837082e9fc588e095cd49e0fc6c3e5e2b",
+        "size": 2680,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/scripts/set-aspire-aca-env.ps1",
+        "git_blob_sha1": "e40bf9a1672f22804ec9fd1bf193faedb090b151",
+        "sha256": "2617a4ec85626d961d4d960e2831ce312b7559d557b6c1a2415682cf1434bda4",
+        "size": 3588,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/scripts/set-aspire-aca-env.sh",
+        "git_blob_sha1": "a0c0b669267eaf648ac9434733e71c8eb2d066b4",
+        "sha256": "0c2e55a2e1a01261b8ecdaae631f977469b555c9278b426a45712d469a07bac6",
+        "size": 3638,
+        "mode": "100755"
+      },
+      {
+        "path": "references/recipes/bicep/README.md",
+        "git_blob_sha1": "29eb484be9d9b42a8d219a2f789f3db90adfe222",
+        "sha256": "5a70caeea9f0823b4b3f1bfafbb3ac8403a9dd50b603bd035fe2cfba28c6abe5",
+        "size": 2562,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/bicep/errors.md",
+        "git_blob_sha1": "4ff34489987a7eafc9bf30297365c71bd492c331",
+        "sha256": "161e01f9b04fb372d8c1988728a62fe866d4dd0bf1717a5b91ec6922a8ffe0be",
+        "size": 374,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/scripts/validate-deployment.ps1",
+        "git_blob_sha1": "f91cbe7ca3f330c137c9a0b841c06de3661a195f",
+        "sha256": "ac49678e5941f2946d8b216370e30dbd8b3451cb15652f8042bb9fad77bcb9bb",
+        "size": 5278,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/scripts/validate-deployment.sh",
+        "git_blob_sha1": "749ca32cc6d1ee0bc67d1b7bc358fe9e4901bac0",
+        "sha256": "aab5faec4a10fed0dda440b2f01754a7db7beffd1dc13a00e631326378489a55",
+        "size": 6198,
+        "mode": "100755"
+      },
+      {
+        "path": "references/recipes/terraform/README.md",
+        "git_blob_sha1": "86288cad4dffb692799cfc8ef26195065943ec6e",
+        "sha256": "8759dd0b7100261384d8c9c21206eccabf669f54bb15f1fd009ba047e9d6fe50",
+        "size": 4040,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/terraform/errors.md",
+        "git_blob_sha1": "b7caf02e0e0887303438d327e1372a62d225d617",
+        "sha256": "b2406305694be5ac7d7e9d4c5639c6493652d5ea23cd0d2a69585a81ac2ea4e6",
+        "size": 2889,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/terraform/scripts/validate-terraform.ps1",
+        "git_blob_sha1": "05af271416a450ac12bc8a4759c9b5452d20e5b6",
+        "sha256": "b355b07cfa23bde8833e842315f33c26c999c82eda669662ee042e88db2a21ed",
+        "size": 6933,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/terraform/scripts/validate-terraform.sh",
+        "git_blob_sha1": "43abfbd812d0bc3fb544f5ef1b7c42941e5daf2d",
+        "sha256": "83a005f0643694ecf826c906e2dde72009c700a75b0ec6d8afce03225c6ac8c8",
+        "size": 6808,
+        "mode": "100755"
+      },
+      {
+        "path": "references/region-availability.md",
+        "git_blob_sha1": "d71309eafae0f75831460eb9842c5f0a7c39149b",
+        "sha256": "e29c77fc501652ed5a8271107e176a6e7a12d0150253ec2fcc69bba014b271f8",
+        "size": 3031,
+        "mode": "100644"
+      },
+      {
+        "path": "references/role-verification.md",
+        "git_blob_sha1": "3db966063e77171b3a7c49d5078b41578fff24a3",
+        "sha256": "a65e952998810969b290ef6832dca7a8c41be9b951e7e7c9a42ee6e84cce2649",
+        "size": 3947,
+        "mode": "100644"
+      },
+      {
+        "path": "references/scripts/scan-aspire-functions-secrets.ps1",
+        "git_blob_sha1": "946bf237db02a288b417911597f2b76449abecb4",
+        "sha256": "69d45451579f0f98a27f56a945b031c2c4c45c0bb8daeb6f91863b8c65bc63e5",
+        "size": 3053,
+        "mode": "100644"
+      },
+      {
+        "path": "references/scripts/scan-aspire-functions-secrets.sh",
+        "git_blob_sha1": "6c657f8cdfb9b139857dd5fe2723840b665b41d1",
+        "sha256": "938ff79803fa3ccfd88938088b843aec72ad9417039752c92a813e91934feedd",
+        "size": 3342,
+        "mode": "100755"
+      },
+      {
+        "path": "references/scripts/workflow.ps1",
+        "git_blob_sha1": "bd45a2561a24e8e695b50b863f09e787c24c4651",
+        "sha256": "d8b7512cd91b4ec3620d6a48abc1f80179630bd26add65dc0400a34e42745ff9",
+        "size": 5289,
+        "mode": "100644"
+      },
+      {
+        "path": "references/scripts/workflow.sh",
+        "git_blob_sha1": "3896dc3db8efd83eaa71cfc1ce5a661784cb6791",
+        "sha256": "699defd6489930070d5330432dbf257b9f89d6752caef69e0cf47e47edc2c620",
+        "size": 5856,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "6d87e4b372e9a9f919ec996c4ebd7356d61dd949",
+    "computed_tree_sha": "1d5f9d7413a5e38ece4fa37da60e196ae0bce69d",
+    "api_tree_sha_as_returned": "1d5f9d7413a5e38ece4fa37da60e196ae0bce69d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7aca2090d92c3bc4b7618b8ac702af306bb6325b",
+        "sha256": "83964928d33e8d938e5150020f804b06ab6c4e2ed7bdbe3e4db9b4038bcd3023",
+        "size": 3580,
+        "mode": "100644"
+      },
+      {
+        "path": "references/aspire-functions-secrets.md",
+        "git_blob_sha1": "529bafd28c77078e3dadbfe8f225fa2f3e2ada56",
+        "sha256": "bfe9c0f484dd363f79ee85eee2ff489a43637eed1871273e3ed618989406f8a0",
+        "size": 3771,
+        "mode": "100644"
+      },
+      {
+        "path": "references/global-rules.md",
+        "git_blob_sha1": "9cb6c2000e446f5d5aebf314058ef1a32782d360",
+        "sha256": "81395542533728334615e91f7a46ee88ce627d8e21a0fc1b1d5966ce1a2723f4",
+        "size": 1215,
+        "mode": "100644"
+      },
+      {
+        "path": "references/policy-validation.md",
+        "git_blob_sha1": "37cfc5eb72f8a685b56b2d79300227e7dca02f22",
+        "sha256": "f65dde86f358afa14815ab3d974538723f24c7879464e6688665acf2edc11ffa",
+        "size": 1493,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/README.md",
+        "git_blob_sha1": "52aa40737b7659ebff5a1d923ee426bb3422c5bb",
+        "sha256": "4c96cafa8b7634d2bbb581ab286a8d4a12a992c741bd684192911e606c93443a",
+        "size": 1651,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azcli/README.md",
+        "git_blob_sha1": "eece00c1408a7e23d47c0800977b5a540a57a245",
+        "sha256": "4ee15e1e80529e519dafb342b0967705972d96712a1e71b7ddcb3fdeae8e4b99",
+        "size": 2786,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azcli/errors.md",
+        "git_blob_sha1": "b1f283f2ef804a5f14fe7fbc63553366bb055a1e",
+        "sha256": "f91321d8dad4f5c299d92d916d60d7d25886ada160f301180019e3dfda950fd9",
+        "size": 505,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/README.md",
+        "git_blob_sha1": "c5edf5c121556efbeef455f4652ed137c82905d8",
+        "sha256": "d0d60a8dbd8af0dc3719c8db8a239135ae6e319ecfd16e0935e7980f90a8c9a7",
+        "size": 5410,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/aspire.md",
+        "git_blob_sha1": "d470410b1d4dd1358a5a84956b2c780c329c71c1",
+        "sha256": "f20f7dcfea1c95bc3466d98607e7c572f818163719b94c7087962301a07a0880",
+        "size": 1772,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/environment.md",
+        "git_blob_sha1": "3bf8caeae93771c374b474dbd89dc623a91b82bc",
+        "sha256": "1ae0229238014d65ff255bfe1ba802919ec68b41383840d265f935c1bec6037f",
+        "size": 1979,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/errors.md",
+        "git_blob_sha1": "af6cab59ab2c75384cf0fdd2b5b4770e814a4993",
+        "sha256": "f1f08d09d766894eaac43f2fc9d610e837082e9fc588e095cd49e0fc6c3e5e2b",
+        "size": 2680,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/scripts/set-aspire-aca-env.ps1",
+        "git_blob_sha1": "e40bf9a1672f22804ec9fd1bf193faedb090b151",
+        "sha256": "2617a4ec85626d961d4d960e2831ce312b7559d557b6c1a2415682cf1434bda4",
+        "size": 3588,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/azd/scripts/set-aspire-aca-env.sh",
+        "git_blob_sha1": "a0c0b669267eaf648ac9434733e71c8eb2d066b4",
+        "sha256": "0c2e55a2e1a01261b8ecdaae631f977469b555c9278b426a45712d469a07bac6",
+        "size": 3638,
+        "mode": "100755"
+      },
+      {
+        "path": "references/recipes/bicep/README.md",
+        "git_blob_sha1": "29eb484be9d9b42a8d219a2f789f3db90adfe222",
+        "sha256": "5a70caeea9f0823b4b3f1bfafbb3ac8403a9dd50b603bd035fe2cfba28c6abe5",
+        "size": 2562,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/bicep/errors.md",
+        "git_blob_sha1": "4ff34489987a7eafc9bf30297365c71bd492c331",
+        "sha256": "161e01f9b04fb372d8c1988728a62fe866d4dd0bf1717a5b91ec6922a8ffe0be",
+        "size": 374,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/scripts/validate-deployment.ps1",
+        "git_blob_sha1": "f91cbe7ca3f330c137c9a0b841c06de3661a195f",
+        "sha256": "ac49678e5941f2946d8b216370e30dbd8b3451cb15652f8042bb9fad77bcb9bb",
+        "size": 5278,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/scripts/validate-deployment.sh",
+        "git_blob_sha1": "749ca32cc6d1ee0bc67d1b7bc358fe9e4901bac0",
+        "sha256": "aab5faec4a10fed0dda440b2f01754a7db7beffd1dc13a00e631326378489a55",
+        "size": 6198,
+        "mode": "100755"
+      },
+      {
+        "path": "references/recipes/terraform/README.md",
+        "git_blob_sha1": "86288cad4dffb692799cfc8ef26195065943ec6e",
+        "sha256": "8759dd0b7100261384d8c9c21206eccabf669f54bb15f1fd009ba047e9d6fe50",
+        "size": 4040,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/terraform/errors.md",
+        "git_blob_sha1": "b7caf02e0e0887303438d327e1372a62d225d617",
+        "sha256": "b2406305694be5ac7d7e9d4c5639c6493652d5ea23cd0d2a69585a81ac2ea4e6",
+        "size": 2889,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/terraform/scripts/validate-terraform.ps1",
+        "git_blob_sha1": "05af271416a450ac12bc8a4759c9b5452d20e5b6",
+        "sha256": "b355b07cfa23bde8833e842315f33c26c999c82eda669662ee042e88db2a21ed",
+        "size": 6933,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes/terraform/scripts/validate-terraform.sh",
+        "git_blob_sha1": "43abfbd812d0bc3fb544f5ef1b7c42941e5daf2d",
+        "sha256": "83a005f0643694ecf826c906e2dde72009c700a75b0ec6d8afce03225c6ac8c8",
+        "size": 6808,
+        "mode": "100755"
+      },
+      {
+        "path": "references/region-availability.md",
+        "git_blob_sha1": "d71309eafae0f75831460eb9842c5f0a7c39149b",
+        "sha256": "e29c77fc501652ed5a8271107e176a6e7a12d0150253ec2fcc69bba014b271f8",
+        "size": 3031,
+        "mode": "100644"
+      },
+      {
+        "path": "references/role-verification.md",
+        "git_blob_sha1": "3db966063e77171b3a7c49d5078b41578fff24a3",
+        "sha256": "a65e952998810969b290ef6832dca7a8c41be9b951e7e7c9a42ee6e84cce2649",
+        "size": 3947,
+        "mode": "100644"
+      },
+      {
+        "path": "references/scripts/scan-aspire-functions-secrets.ps1",
+        "git_blob_sha1": "946bf237db02a288b417911597f2b76449abecb4",
+        "sha256": "69d45451579f0f98a27f56a945b031c2c4c45c0bb8daeb6f91863b8c65bc63e5",
+        "size": 3053,
+        "mode": "100644"
+      },
+      {
+        "path": "references/scripts/scan-aspire-functions-secrets.sh",
+        "git_blob_sha1": "6c657f8cdfb9b139857dd5fe2723840b665b41d1",
+        "sha256": "938ff79803fa3ccfd88938088b843aec72ad9417039752c92a813e91934feedd",
+        "size": 3342,
+        "mode": "100755"
+      },
+      {
+        "path": "references/scripts/workflow.ps1",
+        "git_blob_sha1": "bd45a2561a24e8e695b50b863f09e787c24c4651",
+        "sha256": "d8b7512cd91b4ec3620d6a48abc1f80179630bd26add65dc0400a34e42745ff9",
+        "size": 5289,
+        "mode": "100644"
+      },
+      {
+        "path": "references/scripts/workflow.sh",
+        "git_blob_sha1": "3896dc3db8efd83eaa71cfc1ce5a661784cb6791",
+        "sha256": "699defd6489930070d5330432dbf257b9f89d6752caef69e0cf47e47edc2c620",
+        "size": 5856,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/recipes/README.md"
+  ],
+  "old_commit": "0696600436a9669184ce47e8d8b2ceac62e4bfac",
+  "new_commit": "6d87e4b372e9a9f919ec996c4ebd7356d61dd949",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-11-09T11:04:31Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/0696600436a9669184ce47e8d8b2ceac62e4bfac...6d87e4b372e9a9f919ec996c4ebd7356d61dd949",
+  "commit_url": "https://github.com/microsoft/skills/commit/6d87e4b372e9a9f919ec996c4ebd7356d61dd949",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-validate",
+  "local_directory": "verified_real_update_pairs/OPU-0478",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0478",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

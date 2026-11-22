@@ -1,0 +1,82 @@
+{
+  "sha": "3c4dda4af5a63049cca71d69be1f5536577e7a6c",
+  "node_id": "C_kwDOR2K4PNoAKDNjNGRkYTRhZjVhNjMwNDljY2E3MWQ2OWJlMWY1NTM2NTc3ZTdhNmM",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-11-16T01:45:15Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-11-16T01:45:55Z"
+    },
+    "message": "Update google-ads-api-mcp-setup and google-ads-api-account-diagnostics skills\n\n- google-ads-api-mcp-setup: Document partial mutate tools, configurable read-only mode, structured `search` parameters, and Python 3.10+ runtime.\n- google-ads-api-account-diagnostics: Document structured `search` parameters and reference `google-ads-api-mcp-setup` by skill name instead of a relative path.\n\nPiperOrigin-RevId: 1022406122",
+    "tree": {
+      "sha": "e1e2d0c4083a2aea87aa7e679f5dd1a777897305",
+      "url": "https://api.github.com/repos/google/skills/git/trees/e1e2d0c4083a2aea87aa7e679f5dd1a777897305"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/3c4dda4af5a63049cca71d69be1f5536577e7a6c",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/3c4dda4af5a63049cca71d69be1f5536577e7a6c",
+  "html_url": "https://github.com/google/skills/commit/3c4dda4af5a63049cca71d69be1f5536577e7a6c",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/3c4dda4af5a63049cca71d69be1f5536577e7a6c/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "fe9ecbaf272375762fc64a87db00fabbcc8c5604",
+      "url": "https://api.github.com/repos/google/skills/commits/fe9ecbaf272375762fc64a87db00fabbcc8c5604",
+      "html_url": "https://github.com/google/skills/commit/fe9ecbaf272375762fc64a87db00fabbcc8c5604"
+    }
+  ]
+}

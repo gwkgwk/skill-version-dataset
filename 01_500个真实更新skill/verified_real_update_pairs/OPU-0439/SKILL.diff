@@ -1,0 +1,18 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -31,6 +31,7 @@
+ AZURE_APPCONFIG_ENDPOINT=https://<your-resource>.azconfig.io
+ # OR
+ AZURE_APPCONFIG_CONNECTION_STRING=Endpoint=https://...;Id=...;Secret=...
++AZURE_TOKEN_CREDENTIALS=prod # Required only if DefaultAzureCredential is used in production
+ ```
+ 
+ ## Authentication
+@@ -42,6 +43,7 @@
+ // Local dev: DefaultAzureCredential. Production: set AZURE_TOKEN_CREDENTIALS=prod or AZURE_TOKEN_CREDENTIALS=<specific_credential>
+ const credential = new DefaultAzureCredential({requiredEnvVars: ["AZURE_TOKEN_CREDENTIALS"]});
+ // Or use a specific credential directly in production:
++// See https://learn.microsoft.com/javascript/api/overview/azure/identity-readme?view=azure-node-latest#credential-classes
+ // const credential = new ManagedIdentityCredential();
+ 
+ const client = new AppConfigurationClient(

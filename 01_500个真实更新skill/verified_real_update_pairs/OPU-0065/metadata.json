@@ -1,0 +1,341 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/migrate-to-codex/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "f56e91d0e0d996ac68f2",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "fb7b56dff09cb2a44dd390cde69c717e8a319eb7",
+    "computed_tree_sha": "d6c0a94c31ff13eae6b45fe73f249cff5ea506f9",
+    "api_tree_sha_as_returned": "d6c0a94c31ff13eae6b45fe73f249cff5ea506f9",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size": 11357,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f892d9907212691ed5f40e79ba8819f4138d9cf0",
+        "sha256": "b50f5e80a6a0b4375f309ad142cc0bc88d1f9d19d9fe2be436682318d4cb302b",
+        "size": 7820,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "32110f9ca1975b8222e05e96c943dbbc5d1a261b",
+        "sha256": "d59cec74a85ea881e5ddf8517302026242af004f1d2a7667e1efc433b51295c2",
+        "size": 144,
+        "mode": "100644"
+      },
+      {
+        "path": "references/differences.md",
+        "git_blob_sha1": "68a12b54c0842db9e85681af836847e015951cdd",
+        "sha256": "6e32f5b3140863863ba89b1736b92e4a378f6ccc4785b9f427fc1f13a625916c",
+        "size": 13735,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/cli.py",
+        "git_blob_sha1": "9f01ea17753be62ddaa6fd50d1bf73fb6d6fa38e",
+        "sha256": "b392ec310e683d6a42eae00b88e7b9851ed42b3d4aa99bd6aa327e5a8d5545c8",
+        "size": 30124,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate-to-codex.py",
+        "git_blob_sha1": "7a2def4c3acbade3e928c308a270c5da9b9504dd",
+        "sha256": "6c0b8cd8c0ea610ebe1c4c9184fad3dd5f71520f6341e7a605976544417d12ea",
+        "size": 208,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/__init__.py",
+        "git_blob_sha1": "16ac85a272622eab0172a85f17e2b6823becbbe2",
+        "sha256": "45c26b88f1b130dfd4294b1ff1c18eb7f8ab9cf14508589292d7f5a7c6133ac9",
+        "size": 285,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/agents.py",
+        "git_blob_sha1": "b83e5908c04565a9a056353e1abdaf0b68d46c2c",
+        "sha256": "7859242aaaa9efcaf05ed03564610a96d371e085d90f77babac93d437a645bd5",
+        "size": 9991,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/codex_config.py",
+        "git_blob_sha1": "915f120a116882e9d7d0b10ae41a87e169f2e6c6",
+        "sha256": "5b092657150e24a938a55f2f17602aa8a6f4dfb6548f77613f8c7f9ed142c25d",
+        "size": 4031,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/common.py",
+        "git_blob_sha1": "d5d83a8449f9da020e5adb402d1f490539e5086d",
+        "sha256": "c12107cca109dcc171b3dd48e93e5ee56d7e805e7a86c3341d0cc72c1a33845c",
+        "size": 11492,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/hooks.py",
+        "git_blob_sha1": "eb4f09e997b6b6d412f9deecfa2b19cc08b59cf3",
+        "sha256": "4465c0537a3750a6e7095db0f2a41f087eb3e63053482dc33f876967e87d8616",
+        "size": 8194,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/instructions.py",
+        "git_blob_sha1": "07ef0192011095887e6379e1bd5bc587be8f0306",
+        "sha256": "321284ce5b0b17b5691b7a4f4020d813e28e336578e8c6764f34626f2b449ea1",
+        "size": 2434,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/mcps.py",
+        "git_blob_sha1": "1726739798cdcb16aaac5b110040ec918540e511",
+        "sha256": "3e5903a3d0a7e09d1a6d8f6d702107b81e661486eef7cdc10012014dc734e4e5",
+        "size": 7078,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/plugins.py",
+        "git_blob_sha1": "b05cd0d0d7dcc60f100356a5f8b3f5b7e9fd49d3",
+        "sha256": "fec8ca75b4e9467aadc5dc822aa24c8c7f44415debde77ce8761d1d8014eaf26",
+        "size": 660,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/settings.py",
+        "git_blob_sha1": "0e0aa071011b068fae54ba28432d46cd563617ff",
+        "sha256": "13a659e2dbba2895b6d4289b1eb62c33924f95bf45d5e4f2fbdd07fe4f35639a",
+        "size": 1027,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/skills.py",
+        "git_blob_sha1": "0e72984fd33f4fb74ed6de81b9808b34b33f9f09",
+        "sha256": "738f25b09345d84f79cc517e3d0862e4c154b612cf459ab6db00099b827e6eea",
+        "size": 12605,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/utils/__init__.py",
+        "git_blob_sha1": "211a97f94ae608868182ac56cdf33931a2978b5d",
+        "sha256": "884b593e41718aed59d3fd46ff77ddafccf422554f0ca0e39a37722ad4b148b4",
+        "size": 35,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/utils/scan.py",
+        "git_blob_sha1": "cc1540cec53156458b8dbf771780e6760be56379",
+        "sha256": "d7fcce39222a732cc91eff58c23e4319e3bd437e10eaf4e2084193c245a21ab0",
+        "size": 4370,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/utils/util.py",
+        "git_blob_sha1": "c6e0b0b33e5f8360f173459bc271897f5e819a99",
+        "sha256": "d8eb5a1e99d60bbef3b17b118fc6a082edd6c39edacadab5d9c89a11311a5c0c",
+        "size": 9441,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "45d05d75363abf13f99d09e899d61e07b8010685",
+    "computed_tree_sha": "62a1195f8b60b67a2b51471c35273a109ec757fc",
+    "api_tree_sha_as_returned": "62a1195f8b60b67a2b51471c35273a109ec757fc",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size": 11357,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b1c001b70e8cf326b8196e153b87811a43b23d48",
+        "sha256": "145b7fe48360642cb7a42bad3a817f10833fa8a387ffcb4c2df8a47c01a832e2",
+        "size": 7939,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "32110f9ca1975b8222e05e96c943dbbc5d1a261b",
+        "sha256": "d59cec74a85ea881e5ddf8517302026242af004f1d2a7667e1efc433b51295c2",
+        "size": 144,
+        "mode": "100644"
+      },
+      {
+        "path": "references/differences.md",
+        "git_blob_sha1": "68a12b54c0842db9e85681af836847e015951cdd",
+        "sha256": "6e32f5b3140863863ba89b1736b92e4a378f6ccc4785b9f427fc1f13a625916c",
+        "size": 13735,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/cli.py",
+        "git_blob_sha1": "9f01ea17753be62ddaa6fd50d1bf73fb6d6fa38e",
+        "sha256": "b392ec310e683d6a42eae00b88e7b9851ed42b3d4aa99bd6aa327e5a8d5545c8",
+        "size": 30124,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate-to-codex.py",
+        "git_blob_sha1": "7a2def4c3acbade3e928c308a270c5da9b9504dd",
+        "sha256": "6c0b8cd8c0ea610ebe1c4c9184fad3dd5f71520f6341e7a605976544417d12ea",
+        "size": 208,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/__init__.py",
+        "git_blob_sha1": "16ac85a272622eab0172a85f17e2b6823becbbe2",
+        "sha256": "45c26b88f1b130dfd4294b1ff1c18eb7f8ab9cf14508589292d7f5a7c6133ac9",
+        "size": 285,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/agents.py",
+        "git_blob_sha1": "b83e5908c04565a9a056353e1abdaf0b68d46c2c",
+        "sha256": "7859242aaaa9efcaf05ed03564610a96d371e085d90f77babac93d437a645bd5",
+        "size": 9991,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/codex_config.py",
+        "git_blob_sha1": "915f120a116882e9d7d0b10ae41a87e169f2e6c6",
+        "sha256": "5b092657150e24a938a55f2f17602aa8a6f4dfb6548f77613f8c7f9ed142c25d",
+        "size": 4031,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/common.py",
+        "git_blob_sha1": "d5d83a8449f9da020e5adb402d1f490539e5086d",
+        "sha256": "c12107cca109dcc171b3dd48e93e5ee56d7e805e7a86c3341d0cc72c1a33845c",
+        "size": 11492,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/hooks.py",
+        "git_blob_sha1": "eb4f09e997b6b6d412f9deecfa2b19cc08b59cf3",
+        "sha256": "4465c0537a3750a6e7095db0f2a41f087eb3e63053482dc33f876967e87d8616",
+        "size": 8194,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/instructions.py",
+        "git_blob_sha1": "07ef0192011095887e6379e1bd5bc587be8f0306",
+        "sha256": "321284ce5b0b17b5691b7a4f4020d813e28e336578e8c6764f34626f2b449ea1",
+        "size": 2434,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/mcps.py",
+        "git_blob_sha1": "1726739798cdcb16aaac5b110040ec918540e511",
+        "sha256": "3e5903a3d0a7e09d1a6d8f6d702107b81e661486eef7cdc10012014dc734e4e5",
+        "size": 7078,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/plugins.py",
+        "git_blob_sha1": "b05cd0d0d7dcc60f100356a5f8b3f5b7e9fd49d3",
+        "sha256": "fec8ca75b4e9467aadc5dc822aa24c8c7f44415debde77ce8761d1d8014eaf26",
+        "size": 660,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/settings.py",
+        "git_blob_sha1": "0e0aa071011b068fae54ba28432d46cd563617ff",
+        "sha256": "13a659e2dbba2895b6d4289b1eb62c33924f95bf45d5e4f2fbdd07fe4f35639a",
+        "size": 1027,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/migrate/skills.py",
+        "git_blob_sha1": "0e72984fd33f4fb74ed6de81b9808b34b33f9f09",
+        "sha256": "738f25b09345d84f79cc517e3d0862e4c154b612cf459ab6db00099b827e6eea",
+        "size": 12605,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/utils/__init__.py",
+        "git_blob_sha1": "211a97f94ae608868182ac56cdf33931a2978b5d",
+        "sha256": "884b593e41718aed59d3fd46ff77ddafccf422554f0ca0e39a37722ad4b148b4",
+        "size": 35,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/utils/scan.py",
+        "git_blob_sha1": "cc1540cec53156458b8dbf771780e6760be56379",
+        "sha256": "d7fcce39222a732cc91eff58c23e4319e3bd437e10eaf4e2084193c245a21ab0",
+        "size": 4370,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/utils/util.py",
+        "git_blob_sha1": "c6e0b0b33e5f8360f173459bc271897f5e819a99",
+        "sha256": "d8eb5a1e99d60bbef3b17b118fc6a082edd6c39edacadab5d9c89a11311a5c0c",
+        "size": 9441,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "fb7b56dff09cb2a44dd390cde69c717e8a319eb7",
+  "new_commit": "45d05d75363abf13f99d09e899d61e07b8010685",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Clarify todo completion in migrate-to-codex skill (#383)\n\n**Summary**\n\n- Clarify that the `migrate-to-codex` skill should finish by marking\ncompleted TODO steps as `completed`\n- Explicitly prevent a completed migration from leaving a stale\n`in_progress` task behind",
+  "new_commit_time": "2026-05-01T14:34:51Z",
+  "compare_url": "https://github.com/openai/skills/compare/fb7b56dff09cb2a44dd390cde69c717e8a319eb7...45d05d75363abf13f99d09e899d61e07b8010685",
+  "commit_url": "https://github.com/openai/skills/commit/45d05d75363abf13f99d09e899d61e07b8010685",
+  "skill_directory": "skills/.curated/migrate-to-codex",
+  "local_directory": "verified_real_update_pairs/OPU-0065",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0065",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

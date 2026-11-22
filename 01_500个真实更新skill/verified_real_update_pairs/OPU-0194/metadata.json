@@ -1,0 +1,387 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/security-review/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "07f0afb351b88df4f962",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "4e8a32bd279a8ad18e3467b503c45ddf8c607d2e",
+    "computed_tree_sha": "902ead3fa6a2ec363778a188152d521915cb3ac6",
+    "api_tree_sha_as_returned": "902ead3fa6a2ec363778a188152d521915cb3ac6",
+    "files": [
+      {
+        "path": "LICENSE",
+        "git_blob_sha1": "45d290bd539a284149f9a6efc8da050d763881e2",
+        "sha256": "0fc858d87f467971ee612fc183896257a1c160a1610a443896b33ae4d2a44ef7",
+        "size": 884,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "539a635db5e0c1e20138b8286d044e9bdab11171",
+        "sha256": "601b2936d4a75798ff3c5c4d066c4062fc849a5d7f3a6541d6df713af4d08fd8",
+        "size": 11724,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "9b786c2fee78452b089dab097bf6d5b72262ea74",
+        "sha256": "e8dcb0a851bc70a99f7fcab3e10da0045c615415245463d808e08104b1917b42",
+        "size": 8974,
+        "mode": "100644"
+      },
+      {
+        "path": "infrastructure/docker.md",
+        "git_blob_sha1": "b66d79aec631de32c138515c17c4a23c5beae6b5",
+        "sha256": "84bd49469c5a0cbd42fecdcce752de98cf6821b601dfef6a1920df61f030ae62",
+        "size": 9400,
+        "mode": "100644"
+      },
+      {
+        "path": "languages/javascript.md",
+        "git_blob_sha1": "53ac8f6c30940acf2b239937cb9ed9a02e63b112",
+        "sha256": "f4226c82de13da9dec9be7b509932d74a4ade2c8d46b98a078a5b38bf8aa3319",
+        "size": 10028,
+        "mode": "100644"
+      },
+      {
+        "path": "languages/python.md",
+        "git_blob_sha1": "f0a2e6bd64f7f01fa96fc947ac2a08b582e1c519",
+        "sha256": "32d0b1304d132fc582320d584d54bbaea566d51700cd16b3f0be723ed834a556",
+        "size": 9492,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-security.md",
+        "git_blob_sha1": "8ae657407cdb16b5b5ba0481927f9bf2920ea640",
+        "sha256": "65b2456b4c5ae0d6d9849eac8196ac03fbefbf88657c5e069a8aa5063dd6afbf",
+        "size": 12741,
+        "mode": "100644"
+      },
+      {
+        "path": "references/authentication.md",
+        "git_blob_sha1": "ddd41dffff9f469a4f73cb38b50c30d3eda56e96",
+        "sha256": "7bc598cd4af33bb62406f5a0e8ff7adebff83c04e5fb449e6738f96ae0e26be6",
+        "size": 9071,
+        "mode": "100644"
+      },
+      {
+        "path": "references/authorization.md",
+        "git_blob_sha1": "cd0f94a614bbaa7d217d524de1191064084b6466",
+        "sha256": "5ccfd579a1eca4d9d374eb00b04ba33cc9a2918e14e5cb7620c136a6feaeffff",
+        "size": 10007,
+        "mode": "100644"
+      },
+      {
+        "path": "references/business-logic.md",
+        "git_blob_sha1": "ae87ad885d7298a0cce60262955eea0f236fa5da",
+        "sha256": "fc8ec30eb19f73759e8901e58d7ca66fc87035703325cc8a844298102fa6298a",
+        "size": 12660,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cryptography.md",
+        "git_blob_sha1": "c4cc4260d81b1a5fb9a748f93959859f51e7c966",
+        "sha256": "1e1301624e0c9b1699e1d95af11df06a67d104ff06443e93711bb656152f364c",
+        "size": 8703,
+        "mode": "100644"
+      },
+      {
+        "path": "references/csrf.md",
+        "git_blob_sha1": "7b712ba45c644db40ebfda00138264f2ba785855",
+        "sha256": "7b57ba0a45a291eee24578af8b0c69515c76e452c33d8c2d717c66ee3bbdda20",
+        "size": 9943,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-protection.md",
+        "git_blob_sha1": "77c73235b2f7fd0996885ff18f5f32483e13bc99",
+        "sha256": "920b7dfb86dc696002d31022c1f7665ef602dd1ed76f1124ad937d488ce2b381",
+        "size": 9565,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deserialization.md",
+        "git_blob_sha1": "038bc0fdd716f1f60197a0b90e756d0f1e725fd7",
+        "sha256": "be9946daf389ad594fbc4065246ff334c389da1e2cf593180ca150b0204287fb",
+        "size": 10234,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error-handling.md",
+        "git_blob_sha1": "54f2763eb70980fc3dbc3f340ebaefcd27be5a89",
+        "sha256": "e12d3c9f713614223ce797935f3a4c2ac1a7f1fcf0ea24e865a1a70efeab4fb9",
+        "size": 11632,
+        "mode": "100644"
+      },
+      {
+        "path": "references/file-security.md",
+        "git_blob_sha1": "be310e084ecbc6d4d6a027cb1d553f347c4dea86",
+        "sha256": "a0a001fb79fe9f1169fa3ba523225164744c42d8779341f15d3d0fc349185f2a",
+        "size": 12344,
+        "mode": "100644"
+      },
+      {
+        "path": "references/injection.md",
+        "git_blob_sha1": "4374c460726eb3f57d997548923b65f53a6299d0",
+        "sha256": "d3989e97af773f521170b430a0e629b26c6ff2051cd826fa62a895523f268178",
+        "size": 6813,
+        "mode": "100644"
+      },
+      {
+        "path": "references/logging.md",
+        "git_blob_sha1": "e446b01412e122a100079450ec1c83711db569de",
+        "sha256": "acca4eeebfc451bb62a7c085d1121ffa443e8cd0831548c2ae6f7fc606056cbc",
+        "size": 12012,
+        "mode": "100644"
+      },
+      {
+        "path": "references/misconfiguration.md",
+        "git_blob_sha1": "41132da74728cb0190f530c55ce40359e146ea68",
+        "sha256": "919c44e309eaa6427a8bb44a2ed645fbf2b46d9dfe86a0fcdb2d084201898390",
+        "size": 10305,
+        "mode": "100644"
+      },
+      {
+        "path": "references/modern-threats.md",
+        "git_blob_sha1": "efdadcf38830264d26d77cd42443532cf665a846",
+        "sha256": "d2ac69d91ade6df9c4bf89b2be0d203651d1a0cc5a67d03db8013af52c8ffe6b",
+        "size": 13269,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ssrf.md",
+        "git_blob_sha1": "971fe8d9d8933670ef34ed10ee8d5251aa063b3f",
+        "sha256": "646a8244fa61997b9b4f093169be1af4f94e6a3d04dcae8d426bb821870b2bff",
+        "size": 10734,
+        "mode": "100644"
+      },
+      {
+        "path": "references/supply-chain.md",
+        "git_blob_sha1": "97ffb35326e56524478fb5a41f1ddc73f2cbd3e7",
+        "sha256": "ef3000d91763ccdddfbce2660943c4090b4c16b3b33afe980f4e10947729e1f1",
+        "size": 9149,
+        "mode": "100644"
+      },
+      {
+        "path": "references/xss.md",
+        "git_blob_sha1": "f3deadc84ecc0cb034fc708a01e17f6bcdf68f9e",
+        "sha256": "4735df1e581b757b078605fbc27d37e85cfe182c45ab326c9e536c71a930680c",
+        "size": 7599,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "6d20de492725c78e805aa0741507bb90d1982cc7",
+    "computed_tree_sha": "7806c573500d4d254edb421542307b5b33b6a804",
+    "api_tree_sha_as_returned": "7806c573500d4d254edb421542307b5b33b6a804",
+    "files": [
+      {
+        "path": "LICENSE",
+        "git_blob_sha1": "45d290bd539a284149f9a6efc8da050d763881e2",
+        "sha256": "0fc858d87f467971ee612fc183896257a1c160a1610a443896b33ae4d2a44ef7",
+        "size": 884,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "63d362f046e78729cd3ac563d20238b2da2e7392",
+        "sha256": "26db9a5b1999adc19c4bf6eb7fbe37b56f0135b79f3054f33fd03baefa8e93ed",
+        "size": 11808,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "9b786c2fee78452b089dab097bf6d5b72262ea74",
+        "sha256": "e8dcb0a851bc70a99f7fcab3e10da0045c615415245463d808e08104b1917b42",
+        "size": 8974,
+        "mode": "100644"
+      },
+      {
+        "path": "infrastructure/docker.md",
+        "git_blob_sha1": "b66d79aec631de32c138515c17c4a23c5beae6b5",
+        "sha256": "84bd49469c5a0cbd42fecdcce752de98cf6821b601dfef6a1920df61f030ae62",
+        "size": 9400,
+        "mode": "100644"
+      },
+      {
+        "path": "languages/javascript.md",
+        "git_blob_sha1": "53ac8f6c30940acf2b239937cb9ed9a02e63b112",
+        "sha256": "f4226c82de13da9dec9be7b509932d74a4ade2c8d46b98a078a5b38bf8aa3319",
+        "size": 10028,
+        "mode": "100644"
+      },
+      {
+        "path": "languages/python.md",
+        "git_blob_sha1": "f0a2e6bd64f7f01fa96fc947ac2a08b582e1c519",
+        "sha256": "32d0b1304d132fc582320d584d54bbaea566d51700cd16b3f0be723ed834a556",
+        "size": 9492,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-security.md",
+        "git_blob_sha1": "8ae657407cdb16b5b5ba0481927f9bf2920ea640",
+        "sha256": "65b2456b4c5ae0d6d9849eac8196ac03fbefbf88657c5e069a8aa5063dd6afbf",
+        "size": 12741,
+        "mode": "100644"
+      },
+      {
+        "path": "references/authentication.md",
+        "git_blob_sha1": "ddd41dffff9f469a4f73cb38b50c30d3eda56e96",
+        "sha256": "7bc598cd4af33bb62406f5a0e8ff7adebff83c04e5fb449e6738f96ae0e26be6",
+        "size": 9071,
+        "mode": "100644"
+      },
+      {
+        "path": "references/authorization.md",
+        "git_blob_sha1": "cd0f94a614bbaa7d217d524de1191064084b6466",
+        "sha256": "5ccfd579a1eca4d9d374eb00b04ba33cc9a2918e14e5cb7620c136a6feaeffff",
+        "size": 10007,
+        "mode": "100644"
+      },
+      {
+        "path": "references/business-logic.md",
+        "git_blob_sha1": "ae87ad885d7298a0cce60262955eea0f236fa5da",
+        "sha256": "fc8ec30eb19f73759e8901e58d7ca66fc87035703325cc8a844298102fa6298a",
+        "size": 12660,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cryptography.md",
+        "git_blob_sha1": "c4cc4260d81b1a5fb9a748f93959859f51e7c966",
+        "sha256": "1e1301624e0c9b1699e1d95af11df06a67d104ff06443e93711bb656152f364c",
+        "size": 8703,
+        "mode": "100644"
+      },
+      {
+        "path": "references/csrf.md",
+        "git_blob_sha1": "7b712ba45c644db40ebfda00138264f2ba785855",
+        "sha256": "7b57ba0a45a291eee24578af8b0c69515c76e452c33d8c2d717c66ee3bbdda20",
+        "size": 9943,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-protection.md",
+        "git_blob_sha1": "77c73235b2f7fd0996885ff18f5f32483e13bc99",
+        "sha256": "920b7dfb86dc696002d31022c1f7665ef602dd1ed76f1124ad937d488ce2b381",
+        "size": 9565,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deserialization.md",
+        "git_blob_sha1": "038bc0fdd716f1f60197a0b90e756d0f1e725fd7",
+        "sha256": "be9946daf389ad594fbc4065246ff334c389da1e2cf593180ca150b0204287fb",
+        "size": 10234,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error-handling.md",
+        "git_blob_sha1": "54f2763eb70980fc3dbc3f340ebaefcd27be5a89",
+        "sha256": "e12d3c9f713614223ce797935f3a4c2ac1a7f1fcf0ea24e865a1a70efeab4fb9",
+        "size": 11632,
+        "mode": "100644"
+      },
+      {
+        "path": "references/file-security.md",
+        "git_blob_sha1": "be310e084ecbc6d4d6a027cb1d553f347c4dea86",
+        "sha256": "a0a001fb79fe9f1169fa3ba523225164744c42d8779341f15d3d0fc349185f2a",
+        "size": 12344,
+        "mode": "100644"
+      },
+      {
+        "path": "references/injection.md",
+        "git_blob_sha1": "4374c460726eb3f57d997548923b65f53a6299d0",
+        "sha256": "d3989e97af773f521170b430a0e629b26c6ff2051cd826fa62a895523f268178",
+        "size": 6813,
+        "mode": "100644"
+      },
+      {
+        "path": "references/logging.md",
+        "git_blob_sha1": "e446b01412e122a100079450ec1c83711db569de",
+        "sha256": "acca4eeebfc451bb62a7c085d1121ffa443e8cd0831548c2ae6f7fc606056cbc",
+        "size": 12012,
+        "mode": "100644"
+      },
+      {
+        "path": "references/misconfiguration.md",
+        "git_blob_sha1": "41132da74728cb0190f530c55ce40359e146ea68",
+        "sha256": "919c44e309eaa6427a8bb44a2ed645fbf2b46d9dfe86a0fcdb2d084201898390",
+        "size": 10305,
+        "mode": "100644"
+      },
+      {
+        "path": "references/modern-threats.md",
+        "git_blob_sha1": "efdadcf38830264d26d77cd42443532cf665a846",
+        "sha256": "d2ac69d91ade6df9c4bf89b2be0d203651d1a0cc5a67d03db8013af52c8ffe6b",
+        "size": 13269,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ssrf.md",
+        "git_blob_sha1": "971fe8d9d8933670ef34ed10ee8d5251aa063b3f",
+        "sha256": "646a8244fa61997b9b4f093169be1af4f94e6a3d04dcae8d426bb821870b2bff",
+        "size": 10734,
+        "mode": "100644"
+      },
+      {
+        "path": "references/supply-chain.md",
+        "git_blob_sha1": "97ffb35326e56524478fb5a41f1ddc73f2cbd3e7",
+        "sha256": "ef3000d91763ccdddfbce2660943c4090b4c16b3b33afe980f4e10947729e1f1",
+        "size": 9149,
+        "mode": "100644"
+      },
+      {
+        "path": "references/xss.md",
+        "git_blob_sha1": "f3deadc84ecc0cb034fc708a01e17f6bcdf68f9e",
+        "sha256": "4735df1e581b757b078605fbc27d37e85cfe182c45ab326c9e536c71a930680c",
+        "size": 7599,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "4e8a32bd279a8ad18e3467b503c45ddf8c607d2e",
+  "new_commit": "6d20de492725c78e805aa0741507bb90d1982cc7",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(security-review): load modern-threats.md for frontend reviews\n\nDOM clobbering is only covered by modern-threats.md, but the Frontend row\nloaded xss.md and csrf.md alone, so that guidance never reached frontend\nreviews. Add it to the Frontend row and name DOM lookups in the\nmodern-threats trigger row.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+  "new_commit_time": "2026-10-19T22:57:58Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/4e8a32bd279a8ad18e3467b503c45ddf8c607d2e...6d20de492725c78e805aa0741507bb90d1982cc7",
+  "commit_url": "https://github.com/getsentry/skills/commit/6d20de492725c78e805aa0741507bb90d1982cc7",
+  "skill_directory": "skills/security-review",
+  "local_directory": "verified_real_update_pairs/OPU-0194",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0194",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

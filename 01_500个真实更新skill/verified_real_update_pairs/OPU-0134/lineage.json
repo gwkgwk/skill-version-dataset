@@ -1,0 +1,82 @@
+{
+  "sha": "ccf58b1dc6f687d575dac255df44e74f906e10af",
+  "node_id": "C_kwDOQ0VAy9oAKGNjZjU4YjFkYzZmNjg3ZDU3NWRhYzI1NWRmNDRlNzRmOTA2ZTEwYWY",
+  "commit": {
+    "author": {
+      "name": "sentry-junior[bot]",
+      "email": "264270552+sentry-junior[bot]@users.noreply.github.com",
+      "date": "2026-05-21T13:54:53Z"
+    },
+    "committer": {
+      "name": "sentry-junior[bot]",
+      "email": "264270552+sentry-junior[bot]@users.noreply.github.com",
+      "date": "2026-05-21T13:54:53Z"
+    },
+    "message": "fix(pr-link-issue): make Linear key regex case-insensitive\n\nLinear keys are uppercase (PY-2357, JS-1234) but the grep regex only\nmatched lowercase. Add -i flag to grep so it matches both cases.\n\nCo-authored-by: Neel Shah <neel.shah@sentry.io>",
+    "tree": {
+      "sha": "2e43821c8c43c5b3a2c5936bd73edbf45baa8e98",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/2e43821c8c43c5b3a2c5936bd73edbf45baa8e98"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/ccf58b1dc6f687d575dac255df44e74f906e10af",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/ccf58b1dc6f687d575dac255df44e74f906e10af",
+  "html_url": "https://github.com/getsentry/skills/commit/ccf58b1dc6f687d575dac255df44e74f906e10af",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/ccf58b1dc6f687d575dac255df44e74f906e10af/comments",
+  "author": {
+    "login": "sentry-junior[bot]",
+    "id": 264270552,
+    "node_id": "BOT_kgDOD8By2A",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2960336?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sentry-junior%5Bbot%5D",
+    "html_url": "https://github.com/apps/sentry-junior",
+    "followers_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "sentry-junior[bot]",
+    "id": 264270552,
+    "node_id": "BOT_kgDOD8By2A",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2960336?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sentry-junior%5Bbot%5D",
+    "html_url": "https://github.com/apps/sentry-junior",
+    "followers_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9a63387960efa3796fc37faea74a2ffcd18c8b6f",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/9a63387960efa3796fc37faea74a2ffcd18c8b6f",
+      "html_url": "https://github.com/getsentry/skills/commit/9a63387960efa3796fc37faea74a2ffcd18c8b6f"
+    }
+  ]
+}

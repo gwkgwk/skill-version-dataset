@@ -1,0 +1,91 @@
+{
+  "repository": "googleworkspace/cli",
+  "primary": "skills/gws-events/SKILL.md",
+  "pinned_commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+  "repository_license": "Apache-2.0",
+  "key": "5090e2b9d76f0bc0898f",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 30,
+  "primary_history_count_returned": 15,
+  "skipped_release_maintenance_commits": [
+    "705fb0ecac6f4249679958f6325b809b63fdde17",
+    "f4ee65836031e105e48f1cef77f91dde3499b389",
+    "c7c6646d7a3ab1851e535afc8fdbcc311ab4d440",
+    "a63b070a51098324b0660cac937a49b0b04ccb87",
+    "45ca45bfd418db07b02995e8510dd18ac45cb3a6",
+    "9198386a3de7fcf2df95532dca79257568d45c19",
+    "2aec0ba5a363735bae3eb20b5a3ea3306f8065f4",
+    "186e88caa05071ee706ad5d2b1b5cbdf242a8e76",
+    "3ac16ee595be33b602149b0b57c724cdd20b4322",
+    "834fa7d25a507e12020a2b04a4e8097558c56c96"
+  ],
+  "old": {
+    "commit": "bcc6c8d24e6cc76321666e806eeafeacbd4a57b4",
+    "computed_tree_sha": "6d9f2fa3cbe9d122b35c1b109542abaa8b4ea8d8",
+    "api_tree_sha_as_returned": "6d9f2fa3cbe9d122b35c1b109542abaa8b4ea8d8",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9693eef26d3de14e9faed13b8e7d324f38e666eb",
+        "sha256": "d88665c42e6cdc97946eb266d04d6b2762df335a6fd48c6ca9ad110ecad401f0",
+        "size": 3185,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "8fadbd6901774d64fe64135775a170c5deb9c9ee",
+    "computed_tree_sha": "5102dc992a1cacb13b8e34605ec10276c1cd60e9",
+    "api_tree_sha_as_returned": "5102dc992a1cacb13b8e34605ec10276c1cd60e9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "61a7635e205936838561ddf11057589cec6fa797",
+        "sha256": "cbd1f189004c806c07cd4800b5084668da029e5a3096e70d5f7835511efa4752",
+        "size": 3510,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bcc6c8d24e6cc76321666e806eeafeacbd4a57b4",
+  "new_commit": "8fadbd6901774d64fe64135775a170c5deb9c9ee",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat: smarter truncation of method/resource descriptions (#68)\n\n* feat: smarter truncation of method/resource descriptions\n\n- Add shared truncate_description() in src/text.rs with configurable\n  limits and optional markdown link stripping\n- Named constants: CLI_DESCRIPTION_LIMIT (200), FRONTMATTER_DESCRIPTION_LIMIT (120),\n  SKILL_BODY_DESCRIPTION_LIMIT (500)\n- CLI help and frontmatter strip markdown links to save space\n- Skill body preserves URLs so agents can follow references\n- Truncation prefers sentence boundaries, falls back to word boundaries\n- Reads full descriptions from discovery doc for skill body text\n\nFixes #64\n\n* fix: address PR review comments and improve coverage\n\n- Fix sentence boundary detection at exact end of prefix (HIGH)\n- Use extend() for link text emission (MEDIUM)\n- Idiomatic find_char_from with position/map (MEDIUM)\n- Idiomatic rfind_char_boundary with rposition (MEDIUM)\n- Add 18 new tests for generate_skills.rs coverage:\n  truncate_desc, lookup_method_description, capitalize_first,\n  product_name_from_title\n- Add sentence_boundary_at_exact_limit and zero_max_chars tests\n\n---------\n\nCo-authored-by: jpoehnelt-bot <jpoehnelt-bot@users.noreply.github.com>",
+  "new_commit_time": "2026-03-04T23:03:59Z",
+  "compare_url": "https://github.com/googleworkspace/cli/compare/bcc6c8d24e6cc76321666e806eeafeacbd4a57b4...8fadbd6901774d64fe64135775a170c5deb9c9ee",
+  "commit_url": "https://github.com/googleworkspace/cli/commit/8fadbd6901774d64fe64135775a170c5deb9c9ee",
+  "skill_directory": "skills/gws-events",
+  "local_directory": "verified_real_update_pairs/OPU-0154",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0154",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

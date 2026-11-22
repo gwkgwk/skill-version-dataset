@@ -1,0 +1,145 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/yeet/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "ac74614ffdef9553f711",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+    "computed_tree_sha": "57cbd4e5e51c504f2acdf82b6dd85aa90314aa3f",
+    "api_tree_sha_as_returned": "57cbd4e5e51c504f2acdf82b6dd85aa90314aa3f",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7d191fbbf3a6d95a7b6b55df2dbbb594d0011209",
+        "sha256": "4fcb31435d2ab8ebecba78decd4c3489c876209010ab0b5ef5c960cfd299c52a",
+        "size": 1675,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "e84be49ddcbf8ed84ba2e2b5db362d621443e36a",
+        "sha256": "6f0a463b53232932ad70aec529e25fad9d54312de0bd29d64a38bb14a4e748de",
+        "size": 273,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/yeet-small.svg",
+        "git_blob_sha1": "54bad23ae33fee3d34ffa4a215468529bfd5c7cb",
+        "sha256": "e4b365d5389b8772e9bad36ad7a37d8333436fa961bb98c8d77b8fbf4e9dbc3b",
+        "size": 967,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/yeet.png",
+        "git_blob_sha1": "277da12916bac20a23f5e59553d3fe67a2117916",
+        "sha256": "6b5448b6c5b3480ca7511f983fa81ced59e6b9c664332bc559ea0d323fc06ab8",
+        "size": 1262,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "590b49edc158611a2b2ed715ae73f27eb70d251a",
+    "computed_tree_sha": "1c9c3f489a88dd896e910f038471ba1d2c1803aa",
+    "api_tree_sha_as_returned": "1c9c3f489a88dd896e910f038471ba1d2c1803aa",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "acce5634f720e0a26c65c5e6048e0b43f6a3abd8",
+        "sha256": "4829d4909081e1abf91507fb581e6f566ce7064001892414f32191895b08a595",
+        "size": 6952,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "e84be49ddcbf8ed84ba2e2b5db362d621443e36a",
+        "sha256": "6f0a463b53232932ad70aec529e25fad9d54312de0bd29d64a38bb14a4e748de",
+        "size": 273,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/yeet-small.svg",
+        "git_blob_sha1": "54bad23ae33fee3d34ffa4a215468529bfd5c7cb",
+        "sha256": "e4b365d5389b8772e9bad36ad7a37d8333436fa961bb98c8d77b8fbf4e9dbc3b",
+        "size": 967,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/yeet.png",
+        "git_blob_sha1": "277da12916bac20a23f5e59553d3fe67a2117916",
+        "sha256": "6b5448b6c5b3480ca7511f983fa81ced59e6b9c664332bc559ea0d323fc06ab8",
+        "size": 1262,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+  "new_commit": "590b49edc158611a2b2ed715ae73f27eb70d251a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "[codex] make yeet template-aware (#412)\n\n## Why\n\nThe curated `yeet` skill was missing guidance for common publish-flow\ncases: repositories with PR templates, branches that already have a PR,\nand PR bodies that need to preserve reviewer-relevant context instead of\ngeneric boilerplate.\n\n## What Changed\n\nUpdated `skills/.curated/yeet/SKILL.md` to make the publish workflow\ntemplate-aware and branch-aware. The skill now tells Codex to discover\nthe active repository PR template before creating a PR, reuse an\nexisting PR for the current branch instead of creating a duplicate,\npreserve an existing PR's draft or ready-for-review state, apply\nconventional PR title guidance, and write PR bodies around the net\nchange with meaningful verification only when there is behavioral\nevidence worth preserving.",
+  "new_commit_time": "2026-05-18T23:16:36Z",
+  "compare_url": "https://github.com/openai/skills/compare/c25113bf4c64c8dba6bfe61acf06051d79aa43f6...590b49edc158611a2b2ed715ae73f27eb70d251a",
+  "commit_url": "https://github.com/openai/skills/commit/590b49edc158611a2b2ed715ae73f27eb70d251a",
+  "skill_directory": "skills/.curated/yeet",
+  "local_directory": "verified_real_update_pairs/OPU-0175",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0175",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

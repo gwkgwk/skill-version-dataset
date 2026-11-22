@@ -1,0 +1,161 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/differential-review/skills/differential-review/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "4cb90ffb301cbaf4a766",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "65720f8db2ca0c1d1a1805db0dacbabc190a1aa1",
+    "computed_tree_sha": "d17cb48c3f06fef093655aab9c05780b2d26dd46",
+    "api_tree_sha_as_returned": "d17cb48c3f06fef093655aab9c05780b2d26dd46",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3755d4773d231cd13b7bfd1ecd6ad243150480bd",
+        "sha256": "1499d68ed4465fe89448f2bd90054b16a1a047f2e49a433623312f3b7a8a9742",
+        "size": 7097,
+        "mode": "100644"
+      },
+      {
+        "path": "adversarial.md",
+        "git_blob_sha1": "0176d374bc2d9d59f114b647cb21f0685bc7e9f3",
+        "sha256": "3cb823f38c6e551cbcf5f72325d2bb219dacdad774072519c31d50d92db19800",
+        "size": 5062,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "methodology.md",
+        "git_blob_sha1": "71d9dc0babf1417ee79ec8d5214ea690d0c2fe6b",
+        "sha256": "16b335d24cf2145e3dc4a37f50056550d29db2efa20e6df78fec95ec1e6fb0b4",
+        "size": 6738,
+        "mode": "100644"
+      },
+      {
+        "path": "patterns.md",
+        "git_blob_sha1": "71078a725d986c90d014cceff0cc54414ad3b1a1",
+        "sha256": "52abb18abbc73502a3d3b2f36a7a035adc1db40fd812d1d5424cf065036a06e9",
+        "size": 6999,
+        "mode": "100644"
+      },
+      {
+        "path": "reporting.md",
+        "git_blob_sha1": "cb5e37b4eab89c429bf6f968d3e3482adaa39faa",
+        "sha256": "0016876dc6f158e926448bff1b6f634796757c7afe09dff177cfe30250724fc4",
+        "size": 7006,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+    "computed_tree_sha": "b1050d8d483a49a2a63aea7002b064469fb97fb9",
+    "api_tree_sha_as_returned": "b1050d8d483a49a2a63aea7002b064469fb97fb9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "536e9258092876017b098f1712a92e7d06bb1480",
+        "sha256": "f9af6a8193fc1a9f8ca3c54bb8d19095a5f20c9472ca6d014488bbde50b67da0",
+        "size": 7439,
+        "mode": "100644"
+      },
+      {
+        "path": "adversarial.md",
+        "git_blob_sha1": "0176d374bc2d9d59f114b647cb21f0685bc7e9f3",
+        "sha256": "3cb823f38c6e551cbcf5f72325d2bb219dacdad774072519c31d50d92db19800",
+        "size": 5062,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "methodology.md",
+        "git_blob_sha1": "71d9dc0babf1417ee79ec8d5214ea690d0c2fe6b",
+        "sha256": "16b335d24cf2145e3dc4a37f50056550d29db2efa20e6df78fec95ec1e6fb0b4",
+        "size": 6738,
+        "mode": "100644"
+      },
+      {
+        "path": "patterns.md",
+        "git_blob_sha1": "71078a725d986c90d014cceff0cc54414ad3b1a1",
+        "sha256": "52abb18abbc73502a3d3b2f36a7a035adc1db40fd812d1d5424cf065036a06e9",
+        "size": 6999,
+        "mode": "100644"
+      },
+      {
+        "path": "reporting.md",
+        "git_blob_sha1": "cb5e37b4eab89c429bf6f968d3e3482adaa39faa",
+        "sha256": "0016876dc6f158e926448bff1b6f634796757c7afe09dff177cfe30250724fc4",
+        "size": 7006,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "65720f8db2ca0c1d1a1805db0dacbabc190a1aa1",
+  "new_commit": "4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Give differential-review a trigger, and name every component in its README (#278)\n\n* Give differential-review a trigger, and name every component in its README\n\ndifferential-review's description listed what it does and never named a\nsituation, so it competed on capability wording alone. It now closes with\nthe triggers its own README already documents — reviewing a PR, commit,\nor diff; checking whether a change re-introduces a fixed bug; asking what\nelse a change could break; finding modified code with no test.\n\nThe same plugin's README never mentioned adversarial-modeler, which is\nwhat Phase 5 dispatches for HIGH RISK changes. Checking whether that was\nisolated turned up more of it, and the sweep found three kinds of gap:\n\nzeroize-audit's agent table was missing three of its eleven agents —\n0-preflight, which gates the entire run, plus 5b-poc-validator and\n5c-poc-verifier. All three appear in the phase diagram directly above the\ntable, which is why they read as present.\n\nconstant-time-analysis documents the ct-analyzer CLI end to end and never\nsays the plugin also ships a skill and a command. entry-point-analyzer\nlists phrases that trigger its skill but never names the skill or its\ncommand.\n\nThree more READMEs describe their skill without naming it. That matters\nmost where the skill name is not the plugin name and a user cannot guess\nit: chrome-mcp-troubleshooting and interpreting-culture-index.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix review findings and make the README sweep a gate\n\nThe two PoC rows I added to zeroize-audit said Phase 4. The diagram three\nlines above them, SKILL.md, and workflows/phase-5-poc-validation.md all\nsay Phase 5, steps 5a and 5b. \"Wave 5a\" is a label that exists nowhere.\nA debugger consulting the table — the artifact this branch designates as\nwhat runs when — would have opened phase-4-poc-generation.md and found no\nvalidation in it. Also corrected the sentence introducing that table,\nwhich still said 10 agents across 8 phases against 11 across 9, and the\nPhase 0 diagram line, which still credited the orchestrator for a gate\nthe new row credits to 0-preflight.\n\ndifferential-review's README claimed the agent is \"dispatched\", and named\nit bare in a column whose other rows are namespaced. Nothing dispatches\nit: the only instruction is prose in SKILL.md, and a bare subagent_type\nfails at runtime. Namespaced both, and corrected the five stale line\ncounts in the same file — reporting.md is 369 lines, not the ~120 the\ntoken-efficiency section budgets for.\n\nDrop the dead `name: trailofbits:<cmd>` key from five command files.\nThe three newest command files carry no name: at all, #275 namespaced 22\nbare invocations, and this branch documents the `/<plugin>:<cmd>` form —\nso the key contradicts the docs it sits next to.\n\nThen make the sweep repeatable. Doing this by hand three times found\neight gaps and missed two more, both of the same shape: a workflow ships\nunder meta.name, not its filename, so a README citing the filename never\nwrites the name a reader types. The validator now checks that a README\nnames every skill, agent, command, and workflow its plugin ships, reading\nmeta.name for workflows. It refuses a run that inspected zero components,\nand six self-test assertions hold it to known-bad fixtures.\n\nIt found git-cleanup on its first run: ships as /git-cleanup:git-cleanup-analysis,\nREADME cites workflows/analyze-branches.js four times and that name never.\nstatic-analysis had the same gap for codeql-build.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix both P2s: the gate was a substring test, and the dispatch was still bare\n\nThe README gate ran `name not in text`. That reads as thorough and could\nnot fail for a large share of what it counted: `draw` was satisfied by\n\"(draw cards instead)\", `semgrep-rule` by the plugin's own name in the\ninstall line, `burp-search` by a `scripts/burp-search.sh` path that is a\ndifferent thing, and `audit` by the prose \"shared-state struct audit\".\n\nMatch by kind instead. Commands and workflows are reachable only as\n`/<plugin>:<name>`, so require that literal — it is the only string a\nuser can type. Agents are dispatched by identifier and never typed as\nprose, so require an identifier-shaped mention. Skills are genuinely\nreferred to by bare name, so require only a delimited occurrence, which\nis what stops \"draws\" counting as `draw`.\n\nThat surfaced seven real gaps, the four above plus insecure-defaults'\naudit-pipeline workflow, mutation-testing's skill, and trailmark's\ncode-slice-worker. All seven fixed.\n\nadversarial-modeler was still bare at SKILL.md:96. Line 77 was the\ndecision-tree mention; line 96 is the \"Delegate to this agent\"\ninstruction a model actually acts on, so the runtime failure the last\ncommit claimed to fix survived it. Namespaced, and it now says why.\n\nAlso from the review: a per-kind floor, since a single total stays\nhealthy while skill_files() — 63% of coverage — silently stops matching;\nworkflow_names anchored to the meta block, because a bare search takes\nany earlier `name:` in a comment, and .mjs was invisible; and AGENTS.md\ndocuments the new hard failure. Self-test 88 -> 96, each new rule with a\nnegative control.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-26T12:54:12Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/65720f8db2ca0c1d1a1805db0dacbabc190a1aa1...4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+  "commit_url": "https://github.com/trailofbits/skills/commit/4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+  "skill_directory": "plugins/differential-review/skills/differential-review",
+  "local_directory": "verified_real_update_pairs/OPU-0217",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0217",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

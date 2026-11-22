@@ -1,0 +1,108 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-prompt-management/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "99fb0f010212b56e7058",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+    "computed_tree_sha": "dc65364c2055ef09651d6e471940022380071a64",
+    "api_tree_sha_as_returned": "dc65364c2055ef09651d6e471940022380071a64",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "efddf717863754ec46546c9df97e0674056669c6",
+        "sha256": "38eb838cbf01a64c4248bb661c16354601a6dadfb46699199ee9cdec9e9a24d3",
+        "size": 10195,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "9e7691894f69b82660035f6b307503bb9aee8029",
+        "sha256": "56393fd1e949a151615fd05dd59040dabd15c8153ae5541827f6d083eab2ea58",
+        "size": 1970,
+        "mode": "100644"
+      },
+      {
+        "path": "references/create.md",
+        "git_blob_sha1": "65eceac71df154b675ed2ede09239cd7725c8fc0",
+        "sha256": "aca174e905d28ba57294438c191d9de2a07701cbba6ed4e5c9f2c4e337fa93f4",
+        "size": 2588,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+    "computed_tree_sha": "d6fe95376ea04f19c32dc1e9200095aa19efc447",
+    "api_tree_sha_as_returned": "d6fe95376ea04f19c32dc1e9200095aa19efc447",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e9a35414b7fd5ba50abc05daf9d1a36b95e187c2",
+        "sha256": "687fc841e46e9f9424e8d74b5740947ac02cdad63027a21fda6f476cd4320702",
+        "size": 10534,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "9e7691894f69b82660035f6b307503bb9aee8029",
+        "sha256": "56393fd1e949a151615fd05dd59040dabd15c8153ae5541827f6d083eab2ea58",
+        "size": 1970,
+        "mode": "100644"
+      },
+      {
+        "path": "references/create.md",
+        "git_blob_sha1": "a20c150aefd1662e37380596a2d30c5b077b0700",
+        "sha256": "1a5ca1f90e63281f5c5c6f75aaa809980d5f5a25d6a4ea7f698c3aa744725b6c",
+        "size": 2549,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/create.md"
+  ],
+  "old_commit": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+  "new_commit": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update the Agent Platform skills.\n\n- Update Agent Platform deploy, prompt management, and endpoint management skills for current models, SDKs, and gcloud flags.\n- Update RAG Engine management skill examples from Gemini 2.5 models to `gemini-3.8-flash`.\n- Add standardized usage attribution to Agent Platform skills.  - Add `references/attribution.md` to all 9 Model Garden Agent Platform skills. - Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Default validation_split to None in convert_to_jsonl so programmatic prompt_only=True calls do not fail, and include adapter size 2 in tune_open_model.py CLI choices.\n- Add Qwen3.8-27B to the open-model tuning catalog and cost calculator.\n- Add distillation tuning to the agent-platform-tuning skill: supported teacher and student models, prompt-only training datasets (prepare_dataset.py --prompt_only), and --method/--teacher_model flags in tune_open_model.py.\n- Improve skill instructions for model-registry and agent-cli skills.\n- Improve skill instructions for tuning, tuning-management, and eval-flywheel skills.\n- Improve interactive confirmation and post-deletion verification guidance in prompt management skill.\n- Improve deployment region confirmation and hardware validation guidance in agent-platform-deploy skill.\n\nPiperOrigin-RevId: 1023012351",
+  "new_commit_time": "2026-11-16T20:11:22Z",
+  "compare_url": "https://github.com/google/skills/compare/fd711c21669433d293aa0fe65bbed9d2d888df5d...56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "commit_url": "https://github.com/google/skills/commit/56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "skill_directory": "skills/cloud/agent-platform-prompt-management",
+  "local_directory": "verified_real_update_pairs/OPU-0238",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0238",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

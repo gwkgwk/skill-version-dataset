@@ -1,0 +1,289 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-compliance/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "4a933198b8e98acdc90a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "2d8b324f4b340d35228f66fd6d9173f62c9fdea3",
+    "computed_tree_sha": "a7682304958acbb697ce5c375e306b95cae2b655",
+    "api_tree_sha_as_returned": "a7682304958acbb697ce5c375e306b95cae2b655",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1af8f8afb81881a6fb41a6e890ec129aaa2594da",
+        "sha256": "7d50dc223fb02fa56108c833e08b8c9045390334cd6b9b0e6132be3968df6fda",
+        "size": 4739,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azqr-recommendations.md",
+        "git_blob_sha1": "596fd78807a4e862a0332a72a6e4b582e009a2f1",
+        "sha256": "3f3630229cbca3a7734a1c7a0b3e8d6631ce16233a24ae2488dd34ef118a8051",
+        "size": 5786,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azqr-remediation-patterns.md",
+        "git_blob_sha1": "fe658826017a4da18c2379cd678f646d3e08f7cf",
+        "sha256": "30380928a7932ec44efc026002aa313abe9df0642623eb70b72a9c4969be8244",
+        "size": 7946,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-keyvault-expiration-audit.md",
+        "git_blob_sha1": "48fa5fbf979f57e18d07a3065fb27e5698461bc8",
+        "sha256": "76bd37d85865a0e70990274f7c153456f748d193e3c041a7481f295e3cde9cf4",
+        "size": 5152,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-quick-review.md",
+        "git_blob_sha1": "ca45e843d22b0f0a2d9486ee0feecf095031d7a9",
+        "sha256": "abf2578f34b6bafa53d32794e71b09980a8223cbfe535f1e6d06bb0f3b8a0f63",
+        "size": 5069,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-resource-graph.md",
+        "git_blob_sha1": "fea98c1557e670d9ce37ca0e591423866c306a46",
+        "sha256": "ddd5234696b44447e04fa460a43e74d657b0c316947403f82529edd508060f3d",
+        "size": 2794,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-certificates-rust.md",
+        "git_blob_sha1": "02aa0a93781e4c8e2a94c106bc24903dc5cd380b",
+        "sha256": "c2b1ea2c7a6370c7692e517aa35cbc981dbb6195dcbdf66d05a11db658ebd56a",
+        "size": 1013,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-keys-rust.md",
+        "git_blob_sha1": "0e225d876ba59bc055e7569d57c4d378002cbe7a",
+        "sha256": "002349d349accc158aa5022a30066cc1ac8a82bc3a32bb9f26d87bd1d2999f4f",
+        "size": 1291,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-keys-ts.md",
+        "git_blob_sha1": "914ee38d33ae9601e9fb2b4f137655365c14b50d",
+        "sha256": "fc843c39d6f2f80c0af8e18ae75f12b1fdf7ff8848f4c87dfc50a2e8f90cb507",
+        "size": 1019,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-py.md",
+        "git_blob_sha1": "043c80cbc919302f9ca55bcfa6e70105675d5865",
+        "sha256": "27f350103a537eeeadf57e88dc6159283313d1e01c803d2f547f4bc4047035bc",
+        "size": 1135,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-secrets-rust.md",
+        "git_blob_sha1": "ad9872763fe9f646ec3d598aac2962abb7d99dbc",
+        "sha256": "e1839f9399e3b45fb459312b17f6d4ba3f0879463ba143abf273f48a3cefc5f2",
+        "size": 1334,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-secrets-ts.md",
+        "git_blob_sha1": "3a7dce4d3da3b595b00807cc1db5bb33ab430b10",
+        "sha256": "1245bf5652e351813290fee3e6d244b16aeba20f7c91ac62163a39743c4edccf",
+        "size": 1043,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-security-keyvault-keys-dotnet.md",
+        "git_blob_sha1": "464e45fcfae666f640c09616f97352b47e932e10",
+        "sha256": "fb5051f172d728a48e751365d20bd2c381a5c39167056aa3fc83f00f60a88064",
+        "size": 1170,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-security-keyvault-keys-java.md",
+        "git_blob_sha1": "04f3b469dab0eb530cfe80954684418e4a3a38f6",
+        "sha256": "3f6582cb928e399b79ed2a52e0ba0543cb039895175d640c91c4a6965095b541",
+        "size": 1381,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-security-keyvault-secrets-java.md",
+        "git_blob_sha1": "df8a1fa765dedce680c2f399121019d823884d32",
+        "sha256": "692aed42d62a19492b9b85717b9133a6e9e24f1d4684c1a796218a1c7b59e8af",
+        "size": 1517,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b283057e95d3b12636c7b067fe2b57aa0f3cfe04",
+    "computed_tree_sha": "843820187be92dc9246dc80916270a05c8c38918",
+    "api_tree_sha_as_returned": "843820187be92dc9246dc80916270a05c8c38918",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "28fa6cf4637e4a6033b62d0ac281b001fdc904a7",
+        "sha256": "fcdadd24b113cbae8bfb9dccd2e836465b58dd68b07737e9083bb1d819d96896",
+        "size": 3974,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azqr-recommendations.md",
+        "git_blob_sha1": "596fd78807a4e862a0332a72a6e4b582e009a2f1",
+        "sha256": "3f3630229cbca3a7734a1c7a0b3e8d6631ce16233a24ae2488dd34ef118a8051",
+        "size": 5786,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azqr-remediation-patterns.md",
+        "git_blob_sha1": "fe658826017a4da18c2379cd678f646d3e08f7cf",
+        "sha256": "30380928a7932ec44efc026002aa313abe9df0642623eb70b72a9c4969be8244",
+        "size": 7946,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-keyvault-expiration-audit.md",
+        "git_blob_sha1": "48fa5fbf979f57e18d07a3065fb27e5698461bc8",
+        "sha256": "76bd37d85865a0e70990274f7c153456f748d193e3c041a7481f295e3cde9cf4",
+        "size": 5152,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-quick-review.md",
+        "git_blob_sha1": "ca45e843d22b0f0a2d9486ee0feecf095031d7a9",
+        "sha256": "abf2578f34b6bafa53d32794e71b09980a8223cbfe535f1e6d06bb0f3b8a0f63",
+        "size": 5069,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-resource-graph.md",
+        "git_blob_sha1": "fea98c1557e670d9ce37ca0e591423866c306a46",
+        "sha256": "ddd5234696b44447e04fa460a43e74d657b0c316947403f82529edd508060f3d",
+        "size": 2794,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-certificates-rust.md",
+        "git_blob_sha1": "02aa0a93781e4c8e2a94c106bc24903dc5cd380b",
+        "sha256": "c2b1ea2c7a6370c7692e517aa35cbc981dbb6195dcbdf66d05a11db658ebd56a",
+        "size": 1013,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-keys-rust.md",
+        "git_blob_sha1": "0e225d876ba59bc055e7569d57c4d378002cbe7a",
+        "sha256": "002349d349accc158aa5022a30066cc1ac8a82bc3a32bb9f26d87bd1d2999f4f",
+        "size": 1291,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-keys-ts.md",
+        "git_blob_sha1": "914ee38d33ae9601e9fb2b4f137655365c14b50d",
+        "sha256": "fc843c39d6f2f80c0af8e18ae75f12b1fdf7ff8848f4c87dfc50a2e8f90cb507",
+        "size": 1019,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-py.md",
+        "git_blob_sha1": "043c80cbc919302f9ca55bcfa6e70105675d5865",
+        "sha256": "27f350103a537eeeadf57e88dc6159283313d1e01c803d2f547f4bc4047035bc",
+        "size": 1135,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-secrets-rust.md",
+        "git_blob_sha1": "ad9872763fe9f646ec3d598aac2962abb7d99dbc",
+        "sha256": "e1839f9399e3b45fb459312b17f6d4ba3f0879463ba143abf273f48a3cefc5f2",
+        "size": 1334,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-keyvault-secrets-ts.md",
+        "git_blob_sha1": "3a7dce4d3da3b595b00807cc1db5bb33ab430b10",
+        "sha256": "1245bf5652e351813290fee3e6d244b16aeba20f7c91ac62163a39743c4edccf",
+        "size": 1043,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-security-keyvault-keys-dotnet.md",
+        "git_blob_sha1": "464e45fcfae666f640c09616f97352b47e932e10",
+        "sha256": "fb5051f172d728a48e751365d20bd2c381a5c39167056aa3fc83f00f60a88064",
+        "size": 1170,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-security-keyvault-keys-java.md",
+        "git_blob_sha1": "04f3b469dab0eb530cfe80954684418e4a3a38f6",
+        "sha256": "3f6582cb928e399b79ed2a52e0ba0543cb039895175d640c91c4a6965095b541",
+        "size": 1381,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-security-keyvault-secrets-java.md",
+        "git_blob_sha1": "df8a1fa765dedce680c2f399121019d823884d32",
+        "sha256": "692aed42d62a19492b9b85717b9133a6e9e24f1d4684c1a796218a1c7b59e8af",
+        "size": 1517,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "2d8b324f4b340d35228f66fd6d9173f62c9fdea3",
+  "new_commit": "b283057e95d3b12636c7b067fe2b57aa0f3cfe04",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-09-09T11:05:22Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/2d8b324f4b340d35228f66fd6d9173f62c9fdea3...b283057e95d3b12636c7b067fe2b57aa0f3cfe04",
+  "commit_url": "https://github.com/microsoft/skills/commit/b283057e95d3b12636c7b067fe2b57aa0f3cfe04",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-compliance",
+  "local_directory": "verified_real_update_pairs/OPU-0465",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0465",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

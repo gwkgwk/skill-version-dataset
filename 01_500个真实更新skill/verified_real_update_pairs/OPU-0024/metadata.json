@@ -1,0 +1,85 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-advisor/skills/azure-advisor/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "6900cc9b5475a1b571da",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+    "computed_tree_sha": "840a767333beaa796fc4276dbc17b36aa10d4d87",
+    "api_tree_sha_as_returned": "840a767333beaa796fc4276dbc17b36aa10d4d87",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1183024ab5449fee840b9e71052445d578e14c18",
+        "sha256": "599c2db7962453bb7bf05fcde1848a134df9e7cda6fd14aa92290648f63d5b86",
+        "size": 2741,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "586868186a88eedbdadc49de2b1648cf912eca40",
+    "computed_tree_sha": "720f747199a2b4467c85397268414dfa2a70df49",
+    "api_tree_sha_as_returned": "720f747199a2b4467c85397268414dfa2a70df49",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9c00fc4b3ac22ba738a542fd6365458e0efcc992",
+        "sha256": "d448eed6264b2f9b37385997a76aa88f9ed1200fec23d44fa51111629ddb36e4",
+        "size": 3816,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow.md",
+        "git_blob_sha1": "ddcd292039a33d41da2c503f68e606d441df6020",
+        "sha256": "8b376775adf60ff65f4e212f64154debc317b07116f6d79a84f3441975f07378",
+        "size": 4190,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/workflow.md"
+  ],
+  "old_commit": "84666abf77c6b09ed431ab09c516891d0514710e",
+  "new_commit": "586868186a88eedbdadc49de2b1648cf912eca40",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-11-09T23:26:56Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/84666abf77c6b09ed431ab09c516891d0514710e...586868186a88eedbdadc49de2b1648cf912eca40",
+  "commit_url": "https://github.com/microsoft/skills/commit/586868186a88eedbdadc49de2b1648cf912eca40",
+  "skill_directory": ".github/plugins/azure-advisor/skills/azure-advisor",
+  "local_directory": "verified_real_update_pairs/OPU-0024",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0024",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

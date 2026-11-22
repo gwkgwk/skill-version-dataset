@@ -1,0 +1,844 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-kubernetes/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "f2333727832c969d680f",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "61fe0305ea70389ed8705eec6026a786f57865cf",
+    "computed_tree_sha": "563d312d0625f6c6f815abc147a10375b8ec8ff9",
+    "api_tree_sha_as_returned": "563d312d0625f6c6f815abc147a10375b8ec8ff9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "34a04d8010249f24147c0ce66982c8cfa7eedc87",
+        "sha256": "c2a85a8662aae9717427409b50b6152703dc3a5ba184dc12b09994696d2f6aca",
+        "size": 11280,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/SKILL.md",
+        "git_blob_sha1": "e3e148299871832471b4b056093e386a132e8d4a",
+        "sha256": "d29b307591886cde7841ff3cdb5509fbee2f66ffeb8c14dc88fd2e9a0a6f8dbe",
+        "size": 2012,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/aspnet-core.md",
+        "git_blob_sha1": "842309fe363f5e6211d582b7f4b813f389655c9c",
+        "sha256": "e67fdfd98e1544f5473a62c0ac70024d33306f051e2bd7b80f5a4ea0335c8b15",
+        "size": 7432,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/django.md",
+        "git_blob_sha1": "40d80671519e1db96a94963ede2899f45a0f3ae7",
+        "sha256": "33826ede3306b4c2d9894968f79fbc2b8c3835c73c28bdf636efda45f5661da3",
+        "size": 6142,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/express.md",
+        "git_blob_sha1": "140c293f0d9483fadf7c80c53664d24c7f20ac68",
+        "sha256": "7fd50a40bc8abff5e22da41714698b80994f41250e72b8e864bfcf36dd8a9efa",
+        "size": 6811,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/fastapi.md",
+        "git_blob_sha1": "bb7c8a82c443bb8d383497d238125c5312395872",
+        "sha256": "33ef9f994485797759813d526435e6ccdd02359ceebb043a48aad4f24f883bc3",
+        "size": 5947,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/flask.md",
+        "git_blob_sha1": "5cccfb8c6c5418aac5daa8a3b2872b8a8872c226",
+        "sha256": "d8403f95736a0215544f472dbb542269ec9769803487c1ff4ce1b724fcf63d9e",
+        "size": 6322,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/go.md",
+        "git_blob_sha1": "5a2cbe67907d3cc8ccaa5a2ff48d68ef2152d26f",
+        "sha256": "4744f03992e3ed175241f1729824b0bcde2c2c2fc75bd85ab9568cb3d5e63528",
+        "size": 6997,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/nestjs.md",
+        "git_blob_sha1": "f7f6520edf9ed47faf2f617910c95068ce97c16f",
+        "sha256": "d79dea38ee39735e2f85b71a26a570e476258bd94166fe33aa3f0cfcf7edfa34",
+        "size": 6845,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/nextjs.md",
+        "git_blob_sha1": "4fedadfcd68d7547e10388f2933d9a314c7627b2",
+        "sha256": "9faf0bb704d0ae9e5bc797606065853d10fbb18ce7cecf3f9ea278e6a64dc466",
+        "size": 7318,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/spring-boot.md",
+        "git_blob_sha1": "12f41d2b2843fb2af4cba9325ede4082f9eb8a67",
+        "sha256": "3822a0468c2e22528a26bffc5dcdfe74276bb755a86109dea7c49296e5d86753",
+        "size": 6157,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/phases/quick-deploy.md",
+        "git_blob_sha1": "c8e1242530b2f9b22fcf0d64f89f3ce743986f8e",
+        "sha256": "3203e42fd195104c188e585146994f2d88cb7474250623abbb145360c492d737",
+        "size": 8017,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/base-images.md",
+        "git_blob_sha1": "e4639864152f5d635f6cb9d08682ba803d7024c7",
+        "sha256": "26a55440e703ba7d314847b7ca0d199447c5b37da9e91d66a2dc509bf9636e1a",
+        "size": 3657,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/detection.md",
+        "git_blob_sha1": "56d8a7109c3693678557d081c91b99db3eb5b118",
+        "sha256": "41804e5e275c0f4e3b1cad11d90a67afd09fb635f699ac89bd6eff81854f0998",
+        "size": 3623,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/rollback.md",
+        "git_blob_sha1": "940ac0deeacb613c5eeb28c836d0abcf03100f85",
+        "sha256": "be48bb7ed21568fe4b11cfccda269fc7b0c305647acedcbfb23a7468edfa8162",
+        "size": 2048,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/safeguards.md",
+        "git_blob_sha1": "258ecd059d2fcf0e664ba2d39861cc06ce3aa3be",
+        "sha256": "9f7894df0940a5c839cf8c5fb08d1f0d683d9b9b106e36157d6e91e9c1d8a813",
+        "size": 2999,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/workload-identity.md",
+        "git_blob_sha1": "3a3569d2ab743663360a4d4ce2bd03965d8ee1d1",
+        "sha256": "342284fd3ad2a24f2c35f3c60a739a76bed44c59341819d55b70849f006977ed",
+        "size": 7566,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/dotnet.Dockerfile",
+        "git_blob_sha1": "337a2043241bde7a7beafb241241e9be67f6149d",
+        "sha256": "f0e13016f78487dd8bfaa36febd2a730cb6728f8ac0dcceb6844d148a8f41757",
+        "size": 2618,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/dotnet.dockerignore",
+        "git_blob_sha1": "8df1053613420a676f4ef5cd62217095d171cfc5",
+        "sha256": "5306cbaeaebe80c763c1037fabf727bd8ef4493c1b6dc11d4d587a93587bc95b",
+        "size": 125,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/go.Dockerfile",
+        "git_blob_sha1": "1f8663b526f6e520f9f17eb5cdc9ff8bb3bed48a",
+        "sha256": "161d291610c232ec5e2c58c0232174321864fa530107f20663f249f893a2ba33",
+        "size": 2177,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/go.dockerignore",
+        "git_blob_sha1": "6b1cc2cac7c82b55df787af3fc11cb34c8e4f4cc",
+        "sha256": "76f037bb2393f2368d1211aa84df158fe5849324917b7fe10bb305affaac72c7",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/java.Dockerfile",
+        "git_blob_sha1": "6e6e5f6302c52025c6ef509938c20414245fa00d",
+        "sha256": "a8d0772283ed7ea6905d88589923e9c63db378b679dff40612c14915e8d4e66e",
+        "size": 3120,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/java.dockerignore",
+        "git_blob_sha1": "c5f60d24b76bca4346241fd73442f01ac4f1324c",
+        "sha256": "832a7b09580d6e21ad1e9e428650dcdd8555d2dae63d970e461ea2c4003e6927",
+        "size": 156,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/node.Dockerfile",
+        "git_blob_sha1": "7ffb3a734453e0ebb3e1d279ae4d47bc1102dcde",
+        "sha256": "21a5925d7462213629279746415c4088593a79174cc00b24d4a5d04b5ead7041",
+        "size": 3063,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/node.dockerignore",
+        "git_blob_sha1": "414950c2a7c19e1abe5f3cb8cdd9ed644bc31329",
+        "sha256": "a7d7ff4bdbaefaf3a06dc8546b71b3d6e43c8af7be151f5e431ec1978ab3f2a4",
+        "size": 173,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/python.Dockerfile",
+        "git_blob_sha1": "526bf35006d742ab78a7be7b773544d9e65f09bb",
+        "sha256": "c5cd3d3ef0f4842b4bfa485c5c7d7ce696e971a19e38d27e40f2fd1fb6f6a303",
+        "size": 2637,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/python.dockerignore",
+        "git_blob_sha1": "fccf853663c23c4fca01f41f49a8f6d541711cb4",
+        "sha256": "641836812197f5fea8816595ef13b6dfcdc49a078ee883920f9438d3743f4149",
+        "size": 201,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/rust.Dockerfile",
+        "git_blob_sha1": "cc3962ff8d924df1c9156a37325b4a8df53551cd",
+        "sha256": "cf84e7246d43c36015bfbdb5d0f3a96d16bc77892a725cc1956186612c35f70c",
+        "size": 3227,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/rust.dockerignore",
+        "git_blob_sha1": "04876f729e02f69d3330c1b2bc13c5c35b09001a",
+        "sha256": "2c0b055944802d7ae80ae3b37891ab31233ae6bc93fcfc2a17988d5889bf2289",
+        "size": 87,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/github-actions/deploy.yml",
+        "git_blob_sha1": "4a992df424637ffb8ff3224522ec18371f684116",
+        "sha256": "ed07c82ed48bb296e45d9fe37e44669c2bb0387caf58325eeded5da5eb1bb494",
+        "size": 7623,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/configmap.yaml",
+        "git_blob_sha1": "55a31a9642e9e91ca600198c0d0853e7f44454bd",
+        "sha256": "1a90e403f53b5e9542319cffe1d41cce5101f0b85b3d0c04008c4de1c39b17f4",
+        "size": 1054,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/deployment.yaml",
+        "git_blob_sha1": "f521493b629040603ee4be5283eec45cc949e543",
+        "sha256": "95eed829f21c93256dcb45697cd10bd7dc4698237396b92bf77cbd5c43887fca",
+        "size": 3458,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/gateway.yaml",
+        "git_blob_sha1": "1a0e3f1687ac570de2fdd0bcf920fd99be9b8e56",
+        "sha256": "a88f09525879b8331bc1dc9f1eb5c5efb898d90ae4e9e468acb8eedbe49819d5",
+        "size": 1543,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/hpa.yaml",
+        "git_blob_sha1": "f0f80800e4e7fba86b434d21452a171a48b388e5",
+        "sha256": "85a69dca61312621f002b7908b2995412c45b794d6638a1191b080655fb0bfe6",
+        "size": 1418,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/httproute.yaml",
+        "git_blob_sha1": "ce8cac6f6f5a6e63bdf3720735b019e02966656d",
+        "sha256": "b7a20e01dbfe38b1d0c60ad92b77b29dcf6ae338fb2837651cf1305dd7a74866",
+        "size": 1339,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/ingress.yaml",
+        "git_blob_sha1": "1d3130eef99e42ab0dbc15d353cbd76a9ab17595",
+        "sha256": "e6f088b331b0fdf40b2b07f90640354cdb71110ec454a18f88d29c64e6a4b3fa",
+        "size": 1959,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/namespace.yaml",
+        "git_blob_sha1": "a53a5bf92de0e40638fc34feb25fb289388e4b25",
+        "sha256": "e77f6a0f68dec95d48405b43908a2eac68c9de4c0a3633fc5b8fd0ed76819a92",
+        "size": 734,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/networkpolicy.yaml",
+        "git_blob_sha1": "2e6a325c661c58edb7e69e776b6cb786811caa2e",
+        "sha256": "c0f5ba2f56628e38c87091658cd551c5ff0ef1353e2c389559f162866511192b",
+        "size": 1627,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/pdb.yaml",
+        "git_blob_sha1": "dad4b37a59e428d95b0835e8a207eb3d73241011",
+        "sha256": "4cbe61ad7e8a8a994bd435253f1218ca8735f08233a7a45968e50873f14ff556",
+        "size": 758,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/service.yaml",
+        "git_blob_sha1": "642d8832e0377ee95bdebaa8c71209310aa9dd00",
+        "sha256": "4174de229b2b7fb318eab0f57f25c05055bab03849aa7c795f49b039e48f4d57",
+        "size": 864,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/serviceaccount.yaml",
+        "git_blob_sha1": "e28321d866e3adb56211e7595e2c4fa5af877bd2",
+        "sha256": "c4d222b307b80d19c2d86708121329578cd0d39b0f619680a50fcc1824d70ece",
+        "size": 1476,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/mermaid/architecture-diagram.md",
+        "git_blob_sha1": "28f6ea3864ae5789f9d79c156437408c71aa701a",
+        "sha256": "4ba00f2d649e771d2011f48f1c0eb7534c05aa5770239fbec80073b15de524a4",
+        "size": 1663,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/mermaid/summary-dashboard.md",
+        "git_blob_sha1": "9db77906ea91e9483b03a5fb672ff9f797cff4ba",
+        "sha256": "026641bacf96fdb18ec3c071b9789ab055a610e2c56116fd951bfde7c9b645c2",
+        "size": 1785,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/SKILL.md",
+        "git_blob_sha1": "c5618c53ef11a5e392f02dddc4e70501df1b3297",
+        "sha256": "66fc85d1e8f354abe57d174733aaaf1877197d54cc972cc0372b0d28e8b8c852",
+        "size": 17606,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/references/common-fixes.md",
+        "git_blob_sha1": "75de956e8f0ca83270e2290d2c18162630886796",
+        "sha256": "cc1416d3daf5d46215e049870701d31a76e1f5435e6a31490ac25d5242c39079",
+        "size": 7459,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/references/constraint-spec-v1.yaml",
+        "git_blob_sha1": "59f6c6b930628e93627291e585bf1c43b2212e2a",
+        "sha256": "812441aba3acbaec6c52d14a0451e0e7e03c01871aa67a1cff887cae7251dd44",
+        "size": 24895,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/references/mcp-integration.md",
+        "git_blob_sha1": "85e45f30ed42f49a706c8455380d202a52002683",
+        "sha256": "54ffeec6cd459ab24ea7ae5ba0ec3d03395f99de6ff9fc311e312ed366f87315",
+        "size": 8651,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/references/migration-guide-summary.md",
+        "git_blob_sha1": "b4e0965b77e761df185bdd5a87a7f3c1ebc7fe2f",
+        "sha256": "5988647b7eb6206474c4a43a470c25c05998788e97150b94a1d1ed3e7a73451b",
+        "size": 7081,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/scripts/sanitize-readiness-input.jq",
+        "git_blob_sha1": "2b1e2d7d7c431037206d929984330399469e021e",
+        "sha256": "bae0d43d5c36fab6acb75174e16bfa62b1b09cb07768ba2341913e0ecef61362",
+        "size": 7953,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-autoscaler.md",
+        "git_blob_sha1": "57e4bbf9b75ae4a6d21eafbc65771937708cc48e",
+        "sha256": "b759daff511a30e35c2948f7a92a6c2ce18ce47b3345f3f382a3094482736d08",
+        "size": 4083,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-rightsizing.md",
+        "git_blob_sha1": "daabf273b7db9840508ba073e7c80de3cb99fdad",
+        "sha256": "8c9edefed4b07ca3c914732e6fb3b43ff4f43fc93451ad58f169981efd5f4358",
+        "size": 4444,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-spot.md",
+        "git_blob_sha1": "cfe47cc4b9e731a3b0032264be8011d667c0d2ca",
+        "sha256": "b477bf746cd844986c44e953a72034ab5ca32971f746a2166f556eefd8f2b91a",
+        "size": 4751,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-vpa.md",
+        "git_blob_sha1": "92e34508da3c3d09160e2ce132d840188cb4b064",
+        "sha256": "3dae1c706ebe394f4964b581bd9537fdb7625c3784a03e76bcce52cd7bb80cb6",
+        "size": 1472,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-reference.md",
+        "git_blob_sha1": "af100da7f226caec84a94aeb96b4891dd2a5c164",
+        "sha256": "b3c5588bd3abf50244c984f6ee79cfa4d6d157a9ac488a1cc6bf20060087d7f3",
+        "size": 1188,
+        "mode": "100644"
+      },
+      {
+        "path": "references/optional-aks-operations.md",
+        "git_blob_sha1": "ff16c3e3493c908fc6948f279cd6f047fe74d1a8",
+        "sha256": "1039c4433965c110343b398b0f4efa2b40be32d733532b529dbd2b396fb84c20",
+        "size": 2698,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "09e9f0c4e5f26551773572448c8b7b5d68b2b965",
+    "computed_tree_sha": "587eba8258d3f18087c0b9683e3bf3a98e2d4286",
+    "api_tree_sha_as_returned": "587eba8258d3f18087c0b9683e3bf3a98e2d4286",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c5b7d501c1f08a1fa64d9f9ea9c34133fd346a41",
+        "sha256": "e3c45752a59fd9257df4e9766c37993df06aca8657f44da063dcab4f65a719b8",
+        "size": 13065,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/SKILL.md",
+        "git_blob_sha1": "e3e148299871832471b4b056093e386a132e8d4a",
+        "sha256": "d29b307591886cde7841ff3cdb5509fbee2f66ffeb8c14dc88fd2e9a0a6f8dbe",
+        "size": 2012,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/aspnet-core.md",
+        "git_blob_sha1": "842309fe363f5e6211d582b7f4b813f389655c9c",
+        "sha256": "e67fdfd98e1544f5473a62c0ac70024d33306f051e2bd7b80f5a4ea0335c8b15",
+        "size": 7432,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/django.md",
+        "git_blob_sha1": "40d80671519e1db96a94963ede2899f45a0f3ae7",
+        "sha256": "33826ede3306b4c2d9894968f79fbc2b8c3835c73c28bdf636efda45f5661da3",
+        "size": 6142,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/express.md",
+        "git_blob_sha1": "140c293f0d9483fadf7c80c53664d24c7f20ac68",
+        "sha256": "7fd50a40bc8abff5e22da41714698b80994f41250e72b8e864bfcf36dd8a9efa",
+        "size": 6811,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/fastapi.md",
+        "git_blob_sha1": "bb7c8a82c443bb8d383497d238125c5312395872",
+        "sha256": "33ef9f994485797759813d526435e6ccdd02359ceebb043a48aad4f24f883bc3",
+        "size": 5947,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/flask.md",
+        "git_blob_sha1": "5cccfb8c6c5418aac5daa8a3b2872b8a8872c226",
+        "sha256": "d8403f95736a0215544f472dbb542269ec9769803487c1ff4ce1b724fcf63d9e",
+        "size": 6322,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/go.md",
+        "git_blob_sha1": "5a2cbe67907d3cc8ccaa5a2ff48d68ef2152d26f",
+        "sha256": "4744f03992e3ed175241f1729824b0bcde2c2c2fc75bd85ab9568cb3d5e63528",
+        "size": 6997,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/nestjs.md",
+        "git_blob_sha1": "f7f6520edf9ed47faf2f617910c95068ce97c16f",
+        "sha256": "d79dea38ee39735e2f85b71a26a570e476258bd94166fe33aa3f0cfcf7edfa34",
+        "size": 6845,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/nextjs.md",
+        "git_blob_sha1": "4fedadfcd68d7547e10388f2933d9a314c7627b2",
+        "sha256": "9faf0bb704d0ae9e5bc797606065853d10fbb18ce7cecf3f9ea278e6a64dc466",
+        "size": 7318,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/knowledge-packs/frameworks/spring-boot.md",
+        "git_blob_sha1": "12f41d2b2843fb2af4cba9325ede4082f9eb8a67",
+        "sha256": "3822a0468c2e22528a26bffc5dcdfe74276bb755a86109dea7c49296e5d86753",
+        "size": 6157,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/phases/quick-deploy.md",
+        "git_blob_sha1": "c8e1242530b2f9b22fcf0d64f89f3ce743986f8e",
+        "sha256": "3203e42fd195104c188e585146994f2d88cb7474250623abbb145360c492d737",
+        "size": 8017,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/base-images.md",
+        "git_blob_sha1": "e4639864152f5d635f6cb9d08682ba803d7024c7",
+        "sha256": "26a55440e703ba7d314847b7ca0d199447c5b37da9e91d66a2dc509bf9636e1a",
+        "size": 3657,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/detection.md",
+        "git_blob_sha1": "56d8a7109c3693678557d081c91b99db3eb5b118",
+        "sha256": "41804e5e275c0f4e3b1cad11d90a67afd09fb635f699ac89bd6eff81854f0998",
+        "size": 3623,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/rollback.md",
+        "git_blob_sha1": "940ac0deeacb613c5eeb28c836d0abcf03100f85",
+        "sha256": "be48bb7ed21568fe4b11cfccda269fc7b0c305647acedcbfb23a7468edfa8162",
+        "size": 2048,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/safeguards.md",
+        "git_blob_sha1": "258ecd059d2fcf0e664ba2d39861cc06ce3aa3be",
+        "sha256": "9f7894df0940a5c839cf8c5fb08d1f0d683d9b9b106e36157d6e91e9c1d8a813",
+        "size": 2999,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/references/workload-identity.md",
+        "git_blob_sha1": "3a3569d2ab743663360a4d4ce2bd03965d8ee1d1",
+        "sha256": "342284fd3ad2a24f2c35f3c60a739a76bed44c59341819d55b70849f006977ed",
+        "size": 7566,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/dotnet.Dockerfile",
+        "git_blob_sha1": "337a2043241bde7a7beafb241241e9be67f6149d",
+        "sha256": "f0e13016f78487dd8bfaa36febd2a730cb6728f8ac0dcceb6844d148a8f41757",
+        "size": 2618,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/dotnet.dockerignore",
+        "git_blob_sha1": "8df1053613420a676f4ef5cd62217095d171cfc5",
+        "sha256": "5306cbaeaebe80c763c1037fabf727bd8ef4493c1b6dc11d4d587a93587bc95b",
+        "size": 125,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/go.Dockerfile",
+        "git_blob_sha1": "1f8663b526f6e520f9f17eb5cdc9ff8bb3bed48a",
+        "sha256": "161d291610c232ec5e2c58c0232174321864fa530107f20663f249f893a2ba33",
+        "size": 2177,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/go.dockerignore",
+        "git_blob_sha1": "6b1cc2cac7c82b55df787af3fc11cb34c8e4f4cc",
+        "sha256": "76f037bb2393f2368d1211aa84df158fe5849324917b7fe10bb305affaac72c7",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/java.Dockerfile",
+        "git_blob_sha1": "6e6e5f6302c52025c6ef509938c20414245fa00d",
+        "sha256": "a8d0772283ed7ea6905d88589923e9c63db378b679dff40612c14915e8d4e66e",
+        "size": 3120,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/java.dockerignore",
+        "git_blob_sha1": "c5f60d24b76bca4346241fd73442f01ac4f1324c",
+        "sha256": "832a7b09580d6e21ad1e9e428650dcdd8555d2dae63d970e461ea2c4003e6927",
+        "size": 156,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/node.Dockerfile",
+        "git_blob_sha1": "7ffb3a734453e0ebb3e1d279ae4d47bc1102dcde",
+        "sha256": "21a5925d7462213629279746415c4088593a79174cc00b24d4a5d04b5ead7041",
+        "size": 3063,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/node.dockerignore",
+        "git_blob_sha1": "414950c2a7c19e1abe5f3cb8cdd9ed644bc31329",
+        "sha256": "a7d7ff4bdbaefaf3a06dc8546b71b3d6e43c8af7be151f5e431ec1978ab3f2a4",
+        "size": 173,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/python.Dockerfile",
+        "git_blob_sha1": "526bf35006d742ab78a7be7b773544d9e65f09bb",
+        "sha256": "c5cd3d3ef0f4842b4bfa485c5c7d7ce696e971a19e38d27e40f2fd1fb6f6a303",
+        "size": 2637,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/python.dockerignore",
+        "git_blob_sha1": "fccf853663c23c4fca01f41f49a8f6d541711cb4",
+        "sha256": "641836812197f5fea8816595ef13b6dfcdc49a078ee883920f9438d3743f4149",
+        "size": 201,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/rust.Dockerfile",
+        "git_blob_sha1": "cc3962ff8d924df1c9156a37325b4a8df53551cd",
+        "sha256": "cf84e7246d43c36015bfbdb5d0f3a96d16bc77892a725cc1956186612c35f70c",
+        "size": 3227,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/dockerfiles/rust.dockerignore",
+        "git_blob_sha1": "04876f729e02f69d3330c1b2bc13c5c35b09001a",
+        "sha256": "2c0b055944802d7ae80ae3b37891ab31233ae6bc93fcfc2a17988d5889bf2289",
+        "size": 87,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/github-actions/deploy.yml",
+        "git_blob_sha1": "4a992df424637ffb8ff3224522ec18371f684116",
+        "sha256": "ed07c82ed48bb296e45d9fe37e44669c2bb0387caf58325eeded5da5eb1bb494",
+        "size": 7623,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/configmap.yaml",
+        "git_blob_sha1": "55a31a9642e9e91ca600198c0d0853e7f44454bd",
+        "sha256": "1a90e403f53b5e9542319cffe1d41cce5101f0b85b3d0c04008c4de1c39b17f4",
+        "size": 1054,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/deployment.yaml",
+        "git_blob_sha1": "f521493b629040603ee4be5283eec45cc949e543",
+        "sha256": "95eed829f21c93256dcb45697cd10bd7dc4698237396b92bf77cbd5c43887fca",
+        "size": 3458,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/gateway.yaml",
+        "git_blob_sha1": "1a0e3f1687ac570de2fdd0bcf920fd99be9b8e56",
+        "sha256": "a88f09525879b8331bc1dc9f1eb5c5efb898d90ae4e9e468acb8eedbe49819d5",
+        "size": 1543,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/hpa.yaml",
+        "git_blob_sha1": "f0f80800e4e7fba86b434d21452a171a48b388e5",
+        "sha256": "85a69dca61312621f002b7908b2995412c45b794d6638a1191b080655fb0bfe6",
+        "size": 1418,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/httproute.yaml",
+        "git_blob_sha1": "ce8cac6f6f5a6e63bdf3720735b019e02966656d",
+        "sha256": "b7a20e01dbfe38b1d0c60ad92b77b29dcf6ae338fb2837651cf1305dd7a74866",
+        "size": 1339,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/ingress.yaml",
+        "git_blob_sha1": "1d3130eef99e42ab0dbc15d353cbd76a9ab17595",
+        "sha256": "e6f088b331b0fdf40b2b07f90640354cdb71110ec454a18f88d29c64e6a4b3fa",
+        "size": 1959,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/namespace.yaml",
+        "git_blob_sha1": "a53a5bf92de0e40638fc34feb25fb289388e4b25",
+        "sha256": "e77f6a0f68dec95d48405b43908a2eac68c9de4c0a3633fc5b8fd0ed76819a92",
+        "size": 734,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/networkpolicy.yaml",
+        "git_blob_sha1": "2e6a325c661c58edb7e69e776b6cb786811caa2e",
+        "sha256": "c0f5ba2f56628e38c87091658cd551c5ff0ef1353e2c389559f162866511192b",
+        "size": 1627,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/pdb.yaml",
+        "git_blob_sha1": "dad4b37a59e428d95b0835e8a207eb3d73241011",
+        "sha256": "4cbe61ad7e8a8a994bd435253f1218ca8735f08233a7a45968e50873f14ff556",
+        "size": 758,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/service.yaml",
+        "git_blob_sha1": "642d8832e0377ee95bdebaa8c71209310aa9dd00",
+        "sha256": "4174de229b2b7fb318eab0f57f25c05055bab03849aa7c795f49b039e48f4d57",
+        "size": 864,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/k8s/serviceaccount.yaml",
+        "git_blob_sha1": "e28321d866e3adb56211e7595e2c4fa5af877bd2",
+        "sha256": "c4d222b307b80d19c2d86708121329578cd0d39b0f619680a50fcc1824d70ece",
+        "size": 1476,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/mermaid/architecture-diagram.md",
+        "git_blob_sha1": "28f6ea3864ae5789f9d79c156437408c71aa701a",
+        "sha256": "4ba00f2d649e771d2011f48f1c0eb7534c05aa5770239fbec80073b15de524a4",
+        "size": 1663,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-app-deploy/templates/mermaid/summary-dashboard.md",
+        "git_blob_sha1": "9db77906ea91e9483b03a5fb672ff9f797cff4ba",
+        "sha256": "026641bacf96fdb18ec3c071b9789ab055a610e2c56116fd951bfde7c9b645c2",
+        "size": 1785,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/SKILL.md",
+        "git_blob_sha1": "c5618c53ef11a5e392f02dddc4e70501df1b3297",
+        "sha256": "66fc85d1e8f354abe57d174733aaaf1877197d54cc972cc0372b0d28e8b8c852",
+        "size": 17606,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/references/common-fixes.md",
+        "git_blob_sha1": "75de956e8f0ca83270e2290d2c18162630886796",
+        "sha256": "cc1416d3daf5d46215e049870701d31a76e1f5435e6a31490ac25d5242c39079",
+        "size": 7459,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/references/constraint-spec-v1.yaml",
+        "git_blob_sha1": "59f6c6b930628e93627291e585bf1c43b2212e2a",
+        "sha256": "812441aba3acbaec6c52d14a0451e0e7e03c01871aa67a1cff887cae7251dd44",
+        "size": 24895,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/references/mcp-integration.md",
+        "git_blob_sha1": "85e45f30ed42f49a706c8455380d202a52002683",
+        "sha256": "54ffeec6cd459ab24ea7ae5ba0ec3d03395f99de6ff9fc311e312ed366f87315",
+        "size": 8651,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/references/migration-guide-summary.md",
+        "git_blob_sha1": "b4e0965b77e761df185bdd5a87a7f3c1ebc7fe2f",
+        "sha256": "5988647b7eb6206474c4a43a470c25c05998788e97150b94a1d1ed3e7a73451b",
+        "size": 7081,
+        "mode": "100644"
+      },
+      {
+        "path": "azure-kubernetes-automatic-readiness/scripts/sanitize-readiness-input.jq",
+        "git_blob_sha1": "2b1e2d7d7c431037206d929984330399469e021e",
+        "sha256": "bae0d43d5c36fab6acb75174e16bfa62b1b09cb07768ba2341913e0ecef61362",
+        "size": 7953,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-autoscaler.md",
+        "git_blob_sha1": "57e4bbf9b75ae4a6d21eafbc65771937708cc48e",
+        "sha256": "b759daff511a30e35c2948f7a92a6c2ce18ce47b3345f3f382a3094482736d08",
+        "size": 4083,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-nap-readiness.md",
+        "git_blob_sha1": "61b49bf5f7b936b41171894faad108700b6d4fe8",
+        "sha256": "09941ccb16ef2ce7970472ad68143d1377022c608de357a2b98a94794f28ca1c",
+        "size": 2527,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-rightsizing.md",
+        "git_blob_sha1": "daabf273b7db9840508ba073e7c80de3cb99fdad",
+        "sha256": "8c9edefed4b07ca3c914732e6fb3b43ff4f43fc93451ad58f169981efd5f4358",
+        "size": 4444,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-spot.md",
+        "git_blob_sha1": "cfe47cc4b9e731a3b0032264be8011d667c0d2ca",
+        "sha256": "b477bf746cd844986c44e953a72034ab5ca32971f746a2166f556eefd8f2b91a",
+        "size": 4751,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-aks-vpa.md",
+        "git_blob_sha1": "92e34508da3c3d09160e2ce132d840188cb4b064",
+        "sha256": "3dae1c706ebe394f4964b581bd9537fdb7625c3784a03e76bcce52cd7bb80cb6",
+        "size": 1472,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-reference.md",
+        "git_blob_sha1": "af100da7f226caec84a94aeb96b4891dd2a5c164",
+        "sha256": "b3c5588bd3abf50244c984f6ee79cfa4d6d157a9ac488a1cc6bf20060087d7f3",
+        "size": 1188,
+        "mode": "100644"
+      },
+      {
+        "path": "references/optional-aks-operations.md",
+        "git_blob_sha1": "c44b6b3d3a16a16e4597dc36b92246a2fe5b4e94",
+        "sha256": "3d08c4042744ef22186af83137da608d07e61f4d25a45fa30d7f08cf7159605a",
+        "size": 3111,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/azure-aks-nap-readiness.md",
+    "references/optional-aks-operations.md"
+  ],
+  "old_commit": "61fe0305ea70389ed8705eec6026a786f57865cf",
+  "new_commit": "09e9f0c4e5f26551773572448c8b7b5d68b2b965",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-10-28T11:03:59Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/61fe0305ea70389ed8705eec6026a786f57865cf...09e9f0c4e5f26551773572448c8b7b5d68b2b965",
+  "commit_url": "https://github.com/microsoft/skills/commit/09e9f0c4e5f26551773572448c8b7b5d68b2b965",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-kubernetes",
+  "local_directory": "verified_real_update_pairs/OPU-0469",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0469",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

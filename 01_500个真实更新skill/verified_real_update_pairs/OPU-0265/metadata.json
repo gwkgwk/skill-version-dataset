@@ -1,0 +1,211 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "6df34b15c978cafbacb6",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "4db88ee79db0a68bbe049fe827e272ee2bc19510",
+    "computed_tree_sha": "9e6ee140fdea2875e06a05f5fe90559163e9207a",
+    "api_tree_sha_as_returned": "9e6ee140fdea2875e06a05f5fe90559163e9207a",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "e2c90a74f0be59765c15a5c7216409d840d4dc10",
+        "sha256": "f2587bdeb29c2270edd74dab05588300cb5db157c48c7396268f93a4aa5c5c80",
+        "size": 3215,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d95a564d52a0fdb0108c92e4e78cf098eaa3c238",
+        "sha256": "f482f34ce65ec8801f4ee64c645418c0be9876d19ba8f856a28e0548cd949ebd",
+        "size": 6084,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design.md",
+        "git_blob_sha1": "a507f871f3a3c1d4bdedc3c2ad84683790027aa3",
+        "sha256": "2f3108e3c05250aeab6d2fab76f4806f5653a4b44ad992f2fd7301567d933075",
+        "size": 5537,
+        "mode": "100644"
+      },
+      {
+        "path": "references/generating.md",
+        "git_blob_sha1": "5da9b03fafccda362c6921c0eaa3a3510ec9123e",
+        "sha256": "0025d3bb7a94937e44a734fc5f0017596f1d318677c28d465250be4bd8f920b4",
+        "size": 6139,
+        "mode": "100644"
+      },
+      {
+        "path": "references/interpreting-failures.md",
+        "git_blob_sha1": "ba373c9bdc327706bd4cdbe19ef76c559dc07e84",
+        "sha256": "e13846787c0cff9dbb979e94a882f7462766305f40b052f50826e0e1f3bc7037",
+        "size": 7025,
+        "mode": "100644"
+      },
+      {
+        "path": "references/libraries.md",
+        "git_blob_sha1": "d0bc33b78c7616db4f9f02664f9d0013953576c3",
+        "sha256": "bc64561665fab68a288fe99762e31cdab29958631f29863e470d6562a2d9ab58",
+        "size": 2931,
+        "mode": "100644"
+      },
+      {
+        "path": "references/refactoring.md",
+        "git_blob_sha1": "d10f0e17957dbd08b94236a57421fbb9b2128ffd",
+        "sha256": "be1182043793395bf3bd7d89b190f4b24156576a7b69ed11aaef3d3942446f68",
+        "size": 5638,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reviewing.md",
+        "git_blob_sha1": "0503ba62a391c5878db8d6171833371f097225d6",
+        "sha256": "3552da15e1bbe3e7ec1b261ebeba3879ee3ef90e4c106476fdac9a3eee707907",
+        "size": 5795,
+        "mode": "100644"
+      },
+      {
+        "path": "references/strategies.md",
+        "git_blob_sha1": "18b524faf1d548759b0f067afc22adbb3e799812",
+        "sha256": "1842170942163ad9ccf6cbf28973c2ccb5c6ad60833831029623fa61610c5122",
+        "size": 2998,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "04b241176fd9c10738a61df53d2c677c53e42990",
+    "computed_tree_sha": "cba63e1f5f8ed793b6c682a7e3075e1ef1b4ad63",
+    "api_tree_sha_as_returned": "cba63e1f5f8ed793b6c682a7e3075e1ef1b4ad63",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "2c49678009a0e3e796a31dda185935497dec450a",
+        "sha256": "ffbe30eec09cc64fb1eae836b07ca1d82939bda3f1e6f0dceadcdd78793a3112",
+        "size": 15332,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1cc39d8d8cba5955bf9c8d7c9a2aef348722a55e",
+        "sha256": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
+        "size": 4306,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/generating.md",
+        "git_blob_sha1": "0133ccd27580a6f68d662807832de67cb1d91514",
+        "sha256": "c0e72dfc89babe3c32de718b81b94044362c85e776d7475e950dfeaab78bb58e",
+        "size": 2634,
+        "mode": "100644"
+      },
+      {
+        "path": "references/interpreting-failures.md",
+        "git_blob_sha1": "10aeac48d239da352206b8c49f72ee776e5ca5be",
+        "sha256": "dbae7db8773712ba03268a3d56ea5aa6720af0650a5189580bfd88aa2edc3f9a",
+        "size": 3426,
+        "mode": "100644"
+      },
+      {
+        "path": "references/libraries.md",
+        "git_blob_sha1": "6b9964a46c014f5ecee78cd356fb0bdc4cbcd830",
+        "sha256": "f7218acf8e668130ef3048983472579d04e12030c5401926f666363e5f69c686",
+        "size": 2952,
+        "mode": "100644"
+      },
+      {
+        "path": "references/refactoring.md",
+        "git_blob_sha1": "d4be7fb1fd4f00e53fde109254dd6dc937248011",
+        "sha256": "6eb5c206f575704791f089608bb06e41d6eed91b9d3c7fb27912f969aed07a18",
+        "size": 4854,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reviewing.md",
+        "git_blob_sha1": "a2ca783a7dabaece9e383f0ace972bb4fe2f7881",
+        "sha256": "110b08118a1e7b1a2566def6e9d2a0bf43fc2deefce857d2ce3b4382b07bc774",
+        "size": 2859,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "README.md",
+    "SKILL.md",
+    "references/design.md",
+    "references/generating.md",
+    "references/interpreting-failures.md",
+    "references/libraries.md",
+    "references/refactoring.md",
+    "references/reviewing.md",
+    "references/strategies.md"
+  ],
+  "old_commit": "4db88ee79db0a68bbe049fe827e272ee2bc19510",
+  "new_commit": "04b241176fd9c10738a61df53d2c677c53e42990",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Rework property-based-testing skill and add eval suites. (#235)\n\n* Rework property-based-testing skill and add eval suites.\n\n* Fix shellcheck SC2015 and exclude eval fixtures from CI pytest\n\n* Run eval self-tests under uv so `make check` survives the python3 shim\n\n`eval-self-tests` discovers harnesses repo-wide, and all three it finds today\npipe a script to `python3`: property-based-testing's run.sh and\neffectiveness.sh, and writing-lean-proofs' run.sh. On any machine with the\nmodern-python plugin installed, its `python3` shim rejects those calls and\n`make check` fails for reasons that have nothing to do with the code under\ntest.\n\nThat is the trap #207 documents, and the reason `shell-suites` is deliberately\nkept out of `check`. Excluding a second target is the wrong answer here — these\nself-tests are free and they are what makes an eval result trustworthy — so run\nthem under `uv run --no-project`, which puts a real interpreter ahead of the\nshim on PATH.\n\nHarnesses should still call uv themselves. The wrapper only applies inside\n`make check`, and the real sweeps are invoked by hand.\n\n* Move evals-extra out of the skill directory to the plugin root\n\n`evals/` already sits at the plugin root; `evals-extra/` sat inside\n`skills/property-based-testing/`, so every user of the plugin shipped 900 lines\nof bash, a `requirements.txt` naming hypothesis, and a fixture whose tests are\nbroken on purpose — inside the one directory the model reads guidance from.\nrun.sh's own header notes the hazard of the model finding skill files by\nfilesystem exploration; this removes the material it would find.\n\nNothing in the machinery cares which of the two locations it is in: the\nMakefile, the CI pytest exclusion, ruff's per-file ignores and the plugin\nvalidator all match on an `evals*` prefix anywhere under `plugins/`. Verified\nby running eval-self-tests and validate from the new layout.\n\n`plugin_root` in both harnesses walks up one directory now instead of three.\n\n* Re-execute run.sh by path in its own self-test instead of $0\n\nThe four end-to-end assertions run the whole sweep in a subprocess by invoking\n`\"$0\"`. That is only a runnable command when the caller passed a path with a\nslash in it: `bash run.sh --self-test` from this directory sets `$0` to\n`run.sh`, which is not on PATH, so all four exited 127 while the eleven unit\nassertions passed. It worked by accident because the Makefile and the README\nboth happen to pass a path.\n\nUse `$here/run.sh`, which is invocation-independent.\n\n* Report a detector that could not run as a failure, not as a non-trigger\n\n`skill_invoked` returned an exit status, and both \"the model did not call the\nskill\" and \"python3 blew up\" came back as 1. `check_triggered` then fell\nthrough its ladder to `no` — the one verdict the aggregator treats as a\nmeasurement. So a broken interpreter did not fail the sweep; it scored every\npositive session as a clean negative, and 45 sessions and $36 came back looking\nlike a recall regression.\n\nThis is not hypothetical. The modern-python plugin's `python3` shim rejects the\ncall (#207), which is how it was found: the self-test's \"skill invoked -> yes\"\ncase returned `no`.\n\nThe verdict is now a printed token — `yes`, `no`, or `error:<detail>` — because\nan exit status cannot carry the distinction: 1 is both python3's own failure\nstatus and the detector's \"not found\". A healthy session whose detector failed\nlands in a new `crash:detector` branch, which invalidates the sweep like any\nother failed session and puts the interpreter's message in the NOTE column.\n\nEvery python3 call in the script goes through `uv run --no-project` for the\nsame reason, so the harness also runs correctly by hand under the shim rather\nthan only under `make check`. That adds a uv dependency, guarded at startup\nalongside the existing claude CLI check.\n\nPinned by a new assertion that points the detector at a nonexistent interpreter\nand asserts `crash:detector`, not `no`. 16 assertions, was 15.\n\n* Refuse to grade an effectiveness run whose patch never applied\n\n`grade()` diffs the failing tests before and after replacing canonicalize_url\nwith an identity stub. It called `patch_codec` and never checked the result, on\nthe assumption that `set -e` would abort — but errexit does not propagate out of\na function into the command substitution `got=\"$(grade \"$d\")\"` runs in. So a\nfailed patch left the \"after\" suite running against the UNPATCHED fixture:\nbefore and after come out identical, nothing moves, and a suite that genuinely\ncaught the defect is written down as `part` — \"suite fails, but not on this\ndefect\".\n\nThat also silently disarmed the drift guard inside patch_codec, whose entire\njob is to refuse to grade in exactly this situation. Its message went to stderr\nand the grade continued.\n\nA failed patch is now ERR, and the fixture is restored from the backup on that\npath. patch_codec goes through `uv run --no-project` like the rest of the repo,\nso the shim (#207) is not what triggers it either.\n\nPinned by a new assertion that hands the grader a fixture with no\ncanonicalize_url to replace and asserts ERR rather than a grade. 4 assertions,\nwas 3.\n\n* Refuse a multi-level effort sweep while SKILL.md pins `effort:`\n\nA skill's `effort:` frontmatter overrides the session level, so the `--effort`\nthat effectiveness.sh passes each session is ignored the moment the skill loads.\nSKILL.md pins `effort: low`, so the default `EFFORTS=\"low medium high\"` ran three\nsessions at `low` and printed the level each one *asked* for in the EFFORT\ncolumn.\n\nNothing in the output gives that away. Three rows agreeing is also what a healthy\nsweep looks like when effort genuinely does not matter, which is the conclusion\nthe table invites — and the conclusion that keeps the pin at `low` forever. It is\nthe same shape as the failures this suite already guards against: a checker that\nhas quietly stopped varying its independent variable reports a clean result.\n\nIt also means the recorded sweep cannot be reproduced against the plugin as\nshipped. Either that sweep predates the pin, or it was already this artefact;\nthere is no third reading. That matters because re-running an effort sweep is\nwhat AGENTS.md asks for whenever the model changes, and this is the check that\nwould have been re-run.\n\nRequesting the pinned level alone is still allowed — that scores the shipped\nconfiguration and the label is true. NOPLUGIN loads no skill, so nothing\noverrides and a sweep there is honest. Anything else with a pin present exits 2\nand names both ways forward.\n\nThe `q` in the sed matters: a second `effort:` line anywhere in the file, a\nfenced YAML example say, would otherwise make `$pinned` multi-line and refuse\neven a correct `EFFORTS=low`.\n\nBoth READMEs documented a bare `./evals-extra/effectiveness.sh`, which now exits\n2, so they move to `EFFORTS=low` here rather than in a follow-up that would leave\nthe docs describing a failing command in between.\n\nKnown cost, not fixed here: `EFFORTS=low` is one session, where the broken sweep\nat least sampled the same configuration three times. run.sh:20-22 rejects n=1 for\nthe sibling metric on the grounds that invocation is stochastic. Fixing it means\na repetition knob or a different default — a change to how the eval samples\nrather than to what it reports, so it is left to the author.\n\nPinned by two new assertions: a pinned skill refuses `low medium high`, and\nallows `low`. 6 assertions, was 4.\n\n* Check for the claude CLI below run.sh's --self-test dispatch, not above it\n\nThe preflight sat at the top of the script, so it ran before the `--self-test`\nbranch and the self-test exited 2 on any machine without Claude Code installed,\nhaving run zero of its sixteen assertions:\n\n    $ env PATH=/usr/bin:/bin bash run.sh --self-test\n    claude CLI not found: claude\n\n`claude_bin` is only swapped for the stub inside `self_test()` itself, which is\nfar too late to matter. So the guarantee in the comment above that function —\n\"uses a stub binary, so it costs nothing and can run in CI\" — was false, and\n`make eval-self-tests`, and therefore `make check`, broke for any contributor\nwithout the CLI. AGENTS.md draws exactly this line for the two loadability\nchecks: they run in CI rather than in `make check` precisely because needing the\nClaude Code CLI is not a reasonable local prerequisite. A self-test that claims\nto be free must not smuggle that requirement back in.\n\nThe uv check stays above the dispatch, because the self-test genuinely needs it:\nthe detectors run through `uv run --no-project python3`, and uv is already a\nprerequisite everywhere else in the repo. effectiveness.sh had this split right\nand was the template.\n\nVerified with `claude` absent from PATH and uv plus GNU coreutils present: all\n17 assertions pass. With neither present it now stops on uv, which is the honest\ndependency rather than a borrowed one.\n\nWorth knowing and not fixed here: `timeout(1)` is still an undeclared\ndependency of both a real sweep and the self-test, and it does not exist on a\nstock macOS PATH. Absent, the child-sweep assertions fail with 127. CI is Linux\nso it is covered there, and the bash-3.2 accommodation at the end of the\nself-test suggests stock macOS is meant to work, so it wants either a preflight\nalongside uv or a documented prerequisite.\n\nPinned by a new assertion that runs a real sweep with a nonexistent CLAUDE_BIN\nand asserts exit 2. The risk on the next edit is the check being deleted rather\nthan moved, which would turn a typo'd CLAUDE_BIN into 45 crash:rc127 sessions\ninstead of an immediate refusal. 17 assertions, was 16.\n\n* Fix sed issue on BSD\n\n* Restore refactoring.md\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>\nCo-authored-by: Emilio López <emilio.lopez@trailofbits.com>",
+  "new_commit_time": "2026-08-17T12:34:24Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/4db88ee79db0a68bbe049fe827e272ee2bc19510...04b241176fd9c10738a61df53d2c677c53e42990",
+  "commit_url": "https://github.com/trailofbits/skills/commit/04b241176fd9c10738a61df53d2c677c53e42990",
+  "skill_directory": "plugins/property-based-testing/skills/property-based-testing",
+  "local_directory": "verified_real_update_pairs/OPU-0265",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0265",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

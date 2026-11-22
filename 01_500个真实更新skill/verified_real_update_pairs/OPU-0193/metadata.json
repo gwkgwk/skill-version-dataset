@@ -1,0 +1,191 @@
+{
+  "repository": "expo/skills",
+  "primary": "plugins/expo/skills/expo-native-ui/SKILL.md",
+  "pinned_commit": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+  "repository_license": "MIT",
+  "key": "f6f1b6fbdf7aca12ad1a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "ef167c8672097bdddf907ec4b6a4d817827176ff",
+    "computed_tree_sha": "d0d24668885ca08e684537cc68177a5aee5e9328",
+    "api_tree_sha_as_returned": "d0d24668885ca08e684537cc68177a5aee5e9328",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7503af8124a41ef40bd1db693754c5273b82cdb6",
+        "sha256": "9e7fb6b5ce028f714e3436dedcb7f1ded82e5bbd28ebc4872fa86b71ff733fa3",
+        "size": 12674,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "b41117eac0d64ecd7da917e692d62eb127b18ebc",
+        "sha256": "90bf5d66b1038913fea37bd6d57292eb6ecd0e0ee3b2bc3e283facc033f4b2b0",
+        "size": 408,
+        "mode": "100644"
+      },
+      {
+        "path": "references/controls.md",
+        "git_blob_sha1": "05865bde831d647faae39fb3a8960bdc119f1b4f",
+        "sha256": "6ec427731a65ffd66b745733665bb2c00992750c7d3710893d1bbf70b427d541",
+        "size": 5018,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gradients.md",
+        "git_blob_sha1": "329600dc1d3c683dcc15b29ee7bc61e112acb6a6",
+        "sha256": "63ced0392f67c41bf90e726613d139a389db609799bfcb91124e6e69b9a66e70",
+        "size": 2717,
+        "mode": "100644"
+      },
+      {
+        "path": "references/icons.md",
+        "git_blob_sha1": "d23ac8f14586a2539993b645561e37e39393de3e",
+        "sha256": "2c0622d8a3f61626a72fa7829d3044f3391cbd8ca91806f4752926cf4e66be59",
+        "size": 5849,
+        "mode": "100644"
+      },
+      {
+        "path": "references/media.md",
+        "git_blob_sha1": "65813b4e20c6f532cd55c93a411471b887d7be24",
+        "sha256": "c964182dfbcaa5eef00b947e0425f5a39ee2cfc1b2a4e251ba51fc823e87b0dc",
+        "size": 6229,
+        "mode": "100644"
+      },
+      {
+        "path": "references/storage.md",
+        "git_blob_sha1": "c084f121367b6e9a6393af7f8c10b9247ccde108",
+        "sha256": "265e8bc21adcd698062f18fa442e0e07e99e67868576f18aac2112e5381ffbf1",
+        "size": 2935,
+        "mode": "100644"
+      },
+      {
+        "path": "references/visual-effects.md",
+        "git_blob_sha1": "fdf312a6c81979df0e9cd14df88c3f22d2e4e3c7",
+        "sha256": "dcdcaa5e0bf5c20341455e39d91312ca5f3034391908f77eb2e577044283adcc",
+        "size": 5201,
+        "mode": "100644"
+      },
+      {
+        "path": "references/webgpu-three.md",
+        "git_blob_sha1": "58b5ce8046255f2c729b338da837a7e18804c356",
+        "sha256": "3a247a7740e4bab4aea5dec8b81c7782a5918bb221838a05f6a94c669f145679",
+        "size": 14466,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d9658428c2aa9f258a9caa1073e8457b22848775",
+    "computed_tree_sha": "7eaa433dd8233347df3bac4006a155c919775592",
+    "api_tree_sha_as_returned": "7eaa433dd8233347df3bac4006a155c919775592",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "29430b05bbf4dd43436a88599e80aafc22f8ba45",
+        "sha256": "c6df6d4a39432447c8d39cb51b3a1e56c50995649542ce2729566e436154a2a4",
+        "size": 12695,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "b41117eac0d64ecd7da917e692d62eb127b18ebc",
+        "sha256": "90bf5d66b1038913fea37bd6d57292eb6ecd0e0ee3b2bc3e283facc033f4b2b0",
+        "size": 408,
+        "mode": "100644"
+      },
+      {
+        "path": "references/controls.md",
+        "git_blob_sha1": "05865bde831d647faae39fb3a8960bdc119f1b4f",
+        "sha256": "6ec427731a65ffd66b745733665bb2c00992750c7d3710893d1bbf70b427d541",
+        "size": 5018,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gradients.md",
+        "git_blob_sha1": "329600dc1d3c683dcc15b29ee7bc61e112acb6a6",
+        "sha256": "63ced0392f67c41bf90e726613d139a389db609799bfcb91124e6e69b9a66e70",
+        "size": 2717,
+        "mode": "100644"
+      },
+      {
+        "path": "references/icons.md",
+        "git_blob_sha1": "d23ac8f14586a2539993b645561e37e39393de3e",
+        "sha256": "2c0622d8a3f61626a72fa7829d3044f3391cbd8ca91806f4752926cf4e66be59",
+        "size": 5849,
+        "mode": "100644"
+      },
+      {
+        "path": "references/media.md",
+        "git_blob_sha1": "65813b4e20c6f532cd55c93a411471b887d7be24",
+        "sha256": "c964182dfbcaa5eef00b947e0425f5a39ee2cfc1b2a4e251ba51fc823e87b0dc",
+        "size": 6229,
+        "mode": "100644"
+      },
+      {
+        "path": "references/storage.md",
+        "git_blob_sha1": "c084f121367b6e9a6393af7f8c10b9247ccde108",
+        "sha256": "265e8bc21adcd698062f18fa442e0e07e99e67868576f18aac2112e5381ffbf1",
+        "size": 2935,
+        "mode": "100644"
+      },
+      {
+        "path": "references/visual-effects.md",
+        "git_blob_sha1": "fdf312a6c81979df0e9cd14df88c3f22d2e4e3c7",
+        "sha256": "dcdcaa5e0bf5c20341455e39d91312ca5f3034391908f77eb2e577044283adcc",
+        "size": 5201,
+        "mode": "100644"
+      },
+      {
+        "path": "references/webgpu-three.md",
+        "git_blob_sha1": "58b5ce8046255f2c729b338da837a7e18804c356",
+        "sha256": "3a247a7740e4bab4aea5dec8b81c7782a5918bb221838a05f6a94c669f145679",
+        "size": 14466,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "ef167c8672097bdddf907ec4b6a4d817827176ff",
+  "new_commit": "d9658428c2aa9f258a9caa1073e8457b22848775",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "[skills] standardize EAS CLI invocations and simplify triggers (#223)\n\nConsolidate the mechanical EAS CLI invocation updates in one stack\nlayer: 125 direct substitutions across 15 existing skill, reference, and\nagent metadata files now use `npx --yes eas-cli@latest` in place of bare\n`eas` or `npx eas-cli@latest`. This extends the existing Hosting, dev\nclient, and workflow examples to app stores, Update, Update Insights,\nObserve, and App Clip. Remove global EAS CLI installation instructions\nfrom the app-store quick start and Update Insights prerequisites; check\nthe current account before browser sign-in. The layer also simplifies\nskill triggers and keeps development client signing and distribution\ntied to the requested project and build.\n\n## Test plan\n\n- `bun test scripts` — 37 passed on the integrated #224 branch.\n- `bun scripts/check-skill-limits.ts`, `bun\nscripts/check-overview-routing.ts`, and `bun\nscripts/check-plugin-version-bump.ts origin/main` — passed.\n- `git diff --check origin/main...HEAD` — passed.\n- Confirmed PR #223 contains no global EAS CLI install instruction.\n\n---------\n\nCo-authored-by: Kudo Chien <kudo@KudodeMacBook-Pro.local>",
+  "new_commit_time": "2026-11-19T16:06:51Z",
+  "compare_url": "https://github.com/expo/skills/compare/ef167c8672097bdddf907ec4b6a4d817827176ff...d9658428c2aa9f258a9caa1073e8457b22848775",
+  "commit_url": "https://github.com/expo/skills/commit/d9658428c2aa9f258a9caa1073e8457b22848775",
+  "skill_directory": "plugins/expo/skills/expo-native-ui",
+  "local_directory": "verified_real_update_pairs/OPU-0193",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0193",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

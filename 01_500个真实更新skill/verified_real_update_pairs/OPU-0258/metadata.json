@@ -1,0 +1,246 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-tuning/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "9c6ee6994ce863f019fd",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "cb11c49ce1076788d69115a9f001b07b4ba0b616",
+    "computed_tree_sha": "a7c8dee32420433981bbee0630afeba619ad8ac5",
+    "api_tree_sha_as_returned": "a7c8dee32420433981bbee0630afeba619ad8ac5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2d0400064cb56874515cc59e08b73c2178f6ddbb",
+        "sha256": "881d0122e02c426099066537734865def0d96e909107c488a53dd0227bbbaa7e",
+        "size": 38280,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data_prep.md",
+        "git_blob_sha1": "ecdcb0114191ba1aaac0e09a22fdad2908423604",
+        "sha256": "015bf9bb66ca652b23b6aa2d9caef823b2d0b4f46db6c36b674ddd0c205b13ad",
+        "size": 3233,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hf_datasets.md",
+        "git_blob_sha1": "3f1ac3d29fdd65fb1a9857deaacbf7b04bdee7ed",
+        "sha256": "946b80634507c5819d2504dde16640968bcf20745191af670cd92e1ae234dc27",
+        "size": 5442,
+        "mode": "100644"
+      },
+      {
+        "path": "references/models.md",
+        "git_blob_sha1": "5ecfe3f6608e0632b4998add6fc8d98c0465765b",
+        "sha256": "54ddfc9b67a16b03661b80ff0b94bb502f250742d4e1a251552e4588d4c576da",
+        "size": 8293,
+        "mode": "100644"
+      },
+      {
+        "path": "references/requirements.txt",
+        "git_blob_sha1": "1049a590d417d58e99480faab974d4dff80ac84f",
+        "sha256": "e6aac75b5bf24087d6aba13d2faf060aa2e3a3b2b4af03e651ee666666a6afaf",
+        "size": 100,
+        "mode": "100644"
+      },
+      {
+        "path": "references/tuning_guide.md",
+        "git_blob_sha1": "8514ebe44b45bf2b5f4c3384be0d3b943689f545",
+        "sha256": "ef7f2b6978ebff5a55ab403704c4190f57ef1905ef6c68064fcd9dcc975e4495",
+        "size": 2315,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/calculate_cost.py",
+        "git_blob_sha1": "a9cd97e0a2d12c7b08dc6ffc74c24fa1879c6678",
+        "sha256": "c34af72f92336d36366fd9f730e45be4763f0829959a2fb7fd6bc55fd97a4908",
+        "size": 13235,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/cancel_tuning_job.py",
+        "git_blob_sha1": "e432119465e2b6d7366b4ffca3a6348afcfbf9ec",
+        "sha256": "89728f94c7c9eb4db318767f9006d89e3cb23aad0ac2b45eaa6e7d7252438d7e",
+        "size": 1130,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_models.py",
+        "git_blob_sha1": "377e521a5b6bc3e325ec3e89bde17fb5c089b9ab",
+        "sha256": "df9130255ce1cdb4574cfe070c9c8bbd08c281600d04c7ba41d97b05eac35b05",
+        "size": 1052,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/monitor_tuning_job.py",
+        "git_blob_sha1": "0a25b8c4d276cdc750fb7ed8865b51e56e5af1da",
+        "sha256": "b54607ffefee2a9219f5c3136dc114ec99f6595756939234bb028ffd33b77395",
+        "size": 2308,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/prepare_dataset.py",
+        "git_blob_sha1": "2c259974dfd9f79e536a0a049b5e444bcc481937",
+        "sha256": "ec2ec45480cd4d005f09277712b9359b9b165bb6acb8d5ff1acc14a4dbdf508a",
+        "size": 10560,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/tune_open_model.py",
+        "git_blob_sha1": "fe28e6752c2687c7d278ee7495479db49d06742d",
+        "sha256": "a3695e47552e11eddfb80b137715a23fae321f2536d932e5f26d4fb864378537",
+        "size": 3175,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "8d65fc35b9b486ce1b126c0f8c41098bbc6f0614",
+    "computed_tree_sha": "7b074fee73a105830ac10946aa08103eb00b47db",
+    "api_tree_sha_as_returned": "7b074fee73a105830ac10946aa08103eb00b47db",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e86b3cedd57b357af3f4b0c2ee45ca6540565bf1",
+        "sha256": "2688b83de5d66b584cd8193fb4a91d83dcf9fc4404db526255e6a5cd2a81369e",
+        "size": 42030,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "a9ae37feac378bfb08e42678d629aa0d05b9d147",
+        "sha256": "9c71cbc6a64e9e614b5655dd726c352a059c094405cc5d20b515a204d4df2b77",
+        "size": 1937,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data_prep.md",
+        "git_blob_sha1": "bef6a1f8b8c80abe0da1621fc625f7fe76a660ed",
+        "sha256": "afa188185599cfbc2e3779fb1916f8614fb983d5d2284aafc7477c972ad9677d",
+        "size": 4107,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hf_datasets.md",
+        "git_blob_sha1": "3f1ac3d29fdd65fb1a9857deaacbf7b04bdee7ed",
+        "sha256": "946b80634507c5819d2504dde16640968bcf20745191af670cd92e1ae234dc27",
+        "size": 5442,
+        "mode": "100644"
+      },
+      {
+        "path": "references/models.md",
+        "git_blob_sha1": "a237f2591e00e7dd2adb29ba2e564d9b5129624b",
+        "sha256": "c96dd40db58969b084c29ddaedf51d13d8d4c29b8e1fdee4e2b9fb62b376f059",
+        "size": 10076,
+        "mode": "100644"
+      },
+      {
+        "path": "references/requirements.txt",
+        "git_blob_sha1": "1049a590d417d58e99480faab974d4dff80ac84f",
+        "sha256": "e6aac75b5bf24087d6aba13d2faf060aa2e3a3b2b4af03e651ee666666a6afaf",
+        "size": 100,
+        "mode": "100644"
+      },
+      {
+        "path": "references/tuning_guide.md",
+        "git_blob_sha1": "8514ebe44b45bf2b5f4c3384be0d3b943689f545",
+        "sha256": "ef7f2b6978ebff5a55ab403704c4190f57ef1905ef6c68064fcd9dcc975e4495",
+        "size": 2315,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/calculate_cost.py",
+        "git_blob_sha1": "59eeba605b256b714bdd7683f357913166fc20fe",
+        "sha256": "2e12e4d4c7047318acba6385c62cc721e78c3bf353aa2e583df47637fba3e281",
+        "size": 13427,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/cancel_tuning_job.py",
+        "git_blob_sha1": "e432119465e2b6d7366b4ffca3a6348afcfbf9ec",
+        "sha256": "89728f94c7c9eb4db318767f9006d89e3cb23aad0ac2b45eaa6e7d7252438d7e",
+        "size": 1130,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_models.py",
+        "git_blob_sha1": "377e521a5b6bc3e325ec3e89bde17fb5c089b9ab",
+        "sha256": "df9130255ce1cdb4574cfe070c9c8bbd08c281600d04c7ba41d97b05eac35b05",
+        "size": 1052,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/monitor_tuning_job.py",
+        "git_blob_sha1": "0a25b8c4d276cdc750fb7ed8865b51e56e5af1da",
+        "sha256": "b54607ffefee2a9219f5c3136dc114ec99f6595756939234bb028ffd33b77395",
+        "size": 2308,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/prepare_dataset.py",
+        "git_blob_sha1": "d763173ccce05020dbc11f7dec0f87badefe58ba",
+        "sha256": "b54a84e87e3ce37fe2e1149a5974312dfcfae41fc1195351700e808371c4e72b",
+        "size": 11976,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/tune_open_model.py",
+        "git_blob_sha1": "db7a8dd30287a9e92d95905d043a54feffe0cad4",
+        "sha256": "efaa8c0a999cbaaf2182b465c0a887e58e3a1e3555b888cb2cda5450ca561a23",
+        "size": 4075,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md",
+    "references/data_prep.md",
+    "references/models.md",
+    "scripts/calculate_cost.py",
+    "scripts/prepare_dataset.py",
+    "scripts/tune_open_model.py"
+  ],
+  "old_commit": "cb11c49ce1076788d69115a9f001b07b4ba0b616",
+  "new_commit": "8d65fc35b9b486ce1b126c0f8c41098bbc6f0614",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update the Agent Platform skills.\n\n- Keep the agent-platform-tuning frontmatter description unchanged so the automated Copybara export matches third_party/skills/index.json.\n- Add standardized usage attribution to Agent Platform skills.  - Add `references/attribution.md` to all 9 Model Garden Agent Platform skills. - Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Default validation_split to None in convert_to_jsonl so programmatic prompt_only=True calls do not fail, and include adapter size 2 in tune_open_model.py CLI choices.\n- Add Qwen3.8-27B to the open-model tuning catalog and cost calculator.\n- Add distillation tuning to the agent-platform-tuning skill: supported teacher and student models, prompt-only training datasets (prepare_dataset.py --prompt_only), and --method/--teacher_model flags in tune_open_model.py.\n- Improve skill instructions for model-registry and agent-cli skills.\n- Improve skill instructions for tuning, tuning-management, and eval-flywheel skills.\n- Improve interactive confirmation and post-deletion verification guidance in prompt management skill.\n- Improve deployment region confirmation and hardware validation guidance in agent-platform-deploy skill.\n\nPiperOrigin-RevId: 1012386873",
+  "new_commit_time": "2026-11-02T21:01:16Z",
+  "compare_url": "https://github.com/google/skills/compare/cb11c49ce1076788d69115a9f001b07b4ba0b616...8d65fc35b9b486ce1b126c0f8c41098bbc6f0614",
+  "commit_url": "https://github.com/google/skills/commit/8d65fc35b9b486ce1b126c0f8c41098bbc6f0614",
+  "skill_directory": "skills/cloud/agent-platform-tuning",
+  "local_directory": "verified_real_update_pairs/OPU-0258",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0258",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

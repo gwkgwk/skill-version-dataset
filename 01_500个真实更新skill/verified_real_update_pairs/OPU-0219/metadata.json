@@ -1,0 +1,107 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/triage-frontend-issues/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "1d8c74ab78b643b7ea8a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+    "computed_tree_sha": "4f3beb0e316f17631830a3abf18e60489f963c31",
+    "api_tree_sha_as_returned": "4f3beb0e316f17631830a3abf18e60489f963c31",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b3e13ac48dfd837696a88746a939accd3bc57c0a",
+        "sha256": "577c6fb5b0650725cb7491b1b455f4db78d2be8e8a062b79696e1e153422b439",
+        "size": 8165,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "0938282268f93388b3ac009eedc15d15fef43daa",
+        "sha256": "ab18cf437f720cc39bbbbda9f09520502b4d48974874f0361b5ba8d1d88ecfa1",
+        "size": 4487,
+        "mode": "100644"
+      },
+      {
+        "path": "references/archive-criteria.md",
+        "git_blob_sha1": "feb30d2ef9c5fe97cd49e38cc69bcbf27d090ad9",
+        "sha256": "9e2ff9ffcd3ee1f0dfb86bf877cbee9a276a616c1a2d9625df33d122b512bc39",
+        "size": 9200,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "3482d8dd35315adf34607f1c12bf793e14890bfe",
+    "computed_tree_sha": "4f81ded3a29845c8e64257281ae312df47b300e2",
+    "api_tree_sha_as_returned": "4f81ded3a29845c8e64257281ae312df47b300e2",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b4b8fbe9ecc2422b8aa0ee8521702491d15f7e6a",
+        "sha256": "45c3d3f2562f5e3840ea2bbf3ecd35a49a848456af065701ae45682e7b49dabd",
+        "size": 8162,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "0938282268f93388b3ac009eedc15d15fef43daa",
+        "sha256": "ab18cf437f720cc39bbbbda9f09520502b4d48974874f0361b5ba8d1d88ecfa1",
+        "size": 4487,
+        "mode": "100644"
+      },
+      {
+        "path": "references/archive-criteria.md",
+        "git_blob_sha1": "feb30d2ef9c5fe97cd49e38cc69bcbf27d090ad9",
+        "sha256": "9e2ff9ffcd3ee1f0dfb86bf877cbee9a276a616c1a2d9625df33d122b512bc39",
+        "size": 9200,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+  "new_commit": "3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(allowed-tools): remove commas, use whitespace\n\nCommas are find for Claude, but both the spec and warden (via dotagents-lib) expect whitespace-separated tools. Warden has been quietly having trouble using anything but the first allowed tool.\n- https://agentskills.io/specification\n- https://github.com/getsentry/dotagents/blob/399121d28144c118883ade1815081e2db0830e91/packages/dotagents-lib/src/skills/loader.ts#L109",
+  "new_commit_time": "2026-09-28T23:37:52Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/8ca687957041ab9ece4562aad2b399b8dc8e4cae...3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "commit_url": "https://github.com/getsentry/skills/commit/3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "skill_directory": "skills/triage-frontend-issues",
+  "local_directory": "verified_real_update_pairs/OPU-0219",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0219",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

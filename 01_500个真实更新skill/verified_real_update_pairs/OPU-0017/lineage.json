@@ -1,0 +1,82 @@
+{
+  "sha": "619d28a2979530373dae82bbab62f7022e548d83",
+  "node_id": "C_kwDOQmUc69oAKDYxOWQyOGEyOTc5NTMwMzczZGFlODJiYmFiNjJmNzAyMmU1NDhkODM",
+  "commit": {
+    "author": {
+      "name": "Yevgen Safronov",
+      "email": "yevgen@cloudflare.com",
+      "date": "2026-11-17T15:42:25Z"
+    },
+    "committer": {
+      "name": "Yevgen Safronov",
+      "email": "yevgen@cloudflare.com",
+      "date": "2026-11-17T15:42:25Z"
+    },
+    "message": "Point Basin and K2 skills at published docs\n\nRemove references to the pending cloudflare-docs PRs (#33850, #33858)\nnow that the Basin and K2 docs are published. This also resolves the\nSnyk W011 third-party content warning on the K2 skill.\n\n- Basin: note GA status and API deprecation per published docs, add\n  Basin pricing link, fix renamed Basin Catalog enable/disable anchors,\n  and align Basin SQL token permissions with the Query data page.\n- K2: note public beta on Workers Paid, add Delivery guarantees and\n  Pricing pages.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "tree": {
+      "sha": "5fd6f5b02c915df02f19257bf9c4235fbe3390d1",
+      "url": "https://api.github.com/repos/cloudflare/skills/git/trees/5fd6f5b02c915df02f19257bf9c4235fbe3390d1"
+    },
+    "url": "https://api.github.com/repos/cloudflare/skills/git/commits/619d28a2979530373dae82bbab62f7022e548d83",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/cloudflare/skills/commits/619d28a2979530373dae82bbab62f7022e548d83",
+  "html_url": "https://github.com/cloudflare/skills/commit/619d28a2979530373dae82bbab62f7022e548d83",
+  "comments_url": "https://api.github.com/repos/cloudflare/skills/commits/619d28a2979530373dae82bbab62f7022e548d83/comments",
+  "author": {
+    "login": "sejoker",
+    "id": 125466,
+    "node_id": "MDQ6VXNlcjEyNTQ2Ng==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/125466?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sejoker",
+    "html_url": "https://github.com/sejoker",
+    "followers_url": "https://api.github.com/users/sejoker/followers",
+    "following_url": "https://api.github.com/users/sejoker/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sejoker/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sejoker/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sejoker/subscriptions",
+    "organizations_url": "https://api.github.com/users/sejoker/orgs",
+    "repos_url": "https://api.github.com/users/sejoker/repos",
+    "events_url": "https://api.github.com/users/sejoker/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sejoker/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "sejoker",
+    "id": 125466,
+    "node_id": "MDQ6VXNlcjEyNTQ2Ng==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/125466?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sejoker",
+    "html_url": "https://github.com/sejoker",
+    "followers_url": "https://api.github.com/users/sejoker/followers",
+    "following_url": "https://api.github.com/users/sejoker/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sejoker/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sejoker/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sejoker/subscriptions",
+    "organizations_url": "https://api.github.com/users/sejoker/orgs",
+    "repos_url": "https://api.github.com/users/sejoker/repos",
+    "events_url": "https://api.github.com/users/sejoker/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sejoker/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "cbf893b954222276bf1af57e5f23379231e0efb9",
+      "url": "https://api.github.com/repos/cloudflare/skills/commits/cbf893b954222276bf1af57e5f23379231e0efb9",
+      "html_url": "https://github.com/cloudflare/skills/commit/cbf893b954222276bf1af57e5f23379231e0efb9"
+    }
+  ]
+}

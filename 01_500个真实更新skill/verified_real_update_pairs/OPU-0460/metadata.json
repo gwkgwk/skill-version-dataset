@@ -1,0 +1,841 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-ai/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "36948c372c994dba8cd3",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "b35d2c60fac796bfd2cfd14ad3f550c73e92d9bb",
+    "computed_tree_sha": "740873d4e40457901bacca6a4340b31518ac4245",
+    "api_tree_sha_as_returned": "740873d4e40457901bacca6a4340b31518ac4245",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ca659485edc479d1d5458a24a2d066bb462db680",
+        "sha256": "11ca50fe21f10e6784cce16b4b58c98618156a6052187176bc69ec2a944feb9a",
+        "size": 3574,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-java.md",
+        "git_blob_sha1": "44b746fa3f69fe9a698d0322ffc6b6c57daeb807",
+        "sha256": "69bc81ac571f57270e2ee6c2c6453bc9d93a1b5a72598d8d8406cad74f91409a",
+        "size": 1401,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-py.md",
+        "git_blob_sha1": "e6195e9362d60239874ddad1b121fc40fdfd42ee",
+        "sha256": "21f78e6865a6c74ffb405ceeb2f91350e5b5ec24f17d236f8c9a7d996999a01f",
+        "size": 1361,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-ts.md",
+        "git_blob_sha1": "307aec8f94fcd4224f1f7bb8d9675689cd1f62b8",
+        "sha256": "556cad24ac915c99ad0d19bfcb153a8f9b2ac2750d8c4b78391d29b3d67f27d8",
+        "size": 1413,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-document-intelligence-dotnet.md",
+        "git_blob_sha1": "41e9e065f17db00e4d25027e903ad0101152a22a",
+        "sha256": "3d623c19a94bc8f60b798a9c1b2869824ac0f0fbd3f28987f0156d018ccaa10f",
+        "size": 1456,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-document-intelligence-ts.md",
+        "git_blob_sha1": "1e18b149bab8254cfd723e0f9e4ede86e9039461",
+        "sha256": "4d0a21b9324676d2fb107d5e84e2d21c744aab0feeb9c879fe57412b0aaec47b",
+        "size": 1573,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-openai-dotnet.md",
+        "git_blob_sha1": "73fd5d08bc5a1e354b917f09d05653281f9f40e8",
+        "sha256": "f91f7ff0e9f5668d148d2ae304da90bb23bec13a713a4256905c8bdd4ec99d17",
+        "size": 1419,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-transcription-py.md",
+        "git_blob_sha1": "ab80787f49a384279a5b58fde6b49ae7d44d8401",
+        "sha256": "8a8323d15dcfc336ca2a8bc6b65d8413ce413deed884bc0cb329b7c74acd9f8f",
+        "size": 1210,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-translation-text-py.md",
+        "git_blob_sha1": "fa102047d5917d66f12a8ed072a67077f31b5684",
+        "sha256": "db1a6b5b63ce54b7d55124976fe242ee69d05dcd05ef1af9af02fd9bbad6eb59",
+        "size": 1345,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-translation-ts.md",
+        "git_blob_sha1": "1449efea23e35981a7470494818cea577a3ddc5b",
+        "sha256": "ba50ad65f29bf3c1707f638a47549627bd236b54538f2f64a6d726f1d245f2d0",
+        "size": 1369,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-vision-imageanalysis-java.md",
+        "git_blob_sha1": "b81ef1c2b7b4053ba0d0f7f8708b100a0a01b92b",
+        "sha256": "7b9d980261377dfe61683b4b62775c563e3b74154b616ad09b6a14700c768309",
+        "size": 1325,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-vision-imageanalysis-py.md",
+        "git_blob_sha1": "48db6ec42c5d0e6dc1034a955ebcc7a9982d267d",
+        "sha256": "ec5e3ecec27ef7b90e3e24acba3b4859ae735d6074c1bc19ea3c007502d81292",
+        "size": 1297,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-search-documents-dotnet.md",
+        "git_blob_sha1": "aaa956c83f1f4c0f17efe38d379de92b93792f23",
+        "sha256": "70c91efbd4b10978db2798486b3c55cd93b7e022d6b74c21ef53aecf0b6ea241",
+        "size": 1334,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-search-documents-py.md",
+        "git_blob_sha1": "478c88535d60f04daccbea4135a055f54a9e0276",
+        "sha256": "d65d61fe00ed7c54d4163279da7f915613aa94a88b0613801dfb82514f89bc86",
+        "size": 1561,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-search-documents-ts.md",
+        "git_blob_sha1": "52015172cc635af7d4137bb77240dd27f6f4a61d",
+        "sha256": "69060237239c07d27a7e5bfe24ef146625bf12264a4fdac356e1d5324517837a",
+        "size": 1259,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/audio-without-node.md",
+        "git_blob_sha1": "1199190d83260b1de147535671c9e11ba6e40c2a",
+        "sha256": "88a6a17fa3c1e0ce5c8f99352f39b736831c26a1ca61ead35cdea6546ba4cb74",
+        "size": 3384,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/azure-checks.md",
+        "git_blob_sha1": "17b18755a3a1eabdb9dfa294de1dc21847e8df15",
+        "sha256": "0f870592f187c635bd0572c61fb57728c1a8acd7cc4010a3869fa7630cd562fe",
+        "size": 3534,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/collection.md",
+        "git_blob_sha1": "5ab6df433540a07db0dd3070e9789da116fd50a6",
+        "sha256": "f750c00894ecad5f79e8ba5c7e8d4361d046c47fd06e107620a013567f8c5ae0",
+        "size": 3608,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/diagnostics.md",
+        "git_blob_sha1": "420b3e32856a0373e8297aae9dde3420486303e5",
+        "sha256": "9e87d1da9ebdb6246437f0032a3dce0d8b6a2faf8386ae188fb2633827c3e81b",
+        "size": 3989,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/interpretation.md",
+        "git_blob_sha1": "6e4edf7bbf2a336872c23f52e04b3f20e2420ec8",
+        "sha256": "5def9610f0b7745e7e454e9ab0e4beace26c32ca93737db47360018423e222ec",
+        "size": 3875,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/logging-apis.md",
+        "git_blob_sha1": "78d26e166e346f596299891dd8002b873ac89321",
+        "sha256": "ddbc55502f16072f2b11471a82967dc355199e60dc82f991280526713016add2",
+        "size": 3930,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/output.md",
+        "git_blob_sha1": "4af18439a64e47e770896247442081037c79d050",
+        "sha256": "8b01c5d56c42c6ed9d92af7366ed21c0d039a888f590d92663fb46e76f86fd4c",
+        "size": 3548,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/source-contract.md",
+        "git_blob_sha1": "4418e1e25002e70126066115a15a36c2d98a5b51",
+        "sha256": "92b69d2be04030a135e1a94e9e032a378c1f068646b3223cd8f1782d803a0711",
+        "size": 3885,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/transcription-and-audio-preflight.md",
+        "git_blob_sha1": "2059922dd405c090f12f237fa739076f47c03604",
+        "sha256": "dc1332a28f5e188172c142d283e2509fb99fe85bef671b04f264a469050292ba",
+        "size": 3947,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/without-node.md",
+        "git_blob_sha1": "3216a3e55bc8365b83645a4cf15709a74c982061",
+        "sha256": "8670d552abeafaad65f7b26482efb2aa9f34e088b8b5a279cd4761f6f86a607e",
+        "size": 1970,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze-speech-sdk-log.mjs",
+        "git_blob_sha1": "86fb67ec31531ae25e961d20f2a1840576022ead",
+        "sha256": "a7970f6c1be05310f9cbeaf629b16447696972dd9b7b24f03054532e97af8c97",
+        "size": 18156,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze-speech-sdk-log.ps1",
+        "git_blob_sha1": "4934507dfadbbba47e5433ba07ef819f9e45629f",
+        "sha256": "c0e04e3551b7e222f5c102d89a8794d64fa41d3cf1c278b9b738fb7c9c7cb8a5",
+        "size": 1411,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze-speech-sdk-log.sh",
+        "git_blob_sha1": "cacdb840d6dd5b5dd82142e4dfa660bb28585679",
+        "sha256": "5d83e9a84bc43c79949b798b42adf2005842fc08a15adfc0fd9a4df23c100bb3",
+        "size": 1342,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/inspect-speech-audio.mjs",
+        "git_blob_sha1": "0c85f95430a90b4fb74923bab88ca8f1584815be",
+        "sha256": "5e0fc68b7e6d4bbb3d4f253b725cb64be0c227c37b9f5f768b6f9c33bf43164d",
+        "size": 21524,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect-speech-audio.ps1",
+        "git_blob_sha1": "f5fd31441e188f964c42b1893ca54bc68f40f0c2",
+        "sha256": "986a313e75de386263fb03e9cae89eabd7283ff8c1797f22292699e567cccacb",
+        "size": 1430,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect-speech-audio.sh",
+        "git_blob_sha1": "caa0376fda7ae43513c2efa87b0f9c211a7de014",
+        "sha256": "a72ea346e134750d9bbca8be50f2f43747370b4a6949973e5ce0913375d297b1",
+        "size": 1361,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f4c8752b2678d9bf108509af27b20873ec9cd0d0",
+    "computed_tree_sha": "236e04dad43fc4cdfec57be00f611d07682ffe70",
+    "api_tree_sha_as_returned": "236e04dad43fc4cdfec57be00f611d07682ffe70",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a9d4b038b9904648e56f3f5c6af80869333a31d7",
+        "sha256": "a22169a88583e2e7eca234b4534347dea416dd2c473bcd36580eb7107053dae2",
+        "size": 5957,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/content-safety/api-preflight-and-diagnostics.md",
+        "git_blob_sha1": "b0818f49a62c51c49816a830944e0715335d340e",
+        "sha256": "2cdf9d016bbdd6b0de9b54961e7ec7fbef67679a40f77bcebaeb762fa642b354",
+        "size": 3752,
+        "mode": "100644"
+      },
+      {
+        "path": "references/content-understanding/custom-analyzers.md",
+        "git_blob_sha1": "40a38e6800866ed2a47f4a0bded0289968edd856",
+        "sha256": "520b9e146184eccb8c1e50f41ee7589636c8217d4ecf2be7c41c8c8606b363e4",
+        "size": 4444,
+        "mode": "100644"
+      },
+      {
+        "path": "references/content-understanding/diagnostics.md",
+        "git_blob_sha1": "39c5c4b3e2283f815bc0ad7daa61e5e4fd0e9516",
+        "sha256": "d0be91f2206a9a431bf653a99dde2cccd81dc06e9f4c3cf86524e4bc8fbdf8ec",
+        "size": 4005,
+        "mode": "100644"
+      },
+      {
+        "path": "references/content-understanding/overview-and-setup.md",
+        "git_blob_sha1": "82c19867717d31e2679b587eb5a689d76f532ee1",
+        "sha256": "67fa5fa7feec1e41daa981996ba80c62c97c5768b752f7be7811d9f33ccf1e53",
+        "size": 4768,
+        "mode": "100644"
+      },
+      {
+        "path": "references/document-intelligence/custom-models.md",
+        "git_blob_sha1": "23c6729c0c3fc5e3a4af67fb2ed196bdfd6363be",
+        "sha256": "04d36f3fecdcc4a7e6fd8b01ab780477c7526f932890fddd58d5d1fe67fa428c",
+        "size": 5994,
+        "mode": "100644"
+      },
+      {
+        "path": "references/document-intelligence/preflight-and-diagnostics.md",
+        "git_blob_sha1": "c0a4506e4f76ae6c79cd959e64213d6da337f232",
+        "sha256": "062df501fc3bc624455f7bccca19197a8744161294e7ad77f38ef4489aafe038",
+        "size": 3850,
+        "mode": "100644"
+      },
+      {
+        "path": "references/document-intelligence/without-node.md",
+        "git_blob_sha1": "f6b9326bc02ccaf62243b077bfd22556bd226998",
+        "sha256": "cb1c0720a8153fb871d4648e8263b9588a12375feb295ca1d14db8bc3f533c7e",
+        "size": 4693,
+        "mode": "100644"
+      },
+      {
+        "path": "references/foundry-tools/access-and-roles.md",
+        "git_blob_sha1": "ecc72ab513634e7797c4cb9f06b0e5a59366174f",
+        "sha256": "afa6687b1a45b5e568b4a2134c95951ba91e73c2c91b4f8d4c3319f90fc88893",
+        "size": 5835,
+        "mode": "100644"
+      },
+      {
+        "path": "references/foundry-tools/data-handling.md",
+        "git_blob_sha1": "8b1616318e6a2f1b3ec84cfce81cafdd4bc5fcf1",
+        "sha256": "d6134837217bf3b84d4288aa799f4af5b63c0dc3ca4c043a956a4856ee14984d",
+        "size": 4936,
+        "mode": "100644"
+      },
+      {
+        "path": "references/foundry-tools/evidence-without-content.md",
+        "git_blob_sha1": "f86695044b017c824a9ad75fa3c5c24d496d76fc",
+        "sha256": "c0a6459f9c3a8f340763c7790a5fd3f759755d13198a1264ec6ee454ab8a6fcb",
+        "size": 4099,
+        "mode": "100644"
+      },
+      {
+        "path": "references/foundry-tools/private-network.md",
+        "git_blob_sha1": "db2129c9f2fcc583fd8712a202e28e70cde7132e",
+        "sha256": "87bc473c132413709aed1c18bce57ebf691d417f1a638fcd33bc68db99fa35a3",
+        "size": 6136,
+        "mode": "100644"
+      },
+      {
+        "path": "references/foundry-tools/storage-and-studio.md",
+        "git_blob_sha1": "b7f6cbcb21bf2cb2723600afe921efd91856b539",
+        "sha256": "bf5bcb4e654141607288b9e08d085dd0672bfd416ac5929342fdd509778c29c9",
+        "size": 5522,
+        "mode": "100644"
+      },
+      {
+        "path": "references/foundry-tools/without-node.md",
+        "git_blob_sha1": "73e61a243a761bfd89b0284dffedd17bc46129c4",
+        "sha256": "662d8da0dbfae05204153f083bd2289c8863e96c3d7f4eaf6f1dc62eb129e3fe",
+        "size": 4150,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-java.md",
+        "git_blob_sha1": "44b746fa3f69fe9a698d0322ffc6b6c57daeb807",
+        "sha256": "69bc81ac571f57270e2ee6c2c6453bc9d93a1b5a72598d8d8406cad74f91409a",
+        "size": 1401,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-py.md",
+        "git_blob_sha1": "e6195e9362d60239874ddad1b121fc40fdfd42ee",
+        "sha256": "21f78e6865a6c74ffb405ceeb2f91350e5b5ec24f17d236f8c9a7d996999a01f",
+        "size": 1361,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-ts.md",
+        "git_blob_sha1": "307aec8f94fcd4224f1f7bb8d9675689cd1f62b8",
+        "sha256": "556cad24ac915c99ad0d19bfcb153a8f9b2ac2750d8c4b78391d29b3d67f27d8",
+        "size": 1413,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-document-intelligence-dotnet.md",
+        "git_blob_sha1": "41e9e065f17db00e4d25027e903ad0101152a22a",
+        "sha256": "3d623c19a94bc8f60b798a9c1b2869824ac0f0fbd3f28987f0156d018ccaa10f",
+        "size": 1456,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-document-intelligence-ts.md",
+        "git_blob_sha1": "1e18b149bab8254cfd723e0f9e4ede86e9039461",
+        "sha256": "4d0a21b9324676d2fb107d5e84e2d21c744aab0feeb9c879fe57412b0aaec47b",
+        "size": 1573,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-openai-dotnet.md",
+        "git_blob_sha1": "73fd5d08bc5a1e354b917f09d05653281f9f40e8",
+        "sha256": "f91f7ff0e9f5668d148d2ae304da90bb23bec13a713a4256905c8bdd4ec99d17",
+        "size": 1419,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-transcription-py.md",
+        "git_blob_sha1": "ab80787f49a384279a5b58fde6b49ae7d44d8401",
+        "sha256": "8a8323d15dcfc336ca2a8bc6b65d8413ce413deed884bc0cb329b7c74acd9f8f",
+        "size": 1210,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-translation-text-py.md",
+        "git_blob_sha1": "fa102047d5917d66f12a8ed072a67077f31b5684",
+        "sha256": "db1a6b5b63ce54b7d55124976fe242ee69d05dcd05ef1af9af02fd9bbad6eb59",
+        "size": 1345,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-translation-ts.md",
+        "git_blob_sha1": "1449efea23e35981a7470494818cea577a3ddc5b",
+        "sha256": "ba50ad65f29bf3c1707f638a47549627bd236b54538f2f64a6d726f1d245f2d0",
+        "size": 1369,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-vision-imageanalysis-java.md",
+        "git_blob_sha1": "b81ef1c2b7b4053ba0d0f7f8708b100a0a01b92b",
+        "sha256": "7b9d980261377dfe61683b4b62775c563e3b74154b616ad09b6a14700c768309",
+        "size": 1325,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-vision-imageanalysis-py.md",
+        "git_blob_sha1": "48db6ec42c5d0e6dc1034a955ebcc7a9982d267d",
+        "sha256": "ec5e3ecec27ef7b90e3e24acba3b4859ae735d6074c1bc19ea3c007502d81292",
+        "size": 1297,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-search-documents-dotnet.md",
+        "git_blob_sha1": "aaa956c83f1f4c0f17efe38d379de92b93792f23",
+        "sha256": "70c91efbd4b10978db2798486b3c55cd93b7e022d6b74c21ef53aecf0b6ea241",
+        "size": 1334,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-search-documents-py.md",
+        "git_blob_sha1": "478c88535d60f04daccbea4135a055f54a9e0276",
+        "sha256": "d65d61fe00ed7c54d4163279da7f915613aa94a88b0613801dfb82514f89bc86",
+        "size": 1561,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-search-documents-ts.md",
+        "git_blob_sha1": "52015172cc635af7d4137bb77240dd27f6f4a61d",
+        "sha256": "69060237239c07d27a7e5bfe24ef146625bf12264a4fdac356e1d5324517837a",
+        "size": 1259,
+        "mode": "100644"
+      },
+      {
+        "path": "references/search/index-and-query-diagnostics.md",
+        "git_blob_sha1": "8430c710e85e87075e7d09c2d58b366655c99dc2",
+        "sha256": "f1b52222110f6b16b76905a48f1184beaaa1d3bc2acb3dfda9e17ea493fd736f",
+        "size": 4006,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/audio-without-node.md",
+        "git_blob_sha1": "1199190d83260b1de147535671c9e11ba6e40c2a",
+        "sha256": "88a6a17fa3c1e0ce5c8f99352f39b736831c26a1ca61ead35cdea6546ba4cb74",
+        "size": 3384,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/azure-checks.md",
+        "git_blob_sha1": "17b18755a3a1eabdb9dfa294de1dc21847e8df15",
+        "sha256": "0f870592f187c635bd0572c61fb57728c1a8acd7cc4010a3869fa7630cd562fe",
+        "size": 3534,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/collection.md",
+        "git_blob_sha1": "5ab6df433540a07db0dd3070e9789da116fd50a6",
+        "sha256": "f750c00894ecad5f79e8ba5c7e8d4361d046c47fd06e107620a013567f8c5ae0",
+        "size": 3608,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/diagnostics.md",
+        "git_blob_sha1": "420b3e32856a0373e8297aae9dde3420486303e5",
+        "sha256": "9e87d1da9ebdb6246437f0032a3dce0d8b6a2faf8386ae188fb2633827c3e81b",
+        "size": 3989,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/interpretation.md",
+        "git_blob_sha1": "6e4edf7bbf2a336872c23f52e04b3f20e2420ec8",
+        "sha256": "5def9610f0b7745e7e454e9ab0e4beace26c32ca93737db47360018423e222ec",
+        "size": 3875,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/logging-apis.md",
+        "git_blob_sha1": "78d26e166e346f596299891dd8002b873ac89321",
+        "sha256": "ddbc55502f16072f2b11471a82967dc355199e60dc82f991280526713016add2",
+        "size": 3930,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/output.md",
+        "git_blob_sha1": "4af18439a64e47e770896247442081037c79d050",
+        "sha256": "8b01c5d56c42c6ed9d92af7366ed21c0d039a888f590d92663fb46e76f86fd4c",
+        "size": 3548,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/source-contract.md",
+        "git_blob_sha1": "4418e1e25002e70126066115a15a36c2d98a5b51",
+        "sha256": "92b69d2be04030a135e1a94e9e032a378c1f068646b3223cd8f1782d803a0711",
+        "size": 3885,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/transcription-and-audio-preflight.md",
+        "git_blob_sha1": "2059922dd405c090f12f237fa739076f47c03604",
+        "sha256": "dc1332a28f5e188172c142d283e2509fb99fe85bef671b04f264a469050292ba",
+        "size": 3947,
+        "mode": "100644"
+      },
+      {
+        "path": "references/speech/without-node.md",
+        "git_blob_sha1": "3216a3e55bc8365b83645a4cf15709a74c982061",
+        "sha256": "8670d552abeafaad65f7b26482efb2aa9f34e088b8b5a279cd4761f6f86a607e",
+        "size": 1970,
+        "mode": "100644"
+      },
+      {
+        "path": "references/translator/document-translation-preflight.md",
+        "git_blob_sha1": "4f2ef769358d54bec0cd58f9836588e661fa7d37",
+        "sha256": "74855318dd78b5a798e871c49c808c99c23e64b7d9b9a3e702a4c81c9c73ef8d",
+        "size": 3948,
+        "mode": "100644"
+      },
+      {
+        "path": "references/translator/without-node.md",
+        "git_blob_sha1": "c3027e7d4471ee4d997126e0494a124693dc13c7",
+        "sha256": "ec895e796aa6552f53869f0f7a093372c54d2a3022b8f0d0e9ffac4929da62d0",
+        "size": 3475,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze-speech-sdk-log.mjs",
+        "git_blob_sha1": "86fb67ec31531ae25e961d20f2a1840576022ead",
+        "sha256": "a7970f6c1be05310f9cbeaf629b16447696972dd9b7b24f03054532e97af8c97",
+        "size": 18156,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze-speech-sdk-log.ps1",
+        "git_blob_sha1": "4934507dfadbbba47e5433ba07ef819f9e45629f",
+        "sha256": "c0e04e3551b7e222f5c102d89a8794d64fa41d3cf1c278b9b738fb7c9c7cb8a5",
+        "size": 1411,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/analyze-speech-sdk-log.sh",
+        "git_blob_sha1": "cacdb840d6dd5b5dd82142e4dfa660bb28585679",
+        "sha256": "5d83e9a84bc43c79949b798b42adf2005842fc08a15adfc0fd9a4df23c100bb3",
+        "size": 1342,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/audit-di-training-set.mjs",
+        "git_blob_sha1": "9480dd12e0a9f989dc9a97029c4a053ed5b9179c",
+        "sha256": "00466c3c160d010f664137dfc632149fafb8a6578276a805a2244f92cc7f0a7a",
+        "size": 13938,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/audit-di-training-set.ps1",
+        "git_blob_sha1": "a946c2027facb152b498c8e2705b8a99d02d811f",
+        "sha256": "dcca379ac8b6c8807212ee4eb7ec663718b0f75bf77376f19e955e6a23b6b828",
+        "size": 1499,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/audit-di-training-set.sh",
+        "git_blob_sha1": "e117f7deb80ea2ee5c7133bed791231b73b6016f",
+        "sha256": "54d933d90e8db810168e61f7974255e94a58d8002018fe1188f7efb15d3851e1",
+        "size": 1430,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/check-foundry-tools-access.mjs",
+        "git_blob_sha1": "cd2f6f48129a36288888eb3eb352c652d37d121c",
+        "sha256": "b39c28a58e025fb9ec9dde5f6e2fcfbed78c2d21b0d8cba2115bb0e67e8cb00c",
+        "size": 20840,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check-foundry-tools-access.ps1",
+        "git_blob_sha1": "a8108299d921594a21b3893c6d34654f3b8611ae",
+        "sha256": "d19551a64d3a2b57f8f3c614a2f7e0ee5cfd4b2b6678295f5646798d628ee446",
+        "size": 1494,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check-foundry-tools-access.sh",
+        "git_blob_sha1": "9374a1d8508a2adf03f98008b0aaaf5da729e18c",
+        "sha256": "9c3498d5f63eb563b549205e3154e3aafba8cc682d0ddddd3ca52343c5f8ffd9",
+        "size": 1425,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/check-foundry-tools-network.mjs",
+        "git_blob_sha1": "99c9ef5c11128e09e6a947774ad6ac2dbd530c7a",
+        "sha256": "28746e0a67ebae363af58d9b3e323175e0bed9321c95f6d31873ab0a4db33efd",
+        "size": 14233,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check-foundry-tools-network.ps1",
+        "git_blob_sha1": "d2af49d572f42526ff6ef2e273d02b4e3209e1fd",
+        "sha256": "f73f1f598742699595af33f57a09ea77a4c37901c6612dbc9486cd57f18ccd29",
+        "size": 1491,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check-foundry-tools-network.sh",
+        "git_blob_sha1": "5430c76e7108bfddcfdcd11eb129f7a7649bf7c3",
+        "sha256": "653e656ff14834ea2d2763c52e65bd5b7d158551a9e7b91c975b4cae5688cdb1",
+        "size": 1422,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/inspect-document-input.mjs",
+        "git_blob_sha1": "491a5e00f155098e3b851d0ce4218ab408542f96",
+        "sha256": "f419abd8e7a4a69721b77d6b02b04ea761e0bd49d152f88abe1d887ede1e0c2a",
+        "size": 34551,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect-document-input.ps1",
+        "git_blob_sha1": "6dbace6a53f98de07f16f3a3a2f674cac367e18b",
+        "sha256": "aaaaf4cce2a27df3df5a059015d3d75c7ae33aa627da01710185803c58ff3c6f",
+        "size": 1481,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect-document-input.sh",
+        "git_blob_sha1": "8cbba95fdfbcbeeab3112737a4c17dbdfc91c1c5",
+        "sha256": "e807179ee93151512f39eb21e34cfc39d3a88fdbd63dd7df31ce1e7d9c89bb78",
+        "size": 1412,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/inspect-speech-audio.mjs",
+        "git_blob_sha1": "0c85f95430a90b4fb74923bab88ca8f1584815be",
+        "sha256": "5e0fc68b7e6d4bbb3d4f253b725cb64be0c227c37b9f5f768b6f9c33bf43164d",
+        "size": 21524,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect-speech-audio.ps1",
+        "git_blob_sha1": "f5fd31441e188f964c42b1893ca54bc68f40f0c2",
+        "sha256": "986a313e75de386263fb03e9cae89eabd7283ff8c1797f22292699e567cccacb",
+        "size": 1430,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect-speech-audio.sh",
+        "git_blob_sha1": "caa0376fda7ae43513c2efa87b0f9c211a7de014",
+        "sha256": "a72ea346e134750d9bbca8be50f2f43747370b4a6949973e5ce0913375d297b1",
+        "size": 1361,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/json-file.mjs",
+        "git_blob_sha1": "da3f7892b77d8b6f8a461ffe7f5af0e82335cca1",
+        "sha256": "6b09a2ba4b7f0030549fe3e12630eddf0708fc0cdb4efc57fcba592620305535",
+        "size": 1126,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/sanitize-har.mjs",
+        "git_blob_sha1": "74b7e1bdad9b7a3d8764f6e91426a32b0cceceea",
+        "sha256": "f9f3465989dcbf30ea3f90d79cea52ca6523d1a078e67f7745643319222a6f2a",
+        "size": 12607,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/sanitize-har.ps1",
+        "git_blob_sha1": "0fa458439417fb6b8489b52a604af1bba2e4adc1",
+        "sha256": "e2015a28813f94681ca44194c737e586c34ea4b0143ab13969c919fb6c6f8fce",
+        "size": 1419,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/sanitize-har.sh",
+        "git_blob_sha1": "f1c08949386e77b0832d6e3a9c97c4881f7c368f",
+        "sha256": "9c17f85625fdd8dc8c9aaa678998f13e1d7b40eed2e05d30b69bdd87b79ff1f1",
+        "size": 1350,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate-content-safety-request.mjs",
+        "git_blob_sha1": "7e248282b4675cf23da871649162578aa096ce04",
+        "sha256": "d3d869dc49db38c2b88771cdee7ef4b19d023ae822bb1b007771fff4c84bcef1",
+        "size": 21467,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate-content-safety-request.ps1",
+        "git_blob_sha1": "305a443c2edd01111bc17917268fae7122dfb1dd",
+        "sha256": "de26dc9dcea43061e7032e15d7c45977d54b595d3e501b4971baac4599c9741b",
+        "size": 1483,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate-content-safety-request.sh",
+        "git_blob_sha1": "995d43c7e9f462af0547da20c730037862cf420e",
+        "sha256": "1e473fa7d2b63715d6dcb7bdc30f3f196bca82c15823920276f303695cb52dba",
+        "size": 1414,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate-document-translation.mjs",
+        "git_blob_sha1": "bf02ba4b16189f4fc5a01c56e33d8a34cc18cc11",
+        "sha256": "6ae4c8a1d43e4ef6299af8ea8b49f7845eb580c5bdc8dd53e7b861d7590448ed",
+        "size": 33387,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate-document-translation.ps1",
+        "git_blob_sha1": "96fb164dbad6b14cf7d12d4c6f859c8097cbe686",
+        "sha256": "d81def5172a24dc7df81a6f0bba1c87d0a60d96a88f1f9a2a29893aae823210e",
+        "size": 1452,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate-document-translation.sh",
+        "git_blob_sha1": "547b96f1ff95bf5b3ff7b45dbf81850d26ffaaa8",
+        "sha256": "2546fd0944be4fdf68fe09dc7b69cdcc65a080c31604af585dba6c7973cfbbdf",
+        "size": 1383,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate-search-schema.mjs",
+        "git_blob_sha1": "c0eaaa17d32cfed7d834ee2864f0743494a49928",
+        "sha256": "c2aa244af0a9526dcdcef9dee2bf64c2fcaba62c2a062e803fdb0bf6f1286eb6",
+        "size": 29976,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate-search-schema.ps1",
+        "git_blob_sha1": "9f8bc6595934a3150c6103ed9aa86bf862e5a1c4",
+        "sha256": "7dabbb0b517fc5a29a929738dbb02c74a1c381d310a5197a7a4cd5d4fa4f60fa",
+        "size": 1476,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate-search-schema.sh",
+        "git_blob_sha1": "53c059ae34e08633094225bfbdf510fc26758a37",
+        "sha256": "6f2d3925b527c04c67cc107af004ccf052b2c71f9970fa54510b7a19c3e1c684",
+        "size": 1407,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/content-safety/api-preflight-and-diagnostics.md",
+    "references/content-understanding/custom-analyzers.md",
+    "references/content-understanding/diagnostics.md",
+    "references/content-understanding/overview-and-setup.md",
+    "references/document-intelligence/custom-models.md",
+    "references/document-intelligence/preflight-and-diagnostics.md",
+    "references/document-intelligence/without-node.md",
+    "references/foundry-tools/access-and-roles.md",
+    "references/foundry-tools/data-handling.md",
+    "references/foundry-tools/evidence-without-content.md",
+    "references/foundry-tools/private-network.md",
+    "references/foundry-tools/storage-and-studio.md",
+    "references/foundry-tools/without-node.md",
+    "references/search/index-and-query-diagnostics.md",
+    "references/translator/document-translation-preflight.md",
+    "references/translator/without-node.md",
+    "scripts/audit-di-training-set.mjs",
+    "scripts/audit-di-training-set.ps1",
+    "scripts/audit-di-training-set.sh",
+    "scripts/check-foundry-tools-access.mjs",
+    "scripts/check-foundry-tools-access.ps1",
+    "scripts/check-foundry-tools-access.sh",
+    "scripts/check-foundry-tools-network.mjs",
+    "scripts/check-foundry-tools-network.ps1",
+    "scripts/check-foundry-tools-network.sh",
+    "scripts/inspect-document-input.mjs",
+    "scripts/inspect-document-input.ps1",
+    "scripts/inspect-document-input.sh",
+    "scripts/json-file.mjs",
+    "scripts/sanitize-har.mjs",
+    "scripts/sanitize-har.ps1",
+    "scripts/sanitize-har.sh",
+    "scripts/validate-content-safety-request.mjs",
+    "scripts/validate-content-safety-request.ps1",
+    "scripts/validate-content-safety-request.sh",
+    "scripts/validate-document-translation.mjs",
+    "scripts/validate-document-translation.ps1",
+    "scripts/validate-document-translation.sh",
+    "scripts/validate-search-schema.mjs",
+    "scripts/validate-search-schema.ps1",
+    "scripts/validate-search-schema.sh"
+  ],
+  "old_commit": "b35d2c60fac796bfd2cfd14ad3f550c73e92d9bb",
+  "new_commit": "f4c8752b2678d9bf108509af27b20873ec9cd0d0",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-11-19T11:04:15Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/b35d2c60fac796bfd2cfd14ad3f550c73e92d9bb...f4c8752b2678d9bf108509af27b20873ec9cd0d0",
+  "commit_url": "https://github.com/microsoft/skills/commit/f4c8752b2678d9bf108509af27b20873ec9cd0d0",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-ai",
+  "local_directory": "verified_real_update_pairs/OPU-0460",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0460",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

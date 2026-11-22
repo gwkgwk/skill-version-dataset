@@ -1,0 +1,93 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-typescript/skills/azure-web-pubsub-ts/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "33737a809f393fe56123",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+    "computed_tree_sha": "208c949a76336a18fc4c0b12911ff98687c6de9e",
+    "api_tree_sha_as_returned": "208c949a76336a18fc4c0b12911ff98687c6de9e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "31bc2e677d9e038773e25a4354e5d29c610ceb9f",
+        "sha256": "7aebb8e3c503cff388bac85ee73110408da9964e3b100746bd0650b9b3561083",
+        "size": 8177,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "2e528b8e6a66b385b3fdd867e95f0474a7a4742d",
+        "sha256": "456ba388460475214b33baaaa81a21ffcf0f601a761912d4048c35f1c329e372",
+        "size": 8670,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+    "computed_tree_sha": "0d8346e79362169f99af9ab5363493dff8b1bfe7",
+    "api_tree_sha_as_returned": "0d8346e79362169f99af9ab5363493dff8b1bfe7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "175e519e8d39e7fe5c2eaa34013f73f53641c1b5",
+        "sha256": "e422b13b05cb0b17c35c49d75f307127dbe1cc65735f07556d46daee82f0bdc5",
+        "size": 8393,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "2e528b8e6a66b385b3fdd867e95f0474a7a4742d",
+        "sha256": "456ba388460475214b33baaaa81a21ffcf0f601a761912d4048c35f1c329e372",
+        "size": 8670,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "bb5ba24c931f82be9b6d266f29947e4ed0dd1679",
+  "new_commit": "338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add AZURE_TOKEN_CREDENTIALS env var and credential classes link to all TS skills\n\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables section (20 skills)\n- Add credential classes reference link in Authentication section (20 skills)\n- Reword credential classes link in skill-creator template\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-22T00:02:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/bb5ba24c931f82be9b6d266f29947e4ed0dd1679...338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "commit_url": "https://github.com/microsoft/skills/commit/338b73ff6b3a0d50fd8ee94e0112129a33fc3ee5",
+  "skill_directory": ".github/plugins/azure-sdk-typescript/skills/azure-web-pubsub-ts",
+  "local_directory": "verified_real_update_pairs/OPU-0453",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0453",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

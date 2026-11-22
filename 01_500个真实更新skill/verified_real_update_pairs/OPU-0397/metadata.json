@@ -1,0 +1,775 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/zeroize-audit/skills/zeroize-audit/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "0d4c09195f16567a09ac",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "3e0c3b1c3b65810a59b5a094d4f9bf64ffc10275",
+    "computed_tree_sha": "098aa87f571216a99804dbafcc723a1167c26b66",
+    "api_tree_sha_as_returned": "098aa87f571216a99804dbafcc723a1167c26b66",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b5c86e1ffb4dbbeb8c3fb64b9deef176d22e5a9a",
+        "sha256": "b0a6c227817f9702d5168105c85977bb32ec077c6e90fd1ae094aa07b69a47cc",
+        "size": 23698,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "d7a1a7f421a1de8523945166b017f01f98bd723a",
+        "sha256": "d7cfa4fef36c58e11ca8557f0de99d4f3d9c0b1aa833a349f23868c103f5eb45",
+        "size": 235,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "configs/c.yaml",
+        "git_blob_sha1": "8d839b156504e04f3b200c97b962def3b507dd09",
+        "sha256": "64c1bf6e6dcb0639e6d66178a741b5fd7f7c79266b91b3dbccfb9e9271e5c956",
+        "size": 456,
+        "mode": "100644"
+      },
+      {
+        "path": "configs/default.yaml",
+        "git_blob_sha1": "fbc99e5ff9926b3aa914f08bc4566fcd9100f79e",
+        "sha256": "bf694a729a8b3cfa5bfe778f60ddba3a393162caf2bcf56e84ff69ed915d4d72",
+        "size": 3955,
+        "mode": "100644"
+      },
+      {
+        "path": "configs/rust.yaml",
+        "git_blob_sha1": "d5614f42c2c5436386c20007af3cdc0c431ac4e0",
+        "sha256": "3d52fe38092491aea4f3e4745393a61dd08a129c76a34a295dee8c8c614ab1f3",
+        "size": 3263,
+        "mode": "100644"
+      },
+      {
+        "path": "prompts/report_template.md",
+        "git_blob_sha1": "8eef2abd06434a623ec7ce0bc864f98fd4f5886e",
+        "sha256": "d1b29b835d401ffb9fab2b3e63c35313525007ab5909c91168188c7e39760140",
+        "size": 7050,
+        "mode": "100644"
+      },
+      {
+        "path": "prompts/system.md",
+        "git_blob_sha1": "17a5f020960c526bceb67a7c734f970208af08ac",
+        "sha256": "3665eb931acb2714036276ab19c3819c1e4fc9f289dbd86d3257c5a9429b6732",
+        "size": 8228,
+        "mode": "100644"
+      },
+      {
+        "path": "prompts/task.md",
+        "git_blob_sha1": "21c17f6f99b695da8886febc2342f96b88fdc054",
+        "sha256": "dd739ef5210841bc3bceacd32bba523dc80ceedf2a534b25b9aba6226e62d4b1",
+        "size": 4428,
+        "mode": "100644"
+      },
+      {
+        "path": "references/compile-commands.md",
+        "git_blob_sha1": "967ac528f7ed5f72f7864af785ce56b4fda9efbe",
+        "sha256": "ec353fc404fe2aea30e35fd10ae381f35f178c5121b12761b92c658bfe60024d",
+        "size": 10230,
+        "mode": "100644"
+      },
+      {
+        "path": "references/detection-strategy.md",
+        "git_blob_sha1": "3681d390e1399b20447bbd6af802da8a87aa9823",
+        "sha256": "42f5342e35f065eafcba5547aa0845498f406087cf0bacfa298ea7d86c489067",
+        "size": 10226,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ir-analysis.md",
+        "git_blob_sha1": "64790702cb53fa2dd4f8bdfb21a27644e07f1d21",
+        "sha256": "15aa18ce8592cd969cf4343e36cb2bfafa4971ea9ca5acb3d760cee0ace9e55f",
+        "size": 11221,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-analysis.md",
+        "git_blob_sha1": "119516342d879d6562f96076cf5222f8c79793fe",
+        "sha256": "018b4247ead8e058a27f17b6680f0bfa31c26331818dde699d32c8eec436f7c1",
+        "size": 9283,
+        "mode": "100644"
+      },
+      {
+        "path": "references/poc-generation.md",
+        "git_blob_sha1": "1d811b595d01189a022f86465b71fb595b35b69b",
+        "sha256": "61fb008ce7bab1a19b56b25a934d2586d3a6e43bfdbb0327f33f36b9505f5f5c",
+        "size": 21651,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rust-zeroization-patterns.md",
+        "git_blob_sha1": "07bfadc6817bae8dd6342ff5d39944ad6fa58ef8",
+        "sha256": "5a86f5accad96827da494e08fef557de845df643c02685e26530403e43e707f2",
+        "size": 35542,
+        "mode": "100644"
+      },
+      {
+        "path": "schemas/input.json",
+        "git_blob_sha1": "bd308b491d60a74f7109d399b6d7979b5c9902c8",
+        "sha256": "0a93fd1ec9e9a4f85355bf40600fd29c76c3f98089d9b6ac76795d1aa0a02421",
+        "size": 3174,
+        "mode": "100644"
+      },
+      {
+        "path": "schemas/output.json",
+        "git_blob_sha1": "fd5e33d773a8a4812aab1ef592d67e6e80f1b59e",
+        "sha256": "642b4f77d447167d2887d9b5d2ae41d67ac80ba35d7d0be26498adcfbdc02e53",
+        "size": 6040,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/analyze_asm.sh",
+        "git_blob_sha1": "b9089de451ce5f6d263ae4b10fb62a6a60b4b00c",
+        "sha256": "f072d58e5874b28c9b53ed26a2c7118a3cd994cb75504d56c4dc83ff5fd9de43",
+        "size": 5286,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/analyze_cfg.py",
+        "git_blob_sha1": "1d39a5d22bf0766c9a593010004392481a986781",
+        "sha256": "1a5bede45f21383c3377a5e639fa676bfe204154303b80c98cd59feaebec2c32",
+        "size": 13056,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/analyze_heap.sh",
+        "git_blob_sha1": "090e4e804dadc7d0a6f993c536f1137e222e3eff",
+        "sha256": "ad7d83bd10fa9968d76922c63cbd41256fcbb93f18e3d4d6cf8e8310aa8ad5d9",
+        "size": 5580,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/analyze_ir_semantic.py",
+        "git_blob_sha1": "980749b165b549c91e5bab7d9e0db767230146e6",
+        "sha256": "202a002ce09f5d0e1cccbf3a7791231a61795b6e2f4dcf2d384151278a0d788a",
+        "size": 15149,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/diff_ir.sh",
+        "git_blob_sha1": "632bc1611a33056a04a85aae5d105bed5232bee5",
+        "sha256": "2fa82d280acbab6aeffad7cd11fe88dd5388c2ad9df50b4a22cc0529e1687ec7",
+        "size": 4111,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/diff_rust_mir.sh",
+        "git_blob_sha1": "de0467df835d8d4c8f20870a13f215a9ee6fa57e",
+        "sha256": "2d383e50a3ccca17f5a8e5af26f08241cd5811e330f9e5d2ce9e5a249778cbdd",
+        "size": 6397,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_asm.sh",
+        "git_blob_sha1": "9d6e9c0e3885b0390839d94351a0783be1bc0b03",
+        "sha256": "af4db5b52071eb52f1f5579438c199142453e9fb6e6dd775c31a3edd9ea5f34e",
+        "size": 1026,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_ir.sh",
+        "git_blob_sha1": "340a894b2e32b387fc7fd8f2bcb94d5f316b0ac5",
+        "sha256": "82a3c91291ff5bc4b0ca78c3b1587aae88c1752774e0b6837c455dec5475ebf4",
+        "size": 1340,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_rust_asm.sh",
+        "git_blob_sha1": "9ae3318fa0c0f32df22e667dc13414b40097790c",
+        "sha256": "d23f859b9f4871a625d2b1fffd8857625c5b49a1a8b5e8f4878d0e800fb05847",
+        "size": 4337,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_rust_ir.sh",
+        "git_blob_sha1": "50eaddedf3ed0408bce28f937d765999d2cc4239",
+        "sha256": "3117475bba0a1fe350a938403597dec7a86d032a6d51494d708ae0037747dd17",
+        "size": 3411,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_rust_mir.sh",
+        "git_blob_sha1": "1523d9f0fccce281c3c1f23544be19e9256365c0",
+        "sha256": "95e3588f4484c6a872363a44e16587a51f5ba47cb05e6047edd7c598c6aa192d",
+        "size": 3536,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/extract_compile_flags.py",
+        "git_blob_sha1": "f4d43e2ac358b31f7f93b8200dd603e11fc38e63",
+        "sha256": "96bd2e753db421e0b86d9cadb37a61dc562e3dc84cde567a6018834565da658b",
+        "size": 8821,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/generate_poc.py",
+        "git_blob_sha1": "952e45028c4fafc16456076453ba4ad5caec1dc9",
+        "sha256": "5c9f504ba3d421d0dcce4c1e2aea19b8366eb321eb256959f797c2ec6e084677",
+        "size": 48466,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/mcp/apply_confidence_gates.py",
+        "git_blob_sha1": "f402b687210a32c497e7a5d2481073d5b5af87b7",
+        "sha256": "e4b9f1e2df523614ca61c0c1a89cafad05f487056cfe40aafa6fef4546d5e2f8",
+        "size": 3374,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/mcp/check_mcp.sh",
+        "git_blob_sha1": "39cf2c4f822106c3326a2c26acb7133838686aa2",
+        "sha256": "68c9291036b42551f926bb2bd0adeeb11e920232f2d09d4a22712575f1a9a3ae",
+        "size": 1251,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/mcp/normalize_mcp_evidence.py",
+        "git_blob_sha1": "2cc4f8f6304cec8bb89a972f204006ccc27e5cc0",
+        "sha256": "5c7132a27f7ca1ac88728115273a78d6b11a8f87050d8262fa1c9dd47483b7eb",
+        "size": 3906,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_llvm_patterns.py",
+        "git_blob_sha1": "ffae28eb9c8de4b116c0d947deccf79620b94be9",
+        "sha256": "0a17e661233fa48feab2b84fa08b685632bef51c8a479c0504e2de6369e73b5c",
+        "size": 17576,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_mir_patterns.py",
+        "git_blob_sha1": "1f9f2066d671f386082bbac0def71a6ad290f4a2",
+        "sha256": "6591eac1ea39b5e2e4cab93fcc01a3f9db6ea421676583bb31e6677140ff6cef",
+        "size": 19399,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_rust_asm.py",
+        "git_blob_sha1": "e841546a3510ca2b4dba5c7b624dd907091eabc0",
+        "sha256": "3c82bdb8db9c4393949cc437ff3ade8da3a610c27ebbfb54501132f58ad6d675",
+        "size": 16243,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_rust_asm_aarch64.py",
+        "git_blob_sha1": "c1379aab235135510040ab1502cb7c294ba8a685",
+        "sha256": "0d63782b2b2f1a0e632451823d6001e4c8b240844a23c45c1e646602698e8db4",
+        "size": 10246,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_rust_asm_x86.py",
+        "git_blob_sha1": "d0172745c5b2346fbe8a838fa2584308b4dd93d0",
+        "sha256": "6edcdc741d1f202566c5914b5d577c879d11ba61a841ba42398e05579b919cea",
+        "size": 9587,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/find_dangerous_apis.py",
+        "git_blob_sha1": "067d5278bc27a589437bd72d4ffa60c2b105862b",
+        "sha256": "5a7b873e17a64bdbe0743a0301f1abd0aba4bbe79e552eccdf7dc39e80563469",
+        "size": 14132,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/semantic_audit.py",
+        "git_blob_sha1": "2731725b4e2fab8dc764ef02fff94c20b0bf1c63",
+        "sha256": "b84e3e885e07f88dce17da03d067c1bf7a7ade0305209bdc2e9be28ecad757d9",
+        "size": 33243,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/track_dataflow.sh",
+        "git_blob_sha1": "f106c62098b295ca1e83958fb82ddc6ee3add9b0",
+        "sha256": "c60641893a664589d43c837b2ea4c7999ca51dcf61896455e97df4af0a9c12d0",
+        "size": 5209,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/validate_rust_toolchain.sh",
+        "git_blob_sha1": "f0bc73141da066a21b85609df704f7c6e6894eee",
+        "sha256": "4f294646864874bb93ef0aaceecfcaa3f81743278ffe9c48540f53a70004f49f",
+        "size": 8434,
+        "mode": "100755"
+      },
+      {
+        "path": "workflows/phase-0-preflight.md",
+        "git_blob_sha1": "ecce06a3bb2c5b453b660d24b51a95992e857c84",
+        "sha256": "61f1c2630969b7bbf6df47e5f8cef1bb04e49894c90e8c579d2a964b923d93fa",
+        "size": 7537,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-1-source-analysis.md",
+        "git_blob_sha1": "84b73bb735f884d041d69660416348d8b781ea66",
+        "sha256": "fe153fc2e84fed752b17a8e3310bdf536b93a202b12164ad5312e118cdd203c5",
+        "size": 5018,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-2-compiler-analysis.md",
+        "git_blob_sha1": "e56739dc8dbd36cab48d14e6cd17890a30089e6f",
+        "sha256": "8f1b8818a0e75bd3af102aaeed03a335012bf70e4bcb5bcadd9d6765519afe53",
+        "size": 5973,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-3-interim-report.md",
+        "git_blob_sha1": "b86b158d33efc6b3e4711f0ce628b1b55f9374ed",
+        "sha256": "594cf840fceb63f3d93c310eb1c34f04441fe25de56f320e66c0c57f042ab92e",
+        "size": 1122,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-4-poc-generation.md",
+        "git_blob_sha1": "0be174c1017269a660cf8c09a9c29c773413f624",
+        "sha256": "37c521bd8f7bcfcb11d29a43140161d6833ba2164016c6623f713652ca410c94",
+        "size": 1274,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-5-poc-validation.md",
+        "git_blob_sha1": "45e9fa8c85fe3c502b70f8798ca21f8ea0c348e0",
+        "sha256": "6a2d030c1dc25b8317fa173c6ef855b7145ae8148f3c86e9691f8b7b669a4c44",
+        "size": 4219,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-6-final-report.md",
+        "git_blob_sha1": "d9511be78295b3917c9d0837f00e4d34d8e3a39b",
+        "sha256": "44b7d099223839bf8016692cd6ec6b86f203e0a34d91861db9218cce4dfa06df",
+        "size": 1139,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-7-test-generation.md",
+        "git_blob_sha1": "377dc6c3266c06780fe19c64a2c8538d7875fb4c",
+        "sha256": "3f1476672e8a301c7b125c81f2b4332ff97ff2a8cb65c6749b2cbe367598173b",
+        "size": 835,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671",
+    "computed_tree_sha": "90b608234cddba3d5ee99acadbe7609ade57d578",
+    "api_tree_sha_as_returned": "90b608234cddba3d5ee99acadbe7609ade57d578",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9e05ea671eb77f7d9133ad067b76da72f2731e0c",
+        "sha256": "933273f0c9cd0ae197c010a4d3de81782a593b2160507b897f1e04d579bfba6f",
+        "size": 26668,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "d7a1a7f421a1de8523945166b017f01f98bd723a",
+        "sha256": "d7cfa4fef36c58e11ca8557f0de99d4f3d9c0b1aa833a349f23868c103f5eb45",
+        "size": 235,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "configs/c.yaml",
+        "git_blob_sha1": "8d839b156504e04f3b200c97b962def3b507dd09",
+        "sha256": "64c1bf6e6dcb0639e6d66178a741b5fd7f7c79266b91b3dbccfb9e9271e5c956",
+        "size": 456,
+        "mode": "100644"
+      },
+      {
+        "path": "configs/default.yaml",
+        "git_blob_sha1": "fbc99e5ff9926b3aa914f08bc4566fcd9100f79e",
+        "sha256": "bf694a729a8b3cfa5bfe778f60ddba3a393162caf2bcf56e84ff69ed915d4d72",
+        "size": 3955,
+        "mode": "100644"
+      },
+      {
+        "path": "configs/rust.yaml",
+        "git_blob_sha1": "d5614f42c2c5436386c20007af3cdc0c431ac4e0",
+        "sha256": "3d52fe38092491aea4f3e4745393a61dd08a129c76a34a295dee8c8c614ab1f3",
+        "size": 3263,
+        "mode": "100644"
+      },
+      {
+        "path": "prompts/report_template.md",
+        "git_blob_sha1": "8eef2abd06434a623ec7ce0bc864f98fd4f5886e",
+        "sha256": "d1b29b835d401ffb9fab2b3e63c35313525007ab5909c91168188c7e39760140",
+        "size": 7050,
+        "mode": "100644"
+      },
+      {
+        "path": "prompts/system.md",
+        "git_blob_sha1": "8ac600ad374f642bc56437f50fe090347049adfe",
+        "sha256": "2ca13b383f53f87dfc5933ed72e06f3162102b5d16f2866540ccb43cbd58569d",
+        "size": 8443,
+        "mode": "100644"
+      },
+      {
+        "path": "prompts/task.md",
+        "git_blob_sha1": "1553371a1b2c69f0c0b889035f9795af5a06eea3",
+        "sha256": "cb318918dd864a654a201479d0f9b9b5f7e95b96d464952ed576a2e3b4bb3b2c",
+        "size": 4684,
+        "mode": "100644"
+      },
+      {
+        "path": "references/compile-commands.md",
+        "git_blob_sha1": "967ac528f7ed5f72f7864af785ce56b4fda9efbe",
+        "sha256": "ec353fc404fe2aea30e35fd10ae381f35f178c5121b12761b92c658bfe60024d",
+        "size": 10230,
+        "mode": "100644"
+      },
+      {
+        "path": "references/detection-strategy.md",
+        "git_blob_sha1": "3681d390e1399b20447bbd6af802da8a87aa9823",
+        "sha256": "42f5342e35f065eafcba5547aa0845498f406087cf0bacfa298ea7d86c489067",
+        "size": 10226,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ir-analysis.md",
+        "git_blob_sha1": "64790702cb53fa2dd4f8bdfb21a27644e07f1d21",
+        "sha256": "15aa18ce8592cd969cf4343e36cb2bfafa4971ea9ca5acb3d760cee0ace9e55f",
+        "size": 11221,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-analysis.md",
+        "git_blob_sha1": "119516342d879d6562f96076cf5222f8c79793fe",
+        "sha256": "018b4247ead8e058a27f17b6680f0bfa31c26331818dde699d32c8eec436f7c1",
+        "size": 9283,
+        "mode": "100644"
+      },
+      {
+        "path": "references/poc-generation.md",
+        "git_blob_sha1": "1d811b595d01189a022f86465b71fb595b35b69b",
+        "sha256": "61fb008ce7bab1a19b56b25a934d2586d3a6e43bfdbb0327f33f36b9505f5f5c",
+        "size": 21651,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rust-zeroization-patterns.md",
+        "git_blob_sha1": "07bfadc6817bae8dd6342ff5d39944ad6fa58ef8",
+        "sha256": "5a86f5accad96827da494e08fef557de845df643c02685e26530403e43e707f2",
+        "size": 35542,
+        "mode": "100644"
+      },
+      {
+        "path": "schemas/input.json",
+        "git_blob_sha1": "bd308b491d60a74f7109d399b6d7979b5c9902c8",
+        "sha256": "0a93fd1ec9e9a4f85355bf40600fd29c76c3f98089d9b6ac76795d1aa0a02421",
+        "size": 3174,
+        "mode": "100644"
+      },
+      {
+        "path": "schemas/output.json",
+        "git_blob_sha1": "fd5e33d773a8a4812aab1ef592d67e6e80f1b59e",
+        "sha256": "642b4f77d447167d2887d9b5d2ae41d67ac80ba35d7d0be26498adcfbdc02e53",
+        "size": 6040,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/analyze_asm.sh",
+        "git_blob_sha1": "b9089de451ce5f6d263ae4b10fb62a6a60b4b00c",
+        "sha256": "f072d58e5874b28c9b53ed26a2c7118a3cd994cb75504d56c4dc83ff5fd9de43",
+        "size": 5286,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/analyze_cfg.py",
+        "git_blob_sha1": "1d39a5d22bf0766c9a593010004392481a986781",
+        "sha256": "1a5bede45f21383c3377a5e639fa676bfe204154303b80c98cd59feaebec2c32",
+        "size": 13056,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/analyze_heap.sh",
+        "git_blob_sha1": "090e4e804dadc7d0a6f993c536f1137e222e3eff",
+        "sha256": "ad7d83bd10fa9968d76922c63cbd41256fcbb93f18e3d4d6cf8e8310aa8ad5d9",
+        "size": 5580,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/analyze_ir_semantic.py",
+        "git_blob_sha1": "980749b165b549c91e5bab7d9e0db767230146e6",
+        "sha256": "202a002ce09f5d0e1cccbf3a7791231a61795b6e2f4dcf2d384151278a0d788a",
+        "size": 15149,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/diff_ir.sh",
+        "git_blob_sha1": "632bc1611a33056a04a85aae5d105bed5232bee5",
+        "sha256": "2fa82d280acbab6aeffad7cd11fe88dd5388c2ad9df50b4a22cc0529e1687ec7",
+        "size": 4111,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/diff_rust_mir.sh",
+        "git_blob_sha1": "de0467df835d8d4c8f20870a13f215a9ee6fa57e",
+        "sha256": "2d383e50a3ccca17f5a8e5af26f08241cd5811e330f9e5d2ce9e5a249778cbdd",
+        "size": 6397,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_asm.sh",
+        "git_blob_sha1": "9d6e9c0e3885b0390839d94351a0783be1bc0b03",
+        "sha256": "af4db5b52071eb52f1f5579438c199142453e9fb6e6dd775c31a3edd9ea5f34e",
+        "size": 1026,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_ir.sh",
+        "git_blob_sha1": "340a894b2e32b387fc7fd8f2bcb94d5f316b0ac5",
+        "sha256": "82a3c91291ff5bc4b0ca78c3b1587aae88c1752774e0b6837c455dec5475ebf4",
+        "size": 1340,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_rust_asm.sh",
+        "git_blob_sha1": "9ae3318fa0c0f32df22e667dc13414b40097790c",
+        "sha256": "d23f859b9f4871a625d2b1fffd8857625c5b49a1a8b5e8f4878d0e800fb05847",
+        "size": 4337,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_rust_ir.sh",
+        "git_blob_sha1": "50eaddedf3ed0408bce28f937d765999d2cc4239",
+        "sha256": "3117475bba0a1fe350a938403597dec7a86d032a6d51494d708ae0037747dd17",
+        "size": 3411,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/emit_rust_mir.sh",
+        "git_blob_sha1": "1523d9f0fccce281c3c1f23544be19e9256365c0",
+        "sha256": "95e3588f4484c6a872363a44e16587a51f5ba47cb05e6047edd7c598c6aa192d",
+        "size": 3536,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/extract_compile_flags.py",
+        "git_blob_sha1": "f4d43e2ac358b31f7f93b8200dd603e11fc38e63",
+        "sha256": "96bd2e753db421e0b86d9cadb37a61dc562e3dc84cde567a6018834565da658b",
+        "size": 8821,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/generate_poc.py",
+        "git_blob_sha1": "952e45028c4fafc16456076453ba4ad5caec1dc9",
+        "sha256": "5c9f504ba3d421d0dcce4c1e2aea19b8366eb321eb256959f797c2ec6e084677",
+        "size": 48466,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/mcp/apply_confidence_gates.py",
+        "git_blob_sha1": "f402b687210a32c497e7a5d2481073d5b5af87b7",
+        "sha256": "e4b9f1e2df523614ca61c0c1a89cafad05f487056cfe40aafa6fef4546d5e2f8",
+        "size": 3374,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/mcp/check_mcp.sh",
+        "git_blob_sha1": "39cf2c4f822106c3326a2c26acb7133838686aa2",
+        "sha256": "68c9291036b42551f926bb2bd0adeeb11e920232f2d09d4a22712575f1a9a3ae",
+        "size": 1251,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/mcp/normalize_mcp_evidence.py",
+        "git_blob_sha1": "2cc4f8f6304cec8bb89a972f204006ccc27e5cc0",
+        "sha256": "5c7132a27f7ca1ac88728115273a78d6b11a8f87050d8262fa1c9dd47483b7eb",
+        "size": 3906,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_llvm_patterns.py",
+        "git_blob_sha1": "ffae28eb9c8de4b116c0d947deccf79620b94be9",
+        "sha256": "0a17e661233fa48feab2b84fa08b685632bef51c8a479c0504e2de6369e73b5c",
+        "size": 17576,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_mir_patterns.py",
+        "git_blob_sha1": "1f9f2066d671f386082bbac0def71a6ad290f4a2",
+        "sha256": "6591eac1ea39b5e2e4cab93fcc01a3f9db6ea421676583bb31e6677140ff6cef",
+        "size": 19399,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_rust_asm.py",
+        "git_blob_sha1": "e841546a3510ca2b4dba5c7b624dd907091eabc0",
+        "sha256": "3c82bdb8db9c4393949cc437ff3ade8da3a610c27ebbfb54501132f58ad6d675",
+        "size": 16243,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_rust_asm_aarch64.py",
+        "git_blob_sha1": "c1379aab235135510040ab1502cb7c294ba8a685",
+        "sha256": "0d63782b2b2f1a0e632451823d6001e4c8b240844a23c45c1e646602698e8db4",
+        "size": 10246,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/check_rust_asm_x86.py",
+        "git_blob_sha1": "d0172745c5b2346fbe8a838fa2584308b4dd93d0",
+        "sha256": "6edcdc741d1f202566c5914b5d577c879d11ba61a841ba42398e05579b919cea",
+        "size": 9587,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/find_dangerous_apis.py",
+        "git_blob_sha1": "067d5278bc27a589437bd72d4ffa60c2b105862b",
+        "sha256": "5a7b873e17a64bdbe0743a0301f1abd0aba4bbe79e552eccdf7dc39e80563469",
+        "size": 14132,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/scripts/semantic_audit.py",
+        "git_blob_sha1": "2731725b4e2fab8dc764ef02fff94c20b0bf1c63",
+        "sha256": "b84e3e885e07f88dce17da03d067c1bf7a7ade0305209bdc2e9be28ecad757d9",
+        "size": 33243,
+        "mode": "100644"
+      },
+      {
+        "path": "tools/track_dataflow.sh",
+        "git_blob_sha1": "f106c62098b295ca1e83958fb82ddc6ee3add9b0",
+        "sha256": "c60641893a664589d43c837b2ea4c7999ca51dcf61896455e97df4af0a9c12d0",
+        "size": 5209,
+        "mode": "100755"
+      },
+      {
+        "path": "tools/validate_rust_toolchain.sh",
+        "git_blob_sha1": "f0bc73141da066a21b85609df704f7c6e6894eee",
+        "sha256": "4f294646864874bb93ef0aaceecfcaa3f81743278ffe9c48540f53a70004f49f",
+        "size": 8434,
+        "mode": "100755"
+      },
+      {
+        "path": "workflows/phase-0-preflight.md",
+        "git_blob_sha1": "beb48e60a0267b8e32f6688da03beb77b0836dfc",
+        "sha256": "758b424590b2fbba4eca0831d13288f173c1c6aff3a32f228f16a2ad75cbf54d",
+        "size": 7564,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-1-source-analysis.md",
+        "git_blob_sha1": "8b7ed0d9b26af14d90274eaf11710d0951b44e52",
+        "sha256": "9b433ef005dcef14df1b070e0f1f1edc24b2503a28ac8b0d01c1d38b43fe8f62",
+        "size": 5091,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-2-compiler-analysis.md",
+        "git_blob_sha1": "01eaee93f4ecd1ed960673c3d4ee70355a73ba92",
+        "sha256": "b1b3ea9fcf61f1ca71e169ba06d7cc11daadf3bdf964b96aee10b659d84816fe",
+        "size": 6128,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-3-interim-report.md",
+        "git_blob_sha1": "49bf9373ef86b124477f182c6634134d3d98b5b0",
+        "sha256": "030bda9e7d1a01a1959c8bc1c6156dce84150500f74f679b693d495dfa545d12",
+        "size": 1149,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-4-poc-generation.md",
+        "git_blob_sha1": "a1f4c01e9089eb34e4302f37a136770089b5bccd",
+        "sha256": "2f5ca69c303807791c9cbe4f05349573a7297ec5df362055053a0245296b79c2",
+        "size": 1301,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-5-poc-validation.md",
+        "git_blob_sha1": "79e0fff9de5991c504d2cd4a58d2598b99903789",
+        "sha256": "c1a87bc8f9d8eb3c59bff3f9ca5860d4910efcffe4c2937d84d702f673cbc8ec",
+        "size": 4351,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-6-final-report.md",
+        "git_blob_sha1": "56998227ab943aeb6d0651789e4a5b16ca171476",
+        "sha256": "93dd23c99a30832477fcfedaa76f1a66de4d189f3d3389373637b7c8ba0ff80b",
+        "size": 1166,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/phase-7-test-generation.md",
+        "git_blob_sha1": "30b11f504f393da88b777eeff4b05c7dcc2e81c1",
+        "sha256": "d865b2fff2a081ce5966bc2e6ad7fe7d04dad897fcbd7139daceeeee9b3a2a63",
+        "size": 862,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "prompts/system.md",
+    "prompts/task.md",
+    "workflows/phase-0-preflight.md",
+    "workflows/phase-1-source-analysis.md",
+    "workflows/phase-2-compiler-analysis.md",
+    "workflows/phase-3-interim-report.md",
+    "workflows/phase-4-poc-generation.md",
+    "workflows/phase-5-poc-validation.md",
+    "workflows/phase-6-final-report.md",
+    "workflows/phase-7-test-generation.md"
+  ],
+  "old_commit": "3e0c3b1c3b65810a59b5a094d4f9bf64ffc10275",
+  "new_commit": "d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Make `zeroize-audit` agent-agnostic (#377)\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-10-14T19:37:21Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/3e0c3b1c3b65810a59b5a094d4f9bf64ffc10275...d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671",
+  "commit_url": "https://github.com/trailofbits/skills/commit/d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671",
+  "skill_directory": "plugins/zeroize-audit/skills/zeroize-audit",
+  "local_directory": "verified_real_update_pairs/OPU-0397",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0397",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/huggingface-spaces/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "367371ed34ab71570a5b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "cfcd0a8100524dd3b9680c3bd4418c6b2640853a",
+    "computed_tree_sha": "5588903ac595c6e8e53dbe528490a6581cc6ea61",
+    "api_tree_sha_as_returned": "5588903ac595c6e8e53dbe528490a6581cc6ea61",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "4c8197f4861879178b95c0788d66bad558db4842",
+        "sha256": "7d478e2dee162aadab87d57969b25f9fb16166324e727b73bf7c8e23f80bfb42",
+        "size": 412,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9c054c071bc4d2bc2ba1d67b96b0d93825a559ce",
+        "sha256": "a029dd0bb1eb23d731e1aee2e7fcdc54ab343e4ac6b076e207ee181531cf9337",
+        "size": 16939,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-cuda-extensions.md",
+        "git_blob_sha1": "58b79f152f954d9bc7fcdf001b5183d5eb7434c7",
+        "sha256": "9024bd891770d34c38c215e322bae1003859832e4edfb94a4d8acdfada327476",
+        "size": 9342,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-generation.md",
+        "git_blob_sha1": "76f7db8395b5e09914b806ac3b45b38d2cad0102",
+        "sha256": "884fd62a915bcd654959bc3ca1301fb5155826ddc8d45be9fa97518028bb843e",
+        "size": 8760,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-gsplat.md",
+        "git_blob_sha1": "00121b940ea78576ffe249ec98724b4983442906",
+        "sha256": "323eb8dd108fb0bc2189f760194fca990dd8d7025e05b41f8a33f81c18ac218b",
+        "size": 7376,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-models.md",
+        "git_blob_sha1": "cbd20785c42a7c3afbb3e39d2a34c74c83645252",
+        "sha256": "f472d6cac304ec903730ac3edc0ed921f396419b1e23cb7f9ffb0a5c406bcbe9",
+        "size": 20120,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-outputs.md",
+        "git_blob_sha1": "d33c807c41683216ab11c50154389b2ff6cc44be",
+        "sha256": "37d26a20e91c512d3061295c5671a8a890f017a42b6d0694c9ae7c40f7ac5334",
+        "size": 9553,
+        "mode": "100644"
+      },
+      {
+        "path": "references/buckets.md",
+        "git_blob_sha1": "24bf08c78ef6766f31efc78e5d8fd79344c65f53",
+        "sha256": "45a4faa48d5e04fe2255792da4d9c8b1f460eed1065605c56a3389d0a62dfe90",
+        "size": 4384,
+        "mode": "100644"
+      },
+      {
+        "path": "references/debugging.md",
+        "git_blob_sha1": "dcb77f0e642fd87df09eb5c427fdc38572e13d77",
+        "sha256": "98befd8ca23b178fefe93212888c9e1c0cf0399745a43e742a6d01919b37d95b",
+        "size": 11562,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gradio.md",
+        "git_blob_sha1": "b888fec4bb3f695238514e7e2765169718384114",
+        "sha256": "ec341392222a05e903cf5c8a1419a64558e16c877af76646cd67d9abc525afe6",
+        "size": 9423,
+        "mode": "100644"
+      },
+      {
+        "path": "references/grants.md",
+        "git_blob_sha1": "e849dc40ff556bab7159f3631dbdabb0edd5521b",
+        "sha256": "5834f0e51852c0ecec986f952f23e8a6fe209f882071d3e50412cc5af247455d",
+        "size": 2643,
+        "mode": "100644"
+      },
+      {
+        "path": "references/inference-providers.md",
+        "git_blob_sha1": "4cfc93da032a36dacd71343ad96b4baa51aed0a3",
+        "sha256": "b4292076b6a77be4c721cfa4f35b2b3eb8eefbffe30de264c004197e9072f138",
+        "size": 3271,
+        "mode": "100644"
+      },
+      {
+        "path": "references/known-errors.md",
+        "git_blob_sha1": "b8bf6c167849fc157bdbf40d54c4fd20b480065f",
+        "sha256": "d90955f04ad6b4cbe06dc968f89b7bf5d89efd560d48705fce8c3cb769df2f9c",
+        "size": 13250,
+        "mode": "100644"
+      },
+      {
+        "path": "references/requirements.md",
+        "git_blob_sha1": "ecc1faaa4091b38280bd0a94cbe323c8f598b3dd",
+        "sha256": "556b834b6d31ed37fa2249e0bef34344ada98b75fe77078281846acc4f7b2385",
+        "size": 11520,
+        "mode": "100644"
+      },
+      {
+        "path": "references/zerogpu.md",
+        "git_blob_sha1": "d25cbf7c43bff28fdae4e167899d547c9dbe99a9",
+        "sha256": "9364442337690bbf0d6f51276e57bed99e9ff12d51e79e0efd632a1de0abeb09",
+        "size": 21401,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "57d80c38700f4f016e965b2a680679573bfe9d4d",
+    "computed_tree_sha": "2b7cbb9d06ff42f92abe6165b003b4ed6c9af9ba",
+    "api_tree_sha_as_returned": "2b7cbb9d06ff42f92abe6165b003b4ed6c9af9ba",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "4c8197f4861879178b95c0788d66bad558db4842",
+        "sha256": "7d478e2dee162aadab87d57969b25f9fb16166324e727b73bf7c8e23f80bfb42",
+        "size": 412,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bbae4511df2dac10581bf2ab5ef7eb4d8ecb9f22",
+        "sha256": "efa6506be823aaea03c31ef6cd06734485f7c451065aab43cfa5b5053c0df82b",
+        "size": 17903,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-cuda-extensions.md",
+        "git_blob_sha1": "58b79f152f954d9bc7fcdf001b5183d5eb7434c7",
+        "sha256": "9024bd891770d34c38c215e322bae1003859832e4edfb94a4d8acdfada327476",
+        "size": 9342,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-generation.md",
+        "git_blob_sha1": "76f7db8395b5e09914b806ac3b45b38d2cad0102",
+        "sha256": "884fd62a915bcd654959bc3ca1301fb5155826ddc8d45be9fa97518028bb843e",
+        "size": 8760,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-gsplat.md",
+        "git_blob_sha1": "00121b940ea78576ffe249ec98724b4983442906",
+        "sha256": "323eb8dd108fb0bc2189f760194fca990dd8d7025e05b41f8a33f81c18ac218b",
+        "size": 7376,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-models.md",
+        "git_blob_sha1": "cbd20785c42a7c3afbb3e39d2a34c74c83645252",
+        "sha256": "f472d6cac304ec903730ac3edc0ed921f396419b1e23cb7f9ffb0a5c406bcbe9",
+        "size": 20120,
+        "mode": "100644"
+      },
+      {
+        "path": "references/3d-outputs.md",
+        "git_blob_sha1": "d33c807c41683216ab11c50154389b2ff6cc44be",
+        "sha256": "37d26a20e91c512d3061295c5671a8a890f017a42b6d0694c9ae7c40f7ac5334",
+        "size": 9553,
+        "mode": "100644"
+      },
+      {
+        "path": "references/buckets.md",
+        "git_blob_sha1": "24bf08c78ef6766f31efc78e5d8fd79344c65f53",
+        "sha256": "45a4faa48d5e04fe2255792da4d9c8b1f460eed1065605c56a3389d0a62dfe90",
+        "size": 4384,
+        "mode": "100644"
+      },
+      {
+        "path": "references/debugging.md",
+        "git_blob_sha1": "dcb77f0e642fd87df09eb5c427fdc38572e13d77",
+        "sha256": "98befd8ca23b178fefe93212888c9e1c0cf0399745a43e742a6d01919b37d95b",
+        "size": 11562,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gradio.md",
+        "git_blob_sha1": "b888fec4bb3f695238514e7e2765169718384114",
+        "sha256": "ec341392222a05e903cf5c8a1419a64558e16c877af76646cd67d9abc525afe6",
+        "size": 9423,
+        "mode": "100644"
+      },
+      {
+        "path": "references/grants.md",
+        "git_blob_sha1": "d5f744ffde01a88071d73a6e51151c4c6f114579",
+        "sha256": "f87c6b70c075088fa3821c31bd658ef6530c92816ff183c97b543077d064e400",
+        "size": 3203,
+        "mode": "100644"
+      },
+      {
+        "path": "references/inference-providers.md",
+        "git_blob_sha1": "1654e5e7755c796f19155297c01bc1a5f9c35715",
+        "sha256": "c11c02f2c2679c1dccec684b9d5803493e912d45e44f11164c6cb8623ed73051",
+        "size": 3873,
+        "mode": "100644"
+      },
+      {
+        "path": "references/known-errors.md",
+        "git_blob_sha1": "871d80e2c615025a3061425df8f706d623a8c882",
+        "sha256": "638cb9ea501c36695de31973b92674b5c97e40d1c0c02ca9373bb05a7de6229c",
+        "size": 13625,
+        "mode": "100644"
+      },
+      {
+        "path": "references/requirements.md",
+        "git_blob_sha1": "ecc1faaa4091b38280bd0a94cbe323c8f598b3dd",
+        "sha256": "556b834b6d31ed37fa2249e0bef34344ada98b75fe77078281846acc4f7b2385",
+        "size": 11520,
+        "mode": "100644"
+      },
+      {
+        "path": "references/zerogpu.md",
+        "git_blob_sha1": "d25cbf7c43bff28fdae4e167899d547c9dbe99a9",
+        "sha256": "9364442337690bbf0d6f51276e57bed99e9ff12d51e79e0efd632a1de0abeb09",
+        "size": 21401,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/grants.md",
+    "references/inference-providers.md",
+    "references/known-errors.md"
+  ],
+  "old_commit": "cfcd0a8100524dd3b9680c3bd4418c6b2640853a",
+  "new_commit": "57d80c38700f4f016e965b2a680679573bfe9d4d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "spaces: Gradio/Docker Spaces now need a paid plan; free accounts get 2 ZeroGPU Spaces (#218)\n\n* spaces: Gradio/Docker Spaces need a paid plan; free accounts get 2 ZeroGPU Spaces\n\n* chore: bump plugin version to 1.0.21",
+  "new_commit_time": "2026-08-03T18:53:40Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/cfcd0a8100524dd3b9680c3bd4418c6b2640853a...57d80c38700f4f016e965b2a680679573bfe9d4d",
+  "commit_url": "https://github.com/huggingface/skills/commit/57d80c38700f4f016e965b2a680679573bfe9d4d",
+  "skill_directory": "skills/huggingface-spaces",
+  "local_directory": "verified_real_update_pairs/OPU-0137",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0137",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

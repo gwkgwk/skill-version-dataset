@@ -1,0 +1,169 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-aigateway/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "64255ba4978c82f8ab8c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "34dddbd53c2226379c6da1dac1e05223554a821e",
+    "computed_tree_sha": "5215318830098e5acfff6ed1036cee13fd5c7ba6",
+    "api_tree_sha_as_returned": "5215318830098e5acfff6ed1036cee13fd5c7ba6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e78b2e57e56d8093bad54d822c9578cf0e06a033",
+        "sha256": "54a30693b3d6cc949d7d5d0aa9fb773d193307e8caf8eedc34d67fe7dfe7e6f4",
+        "size": 25363,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-py.md",
+        "git_blob_sha1": "e6195e9362d60239874ddad1b121fc40fdfd42ee",
+        "sha256": "21f78e6865a6c74ffb405ceeb2f91350e5b5ec24f17d236f8c9a7d996999a01f",
+        "size": 1361,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-ts.md",
+        "git_blob_sha1": "307aec8f94fcd4224f1f7bb8d9675689cd1f62b8",
+        "sha256": "556cad24ac915c99ad0d19bfcb153a8f9b2ac2750d8c4b78391d29b3d67f27d8",
+        "size": 1413,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-mgmt-apimanagement-dotnet.md",
+        "git_blob_sha1": "40551fde0e1d61e5865444bf87a8141f3185362d",
+        "sha256": "81eeb4ac99d9253c0d9187741506be84eb827cda0a17fc62477d7a9d3fd5bb1a",
+        "size": 1059,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-mgmt-apimanagement-py.md",
+        "git_blob_sha1": "25b968baa04d66a8429dc58ed17737d1936906d0",
+        "sha256": "569293cdb8c6c17e151f7406396efda2e3fcea604ee42b3db3f068d0caf7bb93",
+        "size": 883,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "28a6dfe735d29044c9fff1d9b3c15999162792af",
+    "computed_tree_sha": "60b95bff29657444a4b0dcb33547766a4da68415",
+    "api_tree_sha_as_returned": "60b95bff29657444a4b0dcb33547766a4da68415",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "50aece7f29b5078868856db86e003c72dd35fcc8",
+        "sha256": "20f92e14cecbe1a9866e7322a5e6301ff01a0ddc7122d200c68b21a8fa7468eb",
+        "size": 5029,
+        "mode": "100644"
+      },
+      {
+        "path": "references/auth-best-practices.md",
+        "git_blob_sha1": "6938d5f0eb32c0e5726222336cdc9365eceae865",
+        "sha256": "34f6fe88e2b5819c1a0f24aa3930a060d9504fee68ea4b363f0912a78daa5396",
+        "size": 6207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/patterns.md",
+        "git_blob_sha1": "53397c460a2f9d01a18bdacbf553ea32c0bae64f",
+        "sha256": "7a701fc8bee643ec4a4a8f77e19fb45b5101ce830da7740ed6641233b3df4470",
+        "size": 6786,
+        "mode": "100644"
+      },
+      {
+        "path": "references/policies.md",
+        "git_blob_sha1": "127cabf3b5700e90414c0dd8e8cc586db1488053",
+        "sha256": "176a5bf61186a45e338dcc9ab6e9320a7b4ae3d8bb356f8613506533348b3b69",
+        "size": 9375,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-py.md",
+        "git_blob_sha1": "e6195e9362d60239874ddad1b121fc40fdfd42ee",
+        "sha256": "21f78e6865a6c74ffb405ceeb2f91350e5b5ec24f17d236f8c9a7d996999a01f",
+        "size": 1361,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-ai-contentsafety-ts.md",
+        "git_blob_sha1": "307aec8f94fcd4224f1f7bb8d9675689cd1f62b8",
+        "sha256": "556cad24ac915c99ad0d19bfcb153a8f9b2ac2750d8c4b78391d29b3d67f27d8",
+        "size": 1413,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-mgmt-apimanagement-dotnet.md",
+        "git_blob_sha1": "8f44361e26c5d1f0af0374e5c0a25c907b6ee758",
+        "sha256": "156cd0f2ad7fc73d1f07c13ead5a46f759746c08d9f9f6612d48a73615c0f258",
+        "size": 1310,
+        "mode": "100644"
+      },
+      {
+        "path": "references/sdk/azure-mgmt-apimanagement-py.md",
+        "git_blob_sha1": "b4c4cc755e41dd1f66faccd674183ae256940295",
+        "sha256": "2096c2199a2861d4e6fad37b7850d32fabfd3e75c323436d51746565ef349949",
+        "size": 1028,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "a46f3b4981ff3c692ed74af8887d68c11aaed393",
+        "sha256": "ebe564f5b4a5628887d49aa11699ccc967eba0c96e336c989c8ce28028e842e8",
+        "size": 7881,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/auth-best-practices.md",
+    "references/patterns.md",
+    "references/policies.md",
+    "references/sdk/azure-mgmt-apimanagement-dotnet.md",
+    "references/sdk/azure-mgmt-apimanagement-py.md",
+    "references/troubleshooting.md"
+  ],
+  "old_commit": "34dddbd53c2226379c6da1dac1e05223554a821e",
+  "new_commit": "28a6dfe735d29044c9fff1d9b3c15999162792af",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-03-19T11:13:20Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/34dddbd53c2226379c6da1dac1e05223554a821e...28a6dfe735d29044c9fff1d9b3c15999162792af",
+  "commit_url": "https://github.com/microsoft/skills/commit/28a6dfe735d29044c9fff1d9b3c15999162792af",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-aigateway",
+  "local_directory": "verified_real_update_pairs/OPU-0461",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0461",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

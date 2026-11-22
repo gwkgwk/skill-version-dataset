@@ -1,0 +1,180 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/ads/google-ads-api-quickstart/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "f3c4117102a9a9a3041c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "61d3e26a0c385defa7842c3b3902b3419482c8c9",
+    "computed_tree_sha": "1982945dcc3c1dd167f57dd336b9cdb144b16a5d",
+    "api_tree_sha_as_returned": "1982945dcc3c1dd167f57dd336b9cdb144b16a5d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8176bb5492d40b19c94fe311b0f3a95e4deae15b",
+        "sha256": "18ee2ef58a26ba68eae50e096f3068526c1d268c8de0538e2f91ef1212af651c",
+        "size": 20071,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dotnet.md",
+        "git_blob_sha1": "11cdb77e539bc0759294c2ecaa6019d4fbf7c6a8",
+        "sha256": "ac58cc2c616fb273490d16f0f6e1e4878ff31142b91f10abab66ec4a70760448",
+        "size": 4048,
+        "mode": "100644"
+      },
+      {
+        "path": "references/java.md",
+        "git_blob_sha1": "ac4c73b50dafcef683d1d8c1286746da13873c6f",
+        "sha256": "d1f7fae106ae31319ae3531db00866cbc14b07e1886453fcb15970939e72a64d",
+        "size": 8619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/perl.md",
+        "git_blob_sha1": "a1c76c649043725da93f458fe886f30a8154105a",
+        "sha256": "32352ac31d7195411586787bf95c3473b3503df18fe97aa0941f8eaeb7e74c9f",
+        "size": 2915,
+        "mode": "100644"
+      },
+      {
+        "path": "references/php.md",
+        "git_blob_sha1": "e526ff47bee48b071aabab9ffdd1f71337e613c4",
+        "sha256": "a6710dd13a6443feb16b90eb238a8ab5b057a663b22729df619c33138b93edb5",
+        "size": 4147,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "1d8cac1097a987bf728caef13965ee55d59240d1",
+        "sha256": "21317cd2dcefaf2ad81bf49e8e8142495e397ad8f9f0e777725100d511ee92f5",
+        "size": 7762,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rest.md",
+        "git_blob_sha1": "2b701c221bc9a59ca901fa44893217a88afd7b07",
+        "sha256": "4198288f8f8c1a8a4a29b60a65c2ec90b7957d8343691c290736c93eacbcae06",
+        "size": 5331,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruby.md",
+        "git_blob_sha1": "a6e9afc094463b9d41969602849df381fa6cb0e7",
+        "sha256": "86447814be531cc43df2c11fdf3a34e0785bd53c9d286ff0de854756522d2b84",
+        "size": 3626,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "1e285f9d77ab260fd50944b49c3e2269b459474c",
+    "computed_tree_sha": "5322e1af55a91a0e58a9ab43909bd738b589732d",
+    "api_tree_sha_as_returned": "5322e1af55a91a0e58a9ab43909bd738b589732d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c49a918bad423c57aa4c8a123d027bf3a98fef34",
+        "sha256": "42cf5d5e2841d431befff630a496a04a47070236ad68473eeacae9a9931e7472",
+        "size": 20076,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dotnet.md",
+        "git_blob_sha1": "11cdb77e539bc0759294c2ecaa6019d4fbf7c6a8",
+        "sha256": "ac58cc2c616fb273490d16f0f6e1e4878ff31142b91f10abab66ec4a70760448",
+        "size": 4048,
+        "mode": "100644"
+      },
+      {
+        "path": "references/java.md",
+        "git_blob_sha1": "c9f4845c0a083db28b2c9143e50875a628061de9",
+        "sha256": "8c2b26eac5c1e68efa1fad81f4b44b1f119479adb8f8833f7452edc19c15f89b",
+        "size": 8618,
+        "mode": "100644"
+      },
+      {
+        "path": "references/perl.md",
+        "git_blob_sha1": "fab9f64b3dbfc144e321052279aa9725474ac45e",
+        "sha256": "e3d8f324d4ca367e5d378db368d922f775e562d70c52938134a7584a676ae22e",
+        "size": 3244,
+        "mode": "100644"
+      },
+      {
+        "path": "references/php.md",
+        "git_blob_sha1": "bab2381175a24d662e7164ecba32c0cca0016d99",
+        "sha256": "e54a1872615195e163515c856ae9205bdcaca3449f420db7243ac8957f0cb3aa",
+        "size": 4252,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "1d8cac1097a987bf728caef13965ee55d59240d1",
+        "sha256": "21317cd2dcefaf2ad81bf49e8e8142495e397ad8f9f0e777725100d511ee92f5",
+        "size": 7762,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rest.md",
+        "git_blob_sha1": "2b701c221bc9a59ca901fa44893217a88afd7b07",
+        "sha256": "4198288f8f8c1a8a4a29b60a65c2ec90b7957d8343691c290736c93eacbcae06",
+        "size": 5331,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruby.md",
+        "git_blob_sha1": "a6e9afc094463b9d41969602849df381fa6cb0e7",
+        "sha256": "86447814be531cc43df2c11fdf3a34e0785bd53c9d286ff0de854756522d2b84",
+        "size": 3626,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/java.md",
+    "references/perl.md",
+    "references/php.md"
+  ],
+  "old_commit": "61d3e26a0c385defa7842c3b3902b3419482c8c9",
+  "new_commit": "1e285f9d77ab260fd50944b49c3e2269b459474c",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update google-ads-api-quickstart skill for current APIs, flags, and documentation\n\n- Use `google-ads-googleads` as the Ruby gem name in the language routing table.\n- Update the example Google Ads API version to v26 and the Java client library version to 48.0.0.\n- Pass a `SearchGoogleAdsStreamRequest` object to `searchStream()` in the PHP reference and initialize `SearchStreamHandler` with service and request in the Perl reference.\n\nPiperOrigin-RevId: 1022185056",
+  "new_commit_time": "2026-11-15T13:57:54Z",
+  "compare_url": "https://github.com/google/skills/compare/61d3e26a0c385defa7842c3b3902b3419482c8c9...1e285f9d77ab260fd50944b49c3e2269b459474c",
+  "commit_url": "https://github.com/google/skills/commit/1e285f9d77ab260fd50944b49c3e2269b459474c",
+  "skill_directory": "skills/ads/google-ads-api-quickstart",
+  "local_directory": "verified_real_update_pairs/OPU-0126",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0126",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

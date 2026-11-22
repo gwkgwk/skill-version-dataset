@@ -1,0 +1,173 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.system/skill-creator/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "3d4ce27723d52f2d7730",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "061ce66bc00f431499896b2635ffa3a6599e330f",
+    "computed_tree_sha": "5534e6b444b71e206b9de1c62d14c822051e70a6",
+    "api_tree_sha_as_returned": "5534e6b444b71e206b9de1c62d14c822051e70a6",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4c0220dd4420f7d3ab4e752e1c478cc67226bbfd",
+        "sha256": "faf5931f553dc9f19b061f8049dd4d31e00232b14eed2577d95795ac1c5ab8de",
+        "size": 19058,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "f5ce09ed118b72908b7308fcfc1619f59e89f6ea",
+        "sha256": "fcc3ba02bdf8d6df1f891637cf5336d2d7ef87bb8910fa622bd150c8e0d4c55b",
+        "size": 192,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openai_yaml.md",
+        "git_blob_sha1": "da5629f8de500ec6f81291d239a2d9c68d1d9044",
+        "sha256": "9fb5928b7f4a746fdb39df503ebbd7a659d5e64b47f85a60626aa1a03fd76b17",
+        "size": 2130,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_openai_yaml.py",
+        "git_blob_sha1": "1a9d784f8704999daf55a2b9036094949d9af3f8",
+        "sha256": "b8f6be33a9d72dd7a8da02e7a9fffea23dc79e94862e6dd6358b57a8899d8f73",
+        "size": 6614,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/init_skill.py",
+        "git_blob_sha1": "f90703eca8159a21a9684ed1df974c702d92f814",
+        "sha256": "bcb8982d3f033a094f2f1be43123ac8537e2562d25d8ba4d8ef2196ae514d96d",
+        "size": 14483,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/quick_validate.py",
+        "git_blob_sha1": "0547b4041a5f58fa19892079a114a1df98286406",
+        "sha256": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+        "size": 3293,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+    "computed_tree_sha": "8bfb6b8774d223eea3e788cfdfa1e4209e5e2ae9",
+    "api_tree_sha_as_returned": "8bfb6b8774d223eea3e788cfdfa1e4209e5e2ae9",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "72bc0b97e7a6476254a9d5c424c9971748402ec3",
+        "sha256": "a17383bfb1448637ac1f757ad891ddb9676fa30b0eff620200f0e1cbc0cc0d50",
+        "size": 18664,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "f5ce09ed118b72908b7308fcfc1619f59e89f6ea",
+        "sha256": "fcc3ba02bdf8d6df1f891637cf5336d2d7ef87bb8910fa622bd150c8e0d4c55b",
+        "size": 192,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openai_yaml.md",
+        "git_blob_sha1": "da5629f8de500ec6f81291d239a2d9c68d1d9044",
+        "sha256": "9fb5928b7f4a746fdb39df503ebbd7a659d5e64b47f85a60626aa1a03fd76b17",
+        "size": 2130,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_openai_yaml.py",
+        "git_blob_sha1": "1a9d784f8704999daf55a2b9036094949d9af3f8",
+        "sha256": "b8f6be33a9d72dd7a8da02e7a9fffea23dc79e94862e6dd6358b57a8899d8f73",
+        "size": 6614,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/init_skill.py",
+        "git_blob_sha1": "f90703eca8159a21a9684ed1df974c702d92f814",
+        "sha256": "bcb8982d3f033a094f2f1be43123ac8537e2562d25d8ba4d8ef2196ae514d96d",
+        "size": 14483,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/quick_validate.py",
+        "git_blob_sha1": "0547b4041a5f58fa19892079a114a1df98286406",
+        "sha256": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51",
+        "size": 3293,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "061ce66bc00f431499896b2635ffa3a6599e330f",
+  "new_commit": "4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Remove stale references in skill-creator (#110)\n\nRemove references to references/workflows.md and\nreferences/output-patterns.md in skill-creator guidance per issue\nhttps://github.com/openai/skills/issues/109.",
+  "new_commit_time": "2026-02-09T21:38:07Z",
+  "compare_url": "https://github.com/openai/skills/compare/061ce66bc00f431499896b2635ffa3a6599e330f...4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+  "commit_url": "https://github.com/openai/skills/commit/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+  "skill_directory": "skills/.system/skill-creator",
+  "local_directory": "verified_real_update_pairs/OPU-0191",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0191",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

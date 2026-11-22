@@ -1,0 +1,79 @@
+{
+  "repository": "stripe/ai",
+  "primary": "providers/antigravity/plugin/skills/stripe-pay/SKILL.md",
+  "pinned_commit": "1bb486909cc36ce608181c2af62c4716ba9cd7c7",
+  "repository_license": "MIT",
+  "key": "2c8b2de4bf53a7ee8e13",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "d38c7dea4f80b135209c6c118e49ba2865c3c9cf",
+    "computed_tree_sha": "023ea566dae97a97b7c493bfbdbaa29c8cb228f5",
+    "api_tree_sha_as_returned": "023ea566dae97a97b7c493bfbdbaa29c8cb228f5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3a253344c8a304a04151b136c13a5398feba89e7",
+        "sha256": "3577d363c3505a514c3f61a9cdc67d5b1df47bca4521cc2509043388f6bff623",
+        "size": 4452,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "38fa04542e4d8f41e5ee4349a141ac308a0c26d1",
+    "computed_tree_sha": "daf3a1dcbef2ce7a2d79e4ce4cca24bd82bd86bf",
+    "api_tree_sha_as_returned": "daf3a1dcbef2ce7a2d79e4ce4cca24bd82bd86bf",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3c987ebad170715cfff3f0f5e8ac1810d47c82d8",
+        "sha256": "ae23b30a35c79d136cb76166dfb4b05f0f692219f1ce6e34b49d50c6f7d6c9e9",
+        "size": 5120,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "d38c7dea4f80b135209c6c118e49ba2865c3c9cf",
+  "new_commit": "38fa04542e4d8f41e5ee4349a141ac308a0c26d1",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "sync skills",
+  "new_commit_time": "2026-11-07T00:28:25Z",
+  "compare_url": "https://github.com/stripe/ai/compare/d38c7dea4f80b135209c6c118e49ba2865c3c9cf...38fa04542e4d8f41e5ee4349a141ac308a0c26d1",
+  "commit_url": "https://github.com/stripe/ai/commit/38fa04542e4d8f41e5ee4349a141ac308a0c26d1",
+  "skill_directory": "providers/antigravity/plugin/skills/stripe-pay",
+  "local_directory": "verified_real_update_pairs/OPU-0040",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0040",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

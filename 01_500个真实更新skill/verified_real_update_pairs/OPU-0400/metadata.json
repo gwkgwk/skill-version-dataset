@@ -1,0 +1,195 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-sql-basics/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "9b926a6aad71731eb1e2",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "2e81dada87254903d51a652cc022239a59eac554",
+    "computed_tree_sha": "3a8cefbb70599a75a720bc581fd3bcaf9f7bdbc4",
+    "api_tree_sha_as_returned": "3a8cefbb70599a75a720bc581fd3bcaf9f7bdbc4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d95ec1f9550a4b4b01cba3c06223381ed38343b8",
+        "sha256": "bf31327be8748ec589ee3da902aa13838ddcce497d9c0f99632810e37416aad8",
+        "size": 4328,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "87f915e49920a22d14a2dd8b8b4baa3a0c52c68c",
+        "sha256": "3b92915b1ec6ec501e52e7eeed79d3b0ad322eca3eec04500aca8afbbee4134d",
+        "size": 1888,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-usage.md",
+        "git_blob_sha1": "f317fa5ce8d1b57ea7da6f957aa93e77ad8bd0d4",
+        "sha256": "121a001122e06c170cc727e3885092a109db11958edc350a3f0346f1d04828d8",
+        "size": 3353,
+        "mode": "100644"
+      },
+      {
+        "path": "references/client-library-usage.md",
+        "git_blob_sha1": "18c23d7cf6ac374c2d8740c6560043bc750d4db8",
+        "sha256": "4f0cbb8375dc70030399344570deef700bd73b09733f3faac3c7acd43684141e",
+        "size": 2938,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-concepts.md",
+        "git_blob_sha1": "ed831e66dfba46c9da251dad888b286b54097de2",
+        "sha256": "80a09e3c78fb0b86f4d7b9d16bba13fe7d180c976e1ad92236b217d685632670",
+        "size": 5545,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dr-backups.md",
+        "git_blob_sha1": "d60ce3ccc2d098976680ac94c40ac9cac340f4e4",
+        "sha256": "f39aac93394d151d03a3e70e95b6c5461aa15240531e6c804dbbf3f54e871657",
+        "size": 7476,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-usage.md",
+        "git_blob_sha1": "9297f095b8bbd3796212ac469e2ef1ff2ea86c38",
+        "sha256": "e7755c5ea32aacaa5b9703d111e4c78a24f3667858af1dcfa2032caa52d64bc9",
+        "size": 2773,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-security.md",
+        "git_blob_sha1": "3ab854302a75ab450eefe83dda54673c5bf8cfff",
+        "sha256": "0294a49eff4d43877be8cd87f71face754dc68e2b74b7c498337b3ece7097b5f",
+        "size": 12904,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "1a9c005b72914ec99f81fd20af845cc700773946",
+        "sha256": "b20630471b59961d85b05c2116f58ed4f3f271146f65a3059f9b0b6a84da1143",
+        "size": 3282,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "bd9f26d58d001b3f880fd5a08e3a6e7547b91513",
+    "computed_tree_sha": "3572f334a85e573fbdac2c2b7c614139a9a8276f",
+    "api_tree_sha_as_returned": "3572f334a85e573fbdac2c2b7c614139a9a8276f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2ed249f9064ebf7e43eb1763d5898814e3761f42",
+        "sha256": "d5f511b7876db1c11301274c0b6bc1c6ec3f26bc42a99ad493341a4691f0d6d4",
+        "size": 4357,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "87f915e49920a22d14a2dd8b8b4baa3a0c52c68c",
+        "sha256": "3b92915b1ec6ec501e52e7eeed79d3b0ad322eca3eec04500aca8afbbee4134d",
+        "size": 1888,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-usage.md",
+        "git_blob_sha1": "ee7221bfa9ba610be32131bae2e4eb91f746633d",
+        "sha256": "9a53e5bc9df9b2b672d7301cc381740ba3dc4eceabb5df99a3ddaf2337037a13",
+        "size": 3357,
+        "mode": "100644"
+      },
+      {
+        "path": "references/client-library-usage.md",
+        "git_blob_sha1": "18c23d7cf6ac374c2d8740c6560043bc750d4db8",
+        "sha256": "4f0cbb8375dc70030399344570deef700bd73b09733f3faac3c7acd43684141e",
+        "size": 2938,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-concepts.md",
+        "git_blob_sha1": "408ab783edc2c50861419457e740692dcda5541e",
+        "sha256": "873260c2549bad06287dea12c4ae98a14e7e5a1cab0fe14876c3979971b35502",
+        "size": 5556,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dr-backups.md",
+        "git_blob_sha1": "95dde795346d0f02ccadf8972bc28b78a6ca62fe",
+        "sha256": "690980bf89e620111e6c20a2bd823996e49667f43ccd0165ef8da2064caeaad1",
+        "size": 7535,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-usage.md",
+        "git_blob_sha1": "9297f095b8bbd3796212ac469e2ef1ff2ea86c38",
+        "sha256": "e7755c5ea32aacaa5b9703d111e4c78a24f3667858af1dcfa2032caa52d64bc9",
+        "size": 2773,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-security.md",
+        "git_blob_sha1": "8b901e9ff3a1189aa2651e43f1656fe21b88b8b2",
+        "sha256": "3152c4d2a3af18eccaa2d7cb15bdf2b838dc701f2e07ab3b5f32a5988c0cd91c",
+        "size": 12946,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "1a9c005b72914ec99f81fd20af845cc700773946",
+        "sha256": "b20630471b59961d85b05c2116f58ed4f3f271146f65a3059f9b0b6a84da1143",
+        "size": 3282,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/cli-usage.md",
+    "references/core-concepts.md",
+    "references/dr-backups.md",
+    "references/iam-security.md"
+  ],
+  "old_commit": "2e81dada87254903d51a652cc022239a59eac554",
+  "new_commit": "bd9f26d58d001b3f880fd5a08e3a6e7547b91513",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update cloud-sql-basics skill for PostgreSQL 18 Enterprise edition and CLI flags\n\n- Add --edition=ENTERPRISE and --cpu/--memory sizing for PostgreSQL 18\n- Update EC P-384 CA certificate specification\n- Clarify automated backup retention and minimal-downtime DR switchover\n- Update supported MySQL versions (9.7 added, 8.4 default)\n\nPiperOrigin-RevId: 1019428572",
+  "new_commit_time": "2026-11-11T21:00:55Z",
+  "compare_url": "https://github.com/google/skills/compare/2e81dada87254903d51a652cc022239a59eac554...bd9f26d58d001b3f880fd5a08e3a6e7547b91513",
+  "commit_url": "https://github.com/google/skills/commit/bd9f26d58d001b3f880fd5a08e3a6e7547b91513",
+  "skill_directory": "skills/cloud/cloud-sql-basics",
+  "local_directory": "verified_real_update_pairs/OPU-0400",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0400",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

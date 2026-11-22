@@ -1,0 +1,82 @@
+{
+  "sha": "590b49edc158611a2b2ed715ae73f27eb70d251a",
+  "node_id": "C_kwDOQchDtdoAKDU5MGI0OWVkYzE1ODYxMWEyYjJlZDcxNWFlNzNmMjdlYjcwZDI1MWE",
+  "commit": {
+    "author": {
+      "name": "Anton Panasenko",
+      "email": "apanasenko@openai.com",
+      "date": "2026-05-18T23:16:36Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-05-18T23:16:36Z"
+    },
+    "message": "[codex] make yeet template-aware (#412)\n\n## Why\n\nThe curated `yeet` skill was missing guidance for common publish-flow\ncases: repositories with PR templates, branches that already have a PR,\nand PR bodies that need to preserve reviewer-relevant context instead of\ngeneric boilerplate.\n\n## What Changed\n\nUpdated `skills/.curated/yeet/SKILL.md` to make the publish workflow\ntemplate-aware and branch-aware. The skill now tells Codex to discover\nthe active repository PR template before creating a PR, reuse an\nexisting PR for the current branch instead of creating a duplicate,\npreserve an existing PR's draft or ready-for-review state, apply\nconventional PR title guidance, and write PR bodies around the net\nchange with meaningful verification only when there is behavioral\nevidence worth preserving.",
+    "tree": {
+      "sha": "1198d9ca71c6436713e0a677f2eb696feabd82c7",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/1198d9ca71c6436713e0a677f2eb696feabd82c7"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/590b49edc158611a2b2ed715ae73f27eb70d251a",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqC53UCRC1aQ7uu5UhlAAA7vUQABGMmbnwO71HWFTb7JBvf7Ql\nfcwt7aHIOWlY754QohT/0ISdBrR/g/USv8+jsYcgKd/WODc5M40ZiVht1Z+0qEzJ\nmTuHhRbZKcAH6W/lkyIzgC83BQTzp4pkJSuqfl6vRnEg+1iyNjyZxGScY9X+JLSA\nWV7k00lRDekh6gq+xMQClkMby0KzaedlrOW/P/5l7Su3+h3iKGBixqAJSlBFGNBF\nfRm1GJf3F0KmX08IRm4ajso6dEeBvuttdpqBlGOe/e0hFxdhXU0F2HtT/KsvQZTD\nFAGH45kByksPJ7OC8dwTunj4nwXhff+0joLUNfwfm4ca6Z4iPUsc4tpmAQvM4Q5o\nZhn/X7iOndUhD2rcOeuKYWRvafgDVvrhw3EXiAAyTgms9Yzee0BqZIjIbi0kLNwv\n0U23Q9JHBMPHyPHiBfBpVmReOW7xp4+Cl/V6K0r93xyvMHg0UOyv3nAj3n6OwQcw\nGySWAETOBg8kZgE4HVrB3YRgvbQFXiE0w3Z9gWp7mTaKi2WtySS3uGfaPP6I4kac\n7AxhqVqTzFERuoWLAKhx4dVvYBW7Q0yb9BjA3YVglBccL9FtIsSl0V3v/tHNyxy7\nGnMCjM8hIeEtodXP4kOCfeDU/JVSX+TDUFXlZZ3L4aqSbUCAVxjhBOejjzGb7kSf\nR4h/t6eOeilXQB6ADluu\n=DSoK\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 1198d9ca71c6436713e0a677f2eb696feabd82c7\nparent c25113bf4c64c8dba6bfe61acf06051d79aa43f6\nauthor Anton Panasenko <apanasenko@openai.com> 1779146196 -0700\ncommitter GitHub <noreply@github.com> 1779146196 -0700\n\n[codex] make yeet template-aware (#412)\n\n## Why\n\nThe curated `yeet` skill was missing guidance for common publish-flow\ncases: repositories with PR templates, branches that already have a PR,\nand PR bodies that need to preserve reviewer-relevant context instead of\ngeneric boilerplate.\n\n## What Changed\n\nUpdated `skills/.curated/yeet/SKILL.md` to make the publish workflow\ntemplate-aware and branch-aware. The skill now tells Codex to discover\nthe active repository PR template before creating a PR, reuse an\nexisting PR for the current branch instead of creating a duplicate,\npreserve an existing PR's draft or ready-for-review state, apply\nconventional PR title guidance, and write PR bodies around the net\nchange with meaningful verification only when there is behavioral\nevidence worth preserving.",
+      "verified_at": "2026-05-18T23:16:37Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/590b49edc158611a2b2ed715ae73f27eb70d251a",
+  "html_url": "https://github.com/openai/skills/commit/590b49edc158611a2b2ed715ae73f27eb70d251a",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/590b49edc158611a2b2ed715ae73f27eb70d251a/comments",
+  "author": {
+    "login": "apanasenko-oai",
+    "id": 228802911,
+    "node_id": "U_kgDODaNBXw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/228802911?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/apanasenko-oai",
+    "html_url": "https://github.com/apanasenko-oai",
+    "followers_url": "https://api.github.com/users/apanasenko-oai/followers",
+    "following_url": "https://api.github.com/users/apanasenko-oai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/apanasenko-oai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/apanasenko-oai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/apanasenko-oai/subscriptions",
+    "organizations_url": "https://api.github.com/users/apanasenko-oai/orgs",
+    "repos_url": "https://api.github.com/users/apanasenko-oai/repos",
+    "events_url": "https://api.github.com/users/apanasenko-oai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/apanasenko-oai/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+      "url": "https://api.github.com/repos/openai/skills/commits/c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+      "html_url": "https://github.com/openai/skills/commit/c25113bf4c64c8dba6bfe61acf06051d79aa43f6"
+    }
+  ]
+}

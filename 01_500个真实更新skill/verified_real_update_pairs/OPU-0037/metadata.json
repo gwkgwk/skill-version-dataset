@@ -1,0 +1,134 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/hf-cloud-sagemaker-iam-preflight/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "7f8eec6bf1e51de49ba1",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+    "computed_tree_sha": "b0c3192e0be8dc515997df02c8ea8a331775fac4",
+    "api_tree_sha_as_returned": "b0c3192e0be8dc515997df02c8ea8a331775fac4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8f15164327ff28e8086ae275a54b068ff32025e8",
+        "sha256": "192add8e50e87b5055576f12e5ac41b1a2bc5d168dc35e51c1db618c5afd1d0f",
+        "size": 6807,
+        "mode": "100644"
+      },
+      {
+        "path": "references/minimum-permissions.json",
+        "git_blob_sha1": "e0c6e1dca9607ce192716d4d17790d1eaf839029",
+        "sha256": "100c4dc345e69f5a7afc3104a17591d126ddff808a648cd3e84fd0a4054beb09",
+        "size": 1043,
+        "mode": "100644"
+      },
+      {
+        "path": "references/trust-policy.json",
+        "git_blob_sha1": "459fa5217ca2a73c39993a4945f59a3f7beb4550",
+        "sha256": "bbc7c7b5775c8bb26d3e3d5eb4240d7e55f2d728a81c3b97ee42155f6a4746de",
+        "size": 197,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_role.py",
+        "git_blob_sha1": "1744158c05f33ff1bfc5aae0da408670539fb8e4",
+        "sha256": "567af89033ca686c8189302bc853b5c2ec0fc72d371ff86d0984a2de5541a962",
+        "size": 6862,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/create_role.py",
+        "git_blob_sha1": "a7cbd5f9f8b711606b40b82bc18cccc838b1c5a5",
+        "sha256": "642e0258003c9a39bf06102c790dfac897dacb4e83b7ed71a516e23cb59ea0b4",
+        "size": 4129,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f3186efbbc322121eb5d0f31e8a1d669ee961159",
+    "computed_tree_sha": "4bebe75046f6b5c55b29a0cf203a4e46aaffe16a",
+    "api_tree_sha_as_returned": "4bebe75046f6b5c55b29a0cf203a4e46aaffe16a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ca0fe8b8dfb0e7b307b1b3f0dc612f3da279750d",
+        "sha256": "a4ff26c2af2c0ce82a4ab34c5cf5eadce5db4573ed2525745c4ee7b21f1773e4",
+        "size": 7051,
+        "mode": "100644"
+      },
+      {
+        "path": "references/minimum-permissions.json",
+        "git_blob_sha1": "e0c6e1dca9607ce192716d4d17790d1eaf839029",
+        "sha256": "100c4dc345e69f5a7afc3104a17591d126ddff808a648cd3e84fd0a4054beb09",
+        "size": 1043,
+        "mode": "100644"
+      },
+      {
+        "path": "references/trust-policy.json",
+        "git_blob_sha1": "459fa5217ca2a73c39993a4945f59a3f7beb4550",
+        "sha256": "bbc7c7b5775c8bb26d3e3d5eb4240d7e55f2d728a81c3b97ee42155f6a4746de",
+        "size": 197,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_role.py",
+        "git_blob_sha1": "1744158c05f33ff1bfc5aae0da408670539fb8e4",
+        "sha256": "567af89033ca686c8189302bc853b5c2ec0fc72d371ff86d0984a2de5541a962",
+        "size": 6862,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/create_role.py",
+        "git_blob_sha1": "608483ac2c4803b5feed9bb9016c3a19cce7bb18",
+        "sha256": "eb9e9b68f2f2020b9b87ec07fd862b5bb98b5e02bc2088f1194bffdc845a631a",
+        "size": 3856,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/create_role.py"
+  ],
+  "old_commit": "97862b0fcc89c850fdd00c82ede1e62d3c930a6d",
+  "new_commit": "f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "change: implement changes suggested by the aws security team (#245)\n\n* change: implement changes suggested by the aws security team\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>\n\n* fix: version bump\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>\n\n---------\n\nSigned-off-by: DWarez <dario.salvati@huggingface.co>",
+  "new_commit_time": "2026-09-10T10:36:34Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/97862b0fcc89c850fdd00c82ede1e62d3c930a6d...f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "commit_url": "https://github.com/huggingface/skills/commit/f3186efbbc322121eb5d0f31e8a1d669ee961159",
+  "skill_directory": "skills/hf-cloud-sagemaker-iam-preflight",
+  "local_directory": "verified_real_update_pairs/OPU-0037",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0037",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/gh-fix-ci/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "3c9b4e3b3b4044d302df",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd",
+    "computed_tree_sha": "166cd7197b453f0b42a880919f3aa08611be90fa",
+    "api_tree_sha_as_returned": "166cd7197b453f0b42a880919f3aa08611be90fa",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size": 11357,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "35c1dfd0ff1972d9ce32e611bbae81b16827675c",
+        "sha256": "4cd263f7c587626cb5f746a4850792a09cbc337c4b3d8fda5c32fb2b0a5771f4",
+        "size": 3921,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect_pr_checks.py",
+        "git_blob_sha1": "5ca5298ebcf4ff18adcfd8c71cb7e1b9e34fa7ad",
+        "sha256": "7e83b0e7bf8ccfb7e54b0e8a0bba4fcf382d51a41d37198999bbf743fdbe920b",
+        "size": 15071,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "33a75a7b572867072dc0674bee8e63e06c19e67b",
+    "computed_tree_sha": "4951ee622f41a33fedfd852a81b184c349d92b31",
+    "api_tree_sha_as_returned": "4951ee622f41a33fedfd852a81b184c349d92b31",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "76bdeb6a7bff93cbe924c0652f1fd7a3c3ffc46c",
+        "sha256": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26",
+        "size": 3651,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "92d524916a1641037523b236238671e0a75b2373",
+        "sha256": "beb44bed3768407cad1eb07f9c6400aa2a1ce9a07f2a9b15f679696c0cbfe73f",
+        "size": 430,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/github-small.svg",
+        "git_blob_sha1": "1446c16a7c9fa889f84094dd4d8dffd7a542cd5f",
+        "sha256": "753c5ec26a5d8bd0f90b871362ee8fa9770e83add291e11ef356df5a8c966b4c",
+        "size": 848,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/github.png",
+        "git_blob_sha1": "e23dbe59099a594c06a46081ce48b82aa409b0e7",
+        "sha256": "d55a9baa41798d8b5108e3058df3a5bda09914ea9fd73b49929cc38a8832424f",
+        "size": 1838,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect_pr_checks.py",
+        "git_blob_sha1": "06cd03c5fc61c784d082e1c25a533c94e0912b3f",
+        "sha256": "9459e5b03f86785d184a83e5cd8d621b832e918ec04158a2962d867785812c6c",
+        "size": 15222,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "LICENSE.txt",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "assets/github-small.svg",
+    "assets/github.png",
+    "scripts/inspect_pr_checks.py"
+  ],
+  "old_commit": "3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd",
+  "new_commit": "33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync curated skills! (#64)",
+  "new_commit_time": "2026-01-30T18:34:32Z",
+  "compare_url": "https://github.com/openai/skills/compare/3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd...33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "commit_url": "https://github.com/openai/skills/commit/33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "skill_directory": "skills/.curated/gh-fix-ci",
+  "local_directory": "verified_real_update_pairs/OPU-0039",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0039",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

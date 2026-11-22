@@ -1,0 +1,85 @@
+{
+  "repository": "cloudflare/skills",
+  "primary": "skills/sandbox-migrate-to-next/SKILL.md",
+  "pinned_commit": "5108325ecceabc899c761e07aa617b09c02445ee",
+  "repository_license": "Apache-2.0",
+  "key": "752b678d822534dc82ab",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+    "computed_tree_sha": "fbb50d51d487d4c9336b59db22eb40059cf4df66",
+    "api_tree_sha_as_returned": "fbb50d51d487d4c9336b59db22eb40059cf4df66",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "cb08594ac2c7235809f6954058941c82d465c691",
+        "sha256": "cd070c652654eb419e11cdaab403351a451d2bbac88afa70141bdc0077ae2512",
+        "size": 7902,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+    "computed_tree_sha": "00b7dbcc4c14bd31bc51c74c702a9c2b1ad321dd",
+    "api_tree_sha_as_returned": "00b7dbcc4c14bd31bc51c74c702a9c2b1ad321dd",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4774e043207c2f6343ea229e7c9e9ad3f56f0186",
+        "sha256": "a3afd0eccaf4100ff48613f985c201469365fa58b1747006c49486aecdc5564c",
+        "size": 8089,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "87ae8f66f4258f946ed5256e6ccc810c9aac7f00",
+        "sha256": "7e16920a617c19731a5da4e637f6d0bc4b6e40ea16304c748b568ed99ed8c848",
+        "size": 1929,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/skill-feedback.md"
+  ],
+  "old_commit": "86505e44f87d801aa1864a3c4109e9a8ae5c409f",
+  "new_commit": "0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat: add skill feedback reference to every skill\n\nWhen a skill gives incorrect, outdated, or missing guidance, agents had no\ninstructions for reporting it, so the problem stayed with the user. Each\nskill now includes references/skill-feedback.md, which tells the agent to\nask the user, draft a GitHub issue on cloudflare/skills with a structured\nfield table, review it with the user, and post it with a\n`skill-feedback: <skill>:` title prefix. Each SKILL.md links to it.\n\nThe reference is copied into every skill because skills can be installed\nindividually.",
+  "new_commit_time": "2026-10-27T16:25:48Z",
+  "compare_url": "https://github.com/cloudflare/skills/compare/86505e44f87d801aa1864a3c4109e9a8ae5c409f...0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "commit_url": "https://github.com/cloudflare/skills/commit/0e09df4cdbd66350c9d4d3b07e888fc58b3d229b",
+  "skill_directory": "skills/sandbox-migrate-to-next",
+  "local_directory": "verified_real_update_pairs/OPU-0123",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0123",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

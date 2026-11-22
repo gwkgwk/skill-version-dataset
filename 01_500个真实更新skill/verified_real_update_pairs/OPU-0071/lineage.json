@@ -1,0 +1,82 @@
+{
+  "sha": "3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "node_id": "C_kwDOQ0VAy9oAKDM0ODJkOGRkMzUzMTVhZGYzNDYwN2YxYzEyYmY3OTNlMTQ4OTBiZmU",
+  "commit": {
+    "author": {
+      "name": "geoffg-sentry",
+      "email": "165922362+geoffg-sentry@users.noreply.github.com",
+      "date": "2026-09-28T23:37:52Z"
+    },
+    "committer": {
+      "name": "geoffg-sentry",
+      "email": "165922362+geoffg-sentry@users.noreply.github.com",
+      "date": "2026-09-28T23:37:52Z"
+    },
+    "message": "fix(allowed-tools): remove commas, use whitespace\n\nCommas are find for Claude, but both the spec and warden (via dotagents-lib) expect whitespace-separated tools. Warden has been quietly having trouble using anything but the first allowed tool.\n- https://agentskills.io/specification\n- https://github.com/getsentry/dotagents/blob/399121d28144c118883ade1815081e2db0830e91/packages/dotagents-lib/src/skills/loader.ts#L109",
+    "tree": {
+      "sha": "aed9f8bbe81fa80ce6bd36718a77decf610039e6",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/aed9f8bbe81fa80ce6bd36718a77decf610039e6"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/3482d8dd35315adf34607f1c12bf793e14890bfe",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgvTUtBhhred7jVhtpGsLGR+Spvt\n8o5V3ttKfB1DFDupUAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQB7mn12F/zO2Woyx7fL8TFDk/TSJfz8w33JCFba+jHuTFQ/+GGhclHWfX6/7o196iB\nCC2KxNj3ItfKRx2VHJDwg=\n-----END SSH SIGNATURE-----",
+      "payload": "tree aed9f8bbe81fa80ce6bd36718a77decf610039e6\nparent 8ca687957041ab9ece4562aad2b399b8dc8e4cae\nauthor geoffg-sentry <165922362+geoffg-sentry@users.noreply.github.com> 1790638672 -0700\ncommitter geoffg-sentry <165922362+geoffg-sentry@users.noreply.github.com> 1790638672 -0700\n\nfix(allowed-tools): remove commas, use whitespace\n\nCommas are find for Claude, but both the spec and warden (via dotagents-lib) expect whitespace-separated tools. Warden has been quietly having trouble using anything but the first allowed tool.\n- https://agentskills.io/specification\n- https://github.com/getsentry/dotagents/blob/399121d28144c118883ade1815081e2db0830e91/packages/dotagents-lib/src/skills/loader.ts#L109\n",
+      "verified_at": "2026-09-28T23:37:56Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "html_url": "https://github.com/getsentry/skills/commit/3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/3482d8dd35315adf34607f1c12bf793e14890bfe/comments",
+  "author": {
+    "login": "geoffg-sentry",
+    "id": 165922362,
+    "node_id": "U_kgDOCePGOg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/165922362?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/geoffg-sentry",
+    "html_url": "https://github.com/geoffg-sentry",
+    "followers_url": "https://api.github.com/users/geoffg-sentry/followers",
+    "following_url": "https://api.github.com/users/geoffg-sentry/following{/other_user}",
+    "gists_url": "https://api.github.com/users/geoffg-sentry/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/geoffg-sentry/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/geoffg-sentry/subscriptions",
+    "organizations_url": "https://api.github.com/users/geoffg-sentry/orgs",
+    "repos_url": "https://api.github.com/users/geoffg-sentry/repos",
+    "events_url": "https://api.github.com/users/geoffg-sentry/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/geoffg-sentry/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "geoffg-sentry",
+    "id": 165922362,
+    "node_id": "U_kgDOCePGOg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/165922362?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/geoffg-sentry",
+    "html_url": "https://github.com/geoffg-sentry",
+    "followers_url": "https://api.github.com/users/geoffg-sentry/followers",
+    "following_url": "https://api.github.com/users/geoffg-sentry/following{/other_user}",
+    "gists_url": "https://api.github.com/users/geoffg-sentry/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/geoffg-sentry/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/geoffg-sentry/subscriptions",
+    "organizations_url": "https://api.github.com/users/geoffg-sentry/orgs",
+    "repos_url": "https://api.github.com/users/geoffg-sentry/repos",
+    "events_url": "https://api.github.com/users/geoffg-sentry/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/geoffg-sentry/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+      "html_url": "https://github.com/getsentry/skills/commit/8ca687957041ab9ece4562aad2b399b8dc8e4cae"
+    }
+  ]
+}

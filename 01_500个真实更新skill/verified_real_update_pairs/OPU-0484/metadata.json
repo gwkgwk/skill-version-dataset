@@ -1,0 +1,122 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/customize/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "3ee881b12174865142a2",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "16247a7639866f417d78cd3d950af938e2019fbe",
+    "computed_tree_sha": "3ff8e09076dcc5337257a70845fb509b4ab229a0",
+    "api_tree_sha_as_returned": "3ff8e09076dcc5337257a70845fb509b4ab229a0",
+    "files": [
+      {
+        "path": "EXAMPLES.md",
+        "git_blob_sha1": "a3f25848a09494cbee25143aa71ec43d0a0425f5",
+        "sha256": "f1476b98fe34a8a4e414703f674ed497f2182267810218911035fc3a55bb104f",
+        "size": 4402,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7c94d5617bf41dd57289fbd6d7e9cf7ea0d811c2",
+        "sha256": "9424dbe2afc67b79d04bb21cc041dfc7e52ae1d87fb2a7c9c24b7ee4c44f5123",
+        "size": 8986,
+        "mode": "100644"
+      },
+      {
+        "path": "references/customize-guides.md",
+        "git_blob_sha1": "1009adb4ccbdc7ad182599c6e5ef529a12ee691e",
+        "sha256": "28132d05c5db1f40618d74e6cde43bcab241c97d6f6e15d8866f61481b26b2a0",
+        "size": 3487,
+        "mode": "100644"
+      },
+      {
+        "path": "references/customize-workflow.md",
+        "git_blob_sha1": "750ae56ec50394ee0d86052b95fea1ce42016e27",
+        "sha256": "a2b4e5bd74d80423bf2ad70c1654a0beafc601def9ef3f699aec6e5c6f69b1bf",
+        "size": 13402,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "04d245b7888e8c9b063d460aef10106e66e48a4f",
+    "computed_tree_sha": "118035ed1dad47d2389464e2968c92923dc2c7b5",
+    "api_tree_sha_as_returned": "118035ed1dad47d2389464e2968c92923dc2c7b5",
+    "files": [
+      {
+        "path": "EXAMPLES.md",
+        "git_blob_sha1": "a3f25848a09494cbee25143aa71ec43d0a0425f5",
+        "sha256": "f1476b98fe34a8a4e414703f674ed497f2182267810218911035fc3a55bb104f",
+        "size": 4402,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "eb4887175301b4751cca679e11863d1ba6f34bc9",
+        "sha256": "d0a25090ffc3e139ff2eaeca5f814a83aa61d596571d267f6a7ad534c153ba68",
+        "size": 8988,
+        "mode": "100644"
+      },
+      {
+        "path": "references/customize-guides.md",
+        "git_blob_sha1": "1009adb4ccbdc7ad182599c6e5ef529a12ee691e",
+        "sha256": "28132d05c5db1f40618d74e6cde43bcab241c97d6f6e15d8866f61481b26b2a0",
+        "size": 3487,
+        "mode": "100644"
+      },
+      {
+        "path": "references/customize-workflow.md",
+        "git_blob_sha1": "482dfb480318cdc8c6d53ffd4a2c87db0f876f86",
+        "sha256": "9b7881474c34d46b58678bc6c88e9254248cedd4c177ab83b61d04d8f83b06f6",
+        "size": 13403,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/customize-workflow.md"
+  ],
+  "old_commit": "16247a7639866f417d78cd3d950af938e2019fbe",
+  "new_commit": "04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-08-07T11:17:12Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/16247a7639866f417d78cd3d950af938e2019fbe...04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "commit_url": "https://github.com/microsoft/skills/commit/04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "skill_directory": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/customize",
+  "local_directory": "verified_real_update_pairs/OPU-0484",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0484",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

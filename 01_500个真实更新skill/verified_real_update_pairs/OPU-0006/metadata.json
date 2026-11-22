@@ -1,0 +1,77 @@
+{
+  "repository": "google/skills",
+  "primary": "plugins/cloud/google-cloud-developer/skills/finding-google-skills/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "e0c8b5eff7004e492778",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 5,
+  "old": {
+    "commit": "f764ebcd0d823508508c4eee8af8939d42c3e9ea",
+    "computed_tree_sha": "6a05c3b0c441cf9b09f5b2ad3b3d63db9f8f747e",
+    "api_tree_sha_as_returned": "6a05c3b0c441cf9b09f5b2ad3b3d63db9f8f747e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5d98d64e305f3bf71c7ebe88fbd7f61639a3f84a",
+        "sha256": "656864c676154cf6e9bf19ff0ca8c33c89e248925e9e9228703fb082c0dd9fb6",
+        "size": 6757,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "99137a4b3297e3ddcce25e9f5d6242c16fc0ff7e",
+    "computed_tree_sha": "0431b326490629a972bd9a242dba5334e3be786f",
+    "api_tree_sha_as_returned": "0431b326490629a972bd9a242dba5334e3be786f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f4f5b2daf83631bf0412f325a983120fc9eb04df",
+        "sha256": "8b44ec77a39e0ef0bb428ae6dc646d61edd9d0ceac749e7be8175108991cf8c1",
+        "size": 6842,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "f764ebcd0d823508508c4eee8af8939d42c3e9ea",
+  "new_commit": "99137a4b3297e3ddcce25e9f5d6242c16fc0ff7e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Replace the `finding-google-skills` description. The skill must now match requests about choosing or setting up a stack. This includes requests that do not name a Google product.\n\nPiperOrigin-RevId: 989942878",
+  "new_commit_time": "2026-09-29T00:38:23Z",
+  "compare_url": "https://github.com/google/skills/compare/f764ebcd0d823508508c4eee8af8939d42c3e9ea...99137a4b3297e3ddcce25e9f5d6242c16fc0ff7e",
+  "commit_url": "https://github.com/google/skills/commit/99137a4b3297e3ddcce25e9f5d6242c16fc0ff7e",
+  "skill_directory": "plugins/cloud/google-cloud-developer/skills/finding-google-skills",
+  "local_directory": "verified_real_update_pairs/OPU-0006",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0006",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

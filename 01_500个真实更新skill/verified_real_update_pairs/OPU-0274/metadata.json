@@ -1,0 +1,152 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/api-gateway-openapi-spec-authoring/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "83fa1a5c4659a685bb60",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "613a3929dce4289513c1c8e88539050974ed7ce6",
+    "computed_tree_sha": "05144b3bd68df85808992ab464c8a4a1fdf71cec",
+    "api_tree_sha_as_returned": "05144b3bd68df85808992ab464c8a4a1fdf71cec",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a256aaf6d830499ed992da0286ca70a079b9a218",
+        "sha256": "0610f4b383d445dca7a61bba5bd6b6cbb46df9a442b2835a53de17fff5ec3ea9",
+        "size": 18681,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-config-errors.md",
+        "git_blob_sha1": "70ba31c8f1445ab8caa4d6e659303a0e48e296ee",
+        "sha256": "288b7a1fa764dbbad7a3fcba5607c243a1bdf021b5b52d00cf94098ce0c8c7bc",
+        "size": 15040,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "cf8178720e859819fa6d851f340bb6f120b6152d",
+        "sha256": "04f271e6ead1ad9b27a25748a749571dc61c5decec2126b7c7a830e2817aaff9",
+        "size": 1942,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openapi-2-to-3-migration.md",
+        "git_blob_sha1": "513ae69f3362f7abfefe12aec209fc3b724ecb32",
+        "sha256": "743be1006f947ed16665c5a113fb5b91cbe04aa7747351b7de109e7a37955cb7",
+        "size": 17011,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openapi-3-extensions-and-limits.md",
+        "git_blob_sha1": "50eb09c181d13e41139641a7ffe99ba40414ce49",
+        "sha256": "3493a40e5d5aa08d6fa7104c3966d21f3ee1db66ecc9b2ea885bc32aff02d69b",
+        "size": 15077,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_apigw_openapi.py",
+        "git_blob_sha1": "4cfb293778dd5d123c8a50bbcf2c1475d83c707d",
+        "sha256": "edda2b03f4f79cdfef1968d7aed676b0b693ff18305869f07c3c367a1940303a",
+        "size": 59129,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+    "computed_tree_sha": "2422bff199e44db6606e5d87c4960e76fd29bb86",
+    "api_tree_sha_as_returned": "2422bff199e44db6606e5d87c4960e76fd29bb86",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e4745ce9a99d2cbb36b1bcbb0a17762ae199a1b2",
+        "sha256": "daf09e84bf7d6dd50ecce5e916e9ec32cb590d4280cae28c4cfd0dba4949dc1c",
+        "size": 14993,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-config-errors.md",
+        "git_blob_sha1": "539bc54a5e6259cd3898b5124a3869d07ab557ac",
+        "sha256": "45f558989ed511a8d689dc0ee1b0d1268010378a56ef4dbde796e8b31c132c38",
+        "size": 14475,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "cf8178720e859819fa6d851f340bb6f120b6152d",
+        "sha256": "04f271e6ead1ad9b27a25748a749571dc61c5decec2126b7c7a830e2817aaff9",
+        "size": 1942,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openapi-2-to-3-migration.md",
+        "git_blob_sha1": "4dfa0b75e305e20fd81f17a0312d01701f747eb1",
+        "sha256": "0bb9c2cc6b63cca710214bf9fe7cb2adde23effc2a0758088ab4d479042c212d",
+        "size": 16867,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openapi-3-extensions-and-limits.md",
+        "git_blob_sha1": "9c64701fe954f65f2a3a4ec5d6a46a118a84c086",
+        "sha256": "faecf178411460b6c98c726f0b1bf7be1750d90429d2fe505b8e5acb685c6dd5",
+        "size": 14544,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_apigw_openapi.py",
+        "git_blob_sha1": "4cfb293778dd5d123c8a50bbcf2c1475d83c707d",
+        "sha256": "edda2b03f4f79cdfef1968d7aed676b0b693ff18305869f07c3c367a1940303a",
+        "size": 59129,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/api-config-errors.md",
+    "references/openapi-2-to-3-migration.md",
+    "references/openapi-3-extensions-and-limits.md"
+  ],
+  "old_commit": "613a3929dce4289513c1c8e88539050974ed7ce6",
+  "new_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "No public description\n\nPiperOrigin-RevId: 1026868521",
+  "new_commit_time": "2026-11-21T01:29:05Z",
+  "compare_url": "https://github.com/google/skills/compare/613a3929dce4289513c1c8e88539050974ed7ce6...4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "commit_url": "https://github.com/google/skills/commit/4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "skill_directory": "skills/cloud/api-gateway-openapi-spec-authoring",
+  "local_directory": "verified_real_update_pairs/OPU-0274",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0274",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

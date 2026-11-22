@@ -1,0 +1,147 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-automatic-readiness/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "530277f8a5ccb6778734",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "3898ec894e90afdfdae982a925db28b6a7b334e3",
+    "computed_tree_sha": "1694eb4d1069fda2eac18653fdae8d2b55a3646c",
+    "api_tree_sha_as_returned": "1694eb4d1069fda2eac18653fdae8d2b55a3646c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "452449d067b912207e88e2e4c0358571aba6ec66",
+        "sha256": "bc3ebaf7b6b8148d322e4155e9a490ad01985265deaa4d669ef0dfd1b19d4d43",
+        "size": 14890,
+        "mode": "100644"
+      },
+      {
+        "path": "references/common-fixes.md",
+        "git_blob_sha1": "ff8d935ff61fafc9e095e7721e97de6428ae2149",
+        "sha256": "6197c9fdbc3efcc26ef8984803b8a1bcc464443a7b84420c8800e884602befd0",
+        "size": 6867,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraint-spec-v1.yaml",
+        "git_blob_sha1": "1d4329686d72b66fcc3ae3a43c293a10be739836",
+        "sha256": "51f67a31dab3fcc1bd3b1d82200439451c8f7acf93a4418d423a0c637c874bda",
+        "size": 19408,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-integration.md",
+        "git_blob_sha1": "67b9342fed62c5baba506aade2d35c40bd565e2a",
+        "sha256": "77da9a1a84ba0e48e91c3798772d97791227235b9eeda2fca8cfb9f523eb0737",
+        "size": 6649,
+        "mode": "100644"
+      },
+      {
+        "path": "references/migration-guide-summary.md",
+        "git_blob_sha1": "c274fceb9d45fa3f2f9ef706fc433895c133fc33",
+        "sha256": "81e555345e5b75c7bb9107e97f8a26206a02510378f05e0c1012d4df828244ce",
+        "size": 4546,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "07ade634651fa0852f6bb5d6d0b12f495b66bacb",
+    "computed_tree_sha": "c8ffe7bbfd195951701a5514cbdad6263c817e7a",
+    "api_tree_sha_as_returned": "c8ffe7bbfd195951701a5514cbdad6263c817e7a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c5618c53ef11a5e392f02dddc4e70501df1b3297",
+        "sha256": "66fc85d1e8f354abe57d174733aaaf1877197d54cc972cc0372b0d28e8b8c852",
+        "size": 17606,
+        "mode": "100644"
+      },
+      {
+        "path": "references/common-fixes.md",
+        "git_blob_sha1": "75de956e8f0ca83270e2290d2c18162630886796",
+        "sha256": "cc1416d3daf5d46215e049870701d31a76e1f5435e6a31490ac25d5242c39079",
+        "size": 7459,
+        "mode": "100644"
+      },
+      {
+        "path": "references/constraint-spec-v1.yaml",
+        "git_blob_sha1": "59f6c6b930628e93627291e585bf1c43b2212e2a",
+        "sha256": "812441aba3acbaec6c52d14a0451e0e7e03c01871aa67a1cff887cae7251dd44",
+        "size": 24895,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-integration.md",
+        "git_blob_sha1": "85e45f30ed42f49a706c8455380d202a52002683",
+        "sha256": "54ffeec6cd459ab24ea7ae5ba0ec3d03395f99de6ff9fc311e312ed366f87315",
+        "size": 8651,
+        "mode": "100644"
+      },
+      {
+        "path": "references/migration-guide-summary.md",
+        "git_blob_sha1": "b4e0965b77e761df185bdd5a87a7f3c1ebc7fe2f",
+        "sha256": "5988647b7eb6206474c4a43a470c25c05998788e97150b94a1d1ed3e7a73451b",
+        "size": 7081,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/sanitize-readiness-input.jq",
+        "git_blob_sha1": "2b1e2d7d7c431037206d929984330399469e021e",
+        "sha256": "bae0d43d5c36fab6acb75174e16bfa62b1b09cb07768ba2341913e0ecef61362",
+        "size": 7953,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/common-fixes.md",
+    "references/constraint-spec-v1.yaml",
+    "references/mcp-integration.md",
+    "references/migration-guide-summary.md",
+    "scripts/sanitize-readiness-input.jq"
+  ],
+  "old_commit": "3898ec894e90afdfdae982a925db28b6a7b334e3",
+  "new_commit": "07ade634651fa0852f6bb5d6d0b12f495b66bacb",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-10-09T11:06:40Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/3898ec894e90afdfdae982a925db28b6a7b334e3...07ade634651fa0852f6bb5d6d0b12f495b66bacb",
+  "commit_url": "https://github.com/microsoft/skills/commit/07ade634651fa0852f6bb5d6d0b12f495b66bacb",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-kubernetes/azure-kubernetes-automatic-readiness",
+  "local_directory": "verified_real_update_pairs/OPU-0470",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0470",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

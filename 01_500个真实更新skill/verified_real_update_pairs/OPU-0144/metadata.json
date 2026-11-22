@@ -1,0 +1,131 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/ads/google-mobile-ads-get-started/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "2355503364aaa562e4a2",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "a7123f80525a4438bc9601d7d6511dfde674b620",
+    "computed_tree_sha": "55f275027e778646d83ab0e1af05f82dd60b9afb",
+    "api_tree_sha_as_returned": "55f275027e778646d83ab0e1af05f82dd60b9afb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "75757774bf4fa240d5a29e8c96e8cdbff9fae4cb",
+        "sha256": "256c0114ed747d657bc73a70a72b50dfe861086145a295488cae79f43c8b2e58",
+        "size": 1056,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/skadnetwork-identifiers.xml",
+        "git_blob_sha1": "f2f0161eb719ddb000cafda26c856749cdb657fa",
+        "sha256": "c7f188192fc99e928002df7ead52f50244add83f9f851f751e0e3282f5eae0bc",
+        "size": 5045,
+        "mode": "100644"
+      },
+      {
+        "path": "references/android-get-started.md",
+        "git_blob_sha1": "d1c285ae50b063f2d9db545d56d05c4c07e216fc",
+        "sha256": "73fd55801498ad50b9cf86d5d722af4633f3730bd3e2aefc6ffe53d4f4bbddab",
+        "size": 2823,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ios-get-started.md",
+        "git_blob_sha1": "110270c62f552f330e00ed61cf5692c2555c76a4",
+        "sha256": "5f18da0c0f07cc210655d2365a94fdceb0a68bffb994c489a79f8ea5f583b60d",
+        "size": 3002,
+        "mode": "100644"
+      },
+      {
+        "path": "references/unity-get-started.md",
+        "git_blob_sha1": "c3fd12572f58167c4a66a7e6af3b307568be9907",
+        "sha256": "be6259c49614a4a4d581d32ac82977f6acda8d9fa2de090a1539bf70331cef74",
+        "size": 2841,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f36c9ebe9658ee9f98bf83ad0fe97f747abb743c",
+    "computed_tree_sha": "68fd68037290ed58ae683425a4cc82fcaafad887",
+    "api_tree_sha_as_returned": "68fd68037290ed58ae683425a4cc82fcaafad887",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3ca387bd2a877ee3176525a3a53aa0aa60cabadc",
+        "sha256": "cc27c39c48374149d87a2b7331930d0a98343bb88ed35cc0899622041c79fc88",
+        "size": 1061,
+        "mode": "100644"
+      },
+      {
+        "path": "references/android-get-started.md",
+        "git_blob_sha1": "598de00bd8d6a3cc6787bd817aee43c8a05b86ed",
+        "sha256": "be7efc049a1c0228fb2da3521e5717e0c70c5fc72e84ed7089f1515d72bcb5c5",
+        "size": 2838,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ios-get-started.md",
+        "git_blob_sha1": "6ca48fc72db34a7330d6fd550e2b175da996c886",
+        "sha256": "c37c7eaac5b6046cd0ab9d131a01e6c4d727aa0f3b79db7f2a6d80d10b028ae5",
+        "size": 9767,
+        "mode": "100644"
+      },
+      {
+        "path": "references/unity-get-started.md",
+        "git_blob_sha1": "c3fd12572f58167c4a66a7e6af3b307568be9907",
+        "sha256": "be6259c49614a4a4d581d32ac82977f6acda8d9fa2de090a1539bf70331cef74",
+        "size": 2841,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "assets/skadnetwork-identifiers.xml",
+    "references/android-get-started.md",
+    "references/ios-get-started.md"
+  ],
+  "old_commit": "a7123f80525a4438bc9601d7d6511dfde674b620",
+  "new_commit": "f36c9ebe9658ee9f98bf83ad0fe97f747abb743c",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Inline SKAdNetworkIDs to google-mobile-ads-get-started skill\n\nPiperOrigin-RevId: 974031508",
+  "new_commit_time": "2026-08-31T19:59:50Z",
+  "compare_url": "https://github.com/google/skills/compare/a7123f80525a4438bc9601d7d6511dfde674b620...f36c9ebe9658ee9f98bf83ad0fe97f747abb743c",
+  "commit_url": "https://github.com/google/skills/commit/f36c9ebe9658ee9f98bf83ad0fe97f747abb743c",
+  "skill_directory": "skills/ads/google-mobile-ads-get-started",
+  "local_directory": "verified_real_update_pairs/OPU-0144",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0144",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

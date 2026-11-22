@@ -1,0 +1,551 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/microsoft-foundry/finetuning/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "1d53a1249a6705bf2433",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "16247a7639866f417d78cd3d950af938e2019fbe",
+    "computed_tree_sha": "f4fce572b9e1db4e7880315bf39045d03f42a0fd",
+    "api_tree_sha_as_returned": "f4fce572b9e1db4e7880315bf39045d03f42a0fd",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "68ad2dc82e4e38b5bdc07170ae1a2aa477b0a277",
+        "sha256": "760f5e7f21c0b87b5d1b00dae6a652e585b07798e3134cc669c6eb1fee6402f4",
+        "size": 5507,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agentic-rft.md",
+        "git_blob_sha1": "391d47b1344ac949505022b0dcf0c1bef663199c",
+        "sha256": "b292a650b2e23c3a2999ac1906e455fdd3e4a25ffa42a2b31fab3109cb0c6257",
+        "size": 3233,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dataset-formats.md",
+        "git_blob_sha1": "c8dfe2b136b8dd96afe193298a22eaaa30bb9665",
+        "sha256": "8456024eae5fd85c06d4f2467d0e331c611a1531ea8972a7948afd0ea2c00261",
+        "size": 3740,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment.md",
+        "git_blob_sha1": "eb69aa2c26c7d92c48fc8e17429ad691f7e9db4b",
+        "sha256": "7553f178d5ca7152868302c84a0f7beb6b3074bf8dba73910e6e3717438647cb",
+        "size": 3503,
+        "mode": "100644"
+      },
+      {
+        "path": "references/evaluation.md",
+        "git_blob_sha1": "d5ca739e70bf1f7e7bb0ac874258aec0b1daa8f2",
+        "sha256": "3fd3337851a556c26c0424f3d2ad44bbe2af7a26c72deb85797523500e8b16c8",
+        "size": 5924,
+        "mode": "100644"
+      },
+      {
+        "path": "references/grader-design.md",
+        "git_blob_sha1": "53bab4887dedf8d4be1deab591c7897f02096454",
+        "sha256": "556dc698a79576445fd88f6a19b0bcb0e95211df53c5cdd81ec1431c0065ba7d",
+        "size": 3437,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hyperparameters.md",
+        "git_blob_sha1": "edfa0ceda530ba3e30e26031b589f295dd1cf9fc",
+        "sha256": "a1d63c6d13eb3e71b8bde0bff3b44a0c6038c4796fdcacb61f6d4b523b7d0365",
+        "size": 3233,
+        "mode": "100644"
+      },
+      {
+        "path": "references/large-file-uploads.md",
+        "git_blob_sha1": "1aa87e18e16567b724d303e1b6b6ac2e7c8802c4",
+        "sha256": "88384d73903fca7e2e7400edd8fbac41c35352d7e06150183e87c9fcee122c8c",
+        "size": 927,
+        "mode": "100644"
+      },
+      {
+        "path": "references/platform-gotchas.md",
+        "git_blob_sha1": "4b44a009327cf9c95c6f53d38f550e3f2b477d38",
+        "sha256": "151b9da08d7ea2cdb6868ba21bfbaa13c32bb5ea957180506560035ff25cf961",
+        "size": 2069,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reward-hacking.md",
+        "git_blob_sha1": "a8545e7d380baaa951b924b29fcd5b204c80d00f",
+        "sha256": "d9f2c8a8182f6dba29bf7c0bb1116e3efe61b3dc9611d39aefa97f7aec67f7d1",
+        "size": 2945,
+        "mode": "100644"
+      },
+      {
+        "path": "references/training-curves.md",
+        "git_blob_sha1": "04ae80c9c2ccc2f33ab1a4a34aa8cacedc401482",
+        "sha256": "ee19133aced08178d9ef98d14b581def8f58d7025c4224cc043687dd50875823",
+        "size": 4183,
+        "mode": "100644"
+      },
+      {
+        "path": "references/training-types.md",
+        "git_blob_sha1": "df28f25bed44cad872b467249c1889de39f1a7b6",
+        "sha256": "0ab2ab91f0adf7df01ed7b87f7eb45bf6723916298eaf498cff452298dd4c50a",
+        "size": 3158,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vision-fine-tuning.md",
+        "git_blob_sha1": "c55bc32ebf150e5c429edcee6c8c1e165c4de014",
+        "sha256": "8b4f409d6644bfa06ae0194360f9bb0c37eb9199bf3d3bcd170e8e9e7201fc09",
+        "size": 4205,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/calibrate_grader.py",
+        "git_blob_sha1": "c4a4582da01d4e014f4ea167e31501f89d5debde",
+        "sha256": "f97ac3a5343ef569bdd781ff0650aea22816a0dec570f4bb69a62d2e748382b9",
+        "size": 9493,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_training.py",
+        "git_blob_sha1": "d6bc261d76e4fa2bdfd6956bdb178ea53b0d3cef",
+        "sha256": "34593bdac7355ab2c265efbd25e689164c17421e5c4affd90edbb461f1b76a56",
+        "size": 7987,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/cleanup.py",
+        "git_blob_sha1": "f7fe8a32b9d09149667ae98187868ee0f9c3ad2f",
+        "sha256": "e04a087b127e3ad378e0f8847e157e61126f7fc895d6acad8bec78b47e9495ae",
+        "size": 9687,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/common.py",
+        "git_blob_sha1": "48dc8ce9f7e3be1b3b8381f7e675680b4174943d",
+        "sha256": "1f8afeee5410a48895619f24bc49073248622f1becea54a301ecfb1197dce240",
+        "size": 7806,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/convert_dataset.py",
+        "git_blob_sha1": "a9c8ed451cdac11b7efc77e7b5f2eb7b2c35a2bd",
+        "sha256": "50a72efeabb1132ab795b892ef961bc4bb4bd62115b7adee4076d1f3259fb044",
+        "size": 10936,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/deploy_model.py",
+        "git_blob_sha1": "a25db9ead41b457d464a6a6b45a0625af6ed7c15",
+        "sha256": "523a5aaf13ea2f815c922cc75499d2684fd05efba622746d672c1866f6488683",
+        "size": 9616,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/evaluate_model.py",
+        "git_blob_sha1": "391b865ac7544c2475378dc1d08cb233960f7820",
+        "sha256": "966913bec449b4ac15da7f5e7a936b44901da417f8934c618c6be4aa2afa18dc",
+        "size": 11690,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_distillation_data.py",
+        "git_blob_sha1": "ce4969e5bf064a9ec300ba4ede0b5d30535239fe",
+        "sha256": "5b2c7ec9dff8750e309a8d46693ce80c9cd7921e5a5192451dbfa46fcddb3e96",
+        "size": 10299,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/monitor_training.py",
+        "git_blob_sha1": "5f132457a2d31a62d5e37eb9dfec1e0aaf28b5fa",
+        "sha256": "75c4e7f80edb25a769141f160f6142949c6c58a08a975a842ccd7fa56728c542",
+        "size": 5866,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/score_dataset.py",
+        "git_blob_sha1": "bd7511afc42e626bb604d6a87b8c3e267b8a21cc",
+        "sha256": "c9f1813f040672e6daa043de10c2da3fcf82d3eb36092ed4a1c2766c1c30403f",
+        "size": 7873,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/submit_training.py",
+        "git_blob_sha1": "7593e301edb8adcc5595d598e9bb9c7e2dcfecfb",
+        "sha256": "ca5b4209566c101498239e9e3462fa8338c95abf018e62b9e4625ddc5361df25",
+        "size": 11068,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/__init__.py",
+        "git_blob_sha1": "7d4573e8134c4a50b472b043fc2d779ea900e469",
+        "sha256": "c9d2ee5aae0e8afff67f12f67ac786095e01e13bfdeaf2120eebc355aacf3f0c",
+        "size": 305,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/data_stats.py",
+        "git_blob_sha1": "d6380ec381cdc734442861ac8d1170ee4c770b49",
+        "sha256": "b2e1ef031e942188b4b1574e95e06b0d473e0d911571ee994dd30ea8d50859e9",
+        "size": 6331,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/validate_dpo.py",
+        "git_blob_sha1": "43e632cf2f6d54ba2e5410751e3023ee5568a11e",
+        "sha256": "11696dc98f31ac7dc9926f30f367bb2052a6e70256832648644b776f823ee850",
+        "size": 3806,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/validate_rft.py",
+        "git_blob_sha1": "f8c3644e873ba3f81b4dd4489ec31a2128c509ee",
+        "sha256": "1fc15cd60739b7fa673df1da2ed7aa0f5fd733113baf0dc5efea805d777a2c3d",
+        "size": 8797,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/validate_sft.py",
+        "git_blob_sha1": "87b0250169d9860449d62f7b520648942cc3a076",
+        "sha256": "094d09761f9b2a1ef04f15156dfcd074fc6d63ee08e8d5130de354b3a8297e73",
+        "size": 4572,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/dataset-creation.md",
+        "git_blob_sha1": "a82de2084042fa1e5d3b81d3682cdc20c6e3179b",
+        "sha256": "7b7c25ae419e73e4690a64063f9fcefca2682d8fc0d9984cac2c82aaf07453b3",
+        "size": 3161,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/diagnose-poor-results.md",
+        "git_blob_sha1": "cf20b683a7d207fb2fe223fabe0c8e8a82aea20a",
+        "sha256": "90e78266bc5db65be2fd73b66a39c095c6639ef4be909251b4421f7432411d1c",
+        "size": 2401,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/full-pipeline.md",
+        "git_blob_sha1": "333bedf54a8e4fae0d475d433245a4525eccb4c2",
+        "sha256": "4d151b493e579dd91eda9bddbff462647399985eb62cd782f5e73483fe12fddc",
+        "size": 3165,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/iterative-training.md",
+        "git_blob_sha1": "5e7da7ad260eda830405f23d47c34b7019d2dfa2",
+        "sha256": "38cbb4c241935ba147880d5c483822f448621e2d465cbb92cb395f5ba78c3c43",
+        "size": 3178,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/quickstart.md",
+        "git_blob_sha1": "b0c316e146ebd90784b644539741574c455406be",
+        "sha256": "28153417756b225cc0250523c58788932d18880bcb9f5ed7de0a2ccb620ede3c",
+        "size": 4598,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "04d245b7888e8c9b063d460aef10106e66e48a4f",
+    "computed_tree_sha": "91b3afacfb2c855870109207d0b584e8e2993f8e",
+    "api_tree_sha_as_returned": "91b3afacfb2c855870109207d0b584e8e2993f8e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "428b2f3648500aede49730c5e233b7c5dd554ac5",
+        "sha256": "7a17789cb61e026a52071564b00624f2880e7b35c89fec9aa06c0dfcc8fe1e31",
+        "size": 5509,
+        "mode": "100644"
+      },
+      {
+        "path": "references/agentic-rft.md",
+        "git_blob_sha1": "18c515d550d2f2650b9d4af8a897534c13f22bcd",
+        "sha256": "25a6ed20523edd2a2cf1bdf2d0a9c25de1bab291ea8194ad19d380fd49e021e6",
+        "size": 3234,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dataset-formats.md",
+        "git_blob_sha1": "c8dfe2b136b8dd96afe193298a22eaaa30bb9665",
+        "sha256": "8456024eae5fd85c06d4f2467d0e331c611a1531ea8972a7948afd0ea2c00261",
+        "size": 3740,
+        "mode": "100644"
+      },
+      {
+        "path": "references/deployment.md",
+        "git_blob_sha1": "eb69aa2c26c7d92c48fc8e17429ad691f7e9db4b",
+        "sha256": "7553f178d5ca7152868302c84a0f7beb6b3074bf8dba73910e6e3717438647cb",
+        "size": 3503,
+        "mode": "100644"
+      },
+      {
+        "path": "references/evaluation.md",
+        "git_blob_sha1": "d5ca739e70bf1f7e7bb0ac874258aec0b1daa8f2",
+        "sha256": "3fd3337851a556c26c0424f3d2ad44bbe2af7a26c72deb85797523500e8b16c8",
+        "size": 5924,
+        "mode": "100644"
+      },
+      {
+        "path": "references/grader-design.md",
+        "git_blob_sha1": "53bab4887dedf8d4be1deab591c7897f02096454",
+        "sha256": "556dc698a79576445fd88f6a19b0bcb0e95211df53c5cdd81ec1431c0065ba7d",
+        "size": 3437,
+        "mode": "100644"
+      },
+      {
+        "path": "references/hyperparameters.md",
+        "git_blob_sha1": "edfa0ceda530ba3e30e26031b589f295dd1cf9fc",
+        "sha256": "a1d63c6d13eb3e71b8bde0bff3b44a0c6038c4796fdcacb61f6d4b523b7d0365",
+        "size": 3233,
+        "mode": "100644"
+      },
+      {
+        "path": "references/large-file-uploads.md",
+        "git_blob_sha1": "1aa87e18e16567b724d303e1b6b6ac2e7c8802c4",
+        "sha256": "88384d73903fca7e2e7400edd8fbac41c35352d7e06150183e87c9fcee122c8c",
+        "size": 927,
+        "mode": "100644"
+      },
+      {
+        "path": "references/platform-gotchas.md",
+        "git_blob_sha1": "4b44a009327cf9c95c6f53d38f550e3f2b477d38",
+        "sha256": "151b9da08d7ea2cdb6868ba21bfbaa13c32bb5ea957180506560035ff25cf961",
+        "size": 2069,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reward-hacking.md",
+        "git_blob_sha1": "a8545e7d380baaa951b924b29fcd5b204c80d00f",
+        "sha256": "d9f2c8a8182f6dba29bf7c0bb1116e3efe61b3dc9611d39aefa97f7aec67f7d1",
+        "size": 2945,
+        "mode": "100644"
+      },
+      {
+        "path": "references/training-curves.md",
+        "git_blob_sha1": "04ae80c9c2ccc2f33ab1a4a34aa8cacedc401482",
+        "sha256": "ee19133aced08178d9ef98d14b581def8f58d7025c4224cc043687dd50875823",
+        "size": 4183,
+        "mode": "100644"
+      },
+      {
+        "path": "references/training-types.md",
+        "git_blob_sha1": "1adcfd2166a4eca9e1ca7df0a63ccc16a56a62bb",
+        "sha256": "e7daef4b11660eebba7d2fdfe7e09ddcd408103f86aff11e5ddda16f8aa4349e",
+        "size": 3161,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vision-fine-tuning.md",
+        "git_blob_sha1": "c55bc32ebf150e5c429edcee6c8c1e165c4de014",
+        "sha256": "8b4f409d6644bfa06ae0194360f9bb0c37eb9199bf3d3bcd170e8e9e7201fc09",
+        "size": 4205,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/calibrate_grader.py",
+        "git_blob_sha1": "c4a4582da01d4e014f4ea167e31501f89d5debde",
+        "sha256": "f97ac3a5343ef569bdd781ff0650aea22816a0dec570f4bb69a62d2e748382b9",
+        "size": 9493,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/check_training.py",
+        "git_blob_sha1": "d6bc261d76e4fa2bdfd6956bdb178ea53b0d3cef",
+        "sha256": "34593bdac7355ab2c265efbd25e689164c17421e5c4affd90edbb461f1b76a56",
+        "size": 7987,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/cleanup.py",
+        "git_blob_sha1": "f7fe8a32b9d09149667ae98187868ee0f9c3ad2f",
+        "sha256": "e04a087b127e3ad378e0f8847e157e61126f7fc895d6acad8bec78b47e9495ae",
+        "size": 9687,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/common.py",
+        "git_blob_sha1": "6d3c5191c95fa1600fbcd7229ecd09c8985f8904",
+        "sha256": "a557feac1b30f003bf9946c803f4e51051995449bd86cdc2ac287b67e6b0b4ce",
+        "size": 7808,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/convert_dataset.py",
+        "git_blob_sha1": "a9c8ed451cdac11b7efc77e7b5f2eb7b2c35a2bd",
+        "sha256": "50a72efeabb1132ab795b892ef961bc4bb4bd62115b7adee4076d1f3259fb044",
+        "size": 10936,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/deploy_model.py",
+        "git_blob_sha1": "9b74c4a2c70abac47343f6fcfd21b82f7fdd4bdf",
+        "sha256": "a3e3fb22cabc91671b7e622d303fa330b105e5b3fe6fbc56908ab30edc1e8bdc",
+        "size": 9618,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/evaluate_model.py",
+        "git_blob_sha1": "391b865ac7544c2475378dc1d08cb233960f7820",
+        "sha256": "966913bec449b4ac15da7f5e7a936b44901da417f8934c618c6be4aa2afa18dc",
+        "size": 11690,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_distillation_data.py",
+        "git_blob_sha1": "ce4969e5bf064a9ec300ba4ede0b5d30535239fe",
+        "sha256": "5b2c7ec9dff8750e309a8d46693ce80c9cd7921e5a5192451dbfa46fcddb3e96",
+        "size": 10299,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/monitor_training.py",
+        "git_blob_sha1": "5f132457a2d31a62d5e37eb9dfec1e0aaf28b5fa",
+        "sha256": "75c4e7f80edb25a769141f160f6142949c6c58a08a975a842ccd7fa56728c542",
+        "size": 5866,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/score_dataset.py",
+        "git_blob_sha1": "bd7511afc42e626bb604d6a87b8c3e267b8a21cc",
+        "sha256": "c9f1813f040672e6daa043de10c2da3fcf82d3eb36092ed4a1c2766c1c30403f",
+        "size": 7873,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/submit_training.py",
+        "git_blob_sha1": "9f91b1bb465d1c16c48beff1ff21f1e73b98906a",
+        "sha256": "d88aed0f5373e9a814c146a2710f2e6e2899b9e488a2edb097d4a08e82971d19",
+        "size": 11070,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/__init__.py",
+        "git_blob_sha1": "7d4573e8134c4a50b472b043fc2d779ea900e469",
+        "sha256": "c9d2ee5aae0e8afff67f12f67ac786095e01e13bfdeaf2120eebc355aacf3f0c",
+        "size": 305,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/data_stats.py",
+        "git_blob_sha1": "d6380ec381cdc734442861ac8d1170ee4c770b49",
+        "sha256": "b2e1ef031e942188b4b1574e95e06b0d473e0d911571ee994dd30ea8d50859e9",
+        "size": 6331,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/validate_dpo.py",
+        "git_blob_sha1": "b1673985728ded405346f0aad2ae035c649e6b4b",
+        "sha256": "a8ea5352d6a2195100fed04316fa737cf41329299f3ed6ed1c4066db96dc8806",
+        "size": 3807,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/validate_rft.py",
+        "git_blob_sha1": "827a5a2a0a80ca91a0bed957a68f43b0cdd50d76",
+        "sha256": "96c962064aa6ef871fb470ed55cd202f3531d3d8d6ab4d101a030602e8e731d7",
+        "size": 8799,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate/validate_sft.py",
+        "git_blob_sha1": "e914f34415bb103243d3ebfbfc419663fd2b4708",
+        "sha256": "0112dc3c3f5b6c9ac00c3ebefab66a672ac54944d5f2515dc0267ce69c9b9c57",
+        "size": 4573,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/dataset-creation.md",
+        "git_blob_sha1": "a82de2084042fa1e5d3b81d3682cdc20c6e3179b",
+        "sha256": "7b7c25ae419e73e4690a64063f9fcefca2682d8fc0d9984cac2c82aaf07453b3",
+        "size": 3161,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/diagnose-poor-results.md",
+        "git_blob_sha1": "cf20b683a7d207fb2fe223fabe0c8e8a82aea20a",
+        "sha256": "90e78266bc5db65be2fd73b66a39c095c6639ef4be909251b4421f7432411d1c",
+        "size": 2401,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/full-pipeline.md",
+        "git_blob_sha1": "0d0252e807d69aaa97000519123ec07bcd29567c",
+        "sha256": "236123ba5105fb4da1d43f0d35d76888c34507310b5252f81593abdc3cb1467e",
+        "size": 3167,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/iterative-training.md",
+        "git_blob_sha1": "5e7da7ad260eda830405f23d47c34b7019d2dfa2",
+        "sha256": "38cbb4c241935ba147880d5c483822f448621e2d465cbb92cb395f5ba78c3c43",
+        "size": 3178,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/quickstart.md",
+        "git_blob_sha1": "e28b45fe674fd2fad090aab4f170b0d36e220469",
+        "sha256": "1b660580c6c1ac4f45ed20ff298472ee9691898731ef501d61e232fca4bb8d66",
+        "size": 4600,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/agentic-rft.md",
+    "references/training-types.md",
+    "scripts/common.py",
+    "scripts/deploy_model.py",
+    "scripts/submit_training.py",
+    "scripts/validate/validate_dpo.py",
+    "scripts/validate/validate_rft.py",
+    "scripts/validate/validate_sft.py",
+    "workflows/full-pipeline.md",
+    "workflows/quickstart.md"
+  ],
+  "old_commit": "16247a7639866f417d78cd3d950af938e2019fbe",
+  "new_commit": "04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-08-07T11:17:12Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/16247a7639866f417d78cd3d950af938e2019fbe...04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "commit_url": "https://github.com/microsoft/skills/commit/04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "skill_directory": ".github/plugins/azure-skills/skills/microsoft-foundry/finetuning",
+  "local_directory": "verified_real_update_pairs/OPU-0481",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0481",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

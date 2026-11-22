@@ -1,0 +1,205 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/gha-security-review/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "ab925648dec682174425",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "c2f99a5b04b4cd992ec3022d7c2c3e23e938d241",
+    "computed_tree_sha": "7506de39b90eb3f333020fef13394cd29f8809f5",
+    "api_tree_sha_as_returned": "7506de39b90eb3f333020fef13394cd29f8809f5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8c729fd35bcc21b6a6cbc6d471649804f1042897",
+        "sha256": "2820545333988c4834fe6ac4e05d3efafc02bd0e4097e0f28f4ebfc48e116a3d",
+        "size": 8970,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ai-prompt-injection-via-ci.md",
+        "git_blob_sha1": "be1c9497f4c140818dd2bc925244fa0d3a48d53e",
+        "sha256": "9177d24968ac5b8d719b9f6748f91751d5e157ae0afa4d41cd0bb760356f23a2",
+        "size": 5452,
+        "mode": "100644"
+      },
+      {
+        "path": "references/comment-triggered-commands.md",
+        "git_blob_sha1": "a1d651ed35ec333c9afcaf328cadca4c6b7fb5e4",
+        "sha256": "243526302999b7cbcbff4bbdd01c7d16377b1c60a86ee8877326c2b2b040a0b3",
+        "size": 5608,
+        "mode": "100644"
+      },
+      {
+        "path": "references/credential-escalation.md",
+        "git_blob_sha1": "805a301dff90376a947cab3ab953074378814e57",
+        "sha256": "7febad6c0e4073dabfb338ee4646c2dd484251ad7d18b500ea83ad6fd9ac1a1d",
+        "size": 6659,
+        "mode": "100644"
+      },
+      {
+        "path": "references/expression-injection.md",
+        "git_blob_sha1": "dca326d2f7067b8921c4fc47e01ccc8a56bb6c78",
+        "sha256": "f701049355e4758207f77efc53c8e4a42f377eaa15240a2c867446154041d4f0",
+        "size": 8644,
+        "mode": "100644"
+      },
+      {
+        "path": "references/permissions-and-secrets.md",
+        "git_blob_sha1": "3a809e928c13d537af5527dcf3c7fbe63d588c03",
+        "sha256": "6b6837c5f37ff85cf18c1f611f882202ce0ce41cb006b55dd49c4da52f976779",
+        "size": 7917,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pwn-request.md",
+        "git_blob_sha1": "0a2046843146aaff7dd09e303715e0bda0e0db89",
+        "sha256": "6dd84c91ce77d57883059edf95c2f1c64ea1ec39551c5c8208e0cadb9c3ca673",
+        "size": 5902,
+        "mode": "100644"
+      },
+      {
+        "path": "references/real-world-attacks.md",
+        "git_blob_sha1": "2b24e2a5b30a0463d2a750d752a68d9b05799418",
+        "sha256": "761260977a220264a1ee30e0b961618495723c2e6cc4e91893b7d9d4a9408718",
+        "size": 9468,
+        "mode": "100644"
+      },
+      {
+        "path": "references/runner-infrastructure.md",
+        "git_blob_sha1": "8d8e79fdd0b80e5b1dd8551cd6ddcb38adc42812",
+        "sha256": "c1a9a4700a49b177b3b74e4e33cda6d8b0200ee815827c1e6d0a7c2e40d9866f",
+        "size": 7972,
+        "mode": "100644"
+      },
+      {
+        "path": "references/supply-chain.md",
+        "git_blob_sha1": "7a9d1a012dcef748de83b5960bce715ffc3758c0",
+        "sha256": "1f80df872a1be8f70ccf1be0bb25b2e24ee1ec2ac6a9f3d7a53800cb361bfa86",
+        "size": 9616,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e99aa676c22ca6db324c675630dd2b42b793a70e",
+    "computed_tree_sha": "1aa94a64338dd8a0f7c942187f203b909b5fffc5",
+    "api_tree_sha_as_returned": "1aa94a64338dd8a0f7c942187f203b909b5fffc5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7ef6c6ed67a57539e62e6465acf5a8a45fab12d0",
+        "sha256": "b75c6c43ff99c82b3cf44519bd30723917de97064f225e392ecfd6fdcd7455bd",
+        "size": 8966,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ai-prompt-injection-via-ci.md",
+        "git_blob_sha1": "be1c9497f4c140818dd2bc925244fa0d3a48d53e",
+        "sha256": "9177d24968ac5b8d719b9f6748f91751d5e157ae0afa4d41cd0bb760356f23a2",
+        "size": 5452,
+        "mode": "100644"
+      },
+      {
+        "path": "references/comment-triggered-commands.md",
+        "git_blob_sha1": "a1d651ed35ec333c9afcaf328cadca4c6b7fb5e4",
+        "sha256": "243526302999b7cbcbff4bbdd01c7d16377b1c60a86ee8877326c2b2b040a0b3",
+        "size": 5608,
+        "mode": "100644"
+      },
+      {
+        "path": "references/credential-escalation.md",
+        "git_blob_sha1": "805a301dff90376a947cab3ab953074378814e57",
+        "sha256": "7febad6c0e4073dabfb338ee4646c2dd484251ad7d18b500ea83ad6fd9ac1a1d",
+        "size": 6659,
+        "mode": "100644"
+      },
+      {
+        "path": "references/expression-injection.md",
+        "git_blob_sha1": "dca326d2f7067b8921c4fc47e01ccc8a56bb6c78",
+        "sha256": "f701049355e4758207f77efc53c8e4a42f377eaa15240a2c867446154041d4f0",
+        "size": 8644,
+        "mode": "100644"
+      },
+      {
+        "path": "references/permissions-and-secrets.md",
+        "git_blob_sha1": "3a809e928c13d537af5527dcf3c7fbe63d588c03",
+        "sha256": "6b6837c5f37ff85cf18c1f611f882202ce0ce41cb006b55dd49c4da52f976779",
+        "size": 7917,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pwn-request.md",
+        "git_blob_sha1": "0a2046843146aaff7dd09e303715e0bda0e0db89",
+        "sha256": "6dd84c91ce77d57883059edf95c2f1c64ea1ec39551c5c8208e0cadb9c3ca673",
+        "size": 5902,
+        "mode": "100644"
+      },
+      {
+        "path": "references/real-world-attacks.md",
+        "git_blob_sha1": "2b24e2a5b30a0463d2a750d752a68d9b05799418",
+        "sha256": "761260977a220264a1ee30e0b961618495723c2e6cc4e91893b7d9d4a9408718",
+        "size": 9468,
+        "mode": "100644"
+      },
+      {
+        "path": "references/runner-infrastructure.md",
+        "git_blob_sha1": "8d8e79fdd0b80e5b1dd8551cd6ddcb38adc42812",
+        "sha256": "c1a9a4700a49b177b3b74e4e33cda6d8b0200ee815827c1e6d0a7c2e40d9866f",
+        "size": 7972,
+        "mode": "100644"
+      },
+      {
+        "path": "references/supply-chain.md",
+        "git_blob_sha1": "7a9d1a012dcef748de83b5960bce715ffc3758c0",
+        "sha256": "1f80df872a1be8f70ccf1be0bb25b2e24ee1ec2ac6a9f3d7a53800cb361bfa86",
+        "size": 9616,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "c2f99a5b04b4cd992ec3022d7c2c3e23e938d241",
+  "new_commit": "e99aa676c22ca6db324c675630dd2b42b793a70e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(gha-security-review): remove commas from allowed-tools",
+  "new_commit_time": "2026-09-26T00:01:39Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/c2f99a5b04b4cd992ec3022d7c2c3e23e938d241...e99aa676c22ca6db324c675630dd2b42b793a70e",
+  "commit_url": "https://github.com/getsentry/skills/commit/e99aa676c22ca6db324c675630dd2b42b793a70e",
+  "skill_directory": "skills/gha-security-review",
+  "local_directory": "verified_real_update_pairs/OPU-0115",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0115",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

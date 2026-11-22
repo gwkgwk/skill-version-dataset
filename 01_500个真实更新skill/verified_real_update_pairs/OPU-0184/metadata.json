@@ -1,0 +1,77 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/code-improver/skills/pr-improver/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "2397099b171db8d9a918",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "196a9073ab10d35bacf111f945e02c00b2c6883a",
+    "computed_tree_sha": "2221a5f01a7cfa0d58433c3233899b0cd69540a1",
+    "api_tree_sha_as_returned": "2221a5f01a7cfa0d58433c3233899b0cd69540a1",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5265450bb63b0d79b32b85e83322a8581be0b104",
+        "sha256": "8bb6055905f95d4e0bbd6dbbab2be930a3d3e09cd22a18afbd306abcf9e0828f",
+        "size": 7572,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "bf23bfb21f10a2a4b0406086d690dc8cb1b3ccf3",
+    "computed_tree_sha": "cbf5dee3473c688f757764ce6ab1cae78ab38ce7",
+    "api_tree_sha_as_returned": "cbf5dee3473c688f757764ce6ab1cae78ab38ce7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "da7fdbe02c2108e9ac268b97d203ca5b8d3118cc",
+        "sha256": "c4dba624b03dd60ac8e88d97811a6318c7312d1bf6ba984e7440c76f5340d840",
+        "size": 6705,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "196a9073ab10d35bacf111f945e02c00b2c6883a",
+  "new_commit": "bf23bfb21f10a2a4b0406086d690dc8cb1b3ccf3",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Resolve workflow skills' own plugin instead of searching for it (#385)\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-10-27T20:09:25Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/196a9073ab10d35bacf111f945e02c00b2c6883a...bf23bfb21f10a2a4b0406086d690dc8cb1b3ccf3",
+  "commit_url": "https://github.com/trailofbits/skills/commit/bf23bfb21f10a2a4b0406086d690dc8cb1b3ccf3",
+  "skill_directory": "plugins/code-improver/skills/pr-improver",
+  "local_directory": "verified_real_update_pairs/OPU-0184",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0184",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

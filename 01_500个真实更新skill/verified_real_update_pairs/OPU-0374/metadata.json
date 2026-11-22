@@ -1,0 +1,87 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-monitoring-metric-selection/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "ba1f6811bd6786424c29",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+    "computed_tree_sha": "c2153a9a6b401e3258127de8463225cae55d373f",
+    "api_tree_sha_as_returned": "c2153a9a6b401e3258127de8463225cae55d373f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c62464590ce41001732f72ca311eed6ce4218720",
+        "sha256": "07d679b2ac42ee61c4c1ffcf4b43563ff14a21f9768530c6b97a910f7805753c",
+        "size": 9649,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+    "computed_tree_sha": "65f518e9b65c9bfe6a7df73b707184fe729e7485",
+    "api_tree_sha_as_returned": "65f518e9b65c9bfe6a7df73b707184fe729e7485",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2acf2bd296e42ff8647ee4664eca44012755c6da",
+        "sha256": "483318464b56754c7a9092604b61fb6ec04ffe6f96aa41432f22a8ef94ea0ce4",
+        "size": 10120,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "e0f63920c96c9b3f23991aaa920ed03ff65fc92b",
+        "sha256": "c08c6b06b8126cd27816fd443d7552ef73ca7ce974cdb2a0cdf213d5f0f4beb3",
+        "size": 1939,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+  "new_commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to DevEx, Serverless, and Observability skills.\n\n- Add `references/attribution.md` to all 21 DevEx, Serverless, API Gateway, and Observability skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills and bundled plugin manifests.\n\nPiperOrigin-RevId: 1002429999",
+  "new_commit_time": "2026-10-19T17:26:03Z",
+  "compare_url": "https://github.com/google/skills/compare/6c946422b9456555b9a4d8144edeeb64a9f56e94...a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "commit_url": "https://github.com/google/skills/commit/a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "skill_directory": "skills/cloud/cloud-monitoring-metric-selection",
+  "local_directory": "verified_real_update_pairs/OPU-0374",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0374",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

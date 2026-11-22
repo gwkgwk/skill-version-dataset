@@ -1,0 +1,712 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-compute/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "03846e263edf7f7adf1a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "64eb93e18e2f2810c2fbfa5783c59ad288eeea80",
+    "computed_tree_sha": "e1e72a9564828dec0cdadd0f56a6dddc7df03543",
+    "api_tree_sha_as_returned": "e1e72a9564828dec0cdadd0f56a6dddc7df03543",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8757a0981409e2e43e3bfba8bb56df81af788a26",
+        "sha256": "1927a0f0d07773b8a27bc045a0ebebb384cac1a0e82b97c17681be8e7e592bbb",
+        "size": 3040,
+        "mode": "100644"
+      },
+      {
+        "path": "references/retail-prices-api.md",
+        "git_blob_sha1": "791684b740ef18fe105e9359f036acfd834e849d",
+        "sha256": "b13dab56ece4e0388c6d0798093fb13f25d773bb43c71bfcb4ff77baa9a53514",
+        "size": 6439,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vm-families.md",
+        "git_blob_sha1": "8d9069066757cd65341b46c09ded9e2ef07a6d7c",
+        "sha256": "4bd692efdd3d5e79c0b930b49e8ac58a970e34c6e56d0b49137f9b0ffeaccfd0",
+        "size": 5942,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vm-quotas.md",
+        "git_blob_sha1": "37f2c75da0ae0fce83e7b46bebcaccd9d48dfe28",
+        "sha256": "fecd3425f5de561ce7e2658ae8450c49953b380745fa45f14b0a8c6e33875d1a",
+        "size": 4191,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vmss-guide.md",
+        "git_blob_sha1": "554208e470967a4fbe46473ad27353941b1e0b7c",
+        "sha256": "dc71cfc7809c72f95ef36a37d086ed8f55d59d977a23eaba41423ae473da7c1a",
+        "size": 6348,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/capacity-reservation/capacity-reservation.md",
+        "git_blob_sha1": "3a6e1e3387504ba285c4f15665050951e086e714",
+        "sha256": "22a5796f73e302c86e72c5c03fe361f29083943700b00b709778976e0a8d23bf",
+        "size": 7971,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/capacity-reservation/references/association-disassociation.md",
+        "git_blob_sha1": "59fabb8d288daa637e9088dd685111259c7fce6c",
+        "sha256": "a4a66d61870b13b91be7e008161f6a293509692aa3f8695ea1f19b9b6b73505d",
+        "size": 3908,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/capacity-reservation/references/capacity-reservation-overview.md",
+        "git_blob_sha1": "94f7a647940ba44ac00c059072f6aa2fae50ff37",
+        "sha256": "7d0b2db6aa1d2abfec64bc2c5353f10f000232c4dcda6ac9db11bfccae0c32e3",
+        "size": 6108,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/essential-machine-management.md",
+        "git_blob_sha1": "945cec4c74a323abb5a124a68fe68c27069778c4",
+        "sha256": "2a86c0d56a18d81079b2eac5c77cd1bae4a9a7502bd3ac2607721bfbfaf5ab38",
+        "size": 5101,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/references/emm-enable-flow-portal-guidance.md",
+        "git_blob_sha1": "dedf6b59cfa71ed8ecd1da27916af79fa1febd1f",
+        "sha256": "a078c60506f03ced96feee1b9ba27c7a70891c4647901e2f6f2983cb52f721c8",
+        "size": 3140,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/references/emm-enable-flow.md",
+        "git_blob_sha1": "ba9ff929bd18199632929a5a2ae45aa8256f1451",
+        "sha256": "c0dce7524821e8d7195974b465a3d6b5ae439535c5d4b543c76e7ff98d3db3c1",
+        "size": 9429,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/references/emm-overview.md",
+        "git_blob_sha1": "5a60e2d1b31ab6f97dfa47d2be9def298610b91d",
+        "sha256": "449ab4318200471bcd5bd2014452a708d4fb03c205ecded0f646055d4cc94477",
+        "size": 2442,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/references/emm-prerequisites.md",
+        "git_blob_sha1": "e458f15aab925b84f52519e0fac34c99de1f5f99",
+        "sha256": "e35227c1b7d0c7e388a591841fcf88900b4a68fe01645631dbc0172ea486bb15",
+        "size": 3544,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/bicep/README.md",
+        "git_blob_sha1": "169f7e9b0e5caaf6de428fa9b80ee81f9898ee42",
+        "sha256": "61a52989ee67dfe4ee30aeb88a06bd15460d3d61d9f1101f3d0d58c19d1e4852",
+        "size": 1681,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/bicep/main.bicep",
+        "git_blob_sha1": "2be62449bbf7fb66e719169ef34758f917c21ccd",
+        "sha256": "6fa0bd982a36436cc4a6929ce5a8bb2fff748248d2865000110de0a18ef51b5f",
+        "size": 3858,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/terraform/README.md",
+        "git_blob_sha1": "61d306f44fee3de87309af74048c7280bcf5709a",
+        "sha256": "286defa0df7529408c9989fc2e2648a33592b678d7bc2df8f1032c5beb6f37b6",
+        "size": 2562,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/terraform/main.tf",
+        "git_blob_sha1": "53fc859f53d7f8d2fc9e6673c661ace1ac429c93",
+        "sha256": "bcdd247848c22947506136532df32c3581bfa040a2b3efd0a7cf86a54a2babd3",
+        "size": 3324,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/terraform/outputs.tf",
+        "git_blob_sha1": "142307aada003bdfd510ed545073a6cb1ffc8387",
+        "sha256": "643a1d3dc2acb278044e00689413e39785b0f8128b0c4c58f47eede1b43a4e48",
+        "size": 135,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/terraform/variables.tf",
+        "git_blob_sha1": "4603e6f62e770247147644834ef6579c41c3f01a",
+        "sha256": "50c292538bd6ac38c8211fde960cc752e8d77254acbe42057b088992e407b027",
+        "size": 1010,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/delivery-options/github-pr.md",
+        "git_blob_sha1": "41fa12b8c7a2c2fe06d41f7445421989bafe56a2",
+        "sha256": "4e60e5a4d2d1e1510117f0d6aed83c780c3c38e7fa14877f47a6fe5bdb38542b",
+        "size": 3289,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/delivery-options/index.md",
+        "git_blob_sha1": "d768373d0e3f7511cdd51e81345c5432ad2f5efa",
+        "sha256": "2af4e425c281138aee886bee0bc4a43337465c46fa95f96ffcca7a34e517f357",
+        "size": 2326,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/delivery-options/print.md",
+        "git_blob_sha1": "bdf34d19b077c88c81f7dcd0d590a0dd7d0a0506",
+        "sha256": "8bc3b97602c1de40a639b6e4d323788b4efaa93a086ee405fb888bccc5ea34c6",
+        "size": 474,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/delivery-options/save-local.md",
+        "git_blob_sha1": "2167fb13ceadd234ce9f6794ee3bf296357c0c47",
+        "sha256": "c9d4da97a12ad8930648d7b06a3de52038a2724b13b82632ad9cbae34c17a3dd",
+        "size": 2045,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/beginner.md",
+        "git_blob_sha1": "89fa0a2b01f3516709619e3ba0c2dfff419872da",
+        "sha256": "12ebbebf980cebd760e54a45c5595cb1bd2c14aed3f758a836f2e10ffc1da70c",
+        "size": 1214,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/cost-deep.md",
+        "git_blob_sha1": "71e7bed4d22a9b502714cbeaa513c097f53a36d3",
+        "sha256": "0ce8ded123259950c3a9a4f8c066c2bd9d2286c6337fd3da6adfa3de87715dc3",
+        "size": 1150,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/index.md",
+        "git_blob_sha1": "b482f2a0ec177f09ee1ac1087f2cea09c43ceba5",
+        "sha256": "420e024b29d6e0c578fa7e63b132d3d07db4237c7a71d5a6dbd439215c3b2e3a",
+        "size": 3043,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/networking-deep.md",
+        "git_blob_sha1": "af3b04bacfa2a9366b6c376ab593ed2847ba1522",
+        "sha256": "678c3a34246006d3f49fe7e210c5994bdc08c6953c06407c3889619c13013faf",
+        "size": 1623,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/security-deep.md",
+        "git_blob_sha1": "31ee8fe01ea2d9dae59e59a831cc255e800207e3",
+        "sha256": "ae3933894f80669b0e0f50d5abad6cc8ef8bdae032cbe35e07198cdb21b83eae",
+        "size": 1270,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/spec-deep.md",
+        "git_blob_sha1": "25e61d1f2137d00dc28e4ca3c8bce9cffa16801e",
+        "sha256": "8f9b4b7d6d87ff2c935b965b90b1079e441aa6c9f76594593c34f7646d471e24",
+        "size": 1377,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/mcp-tools.md",
+        "git_blob_sha1": "9706f3b25c40575f59e2acf07aacb3f90bb6e30f",
+        "sha256": "2484829f5c8ec98688b2655b9a91eb15f750be8084c6cf6157bc46ec57a3ad94",
+        "size": 2329,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/az-cli.md",
+        "git_blob_sha1": "bff24cfc01dc6548a5e6a3e86edbf0474c6c0ad9",
+        "sha256": "c46fa551183cfcd513fb16a4afa4f4e4c652e4bb0ed3a775dd552cb213990415",
+        "size": 1948,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/bicep.md",
+        "git_blob_sha1": "c07e3e3b0980c7c5eced9aa16882747146c7a739",
+        "sha256": "ab54837a3cde78093ebb59875c0cb1f471c57ee786d8b7d417f808cf94b56439",
+        "size": 1760,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/index.md",
+        "git_blob_sha1": "75d8858fa8a671b98dc0beb4223cf427f5561dfb",
+        "sha256": "4988ad66bb68f65fba3065605fec7a420aaba17cd4febb0e11653cbcc89f542a",
+        "size": 3053,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/mcp-apply.md",
+        "git_blob_sha1": "539e4a2c45d3edc88be5b1b2bb729544f1ae0031",
+        "sha256": "59cb44002fd71b491bda7dae0d89e5839406233050dfbb26ad109e076ec4184b",
+        "size": 2649,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/terraform.md",
+        "git_blob_sha1": "75b7025fb6ef7cf81e923b48b4cf14f80563ca8b",
+        "sha256": "03949c52853729035ac818602b06e43c3e09f3a7dec12eaa50e83e305ae6d659",
+        "size": 1555,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/plan-card.md",
+        "git_blob_sha1": "e72b73aab3b862e33245105e8f9d494b8f0f396b",
+        "sha256": "d341805afbe74ed228985af843c4520371677599af5c69d4ddfec06049ef52e4",
+        "size": 4015,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/validation-gates.md",
+        "git_blob_sha1": "3efc3d574d5d5d01b3d091bc66a2139991ab9c2b",
+        "sha256": "d4a0fd3342cf05c740d20403ea70f13323c27cab83412ec61a6e2c38f5718c6b",
+        "size": 2225,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/vm-creator.md",
+        "git_blob_sha1": "04e42db2cb606dff4976ce3cde136c2d323bd6eb",
+        "sha256": "237e39ef0deedaed9584f6e7623ea56272b30eaedf89f60bd2904bd261b8f215",
+        "size": 7779,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-recommender/references/handoff-to-creator.md",
+        "git_blob_sha1": "70515e40de5860be5ebbffa1ab3c5fe9d266a250",
+        "sha256": "faf843cffa7ad5770998940e953930fc88b67447a7b6e50047e3e2ac5ce24688",
+        "size": 1684,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-recommender/references/web-fetch-policy.md",
+        "git_blob_sha1": "5840ed614609baa3b369b652bcdadb52bb61a4e9",
+        "sha256": "741bc6ee5c542502412e75770a3abb1df79ccc80a32c9bdf15a5e233bf6d53e7",
+        "size": 1661,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-recommender/vm-recommender.md",
+        "git_blob_sha1": "4b6b8607502c790e580ccbc26a0638b68cc01aac",
+        "sha256": "65609d5a1d6adaf6758964ffcec14d9619942fc38845bddffd5d8599de130aa5",
+        "size": 6586,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/references/cannot-connect-to-vm.md",
+        "git_blob_sha1": "4061b49772a3b7cedc05f34b0ce5aae16ecf7c2c",
+        "sha256": "f5635b04d13f45261281ec995f1304d3d87b8420e97ad2c57685d13b85b73e68",
+        "size": 5787,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/references/credential-auth-errors.md",
+        "git_blob_sha1": "0341517230044da904d947260ce52726af3dcbb7",
+        "sha256": "c2cc6b06c76c5de9279ea570d6b71054f6e94fd539105a39278cd36df836ada2",
+        "size": 5896,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/references/firewall-blocking.md",
+        "git_blob_sha1": "0b0b3ac2ab9d6030f9db1d92c9e1754bb270fced",
+        "sha256": "c594cb5a3d3514d98e06831d2eb5217845238efbec23d53d870636c4558df562",
+        "size": 4932,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/references/network-connectivity.md",
+        "git_blob_sha1": "3742498c48813b1e41a3df8ec29f2935bb68dddd",
+        "sha256": "3b5f2cbe59c9a1a33ebfd0a6df81e3cae65aac88d0c5e2010167ab48fec9b0d9",
+        "size": 4793,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/references/rdp-connectivity.md",
+        "git_blob_sha1": "1990c56cf5bb0fe0762d5928ab92ea3aa295409c",
+        "sha256": "147a9ae66381c75d3b5d9bd0987587d7ab6fca60a0459cf8caf633868266a353",
+        "size": 7105,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/references/rdp-service-config.md",
+        "git_blob_sha1": "60c2ebfb75469727d49801089e232b642831658c",
+        "sha256": "a26389a4cec88854278acc51fb74e6f29b7256a86f4f141316ad395f45f6bae8",
+        "size": 3300,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/references/ssh-connectivity.md",
+        "git_blob_sha1": "5aebe072d3e4af02d5ba5e2407299fc3db614f7c",
+        "sha256": "8383b10f91b97ab9a2406ee8003b18e1c2d09b8815fcd0ee1b9ff4ba8acb88b2",
+        "size": 5536,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/references/vm-agent-not-responding.md",
+        "git_blob_sha1": "5b2186f11c491cb2c1ff8614d54adababaa69f3a",
+        "sha256": "7cebdc9fb34121aaca859e347f5b49b20e05e960fd26c5d07778eaf1768b3e33",
+        "size": 3724,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-troubleshooter/vm-troubleshooter.md",
+        "git_blob_sha1": "bb6233c03a7be97a79e1d05c8e290230e5ecfbfe",
+        "sha256": "079458c4443f9e94326be2130308031d13ae970d273c524f56269eb663304532",
+        "size": 10055,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "9b55d2b546603b8a57ae74203cd6b7d623419b3a",
+    "computed_tree_sha": "f10a6a3e67fda990b01ca9a3ff0ffb4a44c6c584",
+    "api_tree_sha_as_returned": "f10a6a3e67fda990b01ca9a3ff0ffb4a44c6c584",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4e37bc3bbbbbfa22fc6bd8974c6db77671db94c3",
+        "sha256": "5704aa14a3a130133a27a058568ea8fc38e975f95c268a9d594c57fac8d86cb6",
+        "size": 2619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/retail-prices-api.md",
+        "git_blob_sha1": "791684b740ef18fe105e9359f036acfd834e849d",
+        "sha256": "b13dab56ece4e0388c6d0798093fb13f25d773bb43c71bfcb4ff77baa9a53514",
+        "size": 6439,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vm-families.md",
+        "git_blob_sha1": "8d9069066757cd65341b46c09ded9e2ef07a6d7c",
+        "sha256": "4bd692efdd3d5e79c0b930b49e8ac58a970e34c6e56d0b49137f9b0ffeaccfd0",
+        "size": 5942,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vm-quotas.md",
+        "git_blob_sha1": "37f2c75da0ae0fce83e7b46bebcaccd9d48dfe28",
+        "sha256": "fecd3425f5de561ce7e2658ae8450c49953b380745fa45f14b0a8c6e33875d1a",
+        "size": 4191,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vmss-guide.md",
+        "git_blob_sha1": "554208e470967a4fbe46473ad27353941b1e0b7c",
+        "sha256": "dc71cfc7809c72f95ef36a37d086ed8f55d59d977a23eaba41423ae473da7c1a",
+        "size": 6348,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/capacity-reservation/capacity-reservation.md",
+        "git_blob_sha1": "3a6e1e3387504ba285c4f15665050951e086e714",
+        "sha256": "22a5796f73e302c86e72c5c03fe361f29083943700b00b709778976e0a8d23bf",
+        "size": 7971,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/capacity-reservation/references/association-disassociation.md",
+        "git_blob_sha1": "59fabb8d288daa637e9088dd685111259c7fce6c",
+        "sha256": "a4a66d61870b13b91be7e008161f6a293509692aa3f8695ea1f19b9b6b73505d",
+        "size": 3908,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/capacity-reservation/references/capacity-reservation-overview.md",
+        "git_blob_sha1": "94f7a647940ba44ac00c059072f6aa2fae50ff37",
+        "sha256": "7d0b2db6aa1d2abfec64bc2c5353f10f000232c4dcda6ac9db11bfccae0c32e3",
+        "size": 6108,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/essential-machine-management.md",
+        "git_blob_sha1": "945cec4c74a323abb5a124a68fe68c27069778c4",
+        "sha256": "2a86c0d56a18d81079b2eac5c77cd1bae4a9a7502bd3ac2607721bfbfaf5ab38",
+        "size": 5101,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/references/emm-enable-flow-portal-guidance.md",
+        "git_blob_sha1": "dedf6b59cfa71ed8ecd1da27916af79fa1febd1f",
+        "sha256": "a078c60506f03ced96feee1b9ba27c7a70891c4647901e2f6f2983cb52f721c8",
+        "size": 3140,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/references/emm-enable-flow.md",
+        "git_blob_sha1": "ba9ff929bd18199632929a5a2ae45aa8256f1451",
+        "sha256": "c0dce7524821e8d7195974b465a3d6b5ae439535c5d4b543c76e7ff98d3db3c1",
+        "size": 9429,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/references/emm-overview.md",
+        "git_blob_sha1": "5a60e2d1b31ab6f97dfa47d2be9def298610b91d",
+        "sha256": "449ab4318200471bcd5bd2014452a708d4fb03c205ecded0f646055d4cc94477",
+        "size": 2442,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/essential-machine-management/references/emm-prerequisites.md",
+        "git_blob_sha1": "e458f15aab925b84f52519e0fac34c99de1f5f99",
+        "sha256": "e35227c1b7d0c7e388a591841fcf88900b4a68fe01645631dbc0172ea486bb15",
+        "size": 3544,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/bicep/README.md",
+        "git_blob_sha1": "169f7e9b0e5caaf6de428fa9b80ee81f9898ee42",
+        "sha256": "61a52989ee67dfe4ee30aeb88a06bd15460d3d61d9f1101f3d0d58c19d1e4852",
+        "size": 1681,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/bicep/main.bicep",
+        "git_blob_sha1": "2be62449bbf7fb66e719169ef34758f917c21ccd",
+        "sha256": "6fa0bd982a36436cc4a6929ce5a8bb2fff748248d2865000110de0a18ef51b5f",
+        "size": 3858,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/terraform/README.md",
+        "git_blob_sha1": "61d306f44fee3de87309af74048c7280bcf5709a",
+        "sha256": "286defa0df7529408c9989fc2e2648a33592b678d7bc2df8f1032c5beb6f37b6",
+        "size": 2562,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/terraform/main.tf",
+        "git_blob_sha1": "53fc859f53d7f8d2fc9e6673c661ace1ac429c93",
+        "sha256": "bcdd247848c22947506136532df32c3581bfa040a2b3efd0a7cf86a54a2babd3",
+        "size": 3324,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/terraform/outputs.tf",
+        "git_blob_sha1": "142307aada003bdfd510ed545073a6cb1ffc8387",
+        "sha256": "643a1d3dc2acb278044e00689413e39785b0f8128b0c4c58f47eede1b43a4e48",
+        "size": 135,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/examples/terraform/variables.tf",
+        "git_blob_sha1": "4603e6f62e770247147644834ef6579c41c3f01a",
+        "sha256": "50c292538bd6ac38c8211fde960cc752e8d77254acbe42057b088992e407b027",
+        "size": 1010,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/delivery-options/github-pr.md",
+        "git_blob_sha1": "41fa12b8c7a2c2fe06d41f7445421989bafe56a2",
+        "sha256": "4e60e5a4d2d1e1510117f0d6aed83c780c3c38e7fa14877f47a6fe5bdb38542b",
+        "size": 3289,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/delivery-options/index.md",
+        "git_blob_sha1": "d768373d0e3f7511cdd51e81345c5432ad2f5efa",
+        "sha256": "2af4e425c281138aee886bee0bc4a43337465c46fa95f96ffcca7a34e517f357",
+        "size": 2326,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/delivery-options/print.md",
+        "git_blob_sha1": "bdf34d19b077c88c81f7dcd0d590a0dd7d0a0506",
+        "sha256": "8bc3b97602c1de40a639b6e4d323788b4efaa93a086ee405fb888bccc5ea34c6",
+        "size": 474,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/delivery-options/save-local.md",
+        "git_blob_sha1": "2167fb13ceadd234ce9f6794ee3bf296357c0c47",
+        "sha256": "c9d4da97a12ad8930648d7b06a3de52038a2724b13b82632ad9cbae34c17a3dd",
+        "size": 2045,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/beginner.md",
+        "git_blob_sha1": "89fa0a2b01f3516709619e3ba0c2dfff419872da",
+        "sha256": "12ebbebf980cebd760e54a45c5595cb1bd2c14aed3f758a836f2e10ffc1da70c",
+        "size": 1214,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/cost-deep.md",
+        "git_blob_sha1": "71e7bed4d22a9b502714cbeaa513c097f53a36d3",
+        "sha256": "0ce8ded123259950c3a9a4f8c066c2bd9d2286c6337fd3da6adfa3de87715dc3",
+        "size": 1150,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/index.md",
+        "git_blob_sha1": "b482f2a0ec177f09ee1ac1087f2cea09c43ceba5",
+        "sha256": "420e024b29d6e0c578fa7e63b132d3d07db4237c7a71d5a6dbd439215c3b2e3a",
+        "size": 3043,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/networking-deep.md",
+        "git_blob_sha1": "af3b04bacfa2a9366b6c376ab593ed2847ba1522",
+        "sha256": "678c3a34246006d3f49fe7e210c5994bdc08c6953c06407c3889619c13013faf",
+        "size": 1623,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/security-deep.md",
+        "git_blob_sha1": "31ee8fe01ea2d9dae59e59a831cc255e800207e3",
+        "sha256": "ae3933894f80669b0e0f50d5abad6cc8ef8bdae032cbe35e07198cdb21b83eae",
+        "size": 1270,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/depth-probe/spec-deep.md",
+        "git_blob_sha1": "25e61d1f2137d00dc28e4ca3c8bce9cffa16801e",
+        "sha256": "8f9b4b7d6d87ff2c935b965b90b1079e441aa6c9f76594593c34f7646d471e24",
+        "size": 1377,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/mcp-tools.md",
+        "git_blob_sha1": "9706f3b25c40575f59e2acf07aacb3f90bb6e30f",
+        "sha256": "2484829f5c8ec98688b2655b9a91eb15f750be8084c6cf6157bc46ec57a3ad94",
+        "size": 2329,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/az-cli.md",
+        "git_blob_sha1": "bff24cfc01dc6548a5e6a3e86edbf0474c6c0ad9",
+        "sha256": "c46fa551183cfcd513fb16a4afa4f4e4c652e4bb0ed3a775dd552cb213990415",
+        "size": 1948,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/bicep.md",
+        "git_blob_sha1": "c07e3e3b0980c7c5eced9aa16882747146c7a739",
+        "sha256": "ab54837a3cde78093ebb59875c0cb1f471c57ee786d8b7d417f808cf94b56439",
+        "size": 1760,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/index.md",
+        "git_blob_sha1": "75d8858fa8a671b98dc0beb4223cf427f5561dfb",
+        "sha256": "4988ad66bb68f65fba3065605fec7a420aaba17cd4febb0e11653cbcc89f542a",
+        "size": 3053,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/mcp-apply.md",
+        "git_blob_sha1": "539e4a2c45d3edc88be5b1b2bb729544f1ae0031",
+        "sha256": "59cb44002fd71b491bda7dae0d89e5839406233050dfbb26ad109e076ec4184b",
+        "size": 2649,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/output-adapters/terraform.md",
+        "git_blob_sha1": "75b7025fb6ef7cf81e923b48b4cf14f80563ca8b",
+        "sha256": "03949c52853729035ac818602b06e43c3e09f3a7dec12eaa50e83e305ae6d659",
+        "size": 1555,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/plan-card.md",
+        "git_blob_sha1": "e72b73aab3b862e33245105e8f9d494b8f0f396b",
+        "sha256": "d341805afbe74ed228985af843c4520371677599af5c69d4ddfec06049ef52e4",
+        "size": 4015,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/references/validation-gates.md",
+        "git_blob_sha1": "3efc3d574d5d5d01b3d091bc66a2139991ab9c2b",
+        "sha256": "d4a0fd3342cf05c740d20403ea70f13323c27cab83412ec61a6e2c38f5718c6b",
+        "size": 2225,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-creator/vm-creator.md",
+        "git_blob_sha1": "c299b0993c4a3e9e742de33aaf6079216e0d9687",
+        "sha256": "b6fad93d59ed7ea150b0fffdee2b224785b9b0928a9e0777e912e74128254e2b",
+        "size": 7681,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-recommender/references/handoff-to-creator.md",
+        "git_blob_sha1": "70515e40de5860be5ebbffa1ab3c5fe9d266a250",
+        "sha256": "faf843cffa7ad5770998940e953930fc88b67447a7b6e50047e3e2ac5ce24688",
+        "size": 1684,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-recommender/references/web-fetch-policy.md",
+        "git_blob_sha1": "5840ed614609baa3b369b652bcdadb52bb61a4e9",
+        "sha256": "741bc6ee5c542502412e75770a3abb1df79ccc80a32c9bdf15a5e233bf6d53e7",
+        "size": 1661,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/vm-recommender/vm-recommender.md",
+        "git_blob_sha1": "4b6b8607502c790e580ccbc26a0638b68cc01aac",
+        "sha256": "65609d5a1d6adaf6758964ffcec14d9619942fc38845bddffd5d8599de130aa5",
+        "size": 6586,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "workflows/vm-creator/vm-creator.md",
+    "workflows/vm-troubleshooter/references/cannot-connect-to-vm.md",
+    "workflows/vm-troubleshooter/references/credential-auth-errors.md",
+    "workflows/vm-troubleshooter/references/firewall-blocking.md",
+    "workflows/vm-troubleshooter/references/network-connectivity.md",
+    "workflows/vm-troubleshooter/references/rdp-connectivity.md",
+    "workflows/vm-troubleshooter/references/rdp-service-config.md",
+    "workflows/vm-troubleshooter/references/ssh-connectivity.md",
+    "workflows/vm-troubleshooter/references/vm-agent-not-responding.md",
+    "workflows/vm-troubleshooter/vm-troubleshooter.md"
+  ],
+  "old_commit": "64eb93e18e2f2810c2fbfa5783c59ad288eeea80",
+  "new_commit": "9b55d2b546603b8a57ae74203cd6b7d623419b3a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-07-21T20:00:32Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/64eb93e18e2f2810c2fbfa5783c59ad288eeea80...9b55d2b546603b8a57ae74203cd6b7d623419b3a",
+  "commit_url": "https://github.com/microsoft/skills/commit/9b55d2b546603b8a57ae74203cd6b7d623419b3a",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-compute",
+  "local_directory": "verified_real_update_pairs/OPU-0466",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0466",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

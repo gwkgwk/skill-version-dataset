@@ -1,0 +1,195 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-deploy/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "d52c472ffd8d4da1da45",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+    "computed_tree_sha": "cfb5bb9f0f7dbb88c72616187fde8715ef737738",
+    "api_tree_sha_as_returned": "cfb5bb9f0f7dbb88c72616187fde8715ef737738",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "10d0b45d45c248781ce37780096c68e7fb7171c3",
+        "sha256": "22d7334c1cf129825fd3c8dff7d56ba4e84fd4707856b465d4c5256dcb945519",
+        "size": 20753,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "4a1217f78365605c1c8a0404659cbdc53267980c",
+        "sha256": "8e9dd98ec776741c3e5ddcb7958022e3257f8fe9e6cf00403068c6a339a37f38",
+        "size": 1937,
+        "mode": "100644"
+      },
+      {
+        "path": "references/copy_deploy_guide.md",
+        "git_blob_sha1": "7590713ca5f695da554686364631e53bc31ecf1e",
+        "sha256": "090ca109ec5d71a1f614d17171e1de045bcca268df19df21c7e166b991132362",
+        "size": 11246,
+        "mode": "100644"
+      },
+      {
+        "path": "references/region_availability.md",
+        "git_blob_sha1": "15c07d96ef7975e7eaa363eba968c0551c225598",
+        "sha256": "7c02cf76ba0ae3d6c3f0bcf280f7ba9f13f90a418fe3d616372e7eef27fbf514",
+        "size": 3625,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "9775f361d111e20c7d8a67c0c12e2f0b10eba81c",
+        "sha256": "0f2d0ae6adb372e35581725e9c887525ce89de149b2529d3af4ba0a6317654b0",
+        "size": 1013,
+        "mode": "100644"
+      },
+      {
+        "path": "references/undeploy_guide.md",
+        "git_blob_sha1": "628c3eebcf1f0656ebff45971c5136536387d2f8",
+        "sha256": "b185921c8fcaf644bee3d042f648b67f6220d628ffb1db249d42e15ce9826058",
+        "size": 2179,
+        "mode": "100644"
+      },
+      {
+        "path": "references/usage.md",
+        "git_blob_sha1": "2588684f9b091e436d5f4452b33f0e7c642e03b6",
+        "sha256": "8de3c1aa96abc770eadffdc0b109f890ef9371007d22deb62871a6f34548909d",
+        "size": 367,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/calculate_cost.py",
+        "git_blob_sha1": "b2a24ef7ed1e1f41edfa0f3fcc2bebc56d0b45da",
+        "sha256": "07bafe86c142d38ddb7135f4532598f54701750e0db62727d243d5d8f761c33c",
+        "size": 6664,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/config_gcloud_cli.sh",
+        "git_blob_sha1": "fa0c24a49122bf0c1ab7f964dc0d27b96531b4f2",
+        "sha256": "7ca68509c151498f0daa0d830804551e307b442abc2a35a461adcb822c38faef",
+        "size": 1296,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+    "computed_tree_sha": "bafe81ced9438266a92d17eb14a4949566d71c6a",
+    "api_tree_sha_as_returned": "bafe81ced9438266a92d17eb14a4949566d71c6a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ad53c54a9c6bea39434404338b84395db0e81cbe",
+        "sha256": "a4ba8beb9b3f962b9f4fd75f855039f8cbec7459922d1e54486445c75f54040b",
+        "size": 21104,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "4a1217f78365605c1c8a0404659cbdc53267980c",
+        "sha256": "8e9dd98ec776741c3e5ddcb7958022e3257f8fe9e6cf00403068c6a339a37f38",
+        "size": 1937,
+        "mode": "100644"
+      },
+      {
+        "path": "references/copy_deploy_guide.md",
+        "git_blob_sha1": "c65905cb003e9c2f255a3cbc1990117001c495aa",
+        "sha256": "fcf59d5050f1bc3a7331741112ab7e21a1682bfeada85a714f6fe12e32fbe8a3",
+        "size": 10915,
+        "mode": "100644"
+      },
+      {
+        "path": "references/region_availability.md",
+        "git_blob_sha1": "abe05c787a9c66afce8c3558648ad75562b201eb",
+        "sha256": "b1e15195023e04a32097a3eaaca30a0fb4c3deb46d3da5338bc5faeb90640fab",
+        "size": 4258,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting.md",
+        "git_blob_sha1": "9775f361d111e20c7d8a67c0c12e2f0b10eba81c",
+        "sha256": "0f2d0ae6adb372e35581725e9c887525ce89de149b2529d3af4ba0a6317654b0",
+        "size": 1013,
+        "mode": "100644"
+      },
+      {
+        "path": "references/undeploy_guide.md",
+        "git_blob_sha1": "628c3eebcf1f0656ebff45971c5136536387d2f8",
+        "sha256": "b185921c8fcaf644bee3d042f648b67f6220d628ffb1db249d42e15ce9826058",
+        "size": 2179,
+        "mode": "100644"
+      },
+      {
+        "path": "references/usage.md",
+        "git_blob_sha1": "a277814778e1ece4e0cd40d9aaa8ecdd6b33b8dd",
+        "sha256": "c2015b019790c78b54fab3d96dbc7c2fe1d1a4a244e7af63770714e5bdb79544",
+        "size": 371,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/calculate_cost.py",
+        "git_blob_sha1": "9e0a7a97ba2b3aff325fc367bc3d3c0003a680be",
+        "sha256": "0d5456f2d01c5df37f3d2dddf52e0afd7efba053e25a5a75c2b415a4eda2ca6e",
+        "size": 6367,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/config_gcloud_cli.sh",
+        "git_blob_sha1": "fa0c24a49122bf0c1ab7f964dc0d27b96531b4f2",
+        "sha256": "7ca68509c151498f0daa0d830804551e307b442abc2a35a461adcb822c38faef",
+        "size": 1296,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/copy_deploy_guide.md",
+    "references/region_availability.md",
+    "references/usage.md",
+    "scripts/calculate_cost.py"
+  ],
+  "old_commit": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+  "new_commit": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update the Agent Platform skills.\n\n- Update Agent Platform deploy, prompt management, and endpoint management skills for current models, SDKs, and gcloud flags.\n- Update RAG Engine management skill examples from Gemini 2.5 models to `gemini-3.8-flash`.\n- Add standardized usage attribution to Agent Platform skills.  - Add `references/attribution.md` to all 9 Model Garden Agent Platform skills. - Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Default validation_split to None in convert_to_jsonl so programmatic prompt_only=True calls do not fail, and include adapter size 2 in tune_open_model.py CLI choices.\n- Add Qwen3.8-27B to the open-model tuning catalog and cost calculator.\n- Add distillation tuning to the agent-platform-tuning skill: supported teacher and student models, prompt-only training datasets (prepare_dataset.py --prompt_only), and --method/--teacher_model flags in tune_open_model.py.\n- Improve skill instructions for model-registry and agent-cli skills.\n- Improve skill instructions for tuning, tuning-management, and eval-flywheel skills.\n- Improve interactive confirmation and post-deletion verification guidance in prompt management skill.\n- Improve deployment region confirmation and hardware validation guidance in agent-platform-deploy skill.\n\nPiperOrigin-RevId: 1023012351",
+  "new_commit_time": "2026-11-16T20:11:22Z",
+  "compare_url": "https://github.com/google/skills/compare/fd711c21669433d293aa0fe65bbed9d2d888df5d...56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "commit_url": "https://github.com/google/skills/commit/56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "skill_directory": "skills/cloud/agent-platform-deploy",
+  "local_directory": "verified_real_update_pairs/OPU-0208",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0208",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

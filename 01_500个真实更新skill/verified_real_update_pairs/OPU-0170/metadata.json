@@ -1,0 +1,160 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/prompt-optimizer/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "18f5ec516fc7b60cf99a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "0493d77a5510c508a54e815d42570483fa26c48e",
+    "computed_tree_sha": "8e91fbb4c882dcbd304c62b6a32712de4d24518e",
+    "api_tree_sha_as_returned": "8e91fbb4c882dcbd304c62b6a32712de4d24518e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2298cac632077b0e25c8f32724bc9823ef76c4b4",
+        "sha256": "584cf5ca55cd4fcdacb87b747da02c328dc224576b88ea8ed849e61e1c040508",
+        "size": 7704,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "6a4639106b6435d8f9f1f6bcb15e335ef5f5184d",
+        "sha256": "b1f7b4d86f83453514ed411ae14b4d79f83a42e3d8b6f06d262dd74565f8339f",
+        "size": 10228,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-patterns.md",
+        "git_blob_sha1": "4e1606e232b4ff147a0fa1dfe59d01917262a0f0",
+        "sha256": "dcaa24842fe958678542d14d5b6ce30bdb2e956f034f897fadcd8e587a5e2678",
+        "size": 8126,
+        "mode": "100644"
+      },
+      {
+        "path": "references/meta-optimization-loop.md",
+        "git_blob_sha1": "6aa685c61207d333b39eab6528c783ddbe01a9a7",
+        "sha256": "9489e6ee08a184319a3ac3e88de54ea9f91bc2da74e4ee2dd8ada662291a9e71",
+        "size": 3710,
+        "mode": "100644"
+      },
+      {
+        "path": "references/model-family-notes.md",
+        "git_blob_sha1": "2e3c260601b53eb3e61e55e94c3245c6bab7bbe4",
+        "sha256": "57a5292ec6e68c846136599c8a424e95330aecc3d2443831fa0a4283fa0f2f04",
+        "size": 3397,
+        "mode": "100644"
+      },
+      {
+        "path": "references/transformed-examples.md",
+        "git_blob_sha1": "807efb9b82b5032977cc5fca46a44eac5b644f29",
+        "sha256": "24f425cf818c4b4f25ea86e2100215ade6140c58d5a965b1a89a93d3be6ddf53",
+        "size": 4456,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+    "computed_tree_sha": "430421144182396f95e375a53044327d88df92e8",
+    "api_tree_sha_as_returned": "430421144182396f95e375a53044327d88df92e8",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b8132d287dbb6b3eac120514e9b5728dd431f7fc",
+        "sha256": "b5ba1525d7964004d8664fea9d5028972cca599f346ff4662152479b94e25cb3",
+        "size": 4613,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "afd5e6fdab10b27a67d146a52e24c324c90817ea",
+        "sha256": "2effb8172cb365ca7c6e0312c9ecb2aa6761ba00b3269637ada10daa284566a4",
+        "size": 11614,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "f2562e7a57a34261007f429dd49cce7bbe5a0e02",
+        "sha256": "b56cdc168549dc916a29dc2c360fff95ecc0db8618eb43839c1eef9a11f1d499",
+        "size": 5219,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-patterns.md",
+        "git_blob_sha1": "8c24cf346d1d479bf6bf78d2bea4dc8bd09762a6",
+        "sha256": "508199c575439e3d021848df67cb8a8be7675f0e1f2e8c77438e0e4734ca415c",
+        "size": 5514,
+        "mode": "100644"
+      },
+      {
+        "path": "references/meta-optimization-loop.md",
+        "git_blob_sha1": "6aa685c61207d333b39eab6528c783ddbe01a9a7",
+        "sha256": "9489e6ee08a184319a3ac3e88de54ea9f91bc2da74e4ee2dd8ada662291a9e71",
+        "size": 3710,
+        "mode": "100644"
+      },
+      {
+        "path": "references/model-family-notes.md",
+        "git_blob_sha1": "2e3c260601b53eb3e61e55e94c3245c6bab7bbe4",
+        "sha256": "57a5292ec6e68c846136599c8a424e95330aecc3d2443831fa0a4283fa0f2f04",
+        "size": 3397,
+        "mode": "100644"
+      },
+      {
+        "path": "references/transformed-examples.md",
+        "git_blob_sha1": "c198b56dd34dff81dc4f098f1d223e3265bd182a",
+        "sha256": "3cfb92aadc7b30ca4ad4e9bb02204a92c2366b0483b8023115ad2a1e614d235e",
+        "size": 3603,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "SOURCES.md",
+    "SPEC.md",
+    "references/core-patterns.md",
+    "references/transformed-examples.md"
+  ],
+  "old_commit": "0493d77a5510c508a54e815d42570483fa26c48e",
+  "new_commit": "c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "docs(skills): Improve agent guidance skills (#140)\n\nTighten the agents-md and prompt-optimizer skills around concise,\nreference-backed guidance. AGENTS.md generation now enumerates exact\nexternal files for specs, docs, and policies, while prompt optimization\ncaptures external context before rewriting prompts.\n\n**Skill maintenance metadata**\n\nAdds SPEC.md and SOURCES.md for agents-md, plus SPEC.md for\nprompt-optimizer, so material behavior changes have maintenance\ncontracts and provenance.\n\n**Prompt guidance**\n\nAdds exact external context inventory rules to prompt-optimizer and\ncompacts the core/reference examples to keep runtime prose smaller.\n\nCo-authored-by: Codex <noreply@openai.com>",
+  "new_commit_time": "2026-05-04T17:40:37Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/0493d77a5510c508a54e815d42570483fa26c48e...c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "commit_url": "https://github.com/getsentry/skills/commit/c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "skill_directory": "skills/prompt-optimizer",
+  "local_directory": "verified_real_update_pairs/OPU-0170",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0170",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "repository": "supabase/agent-skills",
+  "primary": "skills/supabase-postgres-best-practices/SKILL.md",
+  "pinned_commit": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+  "repository_license": "MIT",
+  "key": "45a2e4bb89b9fae95431",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "1ad9aaeb49caafd9e95c0a91116f71890eebbc53",
+    "computed_tree_sha": "d11b54a2ab36d33940504ca9ec3a57bfd6126f26",
+    "api_tree_sha_as_returned": "d11b54a2ab36d33940504ca9ec3a57bfd6126f26",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "git_blob_sha1": "aea32004b1bdfb2ccf0b04c09efde63532cf62f7",
+        "sha256": "0904810f541cd1d09cea6b5fe23a267a48797e8a684bccbb1933ad50daf04baa",
+        "size": 3048,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d9ef1949f807d0b41ca85d9a0837ad78bf1c58de",
+        "sha256": "ccd6e4596bd51cf344fe76c464867c541ccc16b6d90ae7a9db449fb17588613b",
+        "size": 2576,
+        "mode": "100644"
+      },
+      {
+        "path": "references/_contributing.md",
+        "git_blob_sha1": "1c055aff9ad2bf12cfe7edc0002f2f77fe6980d2",
+        "sha256": "191e039e7d94764e6073410b513b559f9a594e0fdf0252a30c2a2986df2ab3bc",
+        "size": 4113,
+        "mode": "100644"
+      },
+      {
+        "path": "references/_sections.md",
+        "git_blob_sha1": "8ba57c23e8119e411fcc8a230cda08e695792cac",
+        "sha256": "c9e992612b422c7122de0b7542ebc2450db283edaab08cfe86c6d657fcccccd5",
+        "size": 1682,
+        "mode": "100644"
+      },
+      {
+        "path": "references/_template.md",
+        "git_blob_sha1": "91ace90e10a4d8ef354a82bb1994842e6979ebed",
+        "sha256": "6299954250f212caabe339d752c3e5313a8e07d1a182a4e4b425baee91df1bd2",
+        "size": 1040,
+        "mode": "100644"
+      },
+      {
+        "path": "references/advanced-full-text-search.md",
+        "git_blob_sha1": "582cbeaada9378a280ad61f57e06c10d258e3c43",
+        "sha256": "40c2606bbb4c4dce31308f201b24cc7f58c7df05b1d9c6856fe2b888d3b7cf28",
+        "size": 1468,
+        "mode": "100644"
+      },
+      {
+        "path": "references/advanced-jsonb-indexing.md",
+        "git_blob_sha1": "e3d261ea117fd7b1ad9c4f0d45308407b898ed5a",
+        "sha256": "24cacf6a8bc35901dd566d24502ce8e57f810a5c196b897e61d52726e521d106",
+        "size": 1444,
+        "mode": "100644"
+      },
+      {
+        "path": "references/conn-idle-timeout.md",
+        "git_blob_sha1": "40b9cc50dd12cf347ed189fac965673b533f3f99",
+        "sha256": "630588902c00fcec59a5988cc5d042f76dcf2c923a535abfd8c47dca205eaed5",
+        "size": 1282,
+        "mode": "100644"
+      },
+      {
+        "path": "references/conn-limits.md",
+        "git_blob_sha1": "cb3e400c0234e7e9196c1650423faad66375b70b",
+        "sha256": "11b2a67a7c7679cbbc5d807bbb17e69c98484a581d0c8b929c03408f412b81b2",
+        "size": 1325,
+        "mode": "100644"
+      },
+      {
+        "path": "references/conn-pooling.md",
+        "git_blob_sha1": "e2ebd581d3c85bff0a077e8d9a2cb562d2513d03",
+        "sha256": "88cf086bf98ba865d2e9d0579974e1366b14157619d6a93e7da77be91084e4a5",
+        "size": 1382,
+        "mode": "100644"
+      },
+      {
+        "path": "references/conn-prepared-statements.md",
+        "git_blob_sha1": "555547d834e35b5059152dfb2288eca5e9838ea0",
+        "sha256": "174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+        "size": 1529,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-batch-inserts.md",
+        "git_blob_sha1": "997947cb17bfed67f29eaa8da2a58de2306cc2c1",
+        "sha256": "531933b82d6a622d0fae29e0ea80be6fe5d78655adf2804c271ea84a1930de37",
+        "size": 1287,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-n-plus-one.md",
+        "git_blob_sha1": "2109186ff88b3ba1cc32789f81e2a00d345c6e3f",
+        "sha256": "21a44905e5b16a42741892ec34bb1bfef124d049b140a76934a9acd0f46f5fc2",
+        "size": 1361,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-pagination.md",
+        "git_blob_sha1": "633d839323612e212a833dd96828cb31fdfb39f8",
+        "sha256": "73c9fa10a3d439bedea0e11b640bd25bf30dd50f0d9006cf85baf7c3151543fa",
+        "size": 1358,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-upsert.md",
+        "git_blob_sha1": "bc95e2305d955679446c70854cb2b56b183aa56d",
+        "sha256": "2612af83b20a2701dde30ef1f8d7efd26b7e9eef84717226b8f038a2d2150ff7",
+        "size": 1390,
+        "mode": "100644"
+      },
+      {
+        "path": "references/lock-advisory.md",
+        "git_blob_sha1": "572eaf0dcf518ac925c4cde41beb60b62852b79c",
+        "sha256": "c88d259dbf81c3771438f59a165f7eab8acd09999dd370bdf807521c73f35aab",
+        "size": 1531,
+        "mode": "100644"
+      },
+      {
+        "path": "references/lock-deadlock-prevention.md",
+        "git_blob_sha1": "974da5edec32f79de0fcdc771d4ef759dc3e049d",
+        "sha256": "09aee46f51d7178c8e55fe056cd5a94a64ba2c122fe418e6900cd99f297b2347",
+        "size": 1855,
+        "mode": "100644"
+      },
+      {
+        "path": "references/lock-short-transactions.md",
+        "git_blob_sha1": "e6b8ef2633248a4aa4394628e48d8cb693e7e6ab",
+        "sha256": "5aa7f61095916986d39644b446cdbcd2bacca7ef698a3bb50b3f82dd60207602",
+        "size": 1350,
+        "mode": "100644"
+      },
+      {
+        "path": "references/lock-skip-locked.md",
+        "git_blob_sha1": "77bdbb97045010ce2fdbd90733e8f764be82881a",
+        "sha256": "6c45077f430f29cd9cd8f448c94d578e827e7bd023fcdaf717a756acb116fa4b",
+        "size": 1353,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitor-explain-analyze.md",
+        "git_blob_sha1": "542978c3bafc510fa8d7a8864cff994ad40be4d7",
+        "sha256": "4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+        "size": 1441,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitor-pg-stat-statements.md",
+        "git_blob_sha1": "d7e82f1aacd105d53789eb6188d11e8ea39e7310",
+        "sha256": "89dca99d4e894fcbdcac136be7ad9fbc03d1342904f065c1b198dc9cf495f098",
+        "size": 1418,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitor-vacuum-analyze.md",
+        "git_blob_sha1": "e0e8ea0b7db8c1513a0d1605be477192bc21d91d",
+        "sha256": "2892272011710eb49b3f185ec12f15ce9ce4c365792c672f6e2a9c90da426a1a",
+        "size": 1506,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-composite-indexes.md",
+        "git_blob_sha1": "fea64523fd5bb3696f943d486ccaf2aea75d27b8",
+        "sha256": "73e42424e671f0266e74fdb220db3196790f69fb43e2b19c7b9483eb4971b554",
+        "size": 1454,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-covering-indexes.md",
+        "git_blob_sha1": "9d2a4947b94516dd975e1044d132bb007280f478",
+        "sha256": "daf2a7f0477fb7357b62b5fb5b185b1995a77a186347e45cb780e25e7a7589b6",
+        "size": 1287,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-index-types.md",
+        "git_blob_sha1": "93b32590f4bfe377869274f45414ae6e43d168fa",
+        "sha256": "472a74f22c2df203bd0154999b3a5a0187cca2ab3d9a3978e305bb7c32f1a282",
+        "size": 1521,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-missing-indexes.md",
+        "git_blob_sha1": "e6daace7dd368c75cdf87dc61be4afd6ff66cbbe",
+        "sha256": "91ad8b0ff4365704b4830a7f077c6f140f7140fd5d3ce5cd0b92b160cf9e25f1",
+        "size": 1218,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-partial-indexes.md",
+        "git_blob_sha1": "3e61a3417b9cce3c8cee99b39b78b7ebf495dd1f",
+        "sha256": "6448982bc8558c6555284958edc331b29239c6a0130e6b4501dd6d4da607a6dd",
+        "size": 1347,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-constraints.md",
+        "git_blob_sha1": "1d2ef8f9a968cd6fa882c7299134c30ace06373c",
+        "sha256": "90e8efda3e9e81095e642911ad4aae2809d160f29414338fa997253238f510f8",
+        "size": 1880,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-data-types.md",
+        "git_blob_sha1": "f253a5819d05531371e04485ab84f552fbb32fbe",
+        "sha256": "e01b58c14c7f3f65d8ead580b9a4fcf70b83baaab0f9a5f83c569c9fd113e8c8",
+        "size": 1453,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-foreign-key-indexes.md",
+        "git_blob_sha1": "6c3d6ff622b8a9df358f6673f323292e682ce87c",
+        "sha256": "7587713d12a65a212365459b3d39e4717d8a79e4073b10bd62f1054d8192c0dd",
+        "size": 1679,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-lowercase-identifiers.md",
+        "git_blob_sha1": "f0072940b159ff64e0c2d4fbb499133cb8f49a66",
+        "sha256": "4bc80f70865f2390872591f326c8a6be6456a0aeb5a7e5a2475d7cd9d43059ab",
+        "size": 1728,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-partitioning.md",
+        "git_blob_sha1": "13137a03275fa45001c870a40b0069204d44e005",
+        "sha256": "541e13fbeaf4bb1485c9059d4c9417dbdb766cf16f4237cd63a04ada7ec45b90",
+        "size": 1548,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-primary-keys.md",
+        "git_blob_sha1": "fb0fbb166fac9ea38c127d807a263282acc2dc93",
+        "sha256": "3c8beabef82066f9a0838b926da0885117fd2d9a263aaf84cb5ca9e5f0d400e9",
+        "size": 1821,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security-privileges.md",
+        "git_blob_sha1": "448ec345fab6c5a0116c584d65638b86d758c558",
+        "sha256": "095909274a4fb43df785d7144cf674eeb40284d2d45628f14af4108737b93663",
+        "size": 1566,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security-rls-basics.md",
+        "git_blob_sha1": "c61e1a8503de113be0981759b82f5e37090f344c",
+        "sha256": "e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+        "size": 1372,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security-rls-performance.md",
+        "git_blob_sha1": "c3c7c416d57d9a46a9993f4e0c20f772fb64483d",
+        "sha256": "2e1faeca7d5746e246b1c78f9492fe2a9cfa41c4d7fa1e23c402d58fa18ea014",
+        "size": 2103,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "32912161e2732c3e5001c6811a76c1f8308ed0da",
+    "computed_tree_sha": "8ea511e78b68cf4a843cde40f98f0416d4f9e97e",
+    "api_tree_sha_as_returned": "8ea511e78b68cf4a843cde40f98f0416d4f9e97e",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "git_blob_sha1": "aea32004b1bdfb2ccf0b04c09efde63532cf62f7",
+        "sha256": "0904810f541cd1d09cea6b5fe23a267a48797e8a684bccbb1933ad50daf04baa",
+        "size": 3048,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6400792389dfcc82c81953054e546bd72ebcd259",
+        "sha256": "ad65e776f45e761bafc609d3f506c77c1032225aa65e0c4c02f241b8071e5855",
+        "size": 3231,
+        "mode": "100644"
+      },
+      {
+        "path": "references/_contributing.md",
+        "git_blob_sha1": "1c055aff9ad2bf12cfe7edc0002f2f77fe6980d2",
+        "sha256": "191e039e7d94764e6073410b513b559f9a594e0fdf0252a30c2a2986df2ab3bc",
+        "size": 4113,
+        "mode": "100644"
+      },
+      {
+        "path": "references/_sections.md",
+        "git_blob_sha1": "8ba57c23e8119e411fcc8a230cda08e695792cac",
+        "sha256": "c9e992612b422c7122de0b7542ebc2450db283edaab08cfe86c6d657fcccccd5",
+        "size": 1682,
+        "mode": "100644"
+      },
+      {
+        "path": "references/_template.md",
+        "git_blob_sha1": "91ace90e10a4d8ef354a82bb1994842e6979ebed",
+        "sha256": "6299954250f212caabe339d752c3e5313a8e07d1a182a4e4b425baee91df1bd2",
+        "size": 1040,
+        "mode": "100644"
+      },
+      {
+        "path": "references/advanced-full-text-search.md",
+        "git_blob_sha1": "582cbeaada9378a280ad61f57e06c10d258e3c43",
+        "sha256": "40c2606bbb4c4dce31308f201b24cc7f58c7df05b1d9c6856fe2b888d3b7cf28",
+        "size": 1468,
+        "mode": "100644"
+      },
+      {
+        "path": "references/advanced-jsonb-indexing.md",
+        "git_blob_sha1": "e3d261ea117fd7b1ad9c4f0d45308407b898ed5a",
+        "sha256": "24cacf6a8bc35901dd566d24502ce8e57f810a5c196b897e61d52726e521d106",
+        "size": 1444,
+        "mode": "100644"
+      },
+      {
+        "path": "references/conn-idle-timeout.md",
+        "git_blob_sha1": "40b9cc50dd12cf347ed189fac965673b533f3f99",
+        "sha256": "630588902c00fcec59a5988cc5d042f76dcf2c923a535abfd8c47dca205eaed5",
+        "size": 1282,
+        "mode": "100644"
+      },
+      {
+        "path": "references/conn-limits.md",
+        "git_blob_sha1": "cb3e400c0234e7e9196c1650423faad66375b70b",
+        "sha256": "11b2a67a7c7679cbbc5d807bbb17e69c98484a581d0c8b929c03408f412b81b2",
+        "size": 1325,
+        "mode": "100644"
+      },
+      {
+        "path": "references/conn-pooling.md",
+        "git_blob_sha1": "e2ebd581d3c85bff0a077e8d9a2cb562d2513d03",
+        "sha256": "88cf086bf98ba865d2e9d0579974e1366b14157619d6a93e7da77be91084e4a5",
+        "size": 1382,
+        "mode": "100644"
+      },
+      {
+        "path": "references/conn-prepared-statements.md",
+        "git_blob_sha1": "555547d834e35b5059152dfb2288eca5e9838ea0",
+        "sha256": "174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+        "size": 1529,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-batch-inserts.md",
+        "git_blob_sha1": "997947cb17bfed67f29eaa8da2a58de2306cc2c1",
+        "sha256": "531933b82d6a622d0fae29e0ea80be6fe5d78655adf2804c271ea84a1930de37",
+        "size": 1287,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-n-plus-one.md",
+        "git_blob_sha1": "2109186ff88b3ba1cc32789f81e2a00d345c6e3f",
+        "sha256": "21a44905e5b16a42741892ec34bb1bfef124d049b140a76934a9acd0f46f5fc2",
+        "size": 1361,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-pagination.md",
+        "git_blob_sha1": "633d839323612e212a833dd96828cb31fdfb39f8",
+        "sha256": "73c9fa10a3d439bedea0e11b640bd25bf30dd50f0d9006cf85baf7c3151543fa",
+        "size": 1358,
+        "mode": "100644"
+      },
+      {
+        "path": "references/data-upsert.md",
+        "git_blob_sha1": "bc95e2305d955679446c70854cb2b56b183aa56d",
+        "sha256": "2612af83b20a2701dde30ef1f8d7efd26b7e9eef84717226b8f038a2d2150ff7",
+        "size": 1390,
+        "mode": "100644"
+      },
+      {
+        "path": "references/lock-advisory.md",
+        "git_blob_sha1": "572eaf0dcf518ac925c4cde41beb60b62852b79c",
+        "sha256": "c88d259dbf81c3771438f59a165f7eab8acd09999dd370bdf807521c73f35aab",
+        "size": 1531,
+        "mode": "100644"
+      },
+      {
+        "path": "references/lock-deadlock-prevention.md",
+        "git_blob_sha1": "974da5edec32f79de0fcdc771d4ef759dc3e049d",
+        "sha256": "09aee46f51d7178c8e55fe056cd5a94a64ba2c122fe418e6900cd99f297b2347",
+        "size": 1855,
+        "mode": "100644"
+      },
+      {
+        "path": "references/lock-short-transactions.md",
+        "git_blob_sha1": "e6b8ef2633248a4aa4394628e48d8cb693e7e6ab",
+        "sha256": "5aa7f61095916986d39644b446cdbcd2bacca7ef698a3bb50b3f82dd60207602",
+        "size": 1350,
+        "mode": "100644"
+      },
+      {
+        "path": "references/lock-skip-locked.md",
+        "git_blob_sha1": "77bdbb97045010ce2fdbd90733e8f764be82881a",
+        "sha256": "6c45077f430f29cd9cd8f448c94d578e827e7bd023fcdaf717a756acb116fa4b",
+        "size": 1353,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitor-explain-analyze.md",
+        "git_blob_sha1": "542978c3bafc510fa8d7a8864cff994ad40be4d7",
+        "sha256": "4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+        "size": 1441,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitor-pg-stat-statements.md",
+        "git_blob_sha1": "d7e82f1aacd105d53789eb6188d11e8ea39e7310",
+        "sha256": "89dca99d4e894fcbdcac136be7ad9fbc03d1342904f065c1b198dc9cf495f098",
+        "size": 1418,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitor-vacuum-analyze.md",
+        "git_blob_sha1": "e0e8ea0b7db8c1513a0d1605be477192bc21d91d",
+        "sha256": "2892272011710eb49b3f185ec12f15ce9ce4c365792c672f6e2a9c90da426a1a",
+        "size": 1506,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-composite-indexes.md",
+        "git_blob_sha1": "fea64523fd5bb3696f943d486ccaf2aea75d27b8",
+        "sha256": "73e42424e671f0266e74fdb220db3196790f69fb43e2b19c7b9483eb4971b554",
+        "size": 1454,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-covering-indexes.md",
+        "git_blob_sha1": "9d2a4947b94516dd975e1044d132bb007280f478",
+        "sha256": "daf2a7f0477fb7357b62b5fb5b185b1995a77a186347e45cb780e25e7a7589b6",
+        "size": 1287,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-index-types.md",
+        "git_blob_sha1": "93b32590f4bfe377869274f45414ae6e43d168fa",
+        "sha256": "472a74f22c2df203bd0154999b3a5a0187cca2ab3d9a3978e305bb7c32f1a282",
+        "size": 1521,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-missing-indexes.md",
+        "git_blob_sha1": "e6daace7dd368c75cdf87dc61be4afd6ff66cbbe",
+        "sha256": "91ad8b0ff4365704b4830a7f077c6f140f7140fd5d3ce5cd0b92b160cf9e25f1",
+        "size": 1218,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query-partial-indexes.md",
+        "git_blob_sha1": "3e61a3417b9cce3c8cee99b39b78b7ebf495dd1f",
+        "sha256": "6448982bc8558c6555284958edc331b29239c6a0130e6b4501dd6d4da607a6dd",
+        "size": 1347,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-constraints.md",
+        "git_blob_sha1": "1d2ef8f9a968cd6fa882c7299134c30ace06373c",
+        "sha256": "90e8efda3e9e81095e642911ad4aae2809d160f29414338fa997253238f510f8",
+        "size": 1880,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-data-types.md",
+        "git_blob_sha1": "f253a5819d05531371e04485ab84f552fbb32fbe",
+        "sha256": "e01b58c14c7f3f65d8ead580b9a4fcf70b83baaab0f9a5f83c569c9fd113e8c8",
+        "size": 1453,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-foreign-key-indexes.md",
+        "git_blob_sha1": "6c3d6ff622b8a9df358f6673f323292e682ce87c",
+        "sha256": "7587713d12a65a212365459b3d39e4717d8a79e4073b10bd62f1054d8192c0dd",
+        "size": 1679,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-lowercase-identifiers.md",
+        "git_blob_sha1": "f0072940b159ff64e0c2d4fbb499133cb8f49a66",
+        "sha256": "4bc80f70865f2390872591f326c8a6be6456a0aeb5a7e5a2475d7cd9d43059ab",
+        "size": 1728,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-partitioning.md",
+        "git_blob_sha1": "13137a03275fa45001c870a40b0069204d44e005",
+        "sha256": "541e13fbeaf4bb1485c9059d4c9417dbdb766cf16f4237cd63a04ada7ec45b90",
+        "size": 1548,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schema-primary-keys.md",
+        "git_blob_sha1": "fb0fbb166fac9ea38c127d807a263282acc2dc93",
+        "sha256": "3c8beabef82066f9a0838b926da0885117fd2d9a263aaf84cb5ca9e5f0d400e9",
+        "size": 1821,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security-privileges.md",
+        "git_blob_sha1": "448ec345fab6c5a0116c584d65638b86d758c558",
+        "sha256": "095909274a4fb43df785d7144cf674eeb40284d2d45628f14af4108737b93663",
+        "size": 1566,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security-rls-basics.md",
+        "git_blob_sha1": "c61e1a8503de113be0981759b82f5e37090f344c",
+        "sha256": "e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+        "size": 1372,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security-rls-performance.md",
+        "git_blob_sha1": "c3c7c416d57d9a46a9993f4e0c20f772fb64483d",
+        "sha256": "2e1faeca7d5746e246b1c78f9492fe2a9cfa41c4d7fa1e23c402d58fa18ea014",
+        "size": 2103,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "1ad9aaeb49caafd9e95c0a91116f71890eebbc53",
+  "new_commit": "32912161e2732c3e5001c6811a76c1f8308ed0da",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(supabase-postgres-best-practices): make skill description trigger-rich (#194)\n\nRewrite the description so the skill loads for schema, migration, RLS,\nand SQL-authoring tasks — not just performance work — and lead with the\nconcrete authoring triggers. Improves activation when it coexists with\nthe supabase skill.\n\nPart of AI-942. Tested in https://github.com/supabase/evals/pull/131\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-07-30T11:44:23Z",
+  "compare_url": "https://github.com/supabase/agent-skills/compare/1ad9aaeb49caafd9e95c0a91116f71890eebbc53...32912161e2732c3e5001c6811a76c1f8308ed0da",
+  "commit_url": "https://github.com/supabase/agent-skills/commit/32912161e2732c3e5001c6811a76c1f8308ed0da",
+  "skill_directory": "skills/supabase-postgres-best-practices",
+  "local_directory": "verified_real_update_pairs/OPU-0013",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0013",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

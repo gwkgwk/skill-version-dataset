@@ -1,0 +1,82 @@
+{
+  "sha": "62a0dfe963f4333e8640b6d9cb5796ab4bd40c60",
+  "node_id": "C_kwDOQ7RUQ9oAKDYyYTBkZmU5NjNmNDMzM2U4NjQwYjZkOWNiNTc5NmFiNGJkNDBjNjA",
+  "commit": {
+    "author": {
+      "name": "Govind Kamtamneni",
+      "email": "gok@microsoft.com",
+      "date": "2026-02-19T04:54:21Z"
+    },
+    "committer": {
+      "name": "Govind Kamtamneni",
+      "email": "gok@microsoft.com",
+      "date": "2026-02-19T04:54:21Z"
+    },
+    "message": "feat: comprehensive copilot-sdk skill with full API coverage\n\nSignificantly expanded the copilot-sdk skill from ~510 to ~900 lines:\n\n- Architecture section with transport modes (stdio/TCP)\n- Expanded hooks: all 6 hooks with input/output fields, examples in\n  multiple languages (pre/post tool use, user prompt, session lifecycle,\n  error handling)\n- Comprehensive BYOK section: all provider configs (OpenAI, Azure,\n  Anthropic, Ollama), provider config reference table, Azure Managed\n  Identity pattern, limitations\n- Full authentication coverage: priority order, OAuth GitHub App,\n  supported token types, disable auto-login\n- Session persistence: resume options, session ID best practices,\n  what gets persisted, infinite sessions\n- MCP server integration: local + HTTP configs with all fields,\n  debugging tips, MCP Inspector usage\n- Deployment patterns: local CLI, external server, bundled CLI,\n  Docker Compose, session isolation patterns, production checklist\n- Permission & input handlers with deny-by-default model\n- SDK vs CLI feature comparison with workarounds\n- Expanded debugging: common issues table, connection state\n- Skills integration with combined examples\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+    "tree": {
+      "sha": "ca8a4dbd31bb5a4317d1437ffdc8583294722d14",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/ca8a4dbd31bb5a4317d1437ffdc8583294722d14"
+    },
+    "url": "https://api.github.com/repos/microsoft/skills/git/commits/62a0dfe963f4333e8640b6d9cb5796ab4bd40c60",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEe0OWDtRtcmSLjlQfUgF0pxt7zdkFAmmWl34ACgkQUgF0pxt7\nzdmISQ//cAkkg7I8jqv1z0Hmw7V1QjYB27tyHeshEXI2VBb5wrjBxkACot7Xdpnu\nQ/XfQN2gqpVAa3IDlvdk8ibGdkuOqvAX1DAGGNqIvjwltLzEVmdYeoK7HY+9+XrD\n6AitYg5sRNVsE5Of1FAa3M4QQIOUQ4wwCWgn/WMD01W4t/x2wMagnD8efOAPoXoM\nrii23+a3LrkQEklzHv0wsfPgJi99KI32pBbR0oCB2yOG9mv3MPnHi+I+5GlqC25B\nEEIf/s0ZYygh/SNOzR03uYsmS+BYLRSh8Go2btPaTbqFY1oBQ8vAMSm5m/mfzO8u\nUymW2Xqt4QczglLwsCt8XeaRtvj2poQuToO/mm7wYSyWsM3RHhUuVD0XFD1LpzhT\nleV4lb/8Ray0aXOPtAcdhpDVvcBHwV/pnKZVluIfCc/CWGQntm04Ri8vqpJdb9Vo\n5vf2DgNiEKNesTwWmFRe70Oi+n6M5RU8R6CZVBV6eYcKQaxYOEvcMBoisNTalAsf\nVUTWChze9Z2xB6+Ljx1mzP9OfF+JQkkjJwAcDib80KWne7r/N9ydEF2IjCVNmkSu\ngzNPu812UFPlV0XoKY1u0CP7QxL2/arbuBTp9p9mQpu5fj7Jyrs+5yymWCII1UpE\nHPadLUtlorK9zJGJvSu4bZ2FBLQMgPY1y3ljxS/3QwHg+Q4Mj7Q=\n=MY2H\n-----END PGP SIGNATURE-----",
+      "payload": "tree ca8a4dbd31bb5a4317d1437ffdc8583294722d14\nparent c4d4d8bb00db10dbb40803d4c22cb84017ce3106\nauthor Govind Kamtamneni <gok@microsoft.com> 1771476861 -0800\ncommitter Govind Kamtamneni <gok@microsoft.com> 1771476861 -0800\n\nfeat: comprehensive copilot-sdk skill with full API coverage\n\nSignificantly expanded the copilot-sdk skill from ~510 to ~900 lines:\n\n- Architecture section with transport modes (stdio/TCP)\n- Expanded hooks: all 6 hooks with input/output fields, examples in\n  multiple languages (pre/post tool use, user prompt, session lifecycle,\n  error handling)\n- Comprehensive BYOK section: all provider configs (OpenAI, Azure,\n  Anthropic, Ollama), provider config reference table, Azure Managed\n  Identity pattern, limitations\n- Full authentication coverage: priority order, OAuth GitHub App,\n  supported token types, disable auto-login\n- Session persistence: resume options, session ID best practices,\n  what gets persisted, infinite sessions\n- MCP server integration: local + HTTP configs with all fields,\n  debugging tips, MCP Inspector usage\n- Deployment patterns: local CLI, external server, bundled CLI,\n  Docker Compose, session isolation patterns, production checklist\n- Permission & input handlers with deny-by-default model\n- SDK vs CLI feature comparison with workarounds\n- Expanded debugging: common issues table, connection state\n- Skills integration with combined examples\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n",
+      "verified_at": "2026-02-19T05:21:54Z"
+    }
+  },
+  "url": "https://api.github.com/repos/microsoft/skills/commits/62a0dfe963f4333e8640b6d9cb5796ab4bd40c60",
+  "html_url": "https://github.com/microsoft/skills/commit/62a0dfe963f4333e8640b6d9cb5796ab4bd40c60",
+  "comments_url": "https://api.github.com/repos/microsoft/skills/commits/62a0dfe963f4333e8640b6d9cb5796ab4bd40c60/comments",
+  "author": {
+    "login": "thegovind",
+    "id": 18152044,
+    "node_id": "MDQ6VXNlcjE4MTUyMDQ0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/18152044?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thegovind",
+    "html_url": "https://github.com/thegovind",
+    "followers_url": "https://api.github.com/users/thegovind/followers",
+    "following_url": "https://api.github.com/users/thegovind/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thegovind/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thegovind/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thegovind/subscriptions",
+    "organizations_url": "https://api.github.com/users/thegovind/orgs",
+    "repos_url": "https://api.github.com/users/thegovind/repos",
+    "events_url": "https://api.github.com/users/thegovind/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thegovind/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "committer": {
+    "login": "thegovind",
+    "id": 18152044,
+    "node_id": "MDQ6VXNlcjE4MTUyMDQ0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/18152044?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thegovind",
+    "html_url": "https://github.com/thegovind",
+    "followers_url": "https://api.github.com/users/thegovind/followers",
+    "following_url": "https://api.github.com/users/thegovind/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thegovind/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thegovind/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thegovind/subscriptions",
+    "organizations_url": "https://api.github.com/users/thegovind/orgs",
+    "repos_url": "https://api.github.com/users/thegovind/repos",
+    "events_url": "https://api.github.com/users/thegovind/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thegovind/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "parents": [
+    {
+      "sha": "c4d4d8bb00db10dbb40803d4c22cb84017ce3106",
+      "url": "https://api.github.com/repos/microsoft/skills/commits/c4d4d8bb00db10dbb40803d4c22cb84017ce3106",
+      "html_url": "https://github.com/microsoft/skills/commit/c4d4d8bb00db10dbb40803d4c22cb84017ce3106"
+    }
+  ]
+}

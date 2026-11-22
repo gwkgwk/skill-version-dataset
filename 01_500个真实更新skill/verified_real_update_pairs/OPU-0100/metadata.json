@@ -1,0 +1,79 @@
+{
+  "repository": "stripe/ai",
+  "primary": "providers/grok/plugin/skills/stripe-directory/SKILL.md",
+  "pinned_commit": "1bb486909cc36ce608181c2af62c4716ba9cd7c7",
+  "repository_license": "MIT",
+  "key": "4c81a86d350f9200db46",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "cfaab55a397fab873b2899f5b430bcf3527909c7",
+    "computed_tree_sha": "e1f5d2b8514740e412ed4c1ef0981e1e749d7c48",
+    "api_tree_sha_as_returned": "e1f5d2b8514740e412ed4c1ef0981e1e749d7c48",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "75ee2e2d545edf31b4d5c1e1049534e560425404",
+        "sha256": "3a1d6c6938185735b282f1df0bb017d21c815253ba42c58873f47cb1b2c853b2",
+        "size": 8893,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e01f21e7754971027c0498bd2eb4d1e319a89247",
+    "computed_tree_sha": "64ee2ea92cc08e0be709f4e02f1ab2070bdf3df8",
+    "api_tree_sha_as_returned": "64ee2ea92cc08e0be709f4e02f1ab2070bdf3df8",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "15fcc1c6a7c54057a0f4d7098c112894e1f849b4",
+        "sha256": "27647d2a1cfcafb6f6a3e31ad698825231d3dc3a06f6b8a96dcaa602c2c700c0",
+        "size": 10497,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "cfaab55a397fab873b2899f5b430bcf3527909c7",
+  "new_commit": "e01f21e7754971027c0498bd2eb4d1e319a89247",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "sync skills",
+  "new_commit_time": "2026-11-20T23:48:10Z",
+  "compare_url": "https://github.com/stripe/ai/compare/cfaab55a397fab873b2899f5b430bcf3527909c7...e01f21e7754971027c0498bd2eb4d1e319a89247",
+  "commit_url": "https://github.com/stripe/ai/commit/e01f21e7754971027c0498bd2eb4d1e319a89247",
+  "skill_directory": "providers/grok/plugin/skills/stripe-directory",
+  "local_directory": "verified_real_update_pairs/OPU-0100",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0100",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

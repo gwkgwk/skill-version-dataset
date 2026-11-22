@@ -1,0 +1,91 @@
+{
+  "repository": "google/skills",
+  "primary": "plugins/cloud/google-cloud-developer/skills/google-cloud-recipe-auth/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "e80bf2c4d3eb0bdc6324",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 5,
+  "old": {
+    "commit": "5fb62c2cf7bc7eda841109c3470d132e87055e23",
+    "computed_tree_sha": "f3724d4df494742e743ffb461cca45b323d4352c",
+    "api_tree_sha_as_returned": "f3724d4df494742e743ffb461cca45b323d4352c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c0179c9463e9e7e27d1e92fce8a7e393281a9fa9",
+        "sha256": "3415b14510b1b32a25a04233d2e81b2c8f4a923e4a40486f5b6fe5a4439afa54",
+        "size": 12754,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "bfb6e51e446d9dd8d190099b49d0b7ec98f6f7fa",
+        "sha256": "0198c4165e3979e6c20e5d4caec5eb5365c82b6ced6c26178eaa67f4d247052d",
+        "size": 2005,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "16b41649b3c087253d5c3e5092f8d0378b0feff5",
+    "computed_tree_sha": "2f60c606c73a24435fdb40f362c4c94cb2fd2bc7",
+    "api_tree_sha_as_returned": "2f60c606c73a24435fdb40f362c4c94cb2fd2bc7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6d66726176d149f5fbd204d13f74861cf2f4f58a",
+        "sha256": "ecc4a5a8b52de9962633abda668b38dcf88036058b7d89e582db5bee650d0a28",
+        "size": 12769,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "bfb6e51e446d9dd8d190099b49d0b7ec98f6f7fa",
+        "sha256": "0198c4165e3979e6c20e5d4caec5eb5365c82b6ced6c26178eaa67f4d247052d",
+        "size": 2005,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "5fb62c2cf7bc7eda841109c3470d132e87055e23",
+  "new_commit": "16b41649b3c087253d5c3e5092f8d0378b0feff5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Express Mode link in google-cloud-recipe-auth\n\nPiperOrigin-RevId: 1026476714",
+  "new_commit_time": "2026-11-20T15:55:35Z",
+  "compare_url": "https://github.com/google/skills/compare/5fb62c2cf7bc7eda841109c3470d132e87055e23...16b41649b3c087253d5c3e5092f8d0378b0feff5",
+  "commit_url": "https://github.com/google/skills/commit/16b41649b3c087253d5c3e5092f8d0378b0feff5",
+  "skill_directory": "plugins/cloud/google-cloud-developer/skills/google-cloud-recipe-auth",
+  "local_directory": "verified_real_update_pairs/OPU-0035",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0035",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

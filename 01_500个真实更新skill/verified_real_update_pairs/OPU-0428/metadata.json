@@ -1,0 +1,79 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-rust/skills/azure-identity-rust/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "dc24447fd5abb0b7b2df",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "0ba2f485864a8c53f1d5a2a02615c027da4fb33d",
+    "computed_tree_sha": "70fdb3c2195f292aa8178aad5ab92f3fd62c27ab",
+    "api_tree_sha_as_returned": "70fdb3c2195f292aa8178aad5ab92f3fd62c27ab",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "317dc60da7d51ca0d479fb7720fc81b38630d05a",
+        "sha256": "99c9b6c7b2b5f8d1d4c6e9dca6024a66b77f095aef4ed95c1f4bcf161055f95d",
+        "size": 5752,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+    "computed_tree_sha": "2a047dcea30ab4010b31c88846fa987716d21456",
+    "api_tree_sha_as_returned": "2a047dcea30ab4010b31c88846fa987716d21456",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bbcdd6573d0efede169d7a35d0e9603b86f25241",
+        "sha256": "a8012a1c4324eee8b38daf43ce1f6400ecb3fa8c64763399f4247155627024ac",
+        "size": 6358,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "0ba2f485864a8c53f1d5a2a02615c027da4fb33d",
+  "new_commit": "4a2873faffc1b101a33a0b59c24713d4ed78142f",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add Vally skill-effectiveness experiments and Python test scenarios (#383)\n\n* Add Vally skill-effectiveness experiments and Python test scenarios\n\nSplit from #375: adds the Vally skill-effectiveness experiment framework\n(run-skill-experiments.ps1, run-all-evals.ps1, generate-skill-experiments.ps1,\ncompare-experiment.mjs), standardized vally eval/experiment yaml and\nscenarios.yaml for ~40 Python skills, shared Python grader tooling, and\nharness runner script/dependency updates.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCopilot-Session: 9429ad33-6f31-4ec5-ba00-0f11b5afb82e\n\n* Update vally version\n\n* Update package info\n\n* Fix review comments: delete artifact, fix exception handling, add exclude-pattern support\n\n* Fix review 4708288806 comments: exceptions, duplicate files, tab check, PS1 fixes\n\n* Removed experiment specific evaluations; cleaned up existing eval.yaml files\n\n* Removed bogus files\n\n* test: cover python static graders\n\n* fix: address all 10 comments from review 4739490318\n\n* fix: rename grader_model to judge_model in all Python eval specs (Vally 0.10)\n\n* Improved reliability of prompts\n\n* Fixed test harness for azure-appconfiguration-py skill\n\n* Fix --junit output path and update Node.js version prerequisite\n\n* Fix fastapi-router-py template.py to use {{}} placeholder syntax\n\n* fix: update Node.js version to 22 in test-harness workflow\n\n* fix: skip template Python files containing {{...}} placeholders in syntax check\n\n* fix: remove invalid 'execution' and 'portability' fields from GraderMetadata\n\n* fix: allow esbuild builds in tests workspace\n\n* fix: restore required vally grader metadata\n\n* fix: remove obsolete execution and portability fields from rust-cargo-build-failure grader\n\n* Fix remaining review thread feedback\n\n* Fixes from rust branch\n\n* Apply remaining changes\n\n* Fix grader metadata typing\n\n* Remove test-harness.yml workflow (belongs to PR #380)\n\n* Fix remaining review thread feedback\n\n* Restore test-harness.yml deleted in error\n\nThe file was removed on this split branch under the assumption it belonged\nonly to PR #380, but #380 already merged it into main unchanged. Since the\nmerge-base copy matched main, merging this branch would have deleted the\nfile from main. Restoring it to main's version so this branch carries it\nthrough untouched.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Add @microsoft/vally-cli to test devDependencies and update lockfile\n\n* Fix Windows-only backslashes and README pnpm --dir path\n\n- tests/run-all-evals.ps1: Replace backslashes with forward slashes in\n  customGraderPluginDir, customGraderDistEntry, and vallyCmd paths so\n  that Join-Path resolves them correctly on Linux/macOS.\n- tests/scenarios/README.md: Fix 'pnpm --dir ../../../..' (repository\n  root) to 'pnpm --dir ../../..' (tests/) and update the experiment\n  file and output-dir paths to be relative to tests/.\n\n* Move Vally expect_skills constraints into each stimulus\n\n* Fix azure-eventhub-rust review feedback\n\n* Fix remaining fastapi and eval review issues\n\n* Updated timeouts on skills\n\n* Fix review 4766529446: experiment evals, vally probe, timestamps, dead params, version gate\n\n* Removed skill_effectiveness_eval.yaml files for python\n\n* Repoint python skill experiments to eval.yaml and remove generator script\n\nCompletes 27ae1ab: the eval.yaml deletions were committed but the\nexperiment repoints (skill_effectiveness_eval.yaml -> eval.yaml) and the\ngenerate-skill-experiments.ps1 deletion were left unstaged, so git status\nkept showing them. Commit them so the python experiments reference the\nsingle general-purpose eval.yaml.\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCopilot-Session: 82323067-0922-476e-8f08-4659317988ab\n\n* Regenerate rust skills and add guidance on structures.\n\n* Fix 5 issues from review 4768872057: pnpm-workspace bool, cargo clippy -D warnings, compare-experiment score check, run-skill-experiments local vally, README pylint install step\n\n* Cleaned up eval job; simplified storage skills somewhat\n\n* Fix azure-mgmt-apimanagement-py: remove invalid require_envvar from DefaultAzureCredential\n\n* Fix cargo clippy --D warnings in Rust eval files and fix -rs typo in run-skill-experiments.ps1\n\n* Fix pydantic-models-py: simplify template to prevent file truncation in evals\n\nThe base_create_response_indb stimulus was failing Python syntax and\nidiomatic checks because the LLM generated oversized Python files\n(with helpers and section comments) that got truncated during writing.\n\nChanges:\n- Reduce template.py from 124 to 48 lines using concise ConfigDict\n  pattern, inline Field calls, and brief docstrings\n- Update SKILL.md examples to use ConfigDict (modern Pydantic v2)\n- Remove verbose section separators and boilerplate comments\n\n* Fix pydantic vally camel_case_aliases workspace output path\n\n* Fix vally CI: add file save instructions and improve error handling examples\n\n- pydantic-models-py eval: add file save instruction to base_create_response_indb\n  prompt so agents write a .py file, fixing \"No Python files found\" grader failure\n- azure-ai-translation-document-py eval: add file save instructions to both stimuli\n  for deterministic grader behavior\n- azure-ai-translation-document-py skill: rewrite Basic Document Translation section\n  with complete self-contained example including try/except HttpResponseError;\n  remove invalid require_envvar=True parameter from DefaultAzureCredential()\n\n* Fix review 4790830267: add file save instructions and fix eval output key collision\n\n- Thread 97: Add 'Save the code to <file>.py in the current workspace.' to all\n  eval stimuli that use Python graders but lacked explicit file output paths,\n  preventing deterministic grader failures when models respond without saving files.\n  Affected: agent-framework-azure-ai-py, azure-ai-contentsafety-py,\n  azure-ai-contentunderstanding-py, azure-ai-ml-py, azure-ai-projects-py,\n  azure-ai-textanalytics-py, azure-ai-transcription-py, azure-ai-translation-text-py,\n  azure-ai-vision-imageanalysis-py, azure-ai-voicelive-py, azure-containerregistry-py,\n  azure-cosmos-db-py, fastapi-router-py, m365-agents-py, azure-storage-queue-py\n\n- Thread 98: Include eval filename in output key in run-all-evals.ps1 so that\n  eval.yaml and skill_effectiveness_eval.yaml in the same vally/ folder write to\n  separate output directories, preventing JUnit file and run-dir lookup collisions\n\n* Removed experimental files that are no longer needed\n\n* fix: add #Requires -Version 7.0 to run-all-evals.ps1 (review 4739841645)\n\n* Fix 6 issues from review 4791599641: workspace file requirements and producer open() &str fix\n\n* Fix all review #4791806947 comments: syntax checks, compare-experiment, package/workflow versions, dead params, exit code tracking\n\n* Fix azure-ai-projects-py: wrong import paths and invalid credential parameter\n\n* Fix review 4791806947: add save instructions to eval.yaml stimuli, fix blob-rust ignore_for_fail, fix skill-creator Rust guidance\n\n- Add 'Save the code to file.py' instructions to all eval.yaml stimuli\n  missing them (31 stimuli across 18 Python scenario files) so the\n  workspace-only syntax/pylint graders can find the .py files\n- Remove error_exceptions from Post-prompt graders in\n  azure-storage-blob-rust/vally/eval.yaml (keep only on trajectory\n  analysis), preventing genuine E0277 compilation failures from being\n  masked as successful builds\n- Fix #[non_exhaustive] guidance in skill-creator/SKILL.md: distinguish\n  between externally constructible structs (use ..Default::default()) and\n  truly non_exhaustive structs (use constructor/builder or\n  default-then-mutate) to avoid E0639 compile errors\n\n* Fix azure-monitor-opentelemetry-py: add explicit connection_string example, fix invalid credential param\n\n- Replace \"Explicit Configuration\" section with \"Explicit Connection String\" section\n  showing connection_string=os.environ[\"APPLICATIONINSIGHTS_CONNECTION_STRING\"] with try/except\n- Remove invalid DefaultAzureCredential(require_envvar=True) parameter (not a valid API)\n- Update capabilities.md to reflect renamed section\n\nThis fixes the azure-monitor-opentelemetry-py-eval explicit_connection_string scenario\nwhich was failing Python syntax and idiomatic checks because the skill lacked a\ncanonical example for the connection_string parameter pattern.\n\n* Fix --junit flag, add datetime import, add rust grader plugin support in experiments\n\n- run-all-evals.ps1: Remove filename arg from --junit flag; Vally 0.10 treats it as boolean\n- pydantic-models-py/SKILL.md: Add missing 'from datetime import datetime' import in camelCase Aliases example\n- run-skill-experiments.ps1: Mirror rust-cargo-build-failure grader plugin detection/build/pass from run-all-evals.ps1\n\n---------\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\nCopilot-Session: 9429ad33-6f31-4ec5-ba00-0f11b5afb82e\nCopilot-Session: 82323067-0922-476e-8f08-4659317988ab",
+  "new_commit_time": "2026-07-28T21:46:15Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/0ba2f485864a8c53f1d5a2a02615c027da4fb33d...4a2873faffc1b101a33a0b59c24713d4ed78142f",
+  "commit_url": "https://github.com/microsoft/skills/commit/4a2873faffc1b101a33a0b59c24713d4ed78142f",
+  "skill_directory": ".github/plugins/azure-sdk-rust/skills/azure-identity-rust",
+  "local_directory": "verified_real_update_pairs/OPU-0428",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0428",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/gh-review-requests/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "42afdb311e7da38c3cf8",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "89aaec068abcc70368ccd3e1f7fee58a66313377",
+    "computed_tree_sha": "54bd7964cecb4a3f47e32c14567c4285bd381ed9",
+    "api_tree_sha_as_returned": "54bd7964cecb4a3f47e32c14567c4285bd381ed9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "715cd7414dfc78f1ee70239fd5883f24804f71a0",
+        "sha256": "12e67a98cbaa07c554bff76441fcf86e22f18b1a410a1147750e32f64b1fb5b2",
+        "size": 2537,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_review_requests.py",
+        "git_blob_sha1": "0eb0255fe56a8e74537d366045491c44f3f84050",
+        "sha256": "2a00e3bc1face15a739980b7b797f0c0e41c5f88b432a6ae299803bb88973c17",
+        "size": 3539,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "c81373583417504de2d3be1ae3d81977b11b2981",
+    "computed_tree_sha": "6ea93ff2bc24687f073cc7c0485a8c2e8fd8bf42",
+    "api_tree_sha_as_returned": "6ea93ff2bc24687f073cc7c0485a8c2e8fd8bf42",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "58bd37203e6246413de7c13f9729bfcbb279d523",
+        "sha256": "c03fa31242d4dfa9002c1610376954cd6455a500931b054e13ba6fa6cde235bb",
+        "size": 2495,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_review_requests.py",
+        "git_blob_sha1": "0eb0255fe56a8e74537d366045491c44f3f84050",
+        "sha256": "2a00e3bc1face15a739980b7b797f0c0e41c5f88b432a6ae299803bb88973c17",
+        "size": 3539,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "89aaec068abcc70368ccd3e1f7fee58a66313377",
+  "new_commit": "c81373583417504de2d3be1ae3d81977b11b2981",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix: replace ${CLAUDE_SKILL_ROOT} with skill-root-relative paths (#146)\n\n## Problem\n\n`${CLAUDE_SKILL_ROOT}` is used across multiple skills to reference\nbundled scripts and files. This causes two problems in Claude Code:\n\n1. **Permission friction** — variable expansion in bash commands\ntriggers a confirmation prompt\n2. **Runtime failure** — after confirmation, the variable is not set, so\npaths resolve to `/scripts/foo.py` → file not found\n\nReported by Phil in\n[#proj-junior](https://sentry.slack.com/archives/C07P2KGJGG0/p1778225171252819).\n\n## Changes\n\nReplaced all `${CLAUDE_SKILL_ROOT}/...` references with\nskill-root-relative paths (e.g. `scripts/foo.py`, `references/bar.md`)\nper the [Agent Skills spec](https://agentskills.io/specification).\n\n**Affected skills (8 files):**\n- `iterate-pr/SKILL.md` — 14 refs → all converted; updated guidance text\n- `gh-review-requests/SKILL.md` — 2 refs\n- `presentation-creator/SKILL.md` — 4 refs\n- `presentation-creator/references/design-system.md` — 3 refs\n- `skill-scanner/SKILL.md` — 6 refs; updated guidance text\n- `sred-project-organizer/SKILL.md` — 4 refs\n- `skill-writer/SOURCES.md` — changelog entry added\n- `skill-writer/references/registration-validation.md` — updated\nmeta-guidance to recommend against env var path prefixes\n\n## Verification\n\n```bash\n# Only remaining mentions are in skill-writer changelog/meta docs (documenting the change itself)\ngrep -rn \"CLAUDE_SKILL_ROOT\" skills/ --include=\"*.md\"\n```\n\nCloses #145\n\nCo-authored-by: junior[bot] <junior[bot]@users.noreply.github.com>",
+  "new_commit_time": "2026-05-09T17:46:26Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/89aaec068abcc70368ccd3e1f7fee58a66313377...c81373583417504de2d3be1ae3d81977b11b2981",
+  "commit_url": "https://github.com/getsentry/skills/commit/c81373583417504de2d3be1ae3d81977b11b2981",
+  "skill_directory": "skills/gh-review-requests",
+  "local_directory": "verified_real_update_pairs/OPU-0104",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0104",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

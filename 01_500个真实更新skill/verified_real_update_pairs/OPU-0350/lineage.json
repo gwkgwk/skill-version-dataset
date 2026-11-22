@@ -1,0 +1,82 @@
+{
+  "sha": "79d398ad93c0ebd1e5a4c010df8cd672d1976f23",
+  "node_id": "C_kwDOR2K4PNoAKDc5ZDM5OGFkOTNjMGViZDFlNWE0YzAxMGRmOGNkNjcyZDE5NzZmMjM",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-11-17T14:02:55Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-11-17T14:06:05Z"
+    },
+    "message": "Fix databases product URL and portable gcloud skill reference in cloud-databases-onboarding\n\n- Link to `https://cloud.google.com/products/databases` without the `.md.txt` suffix in `SKILL.md`.\n- Reference the `gcloud` skill by name instead of relative `SKILL.md` paths for portable skill discovery.\n\nPiperOrigin-RevId: 1023672017",
+    "tree": {
+      "sha": "58d8b9000311189de2c6875f88aef92f51431666",
+      "url": "https://api.github.com/repos/google/skills/git/trees/58d8b9000311189de2c6875f88aef92f51431666"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/79d398ad93c0ebd1e5a4c010df8cd672d1976f23",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/79d398ad93c0ebd1e5a4c010df8cd672d1976f23",
+  "html_url": "https://github.com/google/skills/commit/79d398ad93c0ebd1e5a4c010df8cd672d1976f23",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/79d398ad93c0ebd1e5a4c010df8cd672d1976f23/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "92db677bbc38b61a2ede437ee47591532bde5f4d",
+      "url": "https://api.github.com/repos/google/skills/commits/92db677bbc38b61a2ede437ee47591532bde5f4d",
+      "html_url": "https://github.com/google/skills/commit/92db677bbc38b61a2ede437ee47591532bde5f4d"
+    }
+  ]
+}

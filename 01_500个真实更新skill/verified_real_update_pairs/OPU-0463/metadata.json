@@ -1,0 +1,1035 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-app-onboard/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "ff0514d564b6e445489f",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "ddb78d131836a93109beb91f1d65b5f0e5ec2763",
+    "computed_tree_sha": "64d263e88d71e93b76258ecf3e2cdb33f12ecadd",
+    "api_tree_sha_as_returned": "64d263e88d71e93b76258ecf3e2cdb33f12ecadd",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5589a9b9f3b474d16630112d267c76207b3cfeb3",
+        "sha256": "521ef4bd0505ec4b87403e9f1dd8642ae2bb412adb81b6c8358d0219f6968afb",
+        "size": 6809,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/SKILL.md",
+        "git_blob_sha1": "78bda0929caf267786ed709d5971bad5630fa94c",
+        "sha256": "86b19f6b6a29773d1bceb7ea568bcec97be96fe8ad64a5798fc5036a5023b1b3",
+        "size": 7636,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/approval-gate-template.md",
+        "git_blob_sha1": "e74a17ee5ac2a3fa2b512368f21463fbeba6526d",
+        "sha256": "ca0b2b5b86c0463f8bbb5972438013fe9a5237dd225953fb89e627769898e049",
+        "size": 2988,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/blocked-patterns.md",
+        "git_blob_sha1": "ada2238ec5b2f54455753b996f6854448888ca77",
+        "sha256": "e6b1604901a625d6784d8ef5f800ef9591e67eeae61dbdeb88d9c0a3d3ba73ea",
+        "size": 5883,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/code-deployment-appservice.md",
+        "git_blob_sha1": "c7fa9dfe0b02267c500c0db4cbd17345ebf4efa8",
+        "sha256": "ca1c3fc7ed97c7aabc679eca8835767b6f53155b472df1134c126f58ea82f4fc",
+        "size": 4735,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/code-deployment-container-apps.md",
+        "git_blob_sha1": "b9b88d1209b38ac109d90101a8e6ae0fa31d89b6",
+        "sha256": "a7300c3ed2d9a044f0a8c9fca07593f35b0644251d3d3322b6117362d7db584c",
+        "size": 8648,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/code-deployment-swa.md",
+        "git_blob_sha1": "a0cc7c0f6b9a8a0b68eb0c9ea956f6952067e016",
+        "sha256": "9e95658a87bad16a4e13ca4b50677b0bfcdb50a3b28982a80176fcc119ccc711",
+        "size": 5828,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/database-post-deploy.md",
+        "git_blob_sha1": "e7612f9b8a64d84ec4bf291f810fe294c6c9440c",
+        "sha256": "227bd245c716c32ad201bcb7e3b6cbf130d2ab6c583fd7050f7166f833a7a8ad",
+        "size": 4578,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/deploy-checklist-template.md",
+        "git_blob_sha1": "74e5be356856f2a8ce025885f4511035c7662170",
+        "sha256": "84dd7ad98d9194014fcb093f150ba53a800dfe83cbbbbefb5f67a661d63dca09",
+        "size": 10385,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/deploy-safety.md",
+        "git_blob_sha1": "94df7c60b8ae1423e9d86e44925cb7d7c5fa8240",
+        "sha256": "c7a9fc8669e8bd134488f816a3d499ade8e9e18dcc0e6fb3632422d4a723964c",
+        "size": 4640,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/deploy-schemas.ts",
+        "git_blob_sha1": "7e6c3d52a5b35aa62e893e2eea750896a82b80c1",
+        "sha256": "32c37b488d8054601aecf18b03b4cf1982e51e85732d9ab2392bc29d7809ab5a",
+        "size": 3558,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/error-classification.md",
+        "git_blob_sha1": "ddaea3df3335eb75c715478eb5a7e664d2b0aac1",
+        "sha256": "dbacfa7bb8674fb0c510ac260cc82268b12e1b08b72ccb3ac87d7730ae0dee4f",
+        "size": 3732,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/health-check-patterns.md",
+        "git_blob_sha1": "98e9bc88336aafc4a6fe3b3c54a297502245e0c6",
+        "sha256": "d44b87ea191f3bd539cb083fafc1b7ed6fc268e85525f3fc69d3f6be53fd852a",
+        "size": 5633,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/mcp-tools.md",
+        "git_blob_sha1": "6bcfd1549bd9e1253ea12bcab3d55b949c6cef95",
+        "sha256": "6d5474a43c7aa0797bd1117ffa7cff0d14b0eb40f9fce58de26d92aca24a3b6e",
+        "size": 5642,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/portal-links.md",
+        "git_blob_sha1": "f467d1785c82c70ba23ac0f3cf23ec6d8ef211b3",
+        "sha256": "3f2757e00183a785ad99fcc2c252e5e57d9e664e7bd1fa08a63f651d6f5d9f9e",
+        "size": 3142,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/preflight-checks.md",
+        "git_blob_sha1": "3aed4bb3fa34f876449d1b4ca0cba9429832a42d",
+        "sha256": "108ff629c06825d48ec3b7eb73f2dd185216234f71da9dd54f441b359cc10e83",
+        "size": 4470,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/subagent-preflight.md",
+        "git_blob_sha1": "70967484aecbad51f8182600db89f0ed43ddb37e",
+        "sha256": "0affd48076ec76a9665eb99ee9181698265c03936eb6bdf0d519023e4dbf4d01",
+        "size": 5210,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/SKILL.md",
+        "git_blob_sha1": "020e85775ea331a20e0d801ad9cd98d17039d5de",
+        "sha256": "aec53f71f62ce668d72e77054a2ddeef2ec866afa6d68cec2b8e7497eac7e58a",
+        "size": 6595,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/deploy-strategy.md",
+        "git_blob_sha1": "28af8f5b8a637424ff62ac70ad773ef0e7ce614d",
+        "sha256": "d7187f4c835de32af25da72c3cf7211a9163ffce478d1908880c3d0dca8aba45",
+        "size": 6996,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/mcp-tools.md",
+        "git_blob_sha1": "cd8ed120944f7792f8f6522ac851e2292231a77a",
+        "sha256": "0ba0aacdedd6da1e2f706ee8b11c38c6bf3bbcf7451c86f2cd6ae9ae856bb84c",
+        "size": 5695,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/naming-patterns.md",
+        "git_blob_sha1": "968f1ccc5edede7008597cd1be65b8072e8e080e",
+        "sha256": "df747fb9d3ab90181243d9cf88425ffc20d06f03558e6dbb1c14a398477ab5f1",
+        "size": 4713,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/prepare-schemas.ts",
+        "git_blob_sha1": "b7dfccce2b31fbf2943fbc4a17f0b9b2a735013e",
+        "sha256": "903e00912e04f5764349d92f8ed460efcada7b5de64ce213c505bd25326b5a1c",
+        "size": 7154,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/pricing-guide-services.md",
+        "git_blob_sha1": "a7b5b3b9467667c97d29d1f9fb983c7d8bff27a3",
+        "sha256": "1a4a4594b9032a46136d200d989408ba49c5e89c215495a974e19e6d6a9494b7",
+        "size": 8646,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/pricing-guide.md",
+        "git_blob_sha1": "be87a4fdacc090e46ed9629c66c431ab30cf1ade",
+        "sha256": "1000c4d89e090d954c42bf3abe31b13676bf493a4c7bc12269077cca95ce8d8f",
+        "size": 4085,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/service-mapping.md",
+        "git_blob_sha1": "2e4c8ce6a06e442e21dbe69238e922a10e20ae4b",
+        "sha256": "e100b7e8fb156e5b4551130634373db2073308508ec91210e8b52a4498b5a853",
+        "size": 8706,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/sku-matrix.md",
+        "git_blob_sha1": "e1d8c7e7a23352cdde7ffa152bb3db27d05561bc",
+        "sha256": "6c6f3d8c07978a230c833a9cd758cc536bdee68b4c8b6066b7aa6f01ea9934fb",
+        "size": 3291,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/sku-quota-validation.md",
+        "git_blob_sha1": "fa1af0b08e030047b57102b0a1dbf0035ce3c84d",
+        "sha256": "13e469471317b395f25c841450842cf232158d35e05cc4c5593caf6435def14c",
+        "size": 9205,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/subagent-pricing.md",
+        "git_blob_sha1": "0e7392254c9c84193d4826b18f19efbe207e0198",
+        "sha256": "26ade5773c8cbf9e391dea31fe62885e183885624b5530be8f23110b8ba406a9",
+        "size": 2557,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/subagent-quota.md",
+        "git_blob_sha1": "fc10f89b388655878d16229d21eba57f935482b2",
+        "sha256": "cb1a9f14716955c494fda1b38665618154e0eb580e54948a47a0b6ec70985516",
+        "size": 3568,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/validation-rubric.md",
+        "git_blob_sha1": "bcaaa59745e4457ef3b6c6221e9a5b42848dcd66",
+        "sha256": "9f36164b9aa58fe3c4571cf8e375e7f67ab73490c6bb7afdadaf97a4ac09df56",
+        "size": 2351,
+        "mode": "100644"
+      },
+      {
+        "path": "references/approval-gates.md",
+        "git_blob_sha1": "f333ef3f157960c381231afa7f4314636bd1524b",
+        "sha256": "2515d4050c0496feea61b6a6d439f928061f7f1b25fba29513b3f90a1af628f5",
+        "size": 8632,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azd-template-routing.md",
+        "git_blob_sha1": "e7ab014c216dd0852e4a8d0c62e0c0b4e16cd0e6",
+        "sha256": "48d0d36dbeafdc09448f04a00b6b049b3660e5dc1c2cc041418132a8cfff53d0",
+        "size": 4832,
+        "mode": "100644"
+      },
+      {
+        "path": "references/handoff-protocol.md",
+        "git_blob_sha1": "dac9c3415bc0ccbdfab8aa752d585ebde5226015",
+        "sha256": "ee76aa899ac468673b4b544a59addf7e5c68db720411f4e275ea16559eb676d1",
+        "size": 8013,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-resources.md",
+        "git_blob_sha1": "972649c30fe1768157692bc25718e18537d431a9",
+        "sha256": "49d8cb5820da4ecd2db81b6dc0b0b86fdc099ab7ffc1eaf23021a40ac3cc2379",
+        "size": 2682,
+        "mode": "100644"
+      },
+      {
+        "path": "references/intent-gathering.md",
+        "git_blob_sha1": "45e602b72024f495de0b546b3fa1e3d86656a21a",
+        "sha256": "ee931d7c81872a7236484160a0054aa128a4dfae47c73e24b36d0538396bc6f0",
+        "size": 2289,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-tool-reference.md",
+        "git_blob_sha1": "240ff063e81ad1ab92d66b7e0649067cf793cd4d",
+        "sha256": "8043d017274e8fd6431c94d57ec0adf4bc149e1794de1176ee6a5df9cfbae567",
+        "size": 3780,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pipeline-rules-runtime.md",
+        "git_blob_sha1": "a729900dc9f5f86207a1337f8328e29b5f1b5698",
+        "sha256": "d6691f967d57661ff69f8ab449c812ac3510da331bc69d379f0804ea1a23d538",
+        "size": 3619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pipeline-rules.md",
+        "git_blob_sha1": "39a04e19d30b38c5c2ae9a2adafcb0d411782d5f",
+        "sha256": "4728b1ac729752c96b458f587c3f368109ceac75cc6c7b1972f46988f362c3ee",
+        "size": 6492,
+        "mode": "100644"
+      },
+      {
+        "path": "references/session-protocol.md",
+        "git_blob_sha1": "0cdd669daa530bf81215ec969a02633ec331869a",
+        "sha256": "ffa5b9bfcf912fe38a39edb9a9ff377838826570880f1f7f5c8f93ed5746bb29",
+        "size": 8198,
+        "mode": "100644"
+      },
+      {
+        "path": "references/session-schemas.ts",
+        "git_blob_sha1": "b9da5577266f84038a670787fb5301bd9e059b9c",
+        "sha256": "261c4d49450f3f95aa1e0f3e90036b1c1078ffcc1647861b7f70cd3c8151bb8d",
+        "size": 5298,
+        "mode": "100644"
+      },
+      {
+        "path": "references/subscription-resolution.md",
+        "git_blob_sha1": "b5509c293a82f93698a6790a4c70b787974c0941",
+        "sha256": "ead6c67abbd61b37892295facc8ebc553fc08aacfc8bb426ac8f8ec65ac787c3",
+        "size": 2187,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/SKILL.md",
+        "git_blob_sha1": "24e461da90d1e0f5abe74d4df2ed0fe20d57f40b",
+        "sha256": "06ea2eedf46d6a74e47cb9b26d678a972e5589b009e6d84de853ada158b02595",
+        "size": 14534,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-app-service.md",
+        "git_blob_sha1": "fbe98070ecc98760a9f1f5969947f3a7c4043517",
+        "sha256": "ab9795c90e9b69ad759960e18282b081028ad99e8861a4e801ac1fbae8563b07",
+        "size": 5557,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-container-apps.md",
+        "git_blob_sha1": "0d51fb6346e9d066ca504f7dc4ae9f689b06a0ac",
+        "sha256": "490c716d5fbbcd7c334fcd4d96d2448fbf0cfd3c35d786bf8400837dc551895b",
+        "size": 9508,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-patterns-data.md",
+        "git_blob_sha1": "40515ed425636481788c5ff8060faf96f747bee2",
+        "sha256": "ad66fbe650a41b91bfa2b7b7bcc93c2a97fd8d12d358da687772f2031a63ebfd",
+        "size": 4054,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-patterns-security.md",
+        "git_blob_sha1": "73f9e506261a60be8f10c9e3c404fb9b58a3f69a",
+        "sha256": "28a9a99ed93b59841d28e962510c12a134c304150fa8ccb8f64f1bd985e88367",
+        "size": 7979,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-patterns.md",
+        "git_blob_sha1": "4771765b418dd68c173fa6ae5be7a1cb7ab96be3",
+        "sha256": "55b4b915647cb6c68f197fa76abaf861b42d90e7e7dd87851dfd9eae6a3a61f2",
+        "size": 6974,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-swa.md",
+        "git_blob_sha1": "63ec654ed24dcabe64deea6b78bf2dfe158db9ce",
+        "sha256": "31c03f23799c8111e9fcfe13c087483d3b30b9f4a6e4738c1b98d25329440475",
+        "size": 757,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/cicd-pipelines.md",
+        "git_blob_sha1": "ddbad793e74206d4b0eca8c65c28c3047a560871",
+        "sha256": "89a3efa48c3084deab93955a052a879de7c2021a69c3874432e8babcc7b5cb81",
+        "size": 325,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/dockerfile-generation.md",
+        "git_blob_sha1": "13f8afb369c14dbac97f73a8575221ae839b54a3",
+        "sha256": "2221514834f9fbd7ef83d6dfe39b266b0fde52789b3b4f0d1a4f59d3bb7548ee",
+        "size": 4164,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/env-var-secrets.md",
+        "git_blob_sha1": "77dd71b10dc709bd49bfd2f3389dc0ae0926c8f5",
+        "sha256": "fa3b793349fbeaaf6d33cc9b008799064ca37a88c069554bf9a6fd5793bd0e3d",
+        "size": 4213,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/error-handling.md",
+        "git_blob_sha1": "29143676436a5396c0036414a5ff6d7815692326",
+        "sha256": "02f0c51c47f6f2a1a5227fe23ed9b17a1c3ffef3a8e27ab3e4a24ccd3219ffc7",
+        "size": 1506,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/iac-generation-rules.md",
+        "git_blob_sha1": "d4e057037a14ef3239fa6da413bc44caf66598eb",
+        "sha256": "7945b17a4431434a84faba6e1b632a51f8d9aae60378ce201518dc76798922bc",
+        "size": 6777,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/mcp-tools.md",
+        "git_blob_sha1": "96d50d660e9b4ebb13bac19390d5a676bbfdf3d5",
+        "sha256": "e7d02c54465effae288c4ac3ebdcb211011b67b61eb19f28f4c2c6bf36cdaa6b",
+        "size": 7182,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/rbac-roles.md",
+        "git_blob_sha1": "fafc26800fa488f4221f23dcd62372aebdb15772",
+        "sha256": "c2dd28651cc356557c6821acfb657461745421807c3c806e7c5f23ad00ced3be",
+        "size": 3942,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/scaffold-healing-rules.md",
+        "git_blob_sha1": "faa1ffa04b56e96b0fc404430b3b8f93de72ea38",
+        "sha256": "f7668e47947a228bd5e666a59151384b108f5c19f6965322c344d2375be9ba9c",
+        "size": 3409,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/scaffold-schemas.ts",
+        "git_blob_sha1": "2a423234264d8e7da24c1a79f8968d92348bfaac",
+        "sha256": "6572f79eb1dcb0118a608bb4fde8508dcdbfdaf1755726357f33b2d13d51eb71",
+        "size": 3575,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/self-healing.md",
+        "git_blob_sha1": "7fceebce7d3f7ed64db356a365005404e06f3e36",
+        "sha256": "98972ac08d5e98bde81c40d5ed6e8d9cf2cfabd5df053c33cff3aeff61653bab",
+        "size": 2405,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/self-review-checklist.md",
+        "git_blob_sha1": "0ebe7b5821d8045e6f589c2e0e2f41bceb8d7da7",
+        "sha256": "3b550118d923663d02eab9510f0aa0360fc1d44e27adba7b1da5394546194274",
+        "size": 9252,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/self-review-procedure.md",
+        "git_blob_sha1": "d3a47ebe1b9178fa2c3e328efa6770232a19a75a",
+        "sha256": "ee4c330767e5fcc5799e57261063eec9943ca4f55bf5f6e65f60c6b714c99976",
+        "size": 2343,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/subagent-iac-gen.md",
+        "git_blob_sha1": "1bbba830b9bf57e8ccaac24fe6282a2e2d50fce5",
+        "sha256": "8442932dd20d964696b6f1988d8001c0846477ed35c2803f3ae1e0a18bf6a5d7",
+        "size": 9749,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/subagent-review.md",
+        "git_blob_sha1": "b89cd37f63fb4fb7e13daede4555187a0c0a70b7",
+        "sha256": "fdd28230aad66d21be864c25776244205fbc2e13e79b8499a2a62c9836724d85",
+        "size": 3596,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/subagent-validate.md",
+        "git_blob_sha1": "9c4f42d6920676c0e4bd840dbd53621ffe0ae464",
+        "sha256": "0919e9d82c77a5f93c651e2dfbf65a3685b92019f6e01f4721f984ab791d8efe",
+        "size": 7325,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/terraform-patterns.md",
+        "git_blob_sha1": "35ffcb8f07006dc928aa14c10787782765dd32b5",
+        "sha256": "daa49423aa63186bf0781bfb5eb08acb5bd07b7e5822e63b08c64682eea4993b",
+        "size": 7037,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/validation-and-manifest.md",
+        "git_blob_sha1": "0e731fefe8e0b1012ed791a0afd41712a238ad3d",
+        "sha256": "a2e969dcee2da4f761447fb139841c861d4e049a1faf19a7318ca9ad3510d1a3",
+        "size": 5255,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/waf-checklist.md",
+        "git_blob_sha1": "03d5eba5c52b466a603660d91378ecdfb195948a",
+        "sha256": "3ad06a9ce5a1a5d688dedc18e3f1231ae7b01d4ec3d1418d527aabd1893fdf09",
+        "size": 2330,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/scripts/scaffold-conformance.ps1",
+        "git_blob_sha1": "30dba844ce599e32c70d042857645b1b861251cc",
+        "sha256": "82492a9917c2db76cff9ef9be843be8c86f29a2457da66212cd8b6a9a80183f1",
+        "size": 13131,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/scripts/scaffold-conformance.sh",
+        "git_blob_sha1": "749e77e2c234a836bc95425c85b67134b767c2c4",
+        "sha256": "18b1ce6ba2e13e52f07da1d7c703d04552094f96119b869efbf65b5742b9cfbd",
+        "size": 14083,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e8a09e93f8117cf5fa2fba2b59849501190dbe7a",
+    "computed_tree_sha": "542df5e34db46f05ec9a75c1f7e3c1c01fecf50c",
+    "api_tree_sha_as_returned": "542df5e34db46f05ec9a75c1f7e3c1c01fecf50c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "23ec1d16e8588f97064bf19653e6b54b8bfb5886",
+        "sha256": "6189ce9ed410ea4eaac2b9fef554dad602919a85f9d1238588e42bb12f7be77d",
+        "size": 6809,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/PHASE.md",
+        "git_blob_sha1": "10bad9ae2c8a1c4fd93af0973c4c10cee187e918",
+        "sha256": "44ee9ff195e212fd86a81616fcab329af97330a4f0e45e410b7f50e99555b152",
+        "size": 7636,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/approval-gate-template.md",
+        "git_blob_sha1": "e74a17ee5ac2a3fa2b512368f21463fbeba6526d",
+        "sha256": "ca0b2b5b86c0463f8bbb5972438013fe9a5237dd225953fb89e627769898e049",
+        "size": 2988,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/blocked-patterns.md",
+        "git_blob_sha1": "ada2238ec5b2f54455753b996f6854448888ca77",
+        "sha256": "e6b1604901a625d6784d8ef5f800ef9591e67eeae61dbdeb88d9c0a3d3ba73ea",
+        "size": 5883,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/code-deployment-appservice.md",
+        "git_blob_sha1": "c7fa9dfe0b02267c500c0db4cbd17345ebf4efa8",
+        "sha256": "ca1c3fc7ed97c7aabc679eca8835767b6f53155b472df1134c126f58ea82f4fc",
+        "size": 4735,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/code-deployment-container-apps.md",
+        "git_blob_sha1": "9893d709d2d6ad975a1b7d7b5ae22e9e0d82ab4e",
+        "sha256": "a3c7ed3461623e211890b4382fe78f72a635703ff8cbccdd1b6d889f3b1300ea",
+        "size": 8648,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/code-deployment-swa.md",
+        "git_blob_sha1": "a0cc7c0f6b9a8a0b68eb0c9ea956f6952067e016",
+        "sha256": "9e95658a87bad16a4e13ca4b50677b0bfcdb50a3b28982a80176fcc119ccc711",
+        "size": 5828,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/database-post-deploy.md",
+        "git_blob_sha1": "e7612f9b8a64d84ec4bf291f810fe294c6c9440c",
+        "sha256": "227bd245c716c32ad201bcb7e3b6cbf130d2ab6c583fd7050f7166f833a7a8ad",
+        "size": 4578,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/deploy-checklist-template.md",
+        "git_blob_sha1": "820821c6add5d0940a547093fbec1861d5903aec",
+        "sha256": "e96c98408305d6f638b6b753ed4d058a82b3f7d9fc296e89ce3f4df32915a0b6",
+        "size": 10385,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/deploy-safety.md",
+        "git_blob_sha1": "94df7c60b8ae1423e9d86e44925cb7d7c5fa8240",
+        "sha256": "c7a9fc8669e8bd134488f816a3d499ade8e9e18dcc0e6fb3632422d4a723964c",
+        "size": 4640,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/deploy-schemas.ts",
+        "git_blob_sha1": "fe3eda1d069e55d6d03cacf4556edf286ca347b3",
+        "sha256": "0e8d8fc8fa87731f18954643afb39adcfe9f5a99a22301e3c336c4a4cc0011e7",
+        "size": 3558,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/error-classification.md",
+        "git_blob_sha1": "ddaea3df3335eb75c715478eb5a7e664d2b0aac1",
+        "sha256": "dbacfa7bb8674fb0c510ac260cc82268b12e1b08b72ccb3ac87d7730ae0dee4f",
+        "size": 3732,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/health-check-patterns.md",
+        "git_blob_sha1": "98e9bc88336aafc4a6fe3b3c54a297502245e0c6",
+        "sha256": "d44b87ea191f3bd539cb083fafc1b7ed6fc268e85525f3fc69d3f6be53fd852a",
+        "size": 5633,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/mcp-tools.md",
+        "git_blob_sha1": "6bcfd1549bd9e1253ea12bcab3d55b949c6cef95",
+        "sha256": "6d5474a43c7aa0797bd1117ffa7cff0d14b0eb40f9fce58de26d92aca24a3b6e",
+        "size": 5642,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/portal-links.md",
+        "git_blob_sha1": "f467d1785c82c70ba23ac0f3cf23ec6d8ef211b3",
+        "sha256": "3f2757e00183a785ad99fcc2c252e5e57d9e664e7bd1fa08a63f651d6f5d9f9e",
+        "size": 3142,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/preflight-checks.md",
+        "git_blob_sha1": "3aed4bb3fa34f876449d1b4ca0cba9429832a42d",
+        "sha256": "108ff629c06825d48ec3b7eb73f2dd185216234f71da9dd54f441b359cc10e83",
+        "size": 4470,
+        "mode": "100644"
+      },
+      {
+        "path": "deploy/references/subagent-preflight.md",
+        "git_blob_sha1": "b4e6a49501db2bc41781bcb8804da9c9068ad106",
+        "sha256": "33452f253ecd820204322f6a4d8a650899f23e04303b53d1742f661e6d7bf99a",
+        "size": 5210,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/PHASE.md",
+        "git_blob_sha1": "020e85775ea331a20e0d801ad9cd98d17039d5de",
+        "sha256": "aec53f71f62ce668d72e77054a2ddeef2ec866afa6d68cec2b8e7497eac7e58a",
+        "size": 6595,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/deploy-strategy.md",
+        "git_blob_sha1": "28af8f5b8a637424ff62ac70ad773ef0e7ce614d",
+        "sha256": "d7187f4c835de32af25da72c3cf7211a9163ffce478d1908880c3d0dca8aba45",
+        "size": 6996,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/mcp-tools.md",
+        "git_blob_sha1": "cd8ed120944f7792f8f6522ac851e2292231a77a",
+        "sha256": "0ba0aacdedd6da1e2f706ee8b11c38c6bf3bbcf7451c86f2cd6ae9ae856bb84c",
+        "size": 5695,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/naming-patterns.md",
+        "git_blob_sha1": "968f1ccc5edede7008597cd1be65b8072e8e080e",
+        "sha256": "df747fb9d3ab90181243d9cf88425ffc20d06f03558e6dbb1c14a398477ab5f1",
+        "size": 4713,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/prepare-schemas.ts",
+        "git_blob_sha1": "07b269ee240dcd9837ed5eadc7a9efa00e306dcf",
+        "sha256": "7afb10d32f5a5cae26c21e0efc8472d6146478577f3da876d7e230805b4552f5",
+        "size": 7154,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/pricing-guide-services.md",
+        "git_blob_sha1": "a7b5b3b9467667c97d29d1f9fb983c7d8bff27a3",
+        "sha256": "1a4a4594b9032a46136d200d989408ba49c5e89c215495a974e19e6d6a9494b7",
+        "size": 8646,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/pricing-guide.md",
+        "git_blob_sha1": "be87a4fdacc090e46ed9629c66c431ab30cf1ade",
+        "sha256": "1000c4d89e090d954c42bf3abe31b13676bf493a4c7bc12269077cca95ce8d8f",
+        "size": 4085,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/service-mapping.md",
+        "git_blob_sha1": "2e4c8ce6a06e442e21dbe69238e922a10e20ae4b",
+        "sha256": "e100b7e8fb156e5b4551130634373db2073308508ec91210e8b52a4498b5a853",
+        "size": 8706,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/sku-matrix.md",
+        "git_blob_sha1": "e1d8c7e7a23352cdde7ffa152bb3db27d05561bc",
+        "sha256": "6c6f3d8c07978a230c833a9cd758cc536bdee68b4c8b6066b7aa6f01ea9934fb",
+        "size": 3291,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/sku-quota-validation.md",
+        "git_blob_sha1": "fa1af0b08e030047b57102b0a1dbf0035ce3c84d",
+        "sha256": "13e469471317b395f25c841450842cf232158d35e05cc4c5593caf6435def14c",
+        "size": 9205,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/subagent-pricing.md",
+        "git_blob_sha1": "0e7392254c9c84193d4826b18f19efbe207e0198",
+        "sha256": "26ade5773c8cbf9e391dea31fe62885e183885624b5530be8f23110b8ba406a9",
+        "size": 2557,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/subagent-quota.md",
+        "git_blob_sha1": "fc10f89b388655878d16229d21eba57f935482b2",
+        "sha256": "cb1a9f14716955c494fda1b38665618154e0eb580e54948a47a0b6ec70985516",
+        "size": 3568,
+        "mode": "100644"
+      },
+      {
+        "path": "prepare/references/validation-rubric.md",
+        "git_blob_sha1": "005de4fa4f87aec9e9235efa2516452d803b7628",
+        "sha256": "8d88f69fb9504f66b6749895a67b073cd3f05a1585d4386c82936156454a4f59",
+        "size": 2351,
+        "mode": "100644"
+      },
+      {
+        "path": "references/approval-gates.md",
+        "git_blob_sha1": "1c7fb8f23d7cbe4ca0aa01b1b3eb129fc0a3101f",
+        "sha256": "cba83cb265c02a07766417502cee1ea6d41120c08505a1b9544c3dc9b9b3f9dd",
+        "size": 8632,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azd-template-routing.md",
+        "git_blob_sha1": "e7ab014c216dd0852e4a8d0c62e0c0b4e16cd0e6",
+        "sha256": "48d0d36dbeafdc09448f04a00b6b049b3660e5dc1c2cc041418132a8cfff53d0",
+        "size": 4832,
+        "mode": "100644"
+      },
+      {
+        "path": "references/handoff-protocol.md",
+        "git_blob_sha1": "5ed98e0a1b85aaa6feabee46f0a9ddf8fc644ff3",
+        "sha256": "fb9150cf49f87740dd3ba38839cf13d884a0ade2406c207fb7f3b4241b2dfeb7",
+        "size": 8013,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-resources.md",
+        "git_blob_sha1": "972649c30fe1768157692bc25718e18537d431a9",
+        "sha256": "49d8cb5820da4ecd2db81b6dc0b0b86fdc099ab7ffc1eaf23021a40ac3cc2379",
+        "size": 2682,
+        "mode": "100644"
+      },
+      {
+        "path": "references/intent-gathering.md",
+        "git_blob_sha1": "45e602b72024f495de0b546b3fa1e3d86656a21a",
+        "sha256": "ee931d7c81872a7236484160a0054aa128a4dfae47c73e24b36d0538396bc6f0",
+        "size": 2289,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-tool-reference.md",
+        "git_blob_sha1": "240ff063e81ad1ab92d66b7e0649067cf793cd4d",
+        "sha256": "8043d017274e8fd6431c94d57ec0adf4bc149e1794de1176ee6a5df9cfbae567",
+        "size": 3780,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pipeline-rules-runtime.md",
+        "git_blob_sha1": "a729900dc9f5f86207a1337f8328e29b5f1b5698",
+        "sha256": "d6691f967d57661ff69f8ab449c812ac3510da331bc69d379f0804ea1a23d538",
+        "size": 3619,
+        "mode": "100644"
+      },
+      {
+        "path": "references/pipeline-rules.md",
+        "git_blob_sha1": "17086f15f8d49920ae1cfb0d04e5fae86b5c47c7",
+        "sha256": "75cb87db19f39221c873b0c6d46884af6be2f04e50553d1a870a6ac5b7d83211",
+        "size": 6488,
+        "mode": "100644"
+      },
+      {
+        "path": "references/session-protocol.md",
+        "git_blob_sha1": "cc6f0d9e154211d50c8cb0634def37f9514e8b4c",
+        "sha256": "85e3013929161b2c355152e9f6244a72c8ec49c309b9c4b75f6a32430ff288d4",
+        "size": 8190,
+        "mode": "100644"
+      },
+      {
+        "path": "references/session-schemas.ts",
+        "git_blob_sha1": "b9da5577266f84038a670787fb5301bd9e059b9c",
+        "sha256": "261c4d49450f3f95aa1e0f3e90036b1c1078ffcc1647861b7f70cd3c8151bb8d",
+        "size": 5298,
+        "mode": "100644"
+      },
+      {
+        "path": "references/subscription-resolution.md",
+        "git_blob_sha1": "b5509c293a82f93698a6790a4c70b787974c0941",
+        "sha256": "ead6c67abbd61b37892295facc8ebc553fc08aacfc8bb426ac8f8ec65ac787c3",
+        "size": 2187,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/PHASE.md",
+        "git_blob_sha1": "24e461da90d1e0f5abe74d4df2ed0fe20d57f40b",
+        "sha256": "06ea2eedf46d6a74e47cb9b26d678a972e5589b009e6d84de853ada158b02595",
+        "size": 14534,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-app-service.md",
+        "git_blob_sha1": "fbe98070ecc98760a9f1f5969947f3a7c4043517",
+        "sha256": "ab9795c90e9b69ad759960e18282b081028ad99e8861a4e801ac1fbae8563b07",
+        "size": 5557,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-container-apps.md",
+        "git_blob_sha1": "0d51fb6346e9d066ca504f7dc4ae9f689b06a0ac",
+        "sha256": "490c716d5fbbcd7c334fcd4d96d2448fbf0cfd3c35d786bf8400837dc551895b",
+        "size": 9508,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-patterns-data.md",
+        "git_blob_sha1": "40515ed425636481788c5ff8060faf96f747bee2",
+        "sha256": "ad66fbe650a41b91bfa2b7b7bcc93c2a97fd8d12d358da687772f2031a63ebfd",
+        "size": 4054,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-patterns-security.md",
+        "git_blob_sha1": "73f9e506261a60be8f10c9e3c404fb9b58a3f69a",
+        "sha256": "28a9a99ed93b59841d28e962510c12a134c304150fa8ccb8f64f1bd985e88367",
+        "size": 7979,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-patterns.md",
+        "git_blob_sha1": "4771765b418dd68c173fa6ae5be7a1cb7ab96be3",
+        "sha256": "55b4b915647cb6c68f197fa76abaf861b42d90e7e7dd87851dfd9eae6a3a61f2",
+        "size": 6974,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/bicep-swa.md",
+        "git_blob_sha1": "63ec654ed24dcabe64deea6b78bf2dfe158db9ce",
+        "sha256": "31c03f23799c8111e9fcfe13c087483d3b30b9f4a6e4738c1b98d25329440475",
+        "size": 757,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/cicd-pipelines.md",
+        "git_blob_sha1": "ddbad793e74206d4b0eca8c65c28c3047a560871",
+        "sha256": "89a3efa48c3084deab93955a052a879de7c2021a69c3874432e8babcc7b5cb81",
+        "size": 325,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/dockerfile-generation.md",
+        "git_blob_sha1": "13f8afb369c14dbac97f73a8575221ae839b54a3",
+        "sha256": "2221514834f9fbd7ef83d6dfe39b266b0fde52789b3b4f0d1a4f59d3bb7548ee",
+        "size": 4164,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/env-var-secrets.md",
+        "git_blob_sha1": "77dd71b10dc709bd49bfd2f3389dc0ae0926c8f5",
+        "sha256": "fa3b793349fbeaaf6d33cc9b008799064ca37a88c069554bf9a6fd5793bd0e3d",
+        "size": 4213,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/error-handling.md",
+        "git_blob_sha1": "29143676436a5396c0036414a5ff6d7815692326",
+        "sha256": "02f0c51c47f6f2a1a5227fe23ed9b17a1c3ffef3a8e27ab3e4a24ccd3219ffc7",
+        "size": 1506,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/iac-generation-rules.md",
+        "git_blob_sha1": "d4e057037a14ef3239fa6da413bc44caf66598eb",
+        "sha256": "7945b17a4431434a84faba6e1b632a51f8d9aae60378ce201518dc76798922bc",
+        "size": 6777,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/mcp-tools.md",
+        "git_blob_sha1": "96d50d660e9b4ebb13bac19390d5a676bbfdf3d5",
+        "sha256": "e7d02c54465effae288c4ac3ebdcb211011b67b61eb19f28f4c2c6bf36cdaa6b",
+        "size": 7182,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/rbac-roles.md",
+        "git_blob_sha1": "fafc26800fa488f4221f23dcd62372aebdb15772",
+        "sha256": "c2dd28651cc356557c6821acfb657461745421807c3c806e7c5f23ad00ced3be",
+        "size": 3942,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/scaffold-healing-rules.md",
+        "git_blob_sha1": "faa1ffa04b56e96b0fc404430b3b8f93de72ea38",
+        "sha256": "f7668e47947a228bd5e666a59151384b108f5c19f6965322c344d2375be9ba9c",
+        "size": 3409,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/scaffold-schemas.ts",
+        "git_blob_sha1": "2a423234264d8e7da24c1a79f8968d92348bfaac",
+        "sha256": "6572f79eb1dcb0118a608bb4fde8508dcdbfdaf1755726357f33b2d13d51eb71",
+        "size": 3575,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/self-healing.md",
+        "git_blob_sha1": "b175048e9396853047596f475b474199457a5cc9",
+        "sha256": "758518b499c9fcd5cf1de1377ce13ce7379fb5bdc9b975542cafa8fd30d46793",
+        "size": 2405,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/self-review-checklist.md",
+        "git_blob_sha1": "0ebe7b5821d8045e6f589c2e0e2f41bceb8d7da7",
+        "sha256": "3b550118d923663d02eab9510f0aa0360fc1d44e27adba7b1da5394546194274",
+        "size": 9252,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/self-review-procedure.md",
+        "git_blob_sha1": "d3a47ebe1b9178fa2c3e328efa6770232a19a75a",
+        "sha256": "ee4c330767e5fcc5799e57261063eec9943ca4f55bf5f6e65f60c6b714c99976",
+        "size": 2343,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/subagent-iac-gen.md",
+        "git_blob_sha1": "1bbba830b9bf57e8ccaac24fe6282a2e2d50fce5",
+        "sha256": "8442932dd20d964696b6f1988d8001c0846477ed35c2803f3ae1e0a18bf6a5d7",
+        "size": 9749,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/subagent-review.md",
+        "git_blob_sha1": "b89cd37f63fb4fb7e13daede4555187a0c0a70b7",
+        "sha256": "fdd28230aad66d21be864c25776244205fbc2e13e79b8499a2a62c9836724d85",
+        "size": 3596,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/subagent-validate.md",
+        "git_blob_sha1": "5a23177cd586d6c7703ad43c1ef41235e5de767d",
+        "sha256": "306a4c7773b6d2e5f66ed17c5f31d4d886d2a3a3172920d25dd15a03513b08c1",
+        "size": 7325,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/terraform-patterns.md",
+        "git_blob_sha1": "35ffcb8f07006dc928aa14c10787782765dd32b5",
+        "sha256": "daa49423aa63186bf0781bfb5eb08acb5bd07b7e5822e63b08c64682eea4993b",
+        "size": 7037,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/validation-and-manifest.md",
+        "git_blob_sha1": "0e731fefe8e0b1012ed791a0afd41712a238ad3d",
+        "sha256": "a2e969dcee2da4f761447fb139841c861d4e049a1faf19a7318ca9ad3510d1a3",
+        "size": 5255,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/references/waf-checklist.md",
+        "git_blob_sha1": "03d5eba5c52b466a603660d91378ecdfb195948a",
+        "sha256": "3ad06a9ce5a1a5d688dedc18e3f1231ae7b01d4ec3d1418d527aabd1893fdf09",
+        "size": 2330,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/scripts/scaffold-conformance.ps1",
+        "git_blob_sha1": "30dba844ce599e32c70d042857645b1b861251cc",
+        "sha256": "82492a9917c2db76cff9ef9be843be8c86f29a2457da66212cd8b6a9a80183f1",
+        "size": 13131,
+        "mode": "100644"
+      },
+      {
+        "path": "scaffold/scripts/scaffold-conformance.sh",
+        "git_blob_sha1": "749e77e2c234a836bc95425c85b67134b767c2c4",
+        "sha256": "18b1ce6ba2e13e52f07da1d7c703d04552094f96119b869efbf65b5742b9cfbd",
+        "size": 14083,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "deploy/PHASE.md",
+    "deploy/SKILL.md",
+    "deploy/references/code-deployment-container-apps.md",
+    "deploy/references/deploy-checklist-template.md",
+    "deploy/references/deploy-schemas.ts",
+    "deploy/references/subagent-preflight.md",
+    "prepare/PHASE.md",
+    "prepare/SKILL.md",
+    "prepare/references/prepare-schemas.ts",
+    "prepare/references/validation-rubric.md",
+    "references/approval-gates.md",
+    "references/handoff-protocol.md",
+    "references/pipeline-rules.md",
+    "references/session-protocol.md",
+    "scaffold/PHASE.md",
+    "scaffold/SKILL.md",
+    "scaffold/references/self-healing.md",
+    "scaffold/references/subagent-validate.md"
+  ],
+  "old_commit": "ddb78d131836a93109beb91f1d65b5f0e5ec2763",
+  "new_commit": "e8a09e93f8117cf5fa2fba2b59849501190dbe7a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-11-05T11:04:04Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/ddb78d131836a93109beb91f1d65b5f0e5ec2763...e8a09e93f8117cf5fa2fba2b59849501190dbe7a",
+  "commit_url": "https://github.com/microsoft/skills/commit/e8a09e93f8117cf5fa2fba2b59849501190dbe7a",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-app-onboard",
+  "local_directory": "verified_real_update_pairs/OPU-0463",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0463",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

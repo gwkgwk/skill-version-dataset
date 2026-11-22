@@ -1,0 +1,194 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/static-analysis/skills/semgrep/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "2810df1d0c1e0b724f07",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "ed01a6bca3361fd937cd7d5f05a58cb1abffe509",
+    "computed_tree_sha": "7503c4bec67cbe758ee488a2bd4caaf618facbfb",
+    "api_tree_sha_as_returned": "7503c4bec67cbe758ee488a2bd4caaf618facbfb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c060863727d266ebd010db18c340aaaa90eae996",
+        "sha256": "04df36a7685632ee39271aa432a4d32e1203b326e4a8091e6f5c0eb191ef90f1",
+        "size": 15531,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "9661cf45244a7f69806fcbaa0ab4907d7c513606",
+        "sha256": "b200a52900687f8176cb5d8230a29e5e80c8317337efcdcf87754e892129cd89",
+        "size": 229,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rulesets.md",
+        "git_blob_sha1": "b4ae92d1a54c27717fe6a91b66f45371a14ba8e9",
+        "sha256": "e641bf7b2f32cd81b2623759f72a560dd96f6747f1295157f2984fe8ebac3f74",
+        "size": 7695,
+        "mode": "100644"
+      },
+      {
+        "path": "references/scan-modes.md",
+        "git_blob_sha1": "d9f8cd93eea81447b35e9b91e10c2f9bca764ce1",
+        "sha256": "6450b636217ae7aff577828c9e4b570737291b09e3cd25f3678c8bf6e48deeab",
+        "size": 7011,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/merge_sarif.py",
+        "git_blob_sha1": "ae73413750630ab3e8ad32a5fda791da5979311c",
+        "sha256": "8b6094e18a0e4d36250c72c81903edac914552df7eb2a7eebd1ac449d105f7ba",
+        "size": 14034,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/run-scans.sh",
+        "git_blob_sha1": "dd850edd82fc912470bbe3cb2e18a43e09dd83f8",
+        "sha256": "d5f8dbf5652057351b3425741562acaf251217c45131c8b69312e2e77923d97a",
+        "size": 29821,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/test_merge_sarif.py",
+        "git_blob_sha1": "1e64f1d78d93eff53fa1367f385738c0732f834c",
+        "sha256": "8f235bface6ff37f813c1a44b2a6c2edf273cd548b95b770c362f0a443473c75",
+        "size": 22943,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/scan-workflow.md",
+        "git_blob_sha1": "bbe6b85e3b9e77680f1946441cf35147a6555629",
+        "sha256": "505eec11479f3f744b3c4491803a41e833874117c121dc7d01152804354f97a9",
+        "size": 23205,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "82fe8226252622fa807643bdca1710901198553a",
+    "computed_tree_sha": "32c70e1f8ab600ce747ae84821f987ae05242c60",
+    "api_tree_sha_as_returned": "32c70e1f8ab600ce747ae84821f987ae05242c60",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a0ddf79af047e843605121e8d5db17e65a42da01",
+        "sha256": "52162605593f871cf45f48f9cf00b7c2d7e0759ccb7507981088442b7cc5d76c",
+        "size": 15678,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "9661cf45244a7f69806fcbaa0ab4907d7c513606",
+        "sha256": "b200a52900687f8176cb5d8230a29e5e80c8317337efcdcf87754e892129cd89",
+        "size": 229,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/rulesets.md",
+        "git_blob_sha1": "b4ae92d1a54c27717fe6a91b66f45371a14ba8e9",
+        "sha256": "e641bf7b2f32cd81b2623759f72a560dd96f6747f1295157f2984fe8ebac3f74",
+        "size": 7695,
+        "mode": "100644"
+      },
+      {
+        "path": "references/scan-modes.md",
+        "git_blob_sha1": "e20bfeebfd7fbb9065c4847fb8fd052ad8ec8051",
+        "sha256": "99ed0ffb9e9ee68bcb175da469f1310f28f96e356c69c65918a0afc430027d3d",
+        "size": 8713,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/merge_sarif.py",
+        "git_blob_sha1": "ae73413750630ab3e8ad32a5fda791da5979311c",
+        "sha256": "8b6094e18a0e4d36250c72c81903edac914552df7eb2a7eebd1ac449d105f7ba",
+        "size": 14034,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/run-scans.sh",
+        "git_blob_sha1": "eef9489240aa68ff3fc9955671c7979dfd71412f",
+        "sha256": "ac3d815dbd5cdfa0419596411058378ab659bd243c7dc87495114e773aa40347",
+        "size": 34393,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/test_merge_sarif.py",
+        "git_blob_sha1": "1e64f1d78d93eff53fa1367f385738c0732f834c",
+        "sha256": "8f235bface6ff37f813c1a44b2a6c2edf273cd548b95b770c362f0a443473c75",
+        "size": 22943,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/scan-workflow.md",
+        "git_blob_sha1": "ec6743d8efc45125f6fa66b569d0f6fd5748af76",
+        "sha256": "fef44f3abb2ebc050e96daaefa71d9b94a0d0082278d6d958f366dff04d9064d",
+        "size": 23889,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/scan-modes.md",
+    "scripts/run-scans.sh",
+    "workflows/scan-workflow.md"
+  ],
+  "old_commit": "ed01a6bca3361fd937cd7d5f05a58cb1abffe509",
+  "new_commit": "82fe8226252622fa807643bdca1710901198553a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "static-analysis: Scan files over 1 MB, and report the ones still skipped (#343)\n\nsemgrep skips any file larger than --max-target-bytes and reports nothing about\nit: no paths.skipped entry, no error, and the file simply absent from\npaths.scanned. run-scans.sh never set the flag, so semgrep's 1,000,000-byte\ndefault applied and a scan that never opened a file recorded `findings: 0` next\nto a plausible filesScanned count.\n\nReproduced on semgrep 1.178.0 against a 1,050,060-byte bundle carrying a\ndocument.write(location.hash) sink, beside a 36-byte sibling so the scan opened\nsomething and coveredNothing stayed empty:\n\n  before   findings 0, filesScanned 1, coveredNothing []\n  after    findings 1, filesScanned 2, maxTargetBytes 20000000\n\nThe limit is now explicit at 20,000,000 bytes and settable with\n--max-target-bytes N, where 0 means no limit as it does in semgrep. Bytes only:\nthe oversized report below compares the limit against a file size, and semgrep's\n'1.5MB' spelling would have to be parsed a second way that could disagree.\n\nA higher default moves the cliff rather than removing it, so the files still\nover it are named as `oversized` in scans.json, scoped to the --include globs a\nscan actually passed. The report phase of the workflow and the report template\ncarry it for the reason they carry coveredNothing: a gap only stderr knows about\nis a gap the report calls coverage. Cross-language rulesets take no --include and\nsemgrep decides for itself what it can parse, so their share is not enumerable\nhere; references/scan-modes.md says so and maxTargetBytes is in the report.\n\nEleven assertions added to tests/run_scan_tests.sh (104 in total), and one to\nthe workflow harness with the mutation that proves it load-bearing.\n\nRefs #298\n\nSigned-off-by: Udaya Tejas <udayatejas2004@gmail.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-09-28T18:06:37Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/ed01a6bca3361fd937cd7d5f05a58cb1abffe509...82fe8226252622fa807643bdca1710901198553a",
+  "commit_url": "https://github.com/trailofbits/skills/commit/82fe8226252622fa807643bdca1710901198553a",
+  "skill_directory": "plugins/static-analysis/skills/semgrep",
+  "local_directory": "verified_real_update_pairs/OPU-0301",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0301",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

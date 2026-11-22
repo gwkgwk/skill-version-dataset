@@ -1,0 +1,77 @@
+{
+  "repository": "stripe/ai",
+  "primary": "providers/agent-plugins/plugin/skills/metronome/SKILL.md",
+  "pinned_commit": "1bb486909cc36ce608181c2af62c4716ba9cd7c7",
+  "repository_license": "MIT",
+  "key": "3081bf0093f7d8f24378",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "8a8818e856376003701bb0d4a569c26bacac1d0e",
+    "computed_tree_sha": "a48c01fc8979c951768fa7456efe0010e7f2ab80",
+    "api_tree_sha_as_returned": "a48c01fc8979c951768fa7456efe0010e7f2ab80",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ba7294b9ebed6fb82b56d0408c0d75be527df049",
+        "sha256": "49be038cfe1d7b596233e7398e0cf25046a96b6e4729daaa7380802a858a1054",
+        "size": 12986,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "cf38a9202b7bf8e352fe3df115af1b0ddecd0b33",
+    "computed_tree_sha": "bdb3abff1e2276f236a46a49b841715df2f7e45e",
+    "api_tree_sha_as_returned": "bdb3abff1e2276f236a46a49b841715df2f7e45e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d1e7cfd4df8ba2933bc57faf8eafd0b4aa6aedb2",
+        "sha256": "1aa0b126bd9eb301575aa17443d5ef50529852f534a7c1fa12ce5f3b6022a697",
+        "size": 12986,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "8a8818e856376003701bb0d4a569c26bacac1d0e",
+  "new_commit": "cf38a9202b7bf8e352fe3df115af1b0ddecd0b33",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "sync skills",
+  "new_commit_time": "2026-10-24T00:44:21Z",
+  "compare_url": "https://github.com/stripe/ai/compare/8a8818e856376003701bb0d4a569c26bacac1d0e...cf38a9202b7bf8e352fe3df115af1b0ddecd0b33",
+  "commit_url": "https://github.com/stripe/ai/commit/cf38a9202b7bf8e352fe3df115af1b0ddecd0b33",
+  "skill_directory": "providers/agent-plugins/plugin/skills/metronome",
+  "local_directory": "verified_real_update_pairs/OPU-0012",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0012",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

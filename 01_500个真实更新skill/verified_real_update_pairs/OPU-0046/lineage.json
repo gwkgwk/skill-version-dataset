@@ -1,0 +1,82 @@
+{
+  "sha": "412f2368ee3ec90ce042826b57533f080d531aaf",
+  "node_id": "C_kwDOQ0VAy9oAKDQxMmYyMzY4ZWUzZWM5MGNlMDQyODI2YjU3NTMzZjA4MGQ1MzFhYWY",
+  "commit": {
+    "author": {
+      "name": "David Cramer",
+      "email": "dcramer@users.noreply.github.com",
+      "date": "2026-07-15T21:24:30Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-07-15T21:24:30Z"
+    },
+    "message": "ref(skills): Streamline commit and PR writing guidance (#160)\n\nThe commit and `pr-writer` skills now concentrate runtime guidance on\nthe\ndecisions agents need while committing or preparing review. Commit\nguidance\nretains branch protection, conventional formatting, privacy, and footer\nrules\nin 62 lines. PR guidance consolidates full-diff inspection, title and\nbody\nselection, optional reviewer aids, safety boundaries, and create/update\ncommands in 160 lines.\n\nAgent attribution requirements are removed from the repository policy\nand the\nmatching PR spec and eval. PR inspection now handles both existing and\nfirst-time PRs, expands `$BASE` correctly, and uses body-file commands\ninstead\nof embedded heredocs.",
+    "tree": {
+      "sha": "7aae11ead5151d0336ba99e166a3a9aca446054c",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/7aae11ead5151d0336ba99e166a3a9aca446054c"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/412f2368ee3ec90ce042826b57533f080d531aaf",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqV/qOCRC1aQ7uu5UhlAAA+28QAHVjkAzcFRpg3iOVavYjFaJQ\nRlMknNPY8cXhIM5zzRXlg7Z7FcbNr1qG0H9JfTSJ1U0gKGhxCYnmqL5XoohwYm1/\n6Se0nn0mVr/yOZi8/w9XUU3ZtcyOz9+gVM9Npvt1XZcR0HdwUIVc3nAEmzLJT/Qm\nuRpHGTO//jEP0FPcgeAfMnYcUcP71vQ+FDZpcB2Iwtm3ioqaAo2M72xBukhdpY+W\nxswMY7hQSuZNDj+qrUG7alwF4MkDbHE0FNbG8MAAKopATxJS+JO8ne5iIMsPFjFm\nNkT0iKwYeCUO/cB8/ZZ+j55kfiZNlmealyszrDdAMLo6bW7xPTi+4vMBJ+D+K2Xp\nqXQ0vkIbAn3Ll+GonVe5T3ycV5qjF5pPULTGWwWjXHZNVPm/wYv8sVVpauCci3oO\n9AxNBZhXjcZ3+ut8PMVbDtY30YEQZJmfghpQFWqU00b07/K/BP4bSdaNS0lEQFW8\n3c4tWWRG68YS0SpeRF6QEiLeKhw711u766zB4Jt7W3TVwFbs36AtUl5jfgrxKcSp\nx31gyPR5j9UWHM/s9Umwe8Lp4ieZTWqxoeh1fMH5dzuoqTWuoYszCCpSUkkroYif\nT8ZfP08qeO5TW9EDbV+nrLp7OyQnYZ0rSsiRrwm3xnvYxW7rGFTB+tWy9mGRekFk\nn5Nm5zPPAW3KU3FeT1Hb\n=WWzu\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 7aae11ead5151d0336ba99e166a3a9aca446054c\nparent 5a64b36c62d042d3981b7937d9d6ca7bd1753b9a\nauthor David Cramer <dcramer@users.noreply.github.com> 1784150670 -0700\ncommitter GitHub <noreply@github.com> 1784150670 -0700\n\nref(skills): Streamline commit and PR writing guidance (#160)\n\nThe commit and `pr-writer` skills now concentrate runtime guidance on\nthe\ndecisions agents need while committing or preparing review. Commit\nguidance\nretains branch protection, conventional formatting, privacy, and footer\nrules\nin 62 lines. PR guidance consolidates full-diff inspection, title and\nbody\nselection, optional reviewer aids, safety boundaries, and create/update\ncommands in 160 lines.\n\nAgent attribution requirements are removed from the repository policy\nand the\nmatching PR spec and eval. PR inspection now handles both existing and\nfirst-time PRs, expands `$BASE` correctly, and uses body-file commands\ninstead\nof embedded heredocs.",
+      "verified_at": "2026-07-15T21:24:31Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/412f2368ee3ec90ce042826b57533f080d531aaf",
+  "html_url": "https://github.com/getsentry/skills/commit/412f2368ee3ec90ce042826b57533f080d531aaf",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/412f2368ee3ec90ce042826b57533f080d531aaf/comments",
+  "author": {
+    "login": "dcramer",
+    "id": 23610,
+    "node_id": "MDQ6VXNlcjIzNjEw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/23610?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dcramer",
+    "html_url": "https://github.com/dcramer",
+    "followers_url": "https://api.github.com/users/dcramer/followers",
+    "following_url": "https://api.github.com/users/dcramer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dcramer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dcramer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dcramer/subscriptions",
+    "organizations_url": "https://api.github.com/users/dcramer/orgs",
+    "repos_url": "https://api.github.com/users/dcramer/repos",
+    "events_url": "https://api.github.com/users/dcramer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dcramer/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+      "html_url": "https://github.com/getsentry/skills/commit/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a"
+    }
+  ]
+}

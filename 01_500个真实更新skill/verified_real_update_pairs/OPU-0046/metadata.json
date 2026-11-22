@@ -1,0 +1,77 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/commit/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "fed25bb13a322c5aeb62",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 5,
+  "old": {
+    "commit": "5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+    "computed_tree_sha": "f264fc134abaf0cc163488f87a41cc9f511f2f04",
+    "api_tree_sha_as_returned": "f264fc134abaf0cc163488f87a41cc9f511f2f04",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "49b733514a370ddbf0926c2cf3c8a147249c9aa0",
+        "sha256": "2ee8fdf07f584ee3b7569ed800f58976dda55c259f796cb181d4560b45bdb5e9",
+        "size": 4818,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "412f2368ee3ec90ce042826b57533f080d531aaf",
+    "computed_tree_sha": "73d58e0baee7aa6da72e0b44585cb9d3f7258496",
+    "api_tree_sha_as_returned": "73d58e0baee7aa6da72e0b44585cb9d3f7258496",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f50eadfa6611aa5f69708e3959323c9738625636",
+        "sha256": "0307d3ecfe3b3e70246cbd88b19dc5853340b624b6ee3cd935c7bffc45b64279",
+        "size": 1865,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+  "new_commit": "412f2368ee3ec90ce042826b57533f080d531aaf",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "ref(skills): Streamline commit and PR writing guidance (#160)\n\nThe commit and `pr-writer` skills now concentrate runtime guidance on\nthe\ndecisions agents need while committing or preparing review. Commit\nguidance\nretains branch protection, conventional formatting, privacy, and footer\nrules\nin 62 lines. PR guidance consolidates full-diff inspection, title and\nbody\nselection, optional reviewer aids, safety boundaries, and create/update\ncommands in 160 lines.\n\nAgent attribution requirements are removed from the repository policy\nand the\nmatching PR spec and eval. PR inspection now handles both existing and\nfirst-time PRs, expands `$BASE` correctly, and uses body-file commands\ninstead\nof embedded heredocs.",
+  "new_commit_time": "2026-07-15T21:24:30Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a...412f2368ee3ec90ce042826b57533f080d531aaf",
+  "commit_url": "https://github.com/getsentry/skills/commit/412f2368ee3ec90ce042826b57533f080d531aaf",
+  "skill_directory": "skills/commit",
+  "local_directory": "verified_real_update_pairs/OPU-0046",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0046",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

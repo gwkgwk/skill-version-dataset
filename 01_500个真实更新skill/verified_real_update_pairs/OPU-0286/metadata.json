@@ -1,0 +1,269 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/application-design-center-design-deploy/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "eac13eeb18dc871b44d4",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+    "computed_tree_sha": "2e1ab8c8004adbcbdebaf1effc67d8d946672abb",
+    "api_tree_sha_as_returned": "2e1ab8c8004adbcbdebaf1effc67d8d946672abb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a5c97a3d7fab04bdf1199bcfedc7d8637c04d2c9",
+        "sha256": "bcca3171afb9879c4de44f3f4e7ab675d4b508d80ce3eafcbe58f389325c030c",
+        "size": 17621,
+        "mode": "100644"
+      },
+      {
+        "path": "references/adc_application_troubleshooting.md",
+        "git_blob_sha1": "0cafbc42230b8ab3988221a6e9d2144f6fe250c2",
+        "sha256": "d9d0ed87964885782ac7abfaac738b00c285f16775201f1310bf0895ccfcd3ae",
+        "size": 6777,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design_guide.md",
+        "git_blob_sha1": "97d89392242ff13b2f6d4fd68554e5dce1cab957",
+        "sha256": "d91eb7901245721e797e5563f0363381ed8294f0d8510c4672bbb43ae328e876",
+        "size": 14601,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error_analysis_guide.md",
+        "git_blob_sha1": "b6a8bb826b39d309d8e87158cbd8b3445190aa8c",
+        "sha256": "7144352f985ef0ae2c2303c0d21b67baec827739547db1bca5957dbe2e96ba4f",
+        "size": 6749,
+        "mode": "100644"
+      },
+      {
+        "path": "references/generator_instructions.md",
+        "git_blob_sha1": "33bb4f0449175d24e05a447c3a4b26652691eefa",
+        "sha256": "d7668962c38d803d7f7df172b8263a9e67244b2a6291c172e01694e9024a19d3",
+        "size": 8582,
+        "mode": "100644"
+      },
+      {
+        "path": "references/planner_instructions.md",
+        "git_blob_sha1": "8d33bf8c26b12934f423c06175fb2bb0284df7ca",
+        "sha256": "5729f9dc4d215812f41ae54025873de3f1bf52bda82981ffddc93b5be0ce2806",
+        "size": 2770,
+        "mode": "100644"
+      },
+      {
+        "path": "references/raw_terraform_troubleshooting.md",
+        "git_blob_sha1": "12f36f47b8a10048055774132ca6927a02314af3",
+        "sha256": "74fd1cc0f49ea30889986d6533a2e550b823daa045a2c06fb4a78c5961b56908",
+        "size": 4376,
+        "mode": "100644"
+      },
+      {
+        "path": "references/remediation_guide.md",
+        "git_blob_sha1": "f3dc12f8e2b8474e2ea6a5b6d1a3f289b5fbbb92",
+        "sha256": "2e27033dafda947fa15937dc5c1d970f31532e6f0b87b34ab7c9abde98dc6f90",
+        "size": 4386,
+        "mode": "100644"
+      },
+      {
+        "path": "references/terraform_validator_instructions.md",
+        "git_blob_sha1": "96c943b9821c41ec842bf3ad2ae8a2d210330065",
+        "sha256": "8f0ca1d91dfbb0a4c6beb4fd9cc3a92866f72dd88a677b474c26de9b1463489a",
+        "size": 2551,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting_guide.md",
+        "git_blob_sha1": "c1fd8fec6a3abe6a2e20bc48c1dc95c2f1757a73",
+        "sha256": "26a4d61f692f6c3c153610f065a6e20304e8349e9137d78b488f65bb88826e0e",
+        "size": 2651,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_terraform_template.py",
+        "git_blob_sha1": "ef634b296213b8bf840d1ab9d5b852180dbd6357",
+        "sha256": "1510b2014d53692d8b41d50502c96d801a59445268d8c8581a79053b283d9d7f",
+        "size": 10076,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_terraform_template_test.py",
+        "git_blob_sha1": "9c87652c8d63c551d2038102c6723f9f3c151ec0",
+        "sha256": "8ca333b641a96f2f8cab6732f5acb514f1a24a7bb7b820a9775f72d815c76eae",
+        "size": 1411,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_terraform_templates.py",
+        "git_blob_sha1": "f5c100021327b49e642e3a515b4e7b2d588d176c",
+        "sha256": "2b0e20ef2e69e38d9d9813c1a1c5ce23887833be9f24c7856ce9d335ff390732",
+        "size": 4125,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_terraform_templates_test.py",
+        "git_blob_sha1": "82dfd86c4eee05c2d490b8243084e241481122f8",
+        "sha256": "9ce25480dcf968ea07b9a44083c6ccbd297ac6e933b724267c6caca2445e6c5f",
+        "size": 960,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+    "computed_tree_sha": "ab5350854be59a5f5d87c5515c6e53697de58c80",
+    "api_tree_sha_as_returned": "ab5350854be59a5f5d87c5515c6e53697de58c80",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "92788f8ab2ebd2d3d6b27879053d2beca79ab947",
+        "sha256": "2b264e0eb58d0daee11e5662dd87b3aec9b596e66ff61a94a905221f9bd1ddb0",
+        "size": 18104,
+        "mode": "100644"
+      },
+      {
+        "path": "references/adc_application_troubleshooting.md",
+        "git_blob_sha1": "0cafbc42230b8ab3988221a6e9d2144f6fe250c2",
+        "sha256": "d9d0ed87964885782ac7abfaac738b00c285f16775201f1310bf0895ccfcd3ae",
+        "size": 6777,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "b736bc146c71b044dd98f4d9db5805acad6721ec",
+        "sha256": "c0bf72784966ab184f5e776e6e6c7ba5b4d1cba5169a4b1bfb6aaab32e5d7fc8",
+        "size": 1957,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design_guide.md",
+        "git_blob_sha1": "97d89392242ff13b2f6d4fd68554e5dce1cab957",
+        "sha256": "d91eb7901245721e797e5563f0363381ed8294f0d8510c4672bbb43ae328e876",
+        "size": 14601,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error_analysis_guide.md",
+        "git_blob_sha1": "b6a8bb826b39d309d8e87158cbd8b3445190aa8c",
+        "sha256": "7144352f985ef0ae2c2303c0d21b67baec827739547db1bca5957dbe2e96ba4f",
+        "size": 6749,
+        "mode": "100644"
+      },
+      {
+        "path": "references/generator_instructions.md",
+        "git_blob_sha1": "33bb4f0449175d24e05a447c3a4b26652691eefa",
+        "sha256": "d7668962c38d803d7f7df172b8263a9e67244b2a6291c172e01694e9024a19d3",
+        "size": 8582,
+        "mode": "100644"
+      },
+      {
+        "path": "references/planner_instructions.md",
+        "git_blob_sha1": "8d33bf8c26b12934f423c06175fb2bb0284df7ca",
+        "sha256": "5729f9dc4d215812f41ae54025873de3f1bf52bda82981ffddc93b5be0ce2806",
+        "size": 2770,
+        "mode": "100644"
+      },
+      {
+        "path": "references/raw_terraform_troubleshooting.md",
+        "git_blob_sha1": "12f36f47b8a10048055774132ca6927a02314af3",
+        "sha256": "74fd1cc0f49ea30889986d6533a2e550b823daa045a2c06fb4a78c5961b56908",
+        "size": 4376,
+        "mode": "100644"
+      },
+      {
+        "path": "references/remediation_guide.md",
+        "git_blob_sha1": "f3dc12f8e2b8474e2ea6a5b6d1a3f289b5fbbb92",
+        "sha256": "2e27033dafda947fa15937dc5c1d970f31532e6f0b87b34ab7c9abde98dc6f90",
+        "size": 4386,
+        "mode": "100644"
+      },
+      {
+        "path": "references/terraform_validator_instructions.md",
+        "git_blob_sha1": "96c943b9821c41ec842bf3ad2ae8a2d210330065",
+        "sha256": "8f0ca1d91dfbb0a4c6beb4fd9cc3a92866f72dd88a677b474c26de9b1463489a",
+        "size": 2551,
+        "mode": "100644"
+      },
+      {
+        "path": "references/troubleshooting_guide.md",
+        "git_blob_sha1": "c1fd8fec6a3abe6a2e20bc48c1dc95c2f1757a73",
+        "sha256": "26a4d61f692f6c3c153610f065a6e20304e8349e9137d78b488f65bb88826e0e",
+        "size": 2651,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_terraform_template.py",
+        "git_blob_sha1": "ef634b296213b8bf840d1ab9d5b852180dbd6357",
+        "sha256": "1510b2014d53692d8b41d50502c96d801a59445268d8c8581a79053b283d9d7f",
+        "size": 10076,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_terraform_template_test.py",
+        "git_blob_sha1": "9c87652c8d63c551d2038102c6723f9f3c151ec0",
+        "sha256": "8ca333b641a96f2f8cab6732f5acb514f1a24a7bb7b820a9775f72d815c76eae",
+        "size": 1411,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_terraform_templates.py",
+        "git_blob_sha1": "f5c100021327b49e642e3a515b4e7b2d588d176c",
+        "sha256": "2b0e20ef2e69e38d9d9813c1a1c5ce23887833be9f24c7856ce9d335ff390732",
+        "size": 4125,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/list_terraform_templates_test.py",
+        "git_blob_sha1": "82dfd86c4eee05c2d490b8243084e241481122f8",
+        "sha256": "9ce25480dcf968ea07b9a44083c6ccbd297ac6e933b724267c6caca2445e6c5f",
+        "size": 960,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+  "new_commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to DevEx, Serverless, and Observability skills.\n\n- Add `references/attribution.md` to all 21 DevEx, Serverless, API Gateway, and Observability skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills and bundled plugin manifests.\n\nPiperOrigin-RevId: 1002429999",
+  "new_commit_time": "2026-10-19T17:26:03Z",
+  "compare_url": "https://github.com/google/skills/compare/6c946422b9456555b9a4d8144edeeb64a9f56e94...a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "commit_url": "https://github.com/google/skills/commit/a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "skill_directory": "skills/cloud/application-design-center-design-deploy",
+  "local_directory": "verified_real_update_pairs/OPU-0286",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0286",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

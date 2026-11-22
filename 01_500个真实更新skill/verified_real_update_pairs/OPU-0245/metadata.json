@@ -1,0 +1,105 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/gh-cli/skills/gh-cli/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "ce740e6154187af51756",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "1004934abf6b43f614af6f79720373e1d581e6e8",
+    "computed_tree_sha": "d11c45dc5f3b5331ac03065e4c7167be760b6cc9",
+    "api_tree_sha_as_returned": "d11c45dc5f3b5331ac03065e4c7167be760b6cc9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2a4a2a78ecbf9bf7d44918808a718059a18c9fa7",
+        "sha256": "3387cd7e38d10ddd9e67d88d69e180a7adefdb79b0d8b53d17640c0e408a3d2a",
+        "size": 1224,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "43d7af806478ea534164ac7b55a3c4ff7b359986",
+    "computed_tree_sha": "c3c3162e1ddd5c2dfa4a491bee94dc83a4c903e1",
+    "api_tree_sha_as_returned": "c3c3162e1ddd5c2dfa4a491bee94dc83a4c903e1",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "de7c27e695ef8d18483168a2ca36905dd8529a2b",
+        "sha256": "3810c9ff56ae9a26f4c6c1e0d058a946cd97e800441630208007a0983b9cfc49",
+        "size": 1242,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "1004934abf6b43f614af6f79720373e1d581e6e8",
+  "new_commit": "43d7af806478ea534164ac7b55a3c4ff7b359986",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "gh-cli: intercept GitHub fetches from MCP fetch tools (#274)\n\n* gh-cli: intercept GitHub fetches from MCP fetch tools\n\nThe fetch hook only matched WebFetch, so a GitHub URL fetched through an\nMCP fetch tool bypassed it entirely. Match `mcp__.*[Ff]etch` as well, which\ncovers Exa's `web_fetch_exa` and equivalents from other MCP servers.\n\nA matcher alone is not enough: WebFetch passes a single `url`, while MCP\nfetch tools pass a `urls` array and batch several pages into one call. Read\nboth shapes. A tool call is atomic, so one GitHub URL anywhere in a batch\ndenies the whole call, and each offending URL is labeled with its own\nsuggestion. Single-URL calls keep the message they had.\n\nSplit the URL classification into suggest_api, suggest_raw, and\nsuggest_github_com behind a suggest_for_url dispatcher so it can run per URL\nin a loop, and collapse eight verbatim copies of the clone hint into one\nhelper. Behavior is unchanged; blob and tree merge into one branch because\nthey emitted identical text.\n\nThe plugin README's interception table now also lists the pull, issues,\nreleases, and gist patterns the hook already handled but never documented.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* gh-cli: address review on the MCP fetch interceptor\n\nTest the matcher. Nothing exercised the regex that decides whether the\nhook runs at all, so a matcher firing on nothing would still pass every\nother suite here. matcher.bats reads it out of hooks.json and checks it\nagainst real tool names, and refuses to run against an empty matcher,\nwhich would make every match assertion pass vacuously.\n\nWiden the matcher to fetch, scrape, crawl, and extract. Firecrawl's\nscrape and Tavily's extract retrieve a URL like any fetch tool but carry\nno \"fetch\" in the name, so they bypassed the hook while the README\npromised \"any MCP fetch tool\". The README now names what matches.\n\nCheck a string-valued `urls`. A server declaring `urls: string | string[]`\nsent a bare string, `arrays` dropped it, and the fetch went out\nunauthenticated. Listing the field twice keeps it under both shapes.\n`prompt` is still not scanned, so a prompt mentioning a GitHub URL does\nnot false-deny.\n\nGive the closing note its own line when several URLs are denied; it\npreviously trailed only the last entry.\n\nGuard assert_suggestion_starts_with against an empty reason and an empty\nprefix, either of which let it pass while inspecting nothing.\n\nDocument the api.github.com contents, releases, and actions rows. The\ngeneric `gh api` row was actively wrong for /contents/, pointing readers\nat the anti-pattern the shim exists to block.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-25T14:38:13Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/1004934abf6b43f614af6f79720373e1d581e6e8...43d7af806478ea534164ac7b55a3c4ff7b359986",
+  "commit_url": "https://github.com/trailofbits/skills/commit/43d7af806478ea534164ac7b55a3c4ff7b359986",
+  "skill_directory": "plugins/gh-cli/skills/gh-cli",
+  "local_directory": "verified_real_update_pairs/OPU-0245",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0245",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "repository": "cloudflare/skills",
+  "primary": "skills/cloudflare-one/SKILL.md",
+  "pinned_commit": "5108325ecceabc899c761e07aa617b09c02445ee",
+  "repository_license": "Apache-2.0",
+  "key": "c875da44e93c90589f50",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "1820a51dda1c1ed8f849ad355cd56e62a6ec395f",
+    "computed_tree_sha": "741462be7b2c10fbe8ab1f36f508d5294843d06d",
+    "api_tree_sha_as_returned": "741462be7b2c10fbe8ab1f36f508d5294843d06d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "517c04cf67c097e019fb5c63e1ce43e890323724",
+        "sha256": "2981cc98ebb9d4188de2e68fa5aa75fb104f2acd38016242c688c9568698b855",
+        "size": 24043,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "bc7426c4c6e10a7b7832d94f3731aba5b83a67c4",
+        "sha256": "fdac0814387314f64d3ba835f0923aef86935d2818325d40aaaa0c1e07768774",
+        "size": 2799,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "0ebb24138425f111994af3d8d9d5560d2dc68926",
+    "computed_tree_sha": "55ec81e0b6e4c26906b03c763270ee7367f2d612",
+    "api_tree_sha_as_returned": "55ec81e0b6e4c26906b03c763270ee7367f2d612",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "61493c0980fdbc39306f68d4cd4b5cc16682ad7e",
+        "sha256": "5e9b81bfe4ebd1737346123679eaca0004b9d3ab9a0239729103b442e0f89614",
+        "size": 26496,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-feedback.md",
+        "git_blob_sha1": "bc7426c4c6e10a7b7832d94f3731aba5b83a67c4",
+        "sha256": "fdac0814387314f64d3ba835f0923aef86935d2818325d40aaaa0c1e07768774",
+        "size": 2799,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "1820a51dda1c1ed8f849ad355cd56e62a6ec395f",
+  "new_commit": "0ebb24138425f111994af3d8d9d5560d2dc68926",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Teach agents to use Access service tokens (#269)\n\n* Teach agents to use Access service tokens\n\nWhen a non-browser client hits a Cloudflare Access login page, check for\nan authorized service token and send its header pair on the original\nrequest. Cover Service Auth policies, secret handling, cross-origin\nredirects, and single-header mode. Route these requests from the\ncloudflare skill to cloudflare-one.\n\nCo-authored-by: scottbuscemi <4336848+scottbuscemi@users.noreply.github.com>\nCo-authored-by: Brendan Irvine-Broque <1221592+irvinebroque@users.noreply.github.com>\n\n* separate ref to auth token types\n\nCo-authored-by: Jordan Coeyman <coeyman@gmail.com>\n\n---------\n\nCo-authored-by: scottbuscemi <4336848+scottbuscemi@users.noreply.github.com>\nCo-authored-by: Brendan Irvine-Broque <1221592+irvinebroque@users.noreply.github.com>\nCo-authored-by: Jordan Coeyman <coeyman@gmail.com>",
+  "new_commit_time": "2026-11-06T19:27:09Z",
+  "compare_url": "https://github.com/cloudflare/skills/compare/1820a51dda1c1ed8f849ad355cd56e62a6ec395f...0ebb24138425f111994af3d8d9d5560d2dc68926",
+  "commit_url": "https://github.com/cloudflare/skills/commit/0ebb24138425f111994af3d8d9d5560d2dc68926",
+  "skill_directory": "skills/cloudflare-one",
+  "local_directory": "verified_real_update_pairs/OPU-0069",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0069",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

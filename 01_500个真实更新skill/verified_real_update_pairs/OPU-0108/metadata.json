@@ -1,0 +1,91 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/huggingface-gradio/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "4e48ef2f8472bac1987e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "386571e3e65ef0c129af2747ff36d1fa6fc5b8a4",
+    "computed_tree_sha": "8c867087e5036c64101d71d639fa2bd6caef124c",
+    "api_tree_sha_as_returned": "8c867087e5036c64101d71d639fa2bd6caef124c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "08c453550081fb35ba2bff8b84c54923a356c15a",
+        "sha256": "e2f4c232c38682bccfc73115ca7d0a5427f7d625e6fd56b32515fe4c0900f997",
+        "size": 22816,
+        "mode": "100644"
+      },
+      {
+        "path": "examples.md",
+        "git_blob_sha1": "b48c4cdc6dddbef128d026c1ec47442ebca51788",
+        "sha256": "f9f229a4ec8d426a158c2f1bafab0f0beeda10153f7938fce3a2c40b0bb3bc62",
+        "size": 14481,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ff28908172004ae4def67d7fe8b31b77482aa594",
+    "computed_tree_sha": "75453174e11f331ba6ce60a8267c3a7a3e1a778c",
+    "api_tree_sha_as_returned": "75453174e11f331ba6ce60a8267c3a7a3e1a778c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "81dfb05834ab34a13cb0171a2fb03e4557b1e148",
+        "sha256": "ce41c656e364a8027755a520372448036d90811f5a1d377f02bb9d549c0865a9",
+        "size": 24741,
+        "mode": "100644"
+      },
+      {
+        "path": "examples.md",
+        "git_blob_sha1": "b48c4cdc6dddbef128d026c1ec47442ebca51788",
+        "sha256": "f9f229a4ec8d426a158c2f1bafab0f0beeda10153f7938fce3a2c40b0bb3bc62",
+        "size": 14481,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "386571e3e65ef0c129af2747ff36d1fa6fc5b8a4",
+  "new_commit": "ff28908172004ae4def67d7fe8b31b77482aa594",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Document gradio CLI commands for info and predict in Gradio skill (#91)\n\nAdd CLI commands for interacting with Gradio apps to the Gradio SKILL.md",
+  "new_commit_time": "2026-03-24T19:17:07Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/386571e3e65ef0c129af2747ff36d1fa6fc5b8a4...ff28908172004ae4def67d7fe8b31b77482aa594",
+  "commit_url": "https://github.com/huggingface/skills/commit/ff28908172004ae4def67d7fe8b31b77482aa594",
+  "skill_directory": "skills/huggingface-gradio",
+  "local_directory": "verified_real_update_pairs/OPU-0108",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0108",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

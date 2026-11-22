@@ -1,0 +1,160 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/figma-implement-design/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "32d36427f8ea82367106",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "34bcbc7658a9a89631f1200c1e120ef74cd285ff",
+    "computed_tree_sha": "5fdacc9eb0596197d816c6baa7bb12f90820a4f6",
+    "api_tree_sha_as_returned": "5fdacc9eb0596197d816c6baa7bb12f90820a4f6",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8581cfc2a60e493b43703811db2c98425a6cf25c",
+        "sha256": "adea0fa5ed0b77a75112f64737f4aa562fcc231d242370f8cbdb25d050be19ad",
+        "size": 11513,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "04fe2b0bb5d44588770a9e3cb14c95ce5aea7c8b",
+        "sha256": "85458037bb2fa5fe85375ceb9535c8eefe14591c4ca2994501e0d89690292c03",
+        "size": 488,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/figma-small.svg",
+        "git_blob_sha1": "b2c61bae7999fa60925b3c5bc9eb9bd5e3814a09",
+        "sha256": "6a38267efbd872bbc215d0227a395eb0b0093bc6441c44a39a43f3210549e5e9",
+        "size": 818,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/figma.png",
+        "git_blob_sha1": "ebeedbf5d6a8cac0c1f82aa06358f29009fb453d",
+        "sha256": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada",
+        "size": 1612,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/icon.svg",
+        "git_blob_sha1": "5184f7cf270d90c4ccb34545081b3f707602bb5d",
+        "sha256": "8936c5dcd619c41f5a27f7c08e8c50b22e428069c36217e4aa872099d6cc2cf7",
+        "size": 964,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "0e7823cca07bc2cbf34718a383f9ae92525be6a5",
+    "computed_tree_sha": "228dd1fbe56274cb153f57f4a253e4d5996a492c",
+    "api_tree_sha_as_returned": "228dd1fbe56274cb153f57f4a253e4d5996a492c",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size": 11358,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9aacde6657a913db819d7938f3fd1888ff643c6a",
+        "sha256": "63f3d12d444547bbf68c10a12982b1f42e0f6e26fc074324564a13184d4b15ad",
+        "size": 11621,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "b6991b4acc7fad969b142d333565ec4f4a66a5a0",
+        "sha256": "7765be0bb06c64610b4eae3bd2898d77aa2b03b799eb86c2f126103120080fea",
+        "size": 519,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/figma-small.svg",
+        "git_blob_sha1": "b2c61bae7999fa60925b3c5bc9eb9bd5e3814a09",
+        "sha256": "6a38267efbd872bbc215d0227a395eb0b0093bc6441c44a39a43f3210549e5e9",
+        "size": 818,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/figma.png",
+        "git_blob_sha1": "ebeedbf5d6a8cac0c1f82aa06358f29009fb453d",
+        "sha256": "4d16e1b19ae7bdac7d601d0b3bf3c0ea4a018a8cb0e38d19e5b00971968ecada",
+        "size": 1612,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/icon.svg",
+        "git_blob_sha1": "5184f7cf270d90c4ccb34545081b3f707602bb5d",
+        "sha256": "8936c5dcd619c41f5a27f7c08e8c50b22e428069c36217e4aa872099d6cc2cf7",
+        "size": 964,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "agents/openai.yaml"
+  ],
+  "old_commit": "34bcbc7658a9a89631f1200c1e120ef74cd285ff",
+  "new_commit": "0e7823cca07bc2cbf34718a383f9ae92525be6a5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "[codex] Add latest Figma partner skills (#306)\n\n## What changed\n- add six curated Figma skills: `figma-use`, `figma-generate-design`,\n`figma-generate-library`, `figma-code-connect-components`,\n`figma-create-design-system-rules`, and `figma-create-new-file`\n- refresh the existing `figma` and `figma-implement-design` skill\nmetadata to match the imported partner workflow split\n- import the referenced assets, maintainers files, docs, and helper\nscripts that those skills depend on\n- add a small follow-up cleanup commit to remove repo-unsupported\n`disable-model-invocation` frontmatter and strip imported trailing\nwhitespace\n\n## Why\n- Figma asked for the latest skills from `figma/mcp-server-guide` to be\navailable in `openai/skills`\n- the provided patch needed a small repo-specific cleanup pass to\nsatisfy this repository's skill validation rules\n\n## Impact\n- makes the expanded Figma skill set available from the curated skills\ncatalog\n- keeps the imported skills structurally compatible with the current\n`openai/skills` validation expectations\n\n## Validation\n- `python3 skills/.system/skill-creator/scripts/quick_validate.py` for\n`skills/.curated/figma-code-connect-components`,\n`skills/.curated/figma-create-design-system-rules`,\n`skills/.curated/figma-create-new-file`,\n`skills/.curated/figma-generate-design`,\n`skills/.curated/figma-generate-library`, `skills/.curated/figma-use`,\nand `skills/.curated/figma-implement-design`\n- `git diff --check origin/main...HEAD`\n- `python3 -m py_compile\nskills/.curated/figma-code-connect-components/scripts/normalize_node_id.py`\n- `bash -n\nskills/.curated/figma-create-design-system-rules/scripts/check_agents_md.sh`\n- `node --check skills/.curated/figma-generate-library/scripts/*.js`\n\n---------\n\nCo-authored-by: Ashwin Mathews <ashwinm@openai.com>",
+  "new_commit_time": "2026-03-24T14:48:51Z",
+  "compare_url": "https://github.com/openai/skills/compare/34bcbc7658a9a89631f1200c1e120ef74cd285ff...0e7823cca07bc2cbf34718a383f9ae92525be6a5",
+  "commit_url": "https://github.com/openai/skills/commit/0e7823cca07bc2cbf34718a383f9ae92525be6a5",
+  "skill_directory": "skills/.curated/figma-implement-design",
+  "local_directory": "verified_real_update_pairs/OPU-0011",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0011",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

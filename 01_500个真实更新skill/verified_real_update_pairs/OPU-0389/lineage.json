@@ -1,0 +1,82 @@
+{
+  "sha": "e96f2070b42c11e184e662cfe1fda8b20c9e2140",
+  "node_id": "C_kwDOR2K4PNoAKGU5NmYyMDcwYjQyYzExZTE4NGU2NjJjZmUxZmRhOGIyMGM5ZTIxNDA",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-11-19T16:03:35Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-11-19T16:04:20Z"
+    },
+    "message": "Move the Cloud Operator skills to organization-scoped operator agents.\n\nEach user now has one personal operator agent per Google Cloud organization.\nThe cloud-operator, cloud-operator-setup and cloud-operator-share-context\nskills find the organization of the project the user works in, call the\noperator with `organization`, and walk the user through creating their agent\nwhen they don't have one yet.\n\nPiperOrigin-RevId: 1025598336",
+    "tree": {
+      "sha": "824d4b41259e223d591bfba49c7162ac3a9d12ef",
+      "url": "https://api.github.com/repos/google/skills/git/trees/824d4b41259e223d591bfba49c7162ac3a9d12ef"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/e96f2070b42c11e184e662cfe1fda8b20c9e2140",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/e96f2070b42c11e184e662cfe1fda8b20c9e2140",
+  "html_url": "https://github.com/google/skills/commit/e96f2070b42c11e184e662cfe1fda8b20c9e2140",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/e96f2070b42c11e184e662cfe1fda8b20c9e2140/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "06fff9e3edb7fc3c115a1769406047fcaf0a6289",
+      "url": "https://api.github.com/repos/google/skills/commits/06fff9e3edb7fc3c115a1769406047fcaf0a6289",
+      "html_url": "https://github.com/google/skills/commit/06fff9e3edb7fc3c115a1769406047fcaf0a6289"
+    }
+  ]
+}

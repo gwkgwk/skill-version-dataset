@@ -1,0 +1,93 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-logging-configuration-basics/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "614593c633ebd363a76e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "2194d3b8b1f31975fef2f1a0ae6b9ab55bd7ceee",
+    "computed_tree_sha": "b7108d395150a4fafc5aea14c4989e4d447d1a1c",
+    "api_tree_sha_as_returned": "b7108d395150a4fafc5aea14c4989e4d447d1a1c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ccf502f164523b209227e5c602646d8246d94f53",
+        "sha256": "687052061e4220584e45e2b3dfa54b1458c9c3249d66e9e4328321508eca0f24",
+        "size": 14311,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "b57b11d764f9d9bb57fe12ea8209a7cd275760f9",
+        "sha256": "232412d64cb3c7eae68f2bf9b0cb140a58b7e268bb430666807b0969120f717c",
+        "size": 1942,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "00dc11483fe7b3cf40895f0a3e11e1c9803cf2df",
+    "computed_tree_sha": "e16bcd153ef9bfd6554026cf2bb35a6860ac4fdf",
+    "api_tree_sha_as_returned": "e16bcd153ef9bfd6554026cf2bb35a6860ac4fdf",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2b28c5e70eab5ea75b36a3d22b2040271406b5f2",
+        "sha256": "c1ef3caedb03f22b4cab32d268cfe7f5c76404fa12c6d33734d10fe6a3e18e15",
+        "size": 14329,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "b57b11d764f9d9bb57fe12ea8209a7cd275760f9",
+        "sha256": "232412d64cb3c7eae68f2bf9b0cb140a58b7e268bb430666807b0969120f717c",
+        "size": 1942,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "2194d3b8b1f31975fef2f1a0ae6b9ab55bd7ceee",
+  "new_commit": "00dc11483fe7b3cf40895f0a3e11e1c9803cf2df",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Cloud Logging bucket analytics guidance and Cloud Monitoring notification channel CLI attribution tokens.\n\nPiperOrigin-RevId: 1017295666",
+  "new_commit_time": "2026-11-09T14:26:10Z",
+  "compare_url": "https://github.com/google/skills/compare/2194d3b8b1f31975fef2f1a0ae6b9ab55bd7ceee...00dc11483fe7b3cf40895f0a3e11e1c9803cf2df",
+  "commit_url": "https://github.com/google/skills/commit/00dc11483fe7b3cf40895f0a3e11e1c9803cf2df",
+  "skill_directory": "skills/cloud/cloud-logging-configuration-basics",
+  "local_directory": "verified_real_update_pairs/OPU-0353",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0353",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/bigquery-troubleshooting/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "3a06d35465cad95a673f",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+    "computed_tree_sha": "e8aa5aaf427ed08a5d9e2612f5f6d12ebbb8cb7f",
+    "api_tree_sha_as_returned": "e8aa5aaf427ed08a5d9e2612f5f6d12ebbb8cb7f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4f14ca5c10b1ab8189e38eac41b88231cdedec9b",
+        "sha256": "c67802f8d1ed518903499877f5777e5591a36d2ce59def250452ab79380872e5",
+        "size": 10133,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cost_compute_capacity.md",
+        "git_blob_sha1": "71da24f21285b572ada2df42db4e6a00ae33f8a6",
+        "sha256": "1065b4a07c8bb80ec4c56bfea4d1f7fc5911005d59d2c04a75d876376c3b95b1",
+        "size": 16625,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cost_compute_ondemand.md",
+        "git_blob_sha1": "f7b420a7564b23e03cdff94d08711cb8c9235e79",
+        "sha256": "2b7ecc3bc2caba7457effb674f6943078a94220235ff0b6f0b7213d6c893fbd3",
+        "size": 16453,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cost_storage.md",
+        "git_blob_sha1": "ed04a5f48f7529baf9fcd158b702e437c7bda293",
+        "sha256": "bcfc70ab56362ed0d5c38b75dcd41488e2b6ec742bd8c7e813949bc0b61380c3",
+        "size": 18074,
+        "mode": "100644"
+      },
+      {
+        "path": "references/performance_config_changed.md",
+        "git_blob_sha1": "56ce4257b599f3aebc9aa4f0921ccd5ad9ce02f5",
+        "sha256": "0b53c2359ea7ff87657d9fb57bb11c4512ca0f7a1c5e22373945071773c5de25",
+        "size": 6212,
+        "mode": "100644"
+      },
+      {
+        "path": "references/performance_resource_contention.md",
+        "git_blob_sha1": "8bfa33da93804f5a34bcb6a57b7cfb6d10c66c5b",
+        "sha256": "72095052df7b08dfb10dea25f2b31bb1620c43ed70ef1d9538725d4838691bf3",
+        "size": 11257,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query_plan_execution_graph.md",
+        "git_blob_sha1": "faa92836b985fb2ffb18bee3e0995e19fecc5a3d",
+        "sha256": "da074020f406504472586bd88fe7bdfd1c70b5d67840f3eef5a3de1571230c86",
+        "size": 10225,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+    "computed_tree_sha": "9240ec3db368ba1ba693eb12159b81916b14cbb7",
+    "api_tree_sha_as_returned": "9240ec3db368ba1ba693eb12159b81916b14cbb7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0cba59f791d52490162cc58f95bb573f1a2b028b",
+        "sha256": "b11a0c859f098bdd4075f5d0c3edb9bf9272b77fadcc8341fff76cb6d4648fa3",
+        "size": 10586,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "92ecdb308ecd815636e7f36546d49b5f0b3a8b30",
+        "sha256": "6bccddae357bc8f965cb0d7460b08cd3070ea57bfe708a98333b1009a1845b81",
+        "size": 1912,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cost_compute_capacity.md",
+        "git_blob_sha1": "71da24f21285b572ada2df42db4e6a00ae33f8a6",
+        "sha256": "1065b4a07c8bb80ec4c56bfea4d1f7fc5911005d59d2c04a75d876376c3b95b1",
+        "size": 16625,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cost_compute_ondemand.md",
+        "git_blob_sha1": "f7b420a7564b23e03cdff94d08711cb8c9235e79",
+        "sha256": "2b7ecc3bc2caba7457effb674f6943078a94220235ff0b6f0b7213d6c893fbd3",
+        "size": 16453,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cost_storage.md",
+        "git_blob_sha1": "ed04a5f48f7529baf9fcd158b702e437c7bda293",
+        "sha256": "bcfc70ab56362ed0d5c38b75dcd41488e2b6ec742bd8c7e813949bc0b61380c3",
+        "size": 18074,
+        "mode": "100644"
+      },
+      {
+        "path": "references/performance_config_changed.md",
+        "git_blob_sha1": "56ce4257b599f3aebc9aa4f0921ccd5ad9ce02f5",
+        "sha256": "0b53c2359ea7ff87657d9fb57bb11c4512ca0f7a1c5e22373945071773c5de25",
+        "size": 6212,
+        "mode": "100644"
+      },
+      {
+        "path": "references/performance_resource_contention.md",
+        "git_blob_sha1": "8bfa33da93804f5a34bcb6a57b7cfb6d10c66c5b",
+        "sha256": "72095052df7b08dfb10dea25f2b31bb1620c43ed70ef1d9538725d4838691bf3",
+        "size": 11257,
+        "mode": "100644"
+      },
+      {
+        "path": "references/query_plan_execution_graph.md",
+        "git_blob_sha1": "faa92836b985fb2ffb18bee3e0995e19fecc5a3d",
+        "sha256": "da074020f406504472586bd88fe7bdfd1c70b5d67840f3eef5a3de1571230c86",
+        "size": 10225,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+  "new_commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to Data and Databases agent skills.\n\n- Add `references/attribution.md` to all 17 Data, Analytics, and Database skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1003337710",
+  "new_commit_time": "2026-10-20T20:10:36Z",
+  "compare_url": "https://github.com/google/skills/compare/46e817d86d34f8a3d21a0432e99ae3e3feddda72...dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "commit_url": "https://github.com/google/skills/commit/dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "skill_directory": "skills/cloud/bigquery-troubleshooting",
+  "local_directory": "verified_real_update_pairs/OPU-0335",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0335",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-databases-onboarding/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "7859aee8b38c3044320b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "92db677bbc38b61a2ede437ee47591532bde5f4d",
+    "computed_tree_sha": "aad6c3353ed1ce12318a1bcaf3c2947926db2d82",
+    "api_tree_sha_as_returned": "aad6c3353ed1ce12318a1bcaf3c2947926db2d82",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "812eb08f99c3879f7483b555d1916bf007380d65",
+        "sha256": "b35881ab66565a01432f4979109e113f424b2bb6e8701cb28542fa93c85dd6e5",
+        "size": 7102,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "acd3e506762cf3feac5f52e647e2b5f23d5f6a0b",
+        "sha256": "5dfef3f107d8f60b4794c7922edac285d61c4f6aa6b0bde38d81342184eeec2a",
+        "size": 1918,
+        "mode": "100644"
+      },
+      {
+        "path": "references/onboarding_prompts.md",
+        "git_blob_sha1": "fa177258a1ebbe9ddae55cefc3d5e3dbf4232c4b",
+        "sha256": "64c726a108a6aac6a626730c8ceeecfebb69f13abf6576e6df4f13a203b35d7c",
+        "size": 12439,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recommendation_matrix.txt",
+        "git_blob_sha1": "53dfba10f7413d312f52bca058c4fe3174df7a8e",
+        "sha256": "c257d81c161619b03b7c0c00b8dd32fd616d95c2f49092ec5532918295812af9",
+        "size": 44529,
+        "mode": "100644"
+      },
+      {
+        "path": "references/selection_prompts.md",
+        "git_blob_sha1": "cd09361bceaf6616f3f7888633294ccb19bd8ee1",
+        "sha256": "bbe26144b2e3aaff380da8562ceda1a42ca49c2f1fe2d4df7af944456f73d0cf",
+        "size": 1041,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/database_onboarding_skill.py",
+        "git_blob_sha1": "28406208f68d146c10f840df74da97087871b3f8",
+        "sha256": "ecf9bdf09b1b84485c75bc7f3a7d0cea3f2ce3631190c8362a453357b4cb26c3",
+        "size": 6572,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "79d398ad93c0ebd1e5a4c010df8cd672d1976f23",
+    "computed_tree_sha": "b71d16760883eeee8813920f389939728702332b",
+    "api_tree_sha_as_returned": "b71d16760883eeee8813920f389939728702332b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d73ce7ffcccaec906a9a087ff53bc40e847a1879",
+        "sha256": "7e16fe8dd65080f917e30ebd9650e07582544435ade920ebac47b3696484bd0b",
+        "size": 7099,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "acd3e506762cf3feac5f52e647e2b5f23d5f6a0b",
+        "sha256": "5dfef3f107d8f60b4794c7922edac285d61c4f6aa6b0bde38d81342184eeec2a",
+        "size": 1918,
+        "mode": "100644"
+      },
+      {
+        "path": "references/onboarding_prompts.md",
+        "git_blob_sha1": "5f5b3c19edbba7b0eaabbd4a5cf641b5827ecc41",
+        "sha256": "5e6c9cba961030c0600e63055db8a9c5b683e0784ff31b04667b636d002f8c37",
+        "size": 12413,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recommendation_matrix.txt",
+        "git_blob_sha1": "53dfba10f7413d312f52bca058c4fe3174df7a8e",
+        "sha256": "c257d81c161619b03b7c0c00b8dd32fd616d95c2f49092ec5532918295812af9",
+        "size": 44529,
+        "mode": "100644"
+      },
+      {
+        "path": "references/selection_prompts.md",
+        "git_blob_sha1": "cd09361bceaf6616f3f7888633294ccb19bd8ee1",
+        "sha256": "bbe26144b2e3aaff380da8562ceda1a42ca49c2f1fe2d4df7af944456f73d0cf",
+        "size": 1041,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/database_onboarding_skill.py",
+        "git_blob_sha1": "28406208f68d146c10f840df74da97087871b3f8",
+        "sha256": "ecf9bdf09b1b84485c75bc7f3a7d0cea3f2ce3631190c8362a453357b4cb26c3",
+        "size": 6572,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/onboarding_prompts.md"
+  ],
+  "old_commit": "92db677bbc38b61a2ede437ee47591532bde5f4d",
+  "new_commit": "79d398ad93c0ebd1e5a4c010df8cd672d1976f23",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Fix databases product URL and portable gcloud skill reference in cloud-databases-onboarding\n\n- Link to `https://cloud.google.com/products/databases` without the `.md.txt` suffix in `SKILL.md`.\n- Reference the `gcloud` skill by name instead of relative `SKILL.md` paths for portable skill discovery.\n\nPiperOrigin-RevId: 1023672017",
+  "new_commit_time": "2026-11-17T14:06:05Z",
+  "compare_url": "https://github.com/google/skills/compare/92db677bbc38b61a2ede437ee47591532bde5f4d...79d398ad93c0ebd1e5a4c010df8cd672d1976f23",
+  "commit_url": "https://github.com/google/skills/commit/79d398ad93c0ebd1e5a4c010df8cd672d1976f23",
+  "skill_directory": "skills/cloud/cloud-databases-onboarding",
+  "local_directory": "verified_real_update_pairs/OPU-0350",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0350",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

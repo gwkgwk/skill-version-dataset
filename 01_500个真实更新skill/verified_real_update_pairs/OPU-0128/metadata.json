@@ -1,0 +1,176 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/huggingface-lora-space-builder/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "3becca222f46d1ce22be",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "9c8c3e1c96111298bffff71b7ac363524742b76f",
+    "computed_tree_sha": "3876b2e721d65a2761064a70656b282cce0f831a",
+    "api_tree_sha_as_returned": "3876b2e721d65a2761064a70656b282cce0f831a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "890177d6837f091362b7b59e5525763e21df1b8b",
+        "sha256": "358671954b85526361270afed3ad7fd7f27783671339124e6a0e021f530fae2c",
+        "size": 33127,
+        "mode": "100644"
+      },
+      {
+        "path": "references/adapting-to-the-lora.md",
+        "git_blob_sha1": "d6749ece222e7d284908f06a156fc485559664b0",
+        "sha256": "57baf45d4551ca2ba454b1e3bb5230f58ebf43558d61da848213cb9bb4f44f2b",
+        "size": 13826,
+        "mode": "100644"
+      },
+      {
+        "path": "references/base-models/krea-2.md",
+        "git_blob_sha1": "085c69e72cc80f00ef6368cc38fce88f85bb6531",
+        "sha256": "aa53bb8abbbd954dc30cc8855ed09d36a36f739d9b1383be85a6e331eadf1ae4",
+        "size": 4086,
+        "mode": "100644"
+      },
+      {
+        "path": "references/base-models/ltx.md",
+        "git_blob_sha1": "c3f30d95a6447a5f7e6a628711fba1899dc9f0b8",
+        "sha256": "d6098a1cd094a62d2fb7e30cb034c24e2efe480cf8524a8d041b3f162bec9a8d",
+        "size": 15390,
+        "mode": "100644"
+      },
+      {
+        "path": "references/base-models/qwen-image.md",
+        "git_blob_sha1": "77a58c2c399ebc5f7135493d58996f8fdfac44a9",
+        "sha256": "47191d568572ce9118b57b40f4d5086a2d51429bc231eabd12ca14413ecab0c2",
+        "size": 7467,
+        "mode": "100644"
+      },
+      {
+        "path": "references/creative-mode.md",
+        "git_blob_sha1": "46017253efd9a31ad6b343347631da09aafbae7e",
+        "sha256": "860384cadd377ec54ceb782931cbb43edae67567e8b8c3dc84035725cb4e1119",
+        "size": 19151,
+        "mode": "100644"
+      },
+      {
+        "path": "references/tasks.md",
+        "git_blob_sha1": "e2d2bbc9334174d95141921c1a90278d2da5154a",
+        "sha256": "536d92b873d4af78eb9e68af227d933e5e261468600df9767aae996abe49e529",
+        "size": 10312,
+        "mode": "100644"
+      },
+      {
+        "path": "references/zerogpu-and-publishing.md",
+        "git_blob_sha1": "ad27a8ac88e82a2c621dee24051d18607a648a2e",
+        "sha256": "3de092f7d3f3044264c19a7c00360ab8608366ddad0fdd462641eb5f2dfe1aea",
+        "size": 14164,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "86cdeee824b73e504198b6005bb113552cdfa7ba",
+    "computed_tree_sha": "539ebe557b173a0c9d9b9d049a3eeecdfb85d9eb",
+    "api_tree_sha_as_returned": "539ebe557b173a0c9d9b9d049a3eeecdfb85d9eb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c1d0cbbfa60999ced1f97e136af5010ab86c814c",
+        "sha256": "7192d4a44172609eb073334e0410aff1d3b9134f82b94f1329435ca7fcfa0ad2",
+        "size": 33828,
+        "mode": "100644"
+      },
+      {
+        "path": "references/adapting-to-the-lora.md",
+        "git_blob_sha1": "d6749ece222e7d284908f06a156fc485559664b0",
+        "sha256": "57baf45d4551ca2ba454b1e3bb5230f58ebf43558d61da848213cb9bb4f44f2b",
+        "size": 13826,
+        "mode": "100644"
+      },
+      {
+        "path": "references/base-models/krea-2.md",
+        "git_blob_sha1": "085c69e72cc80f00ef6368cc38fce88f85bb6531",
+        "sha256": "aa53bb8abbbd954dc30cc8855ed09d36a36f739d9b1383be85a6e331eadf1ae4",
+        "size": 4086,
+        "mode": "100644"
+      },
+      {
+        "path": "references/base-models/ltx.md",
+        "git_blob_sha1": "c3f30d95a6447a5f7e6a628711fba1899dc9f0b8",
+        "sha256": "d6098a1cd094a62d2fb7e30cb034c24e2efe480cf8524a8d041b3f162bec9a8d",
+        "size": 15390,
+        "mode": "100644"
+      },
+      {
+        "path": "references/base-models/qwen-image.md",
+        "git_blob_sha1": "77a58c2c399ebc5f7135493d58996f8fdfac44a9",
+        "sha256": "47191d568572ce9118b57b40f4d5086a2d51429bc231eabd12ca14413ecab0c2",
+        "size": 7467,
+        "mode": "100644"
+      },
+      {
+        "path": "references/creative-mode.md",
+        "git_blob_sha1": "46017253efd9a31ad6b343347631da09aafbae7e",
+        "sha256": "860384cadd377ec54ceb782931cbb43edae67567e8b8c3dc84035725cb4e1119",
+        "size": 19151,
+        "mode": "100644"
+      },
+      {
+        "path": "references/tasks.md",
+        "git_blob_sha1": "e2d2bbc9334174d95141921c1a90278d2da5154a",
+        "sha256": "536d92b873d4af78eb9e68af227d933e5e261468600df9767aae996abe49e529",
+        "size": 10312,
+        "mode": "100644"
+      },
+      {
+        "path": "references/zerogpu-and-publishing.md",
+        "git_blob_sha1": "05df4dd444302902fe8ce7c9eea96fe3d85a4b14",
+        "sha256": "816d948fadcb0591f81714ae029198b5440633c00281240a2d7ef4ab0afc248d",
+        "size": 14583,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/zerogpu-and-publishing.md"
+  ],
+  "old_commit": "9c8c3e1c96111298bffff71b7ac363524742b76f",
+  "new_commit": "86cdeee824b73e504198b6005bb113552cdfa7ba",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "[lora demo skill] Fix gr.Examples instructions  (#196)\n\n* Fix gr.Examples fn/inputs signature guidance in lora-space-builder\n\nAdd the rule that gr.Examples(fn=...) calls fn with only the inputs=\nvalues positionally, so uncovered params need defaults or the first\nexample click raises a missing-positional-argument TypeError.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* bump!\n\n* bump!\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\nCo-authored-by: evalstate <1936278+evalstate@users.noreply.github.com>",
+  "new_commit_time": "2026-07-16T08:07:15Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/9c8c3e1c96111298bffff71b7ac363524742b76f...86cdeee824b73e504198b6005bb113552cdfa7ba",
+  "commit_url": "https://github.com/huggingface/skills/commit/86cdeee824b73e504198b6005bb113552cdfa7ba",
+  "skill_directory": "skills/huggingface-lora-space-builder",
+  "local_directory": "verified_real_update_pairs/OPU-0128",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0128",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

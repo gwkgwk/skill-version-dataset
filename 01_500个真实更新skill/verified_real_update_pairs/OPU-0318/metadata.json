@@ -1,0 +1,206 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/bigquery-basics/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "6195b1524c2dd204bde4",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+    "computed_tree_sha": "845607f7e445f60db1dee54f00b63c4eb4364355",
+    "api_tree_sha_as_returned": "845607f7e445f60db1dee54f00b63c4eb4364355",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "06b7c11af9640b6f02f855588074ec5b28c791c9",
+        "sha256": "3602e2322a3c4fa84204e04633b389f7921ed3ff358b3831c7a1ccf086da5761",
+        "size": 3215,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "8925be500f68add1acf59865e7bd92337d33505b",
+        "sha256": "2a22d3acda2241abc46261f4f46947665e3be078472c86011e71e8e5e2ff0508",
+        "size": 1776,
+        "mode": "100644"
+      },
+      {
+        "path": "references/change-history.md",
+        "git_blob_sha1": "69a4aff43c31ffb856d3221932ccf7af4af82868",
+        "sha256": "6d21ec622c6efa8edd8377a9a963ac13de6d4dd2b53d4fe40c90cfb769e88088",
+        "size": 2532,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-usage.md",
+        "git_blob_sha1": "b22bb049bdb1838892c995d0a24ac94035c2de9d",
+        "sha256": "b8ec6d981390d543a6af0ac3072813c6f7df641547dc17ecfaa2d43e766612db",
+        "size": 2047,
+        "mode": "100644"
+      },
+      {
+        "path": "references/client-library-usage.md",
+        "git_blob_sha1": "06ab80ba8325c92a56cc554e41627b86726261f8",
+        "sha256": "4b091ffcd5f657e1c96dc60e2ad913266850a380c39190a26bbd90e229eb6b5a",
+        "size": 2319,
+        "mode": "100644"
+      },
+      {
+        "path": "references/continuous-queries.md",
+        "git_blob_sha1": "2d43a8a7452915ff3037eeea12087a89052e84cd",
+        "sha256": "01d77462193dc2343256ef2f69bdaa2c32cfc9af00e78a0e4ae010c2f1b589cc",
+        "size": 3685,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-concepts.md",
+        "git_blob_sha1": "f161277273cd42e1a17cf60174d8fe3c02f3473f",
+        "sha256": "0911ac060c9b0e9423ef9676bc98983b687c68696f178f01edc3d2b9715c4ab1",
+        "size": 3401,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-usage.md",
+        "git_blob_sha1": "b9ef3ae36b7d0473b6643389f7e5b1268c15f54e",
+        "sha256": "4cc7cba990280a5f2438bb965fb4bd575ca5967289f72bfd19b7830eb44b0208",
+        "size": 1777,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-security.md",
+        "git_blob_sha1": "3a234733f576f32b235343cbcfa0156bb3a8e793",
+        "sha256": "384c8d4b1eb64f9567cbc6f167cd38802a0b4b836b0616305d947fe4f46cca04",
+        "size": 1979,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "a1b97be4082c9f8137995835624c851325df7a12",
+        "sha256": "f4cf2ef39e89ae3fc8e3a0bc19100e3382dc1eeec920d4cd8c5801dc51a62df7",
+        "size": 2355,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+    "computed_tree_sha": "de6ab5e07db729fb6907c449df5b612613e6355b",
+    "api_tree_sha_as_returned": "de6ab5e07db729fb6907c449df5b612613e6355b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8ff9c66f44d1941c2f0e6c37c9377293a4890c9c",
+        "sha256": "56a16fab677f74728cc7f46aa8db5d2179be8cf6ad04b1582107dc3983d13db3",
+        "size": 3452,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "0da848b537c615ae2a4c812711def8bc2b11c9f9",
+        "sha256": "407c27816073df66f74d72d52dbb25cc33e8cd2980134b1d1724f153c8e27814",
+        "size": 1885,
+        "mode": "100644"
+      },
+      {
+        "path": "references/change-history.md",
+        "git_blob_sha1": "69a4aff43c31ffb856d3221932ccf7af4af82868",
+        "sha256": "6d21ec622c6efa8edd8377a9a963ac13de6d4dd2b53d4fe40c90cfb769e88088",
+        "size": 2532,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-usage.md",
+        "git_blob_sha1": "b22bb049bdb1838892c995d0a24ac94035c2de9d",
+        "sha256": "b8ec6d981390d543a6af0ac3072813c6f7df641547dc17ecfaa2d43e766612db",
+        "size": 2047,
+        "mode": "100644"
+      },
+      {
+        "path": "references/client-library-usage.md",
+        "git_blob_sha1": "06ab80ba8325c92a56cc554e41627b86726261f8",
+        "sha256": "4b091ffcd5f657e1c96dc60e2ad913266850a380c39190a26bbd90e229eb6b5a",
+        "size": 2319,
+        "mode": "100644"
+      },
+      {
+        "path": "references/continuous-queries.md",
+        "git_blob_sha1": "2d43a8a7452915ff3037eeea12087a89052e84cd",
+        "sha256": "01d77462193dc2343256ef2f69bdaa2c32cfc9af00e78a0e4ae010c2f1b589cc",
+        "size": 3685,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-concepts.md",
+        "git_blob_sha1": "f161277273cd42e1a17cf60174d8fe3c02f3473f",
+        "sha256": "0911ac060c9b0e9423ef9676bc98983b687c68696f178f01edc3d2b9715c4ab1",
+        "size": 3401,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-usage.md",
+        "git_blob_sha1": "b9ef3ae36b7d0473b6643389f7e5b1268c15f54e",
+        "sha256": "4cc7cba990280a5f2438bb965fb4bd575ca5967289f72bfd19b7830eb44b0208",
+        "size": 1777,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-security.md",
+        "git_blob_sha1": "3a234733f576f32b235343cbcfa0156bb3a8e793",
+        "sha256": "384c8d4b1eb64f9567cbc6f167cd38802a0b4b836b0616305d947fe4f46cca04",
+        "size": 1979,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "a1b97be4082c9f8137995835624c851325df7a12",
+        "sha256": "f4cf2ef39e89ae3fc8e3a0bc19100e3382dc1eeec920d4cd8c5801dc51a62df7",
+        "size": 2355,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+  "new_commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to Data and Databases agent skills.\n\n- Add `references/attribution.md` to all 17 Data, Analytics, and Database skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1003337710",
+  "new_commit_time": "2026-10-20T20:10:36Z",
+  "compare_url": "https://github.com/google/skills/compare/46e817d86d34f8a3d21a0432e99ae3e3feddda72...dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "commit_url": "https://github.com/google/skills/commit/dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "skill_directory": "skills/cloud/bigquery-basics",
+  "local_directory": "verified_real_update_pairs/OPU-0318",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0318",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

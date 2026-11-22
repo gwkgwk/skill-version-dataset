@@ -1,0 +1,82 @@
+{
+  "sha": "5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
+  "node_id": "C_kwDOQchDtdoAKDVhOWJiNGNiZTZkNzlkNDRhYTYxOWM3MGVkYmZhMTY1NDM1OGY2OWM",
+  "commit": {
+    "author": {
+      "name": "Christian Bager Bach Houmann",
+      "email": "christian@bagerbach.com",
+      "date": "2025-12-19T22:10:04Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-12-19T22:10:04Z"
+    },
+    "message": "Make GitHub CLI auth guidance public-friendly in curated skills (#19)\n\nThis PR removes references to oai_gh from the curated GitHub skills and\nreplaces them with standard GitHub CLI auth guidance (gh auth login).\nThe goal is to avoid assuming internal tooling in a public repo.\n\nThat said, I'm not sure whether oai_gh is actually a built-in Codex\nhelper. If it is, feel free to close this PR.\n\nI also did a sweep of .curated for other internal-only helpers and\ndidn't find any additional ones.",
+    "tree": {
+      "sha": "e24e913c0113456a3c5986ad3ad449d5f34a574d",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/e24e913c0113456a3c5986ad3ad449d5f34a574d"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpRc08CRC1aQ7uu5UhlAAAjOkQAFBTL/2nbt7Ob/5FTl1r9ojx\n4xdtLfsaxlqJjhGrug5Z8sLP8KvMZqRJhY7JECrrzSTtOvt5lW6FwoeeNZ2zkk9p\nPeiCFlX1yKeMvXjwPhgGKUXCofC7aws4ZnA4Bb1P0PWqbJqvuwGX1LScoUtBd5t1\niwX5UGeGi55af/rk75k+IXkpuQ289ZS1it0IBFSzXGicg5/GMEKaSRL3qzgFCDoR\nfMUYC6yCjwyTBAq43+q4Ajr+xNEGgdEZNLPOXB3JS42GvBHvIHuYtKjKNM6t27HR\nNT8RhHyD2mGQyl2EQxjra4PKglRG0ByAadJOHqcFFLpo5imQAKJrZmWAD9M1Tqy6\n5l474j9Es24uBKGlixkUnsIEub2nH9a4OgxgiJQML6BxX7IGnHj/RuNZCn7KbT3U\nJGuCFFzJaprv5AaOP+LHNEpa5yrx9LVIVVoM0pAuaZAY69/v7RqxIXUwhS+dkqOm\nOkdNBVFF5rQHLE4VyS0o2DyE+dTUEK5ZDwqBTofPKeVoocHCdmMVjb0Wu+izt8zf\nvcPltOWxo9fzIV/9BtQPJOp251ZxT4WzCZWbPrKDjULHzfZyLX0baxT9kWm03d8N\nOqYyDdkD00v6S0bROePLCYmLhgmj13Z3VIzMBqXJ5dIpDYFhTZ9i5jVdZcgiC5Q7\nRyeq1SEOhf541cKkGPbZ\n=NyH/\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree e24e913c0113456a3c5986ad3ad449d5f34a574d\nparent bd3c623ce0c20a3e18c7a4d134eee5621b69e26f\nauthor Christian Bager Bach Houmann <christian@bagerbach.com> 1766182204 +0100\ncommitter GitHub <noreply@github.com> 1766182204 -0800\n\nMake GitHub CLI auth guidance public-friendly in curated skills (#19)\n\nThis PR removes references to oai_gh from the curated GitHub skills and\nreplaces them with standard GitHub CLI auth guidance (gh auth login).\nThe goal is to avoid assuming internal tooling in a public repo.\n\nThat said, I'm not sure whether oai_gh is actually a built-in Codex\nhelper. If it is, feel free to close this PR.\n\nI also did a sweep of .curated for other internal-only helpers and\ndidn't find any additional ones.",
+      "verified_at": "2025-12-19T22:10:05Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
+  "html_url": "https://github.com/openai/skills/commit/5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/5a9bb4cbe6d79d44aa619c70edbfa1654358f69c/comments",
+  "author": {
+    "login": "chhoumann",
+    "id": 29108628,
+    "node_id": "MDQ6VXNlcjI5MTA4NjI4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/29108628?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chhoumann",
+    "html_url": "https://github.com/chhoumann",
+    "followers_url": "https://api.github.com/users/chhoumann/followers",
+    "following_url": "https://api.github.com/users/chhoumann/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chhoumann/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chhoumann/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chhoumann/subscriptions",
+    "organizations_url": "https://api.github.com/users/chhoumann/orgs",
+    "repos_url": "https://api.github.com/users/chhoumann/repos",
+    "events_url": "https://api.github.com/users/chhoumann/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chhoumann/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "bd3c623ce0c20a3e18c7a4d134eee5621b69e26f",
+      "url": "https://api.github.com/repos/openai/skills/commits/bd3c623ce0c20a3e18c7a4d134eee5621b69e26f",
+      "html_url": "https://github.com/openai/skills/commit/bd3c623ce0c20a3e18c7a4d134eee5621b69e26f"
+    }
+  ]
+}

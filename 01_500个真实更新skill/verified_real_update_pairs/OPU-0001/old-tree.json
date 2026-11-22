@@ -1,0 +1,572 @@
+{
+  "sha": "84c456b5e9fd63d1f9dd54ca504f9b0f18b0e8cb",
+  "url": "https://api.github.com/repos/anthropics/skills/git/trees/84c456b5e9fd63d1f9dd54ca504f9b0f18b0e8cb",
+  "tree": [
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+      "size": 11357,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8620c46411705b38e4d97f15325fc976911c4f89",
+      "size": 7442,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/8620c46411705b38e4d97f15325fc976911c4f89"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86683457f427dc8b597d710a7ad0737012177389",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/86683457f427dc8b597d710a7ad0737012177389"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "scripts/accept_changes.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8e363161915d3720409bb8b6ef9bc4ade33b64e4",
+      "size": 4051,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/8e363161915d3720409bb8b6ef9bc4ade33b64e4"
+    },
+    {
+      "path": "scripts/comment.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "46ed5f52eb639934a8ead383976eecc2a6867fa7",
+      "size": 14054,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/46ed5f52eb639934a8ead383976eecc2a6867fa7"
+    },
+    {
+      "path": "scripts/merge_runs.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4c7c1bf261b1ec3febe4112e30f46c2aa9f4a141",
+      "size": 9398,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/4c7c1bf261b1ec3febe4112e30f46c2aa9f4a141"
+    },
+    {
+      "path": "scripts/office",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1aa301d993dd80c1f6ba10eee088daafa7cd3f43",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/1aa301d993dd80c1f6ba10eee088daafa7cd3f43"
+    },
+    {
+      "path": "scripts/office/helpers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8752c8f742efae40d77e806747b3b2ffff2c9a4d",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/8752c8f742efae40d77e806747b3b2ffff2c9a4d"
+    },
+    {
+      "path": "scripts/office/helpers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4902e2ad85e6789b71d7d944bc8e16d978f8cb6e",
+      "size": 4042,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/4902e2ad85e6789b71d7d944bc8e16d978f8cb6e"
+    },
+    {
+      "path": "scripts/office/helpers/pptx_chart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e86aed6ed60c248001c7fa007f1ac4bb498d65f",
+      "size": 9938,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/0e86aed6ed60c248001c7fa007f1ac4bb498d65f"
+    },
+    {
+      "path": "scripts/office/helpers/pptx_slide.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55274b837847f0b918dcf5cc692b775f06723f0a",
+      "size": 3352,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/55274b837847f0b918dcf5cc692b775f06723f0a"
+    },
+    {
+      "path": "scripts/office/helpers/pptx_theme.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84466201cf22ca237cd640c80a08e9e2cabcce90",
+      "size": 3510,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/84466201cf22ca237cd640c80a08e9e2cabcce90"
+    },
+    {
+      "path": "scripts/office/schemas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd5537e270f01e5e6f703d20ddef51d1aa2fab0d",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/cd5537e270f01e5e6f703d20ddef51d1aa2fab0d"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a1687fed5a87dc969e4123731c2812b912f5e2e",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/9a1687fed5a87dc969e4123731c2812b912f5e2e"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6454ef9a94d52512e4905df61280a3fd1dafc0a4",
+      "size": 74984,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/6454ef9a94d52512e4905df61280a3fd1dafc0a4"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afa4f463e3140a3f626c73f7966d689270d89b2c",
+      "size": 6956,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/afa4f463e3140a3f626c73f7966d689270d89b2c"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64e66b8abd496d2e450c08110e40607e90b3fe13",
+      "size": 51302,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/64e66b8abd496d2e450c08110e40607e90b3fe13"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "687eea8297caa298581aa06c40ca40ef7b8a58bc",
+      "size": 624,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/687eea8297caa298581aa06c40ca40ef7b8a58bc"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ac81b06b7a3ef916d677953084ae225504a77bc",
+      "size": 152039,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/6ac81b06b7a3ef916d677953084ae225504a77bc"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dbf05140d07fa014f18a5630acc0613d8058e52",
+      "size": 1231,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/1dbf05140d07fa014f18a5630acc0613d8058e52"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1af17db4e83b1c40152577eca4a575ab63a1ca7",
+      "size": 8862,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/f1af17db4e83b1c40152577eca4a575ab63a1ca7"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a185ab6ed0c2dd9b383a403c56c909bbab8b9a1",
+      "size": 14795,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/0a185ab6ed0c2dd9b383a403c56c909bbab8b9a1"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ef488865f3ae6150776220ebbcf4788f89066a",
+      "size": 83612,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/14ef488865f3ae6150776220ebbcf4788f89066a"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c20f3bf14720d34247e8e1302dc3c40f7b832099",
+      "size": 1269,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/c20f3bf14720d34247e8e1302dc3c40f7b832099"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac60252262534e7b87523fd04d252f085b38bec0",
+      "size": 7328,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/ac60252262534e7b87523fd04d252f085b38bec0"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424b8ba8d1f9ebb22ba72cdd174c8a2ade0ecf89",
+      "size": 6382,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/424b8ba8d1f9ebb22ba72cdd174c8a2ade0ecf89"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bddce29214882eb9fdf2be8a50ed5bdd0c69dfc",
+      "size": 1248,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/2bddce29214882eb9fdf2be8a50ed5bdd0c69dfc"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a8c18ba2d5caa7e60a365e77ae0d1b872141bb0",
+      "size": 880,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/8a8c18ba2d5caa7e60a365e77ae0d1b872141bb0"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c42706a0d53c5e8b96818d9c29a292d1504f720",
+      "size": 2608,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/5c42706a0d53c5e8b96818d9c29a292d1504f720"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "853c341c87feb51e10d757aea28b4185ae4c2731",
+      "size": 3507,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/853c341c87feb51e10d757aea28b4185ae4c2731"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da835ee82d5cc31be9fa9792512930f7ae3fb5ce",
+      "size": 7507,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/da835ee82d5cc31be9fa9792512930f7ae3fb5ce"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87ad2658fa51cb4c172f82d0fdf33a492a750eca",
+      "size": 23313,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/87ad2658fa51cb4c172f82d0fdf33a492a750eca"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e86f1b2be0d431cd3c250ddeaf4efabdbcb088b",
+      "size": 1367,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/9e86f1b2be0d431cd3c250ddeaf4efabdbcb088b"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0be42e757f3cce533c1c80770239f0097d3de6b",
+      "size": 242277,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/d0be42e757f3cce533c1c80770239f0097d3de6b"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8821dd183caf9c8c3b809e0e2d9e0df56c4e9ed9",
+      "size": 26148,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/8821dd183caf9c8c3b809e0e2d9e0df56c4e9ed9"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2575c753be78cdaa96de56b3ff8770173c324d",
+      "size": 25279,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/ca2575c753be78cdaa96de56b3ff8770173c324d"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd079e603f5770176212776a1d565b108875cf64",
+      "size": 535,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/dd079e603f5770176212776a1d565b108875cf64"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dd6cf625a740398c2a4dc8abbe18e25e0ac5e9f",
+      "size": 5712,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/3dd6cf625a740398c2a4dc8abbe18e25e0ac5e9f"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1041e34ef365926f5670b896f5bb23e553ac36d",
+      "size": 4010,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/f1041e34ef365926f5670b896f5bb23e553ac36d"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c5b7a633411c2313ce839f748e4623bb0a70efe",
+      "size": 171367,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/9c5b7a633411c2313ce839f748e4623bb0a70efe"
+    },
+    {
+      "path": "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f13678d80a762375223f060e23b56c7b2eac89e",
+      "size": 4646,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/0f13678d80a762375223f060e23b56c7b2eac89e"
+    },
+    {
+      "path": "scripts/office/schemas/ecma",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "199f64d0c169af4541649e7a6f591a691e76fb1d",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/199f64d0c169af4541649e7a6f591a691e76fb1d"
+    },
+    {
+      "path": "scripts/office/schemas/ecma/fouth-edition",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae6fce07ca75c8799a25ed1150a37550b49af977",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/ae6fce07ca75c8799a25ed1150a37550b49af977"
+    },
+    {
+      "path": "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6de9d2733d3f0eea12ae87b24122495df1f0928",
+      "size": 1963,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/a6de9d2733d3f0eea12ae87b24122495df1f0928"
+    },
+    {
+      "path": "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10e978b661fc291cbeea9ab0c248601cf216f96d",
+      "size": 2515,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/10e978b661fc291cbeea9ab0c248601cf216f96d"
+    },
+    {
+      "path": "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4248bf7a39c793c9f319bae7d09f92983efe5368",
+      "size": 2856,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/4248bf7a39c793c9f319bae7d09f92983efe5368"
+    },
+    {
+      "path": "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56497467120b52b742756379959d4b2536be6df7",
+      "size": 1344,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/56497467120b52b742756379959d4b2536be6df7"
+    },
+    {
+      "path": "scripts/office/schemas/mce",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09a345ff1206946cc3fbb76469eca8792dea69d1",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/09a345ff1206946cc3fbb76469eca8792dea69d1"
+    },
+    {
+      "path": "scripts/office/schemas/mce/mc.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef725457cf39116672e285d021be69b7ad022574",
+      "size": 3127,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/ef725457cf39116672e285d021be69b7ad022574"
+    },
+    {
+      "path": "scripts/office/schemas/microsoft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94823a5acddd96d8a6caf627e4d7b86c0eaa1812",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/94823a5acddd96d8a6caf627e4d7b86c0eaa1812"
+    },
+    {
+      "path": "scripts/office/schemas/microsoft/wml-2010.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f65f777730d82162f4248f03c703b1b85fda5fe2",
+      "size": 26549,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/f65f777730d82162f4248f03c703b1b85fda5fe2"
+    },
+    {
+      "path": "scripts/office/schemas/microsoft/wml-2012.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b00755a9a8733f0fb171a47b25d0d7b4c70dee8",
+      "size": 3745,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/6b00755a9a8733f0fb171a47b25d0d7b4c70dee8"
+    },
+    {
+      "path": "scripts/office/schemas/microsoft/wml-2018.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f321d333a5e6ef98cbdfeeeaa334923e4cfc8a6c",
+      "size": 901,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/f321d333a5e6ef98cbdfeeeaa334923e4cfc8a6c"
+    },
+    {
+      "path": "scripts/office/schemas/microsoft/wml-cex-2018.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "364c6a9b8df6e252bb5ae39e2ca031fcbfc4e8a5",
+      "size": 1778,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/364c6a9b8df6e252bb5ae39e2ca031fcbfc4e8a5"
+    },
+    {
+      "path": "scripts/office/schemas/microsoft/wml-cid-2016.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fed9d15b7f504e14ac82793d79db2d7ad83d56ed",
+      "size": 1002,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/fed9d15b7f504e14ac82793d79db2d7ad83d56ed"
+    },
+    {
+      "path": "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "680cf15400cd57ce2bf17a58ecd29caa0d8a8422",
+      "size": 600,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/680cf15400cd57ce2bf17a58ecd29caa0d8a8422"
+    },
+    {
+      "path": "scripts/office/schemas/microsoft/wml-symex-2015.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89ada90837b2db3f3d453212ae426520acedbbea",
+      "size": 745,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/89ada90837b2db3f3d453212ae426520acedbbea"
+    },
+    {
+      "path": "scripts/office/soffice.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eec16879cd4c9cbb24a273dfde757acc56395a57",
+      "size": 5945,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/eec16879cd4c9cbb24a273dfde757acc56395a57"
+    },
+    {
+      "path": "scripts/office/validate.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ff3bde0f1e9de81f3f00a44f9a92229739b1e219",
+      "size": 7677,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/ff3bde0f1e9de81f3f00a44f9a92229739b1e219"
+    },
+    {
+      "path": "scripts/office/validators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ddec71ca890c8c18570f4f50d658682a869f864",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/7ddec71ca890c8c18570f4f50d658682a869f864"
+    },
+    {
+      "path": "scripts/office/validators/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db092ece7e21de98f87bd81471578259a1bc642f",
+      "size": 336,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/db092ece7e21de98f87bd81471578259a1bc642f"
+    },
+    {
+      "path": "scripts/office/validators/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d6169c1cb489dc94aa78ece22e60ee5911b854",
+      "size": 34369,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/04d6169c1cb489dc94aa78ece22e60ee5911b854"
+    },
+    {
+      "path": "scripts/office/validators/docx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2acdaf4ef4e5ec84c7191dadf9eeb73b00a81cc2",
+      "size": 19745,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/2acdaf4ef4e5ec84c7191dadf9eeb73b00a81cc2"
+    },
+    {
+      "path": "scripts/office/validators/pptx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb06b825e3dad82c3859243f294a963868d7dc8f",
+      "size": 21058,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/bb06b825e3dad82c3859243f294a963868d7dc8f"
+    },
+    {
+      "path": "scripts/office/validators/redlining.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4406912e654dca3fc1869dc6bdd7099ac6573041",
+      "size": 18983,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/4406912e654dca3fc1869dc6bdd7099ac6573041"
+    },
+    {
+      "path": "scripts/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1453a9a1435d133ff8441ebbf1555c5e16644c6d",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/1453a9a1435d133ff8441ebbf1555c5e16644c6d"
+    },
+    {
+      "path": "scripts/templates/comments.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd01a7d7155f9a78cf3d11470e2ce2b5ccdac640",
+      "size": 2603,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/cd01a7d7155f9a78cf3d11470e2ce2b5ccdac640"
+    },
+    {
+      "path": "scripts/templates/commentsExtended.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "411003cc485356c560e29687ca359d64cd89d4b4",
+      "size": 2611,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/411003cc485356c560e29687ca359d64cd89d4b4"
+    },
+    {
+      "path": "scripts/templates/commentsExtensible.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5572d710826dd7a1f455af7487e2157ef01ada0",
+      "size": 2707,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/f5572d710826dd7a1f455af7487e2157ef01ada0"
+    },
+    {
+      "path": "scripts/templates/commentsIds.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32f1629f2a8bb9aafebb0699349d0d799edce9f3",
+      "size": 2619,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/32f1629f2a8bb9aafebb0699349d0d799edce9f3"
+    },
+    {
+      "path": "scripts/templates/people.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3803d2de0faa635687a48947b52ab98b9655f631",
+      "size": 115,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/3803d2de0faa635687a48947b52ab98b9655f631"
+    }
+  ],
+  "truncated": false
+}

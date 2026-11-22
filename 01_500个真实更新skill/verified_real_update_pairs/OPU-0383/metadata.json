@@ -1,0 +1,123 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-network-insights/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "5aeebb7a77030d55cf4d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "7954818330e3c1b8e8e43d092b9a048b9ed867a8",
+    "computed_tree_sha": "866eeb0a19fe256d34a9ca108f0a45c82a1e66c6",
+    "api_tree_sha_as_returned": "866eeb0a19fe256d34a9ca108f0a45c82a1e66c6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9e152cde542f7d1c9a83ecf7b5d89cce574c2de4",
+        "sha256": "17c858250727c06d20746a1fba13fb431235d27e2aa07a2d659c93e20e028605",
+        "size": 13314,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "e7cb3cdce4fe65fc5c9f0a7276a77b53c05d1fdd",
+        "sha256": "06c7cb8f87a80308dc4fabe2edcb12700ad23f38434252eda6bf01e1878a4009",
+        "size": 1803,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitoring-point-deployment.md",
+        "git_blob_sha1": "50eea6cb49c485a70a2a353b95f2779f443839b6",
+        "sha256": "567ce7a6a624952ab8eb405e6bf20fe8d7af61c8107c4778bea0fa7f4ec81c47",
+        "size": 11023,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitoring-policies.md",
+        "git_blob_sha1": "677dbd407d022fef465f5dc636413025888928be",
+        "sha256": "2e6c8447b0f133c2cd0e3ac97d5431333748dc87c101ea36d25de1a1029bb5e2",
+        "size": 4932,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+    "computed_tree_sha": "683492e5348fb229c74b4d1e65733d35f1fc5a72",
+    "api_tree_sha_as_returned": "683492e5348fb229c74b4d1e65733d35f1fc5a72",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f06a5cb8f27dec1b3c33333403c7d024b913d038",
+        "sha256": "44dde9629f9fb4b1048aa451e63e413930fb1fd6ac16c564986955822e336793",
+        "size": 14046,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "e7cb3cdce4fe65fc5c9f0a7276a77b53c05d1fdd",
+        "sha256": "06c7cb8f87a80308dc4fabe2edcb12700ad23f38434252eda6bf01e1878a4009",
+        "size": 1803,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitoring-point-deployment.md",
+        "git_blob_sha1": "928c92e20f90c47bf09e9a238ff1c873df613a34",
+        "sha256": "1ae2a281d711c8ae977b15e5131c4949671acca1e6d3b97c35a9447b15b608b4",
+        "size": 11965,
+        "mode": "100644"
+      },
+      {
+        "path": "references/monitoring-policies.md",
+        "git_blob_sha1": "01e1c78af732b29ba3c20684de2e087850e74a70",
+        "sha256": "751e9aca3c18ae16c307c3fe2678d9aa46a8b22c9efa1e79e333c539a78b5ede",
+        "size": 6457,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/monitoring-point-deployment.md",
+    "references/monitoring-policies.md"
+  ],
+  "old_commit": "7954818330e3c1b8e8e43d092b9a048b9ed867a8",
+  "new_commit": "4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Address deployment walkthrough feedback in cloud-network-insights skill.\n\n- Container Monitoring Points: move container install notes under the platform\n  table: `-y`/`-z`/`-n host` defaults (`-n bridge` only when host networking\n  isn't possible), PSC commands with `-e .private.env` right after the\n  subcommand, and legacy docker-compose v1 failures (ask the user before\n  changing host packages; with no Compose, setup.sh uses compose-in-docker).\n- Monitoring policies: scope policies to specific Monitoring Points with a\n  `name` filter (`displayName`), note that `networkMonitoring` is required on\n  Web policies and creates a companion NetworkPath, and add 401\n  troubleshooting (re-mint the token first, then use a service account with a\n  Cloud Network Insights role).\n- Alert policies: always set the `cloud-network-insights: \"true\"` user label so\n  policies appear in the Cloud Network Insights view in the Google Cloud\n  console.\n- Path verification: filter paths by `sourceMonitoringPointId` and describe\n  expected companion and inherited paths.\n- Bump metadata.version to 1.0.1.\n\nPiperOrigin-RevId: 1018890295",
+  "new_commit_time": "2026-11-11T07:15:00Z",
+  "compare_url": "https://github.com/google/skills/compare/7954818330e3c1b8e8e43d092b9a048b9ed867a8...4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "commit_url": "https://github.com/google/skills/commit/4d0971dd4b8e52c10128bfbe249a57f4f13210aa",
+  "skill_directory": "skills/cloud/cloud-network-insights",
+  "local_directory": "verified_real_update_pairs/OPU-0383",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0383",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

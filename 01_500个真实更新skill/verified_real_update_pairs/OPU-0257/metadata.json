@@ -1,0 +1,191 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/mutation-testing/skills/mutation-testing/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "1ec638531374287528f9",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "ce9ae2e2dc2de7ea05f4a8a6e636ccf576f83c79",
+    "computed_tree_sha": "89c6dda27d200bd2ff586b15b333557747a17589",
+    "api_tree_sha_as_returned": "89c6dda27d200bd2ff586b15b333557747a17589",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7e55a3d3077ab8254643504a25ebf8931d4be71d",
+        "sha256": "1bb6b5ddaf79d489047b2c3b8b319df4897c06221c12209dd1dfa7bce4b87f04",
+        "size": 2863,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/optimization-strategies.md",
+        "git_blob_sha1": "8fd7035b2faea5e46dcc3f94695f4b25dfb22fb9",
+        "sha256": "b356e8f2a4ae8630e949d8a62caf5aa5875fcaf4c8bfc32b8bc48dc64a5dee4f",
+        "size": 8589,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/configuration.md",
+        "git_blob_sha1": "3b482b3230b7d14bfcbca3d20ffdb5eb4a41b74c",
+        "sha256": "28b44999e50d08b4bd6cc0382a970b088ecb40ae065388620ab441c11d1f4e19",
+        "size": 11028,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d30ab4dd0bd1360868e85dd91c9c67a86df85b8a",
+    "computed_tree_sha": "f2e76a6497b7c1d27c312955997427028b45a35f",
+    "api_tree_sha_as_returned": "f2e76a6497b7c1d27c312955997427028b45a35f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f4e993352968b9b188feb991e7e38a81372d2be3",
+        "sha256": "20e6ee2b6cec91bad7572dea966b5fce1e50f9ef8d4bf2e4ba69ac9b679792ff",
+        "size": 6225,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/blockchain-patterns.md",
+        "git_blob_sha1": "1eb8ed763b1eaf14269b994d87ee7e9fa0ff8d45",
+        "sha256": "8e556f661dfaa88792eee7c0593bef586b02ce7502f2167cc104e83dfcf967c0",
+        "size": 4864,
+        "mode": "100644"
+      },
+      {
+        "path": "references/equivalent-mutants.md",
+        "git_blob_sha1": "f3a48370d8f7579ff43563142cfc008aa12ccebb",
+        "sha256": "ff4e959ec429133b61010892b213c2fd2a2a2b1b4e7d5424e52fc51f909c3e26",
+        "size": 7165,
+        "mode": "100644"
+      },
+      {
+        "path": "references/input-formats.md",
+        "git_blob_sha1": "6e0851198e269a02389e6c711107d10fb890570a",
+        "sha256": "59107dd286158a4bfbb486f60640053cc8b249948cb6b8bf5bbf19e59270c06c",
+        "size": 2490,
+        "mode": "100644"
+      },
+      {
+        "path": "references/optimization-strategies.md",
+        "git_blob_sha1": "ff8f2735fe145c06d24356e0c1ad175771d3f522",
+        "sha256": "3dda9d912cee153b7340b243cf8823a28b66c03aa34f5516790232075e276614",
+        "size": 8882,
+        "mode": "100644"
+      },
+      {
+        "path": "references/report-template.md",
+        "git_blob_sha1": "37c2a45d7809763ecc74a183ff27de52a2106d3b",
+        "sha256": "6cf4e3b89d5cc3e5be380a4429d68f6796c8d57387a080f5c67f76bfff2c086e",
+        "size": 4426,
+        "mode": "100644"
+      },
+      {
+        "path": "references/severity-classification.md",
+        "git_blob_sha1": "955be8ee8b417eac4bd96192b24c193a52783980",
+        "sha256": "7fe0c245c4599c25fed53f29e5c7048f24e00cba5e5e62eff9ae92728b163b5c",
+        "size": 6066,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/analyzing-results.md",
+        "git_blob_sha1": "a7a0d637dc7333f409a9beca97753c0125ae383e",
+        "sha256": "e3e17d2e66cf0dbaa359c051a00540dcdca86a4c5a18147b8268aed03fccd3f7",
+        "size": 6843,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/bug-hunter.md",
+        "git_blob_sha1": "120b0381a98b192adbddc8c1641e897caae00e58",
+        "sha256": "db4274ed9634cbe7aadef295d594ad15d163f57e6c66a896a20d80827f791a47",
+        "size": 7591,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/configuration.md",
+        "git_blob_sha1": "379de5d6470f35837ef4024f334fd93a233277cc",
+        "sha256": "f5651cd506c9eb843d25a5e468549c3f417370d9b635b779461549e4083224b0",
+        "size": 11531,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/blockchain-patterns.md",
+    "references/equivalent-mutants.md",
+    "references/input-formats.md",
+    "references/optimization-strategies.md",
+    "references/report-template.md",
+    "references/severity-classification.md",
+    "workflows/analyzing-results.md",
+    "workflows/bug-hunter.md",
+    "workflows/configuration.md"
+  ],
+  "old_commit": "ce9ae2e2dc2de7ea05f4a8a6e636ccf576f83c79",
+  "new_commit": "d30ab4dd0bd1360868e85dd91c9c67a86df85b8a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Migrate mutation analysis and bug hunting to the public plugin (#305)",
+  "new_commit_time": "2026-09-14T19:56:15Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/ce9ae2e2dc2de7ea05f4a8a6e636ccf576f83c79...d30ab4dd0bd1360868e85dd91c9c67a86df85b8a",
+  "commit_url": "https://github.com/trailofbits/skills/commit/d30ab4dd0bd1360868e85dd91c9c67a86df85b8a",
+  "skill_directory": "plugins/mutation-testing/skills/mutation-testing",
+  "local_directory": "verified_real_update_pairs/OPU-0257",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0257",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

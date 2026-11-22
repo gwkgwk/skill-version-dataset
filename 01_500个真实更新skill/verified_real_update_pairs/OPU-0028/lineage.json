@@ -1,0 +1,82 @@
+{
+  "sha": "d1f1575cff97816e5cc08af66cd2506099c681d3",
+  "node_id": "C_kwDOQ55KR9oAKGQxZjE1NzVjZmY5NzgxNmU1Y2MwOGFmNjZjZDI1MDYwOTljNjgxZDM",
+  "commit": {
+    "author": {
+      "name": "kz-tob",
+      "email": "kara.zaffarano@trailofbits.com",
+      "date": "2026-08-28T17:43:02Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-28T17:43:02Z"
+    },
+    "message": "audit-context-building: add a dispatch-routing eval case (#285)\n\n* audit-context-building: add a dispatch-routing eval case\n\nThe four existing cases grade response text and per-function analysis\nquality. None grade whether the run actually reaches for the workflow,\nso a regression in routing would only show up as prose that still\ndescribes the right mechanism.\n\nroutes-to-workflow grades the tool call instead, following\nspec-to-code-compliance/evals/routes-not-inline: Workflow stays out of\nallowed_tools so the per-function fan-out never runs, and tool_used\ncounts the attempt. Scored 1.00 over 3 runs.\n\nAlso add Workflow to the skill's allowed-tools, matching what\nspec-to-code-compliance carries for the same routing shape. Measured\nas inert -- adding and removing it scored 1.00 either way over 3 runs\neach -- so this is consistency, not a fix, and the version is\nunchanged.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* audit-context-building: document routes-to-workflow in the README\n\nThe Tests section said \"Four tests\" and named four; the eval case added\nin this branch made five. A reader running the documented command got a\nfifth case with no description of it.\n\nRecords what the case grades and, more importantly, what its green score\ndoes not establish -- no baseline arm has been run, and tool_used counts\nattempts the Workflow tool never executes in an eval. That caveat was\nonly in case.yaml, which is not where people look.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+    "tree": {
+      "sha": "370b880c6fec7e4dd6db5e4168eb1da1df4664c7",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/370b880c6fec7e4dd6db5e4168eb1da1df4664c7"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/d1f1575cff97816e5cc08af66cd2506099c681d3",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqkcimCRC1aQ7uu5UhlAAAY7oQAKua3rkHrEC2PeK/pGSWRpm8\n8KJ+5Vg4DSvoYxeijsfuZXZMIpFyuT46+N9tj7ZLrTP4p0DeDCxsUN05Sn8wrccq\nrVm/ta3YWx0kDSh1x/X1D92vzUIkKeZUT3ugpjNFBRbtZFzZTHcUOnWecMiSfdQB\nd5HFzHG5xKASRuVb81LrZllRbc/3+y0c1Uorfz8OokAzsMiUlp7EMyuf0P7fwqJ3\nhMjHfcv8nYqFzUyup4W09C4F0brwCw3WVhb2Z1XLiT3BfIXyncke4v3A8rgZUWRv\nPVlFUq/Md0wM3/0LCAlyYXO43+5RXCJLgPqo/90rMsnK90nufsccGdj1S7hx+RxF\ncDaLp6DzA5fhKwE2riSkC1qK0c05v4GMOU6a7+sAQWc6lhh1A4REBO6166x47hTL\nct96c6dJJwMfCxUvn/NNBo0m5dBIoM84NfOEyTvCoUFMkERVRJkTUK4hC33LpXT3\nzJpLKX2qn2hsMrQ46CpYjZjSOhZIddn6uq3x+49oQlKsLSMsL3bEG8c9rluTxx4h\n9/rr738uybjHg7SDbv6LDVoiN9ObkBRv/v1gT0TZbKz0YLFggaEt1XBCO5HtmzJa\nDXEK/L9ALuvkmKn73ffmUD2M88iKAnaXa39SLPU42PZcjD3PnIOz5UylREj/flqr\nsPbm6sdaADBWzDifHgmF\n=X4B8\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 370b880c6fec7e4dd6db5e4168eb1da1df4664c7\nparent 7dee682744c44a5a466c3280644b8439272eed2e\nauthor kz-tob <kara.zaffarano@trailofbits.com> 1787938982 -0400\ncommitter GitHub <noreply@github.com> 1787938982 -0400\n\naudit-context-building: add a dispatch-routing eval case (#285)\n\n* audit-context-building: add a dispatch-routing eval case\n\nThe four existing cases grade response text and per-function analysis\nquality. None grade whether the run actually reaches for the workflow,\nso a regression in routing would only show up as prose that still\ndescribes the right mechanism.\n\nroutes-to-workflow grades the tool call instead, following\nspec-to-code-compliance/evals/routes-not-inline: Workflow stays out of\nallowed_tools so the per-function fan-out never runs, and tool_used\ncounts the attempt. Scored 1.00 over 3 runs.\n\nAlso add Workflow to the skill's allowed-tools, matching what\nspec-to-code-compliance carries for the same routing shape. Measured\nas inert -- adding and removing it scored 1.00 either way over 3 runs\neach -- so this is consistency, not a fix, and the version is\nunchanged.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* audit-context-building: document routes-to-workflow in the README\n\nThe Tests section said \"Four tests\" and named four; the eval case added\nin this branch made five. A reader running the documented command got a\nfifth case with no description of it.\n\nRecords what the case grades and, more importantly, what its green score\ndoes not establish -- no baseline arm has been run, and tool_used counts\nattempts the Workflow tool never executes in an eval. That caveat was\nonly in case.yaml, which is not where people look.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+      "verified_at": "2026-08-28T17:43:03Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/d1f1575cff97816e5cc08af66cd2506099c681d3",
+  "html_url": "https://github.com/trailofbits/skills/commit/d1f1575cff97816e5cc08af66cd2506099c681d3",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/d1f1575cff97816e5cc08af66cd2506099c681d3/comments",
+  "author": {
+    "login": "kz-tob",
+    "id": 295975343,
+    "node_id": "U_kgDOEaQ5rw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/295975343?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kz-tob",
+    "html_url": "https://github.com/kz-tob",
+    "followers_url": "https://api.github.com/users/kz-tob/followers",
+    "following_url": "https://api.github.com/users/kz-tob/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kz-tob/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kz-tob/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kz-tob/subscriptions",
+    "organizations_url": "https://api.github.com/users/kz-tob/orgs",
+    "repos_url": "https://api.github.com/users/kz-tob/repos",
+    "events_url": "https://api.github.com/users/kz-tob/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kz-tob/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "7dee682744c44a5a466c3280644b8439272eed2e",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/7dee682744c44a5a466c3280644b8439272eed2e",
+      "html_url": "https://github.com/trailofbits/skills/commit/7dee682744c44a5a466c3280644b8439272eed2e"
+    }
+  ]
+}

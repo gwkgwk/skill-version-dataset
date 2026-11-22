@@ -1,0 +1,91 @@
+{
+  "repository": "googleworkspace/cli",
+  "primary": "skills/gws-gmail/SKILL.md",
+  "pinned_commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+  "repository_license": "Apache-2.0",
+  "key": "0f145d473894b64d97db",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 30,
+  "primary_history_count_returned": 16,
+  "skipped_release_maintenance_commits": [
+    "705fb0ecac6f4249679958f6325b809b63fdde17",
+    "f4ee65836031e105e48f1cef77f91dde3499b389",
+    "c7c6646d7a3ab1851e535afc8fdbcc311ab4d440",
+    "a63b070a51098324b0660cac937a49b0b04ccb87",
+    "45ca45bfd418db07b02995e8510dd18ac45cb3a6",
+    "9198386a3de7fcf2df95532dca79257568d45c19",
+    "2aec0ba5a363735bae3eb20b5a3ea3306f8065f4",
+    "186e88caa05071ee706ad5d2b1b5cbdf242a8e76",
+    "3ac16ee595be33b602149b0b57c724cdd20b4322",
+    "834fa7d25a507e12020a2b04a4e8097558c56c96"
+  ],
+  "old": {
+    "commit": "9c26e3c4a9e260388d3468afc972d6bb9153e33f",
+    "computed_tree_sha": "eb527723ac1ffb7edfda9e83b0e4e2a67b2b756b",
+    "api_tree_sha_as_returned": "eb527723ac1ffb7edfda9e83b0e4e2a67b2b756b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1c9835e770f76d191ac34b529595b0abdb8b00ce",
+        "sha256": "906cd38c0edade340a543b22ef68e2feb0d349507e6c981e6ae9f77c951ae2af",
+        "size": 1918,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "6e4daaf4f9be25687485cdf63c41ea9db5466272",
+    "computed_tree_sha": "2431e22859f83f99cdb0675368b314310fc99790",
+    "api_tree_sha_as_returned": "2431e22859f83f99cdb0675368b314310fc99790",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8ce5d278e295c3428f9c831abb21f7b6d6faae05",
+        "sha256": "a7adcd6edf490042239aa71e4eaf2656600904457340c0ce222aa0b51cd55d34",
+        "size": 2009,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "9c26e3c4a9e260388d3468afc972d6bb9153e33f",
+  "new_commit": "6e4daaf4f9be25687485cdf63c41ea9db5466272",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(gmail): Gmail helpers rollup — mail-builder, --attachment, +read (#526)\n\n* refactor(gmail): replace hand-rolled email construction with mail-builder\n\nReplace custom MessageBuilder, RFC 2047 encoding, header sanitization,\nand address encoding (including #482) with the mail-builder crate\n(Stalwart Labs, 0 runtime deps). Each command builds a\nmail_builder::MessageBuilder directly.\n\nIntroduce structured types throughout:\n- Mailbox type (parsed display name + email) replaces raw string passing\n- sanitize_control_chars strips ASCII control characters (CRLF, null,\n  tab, etc.) at the parse boundary — defense-in-depth for mail-builder's\n  structured header types, superseding sanitize_header_value,\n  sanitize_component, and encode_address_header from #482\n- OriginalMessage fields use Option<T> instead of empty-string sentinels\n- parse_original_message returns Result with validation (threadId, From,\n  Message-ID)\n- Pre-parsed Config types (SendConfig, ForwardConfig, ReplyConfig) with\n  Vec<Mailbox> — parse at the boundary, not downstream\n- parse_forward_args and parse_send_args return Result with --to\n  validation, consistent with parse_reply_args\n- parse_optional_mailboxes helper normalizes Some(vec![]) to None for\n  optional address fields (--cc, --bcc, --from)\n- Envelope types borrow from Config + OriginalMessage with lifetimes\n- Message IDs stored bare (no angle brackets), parsed once at boundary\n- References stored as Vec<String> instead of space-separated string\n- ThreadingHeaders bundles In-Reply-To + References with debug_assert\n  for bare-ID convention\n- Shared CLI arg builders (common_mail_args, common_reply_args)\n  eliminate duplicated --cc/--bcc/--html/--dry-run definitions\n\nAdditional improvements:\n- finalize_message returns Result instead of panicking via .expect()\n- Mailbox::parse_list filters empty-email entries (trailing comma edge\n  case)\n- format_email_link percent-encodes mailto hrefs to prevent parameter\n  injection\n- Forward date handling: omits Date line when absent instead of showing\n  empty \"Date: \"\n- Dry-run auth: log skipped auth as diagnostic instead of silently\n  discarding errors\n- Restore --html tips in after_help strings (gmail_quote CSS, cid:\n  image warnings, HTML fragment advice) lost in release PR #434\n- Update execute_method call for upload_content_type parameter (#429)\n\nDelete: MessageBuilder, encode_header_value, sanitize_header_value,\nencode_address_header, sanitize_component, extract_email,\nextract_display_name, split_mailbox_list, build_references.\n\n* feat(gmail): add --from flag to +send for send-as alias support\n\nConsistent with +reply, +reply-all, and +forward which already support\n--from. Uses the same parse_optional_mailboxes path and\napply_optional_headers plumbing.\n\n* fix: quote display names with RFC 2822 special characters in +reply\n\nWhen replying to emails from corporate senders with display names like\n\"Anderson, Rich (CORP)\" <email@adp.com>, the +reply command fails with\n\"Invalid To header\" (400) from the Gmail API.\n\nThe root cause: encode_address_header() strips quotes from the display\nname via extract_display_name(), then reconstructs the address without\nre-quoting. When the display name contains RFC 2822 special characters\n(commas, parentheses), the unquoted form is ambiguous — commas split\nit into multiple malformed mailboxes and parentheses are interpreted\nas RFC 2822 comments.\n\nFix: re-quote the display name when it contains any RFC 2822 special\ncharacters, using a single-pass character iterator that preserves\nalready-escaped sequences and escapes bare quotes/backslashes.\n\nFixes #512\n\n* feat(gmail): add --attachment flag, +read helper, and mail-builder migration\n\nConsolidates PRs #491, #513, #517, and #502 into a single rollup:\n\n- Migrate message construction to mail-builder crate (RFC-compliant MIME)\n- Add --from flag to +send for send-as alias support\n- Add --attachment flag to +send with MIME auto-detection and path validation\n- Add +read helper for extracting message body/headers (text, HTML, JSON)\n- Serialize support for OriginalMessage and Mailbox types\n- Display name quoting handled natively by mail-builder\n\n* chore: regenerate skills [skip ci]\n\n* fix: use validate_safe_file_path for attachment path validation\n\nAddresses Gemini review: validate_safe_dir_path hardcodes '--dir' in\nerror messages. validate_safe_file_path accepts the flag name, so errors\nnow correctly reference '--attachment'.\n\n* refactor: make OriginalMessage.thread_id optional\n\nThe Gmail API does not guarantee threadId on all message resources\n(e.g. drafts). Making it Option<String> prevents parse failures on\nvalid messages and avoids requiring thread_id in helpers like +read\nthat don't use it.\n\n* fix: use canonicalized path for attachment file operations (TOCTOU)\n\nvalidate_safe_file_path returns a canonicalized PathBuf. Use it for\nexists/is_file checks and downstream file reads instead of the original\nun-resolved path to prevent time-of-check/time-of-use races.\n\n* feat(gmail): add --attach flag for file attachments\n\nAdd -a/--attach to +send, +reply, +reply-all, and +forward. Can be\nspecified multiple times for multiple attachments. MIME type is auto-\ndetected via mime_guess2. Closes #247.\n\nSend via the Gmail API upload endpoint (multipart/related with\nmessage/rfc822 media type) instead of base64-encoding into a JSON raw\nfield. This raises the size limit from ~5MB (metadata-only endpoint) to\n35MB (upload endpoint, per discovery document).\n\nIntroduce UploadSource enum in the executor to consolidate upload_path,\nupload_content_type, and upload_bytes into a single type-safe parameter.\nFile and Bytes variants make the two upload strategies (from disk vs.\nfrom memory) mutually exclusive by construction.\n\nValidates attachment paths (control characters, regular file, non-empty)\nand total size (25MB raw limit, accounting for base64 expansion of\nattachments within the MIME message against the 35MB API limit). Size\ncheck uses actual bytes read to avoid TOCTOU race.\n\n* chore: update changeset and fix integration with malob's attachment impl\n\nUpdate changeset to reflect combined work. Fix thread_id type mismatches\nin new tests from cherry-pick. Fix upload_path scope in main.rs. Make\nreject_control_chars pub(crate) for attachment validation.\n\nCo-authored-by: Malo Bourgon <mbourgon@gmail.com>\n\n* chore: regenerate skills [skip ci]\n\n* fix: restore MIME sanitization and terminal escape protection in executor\n\nRestore two security features accidentally lost during the UploadSource\nrefactor:\n\n1. resolve_upload_mime: restructure from early-returns to collect-then-\n   sanitize pattern — strips control chars from user-supplied MIME types\n   to prevent CRLF header injection.\n\n2. Model Armor error path: restore sanitize_for_terminal on error messages\n   to prevent terminal escape sequence injection from API responses.\n\nCo-authored-by: Malo Bourgon <mbourgon@gmail.com>\n\n* chore: remove duplicate changeset from cherry-pick\n\ngmail-attach-flag.md duplicated content already in gmail-helpers-rollup.md.\nBoth were marked minor, which would cause a double version bump.\n\n* fix: add path traversal protection to attachment validation\n\nReplace reject_control_chars with validate_safe_file_path in\nparse_attachments. All file operations (metadata, read, filename\nextraction, MIME detection) now use the canonicalized path, preventing\npath traversal attacks (e.g. ../../.ssh/id_rsa) and closing TOCTOU gaps.\n\nUpdate tests to use CWD-relative temp directories (tempdir_in(\".\"))\nsince validate_safe_file_path rejects paths outside the working directory.\n\nCo-authored-by: Malo Bourgon <mbourgon@gmail.com>\n\n* refactor: deduplicate terminal sanitizer in read.rs\n\nReplace the local sanitize_terminal_output function with the existing\ncrate::error::sanitize_for_terminal via import alias. This eliminates\ncode duplication and provides consistent sanitization across the codebase.\n\nThe crate-wide sanitizer also correctly strips CR (carriage return) which\ncan be abused for terminal overwrite attacks.\n\n---------\n\nCo-authored-by: Malo Bourgon <mbourgon@gmail.com>\nCo-authored-by: Rich Anderson <richanderson00@gmail.com>\nCo-authored-by: jpoehnelt-bot <jpoehnelt-bot@users.noreply.github.com>\nCo-authored-by: googleworkspace-bot <googleworkspace-bot@users.noreply.github.com>",
+  "new_commit_time": "2026-03-17T22:55:50Z",
+  "compare_url": "https://github.com/googleworkspace/cli/compare/9c26e3c4a9e260388d3468afc972d6bb9153e33f...6e4daaf4f9be25687485cdf63c41ea9db5466272",
+  "commit_url": "https://github.com/googleworkspace/cli/commit/6e4daaf4f9be25687485cdf63c41ea9db5466272",
+  "skill_directory": "skills/gws-gmail",
+  "local_directory": "verified_real_update_pairs/OPU-0215",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0215",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

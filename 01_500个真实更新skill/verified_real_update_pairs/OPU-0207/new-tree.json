@@ -1,0 +1,403 @@
+{
+  "sha": "24bbf34e5ecc2b7eefb193498debe13faa1473b9",
+  "url": "https://api.github.com/repos/getsentry/skills/git/trees/24bbf34e5ecc2b7eefb193498debe13faa1473b9",
+  "tree": [
+    {
+      "path": "EVAL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "473b331f3f91a251c31d6c9eec72a82a442939bb",
+      "size": 6545,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/473b331f3f91a251c31d6c9eec72a82a442939bb"
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aba371f5f4d8005fcbcf3ab3aa68550c5687d53",
+      "size": 10017,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/8aba371f5f4d8005fcbcf3ab3aa68550c5687d53"
+    },
+    {
+      "path": "SOURCES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fbfa653786eaaa9c896dbfa123c8b92a8238be6",
+      "size": 19540,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/0fbfa653786eaaa9c896dbfa123c8b92a8238be6"
+    },
+    {
+      "path": "SPEC.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75afc5556a092ad7ac6bec70ff38067ef07f9e52",
+      "size": 9960,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/75afc5556a092ad7ac6bec70ff38067ef07f9e52"
+    },
+    {
+      "path": "evals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c103135895e9ab03e2f1877f1f05943268a61961",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/c103135895e9ab03e2f1877f1f05943268a61961"
+    },
+    {
+      "path": "evals/axis.config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57b4df735ef9fd37f856cc66c0c97cd624d2c51f",
+      "size": 318,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/57b4df735ef9fd37f856cc66c0c97cd624d2c51f"
+    },
+    {
+      "path": "evals/scenarios",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8323a56f5b6dd1921b3b67ada8b12e26d18fc798",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/8323a56f5b6dd1921b3b67ada8b12e26d18fc798"
+    },
+    {
+      "path": "evals/scenarios/iteration-from-bad-output.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e928c37d6578e18e82015cc49ff2c3b7ad6348",
+      "size": 2911,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/33e928c37d6578e18e82015cc49ff2c3b7ad6348"
+    },
+    {
+      "path": "evals/scenarios/reference-backed-integration.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97ec32ce489e443934585c498ff1c5f389ebda0a",
+      "size": 1981,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/97ec32ce489e443934585c498ff1c5f389ebda0a"
+    },
+    {
+      "path": "evals/scenarios/small-inline-workflow.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d5e45b31af4fed85d3c849642c3c53195600e42",
+      "size": 1956,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/2d5e45b31af4fed85d3c849642c3c53195600e42"
+    },
+    {
+      "path": "references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49ec28fcb5130d1d213106723b31c7e0f48597fa",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/49ec28fcb5130d1d213106723b31c7e0f48597fa"
+    },
+    {
+      "path": "references/authoring-path.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e697d0d480b2e21355c7e2ad196b9a2543b046",
+      "size": 4772,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/81e697d0d480b2e21355c7e2ad196b9a2543b046"
+    },
+    {
+      "path": "references/claude-argument-substitutions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "481621ed4638d3e56ba7c188e4cc1a7a980c3861",
+      "size": 624,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/481621ed4638d3e56ba7c188e4cc1a7a980c3861"
+    },
+    {
+      "path": "references/claude-dynamic-context.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40918418a99645b270c55e54d7870fde73ed76e4",
+      "size": 579,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/40918418a99645b270c55e54d7870fde73ed76e4"
+    },
+    {
+      "path": "references/claude-frontmatter-invocation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c4ffeb198a508a0c1eb9138c4030ab2bb968674",
+      "size": 1429,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/4c4ffeb198a508a0c1eb9138c4030ab2bb968674"
+    },
+    {
+      "path": "references/claude-hook-backed.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdaab60e0d5321c81768f862248ea2287d073ed9",
+      "size": 913,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/bdaab60e0d5321c81768f862248ea2287d073ed9"
+    },
+    {
+      "path": "references/claude-subagent-fork.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f0b54b8523d54daff19b7d14a6d4884d3da65c1",
+      "size": 718,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/3f0b54b8523d54daff19b7d14a6d4884d3da65c1"
+    },
+    {
+      "path": "references/description-optimization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c5f826f11a87bd020de488632b1beb09ece0841",
+      "size": 1034,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/1c5f826f11a87bd020de488632b1beb09ece0841"
+    },
+    {
+      "path": "references/design-principles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d6ab86f07cf2856ef920fb85c9cb32429f3cd87",
+      "size": 3736,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/8d6ab86f07cf2856ef920fb85c9cb32429f3cd87"
+    },
+    {
+      "path": "references/example-documentation-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53957390ad3c8f09f8ff39e834e698b20464adc0",
+      "size": 2819,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/53957390ad3c8f09f8ff39e834e698b20464adc0"
+    },
+    {
+      "path": "references/example-hook-backed-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97b1164bb5133ba72f9f071e78b3814a907d06c3",
+      "size": 989,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/97b1164bb5133ba72f9f071e78b3814a907d06c3"
+    },
+    {
+      "path": "references/example-router-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de8bd7331900a623946bf7c3ff8997c1630144e6",
+      "size": 1039,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/de8bd7331900a623946bf7c3ff8997c1630144e6"
+    },
+    {
+      "path": "references/example-subagent-fork-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f900312c6b00eb1f734f3bf625c2312db0fdf0e",
+      "size": 1079,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/3f900312c6b00eb1f734f3bf625c2312db0fdf0e"
+    },
+    {
+      "path": "references/example-workflow-process-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "341c6dab285b2e5e8c6f6a4834a07e42115b46bb",
+      "size": 2503,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/341c6dab285b2e5e8c6f6a4834a07e42115b46bb"
+    },
+    {
+      "path": "references/execution-shapes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff33ef0a0cb79483242c8f0f2f58f5de92071967",
+      "size": 4695,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/ff33ef0a0cb79483242c8f0f2f58f5de92071967"
+    },
+    {
+      "path": "references/iteration-evidence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6f7bc46e84442a83daf5e2d1004da9917b2b283",
+      "size": 2676,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/a6f7bc46e84442a83daf5e2d1004da9917b2b283"
+    },
+    {
+      "path": "references/iteration-path.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a979365b938aaf4cf12ed06db827ea37b970242",
+      "size": 1505,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/4a979365b938aaf4cf12ed06db827ea37b970242"
+    },
+    {
+      "path": "references/layout-argument-driven-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9209c2aa10619bdb70b7b27a33f31e1539a8365",
+      "size": 1056,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/a9209c2aa10619bdb70b7b27a33f31e1539a8365"
+    },
+    {
+      "path": "references/layout-asset-template-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df95e4331bf6f048e099a1c5195d40093a79a888",
+      "size": 809,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/df95e4331bf6f048e099a1c5195d40093a79a888"
+    },
+    {
+      "path": "references/layout-inline-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fceaf86bbf7a9cdb59af0acb4741cb26a2deff0",
+      "size": 731,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/7fceaf86bbf7a9cdb59af0acb4741cb26a2deff0"
+    },
+    {
+      "path": "references/layout-reference-backed-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd3f6e08d78280789aa7b31bd10d3bb34fc34614",
+      "size": 1256,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/dd3f6e08d78280789aa7b31bd10d3bb34fc34614"
+    },
+    {
+      "path": "references/layout-script-backed-workflow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f805f9d3a384cadae47f426dfb6362c920fe64f",
+      "size": 846,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/5f805f9d3a384cadae47f426dfb6362c920fe64f"
+    },
+    {
+      "path": "references/mode-selection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e4a2bc66b463b7bd6b202a3dc6514588509f8e",
+      "size": 3310,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/61e4a2bc66b463b7bd6b202a3dc6514588509f8e"
+    },
+    {
+      "path": "references/output-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ac9ca24f74afcc89b7f9c3d5cb962c46ccdd24f",
+      "size": 1097,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/4ac9ca24f74afcc89b7f9c3d5cb962c46ccdd24f"
+    },
+    {
+      "path": "references/reference-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a353982f515478997cca35a7088b4884d716b6c3",
+      "size": 2537,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/a353982f515478997cca35a7088b4884d716b6c3"
+    },
+    {
+      "path": "references/registration-validation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c3cb955058febcfe8e86e6670722a93a2f00a6b",
+      "size": 3600,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/5c3cb955058febcfe8e86e6670722a93a2f00a6b"
+    },
+    {
+      "path": "references/skill-evals.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0dbe5e801a4126f7a2da11b6033f2337971d075",
+      "size": 5771,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/a0dbe5e801a4126f7a2da11b6033f2337971d075"
+    },
+    {
+      "path": "references/source-adaptation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69b5805966ca8bbe3781caa9558b95cfffa348f9",
+      "size": 2194,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/69b5805966ca8bbe3781caa9558b95cfffa348f9"
+    },
+    {
+      "path": "references/source-discovery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c982a2cbf9199c89ec7c356015f7335e7946e24",
+      "size": 2631,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/5c982a2cbf9199c89ec7c356015f7335e7946e24"
+    },
+    {
+      "path": "references/spec-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d4d4a7046f4d7b4743296126d36ae046ceddb0f",
+      "size": 2213,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/6d4d4a7046f4d7b4743296126d36ae046ceddb0f"
+    },
+    {
+      "path": "references/structure-troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "996740d044983854709a6a450a6eb17a49bae386",
+      "size": 4073,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/996740d044983854709a6a450a6eb17a49bae386"
+    },
+    {
+      "path": "references/synthesis-path.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81682b6779443ad8cbf4e7357fd3d079fc209e52",
+      "size": 3822,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/81682b6779443ad8cbf4e7357fd3d079fc209e52"
+    },
+    {
+      "path": "references/workflow-orchestrator-workers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "645c57c3fc4f5003d448e9acfacbf865eb330e8e",
+      "size": 652,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/645c57c3fc4f5003d448e9acfacbf865eb330e8e"
+    },
+    {
+      "path": "references/workflow-parallel.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c570322e603d2d8e30cccee4fd8f780f80a5ad81",
+      "size": 540,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/c570322e603d2d8e30cccee4fd8f780f80a5ad81"
+    },
+    {
+      "path": "references/workflow-plan-validate-execute.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db8f648d724340f955254759e098277443b90fa",
+      "size": 678,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/8db8f648d724340f955254759e098277443b90fa"
+    },
+    {
+      "path": "references/workflow-prompt-chaining.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2d4cc18344c3479749fcbf3a104c30d5654fd85",
+      "size": 548,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/d2d4cc18344c3479749fcbf3a104c30d5654fd85"
+    },
+    {
+      "path": "references/workflow-routing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "093358c76f8b0c09231f27971b5087035896dae6",
+      "size": 828,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/093358c76f8b0c09231f27971b5087035896dae6"
+    },
+    {
+      "path": "references/workflow-validation-loops.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51f26ad81496459ba7440cfaa305c86db22e036f",
+      "size": 658,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/51f26ad81496459ba7440cfaa305c86db22e036f"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa66c08e62b4084e2500ba707f6868f9cbeaea2f",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/fa66c08e62b4084e2500ba707f6868f9cbeaea2f"
+    },
+    {
+      "path": "scripts/quick_validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0e46c79db6ea3c369753d5a3c56a7922051952",
+      "size": 4759,
+      "url": "https://api.github.com/repos/getsentry/skills/git/blobs/2c0e46c79db6ea3c369753d5a3c56a7922051952"
+    }
+  ],
+  "truncated": false
+}

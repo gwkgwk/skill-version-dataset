@@ -1,0 +1,82 @@
+{
+  "sha": "0850c48b68dd1a09912a1bae82b1a457142a5b96",
+  "node_id": "C_kwDORcxyRtoAKDA4NTBjNDhiNjhkZDFhMDk5MTJhMWJhZTgyYjFhNDU3MTQyYTViOTY",
+  "commit": {
+    "author": {
+      "name": "Malo Bourgon",
+      "email": "mbourgon@gmail.com",
+      "date": "2026-03-24T22:01:55Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-24T22:01:55Z"
+    },
+    "message": "feat(gmail): add --draft flag to +send, +reply, +reply-all, +forward (#571)\n\nWhen --draft is set, calls users.drafts.create instead of\nusers.messages.send. Message construction is identical; only the\nAPI method and metadata wrapper change. Threaded drafts (replies\nand forwards) preserve threadId in the draft metadata.",
+    "tree": {
+      "sha": "ac87a151e9754285ea4a50e56bb0647cbca019bd",
+      "url": "https://api.github.com/repos/googleworkspace/cli/git/trees/ac87a151e9754285ea4a50e56bb0647cbca019bd"
+    },
+    "url": "https://api.github.com/repos/googleworkspace/cli/git/commits/0850c48b68dd1a09912a1bae82b1a457142a5b96",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpwwnTCRC1aQ7uu5UhlAAAPMQQAIfrFXObrNuKkL/Fn3N8fKGW\nwKcL42/0RLvy6LDUFI3+gwGBntbdlvIJw8z9s8KQ7y8313OjZZzpQLok5UZrv5T3\nK+wdzWxTVzQdNJ4YdNl0Qw6iFH9dWMP6YV4gk5kFfA1cUdQqskBHFvpAOrNWiST6\n8fTPwAxwU8NzJY3gXVm+yBAhhXCVWUi+RkLPMoCSjj2Q0G+ew5pVERtLnMjmJ/dd\n5xhJ8CQ0DInkg8ReoTwvDflJVJa9uu4vYUEwz67iVbiKjB+gSKMh/XpxVKGk3sy1\nXCQ1WykDrdckonBzBjrYOsZ698BE53FPWZ2TEwmemJQKIQH+V9W0uljXxVoNvRfi\nCl/ei3NggHkujECRH/ewlwwsqOsJt0GmOISzIdNkgYmzDLUZUlFttqrEexoFqkfJ\ngrerLAdkV31+WaIgRNxB9bHMBnEa30NhSCQw8mor6ct2EMyXvpsQ8c2PvIiZ/BGH\nZw3sMyFg7TAkEY+e1dwMeq0EX35wvtniTrK72/EjKaNbpC0QVrDlstZkzVSCZWr+\nWVwxwpJywpdqaTa4jyeT0U7zSJ4n628doBjV2jwcWTqRJb+pFeDB1eUct2xRJqQo\nHXAfuMVqPb/edlu8r12ovK5iTNcMITslO3QjKhu1DME07lAPqF9lgazRuBkx6ME6\nBrOdIJ7wE4S1Ugj1sEuh\n=axQi\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree ac87a151e9754285ea4a50e56bb0647cbca019bd\nparent 2aec0ba5a363735bae3eb20b5a3ea3306f8065f4\nauthor Malo Bourgon <mbourgon@gmail.com> 1774389715 -0700\ncommitter GitHub <noreply@github.com> 1774389715 -0600\n\nfeat(gmail): add --draft flag to +send, +reply, +reply-all, +forward (#571)\n\nWhen --draft is set, calls users.drafts.create instead of\nusers.messages.send. Message construction is identical; only the\nAPI method and metadata wrapper change. Threaded drafts (replies\nand forwards) preserve threadId in the draft metadata.",
+      "verified_at": "2026-03-24T22:01:56Z"
+    }
+  },
+  "url": "https://api.github.com/repos/googleworkspace/cli/commits/0850c48b68dd1a09912a1bae82b1a457142a5b96",
+  "html_url": "https://github.com/googleworkspace/cli/commit/0850c48b68dd1a09912a1bae82b1a457142a5b96",
+  "comments_url": "https://api.github.com/repos/googleworkspace/cli/commits/0850c48b68dd1a09912a1bae82b1a457142a5b96/comments",
+  "author": {
+    "login": "malob",
+    "id": 2914269,
+    "node_id": "MDQ6VXNlcjI5MTQyNjk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2914269?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/malob",
+    "html_url": "https://github.com/malob",
+    "followers_url": "https://api.github.com/users/malob/followers",
+    "following_url": "https://api.github.com/users/malob/following{/other_user}",
+    "gists_url": "https://api.github.com/users/malob/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/malob/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/malob/subscriptions",
+    "organizations_url": "https://api.github.com/users/malob/orgs",
+    "repos_url": "https://api.github.com/users/malob/repos",
+    "events_url": "https://api.github.com/users/malob/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/malob/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "2aec0ba5a363735bae3eb20b5a3ea3306f8065f4",
+      "url": "https://api.github.com/repos/googleworkspace/cli/commits/2aec0ba5a363735bae3eb20b5a3ea3306f8065f4",
+      "html_url": "https://github.com/googleworkspace/cli/commit/2aec0ba5a363735bae3eb20b5a3ea3306f8065f4"
+    }
+  ]
+}

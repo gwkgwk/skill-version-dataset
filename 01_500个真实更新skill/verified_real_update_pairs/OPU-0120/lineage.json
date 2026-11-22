@@ -1,0 +1,82 @@
+{
+  "sha": "a5119697b819090e00e5d11ee1d86834d7c1043a",
+  "node_id": "C_kwDOQchDtdoAKGE1MTE5Njk3YjgxOTA5MGUwMGU1ZDExZWUxZDg2ODM0ZDdjMTA0M2E",
+  "commit": {
+    "author": {
+      "name": "Andi Radulescu",
+      "email": "andi.radulescu@me.com",
+      "date": "2026-02-06T18:01:32Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-02-06T18:01:32Z"
+    },
+    "message": "Fix playwright CLI package reference (#104)\n\n## Summary\nFix Playwright CLI skill to reference the correct npm package.\n\n## Changes\n- Use `@playwright/cli` in the wrapper script instead of\n`@playwright/mcp`.\n- Update skill install guidance to match the correct package.\n\n## Why\nThe Playwright CLI binary is provided by `@playwright/cli`. The skill\ncurrently points at `@playwright/mcp`, which does not install\n`playwright-cli`, causing installs to succeed but the CLI to be missing.\n\n## Testing\n- Installed the updated skill locally.\n- Opened Google and performed a search via `playwright-cli` in headed\nmode.",
+    "tree": {
+      "sha": "9268cb4fc378f947fc8f7e806229a1dac9b8c0ce",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/9268cb4fc378f947fc8f7e806229a1dac9b8c0ce"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/a5119697b819090e00e5d11ee1d86834d7c1043a",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJphix8CRC1aQ7uu5UhlAAAKSkQADD9NqoyHychGvr9fibOZDxr\nE3JJf4J2ALDTATTA3Th8lPRvx+gfj5stUF7AX/2VU5vaZUrkNXSLeAK9bcU0mtmi\nhLDZ38eq966bRWF+s1NqRaUJMe5MA2i+40qwcqu4KzBhzFEN3cZ/xFKxN9d/yDfW\nO5iaIye682ZLzzNdpJXfqDgskcYc5Usy6pztUT//4IPmaqme8zorD/ipK2Y4k99H\n3UCfW7EN1AfsxQ3jg77zn4p+S/6GeHSlC3I3X7of04/lFLSNrrqysk9jbbLlhWq0\nXF/NHIlnlELFcwofJlqeuNfdNFmOFf9XBRHga5QC9My72bdhBfvvo13ytcZTczyG\n4CTJ5EWv/bhMOQII1DyNc+/5U9iGuraFG7RlYolgf/HYvRB95XGTfN2quAlLQulN\nhFAxM8Eq9tjMttAAZeE/9f91pCdhEZFOlWymjHgn4AHxviZo4FtnPrnN+s+anRdd\nCsrspcFmJNB6fttZPLQoYPXpaLSALJCr4KxWM62GxlmIrj1crwk3hRI8cln3jEez\nhPI8ivWFXpHnPF3xDEPXhCV8KTHBcNhZhDt/1gqn6vkZSrHoGtypfuIDKUn5Ab9T\nCqUFVU3smiec71xSZ6FJMnVUg7bmzcK4ChLs56gZ17n7LoAd+JaI//WQqYuGwrcg\nWUNXCYUoXIeG0QvB5n/X\n=skZs\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 9268cb4fc378f947fc8f7e806229a1dac9b8c0ce\nparent 2f7901ee4202a26757a5237e987a8ec5a1799e29\nauthor Andi Radulescu <andi.radulescu@me.com> 1770400892 +0200\ncommitter GitHub <noreply@github.com> 1770400892 +0100\n\nFix playwright CLI package reference (#104)\n\n## Summary\nFix Playwright CLI skill to reference the correct npm package.\n\n## Changes\n- Use `@playwright/cli` in the wrapper script instead of\n`@playwright/mcp`.\n- Update skill install guidance to match the correct package.\n\n## Why\nThe Playwright CLI binary is provided by `@playwright/cli`. The skill\ncurrently points at `@playwright/mcp`, which does not install\n`playwright-cli`, causing installs to succeed but the CLI to be missing.\n\n## Testing\n- Installed the updated skill locally.\n- Opened Google and performed a search via `playwright-cli` in headed\nmode.",
+      "verified_at": "2026-02-06T18:01:33Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/a5119697b819090e00e5d11ee1d86834d7c1043a",
+  "html_url": "https://github.com/openai/skills/commit/a5119697b819090e00e5d11ee1d86834d7c1043a",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/a5119697b819090e00e5d11ee1d86834d7c1043a/comments",
+  "author": {
+    "login": "andiradulescu",
+    "id": 76900,
+    "node_id": "MDQ6VXNlcjc2OTAw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/76900?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/andiradulescu",
+    "html_url": "https://github.com/andiradulescu",
+    "followers_url": "https://api.github.com/users/andiradulescu/followers",
+    "following_url": "https://api.github.com/users/andiradulescu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/andiradulescu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/andiradulescu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/andiradulescu/subscriptions",
+    "organizations_url": "https://api.github.com/users/andiradulescu/orgs",
+    "repos_url": "https://api.github.com/users/andiradulescu/repos",
+    "events_url": "https://api.github.com/users/andiradulescu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/andiradulescu/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "2f7901ee4202a26757a5237e987a8ec5a1799e29",
+      "url": "https://api.github.com/repos/openai/skills/commits/2f7901ee4202a26757a5237e987a8ec5a1799e29",
+      "html_url": "https://github.com/openai/skills/commit/2f7901ee4202a26757a5237e987a8ec5a1799e29"
+    }
+  ]
+}

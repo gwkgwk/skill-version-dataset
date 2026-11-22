@@ -1,0 +1,311 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "446df3bd6f00bfe30b72",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "16247a7639866f417d78cd3d950af938e2019fbe",
+    "computed_tree_sha": "6ea62f4fb44575d28a3324b4c1eada0e0a3f6be9",
+    "api_tree_sha_as_returned": "6ea62f4fb44575d28a3324b4c1eada0e0a3f6be9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "322b342762abbcd86eb90a92b2c4cb7dccd6aac6",
+        "sha256": "bb027dcc53d93057daa81d2f5ee6ab2f47df9992ba3ceebe35d00938f7b3b4c9",
+        "size": 7330,
+        "mode": "100644"
+      },
+      {
+        "path": "TEST_PROMPTS.md",
+        "git_blob_sha1": "cbba68e132692a6861539043c6978000e98dba23",
+        "sha256": "a976fc095bdcfeadb830b73d04937adbc6e59121a7193bbd39f94879b5000ddf",
+        "size": 3367,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/SKILL.md",
+        "git_blob_sha1": "46935315ebdf18fbc93771efb72e7f8f9e9980ac",
+        "sha256": "91b3ce958de44f728453572747504e8c9146f119892aa690546fd19f8d96a344",
+        "size": 7011,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/scripts/discover_and_rank.ps1",
+        "git_blob_sha1": "4b86363f4d707bbff4371050d32b04f6b10a63f5",
+        "sha256": "784f4f144d61ba0714873541377b313568c8a5f279d3e028029a3f9e09f58969",
+        "size": 4670,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/scripts/discover_and_rank.sh",
+        "git_blob_sha1": "83c771b47fc3342268ded19d684ecad402c4ade7",
+        "sha256": "21b1a3197e2b49c0bdc0af5dafa368c9807df0841a718e344fd09d1849df8939",
+        "size": 4641,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/scripts/query_capacity.ps1",
+        "git_blob_sha1": "f65dff5aa99a596d75e19427caf7dd711837d757",
+        "sha256": "b8580f46de51cd09dc43f0d30dde95ae64f2b54723b70768cd78ccfe107ce6cc",
+        "size": 3030,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/scripts/query_capacity.sh",
+        "git_blob_sha1": "7869f6904927bf1d83dc29c357f7746a37229504",
+        "sha256": "3af156c2cf0b2306f3389a34475ad39a9960ebf8e2384bfa6da6f05b62432ae8",
+        "size": 2942,
+        "mode": "100644"
+      },
+      {
+        "path": "customize/EXAMPLES.md",
+        "git_blob_sha1": "a3f25848a09494cbee25143aa71ec43d0a0425f5",
+        "sha256": "f1476b98fe34a8a4e414703f674ed497f2182267810218911035fc3a55bb104f",
+        "size": 4402,
+        "mode": "100644"
+      },
+      {
+        "path": "customize/SKILL.md",
+        "git_blob_sha1": "7c94d5617bf41dd57289fbd6d7e9cf7ea0d811c2",
+        "sha256": "9424dbe2afc67b79d04bb21cc041dfc7e52ae1d87fb2a7c9c24b7ee4c44f5123",
+        "size": 8986,
+        "mode": "100644"
+      },
+      {
+        "path": "customize/references/customize-guides.md",
+        "git_blob_sha1": "1009adb4ccbdc7ad182599c6e5ef529a12ee691e",
+        "sha256": "28132d05c5db1f40618d74e6cde43bcab241c97d6f6e15d8866f61481b26b2a0",
+        "size": 3487,
+        "mode": "100644"
+      },
+      {
+        "path": "customize/references/customize-workflow.md",
+        "git_blob_sha1": "750ae56ec50394ee0d86052b95fea1ce42016e27",
+        "sha256": "a2b4e5bd74d80423bf2ad70c1654a0beafc601def9ef3f699aec6e5c6f69b1bf",
+        "size": 13402,
+        "mode": "100644"
+      },
+      {
+        "path": "preset/EXAMPLES.md",
+        "git_blob_sha1": "0a97a6d6f1f9f6bc7db94640f5392cc2a8cdbfbc",
+        "sha256": "f1032f773a352c95bdab4d78085a6e30c7d73160746ec4370dbd79ec2cb62d38",
+        "size": 2982,
+        "mode": "100644"
+      },
+      {
+        "path": "preset/SKILL.md",
+        "git_blob_sha1": "09fcc94cba4c178ec08650b6e6e1da32437c2701",
+        "sha256": "e3d6313af788327dc409c1515029209a362db9ce7ace999b95653e85fa9b688e",
+        "size": 4932,
+        "mode": "100644"
+      },
+      {
+        "path": "preset/references/preset-workflow.md",
+        "git_blob_sha1": "2598904eceb45bca3852920716cf88d3d555432d",
+        "sha256": "29dccccd456a5807c463a7c65798800546c861e65a3cd022cb6600195e06f0fc",
+        "size": 22472,
+        "mode": "100644"
+      },
+      {
+        "path": "preset/references/workflow.md",
+        "git_blob_sha1": "109b2fc69c6379af9b6bf5178694f567689b762e",
+        "sha256": "fd7c06e54cf7f1dc437b6e30683550f2511e9138f7038e67b7c382730a0c83e2",
+        "size": 5763,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_deployment_url.ps1",
+        "git_blob_sha1": "668949c9e955919923736a2b11c048c4d680f269",
+        "sha256": "0ddf18273608146014b150fd6a7e500d8d2da2c0909e201cab858bc9904cb9a2",
+        "size": 2368,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_deployment_url.sh",
+        "git_blob_sha1": "3d01ee10e5d84f3bc70c36d6110e0246a8d89f1d",
+        "sha256": "85c67b44bda61ea804606b1cb0641b4ae5af068a3fa145b44b242b622c5d94ba",
+        "size": 2684,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "04d245b7888e8c9b063d460aef10106e66e48a4f",
+    "computed_tree_sha": "5e74f912fae33be9f2e704bf4823ce40bb6e565d",
+    "api_tree_sha_as_returned": "5e74f912fae33be9f2e704bf4823ce40bb6e565d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fd954ccf1ed94a451cf37a4770dff6f375ccb00e",
+        "sha256": "ae0de869fdaee1a6b6b04582e723a2363d482d85a5c119f1963a2c36eff5667c",
+        "size": 7301,
+        "mode": "100644"
+      },
+      {
+        "path": "TEST_PROMPTS.md",
+        "git_blob_sha1": "cbba68e132692a6861539043c6978000e98dba23",
+        "sha256": "a976fc095bdcfeadb830b73d04937adbc6e59121a7193bbd39f94879b5000ddf",
+        "size": 3367,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/SKILL.md",
+        "git_blob_sha1": "46935315ebdf18fbc93771efb72e7f8f9e9980ac",
+        "sha256": "91b3ce958de44f728453572747504e8c9146f119892aa690546fd19f8d96a344",
+        "size": 7011,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/scripts/discover_and_rank.ps1",
+        "git_blob_sha1": "30960b0b8b3ebadc49b28e143025161e0df6df2e",
+        "sha256": "cc0515af5d6a48d77122dcd451ffb44b6332920a91add8704eec52da129be677",
+        "size": 4677,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/scripts/discover_and_rank.sh",
+        "git_blob_sha1": "83c771b47fc3342268ded19d684ecad402c4ade7",
+        "sha256": "21b1a3197e2b49c0bdc0af5dafa368c9807df0841a718e344fd09d1849df8939",
+        "size": 4641,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/scripts/query_capacity.ps1",
+        "git_blob_sha1": "f65dff5aa99a596d75e19427caf7dd711837d757",
+        "sha256": "b8580f46de51cd09dc43f0d30dde95ae64f2b54723b70768cd78ccfe107ce6cc",
+        "size": 3030,
+        "mode": "100644"
+      },
+      {
+        "path": "capacity/scripts/query_capacity.sh",
+        "git_blob_sha1": "7869f6904927bf1d83dc29c357f7746a37229504",
+        "sha256": "3af156c2cf0b2306f3389a34475ad39a9960ebf8e2384bfa6da6f05b62432ae8",
+        "size": 2942,
+        "mode": "100644"
+      },
+      {
+        "path": "customize/EXAMPLES.md",
+        "git_blob_sha1": "a3f25848a09494cbee25143aa71ec43d0a0425f5",
+        "sha256": "f1476b98fe34a8a4e414703f674ed497f2182267810218911035fc3a55bb104f",
+        "size": 4402,
+        "mode": "100644"
+      },
+      {
+        "path": "customize/SKILL.md",
+        "git_blob_sha1": "eb4887175301b4751cca679e11863d1ba6f34bc9",
+        "sha256": "d0a25090ffc3e139ff2eaeca5f814a83aa61d596571d267f6a7ad534c153ba68",
+        "size": 8988,
+        "mode": "100644"
+      },
+      {
+        "path": "customize/references/customize-guides.md",
+        "git_blob_sha1": "1009adb4ccbdc7ad182599c6e5ef529a12ee691e",
+        "sha256": "28132d05c5db1f40618d74e6cde43bcab241c97d6f6e15d8866f61481b26b2a0",
+        "size": 3487,
+        "mode": "100644"
+      },
+      {
+        "path": "customize/references/customize-workflow.md",
+        "git_blob_sha1": "482dfb480318cdc8c6d53ffd4a2c87db0f876f86",
+        "sha256": "9b7881474c34d46b58678bc6c88e9254248cedd4c177ab83b61d04d8f83b06f6",
+        "size": 13403,
+        "mode": "100644"
+      },
+      {
+        "path": "preset/EXAMPLES.md",
+        "git_blob_sha1": "8c61f9dccf371222a22e271839a5632d6c900960",
+        "sha256": "a13e5072e0f1f2d1f10fa4b193d9566feea9451fda3e545c4a60cf9ca474778a",
+        "size": 2989,
+        "mode": "100644"
+      },
+      {
+        "path": "preset/SKILL.md",
+        "git_blob_sha1": "deec344e2ac5fed6808a1f3c9ac0bacb02cfdde7",
+        "sha256": "f4e44bf4eac06f75f17f5e3fc40e5a85a2cf23b27fcc99bf76c5df9d6e48eb5b",
+        "size": 4935,
+        "mode": "100644"
+      },
+      {
+        "path": "preset/references/preset-workflow.md",
+        "git_blob_sha1": "86b4027278efa7e8c851790bb6dac070c98c3122",
+        "sha256": "81af3221959d89f565c2eadd800841817bba373ed79df8f62568a9f9c30bb071",
+        "size": 22492,
+        "mode": "100644"
+      },
+      {
+        "path": "preset/references/workflow.md",
+        "git_blob_sha1": "109b2fc69c6379af9b6bf5178694f567689b762e",
+        "sha256": "fd7c06e54cf7f1dc437b6e30683550f2511e9138f7038e67b7c382730a0c83e2",
+        "size": 5763,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_deployment_url.ps1",
+        "git_blob_sha1": "b021fdb4eb48fa36392dd8035d53ed55419d1c6f",
+        "sha256": "632a65aa03a3d0b9c73e31cf1dadbfa6299f52f0ba0cc628b2d32922445b26e3",
+        "size": 2371,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_deployment_url.sh",
+        "git_blob_sha1": "2b9ff8b3bf05ff7d1bf4ca1c1ba3441d3f6b0b3c",
+        "sha256": "7fbbab8aa07bf666015628b152fa64c9046c96fde3b207d0c1cba2ac16594654",
+        "size": 2687,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "capacity/scripts/discover_and_rank.ps1",
+    "customize/SKILL.md",
+    "customize/references/customize-workflow.md",
+    "preset/EXAMPLES.md",
+    "preset/SKILL.md",
+    "preset/references/preset-workflow.md",
+    "scripts/generate_deployment_url.ps1",
+    "scripts/generate_deployment_url.sh"
+  ],
+  "old_commit": "16247a7639866f417d78cd3d950af938e2019fbe",
+  "new_commit": "04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-08-07T11:17:12Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/16247a7639866f417d78cd3d950af938e2019fbe...04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "commit_url": "https://github.com/microsoft/skills/commit/04d245b7888e8c9b063d460aef10106e66e48a4f",
+  "skill_directory": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model",
+  "local_directory": "verified_real_update_pairs/OPU-0482",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0482",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

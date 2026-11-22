@@ -1,0 +1,82 @@
+{
+  "sha": "d4a9df538f635ae11cf47bb8e8cde1e63674b8de",
+  "node_id": "C_kwDOQchDtdoAKGQ0YTlkZjUzOGY2MzVhZTExY2Y0N2JiOGU4Y2RlMWU2MzY3NGI4ZGU",
+  "commit": {
+    "author": {
+      "name": "Aditya Mathur",
+      "email": "57684218+MathurAditya724@users.noreply.github.com",
+      "date": "2026-04-08T21:47:09Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-04-08T21:47:09Z"
+    },
+    "message": "Switch Sentry skill from bundled Python script to Sentry CLI (#336)\n\n## Summary\n\n- Replace the custom `sentry_api.py` script with native Sentry CLI\ncommands, which handle authentication, org/project auto-detection,\npagination, and retries out of the box.\n- Update `SKILL.md` with CLI-based workflows covering issue inspection,\ntrace exploration, log streaming, and a generic API fallback for\nuncovered endpoints.\n- Update the agent description in `openai.yaml` to reflect the CLI-based\napproach.\n\n## Motivation\n\nThe bundled Python script was a thin wrapper around Sentry's REST API\nthat required manual auth token setup and explicit org/project\nconfiguration. The Sentry CLI (`sentry-cli`) handles all of this\nnatively — including interactive auth, DSN-based project detection, and\nstructured JSON output — making the script redundant and the skill\nsimpler to use.",
+    "tree": {
+      "sha": "c7e0cd424acd2378f1b56deb49e392fe8e2551b8",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/c7e0cd424acd2378f1b56deb49e392fe8e2551b8"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/d4a9df538f635ae11cf47bb8e8cde1e63674b8de",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp1szdCRC1aQ7uu5UhlAAAVq4QABR2Kxx0vuRwC/hItsp4HdQT\nJ3Xr0TW+MqN7UUkTO94e9ZYSkc8udKrySTIVQtWYWA4k0LAMM+D3SLCDA8yF1QJO\ndAZQeOUSMr1eB386F1UJ+TSqTYwLotkIqoBjFhX7ehcUisiJ/QuPI+LFfvCBDdvG\nOcBVUrJP0Exflqf5s4uklVeKSeUe2hZI8TPHFtB8dTHLwzjBj0i05Ce67VY78U54\neZH/kewD4lGUvyJGwU3K5wHWiXYB4+qSdP3k8XJ9yioPVsBLKjEYidExDd6gySVJ\nyv5HNxN+C4jPEYvIqsYRKc/+py2XqngB3DPZ+tu+fl43S+TYxtnEQLGSeDBuQhYq\nM3i6iAavAq+goHcf6ewGYijpsmZtxCiXODrqDGU9SLYCjMRn+EkeCD1tnTAEmCdX\n6iJVFXjn/Dc7IVKJrMCHmcOIoUXwuz+qlgTkI8ABDgkefeHR156MHhnFy248OANw\n4EwfZJfTi+5ZKrbivGkZ4amQTzdbXQ2GNG+3U5O6kBJbKQu7ni4342vDYUAa269c\nPpott/WPadQsvP40SWNnodcLGtfCR+AZ63Q1Wq7zRBRC4aRsu1ml1zoiHxVtmUrA\n54XMIb6bgXj4SER9rJYtZapC7fQGXphBFp7vPYUuQGRc8pFfGTOsa00bFUVKTC5A\nI/N/kUKLa2dSEnr6bfBP\n=LVDN\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c7e0cd424acd2378f1b56deb49e392fe8e2551b8\nparent 736f600bf6ecbc000c04f1d2710b990899f28903\nauthor Aditya Mathur <57684218+MathurAditya724@users.noreply.github.com> 1775684829 +0530\ncommitter GitHub <noreply@github.com> 1775684829 -0700\n\nSwitch Sentry skill from bundled Python script to Sentry CLI (#336)\n\n## Summary\n\n- Replace the custom `sentry_api.py` script with native Sentry CLI\ncommands, which handle authentication, org/project auto-detection,\npagination, and retries out of the box.\n- Update `SKILL.md` with CLI-based workflows covering issue inspection,\ntrace exploration, log streaming, and a generic API fallback for\nuncovered endpoints.\n- Update the agent description in `openai.yaml` to reflect the CLI-based\napproach.\n\n## Motivation\n\nThe bundled Python script was a thin wrapper around Sentry's REST API\nthat required manual auth token setup and explicit org/project\nconfiguration. The Sentry CLI (`sentry-cli`) handles all of this\nnatively — including interactive auth, DSN-based project detection, and\nstructured JSON output — making the script redundant and the skill\nsimpler to use.",
+      "verified_at": "2026-04-08T21:47:10Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/d4a9df538f635ae11cf47bb8e8cde1e63674b8de",
+  "html_url": "https://github.com/openai/skills/commit/d4a9df538f635ae11cf47bb8e8cde1e63674b8de",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/d4a9df538f635ae11cf47bb8e8cde1e63674b8de/comments",
+  "author": {
+    "login": "MathurAditya724",
+    "id": 57684218,
+    "node_id": "MDQ6VXNlcjU3Njg0MjE4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/57684218?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MathurAditya724",
+    "html_url": "https://github.com/MathurAditya724",
+    "followers_url": "https://api.github.com/users/MathurAditya724/followers",
+    "following_url": "https://api.github.com/users/MathurAditya724/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MathurAditya724/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MathurAditya724/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MathurAditya724/subscriptions",
+    "organizations_url": "https://api.github.com/users/MathurAditya724/orgs",
+    "repos_url": "https://api.github.com/users/MathurAditya724/repos",
+    "events_url": "https://api.github.com/users/MathurAditya724/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MathurAditya724/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "736f600bf6ecbc000c04f1d2710b990899f28903",
+      "url": "https://api.github.com/repos/openai/skills/commits/736f600bf6ecbc000c04f1d2710b990899f28903",
+      "html_url": "https://github.com/openai/skills/commit/736f600bf6ecbc000c04f1d2710b990899f28903"
+    }
+  ]
+}

@@ -1,0 +1,1435 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/let-fate-decide/skills/let-fate-decide/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "1a361355f04cfe36f4bb",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "442fc9d6c89b1e937e6f7a477e7071ea75fcbea4",
+    "computed_tree_sha": "f3bee2d255e37d69dcf812274e9073684cf0e2f2",
+    "api_tree_sha_as_returned": "f3bee2d255e37d69dcf812274e9073684cf0e2f2",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "151856bd5559dece32930a0f9b005bb8cc491746",
+        "sha256": "ef51258f594553a28c44cf0e6feef89d0c89f4d2aad2dc7ab606f4e1568c251e",
+        "size": 9979,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "d93c3b752749a8b59e897f6fb2b9f970a1eb0f41",
+        "sha256": "02ee07cc553b588b82dbc8c542d791feac0b097807d638a82cf4276b3f0f47d2",
+        "size": 236,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/ace-of-cups.md",
+        "git_blob_sha1": "5cd3f154d51fa19f576b55e53c313cab62d91c84",
+        "sha256": "28d860f3fd39dac5406720bfef368290c6edcd94b7f0d1b4082ef2aae019f335",
+        "size": 627,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/eight-of-cups.md",
+        "git_blob_sha1": "0003987797e63b0d1e02e4549ee0a8fe066dc793",
+        "sha256": "052d9dcc01ade4751b64f030eebcd426e2b2ab70936c23a74375d6851f6e0912",
+        "size": 666,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/five-of-cups.md",
+        "git_blob_sha1": "28be62e5ed94952d6e69635e83e8c94e5ff29ef6",
+        "sha256": "01e940a53c713178583a2932b6a870095de33088a581c5d557c2aeba7ce4bf16",
+        "size": 603,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/four-of-cups.md",
+        "git_blob_sha1": "70d71ab5ed97b70b26835702233ad438e16053ba",
+        "sha256": "d62d23ecb21a6c83a8067084b78eb8381eac9f9f0a33826205f3c6d9ab8e5e61",
+        "size": 607,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/king-of-cups.md",
+        "git_blob_sha1": "b638f551e42176f7150ae324d520674c2841b00a",
+        "sha256": "31ac9ef71d086129ca8a10c3a01a6ed72e7ec1d2c97bf88080e000a19ec65cac",
+        "size": 511,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/knight-of-cups.md",
+        "git_blob_sha1": "d6239ce890024c66976c42fa1d0f73aa443906cc",
+        "sha256": "0994326d74e1898ab15f797e83815300164117c8288f1ba146ebe8931b5705e3",
+        "size": 478,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/nine-of-cups.md",
+        "git_blob_sha1": "b4e91f980d6f21e4208f4e71d135ce607bed2c69",
+        "sha256": "4582d5108dc8ad76279a78074f8d7cc7fb22c159c68c49dc091dbdfd118df4a7",
+        "size": 634,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/page-of-cups.md",
+        "git_blob_sha1": "4c0894099aabf18220790d3435b7ff25bb20f231",
+        "sha256": "2f5583c906d94e33848e714fbf1211c1fcf02d1e2ccb5f5e4d3ec92e4e34dc85",
+        "size": 518,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/queen-of-cups.md",
+        "git_blob_sha1": "d7b8b73add79ae5a9c23ec39c9485acc7906f47d",
+        "sha256": "40fa2d0fa5b72659caff71bf7eafa77a2428e5ecfebf69f741ade33232167c3e",
+        "size": 502,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/seven-of-cups.md",
+        "git_blob_sha1": "5100c0d5498b00375b5f39e2d3224c1f48cdb95c",
+        "sha256": "852b35c0058d6e929af96ea6a567727803bdba75578310d193c837a29df450a2",
+        "size": 497,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/six-of-cups.md",
+        "git_blob_sha1": "bc3b3849357f012bf7c98280cb9e0f39172ab4bf",
+        "sha256": "6f2ade658b7681ba77e444932deb7f909e5d3d9618d9cb73b1503305a2726ecb",
+        "size": 496,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/ten-of-cups.md",
+        "git_blob_sha1": "e0e6717d984325d4789645ced30b2803b5418e10",
+        "sha256": "ac8dc9d3cf2a9d020c35369af76eb8874a8ef21a2911111739fb87f3cb4ea926",
+        "size": 536,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/three-of-cups.md",
+        "git_blob_sha1": "244e32077e8c95257c5fc7d35a3f6dc49bcac654",
+        "sha256": "9c801eb74f5cf5c76e69df620f3fccbf29dd2db50351737d326735fde77d3043",
+        "size": 482,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/two-of-cups.md",
+        "git_blob_sha1": "41efb4a240818724ebb4b739b25f409a2c6f851e",
+        "sha256": "b10857cbdc7cca86805bf4a06c38cd504fd2c6577b3549b8b64a00156e92b148",
+        "size": 500,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/00-the-fool.md",
+        "git_blob_sha1": "5cc8a091564f3611b9dadd99014a6038f11b8155",
+        "sha256": "41575fb537544bb1cf50a85e7d3d42cc198ee5f72019b2863de222e1a8ac5116",
+        "size": 563,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/01-the-magician.md",
+        "git_blob_sha1": "de5b7f804c29c08344f299142c96ab23ae72ed17",
+        "sha256": "860c04ab0c9b562284aec2aebbba223900545abc79cd3819713ed3bad9eb7dfd",
+        "size": 648,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/02-the-high-priestess.md",
+        "git_blob_sha1": "4c5e69dfa448259fbbfd1f9037b0280330fd2e9c",
+        "sha256": "26a10ab90842bb85a7890d3d9856b383fb33f8b417a70a30c0c0a054088c14c6",
+        "size": 710,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/03-the-empress.md",
+        "git_blob_sha1": "f9e24d3622b2fa8a6a5d9eaa82f5e01a36b89bb5",
+        "sha256": "b7be52dff834f93f38e2a2f0e69c8e036043c9119d9ac1f391601db19bcd0ddb",
+        "size": 645,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/04-the-emperor.md",
+        "git_blob_sha1": "ade4e817400f892b902bc4c5192e36c633b1371c",
+        "sha256": "1b48cba12beed161b3d9337ad3591b5b2200d13f7d8559ecd22fc4f183fb603b",
+        "size": 651,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/05-the-hierophant.md",
+        "git_blob_sha1": "87dfbe7055908465493dac8bb43cbae54da516b5",
+        "sha256": "cdc24f287b1eda5074053fd1ea63e8c1deae6db9bf02063713222807416d0144",
+        "size": 685,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/06-the-lovers.md",
+        "git_blob_sha1": "985c9144b3886692ef0f61459ff7b629cff5f509",
+        "sha256": "9722ff4c624be5b7693b947661135c04b1a76402f7490088c04256a44f40225e",
+        "size": 715,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/07-the-chariot.md",
+        "git_blob_sha1": "356624d391e00a10f71e5123bde3862ad1356c4d",
+        "sha256": "fd9f65cd6785b54e6417fe1adc49273cce0adb70c2a002fea92a25cdeb27bd6b",
+        "size": 704,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/08-strength.md",
+        "git_blob_sha1": "793369dea877adbddbfaf2ff7de7fbdf22f07736",
+        "sha256": "cca5b9f50d8a5d54b552fbe731b43d88c6cceb3c2006b11611f0274975a21d27",
+        "size": 689,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/09-the-hermit.md",
+        "git_blob_sha1": "bd96cd536bb98c2839d4451224afa5d0fa49a825",
+        "sha256": "9d747c35f2e2c02272917ee1e710ee51269bf8edc9e304d7c4354f354d3f8112",
+        "size": 644,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/10-wheel-of-fortune.md",
+        "git_blob_sha1": "0c3b585254b6fbda119ef7fac8a58f8c8a18a17f",
+        "sha256": "52f5250e71884999ab6669bf5dc0b24a0585d0ae6acefcada03300d58e3a181a",
+        "size": 723,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/11-justice.md",
+        "git_blob_sha1": "c3d9c49f53b5dea9687ffde08e377467671746c3",
+        "sha256": "3c9967f413166c306cde202ecec98f82ce17eb01c0ee78b70e9f2ecece59fe3d",
+        "size": 664,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/12-the-hanged-man.md",
+        "git_blob_sha1": "64c6b894d81a83bbbdab4e5766ea807fd40af1e9",
+        "sha256": "2843c5b45356afe26adbcd5403af85228f167cdca2fbced6b1ad54e8d556f4ff",
+        "size": 709,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/13-death.md",
+        "git_blob_sha1": "e98e9db99cddb6ed901bee00687b03ddb63ec6b3",
+        "sha256": "f52aac25b735b0f77bf5c8dac58226c88366a75ab4973ae7487498d8d6b3c6b9",
+        "size": 702,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/14-temperance.md",
+        "git_blob_sha1": "7292715db4b4b13a9263ec05e1c67cd32f673d40",
+        "sha256": "05514fd17d45073655d6a878f0f2a70af48002669c4981433af10405478ad3c8",
+        "size": 706,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/15-the-devil.md",
+        "git_blob_sha1": "950170ad80b9c7ad4e4d56ae1115d3e18f22c09f",
+        "sha256": "534d78dc4904ba055060bb9d0d4bb53eb3f9a957cd247a211a2ef46d47b3d045",
+        "size": 699,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/16-the-tower.md",
+        "git_blob_sha1": "63d8f1169e59ed030d0067a3ab75bb80f9ea33dd",
+        "sha256": "c1ffa1d2b31353604e8171642bd86fa52700b2d9fcf88770391a4b8bcb4a9b05",
+        "size": 723,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/17-the-star.md",
+        "git_blob_sha1": "33af9c0df9176310eb6ad070a5ccbc3f3d978924",
+        "sha256": "0cc63419420005e0b67d9c6b9cc472734ae1806eb370222d258abe1257d6f303",
+        "size": 653,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/18-the-moon.md",
+        "git_blob_sha1": "eb4f05c2fbc53ee73a7e83630e0a82b296b310cc",
+        "sha256": "48a5ae8586a1396ca6e7669ae63ae12a96095e724d390d9ae9906c8422ab3733",
+        "size": 759,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/19-the-sun.md",
+        "git_blob_sha1": "12822e0c78793dd14b2984c8101ad03e8f24a9c8",
+        "sha256": "10321c73be2c4451404e5ded4c33b1fa6c702602dc101d40e3b31f86c07ad08e",
+        "size": 722,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/20-judgement.md",
+        "git_blob_sha1": "1a3224456b543d61991d90370f75df13c9df511a",
+        "sha256": "c78b987db4cbc5f521628adcd166b0231dc2ec1ee3c2bdb3e80a4aedec5cec98",
+        "size": 701,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/21-the-world.md",
+        "git_blob_sha1": "129e84c1686aaf0510cf82741339ac7dbfc5c504",
+        "sha256": "ccef15a05bcf6d3d8e6720e2f671665ac0994db99aaee64384878847d0e02062",
+        "size": 731,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/ace-of-pentacles.md",
+        "git_blob_sha1": "3cd0d3dca2398ef19de77f5b98282b51bd6111a5",
+        "sha256": "1caba9776a0adcc3f7d3e6daadde15a53e8d46a5297071f5bd21fbec40e65fa4",
+        "size": 458,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/eight-of-pentacles.md",
+        "git_blob_sha1": "4a4b6efac20da603b47bec964123b5ae78c7a0ab",
+        "sha256": "0b3de585f8a1c61466d858ed8d9c20cfc8c9811e8bfabbe41e624bbcc21cba46",
+        "size": 486,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/five-of-pentacles.md",
+        "git_blob_sha1": "a1074390369fef515e559d6a6d8e0e66b9f7a386",
+        "sha256": "f87ad3474db7ae1941262639adf31fdf86504e7f9dd0b807b735aaf46425d130",
+        "size": 427,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/four-of-pentacles.md",
+        "git_blob_sha1": "e8b6f3c72ce108ea7880c76e663ffbb5b4a28257",
+        "sha256": "018c3298cb17bce1bbe47beda6feb34d9095712de7ecf6f20aa35cfb7074487f",
+        "size": 436,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/king-of-pentacles.md",
+        "git_blob_sha1": "a144b33fb0686f76cdb82e3c4bb5c51245212d2e",
+        "sha256": "ee2168eb3a385b708bbcbb26f28ded67624a15a196c41ff58119b86a7f925576",
+        "size": 459,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/knight-of-pentacles.md",
+        "git_blob_sha1": "40697437a3659aff1011be181a845155e4391563",
+        "sha256": "260d740f2176d5c8810a8a3d0713331e84816a21987f41519a36579c026585a2",
+        "size": 471,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/nine-of-pentacles.md",
+        "git_blob_sha1": "eec2d0b181dcb553ffeecc9fbad0e30074044283",
+        "sha256": "76bdee95c610950fdf777a353d5b5a675c44c6549840c3bfe80f8dea369535ce",
+        "size": 447,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/page-of-pentacles.md",
+        "git_blob_sha1": "44905dab9f7c16bd7392444312eaeeaa2f3efc3d",
+        "sha256": "adf518c7d4b4e10e1f2414986916339fc7990dd01ddc7ccb90986722533ecc88",
+        "size": 465,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/queen-of-pentacles.md",
+        "git_blob_sha1": "4dfb86359647317638353c802459e0a1af8ade9a",
+        "sha256": "c48f3b2e0cbc6f11cd1e70eedbb694a23d0747be4166eb2a190a9e9e7b98a547",
+        "size": 452,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/seven-of-pentacles.md",
+        "git_blob_sha1": "d770ff7f7224b667a979c2b4a6b0b6646b372369",
+        "sha256": "04a5ff396864508c33021d4c47b62d1b17f4a30a5a08523402ffc9974cb841f0",
+        "size": 461,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/six-of-pentacles.md",
+        "git_blob_sha1": "2533da64dbf2b84f7512e37ff6d8e2b7142cebb1",
+        "sha256": "bb3a9210f5d3b2d9f4b64aab0488ea828dc0644570c3af4438091e1c85bb9fc5",
+        "size": 428,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/ten-of-pentacles.md",
+        "git_blob_sha1": "0d560c2aa7ba5352b04125106e8245a398f8bfb0",
+        "sha256": "04f25f877dce74a5dd1bffe356f49b8824d30165c63e01792c724f1e6423299a",
+        "size": 459,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/three-of-pentacles.md",
+        "git_blob_sha1": "4f733baa6d4dfbaee0d8f38e09468e9e7f37dd2e",
+        "sha256": "462c3ac0bb6e44f1783f9324982c2fce31835dc3a341ce9a43c3f49a307ff498",
+        "size": 468,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/two-of-pentacles.md",
+        "git_blob_sha1": "b1590b2509b7ebbc9a94f8c51a60639916f9da40",
+        "sha256": "b3f0d48efe23625b4a903d6c8b1eac3dabd892bf8447f25adc486e2266294464",
+        "size": 448,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/ace-of-swords.md",
+        "git_blob_sha1": "5836d5ea9c46b3c07860d1ae667deecf28c32432",
+        "sha256": "4b0fce4e8fb09df62ffd62cdb09150ff8c03c6e6719626ab418fdb6ea7038f2a",
+        "size": 477,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/eight-of-swords.md",
+        "git_blob_sha1": "95129fe56a3568673fd72bc1bf2f6d4b12aeafdc",
+        "sha256": "24e30c870eae818039da9b8f72fb53af1335a351567a1f26c79554b176db1222",
+        "size": 508,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/five-of-swords.md",
+        "git_blob_sha1": "74cb549601479bda9eb345d5c9641b0a34c177bd",
+        "sha256": "db3be74d50cdcbac72afcbffdbb5912d867a2792288b77d63a1512a962e18042",
+        "size": 498,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/four-of-swords.md",
+        "git_blob_sha1": "39f4b18271c5343d471eb75b19bd720dea1bd33d",
+        "sha256": "4b0482f235b8f0f9f42655b4217eb39e0a8bc39118f4e4e1a0d0054d098d0d68",
+        "size": 453,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/king-of-swords.md",
+        "git_blob_sha1": "3279222368953d36ec90b572c4039d523fa66561",
+        "sha256": "f84ef817a08822df4ec1dc97dbffd0834d88ddbba0a61fdbdda0c8491ec348a1",
+        "size": 518,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/knight-of-swords.md",
+        "git_blob_sha1": "9bba07f7f9094a464bace9e97676d1bf03cf768f",
+        "sha256": "c09c1ee07d279e676e190172ed236f64da85fbe429fd8dc54956ff0f69f7e71a",
+        "size": 615,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/nine-of-swords.md",
+        "git_blob_sha1": "ff4d7faf6abb6074ef01fac3c60506c83967a7f0",
+        "sha256": "a8a8d683cf8c4027ba2e8cc4cafd060c7e6a20f333bba35e9eb6aa4c49243027",
+        "size": 597,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/page-of-swords.md",
+        "git_blob_sha1": "a93278122f4965f0eb9a79523a16577ec86bbcd5",
+        "sha256": "3aed5fc3d3f31be5ce606cbbcb8be464921abb578b5f56bd602e47caa59ce415",
+        "size": 504,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/queen-of-swords.md",
+        "git_blob_sha1": "8b2b4395305ebb85216b783de5042c7766b7d644",
+        "sha256": "0b757ae9f04cf6aa3fc3884cb6703e4db83e9998c1d79d155fec6d0208f74252",
+        "size": 517,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/seven-of-swords.md",
+        "git_blob_sha1": "74c0164341575223c9b00c6457e9939df2fc08fe",
+        "sha256": "f0bb09b5ee7ffe2c5b8c11699414d257f5b4ecf1b191ac583e4c3891e5f9ed6b",
+        "size": 495,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/six-of-swords.md",
+        "git_blob_sha1": "0f7de0657eb2f7ab2cf93d94f235adef0b2c00ff",
+        "sha256": "a9dae20e46b5001ab4dc79001d5c79574307b869e0915bc17cad73824227c633",
+        "size": 494,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/ten-of-swords.md",
+        "git_blob_sha1": "3df9eca8e1ffe95191f32e3504f674317ea5e3cb",
+        "sha256": "0c17b735e0688f0c0cdc27e78b257fb49ac9496b0f0cc023c08a0cbeddbd865f",
+        "size": 612,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/three-of-swords.md",
+        "git_blob_sha1": "0b704a0a7362c13a252b801728d2df9714edfd7a",
+        "sha256": "2dbf184dc19636aafb143796ada0cc4dc3a5fbb3759a7ce47bb14d0ebe8894b1",
+        "size": 457,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/two-of-swords.md",
+        "git_blob_sha1": "ea928e7a20d42a515f32494d3c8ddfb9eaa99e75",
+        "sha256": "a633f81bd06573f81668d1d26d9b2056b6ecce356995d71544cb96c7f268224d",
+        "size": 497,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/ace-of-wands.md",
+        "git_blob_sha1": "623156f6700517fe11e3244ee70209540a79f971",
+        "sha256": "39e3e3d2a8d8b0d87451aee977bbe83a84b9c86283f0a42e0d5b24dd1e255467",
+        "size": 461,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/eight-of-wands.md",
+        "git_blob_sha1": "5ed12a10e8bb3f5ad9e5a0d17673d2372378604a",
+        "sha256": "f3fa34b26e1051c78650d2bf1d78a252ce01845efb07b68a783dff3cb0b0549c",
+        "size": 443,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/five-of-wands.md",
+        "git_blob_sha1": "1d82ca53c739299ece23a66f88ab6a28cc2d9102",
+        "sha256": "7e5d05f4b2ee9d1f70dd5bceb358ff4b2ac4445425f8ef63697af781bcd772f9",
+        "size": 482,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/four-of-wands.md",
+        "git_blob_sha1": "5746aea9cff15de56a9f4517778206169af7708d",
+        "sha256": "66bd9b79fbb299e68edc0c56c2907f974bdd301c1c69209a573567ae8743302b",
+        "size": 461,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/king-of-wands.md",
+        "git_blob_sha1": "b2e10261211e4daec86b8267090a56a3ca2f1af4",
+        "sha256": "78b9eb4077c37bffa93ee9a6fba829ad456a7d6b459c9e9131fe58b332ab27d7",
+        "size": 467,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/knight-of-wands.md",
+        "git_blob_sha1": "560b937060d318e0979c389ed7fd939e3cccc332",
+        "sha256": "f05410f1edfff2d3645f35f41589b69b695dbe640f4c02f549b4c5ad88c97427",
+        "size": 547,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/nine-of-wands.md",
+        "git_blob_sha1": "3aff3c9ceb658c75c264d68f8cb58374e609a4dc",
+        "sha256": "32f4908e9699dc4d038a702f6104cf27bb4332144570103b0e6db2a7fa58215c",
+        "size": 414,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/page-of-wands.md",
+        "git_blob_sha1": "273a2a2ee66391f20413180a5efb19c7f1d87174",
+        "sha256": "6da5cc15d95cf5d71b8dc3082d250e32d90b77358d20bf531c671c8e6c39e6f8",
+        "size": 449,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/queen-of-wands.md",
+        "git_blob_sha1": "dd0097b8494af3164bff26a598286462518f3fbd",
+        "sha256": "de284467b8ce9520abb13b7fd3a2f4e76dfd6550940aca7d6664ea8f6fdb0644",
+        "size": 466,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/seven-of-wands.md",
+        "git_blob_sha1": "63f467062b2fd45b51a2156bc7dc0203bb67edad",
+        "sha256": "396b64b16a31d73094f564501e5739b6ca27155844d9edd6fd1e686b1d9181b6",
+        "size": 525,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/six-of-wands.md",
+        "git_blob_sha1": "4626f455b10abe8b5b0d0fcc4b3108d7b6ebc4c7",
+        "sha256": "d96d44e0834a8620d9f9e29e3ffaeba40ecbbbaf47647a366161a24d51715e93",
+        "size": 587,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/ten-of-wands.md",
+        "git_blob_sha1": "acd3b92f0e4d3629c6813083f60c06c6476ea280",
+        "sha256": "85a48ee300d19ac5891bbe0787674431cf06393cee053e056936d6a09d6e4690",
+        "size": 438,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/three-of-wands.md",
+        "git_blob_sha1": "c646c94ea6f9b20a40e6f18e013d760e6e4c9610",
+        "sha256": "b058a8184bf119f0cc10bbc7a08ca3320984e3b9cbd316eb02c3525b51245450",
+        "size": 464,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/two-of-wands.md",
+        "git_blob_sha1": "78b9b2af7a2d234e40fbeba396a5ff587bbe0408",
+        "sha256": "e91a11e478106f0bf7660dc8cc60ba970742f75dc4b64f761871ff57bdd9d84e",
+        "size": 445,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/01-first-house.md",
+        "git_blob_sha1": "2de96cc43cef3c0fa61082d0cf7d748663bcf9b9",
+        "sha256": "fbb8cd604285efddadc10441e11e7e591dccbda7d4ad400deda27537d553580e",
+        "size": 1448,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/02-second-house.md",
+        "git_blob_sha1": "cf963c3739c61e4724242eb35e9100de9f732e9a",
+        "sha256": "ddad48b51cea49cd217777ab09544ade33620146954448790a4329dd0b346ce7",
+        "size": 1550,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/03-third-house.md",
+        "git_blob_sha1": "3e5a2ad40f621decaae9842bed1a8adf72322427",
+        "sha256": "5548da8f7f93eb478d8863fed36d24233050a9b67b2e33e0fc17e2e5a8adb044",
+        "size": 1350,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/04-fourth-house.md",
+        "git_blob_sha1": "dac1e08f2d52d61b22754e5c8393807daf6f4b39",
+        "sha256": "722f2dd5834a91ceef2c060e966c3caa514ec2afd7204bd6e0a0c5912d2918bc",
+        "size": 1637,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/05-fifth-house.md",
+        "git_blob_sha1": "deeac9de8edb22832c2496b23a4fcbd001f6a836",
+        "sha256": "b7e8a9a6d7746152072c23bae63800354744bdd082cf4c23d997a1c602ab4fe9",
+        "size": 1548,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/06-sixth-house.md",
+        "git_blob_sha1": "52ab2ef5a68b89bb685ff8ebf0bb585c60d25227",
+        "sha256": "7333745972dbff4f31cad1b42afcd4a2f577c2fdd260a6fcd096b2b706f9f7bf",
+        "size": 1366,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/07-seventh-house.md",
+        "git_blob_sha1": "a62f391972f814dd9fdb2c15e7028fff59a2aebc",
+        "sha256": "57ef2f8000be792ce33be64677cc5267a8c83203e3837a20d53ef46908c79472",
+        "size": 1344,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/08-eighth-house.md",
+        "git_blob_sha1": "6a236681b135666b9281696dfc95cfa16b90fcf8",
+        "sha256": "445639105eaf4d2a54106cfd04e263122e8eb2a8d1bf0f8bed4eff161497a446",
+        "size": 1737,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/09-ninth-house.md",
+        "git_blob_sha1": "76abb887026d8562d1bcd414514e79f3734119cf",
+        "sha256": "3f5544ab31da28a839ea4ddd1c16ca3f62ca060c1b4b1da3244547ea8e665d7f",
+        "size": 1475,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/10-tenth-house.md",
+        "git_blob_sha1": "53001bd25d93f5202ffc8ad8d1f0f71360b316f8",
+        "sha256": "b391bc246ab26ebf2361d925db4c9edbb07e96bae2a559fc169c36f60fe3c6d4",
+        "size": 1432,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/11-eleventh-house.md",
+        "git_blob_sha1": "6da496d814dad13406b386ae0a8658ce72847d84",
+        "sha256": "4670d0b6442da70fb3b87277a72b23f2b086af87af54fd2c1aa945cab47f2797",
+        "size": 1521,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/12-twelfth-house.md",
+        "git_blob_sha1": "d48d347004a6f4869f0d413bf95b3c6e607b51f9",
+        "sha256": "56fa05fd28f82eb9c7be0868618b5031b605d03f0a7a06935ea7792c1463ccf0",
+        "size": 1654,
+        "mode": "100644"
+      },
+      {
+        "path": "references/INTERPRETATION_GUIDE.md",
+        "git_blob_sha1": "4b49ad63e36e2f90b8007c567fbdb0153b26f6d6",
+        "sha256": "2c359d9ef3c8f7014500b25b57e2f420ae38b93bab6006185c01bbf2afbef548",
+        "size": 7334,
+        "mode": "100644"
+      },
+      {
+        "path": "references/TECHNICAL_CONTEXT_LENSES.md",
+        "git_blob_sha1": "b341fa3092ce56c8ca71734e46f0aa7c91f07f23",
+        "sha256": "6a2cef145a769eecf30e907d50c53c0445e091c4f3be02fdf73f5d340893fd17",
+        "size": 4722,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/draw_cards.py",
+        "git_blob_sha1": "e876110de40a0df7daee93b88bc69dbb90135e9e",
+        "sha256": "4dff224dd219ab0ebbee8453d512c52562df306e5ffd0ec040befc47f7f1f5d9",
+        "size": 9511,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pyproject.toml",
+        "git_blob_sha1": "b37e5b5a20b94676da49f6daaa3ccde14588c2de",
+        "sha256": "072f982ebfc4397f58891d7c2361e9d3dd8e790c0b6d96bda8b3f472193ddd2f",
+        "size": 144,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_draw_cards.py",
+        "git_blob_sha1": "c6b96198126ac0b376116c4a662cb46f8fdc7dbe",
+        "sha256": "0fa1854521682215a16240831dac4d84ac1909040f3bbdd198601703d1c9cb24",
+        "size": 14426,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "8e54050ae63c2f62224c35b1616efe71865b4777",
+    "computed_tree_sha": "190650b268a6e59a4a4bc422419e3ec56fa44d4b",
+    "api_tree_sha_as_returned": "190650b268a6e59a4a4bc422419e3ec56fa44d4b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f515da195a5beab2e525d56e73352e133a09d6ae",
+        "sha256": "effc5f0be27d62d7a708fa54cd630ea0fe1a6609a0366797f70c388bc4c6df71",
+        "size": 10235,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "d93c3b752749a8b59e897f6fb2b9f970a1eb0f41",
+        "sha256": "02ee07cc553b588b82dbc8c542d791feac0b097807d638a82cf4276b3f0f47d2",
+        "size": 236,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/ace-of-cups.md",
+        "git_blob_sha1": "5cd3f154d51fa19f576b55e53c313cab62d91c84",
+        "sha256": "28d860f3fd39dac5406720bfef368290c6edcd94b7f0d1b4082ef2aae019f335",
+        "size": 627,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/eight-of-cups.md",
+        "git_blob_sha1": "0003987797e63b0d1e02e4549ee0a8fe066dc793",
+        "sha256": "052d9dcc01ade4751b64f030eebcd426e2b2ab70936c23a74375d6851f6e0912",
+        "size": 666,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/five-of-cups.md",
+        "git_blob_sha1": "28be62e5ed94952d6e69635e83e8c94e5ff29ef6",
+        "sha256": "01e940a53c713178583a2932b6a870095de33088a581c5d557c2aeba7ce4bf16",
+        "size": 603,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/four-of-cups.md",
+        "git_blob_sha1": "70d71ab5ed97b70b26835702233ad438e16053ba",
+        "sha256": "d62d23ecb21a6c83a8067084b78eb8381eac9f9f0a33826205f3c6d9ab8e5e61",
+        "size": 607,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/king-of-cups.md",
+        "git_blob_sha1": "b638f551e42176f7150ae324d520674c2841b00a",
+        "sha256": "31ac9ef71d086129ca8a10c3a01a6ed72e7ec1d2c97bf88080e000a19ec65cac",
+        "size": 511,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/knight-of-cups.md",
+        "git_blob_sha1": "d6239ce890024c66976c42fa1d0f73aa443906cc",
+        "sha256": "0994326d74e1898ab15f797e83815300164117c8288f1ba146ebe8931b5705e3",
+        "size": 478,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/nine-of-cups.md",
+        "git_blob_sha1": "b4e91f980d6f21e4208f4e71d135ce607bed2c69",
+        "sha256": "4582d5108dc8ad76279a78074f8d7cc7fb22c159c68c49dc091dbdfd118df4a7",
+        "size": 634,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/page-of-cups.md",
+        "git_blob_sha1": "4c0894099aabf18220790d3435b7ff25bb20f231",
+        "sha256": "2f5583c906d94e33848e714fbf1211c1fcf02d1e2ccb5f5e4d3ec92e4e34dc85",
+        "size": 518,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/queen-of-cups.md",
+        "git_blob_sha1": "d7b8b73add79ae5a9c23ec39c9485acc7906f47d",
+        "sha256": "40fa2d0fa5b72659caff71bf7eafa77a2428e5ecfebf69f741ade33232167c3e",
+        "size": 502,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/seven-of-cups.md",
+        "git_blob_sha1": "5100c0d5498b00375b5f39e2d3224c1f48cdb95c",
+        "sha256": "852b35c0058d6e929af96ea6a567727803bdba75578310d193c837a29df450a2",
+        "size": 497,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/six-of-cups.md",
+        "git_blob_sha1": "bc3b3849357f012bf7c98280cb9e0f39172ab4bf",
+        "sha256": "6f2ade658b7681ba77e444932deb7f909e5d3d9618d9cb73b1503305a2726ecb",
+        "size": 496,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/ten-of-cups.md",
+        "git_blob_sha1": "e0e6717d984325d4789645ced30b2803b5418e10",
+        "sha256": "ac8dc9d3cf2a9d020c35369af76eb8874a8ef21a2911111739fb87f3cb4ea926",
+        "size": 536,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/three-of-cups.md",
+        "git_blob_sha1": "244e32077e8c95257c5fc7d35a3f6dc49bcac654",
+        "sha256": "9c801eb74f5cf5c76e69df620f3fccbf29dd2db50351737d326735fde77d3043",
+        "size": 482,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/cups/two-of-cups.md",
+        "git_blob_sha1": "41efb4a240818724ebb4b739b25f409a2c6f851e",
+        "sha256": "b10857cbdc7cca86805bf4a06c38cd504fd2c6577b3549b8b64a00156e92b148",
+        "size": 500,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/00-the-fool.md",
+        "git_blob_sha1": "5cc8a091564f3611b9dadd99014a6038f11b8155",
+        "sha256": "41575fb537544bb1cf50a85e7d3d42cc198ee5f72019b2863de222e1a8ac5116",
+        "size": 563,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/01-the-magician.md",
+        "git_blob_sha1": "de5b7f804c29c08344f299142c96ab23ae72ed17",
+        "sha256": "860c04ab0c9b562284aec2aebbba223900545abc79cd3819713ed3bad9eb7dfd",
+        "size": 648,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/02-the-high-priestess.md",
+        "git_blob_sha1": "4c5e69dfa448259fbbfd1f9037b0280330fd2e9c",
+        "sha256": "26a10ab90842bb85a7890d3d9856b383fb33f8b417a70a30c0c0a054088c14c6",
+        "size": 710,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/03-the-empress.md",
+        "git_blob_sha1": "f9e24d3622b2fa8a6a5d9eaa82f5e01a36b89bb5",
+        "sha256": "b7be52dff834f93f38e2a2f0e69c8e036043c9119d9ac1f391601db19bcd0ddb",
+        "size": 645,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/04-the-emperor.md",
+        "git_blob_sha1": "ade4e817400f892b902bc4c5192e36c633b1371c",
+        "sha256": "1b48cba12beed161b3d9337ad3591b5b2200d13f7d8559ecd22fc4f183fb603b",
+        "size": 651,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/05-the-hierophant.md",
+        "git_blob_sha1": "87dfbe7055908465493dac8bb43cbae54da516b5",
+        "sha256": "cdc24f287b1eda5074053fd1ea63e8c1deae6db9bf02063713222807416d0144",
+        "size": 685,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/06-the-lovers.md",
+        "git_blob_sha1": "985c9144b3886692ef0f61459ff7b629cff5f509",
+        "sha256": "9722ff4c624be5b7693b947661135c04b1a76402f7490088c04256a44f40225e",
+        "size": 715,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/07-the-chariot.md",
+        "git_blob_sha1": "356624d391e00a10f71e5123bde3862ad1356c4d",
+        "sha256": "fd9f65cd6785b54e6417fe1adc49273cce0adb70c2a002fea92a25cdeb27bd6b",
+        "size": 704,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/08-strength.md",
+        "git_blob_sha1": "793369dea877adbddbfaf2ff7de7fbdf22f07736",
+        "sha256": "cca5b9f50d8a5d54b552fbe731b43d88c6cceb3c2006b11611f0274975a21d27",
+        "size": 689,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/09-the-hermit.md",
+        "git_blob_sha1": "bd96cd536bb98c2839d4451224afa5d0fa49a825",
+        "sha256": "9d747c35f2e2c02272917ee1e710ee51269bf8edc9e304d7c4354f354d3f8112",
+        "size": 644,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/10-wheel-of-fortune.md",
+        "git_blob_sha1": "0c3b585254b6fbda119ef7fac8a58f8c8a18a17f",
+        "sha256": "52f5250e71884999ab6669bf5dc0b24a0585d0ae6acefcada03300d58e3a181a",
+        "size": 723,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/11-justice.md",
+        "git_blob_sha1": "c3d9c49f53b5dea9687ffde08e377467671746c3",
+        "sha256": "3c9967f413166c306cde202ecec98f82ce17eb01c0ee78b70e9f2ecece59fe3d",
+        "size": 664,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/12-the-hanged-man.md",
+        "git_blob_sha1": "64c6b894d81a83bbbdab4e5766ea807fd40af1e9",
+        "sha256": "2843c5b45356afe26adbcd5403af85228f167cdca2fbced6b1ad54e8d556f4ff",
+        "size": 709,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/13-death.md",
+        "git_blob_sha1": "e98e9db99cddb6ed901bee00687b03ddb63ec6b3",
+        "sha256": "f52aac25b735b0f77bf5c8dac58226c88366a75ab4973ae7487498d8d6b3c6b9",
+        "size": 702,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/14-temperance.md",
+        "git_blob_sha1": "7292715db4b4b13a9263ec05e1c67cd32f673d40",
+        "sha256": "05514fd17d45073655d6a878f0f2a70af48002669c4981433af10405478ad3c8",
+        "size": 706,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/15-the-devil.md",
+        "git_blob_sha1": "950170ad80b9c7ad4e4d56ae1115d3e18f22c09f",
+        "sha256": "534d78dc4904ba055060bb9d0d4bb53eb3f9a957cd247a211a2ef46d47b3d045",
+        "size": 699,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/16-the-tower.md",
+        "git_blob_sha1": "63d8f1169e59ed030d0067a3ab75bb80f9ea33dd",
+        "sha256": "c1ffa1d2b31353604e8171642bd86fa52700b2d9fcf88770391a4b8bcb4a9b05",
+        "size": 723,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/17-the-star.md",
+        "git_blob_sha1": "33af9c0df9176310eb6ad070a5ccbc3f3d978924",
+        "sha256": "0cc63419420005e0b67d9c6b9cc472734ae1806eb370222d258abe1257d6f303",
+        "size": 653,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/18-the-moon.md",
+        "git_blob_sha1": "eb4f05c2fbc53ee73a7e83630e0a82b296b310cc",
+        "sha256": "48a5ae8586a1396ca6e7669ae63ae12a96095e724d390d9ae9906c8422ab3733",
+        "size": 759,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/19-the-sun.md",
+        "git_blob_sha1": "12822e0c78793dd14b2984c8101ad03e8f24a9c8",
+        "sha256": "10321c73be2c4451404e5ded4c33b1fa6c702602dc101d40e3b31f86c07ad08e",
+        "size": 722,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/20-judgement.md",
+        "git_blob_sha1": "1a3224456b543d61991d90370f75df13c9df511a",
+        "sha256": "c78b987db4cbc5f521628adcd166b0231dc2ec1ee3c2bdb3e80a4aedec5cec98",
+        "size": 701,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/major/21-the-world.md",
+        "git_blob_sha1": "129e84c1686aaf0510cf82741339ac7dbfc5c504",
+        "sha256": "ccef15a05bcf6d3d8e6720e2f671665ac0994db99aaee64384878847d0e02062",
+        "size": 731,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/ace-of-pentacles.md",
+        "git_blob_sha1": "3cd0d3dca2398ef19de77f5b98282b51bd6111a5",
+        "sha256": "1caba9776a0adcc3f7d3e6daadde15a53e8d46a5297071f5bd21fbec40e65fa4",
+        "size": 458,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/eight-of-pentacles.md",
+        "git_blob_sha1": "4a4b6efac20da603b47bec964123b5ae78c7a0ab",
+        "sha256": "0b3de585f8a1c61466d858ed8d9c20cfc8c9811e8bfabbe41e624bbcc21cba46",
+        "size": 486,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/five-of-pentacles.md",
+        "git_blob_sha1": "a1074390369fef515e559d6a6d8e0e66b9f7a386",
+        "sha256": "f87ad3474db7ae1941262639adf31fdf86504e7f9dd0b807b735aaf46425d130",
+        "size": 427,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/four-of-pentacles.md",
+        "git_blob_sha1": "e8b6f3c72ce108ea7880c76e663ffbb5b4a28257",
+        "sha256": "018c3298cb17bce1bbe47beda6feb34d9095712de7ecf6f20aa35cfb7074487f",
+        "size": 436,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/king-of-pentacles.md",
+        "git_blob_sha1": "a144b33fb0686f76cdb82e3c4bb5c51245212d2e",
+        "sha256": "ee2168eb3a385b708bbcbb26f28ded67624a15a196c41ff58119b86a7f925576",
+        "size": 459,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/knight-of-pentacles.md",
+        "git_blob_sha1": "40697437a3659aff1011be181a845155e4391563",
+        "sha256": "260d740f2176d5c8810a8a3d0713331e84816a21987f41519a36579c026585a2",
+        "size": 471,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/nine-of-pentacles.md",
+        "git_blob_sha1": "eec2d0b181dcb553ffeecc9fbad0e30074044283",
+        "sha256": "76bdee95c610950fdf777a353d5b5a675c44c6549840c3bfe80f8dea369535ce",
+        "size": 447,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/page-of-pentacles.md",
+        "git_blob_sha1": "44905dab9f7c16bd7392444312eaeeaa2f3efc3d",
+        "sha256": "adf518c7d4b4e10e1f2414986916339fc7990dd01ddc7ccb90986722533ecc88",
+        "size": 465,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/queen-of-pentacles.md",
+        "git_blob_sha1": "4dfb86359647317638353c802459e0a1af8ade9a",
+        "sha256": "c48f3b2e0cbc6f11cd1e70eedbb694a23d0747be4166eb2a190a9e9e7b98a547",
+        "size": 452,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/seven-of-pentacles.md",
+        "git_blob_sha1": "d770ff7f7224b667a979c2b4a6b0b6646b372369",
+        "sha256": "04a5ff396864508c33021d4c47b62d1b17f4a30a5a08523402ffc9974cb841f0",
+        "size": 461,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/six-of-pentacles.md",
+        "git_blob_sha1": "2533da64dbf2b84f7512e37ff6d8e2b7142cebb1",
+        "sha256": "bb3a9210f5d3b2d9f4b64aab0488ea828dc0644570c3af4438091e1c85bb9fc5",
+        "size": 428,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/ten-of-pentacles.md",
+        "git_blob_sha1": "0d560c2aa7ba5352b04125106e8245a398f8bfb0",
+        "sha256": "04f25f877dce74a5dd1bffe356f49b8824d30165c63e01792c724f1e6423299a",
+        "size": 459,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/three-of-pentacles.md",
+        "git_blob_sha1": "4f733baa6d4dfbaee0d8f38e09468e9e7f37dd2e",
+        "sha256": "462c3ac0bb6e44f1783f9324982c2fce31835dc3a341ce9a43c3f49a307ff498",
+        "size": 468,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/pentacles/two-of-pentacles.md",
+        "git_blob_sha1": "b1590b2509b7ebbc9a94f8c51a60639916f9da40",
+        "sha256": "b3f0d48efe23625b4a903d6c8b1eac3dabd892bf8447f25adc486e2266294464",
+        "size": 448,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/ace-of-swords.md",
+        "git_blob_sha1": "5836d5ea9c46b3c07860d1ae667deecf28c32432",
+        "sha256": "4b0fce4e8fb09df62ffd62cdb09150ff8c03c6e6719626ab418fdb6ea7038f2a",
+        "size": 477,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/eight-of-swords.md",
+        "git_blob_sha1": "95129fe56a3568673fd72bc1bf2f6d4b12aeafdc",
+        "sha256": "24e30c870eae818039da9b8f72fb53af1335a351567a1f26c79554b176db1222",
+        "size": 508,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/five-of-swords.md",
+        "git_blob_sha1": "74cb549601479bda9eb345d5c9641b0a34c177bd",
+        "sha256": "db3be74d50cdcbac72afcbffdbb5912d867a2792288b77d63a1512a962e18042",
+        "size": 498,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/four-of-swords.md",
+        "git_blob_sha1": "39f4b18271c5343d471eb75b19bd720dea1bd33d",
+        "sha256": "4b0482f235b8f0f9f42655b4217eb39e0a8bc39118f4e4e1a0d0054d098d0d68",
+        "size": 453,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/king-of-swords.md",
+        "git_blob_sha1": "3279222368953d36ec90b572c4039d523fa66561",
+        "sha256": "f84ef817a08822df4ec1dc97dbffd0834d88ddbba0a61fdbdda0c8491ec348a1",
+        "size": 518,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/knight-of-swords.md",
+        "git_blob_sha1": "9bba07f7f9094a464bace9e97676d1bf03cf768f",
+        "sha256": "c09c1ee07d279e676e190172ed236f64da85fbe429fd8dc54956ff0f69f7e71a",
+        "size": 615,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/nine-of-swords.md",
+        "git_blob_sha1": "ff4d7faf6abb6074ef01fac3c60506c83967a7f0",
+        "sha256": "a8a8d683cf8c4027ba2e8cc4cafd060c7e6a20f333bba35e9eb6aa4c49243027",
+        "size": 597,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/page-of-swords.md",
+        "git_blob_sha1": "a93278122f4965f0eb9a79523a16577ec86bbcd5",
+        "sha256": "3aed5fc3d3f31be5ce606cbbcb8be464921abb578b5f56bd602e47caa59ce415",
+        "size": 504,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/queen-of-swords.md",
+        "git_blob_sha1": "8b2b4395305ebb85216b783de5042c7766b7d644",
+        "sha256": "0b757ae9f04cf6aa3fc3884cb6703e4db83e9998c1d79d155fec6d0208f74252",
+        "size": 517,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/seven-of-swords.md",
+        "git_blob_sha1": "74c0164341575223c9b00c6457e9939df2fc08fe",
+        "sha256": "f0bb09b5ee7ffe2c5b8c11699414d257f5b4ecf1b191ac583e4c3891e5f9ed6b",
+        "size": 495,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/six-of-swords.md",
+        "git_blob_sha1": "0f7de0657eb2f7ab2cf93d94f235adef0b2c00ff",
+        "sha256": "a9dae20e46b5001ab4dc79001d5c79574307b869e0915bc17cad73824227c633",
+        "size": 494,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/ten-of-swords.md",
+        "git_blob_sha1": "3df9eca8e1ffe95191f32e3504f674317ea5e3cb",
+        "sha256": "0c17b735e0688f0c0cdc27e78b257fb49ac9496b0f0cc023c08a0cbeddbd865f",
+        "size": 612,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/three-of-swords.md",
+        "git_blob_sha1": "0b704a0a7362c13a252b801728d2df9714edfd7a",
+        "sha256": "2dbf184dc19636aafb143796ada0cc4dc3a5fbb3759a7ce47bb14d0ebe8894b1",
+        "size": 457,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/swords/two-of-swords.md",
+        "git_blob_sha1": "ea928e7a20d42a515f32494d3c8ddfb9eaa99e75",
+        "sha256": "a633f81bd06573f81668d1d26d9b2056b6ecce356995d71544cb96c7f268224d",
+        "size": 497,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/ace-of-wands.md",
+        "git_blob_sha1": "623156f6700517fe11e3244ee70209540a79f971",
+        "sha256": "39e3e3d2a8d8b0d87451aee977bbe83a84b9c86283f0a42e0d5b24dd1e255467",
+        "size": 461,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/eight-of-wands.md",
+        "git_blob_sha1": "5ed12a10e8bb3f5ad9e5a0d17673d2372378604a",
+        "sha256": "f3fa34b26e1051c78650d2bf1d78a252ce01845efb07b68a783dff3cb0b0549c",
+        "size": 443,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/five-of-wands.md",
+        "git_blob_sha1": "1d82ca53c739299ece23a66f88ab6a28cc2d9102",
+        "sha256": "7e5d05f4b2ee9d1f70dd5bceb358ff4b2ac4445425f8ef63697af781bcd772f9",
+        "size": 482,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/four-of-wands.md",
+        "git_blob_sha1": "5746aea9cff15de56a9f4517778206169af7708d",
+        "sha256": "66bd9b79fbb299e68edc0c56c2907f974bdd301c1c69209a573567ae8743302b",
+        "size": 461,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/king-of-wands.md",
+        "git_blob_sha1": "b2e10261211e4daec86b8267090a56a3ca2f1af4",
+        "sha256": "78b9eb4077c37bffa93ee9a6fba829ad456a7d6b459c9e9131fe58b332ab27d7",
+        "size": 467,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/knight-of-wands.md",
+        "git_blob_sha1": "560b937060d318e0979c389ed7fd939e3cccc332",
+        "sha256": "f05410f1edfff2d3645f35f41589b69b695dbe640f4c02f549b4c5ad88c97427",
+        "size": 547,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/nine-of-wands.md",
+        "git_blob_sha1": "3aff3c9ceb658c75c264d68f8cb58374e609a4dc",
+        "sha256": "32f4908e9699dc4d038a702f6104cf27bb4332144570103b0e6db2a7fa58215c",
+        "size": 414,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/page-of-wands.md",
+        "git_blob_sha1": "273a2a2ee66391f20413180a5efb19c7f1d87174",
+        "sha256": "6da5cc15d95cf5d71b8dc3082d250e32d90b77358d20bf531c671c8e6c39e6f8",
+        "size": 449,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/queen-of-wands.md",
+        "git_blob_sha1": "dd0097b8494af3164bff26a598286462518f3fbd",
+        "sha256": "de284467b8ce9520abb13b7fd3a2f4e76dfd6550940aca7d6664ea8f6fdb0644",
+        "size": 466,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/seven-of-wands.md",
+        "git_blob_sha1": "63f467062b2fd45b51a2156bc7dc0203bb67edad",
+        "sha256": "396b64b16a31d73094f564501e5739b6ca27155844d9edd6fd1e686b1d9181b6",
+        "size": 525,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/six-of-wands.md",
+        "git_blob_sha1": "4626f455b10abe8b5b0d0fcc4b3108d7b6ebc4c7",
+        "sha256": "d96d44e0834a8620d9f9e29e3ffaeba40ecbbbaf47647a366161a24d51715e93",
+        "size": 587,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/ten-of-wands.md",
+        "git_blob_sha1": "acd3b92f0e4d3629c6813083f60c06c6476ea280",
+        "sha256": "85a48ee300d19ac5891bbe0787674431cf06393cee053e056936d6a09d6e4690",
+        "size": 438,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/three-of-wands.md",
+        "git_blob_sha1": "c646c94ea6f9b20a40e6f18e013d760e6e4c9610",
+        "sha256": "b058a8184bf119f0cc10bbc7a08ca3320984e3b9cbd316eb02c3525b51245450",
+        "size": 464,
+        "mode": "100644"
+      },
+      {
+        "path": "cards/wands/two-of-wands.md",
+        "git_blob_sha1": "78b9b2af7a2d234e40fbeba396a5ff587bbe0408",
+        "sha256": "e91a11e478106f0bf7660dc8cc60ba970742f75dc4b64f761871ff57bdd9d84e",
+        "size": 445,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/01-first-house.md",
+        "git_blob_sha1": "2de96cc43cef3c0fa61082d0cf7d748663bcf9b9",
+        "sha256": "fbb8cd604285efddadc10441e11e7e591dccbda7d4ad400deda27537d553580e",
+        "size": 1448,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/02-second-house.md",
+        "git_blob_sha1": "cf963c3739c61e4724242eb35e9100de9f732e9a",
+        "sha256": "ddad48b51cea49cd217777ab09544ade33620146954448790a4329dd0b346ce7",
+        "size": 1550,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/03-third-house.md",
+        "git_blob_sha1": "3e5a2ad40f621decaae9842bed1a8adf72322427",
+        "sha256": "5548da8f7f93eb478d8863fed36d24233050a9b67b2e33e0fc17e2e5a8adb044",
+        "size": 1350,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/04-fourth-house.md",
+        "git_blob_sha1": "dac1e08f2d52d61b22754e5c8393807daf6f4b39",
+        "sha256": "722f2dd5834a91ceef2c060e966c3caa514ec2afd7204bd6e0a0c5912d2918bc",
+        "size": 1637,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/05-fifth-house.md",
+        "git_blob_sha1": "deeac9de8edb22832c2496b23a4fcbd001f6a836",
+        "sha256": "b7e8a9a6d7746152072c23bae63800354744bdd082cf4c23d997a1c602ab4fe9",
+        "size": 1548,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/06-sixth-house.md",
+        "git_blob_sha1": "52ab2ef5a68b89bb685ff8ebf0bb585c60d25227",
+        "sha256": "7333745972dbff4f31cad1b42afcd4a2f577c2fdd260a6fcd096b2b706f9f7bf",
+        "size": 1366,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/07-seventh-house.md",
+        "git_blob_sha1": "a62f391972f814dd9fdb2c15e7028fff59a2aebc",
+        "sha256": "57ef2f8000be792ce33be64677cc5267a8c83203e3837a20d53ef46908c79472",
+        "size": 1344,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/08-eighth-house.md",
+        "git_blob_sha1": "6a236681b135666b9281696dfc95cfa16b90fcf8",
+        "sha256": "445639105eaf4d2a54106cfd04e263122e8eb2a8d1bf0f8bed4eff161497a446",
+        "size": 1737,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/09-ninth-house.md",
+        "git_blob_sha1": "76abb887026d8562d1bcd414514e79f3734119cf",
+        "sha256": "3f5544ab31da28a839ea4ddd1c16ca3f62ca060c1b4b1da3244547ea8e665d7f",
+        "size": 1475,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/10-tenth-house.md",
+        "git_blob_sha1": "53001bd25d93f5202ffc8ad8d1f0f71360b316f8",
+        "sha256": "b391bc246ab26ebf2361d925db4c9edbb07e96bae2a559fc169c36f60fe3c6d4",
+        "size": 1432,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/11-eleventh-house.md",
+        "git_blob_sha1": "6da496d814dad13406b386ae0a8658ce72847d84",
+        "sha256": "4670d0b6442da70fb3b87277a72b23f2b086af87af54fd2c1aa945cab47f2797",
+        "size": 1521,
+        "mode": "100644"
+      },
+      {
+        "path": "houses/12-twelfth-house.md",
+        "git_blob_sha1": "d48d347004a6f4869f0d413bf95b3c6e607b51f9",
+        "sha256": "56fa05fd28f82eb9c7be0868618b5031b605d03f0a7a06935ea7792c1463ccf0",
+        "size": 1654,
+        "mode": "100644"
+      },
+      {
+        "path": "references/INTERPRETATION_GUIDE.md",
+        "git_blob_sha1": "4b49ad63e36e2f90b8007c567fbdb0153b26f6d6",
+        "sha256": "2c359d9ef3c8f7014500b25b57e2f420ae38b93bab6006185c01bbf2afbef548",
+        "size": 7334,
+        "mode": "100644"
+      },
+      {
+        "path": "references/TECHNICAL_CONTEXT_LENSES.md",
+        "git_blob_sha1": "b341fa3092ce56c8ca71734e46f0aa7c91f07f23",
+        "sha256": "6a2cef145a769eecf30e907d50c53c0445e091c4f3be02fdf73f5d340893fd17",
+        "size": 4722,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/draw_cards.py",
+        "git_blob_sha1": "e876110de40a0df7daee93b88bc69dbb90135e9e",
+        "sha256": "4dff224dd219ab0ebbee8453d512c52562df306e5ffd0ec040befc47f7f1f5d9",
+        "size": 9511,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pyproject.toml",
+        "git_blob_sha1": "b37e5b5a20b94676da49f6daaa3ccde14588c2de",
+        "sha256": "072f982ebfc4397f58891d7c2361e9d3dd8e790c0b6d96bda8b3f472193ddd2f",
+        "size": 144,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_draw_cards.py",
+        "git_blob_sha1": "c6b96198126ac0b376116c4a662cb46f8fdc7dbe",
+        "sha256": "0fa1854521682215a16240831dac4d84ac1909040f3bbdd198601703d1c9cb24",
+        "size": 14426,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "442fc9d6c89b1e937e6f7a477e7071ea75fcbea4",
+  "new_commit": "8e54050ae63c2f62224c35b1616efe71865b4777",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Fix let-fate-decide resource paths (#357)",
+  "new_commit_time": "2026-10-13T15:24:26Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/442fc9d6c89b1e937e6f7a477e7071ea75fcbea4...8e54050ae63c2f62224c35b1616efe71865b4777",
+  "commit_url": "https://github.com/trailofbits/skills/commit/8e54050ae63c2f62224c35b1616efe71865b4777",
+  "skill_directory": "plugins/let-fate-decide/skills/let-fate-decide",
+  "local_directory": "verified_real_update_pairs/OPU-0249",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0249",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

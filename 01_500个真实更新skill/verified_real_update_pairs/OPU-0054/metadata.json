@@ -1,0 +1,105 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/building-secure-contracts/skills/audit-prep-assistant/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "0148a8a222d3c2213fa7",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "43d7af806478ea534164ac7b55a3c4ff7b359986",
+    "computed_tree_sha": "e3173d9f75502450d5a035dda5f7fc6f37378634",
+    "api_tree_sha_as_returned": "e3173d9f75502450d5a035dda5f7fc6f37378634",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "13796324aecad3e446bbc72ad614e1127033edde",
+        "sha256": "ea7db549ff26a57ebd101140dd8ed44434d5c91f3d91efc8927541bea8dd23e8",
+        "size": 9688,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+    "computed_tree_sha": "906cb6d32e9928953b9129f1208289153e663b75",
+    "api_tree_sha_as_returned": "906cb6d32e9928953b9129f1208289153e663b75",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f0fb3bbe809a395a5bf13ae31048a1c8cee413d4",
+        "sha256": "d639b411a315ea9420e40afabe75bbf4b1bfed6ea5c8601a3e963343ac9924f2",
+        "size": 10010,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "43d7af806478ea534164ac7b55a3c4ff7b359986",
+  "new_commit": "32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "building-secure-contracts: give five skills trigger clauses (#275)\n\n* building-secure-contracts: give five skills trigger clauses\n\nFive of the plugin's eleven skills had descriptions that were pure\ncapability lists with no trigger clause. The six sibling vulnerability\nscanners all end in \"Use when auditing X\", so these five lost the routing\ncoin-flip to their own siblings and rarely fired.\n\nEach keeps its capability text and gains a \"Use when\" clause naming the\nsituation, drawn from that skill's own Purpose and workflow sections\nrather than invented.\n\nDrop three trailing phrases that said nothing: \"Provides actionable\nrecommendations\", \"professional scorecard\" (replaced with the roadmap the\nskill actually produces), and \"Context-aware for both token\nimplementations and token integrations\", now carried by the trigger.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: fix invocation docs and two triggers\n\nThe README advertised every skill as a bare slash command, but the plugin\nships only skills/ and no commands/, so /audit-prep-assistant is\nunregistered. A user who read the docs and typed the documented form got\nnothing — the other half of the reachability problem this branch fixes.\nNamespace all 22 occurrences; every other plugin README in the repo\nalready uses that form.\n\nAnchor code-maturity-assessor to the domain. Its new clause said only\n\"judging how mature a codebase is against a rubric\", which matches a\nDjango or Go repo just as well, and the skill would then grade it on MEV\nrisk, transaction ordering, and decentralization.\n\nSay which side of an engagement audit-prep-assistant serves. It collided\nwith audit-context-building on \"getting ready to audit this codebase\";\nthe two serve auditee prep and auditor onboarding respectively, and\nneither clause said so up front.\n\nRoot README now mentions the 5 assistants, matching plugin.json, and the\nplugin README drops \"professional scorecard\" to match the description.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-25T15:11:31Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/43d7af806478ea534164ac7b55a3c4ff7b359986...32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "commit_url": "https://github.com/trailofbits/skills/commit/32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "skill_directory": "plugins/building-secure-contracts/skills/audit-prep-assistant",
+  "local_directory": "verified_real_update_pairs/OPU-0054",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0054",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,12 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -6,7 +6,8 @@
+   openclaw:
+     category: "productivity"
+     requires:
+-      bins: ["gws"]
++      bins:
++        - gws
+     cliHelp: "gws calendar +insert --help"
+ ---
+ 

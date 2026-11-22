@@ -1,0 +1,79 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/pr-link-issue/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "47321ed30f78f45ab27c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "9a63387960efa3796fc37faea74a2ffcd18c8b6f",
+    "computed_tree_sha": "0c73d26e58e722524cb37f0cf6a9f62afe010361",
+    "api_tree_sha_as_returned": "0c73d26e58e722524cb37f0cf6a9f62afe010361",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d6655c79e5999dcec128bde407151a2851eb5689",
+        "sha256": "ef3d46bf991940712a39df5a0568c3766930cbef64d14bd98dd07e1c2891aaaa",
+        "size": 2734,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ccf58b1dc6f687d575dac255df44e74f906e10af",
+    "computed_tree_sha": "c1cce81f747f7ee03bd5bc948adfb7eaf2954f18",
+    "api_tree_sha_as_returned": "c1cce81f747f7ee03bd5bc948adfb7eaf2954f18",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "08841032058e8ed15a44bfe6a6a70159de7c6c57",
+        "sha256": "ae3fff3e5bec03c993ca8059669c785f675982e6bd71c8f09bcc095230f6535b",
+        "size": 2735,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "9a63387960efa3796fc37faea74a2ffcd18c8b6f",
+  "new_commit": "ccf58b1dc6f687d575dac255df44e74f906e10af",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(pr-link-issue): make Linear key regex case-insensitive\n\nLinear keys are uppercase (PY-2357, JS-1234) but the grep regex only\nmatched lowercase. Add -i flag to grep so it matches both cases.\n\nCo-authored-by: Neel Shah <neel.shah@sentry.io>",
+  "new_commit_time": "2026-05-21T13:54:53Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/9a63387960efa3796fc37faea74a2ffcd18c8b6f...ccf58b1dc6f687d575dac255df44e74f906e10af",
+  "commit_url": "https://github.com/getsentry/skills/commit/ccf58b1dc6f687d575dac255df44e74f906e10af",
+  "skill_directory": "skills/pr-link-issue",
+  "local_directory": "verified_real_update_pairs/OPU-0134",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0134",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sha": "0e7823cca07bc2cbf34718a383f9ae92525be6a5",
+  "node_id": "C_kwDOQchDtdoAKDBlNzgyM2NjYTA3YmMyY2JmMzQ3MThhMzgzZjlhZTkyNTI1YmU2YTU",
+  "commit": {
+    "author": {
+      "name": "Vaibhav Srivastav",
+      "email": "vb@openai.com",
+      "date": "2026-03-24T14:48:51Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-24T14:48:51Z"
+    },
+    "message": "[codex] Add latest Figma partner skills (#306)\n\n## What changed\n- add six curated Figma skills: `figma-use`, `figma-generate-design`,\n`figma-generate-library`, `figma-code-connect-components`,\n`figma-create-design-system-rules`, and `figma-create-new-file`\n- refresh the existing `figma` and `figma-implement-design` skill\nmetadata to match the imported partner workflow split\n- import the referenced assets, maintainers files, docs, and helper\nscripts that those skills depend on\n- add a small follow-up cleanup commit to remove repo-unsupported\n`disable-model-invocation` frontmatter and strip imported trailing\nwhitespace\n\n## Why\n- Figma asked for the latest skills from `figma/mcp-server-guide` to be\navailable in `openai/skills`\n- the provided patch needed a small repo-specific cleanup pass to\nsatisfy this repository's skill validation rules\n\n## Impact\n- makes the expanded Figma skill set available from the curated skills\ncatalog\n- keeps the imported skills structurally compatible with the current\n`openai/skills` validation expectations\n\n## Validation\n- `python3 skills/.system/skill-creator/scripts/quick_validate.py` for\n`skills/.curated/figma-code-connect-components`,\n`skills/.curated/figma-create-design-system-rules`,\n`skills/.curated/figma-create-new-file`,\n`skills/.curated/figma-generate-design`,\n`skills/.curated/figma-generate-library`, `skills/.curated/figma-use`,\nand `skills/.curated/figma-implement-design`\n- `git diff --check origin/main...HEAD`\n- `python3 -m py_compile\nskills/.curated/figma-code-connect-components/scripts/normalize_node_id.py`\n- `bash -n\nskills/.curated/figma-create-design-system-rules/scripts/check_agents_md.sh`\n- `node --check skills/.curated/figma-generate-library/scripts/*.js`\n\n---------\n\nCo-authored-by: Ashwin Mathews <ashwinm@openai.com>",
+    "tree": {
+      "sha": "5cfbcf7e372c426de811d4b1883865bab114c71e",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/5cfbcf7e372c426de811d4b1883865bab114c71e"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/0e7823cca07bc2cbf34718a383f9ae92525be6a5",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpwqRTCRC1aQ7uu5UhlAAAK7cQADoZ4R+CiD6+VhrhmdXB3jFi\nWtB2bqKmhe/Hz8W4WzxjDVWpcyA8ivUI1IK/s/dpGDfTgWkbpeEvYx8GOREjgLH1\nw4p8JqwQe/D60HhaeZ0FHcPbvAWD0HwIYt0gNWZLwnbpUOsT8PbDhGaCbIfJkZ7D\nF5rXdW9tx4mcaLHxTLC5kwlltN34OD2uS3Xaq+vGVfaDnBWENTUzI7r7eSeYWt5T\ncI3l/Us1DytASt6l4AjAmcXINrm63Epdszu5Ng7sb08Fp50+oolLpuZWM6XX5HDn\n5M6PvJti996yf+Srjt1Wr1BJrgXslqttijkNdO2b0FGeJM03l+qdxnZyrXhSg/Lo\nASgUd6ZhXeeOEhMts0fK338o/wmuahLDm+EIPt9kN0RsxEVynPM4Zvb1l09q2irN\nTDmZyHeHAfqfOkJpw5McyUvMxOzdAvRUnd0a65gcYTheTlW8WQuiOTD3IFqA64G8\n6kcHwHECi+l2sjt2dWANQk3EjA3V6zw/uXEeKrXSyiKz2Abtg6GmykeGer8CrY/O\nZd2ucBXFqvHW2F45A53IVfZPCQ9HRVM3lbcS+eHSwOsRukKwcjFVysHsPqP9IO9Y\nyoE4h9yZKx+rABXeM75/VCtT9kSoaskI449WxBh9ZFkheGijFvQvOQjdACk0Qwy1\n1m/pp+FuQ4k9scxmx6CH\n=zMjv\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 5cfbcf7e372c426de811d4b1883865bab114c71e\nparent 34bcbc7658a9a89631f1200c1e120ef74cd285ff\nauthor Vaibhav Srivastav <vb@openai.com> 1774363731 +0000\ncommitter GitHub <noreply@github.com> 1774363731 +0000\n\n[codex] Add latest Figma partner skills (#306)\n\n## What changed\n- add six curated Figma skills: `figma-use`, `figma-generate-design`,\n`figma-generate-library`, `figma-code-connect-components`,\n`figma-create-design-system-rules`, and `figma-create-new-file`\n- refresh the existing `figma` and `figma-implement-design` skill\nmetadata to match the imported partner workflow split\n- import the referenced assets, maintainers files, docs, and helper\nscripts that those skills depend on\n- add a small follow-up cleanup commit to remove repo-unsupported\n`disable-model-invocation` frontmatter and strip imported trailing\nwhitespace\n\n## Why\n- Figma asked for the latest skills from `figma/mcp-server-guide` to be\navailable in `openai/skills`\n- the provided patch needed a small repo-specific cleanup pass to\nsatisfy this repository's skill validation rules\n\n## Impact\n- makes the expanded Figma skill set available from the curated skills\ncatalog\n- keeps the imported skills structurally compatible with the current\n`openai/skills` validation expectations\n\n## Validation\n- `python3 skills/.system/skill-creator/scripts/quick_validate.py` for\n`skills/.curated/figma-code-connect-components`,\n`skills/.curated/figma-create-design-system-rules`,\n`skills/.curated/figma-create-new-file`,\n`skills/.curated/figma-generate-design`,\n`skills/.curated/figma-generate-library`, `skills/.curated/figma-use`,\nand `skills/.curated/figma-implement-design`\n- `git diff --check origin/main...HEAD`\n- `python3 -m py_compile\nskills/.curated/figma-code-connect-components/scripts/normalize_node_id.py`\n- `bash -n\nskills/.curated/figma-create-design-system-rules/scripts/check_agents_md.sh`\n- `node --check skills/.curated/figma-generate-library/scripts/*.js`\n\n---------\n\nCo-authored-by: Ashwin Mathews <ashwinm@openai.com>",
+      "verified_at": "2026-03-24T14:48:52Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/0e7823cca07bc2cbf34718a383f9ae92525be6a5",
+  "html_url": "https://github.com/openai/skills/commit/0e7823cca07bc2cbf34718a383f9ae92525be6a5",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/0e7823cca07bc2cbf34718a383f9ae92525be6a5/comments",
+  "author": {
+    "login": "vb-openai",
+    "id": 250380837,
+    "node_id": "U_kgDODuyCJQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/250380837?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/vb-openai",
+    "html_url": "https://github.com/vb-openai",
+    "followers_url": "https://api.github.com/users/vb-openai/followers",
+    "following_url": "https://api.github.com/users/vb-openai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/vb-openai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/vb-openai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/vb-openai/subscriptions",
+    "organizations_url": "https://api.github.com/users/vb-openai/orgs",
+    "repos_url": "https://api.github.com/users/vb-openai/repos",
+    "events_url": "https://api.github.com/users/vb-openai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/vb-openai/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "34bcbc7658a9a89631f1200c1e120ef74cd285ff",
+      "url": "https://api.github.com/repos/openai/skills/commits/34bcbc7658a9a89631f1200c1e120ef74cd285ff",
+      "html_url": "https://github.com/openai/skills/commit/34bcbc7658a9a89631f1200c1e120ef74cd285ff"
+    }
+  ]
+}

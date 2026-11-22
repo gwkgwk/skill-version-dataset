@@ -1,0 +1,82 @@
+{
+  "sha": "bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+  "node_id": "C_kwDOQ55KR9oAKGJiYmM1OWM1ZjRhM2EzODJiNGI3ZDkzOWY5YmY3MmRhNDhlNTlhNjg",
+  "commit": {
+    "author": {
+      "name": "omarinuwa",
+      "email": "omar.inuwa@trailofbits.com",
+      "date": "2026-10-14T19:46:04Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T19:46:04Z"
+    },
+    "message": "fix(mermaid-to-proverif): read ProVerif results correctly and test forward secrecy properly (#367)\n\nChecked with ProVerif 2.05 on the shipped example:\n\n- Reachability guidance was inverted in five places. ProVerif checks\n  `not event(e)`, so it prints `is false` when the event IS reachable (the\n  shipped example prints exactly that); `is true` is the broken-model case.\n- The example's Q3 (injective authentication, R's view) reports false: the\n  drawn protocol has no responder challenge, so a replayed msg1 completes\n  another R-run; the weak correspondence holds. The model matches the\n  diagram, so document this as a genuine finding rather than call the model\n  one where every query holds.\n- The forward-secrecy pattern leaked the long-term keys at the start, which\n  lets the attacker impersonate and makes secrecy false for any\n  authenticated protocol. Leak them after the sessions, in phase 1, where\n  the example's secrecy queries hold.\n- Remove two dangling pointers: SKILL.md promised unlinkability guidance no\n  reference has, and cited the example as a forward-secrecy worked example\n  although it only has a comment.\n\nA test keeps the guidance consistent with ProVerif's output.\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+    "tree": {
+      "sha": "479c34bc0d874d5ef0ef41d87b21f17f1e5cf15e",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/479c34bc0d874d5ef0ef41d87b21f17f1e5cf15e"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz9v8CRC1aQ7uu5UhlAAAyugQACqsuI11IWLRnBdwJ+8PAjBM\nbt/nbZqxNS9a+FZWlqMavJE52Ba+YjzUnvhBg/ubaaoQNHn5PZXAojfEL/U2sRH1\nEF1Z0uH5setb55X5hM2GAn/O/FI4u2ZU1L6jHF4tPHGzIFRIHqxUMZD/ygUSs92w\nazTcl0rzO0vwn63NXaT3hr+k+6Rn2UNkD3lEAslaTaI9yuRV4gjvVton/EWhmaA3\nBU+7YW60NT6HpsAiI0PnlW4peuDeJxabrdRrlsJjnFgFADKNOQvUj1U4aBf4uJpd\nbro8dLnz0mnCzdiJjuRvKWW55ITic+JKaEnTGPfO/LpfdLLOHIDEDCgznkPD4h6O\nrzpYsEw7xlsNvJ2+ExTktRQ/gwHu7gDktAwgHtmlyVN1GyTx0Qsrs+JZv5tOGrdO\nFQHQJIeK4HnIBE3fK9Y927DhmquNleWGtwubTVsdD/0x5Z2HWb4W6dpmQ6plE7MB\nEMX4gqsiOPawS5PBeK+NvROYijCgMq8WcjSS0sx43fVau/3p1H8owwaglKjWl4KO\nAFvw9LuIjBmUuZ8+2fLF04r20xl8R711Mk89sBPpKisPpuNybkgWlAiulfH1RyLa\n2Mq2yQbk9A4fkYe7XahXPu1n1Kuphv+6W9U5IbtIiyasp2S/8BNDdzmqKdZH8aYk\n4u355fMIUd/Mve3hIlHw\n=WTvB\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 479c34bc0d874d5ef0ef41d87b21f17f1e5cf15e\nparent d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671\nauthor omarinuwa <omar.inuwa@trailofbits.com> 1792007164 +0100\ncommitter GitHub <noreply@github.com> 1792007164 -0400\n\nfix(mermaid-to-proverif): read ProVerif results correctly and test forward secrecy properly (#367)\n\nChecked with ProVerif 2.05 on the shipped example:\n\n- Reachability guidance was inverted in five places. ProVerif checks\n  `not event(e)`, so it prints `is false` when the event IS reachable (the\n  shipped example prints exactly that); `is true` is the broken-model case.\n- The example's Q3 (injective authentication, R's view) reports false: the\n  drawn protocol has no responder challenge, so a replayed msg1 completes\n  another R-run; the weak correspondence holds. The model matches the\n  diagram, so document this as a genuine finding rather than call the model\n  one where every query holds.\n- The forward-secrecy pattern leaked the long-term keys at the start, which\n  lets the attacker impersonate and makes secrecy false for any\n  authenticated protocol. Leak them after the sessions, in phase 1, where\n  the example's secrecy queries hold.\n- Remove two dangling pointers: SKILL.md promised unlinkability guidance no\n  reference has, and cited the example as a forward-secrecy worked example\n  although it only has a comment.\n\nA test keeps the guidance consistent with ProVerif's output.\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+      "verified_at": "2026-10-14T19:46:05Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+  "html_url": "https://github.com/trailofbits/skills/commit/bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68/comments",
+  "author": {
+    "login": "omarinuwa",
+    "id": 190324229,
+    "node_id": "U_kgDOC1geBQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/190324229?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/omarinuwa",
+    "html_url": "https://github.com/omarinuwa",
+    "followers_url": "https://api.github.com/users/omarinuwa/followers",
+    "following_url": "https://api.github.com/users/omarinuwa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/omarinuwa/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/omarinuwa/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/omarinuwa/subscriptions",
+    "organizations_url": "https://api.github.com/users/omarinuwa/orgs",
+    "repos_url": "https://api.github.com/users/omarinuwa/repos",
+    "events_url": "https://api.github.com/users/omarinuwa/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/omarinuwa/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671",
+      "html_url": "https://github.com/trailofbits/skills/commit/d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671"
+    }
+  ]
+}

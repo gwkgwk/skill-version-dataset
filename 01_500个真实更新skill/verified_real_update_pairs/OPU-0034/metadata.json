@@ -1,0 +1,161 @@
+{
+  "repository": "google-labs-code/stitch-skills",
+  "primary": "plugins/stitch-build/skills/remotion/SKILL.md",
+  "pinned_commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+  "repository_license": "Apache-2.0",
+  "key": "e5d06a524043153e7a12",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "adbc2949e619d49d8e5ed7774524c0e8a5d3167d",
+    "computed_tree_sha": "ff9c6b50c98e38fa3d46560391b16894731d3bc3",
+    "api_tree_sha_as_returned": "ff9c6b50c98e38fa3d46560391b16894731d3bc3",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "1caa1ea1b5ecd502277ff91d2e252ccc62a30b0b",
+        "sha256": "f1dff1065dbb3450939dd4e2daea77013723f4e6e0e11cdbff69c195e4359816",
+        "size": 3500,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9b3ad2ff840a6733301414aa799a41fead032d71",
+        "sha256": "34fde6f0d4ffe9d1f170f311da2ee91691e1c85018653bddf2eb55d50ccaf27f",
+        "size": 12954,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/WalkthroughComposition.tsx",
+        "git_blob_sha1": "72736bc280ca36ad2076076eb9f07aff9bfb2937",
+        "sha256": "e541d0910aa0ba259b025294c5438872f82a24d7bb78ea8cded99a164cb119a9",
+        "size": 2295,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/screens.json",
+        "git_blob_sha1": "7fd1f64aca0d1d7056179f8172188f3e13364390",
+        "sha256": "ab72cc535078e9d5ef1aac96b00ed4c18d2773737e454c1d345c55c6179d64e5",
+        "size": 1451,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/composition-checklist.md",
+        "git_blob_sha1": "2ad73ad82fb5a81c313646d28ec5586813ac9393",
+        "sha256": "91fc3b516e8a0ce05ea18f1c87365bc6588ea7efdb01a42c64b493d242d03846",
+        "size": 3748,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/screen-slide-template.tsx",
+        "git_blob_sha1": "cc95a0633558dab086c348c56e68a97d335968ed",
+        "sha256": "ca2aee6787883aa45fdf7eeb5d97741b76df9f016bbe64d2f8555a894181c458",
+        "size": 2412,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/download-stitch-asset.sh",
+        "git_blob_sha1": "497d4e3afe96cf0f03a622d0cf53adb7e7facdaf",
+        "sha256": "a107cb1160e0095c44b5b0d3dec78f842f0842e8bee67010dc7e8e6f43403441",
+        "size": 1027,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d",
+    "computed_tree_sha": "7699ad3c3e9d80f741b7e46e173f2237957517b0",
+    "api_tree_sha_as_returned": "7699ad3c3e9d80f741b7e46e173f2237957517b0",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "1caa1ea1b5ecd502277ff91d2e252ccc62a30b0b",
+        "sha256": "f1dff1065dbb3450939dd4e2daea77013723f4e6e0e11cdbff69c195e4359816",
+        "size": 3500,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "570fbbf77fb9a5e4bbf8515d9db1ec945783dad3",
+        "sha256": "7147fc5a627081fceb7b6ab6191426643747e738bb857587de1d3c1b6eecd755",
+        "size": 12942,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/WalkthroughComposition.tsx",
+        "git_blob_sha1": "72736bc280ca36ad2076076eb9f07aff9bfb2937",
+        "sha256": "e541d0910aa0ba259b025294c5438872f82a24d7bb78ea8cded99a164cb119a9",
+        "size": 2295,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/screens.json",
+        "git_blob_sha1": "7fd1f64aca0d1d7056179f8172188f3e13364390",
+        "sha256": "ab72cc535078e9d5ef1aac96b00ed4c18d2773737e454c1d345c55c6179d64e5",
+        "size": 1451,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/composition-checklist.md",
+        "git_blob_sha1": "2ad73ad82fb5a81c313646d28ec5586813ac9393",
+        "sha256": "91fc3b516e8a0ce05ea18f1c87365bc6588ea7efdb01a42c64b493d242d03846",
+        "size": 3748,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/screen-slide-template.tsx",
+        "git_blob_sha1": "cc95a0633558dab086c348c56e68a97d335968ed",
+        "sha256": "ca2aee6787883aa45fdf7eeb5d97741b76df9f016bbe64d2f8555a894181c458",
+        "size": 2412,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/download-stitch-asset.sh",
+        "git_blob_sha1": "497d4e3afe96cf0f03a622d0cf53adb7e7facdaf",
+        "sha256": "a107cb1160e0095c44b5b0d3dec78f842f0842e8bee67010dc7e8e6f43403441",
+        "size": 1027,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "adbc2949e619d49d8e5ed7774524c0e8a5d3167d",
+  "new_commit": "27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix some inconsitent issues",
+  "new_commit_time": "2026-05-12T05:24:45Z",
+  "compare_url": "https://github.com/google-labs-code/stitch-skills/compare/adbc2949e619d49d8e5ed7774524c0e8a5d3167d...27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d",
+  "commit_url": "https://github.com/google-labs-code/stitch-skills/commit/27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d",
+  "skill_directory": "plugins/stitch-build/skills/remotion",
+  "local_directory": "verified_real_update_pairs/OPU-0034",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0034",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

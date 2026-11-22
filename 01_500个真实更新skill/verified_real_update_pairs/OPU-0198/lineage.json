@@ -1,0 +1,82 @@
+{
+  "sha": "49f948faa9258a0c61caceaf225e179651397431",
+  "node_id": "C_kwDOQchDtdoAKDQ5Zjk0OGZhYTkyNThhMGM2MWNhY2VhZjIyNWUxNzk2NTEzOTc0MzE",
+  "commit": {
+    "author": {
+      "name": "sayan-oai",
+      "email": "sayan@openai.com",
+      "date": "2026-06-24T02:36:12Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-06-24T02:36:12Z"
+    },
+    "message": "[codex] Update skill installer post-install guidance (#507)\n\n## Summary\n\n- Update the skill installer's post-install guidance to say the skill\nwill be available on the user's next turn.\n- Remove the obsolete instruction to restart Codex.\n\n## Why\n\nCodex refreshes its skill catalog between turns. The existing\ninstruction predates that behavior and causes the model to recommend an\nunnecessary restart.\n\n## Impact\n\nUsers receive accurate guidance after installing a skill.\n\n## Related\n\n- Bundled Codex copy: https://github.com/openai/codex/pull/29768\n\n## Validation\n\n- `git diff --check`\n- No tests run (instruction-only Markdown change).",
+    "tree": {
+      "sha": "224b363928698e143876aef008232ed73d8e6f81",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/224b363928698e143876aef008232ed73d8e6f81"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/49f948faa9258a0c61caceaf225e179651397431",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqO0KcCRC1aQ7uu5UhlAAAXBgQABCpfk5yKaFYJ0biPHRbx8tC\nc/9aN3bJjQSJLHREcWVbwRrJTea+QQLLmK1O/1VfQsO9IomcjlL/mLL6DvSjfBeF\nzusewrnsm/MoZx8HxRDyo8eutLHpbabyzClNKyR9qdajTNTE7+Y1fCHPJbgxkttP\nqDohpJrUDC5WcITMYieBuVVskE+uEbsOZWaO1lizU85DGdNtoetDpDRD/e5vSBML\n3kytgCzQeO9HghYtn/5r6G1CY+fSc1pEvxYRNw9GPV4p69DKYdv4Wic1RJogHXNL\nyF5aN1Bygij4y788D44ImAD+x6mnLR4RyNyAp6cfEZx2nn0f/7I5JdyeBMpsokEg\nX51ETnDZSo10mYUBumvrQPMz6UB1svr0E0ZyddiAUKv3ymrduY42n0XPABqBvM2b\nZhhutHp88ui4OvRaN1GguE+WWFG3PdL9TALVg36Z4Ev6HJRdu9ylkaXfVHsveyU5\nHgrOchsO76WpKSQ7R/4jPuGFaYIIcJiUtMjO9joI3HSYNoLt2Z5pa9xGEOnUxRxU\nnuexgl1K+rE9S2QmDOOFM7QlBoYolyuYuKX1/a56Xcvsc3N7JavkilT9+wGiGkr6\nuq40liGUNCtv5aARmepV08h2Rj7yVjAiKuBWMntIPrHB00AspDXyaqR5nXP0WWiO\n6Nz6rzz/MHjIQcGUHToN\n=D9Vg\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 224b363928698e143876aef008232ed73d8e6f81\nparent 778b0e6129cf18cbaee3bf11479f583fadae8d03\nauthor sayan-oai <sayan@openai.com> 1782268572 -0700\ncommitter GitHub <noreply@github.com> 1782268572 -0700\n\n[codex] Update skill installer post-install guidance (#507)\n\n## Summary\n\n- Update the skill installer's post-install guidance to say the skill\nwill be available on the user's next turn.\n- Remove the obsolete instruction to restart Codex.\n\n## Why\n\nCodex refreshes its skill catalog between turns. The existing\ninstruction predates that behavior and causes the model to recommend an\nunnecessary restart.\n\n## Impact\n\nUsers receive accurate guidance after installing a skill.\n\n## Related\n\n- Bundled Codex copy: https://github.com/openai/codex/pull/29768\n\n## Validation\n\n- `git diff --check`\n- No tests run (instruction-only Markdown change).",
+      "verified_at": "2026-06-24T02:36:13Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/49f948faa9258a0c61caceaf225e179651397431",
+  "html_url": "https://github.com/openai/skills/commit/49f948faa9258a0c61caceaf225e179651397431",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/49f948faa9258a0c61caceaf225e179651397431/comments",
+  "author": {
+    "login": "sayan-oai",
+    "id": 244841968,
+    "node_id": "U_kgDODpf98A",
+    "avatar_url": "https://avatars.githubusercontent.com/u/244841968?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sayan-oai",
+    "html_url": "https://github.com/sayan-oai",
+    "followers_url": "https://api.github.com/users/sayan-oai/followers",
+    "following_url": "https://api.github.com/users/sayan-oai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sayan-oai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sayan-oai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sayan-oai/subscriptions",
+    "organizations_url": "https://api.github.com/users/sayan-oai/orgs",
+    "repos_url": "https://api.github.com/users/sayan-oai/repos",
+    "events_url": "https://api.github.com/users/sayan-oai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sayan-oai/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "778b0e6129cf18cbaee3bf11479f583fadae8d03",
+      "url": "https://api.github.com/repos/openai/skills/commits/778b0e6129cf18cbaee3bf11479f583fadae8d03",
+      "html_url": "https://github.com/openai/skills/commit/778b0e6129cf18cbaee3bf11479f583fadae8d03"
+    }
+  ]
+}

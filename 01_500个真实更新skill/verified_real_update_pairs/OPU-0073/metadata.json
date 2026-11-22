@@ -1,0 +1,105 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/ads/data-manager-api-audience-ingestion/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "83f6cbefc6a110519b60",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "a031b25dd3b868b72366dfc33b343fc4c13cc930",
+    "computed_tree_sha": "183264061a50278da8fc3f864bf1431c5ebaa85c",
+    "api_tree_sha_as_returned": "183264061a50278da8fc3f864bf1431c5ebaa85c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ad7e9bc76a99abf9b3bb062de8fe6591813cddb8",
+        "sha256": "a6f820026dfc991de7917d8906b9a52bbf1f55b7af663976903d8e5a722b234a",
+        "size": 11339,
+        "mode": "100644"
+      },
+      {
+        "path": "references/create-audience.md",
+        "git_blob_sha1": "a13d39c696b78555cc72f3c67e8b63cb2d7fd6b1",
+        "sha256": "75ec8b95b250e11bbb44aa9c73641e8a2c777fa40eaff70923e72d965e78cf19",
+        "size": 2107,
+        "mode": "100644"
+      },
+      {
+        "path": "references/formatting.md",
+        "git_blob_sha1": "cbe47e3ea9a4f01779fb893b0259e45d590ae126",
+        "sha256": "c38d9f42ce767a68d58b07be633672eb992cf9699b85d6223ea7c8c084ff1d6a",
+        "size": 633,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "609310dcb093f772721b0adec46363faa3bcf652",
+    "computed_tree_sha": "3fdca500c6764b08fed2f6408148a10e7944ca54",
+    "api_tree_sha_as_returned": "3fdca500c6764b08fed2f6408148a10e7944ca54",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a9daeac083f800432f851b718ecbd796fa33fc27",
+        "sha256": "e6bbdeebe9dc66cefb88cba1e67bbe8e6a4437fc1d7c51e8e4e8f6ae4c1b3c6a",
+        "size": 9175,
+        "mode": "100644"
+      },
+      {
+        "path": "references/create-audience.md",
+        "git_blob_sha1": "a13d39c696b78555cc72f3c67e8b63cb2d7fd6b1",
+        "sha256": "75ec8b95b250e11bbb44aa9c73641e8a2c777fa40eaff70923e72d965e78cf19",
+        "size": 2107,
+        "mode": "100644"
+      },
+      {
+        "path": "references/formatting.md",
+        "git_blob_sha1": "cbe47e3ea9a4f01779fb893b0259e45d590ae126",
+        "sha256": "c38d9f42ce767a68d58b07be633672eb992cf9699b85d6223ea7c8c084ff1d6a",
+        "size": 633,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "a031b25dd3b868b72366dfc33b343fc4c13cc930",
+  "new_commit": "609310dcb093f772721b0adec46363faa3bcf652",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat: add Data Manager API troubleshooting skill\nchore: move request status diagnostics from the event and audience ingestion skills to the troubleshooting skill\nfeat: add call conversions to the event ingestion use case table\nchore: use a consistent project ID placeholder in the setup skill\ndocs: list the troubleshooting skill in the README\nfeat: call out event field requirements section in event ingestion guides\nfeat: add event ingestion gotchas for request encoding, event_source, and Google Ads session attributes\n\nPiperOrigin-RevId: 1024616084",
+  "new_commit_time": "2026-11-18T14:22:37Z",
+  "compare_url": "https://github.com/google/skills/compare/a031b25dd3b868b72366dfc33b343fc4c13cc930...609310dcb093f772721b0adec46363faa3bcf652",
+  "commit_url": "https://github.com/google/skills/commit/609310dcb093f772721b0adec46363faa3bcf652",
+  "skill_directory": "skills/ads/data-manager-api-audience-ingestion",
+  "local_directory": "verified_real_update_pairs/OPU-0073",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0073",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sha": "b2fdce752bbf8f3ba83883d8a35c642e229c8812",
+  "node_id": "C_kwDOQfkh9NoAKGIyZmRjZTc1MmJiZjhmM2JhODM4ODNkOGEzNWM2NDJlMjI5Yzg4MTI",
+  "commit": {
+    "author": {
+      "name": "Jon Samp",
+      "email": "sampjon@gmail.com",
+      "date": "2026-07-07T16:18:52Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-07-07T16:18:52Z"
+    },
+    "message": "Organize skills with expo-* and eas-* (#98)\n\n* Organize skills with expo-* and eas-* naming\n\nPrefix every skill with expo-* (framework/OSS) or eas-* (paid EAS\nservice), and prefix each description with \"Framework (OSS).\" or\n\"EAS service (paid).\" so the free/paid boundary is visible in the\nalways-loaded metadata and /expo- / /eas- discovery works.\n\nRenames to established product names:\n- building-native-ui (visual guide) -> expo-native-ui; navigation\n  stays in the expo-router skill, matching the #99 split\n- native-data-fetching -> expo-data-fetching\n- use-dom -> expo-dom\n- web-to-native -> expo-web-to-native\n- add-app-clip -> expo-app-clip\n- upgrading-expo -> expo-upgrade\n- expo-observe -> eas-observe\n- expo-cicd-workflows -> eas-workflows\n- expo-deployment -> eas-app-stores (web deploy split into eas-hosting)\n- expo-api-routes -> eas-hosting\n\nAdd CONTRIBUTING.md with documented patterns, CI checks for skill\nlimits and plugin version bump, and bump the expo plugin to 1.7.0.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* Fix mangled EXPO_PUBLIC_ in expo-data-fetching quick reference\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+    "tree": {
+      "sha": "295c06a13b01205d571923a7459e9351aaa4c5d6",
+      "url": "https://api.github.com/repos/expo/skills/git/trees/295c06a13b01205d571923a7459e9351aaa4c5d6"
+    },
+    "url": "https://api.github.com/repos/expo/skills/git/commits/b2fdce752bbf8f3ba83883d8a35c642e229c8812",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqTSbsCRC1aQ7uu5UhlAAAtIsQAHxbiED5yHVErrkwcqTDzuWN\nUZhJDxrhMDIcVmkrzkcetZdscLZ+Ck0OjkrGFQu+njkD9cLPRjH4oYcIFR9FDkD1\na4lTipO5vGRaSH88mRB7H/jsvJo/+EW9/jhtIgKOKU7i3zIrz+Z5vMzw7k6q6bFq\nbciz7NIAviV4qb6G8jyLO3fnYbMg3KaRJfBD5z9jTeiRExiAwhW5ePuiawUVlcJX\nww4eBlYZXTEnmBX9anb6CUVALsqsxVH2GDub5006pHCDhLYBbiGxBJUrSwBaUdnX\nami0DtGuxlf1DYgCWqo1RQg7Tvvu6aUDPrFFI8pdyCcGrOfyF4UU+lNyI0HUiSPW\nwvBzjM0GtVwOeJDvrSzlJbtFSS56TUsJMgngYyDJUlDKksbzTBeVLkuq+aiPD+QV\nItomPvxmNPKqN9w2Q8DgGO4vU5UihwFmfXBTh2rGpknWkpfdeUznjV2N+mylgb1i\ncJVtl44WQ6TOWgKnYcwAr4VZutYEJQBQPKabe/BkiLa4TPvbRM+WnQ9AKM33S5eg\nG4qyG2Mi+GVJn13jY8Mgx86kUNbiidDCPB5B1WSh4KyHl/AM1LWQ2wS41lwyPp9k\nxQYFLzSiO1bsN9fgevzhfM8ShopxIA2Q3D/q8XJvo/WJNz2TTHMVTA9GPyRwYKfd\nm32k5JWbmkjqCYLdvu4L\n=lKkL\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 295c06a13b01205d571923a7459e9351aaa4c5d6\nparent 06fcc81d979c015fc0e2ff55b5b733021f04ec3e\nauthor Jon Samp <sampjon@gmail.com> 1783441132 -0500\ncommitter GitHub <noreply@github.com> 1783441132 -0500\n\nOrganize skills with expo-* and eas-* (#98)\n\n* Organize skills with expo-* and eas-* naming\n\nPrefix every skill with expo-* (framework/OSS) or eas-* (paid EAS\nservice), and prefix each description with \"Framework (OSS).\" or\n\"EAS service (paid).\" so the free/paid boundary is visible in the\nalways-loaded metadata and /expo- / /eas- discovery works.\n\nRenames to established product names:\n- building-native-ui (visual guide) -> expo-native-ui; navigation\n  stays in the expo-router skill, matching the #99 split\n- native-data-fetching -> expo-data-fetching\n- use-dom -> expo-dom\n- web-to-native -> expo-web-to-native\n- add-app-clip -> expo-app-clip\n- upgrading-expo -> expo-upgrade\n- expo-observe -> eas-observe\n- expo-cicd-workflows -> eas-workflows\n- expo-deployment -> eas-app-stores (web deploy split into eas-hosting)\n- expo-api-routes -> eas-hosting\n\nAdd CONTRIBUTING.md with documented patterns, CI checks for skill\nlimits and plugin version bump, and bump the expo plugin to 1.7.0.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* Fix mangled EXPO_PUBLIC_ in expo-data-fetching quick reference\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "verified_at": "2026-07-07T16:18:53Z"
+    }
+  },
+  "url": "https://api.github.com/repos/expo/skills/commits/b2fdce752bbf8f3ba83883d8a35c642e229c8812",
+  "html_url": "https://github.com/expo/skills/commit/b2fdce752bbf8f3ba83883d8a35c642e229c8812",
+  "comments_url": "https://api.github.com/repos/expo/skills/commits/b2fdce752bbf8f3ba83883d8a35c642e229c8812/comments",
+  "author": {
+    "login": "jonsamp",
+    "id": 6455018,
+    "node_id": "MDQ6VXNlcjY0NTUwMTg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6455018?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jonsamp",
+    "html_url": "https://github.com/jonsamp",
+    "followers_url": "https://api.github.com/users/jonsamp/followers",
+    "following_url": "https://api.github.com/users/jonsamp/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonsamp/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jonsamp/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jonsamp/subscriptions",
+    "organizations_url": "https://api.github.com/users/jonsamp/orgs",
+    "repos_url": "https://api.github.com/users/jonsamp/repos",
+    "events_url": "https://api.github.com/users/jonsamp/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jonsamp/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "06fcc81d979c015fc0e2ff55b5b733021f04ec3e",
+      "url": "https://api.github.com/repos/expo/skills/commits/06fcc81d979c015fc0e2ff55b5b733021f04ec3e",
+      "html_url": "https://github.com/expo/skills/commit/06fcc81d979c015fc0e2ff55b5b733021f04ec3e"
+    }
+  ]
+}

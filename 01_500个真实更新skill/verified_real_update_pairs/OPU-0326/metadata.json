@@ -1,0 +1,535 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/bigquery-migration-sql-translator/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "b58e8a7ffa38752da124",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "ae55fb66945a6541ce7259bffa2af5bd22be288e",
+    "computed_tree_sha": "8d38bfad385517ee347a2c768ab11c8327859ffa",
+    "api_tree_sha_as_returned": "8d38bfad385517ee347a2c768ab11c8327859ffa",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2bbd5e58b428172e67863cf8a76505e7a2ba9d55",
+        "sha256": "925136d8e9ee4c22e2c854959604682f9c7cbf89f7bf67d7c5fa21f7b0d40f82",
+        "size": 16147,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/python_embedded_sql_migrator_template.py",
+        "git_blob_sha1": "177973298654bd663f7befc4ad72a13f1d365cf5",
+        "sha256": "fbdce9c5b22badc04f3476bc855e5da32e7366be9cc0fe4c07e10654bed32ba1",
+        "size": 42785,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/environment_example.yaml",
+        "git_blob_sha1": "94782177c335c4793f114e80687c496be793a018",
+        "sha256": "b536dfa1b2fa7d21044f1614dc52a836a1c1955d9665d4279564dd561134777b",
+        "size": 167,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_input_formats_example.yaml",
+        "git_blob_sha1": "44164e02771cdba45003802a7e470d405830ac23",
+        "sha256": "5ea3df13d4f57696962125104e9800c1f4a8905fed898d28958c537d897285aa",
+        "size": 213,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_metadata_example.yaml",
+        "git_blob_sha1": "a11cc8834e0b32963fb31e39b80b650ead563b82",
+        "sha256": "7f6c8b8980ec668473eea8c99529d5638877b270fce7dda2bfbc49c58321cab0",
+        "size": 147,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_object_rewriter_example.yaml",
+        "git_blob_sha1": "0962bac826a576d10969608cc85af21390aad4f4",
+        "sha256": "60502b9bb620c4661b24d2156708e9e6a7334e7855ff20434e12b100c38beb56",
+        "size": 1541,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_optimizer_example.yaml",
+        "git_blob_sha1": "c8f0c9e6c8097921a6f89c72e79d75421df9c3c5",
+        "sha256": "ae3d807c93d6f83a9f0536ea65a9b02f339a6e587df4252ee587bbf33b144ce4",
+        "size": 348,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_statement_rewriter_example.yaml",
+        "git_blob_sha1": "bc18ad213f80d62a3d39827ae59099054c5d4d08",
+        "sha256": "be61f420415b2d91f03d00d53154394c5eae66311b78fc7c570b458803facb1d",
+        "size": 400,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/input_formats_example.yaml",
+        "git_blob_sha1": "c0f406a050cd8d42525608d501aeb9ada939b43a",
+        "sha256": "5dbbcdbd0e9f356dd255d3ecf56c7ab49cee4fb45fd467ae0c1d229549e21d69",
+        "size": 200,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/metadata_example.yaml",
+        "git_blob_sha1": "ec6dc5e3c0783366aa9c30f674b5fa8d04e34e44",
+        "sha256": "167bafd0d9e2cc58d4137ccdbe8f5b475117b8850da4f0ccffacca623a897c24",
+        "size": 168,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/object_rewriter_example.yaml",
+        "git_blob_sha1": "b48697fa36d554ecf60f1bf1220d6f8d12d7ef59",
+        "sha256": "ce23e0beb19dffb15306620cbca8ac4c41fe4c21242a1a84f18be2fd2c3bf79f",
+        "size": 673,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/optimizer_example.yaml",
+        "git_blob_sha1": "07ad497979359c3282f1b80bd1ee4d89fd62113b",
+        "sha256": "c02a53e49baf74e8ff9e37afaacc0ad56b6c89cacaef7a8d5db0962efe9a7592",
+        "size": 335,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/statement_rewriter_example.yaml",
+        "git_blob_sha1": "5dbbef93803f1729c2c76733d6da8a466d92a16b",
+        "sha256": "0f1db0ad49ccb2fa0232cad4a85cc2d9ef5c5d88d9b98bdf8f8d4ef1ab0a467f",
+        "size": 387,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/environment.json",
+        "git_blob_sha1": "26b9976ee741012c88ba8775516c49f63613f4ee",
+        "sha256": "ed4c6ad2939561e8120da91d9cd1052defc589189a33b75fce652aefc6f8aea0",
+        "size": 498,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_input_formats.json",
+        "git_blob_sha1": "984f2b6a02d4de06557225aada2461eac78318dc",
+        "sha256": "f53b06ac8badb91fdf1839b719b0f57c355bf944ae0963a3382fe8913ec82972",
+        "size": 976,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_metadata.json",
+        "git_blob_sha1": "0a187e8b4e185b83605af0dc3a6123526fc28120",
+        "sha256": "a33b456b031099baff601312fc8e5a0bb9cd163979375800bc28cf3fb89b1c64",
+        "size": 629,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_object_rewriter.json",
+        "git_blob_sha1": "0a9f64edc4f8b146750379a21c3494fb06f3a5b6",
+        "sha256": "0c4214e35e93320c9216c2e72ddda0b9d66d4b3f45bab127c1003a002517d900",
+        "size": 19961,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_optimizer.json",
+        "git_blob_sha1": "c6f354d32e13a16db746a045de50682cd8a1e25d",
+        "sha256": "b523b51e3fc3baf0f3775617c2b3a5d94ed9779526bc5a487408daea17f36b07",
+        "size": 635,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_statement_rewriter.json",
+        "git_blob_sha1": "e97117321810b0d4d38f238f5b5277bdb95b9103",
+        "sha256": "caa184e283206f0257d782f89980cd8cd8f1bd7870cae3bd274783fad5fa2beb",
+        "size": 1292,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/input_formats.json",
+        "git_blob_sha1": "ab66da8b658a96bb45b7ecafafb1face50d8e89e",
+        "sha256": "f24e6b31c997cda3b57e878c7acd7c2a05cd041988ef878988d6a671a76d5d87",
+        "size": 963,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/metadata.json",
+        "git_blob_sha1": "442a4ad4d436523998c92f865883d1f9981fad91",
+        "sha256": "a8c9785e87fa5116ab042e4d74de58c33c528ae92966e839fbd4c7339f3663e4",
+        "size": 876,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/object_rewriter.json",
+        "git_blob_sha1": "236cfdc6ac977d494ef4f3b40f0508fba9b544dd",
+        "sha256": "3ce5119da8cd0de72d30bf11b8956edf1c6cb3acdbf57bb3ce3dcb9233a9fb8e",
+        "size": 9376,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/optimizer.json",
+        "git_blob_sha1": "07026145b844bbba0bde0e07759fff62df8a7aff",
+        "sha256": "f5261dcc35de9a4b27d85dd5ce2a4cb40f03cd477dd57936c2996dd4581d84ab",
+        "size": 622,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/statement_rewriter.json",
+        "git_blob_sha1": "89c884c0ee2966ca8a14ee86af63e585b0e59bb2",
+        "sha256": "778c8b8e110d05f5b611ea88c6e25c5b6c4d6c315738909a4d315cb59e3633df",
+        "size": 1279,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/transpiler_config_spec.json",
+        "git_blob_sha1": "d2ddad6e007d26bbc9252a834aa1f2fb93f4319e",
+        "sha256": "b05c1c1d736ca33802fd3bc94a4d1111a189a6ea139df4cf0f2d0e043955d882",
+        "size": 39803,
+        "mode": "100644"
+      },
+      {
+        "path": "references/effect_compatibility.md",
+        "git_blob_sha1": "bea6519a5d0d9d5d8bdbab40d0992c6e91fd789c",
+        "sha256": "ef460c42dfafc8d7e7bfc26759d1afda4de94c49fb73d1395a17d784965e1f5f",
+        "size": 2346,
+        "mode": "100644"
+      },
+      {
+        "path": "references/effect_completeness.md",
+        "git_blob_sha1": "74fd9c22d89fe066e6c9a7ea5349165715b412a2",
+        "sha256": "43e2da478842724e730efabf9783589177b833a7f52db784fc7b889b71f1cfaf",
+        "size": 5225,
+        "mode": "100644"
+      },
+      {
+        "path": "references/effect_correctness.md",
+        "git_blob_sha1": "7db4fe8e48e08b1036896850a18d22d21fe13b00",
+        "sha256": "f3038b2d851ae2032c25bb3ff0e9b827f593cd836bb26eead2c089a1f754c62a",
+        "size": 8819,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp_config.md",
+        "git_blob_sha1": "9a198a1753a7f25b4246bcd996f522ddc3caecb9",
+        "sha256": "e5b100c5ef8c68cb116fbcc8c64217ea8511d49355261f2ddb1b062b57a8f530",
+        "size": 10246,
+        "mode": "100644"
+      },
+      {
+        "path": "references/oracle_gotchas.md",
+        "git_blob_sha1": "8f5496d7b90c64e9e9d6159e52833e258b5729b4",
+        "sha256": "997a1fe016af187da3a7bbd7cf607b0aa77aa4c1805c118ea91a72e8e6c9f8af",
+        "size": 3223,
+        "mode": "100644"
+      },
+      {
+        "path": "references/snowflake_gotchas.md",
+        "git_blob_sha1": "2639571819ace93c3a6e65c1c1709d8cb74e5189",
+        "sha256": "861531d2b32569cf0669ed1e725d86129f42d6b18aa30de43e9876f5e80a4246",
+        "size": 7601,
+        "mode": "100644"
+      },
+      {
+        "path": "references/teradata_gotchas.md",
+        "git_blob_sha1": "a90f35d3314b54ebc20f2b77b8292ed11a9cc9fb",
+        "sha256": "b502837c8a923780d115d8a74e616421570067a0d379c8d8c835ac4de1db7952",
+        "size": 2474,
+        "mode": "100644"
+      },
+      {
+        "path": "references/translation_yaml_config.md",
+        "git_blob_sha1": "ee7255e02ddee6e4d4a78eab0895f7265d318e29",
+        "sha256": "f6f3cfc7eb42c7faf83bbfc80257da678197e70e16e68f275a34e350b4f8633b",
+        "size": 12629,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f72d4289501dfb4cce66d2190f2e2827ece62814",
+    "computed_tree_sha": "614bb5d590e0cb6ee62db9f2b2dc088e0764a89f",
+    "api_tree_sha_as_returned": "614bb5d590e0cb6ee62db9f2b2dc088e0764a89f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7dc0f760a891c10afc5684743e6bfcb77d5ae035",
+        "sha256": "f14932fc1c08fad614283677a2e7ec33aa3c1cd0fbf526541c0998714f851f6a",
+        "size": 16335,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/python_embedded_sql_migrator_template.py",
+        "git_blob_sha1": "177973298654bd663f7befc4ad72a13f1d365cf5",
+        "sha256": "fbdce9c5b22badc04f3476bc855e5da32e7366be9cc0fe4c07e10654bed32ba1",
+        "size": 42785,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/environment_example.yaml",
+        "git_blob_sha1": "94782177c335c4793f114e80687c496be793a018",
+        "sha256": "b536dfa1b2fa7d21044f1614dc52a836a1c1955d9665d4279564dd561134777b",
+        "size": 167,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_input_formats_example.yaml",
+        "git_blob_sha1": "44164e02771cdba45003802a7e470d405830ac23",
+        "sha256": "5ea3df13d4f57696962125104e9800c1f4a8905fed898d28958c537d897285aa",
+        "size": 213,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_metadata_example.yaml",
+        "git_blob_sha1": "a11cc8834e0b32963fb31e39b80b650ead563b82",
+        "sha256": "7f6c8b8980ec668473eea8c99529d5638877b270fce7dda2bfbc49c58321cab0",
+        "size": 147,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_object_rewriter_example.yaml",
+        "git_blob_sha1": "0962bac826a576d10969608cc85af21390aad4f4",
+        "sha256": "60502b9bb620c4661b24d2156708e9e6a7334e7855ff20434e12b100c38beb56",
+        "size": 1541,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_optimizer_example.yaml",
+        "git_blob_sha1": "c8f0c9e6c8097921a6f89c72e79d75421df9c3c5",
+        "sha256": "ae3d807c93d6f83a9f0536ea65a9b02f339a6e587df4252ee587bbf33b144ce4",
+        "size": 348,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/experimental_statement_rewriter_example.yaml",
+        "git_blob_sha1": "bc18ad213f80d62a3d39827ae59099054c5d4d08",
+        "sha256": "be61f420415b2d91f03d00d53154394c5eae66311b78fc7c570b458803facb1d",
+        "size": 400,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/input_formats_example.yaml",
+        "git_blob_sha1": "c0f406a050cd8d42525608d501aeb9ada939b43a",
+        "sha256": "5dbbcdbd0e9f356dd255d3ecf56c7ab49cee4fb45fd467ae0c1d229549e21d69",
+        "size": 200,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/metadata_example.yaml",
+        "git_blob_sha1": "ec6dc5e3c0783366aa9c30f674b5fa8d04e34e44",
+        "sha256": "167bafd0d9e2cc58d4137ccdbe8f5b475117b8850da4f0ccffacca623a897c24",
+        "size": 168,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/object_rewriter_example.yaml",
+        "git_blob_sha1": "b48697fa36d554ecf60f1bf1220d6f8d12d7ef59",
+        "sha256": "ce23e0beb19dffb15306620cbca8ac4c41fe4c21242a1a84f18be2fd2c3bf79f",
+        "size": 673,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/optimizer_example.yaml",
+        "git_blob_sha1": "07ad497979359c3282f1b80bd1ee4d89fd62113b",
+        "sha256": "c02a53e49baf74e8ff9e37afaacc0ad56b6c89cacaef7a8d5db0962efe9a7592",
+        "size": 335,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_examples/statement_rewriter_example.yaml",
+        "git_blob_sha1": "5dbbef93803f1729c2c76733d6da8a466d92a16b",
+        "sha256": "0f1db0ad49ccb2fa0232cad4a85cc2d9ef5c5d88d9b98bdf8f8d4ef1ab0a467f",
+        "size": 387,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/environment.json",
+        "git_blob_sha1": "26b9976ee741012c88ba8775516c49f63613f4ee",
+        "sha256": "ed4c6ad2939561e8120da91d9cd1052defc589189a33b75fce652aefc6f8aea0",
+        "size": 498,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_input_formats.json",
+        "git_blob_sha1": "984f2b6a02d4de06557225aada2461eac78318dc",
+        "sha256": "f53b06ac8badb91fdf1839b719b0f57c355bf944ae0963a3382fe8913ec82972",
+        "size": 976,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_metadata.json",
+        "git_blob_sha1": "0a187e8b4e185b83605af0dc3a6123526fc28120",
+        "sha256": "a33b456b031099baff601312fc8e5a0bb9cd163979375800bc28cf3fb89b1c64",
+        "size": 629,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_object_rewriter.json",
+        "git_blob_sha1": "0a9f64edc4f8b146750379a21c3494fb06f3a5b6",
+        "sha256": "0c4214e35e93320c9216c2e72ddda0b9d66d4b3f45bab127c1003a002517d900",
+        "size": 19961,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_optimizer.json",
+        "git_blob_sha1": "c6f354d32e13a16db746a045de50682cd8a1e25d",
+        "sha256": "b523b51e3fc3baf0f3775617c2b3a5d94ed9779526bc5a487408daea17f36b07",
+        "size": 635,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/experimental_statement_rewriter.json",
+        "git_blob_sha1": "e97117321810b0d4d38f238f5b5277bdb95b9103",
+        "sha256": "caa184e283206f0257d782f89980cd8cd8f1bd7870cae3bd274783fad5fa2beb",
+        "size": 1292,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/input_formats.json",
+        "git_blob_sha1": "ab66da8b658a96bb45b7ecafafb1face50d8e89e",
+        "sha256": "f24e6b31c997cda3b57e878c7acd7c2a05cd041988ef878988d6a671a76d5d87",
+        "size": 963,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/metadata.json",
+        "git_blob_sha1": "442a4ad4d436523998c92f865883d1f9981fad91",
+        "sha256": "a8c9785e87fa5116ab042e4d74de58c33c528ae92966e839fbd4c7339f3663e4",
+        "size": 876,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/object_rewriter.json",
+        "git_blob_sha1": "236cfdc6ac977d494ef4f3b40f0508fba9b544dd",
+        "sha256": "3ce5119da8cd0de72d30bf11b8956edf1c6cb3acdbf57bb3ce3dcb9233a9fb8e",
+        "size": 9376,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/optimizer.json",
+        "git_blob_sha1": "07026145b844bbba0bde0e07759fff62df8a7aff",
+        "sha256": "f5261dcc35de9a4b27d85dd5ce2a4cb40f03cd477dd57936c2996dd4581d84ab",
+        "size": 622,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/statement_rewriter.json",
+        "git_blob_sha1": "89c884c0ee2966ca8a14ee86af63e585b0e59bb2",
+        "sha256": "778c8b8e110d05f5b611ea88c6e25c5b6c4d6c315738909a4d315cb59e3633df",
+        "size": 1279,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/translation_config_schemas/transpiler_config_spec.json",
+        "git_blob_sha1": "d2ddad6e007d26bbc9252a834aa1f2fb93f4319e",
+        "sha256": "b05c1c1d736ca33802fd3bc94a4d1111a189a6ea139df4cf0f2d0e043955d882",
+        "size": 39803,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "4299e9f2f63b3f51e8c74570723d2851ec52ce3e",
+        "sha256": "22370cffeaa72129c6fc4011f4abe65c03dfd620d3a49a5ce2f8dfe4128604a6",
+        "size": 1951,
+        "mode": "100644"
+      },
+      {
+        "path": "references/effect_compatibility.md",
+        "git_blob_sha1": "bea6519a5d0d9d5d8bdbab40d0992c6e91fd789c",
+        "sha256": "ef460c42dfafc8d7e7bfc26759d1afda4de94c49fb73d1395a17d784965e1f5f",
+        "size": 2346,
+        "mode": "100644"
+      },
+      {
+        "path": "references/effect_completeness.md",
+        "git_blob_sha1": "74fd9c22d89fe066e6c9a7ea5349165715b412a2",
+        "sha256": "43e2da478842724e730efabf9783589177b833a7f52db784fc7b889b71f1cfaf",
+        "size": 5225,
+        "mode": "100644"
+      },
+      {
+        "path": "references/effect_correctness.md",
+        "git_blob_sha1": "7db4fe8e48e08b1036896850a18d22d21fe13b00",
+        "sha256": "f3038b2d851ae2032c25bb3ff0e9b827f593cd836bb26eead2c089a1f754c62a",
+        "size": 8819,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp_config.md",
+        "git_blob_sha1": "9a198a1753a7f25b4246bcd996f522ddc3caecb9",
+        "sha256": "e5b100c5ef8c68cb116fbcc8c64217ea8511d49355261f2ddb1b062b57a8f530",
+        "size": 10246,
+        "mode": "100644"
+      },
+      {
+        "path": "references/oracle_gotchas.md",
+        "git_blob_sha1": "8f5496d7b90c64e9e9d6159e52833e258b5729b4",
+        "sha256": "997a1fe016af187da3a7bbd7cf607b0aa77aa4c1805c118ea91a72e8e6c9f8af",
+        "size": 3223,
+        "mode": "100644"
+      },
+      {
+        "path": "references/snowflake_gotchas.md",
+        "git_blob_sha1": "2639571819ace93c3a6e65c1c1709d8cb74e5189",
+        "sha256": "861531d2b32569cf0669ed1e725d86129f42d6b18aa30de43e9876f5e80a4246",
+        "size": 7601,
+        "mode": "100644"
+      },
+      {
+        "path": "references/teradata_gotchas.md",
+        "git_blob_sha1": "a90f35d3314b54ebc20f2b77b8292ed11a9cc9fb",
+        "sha256": "b502837c8a923780d115d8a74e616421570067a0d379c8d8c835ac4de1db7952",
+        "size": 2474,
+        "mode": "100644"
+      },
+      {
+        "path": "references/translation_yaml_config.md",
+        "git_blob_sha1": "ee7255e02ddee6e4d4a78eab0895f7265d318e29",
+        "sha256": "f6f3cfc7eb42c7faf83bbfc80257da678197e70e16e68f275a34e350b4f8633b",
+        "size": 12629,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "ae55fb66945a6541ce7259bffa2af5bd22be288e",
+  "new_commit": "f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to remaining 7 Cloud agent skills.\n\n- Add `references/attribution.md` to `apigee-agent-gateway-governance`, `assuredworkloads-frameworks-author`, `bigquery-migration-sql-translator`, `bigquery-udfs`, `cloud-logging-finops`, `firebase-basics`, and `managed-airflow-recommendations`.\n- Add concise `## Usage Attribution` directives in `SKILL.md` linking to `references/attribution.md`.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1007391435",
+  "new_commit_time": "2026-10-26T17:48:53Z",
+  "compare_url": "https://github.com/google/skills/compare/ae55fb66945a6541ce7259bffa2af5bd22be288e...f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "commit_url": "https://github.com/google/skills/commit/f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "skill_directory": "skills/cloud/bigquery-migration-sql-translator",
+  "local_directory": "verified_real_update_pairs/OPU-0326",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0326",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

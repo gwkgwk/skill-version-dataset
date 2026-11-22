@@ -1,0 +1,82 @@
+{
+  "sha": "9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+  "node_id": "C_kwDOQ55KR9oAKDliMjgxMzM1NmU5YjllZjY3MGRjMWY0NDkzYTY5ZTgyYzhlN2YyN2U",
+  "commit": {
+    "author": {
+      "name": "Dan Guido",
+      "email": "dan@trailofbits.com",
+      "date": "2026-08-19T21:38:12Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-19T21:38:12Z"
+    },
+    "message": "static-analysis: resolve SARIF severity from the rule, not just result.level (#271)\n\n* static-analysis: resolve SARIF severity from the rule\n\nresult.level is optional in SARIF 2.1.0 and CodeQL never emits it: severity\nlives on the rule as defaultConfiguration.level and the result inherits it.\nsarif-parsing read result.level directly in the helper, the jq reference and\nthe SKILL, so the documented CI gate counted zero errors on a CodeQL run\nhowever many it found.\n\nresolve_level() now joins the rule by ruleIndex, falls back to ruleId, and\nreturns result.level when present, \"warning\" when neither states one, and\n\"none\" for a kind other than \"fail\" so passing compliance records do not\ninherit an error. The jq queries and every SKILL example resolve the same way.\n\ncompute_fingerprint() hashed the basename alone, so the same rule at the same\nline in two directories collided and deduplicate() dropped the second finding.\nIt now hashes the whole normalized path.\n\nTwo fixtures and a pytest suite pin both: fixtures/codeql-no-level.sarif holds\none error reachable only through its rule, fixtures/levels-on-results.sarif\nholds one error on the result, and the suite runs the documented jq gate over\nboth so the docs cannot drift from the helper.\n\nFixes #262\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: reject a negative ruleIndex in the jq resolver\n\nSARIF writes ruleIndex: -1 for \"no rule\", and $rules[-1] in jq is the last\nelement, so the documented function labelled those results with whatever\nseverity the final rule in the array happened to carry. The Python resolver\nalready rejected it through its 0 <= index < len(rules) bound; the jq copies\nnow require >= 0 too, and a test pins both.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: run the documented GitHub Actions gate in the suite\n\nThe workflow step inlines its own copy of the resolver, since a workflow has\nno shell variable to paste LEVEL_FN into, so comparing the LEVEL_FN blocks\nleft the one artifact issue #262 named untested. The suite now extracts that\nstep's jq program and runs it over both fixtures.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: coalesce null kind and drop the misleading pysarif level example\n\nresolve_level read `result.get(\"kind\", \"fail\")`, which only defaults when the key\nis absent; an explicit `\"kind\": null` returned \"none\" and hid a real error, where\nthe jq gate's `// \"fail\"` coalesces it to a fail. Coalesce null to \"fail\" so the two\nresolvers agree, and add a null/fail regression test the buggy form fails.\n\nThe pysarif Strategy 2 example computed `result.level or rule_levels.get(...)`, but\npysarif fills a missing result.level with \"warning\", so the rule-inheritance fallback\nwas dead code and a CodeQL error printed as \"warning\". Drop it and point severity\ngating at Strategy 1's level() or resolve_level(), which resolve from the rule.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014UFqJu1ada7gXjD9peo1rX\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+    "tree": {
+      "sha": "54cd6c15aac6a0843af3d0ae51a2238f0bc568cd",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/54cd6c15aac6a0843af3d0ae51a2238f0bc568cd"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqhiJECRC1aQ7uu5UhlAAAxgkQAKGRs67O8i5V7AZnoFVpdxrh\nynV/1gtB6EBWwugzRfzpVOp8klPvtAMHAFxmcYk5us4iVnWJyMZeom81ybIJ7N3Q\ncqAJE600zaaRFY9ua76HpimY+Vi/wf4Kj/XWe2Bq1o6Oz4kh+Okcfq2E5Ostwueb\nuqCLaLm4iS4wdiBf/qnaXhKTfQbZOD9/7tWbrPDDp2JxbP22vwmQiXdLPlV5A+f4\nKSbnuZpgurFYm/TF/n8bxN1JmlPepNImvDk5MVGUIny0Op3jlQrTEkc9mLfu0gyD\nkZakiycf6gE8h7Cy2aKl9nXV5MYkUUAYQc1sDdR8gXFfGJXUijPXh0AZkK4IrJYf\nkImZ6IoopPiFRdUHyHv5obZ4HaplP9FR/HVIKUNqZf6d1wJE55h+JEvliF9PAbQA\nB7R/uT3RkPxYZ3N3hDt0yWpBJqU3ukjoKoX6L8AQDdlocu16pM7GENkGETUqYy84\nGLQVxdWxk/C2+7fR8o5Wovp+aA8bNu2WcGBmT5MA+seYuKSTsMHDEWlJlLrf7leu\ncAvgCzaRCzN0bxMUDv9HgBMzqS2wGLwOC1NK6VCNPu3Lh9QoD9RxM/HPeq7Lh4qj\nBYhPXbmT+hZF4htWeRcCL1bLLNDtygUwTvwcqJOUt0Nq3QT7Q+FN2ztOZ4f30PSf\nCizMum42ahx8PE4ofRYo\n=zHqf\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 54cd6c15aac6a0843af3d0ae51a2238f0bc568cd\nparent 9e06dc67a31fc291e76ad28b690abfd350a8fd6d\nauthor Dan Guido <dan@trailofbits.com> 1787175492 -0400\ncommitter GitHub <noreply@github.com> 1787175492 -0400\n\nstatic-analysis: resolve SARIF severity from the rule, not just result.level (#271)\n\n* static-analysis: resolve SARIF severity from the rule\n\nresult.level is optional in SARIF 2.1.0 and CodeQL never emits it: severity\nlives on the rule as defaultConfiguration.level and the result inherits it.\nsarif-parsing read result.level directly in the helper, the jq reference and\nthe SKILL, so the documented CI gate counted zero errors on a CodeQL run\nhowever many it found.\n\nresolve_level() now joins the rule by ruleIndex, falls back to ruleId, and\nreturns result.level when present, \"warning\" when neither states one, and\n\"none\" for a kind other than \"fail\" so passing compliance records do not\ninherit an error. The jq queries and every SKILL example resolve the same way.\n\ncompute_fingerprint() hashed the basename alone, so the same rule at the same\nline in two directories collided and deduplicate() dropped the second finding.\nIt now hashes the whole normalized path.\n\nTwo fixtures and a pytest suite pin both: fixtures/codeql-no-level.sarif holds\none error reachable only through its rule, fixtures/levels-on-results.sarif\nholds one error on the result, and the suite runs the documented jq gate over\nboth so the docs cannot drift from the helper.\n\nFixes #262\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: reject a negative ruleIndex in the jq resolver\n\nSARIF writes ruleIndex: -1 for \"no rule\", and $rules[-1] in jq is the last\nelement, so the documented function labelled those results with whatever\nseverity the final rule in the array happened to carry. The Python resolver\nalready rejected it through its 0 <= index < len(rules) bound; the jq copies\nnow require >= 0 too, and a test pins both.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: run the documented GitHub Actions gate in the suite\n\nThe workflow step inlines its own copy of the resolver, since a workflow has\nno shell variable to paste LEVEL_FN into, so comparing the LEVEL_FN blocks\nleft the one artifact issue #262 named untested. The suite now extracts that\nstep's jq program and runs it over both fixtures.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* static-analysis: coalesce null kind and drop the misleading pysarif level example\n\nresolve_level read `result.get(\"kind\", \"fail\")`, which only defaults when the key\nis absent; an explicit `\"kind\": null` returned \"none\" and hid a real error, where\nthe jq gate's `// \"fail\"` coalesces it to a fail. Coalesce null to \"fail\" so the two\nresolvers agree, and add a null/fail regression test the buggy form fails.\n\nThe pysarif Strategy 2 example computed `result.level or rule_levels.get(...)`, but\npysarif fills a missing result.level with \"warning\", so the rule-inheritance fallback\nwas dead code and a CodeQL error printed as \"warning\". Drop it and point severity\ngating at Strategy 1's level() or resolve_level(), which resolve from the rule.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_014UFqJu1ada7gXjD9peo1rX\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+      "verified_at": "2026-08-19T21:38:13Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+  "html_url": "https://github.com/trailofbits/skills/commit/9b2813356e9b9ef670dc1f4493a69e82c8e7f27e",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/9b2813356e9b9ef670dc1f4493a69e82c8e7f27e/comments",
+  "author": {
+    "login": "dguido",
+    "id": 294844,
+    "node_id": "MDQ6VXNlcjI5NDg0NA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/294844?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dguido",
+    "html_url": "https://github.com/dguido",
+    "followers_url": "https://api.github.com/users/dguido/followers",
+    "following_url": "https://api.github.com/users/dguido/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dguido/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dguido/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dguido/subscriptions",
+    "organizations_url": "https://api.github.com/users/dguido/orgs",
+    "repos_url": "https://api.github.com/users/dguido/repos",
+    "events_url": "https://api.github.com/users/dguido/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dguido/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9e06dc67a31fc291e76ad28b690abfd350a8fd6d",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/9e06dc67a31fc291e76ad28b690abfd350a8fd6d",
+      "html_url": "https://github.com/trailofbits/skills/commit/9e06dc67a31fc291e76ad28b690abfd350a8fd6d"
+    }
+  ]
+}

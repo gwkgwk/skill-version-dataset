@@ -1,0 +1,93 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/agent-platform-rag-engine-management/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "e6c573a5fd679b2c0b39",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+    "computed_tree_sha": "bd6e7431bfc615934f1b240474c94cf45f70f10e",
+    "api_tree_sha_as_returned": "bd6e7431bfc615934f1b240474c94cf45f70f10e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f0a7658b43ff1edb280fddb556251a3e6d46fea3",
+        "sha256": "d1614114cc765375e3da901d5aad72188d329a295fb9abe5d84ebc00ef169148",
+        "size": 10207,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "bc242554bc962c7238f9c5751f8b034030df3044",
+        "sha256": "7a5076dfdfed06796918ce732b6aa15ffea1f0045115f789ba99b135fb60d84d",
+        "size": 1986,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+    "computed_tree_sha": "e7d6a107f409a64a0fe2ae41c46216497a2d2442",
+    "api_tree_sha_as_returned": "e7d6a107f409a64a0fe2ae41c46216497a2d2442",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "04f3818e42decde2d9dda04f612d6ec0c590f78c",
+        "sha256": "71c7749ab04376055de6cd22c8911c124d375efc1fb9284f85eadb2a16be8631",
+        "size": 10209,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "bc242554bc962c7238f9c5751f8b034030df3044",
+        "sha256": "7a5076dfdfed06796918ce732b6aa15ffea1f0045115f789ba99b135fb60d84d",
+        "size": 1986,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "fd711c21669433d293aa0fe65bbed9d2d888df5d",
+  "new_commit": "56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update the Agent Platform skills.\n\n- Update Agent Platform deploy, prompt management, and endpoint management skills for current models, SDKs, and gcloud flags.\n- Update RAG Engine management skill examples from Gemini 2.5 models to `gemini-3.8-flash`.\n- Add standardized usage attribution to Agent Platform skills.  - Add `references/attribution.md` to all 9 Model Garden Agent Platform skills. - Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Default validation_split to None in convert_to_jsonl so programmatic prompt_only=True calls do not fail, and include adapter size 2 in tune_open_model.py CLI choices.\n- Add Qwen3.8-27B to the open-model tuning catalog and cost calculator.\n- Add distillation tuning to the agent-platform-tuning skill: supported teacher and student models, prompt-only training datasets (prepare_dataset.py --prompt_only), and --method/--teacher_model flags in tune_open_model.py.\n- Improve skill instructions for model-registry and agent-cli skills.\n- Improve skill instructions for tuning, tuning-management, and eval-flywheel skills.\n- Improve interactive confirmation and post-deletion verification guidance in prompt management skill.\n- Improve deployment region confirmation and hardware validation guidance in agent-platform-deploy skill.\n\nPiperOrigin-RevId: 1023012351",
+  "new_commit_time": "2026-11-16T20:11:22Z",
+  "compare_url": "https://github.com/google/skills/compare/fd711c21669433d293aa0fe65bbed9d2d888df5d...56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "commit_url": "https://github.com/google/skills/commit/56fba3e82a6b6914ad7028f9fd8a1c594479e899",
+  "skill_directory": "skills/cloud/agent-platform-rag-engine-management",
+  "local_directory": "verified_real_update_pairs/OPU-0242",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0242",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

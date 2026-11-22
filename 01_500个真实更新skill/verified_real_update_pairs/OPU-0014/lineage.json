@@ -1,0 +1,82 @@
+{
+  "sha": "9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+  "node_id": "C_kwDOQ55KR9oAKDk2NDVlMmY4OWIyZDMxOTU4NDdkZjVjODJkZGY2OGI2N2U0ZGU5MGY",
+  "commit": {
+    "author": {
+      "name": "Max Gorbuk",
+      "email": "gorbuk@stanford.edu",
+      "date": "2026-08-31T13:47:18Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-31T13:47:18Z"
+    },
+    "message": "agentic-actions-auditor: the pre-v1 claude-code-action inputs, and the composite-action secrets gap (#292)\n\n* agentic-actions-auditor: match the pre-v1 claude-code-action inputs\n\nclaude-code-action renamed its inputs at v1, per the action's own migration\nguide. The skill names only the v1 set, and SKILL.md Step 2 tells the auditor\nto ignore the ref after `@`, so a workflow carrying `direct_prompt` presents\nno prompt field the skill knows about and no sink is reported.\n\nOn main the skill never mentions `direct_prompt`, `override_prompt`,\n`custom_instructions` or `disallowed_tools`. Its one use of `allowed_tools`\nis a heading debunking it as a security control, not a field to capture.\n\nBoth spellings now appear wherever the v1 one did: the prompt-field table\nand a mapping table in foundations, the Step 3a capture list, the dangerous\nconfiguration table in action-profiles, and the Vector B, F and H signatures.\n\n* agentic-actions-auditor: say how secrets cross a resolved-file boundary\n\nStep 5b scores severity on secrets availability, and cross-file-resolution.md\ncovers resolving and input tracing but not this. The two file kinds behave\noppositely and neither can be read off the resolved file alone.\n\nA composite action has no `secrets` context, so a `${{ secrets.NAME }}` inside\none resolves to empty and is a broken workflow rather than an exposure, while a\nsecret that did arrive is sitting in `inputs.*` where a search for `secrets.`\nwill not find it. A called workflow under `secrets: inherit` holds every secret\nthe caller has without declaring any, so an empty `on.workflow_call.secrets` is\nnot evidence of a callee without secrets. Inheritance stops at the directly\ncalled workflow.\n\nThe reusable-workflow trace claimed `has secrets access` from a caller that\nshowed neither a trigger nor a `secrets:` line. Both appear in the example the\ntrace reads from.\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+    "tree": {
+      "sha": "c6e08e4c11e97ae0eeb794d54aa7fff8671fe41c",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/c6e08e4c11e97ae0eeb794d54aa7fff8671fe41c"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqlYXmCRC1aQ7uu5UhlAAAr7wQAJQWNeTWLDr4r14WJFLzuFjq\nZqIomeiVBmnQ+tZk3aRJvaLVwMOxeKnuz1dLad30rxH/PKquubbVQvpgRKkTgg2o\noqAv6idF3kautss/+h8XGeoiLUd0/9ddpkbBbJUyaj+ijpo+wMLqmvntBSB6kquK\nAdB8lOaBmBvAf7rOCnHPp65l/g+mhTRQHFuZEzxi9mRvYamY022q3Iv8e28FYlD/\nU8x8Pup7Y7Dv8fAXoAbKw+Jgy0rrdv9ns5UPjCo4SMuQPYHdRI3MTTuptzS2X10o\nvZccQ13N2dAvZLMd+MgluBtR/IS4nQk906M/K0GCPz16Rl+0tNTyIyVMJHrqfnUo\nbTosUXweIP+9bcAHKpj8bO+wPh+IDFAMNXrWSapTb30lE8wxEidxKuEXltqrb2p5\nYodx/Lq2C5pITanHT9lzmqr9gQZcI9sKxosswjGdI+fn5FQPGmXzYiEeHrUI7kv0\nyQSVW1eQmbn+BoYZ8BF7a0w53Iamu92r7dKLEHhiNMr3rEJVejPzVoBAO+1YztQw\niA+Zn8zNvSK/KqCSKOSckgEps3VK55E1+f66Z+l1SyYrYg8ujTKu6zRwp2h8cfii\nlJTS549Fv3OUB925YMltBEPPtJ2cFu8xp3n3jLK1wSvpFMjpxTGxhBogcGUMICPV\nKTC8WMGuf//fkXUYvTm9\n=fI6D\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c6e08e4c11e97ae0eeb794d54aa7fff8671fe41c\nparent ea5327d4676928040877cad43941a0971c26a971\nauthor Max Gorbuk <gorbuk@stanford.edu> 1788184038 +0300\ncommitter GitHub <noreply@github.com> 1788184038 -0400\n\nagentic-actions-auditor: the pre-v1 claude-code-action inputs, and the composite-action secrets gap (#292)\n\n* agentic-actions-auditor: match the pre-v1 claude-code-action inputs\n\nclaude-code-action renamed its inputs at v1, per the action's own migration\nguide. The skill names only the v1 set, and SKILL.md Step 2 tells the auditor\nto ignore the ref after `@`, so a workflow carrying `direct_prompt` presents\nno prompt field the skill knows about and no sink is reported.\n\nOn main the skill never mentions `direct_prompt`, `override_prompt`,\n`custom_instructions` or `disallowed_tools`. Its one use of `allowed_tools`\nis a heading debunking it as a security control, not a field to capture.\n\nBoth spellings now appear wherever the v1 one did: the prompt-field table\nand a mapping table in foundations, the Step 3a capture list, the dangerous\nconfiguration table in action-profiles, and the Vector B, F and H signatures.\n\n* agentic-actions-auditor: say how secrets cross a resolved-file boundary\n\nStep 5b scores severity on secrets availability, and cross-file-resolution.md\ncovers resolving and input tracing but not this. The two file kinds behave\noppositely and neither can be read off the resolved file alone.\n\nA composite action has no `secrets` context, so a `${{ secrets.NAME }}` inside\none resolves to empty and is a broken workflow rather than an exposure, while a\nsecret that did arrive is sitting in `inputs.*` where a search for `secrets.`\nwill not find it. A called workflow under `secrets: inherit` holds every secret\nthe caller has without declaring any, so an empty `on.workflow_call.secrets` is\nnot evidence of a callee without secrets. Inheritance stops at the directly\ncalled workflow.\n\nThe reusable-workflow trace claimed `has secrets access` from a caller that\nshowed neither a trigger nor a `secrets:` line. Both appear in the example the\ntrace reads from.\n\n---------\n\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+      "verified_at": "2026-08-31T13:47:19Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+  "html_url": "https://github.com/trailofbits/skills/commit/9645e2f89b2d3195847df5c82ddf68b67e4de90f",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/9645e2f89b2d3195847df5c82ddf68b67e4de90f/comments",
+  "author": {
+    "login": "mkzung",
+    "id": 103102868,
+    "node_id": "U_kgDOBiU5lA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/103102868?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mkzung",
+    "html_url": "https://github.com/mkzung",
+    "followers_url": "https://api.github.com/users/mkzung/followers",
+    "following_url": "https://api.github.com/users/mkzung/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mkzung/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mkzung/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mkzung/subscriptions",
+    "organizations_url": "https://api.github.com/users/mkzung/orgs",
+    "repos_url": "https://api.github.com/users/mkzung/repos",
+    "events_url": "https://api.github.com/users/mkzung/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mkzung/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "ea5327d4676928040877cad43941a0971c26a971",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/ea5327d4676928040877cad43941a0971c26a971",
+      "html_url": "https://github.com/trailofbits/skills/commit/ea5327d4676928040877cad43941a0971c26a971"
+    }
+  ]
+}

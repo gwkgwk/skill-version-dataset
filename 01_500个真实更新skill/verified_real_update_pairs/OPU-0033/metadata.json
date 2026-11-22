@@ -1,0 +1,77 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/claude-settings-audit/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "b6feb0a087ee749765e0",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "0c464f411bdfb8d4c12314b36264d06cb2f60270",
+    "computed_tree_sha": "c8f9201a3e8152a45a9701ecc9be985ee0a88584",
+    "api_tree_sha_as_returned": "c8f9201a3e8152a45a9701ecc9be985ee0a88584",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bb50ae18d361f26ceecadda878f57ba613cedf7b",
+        "sha256": "dd032b37c39417b535cd1b138732491d11e8eb7fb2cf59fedd8cbf79d7d80b04",
+        "size": 12006,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "869bc1cd766bdc69863921af20e39881dc29662d",
+    "computed_tree_sha": "e3c0de82cc2208fec0c72be3209e3245f3ac9910",
+    "api_tree_sha_as_returned": "e3c0de82cc2208fec0c72be3209e3245f3ac9910",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ae7d0b3539a98374cddd69b902d314d7501a9533",
+        "sha256": "03e81961d92293e7adb6ed4afcb1f1ad8f4a8f7c68efbc6c2ffe266a6ac204a9",
+        "size": 12052,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "0c464f411bdfb8d4c12314b36264d06cb2f60270",
+  "new_commit": "869bc1cd766bdc69863921af20e39881dc29662d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(browse-local-sentry): Add skill for QA in a local Sentry dev server (#182)\n\nAdds a skill that attaches an agent's browser to the user's own\nsigned-in Chrome, with a trusted mkcert certificate, so it can QA and\nscreenshot a local Sentry dev server. Without it, agents launch a\nthrowaway browser, hit the self-signed certificate or a login wall, and\nreport that browser verification was blocked.",
+  "new_commit_time": "2026-11-05T18:40:32Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/0c464f411bdfb8d4c12314b36264d06cb2f60270...869bc1cd766bdc69863921af20e39881dc29662d",
+  "commit_url": "https://github.com/getsentry/skills/commit/869bc1cd766bdc69863921af20e39881dc29662d",
+  "skill_directory": "skills/claude-settings-audit",
+  "local_directory": "verified_real_update_pairs/OPU-0033",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0033",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-java/skills/azure-identity-java/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "1227720113da1174589c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "673f81db3b0f24526fcd74f230f21437abaf7ceb",
+    "computed_tree_sha": "b9d6ef089518109d79eb1d2aabaea305049c6b4b",
+    "api_tree_sha_as_returned": "b9d6ef089518109d79eb1d2aabaea305049c6b4b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3ed1a92b937442e878d40eea606ab15c1fc1e6ad",
+        "sha256": "b8133072193bd993ea531632ffea1d3d7f9672c66855c31cd7b373ac51945787",
+        "size": 10913,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "25128301902d6e031768902f129369a15212d9a5",
+        "sha256": "fed132ff2f6b5901ac57e5185e6b3b6ca0c926ac2a0f8c3ccd169ffeb4d588ee",
+        "size": 11090,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "ed9f87cf395e5d197004b0f0a87d21cb81f601bb",
+        "sha256": "b58509321e58bbb1dac3f6d6d342f3d863b1ecce5ec37f1205418473431dc842",
+        "size": 14391,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "67ae723a23ba880e3e5c8a3e5e2320092024476e",
+    "computed_tree_sha": "e7dd9b170857d76679c9242b50ff6c610c224824",
+    "api_tree_sha_as_returned": "e7dd9b170857d76679c9242b50ff6c610c224824",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ffe26b990c0cfbbae77a19345024c45d2ed0c608",
+        "sha256": "17659e2590c0a2ee45d3d630badbecad24315ac73d5aed6b5aabdf43e1e48dd8",
+        "size": 10977,
+        "mode": "100644"
+      },
+      {
+        "path": "references/acceptance-criteria.md",
+        "git_blob_sha1": "25128301902d6e031768902f129369a15212d9a5",
+        "sha256": "fed132ff2f6b5901ac57e5185e6b3b6ca0c926ac2a0f8c3ccd169ffeb4d588ee",
+        "size": 11090,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "ed9f87cf395e5d197004b0f0a87d21cb81f601bb",
+        "sha256": "b58509321e58bbb1dac3f6d6d342f3d863b1ecce5ec37f1205418473431dc842",
+        "size": 14391,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "673f81db3b0f24526fcd74f230f21437abaf7ceb",
+  "new_commit": "67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Move package field into metadata map across plugin SKILL.md files\n\nMigrate 138 SKILL.md files under .github/plugins/ to use\nspec-conformant metadata maps:\n\n- Move top-level package field into metadata.package\n- Add license: MIT to all updated files\n- Add metadata.author: Microsoft and metadata.version: 1.0.0\n- Leave 28 azure-skills files untouched (already conformant)\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-02T16:37:09Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/673f81db3b0f24526fcd74f230f21437abaf7ceb...67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "commit_url": "https://github.com/microsoft/skills/commit/67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "skill_directory": ".github/plugins/azure-sdk-java/skills/azure-identity-java",
+  "local_directory": "verified_real_update_pairs/OPU-0330",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0330",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

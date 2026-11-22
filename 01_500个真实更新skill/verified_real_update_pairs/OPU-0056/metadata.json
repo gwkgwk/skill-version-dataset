@@ -1,0 +1,327 @@
+{
+  "repository": "anthropics/skills",
+  "primary": "skills/skill-creator/SKILL.md",
+  "pinned_commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+  "repository_license": null,
+  "key": "daf73c5f383c268fa2e9",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "7029232b9212482c0476da354b83364bd28fab2f",
+    "computed_tree_sha": "5c26c1472b98de33a48074ba5d3efe3a727b8e37",
+    "api_tree_sha_as_returned": "5c26c1472b98de33a48074ba5d3efe3a727b8e37",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size": 11357,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "942bfe89600f6a041d3458619e61f1d7841ebb4f",
+        "sha256": "ba8bebb2c085444120743af8dc859dd7c2592d6290e93aa5e1c08403109bdce7",
+        "size": 32370,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/analyzer.md",
+        "git_blob_sha1": "14e41d6068635f4dd3fb878fd1626312395dda63",
+        "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+        "size": 10376,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/comparator.md",
+        "git_blob_sha1": "80e00eb45db3ee53a132fc2ba97fd59a7339e563",
+        "sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+        "size": 7287,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/grader.md",
+        "git_blob_sha1": "558ab05c0a9a8bb062ef4c51823d4d76c3acf7c4",
+        "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+        "size": 9049,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/eval_review.html",
+        "git_blob_sha1": "938ff32aed9bffabf723bd5492d720f4736c8e4d",
+        "sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+        "size": 7058,
+        "mode": "100644"
+      },
+      {
+        "path": "eval-viewer/generate_review.py",
+        "git_blob_sha1": "7fa5978631fed1ed545591dbb2b0eb21ce3f3d08",
+        "sha256": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb",
+        "size": 16365,
+        "mode": "100644"
+      },
+      {
+        "path": "eval-viewer/viewer.html",
+        "git_blob_sha1": "6d8e96348a02e66c3363d2ff3b3ae58ac11e6382",
+        "sha256": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa",
+        "size": 44998,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schemas.md",
+        "git_blob_sha1": "b6eeaa2d4a34c1653069585c6c5603da39a5bdbe",
+        "sha256": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f",
+        "size": 12061,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/aggregate_benchmark.py",
+        "git_blob_sha1": "3e66e8c105be9bab9f0e9c61f0d1482619401580",
+        "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+        "size": 14386,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/generate_report.py",
+        "git_blob_sha1": "959e30a0014ec165c41a2bb7420b7dfe1416bbac",
+        "sha256": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453",
+        "size": 12847,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/improve_description.py",
+        "git_blob_sha1": "a270777b9a18bbe23162ae4c0dcfd399a67b44a1",
+        "sha256": "0dc43232db7ac6361775c894f4a1dbac958cb510c51a1230ff9e7fb30a74a7e8",
+        "size": 10723,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/package_skill.py",
+        "git_blob_sha1": "f48eac444656ddc41204aac1760a217951ce609e",
+        "sha256": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f",
+        "size": 4234,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/quick_validate.py",
+        "git_blob_sha1": "ed8e1dddce77b16af13c6f36b3fe86c4ac7c590c",
+        "sha256": "67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365",
+        "size": 3972,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/run_eval.py",
+        "git_blob_sha1": "e58c70bea39d5b252a1e819f242bbdcdf20e8b87",
+        "sha256": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f",
+        "size": 11464,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/run_loop.py",
+        "git_blob_sha1": "36f9b4e0545909696b7275634c92c7885b2c765b",
+        "sha256": "bafdb8e25c740813c735c54bf0489b9e87146da4cf697265927513c5430112d7",
+        "size": 13685,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/utils.py",
+        "git_blob_sha1": "51b6a07dd57174197a937034b7eecebd5768ff8a",
+        "sha256": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1",
+        "size": 1661,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b0cbd3df1533b396d281a6886d5132f623393a9c",
+    "computed_tree_sha": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+    "api_tree_sha_as_returned": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size": 11357,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "65b3a402dbd09b8e83f9d637c6b553875189085c",
+        "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+        "size": 33168,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/analyzer.md",
+        "git_blob_sha1": "14e41d6068635f4dd3fb878fd1626312395dda63",
+        "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+        "size": 10376,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/comparator.md",
+        "git_blob_sha1": "80e00eb45db3ee53a132fc2ba97fd59a7339e563",
+        "sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+        "size": 7287,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/grader.md",
+        "git_blob_sha1": "558ab05c0a9a8bb062ef4c51823d4d76c3acf7c4",
+        "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+        "size": 9049,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/eval_review.html",
+        "git_blob_sha1": "938ff32aed9bffabf723bd5492d720f4736c8e4d",
+        "sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+        "size": 7058,
+        "mode": "100644"
+      },
+      {
+        "path": "eval-viewer/generate_review.py",
+        "git_blob_sha1": "7fa5978631fed1ed545591dbb2b0eb21ce3f3d08",
+        "sha256": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb",
+        "size": 16365,
+        "mode": "100644"
+      },
+      {
+        "path": "eval-viewer/viewer.html",
+        "git_blob_sha1": "6d8e96348a02e66c3363d2ff3b3ae58ac11e6382",
+        "sha256": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa",
+        "size": 44998,
+        "mode": "100644"
+      },
+      {
+        "path": "references/schemas.md",
+        "git_blob_sha1": "b6eeaa2d4a34c1653069585c6c5603da39a5bdbe",
+        "sha256": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f",
+        "size": 12061,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/aggregate_benchmark.py",
+        "git_blob_sha1": "3e66e8c105be9bab9f0e9c61f0d1482619401580",
+        "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+        "size": 14386,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/generate_report.py",
+        "git_blob_sha1": "959e30a0014ec165c41a2bb7420b7dfe1416bbac",
+        "sha256": "13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453",
+        "size": 12847,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/improve_description.py",
+        "git_blob_sha1": "06bcec76122446986e3610c20a39c466de36f495",
+        "sha256": "87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80",
+        "size": 11116,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/package_skill.py",
+        "git_blob_sha1": "f48eac444656ddc41204aac1760a217951ce609e",
+        "sha256": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f",
+        "size": 4234,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/quick_validate.py",
+        "git_blob_sha1": "ed8e1dddce77b16af13c6f36b3fe86c4ac7c590c",
+        "sha256": "67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365",
+        "size": 3972,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/run_eval.py",
+        "git_blob_sha1": "e58c70bea39d5b252a1e819f242bbdcdf20e8b87",
+        "sha256": "43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f",
+        "size": 11464,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/run_loop.py",
+        "git_blob_sha1": "30a263d674ef19de11c756d6f7537f91a421909e",
+        "sha256": "7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21",
+        "size": 13605,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/utils.py",
+        "git_blob_sha1": "51b6a07dd57174197a937034b7eecebd5768ff8a",
+        "sha256": "3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1",
+        "size": 1661,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/improve_description.py",
+    "scripts/run_loop.py"
+  ],
+  "old_commit": "7029232b9212482c0476da354b83364bd28fab2f",
+  "new_commit": "b0cbd3df1533b396d281a6886d5132f623393a9c",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "skill-creator: drop ANTHROPIC_API_KEY requirement from description optimizer (#547)\n\nimprove_description.py now calls `claude -p`\nas a subprocess instead of the Anthropic SDK, so users no longer need a\nseparate ANTHROPIC_API_KEY to run the description optimization loop. Same\nauth pattern run_eval.py already used for the triggering eval.\n\nPrompts go over stdin (they embed the full SKILL.md body). Strips CLAUDECODE\nenv var to allow nesting inside a Claude Code session. The over-1024-char\nretry is now a fresh single-turn call that inlines the too-long version\nrather than a multi-turn followup.\n\nSKILL.md: dropped the stale \"extended thinking\" reference to match.",
+  "new_commit_time": "2026-03-06T20:06:23Z",
+  "compare_url": "https://github.com/anthropics/skills/compare/7029232b9212482c0476da354b83364bd28fab2f...b0cbd3df1533b396d281a6886d5132f623393a9c",
+  "commit_url": "https://github.com/anthropics/skills/commit/b0cbd3df1533b396d281a6886d5132f623393a9c",
+  "skill_directory": "skills/skill-creator",
+  "local_directory": "verified_real_update_pairs/OPU-0056",
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0056",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

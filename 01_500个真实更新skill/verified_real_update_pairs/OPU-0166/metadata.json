@@ -1,0 +1,159 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/vercel-deploy/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "6ab6c3ac90bbfd1a04a1",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+    "computed_tree_sha": "caaf70e80c59087faac16203ff4e01efc3ec0ba0",
+    "api_tree_sha_as_returned": "caaf70e80c59087faac16203ff4e01efc3ec0ba0",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "94df5bf89dbb6210a707fb4edbf3aade96bc4318",
+        "sha256": "e0fad1e120e56b02bb8e65745ff5be6d3234368f2df9d0dd183183879e595fc1",
+        "size": 1063,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6a793ae28800cc19896b161c8902a11891c11e50",
+        "sha256": "f1f3fa3ff57f87f8f32d77ed635b63416f200a1f976a8a8d3e23d12b30df3ae4",
+        "size": 2200,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "f11e4eeb297dac79d03c35b227830b611f6e6ad2",
+        "sha256": "5fdfff98a8cd084737f47231d65e7b8315e9036e12c8f2c90df7593f75abcf74",
+        "size": 306,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/vercel-small.svg",
+        "git_blob_sha1": "96df051b9b6ac2905a86f43b95fb9ff68d2d8b04",
+        "sha256": "169e5fedb5898d756254c29e02873508eef714a8dd11638f283ca8e7c46096a5",
+        "size": 243,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/vercel.png",
+        "git_blob_sha1": "c41ae1e890a2f85c50ae6e976ed00e8374b0e87e",
+        "sha256": "ab37ffb06bdb1ab6d076c26329e8677d057ba95d66f7e2c710221345ff6e2043",
+        "size": 788,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/deploy.sh",
+        "git_blob_sha1": "4494ee11b60454f07fde1ed84b94935030530772",
+        "sha256": "91f16c6a298c8b70eff7b7722f860e54101be2f23cea75d2e26ec0778006f9b4",
+        "size": 8877,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "2c9ebb321958f64aa9414b46e4240901e2b9e1a9",
+    "computed_tree_sha": "cea805bf6283e6508b08151d6e7c45655e54f3fb",
+    "api_tree_sha_as_returned": "cea805bf6283e6508b08151d6e7c45655e54f3fb",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "94df5bf89dbb6210a707fb4edbf3aade96bc4318",
+        "sha256": "e0fad1e120e56b02bb8e65745ff5be6d3234368f2df9d0dd183183879e595fc1",
+        "size": 1063,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a7e6faf3b999d31e8224e232d39fbf58952b7a5b",
+        "sha256": "f4a6cbfbb378a320fae179a79f727a881d19677e9b3db96ed49d2dc02a74fa46",
+        "size": 2653,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "f11e4eeb297dac79d03c35b227830b611f6e6ad2",
+        "sha256": "5fdfff98a8cd084737f47231d65e7b8315e9036e12c8f2c90df7593f75abcf74",
+        "size": 306,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/vercel-small.svg",
+        "git_blob_sha1": "96df051b9b6ac2905a86f43b95fb9ff68d2d8b04",
+        "sha256": "169e5fedb5898d756254c29e02873508eef714a8dd11638f283ca8e7c46096a5",
+        "size": 243,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/vercel.png",
+        "git_blob_sha1": "c41ae1e890a2f85c50ae6e976ed00e8374b0e87e",
+        "sha256": "ab37ffb06bdb1ab6d076c26329e8677d057ba95d66f7e2c710221345ff6e2043",
+        "size": 788,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/deploy.sh",
+        "git_blob_sha1": "4494ee11b60454f07fde1ed84b94935030530772",
+        "sha256": "91f16c6a298c8b70eff7b7722f860e54101be2f23cea75d2e26ec0778006f9b4",
+        "size": 8877,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc",
+  "new_commit": "2c9ebb321958f64aa9414b46e4240901e2b9e1a9",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update vercel skill instructions for CLI check and fallback (#180)\n\nSummary\n- document a preliminary `vercel` CLI check and clarify when to escalate\npermissions\n- align deploy script references with other skills using the `skill_dir`\nplaceholder for script paths\n- spell out fallback behavior when the CLI is missing or lacks\ncredentials\nTesting\n- Not run (not requested)",
+  "new_commit_time": "2026-02-21T04:07:43Z",
+  "compare_url": "https://github.com/openai/skills/compare/4ab6e0fd99c6667163bc34173e3ed3a3fed75ebc...2c9ebb321958f64aa9414b46e4240901e2b9e1a9",
+  "commit_url": "https://github.com/openai/skills/commit/2c9ebb321958f64aa9414b46e4240901e2b9e1a9",
+  "skill_directory": "skills/.curated/vercel-deploy",
+  "local_directory": "verified_real_update_pairs/OPU-0166",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "MIT",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "MIT",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0166",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "3b0d49235817ff1289a0",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "94abac91caaacad4a27985456d0ce0838d74ec42",
+    "computed_tree_sha": "a8c2b21bbedc82f4a18d7b5ed50b926fdf127b40",
+    "api_tree_sha_as_returned": "a8c2b21bbedc82f4a18d7b5ed50b926fdf127b40",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3bb0e01f975f822e69bf58d9de676d2b9f604ae3",
+        "sha256": "9f978cffec0a13596e7047d80a7890d44457048be0700b44016b020a0980051f",
+        "size": 5770,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/results-template.md",
+        "git_blob_sha1": "664eeaeea3192cbe70d72ee9d7d0e2c001b33d62",
+        "sha256": "39ae26b3d55fc51d1837b252c5e5b2410ce7a35cfc21bc005b80cf4f18d79c01",
+        "size": 1174,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e6066e7db1fd57cb35f9a534781ceec595327feb",
+    "computed_tree_sha": "e0f446332d689ade2947cfba3480a8c194231640",
+    "api_tree_sha_as_returned": "e0f446332d689ade2947cfba3480a8c194231640",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "83affaaf2841182c5eb610338256f7f540b270aa",
+        "sha256": "a1254b7f8d3a1731a9a7e1f9cd6c67b59cf84ed6ef7c7fb455db9a14c528ceb4",
+        "size": 6991,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/collect.py",
+        "git_blob_sha1": "09eefdf7acf6b0b981c6d2280fe0e76a12d28c0e",
+        "sha256": "857a6632e716cdb96a4d5e204f6eeaeb9a970688a04ee27da44c7998da59c578",
+        "size": 63770,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/model.py",
+        "git_blob_sha1": "81407c29544a2a84ca19a286f01c25d76ab927e9",
+        "sha256": "78a20954b76e81216991b57453ceddbdb867035a0d6993b98cfa05a7f8d008d3",
+        "size": 17595,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pyproject.toml",
+        "git_blob_sha1": "e435affcc1cc64171dcd449fa61fd6afb588785e",
+        "sha256": "a79ec30039ce3bc90544b9d833f7edc128232821575736f659d2b2ca0a601f3b",
+        "size": 683,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/render.py",
+        "git_blob_sha1": "a30c2623a9059356a082b4f4c88acef9fa78b829",
+        "sha256": "4216834d7610b39a6f4cbb8c15d2694ea6d266efe0299e6b44309ac29bc256c4",
+        "size": 35147,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/sources.py",
+        "git_blob_sha1": "3aafa9605c74071f51e18e5f4e4aac43c19e58c0",
+        "sha256": "18ef6be2ecb3aa594f8786b19a42543cf324cc2054293d3ef5f2449e875677d1",
+        "size": 27345,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_collect.py",
+        "git_blob_sha1": "df4526850c077e6b2f7019ba45fcda7594379910",
+        "sha256": "3ff1daa90f34600cebefcdb9f470a41dce0179215d889380a4bc8626bd555774",
+        "size": 27244,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_model.py",
+        "git_blob_sha1": "efbe08366de7b78bf333a51769f4a420d1bec9a4",
+        "sha256": "92059fe937c50f1502d71df2ddc4f123e8e2647fc0f4f7b270727ef9a2004f5c",
+        "size": 7842,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_render.py",
+        "git_blob_sha1": "54b1a5fef092855ee99be92be6393108609f8738",
+        "sha256": "319970fd010d6bf5fbf79b595e8fc918c5e74645b718f495f2479aef3ea8cc16",
+        "size": 14313,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/test_sources.py",
+        "git_blob_sha1": "61fdbc5b7767352ac7a3427527e9d7882b66629b",
+        "sha256": "0357e6d61a4e8246340953b04133f7e958554326073f48c028b00f921120831c",
+        "size": 8484,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/uv.lock",
+        "git_blob_sha1": "2fb44882a94a99013d613493e38bb372dfbbdd84",
+        "sha256": "99598cc397a42c945abbc9d839d1c61f1852f414660ce41e2e68bd9cdf664100",
+        "size": 337,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "resources/results-template.md",
+    "scripts/collect.py",
+    "scripts/model.py",
+    "scripts/pyproject.toml",
+    "scripts/render.py",
+    "scripts/sources.py",
+    "scripts/test_collect.py",
+    "scripts/test_model.py",
+    "scripts/test_render.py",
+    "scripts/test_sources.py",
+    "scripts/uv.lock"
+  ],
+  "old_commit": "94abac91caaacad4a27985456d0ce0838d74ec42",
+  "new_commit": "e6066e7db1fd57cb35f9a534781ceec595327feb",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Rebuild supply-chain-risk-auditor around a deterministic collector (#227)\n\n* Rebuild supply-chain-risk-auditor around a deterministic collector\n\nReplace the gh-only audit method with two stdlib-only Python scripts\nbundled with the skill: collect.py queries OSV, the npm and PyPI\nregistries, the Go module proxy, deps.dev, OpenSSF Scorecard, and\nGitHub, and emits a JSON artifact; render.py turns it into a Markdown\nreport of facts only. The model's job is the judgment layer on top —\nremediation, replacement candidates, narrative — written in report\nregister and labeled as judgment. The old method could not deliver its\nown criteria: repository contributors are not registry publish rights,\nand gh sees no download counts or ecosystem-keyed advisories.\n\nWhat it measures, for npm, PyPI, and Go:\n\n- Version-matched advisories for direct dependencies, resolved from the\n  lockfile, manifest pins, or labeled fallbacks — and for the full\n  lockfile-resolved transitive tree (package-lock.json, uv.lock,\n  go 1.17+ go.mod), advisories only.\n- Abandoned or archived upstreams, deprecated and yanked releases, npm\n  publisher concentration, install-time script execution, and the two\n  OpenSSF Scorecard checks that name a concrete mechanism\n  (Dangerous-Workflow, Binary-Artifacts). Download volume, publish\n  provenance, and security policy are reported as context, never\n  flagged.\n\nThe structure enforces its honesty rules rather than documenting them:\n\n- Every criterion resolves to assessed-clean, assessed-flagged, or\n  unassessable-with-a-reason. Unavailable data is never evidence of\n  risk, and every claim is bounded by a coverage table.\n- An empty advisory answer counts as clean only for a package proven to\n  exist: a registry document for npm and PyPI, a module-proxy answer\n  for Go, and for transitive lockfile entries a registry integrity hash\n  or registry source. Everything else — private registries, git\n  dependencies, vendored directories — is named as unverifiable with\n  its reason, never counted clean.\n- Coverage must reconcile, a run that measures nothing exits non-zero\n  instead of reporting that nothing is wrong, the renderer refuses an\n  artifact whose flags and coverage disagree, and third-party text is\n  escaped before it reaches a Markdown table.\n\n85 offline tests exercise the invariants through the collector's own\ncache format, and the suite is mutation-checked. evals/ ships three\nfixtures with graded expectations; against a no-skill baseline the\nskill passed ~92% of skill-agnostic assertions vs ~60%, at half the\nwall clock, with its edge in reproducibility — the report regenerates\nbyte-for-byte from the artifact — and self-consistency.\n\nVersion 1.0.1 -> 2.0.0: method replacement. CODEOWNERS moves to @e-q.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Establish registry identity at the parse boundary; reconcile the sweep\nagainst the raw lockfile\n\nReview findings on the PR clustered at one boundary: a non-registry or\nmalformed identity reaching the registry-keyed pipeline. Close the\nclass, not the instances:\n\n- Dependency gains non_registry_reason, set by the parsers (npm file:/\n  workspace:/git/shorthand specs; PyPI direct deps whose uv.lock source\n  is git/directory/path). One choke point in collect() marks every\n  criterion unassessable with that reason and excludes such deps from\n  all lookups — a same-named public package's advisories, publishers,\n  and deprecation belong to code the project never installs. The deps\n  stay in the report and its coverage.\n- Versions extracted from requirements text pass a PEP 440-shaped gate;\n  pip-compile continuation/hash debris (\"2.19.0 \\\") becomes unresolved\n  instead of a version-matched claim. Measured: OSV compares garbage\n  versions lexically, so the debris did not fail — it matched the wrong\n  advisory ranges.\n- The transitive sweep excludes direct dependencies by (ecosystem,\n  name, version), never by name: a nested copy of a direct dependency\n  pinned at another version is this sweep's responsibility, and the\n  name-keyed exclusion silently dropped it (measured on axios: two\n  recovered entries, 620 -> 622). The artifact now carries a ledger\n  counted from the raw lockfile before any exclusion — checked +\n  unverifiable + excluded_direct must equal it, so a dropped triple\n  fails validation instead of vanishing while the counts balance. The\n  checked==0 guard hole is closed: zero reconciles like any number\n  unless a reason is stated.\n- pip-audit runs with --no-deps --disable-pip. Measured: --no-deps\n  alone still audited a pip-resolved transitive set, so pip was still\n  fetching and potentially building untrusted distributions, against\n  the tool's no-execution promise; with both flags it audits exactly\n  the listed pins from registry metadata. Names on both sides of the\n  cross-check are PEP 503-normalised.\n- Scorecard check thresholds move to model.SCORECARD_CHECKS as the\n  single source of truth; the renderer derives its never-flags set from\n  threshold-is-None, ending the clean-run contradiction that described\n  the two flagging checks as \"not flagged — poor precision\".\n- Duplicate requirements prefer the runtime declaration (the dev file\n  sorts first, so first-seen-wins reclassified production pins as\n  build-time at the dev version); _git_commit confines refs to .git and\n  degrades to None on undecodable content instead of crashing the run;\n  recognised-but-unread lockfiles (yarn.lock, pnpm-lock.yaml,\n  poetry.lock) produce a note and the docs name exactly which lockfiles\n  are read; third-party text cannot inject links; the runtime estimate\n  is honest.\n\n88 tests; the four new guards (triple-keyed exclusion, non-registry\nchoke, lockfile ledger, zero-checked reconciliation) are each\nmutation-checked against the exact reviewed bug.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Mark PEP 508 direct references as non-registry at the parse boundary\n\n`flask @ git+https://...` in pyproject.toml or requirements.txt was\nstripped to a bare name — `@` is a name terminator in _REQ_SPLIT, so\nthe URL was silently discarded — and the dependency was looked up on\nPyPI, attributing the public package's advisories and metadata to a\nfork that may exist precisely to fix them. The npm path guards this at\nspec parsing and the PyPI path guarded it only via uv.lock's source\ntable, so any pip-managed project walked past the choke point.\n\nDirect references are now detected in the requirement text itself and\ncarry non_registry_reason with the URL; the existing choke point does\nthe rest. Assert folded into the requirements parsing test and\nmutation-checked against the reproduction.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Escape third-party text everywhere in the report, not only in tables\n\nThe Method-and-caveats notes and the report header interpolated\nuntrusted strings unescaped. Reproduced end to end: a package.json\ndependency key containing newlines (JSON permits them) with a file:\nspec produced a note that wrote a `## Summary` heading and a forged\n\"No known advisory affects any of the 12 direct dependencies\" bullet\ninto report.md — a deliverable meant to survive being pasted into a\nclient report. The 12-byte commit field read from the target's\n.git/HEAD had the same reach.\n\nWhitespace collapsing is the half that matters: it confines hostile\ntext to the line it was interpolated into, where the worst available is\ninline emphasis rather than forged block structure. The mechanism was\nalready right, so this is the missing calls plus a rename — _cell is\nnow _safe_text, since a table-shaped name is what invited skipping it\noff-table.\n\nThe existing table test asserted on the row it expected, which is why\nit never noticed these paths; the new test asserts structurally that\nevery heading and bullet in the report came from the renderer. Both\nescaping calls are mutation-checked. Normal reports are byte-identical:\nthe note templates carry no pipes or brackets.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Accept v-prefixed and epoch versions; stop escaping inside code spans\n\nA regression review comparing the branch tip against its first commit\nfound that two of the earlier review fixes had costs worth paying back.\n\nThe PEP 440 version gate required a leading digit, so the legal pin\n`django==v3.2.0` became an unresolved version: advisories were matched\nagainst the latest release and 62 real ones for that version read as\nassessed_clean. PEP 440 permits the prefix, pip accepts it, and OSV\nmatches it. The gate now accepts and strips it, so the reported version\nis canonical. Probing that also surfaced a longer-standing defect in the\nsame path: extraction split on `!`, which is there for `!=` and\ntruncated a PEP 440 epoch, so `1!2.0` was reported as the pin `1`.\nExtraction now ends the version at whitespace, a comma, or a semicolon,\nwhich additionally recovers the real pin from pip-compile hash lines\nthat previously fell back to unresolved.\n\nMarkdown does not process backslash escapes inside a code span, so\nescaping there wrote the backslashes out literally: the report title and\nthe `Scanned:` path came out as `/tmp/pkg \\[v2] \\| beta`, which is not a\npath a reader can copy. Values inside backticks now go through\n_safe_code, which collapses whitespace and neutralises the one character\nthat matters there — a backtick, which would close the span early — and\nleaves the rest alone. Prose and table cells keep _safe_text, so link\nforgery and cell escapes are unchanged. One first-party note lost its\nliteral brackets rather than being escaped around them.\n\nNon-registry dependencies now share one unassessable reason, with the\nspecific source in the signal value and the Method note. Embedding the\nsource in the reason gave each dependency a unique string, which\ndefeated the report's grouping: a 7-workspace-package fixture produced\n91 near-identical bullets across 13 criteria, and the Not-assessable\nsection went from 56 lines to 132. It is back to 56.\n\nAlso: a collector-level fixture now proves the transitive ledger is\nsourced independently of the buckets it checks — deriving it from them\nmade the equation true by construction and left a dropped package\nundetected while all tests passed. The docstring no longer claims the\nledger is counted from the raw lockfile, which overstated its reach, and\n_locked_beyond_direct's return annotation matches its five values again.\n\n91 tests; all four fixes mutation-checked. Real reports are unchanged.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Keep the pipe escape for code spans inside table cells\n\nSplitting the escaping into prose and code-span variants dropped the\npipe escape from both, but a GFM table row is split on pipes before\ninline spans are parsed, so a pipe inside a code span still ends the\ncell. A dependency named `evil|forged` put six boundaries in a\nfive-column row: the name truncated to a bare backtick and `evil`, and\nevery later value shifted one column right, so \"none known\" rendered\nunder Other findings.\n\nVerified against a CommonMark+GFM parser that this is genuinely a third\ncontext rather than a reason to revert: inside a table cell `\\|` renders\nas a literal pipe, while outside one the backslash survives into the\noutput — which is the corrupted `Scanned:` path the split fixed. The\nthree table paths now use _safe_code_cell; the bullet and header paths\nstay on _safe_code.\n\nThe new test asserts column parity across every table in the document\nrather than one row in one table, counting the pipes GFM actually splits\non so an escaped pipe reads as content. Per-path assertions are what let\nthis reach three call sites at once, and what missed the notes path two\ncommits earlier. Each of the three sites is mutation-checked\nindependently.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Check the assembled document instead of trusting every escape site\n\nEscaping was applied per interpolation site, and three successive\ncommits each fixed one set of sites correctly while leaving siblings\nunguarded: the notes and header fields, then three table paths, and now\nthe download-volume line and the informational sample. Coverage depended\non whoever wrote or reviewed the diff noticing every interpolation,\nwhich is the wrong thing to rest a property on when the failure mode is\na client deliverable carrying a forged all-clear.\n\nrender() assembles a list of lines and joins them, and every legitimate\nline is appended as its own element, so two invariants are precise and\ncannot be violated by legitimate content: no assembled line contains a\nnewline, and every table row carries its header's unescaped-pipe count.\ncheck_no_forged_lines enforces both immediately before the join. Block\nforgery needs a newline to open a new block, so the first invariant\ncatches any site that leaks, including sites not yet written; verified\nby reverting each of the two newly-escaped sites, which now fails seven\nexisting tests rather than none.\n\nThe two open sites are escaped as well rather than left to the\ninvariant: with escaping a hostile name renders harmlessly and the audit\ncompletes, while the invariant alone would let any audited repository\ndeny its own audit by naming a dependency with a newline in it.\n\nThe shared test fixture now carries a newline, a backtick, and a pipe in\nits default name, so every render test drives adversarial input through\nevery path it touches. Its informational criteria carry real booleans\ntoo: they were ints, and informational_section sorts on `is True` /\n`is False`, so the path that interpolates names into a Without: sample\nhad never executed in any test. That combination is why the misses kept\nrecurring.\n\n93 tests; both invariant loops mutation-checked. Real reports are\nunchanged.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-08-10T20:27:14Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/94abac91caaacad4a27985456d0ce0838d74ec42...e6066e7db1fd57cb35f9a534781ceec595327feb",
+  "commit_url": "https://github.com/trailofbits/skills/commit/e6066e7db1fd57cb35f9a534781ceec595327feb",
+  "skill_directory": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor",
+  "local_directory": "verified_real_update_pairs/OPU-0305",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0305",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

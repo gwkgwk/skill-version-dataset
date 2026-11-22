@@ -1,0 +1,175 @@
+{
+  "repository": "google-labs-code/stitch-skills",
+  "primary": "plugins/stitch-build/skills/react-native/SKILL.md",
+  "pinned_commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+  "repository_license": "Apache-2.0",
+  "key": "1ff5b0a9dd9f11dd4562",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "62d6d4d5b04580da6b71932e47d96b461e0b6dc2",
+    "computed_tree_sha": "7a796ffa339c688b234922a4ab59edd0a6f9b3a2",
+    "api_tree_sha_as_returned": "7a796ffa339c688b234922a4ab59edd0a6f9b3a2",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "22df9f535a033752d87183842274dfaf0a117e90",
+        "sha256": "222dd15af84e8201a031f01a35fe8c17cc0f978d718b3d55e4fbdf8ba81f9d2e",
+        "size": 1423,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "14bb42ae7f5ae337da839607b2f6adf68435897a",
+        "sha256": "d1c672668bb985c3cc303cd23c5b70b80015dbbd96cdb024a7f4657f519ce382",
+        "size": 12512,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/gold-standard-card.tsx",
+        "git_blob_sha1": "16720a799ef5310176620a54414e70ae7b9a446f",
+        "sha256": "8db2586244125d2d7f34928c9730f83c8792f79f8b1d06f44832cd120e0f9c63",
+        "size": 3826,
+        "mode": "100644"
+      },
+      {
+        "path": "package.json",
+        "git_blob_sha1": "52e92d158ede4239ab292ad06a93b8720672f6c2",
+        "sha256": "f4464eadb50f7c327048680c2e68478f2d75a1797cc1afb20f8387e7edf4d193",
+        "size": 370,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/architecture-checklist.md",
+        "git_blob_sha1": "fad3a130e9b9513b46edc3218c6973bdc7e927ee",
+        "sha256": "0ee064b98ef7149ffa243e7be22a6622f709b709ad3e06af883d661847152b21",
+        "size": 2060,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/component-template.tsx",
+        "git_blob_sha1": "da4895659bb268b5b78c8354258f736a747e17fb",
+        "sha256": "a66adef6966862da6812b04c346c4bc7814c73a5e5565319b2a0b8d32d4bfc3f",
+        "size": 498,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch-stitch.sh",
+        "git_blob_sha1": "f41b54b1a7d1442ff646f578b0667b1466978a16",
+        "sha256": "341f4c1b9d41e03af018f870297bdfb193f7f707a4f39096bc07abfc35288544",
+        "size": 1033,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate.js",
+        "git_blob_sha1": "133d9db5c9e10372affc30c4ac3e68fc5a49851b",
+        "sha256": "a41c813f5b2c6413580cbbafeee24c68e26561ae7ca1894228f59be8e4d02f31",
+        "size": 3754,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ec43edba6b33d579430188687f4e5ac8c43cffae",
+    "computed_tree_sha": "8b1d8f9b6ca1ca5bcd19eda36f94d123e6482970",
+    "api_tree_sha_as_returned": "8b1d8f9b6ca1ca5bcd19eda36f94d123e6482970",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "22df9f535a033752d87183842274dfaf0a117e90",
+        "sha256": "222dd15af84e8201a031f01a35fe8c17cc0f978d718b3d55e4fbdf8ba81f9d2e",
+        "size": 1423,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2ffab43a5e8951c6420a884d7adb81af96379611",
+        "sha256": "fb83197d834142b89459d883c5029716387e73fb6441d32019f4f8ad3b8b3784",
+        "size": 12427,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/gold-standard-card.tsx",
+        "git_blob_sha1": "16720a799ef5310176620a54414e70ae7b9a446f",
+        "sha256": "8db2586244125d2d7f34928c9730f83c8792f79f8b1d06f44832cd120e0f9c63",
+        "size": 3826,
+        "mode": "100644"
+      },
+      {
+        "path": "package.json",
+        "git_blob_sha1": "52e92d158ede4239ab292ad06a93b8720672f6c2",
+        "sha256": "f4464eadb50f7c327048680c2e68478f2d75a1797cc1afb20f8387e7edf4d193",
+        "size": 370,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/architecture-checklist.md",
+        "git_blob_sha1": "fad3a130e9b9513b46edc3218c6973bdc7e927ee",
+        "sha256": "0ee064b98ef7149ffa243e7be22a6622f709b709ad3e06af883d661847152b21",
+        "size": 2060,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/component-template.tsx",
+        "git_blob_sha1": "da4895659bb268b5b78c8354258f736a747e17fb",
+        "sha256": "a66adef6966862da6812b04c346c4bc7814c73a5e5565319b2a0b8d32d4bfc3f",
+        "size": 498,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch-stitch.sh",
+        "git_blob_sha1": "f41b54b1a7d1442ff646f578b0667b1466978a16",
+        "sha256": "341f4c1b9d41e03af018f870297bdfb193f7f707a4f39096bc07abfc35288544",
+        "size": 1033,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate.js",
+        "git_blob_sha1": "133d9db5c9e10372affc30c4ac3e68fc5a49851b",
+        "sha256": "a41c813f5b2c6413580cbbafeee24c68e26561ae7ca1894228f59be8e4d02f31",
+        "size": 3754,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "62d6d4d5b04580da6b71932e47d96b461e0b6dc2",
+  "new_commit": "ec43edba6b33d579430188687f4e5ac8c43cffae",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "docs(skills): make phase 4 dev server and simulator testing optional\n\n- Update react-components and react-native skills to make Phase 4 audits optional\n- Require explicit user permission before starting dev servers, packagers, or simulators\n- Keep TypeScript compilation verification mandatory but adjust gate rules",
+  "new_commit_time": "2026-06-29T20:57:24Z",
+  "compare_url": "https://github.com/google-labs-code/stitch-skills/compare/62d6d4d5b04580da6b71932e47d96b461e0b6dc2...ec43edba6b33d579430188687f4e5ac8c43cffae",
+  "commit_url": "https://github.com/google-labs-code/stitch-skills/commit/ec43edba6b33d579430188687f4e5ac8c43cffae",
+  "skill_directory": "plugins/stitch-build/skills/react-native",
+  "local_directory": "verified_real_update_pairs/OPU-0020",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0020",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

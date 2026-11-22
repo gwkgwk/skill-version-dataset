@@ -1,0 +1,79 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/create-branch/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "87fea863c0ebbf04ff7d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "89aaec068abcc70368ccd3e1f7fee58a66313377",
+    "computed_tree_sha": "65fa618fd7a51b5339abc52a644ac32a78759171",
+    "api_tree_sha_as_returned": "65fa618fd7a51b5339abc52a644ac32a78759171",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fa9ddfd26f78b7cf3d8399ac64b5390a8213ff06",
+        "sha256": "07f4b65ed4e5e1a510807744aa3b2b7e4c2b2042da42dab8ca6af6de4d9a3740",
+        "size": 2793,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "884f073eed4b7b615cca1a639830ad1e1a415964",
+    "computed_tree_sha": "4b13f1bcf85a8f7570add9c4a84bba1831ec249d",
+    "api_tree_sha_as_returned": "4b13f1bcf85a8f7570add9c4a84bba1831ec249d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c56a2167f446fa988b549db9002ab1ecd939a52e",
+        "sha256": "0e017d30c6031477fe147a39e7f40603acb6588ed2a00145c5cd46980a43c6cf",
+        "size": 2528,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "89aaec068abcc70368ccd3e1f7fee58a66313377",
+  "new_commit": "884f073eed4b7b615cca1a639830ad1e1a415964",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(create-branch): Align branch naming with Sentry SDK standards\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>",
+  "new_commit_time": "2026-05-07T13:31:46Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/89aaec068abcc70368ccd3e1f7fee58a66313377...884f073eed4b7b615cca1a639830ad1e1a415964",
+  "commit_url": "https://github.com/getsentry/skills/commit/884f073eed4b7b615cca1a639830ad1e1a415964",
+  "skill_directory": "skills/create-branch",
+  "local_directory": "verified_real_update_pairs/OPU-0059",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0059",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

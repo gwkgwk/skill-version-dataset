@@ -1,0 +1,82 @@
+{
+  "sha": "6737dcb904d7578313c891b63ce50c03f82eafe9",
+  "node_id": "C_kwDOQ7RUQ9oAKDY3MzdkY2I5MDRkNzU3ODMxM2M4OTFiNjNjZTUwYzAzZjgyZWFmZTk",
+  "commit": {
+    "author": {
+      "name": "Govind Kamtamneni",
+      "email": "gok@microsoft.com",
+      "date": "2026-02-24T18:08:15Z"
+    },
+    "committer": {
+      "name": "Govind Kamtamneni",
+      "email": "gok@microsoft.com",
+      "date": "2026-02-24T18:08:15Z"
+    },
+    "message": "refactor: simplify continual learning hook — single script, two-tier memory, auto-init\n\nRedesign inspired by beads' invariants: one-step setup, zero config, structured data.\n\n- Replace 3 scripts with single learn.sh handling all lifecycle events\n- Two-tier memory: global (~/.copilot/learnings.db) + local (.copilot-memory/)\n- Auto-initializes DBs and directories on first run\n- Compaction: old low-value learnings decay (60-day TTL), tool logs pruned (7 days)\n- Install is one step: cp -r hooks/continual-learning .github/hooks/\n- Simplified README and SKILL.md to match",
+    "tree": {
+      "sha": "5cecb678b9efd0935b0a1bc25b261026235dbc85",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/5cecb678b9efd0935b0a1bc25b261026235dbc85"
+    },
+    "url": "https://api.github.com/repos/microsoft/skills/git/commits/6737dcb904d7578313c891b63ce50c03f82eafe9",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEe0OWDtRtcmSLjlQfUgF0pxt7zdkFAmmd6Q8ACgkQUgF0pxt7\nzdmEPw/9GwbXXxqoJn+29lGrV7HPtBevu774+WTu5wF8UlsQjdwA64CiNoU997Dg\nzYugu0YBAFl/6ds3eDy1zwcCaq8Dz4xIahLxgzWU/NhbNhenLYaApE9JmQyBBPXd\n4wudpFp5rwZGm3//J/UgLMdcQb3QlDejrV7q3CUfwVT3qdB1l8LswnpUylmmqTgL\nH/AU072QwvC2t6S91hZgLC9NUgs9hrwgJUDLyUhqJnHiWEN6Wpyi3+DLFV8saoI+\nADVCp4ri2AhHsPiDBfQmDwBwOSTGZ/NU0tLXoHP8ZmUzFXZ0oY/2RvgQQFc62ial\nIvsNDjBUAIWUU2CRhUnV1tGYvdXPUhi4LUNMYfPu8gOa9LpZjfCqUodAhmgIdYVk\nQ4aQHuq+w0SBTeYgAlpALrketraivuG9HJ2ypSGw5MA6B4C29dhK9yaORtgegKQ/\nB9XeTTtPuOdgtlnO8ipxF3iNgRtsc0IBTuASBuAlxks1CTVNVmaf5D66VrCMP8en\nNWynwReO5YmqIub65A7MKB74+7wfltUtiW3ib87VpWMa3hx4GezUIOVcyIqMa8gY\n0KiY7DpqmSRiRa8MwiQGg2Rqpn5lW+pKazKWKtdB7oFu4ZRDlgg1Hi25IKmHTUzd\nlQeAqW2WIPJGhcH+d2+yCzeA8LjhXZFGHycLezuSj4ob3QJEjvo=\n=kWBy\n-----END PGP SIGNATURE-----",
+      "payload": "tree 5cecb678b9efd0935b0a1bc25b261026235dbc85\nparent dc9f676f4af01fc6b640e76c6e55c24d012ba0ec\nauthor Govind Kamtamneni <gok@microsoft.com> 1771956495 -0800\ncommitter Govind Kamtamneni <gok@microsoft.com> 1771956495 -0800\n\nrefactor: simplify continual learning hook — single script, two-tier memory, auto-init\n\nRedesign inspired by beads' invariants: one-step setup, zero config, structured data.\n\n- Replace 3 scripts with single learn.sh handling all lifecycle events\n- Two-tier memory: global (~/.copilot/learnings.db) + local (.copilot-memory/)\n- Auto-initializes DBs and directories on first run\n- Compaction: old low-value learnings decay (60-day TTL), tool logs pruned (7 days)\n- Install is one step: cp -r hooks/continual-learning .github/hooks/\n- Simplified README and SKILL.md to match\n",
+      "verified_at": "2026-02-24T18:08:18Z"
+    }
+  },
+  "url": "https://api.github.com/repos/microsoft/skills/commits/6737dcb904d7578313c891b63ce50c03f82eafe9",
+  "html_url": "https://github.com/microsoft/skills/commit/6737dcb904d7578313c891b63ce50c03f82eafe9",
+  "comments_url": "https://api.github.com/repos/microsoft/skills/commits/6737dcb904d7578313c891b63ce50c03f82eafe9/comments",
+  "author": {
+    "login": "thegovind",
+    "id": 18152044,
+    "node_id": "MDQ6VXNlcjE4MTUyMDQ0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/18152044?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thegovind",
+    "html_url": "https://github.com/thegovind",
+    "followers_url": "https://api.github.com/users/thegovind/followers",
+    "following_url": "https://api.github.com/users/thegovind/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thegovind/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thegovind/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thegovind/subscriptions",
+    "organizations_url": "https://api.github.com/users/thegovind/orgs",
+    "repos_url": "https://api.github.com/users/thegovind/repos",
+    "events_url": "https://api.github.com/users/thegovind/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thegovind/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "committer": {
+    "login": "thegovind",
+    "id": 18152044,
+    "node_id": "MDQ6VXNlcjE4MTUyMDQ0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/18152044?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/thegovind",
+    "html_url": "https://github.com/thegovind",
+    "followers_url": "https://api.github.com/users/thegovind/followers",
+    "following_url": "https://api.github.com/users/thegovind/following{/other_user}",
+    "gists_url": "https://api.github.com/users/thegovind/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/thegovind/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/thegovind/subscriptions",
+    "organizations_url": "https://api.github.com/users/thegovind/orgs",
+    "repos_url": "https://api.github.com/users/thegovind/repos",
+    "events_url": "https://api.github.com/users/thegovind/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/thegovind/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "parents": [
+    {
+      "sha": "dc9f676f4af01fc6b640e76c6e55c24d012ba0ec",
+      "url": "https://api.github.com/repos/microsoft/skills/commits/dc9f676f4af01fc6b640e76c6e55c24d012ba0ec",
+      "html_url": "https://github.com/microsoft/skills/commit/dc9f676f4af01fc6b640e76c6e55c24d012ba0ec"
+    }
+  ]
+}

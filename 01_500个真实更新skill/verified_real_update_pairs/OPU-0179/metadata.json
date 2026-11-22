@@ -1,0 +1,138 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/secret-serialization/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "a33595a62c7784b58420",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "aacfdb8d49b3652a1fea16f45590445263677c25",
+    "computed_tree_sha": "f75d084e1648b461478b0bd933e8738cecedbd9c",
+    "api_tree_sha_as_returned": "f75d084e1648b461478b0bd933e8738cecedbd9c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f2ccdfd0ad98094300fec44161bddff2832eff99",
+        "sha256": "32b3a4b996dd4054479f5c7adfd6850df4e18a0349622cded7514201381289a2",
+        "size": 8875,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "45b435e8c6792f969b570c1fee02f4826610fb78",
+        "sha256": "899bcc60bb851f8d7720462f3b5175938dafd6733e9e3960d10b07e24f91d37c",
+        "size": 5771,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "49c7c53fdc66a69e85c3931c98e29c79bc2a9b19",
+        "sha256": "0d34fb924786a8def59ba2875f07b005277cf4ac37285d06635ec34631c7300a",
+        "size": 4691,
+        "mode": "100644"
+      },
+      {
+        "path": "references/javascript-typescript.md",
+        "git_blob_sha1": "d2a35c1c7d118a955e2a31a22232b2b3c08d80f3",
+        "sha256": "14d6a47cf0c36d4a724381ef43f76549ffddb9c4bd5c4648b39b7ec6a732e1b0",
+        "size": 5182,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "f28d04c8b8d92504efbff57b796c269d4bf3f573",
+        "sha256": "3a067b0a2feb5ca96e203ea34857ab88ba473f07a65b36beacaf54081eeebecc",
+        "size": 8189,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "473d2594cd91c96ac8348f297e016b631e842487",
+    "computed_tree_sha": "58fc9b9f946d0c971c1d2446e9a3c8802caf1d2b",
+    "api_tree_sha_as_returned": "58fc9b9f946d0c971c1d2446e9a3c8802caf1d2b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "030e3c0a0c158e9d7d5acf5962d52f3a17e7f43b",
+        "sha256": "fcff1bc1e5f38bdbe9dccccd21a39846bd45e2423307fda971c9cc1e53a39d3b",
+        "size": 10424,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "aa44569a07bdfa3598a0b72690c1c23376a5f4d4",
+        "sha256": "f69fa9c62580bb8b2e1a6e37452aed01a06401c97566d3569f95c624532d79d0",
+        "size": 6974,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "52e61c9130167ec61dd2bb25ed77cb38fd51075d",
+        "sha256": "451a87e0aaa66fe83114f5b8b49ed73db32b062ebbc9dcaeef9939a229c4e7e2",
+        "size": 5228,
+        "mode": "100644"
+      },
+      {
+        "path": "references/javascript-typescript.md",
+        "git_blob_sha1": "d2a35c1c7d118a955e2a31a22232b2b3c08d80f3",
+        "sha256": "14d6a47cf0c36d4a724381ef43f76549ffddb9c4bd5c4648b39b7ec6a732e1b0",
+        "size": 5182,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "679c8598a5006385213db8304aa65f1f389d37ac",
+        "sha256": "d5e9b673d8ef8dada8d5d18403a8e74cca5e2f7c98c5d7ae1a2135716ef3f2b6",
+        "size": 10108,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "SOURCES.md",
+    "SPEC.md",
+    "references/python.md"
+  ],
+  "old_commit": "aacfdb8d49b3652a1fea16f45590445263677c25",
+  "new_commit": "473d2594cd91c96ac8348f297e016b631e842487",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "contradictions",
+  "new_commit_time": "2026-09-28T22:51:45Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/aacfdb8d49b3652a1fea16f45590445263677c25...473d2594cd91c96ac8348f297e016b631e842487",
+  "commit_url": "https://github.com/getsentry/skills/commit/473d2594cd91c96ac8348f297e016b631e842487",
+  "skill_directory": "skills/secret-serialization",
+  "local_directory": "verified_real_update_pairs/OPU-0179",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0179",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/pr-writer/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "b8d5014859fb5695f307",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+    "computed_tree_sha": "9ca5a706d717edfb006fe0d92775acad9b667c62",
+    "api_tree_sha_as_returned": "9ca5a706d717edfb006fe0d92775acad9b667c62",
+    "files": [
+      {
+        "path": "EVAL.md",
+        "git_blob_sha1": "5b97de31652fd9aea998316d2de7b40eebc77a9d",
+        "sha256": "12230c3aa3a8a8ca5a26a00b9b9113709f897bf9a85a32eb097390c6cdf879d3",
+        "size": 1589,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "706e5d3eba0630499467baafb8b48ed0a704772b",
+        "sha256": "8d3ce368295ef950d71dee69c210d48f919c73e00cee3a887000a8c2631a4239",
+        "size": 10362,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "90ef065f8957bc50bef1d38035fe4b3b6b5a4c86",
+        "sha256": "15fe85854f88ba463a669ef92bb92c34bcf0d89c13c21b6a82f98b58a7b81973",
+        "size": 13011,
+        "mode": "100644"
+      },
+      {
+        "path": "evals/axis.config.json",
+        "git_blob_sha1": "b08e11217bb55352b45c3e742776fb5b3e3592f2",
+        "sha256": "55bee95f6d59923b2a52765989324a0ed9af9762f7d860a101e9708f6ac8363d",
+        "size": 318,
+        "mode": "100644"
+      },
+      {
+        "path": "evals/scenarios/concise-docs-pr.json",
+        "git_blob_sha1": "37d113fb65a4e10ff9550760a0613f78365b2756",
+        "sha256": "16e064b9edc93fa898344e71c87afc0d061513cfa99938ef8a4f6827b6ff6f6c",
+        "size": 1779,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "412f2368ee3ec90ce042826b57533f080d531aaf",
+    "computed_tree_sha": "562911490ba23dfcf6929b92ddcff41c6578d3ca",
+    "api_tree_sha_as_returned": "562911490ba23dfcf6929b92ddcff41c6578d3ca",
+    "files": [
+      {
+        "path": "EVAL.md",
+        "git_blob_sha1": "5b97de31652fd9aea998316d2de7b40eebc77a9d",
+        "sha256": "12230c3aa3a8a8ca5a26a00b9b9113709f897bf9a85a32eb097390c6cdf879d3",
+        "size": 1589,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ce4da4c91a7308fa61b40b838aeee559cad2fd41",
+        "sha256": "785a2b1f084407e42f61661f83c7b0c621889865a483774f44c893c0cbcf57bc",
+        "size": 5302,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "c90badd5fdf1bab6d12b6e230fa3a37a2b3b0065",
+        "sha256": "e566e80684b4eec9433200816cf61dd1e93c7b6c1612f6271d076acf110969f6",
+        "size": 12584,
+        "mode": "100644"
+      },
+      {
+        "path": "evals/axis.config.json",
+        "git_blob_sha1": "b08e11217bb55352b45c3e742776fb5b3e3592f2",
+        "sha256": "55bee95f6d59923b2a52765989324a0ed9af9762f7d860a101e9708f6ac8363d",
+        "size": 318,
+        "mode": "100644"
+      },
+      {
+        "path": "evals/scenarios/concise-docs-pr.json",
+        "git_blob_sha1": "60bf31ab3290e9a3d08febed31f233e5c2de9f71",
+        "sha256": "ecc431edd40f4cd7541ce2f00a4821e8f6a4d8ed660e3d63551968cc372edeac",
+        "size": 1753,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "SPEC.md",
+    "evals/scenarios/concise-docs-pr.json"
+  ],
+  "old_commit": "5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+  "new_commit": "412f2368ee3ec90ce042826b57533f080d531aaf",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "ref(skills): Streamline commit and PR writing guidance (#160)\n\nThe commit and `pr-writer` skills now concentrate runtime guidance on\nthe\ndecisions agents need while committing or preparing review. Commit\nguidance\nretains branch protection, conventional formatting, privacy, and footer\nrules\nin 62 lines. PR guidance consolidates full-diff inspection, title and\nbody\nselection, optional reviewer aids, safety boundaries, and create/update\ncommands in 160 lines.\n\nAgent attribution requirements are removed from the repository policy\nand the\nmatching PR spec and eval. PR inspection now handles both existing and\nfirst-time PRs, expands `$BASE` correctly, and uses body-file commands\ninstead\nof embedded heredocs.",
+  "new_commit_time": "2026-07-15T21:24:30Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a...412f2368ee3ec90ce042826b57533f080d531aaf",
+  "commit_url": "https://github.com/getsentry/skills/commit/412f2368ee3ec90ce042826b57533f080d531aaf",
+  "skill_directory": "skills/pr-writer",
+  "local_directory": "verified_real_update_pairs/OPU-0152",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0152",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/sentry/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "0b27265f11dc14143f22",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "736f600bf6ecbc000c04f1d2710b990899f28903",
+    "computed_tree_sha": "0b802ef5b003e75a9a58fa75c24e0027ec801fd2",
+    "api_tree_sha_as_returned": "0b802ef5b003e75a9a58fa75c24e0027ec801fd2",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "744f28a0a1a8461f4b18098caa353c23288e1ee9",
+        "sha256": "b598ea447ad6bec923f5c3879ace25e4a7f1368a7eac019b5c0e2f79a36322c6",
+        "size": 3798,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "834c31819743a5c3c7f35517d4af5aba58a4e1ab",
+        "sha256": "c7ed57441b9a1e3f4caa19da4d90d432a65cd398c4f361b47dbf9408be0e065f",
+        "size": 316,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/sentry-small.svg",
+        "git_blob_sha1": "6b975c1266c665c73034959d00fc8881b288d931",
+        "sha256": "f1de8efc906c03b583b4d74560b003175c8a3d9ea5950d891ce3142fec11ca99",
+        "size": 661,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/sentry.png",
+        "git_blob_sha1": "9f8ddce8ec2076606540ad6c8ac1b9b1eea2924c",
+        "sha256": "b61e0534635a275cf56f7dad26ac7cc36504b7bd9a60c95791d6e72634129fb1",
+        "size": 1998,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/sentry_api.py",
+        "git_blob_sha1": "a9858b7e1ce5fa4ec36598b560bc970cbc33a051",
+        "sha256": "688e4ba95c4a9780d1c15b4afbefaca9c1255a10d032dd66cfca160c89ad4608",
+        "size": 7289,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d4a9df538f635ae11cf47bb8e8cde1e63674b8de",
+    "computed_tree_sha": "0a0202af79d3485fbf71fec52c71a6c4def45fca",
+    "api_tree_sha_as_returned": "0a0202af79d3485fbf71fec52c71a6c4def45fca",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c94f7efa9d513f381d5fcd07912d56581ec3dc2a",
+        "sha256": "508c6f5c100586c81a34397d30f00f4b8771b66d698a7ac1836998df925dd007",
+        "size": 3810,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "834c31819743a5c3c7f35517d4af5aba58a4e1ab",
+        "sha256": "c7ed57441b9a1e3f4caa19da4d90d432a65cd398c4f361b47dbf9408be0e065f",
+        "size": 316,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/sentry-small.svg",
+        "git_blob_sha1": "6b975c1266c665c73034959d00fc8881b288d931",
+        "sha256": "f1de8efc906c03b583b4d74560b003175c8a3d9ea5950d891ce3142fec11ca99",
+        "size": 661,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/sentry.png",
+        "git_blob_sha1": "9f8ddce8ec2076606540ad6c8ac1b9b1eea2924c",
+        "sha256": "b61e0534635a275cf56f7dad26ac7cc36504b7bd9a60c95791d6e72634129fb1",
+        "size": 1998,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/sentry_api.py"
+  ],
+  "old_commit": "736f600bf6ecbc000c04f1d2710b990899f28903",
+  "new_commit": "d4a9df538f635ae11cf47bb8e8cde1e63674b8de",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Switch Sentry skill from bundled Python script to Sentry CLI (#336)\n\n## Summary\n\n- Replace the custom `sentry_api.py` script with native Sentry CLI\ncommands, which handle authentication, org/project auto-detection,\npagination, and retries out of the box.\n- Update `SKILL.md` with CLI-based workflows covering issue inspection,\ntrace exploration, log streaming, and a generic API fallback for\nuncovered endpoints.\n- Update the agent description in `openai.yaml` to reflect the CLI-based\napproach.\n\n## Motivation\n\nThe bundled Python script was a thin wrapper around Sentry's REST API\nthat required manual auth token setup and explicit org/project\nconfiguration. The Sentry CLI (`sentry-cli`) handles all of this\nnatively — including interactive auth, DSN-based project detection, and\nstructured JSON output — making the script redundant and the skill\nsimpler to use.",
+  "new_commit_time": "2026-04-08T21:47:09Z",
+  "compare_url": "https://github.com/openai/skills/compare/736f600bf6ecbc000c04f1d2710b990899f28903...d4a9df538f635ae11cf47bb8e8cde1e63674b8de",
+  "commit_url": "https://github.com/openai/skills/commit/d4a9df538f635ae11cf47bb8e8cde1e63674b8de",
+  "skill_directory": "skills/.curated/sentry",
+  "local_directory": "verified_real_update_pairs/OPU-0148",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0148",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

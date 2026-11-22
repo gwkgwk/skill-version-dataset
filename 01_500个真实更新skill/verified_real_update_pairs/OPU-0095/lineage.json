@@ -1,0 +1,82 @@
+{
+  "sha": "609310dcb093f772721b0adec46363faa3bcf652",
+  "node_id": "C_kwDOR2K4PNoAKDYwOTMxMGRjYjA5M2Y3NzI3MjFiMGFkZWM0NjM2M2ZhYTNiY2Y2NTI",
+  "commit": {
+    "author": {
+      "name": "Cloud IX Team",
+      "email": "cloud-ix-copybara@google.com",
+      "date": "2026-11-18T14:21:34Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-11-18T14:22:37Z"
+    },
+    "message": "feat: add Data Manager API troubleshooting skill\nchore: move request status diagnostics from the event and audience ingestion skills to the troubleshooting skill\nfeat: add call conversions to the event ingestion use case table\nchore: use a consistent project ID placeholder in the setup skill\ndocs: list the troubleshooting skill in the README\nfeat: call out event field requirements section in event ingestion guides\nfeat: add event ingestion gotchas for request encoding, event_source, and Google Ads session attributes\n\nPiperOrigin-RevId: 1024616084",
+    "tree": {
+      "sha": "26d38d5c91c79e6863ff408b16fa9237c9cc82b6",
+      "url": "https://api.github.com/repos/google/skills/git/trees/26d38d5c91c79e6863ff408b16fa9237c9cc82b6"
+    },
+    "url": "https://api.github.com/repos/google/skills/git/commits/609310dcb093f772721b0adec46363faa3bcf652",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google/skills/commits/609310dcb093f772721b0adec46363faa3bcf652",
+  "html_url": "https://github.com/google/skills/commit/609310dcb093f772721b0adec46363faa3bcf652",
+  "comments_url": "https://api.github.com/repos/google/skills/commits/609310dcb093f772721b0adec46363faa3bcf652/comments",
+  "author": {
+    "login": "cloud-ix-copybara",
+    "id": 277152880,
+    "node_id": "U_kgDOEIUEcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/277152880?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cloud-ix-copybara",
+    "html_url": "https://github.com/cloud-ix-copybara",
+    "followers_url": "https://api.github.com/users/cloud-ix-copybara/followers",
+    "following_url": "https://api.github.com/users/cloud-ix-copybara/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cloud-ix-copybara/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cloud-ix-copybara/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cloud-ix-copybara/subscriptions",
+    "organizations_url": "https://api.github.com/users/cloud-ix-copybara/orgs",
+    "repos_url": "https://api.github.com/users/cloud-ix-copybara/repos",
+    "events_url": "https://api.github.com/users/cloud-ix-copybara/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cloud-ix-copybara/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "a031b25dd3b868b72366dfc33b343fc4c13cc930",
+      "url": "https://api.github.com/repos/google/skills/commits/a031b25dd3b868b72366dfc33b343fc4c13cc930",
+      "html_url": "https://github.com/google/skills/commit/a031b25dd3b868b72366dfc33b343fc4c13cc930"
+    }
+  ]
+}

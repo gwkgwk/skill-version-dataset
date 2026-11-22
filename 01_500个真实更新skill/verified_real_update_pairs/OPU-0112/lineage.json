@@ -1,0 +1,82 @@
+{
+  "sha": "32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "node_id": "C_kwDOQ55KR9oAKDMyYWQ5ZTZiNDdhODgwMDA1ZWJlZWRlMmQwYjU5MjMzNTllNWU2ZmQ",
+  "commit": {
+    "author": {
+      "name": "kz-tob",
+      "email": "kara.zaffarano@trailofbits.com",
+      "date": "2026-08-25T15:11:31Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-25T15:11:31Z"
+    },
+    "message": "building-secure-contracts: give five skills trigger clauses (#275)\n\n* building-secure-contracts: give five skills trigger clauses\n\nFive of the plugin's eleven skills had descriptions that were pure\ncapability lists with no trigger clause. The six sibling vulnerability\nscanners all end in \"Use when auditing X\", so these five lost the routing\ncoin-flip to their own siblings and rarely fired.\n\nEach keeps its capability text and gains a \"Use when\" clause naming the\nsituation, drawn from that skill's own Purpose and workflow sections\nrather than invented.\n\nDrop three trailing phrases that said nothing: \"Provides actionable\nrecommendations\", \"professional scorecard\" (replaced with the roadmap the\nskill actually produces), and \"Context-aware for both token\nimplementations and token integrations\", now carried by the trigger.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: fix invocation docs and two triggers\n\nThe README advertised every skill as a bare slash command, but the plugin\nships only skills/ and no commands/, so /audit-prep-assistant is\nunregistered. A user who read the docs and typed the documented form got\nnothing — the other half of the reachability problem this branch fixes.\nNamespace all 22 occurrences; every other plugin README in the repo\nalready uses that form.\n\nAnchor code-maturity-assessor to the domain. Its new clause said only\n\"judging how mature a codebase is against a rubric\", which matches a\nDjango or Go repo just as well, and the skill would then grade it on MEV\nrisk, transaction ordering, and decentralization.\n\nSay which side of an engagement audit-prep-assistant serves. It collided\nwith audit-context-building on \"getting ready to audit this codebase\";\nthe two serve auditee prep and auditor onboarding respectively, and\nneither clause said so up front.\n\nRoot README now mentions the 5 assistants, matching plugin.json, and the\nplugin README drops \"professional scorecard\" to match the description.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+    "tree": {
+      "sha": "bd05afbf98bb146aa70061766708bd301f531457",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/bd05afbf98bb146aa70061766708bd301f531457"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqjbCjCRC1aQ7uu5UhlAAAi/cQAFAFjJAJhdHgxa+0kPCPiYer\nfpfyqkQ5nH7V81pakaFlDXiQftm+kuvTV+aao0eIVX8jW/T1Fincma8rzXqDF/ZV\nNzpOUbxDu29Vgj6Cu7i86YsxfyoTG6QLSq9ucKurIEvuonbML5P5NqwgdeXgaqAw\n4Q2U1UjpWgtRPzCYALHHREQxrQyCXuwMdrWNx5UhaWHYjfgXt/cCFoE4JUsa2Odv\nDOqMgkjEiSnnxAspRox8aH+8vD4iAC+MlbPvIkv8JQxDDUsQggJLheZIOFfCG6z9\nwzNdcsD/5L+mouSZ4vqS0kLurugcR7iIqmL0LXOL9lJ7TThMHS7THZLe4gCIwuzb\nlSQbrHmT5AOYNMY6RDw1khrp5ku2jfuFKfQ364LFvv78F/Xmkk4YLIfuRXfZ4GOw\nHR4zvtJ9RaypiFRNLFV9/ovZ2CXER7nr7OHxrKCicNGyztDCaMJy1XuvBJ4ZX1wA\n7urmenzNGidMTw7wPYVMDBDSUhDeYaSbYdZsy/rF04qOXfD2A6vESOWgWQ0xMmc/\n7tBR0SSnND+xzxSYI3e5HAOayVPyez+F1aJF91uwHkD4xf52MzEkHRgq0i2aK13q\nUsLyUX5SW4YaIsKVnqUDwnetWOjsjVrkEyp6HOv/BRPUrVz3H5+z1WVADb8/T4IB\nlGOM2mnu07j8+FN8pN41\n=hxUZ\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree bd05afbf98bb146aa70061766708bd301f531457\nparent 43d7af806478ea534164ac7b55a3c4ff7b359986\nauthor kz-tob <kara.zaffarano@trailofbits.com> 1787670691 -0400\ncommitter GitHub <noreply@github.com> 1787670691 -0400\n\nbuilding-secure-contracts: give five skills trigger clauses (#275)\n\n* building-secure-contracts: give five skills trigger clauses\n\nFive of the plugin's eleven skills had descriptions that were pure\ncapability lists with no trigger clause. The six sibling vulnerability\nscanners all end in \"Use when auditing X\", so these five lost the routing\ncoin-flip to their own siblings and rarely fired.\n\nEach keeps its capability text and gains a \"Use when\" clause naming the\nsituation, drawn from that skill's own Purpose and workflow sections\nrather than invented.\n\nDrop three trailing phrases that said nothing: \"Provides actionable\nrecommendations\", \"professional scorecard\" (replaced with the roadmap the\nskill actually produces), and \"Context-aware for both token\nimplementations and token integrations\", now carried by the trigger.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* building-secure-contracts: fix invocation docs and two triggers\n\nThe README advertised every skill as a bare slash command, but the plugin\nships only skills/ and no commands/, so /audit-prep-assistant is\nunregistered. A user who read the docs and typed the documented form got\nnothing — the other half of the reachability problem this branch fixes.\nNamespace all 22 occurrences; every other plugin README in the repo\nalready uses that form.\n\nAnchor code-maturity-assessor to the domain. Its new clause said only\n\"judging how mature a codebase is against a rubric\", which matches a\nDjango or Go repo just as well, and the skill would then grade it on MEV\nrisk, transaction ordering, and decentralization.\n\nSay which side of an engagement audit-prep-assistant serves. It collided\nwith audit-context-building on \"getting ready to audit this codebase\";\nthe two serve auditee prep and auditor onboarding respectively, and\nneither clause said so up front.\n\nRoot README now mentions the 5 assistants, matching plugin.json, and the\nplugin README drops \"professional scorecard\" to match the description.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+      "verified_at": "2026-08-25T15:11:32Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "html_url": "https://github.com/trailofbits/skills/commit/32ad9e6b47a880005ebeede2d0b5923359e5e6fd",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/32ad9e6b47a880005ebeede2d0b5923359e5e6fd/comments",
+  "author": {
+    "login": "kz-tob",
+    "id": 295975343,
+    "node_id": "U_kgDOEaQ5rw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/295975343?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kz-tob",
+    "html_url": "https://github.com/kz-tob",
+    "followers_url": "https://api.github.com/users/kz-tob/followers",
+    "following_url": "https://api.github.com/users/kz-tob/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kz-tob/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kz-tob/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kz-tob/subscriptions",
+    "organizations_url": "https://api.github.com/users/kz-tob/orgs",
+    "repos_url": "https://api.github.com/users/kz-tob/repos",
+    "events_url": "https://api.github.com/users/kz-tob/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kz-tob/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "43d7af806478ea534164ac7b55a3c4ff7b359986",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/43d7af806478ea534164ac7b55a3c4ff7b359986",
+      "html_url": "https://github.com/trailofbits/skills/commit/43d7af806478ea534164ac7b55a3c4ff7b359986"
+    }
+  ]
+}

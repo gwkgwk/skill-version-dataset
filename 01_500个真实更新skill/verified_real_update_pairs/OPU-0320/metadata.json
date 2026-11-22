@@ -1,0 +1,93 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-java/skills/azure-data-tables-java/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "2d32e4a73cce1e7d9b0d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+    "computed_tree_sha": "12accce286be480904e00965e8b2573fb284a312",
+    "api_tree_sha_as_returned": "12accce286be480904e00965e8b2573fb284a312",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "75b159b68965be29f617c291a48130ce7fb34eae",
+        "sha256": "ca4f712d1c989db8823b36e149bd2f866183e80c7c6f14838552ea35cd411ba2",
+        "size": 9010,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "b1b70c81f3e73eb6c06f4a2770297aaa30c666b1",
+        "sha256": "f58b252000b23aea4fc8fa6031d81c7931dd91cc1b0c8cbb48ec4e9645dbeee2",
+        "size": 14702,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+    "computed_tree_sha": "9aa33d977e6fec260080fb5a25dae296ccb3c9e8",
+    "api_tree_sha_as_returned": "9aa33d977e6fec260080fb5a25dae296ccb3c9e8",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0fbad66ba89446a1481d848c0aa2ed8df0efa897",
+        "sha256": "257cca211f25374b4cfa2662c667659cbe54e9422656b990aad623aa242d8782",
+        "size": 9873,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "b1b70c81f3e73eb6c06f4a2770297aaa30c666b1",
+        "sha256": "f58b252000b23aea4fc8fa6031d81c7931dd91cc1b0c8cbb48ec4e9645dbeee2",
+        "size": 14702,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+  "new_commit": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Java skills auth and env vars with requireEnvVars pattern\n\n- Add requireEnvVars(AzureIdentityEnvVars.AZURE_TOKEN_CREDENTIALS) to DefaultAzureCredentialBuilder in 20 Java skills\n- Add ManagedIdentityCredentialBuilder as production alternative with credential classes link\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables sections\n- Add inline comments to all env vars explaining purpose\n- Update skill-creator with Java and C# auth patterns\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-29T07:41:43Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/7d736cbd13e586462eac0c22d6eada4f7a0e435a...e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "commit_url": "https://github.com/microsoft/skills/commit/e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "skill_directory": ".github/plugins/azure-sdk-java/skills/azure-data-tables-java",
+  "local_directory": "verified_real_update_pairs/OPU-0320",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0320",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

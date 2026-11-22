@@ -1,0 +1,121 @@
+{
+  "repository": "expo/skills",
+  "primary": "plugins/expo/skills/eas-workflows/SKILL.md",
+  "pinned_commit": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+  "repository_license": "MIT",
+  "key": "6c46d5d582b1f6296a57",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "ef167c8672097bdddf907ec4b6a4d817827176ff",
+    "computed_tree_sha": "0459d72201e6b44ac9c5a95f09f0f6f03fe52be3",
+    "api_tree_sha_as_returned": "0459d72201e6b44ac9c5a95f09f0f6f03fe52be3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "dd3b9c8c78053d50975eaa708f43e9a8d6230e15",
+        "sha256": "4368566ba6739e104ecbf5495443996e6c7038205c8412dfc69138251ef61437",
+        "size": 4924,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "02e59911d28894d430a733625ebcf97922e1bd58",
+        "sha256": "a52ee10c638c270771b8a87f4208ec3ceaee984fea64b70cfd51c72a59a70dea",
+        "size": 331,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch.js",
+        "git_blob_sha1": "466bfc750bb94cf00685706e99f838696279644c",
+        "sha256": "6e00c6fa7277c429c18ae211d1b6515caf2fdf500136cf297921c05d27447483",
+        "size": 2979,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/package.json",
+        "git_blob_sha1": "bbea404fc44b4cf967a3e24c0268ee52c34032bf",
+        "sha256": "4445d509a3dcd6a57ce4da9bfc99589659235c1354e4559c62957cb54fd6260c",
+        "size": 103,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "d9658428c2aa9f258a9caa1073e8457b22848775",
+    "computed_tree_sha": "77fa3b038e46b7f0bad61e83956fc70e2dc75532",
+    "api_tree_sha_as_returned": "77fa3b038e46b7f0bad61e83956fc70e2dc75532",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "53f306d9d0c151c548cbda435d3eb7f69507847b",
+        "sha256": "c1f9b2dbf191b0e33da6e6cff40f75a879348d7688aab618b76eb3276c9bd903",
+        "size": 4927,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "02e59911d28894d430a733625ebcf97922e1bd58",
+        "sha256": "a52ee10c638c270771b8a87f4208ec3ceaee984fea64b70cfd51c72a59a70dea",
+        "size": 331,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch.js",
+        "git_blob_sha1": "466bfc750bb94cf00685706e99f838696279644c",
+        "sha256": "6e00c6fa7277c429c18ae211d1b6515caf2fdf500136cf297921c05d27447483",
+        "size": 2979,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/package.json",
+        "git_blob_sha1": "bbea404fc44b4cf967a3e24c0268ee52c34032bf",
+        "sha256": "4445d509a3dcd6a57ce4da9bfc99589659235c1354e4559c62957cb54fd6260c",
+        "size": 103,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "ef167c8672097bdddf907ec4b6a4d817827176ff",
+  "new_commit": "d9658428c2aa9f258a9caa1073e8457b22848775",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "[skills] standardize EAS CLI invocations and simplify triggers (#223)\n\nConsolidate the mechanical EAS CLI invocation updates in one stack\nlayer: 125 direct substitutions across 15 existing skill, reference, and\nagent metadata files now use `npx --yes eas-cli@latest` in place of bare\n`eas` or `npx eas-cli@latest`. This extends the existing Hosting, dev\nclient, and workflow examples to app stores, Update, Update Insights,\nObserve, and App Clip. Remove global EAS CLI installation instructions\nfrom the app-store quick start and Update Insights prerequisites; check\nthe current account before browser sign-in. The layer also simplifies\nskill triggers and keeps development client signing and distribution\ntied to the requested project and build.\n\n## Test plan\n\n- `bun test scripts` — 37 passed on the integrated #224 branch.\n- `bun scripts/check-skill-limits.ts`, `bun\nscripts/check-overview-routing.ts`, and `bun\nscripts/check-plugin-version-bump.ts origin/main` — passed.\n- `git diff --check origin/main...HEAD` — passed.\n- Confirmed PR #223 contains no global EAS CLI install instruction.\n\n---------\n\nCo-authored-by: Kudo Chien <kudo@KudodeMacBook-Pro.local>",
+  "new_commit_time": "2026-11-19T16:06:51Z",
+  "compare_url": "https://github.com/expo/skills/compare/ef167c8672097bdddf907ec4b6a4d817827176ff...d9658428c2aa9f258a9caa1073e8457b22848775",
+  "commit_url": "https://github.com/expo/skills/commit/d9658428c2aa9f258a9caa1073e8457b22848775",
+  "skill_directory": "plugins/expo/skills/eas-workflows",
+  "local_directory": "verified_real_update_pairs/OPU-0103",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0103",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

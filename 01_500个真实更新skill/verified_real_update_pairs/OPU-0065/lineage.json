@@ -1,0 +1,82 @@
+{
+  "sha": "45d05d75363abf13f99d09e899d61e07b8010685",
+  "node_id": "C_kwDOQchDtdoAKDQ1ZDA1ZDc1MzYzYWJmMTNmOTlkMDllODk5ZDYxZTA3YjgwMTA2ODU",
+  "commit": {
+    "author": {
+      "name": "Nick Baumann",
+      "email": "baumann@openai.com",
+      "date": "2026-05-01T14:34:51Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-05-01T14:34:51Z"
+    },
+    "message": "Clarify todo completion in migrate-to-codex skill (#383)\n\n**Summary**\n\n- Clarify that the `migrate-to-codex` skill should finish by marking\ncompleted TODO steps as `completed`\n- Explicitly prevent a completed migration from leaving a stale\n`in_progress` task behind",
+    "tree": {
+      "sha": "2cca5bb3095bf4f3d874f8b3e785d7f58f847e00",
+      "url": "https://api.github.com/repos/openai/skills/git/trees/2cca5bb3095bf4f3d874f8b3e785d7f58f847e00"
+    },
+    "url": "https://api.github.com/repos/openai/skills/git/commits/45d05d75363abf13f99d09e899d61e07b8010685",
+    "comment_count": 1,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9LoLCRC1aQ7uu5UhlAAAas8QAG3ZJIcItczdZ+D/pUmTB6TK\nOoCxRJDQmjg9LE3ZkBShZvpf50Fea+vFQ2NBHANwADvXdf+n/suuI81eaRIIGLHi\n3Mpi7ua5DJAe8RMWWsHFcDG7NJxSIKCWQfU+oqP6EjuX8YFxJUFx44oNYht678rP\n2nEJJDCbCem9FtoDkctBPiXsV68Yy4OXbx7GUUjeTvrNTxtKbkPJmBqHFAW2HlVW\nGAm+K1OP7/m/xe6wy7YoL2n/f2lPUwzM2hF6F8rVsfyWLs7FMnrCgFViGHAdlaY7\nQMf+o9kRqT+NV7OGcOVLQ9LXBX8S+h1U0KQZBpb1ppT6USwLRv3EgTcLFsuP4Wnh\nfimHutJ8LL2GbXAD95ehNy7qcT30QrQksAoQ+4H7Pdxp3vFnVcqMdDf14hy+U2Zi\nDG/qPQa4Mdeoi7HcCNVG1r3iB/wOCejmSuiXFCoJqHph7RPMPtppXjYDHPdllB6v\nJoMUA0NhSwUGQ2xzz6M3rJKGk05yRSxGpQcRKSElB/aapKUC9aqK2iGZGWjykP3R\ncr9ITZaTxaeqX/r1PC9KNa2AqwO2ggyPAext8LZmlWDAOCPr1E1o2NdLanssPycw\nk8UXAGVx8xHoYdIOmStry37tn49/yBx1iogHBIrG5WzGGAbsYPEvjZzzbfTBXnAC\nt5mVuM2XZBzanIam0bgy\n=m6t6\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 2cca5bb3095bf4f3d874f8b3e785d7f58f847e00\nparent fb7b56dff09cb2a44dd390cde69c717e8a319eb7\nauthor Nick Baumann <baumann@openai.com> 1777646091 -0500\ncommitter GitHub <noreply@github.com> 1777646091 -0500\n\nClarify todo completion in migrate-to-codex skill (#383)\n\n**Summary**\n\n- Clarify that the `migrate-to-codex` skill should finish by marking\ncompleted TODO steps as `completed`\n- Explicitly prevent a completed migration from leaving a stale\n`in_progress` task behind",
+      "verified_at": "2026-05-01T14:34:52Z"
+    }
+  },
+  "url": "https://api.github.com/repos/openai/skills/commits/45d05d75363abf13f99d09e899d61e07b8010685",
+  "html_url": "https://github.com/openai/skills/commit/45d05d75363abf13f99d09e899d61e07b8010685",
+  "comments_url": "https://api.github.com/repos/openai/skills/commits/45d05d75363abf13f99d09e899d61e07b8010685/comments",
+  "author": {
+    "login": "baumann-oai",
+    "id": 257643373,
+    "node_id": "U_kgDOD1tTbQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/257643373?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/baumann-oai",
+    "html_url": "https://github.com/baumann-oai",
+    "followers_url": "https://api.github.com/users/baumann-oai/followers",
+    "following_url": "https://api.github.com/users/baumann-oai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/baumann-oai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/baumann-oai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/baumann-oai/subscriptions",
+    "organizations_url": "https://api.github.com/users/baumann-oai/orgs",
+    "repos_url": "https://api.github.com/users/baumann-oai/repos",
+    "events_url": "https://api.github.com/users/baumann-oai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/baumann-oai/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "fb7b56dff09cb2a44dd390cde69c717e8a319eb7",
+      "url": "https://api.github.com/repos/openai/skills/commits/fb7b56dff09cb2a44dd390cde69c717e8a319eb7",
+      "html_url": "https://github.com/openai/skills/commit/fb7b56dff09cb2a44dd390cde69c717e8a319eb7"
+    }
+  ]
+}

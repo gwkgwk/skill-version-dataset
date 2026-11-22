@@ -1,0 +1,79 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/skills/continual-learning/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "094ca1e9b4de2bdc6bfb",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "dc9f676f4af01fc6b640e76c6e55c24d012ba0ec",
+    "computed_tree_sha": "39532bafc15f4ed9ed8ccf1d29e30932f66e4245",
+    "api_tree_sha_as_returned": "39532bafc15f4ed9ed8ccf1d29e30932f66e4245",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e89c15931597aa76eb9bd0e821b7ab1115978ba1",
+        "sha256": "8ae37e359cc912c53446a34121763c1413d1af4ddb69bf4d32ec9df0a53a73c7",
+        "size": 4029,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "6737dcb904d7578313c891b63ce50c03f82eafe9",
+    "computed_tree_sha": "0c2b5645bbb3fe92e02f2c7b1d11fb51da02eeac",
+    "api_tree_sha_as_returned": "0c2b5645bbb3fe92e02f2c7b1d11fb51da02eeac",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1de328f9abe0c345c002a80385619aef277c431e",
+        "sha256": "c918bfc5a79fb08641f1a6ccb7529685b5ec438453edf96e96b4290871602a40",
+        "size": 2592,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "dc9f676f4af01fc6b640e76c6e55c24d012ba0ec",
+  "new_commit": "6737dcb904d7578313c891b63ce50c03f82eafe9",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "refactor: simplify continual learning hook — single script, two-tier memory, auto-init\n\nRedesign inspired by beads' invariants: one-step setup, zero config, structured data.\n\n- Replace 3 scripts with single learn.sh handling all lifecycle events\n- Two-tier memory: global (~/.copilot/learnings.db) + local (.copilot-memory/)\n- Auto-initializes DBs and directories on first run\n- Compaction: old low-value learnings decay (60-day TTL), tool logs pruned (7 days)\n- Install is one step: cp -r hooks/continual-learning .github/hooks/\n- Simplified README and SKILL.md to match",
+  "new_commit_time": "2026-02-24T18:08:15Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/dc9f676f4af01fc6b640e76c6e55c24d012ba0ec...6737dcb904d7578313c891b63ce50c03f82eafe9",
+  "commit_url": "https://github.com/microsoft/skills/commit/6737dcb904d7578313c891b63ce50c03f82eafe9",
+  "skill_directory": ".github/skills/continual-learning",
+  "local_directory": "verified_real_update_pairs/OPU-0498",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0498",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

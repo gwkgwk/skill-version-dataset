@@ -1,0 +1,28 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -38,6 +38,8 @@
+ 
+ ## Authentication
+ 
++Rust Azure SDK code must not use `DefaultAzureCredential`. The Rust identity crate does not provide that type.
++
+ ```rust
+ use azure_identity::DeveloperToolsCredential;
+ use azure_security_keyvault_keys::KeyClient;
+@@ -58,6 +60,8 @@
+ }
+ ```
+ 
++Prefer the crate README/examples when checking public operation shapes such as key creation, wrapping, and version-aware unwrap flows.
++
+ ## Core Workflow
+ 
+ ### Create Key
+@@ -207,6 +211,7 @@
+ 5. **Use `..Default::default()`** with `#[allow(clippy::needless_update)]` for model struct updates
+ 6. **Use `ResourceExt`** to extract key name/version from key IDs
+ 7. **Reuse clients** — `KeyClient` is thread-safe; create once, share across tasks
++8. **Run `cargo clippy -- -D warnings`** when the prompt, eval, or CI expects lint-clean output
+ 
+ ## Reference Links
+ 

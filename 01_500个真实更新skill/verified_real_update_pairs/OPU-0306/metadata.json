@@ -1,0 +1,121 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/assuredworkloads-frameworks-author/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "17c3f40e5cd30186959c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "3c4dda4af5a63049cca71d69be1f5536577e7a6c",
+    "computed_tree_sha": "26e8bc7befc40d893df445cf7185b9105bc212e9",
+    "api_tree_sha_as_returned": "26e8bc7befc40d893df445cf7185b9105bc212e9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1c0a42e6f61c44dfbab1d49d40c09cdd50b2d244",
+        "sha256": "6069aca85c0d6d877ac1e02ac474d0b5db7a65698db6263c2e61f22e92269139",
+        "size": 12325,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/locations.json",
+        "git_blob_sha1": "074b5fe75f080170892730b725d78ae46a22aade",
+        "sha256": "709fc16a9478273cfb1436dd869f6b09dafeac9e2a473877fac9d7f0fb011390",
+        "size": 3031,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "2159fbd74d51d2587c6e8ead64de1d34384bc6e6",
+        "sha256": "577ce607dd74fa0021496e64bc16a19ae01a7536f2b35e645e0d53faa6395885",
+        "size": 1954,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gcloud-commands.md",
+        "git_blob_sha1": "95a782ccf9e3ba33ef799c7a7d89ae2f68c4e8e4",
+        "sha256": "7b1e199ed2b779f519d111016320a74b11cbe59881b740014d7d20e2bb4b665b",
+        "size": 3446,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b2fa61a3719e92f72dde33182d04bf055ed2e649",
+    "computed_tree_sha": "a7ffe447806df6bd8c7a2d5e4a8c28edcf19f03f",
+    "api_tree_sha_as_returned": "a7ffe447806df6bd8c7a2d5e4a8c28edcf19f03f",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2fa9f9299dcd077917a6bf8e0aa7c2408fb18ed3",
+        "sha256": "42c0c7c2baa5ba5990ba5bd913771be5fc7c3e54f0d0a80628d121c22295dc21",
+        "size": 12118,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/locations.json",
+        "git_blob_sha1": "074b5fe75f080170892730b725d78ae46a22aade",
+        "sha256": "709fc16a9478273cfb1436dd869f6b09dafeac9e2a473877fac9d7f0fb011390",
+        "size": 3031,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "2159fbd74d51d2587c6e8ead64de1d34384bc6e6",
+        "sha256": "577ce607dd74fa0021496e64bc16a19ae01a7536f2b35e645e0d53faa6395885",
+        "size": 1954,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gcloud-commands.md",
+        "git_blob_sha1": "95a782ccf9e3ba33ef799c7a7d89ae2f68c4e8e4",
+        "sha256": "7b1e199ed2b779f519d111016320a74b11cbe59881b740014d7d20e2bb4b665b",
+        "size": 3446,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "3c4dda4af5a63049cca71d69be1f5536577e7a6c",
+  "new_commit": "b2fa61a3719e92f72dde33182d04bf055ed2e649",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Reference assuredworkloads-frameworks-navigator by skill name\n\n- Reference the `assuredworkloads-frameworks-navigator` skill by name instead of relative file paths for portable skill discovery.\n\nPiperOrigin-RevId: 1022800857",
+  "new_commit_time": "2026-11-16T15:33:01Z",
+  "compare_url": "https://github.com/google/skills/compare/3c4dda4af5a63049cca71d69be1f5536577e7a6c...b2fa61a3719e92f72dde33182d04bf055ed2e649",
+  "commit_url": "https://github.com/google/skills/commit/b2fa61a3719e92f72dde33182d04bf055ed2e649",
+  "skill_directory": "skills/cloud/assuredworkloads-frameworks-author",
+  "local_directory": "verified_real_update_pairs/OPU-0306",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0306",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

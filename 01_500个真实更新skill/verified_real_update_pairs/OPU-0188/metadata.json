@@ -1,0 +1,177 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/analytics/google-analytics-data-api-basics/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "e476b2e9c480b0f7c96e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "f6fac47a6c4ade446a662f8fd6ebc6b48ff4d0b9",
+    "computed_tree_sha": "0aaac414cdf264f4d2c2b50f7388a0bda42f42b7",
+    "api_tree_sha_as_returned": "0aaac414cdf264f4d2c2b50f7388a0bda42f42b7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1d669070b5b5f0807bdf7c1c15059cba176a2d73",
+        "sha256": "f2edba1ad329b1ecc2acf4bb3115a366a3b0182f09fb75cda668bc7ed85fa32d",
+        "size": 9473,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dotnet.md",
+        "git_blob_sha1": "6fe52b3f545befa5e02bff384b6635f8966c9769",
+        "sha256": "4ce84ceb376f6895b5fb29253c1ac5b886f2695161b1a78c376dda5881f8e58e",
+        "size": 2032,
+        "mode": "100644"
+      },
+      {
+        "path": "references/go.md",
+        "git_blob_sha1": "ebe26b094e62c76bbda764bd6c90797286720ba8",
+        "sha256": "512e41ba5601bf0b01904f79f7913270f50f767f490cc6b1228953e160ab610e",
+        "size": 1816,
+        "mode": "100644"
+      },
+      {
+        "path": "references/java.md",
+        "git_blob_sha1": "49b0b225c9776f7c67cb2ff3bd60610097e0caae",
+        "sha256": "4ad0de1a36b1d942e412a9e921a69e7501e437cd5f12041cc99d444672633e02",
+        "size": 2669,
+        "mode": "100644"
+      },
+      {
+        "path": "references/nodejs.md",
+        "git_blob_sha1": "201eb6fa94a97930cdb0ca826ab4bb4ff44ac199",
+        "sha256": "aed0e167a48047662d9b2055dd06a7c587fe4a42abbef509efae9f45c7191674",
+        "size": 1603,
+        "mode": "100644"
+      },
+      {
+        "path": "references/php.md",
+        "git_blob_sha1": "efbc1b31330f97333721d85980f9a7c2cadbfdf8",
+        "sha256": "c6e8cb95d2edd7cbdace3cd26d592e1c88e7042c0c3abed5e3ae3d70b73c3b24",
+        "size": 1753,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "4e35c62acb851242fbaa3d47034781145e001e39",
+        "sha256": "b7f5a138a2500ce12bbd765bbd0a58fabc87e3855e9f91b4808be1c26e7546a5",
+        "size": 1953,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruby.md",
+        "git_blob_sha1": "8618d3a529cb14f8af28f7c58efd4d27f245e57f",
+        "sha256": "5e986eee4184d998145251c2f55b20fdd46a8bfa26f7f8e4636f822bbba99bca",
+        "size": 1687,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "c4b195927e63176caba02e2e91df992858782b51",
+    "computed_tree_sha": "24d33d7d3fb1b86966ea85e3ce9a5f717a75f1bb",
+    "api_tree_sha_as_returned": "24d33d7d3fb1b86966ea85e3ce9a5f717a75f1bb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "2d8152e906a72e59882cb9f82838aeb25fba08bb",
+        "sha256": "7d06ef4629089af88616cca71fd24eef882f205ba3b0ca8617169311b53be666",
+        "size": 9595,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dotnet.md",
+        "git_blob_sha1": "6fe52b3f545befa5e02bff384b6635f8966c9769",
+        "sha256": "4ce84ceb376f6895b5fb29253c1ac5b886f2695161b1a78c376dda5881f8e58e",
+        "size": 2032,
+        "mode": "100644"
+      },
+      {
+        "path": "references/go.md",
+        "git_blob_sha1": "ebe26b094e62c76bbda764bd6c90797286720ba8",
+        "sha256": "512e41ba5601bf0b01904f79f7913270f50f767f490cc6b1228953e160ab610e",
+        "size": 1816,
+        "mode": "100644"
+      },
+      {
+        "path": "references/java.md",
+        "git_blob_sha1": "49b0b225c9776f7c67cb2ff3bd60610097e0caae",
+        "sha256": "4ad0de1a36b1d942e412a9e921a69e7501e437cd5f12041cc99d444672633e02",
+        "size": 2669,
+        "mode": "100644"
+      },
+      {
+        "path": "references/nodejs.md",
+        "git_blob_sha1": "201eb6fa94a97930cdb0ca826ab4bb4ff44ac199",
+        "sha256": "aed0e167a48047662d9b2055dd06a7c587fe4a42abbef509efae9f45c7191674",
+        "size": 1603,
+        "mode": "100644"
+      },
+      {
+        "path": "references/php.md",
+        "git_blob_sha1": "efbc1b31330f97333721d85980f9a7c2cadbfdf8",
+        "sha256": "c6e8cb95d2edd7cbdace3cd26d592e1c88e7042c0c3abed5e3ae3d70b73c3b24",
+        "size": 1753,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "4e35c62acb851242fbaa3d47034781145e001e39",
+        "sha256": "b7f5a138a2500ce12bbd765bbd0a58fabc87e3855e9f91b4808be1c26e7546a5",
+        "size": 1953,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruby.md",
+        "git_blob_sha1": "8618d3a529cb14f8af28f7c58efd4d27f245e57f",
+        "sha256": "5e986eee4184d998145251c2f55b20fdd46a8bfa26f7f8e4636f822bbba99bca",
+        "size": 1687,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "f6fac47a6c4ade446a662f8fd6ebc6b48ff4d0b9",
+  "new_commit": "c4b195927e63176caba02e2e91df992858782b51",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "No public description\n\nPiperOrigin-RevId: 953507990",
+  "new_commit_time": "2026-07-24T19:43:57Z",
+  "compare_url": "https://github.com/google/skills/compare/f6fac47a6c4ade446a662f8fd6ebc6b48ff4d0b9...c4b195927e63176caba02e2e91df992858782b51",
+  "commit_url": "https://github.com/google/skills/commit/c4b195927e63176caba02e2e91df992858782b51",
+  "skill_directory": "skills/analytics/google-analytics-data-api-basics",
+  "local_directory": "verified_real_update_pairs/OPU-0188",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0188",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

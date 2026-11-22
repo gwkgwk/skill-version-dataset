@@ -1,0 +1,164 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/ads/ima-sdk-client-side/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "5724322c581c3e94d39d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "80513f494ec5d74dbcd8f54c0980a5e427e16ec1",
+    "computed_tree_sha": "ae62225f48157b44edc805efbf9d1fec288e2964",
+    "api_tree_sha_as_returned": "ae62225f48157b44edc805efbf9d1fec288e2964",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6b16815a77844eef0c5d83d17847a0cef5d432f1",
+        "sha256": "09ca3d4ba496050242649b04bb3ae3eb4f8e8e91bce36dbddec1f93708cf49ac",
+        "size": 2190,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-android-guide.md",
+        "git_blob_sha1": "db2a6735b10f4a3c7aac5c5c02a4563245720a52",
+        "sha256": "a41d4076c02689d6751eb7eee7d46036f364012b531464db1930c0791231bba6",
+        "size": 5623,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-ios-guide.md",
+        "git_blob_sha1": "562a28da85ab773224cc4d238e7b11498c1b11e3",
+        "sha256": "706ab138fd6f5000703ba49f0f706f8ff32613b5b03c277ef4429e87466f19a9",
+        "size": 8809,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-tvos-guide.md",
+        "git_blob_sha1": "e092d3cea46be1377a7654cf46c591bcb4cf7266",
+        "sha256": "1ecb365a130248e10a985da77aae5346a90c1fc7c7a5da83d61d550c13726d9a",
+        "size": 6078,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-web-guide.md",
+        "git_blob_sha1": "66f709ba0202833f344d834bdb5e6f1a8692f552",
+        "sha256": "513099a74393fc780eb5cebf960b3eb664384117f4f48c3059cd8d228bab4085",
+        "size": 8479,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-web-iframe-mode.md",
+        "git_blob_sha1": "f2f8bd0068540ccf2e31dfdd288f1e42b28fb135",
+        "sha256": "72aa2faed6188e0c6dfb72af02d821fed802c0a930558bde240ba9a016e1216f",
+        "size": 2884,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-web-mobile-safari.md",
+        "git_blob_sha1": "f4b06005982f9ad1f60e372c386c309ed5929ab5",
+        "sha256": "902cf8416c00afbc1fa57eaa7ece8b6922e4b474301b079050cce696ea0e407e",
+        "size": 514,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a54d506fb1ae95870e10cbf5cf1660f3af0bdc8b",
+    "computed_tree_sha": "e0c6883c2aa4174772624b5f6d2ae6080adbd1fb",
+    "api_tree_sha_as_returned": "e0c6883c2aa4174772624b5f6d2ae6080adbd1fb",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "97358a4902a9b747c39abdcbf8274a7019da266c",
+        "sha256": "ff6523c5b4cab60367b48be183198a29e1e00862310045896f8d30ae037ef9af",
+        "size": 2189,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-android-guide.md",
+        "git_blob_sha1": "db2a6735b10f4a3c7aac5c5c02a4563245720a52",
+        "sha256": "a41d4076c02689d6751eb7eee7d46036f364012b531464db1930c0791231bba6",
+        "size": 5623,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-ios-guide.md",
+        "git_blob_sha1": "562a28da85ab773224cc4d238e7b11498c1b11e3",
+        "sha256": "706ab138fd6f5000703ba49f0f706f8ff32613b5b03c277ef4429e87466f19a9",
+        "size": 8809,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-tvos-guide.md",
+        "git_blob_sha1": "0a45c3d84bc98f8a6ae668458ba8588432156388",
+        "sha256": "89d529cb7fbcb547462939ff971e17489b67cde058377e144b4714f595b35f58",
+        "size": 6056,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-web-guide.md",
+        "git_blob_sha1": "66f709ba0202833f344d834bdb5e6f1a8692f552",
+        "sha256": "513099a74393fc780eb5cebf960b3eb664384117f4f48c3059cd8d228bab4085",
+        "size": 8479,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-web-iframe-mode.md",
+        "git_blob_sha1": "f2f8bd0068540ccf2e31dfdd288f1e42b28fb135",
+        "sha256": "72aa2faed6188e0c6dfb72af02d821fed802c0a930558bde240ba9a016e1216f",
+        "size": 2884,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ima-sdk-web-mobile-safari.md",
+        "git_blob_sha1": "f4b06005982f9ad1f60e372c386c309ed5929ab5",
+        "sha256": "902cf8416c00afbc1fa57eaa7ece8b6922e4b474301b079050cce696ea0e407e",
+        "size": 514,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/ima-sdk-tvos-guide.md"
+  ],
+  "old_commit": "80513f494ec5d74dbcd8f54c0980a5e427e16ec1",
+  "new_commit": "a54d506fb1ae95870e10cbf5cf1660f3af0bdc8b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Fix broken relative links in ima-sdk-tvos-guide.md.\n\nDrop the references/ prefix from relative links in ima-sdk-tvos-guide.md to fix 404 errors when resolving sibling references.\n\nPiperOrigin-RevId: 962903801",
+  "new_commit_time": "2026-08-11T18:42:38Z",
+  "compare_url": "https://github.com/google/skills/compare/80513f494ec5d74dbcd8f54c0980a5e427e16ec1...a54d506fb1ae95870e10cbf5cf1660f3af0bdc8b",
+  "commit_url": "https://github.com/google/skills/commit/a54d506fb1ae95870e10cbf5cf1660f3af0bdc8b",
+  "skill_directory": "skills/ads/ima-sdk-client-side",
+  "local_directory": "verified_real_update_pairs/OPU-0171",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0171",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

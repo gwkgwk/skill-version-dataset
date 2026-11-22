@@ -1,0 +1,129 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/dwarf-expert/skills/dwarf-expert/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "0dfdb78fbfd5f3881c06",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "696dee5717bdb976772466c067b60d89d644260d",
+    "computed_tree_sha": "040a2c051ef2c23d8d74e9fdaee64684f4424cf4",
+    "api_tree_sha_as_returned": "040a2c051ef2c23d8d74e9fdaee64684f4424cf4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8ea3191684258b9848cdbc81ddc62fc8dbe1274e",
+        "sha256": "5947233be70c9d7932f21082f5180dcdac1673eb0b3872e472aaab873217a04b",
+        "size": 4901,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "reference/coding.md",
+        "git_blob_sha1": "c504eed8e1f4525afc0c0d6211540dd03c10dc73",
+        "sha256": "dcd6e788785c061cdc519a95a1ab08ad031df53bdc2b057469260af62111d0b7",
+        "size": 3020,
+        "mode": "100644"
+      },
+      {
+        "path": "reference/dwarfdump.md",
+        "git_blob_sha1": "e537a1f91e981a19e7a44b17662ec43975830e2b",
+        "sha256": "7f2e1009c67c02dd72c5b413b2c6ac3397d9dc98a2cd6f4e7041cfc63e9ff12d",
+        "size": 6601,
+        "mode": "100644"
+      },
+      {
+        "path": "reference/readelf.md",
+        "git_blob_sha1": "8eba88c6b2aa96f6437612b1f87c9917d9c194fa",
+        "sha256": "83846a1ff1ea66704498433a6f3ac539b1ee33b50c4ab32eff3f9d3927becf95",
+        "size": 560,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+    "computed_tree_sha": "6474643beee43b48557603d8de507befda9f4521",
+    "api_tree_sha_as_returned": "6474643beee43b48557603d8de507befda9f4521",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4c89189f2dae6240eef156df3521f0272f07b1c9",
+        "sha256": "c4623d2d9c5a31c7722a293a96038817631e7d511f256613b4cbfa417c24466a",
+        "size": 6020,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "reference/coding.md",
+    "reference/dwarfdump.md",
+    "reference/readelf.md"
+  ],
+  "old_commit": "696dee5717bdb976772466c067b60d89d644260d",
+  "new_commit": "ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Trim dwarf-expert: single-file skill, effort level, contract test (#223)\n\n* Trim dwarf-expert: single-file skill, effort level, contract test\n\n- Consolidate SKILL.md from four files into one (115 lines); delete\n  reference/. Cut generic behavior rules, duplicate When-to-Use\n  sections, a 9-line readelf reference hop, and an ASCII decision\n  tree; fix five typos.\n- Fix --lookup=<offset> misuse carried over from the original: DIE at\n  a section offset is --debug-info=<offset>; --lookup takes a program\n  address. Verified live against llvm-dwarfdump.\n- Drop the invented v3-v5 version scoping from the skill, plugin.json,\n  marketplace.json, and both READMEs. Version-specific judgment that\n  earned its place (the -gdwarf-N pin inference, v2 surface forms)\n  lives in the Verifying section.\n- Frontmatter: add effort: medium, rewrite the trigger description,\n  extend allowed-tools with Write/Edit/WebFetch.\n- Add tests/test_skill_contract.py (stdlib + pytest): every dwarfdump\n  flag documented in SKILL.md must exist in a live llvm-dwarfdump\n  (>= 19, the verified floor for --error-display/--verify-json), plus\n  a frontmatter contract check. Zero extracted flags or a missing\n  tool fails rather than skips.\n- CI: python-tests installs llvm-19, falling back to the default llvm\n  on future runner images.\n- Bump version 1.0.1 -> 1.1.0.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Address review: fence-aware extraction, capability-gated resolver\n\n- body_sections() no longer strips fenced blocks from section text:\n  fences are ignored only for heading detection, so flags documented\n  inside examples are extracted and verified. New unit test covers\n  both properties; a fenced --bogus-flag mutation now goes red.\n- Replace the parsed-version LLVM floor with a capability gate: the\n  resolver requires --error-display/--verify-json in --help, because\n  Apple's LLVM numbering does not track upstream and a numeric major\n  is not comparable across toolchains. Failure lists rejected tools\n  with their version banners. README wording matches.\n- Raise the extraction floor from 10 to 15 (21 flags documented).\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-08-03T15:45:58Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/696dee5717bdb976772466c067b60d89d644260d...ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+  "commit_url": "https://github.com/trailofbits/skills/commit/ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+  "skill_directory": "plugins/dwarf-expert/skills/dwarf-expert",
+  "local_directory": "verified_real_update_pairs/OPU-0228",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0228",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

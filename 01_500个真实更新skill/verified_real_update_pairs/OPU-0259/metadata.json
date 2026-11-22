@@ -1,0 +1,91 @@
+{
+  "repository": "googleworkspace/cli",
+  "primary": "skills/gws-sheets-read/SKILL.md",
+  "pinned_commit": "cd3697e07eb520056dcf142d0c7439bbb9ba32e9",
+  "repository_license": "Apache-2.0",
+  "key": "9c1611d54998677cbbdf",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 30,
+  "primary_history_count_returned": 15,
+  "skipped_release_maintenance_commits": [
+    "705fb0ecac6f4249679958f6325b809b63fdde17",
+    "f4ee65836031e105e48f1cef77f91dde3499b389",
+    "c7c6646d7a3ab1851e535afc8fdbcc311ab4d440",
+    "a63b070a51098324b0660cac937a49b0b04ccb87",
+    "45ca45bfd418db07b02995e8510dd18ac45cb3a6",
+    "9198386a3de7fcf2df95532dca79257568d45c19",
+    "2aec0ba5a363735bae3eb20b5a3ea3306f8065f4",
+    "186e88caa05071ee706ad5d2b1b5cbdf242a8e76",
+    "3ac16ee595be33b602149b0b57c724cdd20b4322",
+    "834fa7d25a507e12020a2b04a4e8097558c56c96"
+  ],
+  "old": {
+    "commit": "9d937af8af6a8f9a12da4e478bd1bc1ebecff2f8",
+    "computed_tree_sha": "faab213bdc42057c0140323a85dcabb7024b7ff2",
+    "api_tree_sha_as_returned": "faab213bdc42057c0140323a85dcabb7024b7ff2",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4b23bed2db8ce7fe41f7e4d745cd64488dbb840d",
+        "sha256": "d5fa16a1ae8ed08029e2ee76261d36c48b5c5c1e78a3adda91e2ba8fabbfefd7",
+        "size": 1119,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e104106cd796bbe2a61146ccbc74714a69feb775",
+    "computed_tree_sha": "2320287e5499eb709c8e48fe47510d55d60789e6",
+    "api_tree_sha_as_returned": "2320287e5499eb709c8e48fe47510d55d60789e6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6faa75bfe8ba9869a4d7a0c5eecfed78b24e2675",
+        "sha256": "ece438ead0d676fa246183caf95194f4786095eb80ef2c7bd7f9de22a24cc920",
+        "size": 1119,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "9d937af8af6a8f9a12da4e478bd1bc1ebecff2f8",
+  "new_commit": "e104106cd796bbe2a61146ccbc74714a69feb775",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "docs: warn about zsh ! history expansion in sheet range examples (#412)\n\n* docs: warn about zsh \\! history expansion in sheet range examples\n\nAdd a \"Shell Tips\" section to the gws-shared skill explaining that\nzsh interprets \\! inside single quotes as history expansion, which\nmangles sheet ranges like 'Sheet1\\!A1:B2'.\n\nReplace single quotes with double quotes around sheet ranges\ncontaining \\! in:\n- registry/recipes.yaml (source for generated recipe skills)\n- src/helpers/sheets.rs (+read after_help examples)\n- src/generate_skills.rs (shared skill template)\n- Generated SKILL.md files for affected recipes and gws-sheets-read\n\nCloses #268\n\n* fix: escape double quotes in after_help string literal\n\nThe after_help string for +read uses a regular string literal, not a\nraw string, so inner double quotes must be escaped with backslashes.",
+  "new_commit_time": "2026-03-12T16:15:51Z",
+  "compare_url": "https://github.com/googleworkspace/cli/compare/9d937af8af6a8f9a12da4e478bd1bc1ebecff2f8...e104106cd796bbe2a61146ccbc74714a69feb775",
+  "commit_url": "https://github.com/googleworkspace/cli/commit/e104106cd796bbe2a61146ccbc74714a69feb775",
+  "skill_directory": "skills/gws-sheets-read",
+  "local_directory": "verified_real_update_pairs/OPU-0259",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0259",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

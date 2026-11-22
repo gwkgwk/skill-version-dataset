@@ -1,0 +1,743 @@
+{
+  "sha": "427a156c718b05f23d18e2d5265166d57bb26931",
+  "url": "https://api.github.com/repos/microsoft/skills/git/trees/427a156c718b05f23d18e2d5265166d57bb26931",
+  "tree": [
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc2a5018c2b7305e1a63b2d7b6e0ec548fe3c14",
+      "size": 3785,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/8dc2a5018c2b7305e1a63b2d7b6e0ec548fe3c14"
+    },
+    {
+      "path": "agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d49e9df2259b19146b7e6e9afd756db31e1ab60",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/8d49e9df2259b19146b7e6e9afd756db31e1ab60"
+    },
+    {
+      "path": "agents/connect-hosted-toolbox.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e877b6110f41755e0d7eb99980f3756b1bf6a29",
+      "size": 7987,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/9e877b6110f41755e0d7eb99980f3756b1bf6a29"
+    },
+    {
+      "path": "agents/connect-hosted.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e273c31bf76b4c57b24dd4a68592646620f0f83",
+      "size": 7992,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/7e273c31bf76b4c57b24dd4a68592646620f0f83"
+    },
+    {
+      "path": "agents/connect-prompt-sdk-fallback.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6626085a2c8ffec48825bfb24a7d861f85494b4",
+      "size": 7990,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/a6626085a2c8ffec48825bfb24a7d861f85494b4"
+    },
+    {
+      "path": "agents/connect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32eef060719b449d2a216372b7b4277ad6652490",
+      "size": 7994,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/32eef060719b449d2a216372b7b4277ad6652490"
+    },
+    {
+      "path": "agents/create-missing-agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a218722e0efad02e5c964e1a07c5684ec2e02d65",
+      "size": 8004,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/a218722e0efad02e5c964e1a07c5684ec2e02d65"
+    },
+    {
+      "path": "helpers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "382c32389c617f36b37cc655a59cea0468c89328",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/382c32389c617f36b37cc655a59cea0468c89328"
+    },
+    {
+      "path": "helpers/_blob_observation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "645e4a24bdedafcc4345050332ab08d7ff5daaaa",
+      "size": 4515,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/645e4a24bdedafcc4345050332ab08d7ff5daaaa"
+    },
+    {
+      "path": "helpers/_blob_source_read.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26b93124efdb8e6e0a79b4e60412e24a07d89fc",
+      "size": 40414,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/d26b93124efdb8e6e0a79b4e60412e24a07d89fc"
+    },
+    {
+      "path": "helpers/_bootstrap_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4685c69f26e9b8e0fed75d7a8bb4912d6e1eedfd",
+      "size": 30842,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/4685c69f26e9b8e0fed75d7a8bb4912d6e1eedfd"
+    },
+    {
+      "path": "helpers/_cleanup_dependencies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef5d653b721427027518e256c63dc1505af281f4",
+      "size": 28199,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ef5d653b721427027518e256c63dc1505af281f4"
+    },
+    {
+      "path": "helpers/_cleanup_receipts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc89c19323b7454ff2bff611214bc6823e4b79d",
+      "size": 13861,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/9dc89c19323b7454ff2bff611214bc6823e4b79d"
+    },
+    {
+      "path": "helpers/_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57db85df0de053c414d78fc20dea9c319c835c8a",
+      "size": 37108,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/57db85df0de053c414d78fc20dea9c319c835c8a"
+    },
+    {
+      "path": "helpers/_document_adapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f71c20e5bbf5840b490a4bb862ff6197a718d1d",
+      "size": 15346,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/6f71c20e5bbf5840b490a4bb862ff6197a718d1d"
+    },
+    {
+      "path": "helpers/_document_limits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f17dc905c8c9459b75d89f5462480881da81acf",
+      "size": 3984,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/3f17dc905c8c9459b75d89f5462480881da81acf"
+    },
+    {
+      "path": "helpers/_embedding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76d521c72bdb1c651cae753e1c04d7ee37f3cca1",
+      "size": 7214,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/76d521c72bdb1c651cae753e1c04d7ee37f3cca1"
+    },
+    {
+      "path": "helpers/_file_inventory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d4089cbc030ecdd2cabc91eac92e4a183ae5f4b",
+      "size": 24998,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/5d4089cbc030ecdd2cabc91eac92e4a183ae5f4b"
+    },
+    {
+      "path": "helpers/_file_source_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb3adec2ffd6f01d5453689dfa50f157fdff0951",
+      "size": 15933,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/cb3adec2ffd6f01d5453689dfa50f157fdff0951"
+    },
+    {
+      "path": "helpers/_indexer_observation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32a0d4c39e8b2d0aab6c205a564a901d9bc2b3a2",
+      "size": 7253,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/32a0d4c39e8b2d0aab6c205a564a901d9bc2b3a2"
+    },
+    {
+      "path": "helpers/_initial_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e4d5776b9ec27bc0a7d3eef47699c85874deb90",
+      "size": 12787,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/8e4d5776b9ec27bc0a7d3eef47699c85874deb90"
+    },
+    {
+      "path": "helpers/_private_json.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8de9a6384f7c6f5655571251201b4aaa1e30444d",
+      "size": 2478,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/8de9a6384f7c6f5655571251201b4aaa1e30444d"
+    },
+    {
+      "path": "helpers/_progress.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d1e0ee7ec4c7821380a7963a8572ba79064bcd0",
+      "size": 12433,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/8d1e0ee7ec4c7821380a7963a8572ba79064bcd0"
+    },
+    {
+      "path": "helpers/_prompt_read.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8e5ffb00ab208d36f55f00c74b7e6dee6078859",
+      "size": 18168,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/f8e5ffb00ab208d36f55f00c74b7e6dee6078859"
+    },
+    {
+      "path": "helpers/_search_read.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "713965f59a67b345b4d9225a61fce0783641342d",
+      "size": 6134,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/713965f59a67b345b4d9225a61fce0783641342d"
+    },
+    {
+      "path": "helpers/_source_readback.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ce9462ff8b534dd851a66aa74112f9bed64816",
+      "size": 1609,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/23ce9462ff8b534dd851a66aa74112f9bed64816"
+    },
+    {
+      "path": "helpers/blob-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba35dee1e960cfb78f33303c11260ddc62c0b086",
+      "size": 7960,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ba35dee1e960cfb78f33303c11260ddc62c0b086"
+    },
+    {
+      "path": "helpers/blob-cu-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "192f7eaf4fa1254777244e2139c9391217327f47",
+      "size": 7988,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/192f7eaf4fa1254777244e2139c9391217327f47"
+    },
+    {
+      "path": "helpers/blob_inventory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e3eb8ee2bab7998151b05a401745a707c1ca4ae",
+      "size": 17484,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/5e3eb8ee2bab7998151b05a401745a707c1ca4ae"
+    },
+    {
+      "path": "helpers/blob_recheck.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d106e2dd3f518559cebf75a914bf72ed19de7e8",
+      "size": 66189,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/8d106e2dd3f518559cebf75a914bf72ed19de7e8"
+    },
+    {
+      "path": "helpers/blob_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1f46405c3499ebb6331379439654f5cc0da4062",
+      "size": 36636,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/c1f46405c3499ebb6331379439654f5cc0da4062"
+    },
+    {
+      "path": "helpers/bootstrap-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cc18d4915803d06fd0f286fa8a9b04e7fee6e86",
+      "size": 8011,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0cc18d4915803d06fd0f286fa8a9b04e7fee6e86"
+    },
+    {
+      "path": "helpers/bootstrap_azure.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e68b77be626e678961c2480eed356453578b6e2",
+      "size": 42465,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0e68b77be626e678961c2480eed356453578b6e2"
+    },
+    {
+      "path": "helpers/cleanup_plan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0602da9e7af8f45cce5cbaf1d824109f407df044",
+      "size": 42390,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0602da9e7af8f45cce5cbaf1d824109f407df044"
+    },
+    {
+      "path": "helpers/contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0a8fb03e22c332002cc9a3d88cf3ca4cee42066",
+      "size": 7988,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/f0a8fb03e22c332002cc9a3d88cf3ca4cee42066"
+    },
+    {
+      "path": "helpers/cu_ingestion_auth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89afa2f0c6edb99a0f12c6307bb041634e68d7aa",
+      "size": 12760,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/89afa2f0c6edb99a0f12c6307bb041634e68d7aa"
+    },
+    {
+      "path": "helpers/document-assessment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a75f5046dc2360e1adac7f49476f710471dca6d4",
+      "size": 7948,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/a75f5046dc2360e1adac7f49476f710471dca6d4"
+    },
+    {
+      "path": "helpers/document_assess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c597b9e9f9a6aa82772f6fe8da31efa359bde24",
+      "size": 14377,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/4c597b9e9f9a6aa82772f6fe8da31efa359bde24"
+    },
+    {
+      "path": "helpers/file-upload-recovery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6beec37040ac6bbba837821b5edd6b9076b83901",
+      "size": 7958,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/6beec37040ac6bbba837821b5edd6b9076b83901"
+    },
+    {
+      "path": "helpers/file_cu_canary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e57b0d08bc0272da86f630255d10f9cd6eaf7ba",
+      "size": 33447,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/2e57b0d08bc0272da86f630255d10f9cd6eaf7ba"
+    },
+    {
+      "path": "helpers/file_cu_mi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34dcb7d8664d3ebb56a0c35a25aa952bb49e18cc",
+      "size": 9802,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/34dcb7d8664d3ebb56a0c35a25aa952bb49e18cc"
+    },
+    {
+      "path": "helpers/file_ingest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aae89206f4589050ffe247b7e9229ff5bfc7429",
+      "size": 15723,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/1aae89206f4589050ffe247b7e9229ff5bfc7429"
+    },
+    {
+      "path": "helpers/file_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25fc12e16d89b94acf146e202a7e4d5e0ab1d100",
+      "size": 32443,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/25fc12e16d89b94acf146e202a7e4d5e0ab1d100"
+    },
+    {
+      "path": "helpers/file_upload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee36d8c45aef972ec950ec920bd77540f9369d06",
+      "size": 54977,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ee36d8c45aef972ec950ec920bd77540f9369d06"
+    },
+    {
+      "path": "helpers/hosted_connect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b6ce6d4d139e363041e9772c19ec3ef439adc0",
+      "size": 31590,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/35b6ce6d4d139e363041e9772c19ec3ef439adc0"
+    },
+    {
+      "path": "helpers/kb-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0f9d49458937c1e7929280ae1658e0c1888d852",
+      "size": 7974,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/f0f9d49458937c1e7929280ae1658e0c1888d852"
+    },
+    {
+      "path": "helpers/knowledge_base_retrieve.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f922914b839d16c90ae7d475e038aaab16632b",
+      "size": 7933,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/f7f922914b839d16c90ae7d475e038aaab16632b"
+    },
+    {
+      "path": "helpers/model-discovery-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e7e98bab95d76c09567df48467d7b23a9089f07",
+      "size": 7994,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0e7e98bab95d76c09567df48467d7b23a9089f07"
+    },
+    {
+      "path": "helpers/model-discovery-scopes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2e8802e1164a1ec6392431dfbe83dac9d79551",
+      "size": 7967,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ca2e8802e1164a1ec6392431dfbe83dac9d79551"
+    },
+    {
+      "path": "helpers/model_discovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16694db6725e962da74dc43f63e326cff0d729f",
+      "size": 24266,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/d16694db6725e962da74dc43f63e326cff0d729f"
+    },
+    {
+      "path": "helpers/private-artifacts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e4a8e5dff6fc7c0b5394ed33190a50ab006e60e",
+      "size": 7371,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/4e4a8e5dff6fc7c0b5394ed33190a50ab006e60e"
+    },
+    {
+      "path": "helpers/private_artifacts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3575089be31fcb4e4d7cbe7dfce8785f2a106022",
+      "size": 4888,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/3575089be31fcb4e4d7cbe7dfce8785f2a106022"
+    },
+    {
+      "path": "helpers/prompt_cleanup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7204ae3ddad46c4d2ceccad353e89815d9204298",
+      "size": 22527,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/7204ae3ddad46c4d2ceccad353e89815d9204298"
+    },
+    {
+      "path": "helpers/prompt_connect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "949651e4d0d8ff9b9aaee88447c04e35eb14574b",
+      "size": 63827,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/949651e4d0d8ff9b9aaee88447c04e35eb14574b"
+    },
+    {
+      "path": "helpers/requirements-assessment.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "353d744a4e974e49052b459a08d744b7cc424f6b",
+      "size": 103,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/353d744a4e974e49052b459a08d744b7cc424f6b"
+    },
+    {
+      "path": "helpers/retrieval-verification-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c552a3d2ab4a627addb6d38777057a41bef186ae",
+      "size": 7996,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/c552a3d2ab4a627addb6d38777057a41bef186ae"
+    },
+    {
+      "path": "helpers/retrieval_verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a052db833fd2e5ae1afd51e133f9a08df6d8fc0f",
+      "size": 20111,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/a052db833fd2e5ae1afd51e133f9a08df6d8fc0f"
+    },
+    {
+      "path": "helpers/search-intake-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2704273252a299cb15c6c3dbed0402c61618a9f1",
+      "size": 7818,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/2704273252a299cb15c6c3dbed0402c61618a9f1"
+    },
+    {
+      "path": "helpers/search_intake.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fcb68871b317be80908bd5b9113c21f85f34757",
+      "size": 18810,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/8fcb68871b317be80908bd5b9113c21f85f34757"
+    },
+    {
+      "path": "helpers/search_reconcile.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12869d5799d50c55fc55709b6e79d71d9f8c91f0",
+      "size": 61140,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/12869d5799d50c55fc55709b6e79d71d9f8c91f0"
+    },
+    {
+      "path": "helpers/source_vector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "688fdde913f3952a1747cfea7f05ebecfe9e7b6c",
+      "size": 33962,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/688fdde913f3952a1747cfea7f05ebecfe9e7b6c"
+    },
+    {
+      "path": "helpers/throttle-recovery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "479d5480a2071f819bb57059edd0f28f6f20ae64",
+      "size": 5103,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/479d5480a2071f819bb57059edd0f28f6f20ae64"
+    },
+    {
+      "path": "helpers/vector-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba753aca023c01fc5c5eb2d169df879ac58310b8",
+      "size": 7985,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ba753aca023c01fc5c5eb2d169df879ac58310b8"
+    },
+    {
+      "path": "knowledge-bases",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f2b72447f60452e4568c6c4aa942dd8044f0019",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/4f2b72447f60452e4568c6c4aa942dd8044f0019"
+    },
+    {
+      "path": "knowledge-bases/create.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "460c901e8013c157804ee313f9c103ecda132f3d",
+      "size": 8258,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/460c901e8013c157804ee313f9c103ecda132f3d"
+    },
+    {
+      "path": "knowledge-bases/retrieve.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf821a2061003c4e8503818700c9e85eb76e7b97",
+      "size": 8000,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/cf821a2061003c4e8503818700c9e85eb76e7b97"
+    },
+    {
+      "path": "knowledge-sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b378694040942c798fbbf9ea7db250ee91211c",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/21b378694040942c798fbbf9ea7db250ee91211c"
+    },
+    {
+      "path": "knowledge-sources/create-azure-blob.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc362da669e37feeec3d4c898c2fb1d9e2a4d53",
+      "size": 7992,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/1bc362da669e37feeec3d4c898c2fb1d9e2a4d53"
+    },
+    {
+      "path": "knowledge-sources/create-file.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d56be52ae8481f86864d23e65292854091ed121",
+      "size": 7997,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/2d56be52ae8481f86864d23e65292854091ed121"
+    },
+    {
+      "path": "lifecycle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6e76531b6d380b4744939f363281aee8d47ccc0",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/b6e76531b6d380b4744939f363281aee8d47ccc0"
+    },
+    {
+      "path": "lifecycle/cleanup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10be0667c70d3ffc352e1821cfd210b2692530f0",
+      "size": 7997,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/10be0667c70d3ffc352e1821cfd210b2692530f0"
+    },
+    {
+      "path": "references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "010304e939a062030159c8cfa6a6d2218f6d35cc",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/010304e939a062030159c8cfa6a6d2218f6d35cc"
+    },
+    {
+      "path": "references/abstention.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f82a0349762ad5c658e0787a771a18e0b27f8f6",
+      "size": 1054,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/0f82a0349762ad5c658e0787a771a18e0b27f8f6"
+    },
+    {
+      "path": "references/blob-binding-evidence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbcef8f3d7db15e17e82a3bbf14870ac5f97b3c1",
+      "size": 7996,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/bbcef8f3d7db15e17e82a3bbf14870ac5f97b3c1"
+    },
+    {
+      "path": "references/blob-indexer-observation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ec2261a4662e2c2a2d8ee64f8c0c9a5455a0c1",
+      "size": 7873,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/32ec2261a4662e2c2a2d8ee64f8c0c9a5455a0c1"
+    },
+    {
+      "path": "references/blob-ingestion-progress.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee76ff99c421ff00b60af74e5e51a425d6a787a8",
+      "size": 6636,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ee76ff99c421ff00b60af74e5e51a425d6a787a8"
+    },
+    {
+      "path": "references/blob-readiness-recheck.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d43820e467d0a4a1e90b2b5cad82177e9a11f9c4",
+      "size": 7997,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/d43820e467d0a4a1e90b2b5cad82177e9a11f9c4"
+    },
+    {
+      "path": "references/blob-vector-readiness.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56714423436fe002183ec532bcaeb6e07c14f0a7",
+      "size": 2672,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/56714423436fe002183ec532bcaeb6e07c14f0a7"
+    },
+    {
+      "path": "references/bootstrap-azure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e3d7c5ee16362d53ba92f8c5c05bd1ffc6fc63",
+      "size": 7994,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/33e3d7c5ee16362d53ba92f8c5c05bd1ffc6fc63"
+    },
+    {
+      "path": "references/content-fit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54c1d9f9545e012412476ecd3c1aecf27e426ad0",
+      "size": 7975,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/54c1d9f9545e012412476ecd3c1aecf27e426ad0"
+    },
+    {
+      "path": "references/cu-ingestion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240e2ab416ac97990949eae02b63ad72c2996633",
+      "size": 7995,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/240e2ab416ac97990949eae02b63ad72c2996633"
+    },
+    {
+      "path": "references/file-cu-canary.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5f344b66e5d4d836a4aa2b7a7bf16cf7858870",
+      "size": 8026,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/be5f344b66e5d4d836a4aa2b7a7bf16cf7858870"
+    },
+    {
+      "path": "references/intent-routing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a9190671e6380215ab2f49de3c4cefe7d98879",
+      "size": 7910,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/37a9190671e6380215ab2f49de3c4cefe7d98879"
+    },
+    {
+      "path": "references/owner.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6ecdeb6a24aaf446829eb6f5b03e4494e5462c2",
+      "size": 2140,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/e6ecdeb6a24aaf446829eb6f5b03e4494e5462c2"
+    },
+    {
+      "path": "references/platform-contracts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e3125a3cb8123681c43641d192bc135090e7cbc",
+      "size": 7934,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/1e3125a3cb8123681c43641d192bc135090e7cbc"
+    },
+    {
+      "path": "references/platform-interfaces.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae250438e0b346c835d266981e20b8a615a6c3b0",
+      "size": 7972,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ae250438e0b346c835d266981e20b8a615a6c3b0"
+    },
+    {
+      "path": "references/resource-intake.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24a07a2de7706bf6d48a09312b0f58f3e78751df",
+      "size": 7961,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/24a07a2de7706bf6d48a09312b0f58f3e78751df"
+    },
+    {
+      "path": "references/search-substrate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cf08685787e7dcca4c7eaddac1243f50984b691",
+      "size": 7955,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/8cf08685787e7dcca4c7eaddac1243f50984b691"
+    },
+    {
+      "path": "references/standard-cu.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f38ffda7fadb77ab7ba9a5331c9169ee4b693f1",
+      "size": 7953,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/3f38ffda7fadb77ab7ba9a5331c9169ee4b693f1"
+    },
+    {
+      "path": "search-services",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4d9e0c3eff934143b01438463f52b188de77047",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/b4d9e0c3eff934143b01438463f52b188de77047"
+    },
+    {
+      "path": "search-services/create.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "050a020012af0cf4374eee54cf2a4a3126575553",
+      "size": 8000,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/050a020012af0cf4374eee54cf2a4a3126575553"
+    },
+    {
+      "path": "troubleshooting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7806954fe96a2d72da84165d19c84b3ccd01ef11",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/7806954fe96a2d72da84165d19c84b3ccd01ef11"
+    },
+    {
+      "path": "troubleshooting/diagnose.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d0b2f47ae2ea34272bb699725adfdd41ee912d",
+      "size": 8901,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/79d0b2f47ae2ea34272bb699725adfdd41ee912d"
+    }
+  ],
+  "truncated": false
+}

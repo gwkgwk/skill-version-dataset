@@ -1,0 +1,77 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/huggingface-best/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "4608171db7e203246f83",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 5,
+  "old": {
+    "commit": "9b6b2918afd31e0a3f25b7fda1197638240553dc",
+    "computed_tree_sha": "867282d734e009a0281c300e5fe9382dfd8815e6",
+    "api_tree_sha_as_returned": "867282d734e009a0281c300e5fe9382dfd8815e6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6073590ebf8b136bb405a567fed9d47840164713",
+        "sha256": "156a85e1e6e6c7502dea17e692c7ef7273595051d6f774ddbf055bc590bf53af",
+        "size": 5851,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "cfcd0a8100524dd3b9680c3bd4418c6b2640853a",
+    "computed_tree_sha": "99057db6a271d4406130a557ad55f51d44b1edce",
+    "api_tree_sha_as_returned": "99057db6a271d4406130a557ad55f51d44b1edce",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "766c5d84ee8fa5e5b0dfc51411ea3e62cf0a8f9f",
+        "sha256": "4566c02cb6da804dcc434b6b4d48a1895e937157cdaec4ec4c523a2f97cf16d0",
+        "size": 5852,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "9b6b2918afd31e0a3f25b7fda1197638240553dc",
+  "new_commit": "cfcd0a8100524dd3b9680c3bd4418c6b2640853a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix: validate Agent Skills frontmatter (#220)\n\nCo-authored-by: evalstate <evalstate@users.noreply.github.com>",
+  "new_commit_time": "2026-08-03T18:50:58Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/9b6b2918afd31e0a3f25b7fda1197638240553dc...cfcd0a8100524dd3b9680c3bd4418c6b2640853a",
+  "commit_url": "https://github.com/huggingface/skills/commit/cfcd0a8100524dd3b9680c3bd4418c6b2640853a",
+  "skill_directory": "skills/huggingface-best",
+  "local_directory": "verified_real_update_pairs/OPU-0086",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0086",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

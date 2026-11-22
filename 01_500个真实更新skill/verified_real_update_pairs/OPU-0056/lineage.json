@@ -1,0 +1,82 @@
+{
+  "sha": "b0cbd3df1533b396d281a6886d5132f623393a9c",
+  "node_id": "C_kwDOP0wfhtoAKGIwY2JkM2RmMTUzM2IzOTZkMjgxYTY4ODZkNTEzMmY2MjMzOTNhOWM",
+  "commit": {
+    "author": {
+      "name": "zack-anthropic",
+      "email": "zack@anthropic.com",
+      "date": "2026-03-06T20:06:23Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-06T20:06:23Z"
+    },
+    "message": "skill-creator: drop ANTHROPIC_API_KEY requirement from description optimizer (#547)\n\nimprove_description.py now calls `claude -p`\nas a subprocess instead of the Anthropic SDK, so users no longer need a\nseparate ANTHROPIC_API_KEY to run the description optimization loop. Same\nauth pattern run_eval.py already used for the triggering eval.\n\nPrompts go over stdin (they embed the full SKILL.md body). Strips CLAUDECODE\nenv var to allow nesting inside a Claude Code session. The over-1024-char\nretry is now a fresh single-turn call that inlines the too-long version\nrather than a multi-turn followup.\n\nSKILL.md: dropped the stale \"extended thinking\" reference to match.",
+    "tree": {
+      "sha": "00be8baf5a0a0b1bbdc873a7169b65f74a0ec0f3",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/00be8baf5a0a0b1bbdc873a7169b65f74a0ec0f3"
+    },
+    "url": "https://api.github.com/repos/anthropics/skills/git/commits/b0cbd3df1533b396d281a6886d5132f623393a9c",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpqzO/CRC1aQ7uu5UhlAAAIpUQAJacI3pNAbBFvjNNIS1vg6hw\nUHmPPrFy4E2QOlkR8BhMUoQgGSGlDzwEKNOxOyv2bT8oJxiStbgUx8RmScnvrTDg\nWGhI3o46MUSL01XLQqPP0Kg/bREDmTLiuLz5/HrYVUHzH25Bw7x4NUR3XSiGdy0V\nn2d1VHt56XYcNBae+hYv9udb1X0EG4hk4mqDN+0RnfP6m3AIOati8Sq5irU2g5KX\nOqSYTaPHvN7zM7DScFmaydetTPhEA4kY/WiSrNeEOSIGg5FV8BUxPTs+7Q5fznn8\ngLKfwm7IhR0Rkfg2LUQ1DGHbYGitq92+tfeKB5okMednIg7b8Fz0vSVNvKkhXdfQ\naAJU0LLlGSh+FXs+JuAn+O0aCCTiZ8sQPQpjg5t1+uceOa2gUs9iRth/V1E6h+9D\neM8zLyqZR9G73zEVFpAzwJefFg9RbU7LwLsE0/3pBtJZIFzPrG6wnvzUTzpsNmiI\nZKeM7/7OLQCKG3WX2rcUpFi+q83ZqIF6PktRRxyaWbnPhAHHTY6w+lan4ewHQA2+\nGrJUEZe0v8tuwRLnlrHs3oD0QqnDkBrWJ/Jw33eSbBm480o6XKHzEzPlI649vxC1\nHWObE1cYJKZgb+mlIKMxPbYgbFJDWBiTcPNNkftffIGuyI1PBFCoob+vVGS18ggL\nOCeqRdYrXXjkIxjr5dNI\n=6N/M\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 00be8baf5a0a0b1bbdc873a7169b65f74a0ec0f3\nparent 7029232b9212482c0476da354b83364bd28fab2f\nauthor zack-anthropic <zack@anthropic.com> 1772827583 -0800\ncommitter GitHub <noreply@github.com> 1772827583 -0800\n\nskill-creator: drop ANTHROPIC_API_KEY requirement from description optimizer (#547)\n\nimprove_description.py now calls `claude -p`\nas a subprocess instead of the Anthropic SDK, so users no longer need a\nseparate ANTHROPIC_API_KEY to run the description optimization loop. Same\nauth pattern run_eval.py already used for the triggering eval.\n\nPrompts go over stdin (they embed the full SKILL.md body). Strips CLAUDECODE\nenv var to allow nesting inside a Claude Code session. The over-1024-char\nretry is now a fresh single-turn call that inlines the too-long version\nrather than a multi-turn followup.\n\nSKILL.md: dropped the stale \"extended thinking\" reference to match.",
+      "verified_at": "2026-03-06T20:06:24Z"
+    }
+  },
+  "url": "https://api.github.com/repos/anthropics/skills/commits/b0cbd3df1533b396d281a6886d5132f623393a9c",
+  "html_url": "https://github.com/anthropics/skills/commit/b0cbd3df1533b396d281a6886d5132f623393a9c",
+  "comments_url": "https://api.github.com/repos/anthropics/skills/commits/b0cbd3df1533b396d281a6886d5132f623393a9c/comments",
+  "author": {
+    "login": "zack-anthropic",
+    "id": 139395547,
+    "node_id": "U_kgDOCE8B2w",
+    "avatar_url": "https://avatars.githubusercontent.com/u/139395547?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zack-anthropic",
+    "html_url": "https://github.com/zack-anthropic",
+    "followers_url": "https://api.github.com/users/zack-anthropic/followers",
+    "following_url": "https://api.github.com/users/zack-anthropic/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zack-anthropic/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zack-anthropic/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zack-anthropic/subscriptions",
+    "organizations_url": "https://api.github.com/users/zack-anthropic/orgs",
+    "repos_url": "https://api.github.com/users/zack-anthropic/repos",
+    "events_url": "https://api.github.com/users/zack-anthropic/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zack-anthropic/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "7029232b9212482c0476da354b83364bd28fab2f",
+      "url": "https://api.github.com/repos/anthropics/skills/commits/7029232b9212482c0476da354b83364bd28fab2f",
+      "html_url": "https://github.com/anthropics/skills/commit/7029232b9212482c0476da354b83364bd28fab2f"
+    }
+  ]
+}

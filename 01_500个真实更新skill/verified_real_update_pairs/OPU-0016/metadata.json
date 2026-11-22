@@ -1,0 +1,101 @@
+{
+  "repository": "anthropics/skills",
+  "primary": "skills/frontend-design/SKILL.md",
+  "pinned_commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+  "repository_license": null,
+  "key": "8664ecae2321fa4a632d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "53048666b05b4799081517d00e09e0a2dd688678",
+    "computed_tree_sha": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
+    "api_tree_sha_as_returned": "0d5b74a14bdf3ebcd64f352d06376a2ef05ed296",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "size": 10174,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "decdff43d05908b4c1fc2cfd2d80fc5743440934",
+        "sha256": "1608ea77fbb6fc30d13a97d12cfa8ebf31358d40f0dd97beed24829d6b3f45dd",
+        "size": 8260,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+    "computed_tree_sha": "d79e2a5bb4df4a386c2adcdd9ab8709bba28c3f6",
+    "api_tree_sha_as_returned": "d79e2a5bb4df4a386c2adcdd9ab8709bba28c3f6",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "size": 10174,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a5333457c414d20d625f307df945842c0952ecc3",
+        "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+        "size": 9390,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "53048666b05b4799081517d00e09e0a2dd688678",
+  "new_commit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update frontend-design skill to avoid generic design defaults (#1713)",
+  "new_commit_time": "2026-09-03T16:37:13Z",
+  "compare_url": "https://github.com/anthropics/skills/compare/53048666b05b4799081517d00e09e0a2dd688678...41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "commit_url": "https://github.com/anthropics/skills/commit/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "skill_directory": "skills/frontend-design",
+  "local_directory": "verified_real_update_pairs/OPU-0016",
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0016",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

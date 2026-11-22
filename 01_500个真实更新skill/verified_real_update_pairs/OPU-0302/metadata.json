@@ -1,0 +1,136 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/assuredworkloads-environment-assessor/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "bfd201d2f1bd46da8c49",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "92776fbf3875a5ee7424124e398956a998483056",
+    "computed_tree_sha": "c26ea0a891a8e62b6f4d994695edf1ecd1d60853",
+    "api_tree_sha_as_returned": "c26ea0a891a8e62b6f4d994695edf1ecd1d60853",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9db3de81b396657120f7bad5b30559ec69eb6717",
+        "sha256": "58549f64a0e3610eb90fe099b0f5dcedd50d49ef905c9c8641b7a38f0bf0a943",
+        "size": 27250,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "4751048f984fa23a3cc44e4a3ed5b79fe5b9d308",
+        "sha256": "227e12fa56f1a70fecfc76aac207a03f85cf3f0c19b239e1b4552c389644db60",
+        "size": 1959,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gcloud-commands.md",
+        "git_blob_sha1": "86442efd35c9705279d55f6dca5330a86638d02c",
+        "sha256": "515cae538cb004e496e3e8f1e7f88d4d2928a68119dbc94a1775a28599662090",
+        "size": 5890,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/evaluate_control_rules.py",
+        "git_blob_sha1": "c4c6300edaef0d3599e83c3e4cce5b5cf17d631a",
+        "sha256": "dfe929381ccca2c99c59f192ed17328e52d5317bddf43df0e11902266abff2cd",
+        "size": 18624,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_workload_payload.py",
+        "git_blob_sha1": "66446b595f6c796fc195349fd8942b1eaee80957",
+        "sha256": "ba229bf803892255e90cee68492283fee2ff24d55ac92b6a11999637a7730957",
+        "size": 11320,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "928940c02e9973dbf31322fb5463dff0a53e9d8e",
+    "computed_tree_sha": "f37548a3130f98b6a6f26967882866da2811f744",
+    "api_tree_sha_as_returned": "f37548a3130f98b6a6f26967882866da2811f744",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "dc4743b150a9d047962696f584a3dce594acefe9",
+        "sha256": "48a3a0c395bcfb27b6397b781031e237389553539f7bbf742d13d5c76b5f64a6",
+        "size": 28655,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "4751048f984fa23a3cc44e4a3ed5b79fe5b9d308",
+        "sha256": "227e12fa56f1a70fecfc76aac207a03f85cf3f0c19b239e1b4552c389644db60",
+        "size": 1959,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gcloud-commands.md",
+        "git_blob_sha1": "3d3c4cf7fb7b8e1a54f36728d7945d9f520affd8",
+        "sha256": "e217529cc533d68bf8deb10b4ece6624aceee18f6b95afcf97ab30888d742971",
+        "size": 4652,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/evaluate_control_rules.py",
+        "git_blob_sha1": "c4c6300edaef0d3599e83c3e4cce5b5cf17d631a",
+        "sha256": "dfe929381ccca2c99c59f192ed17328e52d5317bddf43df0e11902266abff2cd",
+        "size": 18624,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_workload_payload.py",
+        "git_blob_sha1": "66446b595f6c796fc195349fd8942b1eaee80957",
+        "sha256": "ba229bf803892255e90cee68492283fee2ff24d55ac92b6a11999637a7730957",
+        "size": 11320,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/gcloud-commands.md"
+  ],
+  "old_commit": "92776fbf3875a5ee7424124e398956a998483056",
+  "new_commit": "928940c02e9973dbf31322fb5463dff0a53e9d8e",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Ground Personnel Support Model on public framework description and align deployment guidance with Assured Workloads Frameworks Console in assuredworkloads-environment-assessor.\n\nPiperOrigin-RevId: 1011964095",
+  "new_commit_time": "2026-11-02T08:59:01Z",
+  "compare_url": "https://github.com/google/skills/compare/92776fbf3875a5ee7424124e398956a998483056...928940c02e9973dbf31322fb5463dff0a53e9d8e",
+  "commit_url": "https://github.com/google/skills/commit/928940c02e9973dbf31322fb5463dff0a53e9d8e",
+  "skill_directory": "skills/cloud/assuredworkloads-environment-assessor",
+  "local_directory": "verified_real_update_pairs/OPU-0302",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0302",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

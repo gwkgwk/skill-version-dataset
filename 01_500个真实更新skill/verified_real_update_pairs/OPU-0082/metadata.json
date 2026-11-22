@@ -1,0 +1,93 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/django-perf-review/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "bc12249cfcc31e129580",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+    "computed_tree_sha": "24b9a68dd047570de11e72bc636a49416b33b462",
+    "api_tree_sha_as_returned": "24b9a68dd047570de11e72bc636a49416b33b462",
+    "files": [
+      {
+        "path": "LICENSE",
+        "git_blob_sha1": "5c9a43ce299f7ab8e7c32177dc2d898c58216885",
+        "sha256": "6498709ced00a7f52d527da0af674d5c83ac4f6364e2197ecdc0057834f6151a",
+        "size": 102,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3a317be487dbf130557ea97cdd2f19439c81e2cd",
+        "sha256": "d45298cb3c2b06777a28a2cadbcbb4eacc1e987ade230f4f94947ad927c92033",
+        "size": 11430,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "3482d8dd35315adf34607f1c12bf793e14890bfe",
+    "computed_tree_sha": "5f33f255cfad75d16ba21b22265421c2474adb1a",
+    "api_tree_sha_as_returned": "5f33f255cfad75d16ba21b22265421c2474adb1a",
+    "files": [
+      {
+        "path": "LICENSE",
+        "git_blob_sha1": "5c9a43ce299f7ab8e7c32177dc2d898c58216885",
+        "sha256": "6498709ced00a7f52d527da0af674d5c83ac4f6364e2197ecdc0057834f6151a",
+        "size": 102,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ffc264e0b02ce0110d55cfbece839b1f525da310",
+        "sha256": "52283bff7b23f06f94bbb413d174fd1cbcf497f8e8a63d4f0d569ba6bfd949d4",
+        "size": 11426,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+  "new_commit": "3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(allowed-tools): remove commas, use whitespace\n\nCommas are find for Claude, but both the spec and warden (via dotagents-lib) expect whitespace-separated tools. Warden has been quietly having trouble using anything but the first allowed tool.\n- https://agentskills.io/specification\n- https://github.com/getsentry/dotagents/blob/399121d28144c118883ade1815081e2db0830e91/packages/dotagents-lib/src/skills/loader.ts#L109",
+  "new_commit_time": "2026-09-28T23:37:52Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/8ca687957041ab9ece4562aad2b399b8dc8e4cae...3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "commit_url": "https://github.com/getsentry/skills/commit/3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "skill_directory": "skills/django-perf-review",
+  "local_directory": "verified_real_update_pairs/OPU-0082",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0082",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

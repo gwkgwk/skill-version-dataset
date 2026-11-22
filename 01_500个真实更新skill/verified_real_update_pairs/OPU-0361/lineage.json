@@ -1,0 +1,82 @@
+{
+  "sha": "29424a451e2b9c8adc44f6d5251310df8f044ae7",
+  "node_id": "C_kwDOQ55KR9oAKDI5NDI0YTQ1MWUyYjljOGFkYzQ0ZjZkNTI1MTMxMGRmOGYwNDRhZTc",
+  "commit": {
+    "author": {
+      "name": "omarinuwa",
+      "email": "omar.inuwa@trailofbits.com",
+      "date": "2026-10-14T20:03:08Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-14T20:03:08Z"
+    },
+    "message": "fix(diagramming-code): drop the unused pre-analysis step and name a language in examples (#365)\n\nStep 1 told the model to build a QueryEngine and run engine.preanalysis()\n\"for data-flow diagrams\", but the diagram command builds its own engine and\nnever reads pre-analysis data: call-graph, complexity and data-flow output\nis byte-identical with and without it on Trailmark 0.5.0. Remove the step\n(one heredoc and one extra full parse per run), and drop diagramming-code\nfrom the core skill's \"always run preanalysis before\" sentence.\n\ndiagram.py defaults to --language python, so five examples without a\nlanguage parsed any repository as Python; add `-l auto`. The Quick Start\nfocused `main`, which fails on repositories without one; use a placeholder.\nA test keeps the skill's commands consistent with this.\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+    "tree": {
+      "sha": "f9062a589161efcff14497acbddd759454a22bae",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/f9062a589161efcff14497acbddd759454a22bae"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/29424a451e2b9c8adc44f6d5251310df8f044ae7",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqz9/8CRC1aQ7uu5UhlAAAOq8QACBiRoPL5Liu1GC+XFkvGSNA\nirUmtcqbeUOYA1RQrC5DGBdJCmXy8xCPfhqP4ddsfUczkG9ZGM6kyHtJay1Q0JJm\njaaj2LsOYDdcegCSV61ZpLjqcsPSyw/rt32NBETibCQ0XT07V23KG62sLuMOPCJ8\nTRWvxpprDNmwdhQ/YVDFohJLRObHzNCHrzbKxXsYgHsgr1rMWqlorqHVRd8Pkon4\nqFwMQ5mzQVRlaUDJHeMtKxNN75+emTWvz0qBGTdktaSRTn4aILqu2MKCmnTjIRvT\nM5PukY0bSNOkaP9sSlcpGDv3n8Sj1uFCOfK5a0QbW/jv9a6tw5gEaf99sai89bow\nZgjlBzD9k516NxTYe3afVRjRQH7/2zZ12pR97zZTI+s288dOHbGuWYjRhU1HoPCk\n095yjZeYRZYRDJH20sbnTTyLhycfTN+CJR5nvrEuhNkZtHrA6UnRLRQmSGGOZ8+4\nYJw1kvjLvOUa4ApJvbcriQvdzsnj/nSN7RRBd7s66q++dUrttmk2WAtAg6gELHkZ\nMh7pvZ5BnMJtqlJkD16omB+M90+czm4TVKvabWyRl9SXSVjNgO7gq1K5wHGuWPrW\nq4E3eqQqZ2q1H1/Uqd7eqiu8BaPzMqZQxeVsdlVNdXYtRpzQS5wgHEe4VjcXcoZL\nHf9KuYM6553J6iyH21Za\n=beX3\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree f9062a589161efcff14497acbddd759454a22bae\nparent bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68\nauthor omarinuwa <omar.inuwa@trailofbits.com> 1792008188 +0100\ncommitter GitHub <noreply@github.com> 1792008188 -0400\n\nfix(diagramming-code): drop the unused pre-analysis step and name a language in examples (#365)\n\nStep 1 told the model to build a QueryEngine and run engine.preanalysis()\n\"for data-flow diagrams\", but the diagram command builds its own engine and\nnever reads pre-analysis data: call-graph, complexity and data-flow output\nis byte-identical with and without it on Trailmark 0.5.0. Remove the step\n(one heredoc and one extra full parse per run), and drop diagramming-code\nfrom the core skill's \"always run preanalysis before\" sentence.\n\ndiagram.py defaults to --language python, so five examples without a\nlanguage parsed any repository as Python; add `-l auto`. The Quick Start\nfocused `main`, which fails on repositories without one; use a placeholder.\nA test keeps the skill's commands consistent with this.\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+      "verified_at": "2026-10-14T20:03:09Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/29424a451e2b9c8adc44f6d5251310df8f044ae7",
+  "html_url": "https://github.com/trailofbits/skills/commit/29424a451e2b9c8adc44f6d5251310df8f044ae7",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/29424a451e2b9c8adc44f6d5251310df8f044ae7/comments",
+  "author": {
+    "login": "omarinuwa",
+    "id": 190324229,
+    "node_id": "U_kgDOC1geBQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/190324229?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/omarinuwa",
+    "html_url": "https://github.com/omarinuwa",
+    "followers_url": "https://api.github.com/users/omarinuwa/followers",
+    "following_url": "https://api.github.com/users/omarinuwa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/omarinuwa/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/omarinuwa/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/omarinuwa/subscriptions",
+    "organizations_url": "https://api.github.com/users/omarinuwa/orgs",
+    "repos_url": "https://api.github.com/users/omarinuwa/repos",
+    "events_url": "https://api.github.com/users/omarinuwa/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/omarinuwa/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+      "html_url": "https://github.com/trailofbits/skills/commit/bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68"
+    }
+  ]
+}

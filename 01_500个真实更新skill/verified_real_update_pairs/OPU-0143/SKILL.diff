@@ -1,0 +1,11 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -52,7 +52,7 @@
+ | Alternatives with no "before", such as prototype treatments or design options | `Treatment \| Screenshot` table, one row per alternative. |
+ | A change that differs by theme | Add a light and a dark row for each location, such as `Explore › Logs, dark`. For new UI, use `Light \| Dark` columns instead. |
+ 
+-Pixel-diff every before/after pair, then confirm by eye. Move a pair with no
++Pixel-diff every before/after pair. Move a pair with no
+ visible difference, including anti-aliasing noise, to **Unchanged** with one
+ image. Leave out a table that would be empty.
+ 

@@ -1,0 +1,128 @@
+{
+  "repository": "google/skills",
+  "primary": "plugins/cloud/google-cloud-developer/skills/retrieving-developer-knowledge/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "f5d3255e2528baddf174",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "cd6fde0b299b34bbad05f64ad1ed5bd2ed05e634",
+    "computed_tree_sha": "879976248c19a326c75b556d4ec79b6e6db925e2",
+    "api_tree_sha_as_returned": "879976248c19a326c75b556d4ec79b6e6db925e2",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d2c999018ac762a2ad8033b94608658e4c650375",
+        "sha256": "d76d050b26bc7d0a319c603d081d4c6522ba911d6e1c4978e0cc6f7013ccc9ac",
+        "size": 8164,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-fallback.md",
+        "git_blob_sha1": "d4626fafd86fb5fb24b13a8a19ee6b03b8d45e32",
+        "sha256": "0608ebee1a94eb26ff67a3cfca403f574652e27f58cc9a949e6f325d9f5a811d",
+        "size": 6481,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "6965740d9e5acdeb9179f7a6c6b663fe0671c9f2",
+        "sha256": "b4c0a6d6638796c6a2fd89c6cf3fa7a11162fb864a6072d04c9ca8d49e07872f",
+        "size": 1042,
+        "mode": "100644"
+      },
+      {
+        "path": "references/supported-domains.md",
+        "git_blob_sha1": "16f101580f834751f71c148210de1ef1417fe5c5",
+        "sha256": "a3292832af739ad40f530eff852e0d4017c329d7df6e9ae02c98f44a719732f2",
+        "size": 1719,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "eb932e47484af69db1887b30778bc071d8d094eb",
+    "computed_tree_sha": "4d06f932eb3ae1bfc1b9ac6e45638682d8620a22",
+    "api_tree_sha_as_returned": "4d06f932eb3ae1bfc1b9ac6e45638682d8620a22",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "123a151f2ad4b4acc08e0814cbb12a1abeb50f55",
+        "sha256": "c3d991be534984082d6f6232b3cc213c9f94556ccee2657b527f95dc427be0a1",
+        "size": 8384,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-fallback.md",
+        "git_blob_sha1": "b460ab78d2cbdbb9590967831e65e6b9e08bc041",
+        "sha256": "657ade2d78217408dd705cae56b074048ec2a3aeb6309fbca98aa17163d3e894",
+        "size": 6611,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "48f172c19ae502e43ffa4571aeea265359ba9477",
+        "sha256": "b6b7e4216564421cb9fe92aa0a19867680943348c95ea087fc4199446c5bd080",
+        "size": 1955,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "6965740d9e5acdeb9179f7a6c6b663fe0671c9f2",
+        "sha256": "b4c0a6d6638796c6a2fd89c6cf3fa7a11162fb864a6072d04c9ca8d49e07872f",
+        "size": 1042,
+        "mode": "100644"
+      },
+      {
+        "path": "references/supported-domains.md",
+        "git_blob_sha1": "16f101580f834751f71c148210de1ef1417fe5c5",
+        "sha256": "a3292832af739ad40f530eff852e0d4017c329d7df6e9ae02c98f44a719732f2",
+        "size": 1719,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/api-fallback.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "cd6fde0b299b34bbad05f64ad1ed5bd2ed05e634",
+  "new_commit": "eb932e47484af69db1887b30778bc071d8d094eb",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(google-cloud-developer): add usage attribution to MCP configs and bundled skills\n\nBump google-cloud-developer to 1.1.17 with X-Goog-Api-Client plugin attribution headers across MCP configurations, inject plugin attribution into bundled skill attribution files during export, and add usage attribution to retrieving-developer-knowledge.\n\nPiperOrigin-RevId: 1014882165",
+  "new_commit_time": "2026-11-05T19:53:09Z",
+  "compare_url": "https://github.com/google/skills/compare/cd6fde0b299b34bbad05f64ad1ed5bd2ed05e634...eb932e47484af69db1887b30778bc071d8d094eb",
+  "commit_url": "https://github.com/google/skills/commit/eb932e47484af69db1887b30778bc071d8d094eb",
+  "skill_directory": "plugins/cloud/google-cloud-developer/skills/retrieving-developer-knowledge",
+  "local_directory": "verified_real_update_pairs/OPU-0061",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0061",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

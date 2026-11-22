@@ -1,0 +1,165 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/security-model/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "78367d020cafe229527e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+    "computed_tree_sha": "5205f8e23019c4808fad4b88dd76877a3960d775",
+    "api_tree_sha_as_returned": "5205f8e23019c4808fad4b88dd76877a3960d775",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3a047c47dfa7bf5da09a329cc8240028078137b1",
+        "sha256": "77dc0c410029c23e35a11317182385c8770da7e1bb35a74b4d169f7933804cfd",
+        "size": 17397,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "7801669ee4d3d94fa672163e81790be812c5391b",
+        "sha256": "8cf77f0aebeb5f6eff9f2e977e7bac15cb5e44bdc3cdd50d6aba23bb475d2dd9",
+        "size": 7014,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "8904344f5844c7eb48df492f3781cf9cfb57fb0f",
+        "sha256": "39e1a533d5cb5a922a6d713de37a31fc32ea4d2ec1e76959e9745827b6e3b040",
+        "size": 6386,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "e5c2b76b1a64c9813397450229f3c20de25c9595",
+        "sha256": "67c12399714ebe2a7ed8fe5d9891700abd5a6c51f40ed50b1f0e8063091371f1",
+        "size": 294,
+        "mode": "100644"
+      },
+      {
+        "path": "references/consuming-policy.md",
+        "git_blob_sha1": "e3644ae28a88e912065c81018a22eef5ac49b342",
+        "sha256": "9a3b5b4100877475dd99e074b3413247c60f7691ca26088f5979943f4f81212a",
+        "size": 2827,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/resolve_security_model.py",
+        "git_blob_sha1": "b588d7d2de3343c72ab1c6581bda965f3d5c0d9d",
+        "sha256": "0aa4908a8de81cbecbcc4da2d1135a7f93113bae816a82932015c7b283234828",
+        "size": 17684,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/selftest_resolve_security_model.py",
+        "git_blob_sha1": "43700b1bb4062ddf6da8002106d461e99d364fde",
+        "sha256": "c0ca76f3aeee60b0cda0332efc3e74125a0bed19d4d2bad97334ce94f771d70f",
+        "size": 10197,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "2960faf806231e253302a410b9e97e7682aa8b64",
+    "computed_tree_sha": "0007c1cc946bea5c4bf0268ad4c5feb9501757a9",
+    "api_tree_sha_as_returned": "0007c1cc946bea5c4bf0268ad4c5feb9501757a9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a1cc5a33ac409ac48b90c128b83d3e831900add9",
+        "sha256": "ae7bab80af7fca8c8cf65231631a082c7eb462e75f354aa9c040142508671c89",
+        "size": 18407,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "df905c07f9183bea98a99828b4fc6e04f42b1509",
+        "sha256": "9a3902dab2806d919609c48394ef38b67a3f682c89e19a638e19d826884f50c0",
+        "size": 7394,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "9262c469278322f3cda2b9d2ba231f85a8e44e51",
+        "sha256": "f6b6aca4b0d7ad47d7081b905a806e2c16ea5fc81010954ce84b8dfd17a6ad4b",
+        "size": 6443,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "e5c2b76b1a64c9813397450229f3c20de25c9595",
+        "sha256": "67c12399714ebe2a7ed8fe5d9891700abd5a6c51f40ed50b1f0e8063091371f1",
+        "size": 294,
+        "mode": "100644"
+      },
+      {
+        "path": "references/consuming-policy.md",
+        "git_blob_sha1": "e3644ae28a88e912065c81018a22eef5ac49b342",
+        "sha256": "9a3b5b4100877475dd99e074b3413247c60f7691ca26088f5979943f4f81212a",
+        "size": 2827,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/resolve_security_model.py",
+        "git_blob_sha1": "b588d7d2de3343c72ab1c6581bda965f3d5c0d9d",
+        "sha256": "0aa4908a8de81cbecbcc4da2d1135a7f93113bae816a82932015c7b283234828",
+        "size": 17684,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/selftest_resolve_security_model.py",
+        "git_blob_sha1": "43700b1bb4062ddf6da8002106d461e99d364fde",
+        "sha256": "c0ca76f3aeee60b0cda0332efc3e74125a0bed19d4d2bad97334ce94f771d70f",
+        "size": 10197,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "SOURCES.md",
+    "SPEC.md"
+  ],
+  "old_commit": "d12f250460ffd961f549dbebf7eeb0cf4afd4c2e",
+  "new_commit": "2960faf806231e253302a410b9e97e7682aa8b64",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(security-model): add Component Map section to policy drafts\n\nDrafts now map the security-critical directories and files, grouped by\nthe trust level of their input, with a one-line purpose and the\ninvariants each one bears. Paths are backticked so check catches them\nmoving.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+  "new_commit_time": "2026-11-02T21:34:04Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/d12f250460ffd961f549dbebf7eeb0cf4afd4c2e...2960faf806231e253302a410b9e97e7682aa8b64",
+  "commit_url": "https://github.com/getsentry/skills/commit/2960faf806231e253302a410b9e97e7682aa8b64",
+  "skill_directory": "skills/security-model",
+  "local_directory": "verified_real_update_pairs/OPU-0187",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0187",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sha": "8fadbd6901774d64fe64135775a170c5deb9c9ee",
+  "node_id": "C_kwDORcxyRtoAKDhmYWRiZDY5MDE3NzRkNjRmZTY0MTM1Nzc1YTE3MGM1ZGViOWM5ZWU",
+  "commit": {
+    "author": {
+      "name": "Justin Poehnelt",
+      "email": "jpoehnelt@google.com",
+      "date": "2026-03-04T23:03:59Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-04T23:03:59Z"
+    },
+    "message": "feat: smarter truncation of method/resource descriptions (#68)\n\n* feat: smarter truncation of method/resource descriptions\n\n- Add shared truncate_description() in src/text.rs with configurable\n  limits and optional markdown link stripping\n- Named constants: CLI_DESCRIPTION_LIMIT (200), FRONTMATTER_DESCRIPTION_LIMIT (120),\n  SKILL_BODY_DESCRIPTION_LIMIT (500)\n- CLI help and frontmatter strip markdown links to save space\n- Skill body preserves URLs so agents can follow references\n- Truncation prefers sentence boundaries, falls back to word boundaries\n- Reads full descriptions from discovery doc for skill body text\n\nFixes #64\n\n* fix: address PR review comments and improve coverage\n\n- Fix sentence boundary detection at exact end of prefix (HIGH)\n- Use extend() for link text emission (MEDIUM)\n- Idiomatic find_char_from with position/map (MEDIUM)\n- Idiomatic rfind_char_boundary with rposition (MEDIUM)\n- Add 18 new tests for generate_skills.rs coverage:\n  truncate_desc, lookup_method_description, capitalize_first,\n  product_name_from_title\n- Add sentence_boundary_at_exact_limit and zero_max_chars tests\n\n---------\n\nCo-authored-by: jpoehnelt-bot <jpoehnelt-bot@users.noreply.github.com>",
+    "tree": {
+      "sha": "e3be5614745658674ae2e3ca05f116a1c8b40013",
+      "url": "https://api.github.com/repos/googleworkspace/cli/git/trees/e3be5614745658674ae2e3ca05f116a1c8b40013"
+    },
+    "url": "https://api.github.com/repos/googleworkspace/cli/git/commits/8fadbd6901774d64fe64135775a170c5deb9c9ee",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpqLpfCRC1aQ7uu5UhlAAAfggQABH1FmxnHsPWe3oXORSJn9jC\nJvbJyHZifFmCxR6l/tZUN/yo848XUk/TGbEj2IjwmUWml2Z2yy4juH8kRW7kC92Z\n3on9YoP7muHVD5ghbZt+KdCsvAUIuCkS32Xw7+tbtusNJx5znwU/5bHETMnxqJtS\nKaIdcM7xlguXQ9bC1e8yPXrGiNAHzg6Orp921rm3VcdMfk9KohUTLUUdMD/XpXBX\neCxGw2u7XUFgA9Hf9iWy7lerI8l88pCDbhMPlI+BMHeuGWeDuU96JO4TI22nwfDm\n/CEVH8l8aqjdlsbjPFhGaYekEmYJpG5Y7D4SwKeafM6CrIcytCMTzZCFLYdNXii0\n/Q6WcJTFTsINIdS1CNCvmuvRPf0BJ3xTcArTIYua1vxEBHhXkFnO7yakwOchRWAE\nQeF9gIPQhAI7otRqQDc5i+/Kicx/EpDwe13RzZasgbN1/kicTfcIO3sQV1VWMHYK\n/18mJwdVnk1ZI/VTTxt6a/xjJhYLqwhsGFRUPrtEOUDGgFOIBU731K1rUXtQarSg\nlPP3sDa4qyZpdL0S1eIqbDD+ytw9/axozdTJo2egI3d1kHpTH+HNTagg2kZgqKqv\niPaIvi8Yakcn6BjNtSZEtf2CHlzZDN8XkvJsw2mwDocgfeTeSJz8kP2064ldnva9\nNv6StjiLzC0JgKM1+alJ\n=Il/l\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree e3be5614745658674ae2e3ca05f116a1c8b40013\nparent bcc6c8d24e6cc76321666e806eeafeacbd4a57b4\nauthor Justin Poehnelt <jpoehnelt@google.com> 1772665439 -0700\ncommitter GitHub <noreply@github.com> 1772665439 -0800\n\nfeat: smarter truncation of method/resource descriptions (#68)\n\n* feat: smarter truncation of method/resource descriptions\n\n- Add shared truncate_description() in src/text.rs with configurable\n  limits and optional markdown link stripping\n- Named constants: CLI_DESCRIPTION_LIMIT (200), FRONTMATTER_DESCRIPTION_LIMIT (120),\n  SKILL_BODY_DESCRIPTION_LIMIT (500)\n- CLI help and frontmatter strip markdown links to save space\n- Skill body preserves URLs so agents can follow references\n- Truncation prefers sentence boundaries, falls back to word boundaries\n- Reads full descriptions from discovery doc for skill body text\n\nFixes #64\n\n* fix: address PR review comments and improve coverage\n\n- Fix sentence boundary detection at exact end of prefix (HIGH)\n- Use extend() for link text emission (MEDIUM)\n- Idiomatic find_char_from with position/map (MEDIUM)\n- Idiomatic rfind_char_boundary with rposition (MEDIUM)\n- Add 18 new tests for generate_skills.rs coverage:\n  truncate_desc, lookup_method_description, capitalize_first,\n  product_name_from_title\n- Add sentence_boundary_at_exact_limit and zero_max_chars tests\n\n---------\n\nCo-authored-by: jpoehnelt-bot <jpoehnelt-bot@users.noreply.github.com>",
+      "verified_at": "2026-03-04T23:04:00Z"
+    }
+  },
+  "url": "https://api.github.com/repos/googleworkspace/cli/commits/8fadbd6901774d64fe64135775a170c5deb9c9ee",
+  "html_url": "https://github.com/googleworkspace/cli/commit/8fadbd6901774d64fe64135775a170c5deb9c9ee",
+  "comments_url": "https://api.github.com/repos/googleworkspace/cli/commits/8fadbd6901774d64fe64135775a170c5deb9c9ee/comments",
+  "author": {
+    "login": "jpoehnelt",
+    "id": 3392975,
+    "node_id": "MDQ6VXNlcjMzOTI5NzU=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3392975?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jpoehnelt",
+    "html_url": "https://github.com/jpoehnelt",
+    "followers_url": "https://api.github.com/users/jpoehnelt/followers",
+    "following_url": "https://api.github.com/users/jpoehnelt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jpoehnelt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jpoehnelt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jpoehnelt/subscriptions",
+    "organizations_url": "https://api.github.com/users/jpoehnelt/orgs",
+    "repos_url": "https://api.github.com/users/jpoehnelt/repos",
+    "events_url": "https://api.github.com/users/jpoehnelt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jpoehnelt/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "bcc6c8d24e6cc76321666e806eeafeacbd4a57b4",
+      "url": "https://api.github.com/repos/googleworkspace/cli/commits/bcc6c8d24e6cc76321666e806eeafeacbd4a57b4",
+      "html_url": "https://github.com/googleworkspace/cli/commit/bcc6c8d24e6cc76321666e806eeafeacbd4a57b4"
+    }
+  ]
+}

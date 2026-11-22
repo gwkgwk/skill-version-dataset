@@ -1,0 +1,85 @@
+{
+  "repository": "google/skills",
+  "primary": "plugins/cloud/google-cloud-developer/skills/google-cloud-recipe-onboarding/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "a3d7d18f90b5307f8daa",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "2a04065b8041c49ac5fece31cb0186adf5ff9602",
+    "computed_tree_sha": "1684b4e81265d2d965f1e315ee447391accffad5",
+    "api_tree_sha_as_returned": "1684b4e81265d2d965f1e315ee447391accffad5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b9025a498a0c6036e51ba8767a8c0a29fc69587a",
+        "sha256": "fd1ff66e43e1de67999a6a91a28f2be5cdb97e2c668351a36a8e9fa47395e67d",
+        "size": 12768,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "28fc8b986e3bec1a2a91709a972d748293de02c9",
+    "computed_tree_sha": "7734d0c82a97791a3e668dd1c6d33a929052e1cc",
+    "api_tree_sha_as_returned": "7734d0c82a97791a3e668dd1c6d33a929052e1cc",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "220c46438dd314f753ff6650ce08cde07b835b63",
+        "sha256": "f922dea42e381cad35279bf39432e2371abaf009255183e7340e4703f8ab5b61",
+        "size": 13098,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "9af4259e7676adbbbb86ee3f7ce98caef99c2cc5",
+        "sha256": "76fed34f238e352f092a43d9f256e51e4b41358adf04b6696088ac494866b9fb",
+        "size": 1825,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "2a04065b8041c49ac5fece31cb0186adf5ff9602",
+  "new_commit": "28fc8b986e3bec1a2a91709a972d748293de02c9",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add usage attribution metadata to the google-cloud-recipe-onboarding skill.\n\n- Add references/attribution.md with standardized usage attribution instructions for gcloud CLI, REST API, and MCP requests.\n- Reference references/attribution.md from SKILL.md and bump metadata.version to 1.0.1.\n\nPiperOrigin-RevId: 998669605",
+  "new_commit_time": "2026-10-13T15:56:38Z",
+  "compare_url": "https://github.com/google/skills/compare/2a04065b8041c49ac5fece31cb0186adf5ff9602...28fc8b986e3bec1a2a91709a972d748293de02c9",
+  "commit_url": "https://github.com/google/skills/commit/28fc8b986e3bec1a2a91709a972d748293de02c9",
+  "skill_directory": "plugins/cloud/google-cloud-developer/skills/google-cloud-recipe-onboarding",
+  "local_directory": "verified_real_update_pairs/OPU-0048",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0048",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

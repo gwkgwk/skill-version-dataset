@@ -1,0 +1,164 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-armor-crs-rule-upgrader/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "c4bbc4f6c7d4f0476c4e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "c4a9bc36ac247e21eef07df7bf637ae4e4170890",
+    "computed_tree_sha": "22351e2149a11abf76f772a7f41e83eeb49c7f9c",
+    "api_tree_sha_as_returned": "22351e2149a11abf76f772a7f41e83eeb49c7f9c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "809fd0be8bee184bf9f82a3a6cb83b9b88faaa7a",
+        "sha256": "d611a354aaf0f65abe48bd07b2becd53617b9c6e98db5b97455e01f8f24aeee7",
+        "size": 21848,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "eb1991be23b3d958d9afd54029ef0d7c2f04993a",
+        "sha256": "caef29b186177f898f1bab6c8e4455a2d72b100b4c9677190a953a31dcfe75a6",
+        "size": 1935,
+        "mode": "100644"
+      },
+      {
+        "path": "references/contributing.md",
+        "git_blob_sha1": "3cf100b07576e567752c07209df04baf4bd6b2aa",
+        "sha256": "31cfb8ce5aa0c8e64791a6f65ad6021bbc4399127535266861dfe89f802b2d4c",
+        "size": 4439,
+        "mode": "100644"
+      },
+      {
+        "path": "references/fine_tuning_and_cel.md",
+        "git_blob_sha1": "b24b1dc8d57b157d8f7fca9554ef29eca789bf95",
+        "sha256": "5b72a4bd08f789345f1fdbaca560b6c0bdaf0d8c1464a3fe3288781db4fb6345",
+        "size": 6813,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gcloud_recipes.md",
+        "git_blob_sha1": "ee5d4aa0f4599e1e5760b46b58dd91b8d9a17b72",
+        "sha256": "f6d009303297e73f89e25770c1039aa4eb9f94a2ac391a163e3374d770eef14d",
+        "size": 8435,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruleset_mappings.md",
+        "git_blob_sha1": "d6913ee3ef54cef0d11dcb680907bc285df869b4",
+        "sha256": "cadef097c6fae180c7c427e8ea79f869c120ea82d3496c9943d6336a16bf04b4",
+        "size": 12108,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/upgrade_policy.py",
+        "git_blob_sha1": "8fcb5fad3a09c097e9eaf65113f35d91cc29895f",
+        "sha256": "c7f056ad6c0a1c27e3db9022787fc11dd0e031d9190fca82b7d388b3bdbc445d",
+        "size": 35821,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "dc266e019a32621845b6b2bb81084b3c9657774c",
+    "computed_tree_sha": "89ab038ef0de27907a08469bba2f4583d9005d09",
+    "api_tree_sha_as_returned": "89ab038ef0de27907a08469bba2f4583d9005d09",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b2834e7f0222a21f2a9abe93dcd7597b02d98939",
+        "sha256": "9ca2bf2111061b501dc009d849bacb6d77b4a74301b44cea7f5892e5fb29313e",
+        "size": 19704,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "eb1991be23b3d958d9afd54029ef0d7c2f04993a",
+        "sha256": "caef29b186177f898f1bab6c8e4455a2d72b100b4c9677190a953a31dcfe75a6",
+        "size": 1935,
+        "mode": "100644"
+      },
+      {
+        "path": "references/contributing.md",
+        "git_blob_sha1": "3cf100b07576e567752c07209df04baf4bd6b2aa",
+        "sha256": "31cfb8ce5aa0c8e64791a6f65ad6021bbc4399127535266861dfe89f802b2d4c",
+        "size": 4439,
+        "mode": "100644"
+      },
+      {
+        "path": "references/fine_tuning_and_cel.md",
+        "git_blob_sha1": "b24b1dc8d57b157d8f7fca9554ef29eca789bf95",
+        "sha256": "5b72a4bd08f789345f1fdbaca560b6c0bdaf0d8c1464a3fe3288781db4fb6345",
+        "size": 6813,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gcloud_recipes.md",
+        "git_blob_sha1": "ee5d4aa0f4599e1e5760b46b58dd91b8d9a17b72",
+        "sha256": "f6d009303297e73f89e25770c1039aa4eb9f94a2ac391a163e3374d770eef14d",
+        "size": 8435,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruleset_mappings.md",
+        "git_blob_sha1": "93d4d8ff270e27c190407605bb26cbdb369e86ff",
+        "sha256": "7d65e89d32371538c70a555509deee7dc60d09dde0a970f3b3ba99eed6cdd0e0",
+        "size": 11934,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/upgrade_policy.py",
+        "git_blob_sha1": "8fcb5fad3a09c097e9eaf65113f35d91cc29895f",
+        "sha256": "c7f056ad6c0a1c27e3db9022787fc11dd0e031d9190fca82b7d388b3bdbc445d",
+        "size": 35821,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/ruleset_mappings.md"
+  ],
+  "old_commit": "c4a9bc36ac247e21eef07df7bf637ae4e4170890",
+  "new_commit": "dc266e019a32621845b6b2bb81084b3c9657774c",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Format Markdown tables in cloud-armor-crs-rule-upgrader as single-line GFM pipe tables and bump version to 1.0.1.\n\nPiperOrigin-RevId: 1012180095",
+  "new_commit_time": "2026-11-02T16:12:55Z",
+  "compare_url": "https://github.com/google/skills/compare/c4a9bc36ac247e21eef07df7bf637ae4e4170890...dc266e019a32621845b6b2bb81084b3c9657774c",
+  "commit_url": "https://github.com/google/skills/commit/dc266e019a32621845b6b2bb81084b3c9657774c",
+  "skill_directory": "skills/cloud/cloud-armor-crs-rule-upgrader",
+  "local_directory": "verified_real_update_pairs/OPU-0344",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0344",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

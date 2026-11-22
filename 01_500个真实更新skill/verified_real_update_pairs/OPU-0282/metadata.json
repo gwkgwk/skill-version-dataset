@@ -1,0 +1,423 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/apigee-agent-gateway-governance/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "5c0fdf6f900784a2620c",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "ae55fb66945a6541ce7259bffa2af5bd22be288e",
+    "computed_tree_sha": "dca7d9db51c770874c7d5171c6799f968d248cd7",
+    "api_tree_sha_as_returned": "dca7d9db51c770874c7d5171c6799f968d248cd7",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0d027bc199d6ac5058143c7321e49e51f914a6b5",
+        "sha256": "d265b6cee9fd5cc08b529e5fe624d34d5aa9c800b76623d5c28040644603b037",
+        "size": 26548,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/apigee-agent-gateway-governance.example.yaml",
+        "git_blob_sha1": "0b7d3fde525da1befd1a466a91cfd9755c731968",
+        "sha256": "5cd29e0f76cea57e9691a63b678a184e679ea8e9a303337bcdbba5fa0d07574c",
+        "size": 21328,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/apigee-proxy-template.yaml",
+        "git_blob_sha1": "5f2936092f86b04928cf95ed65c865611385b3d1",
+        "sha256": "49faed4808877598f6dffc8808bb2ed36ec88b0e130c72456be928dde659db0b",
+        "size": 9575,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/authz-extension.example.yaml",
+        "git_blob_sha1": "7cae9d28a95eba39d8c53b763bbc5e8be62a0ba2",
+        "sha256": "53a700340b94f2d9aeae42f8167f1c679aabc2bdcc3372f44b1872c8408ef583",
+        "size": 1729,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/authz-policy.example.yaml",
+        "git_blob_sha1": "746815d84535e39826f8cf8558ed7f36b39a888f",
+        "sha256": "a0669fe22d8861e82975d70903491c225113f989dc13127fb4b2a2e1bd8480da",
+        "size": 2105,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-identity.yaml",
+        "git_blob_sha1": "2b9ca1a018eba39878a1f9a0ed4649cc07e4dca7",
+        "sha256": "282542473d4fa91a94e1a1117190e1cf41b8136f4c135075c05b7a1515f1de5f",
+        "size": 6150,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-model-armor.yaml",
+        "git_blob_sha1": "f30dc0362ad41878c59860f579cf0c0da61ec48b",
+        "sha256": "e3a4f741bab95aaed4af5ec7238ab3f4c0e810fd1bc8fe23438db43892b4631d",
+        "size": 3562,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-normalize.yaml",
+        "git_blob_sha1": "f65f69e220da6fab157263a12973b10ea072ff37",
+        "sha256": "5592e43f347c93b3c4f330dd18d3769a80ace726081fa1458cf4e72388f0f705",
+        "size": 4131,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-semantic-cache.yaml",
+        "git_blob_sha1": "2d93841b13f39482d1a490be8996535d6b78c717",
+        "sha256": "a2b2607d8f1eb39151ca89fb62b4a63cddfed4e324c034b6931779afbb385ba5",
+        "size": 8109,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-token-enforce.yaml",
+        "git_blob_sha1": "4b0b7d75228b8ff95a7b89143f80a542299cbd06",
+        "sha256": "c40c5c586ded8b9fd0993622f87fbb4bbb1fbb0a9d3a36abd10e5f1a02b5fa81",
+        "size": 16726,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-token-metering.yaml",
+        "git_blob_sha1": "f89882715f410f3307306115e518f538831579fa",
+        "sha256": "57d9e62734e1c18e51bb01ec3327f9031f84ef313bbed412e92dfb292a98625e",
+        "size": 15242,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gotchas.md",
+        "git_blob_sha1": "645b77136b2a67219cbcc3d728ca853bceb6aa01",
+        "sha256": "481309754547db32ab128c21abe344495df6b62bea96e517005e207d9b860d37",
+        "size": 44755,
+        "mode": "100644"
+      },
+      {
+        "path": "references/modes.md",
+        "git_blob_sha1": "0e42e422da38efa9eda5c82946a8f7345d961cd8",
+        "sha256": "8a3a62e621e1b58871b93ee631285f2d224b41b76ad782c07db2e5347ca6c77b",
+        "size": 47566,
+        "mode": "100644"
+      },
+      {
+        "path": "references/networking-psc.md",
+        "git_blob_sha1": "c926e2524f736013754b966d714e59e50a2e1694",
+        "sha256": "4f57f247aec507d65501dc3c74f8c2bce31da5c68b40898cd6c975a594825f7a",
+        "size": 10244,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes.md",
+        "git_blob_sha1": "def902ab168a77b5d8ee31860d2e07dd32b1989c",
+        "sha256": "c4fee36f7fc9db3db8a6e1bcb7398e4785eeee8cf48a791bdb9ab278dc36ed99",
+        "size": 9640,
+        "mode": "100644"
+      },
+      {
+        "path": "references/setup.md",
+        "git_blob_sha1": "ad61f6fd5bb2859d73a822daed4a76ad3b95ab9f",
+        "sha256": "625b737023cdfc9080ca961e1ea45a184192f01f343ea3dce8a409d105b472be",
+        "size": 7373,
+        "mode": "100644"
+      },
+      {
+        "path": "references/verify.md",
+        "git_blob_sha1": "a19f232374660d942b57a2cfb03e9147b2951801",
+        "sha256": "18f9778f795fb7a54dd803b7f5d2619e6be3c94e4bc6845a86944e4fe6fd36d0",
+        "size": 14693,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/assess_integration.sh",
+        "git_blob_sha1": "ca48199cec1bc0e9bec57ba95832998a4a3f39c4",
+        "sha256": "01e85182ca4cbcbd8ec929bdee15d050882ec31d76daecb3c739a4d7f3ab1026",
+        "size": 36324,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/compile_check.py",
+        "git_blob_sha1": "9d390aa5bc0a34e2762b15e03622c9561bdb6e01",
+        "sha256": "2f642c4a2be2745581b0093d21da98ef09e0ad6d5ce28bfba7e1d0133139fe8e",
+        "size": 10143,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/deploy_proxy.sh",
+        "git_blob_sha1": "14e5b47d0589b65870b6091dcfe5a9f8ebea602a",
+        "sha256": "3f06324330a7d4717b3802db826d94bd5082eb9aa4c6ec2dfedd04800a99c5ed",
+        "size": 24261,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/ensure_apigee_environment.sh",
+        "git_blob_sha1": "86fd5e09e430cb6114b037d2fd49bc16cbd22711",
+        "sha256": "a8d78eb7b0d7376149efab5a7f5520af21616dc95cbd0f7f341fd2606b778247",
+        "size": 18249,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/ensure_gateway_connectivity.sh",
+        "git_blob_sha1": "6f1b62b2404c281be2a28b8d736c10b2cc7bb7b1",
+        "sha256": "c451c1833fd69cc95c75bb83d4523f479ebc7f4f9b5c6644662640cc4d1cbc11",
+        "size": 21665,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/ensure_vector_search.sh",
+        "git_blob_sha1": "45cc1ea95b773ae9d19e067c20650ad596e0f292",
+        "sha256": "60f4d2671f0b37b687554403c94dba32601da9d6eaa3032e6c1acf67e10a165b",
+        "size": 19407,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/read_debug_session.sh",
+        "git_blob_sha1": "2c7b5b7a5f7406ff61d23e821b072ebc16210c3e",
+        "sha256": "888ac3b86e2900da26737eb4bc5a7729e584efefdf3331de51be47095a6cbead",
+        "size": 15845,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/teardown_vector_search.sh",
+        "git_blob_sha1": "4fc5fc86fe2d7fe1d02a637c6aa4de06649015da",
+        "sha256": "a3d497decda816ee6810de7ca7a7848b5682a52ace39e46d394932bb790c95a8",
+        "size": 9242,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f72d4289501dfb4cce66d2190f2e2827ece62814",
+    "computed_tree_sha": "252a7e9dded20e7c0ed884b5c971fe8c52cddfa9",
+    "api_tree_sha_as_returned": "252a7e9dded20e7c0ed884b5c971fe8c52cddfa9",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "108a49dc627a67f1f6a4e0ce956d54db0f4449ec",
+        "sha256": "a19f12b95a4fd653b4446bec90cef374aa0cc5376634ea808504d59467356a4e",
+        "size": 26736,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/apigee-agent-gateway-governance.example.yaml",
+        "git_blob_sha1": "0b7d3fde525da1befd1a466a91cfd9755c731968",
+        "sha256": "5cd29e0f76cea57e9691a63b678a184e679ea8e9a303337bcdbba5fa0d07574c",
+        "size": 21328,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/apigee-proxy-template.yaml",
+        "git_blob_sha1": "5f2936092f86b04928cf95ed65c865611385b3d1",
+        "sha256": "49faed4808877598f6dffc8808bb2ed36ec88b0e130c72456be928dde659db0b",
+        "size": 9575,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/authz-extension.example.yaml",
+        "git_blob_sha1": "7cae9d28a95eba39d8c53b763bbc5e8be62a0ba2",
+        "sha256": "53a700340b94f2d9aeae42f8167f1c679aabc2bdcc3372f44b1872c8408ef583",
+        "size": 1729,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/authz-policy.example.yaml",
+        "git_blob_sha1": "746815d84535e39826f8cf8558ed7f36b39a888f",
+        "sha256": "a0669fe22d8861e82975d70903491c225113f989dc13127fb4b2a2e1bd8480da",
+        "size": 2105,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-identity.yaml",
+        "git_blob_sha1": "2b9ca1a018eba39878a1f9a0ed4649cc07e4dca7",
+        "sha256": "282542473d4fa91a94e1a1117190e1cf41b8136f4c135075c05b7a1515f1de5f",
+        "size": 6150,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-model-armor.yaml",
+        "git_blob_sha1": "f30dc0362ad41878c59860f579cf0c0da61ec48b",
+        "sha256": "e3a4f741bab95aaed4af5ec7238ab3f4c0e810fd1bc8fe23438db43892b4631d",
+        "size": 3562,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-normalize.yaml",
+        "git_blob_sha1": "f65f69e220da6fab157263a12973b10ea072ff37",
+        "sha256": "5592e43f347c93b3c4f330dd18d3769a80ace726081fa1458cf4e72388f0f705",
+        "size": 4131,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-semantic-cache.yaml",
+        "git_blob_sha1": "2d93841b13f39482d1a490be8996535d6b78c717",
+        "sha256": "a2b2607d8f1eb39151ca89fb62b4a63cddfed4e324c034b6931779afbb385ba5",
+        "size": 8109,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-token-enforce.yaml",
+        "git_blob_sha1": "4b0b7d75228b8ff95a7b89143f80a542299cbd06",
+        "sha256": "c40c5c586ded8b9fd0993622f87fbb4bbb1fbb0a9d3a36abd10e5f1a02b5fa81",
+        "size": 16726,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/feature-token-metering.yaml",
+        "git_blob_sha1": "f89882715f410f3307306115e518f538831579fa",
+        "sha256": "57d9e62734e1c18e51bb01ec3327f9031f84ef313bbed412e92dfb292a98625e",
+        "size": 15242,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "03b26610a63ceeeae233a878166a7734a95d54e4",
+        "sha256": "189c6a3c739c2cf0c6fb1f162ff2078b36af2437fd407a4630d0eca135a14148",
+        "size": 1945,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gotchas.md",
+        "git_blob_sha1": "645b77136b2a67219cbcc3d728ca853bceb6aa01",
+        "sha256": "481309754547db32ab128c21abe344495df6b62bea96e517005e207d9b860d37",
+        "size": 44755,
+        "mode": "100644"
+      },
+      {
+        "path": "references/modes.md",
+        "git_blob_sha1": "0e42e422da38efa9eda5c82946a8f7345d961cd8",
+        "sha256": "8a3a62e621e1b58871b93ee631285f2d224b41b76ad782c07db2e5347ca6c77b",
+        "size": 47566,
+        "mode": "100644"
+      },
+      {
+        "path": "references/networking-psc.md",
+        "git_blob_sha1": "c926e2524f736013754b966d714e59e50a2e1694",
+        "sha256": "4f57f247aec507d65501dc3c74f8c2bce31da5c68b40898cd6c975a594825f7a",
+        "size": 10244,
+        "mode": "100644"
+      },
+      {
+        "path": "references/recipes.md",
+        "git_blob_sha1": "def902ab168a77b5d8ee31860d2e07dd32b1989c",
+        "sha256": "c4fee36f7fc9db3db8a6e1bcb7398e4785eeee8cf48a791bdb9ab278dc36ed99",
+        "size": 9640,
+        "mode": "100644"
+      },
+      {
+        "path": "references/setup.md",
+        "git_blob_sha1": "ad61f6fd5bb2859d73a822daed4a76ad3b95ab9f",
+        "sha256": "625b737023cdfc9080ca961e1ea45a184192f01f343ea3dce8a409d105b472be",
+        "size": 7373,
+        "mode": "100644"
+      },
+      {
+        "path": "references/verify.md",
+        "git_blob_sha1": "a19f232374660d942b57a2cfb03e9147b2951801",
+        "sha256": "18f9778f795fb7a54dd803b7f5d2619e6be3c94e4bc6845a86944e4fe6fd36d0",
+        "size": 14693,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/assess_integration.sh",
+        "git_blob_sha1": "ca48199cec1bc0e9bec57ba95832998a4a3f39c4",
+        "sha256": "01e85182ca4cbcbd8ec929bdee15d050882ec31d76daecb3c739a4d7f3ab1026",
+        "size": 36324,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/compile_check.py",
+        "git_blob_sha1": "9d390aa5bc0a34e2762b15e03622c9561bdb6e01",
+        "sha256": "2f642c4a2be2745581b0093d21da98ef09e0ad6d5ce28bfba7e1d0133139fe8e",
+        "size": 10143,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/deploy_proxy.sh",
+        "git_blob_sha1": "14e5b47d0589b65870b6091dcfe5a9f8ebea602a",
+        "sha256": "3f06324330a7d4717b3802db826d94bd5082eb9aa4c6ec2dfedd04800a99c5ed",
+        "size": 24261,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/ensure_apigee_environment.sh",
+        "git_blob_sha1": "86fd5e09e430cb6114b037d2fd49bc16cbd22711",
+        "sha256": "a8d78eb7b0d7376149efab5a7f5520af21616dc95cbd0f7f341fd2606b778247",
+        "size": 18249,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/ensure_gateway_connectivity.sh",
+        "git_blob_sha1": "6f1b62b2404c281be2a28b8d736c10b2cc7bb7b1",
+        "sha256": "c451c1833fd69cc95c75bb83d4523f479ebc7f4f9b5c6644662640cc4d1cbc11",
+        "size": 21665,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/ensure_vector_search.sh",
+        "git_blob_sha1": "45cc1ea95b773ae9d19e067c20650ad596e0f292",
+        "sha256": "60f4d2671f0b37b687554403c94dba32601da9d6eaa3032e6c1acf67e10a165b",
+        "size": 19407,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/read_debug_session.sh",
+        "git_blob_sha1": "2c7b5b7a5f7406ff61d23e821b072ebc16210c3e",
+        "sha256": "888ac3b86e2900da26737eb4bc5a7729e584efefdf3331de51be47095a6cbead",
+        "size": 15845,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/teardown_vector_search.sh",
+        "git_blob_sha1": "4fc5fc86fe2d7fe1d02a637c6aa4de06649015da",
+        "sha256": "a3d497decda816ee6810de7ca7a7848b5682a52ace39e46d394932bb790c95a8",
+        "size": 9242,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "ae55fb66945a6541ce7259bffa2af5bd22be288e",
+  "new_commit": "f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to remaining 7 Cloud agent skills.\n\n- Add `references/attribution.md` to `apigee-agent-gateway-governance`, `assuredworkloads-frameworks-author`, `bigquery-migration-sql-translator`, `bigquery-udfs`, `cloud-logging-finops`, `firebase-basics`, and `managed-airflow-recommendations`.\n- Add concise `## Usage Attribution` directives in `SKILL.md` linking to `references/attribution.md`.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1007391435",
+  "new_commit_time": "2026-10-26T17:48:53Z",
+  "compare_url": "https://github.com/google/skills/compare/ae55fb66945a6541ce7259bffa2af5bd22be288e...f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "commit_url": "https://github.com/google/skills/commit/f72d4289501dfb4cce66d2190f2e2827ece62814",
+  "skill_directory": "skills/cloud/apigee-agent-gateway-governance",
+  "local_directory": "verified_real_update_pairs/OPU-0282",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0282",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

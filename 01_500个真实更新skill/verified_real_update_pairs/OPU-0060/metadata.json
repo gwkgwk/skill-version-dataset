@@ -1,0 +1,161 @@
+{
+  "repository": "google-labs-code/stitch-skills",
+  "primary": "plugins/stitch-design/skills/extract-design-md/SKILL.md",
+  "pinned_commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+  "repository_license": "Apache-2.0",
+  "key": "e345f2bbdc47a9c997ea",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d",
+    "computed_tree_sha": "767b537b391124ea978d857a35e103178028e228",
+    "api_tree_sha_as_returned": "767b537b391124ea978d857a35e103178028e228",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "91170f9431d0c639dfd973ab29922966313b242e",
+        "sha256": "1dd0f4e1d0472213f4d80630d8f54f78066157d05610db5b8348ae9a31e99fc0",
+        "size": 13997,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/DESIGN.md",
+        "git_blob_sha1": "67be49fffe0466c9c910b2da27425dd7bd21e4bc",
+        "sha256": "9a14478effd073d9fefc1f0e1084aab299078603d248406f1381462cd5a01c26",
+        "size": 6960,
+        "mode": "100644"
+      },
+      {
+        "path": "references/angular.md",
+        "git_blob_sha1": "65b81fc60b587f4c787b56d4cbe52cc23408e2ea",
+        "sha256": "4611bf5a4592e8b4b2390635b8371ed07c0852e99d9adbafac8878f4d9e019d1",
+        "size": 3579,
+        "mode": "100644"
+      },
+      {
+        "path": "references/plain-css.md",
+        "git_blob_sha1": "6bea95b0e2b89d2696eff497b77d74c3c8838441",
+        "sha256": "a4e7a8efa8d8d7b33a214a4b146263bb029ba4ead478305436e7bb7ebeace80a",
+        "size": 3991,
+        "mode": "100644"
+      },
+      {
+        "path": "references/react-tailwind.md",
+        "git_blob_sha1": "ff64661d4f022886293c4d9478ff7809ef2c2143",
+        "sha256": "9b48abffd0240e7721edaa1526674699fbaaab5838efb5fac0276b7e5efc8e15",
+        "size": 4583,
+        "mode": "100644"
+      },
+      {
+        "path": "references/svelte.md",
+        "git_blob_sha1": "898b624675d76014babe53e73eb5755be386204a",
+        "sha256": "f17530d1f2274ef5a8764355c979c992fe5c64a88a03270b69f43099fc117b9b",
+        "size": 2714,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vue.md",
+        "git_blob_sha1": "14122883e6040c341301d16a2590ac3a205edec6",
+        "sha256": "df8f4d1e166e4cca4d01a60f28a1ecf35ce45787669a79008ea0cad1ec709f9f",
+        "size": 3077,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "681a283c669eed9caa24726a593607a9dbb84957",
+    "computed_tree_sha": "35e72eb853c63ed6a364b2ff6fce63bb508dbfac",
+    "api_tree_sha_as_returned": "35e72eb853c63ed6a364b2ff6fce63bb508dbfac",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "94228a67b62d35afe52b157a6deccfb8d4d9d610",
+        "sha256": "f9c32b30acd9fea3dba7306bf38e3a859f49c1f27bcf44f9cf16d3a60a730276",
+        "size": 14078,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/DESIGN.md",
+        "git_blob_sha1": "67be49fffe0466c9c910b2da27425dd7bd21e4bc",
+        "sha256": "9a14478effd073d9fefc1f0e1084aab299078603d248406f1381462cd5a01c26",
+        "size": 6960,
+        "mode": "100644"
+      },
+      {
+        "path": "references/angular.md",
+        "git_blob_sha1": "65b81fc60b587f4c787b56d4cbe52cc23408e2ea",
+        "sha256": "4611bf5a4592e8b4b2390635b8371ed07c0852e99d9adbafac8878f4d9e019d1",
+        "size": 3579,
+        "mode": "100644"
+      },
+      {
+        "path": "references/plain-css.md",
+        "git_blob_sha1": "6bea95b0e2b89d2696eff497b77d74c3c8838441",
+        "sha256": "a4e7a8efa8d8d7b33a214a4b146263bb029ba4ead478305436e7bb7ebeace80a",
+        "size": 3991,
+        "mode": "100644"
+      },
+      {
+        "path": "references/react-tailwind.md",
+        "git_blob_sha1": "ff64661d4f022886293c4d9478ff7809ef2c2143",
+        "sha256": "9b48abffd0240e7721edaa1526674699fbaaab5838efb5fac0276b7e5efc8e15",
+        "size": 4583,
+        "mode": "100644"
+      },
+      {
+        "path": "references/svelte.md",
+        "git_blob_sha1": "898b624675d76014babe53e73eb5755be386204a",
+        "sha256": "f17530d1f2274ef5a8764355c979c992fe5c64a88a03270b69f43099fc117b9b",
+        "size": 2714,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vue.md",
+        "git_blob_sha1": "14122883e6040c341301d16a2590ac3a205edec6",
+        "sha256": "df8f4d1e166e4cca4d01a60f28a1ecf35ce45787669a79008ea0cad1ec709f9f",
+        "size": 3077,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d",
+  "new_commit": "681a283c669eed9caa24726a593607a9dbb84957",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix minor issues",
+  "new_commit_time": "2026-05-12T05:53:25Z",
+  "compare_url": "https://github.com/google-labs-code/stitch-skills/compare/27e0dc00efbcf660395e2cbd2a7bf8e8799ccf7d...681a283c669eed9caa24726a593607a9dbb84957",
+  "commit_url": "https://github.com/google-labs-code/stitch-skills/commit/681a283c669eed9caa24726a593607a9dbb84957",
+  "skill_directory": "plugins/stitch-design/skills/extract-design-md",
+  "local_directory": "verified_real_update_pairs/OPU-0060",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0060",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,34 @@
+--- old/SKILL.md
++++ new/SKILL.md
+@@ -365,6 +365,7 @@
+   await codex.emitImage({
+     bytes,
+     mimeType: "image/jpeg",
++    detail: "original",
+   });
+ };
+ 
+@@ -559,6 +560,7 @@
+ await codex.emitImage({
+   bytes: await page.screenshot({ type: "jpeg", quality: 85 }),
+   mimeType: "image/jpeg",
++  detail: "original",
+ });
+ ```
+ 
+@@ -568,6 +570,7 @@
+ await codex.emitImage({
+   bytes: await appWindow.screenshot({ type: "jpeg", quality: 85 }),
+   mimeType: "image/jpeg",
++  detail: "original",
+ });
+ ```
+ 
+@@ -577,6 +580,7 @@
+ await codex.emitImage({
+   bytes: await mobilePage.screenshot({ type: "jpeg", quality: 85 }),
+   mimeType: "image/jpeg",
++  detail: "original",
+ });
+ ```
+ 

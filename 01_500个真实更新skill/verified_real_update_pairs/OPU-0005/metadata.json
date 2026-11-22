@@ -1,0 +1,217 @@
+{
+  "repository": "google-labs-code/stitch-skills",
+  "primary": "plugins/stitch-build/skills/react-components/SKILL.md",
+  "pinned_commit": "62fdcd679747aca0792e5dd6591b10ddfad56825",
+  "repository_license": "Apache-2.0",
+  "key": "094a3b9623ff83a89b59",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 4,
+  "old": {
+    "commit": "62d6d4d5b04580da6b71932e47d96b461e0b6dc2",
+    "computed_tree_sha": "473b7a7f4a842a6e6f45a245c94cde5f848bb436",
+    "api_tree_sha_as_returned": "473b7a7f4a842a6e6f45a245c94cde5f848bb436",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "f27b7d5da8d44c446359a3f2a3f40771898ab1f9",
+        "sha256": "f000ddbcecffe54f5615b61ccc796a7b01305e95283f8c03f0d025c576b8bab9",
+        "size": 1369,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "44985d6ee01c9f5872018950c4630a3c6991e60b",
+        "sha256": "13722caed3c7e1452c7ab2cbdcac87b2672c71505e4ec86f7818f51b1950618e",
+        "size": 8818,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/gold-standard-card.tsx",
+        "git_blob_sha1": "1e275e8c8fc0405932bd82e5049dbbcf7de519fc",
+        "sha256": "c7b168b1ad6e81dbdb06a5a1cc9e4598f14c97abfbb0d15cfe36b3f4152ac4b2",
+        "size": 1995,
+        "mode": "100644"
+      },
+      {
+        "path": "package-lock.json",
+        "git_blob_sha1": "c1ab1885d60ddeac3f051b8d7ab2b36b1a9b531d",
+        "sha256": "db75fd36cd675a30d144138d4711b74429bffca81cb4cd75b866d6cdafd6e4c9",
+        "size": 7204,
+        "mode": "100644"
+      },
+      {
+        "path": "package.json",
+        "git_blob_sha1": "7e9484fe1b78a1f0023d9f27c709fa6fe295a793",
+        "sha256": "937a3476dceff2386e7828962f926bccdf4f936b4fa727703082ee7d0e8083bd",
+        "size": 355,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/architecture-checklist.md",
+        "git_blob_sha1": "f4fbd95e2d67d87977278d66830dec788f4e3fb7",
+        "sha256": "55c3407f307d557d3bd35eb3d653a18c6b2977f38efc71f6c33192ce37159c32",
+        "size": 613,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/component-template.tsx",
+        "git_blob_sha1": "10842fb818165defd1c6f173303a549318d62aba",
+        "sha256": "9d6edbca16724ebe83084ea8bb4ef0c03cace3c1773ee1b693412ac4efc30579",
+        "size": 1049,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/stitch-api-reference.md",
+        "git_blob_sha1": "0388dd0f4891693d264412619457c0a152a2fd79",
+        "sha256": "f7cd8515705dcff420e40ee69609990b12c5e2c2c1489cea10244f177af31624",
+        "size": 1225,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/style-guide.json",
+        "git_blob_sha1": "1ca1e5fda59375af7b4e50acebc29fc1d9c2ac36",
+        "sha256": "9ac47e30d145bba43af7959e70cf1d8b96ba8b0e07a860ef98b1e05d50ced712",
+        "size": 496,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch-stitch.sh",
+        "git_blob_sha1": "44721444ebf2d9380d911aff6894cecec4e33f13",
+        "sha256": "2b5939b68289d1eca1a616e7c4a4cbe6de09010941bb7756348d75509e5ef0ff",
+        "size": 1009,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate.js",
+        "git_blob_sha1": "4094b0663a62a6b065f4fe52eb8446d88df2c241",
+        "sha256": "2d2a9335b12be5da3d86e936b9bbb013808cb294e39af834bc1e1b41177e61d2",
+        "size": 2415,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "ec43edba6b33d579430188687f4e5ac8c43cffae",
+    "computed_tree_sha": "bc0bb8daeb410fd9a8dc507f51526bc57cfdab2b",
+    "api_tree_sha_as_returned": "bc0bb8daeb410fd9a8dc507f51526bc57cfdab2b",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "f27b7d5da8d44c446359a3f2a3f40771898ab1f9",
+        "sha256": "f000ddbcecffe54f5615b61ccc796a7b01305e95283f8c03f0d025c576b8bab9",
+        "size": 1369,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "95b6634256aed699fca3f9b80e68f2308d9c07c6",
+        "sha256": "a978bf8fb135c69f944432dfa4166d6a88903c524ed4be51899a226f7daa223e",
+        "size": 8769,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/gold-standard-card.tsx",
+        "git_blob_sha1": "1e275e8c8fc0405932bd82e5049dbbcf7de519fc",
+        "sha256": "c7b168b1ad6e81dbdb06a5a1cc9e4598f14c97abfbb0d15cfe36b3f4152ac4b2",
+        "size": 1995,
+        "mode": "100644"
+      },
+      {
+        "path": "package-lock.json",
+        "git_blob_sha1": "c1ab1885d60ddeac3f051b8d7ab2b36b1a9b531d",
+        "sha256": "db75fd36cd675a30d144138d4711b74429bffca81cb4cd75b866d6cdafd6e4c9",
+        "size": 7204,
+        "mode": "100644"
+      },
+      {
+        "path": "package.json",
+        "git_blob_sha1": "7e9484fe1b78a1f0023d9f27c709fa6fe295a793",
+        "sha256": "937a3476dceff2386e7828962f926bccdf4f936b4fa727703082ee7d0e8083bd",
+        "size": 355,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/architecture-checklist.md",
+        "git_blob_sha1": "f4fbd95e2d67d87977278d66830dec788f4e3fb7",
+        "sha256": "55c3407f307d557d3bd35eb3d653a18c6b2977f38efc71f6c33192ce37159c32",
+        "size": 613,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/component-template.tsx",
+        "git_blob_sha1": "10842fb818165defd1c6f173303a549318d62aba",
+        "sha256": "9d6edbca16724ebe83084ea8bb4ef0c03cace3c1773ee1b693412ac4efc30579",
+        "size": 1049,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/stitch-api-reference.md",
+        "git_blob_sha1": "0388dd0f4891693d264412619457c0a152a2fd79",
+        "sha256": "f7cd8515705dcff420e40ee69609990b12c5e2c2c1489cea10244f177af31624",
+        "size": 1225,
+        "mode": "100644"
+      },
+      {
+        "path": "resources/style-guide.json",
+        "git_blob_sha1": "1ca1e5fda59375af7b4e50acebc29fc1d9c2ac36",
+        "sha256": "9ac47e30d145bba43af7959e70cf1d8b96ba8b0e07a860ef98b1e05d50ced712",
+        "size": 496,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch-stitch.sh",
+        "git_blob_sha1": "44721444ebf2d9380d911aff6894cecec4e33f13",
+        "sha256": "2b5939b68289d1eca1a616e7c4a4cbe6de09010941bb7756348d75509e5ef0ff",
+        "size": 1009,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate.js",
+        "git_blob_sha1": "4094b0663a62a6b065f4fe52eb8446d88df2c241",
+        "sha256": "2d2a9335b12be5da3d86e936b9bbb013808cb294e39af834bc1e1b41177e61d2",
+        "size": 2415,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "62d6d4d5b04580da6b71932e47d96b461e0b6dc2",
+  "new_commit": "ec43edba6b33d579430188687f4e5ac8c43cffae",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "docs(skills): make phase 4 dev server and simulator testing optional\n\n- Update react-components and react-native skills to make Phase 4 audits optional\n- Require explicit user permission before starting dev servers, packagers, or simulators\n- Keep TypeScript compilation verification mandatory but adjust gate rules",
+  "new_commit_time": "2026-06-29T20:57:24Z",
+  "compare_url": "https://github.com/google-labs-code/stitch-skills/compare/62d6d4d5b04580da6b71932e47d96b461e0b6dc2...ec43edba6b33d579430188687f4e5ac8c43cffae",
+  "commit_url": "https://github.com/google-labs-code/stitch-skills/commit/ec43edba6b33d579430188687f4e5ac8c43cffae",
+  "skill_directory": "plugins/stitch-build/skills/react-components",
+  "local_directory": "verified_real_update_pairs/OPU-0005",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0005",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "repository": "vercel-labs/agent-skills",
+  "primary": "skills/composition-patterns/SKILL.md",
+  "pinned_commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+  "repository_license": null,
+  "key": "5132f5adf3d6e9afa4c3",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "23a77cf47783bbc1b647d40b14c1f61e3413a629",
+    "computed_tree_sha": "7a651a19b1658c4cd320a5e984c1be4b99d97c2c",
+    "api_tree_sha_as_returned": "7a651a19b1658c4cd320a5e984c1be4b99d97c2c",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "git_blob_sha1": "cf11436f3ff031ab6e70b5a0290f12798a3098c4",
+        "sha256": "d60f5614f51b62bccc6307c75493f4e82d1d13431f3e7071a845f6735ba80bf6",
+        "size": 21327,
+        "mode": "100644"
+      },
+      {
+        "path": "README.md",
+        "git_blob_sha1": "01f359b0e79ce544d1463057be54946e50d62bcd",
+        "sha256": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+        "size": 2140,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "7cab23ab83102640404ee1606a2ac6469515581e",
+        "sha256": "1c4d4944d485a34a7f28721bbe0720db79906bed559b6600757d40c5ed7bfbf6",
+        "size": 2587,
+        "mode": "100644"
+      },
+      {
+        "path": "metadata.json",
+        "git_blob_sha1": "3470b744190af044373abbfe80d94630c0cc6041",
+        "sha256": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+        "size": 530,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/_sections.md",
+        "git_blob_sha1": "0b4ad76d1433fe28af05b180d59955b994fef28e",
+        "sha256": "a1e4d5de36d447d3f89d358abe10aa7f85dfc97b876d0a9bc12329a286ef4b65",
+        "size": 680,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/_template.md",
+        "git_blob_sha1": "119a30167f162c439f05e73c63044c590dff645c",
+        "sha256": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+        "size": 329,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/architecture-avoid-boolean-props.md",
+        "git_blob_sha1": "ccee19ce495b9d7fdf08867db3c6b6282006312e",
+        "sha256": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+        "size": 2267,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/architecture-compound-components.md",
+        "git_blob_sha1": "e5e3043cb5a81b83dce0389848b828455f00854f",
+        "sha256": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+        "size": 2600,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/patterns-children-over-render-props.md",
+        "git_blob_sha1": "d4345ee30aea5f1b11815251edca7ebd0aefe2e2",
+        "sha256": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+        "size": 1886,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/patterns-explicit-variants.md",
+        "git_blob_sha1": "56e32e8bee5e5768f747db4e9718a6c2b54bfce5",
+        "sha256": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+        "size": 2395,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/state-context-interface.md",
+        "git_blob_sha1": "d961bede0c6c6e318f6ba3aca9b5dfcdb768d8f9",
+        "sha256": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+        "size": 4974,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/state-decouple-implementation.md",
+        "git_blob_sha1": "71a5afaa7d7078c262c92d32c3b97723de62f99f",
+        "sha256": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+        "size": 2699,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/state-lift-state.md",
+        "git_blob_sha1": "d7fe27b54933135f9050365b6c2001c101029d51",
+        "sha256": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+        "size": 3224,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a5343bd997c4cc4d8bf2ca61021bdc74b4d6c9d5",
+    "computed_tree_sha": "bf90d0a4b83ea054653350f9c67f6de235d3a368",
+    "api_tree_sha_as_returned": "bf90d0a4b83ea054653350f9c67f6de235d3a368",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "git_blob_sha1": "558bf9aa1e36db2161f1633c9bfae14a819f0508",
+        "sha256": "89e3ddd58fcf99a53a50e25dfd21b8cde1be5f10b7df6bacd3dfa6796932f516",
+        "size": 22627,
+        "mode": "100644"
+      },
+      {
+        "path": "README.md",
+        "git_blob_sha1": "01f359b0e79ce544d1463057be54946e50d62bcd",
+        "sha256": "85915a43a6f0b4efe525e3cf6398dd866166da2025837c4460468a24a940da94",
+        "size": 2140,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d07025bf943345bc1cf15eb923594f889ff881f0",
+        "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3",
+        "size": 2886,
+        "mode": "100644"
+      },
+      {
+        "path": "metadata.json",
+        "git_blob_sha1": "3470b744190af044373abbfe80d94630c0cc6041",
+        "sha256": "49262ed5cb4186f31ee980cf8d990be0170c51efed4908d0464a1cff9905bd05",
+        "size": 530,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/_sections.md",
+        "git_blob_sha1": "f921dd41b53e4d847f25a6b3eca25a4e8857db44",
+        "sha256": "a174213b87e6911e2b766995a2cbaf8d1534057076e82fb79fe3f0ecb38047df",
+        "size": 829,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/_template.md",
+        "git_blob_sha1": "119a30167f162c439f05e73c63044c590dff645c",
+        "sha256": "587f7d16b0660eb61fee4a4d3d7df2b3077d6835de170602c7d6e60bee559131",
+        "size": 329,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/architecture-avoid-boolean-props.md",
+        "git_blob_sha1": "ccee19ce495b9d7fdf08867db3c6b6282006312e",
+        "sha256": "007555ebb020f4d552582a2c4db194db71a1fd33094012e5187bcfa4f8c392d5",
+        "size": 2267,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/architecture-compound-components.md",
+        "git_blob_sha1": "e5e3043cb5a81b83dce0389848b828455f00854f",
+        "sha256": "f246af13dc269b521cf20eb8ad99a0cb645beac381c8c9b117262c34612c8457",
+        "size": 2600,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/patterns-children-over-render-props.md",
+        "git_blob_sha1": "d4345ee30aea5f1b11815251edca7ebd0aefe2e2",
+        "sha256": "7c45a0d21b3c4126a32cba916ee31adeae195386ad1dbbe6634aedb7457aa0ad",
+        "size": 1886,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/patterns-explicit-variants.md",
+        "git_blob_sha1": "56e32e8bee5e5768f747db4e9718a6c2b54bfce5",
+        "sha256": "8c19e596e61807549d01ce8c6954c6358199f97a8511c0c02c625ec0efda8c0e",
+        "size": 2395,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/react19-no-forwardref.md",
+        "git_blob_sha1": "e0d8f8a76f14888f2fafc8cccd3d9395e4711d0d",
+        "sha256": "881830adb7534c4b2d70db426556646ad9837f5478f744f35641f635ada22227",
+        "size": 953,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/state-context-interface.md",
+        "git_blob_sha1": "d961bede0c6c6e318f6ba3aca9b5dfcdb768d8f9",
+        "sha256": "09e73afbf9285fa416679cc864a287b9e8b821d0969272ab784295386d8c9bc3",
+        "size": 4974,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/state-decouple-implementation.md",
+        "git_blob_sha1": "71a5afaa7d7078c262c92d32c3b97723de62f99f",
+        "sha256": "76a8c1eb29a70d8996ab3f71260345af2f7bc89deab815a421d6c87c6591a9c3",
+        "size": 2699,
+        "mode": "100644"
+      },
+      {
+        "path": "rules/state-lift-state.md",
+        "git_blob_sha1": "d7fe27b54933135f9050365b6c2001c101029d51",
+        "sha256": "74c54038a6c554c748fe31cec673b80861b5d920b7553cf78cdf10d18b4b759b",
+        "size": 3224,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "AGENTS.md",
+    "SKILL.md",
+    "rules/_sections.md",
+    "rules/react19-no-forwardref.md"
+  ],
+  "old_commit": "23a77cf47783bbc1b647d40b14c1f61e3413a629",
+  "new_commit": "a5343bd997c4cc4d8bf2ca61021bdc74b4d6c9d5",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "react19 ruels",
+  "new_commit_time": "2026-01-28T16:23:54Z",
+  "compare_url": "https://github.com/vercel-labs/agent-skills/compare/23a77cf47783bbc1b647d40b14c1f61e3413a629...a5343bd997c4cc4d8bf2ca61021bdc74b4d6c9d5",
+  "commit_url": "https://github.com/vercel-labs/agent-skills/commit/a5343bd997c4cc4d8bf2ca61021bdc74b4d6c9d5",
+  "skill_directory": "skills/composition-patterns",
+  "local_directory": "verified_real_update_pairs/OPU-0015",
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "SKILL.md frontmatter",
+        "identifier": "MIT",
+        "side": "old"
+      },
+      {
+        "path": "SKILL.md frontmatter",
+        "identifier": "MIT",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0015",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

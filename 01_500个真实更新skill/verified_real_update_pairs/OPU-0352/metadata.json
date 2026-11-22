@@ -1,0 +1,211 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "f9385f97da918a65479e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+    "computed_tree_sha": "8172581a330c1baca6a4798a039c92e2b21e63a5",
+    "api_tree_sha_as_returned": "8172581a330c1baca6a4798a039c92e2b21e63a5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ad12943acff1fd73bc0449185754cfd73f4b0d52",
+        "sha256": "bb49c9516f4d714e0cc6b018ba01d9ec511a8b3ccb67ebd8a7a635a659f37911",
+        "size": 14464,
+        "mode": "100644"
+      },
+      {
+        "path": "agent-prompt.md",
+        "git_blob_sha1": "9c5804dff33802deb8c9a7712fb01383e8718015",
+        "sha256": "7ebf52233deac2a28ec9f491072a67d012773a511fde9f389d7586ebea5641d7",
+        "size": 10197,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "discovery.md",
+        "git_blob_sha1": "9dff30feb501bc0bc2b6cf4db545dd59a21ad4fb",
+        "sha256": "2bc2412af856e91ffacefb85a9f98811fe7238c99b485c03cf206969fee9dfa1",
+        "size": 15747,
+        "mode": "100644"
+      },
+      {
+        "path": "templates/domain-skill.md",
+        "git_blob_sha1": "f22ad89a008a509e1d63cdba2e8afbcc89979504",
+        "sha256": "ae51130f780dfb03871ce9dece8ce201ec2cae0e739e33bcf63516429af848cd",
+        "size": 16393,
+        "mode": "100644"
+      },
+      {
+        "path": "templates/fuzzer-skill.md",
+        "git_blob_sha1": "494a330bb3e4f8a4329f46f3aed6b23542451757",
+        "sha256": "d17711c01a388b4d6911eb15b4676c17d148918441c9932ea34548c72be7a706",
+        "size": 10672,
+        "mode": "100644"
+      },
+      {
+        "path": "templates/technique-skill.md",
+        "git_blob_sha1": "ea036aca1b25f7c344f7270a1d62b932ac4d7d75",
+        "sha256": "1009f9e03deb08318ea9ae8c67a162b544f227fd03210caa94154d21ae2eedf7",
+        "size": 11909,
+        "mode": "100644"
+      },
+      {
+        "path": "templates/tool-skill.md",
+        "git_blob_sha1": "f3be796ce21bddbc00773c2b7c2643d3f5673ef2",
+        "sha256": "734457889cbdd937cfc2d27645dbb502916aa498e9fd41ad1eafb91d3638928c",
+        "size": 9076,
+        "mode": "100644"
+      },
+      {
+        "path": "testing.md",
+        "git_blob_sha1": "df748cb924cd4c2289ae1e59e05d20620e8525b2",
+        "sha256": "1e5517350c551913cb8567ae21337eff01af7e57c6228e5a5fa23b9a36b0f40c",
+        "size": 16139,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "3deb39e7b346e0ac213f77db6f04fc6ee2275f33",
+    "computed_tree_sha": "2582ecd78f4fdcc738976dd85d162b8cd06bba8a",
+    "api_tree_sha_as_returned": "2582ecd78f4fdcc738976dd85d162b8cd06bba8a",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6f2b4fa89c07911cb6a9325c7f7ca0a5a6f7b4f1",
+        "sha256": "84d2022bff1675f77f71a219aa3999b01dc3fcfeff1666965177195ecf808aaa",
+        "size": 14641,
+        "mode": "100644"
+      },
+      {
+        "path": "agent-prompt.md",
+        "git_blob_sha1": "08d3ef246a334302f1ad1a3458b8fb03773c350c",
+        "sha256": "504b2f1ff37f118184085c35029b25d7934e85ec445982a9af12586f526e90e4",
+        "size": 11497,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "discovery.md",
+        "git_blob_sha1": "9dff30feb501bc0bc2b6cf4db545dd59a21ad4fb",
+        "sha256": "2bc2412af856e91ffacefb85a9f98811fe7238c99b485c03cf206969fee9dfa1",
+        "size": 15747,
+        "mode": "100644"
+      },
+      {
+        "path": "templates/domain-skill.md",
+        "git_blob_sha1": "df8db893ceb2a6c95b712bc04b28157748a7c6d5",
+        "sha256": "da2c65ad7d1795f67846d6c5d844c77727b7da7c82ce82bbd387c2d288eb201f",
+        "size": 17036,
+        "mode": "100644"
+      },
+      {
+        "path": "templates/fuzzer-skill.md",
+        "git_blob_sha1": "52aa87404ce989aa4168d00767e4689a67a0dfff",
+        "sha256": "d83c4f95b97376a5f146e943fbd981cfbb6a9b786c5342edd2c63c4ca2ea5f78",
+        "size": 11363,
+        "mode": "100644"
+      },
+      {
+        "path": "templates/technique-skill.md",
+        "git_blob_sha1": "997e4026dc431fc1e16eac7aba456a296ecc56cb",
+        "sha256": "565e05f3419c088c852595a918595b844cf2e4db91b9783c3047e431c0802121",
+        "size": 12641,
+        "mode": "100644"
+      },
+      {
+        "path": "templates/tool-skill.md",
+        "git_blob_sha1": "50ecf6fd2808f1f7c84b225cbf8ee176e79cdff5",
+        "sha256": "4d36ed99022e09df35a948b45d19251ea44089618eef2da24ca01998cff2ebc2",
+        "size": 9440,
+        "mode": "100644"
+      },
+      {
+        "path": "testing.md",
+        "git_blob_sha1": "771118da081512e181694d567421c0695fabd64a",
+        "sha256": "3f7b53df6bb98679a7da30420d9e85b1f5fbb728faa425d1b176753870935c64",
+        "size": 16692,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "agent-prompt.md",
+    "templates/domain-skill.md",
+    "templates/fuzzer-skill.md",
+    "templates/technique-skill.md",
+    "templates/tool-skill.md",
+    "testing.md"
+  ],
+  "old_commit": "4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+  "new_commit": "3deb39e7b346e0ac213f77db6f04fc6ee2275f33",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "testing-handbook-skills: make 15 descriptions routable (#276)\n\n* testing-handbook-skills: make 15 descriptions routable\n\nEvery description was a tool-encyclopedia blurb averaging 125 chars —\nthe first half defined the tool, the second half restated it as a\ntrigger. \"Coverage-guided fuzzer built into LLVM for C/C++ projects.\nUse for fuzzing C/C++ code that can be compiled with Clang.\" Fifteen\nskills competing on wording like that lose to each other and to\nsiblings elsewhere in the marketplace.\n\nEach is now three parts: what it does for the reader, task first, since\nthe name field already carries the tool name; what it covers, in\nconcrete flags and symbols; then two to four situations in the words a\nuser would type. The anchors are the point —  LLVMFuzzerTestOneInput,\nfuzz_target!, FuzzedDataProvider, afl-clang-fast, ASAN_OPTIONS,\nproject.yaml, an ASan stack trace, a campaign that finds nothing.\n\nFix the generator too, or the next skill it emits is thin again. All\nfour templates prescribed the shape being removed, and their worked\nexamples were these same descriptions. agent-prompt.md now says why the\nexisting rule is not enough: \"MUST include Use when\" is satisfied by\n\"Use for fuzzing C/C++ code\", which is how these got written.\n\nPut descriptions on one quoted line rather than a folded block. Eight of\nthese skills already fail the plugin's own 500-line limit, and folded\nblocks added 4-5 lines to each; one quoted line removes 1-2 instead.\nIt is also what the rest of the repo uses at this length and is exempt\nfrom the validator's plain-scalar rule.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* testing-handbook-skills: ground three descriptions, gate placeholders\n\nThree descriptions advertised anchors that appear nowhere in the skill\nthey route to — the worst failure for a change about routing, since the\ndescription wins the query and the skill then has nothing to say.\n\nharness-writing claimed \"C/C++, Rust, Python, and Ruby\". Grepping it for\nruby, gem, or .rb returns only that line; Python appears once, as a\nRelated Skills row. It would have taken \"harness for my Ruby gem\" from\nruzzy and delivered a file with no Ruby in it. Now C/C++ and Rust, which\nis what the 12 LLVMFuzzerTestOneInput and 16 fuzz_target! sites cover.\n\nconstant-time-testing named ctgrind, whose only occurrence in the whole\nplugin was that description. Replaced with Timecop and Valgrind, at 20\nand 10 hits. Also leads with measuring a running implementation and adds\na \"Not for\" line, restoring the boundary constant-time-analysis already\ndocuments in its own When NOT to Use.\n\ncargo-fuzz claimed \"cargo fuzz init and add\"; only init, run, coverage,\nand crash exist. Dropped add, added the nightly requirement and\ncargo fuzz coverage, both of which the body does cover.\n\nGate the class rather than just these three. A description shipped with\na {placeholder} still in it passed every check, because the shortcode\npattern needs double braces — and this branch widened the templates'\nslots, so the surface grew. validate-skills.py now rejects it, and\ntest_validate_skills.py holds each description check to a known-bad\nfixture plus a positive control. Stdlib only, since CI runs these with\n--no-project --with pytest, an environment without pyyaml.\n\nFix the pointer to a section that does not exist, drop the two-part\n\"what AND when\" bar from testing.md's checklist since the old thin\ndescriptions satisfied it, correct the README's skill inventory, and\ntake the version to MINOR — this changes what the generator emits.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Drop semgrep and codeql from the cross-reference graph\n\nThe prose and the summary table were updated to 14 skills, but the graph\nstill declared a Tools subgraph with semgrep and codeql and drew both\nedges between them. Neither skill exists under skills/, so the graph\nrendered 16 nodes beneath a sentence claiming 14 and promising that only\ngenerated skills are shown.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fail validation on frontmatter that carries no fields\n\nextract_frontmatter returned (None, None) for an empty block, because\nyaml.safe_load(\"\") is None and that is not a parse error. validate_skill\nbranches on the error, so every frontmatter check was skipped and a skill\nwith no name and no description printed a clean tick. A bare scalar took\nthe same path and died on .get with an uncaught AttributeError.\n\nExtraction now pairs both cases with an error, and validate_frontmatter\nreports rather than returning silently when handed a non-mapping. Four\ntests cover it, stubbing the parser so they run in CI's pyyaml-free\nenvironment; they fail against the previous code and nothing else does.\n\nGround the atheris description's two API anchors in the body: rename the\nharness entry point to TestOneInput, matching upstream Atheris and its\nerror messages, and add a FuzzedDataProvider section covering the typed\ndraws and the fixed-order rule. Both were advertised in the description\nand appeared nowhere else in the file.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Split atheris, and fix the FuzzedDataProvider method table\n\nThe structured-input section pushed atheris from 519 lines to 552, making\na file already over the plugin's 500-line error limit worse — the opposite\nof what the PR body claimed. Both it and the two worked harnesses move to\nsibling files, the split this plugin's own agent-prompt.md prescribes for\nthe band. SKILL.md is now 482 lines and passes the line-count check it has\nfailed since it was generated.\n\nThree errors in the method table, all mine, corrected in the moved copy:\n\n- remaining_bytes() returns a count and consumes nothing; it was listed as\n  the way to get the remaining input. Following it hands the target an int\n  where bytes is expected. The idiom is ConsumeBytes(fdp.remaining_bytes()).\n- ConsumeIntList takes (count, bytes) and was shown with no arguments.\n- ConsumeUnicode permits lone surrogates, not surrogate pairs. The pairs\n  gloss suggests valid text; unpaired surrogates raise UnicodeEncodeError\n  the moment a target encodes them, so the campaign reports its own input\n  handling rather than the target's.\n\nEvery method is checked against the pybind registration in atheris.cc,\nwhich exposes remaining_bytes despite the upstream README omitting it.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-26T14:18:41Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/4b1b74b181e81cbcaa8d3b68a0e4ed867165b972...3deb39e7b346e0ac213f77db6f04fc6ee2275f33",
+  "commit_url": "https://github.com/trailofbits/skills/commit/3deb39e7b346e0ac213f77db6f04fc6ee2275f33",
+  "skill_directory": "plugins/testing-handbook-skills/skills/testing-handbook-generator",
+  "local_directory": "verified_real_update_pairs/OPU-0352",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0352",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

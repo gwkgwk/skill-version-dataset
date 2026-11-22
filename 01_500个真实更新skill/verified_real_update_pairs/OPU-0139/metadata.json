@@ -1,0 +1,211 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/screenshot/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "5714f1d81d680655902e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd",
+    "computed_tree_sha": "764823d62d233f8949090708b3ee272b91a97979",
+    "api_tree_sha_as_returned": "764823d62d233f8949090708b3ee272b91a97979",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "04475eee72af66fbca88779269737297f80f14c9",
+        "sha256": "ca28519cb7d06256c6797b893a2b9d0628b6bdb4aa78e62ea62645f291eeed8b",
+        "size": 7800,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/ensure_macos_permissions.sh",
+        "git_blob_sha1": "a4229852e5806d0b8998a78ffb835c94b4564182",
+        "sha256": "9aa750f1e9592519d6c18b966fd65c1d4108c25bd3471ce625dfafd784856d7f",
+        "size": 1702,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/macos_display_info.swift",
+        "git_blob_sha1": "da6e2f125fc872556bab2643143c2596cb7be5da",
+        "sha256": "0969cfef9c9890c82cae5ad75a6cd40fd56d33b28f27347642ef5e837f18b042",
+        "size": 482,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/macos_permissions.swift",
+        "git_blob_sha1": "c736d104c9cedab5bd7c9b43d79ebfa5e28339c7",
+        "sha256": "cf110651350e50d600268f0a1a892ac8d662505474b4455cdfde2ac5b5f4aca6",
+        "size": 929,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/macos_window_info.swift",
+        "git_blob_sha1": "83bd4a8de258d5ca0f9ca7891cd5ef19ae9b7a73",
+        "sha256": "c7faff7913d6072284b7ef1e5d26c524ab861ad32afc0c066f24ba95ae3f3597",
+        "size": 3595,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/take_screenshot.ps1",
+        "git_blob_sha1": "d8b8de04e13508697f4edf3520cbc20f69efeb3c",
+        "sha256": "a31a2242e41fd1c5471651afbcced660f98fbc884f11e531218348f700a3f826",
+        "size": 4947,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/take_screenshot.py",
+        "git_blob_sha1": "4cbb33b01747baa3671b1088a2cccb9067994762",
+        "sha256": "56eeabe2dac5d23915b9a0fb57a07431fad2d310c5444f60f71f09299899232b",
+        "size": 19659,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "33a75a7b572867072dc0674bee8e63e06c19e67b",
+    "computed_tree_sha": "b205b59f2ab46ad327649f098574a0c18f7ff140",
+    "api_tree_sha_as_returned": "b205b59f2ab46ad327649f098574a0c18f7ff140",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1d967bfb1d7d38874147b5810f2a19677bc3161b",
+        "sha256": "081935a6a163277537d46365f49d6b4a3cb40b4748347e7e88759c5927fa8cf5",
+        "size": 7754,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "176a6f56741784c94dd324525e1b6b755e4c81aa",
+        "sha256": "393f69bbdb9d782c1a5c7eaaef414a23b4d27627172a51806bf4446fc18eb2df",
+        "size": 245,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/screenshot-small.svg",
+        "git_blob_sha1": "3856084ac438adbd5c42eaadc62ea097d85b1fc0",
+        "sha256": "664d2d6a656b4980892ce8fc8ca2415c1dc2a55e14837b7fa381b26b7847976c",
+        "size": 1004,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/screenshot.png",
+        "git_blob_sha1": "d2c805da6398b2d4b535819286271f929f27b399",
+        "sha256": "4ff96a476f2a2ac4ca7b626f9d4b78a7aa8cce0219e0688c5f15355513b61b5b",
+        "size": 860,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/ensure_macos_permissions.sh",
+        "git_blob_sha1": "a4229852e5806d0b8998a78ffb835c94b4564182",
+        "sha256": "9aa750f1e9592519d6c18b966fd65c1d4108c25bd3471ce625dfafd784856d7f",
+        "size": 1702,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/macos_display_info.swift",
+        "git_blob_sha1": "da6e2f125fc872556bab2643143c2596cb7be5da",
+        "sha256": "0969cfef9c9890c82cae5ad75a6cd40fd56d33b28f27347642ef5e837f18b042",
+        "size": 482,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/macos_permissions.swift",
+        "git_blob_sha1": "c736d104c9cedab5bd7c9b43d79ebfa5e28339c7",
+        "sha256": "cf110651350e50d600268f0a1a892ac8d662505474b4455cdfde2ac5b5f4aca6",
+        "size": 929,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/macos_window_info.swift",
+        "git_blob_sha1": "83bd4a8de258d5ca0f9ca7891cd5ef19ae9b7a73",
+        "sha256": "c7faff7913d6072284b7ef1e5d26c524ab861ad32afc0c066f24ba95ae3f3597",
+        "size": 3595,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/take_screenshot.ps1",
+        "git_blob_sha1": "d8b8de04e13508697f4edf3520cbc20f69efeb3c",
+        "sha256": "a31a2242e41fd1c5471651afbcced660f98fbc884f11e531218348f700a3f826",
+        "size": 4947,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/take_screenshot.py",
+        "git_blob_sha1": "4cbb33b01747baa3671b1088a2cccb9067994762",
+        "sha256": "56eeabe2dac5d23915b9a0fb57a07431fad2d310c5444f60f71f09299899232b",
+        "size": 19659,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "assets/screenshot-small.svg",
+    "assets/screenshot.png"
+  ],
+  "old_commit": "3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd",
+  "new_commit": "33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync curated skills! (#64)",
+  "new_commit_time": "2026-01-30T18:34:32Z",
+  "compare_url": "https://github.com/openai/skills/compare/3eb3f6c8cc3961f2639a6cd65f05208d5bd412fd...33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "commit_url": "https://github.com/openai/skills/commit/33a75a7b572867072dc0674bee8e63e06c19e67b",
+  "skill_directory": "skills/.curated/screenshot",
+  "local_directory": "verified_real_update_pairs/OPU-0139",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0139",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

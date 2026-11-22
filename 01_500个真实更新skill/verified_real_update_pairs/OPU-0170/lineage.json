@@ -1,0 +1,82 @@
+{
+  "sha": "c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "node_id": "C_kwDOQ0VAy9oAKGMxOTBkMzY5YmNiYWE2Y2ZkZDk1ZTllZGZkYmEwNDA1MDZiNGRiNzY",
+  "commit": {
+    "author": {
+      "name": "David Cramer",
+      "email": "dcramer@users.noreply.github.com",
+      "date": "2026-05-04T17:40:37Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-05-04T17:40:37Z"
+    },
+    "message": "docs(skills): Improve agent guidance skills (#140)\n\nTighten the agents-md and prompt-optimizer skills around concise,\nreference-backed guidance. AGENTS.md generation now enumerates exact\nexternal files for specs, docs, and policies, while prompt optimization\ncaptures external context before rewriting prompts.\n\n**Skill maintenance metadata**\n\nAdds SPEC.md and SOURCES.md for agents-md, plus SPEC.md for\nprompt-optimizer, so material behavior changes have maintenance\ncontracts and provenance.\n\n**Prompt guidance**\n\nAdds exact external context inventory rules to prompt-optimizer and\ncompacts the core/reference examples to keep runtime prose smaller.\n\nCo-authored-by: Codex <noreply@openai.com>",
+    "tree": {
+      "sha": "fc01ab7b533051468741e11579a187f608814e8f",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/fc01ab7b533051468741e11579a187f608814e8f"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp+NoVCRC1aQ7uu5UhlAAAUKUQAILcCPmfJmkrFG2HykhEAAfr\n32yw+DV93JWpRzn2JUimLqX2TSAObjPHcfdM2ofL42yXfOeQfpgef7hw/wuVdvoH\nRj2M48TEp2Bcq9R9DTiFNYXY40KQRpALYbQCWkml8+nBklQvUIRi0lTqFXY3xznj\nrZbSG6RjQQqkQoS2QVqx0B0gsJyDX9v19ZlZOF22DyEvfhvp8/nwd1RNycSn2abU\nmFuiOO7o4eSMt4wkFazhxY9PXN443P5BdappyvEJfEAbMD+tFwnokV79g1nuhmee\n5KZLc6vXhCXlhuAOIcyDhMYvt8rn3k1XXdWn4ogr73oEjMQKAZpNNMxvvpZ55nB3\nBCXlSSSonWQch1oG3rzcQt8FSRluouAWSI34GhTmqQPa+okv1EAMQ7RGxyckO1OL\nuyI6g/y7a9ci7/oihNDZ/PsIMTcjitfAcYcGAaa7a3xobO31ts9xlpr9TExCZRkm\n+EEdD35F1wlPgDz/WUbH8WEo6q7sT9y4848cYobufCBRDyWOoVaE5AViSFTlTo49\ndKu2aPX8wLDZWqK1g3nwhD6h1mxhZvpI9UKN0o+K34Gda8w8myxRd/64UpR9G0Mz\nbWj3wG50iHAbRH93RZLd2KJMPOKCRkbGiwGAg4sXD0IGf6neFKaHI7ooL0LwkmYO\n0nq2JYluA9SMl3om2vQF\n=VTeq\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree fc01ab7b533051468741e11579a187f608814e8f\nparent 0493d77a5510c508a54e815d42570483fa26c48e\nauthor David Cramer <dcramer@users.noreply.github.com> 1777916437 -0700\ncommitter GitHub <noreply@github.com> 1777916437 -0700\n\ndocs(skills): Improve agent guidance skills (#140)\n\nTighten the agents-md and prompt-optimizer skills around concise,\nreference-backed guidance. AGENTS.md generation now enumerates exact\nexternal files for specs, docs, and policies, while prompt optimization\ncaptures external context before rewriting prompts.\n\n**Skill maintenance metadata**\n\nAdds SPEC.md and SOURCES.md for agents-md, plus SPEC.md for\nprompt-optimizer, so material behavior changes have maintenance\ncontracts and provenance.\n\n**Prompt guidance**\n\nAdds exact external context inventory rules to prompt-optimizer and\ncompacts the core/reference examples to keep runtime prose smaller.\n\nCo-authored-by: Codex <noreply@openai.com>",
+      "verified_at": "2026-05-04T17:40:38Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "html_url": "https://github.com/getsentry/skills/commit/c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/c190d369bcbaa6cfdd95e9edfdba040506b4db76/comments",
+  "author": {
+    "login": "dcramer",
+    "id": 23610,
+    "node_id": "MDQ6VXNlcjIzNjEw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/23610?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dcramer",
+    "html_url": "https://github.com/dcramer",
+    "followers_url": "https://api.github.com/users/dcramer/followers",
+    "following_url": "https://api.github.com/users/dcramer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dcramer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dcramer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dcramer/subscriptions",
+    "organizations_url": "https://api.github.com/users/dcramer/orgs",
+    "repos_url": "https://api.github.com/users/dcramer/repos",
+    "events_url": "https://api.github.com/users/dcramer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dcramer/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0493d77a5510c508a54e815d42570483fa26c48e",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/0493d77a5510c508a54e815d42570483fa26c48e",
+      "html_url": "https://github.com/getsentry/skills/commit/0493d77a5510c508a54e815d42570483fa26c48e"
+    }
+  ]
+}

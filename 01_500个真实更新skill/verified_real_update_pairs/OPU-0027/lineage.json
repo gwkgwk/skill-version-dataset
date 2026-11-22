@@ -1,0 +1,82 @@
+{
+  "sha": "551274ed2fe97c8fea1325f7ceb05803a542f8df",
+  "node_id": "C_kwDOQ65icdoAKDU1MTI3NGVkMmZlOTdjOGZlYTEzMjVmN2NlYjA1ODAzYTU0MmY4ZGY",
+  "commit": {
+    "author": {
+      "name": "Wen Bo Xie",
+      "email": "wenbox323@gmail.com",
+      "date": "2026-09-24T09:55:24Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-09-24T09:55:24Z"
+    },
+    "message": "fix(supabase): recommend scoped personal access tokens for the Management API, CLI, and MCP (#604)\n\nThe skill had no guidance on personal access tokens, so agents setting up\nManagement API scripts, CLI in CI, or the MCP server without OAuth tended to\nsuggest a classic token with full account access. Scoped personal access\ntokens limit a token to chosen organizations, projects, and permissions.\n\nChanges to skills/supabase/SKILL.md:\n\n- Security checklist: prefer scoped personal access tokens for scripts, CI,\n  and agents, and look up required permissions in the personal access tokens\n  guide instead of guessing. No endpoint-to-permission mapping is copied into\n  the skill, so it can't drift from the docs.\n- CLI gotchas: the browser flow of `supabase login` creates a classic token.\n  In CI, set SUPABASE_ACCESS_TOKEN to a scoped token, which takes precedence\n  over a saved login. Commands that connect with the database password (for\n  example `supabase db push` with SUPABASE_DB_PASSWORD) aren't limited by the\n  token's permissions.\n- MCP troubleshooting: where the browser OAuth flow can't run, pass a scoped\n  token in the Authorization header. New step 4 explains the \"You do not have\n  permission to perform this action\" error a scoped token returns when it\n  lacks a tool's permission or the project is outside its scope.",
+    "tree": {
+      "sha": "1eafe3299bea2b5ab249d9d11000b4f36d883a45",
+      "url": "https://api.github.com/repos/supabase/agent-skills/git/trees/1eafe3299bea2b5ab249d9d11000b4f36d883a45"
+    },
+    "url": "https://api.github.com/repos/supabase/agent-skills/git/commits/551274ed2fe97c8fea1325f7ceb05803a542f8df",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqtPOMCRC1aQ7uu5UhlAAAOPkQAKfZwA6wdlIE7DfDNgpZ9iFf\npdz8ByeN3843yamWdC16aUSZuh6dxoa4QwOKBWjFh9sWmAmYQxoV3DuatY8d+y5W\nBqZr7/l9ND9aNoRT5Mf1oVy6rRetomxca/cPPwJCqLXy2c2f715cZPiS4LcT49Pw\n3mGp1I9+4m2uVGoemnqWha5bf3u3+WqUgdBAdt+vU8QOOqdagx2hCPvltD8/3jZD\nnHRcjcacNMVZSIMtNng1L8Ti100uCNe3vFE+iCd+z7nznECZklvFsa8eVokKQJ16\n8zVjrJMrm489wiINEzFbc1KOXSaDDsoAs1WCNjXF7GQ7vj8CKCmxIK8vh4AwoZCP\nkb5MWCgt9UvriVKN0U9aCzajFWjhsONcb7s2aERGkVPOE96TgFBZ+gEKwubuI4lt\nJXU5VeOmfAO7ShN5vsQgyerk4UbGrjH9j1q8pbsU6Pi0ZjzGjdsGKr6ZFcsMKs4N\nONJqwdr0ywguMe6PHvaFit0wYeHHbL5ilSMN53wn4ofesrMQssfyjv5AKUAksO7/\nTDW6K3cSuoMHgFpl5NwbAsfYwj4Y5o1RuOIossrmtkZf5MPIYoEAqeI0hepvVZfE\nnbfHTSOFOWZ3iYO4DIefFzW5VIz4bvRlFc/XM7Q/QwHuhJwK6DbE7CbMfNi3BlNZ\nt10seXuADquTJTJ+mVYL\n=AdVd\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 1eafe3299bea2b5ab249d9d11000b4f36d883a45\nparent 8331f910845103c08d51f6ca1d86ebb7d1f745e3\nauthor Wen Bo Xie <wenbox323@gmail.com> 1790243724 +0900\ncommitter GitHub <noreply@github.com> 1790243724 +0900\n\nfix(supabase): recommend scoped personal access tokens for the Management API, CLI, and MCP (#604)\n\nThe skill had no guidance on personal access tokens, so agents setting up\nManagement API scripts, CLI in CI, or the MCP server without OAuth tended to\nsuggest a classic token with full account access. Scoped personal access\ntokens limit a token to chosen organizations, projects, and permissions.\n\nChanges to skills/supabase/SKILL.md:\n\n- Security checklist: prefer scoped personal access tokens for scripts, CI,\n  and agents, and look up required permissions in the personal access tokens\n  guide instead of guessing. No endpoint-to-permission mapping is copied into\n  the skill, so it can't drift from the docs.\n- CLI gotchas: the browser flow of `supabase login` creates a classic token.\n  In CI, set SUPABASE_ACCESS_TOKEN to a scoped token, which takes precedence\n  over a saved login. Commands that connect with the database password (for\n  example `supabase db push` with SUPABASE_DB_PASSWORD) aren't limited by the\n  token's permissions.\n- MCP troubleshooting: where the browser OAuth flow can't run, pass a scoped\n  token in the Authorization header. New step 4 explains the \"You do not have\n  permission to perform this action\" error a scoped token returns when it\n  lacks a tool's permission or the project is outside its scope.",
+      "verified_at": "2026-09-24T09:55:25Z"
+    }
+  },
+  "url": "https://api.github.com/repos/supabase/agent-skills/commits/551274ed2fe97c8fea1325f7ceb05803a542f8df",
+  "html_url": "https://github.com/supabase/agent-skills/commit/551274ed2fe97c8fea1325f7ceb05803a542f8df",
+  "comments_url": "https://api.github.com/repos/supabase/agent-skills/commits/551274ed2fe97c8fea1325f7ceb05803a542f8df/comments",
+  "author": {
+    "login": "w3b6x9",
+    "id": 5532241,
+    "node_id": "MDQ6VXNlcjU1MzIyNDE=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5532241?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/w3b6x9",
+    "html_url": "https://github.com/w3b6x9",
+    "followers_url": "https://api.github.com/users/w3b6x9/followers",
+    "following_url": "https://api.github.com/users/w3b6x9/following{/other_user}",
+    "gists_url": "https://api.github.com/users/w3b6x9/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/w3b6x9/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/w3b6x9/subscriptions",
+    "organizations_url": "https://api.github.com/users/w3b6x9/orgs",
+    "repos_url": "https://api.github.com/users/w3b6x9/repos",
+    "events_url": "https://api.github.com/users/w3b6x9/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/w3b6x9/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "8331f910845103c08d51f6ca1d86ebb7d1f745e3",
+      "url": "https://api.github.com/repos/supabase/agent-skills/commits/8331f910845103c08d51f6ca1d86ebb7d1f745e3",
+      "html_url": "https://github.com/supabase/agent-skills/commit/8331f910845103c08d51f6ca1d86ebb7d1f745e3"
+    }
+  ]
+}

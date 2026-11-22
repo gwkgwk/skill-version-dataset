@@ -1,0 +1,82 @@
+{
+  "sha": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "node_id": "C_kwDOQ0VAy9oAKGE1ODJjNTFlZTI5ZDBmMzVlNmFjMzIxMzQwNzk2Zjc3ZDQzZGE3MzM",
+  "commit": {
+    "author": {
+      "name": "sentry-junior[bot]",
+      "email": "264270552+sentry-junior[bot]@users.noreply.github.com",
+      "date": "2026-11-14T19:38:57Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-11-14T19:38:57Z"
+    },
+    "message": "docs(document-api-endpoint): Say @sentry/api releases from getsentry/sentry (#193)\n\n`@sentry/api` now lives in getsentry/sentry's `static/packages/api`\n(getsentry/sentry#130472). When the spec changes on master,\n`openapi.yml` cuts an `api@` release, so getsentry/sentry-api-schema no\nlonger regenerates anything downstream. The skill now says a published\nendpoint reaches the SDK and MCP with that next `api@` release.\n\n<!-- junior-request-attribution:start -->\nvia @BYK.\n<!-- junior-request-attribution:end -->\n\n<!-- junior-session-footer:start -->\n<!-- junior-conversation-id:agent%3A69da19b385017e68b7f9eace56e9477f -->\n\n--\n\n[View\nSession](https://junior-prod.sentry.dev/conversations/agent%3A69da19b385017e68b7f9eace56e9477f)\n[[Sentry]](https://sentry.sentry.io/explore/conversations/agent%3A69da19b385017e68b7f9eace56e9477f/?project=4510944073809921)\n\n<!-- junior-session-footer:end -->",
+    "tree": {
+      "sha": "e908e2dbcdcde94ebd1e5c5dc73cd4c7c12a1104",
+      "url": "https://api.github.com/repos/getsentry/skills/git/trees/e908e2dbcdcde94ebd1e5c5dc73cd4c7c12a1104"
+    },
+    "url": "https://api.github.com/repos/getsentry/skills/git/commits/a582c51ee29d0f35e6ac321340796f77d43da733",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq+LjRCRC1aQ7uu5UhlAAA34YQADq9wem6eB2JtHIxGO2dUaNH\naelw3fQUPlrzvMtN37HshK0cPup+Gh3y5EreWRJcNg/NcI/d4eabJDD4yuTaXAso\nzwgsPeNXun8kfZUfz4mejgb/vxKcN5DNaimPToh0VMvdemE7GmETvBoaZex6mck/\nLJ88W41AgQzlKYLrcYDJs9Z1w1IrN5smOENgbjNVLT8ce2KIk+wiodYF/UkGiUax\nmEz7heRAMtppd4O16d2a9JBZrQMG71Yr55TNqkcCD7zceWCIs+5bHvk1UxC1sBYb\nBgDa6qKQbAsNO0RRKyMWLpsGcc04wfhKFr2LGUnKy7/vyRGChnlkGjvI0WBX/XKB\nAmJdc1dU22naqKwXQBtdTZ5/5ELjAPU9flTdzrrqfYvtSa7LPeBAUeo79/+OCTyU\nrYsMbkhmplalWs651QdtXmTMRaZo2mE1VJI4se5XrzC7AvNqYPzuXMKoYD2AvKFA\nhb5ri4hnfze7eLdRVd14uByVDTrlDV5Kp39JzdoBqiAtO8OsE16FWqnWBvIWuYIo\ntekdLTsYCEiFtALaXuiUXlAH51/zj2jaIbUEWfLDRsHDGEWQreEsILT7P0WDYtmg\nb1SUW1wht5hEGGdMNYBfOvhcD05ageTQyIpeguX6IPSw/VQCymo+369wsfKCRdOT\nv2SLzjkJD1pHNkaebVgM\n=Hz6u\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree e908e2dbcdcde94ebd1e5c5dc73cd4c7c12a1104\nparent e94f22214528d69899d09c627b3315ddc3544816\nauthor sentry-junior[bot] <264270552+sentry-junior[bot]@users.noreply.github.com> 1794685137 +0000\ncommitter GitHub <noreply@github.com> 1794685137 +0000\n\ndocs(document-api-endpoint): Say @sentry/api releases from getsentry/sentry (#193)\n\n`@sentry/api` now lives in getsentry/sentry's `static/packages/api`\n(getsentry/sentry#130472). When the spec changes on master,\n`openapi.yml` cuts an `api@` release, so getsentry/sentry-api-schema no\nlonger regenerates anything downstream. The skill now says a published\nendpoint reaches the SDK and MCP with that next `api@` release.\n\n<!-- junior-request-attribution:start -->\nvia @BYK.\n<!-- junior-request-attribution:end -->\n\n<!-- junior-session-footer:start -->\n<!-- junior-conversation-id:agent%3A69da19b385017e68b7f9eace56e9477f -->\n\n--\n\n[View\nSession](https://junior-prod.sentry.dev/conversations/agent%3A69da19b385017e68b7f9eace56e9477f)\n[[Sentry]](https://sentry.sentry.io/explore/conversations/agent%3A69da19b385017e68b7f9eace56e9477f/?project=4510944073809921)\n\n<!-- junior-session-footer:end -->",
+      "verified_at": "2026-11-14T19:38:58Z"
+    }
+  },
+  "url": "https://api.github.com/repos/getsentry/skills/commits/a582c51ee29d0f35e6ac321340796f77d43da733",
+  "html_url": "https://github.com/getsentry/skills/commit/a582c51ee29d0f35e6ac321340796f77d43da733",
+  "comments_url": "https://api.github.com/repos/getsentry/skills/commits/a582c51ee29d0f35e6ac321340796f77d43da733/comments",
+  "author": {
+    "login": "sentry-junior[bot]",
+    "id": 264270552,
+    "node_id": "BOT_kgDOD8By2A",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2960336?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sentry-junior%5Bbot%5D",
+    "html_url": "https://github.com/apps/sentry-junior",
+    "followers_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sentry-junior%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "e94f22214528d69899d09c627b3315ddc3544816",
+      "url": "https://api.github.com/repos/getsentry/skills/commits/e94f22214528d69899d09c627b3315ddc3544816",
+      "html_url": "https://github.com/getsentry/skills/commit/e94f22214528d69899d09c627b3315ddc3544816"
+    }
+  ]
+}

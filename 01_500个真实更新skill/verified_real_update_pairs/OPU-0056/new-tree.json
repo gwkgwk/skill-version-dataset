@@ -1,0 +1,186 @@
+{
+  "sha": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+  "url": "https://api.github.com/repos/anthropics/skills/git/trees/98a510d1cfef9f82c3b1eec200229ca68725e613",
+  "tree": [
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+      "size": 11357,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/7a4a3ea2424c09fbe48d455aed1eaa94d9124835"
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65b3a402dbd09b8e83f9d637c6b553875189085c",
+      "size": 33168,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/65b3a402dbd09b8e83f9d637c6b553875189085c"
+    },
+    {
+      "path": "agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71facb0554061ee6e5ea11af6bf85ae58d768c64",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/71facb0554061ee6e5ea11af6bf85ae58d768c64"
+    },
+    {
+      "path": "agents/analyzer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14e41d6068635f4dd3fb878fd1626312395dda63",
+      "size": 10376,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/14e41d6068635f4dd3fb878fd1626312395dda63"
+    },
+    {
+      "path": "agents/comparator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80e00eb45db3ee53a132fc2ba97fd59a7339e563",
+      "size": 7287,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/80e00eb45db3ee53a132fc2ba97fd59a7339e563"
+    },
+    {
+      "path": "agents/grader.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "558ab05c0a9a8bb062ef4c51823d4d76c3acf7c4",
+      "size": 9049,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/558ab05c0a9a8bb062ef4c51823d4d76c3acf7c4"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5568681584ea3e29bd58a766e47a433d763f89c",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/f5568681584ea3e29bd58a766e47a433d763f89c"
+    },
+    {
+      "path": "assets/eval_review.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938ff32aed9bffabf723bd5492d720f4736c8e4d",
+      "size": 7058,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/938ff32aed9bffabf723bd5492d720f4736c8e4d"
+    },
+    {
+      "path": "eval-viewer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c242c90a11a648ff1483702da5dd27fb93fa3cd8",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/c242c90a11a648ff1483702da5dd27fb93fa3cd8"
+    },
+    {
+      "path": "eval-viewer/generate_review.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fa5978631fed1ed545591dbb2b0eb21ce3f3d08",
+      "size": 16365,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/7fa5978631fed1ed545591dbb2b0eb21ce3f3d08"
+    },
+    {
+      "path": "eval-viewer/viewer.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8e96348a02e66c3363d2ff3b3ae58ac11e6382",
+      "size": 44998,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/6d8e96348a02e66c3363d2ff3b3ae58ac11e6382"
+    },
+    {
+      "path": "references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d3e42e21cb383347203913b879cde06222b0f47",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/0d3e42e21cb383347203913b879cde06222b0f47"
+    },
+    {
+      "path": "references/schemas.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6eeaa2d4a34c1653069585c6c5603da39a5bdbe",
+      "size": 12061,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/b6eeaa2d4a34c1653069585c6c5603da39a5bdbe"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "768886f1373855ebf1375ea62332ec9758d6b436",
+      "url": "https://api.github.com/repos/anthropics/skills/git/trees/768886f1373855ebf1375ea62332ec9758d6b436"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "scripts/aggregate_benchmark.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3e66e8c105be9bab9f0e9c61f0d1482619401580",
+      "size": 14386,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/3e66e8c105be9bab9f0e9c61f0d1482619401580"
+    },
+    {
+      "path": "scripts/generate_report.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "959e30a0014ec165c41a2bb7420b7dfe1416bbac",
+      "size": 12847,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/959e30a0014ec165c41a2bb7420b7dfe1416bbac"
+    },
+    {
+      "path": "scripts/improve_description.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "06bcec76122446986e3610c20a39c466de36f495",
+      "size": 11116,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/06bcec76122446986e3610c20a39c466de36f495"
+    },
+    {
+      "path": "scripts/package_skill.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f48eac444656ddc41204aac1760a217951ce609e",
+      "size": 4234,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/f48eac444656ddc41204aac1760a217951ce609e"
+    },
+    {
+      "path": "scripts/quick_validate.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ed8e1dddce77b16af13c6f36b3fe86c4ac7c590c",
+      "size": 3972,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/ed8e1dddce77b16af13c6f36b3fe86c4ac7c590c"
+    },
+    {
+      "path": "scripts/run_eval.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e58c70bea39d5b252a1e819f242bbdcdf20e8b87",
+      "size": 11464,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/e58c70bea39d5b252a1e819f242bbdcdf20e8b87"
+    },
+    {
+      "path": "scripts/run_loop.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "30a263d674ef19de11c756d6f7537f91a421909e",
+      "size": 13605,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/30a263d674ef19de11c756d6f7537f91a421909e"
+    },
+    {
+      "path": "scripts/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51b6a07dd57174197a937034b7eecebd5768ff8a",
+      "size": 1661,
+      "url": "https://api.github.com/repos/anthropics/skills/git/blobs/51b6a07dd57174197a937034b7eecebd5768ff8a"
+    }
+  ],
+  "truncated": false
+}

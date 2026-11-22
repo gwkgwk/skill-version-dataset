@@ -1,0 +1,77 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/trl-training/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "47ef016ad9be638c8ff5",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "80f9fa530e46f4ae642fcb9e1725bad0e1979395",
+    "computed_tree_sha": "53d5d66f1616e770c01e15520b985da9b398b4cc",
+    "api_tree_sha_as_returned": "53d5d66f1616e770c01e15520b985da9b398b4cc",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "a89ae0d1dad7159a678b5a9bfa6fcc95d015da6e",
+        "sha256": "2ec080bb13621036aeec8b11e0b1111843c42a9e5e7b1319136cac3772f28a76",
+        "size": 8793,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "3d7a802b33edbeac4ac857391c82ba68af670e25",
+    "computed_tree_sha": "d4dc1d37dfaf5394b1ddb557a21e7db55b3b7190",
+    "api_tree_sha_as_returned": "d4dc1d37dfaf5394b1ddb557a21e7db55b3b7190",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9046f03f975bcc061234266e70cb56ab43892526",
+        "sha256": "42c855bdc6171390abc7413cdb19bd4fd8dddfb31094d519a874427de08ddc2a",
+        "size": 4323,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "80f9fa530e46f4ae642fcb9e1725bad0e1979395",
+  "new_commit": "3d7a802b33edbeac4ac857391c82ba68af670e25",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync TRL skill from trl@fd74bbc7b5f852a70d4cc94377e0a8f94392fda1 (#266)\n\nCo-authored-by: AmineDiro <14312141+AmineDiro@users.noreply.github.com>",
+  "new_commit_time": "2026-10-01T08:53:42Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/80f9fa530e46f4ae642fcb9e1725bad0e1979395...3d7a802b33edbeac4ac857391c82ba68af670e25",
+  "commit_url": "https://github.com/huggingface/skills/commit/3d7a802b33edbeac4ac857391c82ba68af670e25",
+  "skill_directory": "skills/trl-training",
+  "local_directory": "verified_real_update_pairs/OPU-0173",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0173",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

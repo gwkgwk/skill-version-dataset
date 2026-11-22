@@ -1,0 +1,82 @@
+{
+  "sha": "4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+  "node_id": "C_kwDOQ55KR9oAKDRiMWI3NGIxODFlODFjYmNhYThkM2I2OGEwZTRlZDg2NzE2NWI5NzI",
+  "commit": {
+    "author": {
+      "name": "kz-tob",
+      "email": "kara.zaffarano@trailofbits.com",
+      "date": "2026-08-26T12:54:12Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-26T12:54:12Z"
+    },
+    "message": "Give differential-review a trigger, and name every component in its README (#278)\n\n* Give differential-review a trigger, and name every component in its README\n\ndifferential-review's description listed what it does and never named a\nsituation, so it competed on capability wording alone. It now closes with\nthe triggers its own README already documents — reviewing a PR, commit,\nor diff; checking whether a change re-introduces a fixed bug; asking what\nelse a change could break; finding modified code with no test.\n\nThe same plugin's README never mentioned adversarial-modeler, which is\nwhat Phase 5 dispatches for HIGH RISK changes. Checking whether that was\nisolated turned up more of it, and the sweep found three kinds of gap:\n\nzeroize-audit's agent table was missing three of its eleven agents —\n0-preflight, which gates the entire run, plus 5b-poc-validator and\n5c-poc-verifier. All three appear in the phase diagram directly above the\ntable, which is why they read as present.\n\nconstant-time-analysis documents the ct-analyzer CLI end to end and never\nsays the plugin also ships a skill and a command. entry-point-analyzer\nlists phrases that trigger its skill but never names the skill or its\ncommand.\n\nThree more READMEs describe their skill without naming it. That matters\nmost where the skill name is not the plugin name and a user cannot guess\nit: chrome-mcp-troubleshooting and interpreting-culture-index.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix review findings and make the README sweep a gate\n\nThe two PoC rows I added to zeroize-audit said Phase 4. The diagram three\nlines above them, SKILL.md, and workflows/phase-5-poc-validation.md all\nsay Phase 5, steps 5a and 5b. \"Wave 5a\" is a label that exists nowhere.\nA debugger consulting the table — the artifact this branch designates as\nwhat runs when — would have opened phase-4-poc-generation.md and found no\nvalidation in it. Also corrected the sentence introducing that table,\nwhich still said 10 agents across 8 phases against 11 across 9, and the\nPhase 0 diagram line, which still credited the orchestrator for a gate\nthe new row credits to 0-preflight.\n\ndifferential-review's README claimed the agent is \"dispatched\", and named\nit bare in a column whose other rows are namespaced. Nothing dispatches\nit: the only instruction is prose in SKILL.md, and a bare subagent_type\nfails at runtime. Namespaced both, and corrected the five stale line\ncounts in the same file — reporting.md is 369 lines, not the ~120 the\ntoken-efficiency section budgets for.\n\nDrop the dead `name: trailofbits:<cmd>` key from five command files.\nThe three newest command files carry no name: at all, #275 namespaced 22\nbare invocations, and this branch documents the `/<plugin>:<cmd>` form —\nso the key contradicts the docs it sits next to.\n\nThen make the sweep repeatable. Doing this by hand three times found\neight gaps and missed two more, both of the same shape: a workflow ships\nunder meta.name, not its filename, so a README citing the filename never\nwrites the name a reader types. The validator now checks that a README\nnames every skill, agent, command, and workflow its plugin ships, reading\nmeta.name for workflows. It refuses a run that inspected zero components,\nand six self-test assertions hold it to known-bad fixtures.\n\nIt found git-cleanup on its first run: ships as /git-cleanup:git-cleanup-analysis,\nREADME cites workflows/analyze-branches.js four times and that name never.\nstatic-analysis had the same gap for codeql-build.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix both P2s: the gate was a substring test, and the dispatch was still bare\n\nThe README gate ran `name not in text`. That reads as thorough and could\nnot fail for a large share of what it counted: `draw` was satisfied by\n\"(draw cards instead)\", `semgrep-rule` by the plugin's own name in the\ninstall line, `burp-search` by a `scripts/burp-search.sh` path that is a\ndifferent thing, and `audit` by the prose \"shared-state struct audit\".\n\nMatch by kind instead. Commands and workflows are reachable only as\n`/<plugin>:<name>`, so require that literal — it is the only string a\nuser can type. Agents are dispatched by identifier and never typed as\nprose, so require an identifier-shaped mention. Skills are genuinely\nreferred to by bare name, so require only a delimited occurrence, which\nis what stops \"draws\" counting as `draw`.\n\nThat surfaced seven real gaps, the four above plus insecure-defaults'\naudit-pipeline workflow, mutation-testing's skill, and trailmark's\ncode-slice-worker. All seven fixed.\n\nadversarial-modeler was still bare at SKILL.md:96. Line 77 was the\ndecision-tree mention; line 96 is the \"Delegate to this agent\"\ninstruction a model actually acts on, so the runtime failure the last\ncommit claimed to fix survived it. Namespaced, and it now says why.\n\nAlso from the review: a per-kind floor, since a single total stays\nhealthy while skill_files() — 63% of coverage — silently stops matching;\nworkflow_names anchored to the meta block, because a bare search takes\nany earlier `name:` in a comment, and .mjs was invisible; and AGENTS.md\ndocuments the new hard failure. Self-test 88 -> 96, each new rule with a\nnegative control.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+    "tree": {
+      "sha": "31550fc587ef0f57d2d7af55c4b34a79518bfa52",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/31550fc587ef0f57d2d7af55c4b34a79518bfa52"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqjuH0CRC1aQ7uu5UhlAAASfwQAAOGxZXWsKwiLsEUUav4mTz2\nvspTiaYNIh0nplGTPCwa8hUaLtLAYK4hshmIVZPiL18FgK55jz/78qyPpWO307s9\n43wm9jqvzLHrLHIio6uU9y5q7bBzQpQfaH1H4w4iaiGMrRGB60DiM6TJ8VHdijdN\niL77c/Qqs6s6aAqnwdufrEDd4lOzeNiYGDOUq5kkIebELSOCAlsk/kQGhuiY8Rq2\niFN5kB1QFlWXLJpiNuAzbBOHtr5pUK5b2g+SkdBAg3D3OezYu3iZPqrHQKXl1ITa\nDH4HCEUEnzqSYe5gFscbLxSZDrdx87m+aiwp4rv08jglH7vcYZAuDJmYuzverIIX\n2L57SjbexaqKV0usZ8/bNJDeOz2G9Xqyg8huOKTrUvUXLcrkXko2WRNQmkSM8kAq\n1+WSyg9/zfscbSGermNImwDwdFt0pCVN3Dy83WYTyDu3/myVA0rM+n+/AIcKM/Cx\nEs18So8aRlB9JuVEe6A+rqZgy1cArTFOmu5iDazfNvJ24+cJYU2Nuat+bg4mXCPg\nA4lTQ5PDiBf/QPBtuzun3gJe3QBWxoMZlmrhGKrB0du/6cQAt4XECwP3GBoIB/8P\n8k2ZmSHiKeY5/VYdOnnWqA3uTLNOxCV7BaFkJwwS1FBnWtaAQ0704hxna+iHEhMB\nEHawoU5NcNYbI1OXcFyH\n=nmbc\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 31550fc587ef0f57d2d7af55c4b34a79518bfa52\nparent 65720f8db2ca0c1d1a1805db0dacbabc190a1aa1\nauthor kz-tob <kara.zaffarano@trailofbits.com> 1787748852 -0400\ncommitter GitHub <noreply@github.com> 1787748852 -0400\n\nGive differential-review a trigger, and name every component in its README (#278)\n\n* Give differential-review a trigger, and name every component in its README\n\ndifferential-review's description listed what it does and never named a\nsituation, so it competed on capability wording alone. It now closes with\nthe triggers its own README already documents — reviewing a PR, commit,\nor diff; checking whether a change re-introduces a fixed bug; asking what\nelse a change could break; finding modified code with no test.\n\nThe same plugin's README never mentioned adversarial-modeler, which is\nwhat Phase 5 dispatches for HIGH RISK changes. Checking whether that was\nisolated turned up more of it, and the sweep found three kinds of gap:\n\nzeroize-audit's agent table was missing three of its eleven agents —\n0-preflight, which gates the entire run, plus 5b-poc-validator and\n5c-poc-verifier. All three appear in the phase diagram directly above the\ntable, which is why they read as present.\n\nconstant-time-analysis documents the ct-analyzer CLI end to end and never\nsays the plugin also ships a skill and a command. entry-point-analyzer\nlists phrases that trigger its skill but never names the skill or its\ncommand.\n\nThree more READMEs describe their skill without naming it. That matters\nmost where the skill name is not the plugin name and a user cannot guess\nit: chrome-mcp-troubleshooting and interpreting-culture-index.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix review findings and make the README sweep a gate\n\nThe two PoC rows I added to zeroize-audit said Phase 4. The diagram three\nlines above them, SKILL.md, and workflows/phase-5-poc-validation.md all\nsay Phase 5, steps 5a and 5b. \"Wave 5a\" is a label that exists nowhere.\nA debugger consulting the table — the artifact this branch designates as\nwhat runs when — would have opened phase-4-poc-generation.md and found no\nvalidation in it. Also corrected the sentence introducing that table,\nwhich still said 10 agents across 8 phases against 11 across 9, and the\nPhase 0 diagram line, which still credited the orchestrator for a gate\nthe new row credits to 0-preflight.\n\ndifferential-review's README claimed the agent is \"dispatched\", and named\nit bare in a column whose other rows are namespaced. Nothing dispatches\nit: the only instruction is prose in SKILL.md, and a bare subagent_type\nfails at runtime. Namespaced both, and corrected the five stale line\ncounts in the same file — reporting.md is 369 lines, not the ~120 the\ntoken-efficiency section budgets for.\n\nDrop the dead `name: trailofbits:<cmd>` key from five command files.\nThe three newest command files carry no name: at all, #275 namespaced 22\nbare invocations, and this branch documents the `/<plugin>:<cmd>` form —\nso the key contradicts the docs it sits next to.\n\nThen make the sweep repeatable. Doing this by hand three times found\neight gaps and missed two more, both of the same shape: a workflow ships\nunder meta.name, not its filename, so a README citing the filename never\nwrites the name a reader types. The validator now checks that a README\nnames every skill, agent, command, and workflow its plugin ships, reading\nmeta.name for workflows. It refuses a run that inspected zero components,\nand six self-test assertions hold it to known-bad fixtures.\n\nIt found git-cleanup on its first run: ships as /git-cleanup:git-cleanup-analysis,\nREADME cites workflows/analyze-branches.js four times and that name never.\nstatic-analysis had the same gap for codeql-build.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix both P2s: the gate was a substring test, and the dispatch was still bare\n\nThe README gate ran `name not in text`. That reads as thorough and could\nnot fail for a large share of what it counted: `draw` was satisfied by\n\"(draw cards instead)\", `semgrep-rule` by the plugin's own name in the\ninstall line, `burp-search` by a `scripts/burp-search.sh` path that is a\ndifferent thing, and `audit` by the prose \"shared-state struct audit\".\n\nMatch by kind instead. Commands and workflows are reachable only as\n`/<plugin>:<name>`, so require that literal — it is the only string a\nuser can type. Agents are dispatched by identifier and never typed as\nprose, so require an identifier-shaped mention. Skills are genuinely\nreferred to by bare name, so require only a delimited occurrence, which\nis what stops \"draws\" counting as `draw`.\n\nThat surfaced seven real gaps, the four above plus insecure-defaults'\naudit-pipeline workflow, mutation-testing's skill, and trailmark's\ncode-slice-worker. All seven fixed.\n\nadversarial-modeler was still bare at SKILL.md:96. Line 77 was the\ndecision-tree mention; line 96 is the \"Delegate to this agent\"\ninstruction a model actually acts on, so the runtime failure the last\ncommit claimed to fix survived it. Namespaced, and it now says why.\n\nAlso from the review: a per-kind floor, since a single total stays\nhealthy while skill_files() — 63% of coverage — silently stops matching;\nworkflow_names anchored to the meta block, because a bare search takes\nany earlier `name:` in a comment, and .mjs was invisible; and AGENTS.md\ndocuments the new hard failure. Self-test 88 -> 96, each new rule with a\nnegative control.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+      "verified_at": "2026-08-26T12:54:13Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+  "html_url": "https://github.com/trailofbits/skills/commit/4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/4b1b74b181e81cbcaa8d3b68a0e4ed867165b972/comments",
+  "author": {
+    "login": "kz-tob",
+    "id": 295975343,
+    "node_id": "U_kgDOEaQ5rw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/295975343?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kz-tob",
+    "html_url": "https://github.com/kz-tob",
+    "followers_url": "https://api.github.com/users/kz-tob/followers",
+    "following_url": "https://api.github.com/users/kz-tob/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kz-tob/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kz-tob/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kz-tob/subscriptions",
+    "organizations_url": "https://api.github.com/users/kz-tob/orgs",
+    "repos_url": "https://api.github.com/users/kz-tob/repos",
+    "events_url": "https://api.github.com/users/kz-tob/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kz-tob/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "65720f8db2ca0c1d1a1805db0dacbabc190a1aa1",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/65720f8db2ca0c1d1a1805db0dacbabc190a1aa1",
+      "html_url": "https://github.com/trailofbits/skills/commit/65720f8db2ca0c1d1a1805db0dacbabc190a1aa1"
+    }
+  ]
+}

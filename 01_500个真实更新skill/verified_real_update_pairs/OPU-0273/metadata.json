@@ -1,0 +1,172 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/second-opinion/skills/second-opinion/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "c493f7147c01c2b65fa8",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "d30ab4dd0bd1360868e85dd91c9c67a86df85b8a",
+    "computed_tree_sha": "abf6885dfa31e0c61f1c18f53ad4ad8ef3b5cfda",
+    "api_tree_sha_as_returned": "abf6885dfa31e0c61f1c18f53ad4ad8ef3b5cfda",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "72acb3cf427f7cdb700f967765a0a44400928363",
+        "sha256": "3fd901cc2d15218a894f088e64e395a1b59b119c6b3497c78331918b1faefed2",
+        "size": 10799,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/antigravity-invocation.md",
+        "git_blob_sha1": "c1466f11233c9bdc9a3c6306d2d92a3df226a710",
+        "sha256": "1abb6d656d9eb0b7e66a93b0f91d6223fc87c70e312bd584da91c1b8dea59c8e",
+        "size": 6695,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codex-invocation.md",
+        "git_blob_sha1": "2d30aa317e41b70e7219e44cd13fcbad0b2fd471",
+        "sha256": "0aa37064e5d3949bc6c95278bf02c8199bb71b5bbe0cd7653d0b74ad1da206a1",
+        "size": 5954,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codex-review-schema.json",
+        "git_blob_sha1": "56a70f24a09ad85bcacd6acf583106598bc0df38",
+        "sha256": "4f5414f169b0027082cff6727ce7fdde47349d21b135904850492e182a67157f",
+        "size": 2243,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gemini-invocation.md",
+        "git_blob_sha1": "eec481b75ab4b211a716050fe4a551ea45a664e8",
+        "sha256": "e8dc14c31b38c2d455e8f30352e076c7fefb8c2f3ef4dcae662e7eec50716257",
+        "size": 5744,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f44eeba661acb45b0efecdc89a8aba7f0b7835ff",
+    "computed_tree_sha": "0c9fde78352efa5d40ff0811c203c9aacbb13877",
+    "api_tree_sha_as_returned": "0c9fde78352efa5d40ff0811c203c9aacbb13877",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "097c58848b5fec073008f55dc3f20c696f176e89",
+        "sha256": "e274353992ba838ff006322565479dc1fb16adde917765fa271397c2770254e9",
+        "size": 5046,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/antigravity-invocation.md",
+        "git_blob_sha1": "d959021ac5061ae233378414d0eb690565416ae0",
+        "sha256": "9a81a8c97bb780fbc2a098757c55b0b983e8e0e6e5582116157bdf8b0f59c6e2",
+        "size": 2229,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codex-invocation.md",
+        "git_blob_sha1": "232cf85fd7a7c77e0113b78355c8b373866af938",
+        "sha256": "f0d1b537e143c933fdcd6ec0d10811944b28a14747fc59c15080f898b57c42e6",
+        "size": 2925,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codex-review-schema.json",
+        "git_blob_sha1": "56a70f24a09ad85bcacd6acf583106598bc0df38",
+        "sha256": "4f5414f169b0027082cff6727ce7fdde47349d21b135904850492e182a67157f",
+        "size": 2243,
+        "mode": "100644"
+      },
+      {
+        "path": "references/gemini-invocation.md",
+        "git_blob_sha1": "6f900583f0a8add143058f60dfa198744a30ada9",
+        "sha256": "9638458e834b4f32fe863a4a03ee52a878c52731b8f0664c34054ecee31cdc07",
+        "size": 2374,
+        "mode": "100644"
+      },
+      {
+        "path": "references/review-input.md",
+        "git_blob_sha1": "e45e63aa0d14b726c191e322d78c212ea5950540",
+        "sha256": "150bfb6056f14af0b4f71d285347670b7f686397a1409c63a30c946df8b5eb8d",
+        "size": 4344,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/antigravity-invocation.md",
+    "references/codex-invocation.md",
+    "references/gemini-invocation.md",
+    "references/review-input.md"
+  ],
+  "old_commit": "d30ab4dd0bd1360868e85dd91c9c67a86df85b8a",
+  "new_commit": "f44eeba661acb45b0efecdc89a8aba7f0b7835ff",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Fix second-opinion CLI integration and simplify review guidance (#306)\n\n* Fix second-opinion CLI integration and simplify review guidance\n\n* Fix second-opinion review preparation and invocation guidance",
+  "new_commit_time": "2026-09-14T20:18:36Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/d30ab4dd0bd1360868e85dd91c9c67a86df85b8a...f44eeba661acb45b0efecdc89a8aba7f0b7835ff",
+  "commit_url": "https://github.com/trailofbits/skills/commit/f44eeba661acb45b0efecdc89a8aba7f0b7835ff",
+  "skill_directory": "plugins/second-opinion/skills/second-opinion",
+  "local_directory": "verified_real_update_pairs/OPU-0273",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0273",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/hatch-pet/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "055475a5b599da181d98",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "4c4058ebf44f6734e62c70ab4a81246d4d093fc8",
+    "computed_tree_sha": "1fdb33d9cf39579d7cb0c8d9e4ef6d2a6185be50",
+    "api_tree_sha_as_returned": "1fdb33d9cf39579d7cb0c8d9e4ef6d2a6185be50",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "fef66b5c60bba6971a57f1c8ce38a8fe4feb67d8",
+        "sha256": "f53553b41ee9d315d46b1290ed3f110b40c9bcb51fde506a9951d93d96f0cea8",
+        "size": 23285,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "a6aec6759bf263a2381d104ce5e201a76ba1fc09",
+        "sha256": "cc77c6595bc36666d76204479e735fc1468ec7fd1611e143b803e7e35751a0cf",
+        "size": 569,
+        "mode": "100644"
+      },
+      {
+        "path": "references/animation-rows.md",
+        "git_blob_sha1": "fc18e15885e03bd2f14967a99de98a1a55850299",
+        "sha256": "2c2916c387284ca910e932e8cad87791a15ec79a7e5f7f4da13baf9b671a7591",
+        "size": 1657,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codex-pet-contract.md",
+        "git_blob_sha1": "6dc57cc14bbcb9a5c8455e0a3161e0eb76fded3d",
+        "sha256": "ce9a9d2cef4d9cdb16c3ae53c106681d98b8ae3919a56fe74323f6f88a06f90d",
+        "size": 788,
+        "mode": "100644"
+      },
+      {
+        "path": "references/qa-rubric.md",
+        "git_blob_sha1": "cf9d4bc75376cbb1f50d813a5f8003c877979ce4",
+        "sha256": "ccede493195efd50e895e0b3fce2ae8e06e1f3cbd191951687da16a097a3c64a",
+        "size": 3470,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/compose_atlas.py",
+        "git_blob_sha1": "61d25a0540fd2773f0421478266a1459a159b6d0",
+        "sha256": "7f597371db46648301def265a6bb2c1fb028e677eb7bd421354d0507e5750bbe",
+        "size": 5255,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/derive_running_left_from_running_right.py",
+        "git_blob_sha1": "8fe04bf4112b8f4615d80bca84a688bd7bdda123",
+        "sha256": "374db1637356294fe5b1e578d67aa8568b83e385628ca3abb21c9394bcddeb4e",
+        "size": 4906,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/extract_strip_frames.py",
+        "git_blob_sha1": "591d403c8b40d3801d014f2923cbbe4c19a0aa5b",
+        "sha256": "66aeb5e34f9c2053c134dfe1976bf7526ec644fb684780a949fbac022b57542c",
+        "size": 10689,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/finalize_pet_run.py",
+        "git_blob_sha1": "8350b729963a9b67861026d616670aecefa7e588",
+        "sha256": "195f72fda30cbf65f5b46da146d892b4bf09532a8dadc60c0c686373d86bbd48",
+        "size": 14038,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/generate_pet_images.py",
+        "git_blob_sha1": "bebc646def81bcdf5a1ba3b08bc6c8132e5d1897",
+        "sha256": "9f1ea6cd6691658b81d62c19895ee17abf35df9f584bdb8975c7193166172f7a",
+        "size": 9106,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect_frames.py",
+        "git_blob_sha1": "2073982814d23e103c61a761addf48390304e505",
+        "sha256": "57a465db393f339f246a5b97f3ca09e9d5f4ff815806f3fd94717464682b7e19",
+        "size": 8511,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/make_contact_sheet.py",
+        "git_blob_sha1": "6269460481b6d85985db4a3e3540182499f3dbb0",
+        "sha256": "28ab6f17909dd471ba6c9529b343fd9303ec9e35c551ceac23c98808224e701c",
+        "size": 2992,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/package_custom_pet.py",
+        "git_blob_sha1": "714fe42b1e94d333adfcd427e9a4b85f158f3c69",
+        "sha256": "91aef33237966c745738c69f72d62bc71bb0b9b6aad8e78570cc709263deeed9",
+        "size": 3460,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/pet_job_status.py",
+        "git_blob_sha1": "cecae2d6261b0b5d3c0c7b7439733e7bd8198162",
+        "sha256": "f559db64534e2fa6e80397cb4f90bc4ef08cd04f6f480dbd75b547b1e7990439",
+        "size": 4045,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/prepare_pet_run.py",
+        "git_blob_sha1": "ee0443b0b9948c8d58273a22daf35b7de5023ab0",
+        "sha256": "012b36ff2fb190c91e43b0949992684706781f09cf158fa314df1f6a8e985bae",
+        "size": 28568,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/queue_pet_repairs.py",
+        "git_blob_sha1": "6bfaf6cc40b24dab3575a7e9cd20c9ad7cc11d23",
+        "sha256": "7de982fefe7d1b28f67f936995688e79799e3ecd64a9cec1d03e84fcff0cd6b3",
+        "size": 6749,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/record_imagegen_result.py",
+        "git_blob_sha1": "6e7f63c42067b486e82a8904d7432e3d2f5d4c6b",
+        "sha256": "a9f5783b0c224780404955eae303cbc0722b26f5f929c3766d8f95e17d7751a4",
+        "size": 7905,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/render_animation_videos.py",
+        "git_blob_sha1": "784d16df3def43dcafa7486269bdb18b9e26ced6",
+        "sha256": "ac779c53550bae84aee216a29914d090beb85ece3c216c7323d87f6a9d4adfc3",
+        "size": 4217,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/render_animation_videos.sh",
+        "git_blob_sha1": "ad85d5822040f0a999f06c2f1904e341fc3f868f",
+        "sha256": "18368af2a9fc1f1fc37f5008ef1d18f3619dbfae3882cb743fd05b20d416d9e9",
+        "size": 152,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate_atlas.py",
+        "git_blob_sha1": "d9d7fd6c3e7d655d0394df72bfb270d504e47beb",
+        "sha256": "bc987ce57c76f8c6f23d95724e243a8e9aa07a1d06a74537c45a55e6bbfba7b5",
+        "size": 4766,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+    "computed_tree_sha": "75bb738e82d28b46b6f63b02ea07a5c075dd8757",
+    "api_tree_sha_as_returned": "75bb738e82d28b46b6f63b02ea07a5c075dd8757",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "13e25df86ce06eb6488e6a6bc5c5847f5dedc352",
+        "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+        "size": 10776,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5f6e79a444d2a1ccb38cec02fa6830c7bb2521ba",
+        "sha256": "7ab0f01e8561085d1b494a6ca74abed766c655da8ec98284fb38a362c19d6871",
+        "size": 37296,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "dd774e5e5cc7969267332232e0a9b6d73a8b4eb5",
+        "sha256": "b97c303df63c69a8857047bd87b8e681a2b7800138ede0d0b6aaac440d503d23",
+        "size": 244,
+        "mode": "100644"
+      },
+      {
+        "path": "references/animation-rows.md",
+        "git_blob_sha1": "79b63b20d71205fae13f89b60dc2f6d71b00a172",
+        "sha256": "5bdbb5693334a447128ed74af41981212d746bcbc21452671c21bdae8a39492f",
+        "size": 1787,
+        "mode": "100644"
+      },
+      {
+        "path": "references/codex-pet-contract.md",
+        "git_blob_sha1": "6dc57cc14bbcb9a5c8455e0a3161e0eb76fded3d",
+        "sha256": "ce9a9d2cef4d9cdb16c3ae53c106681d98b8ae3919a56fe74323f6f88a06f90d",
+        "size": 788,
+        "mode": "100644"
+      },
+      {
+        "path": "references/qa-rubric.md",
+        "git_blob_sha1": "f7246f1bf814eab7a9d1aae236ddaa7b4f08ce7d",
+        "sha256": "f2eab6f7fb85dcde5c9d7ba1a7a4b0e371ab95aa61ca8cd7783cca67275a5cc7",
+        "size": 4156,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/compose_atlas.py",
+        "git_blob_sha1": "0dd8aa4ec73716a8cb7c42b0bdaa7367ba827f8b",
+        "sha256": "a76d7c8b81033353004f5cafab8fa174c314f1d79158b69bc83a2f0bd6047fdf",
+        "size": 5750,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/derive_running_left_from_running_right.py",
+        "git_blob_sha1": "f394fccfa5395995302d0e0a8e374914ef01278d",
+        "sha256": "b3fc9b4a160ba39803a84ea61b7c4729ff8dc9e92bbc9399246350bffa04681f",
+        "size": 5159,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/extract_strip_frames.py",
+        "git_blob_sha1": "410479e297d1e6f2fa62151469b782e20278e4eb",
+        "sha256": "c9a251acf4532831b32c03d169b6c39ba891aa37ba65ea79e5d08dae297ea497",
+        "size": 13935,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/inspect_frames.py",
+        "git_blob_sha1": "4e141cda8aeaa4c1fb4cab264afdb6ce80fc1be7",
+        "sha256": "f196917c645e910a0d594608fa43cfb043ed294a4c60dffdf3846061b65c53c7",
+        "size": 8962,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/make_contact_sheet.py",
+        "git_blob_sha1": "6269460481b6d85985db4a3e3540182499f3dbb0",
+        "sha256": "28ab6f17909dd471ba6c9529b343fd9303ec9e35c551ceac23c98808224e701c",
+        "size": 2992,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/prepare_pet_run.py",
+        "git_blob_sha1": "33095ff8e95cc2ee8cc1276a09f0d1ec8a276d4a",
+        "sha256": "200b19089148be7a0467cfb5224a7286c76bc7ca5634210eeb2e8112d2016711",
+        "size": 32866,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/render_animation_previews.py",
+        "git_blob_sha1": "578f7827618dc5c237eaa1a0cfd8b912217d98d5",
+        "sha256": "911e8813e1b79b7f9da44fae8a667c044818e8c71f41eaa4b280e91c78cde61e",
+        "size": 2547,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_atlas.py",
+        "git_blob_sha1": "e3492c17ccd23b432b05387812d409ded1779634",
+        "sha256": "649a9a242d171da032de0cab1744f11629db3a2c88253fd3215e1a1174c29465",
+        "size": 5394,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/animation-rows.md",
+    "references/qa-rubric.md",
+    "scripts/compose_atlas.py",
+    "scripts/derive_running_left_from_running_right.py",
+    "scripts/extract_strip_frames.py",
+    "scripts/finalize_pet_run.py",
+    "scripts/generate_pet_images.py",
+    "scripts/inspect_frames.py",
+    "scripts/package_custom_pet.py",
+    "scripts/pet_job_status.py",
+    "scripts/prepare_pet_run.py",
+    "scripts/queue_pet_repairs.py",
+    "scripts/record_imagegen_result.py",
+    "scripts/render_animation_previews.py",
+    "scripts/render_animation_videos.py",
+    "scripts/render_animation_videos.sh",
+    "scripts/validate_atlas.py"
+  ],
+  "old_commit": "4c4058ebf44f6734e62c70ab4a81246d4d093fc8",
+  "new_commit": "c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Replace hatch-pet curated skill workflow (#399)\n\n## Summary\n- add the curated `hatch-pet-v2` skill for Codex-compatible pet\nspritesheet generation\n- keep image generation lightweight with per-job workers, storage\ncontrols, and visual QA guidance\n- add adaptive brand discovery briefs while keeping generation prompts\ncompact\n\n## Verification\n- `python -m py_compile skills/.curated/hatch-pet-v2/scripts/*.py`\n- `ruff check skills/.curated/hatch-pet-v2/scripts`\n- smoke-tested `prepare_pet_run.py` with and without a brand discovery\nbrief",
+  "new_commit_time": "2026-05-12T22:24:22Z",
+  "compare_url": "https://github.com/openai/skills/compare/4c4058ebf44f6734e62c70ab4a81246d4d093fc8...c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+  "commit_url": "https://github.com/openai/skills/commit/c25113bf4c64c8dba6bfe61acf06051d79aa43f6",
+  "skill_directory": "skills/.curated/hatch-pet",
+  "local_directory": "verified_real_update_pairs/OPU-0052",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0052",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

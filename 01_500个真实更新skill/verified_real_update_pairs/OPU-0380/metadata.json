@@ -1,0 +1,143 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/cloud-monitoring-promql-query/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "00f0d1a4a60039d898ad",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+    "computed_tree_sha": "f88eb875086fbbb02268b1f511cb5bbbb9c32402",
+    "api_tree_sha_as_returned": "f88eb875086fbbb02268b1f511cb5bbbb9c32402",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0548781014ca9e2005aa552f391759fb7a38f2de",
+        "sha256": "c26091aee37f064e73b30dff7505c35523ae2b761c2538f659b7575dc13e0514",
+        "size": 10343,
+        "mode": "100644"
+      },
+      {
+        "path": "references/basic_aggregations.md",
+        "git_blob_sha1": "0d43ae2f99a8c2fe562be4dad4cf958f7b9fb6c2",
+        "sha256": "ed1b265156d0aee0c4925f81f5b77a19b59487b1b5f7de6548d35981522d42dd",
+        "size": 13064,
+        "mode": "100644"
+      },
+      {
+        "path": "references/promql_error_recovery.md",
+        "git_blob_sha1": "9dc6d167aee29b15ec82251401f52d466088c0e7",
+        "sha256": "43824e97689eeea639988b6878403e69a9410f294ff469f83d7b82f20cafa78b",
+        "size": 5218,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_promql.py",
+        "git_blob_sha1": "5d15805697dfa9362cb47af49170c1d0d31fac3d",
+        "sha256": "6dcc3e9225188ce79fecdaa792d1b978d2238882f3bbd08834414961e0cdcdf1",
+        "size": 7693,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate_promql_test.py",
+        "git_blob_sha1": "79c8eb24b26d90bf9e181c7faca0add5e780cee4",
+        "sha256": "2da6ea9ace95fd4cb4d009f7c63862ac2240384f37e72f4a25e72d767de70f1e",
+        "size": 9798,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+    "computed_tree_sha": "5aa61580da57eff8b6be832b13ef17f291865101",
+    "api_tree_sha_as_returned": "5aa61580da57eff8b6be832b13ef17f291865101",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "21a28e7c5c3e3a8688faff404bb41206dbcaf802",
+        "sha256": "c0ab4b670da5f91eb41bf340ee42dfbee20fef5ea9fca8b667fdecf24c6d7db9",
+        "size": 10806,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "d8cd74729269a07e5c052fcf8724a4c144e1ea50",
+        "sha256": "d50deffc5d4879ace49e6c27c8facefe475865b4d61c4bc5b4f7aac899ce5109",
+        "size": 1927,
+        "mode": "100644"
+      },
+      {
+        "path": "references/basic_aggregations.md",
+        "git_blob_sha1": "0d43ae2f99a8c2fe562be4dad4cf958f7b9fb6c2",
+        "sha256": "ed1b265156d0aee0c4925f81f5b77a19b59487b1b5f7de6548d35981522d42dd",
+        "size": 13064,
+        "mode": "100644"
+      },
+      {
+        "path": "references/promql_error_recovery.md",
+        "git_blob_sha1": "9dc6d167aee29b15ec82251401f52d466088c0e7",
+        "sha256": "43824e97689eeea639988b6878403e69a9410f294ff469f83d7b82f20cafa78b",
+        "size": 5218,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_promql.py",
+        "git_blob_sha1": "5d15805697dfa9362cb47af49170c1d0d31fac3d",
+        "sha256": "6dcc3e9225188ce79fecdaa792d1b978d2238882f3bbd08834414961e0cdcdf1",
+        "size": 7693,
+        "mode": "100755"
+      },
+      {
+        "path": "scripts/validate_promql_test.py",
+        "git_blob_sha1": "79c8eb24b26d90bf9e181c7faca0add5e780cee4",
+        "sha256": "2da6ea9ace95fd4cb4d009f7c63862ac2240384f37e72f4a25e72d767de70f1e",
+        "size": 9798,
+        "mode": "100755"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "6c946422b9456555b9a4d8144edeeb64a9f56e94",
+  "new_commit": "a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to DevEx, Serverless, and Observability skills.\n\n- Add `references/attribution.md` to all 21 DevEx, Serverless, API Gateway, and Observability skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills and bundled plugin manifests.\n\nPiperOrigin-RevId: 1002429999",
+  "new_commit_time": "2026-10-19T17:26:03Z",
+  "compare_url": "https://github.com/google/skills/compare/6c946422b9456555b9a4d8144edeeb64a9f56e94...a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "commit_url": "https://github.com/google/skills/commit/a342dc55cc21bfc712c97a04a01b12c05648e92b",
+  "skill_directory": "skills/cloud/cloud-monitoring-promql-query",
+  "local_directory": "verified_real_update_pairs/OPU-0380",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0380",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,1335 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/foundry-iq-skills/skills/foundry-iq/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "32b2abeaae491205aa9a",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "f558cce7c37fcc7b0e12f32a22331d587eb92a3a",
+    "computed_tree_sha": "427a156c718b05f23d18e2d5265166d57bb26931",
+    "api_tree_sha_as_returned": "427a156c718b05f23d18e2d5265166d57bb26931",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8dc2a5018c2b7305e1a63b2d7b6e0ec548fe3c14",
+        "sha256": "292c48791c092ff185612860188f05232be627467fab098dfb91191eb7f16572",
+        "size": 3785,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/connect-hosted-toolbox.md",
+        "git_blob_sha1": "9e877b6110f41755e0d7eb99980f3756b1bf6a29",
+        "sha256": "a7e17c78f1b0bf948bc42a2a7a08227ea85f27061f5eec3780faf97ceb0730f8",
+        "size": 7987,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/connect-hosted.md",
+        "git_blob_sha1": "7e273c31bf76b4c57b24dd4a68592646620f0f83",
+        "sha256": "b5a5ea73e31e7fedb81a78872cf126d91c9e8f070017e9268df40c117b3bacb0",
+        "size": 7992,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/connect-prompt-sdk-fallback.md",
+        "git_blob_sha1": "a6626085a2c8ffec48825bfb24a7d861f85494b4",
+        "sha256": "7b144f5e3b5b21837e6ede9f0ac47c5ed9d47f99f79bec7c57805c3cf4ffd49f",
+        "size": 7990,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/connect.md",
+        "git_blob_sha1": "32eef060719b449d2a216372b7b4277ad6652490",
+        "sha256": "514d0dcda03c12b2eeac1aa509a35b2fce275e894e718176ae92cf2fad3128d0",
+        "size": 7994,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/create-missing-agent.md",
+        "git_blob_sha1": "a218722e0efad02e5c964e1a07c5684ec2e02d65",
+        "sha256": "da3f56fb5eaac4f4216a65b7d9d5c3f663b6ca99dd3a3047fde8f446c53a0a14",
+        "size": 8004,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_blob_observation.py",
+        "git_blob_sha1": "645e4a24bdedafcc4345050332ab08d7ff5daaaa",
+        "sha256": "e043468929ecbf9a694cd4b1bea48111ce2df9607ba9166318627389e704954f",
+        "size": 4515,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_blob_source_read.py",
+        "git_blob_sha1": "d26b93124efdb8e6e0a79b4e60412e24a07d89fc",
+        "sha256": "535fc71bd7c4fa9fe5a6bcd6468a4a6f445447dfbaeef4d04296ff552b011fb8",
+        "size": 40414,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_bootstrap_io.py",
+        "git_blob_sha1": "4685c69f26e9b8e0fed75d7a8bb4912d6e1eedfd",
+        "sha256": "81cd93dd6185df5210053b2c2ee7adf37497a9d5b6b0f100d58c3d76657a505c",
+        "size": 30842,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_cleanup_dependencies.py",
+        "git_blob_sha1": "ef5d653b721427027518e256c63dc1505af281f4",
+        "sha256": "fe315063fbafea4b4ce4b285ec99069e7cf87a34c500cc0602140fbb53660069",
+        "size": 28199,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_cleanup_receipts.py",
+        "git_blob_sha1": "9dc89c19323b7454ff2bff611214bc6823e4b79d",
+        "sha256": "74aaa215e4d7eae328cd95b4f202140684d2561638de1eb5dfb7236aef51100b",
+        "size": 13861,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_common.py",
+        "git_blob_sha1": "57db85df0de053c414d78fc20dea9c319c835c8a",
+        "sha256": "9251535604ec6172d2d64616ad798ec0ba4db4a8815a698ebd084e3f054d62d7",
+        "size": 37108,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_document_adapters.py",
+        "git_blob_sha1": "6f71c20e5bbf5840b490a4bb862ff6197a718d1d",
+        "sha256": "9ba145427a8cc5a5a0f0c0d663e928840d75a27bbe29a4ce9780fd2f227dc112",
+        "size": 15346,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_document_limits.py",
+        "git_blob_sha1": "3f17dc905c8c9459b75d89f5462480881da81acf",
+        "sha256": "5af99ee4acb814f21f5755cbc56cf1220e65a028c0851a1dd0c5e5264a9d3fba",
+        "size": 3984,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_embedding.py",
+        "git_blob_sha1": "76d521c72bdb1c651cae753e1c04d7ee37f3cca1",
+        "sha256": "0b9de3e23e3324e532df9d30d40e9d9eeca23393f87fb78180e25c976adb40e6",
+        "size": 7214,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_file_inventory.py",
+        "git_blob_sha1": "5d4089cbc030ecdd2cabc91eac92e4a183ae5f4b",
+        "sha256": "ed8f0e79fe5f18b5e3ae095a8efcd000cb3a0eaa2cb8ec1d7827c4d56dcf4af0",
+        "size": 24998,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_file_source_config.py",
+        "git_blob_sha1": "cb3adec2ffd6f01d5453689dfa50f157fdff0951",
+        "sha256": "4e55b39d0d3ac8f24389814be29bb8687106dac3e056aab08ff5582b406cfb8a",
+        "size": 15933,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_indexer_observation.py",
+        "git_blob_sha1": "32a0d4c39e8b2d0aab6c205a564a901d9bc2b3a2",
+        "sha256": "efa5642caf68764f1b556640a2392fa701e1abf3f509cc9a6b04357d8a4c57fc",
+        "size": 7253,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_initial_prompt.py",
+        "git_blob_sha1": "8e4d5776b9ec27bc0a7d3eef47699c85874deb90",
+        "sha256": "2fa432f72a56a3e64652bfd8a6738aad75d4fba4ce474fc80302733978e69845",
+        "size": 12787,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_private_json.py",
+        "git_blob_sha1": "8de9a6384f7c6f5655571251201b4aaa1e30444d",
+        "sha256": "2cb5a6c6d8c77e889498873011c4570173af3050bbcbae877aef4b1f9bc3f60d",
+        "size": 2478,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_progress.py",
+        "git_blob_sha1": "8d1e0ee7ec4c7821380a7963a8572ba79064bcd0",
+        "sha256": "a81ffb8a2fbae5058d4a2c5243c9499f941a36a8f5deef6337aa0be9e54aeded",
+        "size": 12433,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_prompt_read.py",
+        "git_blob_sha1": "f8e5ffb00ab208d36f55f00c74b7e6dee6078859",
+        "sha256": "99def8474d7e5cceea4200ec930b4ecbf2445829ce837bf05175a8eb62da0475",
+        "size": 18168,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_search_read.py",
+        "git_blob_sha1": "713965f59a67b345b4d9225a61fce0783641342d",
+        "sha256": "166d558a96f593ff04e9c78b5811accfd11787e6f2a2813d1bf0b9bf0eddd462",
+        "size": 6134,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/_source_readback.py",
+        "git_blob_sha1": "23ce9462ff8b534dd851a66aa74112f9bed64816",
+        "sha256": "112e8cd2e4f530376f3fb06c7195c87b0a0bc95314a44e0b1090f4bf99e01af1",
+        "size": 1609,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/blob-contracts.md",
+        "git_blob_sha1": "ba35dee1e960cfb78f33303c11260ddc62c0b086",
+        "sha256": "8be343e574a4f419e8433b07d8bd7575a3e46fb5f6fcaa055d80f847e99eacaa",
+        "size": 7960,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/blob-cu-contracts.md",
+        "git_blob_sha1": "192f7eaf4fa1254777244e2139c9391217327f47",
+        "sha256": "23e4d6eb725e2354a32ffd9f55fd575a4796b666df4011e86c0af9702fda121e",
+        "size": 7988,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/blob_inventory.py",
+        "git_blob_sha1": "5e3eb8ee2bab7998151b05a401745a707c1ca4ae",
+        "sha256": "48b6af9a4db7328897dbf78cb4d0343cfcd95424c47e7b50843038d0ce1083c9",
+        "size": 17484,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/blob_recheck.py",
+        "git_blob_sha1": "8d106e2dd3f518559cebf75a914bf72ed19de7e8",
+        "sha256": "ab550fafe673d3f52b61df1eded853799e2434468ae5a73487699d94a9920533",
+        "size": 66189,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/blob_source.py",
+        "git_blob_sha1": "c1f46405c3499ebb6331379439654f5cc0da4062",
+        "sha256": "2246b69dfcd9fe681d8ad036c072564b9b9155978fb63291d954d9d11e6bf4fd",
+        "size": 36636,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/bootstrap-contracts.md",
+        "git_blob_sha1": "0cc18d4915803d06fd0f286fa8a9b04e7fee6e86",
+        "sha256": "0f9d930657fec4d1ab3e2fad915b522ec2fe94a47e89c6a36feda2b8efecd616",
+        "size": 8011,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/bootstrap_azure.py",
+        "git_blob_sha1": "0e68b77be626e678961c2480eed356453578b6e2",
+        "sha256": "3657e992ed4017849c295c227e3d4043d3309304bfcb6aa94aeaf324c8938f45",
+        "size": 42465,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/cleanup_plan.py",
+        "git_blob_sha1": "0602da9e7af8f45cce5cbaf1d824109f407df044",
+        "sha256": "c40367c59cc1f25fdaddb88549d3d44e002b21cd900db05c717d6549045b8932",
+        "size": 42390,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/contracts.md",
+        "git_blob_sha1": "f0a8fb03e22c332002cc9a3d88cf3ca4cee42066",
+        "sha256": "1bcc11efa42fc0ef8db3c0e064858e66d421f92851352ee4ef75b09c3c1d7441",
+        "size": 7988,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/cu_ingestion_auth.py",
+        "git_blob_sha1": "89afa2f0c6edb99a0f12c6307bb041634e68d7aa",
+        "sha256": "8942da1370ddb14b942e733c128ae6d96699adaf17a9f9312aa890ca5e26185b",
+        "size": 12760,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/document-assessment.md",
+        "git_blob_sha1": "a75f5046dc2360e1adac7f49476f710471dca6d4",
+        "sha256": "1f99783f7881460d95b14691b052a43d8fec0e3b52c42fb747750402c0cff517",
+        "size": 7948,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/document_assess.py",
+        "git_blob_sha1": "4c597b9e9f9a6aa82772f6fe8da31efa359bde24",
+        "sha256": "93563f7601e33a38a9f653df6406bf78279cb3745cfca58c127b39c01c109bf1",
+        "size": 14377,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/file-upload-recovery.md",
+        "git_blob_sha1": "6beec37040ac6bbba837821b5edd6b9076b83901",
+        "sha256": "ceef1a07c99aed98798695c203d26812534554a976bf661899241d25aef273a2",
+        "size": 7958,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/file_cu_canary.py",
+        "git_blob_sha1": "2e57b0d08bc0272da86f630255d10f9cd6eaf7ba",
+        "sha256": "1aa0587d94428d0cb8fb3c8c94705e1c04d8fe2ede8578b41237e6f6bfe573b7",
+        "size": 33447,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/file_cu_mi.py",
+        "git_blob_sha1": "34dcb7d8664d3ebb56a0c35a25aa952bb49e18cc",
+        "sha256": "32f69f6cea09733cc46c0087f9ec44d4ac9c4257c92358d26f36a8a67e26c1a8",
+        "size": 9802,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/file_ingest.py",
+        "git_blob_sha1": "1aae89206f4589050ffe247b7e9229ff5bfc7429",
+        "sha256": "f6d072001c00620e04895bd01135adb15c340d44d02be364dedef47f8fcbdf3e",
+        "size": 15723,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/file_source.py",
+        "git_blob_sha1": "25fc12e16d89b94acf146e202a7e4d5e0ab1d100",
+        "sha256": "e7a6c25a45fdedb549eec622d0e5295f2b54fd12585ad6f4c49843c68e1b5e78",
+        "size": 32443,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/file_upload.py",
+        "git_blob_sha1": "ee36d8c45aef972ec950ec920bd77540f9369d06",
+        "sha256": "5b1cc2d088dc4c5ad71c69e1450be6cf74eee6e87c335034b857e4e0e07f3fdc",
+        "size": 54977,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/hosted_connect.py",
+        "git_blob_sha1": "35b6ce6d4d139e363041e9772c19ec3ef439adc0",
+        "sha256": "0abf12daa6c9ae0a822d57d3cfcaa1f5943b65b8c781e792b65f2b477bd2eb30",
+        "size": 31590,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/kb-contracts.md",
+        "git_blob_sha1": "f0f9d49458937c1e7929280ae1658e0c1888d852",
+        "sha256": "4c2ad61ac36750531158c9a15765e59f35db925c154bb2ab3d0defade32cd40a",
+        "size": 7974,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/knowledge_base_retrieve.py",
+        "git_blob_sha1": "f7f922914b839d16c90ae7d475e038aaab16632b",
+        "sha256": "33b0ef7f7ed099a4181383621560b89f17b8bdc396e08f4d80265530b73bfc5b",
+        "size": 7933,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/model-discovery-contracts.md",
+        "git_blob_sha1": "0e7e98bab95d76c09567df48467d7b23a9089f07",
+        "sha256": "0e6c3f335acf4f286f35548013aeab1ecaa2a94d2bf56acaa32b20ffcb1b683e",
+        "size": 7994,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/model-discovery-scopes.md",
+        "git_blob_sha1": "ca2e8802e1164a1ec6392431dfbe83dac9d79551",
+        "sha256": "344a8cfa07624e21b4d9472fb376570db82c4c459d3efaa2898166c16f63fc5c",
+        "size": 7967,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/model_discovery.py",
+        "git_blob_sha1": "d16694db6725e962da74dc43f63e326cff0d729f",
+        "sha256": "65e9931eadf5d7322640b551fb2c6c063163b99027d5b880e44e558194b35243",
+        "size": 24266,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/private-artifacts.md",
+        "git_blob_sha1": "4e4a8e5dff6fc7c0b5394ed33190a50ab006e60e",
+        "sha256": "2573759fdeb614218b9b90784cadd3452b4cc9421fc1b10d7eb87b7f4c329d37",
+        "size": 7371,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/private_artifacts.py",
+        "git_blob_sha1": "3575089be31fcb4e4d7cbe7dfce8785f2a106022",
+        "sha256": "1edeffdba32cbe3a5fc50bd1b32cf8af50b70538ccf860cb7380c323fe5ebc29",
+        "size": 4888,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/prompt_cleanup.py",
+        "git_blob_sha1": "7204ae3ddad46c4d2ceccad353e89815d9204298",
+        "sha256": "bca4d48879a2eb2531bbe2ec11ec6c0f75a8049742bb09137e6bf790b81651cc",
+        "size": 22527,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/prompt_connect.py",
+        "git_blob_sha1": "949651e4d0d8ff9b9aaee88447c04e35eb14574b",
+        "sha256": "7dab6d0fa7f281be2495a665367a7b54ff16c26a02f2f0fe81596248048a91af",
+        "size": 63827,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/requirements-assessment.txt",
+        "git_blob_sha1": "353d744a4e974e49052b459a08d744b7cc424f6b",
+        "sha256": "0febc984b83d43f4c768890722bc03600d42fb0a896cf683db7262f4571fc669",
+        "size": 103,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/retrieval-verification-contracts.md",
+        "git_blob_sha1": "c552a3d2ab4a627addb6d38777057a41bef186ae",
+        "sha256": "be9c37cdd3f3ba78363c10ddbad1657d464993c73c690d1a5134ca8b06807b83",
+        "size": 7996,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/retrieval_verify.py",
+        "git_blob_sha1": "a052db833fd2e5ae1afd51e133f9a08df6d8fc0f",
+        "sha256": "9e638940d38bc04b230820d44e515094dd12245458582552ab894bc621c91884",
+        "size": 20111,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/search-intake-contracts.md",
+        "git_blob_sha1": "2704273252a299cb15c6c3dbed0402c61618a9f1",
+        "sha256": "1d21bfd7efc8bbf8cad6a22235a3b024c5356afcb3aea91f7e61d694c801b90c",
+        "size": 7818,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/search_intake.py",
+        "git_blob_sha1": "8fcb68871b317be80908bd5b9113c21f85f34757",
+        "sha256": "e431257bd7f4781eefc42d98a7b130056bda257435163514aea6c5a70dfc19bb",
+        "size": 18810,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/search_reconcile.py",
+        "git_blob_sha1": "12869d5799d50c55fc55709b6e79d71d9f8c91f0",
+        "sha256": "d415e5298c4dc8019e15c09e421dce42a1331652acbe710e1d25efc826abf3f9",
+        "size": 61140,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/source_vector.py",
+        "git_blob_sha1": "688fdde913f3952a1747cfea7f05ebecfe9e7b6c",
+        "sha256": "9cd7e9741f6bc180b94ceba8ed908247c4dabfb87931feb409ef233fcb0755d2",
+        "size": 33962,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/throttle-recovery.md",
+        "git_blob_sha1": "479d5480a2071f819bb57059edd0f28f6f20ae64",
+        "sha256": "581f43e58ac287240d64b96a014e129abbed8a9e54175488c3bb48d4c1296980",
+        "size": 5103,
+        "mode": "100644"
+      },
+      {
+        "path": "helpers/vector-contracts.md",
+        "git_blob_sha1": "ba753aca023c01fc5c5eb2d169df879ac58310b8",
+        "sha256": "6b525c21725238e211cd11a263bd2f987b3b2f9116e6bd101419caed482d39cb",
+        "size": 7985,
+        "mode": "100644"
+      },
+      {
+        "path": "knowledge-bases/create.md",
+        "git_blob_sha1": "460c901e8013c157804ee313f9c103ecda132f3d",
+        "sha256": "1e870073b5cf0a9ef252c01c43569eb48b6b27fe244cf4f5091241d027e9263f",
+        "size": 8258,
+        "mode": "100644"
+      },
+      {
+        "path": "knowledge-bases/retrieve.md",
+        "git_blob_sha1": "cf821a2061003c4e8503818700c9e85eb76e7b97",
+        "sha256": "a82a49f02e319d30c5a4bc9b486102d746d0fe5775acfd719d33bf5f8f91fba7",
+        "size": 8000,
+        "mode": "100644"
+      },
+      {
+        "path": "knowledge-sources/create-azure-blob.md",
+        "git_blob_sha1": "1bc362da669e37feeec3d4c898c2fb1d9e2a4d53",
+        "sha256": "168563c3a4de21cc36d53cfe126cab60ccdc115b25008a88ab3d1c1bd9ad565e",
+        "size": 7992,
+        "mode": "100644"
+      },
+      {
+        "path": "knowledge-sources/create-file.md",
+        "git_blob_sha1": "2d56be52ae8481f86864d23e65292854091ed121",
+        "sha256": "ccef72777d241a8d76a6319e9d28dbd92429894d32f80768bccc5ba43fef1675",
+        "size": 7997,
+        "mode": "100644"
+      },
+      {
+        "path": "lifecycle/cleanup.md",
+        "git_blob_sha1": "10be0667c70d3ffc352e1821cfd210b2692530f0",
+        "sha256": "1f64b5f4a28ec68b1960985a82d5e6b99d7a5f2f68ac04ee07bf2ecf64d50ceb",
+        "size": 7997,
+        "mode": "100644"
+      },
+      {
+        "path": "references/abstention.md",
+        "git_blob_sha1": "0f82a0349762ad5c658e0787a771a18e0b27f8f6",
+        "sha256": "aa1e3fbef65d0f22232ca59462842a9853791dc4eaac2ce16016c263ed2f6c5a",
+        "size": 1054,
+        "mode": "100644"
+      },
+      {
+        "path": "references/blob-binding-evidence.md",
+        "git_blob_sha1": "bbcef8f3d7db15e17e82a3bbf14870ac5f97b3c1",
+        "sha256": "191aa21fe366063e569c041b20be044a035a07970691f76c2c533271a891e457",
+        "size": 7996,
+        "mode": "100644"
+      },
+      {
+        "path": "references/blob-indexer-observation.md",
+        "git_blob_sha1": "32ec2261a4662e2c2a2d8ee64f8c0c9a5455a0c1",
+        "sha256": "00f38ba7ad328180985da78b8cfb7f6e808b3d48f36640fb8822187c6771c76f",
+        "size": 7873,
+        "mode": "100644"
+      },
+      {
+        "path": "references/blob-ingestion-progress.md",
+        "git_blob_sha1": "ee76ff99c421ff00b60af74e5e51a425d6a787a8",
+        "sha256": "377a92feff7301855b8f7e789f7d313e32f231caf6b94d20b248daf39a7c7f77",
+        "size": 6636,
+        "mode": "100644"
+      },
+      {
+        "path": "references/blob-readiness-recheck.md",
+        "git_blob_sha1": "d43820e467d0a4a1e90b2b5cad82177e9a11f9c4",
+        "sha256": "0caf9e57b82346bc5975228ca93d625aece38521b9818d8ce7283b39bbb97afc",
+        "size": 7997,
+        "mode": "100644"
+      },
+      {
+        "path": "references/blob-vector-readiness.md",
+        "git_blob_sha1": "56714423436fe002183ec532bcaeb6e07c14f0a7",
+        "sha256": "abaf0a7d82d03a9c95405c0a1ba944b7b5d0a94c6023848520784f5489dad719",
+        "size": 2672,
+        "mode": "100644"
+      },
+      {
+        "path": "references/bootstrap-azure.md",
+        "git_blob_sha1": "33e3d7c5ee16362d53ba92f8c5c05bd1ffc6fc63",
+        "sha256": "3992b8e87f73e1a977e4d0d82d1c61e6a1a5c0f0163f3b8375a27408a2c92414",
+        "size": 7994,
+        "mode": "100644"
+      },
+      {
+        "path": "references/content-fit.md",
+        "git_blob_sha1": "54c1d9f9545e012412476ecd3c1aecf27e426ad0",
+        "sha256": "940aba8a2ad78722a74e53666b6d1bc76df54c62444915e9508c54b6a1c2b9ca",
+        "size": 7975,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cu-ingestion.md",
+        "git_blob_sha1": "240e2ab416ac97990949eae02b63ad72c2996633",
+        "sha256": "0dfec6ea32e0894f2aad3944a2bc1dbfb26ab6634e83954d28ea36ed9547026c",
+        "size": 7995,
+        "mode": "100644"
+      },
+      {
+        "path": "references/file-cu-canary.md",
+        "git_blob_sha1": "be5f344b66e5d4d836a4aa2b7a7bf16cf7858870",
+        "sha256": "905a96508aec71435146b2796de619fcc65494df3d2ffa7608b4b45f4bbf3c81",
+        "size": 8026,
+        "mode": "100644"
+      },
+      {
+        "path": "references/intent-routing.md",
+        "git_blob_sha1": "37a9190671e6380215ab2f49de3c4cefe7d98879",
+        "sha256": "4c8857018d939d600317f47c7177d91ae0722aaf13ce945025f00b7523bb1349",
+        "size": 7910,
+        "mode": "100644"
+      },
+      {
+        "path": "references/owner.md",
+        "git_blob_sha1": "e6ecdeb6a24aaf446829eb6f5b03e4494e5462c2",
+        "sha256": "fb3da7b4e17f282e1d635901a967ab05282931d1f6898080f5aef4db59d83a74",
+        "size": 2140,
+        "mode": "100644"
+      },
+      {
+        "path": "references/platform-contracts.md",
+        "git_blob_sha1": "1e3125a3cb8123681c43641d192bc135090e7cbc",
+        "sha256": "74c869b12efd0abb1016742bf38b84623471e1e6b40155e03f6414c1839882dd",
+        "size": 7934,
+        "mode": "100644"
+      },
+      {
+        "path": "references/platform-interfaces.md",
+        "git_blob_sha1": "ae250438e0b346c835d266981e20b8a615a6c3b0",
+        "sha256": "ff2cf9e76744c8efe3c1e9633866b382b276dc7f90057edcc282821df2a42e39",
+        "size": 7972,
+        "mode": "100644"
+      },
+      {
+        "path": "references/resource-intake.md",
+        "git_blob_sha1": "24a07a2de7706bf6d48a09312b0f58f3e78751df",
+        "sha256": "9a7c799deef1af7c8dab1e62712f1c9eeeef64310431eede97ab656a300b2801",
+        "size": 7961,
+        "mode": "100644"
+      },
+      {
+        "path": "references/search-substrate.md",
+        "git_blob_sha1": "8cf08685787e7dcca4c7eaddac1243f50984b691",
+        "sha256": "c55e98a9ccf00ee455d6847164c63b97d0e47e4dce8276725c5d0643d5597fe1",
+        "size": 7955,
+        "mode": "100644"
+      },
+      {
+        "path": "references/standard-cu.md",
+        "git_blob_sha1": "3f38ffda7fadb77ab7ba9a5331c9169ee4b693f1",
+        "sha256": "523d65012900a6911f54978af3cc6fb6e309fdf9e9b79aeedccb4526f2605ccb",
+        "size": 7953,
+        "mode": "100644"
+      },
+      {
+        "path": "search-services/create.md",
+        "git_blob_sha1": "050a020012af0cf4374eee54cf2a4a3126575553",
+        "sha256": "9925e95e271c76715d561b75e337afc51a37a5e451334e7457ddbdccfeac088d",
+        "size": 8000,
+        "mode": "100644"
+      },
+      {
+        "path": "troubleshooting/diagnose.md",
+        "git_blob_sha1": "79d0b2f47ae2ea34272bb699725adfdd41ee912d",
+        "sha256": "91ae156f07b7c6861a38aa9efd829d961cea975951f1eb18c1b67617882da69a",
+        "size": 8901,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4d348034fda5cf5a34fb1087e743e7717b4b3933",
+    "computed_tree_sha": "e907563309c2d1a13db3c7be4efb9cdcc5a71bbc",
+    "api_tree_sha_as_returned": "e907563309c2d1a13db3c7be4efb9cdcc5a71bbc",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "61b3f95d462dd2d8b9006f8c805685e095d34f44",
+        "sha256": "5a536ee63d11e23ba001e171d6235d812632ee7dc78e1c739aed9cc2df724d3c",
+        "size": 2125,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-version-defaults.json",
+        "git_blob_sha1": "20395fe25ba1da192e8c6e6364ed9b498fbad2fb",
+        "sha256": "72d27afb56cb5625fbdf25573d79d173ac2863c84ee57642c990e73efd8bc69e",
+        "size": 95,
+        "mode": "100644"
+      },
+      {
+        "path": "references/api-version-policy.md",
+        "git_blob_sha1": "0d06e429914d08e6fc378c09d037785a7e17c123",
+        "sha256": "fd6e7b34ef7d859fbd80d5d88f16e4b691348e570fd67d905b6badff8b2d56c9",
+        "size": 6792,
+        "mode": "100644"
+      },
+      {
+        "path": "references/context-resolution.md",
+        "git_blob_sha1": "80e313d173bf5b9f0d7c3bd739980b9962c2b1d8",
+        "sha256": "347a7d67d4c107335cbacb3b0037801d2d4d496ed6cbde8fb79487da84c32de8",
+        "size": 4331,
+        "mode": "100644"
+      },
+      {
+        "path": "references/error-taxonomy.md",
+        "git_blob_sha1": "f9745fec2c4a27b5c09f24c0308f2cf0e869b4d9",
+        "sha256": "c8e352c6be0c0713fbcb52b0556ba931c61624abba6e06baf0641d890b760fbd",
+        "size": 354,
+        "mode": "100644"
+      },
+      {
+        "path": "references/http-contract.md",
+        "git_blob_sha1": "45168f5bd2df008378020859e15c7ad0d5b32044",
+        "sha256": "5192b8135d424e966815ca112cb73c23e9ab57575e02a92a60f7ecb95155f6fc",
+        "size": 6625,
+        "mode": "100644"
+      },
+      {
+        "path": "references/limits-and-capacity.md",
+        "git_blob_sha1": "3a0722f28c2c671df32c94afdba328b2997422f4",
+        "sha256": "eb1deb5113120e3cb0e869fd83a9cc7bda04dd8958e8554a4374d009cf58f8ba",
+        "size": 352,
+        "mode": "100644"
+      },
+      {
+        "path": "references/networking.md",
+        "git_blob_sha1": "27b594dc018480bc2733451549236c8da7a0db24",
+        "sha256": "bd5a561be470ec1427236f6f46f0e1290dcc9ebcfc743403702996df6d766197",
+        "size": 2976,
+        "mode": "100644"
+      },
+      {
+        "path": "references/output-contract.md",
+        "git_blob_sha1": "6036f9bbbfb3ae1a150194207aecf7fbf714cfd0",
+        "sha256": "38f9636b1e9980cc18f68b8c5ec0d142d06e9c737e607e52e3958f0bf61adaca",
+        "size": 1177,
+        "mode": "100644"
+      },
+      {
+        "path": "references/safety-and-idempotency.md",
+        "git_blob_sha1": "ece76447babf9c9827bc5bee3b0385ef22af2c6e",
+        "sha256": "90c8b415d9482bca29a733c9932620354fe57ec7b59511abac5cea8b40569c0a",
+        "size": 7730,
+        "mode": "100644"
+      },
+      {
+        "path": "references/service-provisioning.md",
+        "git_blob_sha1": "9c462e7b0e9da56add211ae8f8c6a5e459548ab7",
+        "sha256": "434124a3927963efd147757a61cbada4b373ba527359b01db0fa4ec5c43e3b1e",
+        "size": 8304,
+        "mode": "100644"
+      },
+      {
+        "path": "references/source-security.md",
+        "git_blob_sha1": "666ab4435aa9844df568a8e0633bec944c01c71a",
+        "sha256": "f264a9448b698ec693c5d45b2ef22c31351f689cf9c5ab61fbf3e46d9ee7467d",
+        "size": 7243,
+        "mode": "100644"
+      },
+      {
+        "path": "references/validation.md",
+        "git_blob_sha1": "6f1eb045c93500b90c7214a7442e33a867678257",
+        "sha256": "7e2cd2e33572fa370e9fe5f59540c942a82d7c5726a58d8333c3acb43d3388b1",
+        "size": 2220,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/request_attribution.py",
+        "git_blob_sha1": "d1b96a665914817c45bfbb8bae3d41ed40bf068b",
+        "sha256": "d5fb46caaf9ff1132f576993e68acd498402d1bfe405c8223dc875b7d03cda4a",
+        "size": 3673,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-build/entity-graph-build.md",
+        "git_blob_sha1": "ce95ac5402e9ea5a9a5d4e00075525ce8145d572",
+        "sha256": "22fd3f2b28763a168249d96ada3f806cbd3a5aa3531b147560877534bcaef787",
+        "size": 1926,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-build/references/deferred-ontology.md",
+        "git_blob_sha1": "2384fc3f5a8528733964b944ba378c53eafaff6b",
+        "sha256": "ab9d14eb6a5190fee030d6b746ea3a7d2ddc0f6967b297942230a456f9c14a11",
+        "size": 3713,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-build/references/plan-and-publish.md",
+        "git_blob_sha1": "cc993df8d69aa8d4252cc896c03b2c6616a19eec",
+        "sha256": "5189ae2523c4a682f9d4705eea6324c92ac3ea909c81a41b95ac6d239b5da511",
+        "size": 7750,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-build/references/status-and-telemetry.md",
+        "git_blob_sha1": "b3139c4f3236180460118c69382b9e875f43b9e7",
+        "sha256": "3ca6cd41e129dcd84331691d11d8c9e3776ba1d6bc5a2a11945794a0fdca5044",
+        "size": 5595,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-build/references/trial-update-retire.md",
+        "git_blob_sha1": "e81d5a0b319472255f537e59f197df5f776c77d4",
+        "sha256": "3c8be90ce128f3f03e97a3c302f8f804fbdeba5f813b0a24e317d6b3f07c774a",
+        "size": 3988,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-consume/entity-graph-consume.md",
+        "git_blob_sha1": "847a245fc3c34602634f2c749aa02415026da61f",
+        "sha256": "3c0853284e10d2b82cd51e460883279592ada517bdc3d08fbc0cc336cb4880dd",
+        "size": 1663,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-consume/references/document-retrieval.md",
+        "git_blob_sha1": "812dd09a53f3b44e7c8bd2110400a9e511c3ec28",
+        "sha256": "d6277c4c0efca2f51d1d57c1bc7187d3320bb42f930aaac6ef0b68a4a869bbd5",
+        "size": 1323,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-consume/references/graph-traversal.md",
+        "git_blob_sha1": "a47ffe54cdf4647cd5b33f38e55ad9c42119e541",
+        "sha256": "4e6ca4afdf1055a1ef4bf9ff33682d5d3aa2725d25dc11debc217657a8e3cbc0",
+        "size": 4632,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-consume/references/health-and-capabilities.md",
+        "git_blob_sha1": "c5c025db79ec96ff90dca8cbe742e526fecbfd6a",
+        "sha256": "ff62766f6ca5d88b232054bf95234695082fd19a02ba8ee1dea2e27f86e8c499",
+        "size": 1824,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-provision/entity-graph-provision.md",
+        "git_blob_sha1": "722144bb951a7bbfc52086d35812681523893f15",
+        "sha256": "9f07480616cf2cdf2322fabd84edbd2f299c457f52662f2b2d8d9aa92a140187",
+        "size": 1877,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-provision/references/apply-status.md",
+        "git_blob_sha1": "076f985c9d98540e889b1cbe948723c4c9a55fa9",
+        "sha256": "599e51d3ab2946c1e184d3a9ad7151c788f6b7dce7d84742d7bd0acd6d50853a",
+        "size": 1716,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-provision/references/capacity-rbac-smoke.md",
+        "git_blob_sha1": "9a346a0bb4fdc816a912c8f03f9c24c935240a78",
+        "sha256": "3c348932d76e666abca0ff8daa61ac9302ba1eb5786f4979185680c7193a0410",
+        "size": 3534,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-provision/references/connect-existing-resources.md",
+        "git_blob_sha1": "33abaf36b23317b289c972a68c09ea562288c1aa",
+        "sha256": "e8d73f9dfec45105c422b39e25595ba1d61655860ba23170d2539728650786cc",
+        "size": 4542,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/entity-graph-provision/references/new-resources.md",
+        "git_blob_sha1": "1c2f0f9dd4aaebf042657f35426c4008ec3ddffe",
+        "sha256": "bd72847ee2287b22ae6e61df318df4357f14a19fcc1308d8195fc373cd210563",
+        "size": 5463,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-choose/graph-choose.md",
+        "git_blob_sha1": "681be0ec2bcc84dd54b424ea20ad0d0e83e9e186",
+        "sha256": "1d58fb1cdbee9646c252e9db995f10d1afcb325da7820db78ed127ebf8964109",
+        "size": 1947,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-choose/references/install-and-checks.md",
+        "git_blob_sha1": "239ac18bf4f679c15e5d43017986f05c3e117f1a",
+        "sha256": "d138b80e7c05de624dd28e24769b6c1ff6d60261f8036273d13026e3630dbeb6",
+        "size": 247,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-choose/references/route-table.md",
+        "git_blob_sha1": "64e2518b28861ca5055adf040bfc15cae9355ed9",
+        "sha256": "3fd7b1dfd21232be73b6ce85a3b226a99eb84f529aca3f29a4dc761ac7ea7d73",
+        "size": 3965,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/graph-demo.md",
+        "git_blob_sha1": "c1e3271d32676bdbdb4070043aab279da07c83b2",
+        "sha256": "0aa00d19ec2c262d6e132094d1a8c5d86365ef5666c03027575a6889ba396c42",
+        "size": 1949,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/references/byo-data.md",
+        "git_blob_sha1": "6c1c75e7a142ae551a3231c29a3b5fd764021998",
+        "sha256": "26078fe5160569dce7ba2e0f78bc566aff003cc6d43aa8e02f6b6f02233a5a04",
+        "size": 2353,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/references/byo-ontology.md",
+        "git_blob_sha1": "6d0110b22192953f497b713db1720c1884fce30d",
+        "sha256": "2dfec410c4f203bb586d797182a5d83a9a735264354449a07f5d9d78844cbda5",
+        "size": 1337,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/references/finish.md",
+        "git_blob_sha1": "631fb859daf57fceb4ea13938a62e2a6a7eac1cb",
+        "sha256": "76b3e341cb4b59242a8092d40477128ac9ea9b0891798cfb0cc7babf386c1220",
+        "size": 3458,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/references/grounding.md",
+        "git_blob_sha1": "24a547664ea2ae8c25e0a0824d5a1016c3f155f8",
+        "sha256": "6aa50cf968c37fd7a4c1f2ee1db03bcd4aa2534d87b6b4ac8840ebba44441293",
+        "size": 2625,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/references/handoffs.md",
+        "git_blob_sha1": "79a206cdafb7c45d490baefeb615ab6e892b09d5",
+        "sha256": "ecf61b19c48b584bcbbaf26cdfd267e455418a8777ebb24444f3f7a8c14d01d2",
+        "size": 7983,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/references/install-and-checks.md",
+        "git_blob_sha1": "1b4d3b41ccca463bbe2181294613ff8f0df0af31",
+        "sha256": "62bf18c16baa7c9d409290631fe91cb2dc0d0b31d19d2c3d27afd19bc0ed54f3",
+        "size": 4850,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/references/intake.md",
+        "git_blob_sha1": "dc2cf4c2229a09142c887d3b966620a4424fddcf",
+        "sha256": "b0a4fb996d4b9dc20ed89f8bdcc8be87caad08fbe4517f86a025c862e4252031",
+        "size": 5257,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-demo/references/story.md",
+        "git_blob_sha1": "c7e9cbc27b64138334604971e61e8900dce6a79c",
+        "sha256": "e883b43d144806312c8b529ef03b28ed5aa7c1ce52c04076b812fd81e9a757c1",
+        "size": 7423,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-guide/graph-guide.md",
+        "git_blob_sha1": "8b3c63d417d81da683ccc4836c675c71dbd45a9d",
+        "sha256": "41e35ef6b15ba3b82186d1bbbb588c57428f121cefb6879424c8229d267d93b9",
+        "size": 1761,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-guide/references/decision-guide.md",
+        "git_blob_sha1": "da69febef6f4817bd2e11aa97a1cdf37bea584c7",
+        "sha256": "54f215583d9b78702c1f8d2bbc9cf78f76aa94cc35cc44d9ab6ef815b64bc0f4",
+        "size": 4573,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-guide/references/install-and-checks.md",
+        "git_blob_sha1": "86c73ec0cdbe650019d56b6e59db24c45dfe3f16",
+        "sha256": "d1b8be08e9f759405dcbca4fa09bb6a3f3ded6b5606cf05283426b25f25f2b8d",
+        "size": 7592,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph-guide/references/run-naming.md",
+        "git_blob_sha1": "091551c63d23d39cd14ad6d5fdc62b3fb0072bba",
+        "sha256": "9f33e9a78d7a9c8c5537d82fc74b210613759a0f81ac33ec68f06fd6c0ffa907",
+        "size": 3955,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/graph.md",
+        "git_blob_sha1": "81e3c02845e11ec04f3294957934f326a34d62f0",
+        "sha256": "8b9b891b73d3ef46562e75afa310d7e427081ef45943222e0652580327591f3e",
+        "size": 5727,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-build/grounding-build.md",
+        "git_blob_sha1": "e37e1efb8925d61bb893d4b72cf48b328c522980",
+        "sha256": "5d46baf2c4276e030816a00bfb244baa4fa824d676cccdeb127cac9afb77b167",
+        "size": 1603,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-build/references/align-and-resume.md",
+        "git_blob_sha1": "ff92130a3f52298fe1bc06aa54274abd1c419612",
+        "sha256": "8cfdd60ba4084e3360265e83c5ac95162b397e3f801a72cff205008fec9d92f7",
+        "size": 1544,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-build/references/own-data.md",
+        "git_blob_sha1": "14ce98233dd134c764926817d40e14a88de0d126",
+        "sha256": "d46fb3469bc6a7cf4294dfc99d4a4e06ce51940b251b5e722745be367223fb6f",
+        "size": 2950,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-build/references/wikidata.md",
+        "git_blob_sha1": "f2a7ecfe4fe2a4aab156ea96ddf99a5ebabc0604",
+        "sha256": "9f9c94465541415fb3581e6eb0cb311111d3ac366a9b54ee965daa09f1793197",
+        "size": 1871,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-consume/grounding-consume.md",
+        "git_blob_sha1": "d827684cfdee5793c4919d1552ecf68254f2bd60",
+        "sha256": "e64949ae41fcfc0b757bae34d78a3113bac48281796116b928f5bfb6ea92eb12",
+        "size": 1142,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-consume/references/check-inspect-sample.md",
+        "git_blob_sha1": "99dbb1b5e870d94440af94df8309f3e2af648447",
+        "sha256": "ea70dbba4d068c629cdb31773f769778edc78f3b3dc1183a9d2db4faa2bf5d86",
+        "size": 1441,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-consume/references/index-schema.md",
+        "git_blob_sha1": "0c47bffc2d84d76f4328dac835e7056efe082361",
+        "sha256": "b9e994a2ca839153873d5e4f90dc4cf559d74e7d6ef338fb899d8f7ba1835d35",
+        "size": 2441,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-consume/references/readiness.md",
+        "git_blob_sha1": "765974d9005e01a90edae6701385fe37cc6657b3",
+        "sha256": "2ac00fc542ccb7c17cc907cfeef796af79c209e6e81f07dce2846856afaf2b35",
+        "size": 1426,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-provision/grounding-provision.md",
+        "git_blob_sha1": "4c07006755ceed59323bbdabf982b27da228369e",
+        "sha256": "24fda227e5248ec98c888568f2a117764fa63140cd7c9a96635cdc723d431fd8",
+        "size": 1891,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-provision/references/connect-and-doctor.md",
+        "git_blob_sha1": "fcc55381dd0904bf401171f7d22a19adf99d0c3b",
+        "sha256": "ab519edc03ae6ddf0864d486a67b6a0628a10e3707bc745719bcdef3c6ef4595",
+        "size": 1932,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/grounding-provision/references/create-service.md",
+        "git_blob_sha1": "34186716f72e08cfc9beee58e558a45b4056a6b8",
+        "sha256": "6585c10e1d74a7b77dbdb6f06595b49442237930a6e853d814bce614422855f4",
+        "size": 1723,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/ontology-build/ontology-build.md",
+        "git_blob_sha1": "6fedabbbc9bd2af42d4825418d233d2deb382201",
+        "sha256": "1702d6fd731bcfedf957cb379feca6c4f102848b88ba5a9817d5f9b7f4575ec7",
+        "size": 1948,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/ontology-build/references/connect-plan-propose.md",
+        "git_blob_sha1": "8448e79d1d9f64b2a391ddbd92a6cf3b5c0af075",
+        "sha256": "df34bd15f991d034edaea5a3158e41ef08096c6f0a97037494d9fcdd977040e2",
+        "size": 6355,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/ontology-build/references/refine-critique-revise.md",
+        "git_blob_sha1": "5761a012a43ecb0c1e9113d6d1a755b2ab737b45",
+        "sha256": "8ed4701978161437afa5030b6ff7b59907af5a60a60e17c2d062f576c782d697",
+        "size": 2967,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/ontology-build/references/review-approve-export.md",
+        "git_blob_sha1": "608ce4656aca34af9527efc06f08bbac72b563db",
+        "sha256": "61e82c324892df42748ab80abf8b7329bd9855f87e4d1f781ffc07b2c0af78c2",
+        "size": 2824,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/ontology-consume/ontology-consume.md",
+        "git_blob_sha1": "1295d4130b4d7d54b8cd8c093186864857569e02",
+        "sha256": "01ff599ce06709d21f29f02bc8e912f80b51a71c174100873faa87e81a2b04d1",
+        "size": 1360,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/ontology-consume/references/browse-ontology.md",
+        "git_blob_sha1": "e7e64eaae22f3765e483d4b4da58fd4a62c116df",
+        "sha256": "f7a02861abb4f167b63394796b324726132517b2eccb00c9a822f8d45ae06805",
+        "size": 1889,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/ontology-consume/references/check-and-estimate.md",
+        "git_blob_sha1": "9f61d77e11f5c9f06579ca37c25856c9d14c900d",
+        "sha256": "faec2cdaa7b463a9d82e396a0dc5f9223e31f6fdbb36b3085f1f1d761fe17893",
+        "size": 2120,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/ontology-consume/references/evidence-and-diff.md",
+        "git_blob_sha1": "60792288167f3858537cfe84734bab2b8ab30c33",
+        "sha256": "14ce152df8eb8a3d07819b13455bde13748bc27735507caa935c0ae4fc24839e",
+        "size": 1081,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-build/references/native-runtime.md",
+        "git_blob_sha1": "87d5ef9d598e0c28d88ae99aa3a02a64ea01fdb8",
+        "sha256": "97770aed8dcbbb44e5f95047b6231ba6b8dd6c3efe2c054cf60779483c3f2d79",
+        "size": 3045,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-build/references/plan-and-apply.md",
+        "git_blob_sha1": "47427c3d297fbc4033d425344798439c2f7c2b4e",
+        "sha256": "3a0e7a27fffc3c984e205ea6b0d6031da2311a9f1d3cac7dc4a8a724c81e78ee",
+        "size": 6112,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-build/references/publish-and-readers.md",
+        "git_blob_sha1": "9ba100461448116cb72dc39b62143c7781779840",
+        "sha256": "ff6fa92769763eec3d1cb1c339cdc6aca3bcdddfb5862d37d7757d172828a114",
+        "size": 2372,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-build/references/reconcile-and-retire.md",
+        "git_blob_sha1": "7ef9f88e23dc5d3af54989506b3fd42df1df72d6",
+        "sha256": "a112186258638a8d12622a93c045b576e54a98efd3af936dec5d1f4cb8b61619",
+        "size": 2064,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-build/references/retrieval-setup.md",
+        "git_blob_sha1": "69a69fbc14cbb3ea5ab2d8facf924d06126d0008",
+        "sha256": "e589c756f9adfabc7a2b878a3a87cfe562e2c11cacacd4f6d7c81cfb9ee54f79",
+        "size": 2653,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-build/topic-graph-build.md",
+        "git_blob_sha1": "50518f0aaf9418595a1c876b2e0a83a6a50f13cf",
+        "sha256": "913d9e4f4cca23939396d8f9454f2450a4d88c335436fdeac5b00be7651cbae2",
+        "size": 1874,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-consume/references/browse-topics.md",
+        "git_blob_sha1": "9820a364c2b3287edf024e8a824ba725a9778f33",
+        "sha256": "80642f04d7fa2f4c86dc965d2ced2925f2f5137d7a9383c4133ed8be47bd25ab",
+        "size": 2886,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-consume/references/health-and-access.md",
+        "git_blob_sha1": "f1f1a279b6ea292242ccbf7ab32b771f63e319c1",
+        "sha256": "3bc9c06c03312a302942e625e10c42d2e67790c5f490df7619e9879141b08837",
+        "size": 2474,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-consume/references/rank-and-verify.md",
+        "git_blob_sha1": "8442a1728f615a1e3c10fe5a2f77e1286576fb95",
+        "sha256": "29b8ca8dc5b2621d06c78a520510581ac1a83e369ff70c60e71dcbcb68be5270",
+        "size": 1430,
+        "mode": "100644"
+      },
+      {
+        "path": "workflows/graph/topic-graph-consume/topic-graph-consume.md",
+        "git_blob_sha1": "be3326b0b47310a04c7d04e308faabc6e4cb20ed",
+        "sha256": "b383796d6399b28e77c07485a8d7dd22f05701bc39471b6c7bcb1aed0ca79b6d",
+        "size": 1763,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "agents/connect-hosted-toolbox.md",
+    "agents/connect-hosted.md",
+    "agents/connect-prompt-sdk-fallback.md",
+    "agents/connect.md",
+    "agents/create-missing-agent.md",
+    "helpers/_blob_observation.py",
+    "helpers/_blob_source_read.py",
+    "helpers/_bootstrap_io.py",
+    "helpers/_cleanup_dependencies.py",
+    "helpers/_cleanup_receipts.py",
+    "helpers/_common.py",
+    "helpers/_document_adapters.py",
+    "helpers/_document_limits.py",
+    "helpers/_embedding.py",
+    "helpers/_file_inventory.py",
+    "helpers/_file_source_config.py",
+    "helpers/_indexer_observation.py",
+    "helpers/_initial_prompt.py",
+    "helpers/_private_json.py",
+    "helpers/_progress.py",
+    "helpers/_prompt_read.py",
+    "helpers/_search_read.py",
+    "helpers/_source_readback.py",
+    "helpers/blob-contracts.md",
+    "helpers/blob-cu-contracts.md",
+    "helpers/blob_inventory.py",
+    "helpers/blob_recheck.py",
+    "helpers/blob_source.py",
+    "helpers/bootstrap-contracts.md",
+    "helpers/bootstrap_azure.py",
+    "helpers/cleanup_plan.py",
+    "helpers/contracts.md",
+    "helpers/cu_ingestion_auth.py",
+    "helpers/document-assessment.md",
+    "helpers/document_assess.py",
+    "helpers/file-upload-recovery.md",
+    "helpers/file_cu_canary.py",
+    "helpers/file_cu_mi.py",
+    "helpers/file_ingest.py",
+    "helpers/file_source.py",
+    "helpers/file_upload.py",
+    "helpers/hosted_connect.py",
+    "helpers/kb-contracts.md",
+    "helpers/knowledge_base_retrieve.py",
+    "helpers/model-discovery-contracts.md",
+    "helpers/model-discovery-scopes.md",
+    "helpers/model_discovery.py",
+    "helpers/private-artifacts.md",
+    "helpers/private_artifacts.py",
+    "helpers/prompt_cleanup.py",
+    "helpers/prompt_connect.py",
+    "helpers/requirements-assessment.txt",
+    "helpers/retrieval-verification-contracts.md",
+    "helpers/retrieval_verify.py",
+    "helpers/search-intake-contracts.md",
+    "helpers/search_intake.py",
+    "helpers/search_reconcile.py",
+    "helpers/source_vector.py",
+    "helpers/throttle-recovery.md",
+    "helpers/vector-contracts.md",
+    "knowledge-bases/create.md",
+    "knowledge-bases/retrieve.md",
+    "knowledge-sources/create-azure-blob.md",
+    "knowledge-sources/create-file.md",
+    "lifecycle/cleanup.md",
+    "references/abstention.md",
+    "references/api-version-defaults.json",
+    "references/api-version-policy.md",
+    "references/blob-binding-evidence.md",
+    "references/blob-indexer-observation.md",
+    "references/blob-ingestion-progress.md",
+    "references/blob-readiness-recheck.md",
+    "references/blob-vector-readiness.md",
+    "references/bootstrap-azure.md",
+    "references/content-fit.md",
+    "references/context-resolution.md",
+    "references/cu-ingestion.md",
+    "references/error-taxonomy.md",
+    "references/file-cu-canary.md",
+    "references/http-contract.md",
+    "references/intent-routing.md",
+    "references/limits-and-capacity.md",
+    "references/networking.md",
+    "references/output-contract.md",
+    "references/owner.md",
+    "references/platform-contracts.md",
+    "references/platform-interfaces.md",
+    "references/resource-intake.md",
+    "references/safety-and-idempotency.md",
+    "references/search-substrate.md",
+    "references/service-provisioning.md",
+    "references/source-security.md",
+    "references/standard-cu.md",
+    "references/validation.md",
+    "scripts/request_attribution.py",
+    "search-services/create.md",
+    "troubleshooting/diagnose.md",
+    "workflows/graph/entity-graph-build/entity-graph-build.md",
+    "workflows/graph/entity-graph-build/references/deferred-ontology.md",
+    "workflows/graph/entity-graph-build/references/plan-and-publish.md",
+    "workflows/graph/entity-graph-build/references/status-and-telemetry.md",
+    "workflows/graph/entity-graph-build/references/trial-update-retire.md",
+    "workflows/graph/entity-graph-consume/entity-graph-consume.md",
+    "workflows/graph/entity-graph-consume/references/document-retrieval.md",
+    "workflows/graph/entity-graph-consume/references/graph-traversal.md",
+    "workflows/graph/entity-graph-consume/references/health-and-capabilities.md",
+    "workflows/graph/entity-graph-provision/entity-graph-provision.md",
+    "workflows/graph/entity-graph-provision/references/apply-status.md",
+    "workflows/graph/entity-graph-provision/references/capacity-rbac-smoke.md",
+    "workflows/graph/entity-graph-provision/references/connect-existing-resources.md",
+    "workflows/graph/entity-graph-provision/references/new-resources.md",
+    "workflows/graph/graph-choose/graph-choose.md",
+    "workflows/graph/graph-choose/references/install-and-checks.md",
+    "workflows/graph/graph-choose/references/route-table.md",
+    "workflows/graph/graph-demo/graph-demo.md",
+    "workflows/graph/graph-demo/references/byo-data.md",
+    "workflows/graph/graph-demo/references/byo-ontology.md",
+    "workflows/graph/graph-demo/references/finish.md",
+    "workflows/graph/graph-demo/references/grounding.md",
+    "workflows/graph/graph-demo/references/handoffs.md",
+    "workflows/graph/graph-demo/references/install-and-checks.md",
+    "workflows/graph/graph-demo/references/intake.md",
+    "workflows/graph/graph-demo/references/story.md",
+    "workflows/graph/graph-guide/graph-guide.md",
+    "workflows/graph/graph-guide/references/decision-guide.md",
+    "workflows/graph/graph-guide/references/install-and-checks.md",
+    "workflows/graph/graph-guide/references/run-naming.md",
+    "workflows/graph/graph.md",
+    "workflows/graph/grounding-build/grounding-build.md",
+    "workflows/graph/grounding-build/references/align-and-resume.md",
+    "workflows/graph/grounding-build/references/own-data.md",
+    "workflows/graph/grounding-build/references/wikidata.md",
+    "workflows/graph/grounding-consume/grounding-consume.md",
+    "workflows/graph/grounding-consume/references/check-inspect-sample.md",
+    "workflows/graph/grounding-consume/references/index-schema.md",
+    "workflows/graph/grounding-consume/references/readiness.md",
+    "workflows/graph/grounding-provision/grounding-provision.md",
+    "workflows/graph/grounding-provision/references/connect-and-doctor.md",
+    "workflows/graph/grounding-provision/references/create-service.md",
+    "workflows/graph/ontology-build/ontology-build.md",
+    "workflows/graph/ontology-build/references/connect-plan-propose.md",
+    "workflows/graph/ontology-build/references/refine-critique-revise.md",
+    "workflows/graph/ontology-build/references/review-approve-export.md",
+    "workflows/graph/ontology-consume/ontology-consume.md",
+    "workflows/graph/ontology-consume/references/browse-ontology.md",
+    "workflows/graph/ontology-consume/references/check-and-estimate.md",
+    "workflows/graph/ontology-consume/references/evidence-and-diff.md",
+    "workflows/graph/topic-graph-build/references/native-runtime.md",
+    "workflows/graph/topic-graph-build/references/plan-and-apply.md",
+    "workflows/graph/topic-graph-build/references/publish-and-readers.md",
+    "workflows/graph/topic-graph-build/references/reconcile-and-retire.md",
+    "workflows/graph/topic-graph-build/references/retrieval-setup.md",
+    "workflows/graph/topic-graph-build/topic-graph-build.md",
+    "workflows/graph/topic-graph-consume/references/browse-topics.md",
+    "workflows/graph/topic-graph-consume/references/health-and-access.md",
+    "workflows/graph/topic-graph-consume/references/rank-and-verify.md",
+    "workflows/graph/topic-graph-consume/topic-graph-consume.md"
+  ],
+  "old_commit": "f558cce7c37fcc7b0e12f32a22331d587eb92a3a",
+  "new_commit": "4d348034fda5cf5a34fb1087e743e7717b4b3933",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-11-17T01:37:01Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/f558cce7c37fcc7b0e12f32a22331d587eb92a3a...4d348034fda5cf5a34fb1087e743e7717b4b3933",
+  "commit_url": "https://github.com/microsoft/skills/commit/4d348034fda5cf5a34fb1087e743e7717b4b3933",
+  "skill_directory": ".github/plugins/foundry-iq-skills/skills/foundry-iq",
+  "local_directory": "verified_real_update_pairs/OPU-0497",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0497",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

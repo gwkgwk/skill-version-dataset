@@ -1,0 +1,121 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-resource-visualizer/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "f0b90e26a85ac75a0b57",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "5cfedd8269c793cc179fa313c6004468de33d18c",
+    "computed_tree_sha": "1cbbad438cdb7d97c8288518c7049966724f8d6c",
+    "api_tree_sha_as_returned": "1cbbad438cdb7d97c8288518c7049966724f8d6c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "9a39e0a0282f1d552520b2db9a5763e2706e9f3c",
+        "sha256": "a247a698c3b86535d707807f1eb624136ddd64434d5a8b71ab5b5a57a10dea91",
+        "size": 8265,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/example-diagram.md",
+        "git_blob_sha1": "db8c9abce5d53f128910e118a0b130fbe37e2716",
+        "sha256": "19641e72cdbdaa1fd2725e492740465817f263a793de8d01eb3ff36f063d03b7",
+        "size": 1777,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/template-architecture.md",
+        "git_blob_sha1": "574e5eb38a5662db3b1beb22b4456200579c7a1e",
+        "sha256": "4f77937ad89eb8d333afb928592f0b5b22a83044083521dacfe55d8b7b1eff22",
+        "size": 970,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-resource-graph.md",
+        "git_blob_sha1": "5128fd89818e069dbd52032aa82c965f2b55d750",
+        "sha256": "fb7c11feca04a1ad967a4eb83ad823ac25d0b8e1252a39bada62d4b91159597c",
+        "size": 2477,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "f2ced3b38ac6974989bd0c0de4c3a45fbd49b38d",
+    "computed_tree_sha": "3a892f03908cf1a388ac9d3da91764bef1e9501c",
+    "api_tree_sha_as_returned": "3a892f03908cf1a388ac9d3da91764bef1e9501c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "dc60b612a54d125bca4feb92b2bfead2ee757873",
+        "sha256": "a0dd18d0f49514e53c0683b32f93c60c34fab454e941e28cdff72444cd5d4440",
+        "size": 8528,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/example-diagram.md",
+        "git_blob_sha1": "db8c9abce5d53f128910e118a0b130fbe37e2716",
+        "sha256": "19641e72cdbdaa1fd2725e492740465817f263a793de8d01eb3ff36f063d03b7",
+        "size": 1777,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/template-architecture.md",
+        "git_blob_sha1": "574e5eb38a5662db3b1beb22b4456200579c7a1e",
+        "sha256": "4f77937ad89eb8d333afb928592f0b5b22a83044083521dacfe55d8b7b1eff22",
+        "size": 970,
+        "mode": "100644"
+      },
+      {
+        "path": "references/azure-resource-graph.md",
+        "git_blob_sha1": "5128fd89818e069dbd52032aa82c965f2b55d750",
+        "sha256": "fb7c11feca04a1ad967a4eb83ad823ac25d0b8e1252a39bada62d4b91159597c",
+        "size": 2477,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "5cfedd8269c793cc179fa313c6004468de33d18c",
+  "new_commit": "f2ced3b38ac6974989bd0c0de4c3a45fbd49b38d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure (#283)\n\nCo-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+  "new_commit_time": "2026-04-22T15:09:52Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/5cfedd8269c793cc179fa313c6004468de33d18c...f2ced3b38ac6974989bd0c0de4c3a45fbd49b38d",
+  "commit_url": "https://github.com/microsoft/skills/commit/f2ced3b38ac6974989bd0c0de4c3a45fbd49b38d",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-resource-visualizer",
+  "local_directory": "verified_real_update_pairs/OPU-0476",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0476",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

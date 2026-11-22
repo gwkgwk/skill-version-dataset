@@ -1,0 +1,82 @@
+{
+  "sha": "ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+  "node_id": "C_kwDOQ55KR9oAKGVjMjQ1MGQwNWVhMTBhYmE3ZjU5N2U0Y2Q3YjNkZTRhZjYxNGI5ODM",
+  "commit": {
+    "author": {
+      "name": "Eric Kilmer",
+      "email": "eric.d.kilmer@gmail.com",
+      "date": "2026-08-03T15:45:58Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-03T15:45:58Z"
+    },
+    "message": "Trim dwarf-expert: single-file skill, effort level, contract test (#223)\n\n* Trim dwarf-expert: single-file skill, effort level, contract test\n\n- Consolidate SKILL.md from four files into one (115 lines); delete\n  reference/. Cut generic behavior rules, duplicate When-to-Use\n  sections, a 9-line readelf reference hop, and an ASCII decision\n  tree; fix five typos.\n- Fix --lookup=<offset> misuse carried over from the original: DIE at\n  a section offset is --debug-info=<offset>; --lookup takes a program\n  address. Verified live against llvm-dwarfdump.\n- Drop the invented v3-v5 version scoping from the skill, plugin.json,\n  marketplace.json, and both READMEs. Version-specific judgment that\n  earned its place (the -gdwarf-N pin inference, v2 surface forms)\n  lives in the Verifying section.\n- Frontmatter: add effort: medium, rewrite the trigger description,\n  extend allowed-tools with Write/Edit/WebFetch.\n- Add tests/test_skill_contract.py (stdlib + pytest): every dwarfdump\n  flag documented in SKILL.md must exist in a live llvm-dwarfdump\n  (>= 19, the verified floor for --error-display/--verify-json), plus\n  a frontmatter contract check. Zero extracted flags or a missing\n  tool fails rather than skips.\n- CI: python-tests installs llvm-19, falling back to the default llvm\n  on future runner images.\n- Bump version 1.0.1 -> 1.1.0.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Address review: fence-aware extraction, capability-gated resolver\n\n- body_sections() no longer strips fenced blocks from section text:\n  fences are ignored only for heading detection, so flags documented\n  inside examples are extracted and verified. New unit test covers\n  both properties; a fenced --bogus-flag mutation now goes red.\n- Replace the parsed-version LLVM floor with a capability gate: the\n  resolver requires --error-display/--verify-json in --help, because\n  Apple's LLVM numbering does not track upstream and a numeric major\n  is not comparable across toolchains. Failure lists rejected tools\n  with their version banners. README wording matches.\n- Raise the extraction floor from 10 to 15 (21 flags documented).\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+    "tree": {
+      "sha": "f8c503546fd19f8ec7e3f3f5aeac736cc1422dfb",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/f8c503546fd19f8ec7e3f3f5aeac736cc1422dfb"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqcLe2CRC1aQ7uu5UhlAAAkMEQAIs8u4rrH7gy0QyyLipcbqxi\nzURzekh15qbPfvWoYf0Rr3I1XbCmtYa7MT9lEmV4IW0ou6qJb39MK4DhPc1yWPbs\nck+5/9sV1iNjs2kCVOBV/ZPV1hpAPMhi0PRMpc51hD1I1SEn2oF1DgeWB3B0o2vW\nn9HOSD+p8l/p9QdOYkNmekD4lrQpzhQ9vGm9ncsXiZI+CyCx3pN/QT5EXSvfHI27\nAHOIKErCe8vK+cn9CPAwnBpULCvELRan0hMrtjSXPOOlT6azSkWkLWnF8GaQ0tW0\nEOKjZwVUOb8lM0cP4+5rXx0qOGXsuA04w4/abxpDOmQhfT2Bc39F5N8T2NYXbfFh\ngzeovyAPJxs/xvJottfwWOuqO2zsKefkM78+O4oZaqZMCDkO+Y2yfQbCNVBC1y4C\np3CjyB4kHbN3PJtbNUOcujrfrcfZbL8o5gCpc/yFz697UCvhhWyyaTxw1Z2qh80V\nEZZlOPwcdm4zMovSoLDgkcF0GKKAVYU6zUP+Fr05NGAXJKHTd0Ct2GHectPH0nTm\ngD5P/pVxG/4dCVGvnqg/aHFG6pwsUXGbdYHfaRJGCKCBIVbAibZaut2YL6Y4ZL9G\nFmuC+yN9Rr9OvJe28NYFqnh+vyDI7tWDbUKblxwFYL6HzqUH+msxGJ9t6oLuwuGt\nbVq4NdicvVlD4iIN3RGU\n=RVZt\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree f8c503546fd19f8ec7e3f3f5aeac736cc1422dfb\nparent 696dee5717bdb976772466c067b60d89d644260d\nauthor Eric Kilmer <eric.d.kilmer@gmail.com> 1785771958 -0400\ncommitter GitHub <noreply@github.com> 1785771958 -0400\n\nTrim dwarf-expert: single-file skill, effort level, contract test (#223)\n\n* Trim dwarf-expert: single-file skill, effort level, contract test\n\n- Consolidate SKILL.md from four files into one (115 lines); delete\n  reference/. Cut generic behavior rules, duplicate When-to-Use\n  sections, a 9-line readelf reference hop, and an ASCII decision\n  tree; fix five typos.\n- Fix --lookup=<offset> misuse carried over from the original: DIE at\n  a section offset is --debug-info=<offset>; --lookup takes a program\n  address. Verified live against llvm-dwarfdump.\n- Drop the invented v3-v5 version scoping from the skill, plugin.json,\n  marketplace.json, and both READMEs. Version-specific judgment that\n  earned its place (the -gdwarf-N pin inference, v2 surface forms)\n  lives in the Verifying section.\n- Frontmatter: add effort: medium, rewrite the trigger description,\n  extend allowed-tools with Write/Edit/WebFetch.\n- Add tests/test_skill_contract.py (stdlib + pytest): every dwarfdump\n  flag documented in SKILL.md must exist in a live llvm-dwarfdump\n  (>= 19, the verified floor for --error-display/--verify-json), plus\n  a frontmatter contract check. Zero extracted flags or a missing\n  tool fails rather than skips.\n- CI: python-tests installs llvm-19, falling back to the default llvm\n  on future runner images.\n- Bump version 1.0.1 -> 1.1.0.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n* Address review: fence-aware extraction, capability-gated resolver\n\n- body_sections() no longer strips fenced blocks from section text:\n  fences are ignored only for heading detection, so flags documented\n  inside examples are extracted and verified. New unit test covers\n  both properties; a fenced --bogus-flag mutation now goes red.\n- Replace the parsed-version LLVM floor with a capability gate: the\n  resolver requires --error-display/--verify-json in --help, because\n  Apple's LLVM numbering does not track upstream and a numeric major\n  is not comparable across toolchains. Failure lists rejected tools\n  with their version banners. README wording matches.\n- Raise the extraction floor from 10 to 15 (21 flags documented).\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Fable 5 <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+      "verified_at": "2026-08-03T15:45:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+  "html_url": "https://github.com/trailofbits/skills/commit/ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/ec2450d05ea10aba7f597e4cd7b3de4af614b983/comments",
+  "author": {
+    "login": "ekilmer",
+    "id": 816362,
+    "node_id": "MDQ6VXNlcjgxNjM2Mg==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/816362?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ekilmer",
+    "html_url": "https://github.com/ekilmer",
+    "followers_url": "https://api.github.com/users/ekilmer/followers",
+    "following_url": "https://api.github.com/users/ekilmer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ekilmer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ekilmer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ekilmer/subscriptions",
+    "organizations_url": "https://api.github.com/users/ekilmer/orgs",
+    "repos_url": "https://api.github.com/users/ekilmer/repos",
+    "events_url": "https://api.github.com/users/ekilmer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ekilmer/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "696dee5717bdb976772466c067b60d89d644260d",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/696dee5717bdb976772466c067b60d89d644260d",
+      "html_url": "https://github.com/trailofbits/skills/commit/696dee5717bdb976772466c067b60d89d644260d"
+    }
+  ]
+}

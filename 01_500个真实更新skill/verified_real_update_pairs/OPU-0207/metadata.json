@@ -1,0 +1,675 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/skill-writer/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "57555b8395217832ff8b",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 5,
+  "old": {
+    "commit": "89a1f0105c5be12934bda2bcd01f58ab894976e2",
+    "computed_tree_sha": "ae837163a61a6ca692e5b4de756ce75ff5647e2c",
+    "api_tree_sha_as_returned": "ae837163a61a6ca692e5b4de756ce75ff5647e2c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "1b68f2a43918a0f95e94772d366e6f1e980e18c6",
+        "sha256": "6ce2a2aa7e377f01aa492d36ba602cb5f0ca7798a4d6d25fef88bd41eebc7ff9",
+        "size": 9745,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "b5e93b932c3417913b1919c7551a09a023b5219b",
+        "sha256": "001b245b1038783aa74a63aebed4af51d14078558bb191b54c9aa82b9a866d30",
+        "size": 14705,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "41d23d0d137adaad366ecb8041a4f4929149ce6c",
+        "sha256": "30aff0d148eeaedd1fa936751b34cd204268e29397c05f8a23ba85f1b8ef2aec",
+        "size": 9189,
+        "mode": "100644"
+      },
+      {
+        "path": "references/authoring-path.md",
+        "git_blob_sha1": "81e697d0d480b2e21355c7e2ad196b9a2543b046",
+        "sha256": "57bc70a7deca70867df77ce3659288b4377223bde7b13ef5e8c218cd53a6de3b",
+        "size": 4772,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-argument-substitutions.md",
+        "git_blob_sha1": "481621ed4638d3e56ba7c188e4cc1a7a980c3861",
+        "sha256": "9af72ebc75d6b84a1972f68ee84434faea23c243453af275fd3afddbd3d2598a",
+        "size": 624,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-dynamic-context.md",
+        "git_blob_sha1": "40918418a99645b270c55e54d7870fde73ed76e4",
+        "sha256": "cc6885fc91682501dfef10f40aff17f6f435c14a7e2afcf02b1e57498c3cbd2b",
+        "size": 579,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-frontmatter-invocation.md",
+        "git_blob_sha1": "4c4ffeb198a508a0c1eb9138c4030ab2bb968674",
+        "sha256": "bd4a9594fc5cfe4476f62901a16c1d9e0eac4fb3e8b34c138b5e2e02bdb7a42b",
+        "size": 1429,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-hook-backed.md",
+        "git_blob_sha1": "bdaab60e0d5321c81768f862248ea2287d073ed9",
+        "sha256": "fe14489df2a6758a6c0164cd6fb5bcbffe26fc613917c9ea448ff89275cfb413",
+        "size": 913,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-subagent-fork.md",
+        "git_blob_sha1": "3f0b54b8523d54daff19b7d14a6d4884d3da65c1",
+        "sha256": "9b1ab0cbed043555ce3cd978fd6b708b3582db3dc02bc94b293d8391d837db33",
+        "size": 718,
+        "mode": "100644"
+      },
+      {
+        "path": "references/description-optimization.md",
+        "git_blob_sha1": "1c5f826f11a87bd020de488632b1beb09ece0841",
+        "sha256": "6b201c0b95a504ebac6e15b7d74e30a570b2823f782a417c783af46ae8a0e0fd",
+        "size": 1034,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design-principles.md",
+        "git_blob_sha1": "8d6ab86f07cf2856ef920fb85c9cb32429f3cd87",
+        "sha256": "44979bf015a87a63393c19d273bb3c9f2ef0b524a4edf93216daea9b58c947f0",
+        "size": 3736,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-documentation-skill.md",
+        "git_blob_sha1": "53957390ad3c8f09f8ff39e834e698b20464adc0",
+        "sha256": "e8b0382dbbee63bce71078d99f302ccfc6803d143b69b951633d2ca9bb58a942",
+        "size": 2819,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-hook-backed-skill.md",
+        "git_blob_sha1": "97b1164bb5133ba72f9f071e78b3814a907d06c3",
+        "sha256": "1e113081655475c2398d704e2675d40df7905a0ca47633d9718f894132aa9f48",
+        "size": 989,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-router-skill.md",
+        "git_blob_sha1": "de8bd7331900a623946bf7c3ff8997c1630144e6",
+        "sha256": "433af771d6075ee950cb9bbea70deec3dfc4f1c0c895f60655a3e6082f1cd5cb",
+        "size": 1039,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-subagent-fork-skill.md",
+        "git_blob_sha1": "3f900312c6b00eb1f734f3bf625c2312db0fdf0e",
+        "sha256": "209c908f14a00684a33b2e4544cc7d5565aebdc24aa97e16cd09a8064df754ea",
+        "size": 1079,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-workflow-process-skill.md",
+        "git_blob_sha1": "341c6dab285b2e5e8c6f6a4834a07e42115b46bb",
+        "sha256": "14452e35b31e0083e2cb2f66f683470a787f02750edb37147584f4d1d31c435b",
+        "size": 2503,
+        "mode": "100644"
+      },
+      {
+        "path": "references/execution-shapes.md",
+        "git_blob_sha1": "ff33ef0a0cb79483242c8f0f2f58f5de92071967",
+        "sha256": "70cb87fb22c38cf528d0accff442e246448721fe99b5605260c8ceaeba5cf994",
+        "size": 4695,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iteration-evidence.md",
+        "git_blob_sha1": "a6f7bc46e84442a83daf5e2d1004da9917b2b283",
+        "sha256": "929296ba8dc4905c2f6930df7948e407ba5936dd0c31dc6df7a0ff425932f9d1",
+        "size": 2676,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iteration-path.md",
+        "git_blob_sha1": "4a979365b938aaf4cf12ed06db827ea37b970242",
+        "sha256": "d7f9a2d145e84e7bfd8cf94ffb083ecc52e4611077019007174766a50649eb90",
+        "size": 1505,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-argument-driven-skill.md",
+        "git_blob_sha1": "a9209c2aa10619bdb70b7b27a33f31e1539a8365",
+        "sha256": "dd464538cbb1f10e893913b561c11a20a54e20ff3b05608d3ca6a07b4a1b79ee",
+        "size": 1056,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-asset-template-skill.md",
+        "git_blob_sha1": "df95e4331bf6f048e099a1c5195d40093a79a888",
+        "sha256": "e9f3d4e4459beea46b82cb85604736d27bd4a42f13ab7a0ae2eb81d7dddf8713",
+        "size": 809,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-inline-skill.md",
+        "git_blob_sha1": "7fceaf86bbf7a9cdb59af0acb4741cb26a2deff0",
+        "sha256": "7eb37b84fc2cad9a21172dd9da979b02dd035acd64ee8a2ebae3880470ae0cac",
+        "size": 731,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-reference-backed-skill.md",
+        "git_blob_sha1": "dd3f6e08d78280789aa7b31bd10d3bb34fc34614",
+        "sha256": "0686c9d57bb086654b88f05cfe568e0485972c954a7085a0df17a10852478d78",
+        "size": 1256,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-script-backed-workflow.md",
+        "git_blob_sha1": "5f805f9d3a384cadae47f426dfb6362c920fe64f",
+        "sha256": "7601ddeb25a03de1d9842a9892a701227b7ad51f7f3386781afb1133329c02e1",
+        "size": 846,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mode-selection.md",
+        "git_blob_sha1": "61e4a2bc66b463b7bd6b202a3dc6514588509f8e",
+        "sha256": "85d0b083cfc6c3e50cd768cd0c56cb3e655aad88a97314166963d664c8a67864",
+        "size": 3310,
+        "mode": "100644"
+      },
+      {
+        "path": "references/output-contracts.md",
+        "git_blob_sha1": "4ac9ca24f74afcc89b7f9c3d5cb962c46ccdd24f",
+        "sha256": "e04a3cb0d20a7f6fb38998e10051819cc3154e412ebd95c5f1c1521d04b562b8",
+        "size": 1097,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reference-architecture.md",
+        "git_blob_sha1": "a353982f515478997cca35a7088b4884d716b6c3",
+        "sha256": "2698a3cdcc2226fcd0d8560c64c3c8485467bd1e74744b29ad6030d8ccd6424a",
+        "size": 2537,
+        "mode": "100644"
+      },
+      {
+        "path": "references/registration-validation.md",
+        "git_blob_sha1": "5c3cb955058febcfe8e86e6670722a93a2f00a6b",
+        "sha256": "f6825e6688bcf9a468a815f05956d8b7a5a6dc4b948b2f7d628f24ffcb816343",
+        "size": 3600,
+        "mode": "100644"
+      },
+      {
+        "path": "references/source-adaptation.md",
+        "git_blob_sha1": "69b5805966ca8bbe3781caa9558b95cfffa348f9",
+        "sha256": "9b44da8a76f5b0280336ccb94407c3a014fafff02bf4c46979f5db0356718980",
+        "size": 2194,
+        "mode": "100644"
+      },
+      {
+        "path": "references/source-discovery.md",
+        "git_blob_sha1": "5c982a2cbf9199c89ec7c356015f7335e7946e24",
+        "sha256": "48e319556940758964d2389501d4f7517d540486c8a52ab831a3be8640481003",
+        "size": 2631,
+        "mode": "100644"
+      },
+      {
+        "path": "references/spec-template.md",
+        "git_blob_sha1": "6d4d4a7046f4d7b4743296126d36ae046ceddb0f",
+        "sha256": "853f99153d9241c0d9a6a1d1eb7cf989809ab7d2be1f4ec06ab9e5381a0bc2c2",
+        "size": 2213,
+        "mode": "100644"
+      },
+      {
+        "path": "references/structure-troubleshooting.md",
+        "git_blob_sha1": "996740d044983854709a6a450a6eb17a49bae386",
+        "sha256": "efa316acb8d2d5baad77562dec2a9a7396c48313d091e1923de729f79ed7ab1a",
+        "size": 4073,
+        "mode": "100644"
+      },
+      {
+        "path": "references/synthesis-path.md",
+        "git_blob_sha1": "81682b6779443ad8cbf4e7357fd3d079fc209e52",
+        "sha256": "ab94ed6164500e84bbc95b05b661ba5333c83df34e6356eb9608c8a2cbd806fd",
+        "size": 3822,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-orchestrator-workers.md",
+        "git_blob_sha1": "645c57c3fc4f5003d448e9acfacbf865eb330e8e",
+        "sha256": "aecada63d9ca990df5a20ac1c30419ae2a26a7c171091e859723609c4070f6da",
+        "size": 652,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-parallel.md",
+        "git_blob_sha1": "c570322e603d2d8e30cccee4fd8f780f80a5ad81",
+        "sha256": "9a81b86d8d411656fc40acca8dc148b7e73c36ed917daa0a168d6c33d9d131e9",
+        "size": 540,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-plan-validate-execute.md",
+        "git_blob_sha1": "8db8f648d724340f955254759e098277443b90fa",
+        "sha256": "1cfdd5852680bd93f551c0d1843cdb5fab7806096b36876c638ad8902ed9cae9",
+        "size": 678,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-prompt-chaining.md",
+        "git_blob_sha1": "d2d4cc18344c3479749fcbf3a104c30d5654fd85",
+        "sha256": "62beed238cdeca54abbb3e7a87a06e2665fb55e737f2c90cdbc1cbf5abc0e5f3",
+        "size": 548,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-routing.md",
+        "git_blob_sha1": "093358c76f8b0c09231f27971b5087035896dae6",
+        "sha256": "20d8a4c233857bc59ec1650cab51dfa492b530dbb36632327c685c810d696b39",
+        "size": 828,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-validation-loops.md",
+        "git_blob_sha1": "51f26ad81496459ba7440cfaa305c86db22e036f",
+        "sha256": "8629cb364e590ac474818cda8f5574e54b586a91312a5b77bb064d3487b6a3b1",
+        "size": 658,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/quick_validate.py",
+        "git_blob_sha1": "2c0e46c79db6ea3c369753d5a3c56a7922051952",
+        "sha256": "bc4ac6e75789ae7ec2945b98346c719ced5f91f65b4076965e6942edf6ed6066",
+        "size": 4759,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+    "computed_tree_sha": "24bbf34e5ecc2b7eefb193498debe13faa1473b9",
+    "api_tree_sha_as_returned": "24bbf34e5ecc2b7eefb193498debe13faa1473b9",
+    "files": [
+      {
+        "path": "EVAL.md",
+        "git_blob_sha1": "473b331f3f91a251c31d6c9eec72a82a442939bb",
+        "sha256": "5b7bd31501f88857e3cbf686a70904dde58f98bc06605597bd8c9b9ebccd0a37",
+        "size": 6545,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "8aba371f5f4d8005fcbcf3ab3aa68550c5687d53",
+        "sha256": "d8597ec2e5f00cc8d87a73741369c7cc433a3bbb95801169c35e84a10d514d26",
+        "size": 10017,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "0fbfa653786eaaa9c896dbfa123c8b92a8238be6",
+        "sha256": "e2fe4cc12b6ebeb514421e2c1e6290618693b1961387968823d4247d83304343",
+        "size": 19540,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "75afc5556a092ad7ac6bec70ff38067ef07f9e52",
+        "sha256": "a6e054baf42f942f102b73355c852ad11119d26ee620e4fad764922ef151114d",
+        "size": 9960,
+        "mode": "100644"
+      },
+      {
+        "path": "evals/axis.config.json",
+        "git_blob_sha1": "57b4df735ef9fd37f856cc66c0c97cd624d2c51f",
+        "sha256": "ba97d34792d03c2005cc393fc422edd05877456120a440ed6aa0898507f89c6f",
+        "size": 318,
+        "mode": "100644"
+      },
+      {
+        "path": "evals/scenarios/iteration-from-bad-output.json",
+        "git_blob_sha1": "33e928c37d6578e18e82015cc49ff2c3b7ad6348",
+        "sha256": "f5db27b0b95a55d77a701e44ad3d94b2d530e7c22f2050aa6259482ff7ae8b3d",
+        "size": 2911,
+        "mode": "100644"
+      },
+      {
+        "path": "evals/scenarios/reference-backed-integration.json",
+        "git_blob_sha1": "97ec32ce489e443934585c498ff1c5f389ebda0a",
+        "sha256": "9f8ac64bfc52f28fc2e97178315ee541abe59f6608276a9d048f8b7df8fbfdba",
+        "size": 1981,
+        "mode": "100644"
+      },
+      {
+        "path": "evals/scenarios/small-inline-workflow.json",
+        "git_blob_sha1": "2d5e45b31af4fed85d3c849642c3c53195600e42",
+        "sha256": "03d29bac823aed1e7f6fd73e68c2d7e279b5aa5015c2a9bc431e0ca10e80b7dc",
+        "size": 1956,
+        "mode": "100644"
+      },
+      {
+        "path": "references/authoring-path.md",
+        "git_blob_sha1": "81e697d0d480b2e21355c7e2ad196b9a2543b046",
+        "sha256": "57bc70a7deca70867df77ce3659288b4377223bde7b13ef5e8c218cd53a6de3b",
+        "size": 4772,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-argument-substitutions.md",
+        "git_blob_sha1": "481621ed4638d3e56ba7c188e4cc1a7a980c3861",
+        "sha256": "9af72ebc75d6b84a1972f68ee84434faea23c243453af275fd3afddbd3d2598a",
+        "size": 624,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-dynamic-context.md",
+        "git_blob_sha1": "40918418a99645b270c55e54d7870fde73ed76e4",
+        "sha256": "cc6885fc91682501dfef10f40aff17f6f435c14a7e2afcf02b1e57498c3cbd2b",
+        "size": 579,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-frontmatter-invocation.md",
+        "git_blob_sha1": "4c4ffeb198a508a0c1eb9138c4030ab2bb968674",
+        "sha256": "bd4a9594fc5cfe4476f62901a16c1d9e0eac4fb3e8b34c138b5e2e02bdb7a42b",
+        "size": 1429,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-hook-backed.md",
+        "git_blob_sha1": "bdaab60e0d5321c81768f862248ea2287d073ed9",
+        "sha256": "fe14489df2a6758a6c0164cd6fb5bcbffe26fc613917c9ea448ff89275cfb413",
+        "size": 913,
+        "mode": "100644"
+      },
+      {
+        "path": "references/claude-subagent-fork.md",
+        "git_blob_sha1": "3f0b54b8523d54daff19b7d14a6d4884d3da65c1",
+        "sha256": "9b1ab0cbed043555ce3cd978fd6b708b3582db3dc02bc94b293d8391d837db33",
+        "size": 718,
+        "mode": "100644"
+      },
+      {
+        "path": "references/description-optimization.md",
+        "git_blob_sha1": "1c5f826f11a87bd020de488632b1beb09ece0841",
+        "sha256": "6b201c0b95a504ebac6e15b7d74e30a570b2823f782a417c783af46ae8a0e0fd",
+        "size": 1034,
+        "mode": "100644"
+      },
+      {
+        "path": "references/design-principles.md",
+        "git_blob_sha1": "8d6ab86f07cf2856ef920fb85c9cb32429f3cd87",
+        "sha256": "44979bf015a87a63393c19d273bb3c9f2ef0b524a4edf93216daea9b58c947f0",
+        "size": 3736,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-documentation-skill.md",
+        "git_blob_sha1": "53957390ad3c8f09f8ff39e834e698b20464adc0",
+        "sha256": "e8b0382dbbee63bce71078d99f302ccfc6803d143b69b951633d2ca9bb58a942",
+        "size": 2819,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-hook-backed-skill.md",
+        "git_blob_sha1": "97b1164bb5133ba72f9f071e78b3814a907d06c3",
+        "sha256": "1e113081655475c2398d704e2675d40df7905a0ca47633d9718f894132aa9f48",
+        "size": 989,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-router-skill.md",
+        "git_blob_sha1": "de8bd7331900a623946bf7c3ff8997c1630144e6",
+        "sha256": "433af771d6075ee950cb9bbea70deec3dfc4f1c0c895f60655a3e6082f1cd5cb",
+        "size": 1039,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-subagent-fork-skill.md",
+        "git_blob_sha1": "3f900312c6b00eb1f734f3bf625c2312db0fdf0e",
+        "sha256": "209c908f14a00684a33b2e4544cc7d5565aebdc24aa97e16cd09a8064df754ea",
+        "size": 1079,
+        "mode": "100644"
+      },
+      {
+        "path": "references/example-workflow-process-skill.md",
+        "git_blob_sha1": "341c6dab285b2e5e8c6f6a4834a07e42115b46bb",
+        "sha256": "14452e35b31e0083e2cb2f66f683470a787f02750edb37147584f4d1d31c435b",
+        "size": 2503,
+        "mode": "100644"
+      },
+      {
+        "path": "references/execution-shapes.md",
+        "git_blob_sha1": "ff33ef0a0cb79483242c8f0f2f58f5de92071967",
+        "sha256": "70cb87fb22c38cf528d0accff442e246448721fe99b5605260c8ceaeba5cf994",
+        "size": 4695,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iteration-evidence.md",
+        "git_blob_sha1": "a6f7bc46e84442a83daf5e2d1004da9917b2b283",
+        "sha256": "929296ba8dc4905c2f6930df7948e407ba5936dd0c31dc6df7a0ff425932f9d1",
+        "size": 2676,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iteration-path.md",
+        "git_blob_sha1": "4a979365b938aaf4cf12ed06db827ea37b970242",
+        "sha256": "d7f9a2d145e84e7bfd8cf94ffb083ecc52e4611077019007174766a50649eb90",
+        "size": 1505,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-argument-driven-skill.md",
+        "git_blob_sha1": "a9209c2aa10619bdb70b7b27a33f31e1539a8365",
+        "sha256": "dd464538cbb1f10e893913b561c11a20a54e20ff3b05608d3ca6a07b4a1b79ee",
+        "size": 1056,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-asset-template-skill.md",
+        "git_blob_sha1": "df95e4331bf6f048e099a1c5195d40093a79a888",
+        "sha256": "e9f3d4e4459beea46b82cb85604736d27bd4a42f13ab7a0ae2eb81d7dddf8713",
+        "size": 809,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-inline-skill.md",
+        "git_blob_sha1": "7fceaf86bbf7a9cdb59af0acb4741cb26a2deff0",
+        "sha256": "7eb37b84fc2cad9a21172dd9da979b02dd035acd64ee8a2ebae3880470ae0cac",
+        "size": 731,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-reference-backed-skill.md",
+        "git_blob_sha1": "dd3f6e08d78280789aa7b31bd10d3bb34fc34614",
+        "sha256": "0686c9d57bb086654b88f05cfe568e0485972c954a7085a0df17a10852478d78",
+        "size": 1256,
+        "mode": "100644"
+      },
+      {
+        "path": "references/layout-script-backed-workflow.md",
+        "git_blob_sha1": "5f805f9d3a384cadae47f426dfb6362c920fe64f",
+        "sha256": "7601ddeb25a03de1d9842a9892a701227b7ad51f7f3386781afb1133329c02e1",
+        "size": 846,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mode-selection.md",
+        "git_blob_sha1": "61e4a2bc66b463b7bd6b202a3dc6514588509f8e",
+        "sha256": "85d0b083cfc6c3e50cd768cd0c56cb3e655aad88a97314166963d664c8a67864",
+        "size": 3310,
+        "mode": "100644"
+      },
+      {
+        "path": "references/output-contracts.md",
+        "git_blob_sha1": "4ac9ca24f74afcc89b7f9c3d5cb962c46ccdd24f",
+        "sha256": "e04a3cb0d20a7f6fb38998e10051819cc3154e412ebd95c5f1c1521d04b562b8",
+        "size": 1097,
+        "mode": "100644"
+      },
+      {
+        "path": "references/reference-architecture.md",
+        "git_blob_sha1": "a353982f515478997cca35a7088b4884d716b6c3",
+        "sha256": "2698a3cdcc2226fcd0d8560c64c3c8485467bd1e74744b29ad6030d8ccd6424a",
+        "size": 2537,
+        "mode": "100644"
+      },
+      {
+        "path": "references/registration-validation.md",
+        "git_blob_sha1": "5c3cb955058febcfe8e86e6670722a93a2f00a6b",
+        "sha256": "f6825e6688bcf9a468a815f05956d8b7a5a6dc4b948b2f7d628f24ffcb816343",
+        "size": 3600,
+        "mode": "100644"
+      },
+      {
+        "path": "references/skill-evals.md",
+        "git_blob_sha1": "a0dbe5e801a4126f7a2da11b6033f2337971d075",
+        "sha256": "6bba3ac97c78d66bd7df0c3b25ed153d43092c25588dfdb286f506b4930840f4",
+        "size": 5771,
+        "mode": "100644"
+      },
+      {
+        "path": "references/source-adaptation.md",
+        "git_blob_sha1": "69b5805966ca8bbe3781caa9558b95cfffa348f9",
+        "sha256": "9b44da8a76f5b0280336ccb94407c3a014fafff02bf4c46979f5db0356718980",
+        "size": 2194,
+        "mode": "100644"
+      },
+      {
+        "path": "references/source-discovery.md",
+        "git_blob_sha1": "5c982a2cbf9199c89ec7c356015f7335e7946e24",
+        "sha256": "48e319556940758964d2389501d4f7517d540486c8a52ab831a3be8640481003",
+        "size": 2631,
+        "mode": "100644"
+      },
+      {
+        "path": "references/spec-template.md",
+        "git_blob_sha1": "6d4d4a7046f4d7b4743296126d36ae046ceddb0f",
+        "sha256": "853f99153d9241c0d9a6a1d1eb7cf989809ab7d2be1f4ec06ab9e5381a0bc2c2",
+        "size": 2213,
+        "mode": "100644"
+      },
+      {
+        "path": "references/structure-troubleshooting.md",
+        "git_blob_sha1": "996740d044983854709a6a450a6eb17a49bae386",
+        "sha256": "efa316acb8d2d5baad77562dec2a9a7396c48313d091e1923de729f79ed7ab1a",
+        "size": 4073,
+        "mode": "100644"
+      },
+      {
+        "path": "references/synthesis-path.md",
+        "git_blob_sha1": "81682b6779443ad8cbf4e7357fd3d079fc209e52",
+        "sha256": "ab94ed6164500e84bbc95b05b661ba5333c83df34e6356eb9608c8a2cbd806fd",
+        "size": 3822,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-orchestrator-workers.md",
+        "git_blob_sha1": "645c57c3fc4f5003d448e9acfacbf865eb330e8e",
+        "sha256": "aecada63d9ca990df5a20ac1c30419ae2a26a7c171091e859723609c4070f6da",
+        "size": 652,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-parallel.md",
+        "git_blob_sha1": "c570322e603d2d8e30cccee4fd8f780f80a5ad81",
+        "sha256": "9a81b86d8d411656fc40acca8dc148b7e73c36ed917daa0a168d6c33d9d131e9",
+        "size": 540,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-plan-validate-execute.md",
+        "git_blob_sha1": "8db8f648d724340f955254759e098277443b90fa",
+        "sha256": "1cfdd5852680bd93f551c0d1843cdb5fab7806096b36876c638ad8902ed9cae9",
+        "size": 678,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-prompt-chaining.md",
+        "git_blob_sha1": "d2d4cc18344c3479749fcbf3a104c30d5654fd85",
+        "sha256": "62beed238cdeca54abbb3e7a87a06e2665fb55e737f2c90cdbc1cbf5abc0e5f3",
+        "size": 548,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-routing.md",
+        "git_blob_sha1": "093358c76f8b0c09231f27971b5087035896dae6",
+        "sha256": "20d8a4c233857bc59ec1650cab51dfa492b530dbb36632327c685c810d696b39",
+        "size": 828,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-validation-loops.md",
+        "git_blob_sha1": "51f26ad81496459ba7440cfaa305c86db22e036f",
+        "sha256": "8629cb364e590ac474818cda8f5574e54b586a91312a5b77bb064d3487b6a3b1",
+        "size": 658,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/quick_validate.py",
+        "git_blob_sha1": "2c0e46c79db6ea3c369753d5a3c56a7922051952",
+        "sha256": "bc4ac6e75789ae7ec2945b98346c719ced5f91f65b4076965e6942edf6ed6066",
+        "size": 4759,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "EVAL.md",
+    "SKILL.md",
+    "SOURCES.md",
+    "SPEC.md",
+    "evals/axis.config.json",
+    "evals/scenarios/iteration-from-bad-output.json",
+    "evals/scenarios/reference-backed-integration.json",
+    "evals/scenarios/small-inline-workflow.json",
+    "references/skill-evals.md"
+  ],
+  "old_commit": "89a1f0105c5be12934bda2bcd01f58ab894976e2",
+  "new_commit": "5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "feat(skills): Add AXIS skill evals (#159)\n\nThis standardizes skill evaluation on AXIS, using its built-in Codex\nadapter so evals run through the real `codex exec --json` harness\ninstead of custom runner scripts.\n\nThe new maintainer path for `skill-writer` is:\n\n```bash\nnpx @netlify/axis run --config skills/skill-writer/evals/axis.config.json\nnpx @netlify/axis run --config skills/skill-writer/evals/axis.config.json --scenario small-inline-workflow\nnpx @netlify/axis reports latest --config skills/skill-writer/evals/axis.config.json --html\n```\n\nEach AXIS scenario copies the repo into an isolated temp workspace,\nexcludes local agent/report state, installs the local skill under test\nwith `skills: [\"./..\"]`, runs Codex, and captures\ntranscript/judge/artifact evidence. Generated `.axis/` report\ndirectories are now ignored so local eval runs do not pollute future\ndiffs.\n\nThe initial `skill-writer` evals cover three behavior classes:\n\n- `small-inline-workflow`: catches simple skills being overbuilt with\nreferences, scripts, or broad source research.\n- `reference-backed-integration`: checks that complex/integration skills\nkeep `SKILL.md` as a router and split optional depth into focused\nreferences.\n- `iteration-from-bad-output`: checks that `skill-writer` can improve an\nexisting bloated skill by narrowing triggers and removing unnecessary\nfiles.\n\nThe runtime `references/skill-evals.md` teaches future skills the same\npattern: add `EVAL.md`, `evals/axis.config.json`, and focused AXIS\nscenarios with observable judge checks. It explicitly keeps AXIS as the\nprescribed skill-eval framework and treats Promptfoo/custom Codex\nscripts as out of scope for this repo's skill evals.\n\n`pr-writer` gets a proof eval focused on actual behavior rather than\neval plumbing:\n\n```bash\nnpx @netlify/axis run --config skills/pr-writer/evals/axis.config.json --scenario concise-docs-pr\n```\n\nThat scenario creates a docs-only skill change and verifies the\ngenerated PR title/body stay concise, use an appropriate conventional\ntitle, avoid template headings, and omit validation/tool boilerplate.\nThe renamed `concise-docs-pr` case is meant to be a pattern for\nbehavior-focused eval cases, not framework smoke tests.\n\nI exercised the new paths locally: `small-inline-workflow` completed\nthrough AXIS/Codex with score 94, and `concise-docs-pr` completed with\nscore 99. Structural validation also passed for both `skill-writer` and\n`pr-writer`.\n\nCo-authored-by: GPT-5 Codex <codex@openai.com>",
+  "new_commit_time": "2026-06-30T20:52:17Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/89a1f0105c5be12934bda2bcd01f58ab894976e2...5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+  "commit_url": "https://github.com/getsentry/skills/commit/5a64b36c62d042d3981b7937d9d6ca7bd1753b9a",
+  "skill_directory": "skills/skill-writer",
+  "local_directory": "verified_real_update_pairs/OPU-0207",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0207",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

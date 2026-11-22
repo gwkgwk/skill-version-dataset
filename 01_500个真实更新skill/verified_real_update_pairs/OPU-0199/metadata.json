@@ -1,0 +1,232 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "65247f8cd78d79a3fe14",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+    "computed_tree_sha": "7a380cb79aabb375758ae87ede4ce4539ad6e16f",
+    "api_tree_sha_as_returned": "7a380cb79aabb375758ae87ede4ce4539ad6e16f",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "144f1e93384af9f58fb223a42019b78752beb08c",
+        "sha256": "eefd035007b939ace2bbe161259b1585379151333d1e8bb6908eb75c20e462f3",
+        "size": 3893,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "25e5685e4f7e6f61c741a3e798f40ce6b99695e2",
+        "sha256": "0ffc2357999f0fe4a8a11b347c99adf6db8310e199243c2f6b4398ce00d45346",
+        "size": 9948,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/compiled.md",
+        "git_blob_sha1": "e02417e3dd7d76c3e5184c9113bc2845e1b769d5",
+        "sha256": "7c6f69897fc9629c4f26011507685e6cb4b79f1e1881f6f3a23d8e136f1d42fb",
+        "size": 4108,
+        "mode": "100644"
+      },
+      {
+        "path": "references/javascript.md",
+        "git_blob_sha1": "f8454c778831bb8c951bc7f32105fa618fcd6134",
+        "sha256": "77cf536e1a123cf05927deb21a8da26e72308296370af314475c50f59eadd5ac",
+        "size": 4449,
+        "mode": "100644"
+      },
+      {
+        "path": "references/kotlin.md",
+        "git_blob_sha1": "a61dff866c83cc30db8aa477e28e63903e213c23",
+        "sha256": "798bc4c6d9ba1195e93d8371780866b09bccf2e096ccfa8aeb20dcc9af0a8c9f",
+        "size": 6784,
+        "mode": "100644"
+      },
+      {
+        "path": "references/php.md",
+        "git_blob_sha1": "698c5f14b2a0a121dc073a04375d96f5503cec9a",
+        "sha256": "dd25fe509935a92f41b18b990db59a365057c4498e2431f5c1c5352cc85ba821",
+        "size": 4831,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "6530be6202601e2c3ae32db44d4153a1d2f98e28",
+        "sha256": "6f89ca8a5e54a2aa50e1c39783d2bc0f8b1fdbd6e771700b4b8325069fdc565b",
+        "size": 5261,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruby.md",
+        "git_blob_sha1": "6e462470f4ed02882b77a5aaacf733154a4a8de0",
+        "sha256": "51f08d9c9d74a1630866ed5b2867e39aa77b5f9f5a3a6153d215b98669b1b5f0",
+        "size": 5391,
+        "mode": "100644"
+      },
+      {
+        "path": "references/swift.md",
+        "git_blob_sha1": "653f5e14b526bb038a69ebfd50dc7dcd94ac7a43",
+        "sha256": "419f8a9a3fc0944a064b3d4a9e473a91bd38d907a37b234d819cd8de62441226",
+        "size": 8194,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vm-compiled.md",
+        "git_blob_sha1": "2612c5da0cdf629237550c3743055721695c37aa",
+        "sha256": "3d1a97dbfdf02c8e213f0a615b2fbdd19e7fc2c7fa86875ff64fa49980f634a7",
+        "size": 10409,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "9ea55c598763f7cb87ab56933d773d7dc34344a0",
+    "computed_tree_sha": "7858c5e231aaf7b1ff7b0b3a48d727160942dc61",
+    "api_tree_sha_as_returned": "7858c5e231aaf7b1ff7b0b3a48d727160942dc61",
+    "files": [
+      {
+        "path": "README.md",
+        "git_blob_sha1": "199f4ad3310bac84cf1d0de07268f14f8b23f663",
+        "sha256": "69353d95aac7751a89234f28c4f7a758af591e66a1eac32f07f098dc7b9b041c",
+        "size": 4931,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "48c41b3b812b5924713c374031b7b328c81d9de0",
+        "sha256": "4807f710a234e2520d7e163cc5a0e55785a495b2790dadcd7f0952dd6bff8d07",
+        "size": 13204,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/compiled.md",
+        "git_blob_sha1": "e02417e3dd7d76c3e5184c9113bc2845e1b769d5",
+        "sha256": "7c6f69897fc9629c4f26011507685e6cb4b79f1e1881f6f3a23d8e136f1d42fb",
+        "size": 4108,
+        "mode": "100644"
+      },
+      {
+        "path": "references/javascript.md",
+        "git_blob_sha1": "f8454c778831bb8c951bc7f32105fa618fcd6134",
+        "sha256": "77cf536e1a123cf05927deb21a8da26e72308296370af314475c50f59eadd5ac",
+        "size": 4449,
+        "mode": "100644"
+      },
+      {
+        "path": "references/kotlin.md",
+        "git_blob_sha1": "a61dff866c83cc30db8aa477e28e63903e213c23",
+        "sha256": "798bc4c6d9ba1195e93d8371780866b09bccf2e096ccfa8aeb20dcc9af0a8c9f",
+        "size": 6784,
+        "mode": "100644"
+      },
+      {
+        "path": "references/php.md",
+        "git_blob_sha1": "698c5f14b2a0a121dc073a04375d96f5503cec9a",
+        "sha256": "dd25fe509935a92f41b18b990db59a365057c4498e2431f5c1c5352cc85ba821",
+        "size": 4831,
+        "mode": "100644"
+      },
+      {
+        "path": "references/python.md",
+        "git_blob_sha1": "6530be6202601e2c3ae32db44d4153a1d2f98e28",
+        "sha256": "6f89ca8a5e54a2aa50e1c39783d2bc0f8b1fdbd6e771700b4b8325069fdc565b",
+        "size": 5261,
+        "mode": "100644"
+      },
+      {
+        "path": "references/ruby.md",
+        "git_blob_sha1": "6e462470f4ed02882b77a5aaacf733154a4a8de0",
+        "sha256": "51f08d9c9d74a1630866ed5b2867e39aa77b5f9f5a3a6153d215b98669b1b5f0",
+        "size": 5391,
+        "mode": "100644"
+      },
+      {
+        "path": "references/swift.md",
+        "git_blob_sha1": "653f5e14b526bb038a69ebfd50dc7dcd94ac7a43",
+        "sha256": "419f8a9a3fc0944a064b3d4a9e473a91bd38d907a37b234d819cd8de62441226",
+        "size": 8194,
+        "mode": "100644"
+      },
+      {
+        "path": "references/vm-compiled.md",
+        "git_blob_sha1": "2612c5da0cdf629237550c3743055721695c37aa",
+        "sha256": "3d1a97dbfdf02c8e213f0a615b2fbdd19e7fc2c7fa86875ff64fa49980f634a7",
+        "size": 10409,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "README.md",
+    "SKILL.md"
+  ],
+  "old_commit": "ec2450d05ea10aba7f597e4cd7b3de4af614b983",
+  "new_commit": "9ea55c598763f7cb87ab56933d773d7dc34344a0",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Fix constant-time analyzer backends and trim the skill (#220)\n\n* Add per-language triage fixtures for the constant-time analyzer\n\nOne fixture per supported language, each pairing operations the analyzer\nreports identically but that triage must separate: a division on a\nprivate-key coefficient beside one on a public buffer length, and, where\nthe backend detects them, a weak RNG seeding a nonce beside the same call\njittering a retry delay.\n\nExpected verdicts are deliberately absent from the fixture source. These\nfiles double as evaluation input, and a verdict written next to the code\nis a verdict the reviewer reads instead of deriving. A later commit adds\nthe manifest that records them.\n\nFixture shapes are dictated by what each toolchain emits: the Go helpers\nare //go:noinline so each stays a distinct symbol, its main() takes input\nfrom argv so the arithmetic is not constant-folded away, and the Swift\nentry points use @_cdecl to keep symbol names readable.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Configure ty and fix the typing weaknesses it reports\n\n`ty check` reported 50 diagnostics, all pre-existing. Most were noise from\nmodule resolution: the tests reach the modules via `sys.path.insert` and\nimport `analyzer` rather than `ct_analyzer.analyzer`, which ty cannot know\nwithout being told. `tool.ty.environment extra-paths` tells it, dropping 32\nunresolved-import reports and leaving the substantive ones visible.\n\nThe rest were real, if not yet bugs:\n\n- Six compilers and several entry points annotated `list[str]`/`str` while\n  defaulting to None. Now spelled `| None`.\n- `get_compiler` was annotated to require a compiler name, but its body\n  auto-detects from the language when the name is falsy, which is how every\n  caller uses it.\n- Each parser tracked functions as a bare dict, typing the values `str |\n  int`, so the `functions[-1][\"instructions\"] += 1` counter present in all\n  eight parsers read as string addition. A `ParsedFunction` TypedDict names\n  the shape instead.\n\nThree unresolved-import reports remain by construction: analyzer.py is\ndocumented to run as a script as well as import as a package, so both the\nrelative and top-level spellings are needed and only one can resolve. Those\ncarry an inline ignore with the reason.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix analyzer backends that reported PASSED on vulnerable code\n\nAuditing each backend against real toolchain output found six of them\nskipping unparseable lines and reporting success. Every one was covered by\ntests that replay hand-written listings, which is why the drift went\nunnoticed; the tests added here drive the actual toolchains.\n\nPython, on 3.11 and later:\n- The BINARY_OP oparg map read 12 as `//`, but 12 is `^`. Floor division on\n  a secret was missed and every constant-time XOR was reported as a\n  division. Keyed on the operator symbol dis prints, which cannot silently\n  renumber.\n- The instruction regex required a byte offset that 3.13 no longer prints,\n  so all but the first instruction of each source line was skipped. On 3.13\n  `key_coef // (2 * gamma2)` came back PASSED. Every column ahead of the\n  opcode is now optional, and the source line carries forward.\n\nPHP: `_parse_opcache_output` delegated to the VLD parser on the claim the\nformats were \"similar enough\"; they share nothing structural. `analyze()`\nalso called the VLD parser unconditionally, so the function was dead either\nway. VLD is an unbundled PECL build, so this is the path most users hit: a\nfile with intdiv, mt_rand and base64_encode reported zero findings. Adds a\nreal parser, plus intdiv/fdiv, which perform division through a call and so\nemit no DIV opcode.\n\nJavaScript and TypeScript: V8 prints `67 E> 0x… @ 14 : 3e 03 04  Div a0,\n[4]`, not `offset : Mnemonic`, so every file parsed as zero instructions.\n`--no-lazy` covers functions a module exports without calling. Bytecode\nblocks are filtered to names the file declares, since V8 dumps node's\ninternals identically. Source positions are byte offsets, now converted to\nlines except for transpiled TypeScript, where they index generated output.\n\nGo: `go build` links the runtime in, so 23 of 24 findings came from the\nallocator and garbage collector while the caller's code was silent. Objdump\nheaders name the source file, so the filter is exact. Go also writes arm64\nin Plan 9 syntax, where a 32-bit divide is SDIVW — absent from the table, so\n`int32` division, the shape of every polynomial coefficient divide, read as\nclean.\n\nRust: compiled as a bin crate, so any library file failed E0601. Crypto\nlives in libraries.\n\nSwift: target triples were hardcoded to Apple platforms, so swiftc rejected\nthem on Linux and no Swift file could be analyzed there.\n\nJava: the weak-RNG pattern matched only `new Random(`, missing the\nfully-qualified form that needs no import.\n\nAll six source-level scanners treated comments as code, so `/** a / b */`\ncounted as a division; comment bodies are now blanked while preserving\noffsets. Finally, the text report labelled every scripting-language error\n`[WARN]` while the summary counted it as an error: analyzer.py runs as\n`__main__` while script_analyzers imports it as `analyzer`, giving two\nSeverity enums, so identity comparison failed. Severity is compared by\nvalue now.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Record triage verdicts for every fixture and assert the pairs hold\n\nexpectations.json gives each fixture's cases a verdict and the reasoning\nbehind it: 53 cases over 13 languages, covering arithmetic everywhere,\nconditional branches on the native backends, weak RNG wherever a backend\ndetects it, and PHP's encoding functions.\n\nTestTriageMatrix asserts the mechanical half — that the analyzer still\nreports both members of every true/false-positive pair, since the premise of\nthe skill's triage step is that the tool cannot tell them apart. Four of its\nchecks need no toolchain, so the matrix stays guarded on machines that\ncannot compile most of these languages: every supported extension has a\nfixture, every fixture pairs a true with a false positive, every line-based\nlocator resolves exactly once, and no fixture leaks its verdict into a\ncomment. The run itself fails rather than skipping when no fixture could be\nexercised, and names the languages it skipped.\n\nTwo cases record measured behaviour rather than the intent: Rust claims no\nbranch true positive, because rustc emits no flagged conditional branch in\nthe tag comparison at O0 on arm64 and asserting one would encode a fixture\nartefact; and Go's branch false positive is its stack-growth check, which\nappears in every Go function and depends on nothing the caller passes.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Trim the constant-time-analysis skill and state its real coverage\n\nSKILL.md goes from 219 to 165 lines by removing what was duplicated or\ninert: a decision tree that restated the trigger bullets below it, five\nnear-identical invocation blocks, and JVM/.NET setup copied from\nreferences/vm-compiled.md. It gains the frontmatter it was missing —\nallowed-tools, which it never declared and so inherited everything, and an\nexplicit effort level.\n\nThe additions come from evaluating the skill rather than from review. Runs\nat three effort levels all recommended fixing a secret-dependent divide by\nhanding the compiler a constant divisor; measuring that fix showed it still\nemits a real divide on gcc riscv64 at every optimization level, on gcc arm64\nand x86_64 at Os and Oz, and on clang arm64 at O0 and Oz. The sweep section\nnow says so, with the table.\n\nCoverage is not uniform across backends, and a clean report means different\nthings depending on the language, so there is a table for that too. Triage\nguidance now also covers the weak-RNG and encoding findings, where no\noperand is secret and the question is what the result is used for — seeding\na nonce or jittering a retry delay.\n\n\"When NOT to Use\" names the constant-time-testing skill and draws the line\nbetween them: that one measures a running binary, this one reads compiler\noutput and never executes the code.\n\nBoth READMEs listed nine languages when thirteen are supported, and the\nskill's file tree was missing four reference files.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix warning-level detectors that no source could ever match\n\nExtending the triage matrix to the comparison, lookup and encoding families\nfound that several of those detectors were unreachable. The tables listed\nthem, so the coverage looked complete, but no input could trigger them.\n\n- Ruby built every warning pattern as `\\.<name>`, which is right for method\n  calls like `.start_with?(` but turns the module-qualified keys into\n  `\\.base64\\.encode64`. Five entries — both base64 functions, json.parse and\n  both marshal functions — could not match any Ruby source.\n- JavaScript did the same to its non-method entries, so `btoa(`, `atob(`,\n  `decodeURIComponent(` and `JSON.parse(` never matched.\n- The JS keyed-property mnemonics were V8 9.x spellings. Node 22 emits\n  `GetKeyedProperty`, so secret-indexed array access — the whole point of\n  that family — was undetectable. The named-property entry is removed rather\n  than updated: a named access has a constant property name and cannot be\n  indexed by a secret, so flagging it reports every `Math.trunc` call.\n- Java, Kotlin and C# selected patterns with if/elif chains covering three or\n  four keys and skipping the rest, leaving the base64 and convert entries\n  unreachable. They now share `qualified_call_pattern`, which distinguishes\n  the two shapes the keys use: `string.equals` is a method on any receiver,\n  while `arrays.equals` and `base64.getencoder` are members of a named type\n  and must match only the qualified form. Case-insensitivity is embedded in\n  the pattern because the keys are lowercase while the source spells them\n  `Base64.getEncoder` and `.Equals`.\n\nRuby's warning mnemonics also kept the dots from their keys, unlike every\nother severity and backend, so they read `BASE64.ENCODE64`.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Cover the comparison, lookup and encoding families in the triage matrix\n\nThe matrix covered two of the four families the analyzer implements. It now\ncovers all four, taking it from 53 cases to 99.\n\nEach of the eight bytecode and scripting fixtures gains three pairs: an\nearly-exit comparison of a secret tag against the same comparison on a public\nheader, a table lookup indexed by a key byte against one indexed by a fixed\noffset into a public header, and a base64 encode of a decrypted session key\nagainst one of the public algorithm identifier. PHP already had the encoding\npair. Native fixtures are unchanged — their instruction tables carry no\ncomparison or load entries, and C's tag comparison is already covered as a\nbranch.\n\nAll three families are warning severity, so their cases run with\n`include_warnings`. That is worth noting on its own: the invocation the skill\ndocuments does not pass `--warnings`, so a reviewer following it sees none of\nthis — including early-exit comparison, which is the most common timing bug\nin practice.\n\nEvery case was measured against the real toolchain before being written down.\nPython's fixture avoids a `list[bytes]` annotation in a signature because the\nsubscript in the annotation is itself reported at module scope.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Refuse an architecture the compiler cannot target\n\nEvery compiler looked its architecture up with `.get()` and simply omitted the\ntarget flag when the lookup missed, while `analyze_source` still labelled the\nreport with the architecture that was requested and applied that\narchitecture's instruction table. So `--arch riscv64` on Swift, whose Linux map\nholds two entries, compiled for the host and reported `architecture: riscv64`\nwith no findings; `--arch mips` on gcc reported `passed: true` the same way.\n\n\"PASSED for riscv64\" is what a reviewer writes down, so producing host output\nunder the requested label is worse than failing. All five compilers now refuse\nand name what they do support.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Stop the Go symbol filter readmitting the runtime by basename\n\nThe filter compares the objdump block's source path against the file under\nanalysis, but when the realpath comparison failed it fell back to comparing\nbasenames — and Go's runtime ships map.go, slice.go, string.go, time.go and\nselect.go. Analyzing a user file named map.go therefore matched every\n`TEXT runtime.…(SB) /usr/lib/go/src/runtime/map.go` block, reported\nruntime.makeBucketArray among the findings, and parsed 14 functions instead of\n5. That is the behaviour the filter exists to prevent, and the existing test\nmissed it only because its fixture is named triage_go.go.\n\nobjdump prints an absolute path, so the exact comparison is sufficient there;\nthe basename fallback now applies only when the printed path is relative.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Make comment blanking string-aware\n\nBlanking comments before the source-level scans stopped doc comments counting\nas code, but the regexes knew nothing about string literals, so a comment\nmarker inside one blanked live code:\n\n- `const u = \"http://example.com\"; const k = a / b;` lost the division, and\n  `String u = \"http://x\"; Random r = new Random();` reported clean — for Java,\n  Kotlin and C# the source scan is the only detector for `new Random()`.\n- Ruby's `puts \"tag #{a / b}\"` lost everything from the interpolation on.\n- Worst, a lone `const marker = \"/*\";` plus any later `*/` anywhere in the file\n  blanked every line in between, with no diagnostic.\n\nString and template literals are now matched first and preserved. This is still\na regex rather than a lexer — unterminated literals, JavaScript regex literals,\nRuby heredocs and `%w[]` are not modelled — and the docstring says so; the\nfailure mode is a blanked or unblanked span, never a crash.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Test the empty-parse guards and close smaller robustness gaps\n\nThe test named for PHP's \"nothing parsed\" refusal asserted only that the parser\nreturned empty lists, which the pre-fix code did too, so deleting the raise in\n`analyze()` left the suite green. It now asserts the RuntimeError, and the Go\nequivalent — the symbol filter keeping nothing — is covered as well. Both were\nconfirmed to fail with their guard removed.\n\nFour gaps that each degrade quietly:\n\n- The OPcache offset group was `\\d{4}` exactly, so an op_array past 9999\n  opcodes stopped parsing mid-function. `functions` is non-empty by then, so\n  the empty-parse guard cannot fire and the report reads as a partial pass.\n- The V8 name filter treated \"could not read the compiled file\" as \"filtering\n  disabled\", listing hundreds of node-internal functions with nothing to\n  distinguish that from a genuinely noisy file. Unreadable input is now an\n  explicit None with a note on stderr.\n- `last_line_num` was not reset per code object, so the first instructions of a\n  function inherited the previous function's line when dis omits one.\n- The triage matrix printed its skip list to stdout, where CI summaries do not\n  show it, so an image that lost a toolchain would keep passing while the claim\n  that all backends are exercised quietly stopped being true. Skips are now\n  emitted per language and appear in the count.\n\nTwo test-quality fixes: the matrix completeness check compared set sizes, so\nrenaming one language while dropping another stayed green — it compares sets\nnow, through an explicit display-name to `detect_language()` mapping. And\n`_have` uses `shutil.which` rather than running `--version`, because javap\nexits non-zero for it, which would have skipped Java and Kotlin everywhere.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Pass --warnings in the documented invocation\n\nThe Quick Start ran the analyzer with no flags, which reports only\nerror-severity findings: division, modulo and weak RNG. Four families are\nwarning severity and stayed silent — secret-dependent branches, early-exit\ncomparison, secret-indexed table lookups, and variable-time encoding. A\nreviewer following the skill exactly never saw the early-exit comparison of an\nauthentication tag, which is the most common timing bug in practice and what\nLucky Thirteen was.\n\n`--warnings` is now in the documented command, the directory sweep and the flag\ntable, with the two consequences of turning it on stated alongside. Warnings do\nnot affect the PASSED line, so `Result: PASSED` beside `Warnings: 6` is normal\nand is not a clean result. And comparison and lookup findings need their own\ntriage question: for a lookup it is the index that must be secret, not the\ncontents. Confirmed comparison findings have a per-language constant-time\nprimitive, so those are tabulated rather than left as \"write it branch-free\";\na secret-indexed lookup gets the honest answer that no drop-in exists.\n\nAlso names the plugin that owns constant-time-testing, since a reader cannot\nassume it is installed.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fix the fixture path and the sdist include list\n\nTwo defects that both make something unreachable:\n\nThe pointer to the triage fixtures was written as a bare relative path, while\nevery other path in SKILL.md is `{baseDir}`-prefixed. The skill runs against the\nuser's repository, so a model following it looked for\n`ct_analyzer/tests/triage_samples/` inside the project being audited. The\nvalidator resolves markdown links rather than inline code, so this passed 359\nreference checks while being unusable at runtime.\n\nThe sdist include list named three globs covering C, Go and Rust, so a packaged\ninstall shipped none of the Python, Ruby, PHP, JS, TS, Java, C#, Kotlin or Swift\nsamples, nor the triage fixtures and their manifest, and the tests that read\nthem could not run from an sdist. A built sdist now carries all 27.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Test that cross-compilation really targets the requested architecture\n\nNothing covered cross-compilation. The pre-existing cross-architecture test\nasks for arm64, which is the host on an aarch64 machine, so it passes there\nwithout ever crossing — and a silent fall back to the host is exactly the\nfailure `reject_arch` was added to prevent.\n\nThese assert instruction names unique to the target: x86 `DIVL`/`DIVQ`/`IDIVL`\nand RISC-V `DIVU`/`DIVW`/`REMU` must appear, and arm64 `SDIV` must not. Dropping\nclang's `--target` makes both fail, which a report-shape assertion would not\nhave caught. Go gets the same treatment for amd64, where GOARCH cross-builds\nbecause CGO is disabled.\n\nOnly the paths that work are covered: on this host clang crosses to both\ntargets and Go to amd64, while gcc, rustc and Go/riscv64 cannot cross here at\nall.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Drive an explicit compiler with its own flags, and name it in the report\n\nCross-compiling with gcc was impossible through the analyzer. `--arch x86_64`\npassed gcc's native ISA switch `-m64`, which the gcc on an arm64 host rejects,\nand the escape hatch that should have worked — handing over the cross binary —\nwas broken: `get_compiler` treated every unrecognized `--compiler` value as\nclang, so `--compiler x86_64-linux-gnu-gcc` was driven with `--target=` and\nfailed on \"unrecognized command-line option\".\n\nAn explicit compiler is now dispatched on which compiler it actually is: by\nfilename first, falling back to its `--version` banner, so `cc` is recognized\nas whatever it points at. `--compiler x86_64-linux-gnu-gcc --arch x86_64` and\n`--compiler riscv64-linux-gnu-gcc --arch riscv64` both work and emit that\ntarget's division instructions.\n\nNothing is substituted on the caller's behalf. The analyzer could look for\n`<triple>-gcc` and use it automatically, but a Debian cross gcc is frequently a\ndifferent major version than the host's, so its codegen is not the host gcc's;\nsilently swapping binaries would put one compiler's output under another's name\n— the same mislabelling this commit removes. Instead, when gcc is asked for an\narchitecture it cannot build, the error names the binary to pass, and the report\nrecords the binary that ran rather than the family, so `compiler:` is no longer\n\"gcc\" when a cross build produced the assembly.\n\nSKILL.md now states how each toolchain crosses, since \"sweep more than one\n--arch\" was not actionable for gcc users, and advises comparing against the\ntoolchain that builds the product rather than a packaged cross build.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Detect software division, and fix the armhf flags that hid it\n\nInstalling the remaining cross toolchains turned up two problems that are not\nabout missing dependencies.\n\nThe arm flags were self-contradictory: `-march=armv7-a -mfloat-abi=hard` is\nrejected with \"selected architecture lacks an FPU\", because armv7-a alone\nspecifies no FPU. Adding `-mfpu=vfpv3-d16`, Debian's armhf baseline, makes the\nbuild work.\n\nWith it building, arm reported no findings at all on a fixture with three\ndivisions. armv7-a has no hardware divider, so gcc emits `bl __aeabi_idiv`\nrather than a division instruction, and the analyzer matches mnemonics: a\nbranch-with-link is not in any table, so the file read as PASSED. Software\ndivision loops over its operands, making it more operand-dependent than the\ninstruction it replaces, so this was the worst kind of false negative. Calls to\nthe libgcc and Arm EABI division routines are now reported by call target, which\nalso covers __divti3 — used on x86_64 for __int128 division, which crypto code\ndoes perform.\n\nVerified against every cross target now installed: x86_64 DIVQ/IDIVL, i386\nDIVL/IDIVL, arm AEABI_IDIV, riscv64 DIVU/DIVW/REMU, ppc64le DIVDU/DIVW, s390x\nDLGR/DSGFR, arm64 SDIV/UDIV. The ppc64le and s390x instruction tables had never\nbeen exercised before.\n\nAlso stops the new \"pass a cross build\" hint from telling the caller to do what\nthey just did: it is suppressed when the compiler already is a cross build.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Cross-compile a freestanding probe, not a fixture that needs a cross libc\n\nCI failed on `test_clang_targets_riscv64` with \"bits/libc-header-start.h file\nnot found\". The test compiled the C triage fixture, which includes <stdint.h>,\nso cross-compiling it needs the target's C library headers as well as the\ncompiler. The x86_64 case passed only because the runner is x86_64, making that\ntarget native; my dev box passed riscv64 only because installing\ngcc-riscv64-linux-gnu had pulled in libc6-dev-riscv64-cross. So the test was\nasserting an environment property, not the analyzer's behaviour.\n\nNothing about checking that a division instruction reaches the assembly needs a\nlibc. The cross tests now use a freestanding sample with no includes, verified\nto compile for x86_64, riscv64 and s390x with `-nostdinc` — that is, with no\nheaders reachable at all — while still yielding that target's division\nmnemonics.\n\nThis also corrects the claim in SKILL.md that clang needs nothing installed to\ncross-compile: it needs no second compiler, but a source including libc headers\nstill needs the target's headers. When that is what failed, the error now names\nthe package that supplies them, which is the analyzer's own advice to sweep\n`--arch` being made actionable.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>\nCo-authored-by: Scott Arciszewski <147527775+tob-scott-a@users.noreply.github.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-08-03T18:12:27Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/ec2450d05ea10aba7f597e4cd7b3de4af614b983...9ea55c598763f7cb87ab56933d773d7dc34344a0",
+  "commit_url": "https://github.com/trailofbits/skills/commit/9ea55c598763f7cb87ab56933d773d7dc34344a0",
+  "skill_directory": "plugins/constant-time-analysis/skills/constant-time-analysis",
+  "local_directory": "verified_real_update_pairs/OPU-0199",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0199",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

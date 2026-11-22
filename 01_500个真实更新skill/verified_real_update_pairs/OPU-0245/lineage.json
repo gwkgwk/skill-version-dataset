@@ -1,0 +1,82 @@
+{
+  "sha": "43d7af806478ea534164ac7b55a3c4ff7b359986",
+  "node_id": "C_kwDOQ55KR9oAKDQzZDdhZjgwNjQ3OGVhNTM0MTY0YWM3YjU1YTNjNGZmN2IzNTk5ODY",
+  "commit": {
+    "author": {
+      "name": "kz-tob",
+      "email": "kara.zaffarano@trailofbits.com",
+      "date": "2026-08-25T14:38:13Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-08-25T14:38:13Z"
+    },
+    "message": "gh-cli: intercept GitHub fetches from MCP fetch tools (#274)\n\n* gh-cli: intercept GitHub fetches from MCP fetch tools\n\nThe fetch hook only matched WebFetch, so a GitHub URL fetched through an\nMCP fetch tool bypassed it entirely. Match `mcp__.*[Ff]etch` as well, which\ncovers Exa's `web_fetch_exa` and equivalents from other MCP servers.\n\nA matcher alone is not enough: WebFetch passes a single `url`, while MCP\nfetch tools pass a `urls` array and batch several pages into one call. Read\nboth shapes. A tool call is atomic, so one GitHub URL anywhere in a batch\ndenies the whole call, and each offending URL is labeled with its own\nsuggestion. Single-URL calls keep the message they had.\n\nSplit the URL classification into suggest_api, suggest_raw, and\nsuggest_github_com behind a suggest_for_url dispatcher so it can run per URL\nin a loop, and collapse eight verbatim copies of the clone hint into one\nhelper. Behavior is unchanged; blob and tree merge into one branch because\nthey emitted identical text.\n\nThe plugin README's interception table now also lists the pull, issues,\nreleases, and gist patterns the hook already handled but never documented.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* gh-cli: address review on the MCP fetch interceptor\n\nTest the matcher. Nothing exercised the regex that decides whether the\nhook runs at all, so a matcher firing on nothing would still pass every\nother suite here. matcher.bats reads it out of hooks.json and checks it\nagainst real tool names, and refuses to run against an empty matcher,\nwhich would make every match assertion pass vacuously.\n\nWiden the matcher to fetch, scrape, crawl, and extract. Firecrawl's\nscrape and Tavily's extract retrieve a URL like any fetch tool but carry\nno \"fetch\" in the name, so they bypassed the hook while the README\npromised \"any MCP fetch tool\". The README now names what matches.\n\nCheck a string-valued `urls`. A server declaring `urls: string | string[]`\nsent a bare string, `arrays` dropped it, and the fetch went out\nunauthenticated. Listing the field twice keeps it under both shapes.\n`prompt` is still not scanned, so a prompt mentioning a GitHub URL does\nnot false-deny.\n\nGive the closing note its own line when several URLs are denied; it\npreviously trailed only the last entry.\n\nGuard assert_suggestion_starts_with against an empty reason and an empty\nprefix, either of which let it pass while inspecting nothing.\n\nDocument the api.github.com contents, releases, and actions rows. The\ngeneric `gh api` row was actively wrong for /contents/, pointing readers\nat the anti-pattern the shim exists to block.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+    "tree": {
+      "sha": "4eaf057ce8ce7ba100dbe25de2aa81439374dd2e",
+      "url": "https://api.github.com/repos/trailofbits/skills/git/trees/4eaf057ce8ce7ba100dbe25de2aa81439374dd2e"
+    },
+    "url": "https://api.github.com/repos/trailofbits/skills/git/commits/43d7af806478ea534164ac7b55a3c4ff7b359986",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqjajVCRC1aQ7uu5UhlAAAUqwQAITwgHUJXrApivpJTFNoCP8e\nDreSq28c1Ce3gVBKi0G8nlSrvDkOk47qtd5Oev8gflaHt5+aEraGFurZPAnXK6Ze\nsSDsqV6Wi0Fk2ea3bnxNbcGXmw34s/nRJ99wQMk38P2QqwCHaNMSNWLo4rEu9inp\ns7dLyld9XY1YjkQs//8yL30WTLITo99TG7p26VSvKd/D+ZhkxsYNQH+Dyj7uyIBc\nfrqBioAeVNkuRET86lTOddIFJZPwHKOYMmqFN6kF7WGUQm/Y87rTY6WUXP3aFwDo\n8hPRew96jRGyykAR1jFLMOXWKSva43TA6bYGAqEqQZe6qwZZP7EBetG9SE+PeTZG\nmSutIdC8xLz41sgXZndn6HeanLeSvMV9z18k9HQ7uJ7cT57X9TJpCV2nHgYjIs+g\noEcdP7cZSM/SmWHyMXZWFOHNrIJbCilcQc36lheb9XoEVaYlnVOB3RQExIJzfGyz\ng8z2NVCv/JdTmEJ4K1PhW55i8wpJpR7NdDrl9RQgkOYBfFgVoUwKWLAudiAs80AN\naDtNnshhs+Xae4rwUcY2ZZEicu+6H0AteNQjs30tnaEHKFpcheGNFsc2p8Pvh25j\npzVxzutxTISyY9V2hFlqZg6ePzWDW5rW+IwnDR/lEzsa9NmrHmQCC7mj2MNwoYYX\nEF1FwNHOtA3WXAiPTg71\n=gJIo\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 4eaf057ce8ce7ba100dbe25de2aa81439374dd2e\nparent 1004934abf6b43f614af6f79720373e1d581e6e8\nauthor kz-tob <kara.zaffarano@trailofbits.com> 1787668693 -0400\ncommitter GitHub <noreply@github.com> 1787668693 -0400\n\ngh-cli: intercept GitHub fetches from MCP fetch tools (#274)\n\n* gh-cli: intercept GitHub fetches from MCP fetch tools\n\nThe fetch hook only matched WebFetch, so a GitHub URL fetched through an\nMCP fetch tool bypassed it entirely. Match `mcp__.*[Ff]etch` as well, which\ncovers Exa's `web_fetch_exa` and equivalents from other MCP servers.\n\nA matcher alone is not enough: WebFetch passes a single `url`, while MCP\nfetch tools pass a `urls` array and batch several pages into one call. Read\nboth shapes. A tool call is atomic, so one GitHub URL anywhere in a batch\ndenies the whole call, and each offending URL is labeled with its own\nsuggestion. Single-URL calls keep the message they had.\n\nSplit the URL classification into suggest_api, suggest_raw, and\nsuggest_github_com behind a suggest_for_url dispatcher so it can run per URL\nin a loop, and collapse eight verbatim copies of the clone hint into one\nhelper. Behavior is unchanged; blob and tree merge into one branch because\nthey emitted identical text.\n\nThe plugin README's interception table now also lists the pull, issues,\nreleases, and gist patterns the hook already handled but never documented.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* gh-cli: address review on the MCP fetch interceptor\n\nTest the matcher. Nothing exercised the regex that decides whether the\nhook runs at all, so a matcher firing on nothing would still pass every\nother suite here. matcher.bats reads it out of hooks.json and checks it\nagainst real tool names, and refuses to run against an empty matcher,\nwhich would make every match assertion pass vacuously.\n\nWiden the matcher to fetch, scrape, crawl, and extract. Firecrawl's\nscrape and Tavily's extract retrieve a URL like any fetch tool but carry\nno \"fetch\" in the name, so they bypassed the hook while the README\npromised \"any MCP fetch tool\". The README now names what matches.\n\nCheck a string-valued `urls`. A server declaring `urls: string | string[]`\nsent a bare string, `arrays` dropped it, and the fetch went out\nunauthenticated. Listing the field twice keeps it under both shapes.\n`prompt` is still not scanned, so a prompt mentioning a GitHub URL does\nnot false-deny.\n\nGive the closing note its own line when several URLs are denied; it\npreviously trailed only the last entry.\n\nGuard assert_suggestion_starts_with against an empty reason and an empty\nprefix, either of which let it pass while inspecting nothing.\n\nDocument the api.github.com contents, releases, and actions rows. The\ngeneric `gh api` row was actively wrong for /contents/, pointing readers\nat the anti-pattern the shim exists to block.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+      "verified_at": "2026-08-25T14:38:15Z"
+    }
+  },
+  "url": "https://api.github.com/repos/trailofbits/skills/commits/43d7af806478ea534164ac7b55a3c4ff7b359986",
+  "html_url": "https://github.com/trailofbits/skills/commit/43d7af806478ea534164ac7b55a3c4ff7b359986",
+  "comments_url": "https://api.github.com/repos/trailofbits/skills/commits/43d7af806478ea534164ac7b55a3c4ff7b359986/comments",
+  "author": {
+    "login": "kz-tob",
+    "id": 295975343,
+    "node_id": "U_kgDOEaQ5rw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/295975343?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/kz-tob",
+    "html_url": "https://github.com/kz-tob",
+    "followers_url": "https://api.github.com/users/kz-tob/followers",
+    "following_url": "https://api.github.com/users/kz-tob/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kz-tob/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/kz-tob/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kz-tob/subscriptions",
+    "organizations_url": "https://api.github.com/users/kz-tob/orgs",
+    "repos_url": "https://api.github.com/users/kz-tob/repos",
+    "events_url": "https://api.github.com/users/kz-tob/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/kz-tob/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "1004934abf6b43f614af6f79720373e1d581e6e8",
+      "url": "https://api.github.com/repos/trailofbits/skills/commits/1004934abf6b43f614af6f79720373e1d581e6e8",
+      "html_url": "https://github.com/trailofbits/skills/commit/1004934abf6b43f614af6f79720373e1d581e6e8"
+    }
+  ]
+}

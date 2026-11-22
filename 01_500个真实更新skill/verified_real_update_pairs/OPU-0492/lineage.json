@@ -1,0 +1,82 @@
+{
+  "sha": "67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "node_id": "C_kwDOQ7RUQ9oAKDY3YWU3MjNhMjNiYTg4MGUzZTVjOGEzZTVlMjMyMDA5MjAyNDQ3NmU",
+  "commit": {
+    "author": {
+      "name": "Scott Addie",
+      "email": "scott.addie@microsoft.com",
+      "date": "2026-04-02T16:37:09Z"
+    },
+    "committer": {
+      "name": "Scott Addie",
+      "email": "scott.addie@microsoft.com",
+      "date": "2026-04-02T16:37:09Z"
+    },
+    "message": "Move package field into metadata map across plugin SKILL.md files\n\nMigrate 138 SKILL.md files under .github/plugins/ to use\nspec-conformant metadata maps:\n\n- Move top-level package field into metadata.package\n- Add license: MIT to all updated files\n- Add metadata.author: Microsoft and metadata.version: 1.0.0\n- Leave 28 azure-skills files untouched (already conformant)\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+    "tree": {
+      "sha": "77cca28c2a3a3c8de48faea36ed1067a41403b08",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/77cca28c2a3a3c8de48faea36ed1067a41403b08"
+    },
+    "url": "https://api.github.com/repos/microsoft/skills/git/commits/67ae723a23ba880e3e5c8a3e5e2320092024476e",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/microsoft/skills/commits/67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "html_url": "https://github.com/microsoft/skills/commit/67ae723a23ba880e3e5c8a3e5e2320092024476e",
+  "comments_url": "https://api.github.com/repos/microsoft/skills/commits/67ae723a23ba880e3e5c8a3e5e2320092024476e/comments",
+  "author": {
+    "login": "scottaddie",
+    "id": 10702007,
+    "node_id": "MDQ6VXNlcjEwNzAyMDA3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10702007?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/scottaddie",
+    "html_url": "https://github.com/scottaddie",
+    "followers_url": "https://api.github.com/users/scottaddie/followers",
+    "following_url": "https://api.github.com/users/scottaddie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/scottaddie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/scottaddie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/scottaddie/subscriptions",
+    "organizations_url": "https://api.github.com/users/scottaddie/orgs",
+    "repos_url": "https://api.github.com/users/scottaddie/repos",
+    "events_url": "https://api.github.com/users/scottaddie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/scottaddie/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "committer": {
+    "login": "scottaddie",
+    "id": 10702007,
+    "node_id": "MDQ6VXNlcjEwNzAyMDA3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/10702007?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/scottaddie",
+    "html_url": "https://github.com/scottaddie",
+    "followers_url": "https://api.github.com/users/scottaddie/followers",
+    "following_url": "https://api.github.com/users/scottaddie/following{/other_user}",
+    "gists_url": "https://api.github.com/users/scottaddie/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/scottaddie/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/scottaddie/subscriptions",
+    "organizations_url": "https://api.github.com/users/scottaddie/orgs",
+    "repos_url": "https://api.github.com/users/scottaddie/repos",
+    "events_url": "https://api.github.com/users/scottaddie/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/scottaddie/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": true
+  },
+  "parents": [
+    {
+      "sha": "673f81db3b0f24526fcd74f230f21437abaf7ceb",
+      "url": "https://api.github.com/repos/microsoft/skills/commits/673f81db3b0f24526fcd74f230f21437abaf7ceb",
+      "html_url": "https://github.com/microsoft/skills/commit/673f81db3b0f24526fcd74f230f21437abaf7ceb"
+    }
+  ]
+}

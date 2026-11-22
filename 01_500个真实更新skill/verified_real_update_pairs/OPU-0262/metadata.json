@@ -1,0 +1,157 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/alloydb-basics/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "2460696bd48140304cc3",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+    "computed_tree_sha": "bb764a070495a9d938b74a464410ac24903804b3",
+    "api_tree_sha_as_returned": "bb764a070495a9d938b74a464410ac24903804b3",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "438d03d15ff12c944e04be43e1ab97e2bd62f739",
+        "sha256": "8ea72d9ee18ca77b4c256d48f7009cd83592313d76681bbf25e2bf72d26d6243",
+        "size": 6938,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-usage.md",
+        "git_blob_sha1": "1d38acd5d829f8da457a7c017a9bdd5c6ef08811",
+        "sha256": "5606cb58cc2c322af30d5c37273f57e349d92b923779169f2a1f26b730f91104",
+        "size": 3564,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-concepts.md",
+        "git_blob_sha1": "52497f2b6f22bc022aa989d68a099775ff1729d8",
+        "sha256": "82014d5375bced5c3fd4d6aca6ef6802838d6e4bc0072364ed9e08d4c83b2bea",
+        "size": 5540,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-usage.md",
+        "git_blob_sha1": "f977824f3e824606e6b5b2e3b8982f7db86b198c",
+        "sha256": "ba367fb7a69e2a682b5763bd388b3ff41e6a8f30114bdb4bf837d5bdbe820172",
+        "size": 3409,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-security.md",
+        "git_blob_sha1": "bbe7bf94fa0dbd6e1d682ae0e756de56da355a18",
+        "sha256": "b6386e215ad009a3156ae46f7a420b20e87603f68e1818d8c174e40580e71e74",
+        "size": 4294,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "d487e4f3463648d6b767a559e4c23c63be7f5107",
+        "sha256": "59ce6e35348c50958979deef3ee81da099374ac761480e51921dcd0d922ede30",
+        "size": 1200,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+    "computed_tree_sha": "666e04a085a06f8d2bd65fbc67b34a4f842be5b5",
+    "api_tree_sha_as_returned": "666e04a085a06f8d2bd65fbc67b34a4f842be5b5",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "339d2068d6f2c447622fb5a99c173a1b9ae47146",
+        "sha256": "80821962a4dd8ad27d5efd212d9bf65fea7d9674a1c002dc8c54dbecf528e173",
+        "size": 7371,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "b8678734dedb4db2bf709f6d97b6891c0bdde23e",
+        "sha256": "43b120c4a8e80682677c4b4ebd997a3ac668e773be80e06958ade9b70ce27beb",
+        "size": 1882,
+        "mode": "100644"
+      },
+      {
+        "path": "references/cli-usage.md",
+        "git_blob_sha1": "1d38acd5d829f8da457a7c017a9bdd5c6ef08811",
+        "sha256": "5606cb58cc2c322af30d5c37273f57e349d92b923779169f2a1f26b730f91104",
+        "size": 3564,
+        "mode": "100644"
+      },
+      {
+        "path": "references/core-concepts.md",
+        "git_blob_sha1": "52497f2b6f22bc022aa989d68a099775ff1729d8",
+        "sha256": "82014d5375bced5c3fd4d6aca6ef6802838d6e4bc0072364ed9e08d4c83b2bea",
+        "size": 5540,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-usage.md",
+        "git_blob_sha1": "f977824f3e824606e6b5b2e3b8982f7db86b198c",
+        "sha256": "ba367fb7a69e2a682b5763bd388b3ff41e6a8f30114bdb4bf837d5bdbe820172",
+        "size": 3409,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iam-security.md",
+        "git_blob_sha1": "bbe7bf94fa0dbd6e1d682ae0e756de56da355a18",
+        "sha256": "b6386e215ad009a3156ae46f7a420b20e87603f68e1818d8c174e40580e71e74",
+        "size": 4294,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-usage.md",
+        "git_blob_sha1": "d487e4f3463648d6b767a559e4c23c63be7f5107",
+        "sha256": "59ce6e35348c50958979deef3ee81da099374ac761480e51921dcd0d922ede30",
+        "size": 1200,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/attribution.md"
+  ],
+  "old_commit": "46e817d86d34f8a3d21a0432e99ae3e3feddda72",
+  "new_commit": "dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Add standardized usage attribution to Data and Databases agent skills.\n\n- Add `references/attribution.md` to all 17 Data, Analytics, and Database skills.\n- Add concise `## Attribution` directives in `SKILL.md` with core attribution tokens and generated-code guardrails.\n- Increment `metadata.version` for updated skills.\n\nPiperOrigin-RevId: 1003337710",
+  "new_commit_time": "2026-10-20T20:10:36Z",
+  "compare_url": "https://github.com/google/skills/compare/46e817d86d34f8a3d21a0432e99ae3e3feddda72...dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "commit_url": "https://github.com/google/skills/commit/dcedfd4d770b27e9586601e7ded26d58c4eb315b",
+  "skill_directory": "skills/cloud/alloydb-basics",
+  "local_directory": "verified_real_update_pairs/OPU-0262",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0262",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

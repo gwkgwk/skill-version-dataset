@@ -1,0 +1,247 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-reliability/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "5c45c1658caf1ecdc0d3",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "3495f50ae0d7b69dcb19c6922db9f80aab6cf79c",
+    "computed_tree_sha": "cda3cc718514c01d986ba6006ddeec7465579974",
+    "api_tree_sha_as_returned": "cda3cc718514c01d986ba6006ddeec7465579974",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3d067da26938a090bb78fffc686a7e8087b058c5",
+        "sha256": "a29e054ff1073c263853d137dc9109e100caa1b0b677f4e80652b67d8f6fbdb0",
+        "size": 25045,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configure-health-probes.md",
+        "git_blob_sha1": "18182b852776fd7a6a023c793fc431abd77b48f3",
+        "sha256": "76cbd211b7787625ea07502972c2214fe80e12262997880017bcc13bf2b13f62",
+        "size": 2190,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configure-multi-region.md",
+        "git_blob_sha1": "05c061975583858c1e090eeb45354ed358aedc2f",
+        "sha256": "b68152b061e021402a5862ca7d3de2364bb9a30c00a586c67c68c4a0b16b5ddc",
+        "size": 18934,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configure-storage.md",
+        "git_blob_sha1": "9b79d0eafeca83ba1130955aab2892858680c48e",
+        "sha256": "e2e4c1ec09593e2e7bc1bfdab69404a361424ef1507348e1ead0efb88d0fad60",
+        "size": 5481,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configure-zone-redundancy.md",
+        "git_blob_sha1": "ce0588f736e870793c1d61606235504e22cdb606",
+        "sha256": "e07930ab95e876dce61e013fa55abd62ec7e292056ac62e6cda6e68910f54f4f",
+        "size": 1955,
+        "mode": "100644"
+      },
+      {
+        "path": "references/health-probe-checks.md",
+        "git_blob_sha1": "060b7155fa80a3f256daec849ee75d761ee63930",
+        "sha256": "7a84e9d5120e51b5c10d74d21421b5224dcbea95bfd7ae38bd0966deff971b61",
+        "size": 3544,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-patching-bicep.md",
+        "git_blob_sha1": "1ecb442422d7c0316e64cca98be42823992762a6",
+        "sha256": "96d86b9dc0f0bbf4a9b012e7f97bf36dbd6358b942f96c6cb9f217f0d3447f49",
+        "size": 7031,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-patching-terraform.md",
+        "git_blob_sha1": "59b86a860eb811dacba4d2bc397594b8b2763148",
+        "sha256": "e9ad7a612fe483d9bcd0298907487b5a8756bc6e7faeee0cca1ed58d45cbfe72",
+        "size": 4815,
+        "mode": "100644"
+      },
+      {
+        "path": "references/multi-region-checks.md",
+        "git_blob_sha1": "7e4891d8fba55ffb5c2437a06f0b42abe58c0b55",
+        "sha256": "b5f3700d0e40e464675d4f482a06a8046986aa61018d21d28af7eafbc9e3988d",
+        "size": 6120,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/reliability.md",
+        "git_blob_sha1": "247113c6aef47e803bf31a7ac6e57ee12546d357",
+        "sha256": "91f1ecd1c07826ed684a5361bcae60bca5fde4b818c4dae04ef965b8aee37077",
+        "size": 10484,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/reliability.md",
+        "git_blob_sha1": "84dd4a750d68d10f7011feba8f361408c2bab124",
+        "sha256": "95527035e16b597bc0e78e85b74f7e85de1a253fad76066b1d2fdbfc7cfbb5f8",
+        "size": 6389,
+        "mode": "100644"
+      },
+      {
+        "path": "references/storage-redundancy-checks.md",
+        "git_blob_sha1": "5e5ea57b9c9c79474f1bbb8b68d457eff7fd4094",
+        "sha256": "2ef140db5d9e29958aa572c8bb90556d12ffc2da96881c2130c36c420bac5536",
+        "size": 5206,
+        "mode": "100644"
+      },
+      {
+        "path": "references/zone-redundancy-checks.md",
+        "git_blob_sha1": "e99d5428dd0be0af80fb20ca5c8c355e1ab1cfda",
+        "sha256": "6a328177624859e845e87cec80f3fb59e434b3f077f7232669d5c795cd4310c7",
+        "size": 2930,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "bd5ac5f481975e0bc7fcf1f98a4f23efe343f5b6",
+    "computed_tree_sha": "9330ac7bb6e8dbe5748219ac467ed066d8baa476",
+    "api_tree_sha_as_returned": "9330ac7bb6e8dbe5748219ac467ed066d8baa476",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "ed5cefb2923cc2e25aa9773dbcfa0f4f7caea033",
+        "sha256": "a70f0a799c8f3cf805ada741e82af31a149b57cb1e2388d7805036492cdceb71",
+        "size": 24910,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configure-health-probes.md",
+        "git_blob_sha1": "18182b852776fd7a6a023c793fc431abd77b48f3",
+        "sha256": "76cbd211b7787625ea07502972c2214fe80e12262997880017bcc13bf2b13f62",
+        "size": 2190,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configure-multi-region.md",
+        "git_blob_sha1": "05c061975583858c1e090eeb45354ed358aedc2f",
+        "sha256": "b68152b061e021402a5862ca7d3de2364bb9a30c00a586c67c68c4a0b16b5ddc",
+        "size": 18934,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configure-storage.md",
+        "git_blob_sha1": "9b79d0eafeca83ba1130955aab2892858680c48e",
+        "sha256": "e2e4c1ec09593e2e7bc1bfdab69404a361424ef1507348e1ead0efb88d0fad60",
+        "size": 5481,
+        "mode": "100644"
+      },
+      {
+        "path": "references/configure-zone-redundancy.md",
+        "git_blob_sha1": "ce0588f736e870793c1d61606235504e22cdb606",
+        "sha256": "e07930ab95e876dce61e013fa55abd62ec7e292056ac62e6cda6e68910f54f4f",
+        "size": 1955,
+        "mode": "100644"
+      },
+      {
+        "path": "references/health-probe-checks.md",
+        "git_blob_sha1": "060b7155fa80a3f256daec849ee75d761ee63930",
+        "sha256": "7a84e9d5120e51b5c10d74d21421b5224dcbea95bfd7ae38bd0966deff971b61",
+        "size": 3544,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-patching-bicep.md",
+        "git_blob_sha1": "1ecb442422d7c0316e64cca98be42823992762a6",
+        "sha256": "96d86b9dc0f0bbf4a9b012e7f97bf36dbd6358b942f96c6cb9f217f0d3447f49",
+        "size": 7031,
+        "mode": "100644"
+      },
+      {
+        "path": "references/iac-patching-terraform.md",
+        "git_blob_sha1": "59b86a860eb811dacba4d2bc397594b8b2763148",
+        "sha256": "e9ad7a612fe483d9bcd0298907487b5a8756bc6e7faeee0cca1ed58d45cbfe72",
+        "size": 4815,
+        "mode": "100644"
+      },
+      {
+        "path": "references/multi-region-checks.md",
+        "git_blob_sha1": "7e4891d8fba55ffb5c2437a06f0b42abe58c0b55",
+        "sha256": "b5f3700d0e40e464675d4f482a06a8046986aa61018d21d28af7eafbc9e3988d",
+        "size": 6120,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/reliability.md",
+        "git_blob_sha1": "247113c6aef47e803bf31a7ac6e57ee12546d357",
+        "sha256": "91f1ecd1c07826ed684a5361bcae60bca5fde4b818c4dae04ef965b8aee37077",
+        "size": 10484,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/reliability.md",
+        "git_blob_sha1": "84dd4a750d68d10f7011feba8f361408c2bab124",
+        "sha256": "95527035e16b597bc0e78e85b74f7e85de1a253fad76066b1d2fdbfc7cfbb5f8",
+        "size": 6389,
+        "mode": "100644"
+      },
+      {
+        "path": "references/storage-redundancy-checks.md",
+        "git_blob_sha1": "5e5ea57b9c9c79474f1bbb8b68d457eff7fd4094",
+        "sha256": "2ef140db5d9e29958aa572c8bb90556d12ffc2da96881c2130c36c420bac5536",
+        "size": 5206,
+        "mode": "100644"
+      },
+      {
+        "path": "references/zone-redundancy-checks.md",
+        "git_blob_sha1": "e99d5428dd0be0af80fb20ca5c8c355e1ab1cfda",
+        "sha256": "6a328177624859e845e87cec80f3fb59e434b3f077f7232669d5c795cd4310c7",
+        "size": 2930,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "3495f50ae0d7b69dcb19c6922db9f80aab6cf79c",
+  "new_commit": "bd5ac5f481975e0bc7fcf1f98a4f23efe343f5b6",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-09-30T11:05:26Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/3495f50ae0d7b69dcb19c6922db9f80aab6cf79c...bd5ac5f481975e0bc7fcf1f98a4f23efe343f5b6",
+  "commit_url": "https://github.com/microsoft/skills/commit/bd5ac5f481975e0bc7fcf1f98a4f23efe343f5b6",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-reliability",
+  "local_directory": "verified_real_update_pairs/OPU-0474",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0474",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

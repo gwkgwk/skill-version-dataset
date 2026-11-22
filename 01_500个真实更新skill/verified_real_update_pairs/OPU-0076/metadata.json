@@ -1,0 +1,77 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-projects-dotnet/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "04bb02f69d1b0b3ff50f",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "23a77bd472fe460f91fad97401f6dbbf87eba532",
+    "computed_tree_sha": "6e591e5ececbd5621b6e00fe11c3b0b91fb78a19",
+    "api_tree_sha_as_returned": "6e591e5ececbd5621b6e00fe11c3b0b91fb78a19",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "962ce0eae0263b6ca18abaf5053bdc65ec523e3e",
+        "sha256": "a0cbf8f1ff6aae94060b38624bb2283c8c2c2c5966684b19781b50b28c4cb044",
+        "size": 10993,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+    "computed_tree_sha": "2dabc3855c1b4ea3c8bf6f855ccf310c9e36eccd",
+    "api_tree_sha_as_returned": "2dabc3855c1b4ea3c8bf6f855ccf310c9e36eccd",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "80428335ae9036992bc1fda54594380a1c122b18",
+        "sha256": "c928d09ea1c62c55b4582e53582e3f8a97fa7df84a6102be8e33aba9b1926058",
+        "size": 11686,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "23a77bd472fe460f91fad97401f6dbbf87eba532",
+  "new_commit": "073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update .NET skills auth and env vars with DefaultEnvironmentVariableName\n\n- Use DefaultAzureCredential(DefaultEnvironmentVariableName) in 26 .NET skills\n- Add ManagedIdentityCredential as production alternative with credential classes link\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables sections\n- Add inline comments to all env vars explaining purpose\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-05-05T00:22:24Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/23a77bd472fe460f91fad97401f6dbbf87eba532...073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "commit_url": "https://github.com/microsoft/skills/commit/073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "skill_directory": ".github/plugins/azure-sdk-dotnet/skills/azure-ai-projects-dotnet",
+  "local_directory": "verified_real_update_pairs/OPU-0076",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0076",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

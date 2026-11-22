@@ -1,0 +1,77 @@
+{
+  "repository": "huggingface/skills",
+  "primary": "skills/huggingface-datasets/SKILL.md",
+  "pinned_commit": "5291c2b9365e06b175dc04817610c778623f4836",
+  "repository_license": "Apache-2.0",
+  "key": "c7ab716e6404cebe286d",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "acd2bf5a7126994e15143bec061fe87a882811f3",
+    "computed_tree_sha": "5bdd7b52ae75bb57074f08c498df07024d41d83b",
+    "api_tree_sha_as_returned": "5bdd7b52ae75bb57074f08c498df07024d41d83b",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "16ff9665c71bd7d7a3cd4e5eaa67078a41cad750",
+        "sha256": "5af74f3e042313efadf02e85c316a2576bdc0b0ff92c43c3ba5dcb6e2dae1ded",
+        "size": 4703,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "b3df145a3a5a3e64ac075d781c625896d9d2bfcd",
+    "computed_tree_sha": "a00406f59ca03f0d76f59ce24c6edf8dcaab5b7c",
+    "api_tree_sha_as_returned": "a00406f59ca03f0d76f59ce24c6edf8dcaab5b7c",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "abafddcbe62bd6e549c095ee9ce23b921081fe22",
+        "sha256": "eeca50adf211ea64a288b852938f85a5183b045c720dc696b62db9aa2ea8deb2",
+        "size": 4671,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "acd2bf5a7126994e15143bec061fe87a882811f3",
+  "new_commit": "b3df145a3a5a3e64ac075d781c625896d9d2bfcd",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "update dataset skill guidance",
+  "new_commit_time": "2026-04-30T13:17:59Z",
+  "compare_url": "https://github.com/huggingface/skills/compare/acd2bf5a7126994e15143bec061fe87a882811f3...b3df145a3a5a3e64ac075d781c625896d9d2bfcd",
+  "commit_url": "https://github.com/huggingface/skills/commit/b3df145a3a5a3e64ac075d781c625896d9d2bfcd",
+  "skill_directory": "skills/huggingface-datasets",
+  "local_directory": "verified_real_update_pairs/OPU-0097",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0097",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

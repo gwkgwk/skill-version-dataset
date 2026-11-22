@@ -1,0 +1,475 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-skills/skills/azure-cloud-migrate/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "920e31c15f6b5b172443",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 6,
+  "old": {
+    "commit": "06a0e6e368577468efe1b12c95a0ca669826e7a5",
+    "computed_tree_sha": "be0a8ff523f5bf3600fec44a3e21b4fb2845ede6",
+    "api_tree_sha_as_returned": "be0a8ff523f5bf3600fec44a3e21b4fb2845ede6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "079c96dca03b03ae7236287c807964cec28d65af",
+        "sha256": "b01724a13872ed39323e513e22bebcd943fdf84fc58c99b42992f17f703943b1",
+        "size": 4165,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/app-engine-to-app-service.md",
+        "git_blob_sha1": "426c9f8a6f0a44775539d0719b2438d09c25822a",
+        "sha256": "01f4270a14b2af97adc14d355456917d1f603bbdb326ba94ff46156a5d8f38d3",
+        "size": 7302,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/assessment.md",
+        "git_blob_sha1": "649a980af77495c5987ab615dfd18d0bf5dd8b50",
+        "sha256": "cf98667abca7ef539134002414921971a176dc5de425e513af8febe6f625a6a1",
+        "size": 5342,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/beanstalk-to-app-service.md",
+        "git_blob_sha1": "a58b406d57a0eeb8d8a0ec29f8fa1432c4adfd08",
+        "sha256": "0fa1380a393293bda0883eebb792e0f11efb783842e84f712fd24246c038f3d3",
+        "size": 6506,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/code-migration.md",
+        "git_blob_sha1": "d996ae66ab6e58ae7fbbd45ebf4a3ee0c44da52e",
+        "sha256": "ee9eca0e706b305b0966a81d90ac8d41ca71a33c7fac43445a2d3c9125e33eea",
+        "size": 5069,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/global-rules.md",
+        "git_blob_sha1": "a000692efb354bbf3cc7690252aadd653736c904",
+        "sha256": "8b078ab6f5c6f119a09866955edee501ae87f150cd52561002dd9e906b355170",
+        "size": 2911,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/heroku-to-app-service.md",
+        "git_blob_sha1": "22468b9fbb6e119cee101f9a4e330c210fcba0ba",
+        "sha256": "f76c8684acbe605e7706e6bae3816eb93c60ef67101ac055a3e042e9a3284715",
+        "size": 7728,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/assessment-guide.md",
+        "git_blob_sha1": "e638c110c64bc3480d69e5f4cf48d675c2422109",
+        "sha256": "cf8393756955e676b03706159ba176d732f254765ba6b65825c0c23b10ffbde2",
+        "size": 7164,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/cloudrun-assessment-guide.md",
+        "git_blob_sha1": "6442e2f2d9cdd81ae4d95c47e1ebfa70f419133b",
+        "sha256": "e6f0219ec6872961bbad76096bc7f12f7ed133abf6e8b2016394954f4660f21c",
+        "size": 2554,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/cloudrun-deployment-guide.md",
+        "git_blob_sha1": "29c8094da61eacf61a9416884ea76db3cebe186b",
+        "sha256": "3c9d52fb9e4d6c6ced006f3ceb8b7234f64d711bc9d5897f79e7d0401e6e17f1",
+        "size": 8117,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/cloudrun-to-container-apps.md",
+        "git_blob_sha1": "07b2a728034e4a0f1a842757f1a03539a1c0c42f",
+        "sha256": "fea33474003161541c028e6a97019dca5f5c1d697628992e83b49215028d2c56",
+        "size": 2233,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/deployment-guide.md",
+        "git_blob_sha1": "d0a1785c61616aa81b9a0b65ae0efb360e5e2061",
+        "sha256": "6f8b12dd4304130c047bdc3595ead127abf3c0957f91b833d15aae7afbf18198",
+        "size": 9859,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/fargate-assessment-guide.md",
+        "git_blob_sha1": "1aa119a629fe00589bc3b0b2be12e3df900ec8f2",
+        "sha256": "2b538953c9568ed8add7f8693295e036ef8264993675215fbadfc3ddd98d6757",
+        "size": 2456,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/fargate-deployment-guide.md",
+        "git_blob_sha1": "83453d6eb4fc413a68cea8332b51e0ebe90557a6",
+        "sha256": "9d279c616125ba77956be40d61b83f35f7b4e3043a76d990032d3b6700ca2243",
+        "size": 10351,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/fargate-to-container-apps.md",
+        "git_blob_sha1": "10d5b434f85f333d7d2a430be8e76e709b1b09fb",
+        "sha256": "3a79869b62430da7a65581b6315561b6fa9a3950e34643580e7819d9f9337d41",
+        "size": 4052,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/k8s-to-container-apps.md",
+        "git_blob_sha1": "f30f853615ffabb52f7fd68098a701b3736f8ec6",
+        "sha256": "0f223ccf8613c89aceb49ab584c868a31f54c7b874bc367fa46e2d6f5f281cf4",
+        "size": 4987,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/assessment.md",
+        "git_blob_sha1": "7d4a1b243b2e8f3d067ddbec9185ef893b59f1d6",
+        "sha256": "001a931a2d5006f22105ceab50275eeeccc9042bf47d76b634c24492f707918f",
+        "size": 6454,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/code-migration.md",
+        "git_blob_sha1": "d15618360b15abd0907c0d832a715d1ae4839604",
+        "sha256": "e42b0692b5697f8024a7f1ed75cd9bc2569d441dae97a3b3fef65bee2f43f1ae",
+        "size": 6121,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/global-rules.md",
+        "git_blob_sha1": "abf3e3f68e5bc798c83f971e6d4292a796358095",
+        "sha256": "259bd1d6751a62b70c883ee6454ab47aaef6c0ddcb1d61e44f6617ea27bc890d",
+        "size": 3403,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/lambda-to-functions.md",
+        "git_blob_sha1": "9c2e741b8ced9c31959e38101a976c498a150251",
+        "sha256": "5166ff0acea787328e3edbfe8fe339162f0d3c7afc5fb8e30d48fe28bd9ee8f9",
+        "size": 10489,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/csharp.md",
+        "git_blob_sha1": "2bad66aa83b696b2a9aa39f3892e832c812e5fc0",
+        "sha256": "c6d01657133fdd864b9fe89e649fa40e1f56ff9efa92f8b05959a16293bb081e",
+        "size": 5611,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/java.md",
+        "git_blob_sha1": "9a264cb420ea7cf04e2bf4d65052620a6b8a8814",
+        "sha256": "1a2a26363a121898b1811e2a75f54a7a93c1ebef90aa70d90ed69998717686c0",
+        "size": 6554,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/javascript.md",
+        "git_blob_sha1": "6e603477548852bb22c29b4f9a81f81f1871bdad",
+        "sha256": "40c4943cde71c2a40190a9873d283720716c0ddf832c659f45f7cbe0ef2a939d",
+        "size": 8740,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/powershell.md",
+        "git_blob_sha1": "50e0213eb07939131e70b47f3df5b7badc6a30af",
+        "sha256": "2471412f6a08ccae3a03df17973a0236c87ac4460ce6ff00d08a8d409392529a",
+        "size": 5112,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/python.md",
+        "git_blob_sha1": "6921b95b356162cc87f65ecae6b887b68db80031",
+        "sha256": "395eee377b776f6266f9fc26c2c1e0d9c87362a54347cc0de1582021aa306525",
+        "size": 6530,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/typescript.md",
+        "git_blob_sha1": "9230f319b74b0e96d98d93b6a7f9adc547c407a6",
+        "sha256": "5bb512f35c08314826ffb1091ce42b042600d19de88600db9a372578091c4e68",
+        "size": 3592,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-details.md",
+        "git_blob_sha1": "3da50ba82b48a70566f638505c33607e4176f4b3",
+        "sha256": "fb574d1a4bc15eb8804575bc3342d893e4658ee3243986d14327cd4a7e945544",
+        "size": 2388,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e12b7d24dab47df1d935783b31b196fdf43ad56b",
+    "computed_tree_sha": "dd0d5a31e87576d5b46899b19aa3eedb24d412f4",
+    "api_tree_sha_as_returned": "dd0d5a31e87576d5b46899b19aa3eedb24d412f4",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "b1634cf629d9358eb70a95c089b309c304f9c42c",
+        "sha256": "db31a871e00002b6895c5e32ade22244d3a92fbf3db88314474cef8c74b354ef",
+        "size": 4355,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/app-engine-to-app-service.md",
+        "git_blob_sha1": "426c9f8a6f0a44775539d0719b2438d09c25822a",
+        "sha256": "01f4270a14b2af97adc14d355456917d1f603bbdb326ba94ff46156a5d8f38d3",
+        "size": 7302,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/assessment.md",
+        "git_blob_sha1": "649a980af77495c5987ab615dfd18d0bf5dd8b50",
+        "sha256": "cf98667abca7ef539134002414921971a176dc5de425e513af8febe6f625a6a1",
+        "size": 5342,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/beanstalk-to-app-service.md",
+        "git_blob_sha1": "a58b406d57a0eeb8d8a0ec29f8fa1432c4adfd08",
+        "sha256": "0fa1380a393293bda0883eebb792e0f11efb783842e84f712fd24246c038f3d3",
+        "size": 6506,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/code-migration.md",
+        "git_blob_sha1": "d996ae66ab6e58ae7fbbd45ebf4a3ee0c44da52e",
+        "sha256": "ee9eca0e706b305b0966a81d90ac8d41ca71a33c7fac43445a2d3c9125e33eea",
+        "size": 5069,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/global-rules.md",
+        "git_blob_sha1": "a000692efb354bbf3cc7690252aadd653736c904",
+        "sha256": "8b078ab6f5c6f119a09866955edee501ae87f150cd52561002dd9e906b355170",
+        "size": 2911,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/app-service/heroku-to-app-service.md",
+        "git_blob_sha1": "22468b9fbb6e119cee101f9a4e330c210fcba0ba",
+        "sha256": "f76c8684acbe605e7706e6bae3816eb93c60ef67101ac055a3e042e9a3284715",
+        "size": 7728,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/assessment-guide.md",
+        "git_blob_sha1": "e638c110c64bc3480d69e5f4cf48d675c2422109",
+        "sha256": "cf8393756955e676b03706159ba176d732f254765ba6b65825c0c23b10ffbde2",
+        "size": 7164,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/cloudrun-assessment-guide.md",
+        "git_blob_sha1": "6442e2f2d9cdd81ae4d95c47e1ebfa70f419133b",
+        "sha256": "e6f0219ec6872961bbad76096bc7f12f7ed133abf6e8b2016394954f4660f21c",
+        "size": 2554,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/cloudrun-deployment-guide.md",
+        "git_blob_sha1": "29c8094da61eacf61a9416884ea76db3cebe186b",
+        "sha256": "3c9d52fb9e4d6c6ced006f3ceb8b7234f64d711bc9d5897f79e7d0401e6e17f1",
+        "size": 8117,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/cloudrun-to-container-apps.md",
+        "git_blob_sha1": "07b2a728034e4a0f1a842757f1a03539a1c0c42f",
+        "sha256": "fea33474003161541c028e6a97019dca5f5c1d697628992e83b49215028d2c56",
+        "size": 2233,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/deployment-guide.md",
+        "git_blob_sha1": "d0a1785c61616aa81b9a0b65ae0efb360e5e2061",
+        "sha256": "6f8b12dd4304130c047bdc3595ead127abf3c0957f91b833d15aae7afbf18198",
+        "size": 9859,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/fargate-assessment-guide.md",
+        "git_blob_sha1": "1aa119a629fe00589bc3b0b2be12e3df900ec8f2",
+        "sha256": "2b538953c9568ed8add7f8693295e036ef8264993675215fbadfc3ddd98d6757",
+        "size": 2456,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/fargate-deployment-guide.md",
+        "git_blob_sha1": "83453d6eb4fc413a68cea8332b51e0ebe90557a6",
+        "sha256": "9d279c616125ba77956be40d61b83f35f7b4e3043a76d990032d3b6700ca2243",
+        "size": 10351,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/fargate-to-container-apps.md",
+        "git_blob_sha1": "10d5b434f85f333d7d2a430be8e76e709b1b09fb",
+        "sha256": "3a79869b62430da7a65581b6315561b6fa9a3950e34643580e7819d9f9337d41",
+        "size": 4052,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/k8s-to-container-apps.md",
+        "git_blob_sha1": "f30f853615ffabb52f7fd68098a701b3736f8ec6",
+        "sha256": "0f223ccf8613c89aceb49ab584c868a31f54c7b874bc367fa46e2d6f5f281cf4",
+        "size": 4987,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/spring-apps-to-aca.md",
+        "git_blob_sha1": "91e951f68d956c185f18eab9576a5dd42fecb00c",
+        "sha256": "79f089e70f6a49e5b9624b461ced59ddf931f16985640ee44e2de9bec7a5f7e5",
+        "size": 3858,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/spring-assessment-guide.md",
+        "git_blob_sha1": "274003ebdba81c1658d2dcad0dbe37d768f91de5",
+        "sha256": "280d2872bf867817c327af54a34efb996152fbcb7958cae0ad7584e97cdef2d2",
+        "size": 5372,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/spring-dependency-patterns.md",
+        "git_blob_sha1": "ce529b1259ab80a796e22344c9e034766df567e5",
+        "sha256": "3ce796085ff758858ab29a4c2fd7afd9707ad65707aa8488e301485f8d7a5a82",
+        "size": 1180,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/container-apps/spring-deployment-guide.md",
+        "git_blob_sha1": "4e27f82b4f8cae7c1858fb2ffa32ef70c29d2863",
+        "sha256": "7b6119285dc8e9e3d7402d6c36e821d4db4c9824f6ed5c17c3f43b18db57f5c5",
+        "size": 15483,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/assessment.md",
+        "git_blob_sha1": "7d4a1b243b2e8f3d067ddbec9185ef893b59f1d6",
+        "sha256": "001a931a2d5006f22105ceab50275eeeccc9042bf47d76b634c24492f707918f",
+        "size": 6454,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/code-migration.md",
+        "git_blob_sha1": "d15618360b15abd0907c0d832a715d1ae4839604",
+        "sha256": "e42b0692b5697f8024a7f1ed75cd9bc2569d441dae97a3b3fef65bee2f43f1ae",
+        "size": 6121,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/global-rules.md",
+        "git_blob_sha1": "abf3e3f68e5bc798c83f971e6d4292a796358095",
+        "sha256": "259bd1d6751a62b70c883ee6454ab47aaef6c0ddcb1d61e44f6617ea27bc890d",
+        "size": 3403,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/lambda-to-functions.md",
+        "git_blob_sha1": "9c2e741b8ced9c31959e38101a976c498a150251",
+        "sha256": "5166ff0acea787328e3edbfe8fe339162f0d3c7afc5fb8e30d48fe28bd9ee8f9",
+        "size": 10489,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/csharp.md",
+        "git_blob_sha1": "2bad66aa83b696b2a9aa39f3892e832c812e5fc0",
+        "sha256": "c6d01657133fdd864b9fe89e649fa40e1f56ff9efa92f8b05959a16293bb081e",
+        "size": 5611,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/java.md",
+        "git_blob_sha1": "9a264cb420ea7cf04e2bf4d65052620a6b8a8814",
+        "sha256": "1a2a26363a121898b1811e2a75f54a7a93c1ebef90aa70d90ed69998717686c0",
+        "size": 6554,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/javascript.md",
+        "git_blob_sha1": "6e603477548852bb22c29b4f9a81f81f1871bdad",
+        "sha256": "40c4943cde71c2a40190a9873d283720716c0ddf832c659f45f7cbe0ef2a939d",
+        "size": 8740,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/powershell.md",
+        "git_blob_sha1": "50e0213eb07939131e70b47f3df5b7badc6a30af",
+        "sha256": "2471412f6a08ccae3a03df17973a0236c87ac4460ce6ff00d08a8d409392529a",
+        "size": 5112,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/python.md",
+        "git_blob_sha1": "6921b95b356162cc87f65ecae6b887b68db80031",
+        "sha256": "395eee377b776f6266f9fc26c2c1e0d9c87362a54347cc0de1582021aa306525",
+        "size": 6530,
+        "mode": "100644"
+      },
+      {
+        "path": "references/services/functions/runtimes/typescript.md",
+        "git_blob_sha1": "9230f319b74b0e96d98d93b6a7f9adc547c407a6",
+        "sha256": "5bb512f35c08314826ffb1091ce42b042600d19de88600db9a372578091c4e68",
+        "size": 3592,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow-details.md",
+        "git_blob_sha1": "3da50ba82b48a70566f638505c33607e4176f4b3",
+        "sha256": "fb574d1a4bc15eb8804575bc3342d893e4658ee3243986d14327cd4a7e945544",
+        "size": 2388,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/services/container-apps/spring-apps-to-aca.md",
+    "references/services/container-apps/spring-assessment-guide.md",
+    "references/services/container-apps/spring-dependency-patterns.md",
+    "references/services/container-apps/spring-deployment-guide.md"
+  ],
+  "old_commit": "06a0e6e368577468efe1b12c95a0ca669826e7a5",
+  "new_commit": "e12b7d24dab47df1d935783b31b196fdf43ad56b",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Sync plugin files from GitHub-Copilot-for-Azure",
+  "new_commit_time": "2026-05-07T11:33:24Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/06a0e6e368577468efe1b12c95a0ca669826e7a5...e12b7d24dab47df1d935783b31b196fdf43ad56b",
+  "commit_url": "https://github.com/microsoft/skills/commit/e12b7d24dab47df1d935783b31b196fdf43ad56b",
+  "skill_directory": ".github/plugins/azure-skills/skills/azure-cloud-migrate",
+  "local_directory": "verified_real_update_pairs/OPU-0464",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0464",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

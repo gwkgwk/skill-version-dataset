@@ -1,0 +1,91 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-java/skills/azure-ai-vision-imageanalysis-java/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "c13683f43499d804d8ea",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+    "computed_tree_sha": "7e753d51ce0d2d586b62207182177e7450a1fe1e",
+    "api_tree_sha_as_returned": "7e753d51ce0d2d586b62207182177e7450a1fe1e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e859fbc838aed1de15f9552f66747439fd052ea9",
+        "sha256": "b5ff504f827a6bb83affd77cc38e9232218e7fe9b3a657f1b62bac6fa3adbd21",
+        "size": 8036,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "25872d63a949df4a6e8241bddc1392ce370de340",
+        "sha256": "63ae8aa36a41e956d5721fba66fee1d0c14eaca2210984cd09cdef4b207aa2c3",
+        "size": 22120,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+    "computed_tree_sha": "86f720a7dbed3474b6e4da1d7593db81f9715145",
+    "api_tree_sha_as_returned": "86f720a7dbed3474b6e4da1d7593db81f9715145",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "5ec2d2d5592e6a71ec707b03b4a5d64643b5a491",
+        "sha256": "ea209e06fc0dc906227ed226f6ea7a73c2352ae0aac251c9e1f30bbc0455ae37",
+        "size": 8730,
+        "mode": "100644"
+      },
+      {
+        "path": "references/examples.md",
+        "git_blob_sha1": "25872d63a949df4a6e8241bddc1392ce370de340",
+        "sha256": "63ae8aa36a41e956d5721fba66fee1d0c14eaca2210984cd09cdef4b207aa2c3",
+        "size": 22120,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "7d736cbd13e586462eac0c22d6eada4f7a0e435a",
+  "new_commit": "e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update Java skills auth and env vars with requireEnvVars pattern\n\n- Add requireEnvVars(AzureIdentityEnvVars.AZURE_TOKEN_CREDENTIALS) to DefaultAzureCredentialBuilder in 20 Java skills\n- Add ManagedIdentityCredentialBuilder as production alternative with credential classes link\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables sections\n- Add inline comments to all env vars explaining purpose\n- Update skill-creator with Java and C# auth patterns\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-04-29T07:41:43Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/7d736cbd13e586462eac0c22d6eada4f7a0e435a...e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "commit_url": "https://github.com/microsoft/skills/commit/e7ee58fc1fa669841e06f8d27359e0533d148394",
+  "skill_directory": ".github/plugins/azure-sdk-java/skills/azure-ai-vision-imageanalysis-java",
+  "local_directory": "verified_real_update_pairs/OPU-0280",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0280",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "repository": "openai/skills",
+  "primary": "skills/.curated/gh-address-comments/SKILL.md",
+  "pinned_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "repository_license": null,
+  "key": "fe24f2d8eb840f7a68d0",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "bd3c623ce0c20a3e18c7a4d134eee5621b69e26f",
+    "computed_tree_sha": "212a5062080ea706bcc98bfff128a7cacdf2fdd0",
+    "api_tree_sha_as_returned": "212a5062080ea706bcc98bfff128a7cacdf2fdd0",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size": 11357,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "e091e12c9916ce5f73f64fcfe068580c188bbcc2",
+        "sha256": "bf4cb0b3a3cc83729c599600d627393d6a83a6d886d1eb51cfc0bd376483635e",
+        "size": 1220,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_comments.py",
+        "git_blob_sha1": "9081625235ca0745cfe2ed8270d7cc7bf96322b9",
+        "sha256": "809eac7203fe27e83f26999d993e070c1b30447f32192cd1e906744e6e9df3d3",
+        "size": 6503,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
+    "computed_tree_sha": "9d56f53f2400d48b55e5389609f091571509f530",
+    "api_tree_sha_as_returned": "9d56f53f2400d48b55e5389609f091571509f530",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "git_blob_sha1": "7a4a3ea2424c09fbe48d455aed1eaa94d9124835",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size": 11357,
+        "mode": "100644"
+      },
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0ee19e080dc9f0b082157080d1e65511ddc49e7e",
+        "sha256": "77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd",
+        "size": 1278,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/fetch_comments.py",
+        "git_blob_sha1": "09b9c01c50d9202bd6455ce36887e08be92ac1ae",
+        "sha256": "d7bc64f6b26f7482f9ca9dd7c923a5b8b20e1ef13491ae2d9052cd208a7c1ad1",
+        "size": 6537,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "scripts/fetch_comments.py"
+  ],
+  "old_commit": "bd3c623ce0c20a3e18c7a4d134eee5621b69e26f",
+  "new_commit": "5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Make GitHub CLI auth guidance public-friendly in curated skills (#19)\n\nThis PR removes references to oai_gh from the curated GitHub skills and\nreplaces them with standard GitHub CLI auth guidance (gh auth login).\nThe goal is to avoid assuming internal tooling in a public repo.\n\nThat said, I'm not sure whether oai_gh is actually a built-in Codex\nhelper. If it is, feel free to close this PR.\n\nI also did a sweep of .curated for other internal-only helpers and\ndidn't find any additional ones.",
+  "new_commit_time": "2025-12-19T22:10:04Z",
+  "compare_url": "https://github.com/openai/skills/compare/bd3c623ce0c20a3e18c7a4d134eee5621b69e26f...5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
+  "commit_url": "https://github.com/openai/skills/commit/5a9bb4cbe6d79d44aa619c70edbfa1654358f69c",
+  "skill_directory": "skills/.curated/gh-address-comments",
+  "local_directory": "verified_real_update_pairs/OPU-0025",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "explicit_skill_license_in_both_snapshots",
+    "evidence": [
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "old"
+      },
+      {
+        "path": "LICENSE.txt",
+        "identifier": "Apache-2.0",
+        "side": "new"
+      }
+    ]
+  },
+  "id": "OPU-0025",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

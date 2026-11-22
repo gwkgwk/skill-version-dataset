@@ -1,0 +1,133 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "3b980399e9e971187bf5",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 6,
+  "old": {
+    "commit": "c910ecf7390a741b727210c03d230f34fb0bc62b",
+    "computed_tree_sha": "6405943529b0109f857e5080defecf5c45181980",
+    "api_tree_sha_as_returned": "6405943529b0109f857e5080defecf5c45181980",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4bf79525c699f337940f1ee11c95c04ffeb865c4",
+        "sha256": "82093e2a5d693e5b8916db1e520b7e20f786dffc6fa5e855008597665408eabe",
+        "size": 7315,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/quick-reference.md",
+        "git_blob_sha1": "eda52f624f9c9b0bc6ffd0ca6501975d6c97321c",
+        "sha256": "3e87f6e87b7cab07578037c6db1fb7d7cb57be03bbccc793c043720a8c3a435e",
+        "size": 5648,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow.md",
+        "git_blob_sha1": "30851db589de275e0fddf4813a7b0c4c86675bbf",
+        "sha256": "3dab347aa2e2c78b5a7a94ebb0d73d92dcb5c7df87d60ea9ee8f2671eba1c7b9",
+        "size": 7725,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "557711933147cabb9c833fd74d93e45a559b0dcd",
+    "computed_tree_sha": "bcf995235debdae24f74eb329dfac14cfcae6700",
+    "api_tree_sha_as_returned": "bcf995235debdae24f74eb329dfac14cfcae6700",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c938b948a94fc7fa1ff62faaf6ecb020cc291b7a",
+        "sha256": "6ca2e3b8520ed20af1b0879b7cab318832fcbe89c19c17a9fa347a45a9f28913",
+        "size": 7320,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "references/quick-reference.md",
+        "git_blob_sha1": "eda52f624f9c9b0bc6ffd0ca6501975d6c97321c",
+        "sha256": "3e87f6e87b7cab07578037c6db1fb7d7cb57be03bbccc793c043720a8c3a435e",
+        "size": 5648,
+        "mode": "100644"
+      },
+      {
+        "path": "references/workflow.md",
+        "git_blob_sha1": "30851db589de275e0fddf4813a7b0c4c86675bbf",
+        "sha256": "3dab347aa2e2c78b5a7a94ebb0d73d92dcb5c7df87d60ea9ee8f2671eba1c7b9",
+        "size": 7725,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "c910ecf7390a741b727210c03d230f34fb0bc62b",
+  "new_commit": "557711933147cabb9c833fd74d93e45a559b0dcd",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(semgrep-rule-creator): correct 404ing semgrep-docs links (#179)\n\n* fix(semgrep-rule-creator): correct 404ing semgrep-docs links\n\nThe semgrep-docs repo migrated these writing-rules pages from .md to\n.mdx, so the WebFetch links in SKILL.md were returning 404. Update the\nfive affected links to their .mdx paths (pattern-syntax was already\n.mdx). All seven links now return HTTP 200.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\n\n* Bump version to 1.2.2 in plugin.json\n\n* Update semgrep-rule-creator version to 1.2.2\n\n---------\n\nCo-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>\nCo-authored-by: ahpaleus <38883201+ahpaleus@users.noreply.github.com>",
+  "new_commit_time": "2026-06-10T19:34:58Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/c910ecf7390a741b727210c03d230f34fb0bc62b...557711933147cabb9c833fd74d93e45a559b0dcd",
+  "commit_url": "https://github.com/trailofbits/skills/commit/557711933147cabb9c833fd74d93e45a559b0dcd",
+  "skill_directory": "plugins/semgrep-rule-creator/skills/semgrep-rule-creator",
+  "local_directory": "verified_real_update_pairs/OPU-0277",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0277",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

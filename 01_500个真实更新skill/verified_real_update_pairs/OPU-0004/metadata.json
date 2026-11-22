@@ -1,0 +1,93 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/agents-md/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "2794bf2bd8fd3d0bf02e",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 2,
+  "old": {
+    "commit": "0493d77a5510c508a54e815d42570483fa26c48e",
+    "computed_tree_sha": "9968665256623aa1a8c18fd0a10188fd679215d8",
+    "api_tree_sha_as_returned": "9968665256623aa1a8c18fd0a10188fd679215d8",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "114ad0940d261cf323d7bc416c2ed8adadfbd85c",
+        "sha256": "1ac30ee5b526576c1a03922ca024b55f9803e2016a75d3f1fd52212fd77c846b",
+        "size": 4086,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+    "computed_tree_sha": "79bf72b1b141202a03f515b4a133f4845cf8d9e6",
+    "api_tree_sha_as_returned": "79bf72b1b141202a03f515b4a133f4845cf8d9e6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "bd92e4a9df47f63bd943bc3d5011da0b3d6e04ff",
+        "sha256": "8a91ada35068f43ef7ee03e38937863bac4f407878b06f0a4f1ddb4af24bec7e",
+        "size": 3188,
+        "mode": "100644"
+      },
+      {
+        "path": "SOURCES.md",
+        "git_blob_sha1": "edfafb63491741c75f1291334cd4b92c57eb0b12",
+        "sha256": "14ac842801b7bc938dfbb9efee072fc4e9ab43b456e40f3235fee503544a0721",
+        "size": 4307,
+        "mode": "100644"
+      },
+      {
+        "path": "SPEC.md",
+        "git_blob_sha1": "c699def49233fbb1c6a43ebadf74af8e8993c522",
+        "sha256": "4f8cff992ca96fa4d369227051cd3f5aa8b34974c81bf814aa3a1cf18541e74a",
+        "size": 4160,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "SOURCES.md",
+    "SPEC.md"
+  ],
+  "old_commit": "0493d77a5510c508a54e815d42570483fa26c48e",
+  "new_commit": "c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "docs(skills): Improve agent guidance skills (#140)\n\nTighten the agents-md and prompt-optimizer skills around concise,\nreference-backed guidance. AGENTS.md generation now enumerates exact\nexternal files for specs, docs, and policies, while prompt optimization\ncaptures external context before rewriting prompts.\n\n**Skill maintenance metadata**\n\nAdds SPEC.md and SOURCES.md for agents-md, plus SPEC.md for\nprompt-optimizer, so material behavior changes have maintenance\ncontracts and provenance.\n\n**Prompt guidance**\n\nAdds exact external context inventory rules to prompt-optimizer and\ncompacts the core/reference examples to keep runtime prose smaller.\n\nCo-authored-by: Codex <noreply@openai.com>",
+  "new_commit_time": "2026-05-04T17:40:37Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/0493d77a5510c508a54e815d42570483fa26c48e...c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "commit_url": "https://github.com/getsentry/skills/commit/c190d369bcbaa6cfdd95e9edfdba040506b4db76",
+  "skill_directory": "skills/agents-md",
+  "local_directory": "verified_real_update_pairs/OPU-0004",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0004",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/trailmark/skills/mermaid-to-proverif/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "3fdc1938d5252127dd10",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671",
+    "computed_tree_sha": "d830ab8baf3bd1c80e616b8e4e96ea9c25a23e31",
+    "api_tree_sha_as_returned": "d830ab8baf3bd1c80e616b8e4e96ea9c25a23e31",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "4d3e994cedac8e3db09bf3e94a9a30fb3cf51060",
+        "sha256": "2f096151ad7fb5de2d74556bfa85322510a6e71710f4aa0ff963e5ce6ec3fa25",
+        "size": 18356,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "36e97d41aeb5abb65f4574dc915d42b5d10e3add",
+        "sha256": "303918dc08b140feec04c9281150b8dd2cf1c06fbeb692e6c81878b1039c3077",
+        "size": 249,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/simple-handshake/diagram.md",
+        "git_blob_sha1": "4cc585cf7c23b467fe787d0e09d80d3db82dc108",
+        "sha256": "04fc49508ead6b829bddfacd28e97f5f0fdb39b94992180874af36760871b6eb",
+        "size": 1835,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/simple-handshake/sample-output.pv",
+        "git_blob_sha1": "6d95c266eb1200050be9392199c699fc4ba2e2c1",
+        "sha256": "207b1d6eb4562b0e31fdb6052e5b09b3f8d59ed33c9ff39eeff6f3829d9ccce6",
+        "size": 9546,
+        "mode": "100644"
+      },
+      {
+        "path": "references/crypto-to-proverif-mapping.md",
+        "git_blob_sha1": "d5f16b57de3da4fba4e3e73fd1281d41e0743181",
+        "sha256": "6a74edc1b644d51de628b2f324ed10176b9697155a267f46f203a2c2b9014707",
+        "size": 10317,
+        "mode": "100644"
+      },
+      {
+        "path": "references/proverif-syntax.md",
+        "git_blob_sha1": "6dede5244cd2ebbe17fcb762f0cd4690690f4661",
+        "sha256": "79934d0cb92280e37fd896193e0bc75912ec147b560e41b97a0b4cf1e86ed841",
+        "size": 14109,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security-properties.md",
+        "git_blob_sha1": "5c40f108b071626e3a745ae32d2af966bd0b89d0",
+        "sha256": "eb21e2f9be16a2ceaade726f7bd2c5ab6a096c4a33f3e5d6d27996eb4d435f8b",
+        "size": 11836,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+    "computed_tree_sha": "2a25ba885d7c93b4b69670154ad292e3aab36945",
+    "api_tree_sha_as_returned": "2a25ba885d7c93b4b69670154ad292e3aab36945",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "d7a69cde8d930744d514fc5104a0ba62df74c6c8",
+        "sha256": "705339f9f8e942319a73489d67e02ac4a6f52f7fe69900b8662fb28adb681989",
+        "size": 18644,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "36e97d41aeb5abb65f4574dc915d42b5d10e3add",
+        "sha256": "303918dc08b140feec04c9281150b8dd2cf1c06fbeb692e6c81878b1039c3077",
+        "size": 249,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/simple-handshake/diagram.md",
+        "git_blob_sha1": "4cc585cf7c23b467fe787d0e09d80d3db82dc108",
+        "sha256": "04fc49508ead6b829bddfacd28e97f5f0fdb39b94992180874af36760871b6eb",
+        "size": 1835,
+        "mode": "100644"
+      },
+      {
+        "path": "examples/simple-handshake/sample-output.pv",
+        "git_blob_sha1": "237645fdad6b8065c4b66fbe36738d428443a64e",
+        "sha256": "a8e9ad3388a19296b472db72abc9d5807032e106b3e8a4caef0f013383466476",
+        "size": 10031,
+        "mode": "100644"
+      },
+      {
+        "path": "references/crypto-to-proverif-mapping.md",
+        "git_blob_sha1": "d5f16b57de3da4fba4e3e73fd1281d41e0743181",
+        "sha256": "6a74edc1b644d51de628b2f324ed10176b9697155a267f46f203a2c2b9014707",
+        "size": 10317,
+        "mode": "100644"
+      },
+      {
+        "path": "references/proverif-syntax.md",
+        "git_blob_sha1": "c3d71471e4711814ab4a2aba9893087b559019c9",
+        "sha256": "5a481e54cbf5ec718d1342f8443ab654bd36c907736ca5137d61af346d7efa74",
+        "size": 14233,
+        "mode": "100644"
+      },
+      {
+        "path": "references/security-properties.md",
+        "git_blob_sha1": "676d43329fde5d7a481487cf9e9946f4fe7fec28",
+        "sha256": "5916485d1a36afcfadfcc52243e06fca259d97feb7489a5871f0bc99f15734c9",
+        "size": 12361,
+        "mode": "100644"
+      },
+      {
+        "path": "tests/test_guidance.py",
+        "git_blob_sha1": "0acb2198db88947bef2b2729beafef9f70f9b317",
+        "sha256": "4ed1710d522fab808cc89f4a1f961ab569a8b9d730119c6ec7e2d2b82f575cd1",
+        "size": 2004,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "examples/simple-handshake/sample-output.pv",
+    "references/proverif-syntax.md",
+    "references/security-properties.md",
+    "tests/test_guidance.py"
+  ],
+  "old_commit": "d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671",
+  "new_commit": "bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(mermaid-to-proverif): read ProVerif results correctly and test forward secrecy properly (#367)\n\nChecked with ProVerif 2.05 on the shipped example:\n\n- Reachability guidance was inverted in five places. ProVerif checks\n  `not event(e)`, so it prints `is false` when the event IS reachable (the\n  shipped example prints exactly that); `is true` is the broken-model case.\n- The example's Q3 (injective authentication, R's view) reports false: the\n  drawn protocol has no responder challenge, so a replayed msg1 completes\n  another R-run; the weak correspondence holds. The model matches the\n  diagram, so document this as a genuine finding rather than call the model\n  one where every query holds.\n- The forward-secrecy pattern leaked the long-term keys at the start, which\n  lets the attacker impersonate and makes secrecy false for any\n  authenticated protocol. Leak them after the sessions, in phase 1, where\n  the example's secrecy queries hold.\n- Remove two dangling pointers: SKILL.md promised unlinkability guidance no\n  reference has, and cited the example as a forward-secrecy worked example\n  although it only has a comment.\n\nA test keeps the guidance consistent with ProVerif's output.\n\nCo-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>\nCo-authored-by: kz-tob <kara.zaffarano@trailofbits.com>",
+  "new_commit_time": "2026-10-14T19:46:04Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/d1ee58bdb055f6bd1ba93e22f4ee2773cc4be671...bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+  "commit_url": "https://github.com/trailofbits/skills/commit/bbbc59c5f4a3a382b4b7d939f9bf72da48e59a68",
+  "skill_directory": "plugins/trailmark/skills/mermaid-to-proverif",
+  "local_directory": "verified_real_update_pairs/OPU-0370",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0370",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

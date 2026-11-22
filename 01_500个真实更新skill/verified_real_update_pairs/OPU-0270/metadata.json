@@ -1,0 +1,167 @@
+{
+  "repository": "google/skills",
+  "primary": "skills/cloud/api-gateway-mcp-server/SKILL.md",
+  "pinned_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "repository_license": "Apache-2.0",
+  "key": "c4fb2c2cbdcd7784c112",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 4,
+  "old": {
+    "commit": "613a3929dce4289513c1c8e88539050974ed7ce6",
+    "computed_tree_sha": "188d60faf6c4cd9a91b24dc5602129a14d045de6",
+    "api_tree_sha_as_returned": "188d60faf6c4cd9a91b24dc5602129a14d045de6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "0b01e61f2abd1b96805de0ac3061e438cad0b2e0",
+        "sha256": "8f5c5d731cc1b7197887f956160843a71f3be74b7e8481b8aaa60f73fcccc0ba",
+        "size": 20158,
+        "mode": "100644"
+      },
+      {
+        "path": "references/adk-and-api-hub-discovery.md",
+        "git_blob_sha1": "fd2812fcfc9deb9650a26fd09fa4a06ec2964613",
+        "sha256": "c059a3bfd666d1f1fd8691f1a8b00aecc83af4287dd6bc1808ac2fb901b80948",
+        "size": 6799,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "8ff72d641b110dae90a434f0aed8ad6638aa8ce5",
+        "sha256": "d2db427723187e48c8d10fc9645510fc2dab8bcfde9aea4329da6a310da2fa25",
+        "size": 1906,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-limitations-and-troubleshooting.md",
+        "git_blob_sha1": "e049535e9f67737bde4d53d97141231fa659bc6e",
+        "sha256": "19571e3bb4f1ad014b27b4ba5b51d5b6e6433cee76ecf1b28144b2608b20b9b9",
+        "size": 11711,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openapi-agent-tool-optimizer.md",
+        "git_blob_sha1": "1e32c6c974edaccb41761f292c9bd7101ad6d06f",
+        "sha256": "64c62ec0df3f0e9ce0d21105a9342631b0552cb4401bb0fed32c015d3a6d813f",
+        "size": 5638,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openapi-v2-to-v3-mcp-migration.md",
+        "git_blob_sha1": "be44c5c9482ac70dd2e4aa68602c14d373c8902e",
+        "sha256": "88d85291442b099773ac50e18db0d490381323d564218acda32b9dfeb15393e8",
+        "size": 17596,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_mcp_openapi.py",
+        "git_blob_sha1": "11a23042b198ca4bf9b5ec9cf92713cd418b06bd",
+        "sha256": "c9df447ab7796eb77a004f024509fefb95d84cd3e8fb247d1c872c26aea2d3b8",
+        "size": 22595,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+    "computed_tree_sha": "fceb137219279691d801eb07d40770f3e8bb8e59",
+    "api_tree_sha_as_returned": "fceb137219279691d801eb07d40770f3e8bb8e59",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "76f5e48d2074f0e08e9f3798dd6302f1dc8c7fbf",
+        "sha256": "0349386766c2732c95e26e41fbec5860e722db20554500a47028d189627399fd",
+        "size": 16694,
+        "mode": "100644"
+      },
+      {
+        "path": "references/adk-and-api-hub-discovery.md",
+        "git_blob_sha1": "fd2812fcfc9deb9650a26fd09fa4a06ec2964613",
+        "sha256": "c059a3bfd666d1f1fd8691f1a8b00aecc83af4287dd6bc1808ac2fb901b80948",
+        "size": 6799,
+        "mode": "100644"
+      },
+      {
+        "path": "references/attribution.md",
+        "git_blob_sha1": "8ff72d641b110dae90a434f0aed8ad6638aa8ce5",
+        "sha256": "d2db427723187e48c8d10fc9645510fc2dab8bcfde9aea4329da6a310da2fa25",
+        "size": 1906,
+        "mode": "100644"
+      },
+      {
+        "path": "references/mcp-limitations-and-troubleshooting.md",
+        "git_blob_sha1": "81267b3d0c4a6f3478172bb80821f03c609e950b",
+        "sha256": "c18546941987f546bc32b8d13f8ebfa0163fb75e8f23389f4eba6644b94f75bd",
+        "size": 10984,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openapi-agent-tool-optimizer.md",
+        "git_blob_sha1": "7999e3faae3e5dbb6d83f2298984f054275f89dd",
+        "sha256": "07023652c1b1341ca021da099be6f83671840d1a16c56c9df67a8381c21fe027",
+        "size": 5595,
+        "mode": "100644"
+      },
+      {
+        "path": "references/openapi-v2-to-v3-mcp-migration.md",
+        "git_blob_sha1": "d95faf4f02e4b1a34f454cb5a39c6e01ef7fb43d",
+        "sha256": "d3e458d4e5c37ef8a7a3c8c3bf793f11a9dd85bc84d2dbb2e4c42474665abca7",
+        "size": 17615,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/validate_mcp_openapi.py",
+        "git_blob_sha1": "7419dec3e866f3aa19fa8b4a1b607a580fe2207a",
+        "sha256": "35b7029a122a7fc7fbe7d828372ffbe9dcf4b55c9073b101ea9c24d89f7b2c36",
+        "size": 22552,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md",
+    "references/mcp-limitations-and-troubleshooting.md",
+    "references/openapi-agent-tool-optimizer.md",
+    "references/openapi-v2-to-v3-mcp-migration.md",
+    "scripts/validate_mcp_openapi.py"
+  ],
+  "old_commit": "613a3929dce4289513c1c8e88539050974ed7ce6",
+  "new_commit": "4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "No public description\n\nPiperOrigin-RevId: 1026868521",
+  "new_commit_time": "2026-11-21T01:29:05Z",
+  "compare_url": "https://github.com/google/skills/compare/613a3929dce4289513c1c8e88539050974ed7ce6...4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "commit_url": "https://github.com/google/skills/commit/4bb21ebfa085f6307d5d62bc21765e1d3433f11d",
+  "skill_directory": "skills/cloud/api-gateway-mcp-server",
+  "local_directory": "verified_real_update_pairs/OPU-0270",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0270",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

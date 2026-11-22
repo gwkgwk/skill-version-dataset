@@ -1,0 +1,135 @@
+{
+  "repository": "getsentry/skills",
+  "primary": "skills/skill-scanner/SKILL.md",
+  "pinned_commit": "a582c51ee29d0f35e6ac321340796f77d43da733",
+  "repository_license": "Apache-2.0",
+  "key": "5ae7524408c9de8e42f9",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 3,
+  "old": {
+    "commit": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+    "computed_tree_sha": "988c3df7149ccb91f929d6df6db6bc87a5f81e7d",
+    "api_tree_sha_as_returned": "988c3df7149ccb91f929d6df6db6bc87a5f81e7d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "29260cd69218761ade855517961ed1c9c8bd49d9",
+        "sha256": "53976ab5918ddb529bc345f46eb019343812b0fa443c3ddb9dcd92ec760fe45d",
+        "size": 9930,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dangerous-code-patterns.md",
+        "git_blob_sha1": "ccf036d115921d4651b3b389344886e80eef0fac",
+        "sha256": "074c2e28a5309f16d2f5e0c2f1dbf91d01ea9eb915767ba8833cbfef96927084",
+        "size": 6454,
+        "mode": "100644"
+      },
+      {
+        "path": "references/permission-analysis.md",
+        "git_blob_sha1": "ac33919098695e551faf5d478f5b4318ebc4721b",
+        "sha256": "ed6c1ca37b31313869fa418f7fddf5df9f8213c2dac3d97a9f5a7eadc02833b3",
+        "size": 4281,
+        "mode": "100644"
+      },
+      {
+        "path": "references/prompt-injection-patterns.md",
+        "git_blob_sha1": "a675bd5f946b83abbdaba3a21c827214d88b0df7",
+        "sha256": "237e41599d0d4d2d2af99683f77ad3ef6e504dff190b0ff58bbd310f11182228",
+        "size": 6525,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/scan_skill.py",
+        "git_blob_sha1": "14aaa7b059c659ea5c2719fa266f19641dfd9d3d",
+        "sha256": "58f6f3f0164b5d1b96378207f9c717dd26554175df30d1ebbc7128fbf5d593ac",
+        "size": 29624,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "3482d8dd35315adf34607f1c12bf793e14890bfe",
+    "computed_tree_sha": "346f419378e294ae438386d82de6d316eecad263",
+    "api_tree_sha_as_returned": "346f419378e294ae438386d82de6d316eecad263",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "c4faa021ceb71271bfc1c379eb7f8510da1cf5d4",
+        "sha256": "b0fdcbb9cd0d11e0425815fa37bb5483b13e6dce5fe5f3aeb4529dc8f80708bd",
+        "size": 9927,
+        "mode": "100644"
+      },
+      {
+        "path": "references/dangerous-code-patterns.md",
+        "git_blob_sha1": "ccf036d115921d4651b3b389344886e80eef0fac",
+        "sha256": "074c2e28a5309f16d2f5e0c2f1dbf91d01ea9eb915767ba8833cbfef96927084",
+        "size": 6454,
+        "mode": "100644"
+      },
+      {
+        "path": "references/permission-analysis.md",
+        "git_blob_sha1": "ac33919098695e551faf5d478f5b4318ebc4721b",
+        "sha256": "ed6c1ca37b31313869fa418f7fddf5df9f8213c2dac3d97a9f5a7eadc02833b3",
+        "size": 4281,
+        "mode": "100644"
+      },
+      {
+        "path": "references/prompt-injection-patterns.md",
+        "git_blob_sha1": "a675bd5f946b83abbdaba3a21c827214d88b0df7",
+        "sha256": "237e41599d0d4d2d2af99683f77ad3ef6e504dff190b0ff58bbd310f11182228",
+        "size": 6525,
+        "mode": "100644"
+      },
+      {
+        "path": "scripts/scan_skill.py",
+        "git_blob_sha1": "14aaa7b059c659ea5c2719fa266f19641dfd9d3d",
+        "sha256": "58f6f3f0164b5d1b96378207f9c717dd26554175df30d1ebbc7128fbf5d593ac",
+        "size": 29624,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+  "new_commit": "3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "fix(allowed-tools): remove commas, use whitespace\n\nCommas are find for Claude, but both the spec and warden (via dotagents-lib) expect whitespace-separated tools. Warden has been quietly having trouble using anything but the first allowed tool.\n- https://agentskills.io/specification\n- https://github.com/getsentry/dotagents/blob/399121d28144c118883ade1815081e2db0830e91/packages/dotagents-lib/src/skills/loader.ts#L109",
+  "new_commit_time": "2026-09-28T23:37:52Z",
+  "compare_url": "https://github.com/getsentry/skills/compare/8ca687957041ab9ece4562aad2b399b8dc8e4cae...3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "commit_url": "https://github.com/getsentry/skills/commit/3482d8dd35315adf34607f1c12bf793e14890bfe",
+  "skill_directory": "skills/skill-scanner",
+  "local_directory": "verified_real_update_pairs/OPU-0201",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "Apache-2.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0201",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

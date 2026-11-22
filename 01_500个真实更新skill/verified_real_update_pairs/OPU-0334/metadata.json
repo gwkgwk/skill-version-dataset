@@ -1,0 +1,107 @@
+{
+  "repository": "trailofbits/skills",
+  "primary": "plugins/testing-handbook-skills/skills/fuzzing-obstacles/SKILL.md",
+  "pinned_commit": "149d7b21f4067765b82e67029730b42d228ef4b4",
+  "repository_license": "CC-BY-SA-4.0",
+  "key": "a27712f3541ad45e0282",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "examined_history_limit": 6,
+  "primary_history_count_returned": 2,
+  "old": {
+    "commit": "4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+    "computed_tree_sha": "a61a7e1836d25a2b88e2686857dd6edb9be55de6",
+    "api_tree_sha_as_returned": "a61a7e1836d25a2b88e2686857dd6edb9be55de6",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "43865a0fc3a8749f21f3e2dd961ae320bcd89fbf",
+        "sha256": "07b132241c8bd45c8b44d4cb5745f20a71ef6628fb5eecbf620217b1fe920c8a",
+        "size": 15501,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "3deb39e7b346e0ac213f77db6f04fc6ee2275f33",
+    "computed_tree_sha": "34a68da8e5b8e4cea61c6c9adcec136a6bdf0e7d",
+    "api_tree_sha_as_returned": "34a68da8e5b8e4cea61c6c9adcec136a6bdf0e7d",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "f3a4cb1215b51a2a91b30e9774f889a4d8e83749",
+        "sha256": "7d77500c3e0a2db1ce5fd5dbb0559b802a621c63110dd8fd4664f0bf1634a3b2",
+        "size": 15822,
+        "mode": "100644"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "git_blob_sha1": "1d437b6dfffe6d157d6744ea946a9c9620578c2a",
+        "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+        "size": 128,
+        "mode": "100644"
+      },
+      {
+        "path": "assets/trail-of-bits-mark.svg",
+        "git_blob_sha1": "7cd6e7ca7348897984f2498f301a888bb2f3ca71",
+        "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+        "size": 3084,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "4b1b74b181e81cbcaa8d3b68a0e4ed867165b972",
+  "new_commit": "3deb39e7b346e0ac213f77db6f04fc6ee2275f33",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "testing-handbook-skills: make 15 descriptions routable (#276)\n\n* testing-handbook-skills: make 15 descriptions routable\n\nEvery description was a tool-encyclopedia blurb averaging 125 chars —\nthe first half defined the tool, the second half restated it as a\ntrigger. \"Coverage-guided fuzzer built into LLVM for C/C++ projects.\nUse for fuzzing C/C++ code that can be compiled with Clang.\" Fifteen\nskills competing on wording like that lose to each other and to\nsiblings elsewhere in the marketplace.\n\nEach is now three parts: what it does for the reader, task first, since\nthe name field already carries the tool name; what it covers, in\nconcrete flags and symbols; then two to four situations in the words a\nuser would type. The anchors are the point —  LLVMFuzzerTestOneInput,\nfuzz_target!, FuzzedDataProvider, afl-clang-fast, ASAN_OPTIONS,\nproject.yaml, an ASan stack trace, a campaign that finds nothing.\n\nFix the generator too, or the next skill it emits is thin again. All\nfour templates prescribed the shape being removed, and their worked\nexamples were these same descriptions. agent-prompt.md now says why the\nexisting rule is not enough: \"MUST include Use when\" is satisfied by\n\"Use for fuzzing C/C++ code\", which is how these got written.\n\nPut descriptions on one quoted line rather than a folded block. Eight of\nthese skills already fail the plugin's own 500-line limit, and folded\nblocks added 4-5 lines to each; one quoted line removes 1-2 instead.\nIt is also what the rest of the repo uses at this length and is exempt\nfrom the validator's plain-scalar rule.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* testing-handbook-skills: ground three descriptions, gate placeholders\n\nThree descriptions advertised anchors that appear nowhere in the skill\nthey route to — the worst failure for a change about routing, since the\ndescription wins the query and the skill then has nothing to say.\n\nharness-writing claimed \"C/C++, Rust, Python, and Ruby\". Grepping it for\nruby, gem, or .rb returns only that line; Python appears once, as a\nRelated Skills row. It would have taken \"harness for my Ruby gem\" from\nruzzy and delivered a file with no Ruby in it. Now C/C++ and Rust, which\nis what the 12 LLVMFuzzerTestOneInput and 16 fuzz_target! sites cover.\n\nconstant-time-testing named ctgrind, whose only occurrence in the whole\nplugin was that description. Replaced with Timecop and Valgrind, at 20\nand 10 hits. Also leads with measuring a running implementation and adds\na \"Not for\" line, restoring the boundary constant-time-analysis already\ndocuments in its own When NOT to Use.\n\ncargo-fuzz claimed \"cargo fuzz init and add\"; only init, run, coverage,\nand crash exist. Dropped add, added the nightly requirement and\ncargo fuzz coverage, both of which the body does cover.\n\nGate the class rather than just these three. A description shipped with\na {placeholder} still in it passed every check, because the shortcode\npattern needs double braces — and this branch widened the templates'\nslots, so the surface grew. validate-skills.py now rejects it, and\ntest_validate_skills.py holds each description check to a known-bad\nfixture plus a positive control. Stdlib only, since CI runs these with\n--no-project --with pytest, an environment without pyyaml.\n\nFix the pointer to a section that does not exist, drop the two-part\n\"what AND when\" bar from testing.md's checklist since the old thin\ndescriptions satisfied it, correct the README's skill inventory, and\ntake the version to MINOR — this changes what the generator emits.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Drop semgrep and codeql from the cross-reference graph\n\nThe prose and the summary table were updated to 14 skills, but the graph\nstill declared a Tools subgraph with semgrep and codeql and drew both\nedges between them. Neither skill exists under skills/, so the graph\nrendered 16 nodes beneath a sentence claiming 14 and promising that only\ngenerated skills are shown.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Fail validation on frontmatter that carries no fields\n\nextract_frontmatter returned (None, None) for an empty block, because\nyaml.safe_load(\"\") is None and that is not a parse error. validate_skill\nbranches on the error, so every frontmatter check was skipped and a skill\nwith no name and no description printed a clean tick. A bare scalar took\nthe same path and died on .get with an uncaught AttributeError.\n\nExtraction now pairs both cases with an error, and validate_frontmatter\nreports rather than returning silently when handed a non-mapping. Four\ntests cover it, stubbing the parser so they run in CI's pyyaml-free\nenvironment; they fail against the previous code and nothing else does.\n\nGround the atheris description's two API anchors in the body: rename the\nharness entry point to TestOneInput, matching upstream Atheris and its\nerror messages, and add a FuzzedDataProvider section covering the typed\ndraws and the fixed-order rule. Both were advertised in the description\nand appeared nowhere else in the file.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n* Split atheris, and fix the FuzzedDataProvider method table\n\nThe structured-input section pushed atheris from 519 lines to 552, making\na file already over the plugin's 500-line error limit worse — the opposite\nof what the PR body claimed. Both it and the two worked harnesses move to\nsibling files, the split this plugin's own agent-prompt.md prescribes for\nthe band. SKILL.md is now 482 lines and passes the line-count check it has\nfailed since it was generated.\n\nThree errors in the method table, all mine, corrected in the moved copy:\n\n- remaining_bytes() returns a count and consumes nothing; it was listed as\n  the way to get the remaining input. Following it hands the target an int\n  where bytes is expected. The idiom is ConsumeBytes(fdp.remaining_bytes()).\n- ConsumeIntList takes (count, bytes) and was shown with no arguments.\n- ConsumeUnicode permits lone surrogates, not surrogate pairs. The pairs\n  gloss suggests valid text; unpaired surrogates raise UnicodeEncodeError\n  the moment a target encodes them, so the campaign reports its own input\n  handling rather than the target's.\n\nEvery method is checked against the pybind registration in atheris.cc,\nwhich exposes remaining_bytes despite the upstream README omitting it.\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\n\n---------\n\nCo-authored-by: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+  "new_commit_time": "2026-08-26T14:18:41Z",
+  "compare_url": "https://github.com/trailofbits/skills/compare/4b1b74b181e81cbcaa8d3b68a0e4ed867165b972...3deb39e7b346e0ac213f77db6f04fc6ee2275f33",
+  "commit_url": "https://github.com/trailofbits/skills/commit/3deb39e7b346e0ac213f77db6f04fc6ee2275f33",
+  "skill_directory": "plugins/testing-handbook-skills/skills/fuzzing-obstacles",
+  "local_directory": "verified_real_update_pairs/OPU-0334",
+  "instruction_content_change": true,
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "CC-BY-SA-4.0",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0334",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

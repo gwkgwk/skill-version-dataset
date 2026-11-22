@@ -1,0 +1,119 @@
+{
+  "repository": "microsoft/skills",
+  "primary": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-sql-dotnet/SKILL.md",
+  "pinned_commit": "47eb3888eb42aef074fcb617931bf6e5934e45d9",
+  "repository_license": "MIT",
+  "key": "24287c2ef96a57ad0dd0",
+  "status": "verified_real_update_security_review_pending",
+  "old_security_label": "benign",
+  "new_security_label": "benign",
+  "update_security_label": "benign",
+  "independent_security_review_complete": null,
+  "provenance_class": "first_party_public_skill_not_security_ground_truth",
+  "primary_history_count_up_to_6": 3,
+  "old": {
+    "commit": "23a77bd472fe460f91fad97401f6dbbf87eba532",
+    "computed_tree_sha": "cc49402a3064f92f0597804a30375c0afe258878",
+    "api_tree_sha_as_returned": "cc49402a3064f92f0597804a30375c0afe258878",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "3df23883458bc80602b09e88479200d488a02798",
+        "sha256": "bb524cf996d27a053d72bf81a7b54dad25011b44166af8856e80e6b504aab7a6",
+        "size": 9913,
+        "mode": "100644"
+      },
+      {
+        "path": "references/database-operations.md",
+        "git_blob_sha1": "542dcfa8d966768fa701157e7f93bff750ff0145",
+        "sha256": "0780a88d23a285ad779d3f97be9de38b59bc8bc866a912180a165cad8e1269b5",
+        "size": 6993,
+        "mode": "100644"
+      },
+      {
+        "path": "references/elastic-pools.md",
+        "git_blob_sha1": "48b3f486310d6b68a3a74db2ac4168c6fca9661e",
+        "sha256": "350212861fcc57ea4a31433ab49311c0169ede6d9ba133c4245faa205597e4d2",
+        "size": 5938,
+        "mode": "100644"
+      },
+      {
+        "path": "references/server-management.md",
+        "git_blob_sha1": "adf798802cd54d0fd8b5e8ab6edcc58222918e62",
+        "sha256": "a38accf22506d493baf36a10dbbed77eb55e6019e75bbcfcdfd1b8f92e2a0aa4",
+        "size": 5340,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "new": {
+    "commit": "073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+    "computed_tree_sha": "02e74e01786d668b7d51f8a9592bdb5dc05e401e",
+    "api_tree_sha_as_returned": "02e74e01786d668b7d51f8a9592bdb5dc05e401e",
+    "files": [
+      {
+        "path": "SKILL.md",
+        "git_blob_sha1": "6eff090401b0b48fb47ecddbdf36554da8fb8ddf",
+        "sha256": "95f952b72a93affd41483f7a44f1bb4043942794fc1d3ed070cde247e2cf1854",
+        "size": 10502,
+        "mode": "100644"
+      },
+      {
+        "path": "references/database-operations.md",
+        "git_blob_sha1": "542dcfa8d966768fa701157e7f93bff750ff0145",
+        "sha256": "0780a88d23a285ad779d3f97be9de38b59bc8bc866a912180a165cad8e1269b5",
+        "size": 6993,
+        "mode": "100644"
+      },
+      {
+        "path": "references/elastic-pools.md",
+        "git_blob_sha1": "48b3f486310d6b68a3a74db2ac4168c6fca9661e",
+        "sha256": "350212861fcc57ea4a31433ab49311c0169ede6d9ba133c4245faa205597e4d2",
+        "size": 5938,
+        "mode": "100644"
+      },
+      {
+        "path": "references/server-management.md",
+        "git_blob_sha1": "adf798802cd54d0fd8b5e8ab6edcc58222918e62",
+        "sha256": "a38accf22506d493baf36a10dbbed77eb55e6019e75bbcfcdfd1b8f92e2a0aa4",
+        "size": 5340,
+        "mode": "100644"
+      }
+    ],
+    "complete": true
+  },
+  "changed_files": [
+    "SKILL.md"
+  ],
+  "old_commit": "23a77bd472fe460f91fad97401f6dbbf87eba532",
+  "new_commit": "073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "old_is_exact_first_parent": true,
+  "new_commit_message": "Update .NET skills auth and env vars with DefaultEnvironmentVariableName\n\n- Use DefaultAzureCredential(DefaultEnvironmentVariableName) in 26 .NET skills\n- Add ManagedIdentityCredential as production alternative with credential classes link\n- Add AZURE_TOKEN_CREDENTIALS=prod to Environment Variables sections\n- Add inline comments to all env vars explaining purpose\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+  "new_commit_time": "2026-05-05T00:22:24Z",
+  "compare_url": "https://github.com/microsoft/skills/compare/23a77bd472fe460f91fad97401f6dbbf87eba532...073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "commit_url": "https://github.com/microsoft/skills/commit/073741f2fc5628b22e8a5f8b56fb3878c418ecb6",
+  "skill_directory": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-sql-dotnet",
+  "local_directory": "verified_real_update_pairs/OPU-0236",
+  "license_evidence": {
+    "basis": "repository_license_reported_at_pinned_head",
+    "identifier": "MIT",
+    "scope_note": "Preserve any file-specific overrides; repository-level evidence is not independent security evidence."
+  },
+  "id": "OPU-0236",
+  "version_identity_type": "git_commit",
+  "release_version_inferred": false,
+  "safety_label": "benign_user_reported_manual_confirmation",
+  "source_affiliation_is_not_benign_ground_truth": true,
+  "human_review_confirmed": true,
+  "human_review": {
+    "status": "confirmed_as_reported_by_user",
+    "source_record": "human_review_confirmation.json",
+    "label_basis": "user_attestation",
+    "reported_on": "2026-11-22",
+    "reviewer_identity": null,
+    "actual_review_date": null,
+    "per_pair_evidence": null,
+    "independently_validated_by_assistant": false
+  }
+}

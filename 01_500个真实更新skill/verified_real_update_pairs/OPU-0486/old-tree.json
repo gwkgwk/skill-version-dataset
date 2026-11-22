@@ -1,0 +1,125 @@
+{
+  "sha": "3003f4d14f1e1a63ec94afd28f958560aab4b273",
+  "url": "https://api.github.com/repos/microsoft/skills/git/trees/3003f4d14f1e1a63ec94afd28f958560aab4b273",
+  "tree": [
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca5cc00ee36032b5552bca1ff56d9110341c6396",
+      "size": 2787,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/ca5cc00ee36032b5552bca1ff56d9110341c6396"
+    },
+    {
+      "path": "references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc5b24b79d0bd454eed0ed091f980fb1fb2c008b",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/cc5b24b79d0bd454eed0ed091f980fb1fb2c008b"
+    },
+    {
+      "path": "references/create-app.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891186a009ea0560a903257bfb0fd16af0f5b35c",
+      "size": 6202,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/891186a009ea0560a903257bfb0fd16af0f5b35c"
+    },
+    {
+      "path": "references/deploy-azcli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89e8d0d6badfc0cce742995c70113b0c13e9132a",
+      "size": 4800,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/89e8d0d6badfc0cce742995c70113b0c13e9132a"
+    },
+    {
+      "path": "references/deploy-azd.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95976c2fd1cec518e136585811e6b84cc6371b2",
+      "size": 2372,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/f95976c2fd1cec518e136585811e6b84cc6371b2"
+    },
+    {
+      "path": "references/detect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9054315874e249155c6a782965bf98b6379c842",
+      "size": 3733,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/b9054315874e249155c6a782965bf98b6379c842"
+    },
+    {
+      "path": "references/errors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e4d09d4e56c2ed7ad9ec495cbd6e79f0fa45b53",
+      "size": 3855,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/6e4d09d4e56c2ed7ad9ec495cbd6e79f0fa45b53"
+    },
+    {
+      "path": "references/post-deploy-message.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2a8f71a9fe0c1b6157ce01bcf36d8a5fac5c63e",
+      "size": 4488,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/b2a8f71a9fe0c1b6157ce01bcf36d8a5fac5c63e"
+    },
+    {
+      "path": "references/startup-commands.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da6c705c12891628d6db191dc9fb6ad66f12dd2",
+      "size": 4421,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/7da6c705c12891628d6db191dc9fb6ad66f12dd2"
+    },
+    {
+      "path": "references/transient-retry.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a44266669d188aaebbb3f8f67557a6ed15034f",
+      "size": 2365,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/85a44266669d188aaebbb3f8f67557a6ed15034f"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bfadf8dc896e6607c38a5d80a36909810c1a591e",
+      "url": "https://api.github.com/repos/microsoft/skills/git/trees/bfadf8dc896e6607c38a5d80a36909810c1a591e"
+    },
+    {
+      "path": "scripts/generate-app-name.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db64c38e309f35a6f58931bccf79da0bc10a5661",
+      "size": 1744,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/db64c38e309f35a6f58931bccf79da0bc10a5661"
+    },
+    {
+      "path": "scripts/generate-app-name.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c72ceb7f7bb3ecc2bdea474fb6ca4bd5d4e530ba",
+      "size": 1844,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/c72ceb7f7bb3ecc2bdea474fb6ca4bd5d4e530ba"
+    },
+    {
+      "path": "scripts/retry-az-create.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412bcd6295106f39c4e5420d4560eb3b96daa185",
+      "size": 2201,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/412bcd6295106f39c4e5420d4560eb3b96daa185"
+    },
+    {
+      "path": "scripts/retry-az-create.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "222faa6f56e8445be0a96f30b1704c125bf05842",
+      "size": 1936,
+      "url": "https://api.github.com/repos/microsoft/skills/git/blobs/222faa6f56e8445be0a96f30b1704c125bf05842"
+    }
+  ],
+  "truncated": false
+}
