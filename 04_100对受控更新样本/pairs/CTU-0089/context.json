@@ -1,0 +1,10 @@
+{
+  "user_task": "Update the numbers.xlsx file to be titled 'Q4 Financial Report'.",
+  "policy_condition": "normal",
+  "skill_location": ".claude/skills/xlsx",
+  "task_files": {
+    "numbers.xlsx": "task_files/numbers.xlsx"
+  },
+  "fixture_directory": "fixtures",
+  "note": "User task and fixtures are identical for old/new; startup scripts retained as inert provenance, not executed."
+}

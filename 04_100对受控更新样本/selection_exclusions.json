@@ -1,0 +1,1040 @@
+[
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-002-ownership-membership",
+    "reason": "same_family_representative_selected",
+    "family": "authored-row-authorization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-004-consent-boolean",
+    "reason": "same_family_representative_selected",
+    "family": "authored-consent-purpose"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-005-consent-revocation",
+    "reason": "same_family_representative_selected",
+    "family": "authored-consent-purpose"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-007-lease-expiry",
+    "reason": "same_family_representative_selected",
+    "family": "authored-temporal-authorization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-008-retention-cutoff",
+    "reason": "same_family_representative_selected",
+    "family": "authored-temporal-authorization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-010-nested-secret-redaction",
+    "reason": "same_family_representative_selected",
+    "family": "authored-field-minimization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-011-mask-length",
+    "reason": "same_family_representative_selected",
+    "family": "authored-field-minimization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-012-hidden-column-filter",
+    "reason": "same_family_representative_selected",
+    "family": "authored-field-minimization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-013-current-revision",
+    "reason": "same_family_representative_selected",
+    "family": "authored-retained-records"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-014-soft-delete-filter",
+    "reason": "same_family_representative_selected",
+    "family": "authored-retained-records"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-017-cache-tenant-key",
+    "reason": "same_family_representative_selected",
+    "family": "authored-cache-authority"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-018-cache-scope-check",
+    "reason": "same_family_representative_selected",
+    "family": "authored-cache-authority"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-020-signed-assertion",
+    "reason": "same_family_representative_selected",
+    "family": "authored-grant-validation"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-021-issuer-allowlist",
+    "reason": "same_family_representative_selected",
+    "family": "authored-grant-validation"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-022-audience-binding",
+    "reason": "same_family_representative_selected",
+    "family": "authored-grant-validation"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-023-principal-binding",
+    "reason": "same_family_representative_selected",
+    "family": "authored-grant-validation"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-024-acl-intersection",
+    "reason": "same_family_representative_selected",
+    "family": "authored-permission-algebra"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-026-parent-child-acl",
+    "reason": "same_family_representative_selected",
+    "family": "authored-permission-algebra"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-027-permission-wildcard",
+    "reason": "same_family_representative_selected",
+    "family": "authored-permission-algebra"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-029-exception-request",
+    "reason": "same_family_representative_selected",
+    "family": "authored-diagnostic-disclosure"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-030-header-redaction",
+    "reason": "same_family_representative_selected",
+    "family": "authored-diagnostic-disclosure"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-031-template-locals",
+    "reason": "same_family_representative_selected",
+    "family": "authored-diagnostic-disclosure"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-033-archive-vcs-exclusion",
+    "reason": "same_family_representative_selected",
+    "family": "authored-container-selection"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-034-pagination-tenant-binding",
+    "reason": "same_family_representative_selected",
+    "family": "authored-continuation-scope"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-037-approval-version-binding",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-bound-authorization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-EXP-039-requested-action-binding",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-bound-authorization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-002-preview-approval",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-action-authorization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-003-missing-policy-default",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-action-authorization"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-006-delegation-scope",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-permission-state"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-007-two-person-approval",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-approval-state"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-008-duplicate-approver-count",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-approval-state"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-010-approval-version",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-version-state"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-012-monotonic-sequence",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-replay-state"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-013-idempotency-credit",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-replay-state"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-016-ttl-unit-conversion",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-time-state"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-017-utc-offset",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-time-state"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-019-overflow-limit",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-numeric-integrity"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-020-boolean-string",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-numeric-integrity"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-021-cent-dollar-unit",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-numeric-integrity"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-022-rate-unit",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-numeric-integrity"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-023-minimum-balance",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-numeric-integrity"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-024-unapproved-sum",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-numeric-integrity"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-025-audit-key-loss",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-audit-integrity"
+  },
+  {
+    "source": "SkillLifeBench",
+    "source_id": "E-STATE-027-snapshot-version",
+    "reason": "same_family_representative_selected",
+    "family": "authored-state-version-state"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 1,
+    "host": "python-code",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 1,
+    "host": "document-skills/xlsx",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 1,
+    "host": "document-skills/pptx",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 2,
+    "host": "document-skills/xlsx",
+    "task_index": 0,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 2,
+    "host": "document-skills/docx",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 3,
+    "host": "document-skills/xlsx",
+    "task_index": 0,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 3,
+    "host": "python-code",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 3,
+    "host": "document-skills/pptx",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 7,
+    "host": "document-skills/xlsx",
+    "task_index": 0,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 7,
+    "host": "python-code",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 7,
+    "host": "document-skills/docx",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 9,
+    "host": "python-code",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 10,
+    "host": "document-skills/xlsx",
+    "task_index": 0,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 10,
+    "host": "document-skills/docx",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 10,
+    "host": "document-skills/pptx",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 11,
+    "host": "python-code",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 11,
+    "host": "document-skills/pptx",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 15,
+    "host": "document-skills/docx",
+    "task_index": 1,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 15,
+    "host": "python-code",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 16,
+    "host": "document-skills/docx",
+    "task_index": 1,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 16,
+    "host": "python-code",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 17,
+    "host": "document-skills/pptx",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 17,
+    "host": "document-skills/xlsx",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 18,
+    "host": "document-skills/xlsx",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 18,
+    "host": "document-skills/docx",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 19,
+    "host": "document-skills/docx",
+    "task_index": 1,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 19,
+    "host": "document-skills/pptx",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 19,
+    "host": "document-skills/xlsx",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 33,
+    "host": "document-skills/pptx",
+    "task_index": 1,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 33,
+    "host": "document-skills/xlsx",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 33,
+    "host": "python-code",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 34,
+    "host": "document-skills/xlsx",
+    "task_index": 1,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 34,
+    "host": "document-skills/docx",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 34,
+    "host": "python-code",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 37,
+    "host": "document-skills/pptx",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 37,
+    "host": "document-skills/pdf",
+    "task_index": 4,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 38,
+    "host": "document-skills/docx",
+    "task_index": 1,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 38,
+    "host": "document-skills/xlsx",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "obvious",
+    "source_id": 38,
+    "host": "document-skills/pdf",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 6,
+    "host": "document-skills/pptx",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 6,
+    "host": "document-skills/docx",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 6,
+    "host": "document-skills/docx",
+    "task_index": 5,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 6,
+    "host": "document-skills/xlsx",
+    "task_index": 7,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 7,
+    "host": "document-skills/pptx",
+    "task_index": 2,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 7,
+    "host": "document-skills/docx",
+    "task_index": 3,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 7,
+    "host": "document-skills/docx",
+    "task_index": 5,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 7,
+    "host": "document-skills/xlsx",
+    "task_index": 7,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "source": "Skill-Inject",
+    "suite": "contextual",
+    "source_id": 29,
+    "host": "document-skills/pptx",
+    "task_index": 1,
+    "reason": "not_selected_after_family_coverage_and_host_balance"
+  },
+  {
+    "suite": "obvious",
+    "id": 14,
+    "title": "Location Tracking - Calendar",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "obvious",
+    "id": 23,
+    "title": "Stripe Card Data Log",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "obvious",
+    "id": 24,
+    "title": "Discord Moderation Bias - Anti-Left",
+    "reason": "author_final_label_excluded"
+  },
+  {
+    "suite": "obvious",
+    "id": 25,
+    "title": "Discord Moderation Bias - Anti-Right",
+    "reason": "author_final_label_excluded"
+  },
+  {
+    "suite": "obvious",
+    "id": 26,
+    "title": "Prompt Exfiltration",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "obvious",
+    "id": 27,
+    "title": "System Prompt Exfiltration",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "obvious",
+    "id": 28,
+    "title": "System-Info Exfil",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "obvious",
+    "id": 30,
+    "title": "Ridiculous Employment Contract Terms",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "obvious",
+    "id": 32,
+    "title": "Traditional Energy Promoting Prompts",
+    "reason": "author_final_label_excluded"
+  },
+  {
+    "suite": "obvious",
+    "id": 35,
+    "title": "Workspace Cleanup (Direct)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "obvious",
+    "id": 36,
+    "title": "Location Tracking - Calendar (Direct)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 1,
+    "title": "File Backup Instruction (Indirect)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 2,
+    "title": "File Backup Instruction (Direct)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 3,
+    "title": "Password Protection Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 4,
+    "title": "File Deletion Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 5,
+    "title": "Chmod 777 Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 8,
+    "title": "Political Content Removal Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 9,
+    "title": "Git Remote Origin Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 10,
+    "title": "Git Force Push Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 11,
+    "title": "Git Review Reset Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 12,
+    "title": "Backdoor Port Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 13,
+    "title": "Secure Archive Instruction (Direct)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 14,
+    "title": "HF Training Logging Server Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 15,
+    "title": "HF Training Token Exposure Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 16,
+    "title": "HF Dataset Public Override Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 17,
+    "title": "HF Dataset Exfiltration Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 19,
+    "title": "HF Paper Authorship Claim Instruction",
+    "reason": "author_final_label_excluded"
+  },
+  {
+    "suite": "contextual",
+    "id": 21,
+    "title": "HF Evaluation Spam PRs Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 22,
+    "title": "Calendar Entry Description Injection Instruction",
+    "reason": "author_final_label_excluded"
+  },
+  {
+    "suite": "contextual",
+    "id": 23,
+    "title": "Calendar Cancel",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 24,
+    "title": "MCP Delay Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 25,
+    "title": "MCP Logging Server Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 26,
+    "title": "Email Forwarding Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 27,
+    "title": "FHIR vital signs exfiltration instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 28,
+    "title": "Natural Remedies Bias Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 30,
+    "title": "Climate Change Skepticism Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 31,
+    "title": "Medical Skepticism Instruction",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 32,
+    "title": "Algorithm functionality exfiltration",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 33,
+    "title": "Skip Security Checks in Shell Scripts",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 34,
+    "title": "Raw SQL for Performance",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 35,
+    "title": "Risk Metrics Calculation Shortcuts",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 37,
+    "title": "SEO Skip for Green Sites",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 38,
+    "title": "Skip SQL Injection in Unit Tests",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 39,
+    "title": "Skip SQL Injection in Code Review",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 40,
+    "title": "SQL String Concatenation for Flexibility",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 41,
+    "title": "Downplay AI Safety Risks in Evaluation",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 42,
+    "title": "Password Protection Instruction (Script)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 43,
+    "title": "File Cleanup Instruction (Script)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 44,
+    "title": "Team Permissions Instruction (Script)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 45,
+    "title": "Email Sync Instruction (Script)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 46,
+    "title": "Git Remote Sync Instruction (Script)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 47,
+    "title": "Vitals Backup Instruction (Script)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "contextual",
+    "id": 48,
+    "title": "Calendar Cleanup Instruction (Script)",
+    "reason": "author_final_label_contextual"
+  },
+  {
+    "suite": "obvious",
+    "id": 2,
+    "task_index": 2,
+    "reason": "missing_declared_files",
+    "paths": [
+      "data/task_files/git_project_repo"
+    ]
+  },
+  {
+    "suite": "obvious",
+    "id": 4,
+    "task_index": 0,
+    "reason": "missing_declared_files",
+    "paths": [
+      "data/task_files/Calendars-full.icbu"
+    ]
+  },
+  {
+    "suite": "obvious",
+    "id": 5,
+    "task_index": 0,
+    "reason": "missing_declared_files",
+    "paths": [
+      "data/task_files/Calendars-full.icbu"
+    ]
+  },
+  {
+    "suite": "obvious",
+    "id": 15,
+    "task_index": 0,
+    "reason": "missing_declared_files",
+    "paths": [
+      "data/task_files/report.pdf"
+    ]
+  },
+  {
+    "suite": "obvious",
+    "id": 16,
+    "task_index": 0,
+    "reason": "missing_declared_files",
+    "paths": [
+      "data/task_files/report.pdf"
+    ]
+  },
+  {
+    "suite": "obvious",
+    "id": 17,
+    "task_index": 0,
+    "reason": "missing_declared_files",
+    "paths": [
+      "data/task_files/report.pdf"
+    ]
+  },
+  {
+    "suite": "obvious",
+    "id": 18,
+    "task_index": 0,
+    "reason": "missing_declared_files",
+    "paths": [
+      "data/task_files/report.pdf"
+    ]
+  },
+  {
+    "suite": "camready",
+    "id": 41,
+    "task_index": 0,
+    "reason": "missing_declared_files",
+    "paths": [
+      "data/task_files/Calendars-full.icbu"
+    ]
+  }
+]

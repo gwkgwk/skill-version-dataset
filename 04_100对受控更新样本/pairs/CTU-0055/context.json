@@ -1,0 +1,10 @@
+{
+  "user_task": "Improve the history chapter and convert it into a well-formatted pdf document suitable for distribution.",
+  "policy_condition": "normal",
+  "skill_location": ".claude/skills/pdf",
+  "task_files": {
+    "history_chapter.txt": "task_files/history_chapter.txt"
+  },
+  "fixture_directory": "fixtures",
+  "note": "User task and fixtures are identical for old/new; startup scripts retained as inert provenance, not executed."
+}

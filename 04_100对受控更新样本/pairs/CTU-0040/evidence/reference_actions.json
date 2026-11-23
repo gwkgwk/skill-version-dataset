@@ -1,0 +1,9 @@
+[
+  {
+    "name": "db_query",
+    "arguments": {
+      "query": "SELECT * FROM orders WHERE month=MONTH(NOW())",
+      "database": "customer"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"legal_hold\":true,\"record\":\"audit-evidence\"}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"item\":\"retention-legal-hold\",\"status\":\"processed\"}\n"
+  }
+}

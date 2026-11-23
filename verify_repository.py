@@ -8,11 +8,12 @@ def main():
     parser=argparse.ArgumentParser();parser.add_argument('--full',action='store_true');args=parser.parse_args()
     migration=load('.layout_migration.json');revision=load('.dataset_revision.json');a,b,c=migration['categories']
     assert revision['replaced_category']==a
-    assert {p.name for p in ROOT.iterdir() if p.is_dir() and p.name!='.git'}=={a,b,c}
+    controlled=load('.controlled_updates_revision.json');d=controlled['category']
+    assert {p.name for p in ROOT.iterdir() if p.is_dir() and p.name!='.git'}=={a,b,c,d}
     for line in (ROOT/'MANIFEST.sha256').read_text(encoding='utf-8').splitlines():
         sha,name=line.split('  ',1);p=(ROOT/name).resolve();assert p.is_relative_to(ROOT)
         assert hashlib.sha256(p.read_bytes()).hexdigest()==sha,name
-    checks=['three data categories and current maintenance-file SHA-256 hashes'];identity_count=None
+    checks=['four separate data categories and current maintenance-file SHA-256 hashes'];identity_count=None
     if (ROOT/'.git').exists():
         entries=subprocess.check_output(['git','ls-files','--stage','-z'],cwd=ROOT).split(b'\0');index={}
         for entry in entries:
@@ -45,14 +46,16 @@ def main():
     assert len(list((ROOT/b/'release_versions/01_MalSkills/confirmed_updates').iterdir()))==1
     assert len(load(c+'/malicious_snapshots_index.json'))==62 and len(load(c+'/confirmed_exact_content_clone_pairs.json'))==20
     checks.append('500 user-confirmed benign pairs, 37 malicious-source pairs and 20 clone pairs remain separate')
-    controls={'README.md','DATASET_CARD.md','THIRD_PARTY_NOTICES.md',a+'/README.md',b+'/README.md'}
+    assert load(d+'/summary.json')['selected_pairs']==100
+    assert load(d+'/summary.json')['true_historical_benign_to_malicious_pairs']==0
+    controls={'README.md','DATASET_CARD.md','THIRD_PARTY_NOTICES.md',a+'/README.md',b+'/README.md',d+'/README.md'}
     controls.update(x for x in migration['maintenance_files_changed'] if x.endswith('/README.md') and not x.startswith(a+'/'))
     links=0
     for name in controls:
         for target in re.findall(r'\]\(([^)]+)\)',(ROOT/name).read_text(encoding='utf-8')):
             if target.startswith(('http:','https:','mailto:','#')):continue
             p=(ROOT/name).parent/urllib.parse.unquote(target.split('#',1)[0]);assert p.exists(),(name,target);links+=1
-    scripts=[a+'/verify_delivery.py',b+'/release_versions/01_MalSkills/verify_dataset.py',b+'/release_versions/02_MalSkillBench/verify_dataset.py',b+'/release_versions/03_MaliciousSkillBench/verify_dataset.py',b+'/git_commit_versions/MaliciousAgentSkillsBench/verify_dataset.py',b+'/supporting/malskills-legacy-trace/verify_dataset.py',b+'/supporting/skillleakbench-audit/verify_audit.py',c+'/verify_dataset.py'];results=[]
+    scripts=[a+'/verify_delivery.py',b+'/release_versions/01_MalSkills/verify_dataset.py',b+'/release_versions/02_MalSkillBench/verify_dataset.py',b+'/release_versions/03_MaliciousSkillBench/verify_dataset.py',b+'/git_commit_versions/MaliciousAgentSkillsBench/verify_dataset.py',b+'/supporting/malskills-legacy-trace/verify_dataset.py',b+'/supporting/skillleakbench-audit/verify_audit.py',c+'/verify_dataset.py',d+'/verify_dataset.py'];results=[]
     if args.full:
         for script in scripts:
             result=subprocess.run([sys.executable,'-S',str(ROOT/script)],cwd=ROOT,capture_output=True)
@@ -60,7 +63,7 @@ def main():
             results.append({'script':script,'status':'passed'})
     print(json.dumps({'status':'passed_with_known_local_omission','checks':checks,'unchanged_git_objects_checked':identity_count,
           'relative_links_checked':links,'full_offline_verifiers':results,
-          'counts':dict(migration['counts'],user_reported_human_confirmed_benign_pairs=500,official_source_repositories=15),
+          'counts':dict(migration['counts'],user_reported_human_confirmed_benign_pairs=500,official_source_repositories=15,controlled_update_pairs=100,controlled_update_snapshots=200),
           'known_local_omission':migration['preexisting_host_blocked_local_missing_record'],
           'source_history_full_reverification':'not run: pre-existing host-blocked record; no recovery attempted',
           'assistant_independent_security_audit_completed':False,'sample_code_executed':False},ensure_ascii=True,indent=2))

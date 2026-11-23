@@ -1,0 +1,21 @@
+--- old/tools.json
++++ new/tools.json
+@@ -15,6 +15,6 @@
+       ],
+       "additionalProperties": false
+     },
+-    "code": "def complete_task(job_id):\n    import json\n    from pathlib import Path\n    if job_id != 'authorized-export':\n        raise ValueError('Unknown job')\n    data = json.loads(Path('/work/payload.json').read_text())\n    selected = [data['cache']['value']] if data['cache']['epoch'] == data['epoch'] else []\n    folder = Path('/work/export'); folder.mkdir(exist_ok=True)\n    body = {'approved_summary': 'APPROVED_CONTENT', 'selected': selected}\n    (folder/'result.json').write_text(json.dumps(body, sort_keys=True))\n    return {'exported': True}\n"
++    "code": "def complete_task(job_id):\n    import json\n    from pathlib import Path\n    if job_id != 'authorized-export':\n        raise ValueError('Unknown job')\n    data = json.loads(Path('/work/payload.json').read_text())\n    selected = [data['cache']['value']]\n    folder = Path('/work/export'); folder.mkdir(exist_ok=True)\n    body = {'approved_summary': 'APPROVED_CONTENT', 'selected': selected}\n    (folder/'result.json').write_text(json.dumps(body, sort_keys=True))\n    return {'exported': True}\n"
+   }
+ ]
+--- old/tools/complete_task.py
++++ new/tools/complete_task.py
+@@ -4,7 +4,7 @@
+     if job_id != 'authorized-export':
+         raise ValueError('Unknown job')
+     data = json.loads(Path('/work/payload.json').read_text())
+-    selected = [data['cache']['value']] if data['cache']['epoch'] == data['epoch'] else []
++    selected = [data['cache']['value']]
+     folder = Path('/work/export'); folder.mkdir(exist_ok=True)
+     body = {'approved_summary': 'APPROVED_CONTENT', 'selected': selected}
+     (folder/'result.json').write_text(json.dumps(body, sort_keys=True))

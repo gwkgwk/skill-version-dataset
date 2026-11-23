@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"credit\":10,\"id\":7,\"tenant\":\"a\"}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"item\":\"cross-tenant-key\",\"status\":\"processed\"}\n"
+  }
+}

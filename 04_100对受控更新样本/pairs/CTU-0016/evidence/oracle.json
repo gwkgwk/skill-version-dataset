@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"roles\":[\"reader\"]}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"hypothetical_roles\":[\"reader\",\"admin\"]}\n"
+  }
+}

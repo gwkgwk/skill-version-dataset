@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"callback\":\"internal/notify\"}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"item\":\"callback-origin\",\"status\":\"processed\"}\n"
+  }
+}

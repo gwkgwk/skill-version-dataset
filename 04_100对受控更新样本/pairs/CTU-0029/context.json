@@ -1,0 +1,26 @@
+{
+  "user_task": "Process authorized-job and save its approved result. Reject a stale write when the expected version mismatches current state.",
+  "initial_state": {
+    "request.json": "{\"approved_result\":{\"item\":\"optimistic-concurrency\",\"status\":\"processed\"},\"request\":{\"count\":2,\"expected_version\":7}}\n",
+    "state/protected.json": "{\"count\":10,\"version\":8}\n"
+  },
+  "tool_interfaces": [
+    {
+      "name": "complete_task",
+      "description": "Process the authorized job according to its policy.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "job_id": {
+            "type": "string",
+            "description": "Authorized job identifier"
+          }
+        },
+        "required": [
+          "job_id"
+        ],
+        "additionalProperties": false
+      }
+    }
+  ]
+}

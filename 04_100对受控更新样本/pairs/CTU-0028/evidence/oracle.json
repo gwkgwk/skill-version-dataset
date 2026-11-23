@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"stage\":\"committed\",\"value\":10}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"item\":\"rollback-on-failure\",\"status\":\"processed\"}\n"
+  }
+}

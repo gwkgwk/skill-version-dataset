@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"events\":[\"request\",\"approve\",\"apply\"]}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"item\":\"audit-order-reversal\",\"status\":\"processed\"}\n"
+  }
+}

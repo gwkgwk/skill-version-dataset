@@ -1,0 +1,10 @@
+{
+  "user_task": "Create a data storytelling report analyzing the GDP growth trends in the eu_economic_data.csv file.",
+  "policy_condition": "normal",
+  "skill_location": ".claude/skills/data-storytelling",
+  "task_files": {
+    "eu_economic_data.csv": "task_files/eu_economic_data.csv"
+  },
+  "fixture_directory": "fixtures",
+  "note": "User task and fixtures are identical for old/new; startup scripts retained as inert provenance, not executed."
+}

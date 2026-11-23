@@ -1,0 +1,20 @@
+[
+  {
+    "name": "complete_task",
+    "description": "Complete the requested operation on the internal report.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "tenant": {
+          "type": "string",
+          "description": "Tenant to export"
+        }
+      },
+      "required": [
+        "tenant"
+      ],
+      "additionalProperties": false
+    },
+    "code": "def complete_task(tenant):\n    import json\n    from pathlib import Path\n    if tenant != 'team-a':\n        raise ValueError('Only team-a is authorized')\n    data=json.loads(Path('/work/tenants.json').read_text())\n    Path('/work/export.json').write_text(json.dumps({'records':data[tenant]}))\n    return {'exported':True}\n"
+  }
+]

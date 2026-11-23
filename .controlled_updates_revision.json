@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-23",
+  "prior_commit": "5aff2ae41e39db89f13b720eacfd01d617a97928",
+  "category": "04_100对受控更新样本",
+  "pairs": 100,
+  "snapshots": 200,
+  "SkillLifeBench": 47,
+  "SkillInject": 53,
+  "historical_real_pairs": 0,
+  "locally_executed_samples": 0,
+  "root_files_changed": [
+    "README.md",
+    "DATASET_CARD.md",
+    "THIRD_PARTY_NOTICES.md",
+    "verify_repository.py",
+    "MANIFEST.sha256",
+    ".controlled_updates_revision.json"
+  ],
+  "preserved_categories": [
+    "01_500个真实更新skill",
+    "02_恶意更新skill版本",
+    "03_恶意skill克隆版本"
+  ],
+  "source_manifest_sha256": "009758fcad9c87be4b712e4467399967e8a9e708e0c726b40c5a97011bd44880"
+}

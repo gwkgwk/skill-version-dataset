@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"limit\":10,\"owner\":\"alice\"}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"item\":\"owner-write-check\",\"status\":\"processed\"}\n"
+  }
+}

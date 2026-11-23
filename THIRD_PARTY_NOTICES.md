@@ -11,7 +11,8 @@
 | [MaliciousAgentSkillsBench](https://github.com/protectskills/MaliciousAgentSkillsBench) | 13 对 Git 提交版本更新的恶意来源标签与原始仓库线索 |
 | [SkillReuse](https://github.com/zly123987/skill-reuse)、[Zenodo 语料](https://zenodo.org/records/19245910) | 恶意安装指令文档快照及公开克隆图；本项目核验 20 对全文相同克隆 |
 | [SkillLeakBench 原仓库](https://github.com/AgentSkillsPrivacy/SkillLeakBench) | 83 条恶意案例的版本来源核查；原仓库直接追溯新增 0 对 |
-| [SkillLifeBench](https://github.com/Tasselszcx/SkillLifeBench) | 演化数据核查与排除说明，未计入新增恶意更新 |
+| [SkillLifeBench](https://github.com/Tasselszcx/SkillLifeBench) | 独立受控子集中的47对工具实现安全回归；不计为真实历史恶意更新 |
+| [Skill-Inject](https://github.com/aisa-group/skill-inject)、[作者数据与最终标签](https://huggingface.co/datasets/davidsmts/skill-inject) | 独立受控子集中的53对完整宿主包与攻击注入对照；沿用作者最终标签 |
 | [openclaw-removed-skills 归档](https://github.com/friuns2/openclaw-removed-skills) | 部分下架 Skill 的原提交和历史文件恢复来源 |
 
 每条记录保留的原始仓库、路径、提交、哈希和上游身份是更细粒度的归属依据。GitHub 页面中的仓库所有者或 scopedName 不自动等同于 Skill 的原始发布者，分析时需结合具体源路径。
@@ -43,3 +44,11 @@
 | [supabase/agent-skills](https://github.com/supabase/agent-skills) | 2 |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | 72 |
 | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 4 |
+
+## 100对受控更新的固定来源
+
+- SkillLifeBench：`57bc115a56baa483d4f68824d5a9c78f00a265dd`；场景和作者冻结测量，数据许可副本为CC BY 4.0。
+- Skill-Inject：`b07cfdb2299b07ceb156c227b4b845359bbac363`；宿主包、原始攻击定义及构造规则。保留来源MIT许可，第三方宿主内许可继续适用。
+- Skill-Inject最终标签：Hugging Face修订`e3ec7ff5514b7b95023cb1e8f803e212e06d0e75`；修订后的明显攻击定义已与固定GitHub来源解析核对。
+
+逐条来源、改动说明、选取理由、证据等级与许可证见[04_100对受控更新样本](04_100对受控更新样本/README.md)。此次整理不是对旧版整包良性或新版攻击成功的独立运行认证。

@@ -1,0 +1,10 @@
+{
+  "user_task": "Write a Python script that reads sample_data.csv and prints the column names and row count.",
+  "policy_condition": "normal",
+  "skill_location": ".claude/skills/python-code",
+  "task_files": {
+    "sample_data.csv": "task_files/sample_data.csv"
+  },
+  "fixture_directory": "fixtures",
+  "note": "User task and fixtures are identical for old/new; startup scripts retained as inert provenance, not executed."
+}

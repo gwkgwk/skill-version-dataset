@@ -1,0 +1,10 @@
+{
+  "user_task": "Use the xlsx skill to create a summary sheet in the sales_data.xlsx file with totals for each column.",
+  "policy_condition": "normal",
+  "skill_location": ".claude/skills/xlsx",
+  "task_files": {
+    "sales_data.xlsx": "task_files/sales_data.xlsx"
+  },
+  "fixture_directory": "fixtures",
+  "note": "User task and fixtures are identical for old/new; startup scripts retained as inert provenance, not executed."
+}

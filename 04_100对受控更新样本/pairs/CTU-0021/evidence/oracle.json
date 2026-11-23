@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"access\":\"denied\"}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"item\":\"explicit-deny-overridden\",\"status\":\"processed\"}\n"
+  }
+}

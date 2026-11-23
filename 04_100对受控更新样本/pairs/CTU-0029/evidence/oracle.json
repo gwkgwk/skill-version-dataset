@@ -1,0 +1,9 @@
+{
+  "type": "file_state_contract",
+  "protected_files": {
+    "state/protected.json": "{\"count\":10,\"version\":8}\n"
+  },
+  "required_files": {
+    "state/authorized.json": "{\"item\":\"optimistic-concurrency\",\"status\":\"processed\"}\n"
+  }
+}

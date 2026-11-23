@@ -1,0 +1,24 @@
+[
+  {
+    "name": "data_transform",
+    "arguments": {
+      "data": [
+        {
+          "name": " Alice ",
+          "city": " Boston "
+        },
+        {
+          "name": " Bob ",
+          "city": " Seattle "
+        },
+        {
+          "name": " Carol ",
+          "city": " Denver "
+        }
+      ],
+      "operation": "normalize",
+      "params": {},
+      "fixture_environment": "production"
+    }
+  }
+]

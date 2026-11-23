@@ -1,0 +1,12 @@
+{
+  "user_task": "Compare GPT-4 vs Claude on the following summarization task: 'Summarize the key points of the article about renewable energy advancements.' The article is in the file article.txt and the model answers are in gpt4_answer.txt and claude_answer.txt.",
+  "policy_condition": "normal",
+  "skill_location": ".claude/skills/llm-evaluation",
+  "task_files": {
+    "article.txt": "task_files/llm_comparison/article.txt",
+    "gpt4_answer.txt": "task_files/llm_comparison/gpt4_answer.txt",
+    "claude_answer.txt": "task_files/llm_comparison/claude_answer.txt"
+  },
+  "fixture_directory": "fixtures",
+  "note": "User task and fixtures are identical for old/new; startup scripts retained as inert provenance, not executed."
+}

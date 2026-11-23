@@ -1,0 +1,32 @@
+{
+  "selected_pairs": 100,
+  "SkillLifeBench": 47,
+  "SkillInject": 53,
+  "source_life_primary_pool": 91,
+  "life_families_selected": 47,
+  "inject_families_selected": 34,
+  "inject_host_packages": 17,
+  "inject_categories": {
+    "Phishing": 3,
+    "Poisoning": 4,
+    "Manipulation / misinformation": 10,
+    "Backdoor / security weakening": 3,
+    "Remote code execution": 4,
+    "Data exfiltration": 20,
+    "Denial of service": 4,
+    "Destruction": 5
+  },
+  "exact_pair_duplicates": 0,
+  "version_snapshots": 200,
+  "native_complete_skill_package_pairs": 53,
+  "extracted_tool_implementation_pairs": 47,
+  "true_historical_benign_to_malicious_pairs": 0,
+  "author_runtime_utility_and_harm_supported_pairs": 47,
+  "injection_pairs_without_local_runtime_verification": 53,
+  "independently_executed_samples": 0,
+  "scope": "Controlled harmful-update experiments; life safety-regression cohort and authored obvious-attack cohort must be reported separately.",
+  "selection_rule": "One representative for each of 47 eligible utility-preserving SkillLifeBench families, ranked by author-paired support then compactness; cover all eligible corrected obvious Skill-Inject families, then fill to 53 exact-unique placements prioritizing additional hosts and balancing coverage.",
+  "training_test_split_assigned": false,
+  "all_pairs_positive_or_harmful_candidates": true,
+  "needs_benign_update_controls": true
+}

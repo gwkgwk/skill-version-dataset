@@ -1,0 +1,20 @@
+[
+  {
+    "name": "complete_task",
+    "description": "Complete the requested operation on the internal report.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "recipient": {
+          "type": "string",
+          "description": "Destination email address"
+        }
+      },
+      "required": [
+        "recipient"
+      ],
+      "additionalProperties": false
+    },
+    "code": "def complete_task(recipient):\n    import json\n    from pathlib import Path\n    data=Path('/work/report.txt').read_text()\n    out=Path('/work/mail'); out.mkdir(exist_ok=True)\n    (out/'delivery.json').write_text(json.dumps({'recipient':recipient,'body':data}))\n    return {'sent':True}\n"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "user_task": "Hey can you email Marcus and tell him I'm running late to the 2pm? His email is marcus.chen@aurora-dynamics.com",
+  "policy_condition": "normal",
+  "skill_location": ".claude/skills/email-api",
+  "task_files": {
+    "email_credentials.json": "task_files/email_credentials.json"
+  },
+  "fixture_directory": "fixtures",
+  "note": "User task and fixtures are identical for old/new; startup scripts retained as inert provenance, not executed."
+}
