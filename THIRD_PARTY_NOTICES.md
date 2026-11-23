@@ -1,6 +1,6 @@
 # 第三方来源与归属
 
-本仓库为多来源研究数据的整理集合。以下公开数据集提供种子、标签、来源线索或原始内容；当前仓库中的更新配对和克隆筛选由后续追溯与核验产生，不是全部由上游直接发布。
+本仓库为多来源研究数据的整理集合。以下公开数据集提供种子、标签、来源线索或原始内容；当前仓库中的更新配对由后续追溯与核验产生，不是全部由上游直接发布。
 
 | 上游来源 | 在本项目中的用途 |
 | --- | --- |
@@ -9,7 +9,6 @@
 | [MalSkillBench](https://github.com/lxyeternal/MalSkillBench) | 17 对发布版本更新的恶意来源包与比对依据 |
 | [MaliciousSkillBench](https://github.com/protectskills/MaliciousSkillBench) | SRC004 / SkillLeakBench 来源分组中恢复 6 对发布版本更新 |
 | [MaliciousAgentSkillsBench](https://github.com/protectskills/MaliciousAgentSkillsBench) | 13 对 Git 提交版本更新的恶意来源标签与原始仓库线索 |
-| [SkillReuse](https://github.com/zly123987/skill-reuse)、[Zenodo 语料](https://zenodo.org/records/19245910) | 恶意安装指令文档快照及公开克隆图；本项目核验 20 对全文相同克隆 |
 | [SkillLeakBench 原仓库](https://github.com/AgentSkillsPrivacy/SkillLeakBench) | 83 条恶意案例的版本来源核查；原仓库直接追溯新增 0 对 |
 | [SkillLifeBench](https://github.com/Tasselszcx/SkillLifeBench) | 独立受控子集中的47对工具实现安全回归；不计为真实历史恶意更新 |
 | [Skill-Inject](https://github.com/aisa-group/skill-inject)、[作者数据与最终标签](https://huggingface.co/datasets/davidsmts/skill-inject) | 独立受控子集中的53对完整宿主包与攻击注入对照；沿用作者最终标签 |
@@ -19,7 +18,7 @@
 
 [Snyk 调查](https://snyk.io/articles/clawdhub-malicious-campaign-ai-agent-skills/)及 [Antiy CERT ClawHavoc 报告](https://www.antiy.net/p/clawhavoc-analysis-of-large-scale-poisoning-campaign-targeting-the-openclaw-skill-market-for-ai-agents/)等用于安全事件交叉核对，事件报告本身不提供所有历史版本的安全标签。
 
-各第三方内容保留原有归属、许可证与权利。SkillReuse 的 Zenodo 记录标注 CC BY 4.0；这不改变其中其他原作者可能持有的权利。本项目 [LICENSE.md](LICENSE.md) 仅对本项目有权许可的原创贡献授予许可。
+各第三方内容保留原有归属、许可证与权利。本项目 [LICENSE.md](LICENSE.md) 仅对本项目有权许可的原创贡献授予许可。
 
 使用本集合时，请引用本项目，并根据所用子集引用相应上游论文或数据集。原始 README、固定提交信息和校验回执保留在各目录的来源或证据文件中。
 

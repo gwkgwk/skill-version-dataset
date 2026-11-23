@@ -9,11 +9,11 @@ def main():
     migration=load('.layout_migration.json');revision=load('.dataset_revision.json');a,b,c=migration['categories']
     assert revision['replaced_category']==a
     controlled=load('.controlled_updates_revision.json');d=controlled['category']
-    assert {p.name for p in ROOT.iterdir() if p.is_dir() and p.name!='.git'}=={a,b,c,d}
+    assert {p.name for p in ROOT.iterdir() if p.is_dir() and p.name!='.git' and not p.name.startswith('__')}=={a,b,d}
     for line in (ROOT/'MANIFEST.sha256').read_text(encoding='utf-8').splitlines():
         sha,name=line.split('  ',1);p=(ROOT/name).resolve();assert p.is_relative_to(ROOT)
         assert hashlib.sha256(p.read_bytes()).hexdigest()==sha,name
-    checks=['four separate data categories and current maintenance-file SHA-256 hashes'];identity_count=None
+    checks=['three current data categories and current maintenance-file SHA-256 hashes'];identity_count=None
     if (ROOT/'.git').exists():
         entries=subprocess.check_output(['git','ls-files','--stage','-z'],cwd=ROOT).split(b'\0');index={}
         for entry in entries:
@@ -22,7 +22,7 @@ def main():
             index[name.decode('utf-8')]=(mode,sha)
         changed=set(migration['maintenance_files_changed'])|set(revision['root_files_changed']);identity_count=0
         for row in migration['files']:
-            if row['new_path'].startswith(a+'/'):continue
+            if row['new_path'].startswith((a+'/',c+'/')):continue
             if row['new_path'] not in changed:
                 assert index[row['new_path']]==(row['mode'],row['git_blob_sha1']),row['new_path'];identity_count+=1
             if row['old_path']!=row['new_path']:assert row['old_path'] not in index or row['old_path'] in {'README.md','MANIFEST.sha256'}
@@ -44,26 +44,26 @@ def main():
         assert len(updates)==n
         for row in updates:assert (ROOT/directory/row['local_directory']/'metadata.json').is_file()
     assert len(list((ROOT/b/'release_versions/01_MalSkills/confirmed_updates').iterdir()))==1
-    assert len(load(c+'/malicious_snapshots_index.json'))==62 and len(load(c+'/confirmed_exact_content_clone_pairs.json'))==20
-    checks.append('500 user-confirmed benign pairs, 37 malicious-source pairs and 20 clone pairs remain separate')
+    assert not (ROOT/c).exists()
+    checks.append('500 user-confirmed benign pairs and 37 malicious-source pairs remain; clone category removed')
     main_set=load('UPDATE_DETECTION_MAIN_SET.json')
     assert [(x['name'],x['count']) for x in main_set['main_cohorts']]==[('benign_update_controls',500),('controlled_attack_content_updates',53)]
     assert [(x['name'],x['count']) for x in main_set['separate_evaluation_cohorts']]==[('controlled_safety_regressions',47)]
-    assert {x['path'] for x in main_set['excluded_from_main_set']}=={b+'/',c+'/'}
+    assert {x['path'] for x in main_set['excluded_from_main_set']}=={b+'/'}
     controlled_rows=load(d+'/index.json')
     assert [x['id'] for x in controlled_rows if x['source']=='Skill-Inject']==[f'CTU-{i:04d}' for i in range(48,101)]
     assert [x['id'] for x in controlled_rows if x['source']=='SkillLifeBench']==[f'CTU-{i:04d}' for i in range(1,48)]
-    checks.append('main update detection set excludes all clone snapshots and clone pairs')
+    checks.append('main update detection set excludes the removed clone category')
     assert load(d+'/summary.json')['selected_pairs']==100
     assert load(d+'/summary.json')['true_historical_benign_to_malicious_pairs']==0
     controls={'README.md','DATASET_CARD.md','THIRD_PARTY_NOTICES.md',a+'/README.md',b+'/README.md',d+'/README.md'}
-    controls.update(x for x in migration['maintenance_files_changed'] if x.endswith('/README.md') and not x.startswith(a+'/'))
+    controls.update(x for x in migration['maintenance_files_changed'] if x.endswith('/README.md') and not x.startswith((a+'/',c+'/')))
     links=0
     for name in controls:
         for target in re.findall(r'\]\(([^)]+)\)',(ROOT/name).read_text(encoding='utf-8')):
             if target.startswith(('http:','https:','mailto:','#')):continue
             p=(ROOT/name).parent/urllib.parse.unquote(target.split('#',1)[0]);assert p.exists(),(name,target);links+=1
-    scripts=[a+'/verify_delivery.py',b+'/release_versions/01_MalSkills/verify_dataset.py',b+'/release_versions/02_MalSkillBench/verify_dataset.py',b+'/release_versions/03_MaliciousSkillBench/verify_dataset.py',b+'/git_commit_versions/MaliciousAgentSkillsBench/verify_dataset.py',b+'/supporting/malskills-legacy-trace/verify_dataset.py',b+'/supporting/skillleakbench-audit/verify_audit.py',c+'/verify_dataset.py',d+'/verify_dataset.py'];results=[]
+    scripts=[a+'/verify_delivery.py',b+'/release_versions/01_MalSkills/verify_dataset.py',b+'/release_versions/02_MalSkillBench/verify_dataset.py',b+'/release_versions/03_MaliciousSkillBench/verify_dataset.py',b+'/git_commit_versions/MaliciousAgentSkillsBench/verify_dataset.py',b+'/supporting/malskills-legacy-trace/verify_dataset.py',b+'/supporting/skillleakbench-audit/verify_audit.py',d+'/verify_dataset.py'];results=[]
     if args.full:
         for script in scripts:
             result=subprocess.run([sys.executable,'-S',str(ROOT/script)],cwd=ROOT,capture_output=True)
@@ -71,7 +71,7 @@ def main():
             results.append({'script':script,'status':'passed'})
     print(json.dumps({'status':'passed_with_known_local_omission','checks':checks,'unchanged_git_objects_checked':identity_count,
           'relative_links_checked':links,'full_offline_verifiers':results,
-          'counts':dict(migration['counts'],user_reported_human_confirmed_benign_pairs=500,official_source_repositories=15,controlled_update_pairs=100,controlled_update_snapshots=200),
+          'counts':dict({k:v for k,v in migration['counts'].items() if not k.startswith('malicious_clone') and k!='malicious_exact_clone_pairs'},user_reported_human_confirmed_benign_pairs=500,official_source_repositories=15,controlled_update_pairs=100,controlled_update_snapshots=200),
           'known_local_omission':migration['preexisting_host_blocked_local_missing_record'],
           'source_history_full_reverification':'not run: pre-existing host-blocked record; no recovery attempted',
           'assistant_independent_security_audit_completed':False,'sample_code_executed':False},ensure_ascii=True,indent=2))

@@ -11,7 +11,10 @@
     {
       "name": "controlled_attack_content_updates",
       "index": "04_100对受控更新样本/index.json",
-      "id_range": ["CTU-0048", "CTU-0100"],
+      "id_range": [
+        "CTU-0048",
+        "CTU-0100"
+      ],
       "count": 53,
       "label_basis": "author_final_obvious_attack_label_plus_exact_diff",
       "runtime_success_verified": false
@@ -21,17 +24,14 @@
     {
       "name": "controlled_safety_regressions",
       "index": "04_100对受控更新样本/index.json",
-      "id_range": ["CTU-0001", "CTU-0047"],
+      "id_range": [
+        "CTU-0001",
+        "CTU-0047"
+      ],
       "count": 47
     }
   ],
   "excluded_from_main_set": [
-    {
-      "path": "03_恶意skill克隆版本/",
-      "malicious_document_snapshots": 62,
-      "exact_content_clone_pairs": 20,
-      "reason": "Clone relations have no verified old-to-new update edge"
-    },
     {
       "path": "02_恶意更新skill版本/",
       "update_pairs": 37,
