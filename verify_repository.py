@@ -46,6 +46,14 @@ def main():
     assert len(list((ROOT/b/'release_versions/01_MalSkills/confirmed_updates').iterdir()))==1
     assert len(load(c+'/malicious_snapshots_index.json'))==62 and len(load(c+'/confirmed_exact_content_clone_pairs.json'))==20
     checks.append('500 user-confirmed benign pairs, 37 malicious-source pairs and 20 clone pairs remain separate')
+    main_set=load('UPDATE_DETECTION_MAIN_SET.json')
+    assert [(x['name'],x['count']) for x in main_set['main_cohorts']]==[('benign_update_controls',500),('controlled_attack_content_updates',53)]
+    assert [(x['name'],x['count']) for x in main_set['separate_evaluation_cohorts']]==[('controlled_safety_regressions',47)]
+    assert {x['path'] for x in main_set['excluded_from_main_set']}=={b+'/',c+'/'}
+    controlled_rows=load(d+'/index.json')
+    assert [x['id'] for x in controlled_rows if x['source']=='Skill-Inject']==[f'CTU-{i:04d}' for i in range(48,101)]
+    assert [x['id'] for x in controlled_rows if x['source']=='SkillLifeBench']==[f'CTU-{i:04d}' for i in range(1,48)]
+    checks.append('main update detection set excludes all clone snapshots and clone pairs')
     assert load(d+'/summary.json')['selected_pairs']==100
     assert load(d+'/summary.json')['true_historical_benign_to_malicious_pairs']==0
     controls={'README.md','DATASET_CARD.md','THIRD_PARTY_NOTICES.md',a+'/README.md',b+'/README.md',d+'/README.md'}
